@@ -1,0 +1,56 @@
+---
+title: Velar fricatives
+author: George Moroz
+date: 'Last update: November 2021'
+bibliography: ./data/orig_bib/velar_fricatives.bib
+csl: ./data/apa.csl
+link-citations: true
+output:
+  html_document:
+    number_sections: true
+    anchor_sections: true
+    pandoc_args: --shift-heading-level-by=-1
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, comment = '')
+library(lingglosses)
+```
+
+See [data and maps](22_velar_fricatives_map.html).
+
+```{r}
+library(RefManageR)
+BibOptions(check.entries = FALSE, style = 'text', bib.style = 'authoryear')
+article_citation <- BibEntry(bibtype = 'Incollection', 
+ key='moroz2021',
+ title='Velar fricatives',
+ author='George Moroz',
+ year='2021',
+ editor= 'Daniel, Michael  and Filatov, Konstantin and Moroz, George and Mukhin, Timofey and Naccarato, Chiara and Verhees, Samira',
+ publisher='Linguistic Convergence Laboratory, NRU HSE',
+ address='Moscow',
+ booktitle= 'Typological Atlas of the Languages of Daghestan (TALD)',
+ url='http://lingconlab.ru/dagatlas')
+```
+
+## {.tabset .tabset-fade .tabset-pills -} 
+
+### Plain text {-}
+```{r, results = 'asis'}
+print(article_citation, .opts = list(style = 'text'))
+```
+
+### BibTeX {-}
+
+```{r}
+print(article_citation, .opts = list(style = 'Bibtex'))
+```
+
+```{r, child='data/orig_rmd/velar_fricatives.Rmd'}
+```
+
+```{r, results='asis'}
+
+```
+

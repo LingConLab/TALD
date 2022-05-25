@@ -1,0 +1,103 @@
+---
+title: "Evidentiality"
+author: "Samira Verhees"
+bibliography: "data/orig_bib/evidentiality.bib"
+csl: ./data/apa.csl
+link-citations: true
+output:
+  html_document:
+    number_sections: true
+    anchor_sections: true
+    pandoc_args: --shift-heading-level-by=-1
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, comment = '')
+library(lingglosses)
+```
+
+Daghestan is part of a large area where relatively simple systems of evidentiality marking are common. This area, sometimes referred to as the “Evidential Belt” ,[^1] stretches across the Eurasian continent and encompasses many genealogically and typologically distant languages (see Plungian [-@plungian2010: 19-21] for a concise overview). Typical of this area is the marking of events not directly witnessed by the speaker (indirect evidentiality).
+
+[^1]: I have not been able to trace the origin of the term Evidential Belt. It appears in many papers and chapters, but as a rule without reference to another source.
+
+(@one)	Avar	[@uslar1889: 29]
+
+```{r}
+library(lingglosses)
+gloss_example("dosul j-ik'-ara-j=ila č'užu",
+              "DEM.GEN F-be-PST.PTCP-F=REP wife",
+              "He had a wife.",
+              comment = "(the speaker heard this from someone)")
+```
+
+Typologies of evidentiality typically divide the semantic domain into direct vs. indirect access to information about an event.[^2] These macro-categories branch out into more specific meanings such as “hearsay” or “inference from results”. Figure 1 displays functions for which a special marker is attested in the eastern Caucasus in bold. Category labels are indicated between brackets. The status of direct evidential marking in East Caucasian is disputed (see chapter [Evidentiality in the tense system](evidentiality_tense.html)).
+
+[^2]: As discussed in [@verhees2019a], these two categories form a cline of directness, rather than a strict binary opposition.
+
+
+Figure 1. The semantic domain of evidentiality
+
+|         	|   	|                          	|   	|            	|
+|----------	|---	|--------------------------	|---	|------------	|
+| <i>direct</i>   	| → 	| active participation (participatory)     	|   	|            	|
+|          	| → 	| visual                   	|   	|            	|
+|          	| → 	| non-visual sensory       	| → 	| auditory   	|
+| <b>indirect</b> 	| → 	| <b>inference from results</b> (inferential)   	|   	|            	|
+|          	| → 	| <b>inference from reasoning</b> (presumptive)	|   	|            	|
+|          	| → 	| <b>hearsay</b> (reportative)                  	| → 	| secondhand 	|
+|          	|   	|                          	| → 	| thirdhand  	|
+|          	|   	|                          	| → 	| folklore   	|
+
+
+## Related semantic notions
+
+In this general chapter and the chapters on particular features I assume a narrow definition of evidentiality as a category marking the speaker’s access to information about an event. Some authors apply the notion more broadly to include any type of marking that refers to the speaker’s knowledge and their attitude towards that knowledge (e.g. Chafe & Nichols [-@chafenichols1986]). Cross-linguistically evidentiality tends to co-occur with other knowledge-categories. Indirect evidential tenses, for example, may have an additional mirative function (indicating that the information is new to the speaker and / or hearer), or evidential marking may form a single paradigm with egophoric markers (which mark personal knowledge or experience). 
+
+Nonetheless, evidentiality and the categories it intertwines with constitute distinct functional domains. The focus of the chapters in [TALD](http://lingconlab.ru/dagatlas/) is access to information. Other knowledge categories are discussed only in so far as they have a direct relationship to an evidential marker. See Forker’s [-@forker2018a] detailed overview of evidentiality in East Caucasian for a more inclusive approach.
+
+## Evidentiality in East Caucasian
+
+The East Caucasian languages feature specialized markers (for hearsay and more rarely inference) as well as general indirect forms. General forms are compatible with interpretations of hearsay and inference (@two), but the form itself is essentially unspecified. Depending on the context, the utterance in (@two) with the Bagvalal Perfect can indicate that the speaker knows that Ali did not come home because someone told them, or because they witnessed a tangible result of this situation (for example, Ali’s bed was not slept in).
+
+(@two) Bagvalal	[@tatevosov2007: 362]
+
+```{r}
+gloss_example("ˁali w-aː-w-o weč'e",
+              "Ali M-come-M-PFV.CVB NEG.COP",
+              "Ali (as I was told) did not come (home yet). [hearsay]",
+              comment = "'Ali (I see) did not come (home to sleep). [inferential]'")
+```
+
+
+Inference based on reasoning instead of tangible results may or may not be part of a general indirect form’s meaning.
+
+Three main types of forms are attested in the eastern Caucasus:
+
+- Tense forms
+- Particles
+- Auxiliaries
+
+All of these types show varying degrees of grammaticalization in individual languages. At least in the verbal paradigm, evidentiality is considered a relatively recent innovation in East Caucasian [@authiermaisak2011: ix]. In the only language for which we have historical records (Caucasian Albanian) it is not attested. The presence of indirect evidentiality within the verbal system shows a peculiar areal distribution: while the feature is generally common in the family, it is notably absent in a number of languages spoken in the southern part of the eastern Caucasus. It is possible that both the presence and the absence of the feature result from Turkic contact influence, but there are several important caveats to this hypothesis, which are discussed in more detail in the chapter [Evidentiality in the tense system](evidentiality_tense.html).
+
+The data on particles show no clear areal signal, though this could be the result of a descriptive gap, see [Reported speech particles](particles.html) for more detail.
+
+Only one East Caucasian language (Kryz of the Lezgic branch) copied an evidential morpheme from Azerbaijani (discussed in the chapter [Reported speech particles](particles.html)). 
+
+As pointed out by Daniel & Maisak [-@danielmaisak2018: 143--144], the use of the verb ‘find’ as a kind of evidential auxiliary appears to be common among languages that have been in prolonged contact with Avar, such as the Andic and Tsezic languages, but also more distantly related idioms like Archi (Lezgic) and Mehweb (Dargwa).
+  
+  
+## Related features {-}
+
+- [Evidentiality in the tense system](evidentiality_tense.html)
+- [The perfect](perfect.html)
+- [Reported speech paricles](particles.html)
+- [Evidential auxiliaries](:())
+
+## Gloss list {-}
+
+```{r}
+make_gloss_list(readxl::read_xlsx("data/glosses.xlsx"))
+```
+
+## References {-}
+

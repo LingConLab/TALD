@@ -1,0 +1,46 @@
+---
+title: "Changes"
+output:
+  html_document:
+    include:
+      in_header: ./html/header_changes.html
+---
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+#### May 2022
+
+Feature chapters added:
+
+- Evidentiality as part of the tense system
+- Standard of comparison
+- Perfect
+- Particles of reported speech and inference
+- Morning greetings
+- Ordinal numerals
+- Optatives
+- Prohibitive and its relation with the imperative
+- Ejective p
+- Ejective s
+- Gemination
+- Labialization
+- Labials
+- Laterals
+- Long vowels
+- Nasalization
+- Palatalized consonants
+- Pharyngealization
+- Pharyngeals
+- Umlaut vowels
+- Uvular voiced stop
+- Velar fricatives
+- Voiceless obstruents
+- Comitative
+- Attributive and adverbial caritive markers
+
+Major topics added:
+
+- Evidentiality
+- On the phonology of East Caucasian languages

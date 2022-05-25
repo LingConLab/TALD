@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="Chiara Naccarato, Samira Verhees" />
+
+
+<title>Morning greetings</title>
+
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="site_libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="site_libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+<style type="text/css">
+/* for pandoc --citeproc since 2.11 */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="css/styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">TALD</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="./about.html">About</a>
+</li>
+<li>
+  <a href="./features.html">
+    <span class="fa fa-atlas"></span>
+     
+    Features
+  </a>
+</li>
+<li>
+  <a href="./changes.html">Changes</a>
+</li>
+<li>
+  <a href="./references.html">References</a>
+</li>
+<li>
+  <a href="./team.html">Team</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Morning greetings</h1>
+<h4 class="author">Chiara Naccarato, Samira Verhees</h4>
+<h4 class="date">Last update: November 2021</h4>
+
+</div>
+
+
+<p>See <a href="05_morning_greetings_map.html">data and maps</a>.</p>
+<div id="section"
+class="section level1 tabset tabset-fade tabset-pills unnumbered">
+<h1 class="tabset tabset-fade tabset-pills unnumbered"></h1>
+<div id="plain-text" class="section level2 unnumbered hasAnchor">
+<h2 class="unnumbered hasAnchor">Plain text<a href="#plain-text"
+class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Naccarato, C. and S. Verhees (2021). “Morning greetings”. In:
+<em>Typological Atlas of the Languages of Daghestan (TALD)</em>. Ed. by
+M. Daniel, K. Filatov, G. Moroz, T. Mukhin, C. Naccarato and S. Verhees.
+Moscow: Linguistic Convergence Laboratory, NRU HSE. <a
+href="http://lingconlab.ru/dagatlas"
+class="uri">http://lingconlab.ru/dagatlas</a>.</p>
+</div>
+<div id="bibtex" class="section level2 unnumbered hasAnchor">
+<h2 class="unnumbered hasAnchor">BibTeX<a href="#bibtex"
+class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<pre><code>@incollection{naccarato2021,
+  title = {Morning greetings},
+  author = {Chiara Naccarato and Samira Verhees},
+  year = {2021},
+  editor = {Michael Daniel and Konstantin Filatov and George Moroz and Timofey Mukhin and Chiara Naccarato and Samira Verhees},
+  publisher = {Linguistic Convergence Laboratory, NRU HSE},
+  address = {Moscow},
+  booktitle = {Typological Atlas of the Languages of Daghestan (TALD)},
+  url = {http://lingconlab.ru/dagatlas},
+}</code></pre>
+</div>
+</div>
+<div id="introduction" class="section level1 hasAnchor" number="1">
+<h1 class="hasAnchor"><span class="header-section-number">1</span>
+Introduction<a href="#introduction" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p>The most common type of morning greeting in the languages of the
+world is constituted by a combination of the concepts “morning” (or
+other close concepts like “day” or “dawn”) and “good”, as “Good morning”
+in English. Less common are greetings including questions about the
+night’s rest, as <em>Oraire ota?</em> ‘How was the night?’ in the Bantu
+language Nkore.</p>
+<p>In the languages of Daghestan both strategies are attested. In this
+chapter we classify the languages of Daghestan according to the strategy
+used to express morning greetings.</p>
+</div>
+<div id="results" class="section level1 hasAnchor" number="2">
+<h1 class="hasAnchor"><span class="header-section-number">2</span>
+Results<a href="#results" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p>The languages of Daghestan can be classified into two groups
+according to whether they feature morning greetings including questions
+about the night’s rest (Section 2.1), or based on the combination of
+concepts like “morning” and “good” (Section 2.2). Within both groups,
+however, some lexical and morphosyntactic variation is observed.</p>
+<div id="did-you-wake-up" class="section level2 hasAnchor" number="2.1">
+<h2 class="hasAnchor"><span class="header-section-number">2.1</span> Did
+you wake up?<a href="#did-you-wake-up" class="anchor-section"
+aria-label="Anchor link to header"></a></h2>
+<p>Greetings including questions about the night’s rest are derived from
+verbs meaning ‘wake up’ or ‘get up’, and in most cases feature a past
+form of the verb.</p>
+<p>In Avar, the morning greeting is expressed with the form
+<em>w-orč’ami</em> (in which the prefix <em>w-</em> is the masculine
+noun class marker; cf. feminine <em>j-orč’ami</em> and human plural
+<em>r-orč’ami</em>). The base verb is <em>b-orč’-ize</em>, which means
+‘wake up’, but also ‘get out, escape’ <span class="citation">(<a
+href="#ref-gimbatov2006" role="doc-biblioref">Gimbatov, 2006</a>:
+275)</span>. According to Gadzhiakhmedov et al. <span
+class="citation">(<a href="#ref-gadzhiaxmedovetal2012"
+role="doc-biblioref">2012</a>: 67)</span>, the form <em>w-orč’ami</em>
+is derived from the interrogative past form <em>w-orč’-a-n=iš</em>
+(<span class="smallcaps">m</span>-wake_up-<span
+class="smallcaps">lv</span>-<span class="smallcaps">pst</span>=<span
+class="smallcaps">q</span>).</p>
+<p>All Andic languages employ local variants to express morning
+greetings. Similarly to Avar, they usually include a past form of the
+verb (but note that Bagvalal and Tukita are based on non-finite forms,
+i.e. a converb and a participle respectively) followed by an
+interrogative particle (except for Tukita). Differently from Avar,
+however, they all feature a base verb meaning ‘get up’ rather than ‘wake
+up’, cf. Botlikh <em>hičː-u=ma</em> (get_up-<span
+class="smallcaps">aor</span>=<span class="smallcaps">q</span>).</p>
+<p>In all Andic languages borrowings from Avar are also used along with
+local variants. In Akhvakh, Bagvalal and Botlikh, the borrowed form is
+inflected for gender as in Avar, whereas in Chamalal, Godoberi and
+Karata the form <em>worč’ami</em> (also <em>warč’ami</em> in Karata) is
+used for both men and women. In some languages, the Avar form seems to
+be used with the more general meaning ‘hello’, independently of the time
+of the day. This is the case for Godoberi <span class="citation">(<a
+href="#ref-saidova2006" role="doc-biblioref">Saidova, 2006</a>:
+98)</span> and Karata (R. Khalidova p.c.). The general impression
+emerging during consultations with native speakers of Andic languages is
+that, at least in some of them, the Avar forms are gaining ground at the
+expense of local variants.</p>
+<p>Similarly to Andic languages, Tsezic languages also employ
+interrogative past forms of verbs meaning ‘wake up’ to express morning
+greetings, cf. Tsez <em>ø-iz-ij=ɛ</em> (<span
+class="smallcaps">m</span>-get_up-<span
+class="smallcaps">pst</span>=<span class="smallcaps">q</span>). The
+question particle is optional in Bezhta, and it is absent in Khwarshi,
+in which the interrogative modality is realized through intonation. All
+available dictionaries of Tsezic languages also report the Avar greeting
+<em>w-orč’ami</em>, which is inflected for gender as in Avar, but is
+usually translated with the more general meaning ‘hello’. During
+consultations with experts of Tsezic languages we got the impression
+that Avar forms in Tsezic languages are used less frequently than in
+Andic languages (Z. Khalilova p.c.).</p>
+<p>Dargwa languages feature constructions that are essentially similar
+to the constructions found in Andic and Tsezic languages. The main
+difference is that the base verbs most commonly have the meaning ‘wake
+up’ rather than ‘get up’, cf. Standard Dargwa <em>w-elħ-un=ri=w</em>
+(<span class="smallcaps">m</span>-wake_up-<span
+class="smallcaps">pret</span>=<span class="smallcaps">2sg</span>=<span
+class="smallcaps">q</span>). Verbs meaning ‘get up’ are found in Kaitag
+(as an alternative to a form derived from the verb ‘wake up’) and in
+Tsudakhar.</p>
+<p>In other groups of the Nakh-Daghestanian family similar constructions
+are found in Lak and Archi (Lezgic). In Lak, the form <em>iwz-ra-w</em>
+(get_up.<span class="smallcaps">m</span>-<span
+class="smallcaps">2sg</span>.<span class="smallcaps">pst</span>-<span
+class="smallcaps">q</span>) is found along with a wish-construction (see
+Section 2.2), but in the dictionary by Khajdakov <span
+class="citation">(<a href="#ref-khajdakov1962"
+role="doc-biblioref">1962</a>: 124)</span> it is translated more
+generally as ‘hello’. In Archi, morning greetings are expressed with a
+formula that differs a little from the constructions discussed above in
+terms of the lexical units employed (1).</p>
+<ol class="example" style="list-style-type: decimal">
+<li>Archi (M. Chumakina, p.c.)
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>nibk’i</em>
+</td>
+<td style="text-align:left;">
+<em>ac’u=ra</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+sleep.<span class="smallcaps">erg</span>
+</td>
+<td style="text-align:left;">
+［<span class="smallcaps">f</span>.<span
+class="smallcaps">sg</span>］fill(<span
+class="smallcaps">pfv</span>)=<span class="smallcaps">q</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Good morning, lit. did the sleep fill (you.f)?’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+</div>
+<div id="good-morning" class="section level2 hasAnchor" number="2.2">
+<h2 class="hasAnchor"><span class="header-section-number">2.2</span>
+Good morning<a href="#good-morning" class="anchor-section"
+aria-label="Anchor link to header"></a></h2>
+<p>Greetings of the type ‘good morning’ can be divided into two
+categories: 1) a combination of the words ‘morning’ and ‘good, benefit’;
+2) a wish-construction (‘may your morning be good’). The first type is
+found in most southern languages, and is usually constructed from words
+of Arabic origin: <em>sabaħ</em> ‘morning’ and <em>xair</em> ‘good,
+benefit’, cf. <em>sabax xajir</em> in Rutul. In Arabic, the full
+greeting would be <em>sabaħ</em> <em>al-xair</em> (morning <span
+class="smallcaps">def</span>-good ‘good morning’ (lit. the morning
+good)). The same greeting is present in Azerbaijani, where it is formed
+with a possessive construction: <em>sabah-ın</em> <em>xeyir</em>
+(morning-<span class="smallcaps">pos</span> good). Lezgian and Tsakhur
+use a construction consisting of an attributive form of a native word
+for ‘morning’ and the Arabic word <em>xair</em>.</p>
+<p>Wish-constructions are limited to a few languages pertaining to
+different areas and genetic groups. Their formal appearance is very
+language-specific: Chechen, Ingush, and Lak employ optatives, in Kumyk
+and Nogai we find third person imperatives, and in Tat the subjunctive
+is used. The wish-constructions are also lexically more diverse than the
+formulas discussed earlier.</p>
+</div>
+</div>
+<div id="distribution" class="section level1 hasAnchor" number="3">
+<h1 class="hasAnchor"><span class="header-section-number">3</span>
+Distribution<a href="#distribution" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p>Strategy A (‘Did you wake up?’) is typical of the area where Avar
+historically functioned as lingua franca. Besides Avar it is found in
+all Andic and Tsezic languages, as well as in Archi, an outlier language
+from the Lezgic branch that was heavily influenced by Avar. In some of
+these languages the phrase is borrowed directly (rather than calqued)
+from Avar. Remarkably, strategy A is not limited to Avar’s traditional
+zone of influence. It is also represented in Lak and a number of Dargwa
+varieties. It remains unclear how this strategy spread across such a
+large area. To our knowledge, there are not many isoglosses connecting
+the Avar zone with Lak and Dargwa. Perhaps it is important to note here
+that direct borrowing of the Avar phrase is not attested in Archi, Lak,
+or Dargwa.</p>
+<p>Strategy B (‘good morning’) subsumes two specific types of
+constructions, only one of which shows a specific distribution: a
+combination of Arabic lexemes meaning ‘morning’ and ‘good’. This
+strategy (B1) is represented in the Lezgic languages spoken in the
+southern part of the area, as well as in Azerbaijani. Originally this
+greeting comes from Arabic. The exact process by which it was borrowed
+into the East Caucasian languages remains unclear (except in the case of
+Khinalug, where the Azerbaijani phrase with the distinct possessive
+suffix was adopted without modification). Mediated borrowing through
+Azerbaijani seems very likely due to the specific areal distribution of
+this formula, but the East Caucasian variants do not show clear traces
+of this. The lexemes appear to be adapted directly from Arabic rather
+than from Azerbaijani, and none of the languages copied the Azerbaijani
+possessive suffix. At the same time, the Arabic definite article is not
+copied either. In Naccarato &amp; Verhees <span class="citation">(<a
+href="#ref-naccaratoverhees2021" role="doc-biblioref">2021</a>)</span>
+we proposed that two independent borrowing processes converged in these
+greetings: while the greeting itself was borrowed from Azerbaijani, the
+lexemes were adapted from Arabic, as evidenced by the variants of
+<em>xair</em>. The word <em>sabaħ</em> is rarely used outside of this
+formula. Further, any morphology that does not have a direct equivalent
+in East Caucasian was lost.</p>
+</div>
+<div id="list-of-glosses" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">List of glosses<a
+href="#list-of-glosses" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p><span class="smallcaps">2sg</span> — second person singular; <span
+class="smallcaps">aor</span> — aorist; <span
+class="smallcaps">def</span> — definite; <span
+class="smallcaps">erg</span> — ergative; <span
+class="smallcaps">f</span> — feminine; <span
+class="smallcaps">lv</span> — linking vowel; <span
+class="smallcaps">m</span> — masculine; <span
+class="smallcaps">pfv</span> — perfective; <span
+class="smallcaps">pos</span> — positive; <span
+class="smallcaps">pret</span> — preterite; <span
+class="smallcaps">pst</span> — past; <span
+class="smallcaps">q</span> — question; <span
+class="smallcaps">sg</span> — singular</p>
+</div>
+<div id="references" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">References<a href="#references"
+class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="refs" class="references csl-bib-body hanging-indent"
+line-spacing="2">
+<div id="ref-gadzhiaxmedovetal2012" class="csl-entry">
+Gadžiaxmedov, N. É., Musaeva, T. M., &amp; Samedov, D. S. (2012). K
+voprosu o privetstvijax v raznyx kommunikativnyx kulʹturax. <em>Vestnik
+Dagestanskogo Gosudarstvennogo Universiteta</em>, <em>3</em>, 66–69.
+</div>
+<div id="ref-gimbatov2006" class="csl-entry">
+Gimbatov, M. M. (2006). <em>Avarsko-russkij slovarʹ</em>. DNC RAN.
+</div>
+<div id="ref-naccaratoverhees2021" class="csl-entry">
+Nakkarato, K., &amp; Ferxees, S. (2021). Dobroe utro, prosnulisʹ?
+<span>U</span>trennie privetstvija v jazykax <span>D</span>agestana. In
+T. A. Majsak, N. R. Sumbatova, &amp; J. G. Testelec (Eds.), <em>Durxʺasi
+xazna. Sbornik statej k 60-letiju r. O. mutalova</em> (pp. 283–298).
+Buki Vedi.
+</div>
+<div id="ref-saidova2006" class="csl-entry">
+Saidova, P. A. (2006). <em>Godoberinsko-russkij slovarʹ</em>. DNC RAN
+Institut jazyka, literatury i iskusstva im. G. Cadasy i Institut
+évoljucionnoj antropologii im. M. Planka.
+</div>
+<div id="ref-khajdakov1962" class="csl-entry">
+Xajdakov, S. M. (1962). <em>Laksko-russkij slovarʹ</em>. Gosudarstvennoe
+izdatelʹstvo inostrannyx i nacionalʹnyx slovarej.
+</div>
+</div>
+</div>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+</head>
+
+<body>
+    <div class="footer-basic">
+        <footer>
+            
+            <div class='lic'><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br /><i>Typological Atlas of the languages of Daghestan </i> (<i>TALD</i>) is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+            <div class="social"><a href="https://github.com/LingConLab/TALD" target="_blank"><span class="iconify" data-icon="octicon:logo-github-16"></span></a></div>
+            </div>
+            
+            <p class="copyright">2020<script>new Date().getFullYear()>2020&&document.write("-"+new Date().getFullYear());</script>,  Linguistic Convergence Laboratory, HSE University</p>
+        </footer>
+    </div>
+    <script type="text/javascript" src="./js/links.js"></script> <!--это чтобы ссылки открывались в новом окне -->
+</body>
+
+</html>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

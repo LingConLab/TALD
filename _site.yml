@@ -1,0 +1,25 @@
+name: "tald"
+output_dir: "docs"
+new_session: yes # resolves problem with same? references
+output:
+  html_document:
+    include:  
+      in_header: ./html/include_head.html
+      after_body: ./html/footer.html
+    theme: lumen   
+    css: ./css/styles.css
+navbar:
+  title: "TALD"
+  type: inverse
+  left:
+    - text: "About"
+      href: ./about.html
+    - text: "Features"
+      icon: fa-atlas
+      href: ./features.html
+    - text: "Changes"
+      href: ./changes.html
+    - text: "References"
+      href: ./references.html
+    - text: "Team"
+      href: ./team.html

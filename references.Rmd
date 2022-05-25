@@ -1,0 +1,45 @@
+---
+title: "References"
+output:
+  html_document:
+    include:
+      in_header: ./html/header_references.html
+---
+
+***
+
+# Grammars, dictionaries and other sources
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE)
+
+library(tidyverse)
+library(DT)
+library(RefManageR)
+bib <- ReadBib(file = "data/bibliography.bib") 
+```
+
+
+```{r}
+readxl::read_xlsx("data/biblib.xlsx", sheet = "source type and idiom")  %>%
+  rowwise() %>% 
+  mutate(source = Cite(bib, bibtexkey),
+         language = factor(language),
+         idiom = factor(idiom),
+         source_type = factor(source_type)) %>% 
+  select(language, idiom, source, source_type) %>% 
+  rename(`source type` = source_type) %>% 
+  DT::datatable(filter = 'top', 
+                escape = FALSE, 
+                rownames = FALSE,
+                options = list(
+                pageLength = 100, 
+                autoWidth = TRUE,
+                dom = 'fltpi'))
+```
+
+## References
+
+```{r, results='asis'}
+PrintBibliography(bib)
+```

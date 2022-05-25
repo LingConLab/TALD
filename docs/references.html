@@ -1,0 +1,1100 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>References</title>
+
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<script src="site_libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
+<link href="site_libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
+<script src="site_libs/datatables-binding-0.22/datatables.js"></script>
+<link href="site_libs/dt-core-1.11.3/css/jquery.dataTables.min.css" rel="stylesheet" />
+<link href="site_libs/dt-core-1.11.3/css/jquery.dataTables.extra.css" rel="stylesheet" />
+<script src="site_libs/dt-core-1.11.3/js/jquery.dataTables.min.js"></script>
+<link href="site_libs/nouislider-7.0.10/jquery.nouislider.min.css" rel="stylesheet" />
+<script src="site_libs/nouislider-7.0.10/jquery.nouislider.min.js"></script>
+<link href="site_libs/selectize-0.12.0/selectize.bootstrap3.css" rel="stylesheet" />
+<script src="site_libs/selectize-0.12.0/selectize.min.js"></script>
+<link href="site_libs/crosstalk-1.2.0/css/crosstalk.min.css" rel="stylesheet" />
+<script src="site_libs/crosstalk-1.2.0/js/crosstalk.min.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+<div class="main-image" style="background-image: url('images/windows2.jpg'); background-position: 0% 65%;">
+	<div class="attrib">
+	</div>
+</div>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="css/styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">TALD</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="./about.html">About</a>
+</li>
+<li>
+  <a href="./features.html">
+    <span class="fa fa-atlas"></span>
+     
+    Features
+  </a>
+</li>
+<li>
+  <a href="./changes.html">Changes</a>
+</li>
+<li>
+  <a href="./references.html">References</a>
+</li>
+<li>
+  <a href="./team.html">Team</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">References</h1>
+
+</div>
+
+
+<hr />
+<div id="grammars-dictionaries-and-other-sources"
+class="section level1">
+<h1>Grammars, dictionaries and other sources</h1>
+<div id="htmlwidget-abdde05e7064a0e1f245" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-abdde05e7064a0e1f245">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td data-type=\"factor\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n    <div style=\"width: 100%; display: none;\">\n      <select multiple=\"multiple\" style=\"width: 100%;\" data-options=\"[&quot;Dargwa&quot;,&quot;Kumyk&quot;,&quot;Lezgian&quot;,&quot;Rutul&quot;,&quot;Andi&quot;,&quot;Avar&quot;,&quot;Udi&quot;,&quot;Tabasaran&quot;,&quot;Botlikh&quot;,&quot;Kryz&quot;,&quot;Tat&quot;,&quot;Tindi&quot;,&quot;Budukh&quot;,&quot;Nogai&quot;,&quot;Georgian&quot;,&quot;Chamalal&quot;,&quot;Tsez&quot;,&quot;Archi&quot;,&quot;Bezhta&quot;,&quot;Akhvakh&quot;,&quot;Bagvalal&quot;,&quot;Tsova-Tush&quot;,&quot;Khinalug&quot;,&quot;Chechen&quot;,&quot;Ingush&quot;,&quot;Khwarshi&quot;,&quot;Hunzib&quot;,&quot;Agul&quot;,&quot;Tsakhur&quot;,&quot;Lak&quot;,&quot;Godoberi&quot;,&quot;Armenian&quot;,&quot;Hinuq&quot;,&quot;Karata&quot;,&quot;Azerbaijani&quot;]\"><\/select>\n    <\/div>\n  <\/td>\n  <td data-type=\"factor\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n    <div style=\"width: 100%; display: none;\">\n      <select multiple=\"multiple\" style=\"width: 100%;\" data-options=\"[&quot;Standard Dargwa&quot;,&quot;Akusha&quot;,&quot;Standard Kumyk&quot;,&quot;Standard Lezgian&quot;,&quot;Luchek&quot;,&quot;Andi&quot;,&quot;Rutul&quot;,&quot;Standard Avar&quot;,&quot;Nizh&quot;,&quot;Standard Tabasaran&quot;,&quot;Botlikh&quot;,&quot;Standard Rutul&quot;,&quot;Alik&quot;,&quot;Judeo-Tat&quot;,&quot;Tindi&quot;,&quot;Budukh&quot;,&quot;Ak-Nogai&quot;,&quot;Kara-Nogai&quot;,&quot;Standard Nogai&quot;,&quot;Ashty&quot;,&quot;Itsari&quot;,&quot;Kaitag&quot;,&quot;Kubachi&quot;,&quot;Shiri&quot;,&quot;Tanty&quot;,&quot;Standard Georgian&quot;,&quot;Gadyri&quot;,&quot;Gigatli&quot;,&quot;Upper Gakvari&quot;,&quot;Kidero&quot;,&quot;Ashali&quot;,&quot;Chanko&quot;,&quot;Gagatli&quot;,&quot;Kwankhidatli&quot;,&quot;Muni&quot;,&quot;Rikvani&quot;,&quot;Zilo&quot;,&quot;Mehweb&quot;,&quot;Archib&quot;,&quot;Tsez&quot;,&quot;Bezhta&quot;,&quot;Tlyadal&quot;,&quot;Khasharkhota&quot;,&quot;Asakh&quot;,&quot;Akakhdere&quot;,&quot;Northern Akhvakh&quot;,&quot;Kvanada&quot;,&quot;Zemo-Alvani&quot;,&quot;Khinalug&quot;,&quot;Standard Chechen&quot;,&quot;Standard Ingush&quot;,&quot;Khwarshi&quot;,&quot;Archi&quot;,&quot;Akhvakh&quot;,&quot;Bagvalal&quot;,&quot;Hunzib&quot;,&quot;Agul&quot;,&quot;Kryz&quot;,&quot;Lezgian&quot;,&quot;Tsakhur&quot;,&quot;Udi&quot;,&quot;Standard Lak&quot;,&quot;Chechen&quot;,&quot;Godoberi&quot;,&quot;Modern Eastern Armenian&quot;,&quot;Inkhoqwari&quot;,&quot;Hinuq&quot;,&quot;Sanzhi&quot;,&quot;Tukita&quot;,&quot;Anchiq&quot;,&quot;Huppuq&#39;&quot;,&quot;Meusisha&quot;,&quot;Muslim Tat&quot;,&quot;Standard Azerbaijani&quot;,&quot;Mukhad&quot;,&quot;Shinaz&quot;,&quot;Myukhrek&quot;,&quot;Borch-Khnov&quot;,&quot;Mishlesh&quot;,&quot;Tsakh&quot;,&quot;Arakul&quot;,&quot;Bartkhi&quot;,&quot;Shadni&quot;,&quot;Ashtikul&quot;,&quot;Vikhlin&quot;,&quot;Vitskhi&quot;,&quot;Kwantlada&quot;,&quot;Chadakolob&quot;,&quot;Gigatl&#39;&quot;,&quot;Tad-Magitl&#39;&quot;,&quot;Khosrekh&quot;,&quot;Dyubek&quot;,&quot;Chirag&quot;,&quot;Gunzib&quot;,&quot;Burshag&quot;,&quot;Khlyut&quot;,&quot;Mikik&quot;,&quot;Genukh&quot;,&quot;Eastern Armenian&quot;,&quot;Karata&quot;,&quot;Lower Gakvari&quot;,&quot;Khushtada&quot;,&quot;Tad-Magitl’&quot;,&quot;Northern Tabasaran&quot;,&quot;Southern Tabasaran&quot;,&quot;Central&quot;,&quot;Burkikhan&quot;,&quot;Tpig&quot;,&quot;Usug&quot;,&quot;Khudig&quot;,&quot;Kurag&quot;,&quot;Tsirkhe&quot;,&quot;Fite&quot;,&quot;Arsug&quot;,&quot;Drushtul&quot;,&quot;Tabasaran&quot;,&quot;Azerbaijani&quot;,&quot;Zaqatala&quot;,&quot;???&quot;,&quot;Vartashen&quot;,&quot;Butri&quot;,&quot;Urakhi&quot;,&quot;Gyuney&quot;,&quot;Khunzakh&quot;,&quot;Sagada&quot;]\"><\/select>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"factor\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n    <div style=\"width: 100%; display: none;\">\n      <select multiple=\"multiple\" style=\"width: 100%;\" data-options=\"[&quot;dictionary&quot;,&quot;grammar&quot;,&quot;other&quot;]\"><\/select>\n    <\/div>\n  <\/td>\n<\/tr>","data":[["Dargwa","Dargwa","Kumyk","Lezgian","Rutul","Andi","Rutul","Avar","Udi","Avar","Tabasaran","Botlikh","Botlikh","Andi","Rutul","Kryz","Kryz","Tat","Tindi","Budukh","Botlikh","Botlikh","Tabasaran","Nogai","Nogai","Nogai","Nogai","Dargwa","Dargwa","Dargwa","Dargwa","Dargwa","Dargwa","Dargwa","Georgian","Chamalal","Chamalal","Chamalal","Avar","Tsez","Andi","Andi","Andi","Andi","Andi","Andi","Andi","Andi","Dargwa","Archi","Archi","Archi","Archi","Tsez","Bezhta","Bezhta","Bezhta","Tsez","Tsez","Akhvakh","Akhvakh","Akhvakh","Akhvakh","Akhvakh","Akhvakh","Bagvalal","Archi","Dargwa","Bagvalal","Tsova-Tush","Khinalug","Chechen","Ingush","Tsova-Tush","Chechen","Ingush","Tsova-Tush","Andi","Kumyk","Khwarshi","Kumyk","Archi","Akhvakh","Bagvalal","Bezhta","Hunzib","Agul","Kryz","Lezgian","Rutul","Tsakhur","Udi","Dargwa","Lak","Chechen","Dargwa","Godoberi","Godoberi","Armenian","Lak","Khwarshi","Lak","Godoberi","Hinuq","Hinuq","Avar","Lak","Hinuq","Dargwa","Dargwa","Avar","Lak","Lak","Kumyk","Karata","Karata","Udi","Agul","Khinalug","Dargwa","Lezgian","Avar","Tat","Botlikh","Botlikh","Udi","Azerbaijani","Udi","Lezgian","Godoberi","Georgian","Georgian","Tsova-Tush","Rutul","Rutul","Rutul","Rutul","Tsakhur","Rutul","Tsakhur","Dargwa","Hunzib","Hunzib","Rutul","Chechen","Kumyk","Nogai","Tsakhur","Nogai","Georgian","Chechen","Lak","Andi","Lak","Khinalug","Lak","Lak","Lak","Lak","Lak","Lak","Lak","Khwarshi","Khwarshi","Bezhta","Hunzib","Tsez","Hinuq","Archi","Archi","Archi","Archi","Andi","Archi","Khinalug","Tsakhur","Tsakhur","Bagvalal","Khinalug","Godoberi","Avar","Andi","Chamalal","Khwarshi","Tindi","Akhvakh","Tsez","Bezhta","Lak","Tabasaran","Dargwa","Hunzib","Archi","Agul","Lezgian","Tsakhur","Rutul","Kryz","Budukh","Udi","Hinuq","Khinalug","Dargwa","Armenian","Kumyk","Chechen","Bezhta","Akhvakh","Karata","Tindi","Botlikh","Chamalal","Tindi","Bagvalal","Tindi","Akhvakh","Karata","Dargwa","Dargwa","Tabasaran","Tabasaran","Agul","Dargwa","Udi","Udi","Agul","Agul","Agul","Agul","Agul","Agul","Agul","Agul","Agul","Agul","Agul","Udi","Andi","Andi","Andi","Udi","Agul","Andi","Agul","Archi","Lezgian","Rutul","Tsakhur","Udi","Kryz","Budukh","Tabasaran","Bagvalal","Agul","Agul","Agul","Agul","Tsakhur","Bagvalal","Tsakhur","Avar","Rutul","Budukh","Agul","Archi","Udi","Azerbaijani","Chechen","Chechen","Dargwa","Godoberi","Dargwa","Nogai","Dargwa","Dargwa","Tat","Chechen","Ingush","Ingush","Ingush","Nogai","Armenian","Azerbaijani","Karata","Karata","Tsez","Georgian","Agul","Kryz","Godoberi","Botlikh","Godoberi","Avar","Avar","Botlikh","Andi","Udi","Udi","Udi","Khinalug","Lak","Udi","Dargwa","Dargwa","Budukh","Azerbaijani","Tsakhur","Tsakhur","Tsakhur","Bagvalal","Godoberi","Botlikh","Andi","Dargwa","Dargwa","Budukh","Lezgian","Godoberi","Godoberi","Archi","Bagvalal","Dargwa","Bagvalal","Bagvalal","Bagvalal","Dargwa","Bezhta","Hunzib","Dargwa","Avar","Andi","Botlikh","Tsez","Botlikh","Tsez","Tsez","Bezhta","Hinuq","Tabasaran","Dargwa","Avar","Lak","Kumyk","Nogai"],["Standard Dargwa","Akusha","Standard Kumyk","Standard Lezgian","Luchek","Andi","Rutul","Standard Avar","Nizh","Standard Avar","Standard Tabasaran","Botlikh","Botlikh","Andi","Standard Rutul","Alik","Alik","Judeo-Tat","Tindi","Budukh","Botlikh","Botlikh","Standard Tabasaran","Ak-Nogai","Kara-Nogai","Standard Nogai","Standard Nogai","Akusha","Ashty","Itsari","Kaitag","Kubachi","Shiri","Tanty","Standard Georgian","Gadyri","Gigatli","Upper Gakvari","Standard Avar","Kidero","Andi","Ashali","Chanko","Gagatli","Kwankhidatli","Muni","Rikvani","Zilo","Mehweb","Archib","Archib","Archib","Archib","Tsez","Bezhta","Tlyadal","Khasharkhota","Asakh","Asakh","Akakhdere","Akakhdere","Northern Akhvakh","Akakhdere","Akakhdere","Northern Akhvakh","Kvanada","Archib","Mehweb","Kvanada","Zemo-Alvani","Khinalug","Standard Chechen","Standard Ingush","Zemo-Alvani","Standard Chechen","Standard Ingush","Zemo-Alvani","Andi","Standard Kumyk","Khwarshi","Standard Kumyk","Archi","Akhvakh","Bagvalal","Bezhta","Hunzib","Agul","Kryz","Lezgian","Rutul","Tsakhur","Udi","Itsari","Standard Lak","Chechen","Mehweb","Godoberi","Godoberi","Modern Eastern Armenian","Standard Lak","Inkhoqwari","Standard Lak","Godoberi","Hinuq","Hinuq","Standard Avar","Standard Lak","Hinuq","Sanzhi","Sanzhi","Standard Avar","Standard Lak","Standard Lak","Standard Kumyk","Tukita","Anchiq","Nizh","Huppuq'","Khinalug","Meusisha","Standard Lezgian","Standard Avar","Muslim Tat","Botlikh","Botlikh","Udi","Standard Azerbaijani","Udi","Standard Lezgian","Godoberi","Standard Georgian","Standard Georgian","Zemo-Alvani","Mukhad","Shinaz","Myukhrek","Borch-Khnov","Mishlesh","Mukhad","Tsakh","Standard Dargwa","Hunzib","Hunzib","Rutul","Standard Chechen","Standard Kumyk","Standard Nogai","Mishlesh","Standard Nogai","Standard Georgian","Standard Chechen","Standard Lak","Zilo","Standard Lak","Khinalug","Standard Lak","Arakul","Bartkhi","Shadni","Ashtikul","Vikhlin","Vitskhi","Kwantlada","Kwantlada","Bezhta","Hunzib","Asakh","Hinuq","Archib","Archib","Archib","Archib","Andi","Archib","Khinalug","Mishlesh","Mishlesh","Kvanada","Khinalug","Godoberi","Chadakolob","Andi","Gigatl'","Inkhoqwari","Tindi","Tad-Magitl'","Kidero","Tlyadal","Khosrekh","Dyubek","Chirag","Gunzib","Archib","Burshag","Khlyut","Mikik","Luchek","Kryz","Budukh","Nizh","Genukh","Khinalug","Mehweb","Eastern Armenian","Standard Kumyk","Standard Chechen","Bezhta","Northern Akhvakh","Karata","Tindi","Botlikh","Lower Gakvari","Tindi","Khushtada","Tindi","Tad-Magitl’","Karata","Kubachi","Kubachi","Northern Tabasaran","Southern Tabasaran","Central","Mehweb","Nizh","Nizh","Burkikhan","Burshag","Tpig","Usug","Khudig","Kurag","Tsirkhe","Huppuq'","Fite","Arsug","Drushtul","Nizh","Rikvani","Andi","Rikvani","Nizh","Huppuq'","Andi","Agul","Archi","Lezgian","Rutul","Tsakhur","Udi","Kryz","Budukh","Tabasaran","Kvanada","Huppuq'","Huppuq'","Huppuq'","Huppuq'","Mishlesh","Kvanada","Mishlesh","Standard Avar","Mukhad","Budukh","Huppuq'","Archib","Udi","Azerbaijani","Standard Chechen","Standard Chechen","Mehweb","Godoberi","Standard Dargwa","Standard Nogai","Standard Dargwa","Standard Dargwa","Judeo-Tat","Standard Chechen","Standard Ingush","Standard Ingush","Standard Ingush","Standard Nogai","Eastern Armenian","Standard Azerbaijani","Karata","Karata","Tsez","Standard Georgian","Central","Kryz","Godoberi","Botlikh","Godoberi","Zaqatala","???","Botlikh","Gagatli","Udi","Nizh","Vartashen","Khinalug","Standard Lak","Udi","Butri","Urakhi","Budukh","Standard Azerbaijani","Mishlesh","Mishlesh","Mishlesh","Kvanada","Godoberi","Botlikh","Rikvani","Tanty","Itsari","Budukh","Gyuney","Godoberi","Godoberi","Archib","Kvanada","Itsari","Kvanada","Kvanada","Kvanada","Kaitag","Bezhta","Hunzib","Standard Dargwa","Khunzakh","Rikvani","Botlikh","Sagada","Botlikh","Tsez","Kidero","Bezhta","Hinuq","Standard Tabasaran","Standard Dargwa","Standard Avar","Standard Lak","Standard Kumyk","Standard Nogai"],["(Abdullaev, 1950)","(Abdullaev, 1954)","(Abdullaeva, Gadžiaxmedov, Kadyradžiev, Kerimov, Olʹmesov, and Xangišiev, 2014)","(N.Š., 2005)","(Alekseev, 1994)","(Alekseev, 1998)","","(Alekseev and Ataev, 1997)","(Alekseev, Majsak, Ganenkov, and Lander, 2008)","(Alekseev, Ataev, Magomedov, Magomedov, Madieva, Saidova, and Samedov, 2012)","(Alekseev and Šixalieva, 2003)","(Alekseyev, 2016b)","(Alexeyev and Verhees, 2020)","(Alisultanova, 2009)","(Alisultanov and Sulejmanova, 2019)","(Authier, 2009)","(Authier, 2010)","(Authier, 2012)","(Authier, 2020)","(Authier and Haciyev, 2016)","(Azaev, 1974)","(Azaev, 2000)","(Babaliyeva, 2013)","(Baskakov, 1940)","(Baskakov, 1940)","(Baskakov, 1940)","(Baskakov, 1996)","(Belyaev, 2018)","(Belyaev, 2018)","(Belyaev, 2018)","(Belyaev, 2018)","(Belyaev, 2018)","(Belyaev, 2018)","(Belyaev, 2018)","(Boeder, 2000)","(Bokarëv, 1949a)","(Bokarëv, 1949a)","(Bokarëv, 1949a)","(Bokarëv, 1949b)","(Bokarëv, 1959b)","(Cercvadze, 1965)","(Cercvadze, 1965)","(Cercvadze, 1965)","(Cercvadze, 1965)","(Cercvadze, 1965)","(Cercvadze, 1965)","(Cercvadze, 1965)","(Cercvadze, 1965)","(Chechuro, 2019)","(Chumakina, 2016)","(Chumakina, 2018)","(Chumakina and Corbett, 2008)","(Chumakina, Brown, Corbett, and Quilliam, 2007)","(Comrie, 2007)","(Comrie, Khalilov, and Khalilova, 2015)","(Comrie, Khalilov, and Khalilova, 2015)","(Comrie, Khalilov, and Khalilova, 2015)","(Comrie and Polinsky, 2007)","(Comrie and Polinsky, 2020)","(Creissels, 2008)","(Creissels, 2012)","(Creissels, 2013)","(Creissels, 2016)","(Creissels, 2018)","(Creissels, 2020)","(Daniélʹ, 2001)","(Daniel, 2006)","(Daniel, Dobrushina, and Ganenkov, 2019)","(Daragan and Majsak, 2001)","(Dešeriev, 1953)","(Dešeriev, 1959)","(Dešeriev, 1963)","(Dešeriev, 1963)","(Dešeriev, 1963)","(Dešerieva, 1999)","(Dešerieva, 1999)","(Dešerieva, 1999)","(Dirr, 1906)","(Dmitriev, 1940)","(Dobrushina, 2011)","(Dobrushina, 2011)","(Dobrushina, 2011)","(Dobrushina, 2011)","(Dobrushina, 2011)","(Dobrushina, 2011)","(Dobrushina, 2011)","(Dobrushina, 2011)","(Dobrushina, 2011)","(Dobrushina, 2011)","(Dobrushina, 2011)","(Dobrushina, 2011)","(Dobrushina, 2011)","(Dobrushina, 2011)","(Dobrushina, 2011)","(Dobrushina, 2011)","(Dobrushina, 2019)","(Dobrushina, Kibrik, and Tatevosov, 1996)","(Dobrushina and Tatevosov, 1996)","(Dum-Tragut, 2009)","(Džidalaev, 1994)","(Džidalaev, Magomedova, and Xalilov, 2022)","(Élʹdarova, 1995)","(Fedorova, 1996)","(Forker, 2013)","(Forker, 2014)","(Forker, 2018a)","(Forker, 2018b)","(Forker, 2019a)","(Forker, 2019b)","(Forker, 2020a)","(Forker, 2020b)","(Friedman, 1984)","(Friedman, 2007)","(Gadžiaxmedov, 2000)","(Gadžieva, 2007)","(Gadžimagomedov, 2019)","(Ganenkov, 2008)","","(Ganieva, 2002)","(Gasanova, 1971)","(Gajdarov, Gjulʹmagomedov, Mejlanov, and Talibov, 2009)","(Gimbatov, 2006)","(Grjunberg, 1963)","(Gudava, 1962)","(Gudava, 1967)","(Gukasjan, 1974)","(Gukasjan, 1974)","(Harris, 2002)","(Haspelmath, 1993)","(Haspelmath, 1996)","(Hewitt, 1995)","(Hewitt, 2005)","(Holisky and Gagua, 1994)","(Ibragimov, 1978)","(Ibragimov, 1978)","(Ibragimov, 1978)","(Ibragimov, 1978)","(Ibragimov, 1990)","(Ibragimov, 2004)","(Ibragimov and Nurmamedov, 2010)","(Isaev, 2001)","(Isakov and Xalilov, 2001)","(Isakov and Xalilov, 2012)","(Ismailova, 2011)","(Jakovlev, 1960)","(Johanson, 2018)","(Johanson, 2018)","(Kalinina, 1999)","(Kalmykova and Sarueva, 1973)","(Kankava, 2001)","(Karasaev and Maciev, 1978)","(, 2016)","(Kaye, Martynova, Moroz, Rochant, Verhees, and Zakirova, 2020)","(Kazenin, 2013)","(Kerimov, 1985)","(Xajdakov, 1962)","(Xajdakov, 1966)","(Xajdakov, 1966)","(Xajdakov, 1966)","(Xajdakov, 1966)","(Xajdakov, 1966)","(Xajdakov, 1966)","(Khalilova, 2009)","(Khalilova, 2011)","(Khalilova, 2011)","(Khalilova, 2011)","(Khalilova, 2011)","(Khalilova, 2011)","(Kibrik, 1977a)","(Kibrik, 1977b)","(Kibrik, 1977c)","(Kibrik, Kodzasov, P., and S., 1977)","(Kibrik, 1985)","(Kibrik, 1994a)","(Kibrik, 1994b)","(Kibrik, 1999a)","(Kibrik, 1999b)","(Kibrik, Kazenin, Ljutikova, and Tatevosov, 2001)","(Kibrik, Kodzasov, and Olovjannikova, 1972)","(Kibrik, Tatevosov, and Eulenberg, 1996)","(Kibrik and Kodzasov, 1990)","(Kibrik and Kodzasov, 1990)","(Kibrik and Kodzasov, 1990)","(Kibrik and Kodzasov, 1990)","(Kibrik and Kodzasov, 1990)","(Kibrik and Kodzasov, 1990)","(Kibrik and Kodzasov, 1990)","(Kibrik and Kodzasov, 1990)","(Kibrik and Kodzasov, 1990)","(Kibrik and Kodzasov, 1990)","(Kibrik and Kodzasov, 1990)","(Kibrik and Kodzasov, 1990)","(Kibrik and Kodzasov, 1990)","(Kibrik and Kodzasov, 1990)","(Kibrik and Kodzasov, 1990)","(Kibrik and Kodzasov, 1990)","(Kibrik and Kodzasov, 1990)","(Kibrik and Kodzasov, 1990)","(Kibrik and Kodzasov, 1990)","(Kibrik and Kodzasov, 1990)","(Kibrik and Kodzasov, 1990)","(Kibrik and Kodzasov, 1990)","(Kozhukhar, 2019)","(Kozintseva, 2000)","(, 2021)","(Maciev, 1961)","(Madieva, 1965)","(Magomedbekova, 1967)","(Magomedbekova, 1971)","(Magomedbekova, 1998)","(Magomedbekova, 2001)","(Magomedova, 1999)","(Magomedova, 2003)","(Magomedova, 2004)","(Magomedova, 2012)","(Magomedova and Abdulaeva, 2007)","(Magomedova and Xalidova, 2001)","(Magomedov\nAmirbek D., 2017)","(Magometov, 1963)","(Magometov, 1965)","(Magometov, 1965)","(Magometov, 1970)","(Magometov, 1982)","(Majsak, 2006)","(Majsak, 2008)","(Majsak, 2014)","(Majsak, 2014)","(Majsak, 2014)","(Majsak, 2014)","(Majsak, 2014)","(Majsak, 2014)","(Majsak, 2014)","(Majsak, 2014)","(Majsak, 2014)","(Majsak, 2014)","(Majsak, 2014)","(Majsak, 2016a)","(Majsak, 2016b)","(Maisak, 2017)","(Maisak, 2017)","(Maisak, 2018)","(Maisak, 2020)","(Maisak, 2020)","(Maisak, 2021)","(Maisak, 2021)","(Maisak, 2021)","(Maisak, 2021)","(Maisak, 2021)","(Maisak, 2021)","(Maisak, 2021)","(Maisak, 2021)","(Maisak, 2021)","(Majsak and Čumakina, 2001)","(Maisak and Ganenkov, 2016)","(Majsak and Merdanova, 2002a)","(Majsak and Merdanova, 2002b)","(Majsak and Merdanova, 2016)","(Majsak and Tatevosov, 1998)","(Majsak and Tatevosov, 2001)","(Maisak and Tatevosov, 2007)","(Mallaeva, 2007)","(Maxmudova, 2002)","(Mejlanova, 1984)","(Merdanova, 2004)","(Mikajlov, 1967)","(Mobili, 2010)","(Mobili, 2010)","(Molochieva, 2007)","(Molochieva, 2010)","(Moroz, 2019)","(Moroz, Naccarato, and Verhees, 2021)","(Musaev, 2002)","(Musaev, 2018)","(Mutalov, 2002)","(Mutalov, 2018)","(Naftaliev, 2016)","(Nichols, 1994a)","(Nichols, 1994b)","(Nichols, 2011)","(Nichols, 2021)","(Ager, 2021)","(Ager, 2021)","(Ager, 2021)","(Pasquereau, 2010)","(Pasquereau, 2020)","(Polinsky, 2015)","(Giacalone Ramat and Topadze, 2007)","(Ramazanov, 2010)","(Saadiev, 1994)","(Saidova, 1973)","(Saidova, 2001)","(Saidova, 2006)","(Saidova, 2007)","(Saidova, 2008)","(Saidova and Abusov, 2012)","(Salimov, 2010)","(Schulze, 1982)","(Schulze, 2005)","(Schulze, 2005)","(Schulze, 2016a)","(Schulze, 2016b)","(Schulze, 2016c)","(Šaxbanova, 2007)","(Šaxbanova, 2007)","(Šejxov, 1983)","(Širaliev and Sevortjan, 1971)","(Sosenskaja, 1999a)","(Sosenskaja, 1999b)","(Sosenskaja, 1999c)","(Sosenskaja, 2001)","(Sosenskaja and Tatevosov, 1996)","(Sulejmanova, 2013)","(Sulejmanov, 1957)","(Sumbatova and Lander, 2014)","(Sumbatova and Mutalov, 2003)","(Talibov, 2007)","(Talibov and Gadžiev, 1966)","(Tatevosov, 1996a)","(Tatevosov, 1996b)","(Tatevosov, 2001a)","(Tatevosov, 2001a)","(Tatevosov, 2001a)","(Tatevosov, 2001b)","(Tatevosov, 2001c)","(Tatevosov, 2007)","(Temirbulatova, 2004)","(Testelec and Xalilov, 1998)","(van den\nBerg, 1995)","(van den\nBerg, 2001)","(Verhees, 2018)","(Verhees, 2018)","(Verhees and Naccarato, 2019)","(Wilson, 2021)","(Xalidova, 2017)","(Xalilov, 1998)","(Xalilov, 1999)","(Xalilov, 2015)","(Xalilov and Isakov, 2005)","(Xanmagomedov and Šalbuzov, 2001)","(Jusupov, 2014)","(Žirkov, 1936)","(Žirkov, 1955)","",""],["dictionary","grammar","grammar","other","grammar","grammar","other","grammar","grammar","grammar","grammar","other","grammar","other","dictionary","grammar","other","grammar","grammar","other","other","grammar","grammar","grammar","grammar","grammar","grammar","other","other","other","other","other","other","other","other","grammar","grammar","grammar","other","grammar","grammar","grammar","grammar","grammar","grammar","grammar","grammar","grammar","other","other","other","other","dictionary","other","grammar","grammar","grammar","other","other","other","other","other","other","other","grammar","other","other","grammar","other","grammar","grammar","other","other","other","grammar","grammar","grammar","grammar","grammar","other","other","other","other","other","other","other","other","other","other","other","other","other","other","other","other","other","other","other","grammar","dictionary","dictionary","other","other","grammar","other","other","other","other","other","grammar","grammar","other","other","other","other","grammar","other","other","dictionary","grammar","grammar","dictionary","grammar","grammar","grammar","dictionary","dictionary","other","grammar","other","grammar","grammar","grammar","grammar","grammar","grammar","grammar","grammar","grammar","dictionary","dictionary","dictionary","grammar","dictionary","other","other","other","grammar","grammar","dictionary","dictionary","other","grammar","other","other","dictionary","grammar","grammar","grammar","grammar","grammar","grammar","grammar","other","other","other","other","other","grammar","dictionary","grammar","grammar","other","other","other","grammar","grammar","grammar","grammar","grammar","other","other","other","other","other","other","other","other","other","other","other","other","other","other","other","other","other","other","other","other","other","other","other","other","other","dictionary","grammar","grammar","grammar","grammar","grammar","dictionary","dictionary","dictionary","grammar","dictionary","dictionary","dictionary","grammar","grammar","grammar","grammar","grammar","other","other","other","other","other","other","other","other","other","other","other","other","other","other","other","other","other","other","other","other","other","other","other","other","other","other","other","other","other","other","other","other","other","other","other","other","other","other","other","dictionary","other","grammar","dictionary","dictionary","other","other","other","other","grammar","dictionary","other","other","dictionary","grammar","grammar","grammar","other","other","other","other","other","grammar","other","other","dictionary","other","grammar","grammar","dictionary","grammar","dictionary","dictionary","grammar","grammar","grammar","grammar","other","other","other","other","other","other","grammar","other","other","other","other","other","other","grammar","grammar","grammar","grammar","dictionary","other","other","other","other","other","other","other","other","grammar","other","grammar","other","other","other","other","other","grammar","other","dictionary","dictionary","dictionary","dictionary","dictionary","dictionary","grammar","dictionary","dictionary"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>language<\/th>\n      <th>idiom<\/th>\n      <th>source<\/th>\n      <th>source type<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":100,"autoWidth":true,"dom":"fltpi","columnDefs":[],"order":[],"orderClasses":false,"orderCellsTop":true}},"evals":[],"jsHooks":[]}</script>
+<div id="references" class="section level2">
+<h2>References</h2>
+<p>[1] <em>Kʺumukʺ til</em>. Accessed: 2021-12-17. 2021.</p>
+<p>[2] <em>KaspLingua</em>. Accessed: 2021-12-17. 2016.</p>
+<p>[3] S. N. Abdullaev. <em>Darginsko-russkij slovarʹ [Russian-Dargwa
+dictionary]</em>. Ed. by S. X. Š.. Maxačkala: Institut istorii, jazyka i
+literatury im. G. Cadasy, 1950.</p>
+<p>[4] S. N. Abdullaev. <em>Grammatika darginskogo jazyka [Dargwa
+grammar]</em>. Maxačkala: IJaLI, 1954.</p>
+<p>[5] A. Z. Abdullaeva, N. É. Gadžiaxmedov, K. S. Kadyradžiev, et al.
+<em>Sovremennyj kumykskij jazyk [Contemporary Kumyk]</em>. Maxačkala:
+IJaLI, 2014.</p>
+<p>[6] S. Ager. <em>Good morning in many languages</em>. Accessed:
+2021-12-17. 2021.</p>
+<p>[7] M. E. Alekseev. “Andijskij jazyk [Andi]”. In: <em>Jazyki mira.
+Kavkazskie jazyki [Languages of the world. Caucasian languages]</em>.
+Ed. by M. E. Alekseev and dr.. Moskva: Academia, 1998, pp. 221-228.</p>
+<p>[8] M. E. Alekseev. “Rutul”. In: <em>The indigenous languages of the
+Caucasus. Volume 4. Part 2</em>. Ed. by R. Smeets. Delmar NY: Caravan
+Books, 1994, pp. 147-212.</p>
+<p>[9] M. E. Alekseev and B. M. Ataev. <em>Avarskij jazyk [Avar
+language]</em>. Moskva: Akademija, 1997.</p>
+<p>[10] M. E. Alekseev, B. M. Ataev, M. A. Magomedov, et
+al. <em>Sovremennyj avarskij jazyk [Contemporary Avar language]</em>.
+Maxačkala: Aleph, 2012.</p>
+<p>[11] M. E. Alekseev, T. A. Majsak, D. S. Ganenkov, et
+al. <em>Udinskij sbornik: Grammatika. Leksika. Istorija jazyka [Udi.
+Grammar. Lexicon. History of the language]</em>. Moskva: Akademija,
+2008.</p>
+<p>[12] M. E. Alekseev and S. X. Šixalieva. <em>Tabasaranskij jazyk
+[Tabasaran]</em>. Moskva: Akademija, 2003.</p>
+<p>[13] M. Alekseyev. “Botlikh”. In: <em>Word-Formation. An
+International Handbook of the Languages of Europe. Volume 5</em>. Ed. by
+P. O. Müller, I. Ohnheiser, S. Olsen and F. Rainer. Berlin/Boston: De
+Gruyter Mouton, 2016, pp. 3678-3685.</p>
+<p>[14] M. Alexeyev and S. Verhees. “Botlikh”. Berlin/New York,
+2020.</p>
+<p>[15] A. S. Alisultanov and T. A. Sulejmanova. <em>Rutulʹsko-russkij
+slovarʹ [Rutul-Russian dictionary]</em>. Maxačkala: ALEF, 2019.</p>
+<p>[16] M. A. Alisultanova. “Leksika andijskogo jazyka”. PhD thesis.
+Maxačkala: Dagestanskij naučnyj centr Rossijskoj akademii nauk Institut
+jazyka, literatury i iskusstva im. Gamzata Cadasy, 2009.</p>
+<p>[17] G. Authier. “Azeri morphology in Kryz (East Caucasian)”. In:
+<em>Turkic Languages</em> 14 (2010), pp. 14-42.</p>
+<p>[18] G. Authier. <em>Grammaire juhuri, ou judéo-tat, langue iranienne
+des Juifs du Caucase de l’est</em>. Wiesbaden: Dr. Ludwig Reichert
+Verlag Wiesbaden, 2012.</p>
+<p>[19] G. Authier. <em>Grammaire kryz</em>. Paris: Peeters, 2009.</p>
+<p>[20] G. Authier. “Tindi”. Berlin/New York, 2020.</p>
+<p>[21] G. Authier and A. Haciyev. “Budugh”. In: <em>Word-Formation. An
+International Handbook of the Languages of Europe. Volume 5</em>. Ed. by
+P. O. Müller, I. Ohnheiser, S. Olsen and F. Rainer. Berlin/Boston: De
+Gruyter Mouton, 2016, pp. 3546-3563.</p>
+<p>[22] X. G. Azaev. “Botlixskij jazyk [Botlikh]”. In: <em>Jazyki
+Dagestana [Languages of Daghestan]</em>. Ed. by G. G. Gamzatov.
+Moskva/Maxačkala: Vostok, 2000, pp. 346-359.</p>
+<p>[23] X. G. Azaev. “Leksika i slovoobrazovanie botlixskogo jazyka
+[Lexicon and word formation in Botlikh]”. PhD thesis. Maxačkala:
+Dagestanskij filial AN SSSR, Institut istorii jazyka i literatury im. G.
+Cadasy, 1974.</p>
+<p>[24] A. Babaliyeva. “Études sur la morphosyntaxe du tabasaran
+littéraire”. PhD thesis. École Pratique des Hautes Études, 2013.</p>
+<p>[25] N. A. Baskakov. “Nogajskij jazyk [Nogai language]”. In:
+<em>Jazyki mira. Tjurkskie jazyki [Languages of the world. Turkic
+languages]</em>. Ed. by N. V. Rogova, O. I. Romanova and I. M.
+Čerkasova. Moskva: Institut jazykoznanija RAN, 1996, pp. 328-335.</p>
+<p>[26] N. A. Baskakov. <em>Nogajskij jazyk i ego dialekty: grammatika,
+teksty i slovarʹ [Nogai and its dialects: grammar, texts and
+dictionary]</em>. Moskva: Izdatelʹstvo Akademii nauk SSSR, 1940.</p>
+<p>[27] O. Belyaev. “Aorist, Resultative and Perfect in Shiri Dargwa and
+beyond”. In: <em>The semantics of verbal categories in Nakh-Daghestanian
+languages</em>. Ed. by D. Forker and T. Maisak. Leiden: Brill, 2018, pp.
+80-119.</p>
+<p>[28] H. van den Berg. <em>A grammar of Hunzib</em>. Munich: Lincom,
+1995.</p>
+<p>[29] H. van den Berg. <em>Dargi folktales. Oral stories from the
+Caucaus with an introduction to Dargi grammar</em>. Leiden: CNWS,
+2001.</p>
+<p>[30] W. Boeder. “Evidentiality in Georgian”. In: <em>Evidentials.
+Turkic, Iranian and neighbouring languages</em>. Ed. by L. Johanson and
+B. Utas. Berlin/New York: Mouton de Gruyter, 2000, pp. 275-328.</p>
+<p>[31] A. A. Bokarëv. <em>Očerk grammatiki čamalinskogo jazyka [Grammar
+sketch of Chamalal]</em>. Moskva/Leningrad: Izdatelʹstvo Akademii nauk
+SSSR, 1949.</p>
+<p>[32] A. A. Bokarëv. <em>Sintaksis avarskogo jazyka [Syntax of
+Avar]</em>. Moskva: Izdatelʹstvo Akademii nauk SSSR, 1949.</p>
+<p>[33] E. A. Bokarëv. <em>Cezskij jazyk [Tsez]</em>. Ed. by E. A.
+Bokarëv. Moskva: Akademija, 1959, pp. 175-221.</p>
+<p>[34] I. I. Cercvadze. <em>Andiuri ena [The Andi language]</em>.
+Tbilisi: Mecniereba, 1965.</p>
+<p>[35] I. Chechuro. “Nominal morphology of Mehweb”. In: <em>The Mehweb
+language. Essays on phonology, morphology and syntax</em>. Ed. by M.
+Daniel, N. Dobrushina and D. Ganenkov. Berlin: Language Science Press,
+2019, pp. 39-72.</p>
+<p>[36] M. Chumakina. “Archi”. In: <em>Word-Formation. An International
+Handbook of the Languages of Europe. Volume 5</em>. Ed. by P. O. Müller,
+I. Ohnheiser, S. Olsen and F. Rainer. Berlin/Boston: De Gruyter Mouton,
+2016, pp. 3595-3604.</p>
+<p>[37] M. Chumakina. “Mood in Archi: Realization and semantics”. In:
+<em>The semantics of verbal categories in Nakh-Daghestanian
+languages</em>. Ed. by D. Forker and T. Maisak. Leiden: Brill, 2018,
+pp. 215-246.</p>
+<p>[38] M. Chumakina, D. Brown, G. G. Corbett, et al. <em>A dictionary
+of Archi: Archi-Russian-English (Online edition)</em>. 2007.</p>
+<p>[39] M. Chumakina and G. G. Corbett. “Archi: the challenge of an
+extreme agreement system”. In: <em>Fonetika i nefonetika. K 70-letiju
+Sandro V. Kodzasova</em>. Ed. by A. V. Arxipov and dr.. Moskva: Jazyki
+slavjanskix kulʹtur, 2008, pp. 184-194.</p>
+<p>[40] B. Comrie. “Tsez (Dido) Morphology”. In: <em>Morphologies of
+Asia and Africa</em>. Ed. by A. S. Kaye. University Park, PA:
+Eisenbrauns, 2007, pp. 1193-1204.</p>
+<p>[41] B. Comrie, M. Khalilov, and Z. Khalilova. <em>A grammar of
+Bezhta</em>. Leipzig: Max Planck Institute for Evolutionary
+Anthropology, 2015.</p>
+<p>[42] B. Comrie and M. Polinsky. “Evidentials in Tsez”. In:
+<em>L’Énonciation médiatisée II</em>. Ed. by Z. Guentchéva and J.
+Landabaru. Louvain/Paris/Dudley MA: Peeters, 2007, pp. 335-350.</p>
+<p>[43] B. Comrie and M. Polinsky. “Tsez”. In: <em>The Caucasian
+Languages. An International Handbook</em>. Ed. by Y. Koryakov and T.
+Maisak. Berlin/New York: De Gruyter Mouton, 2020.</p>
+<p>[44] D. Creissels. “A sketch of Northern Akhvakh”. Berlin/New York,
+2020.</p>
+<p>[45] D. Creissels. “Akhvakh”. In: <em>Word-Formation. An
+International Handbook of the Languages of Europe. Volume 5</em>. Ed. by
+P. O. Müller, I. Ohnheiser, S. Olsen and F. Rainer. Berlin/Boston: De
+Gruyter Mouton, 2016, pp. 3685-3694.</p>
+<p>[46] D. Creissels. “External agreement in the converbal construction
+of Northern Akhvakh”. In: <em>Clause linkage in cross-linguistic
+perspective</em>. Ed. by V. Gast and H. Diessel. Berlin/New York: De
+Gruyter Mouton, 2012, pp. 127-156.</p>
+<p>[47] D. Creissels. “Floating genitives and possessive framing in
+Northern Akhvakh”. In: <em>The Genitive</em>. Ed. by A. Carlier and J.
+Verstraete. Amsterdam/Philadelphia: John Benjamins, 2013,
+pp. 333-354.</p>
+<p>[48] D. Creissels. “Optative in Akhvakh”. Questionnaire. 2008. <a
+href="http://www.deniscreissels.fr/public/Creissels-opt.Akhv.pdf"
+class="uri">http://www.deniscreissels.fr/public/Creissels-opt.Akhv.pdf</a>.</p>
+<p>[49] D. Creissels. “Perfective tenses and epistemic modality in
+Northern Akhvakh”. In: <em>The semantics of verbal categories in
+Nakh-Daghestanian languages</em>. Ed. by D. Forker and T. Maisak.
+Leiden: Brill, 2018, pp. 166-187.</p>
+<p>[50] M. Daniel. “Reported speech in Archi: a new approach to the old
+data”. Morphosyntaxe des langues du Caucase, 11-14.12.2006, INALCO
+Paris. Handout. 2006.</p>
+<p>[51] M. Daniel, N. Dobrushina, and D. Ganenkov. <em>The Mehweb
+language. Essays on phonology, morphology and syntax</em>. Berlin:
+Language Science Press, 2019.</p>
+<p>[52] M. A. Daniélʹ. “Padež i lokalizacija [Case and localization]”.
+In: <em>Bagvalinskij jazyk. Grammatika, teksty, slovari [The Bagvalal
+language. Grammar, texts, dictionaries]</em>. Ed. by A. E. Kibrik and
+dr.. Moskva: Nasledie, 2001, pp. 203-230.</p>
+<p>[53] J. V. Daragan and T. A. Majsak. “Časticy, sojuzy i
+transkategorialʹnye pokazateli [Particles, conjunctions and
+transcategorical markers]”. In: <em>Bagvalinskij jazyk. Grammatika,
+teksty, slovari [The Bagvalal language. Grammar, texts,
+dictionaries]</em>. Ed. by A. E. Kibrik, E. A. Ljutikova and S. G.
+Tatevosov. Moskva: Nasledie, 2001, pp. 173-184.</p>
+<p>[54] J. D. Dešeriev. <em>Bacbijskij jazyk [Tsova-Tush language]</em>.
+Moskva: Akademija, 1953.</p>
+<p>[55] J. D. Dešeriev. <em>Grammatika xinalugskogo jazyka [Khinalug
+grammar]</em>. Moskva: Akademija, 1959.</p>
+<p>[56] J. D. Dešeriev. <em>Sravnitelʹno-istoričeskaja grammatika
+naxskix jazykov i problemy proisxoždenija i istoričeskogo razvitija
+gorskix kavkazskix narodov [Historical-comparative grammar of Nakh
+languages and the origin and historical development of Caucasian
+mountain peoples]</em>. Groznyj: Čečeno-Ingušskoe knižnoe izdatelʹstvo,
+1963.</p>
+<p>[57] T. I. Dešerieva. “Naxskie jazyki [Nakh languages]”. In:
+<em>Jazyki mira. Kavkazskie jazyki. [Languages of the World. Caucasian
+Languages.]</em>. Ed. by M. E. Alekseev and dr.. Moskva: Rossijskaja
+akademija nauk, 1999, pp. 166-173.</p>
+<p>[58] A. Dirr. <em>Kratkij grammatičeskij očerk andijskogo jazyka s
+tekstami,sbornikom andijskix slov i russkim k nemu ukazatelem. [Brief
+outline of Andi language with a compilation of Andi words and Russian
+index]</em>. Tiflis (Tbilisi), 1906.</p>
+<p>[59] N. K. Dmitriev. <em>Grammatika kumykskogo jazyka [Kumyk
+grammar]</em>. Moskva: Akademija, 1940.</p>
+<p>[60] N. Dobrushina. “Moods of Mehweb”. In: <em>The Mehweb language.
+Essays on phonology, morphology and syntax</em>. Ed. by M. Daniel, N.
+Dobrushina and D. Ganenkov. Berlin: Language Science Press, 2019,
+pp. 117-165.</p>
+<p>[61] N. Dobrushina. “The optative domain in East Caucasian
+languages”. In: <em>Tense, aspect, modality and finiteness in East
+Caucasian languages</em>. Ed. by G. Authier and T. Maisak. Bochum:
+Brockmeyer, 2011, pp. 95-130.</p>
+<p>[62] N. Dobrushina, A. Kibrik, and S. Tatevosov. “Verbs”. In:
+<em>Godoberi</em>. Ed. by A. E. Kibrik, S. G. Tatevosov and A.
+Eulenberg. Munich/Newcastle: Lincom Europa, 1996, pp. 44-74.</p>
+<p>[63] N. Dobrushina and S. Tatevosov. “Usage of verbal forms”. In:
+<em>Godoberi</em>. Ed. by A. E. Kibrik, S. G. Tatevosov and A.
+Eulenberg. Munich/Newcastle: Lincom Europa, 1996, pp. 91-106.</p>
+<p>[64] J. Dum-Tragut. <em>Armenian</em>. Amsterdam/Philadelphia: John
+Benjamins, 2009.</p>
+<p>[65] N. S. Džidalaev. <em>Russko-lakskij slovarʹ [Russian-Lak
+dictionary]</em>. Maxačkala: Institut istorii, jazyka i literatury im.
+G. Cadasy, 1994.</p>
+<p>[66] N. S. Džidalaev, Z. D. Magomedova, and M. Š. Xalilov. “Slovarʹ
+xvaršinskogo jazyka [Khwarshi dictionary]”. Maxačkala, 2022.</p>
+<p>[67] R. G. Élʹdarova. “Morfologija lakskogo glagola [Morphology of
+the Lak verb]”. PhD thesis. Maxačkala: IPC DGU, 1995.</p>
+<p>[68] O. Fedorova. “Usage of nominal forms”. In: <em>Godoberi</em>.
+Ed. by A. E. Kibrik, S. G. Tatevosov and A. Eulenberg. Munich/Newcastle:
+Lincom Europa, 1996, pp. 76-91.</p>
+<p>[69] D. Forker. <em>A grammar of Hinuq</em>. Berlin/Boston: De
+Gruyter Mouton, 2013.</p>
+<p>[70] D. Forker. <em>A grammar of Sanzhi Dargwa</em>. Berlin: Language
+Science Press, 2020. <a
+href="https://langsci-press.org/catalog/book/250"
+class="uri">https://langsci-press.org/catalog/book/250</a>.</p>
+<p>[71] D. Forker. “Avar grammar sketch”. Oxford, 2020.</p>
+<p>[72] D. Forker. “Gender agreement is different”. In:
+<em>Linguistics</em> 56.4 (2018), pp. 865-894.</p>
+<p>[73] D. Forker. “Reported speech constructions in Sanzhi Dargwa and
+their extension to other areas of grammar”. In:
+<em>Sprachwissenschaft</em> 44 (2019), pp. 171-199.</p>
+<p>[74] D. Forker. “The grammar of knowledge in Hinuq”. In: <em>The
+grammar of knowledge. A cross-linguistic typology</em>. Ed. by A. Y.
+Aikhenvald and R. Dixon. Oxford: Oxford University Press, 2014,
+pp. 52-68.</p>
+<p>[75] D. Forker. “The impact of language contact on Hinuq: Phonology,
+morphology, syntax, and lexicon”. In: <em>Language Typology and
+Universals</em> 72.2 (2019), pp. 29-62.</p>
+<p>[76] D. Forker. “The semantics of evidentiality and epistemic
+modality in Avar”. In: <em>The semantics of verbal categories in
+Nakh-Daghestanian languages</em>. Ed. by D. Forker and T. Maisak.
+Leiden: Brill, 2018, pp. 188-214.</p>
+<p>[77] V. A. Friedman. “Status in the Lak verbal system”. In: <em>Folia
+Slavica</em> 7.1/2 (1984), pp. 135-149.</p>
+<p>[78] V. A. Friedman. “The expression of speaker subjectivity in Lak
+(Daghestan)”. In: <em>L’Énonciation médiatisée II</em>. Ed. by Z.
+Guentchéva and J. Landabaru. Louvain/Paris/Dudley MA: Peeters, 2007,
+pp. 351-376.</p>
+<p>[79] N. É. Gadžiaxmedov. <em>Slovoizmenitelʹnye kategorii imeni i
+glagola v kumykskom jazyke [Nominal and verbal inflectional categories
+in Kumyk]</em>. Maxačkala: Jupiter, 2000.</p>
+<p>[80] M. Z. Gadžieva. “Fonetičeskie i morfologičeskie osobennosti
+tukitinskogo dialekta karatinskogo jazyka”. PhD thesis. Dagestanskij
+gosudarstvennyj pedagogičeskij universitet, 2007.</p>
+<p>[81] M. Z. Gadžimagomedov. “Ančixskij jazyk [Anchiq]”. manuscript.
+2019.</p>
+<p>[82] R. I. Gajdarov, A. G. Gjulʹmagomedov, U. A. Mejlanov, et al.
+<em>Sovremennyj lezginskij jazyk [Modern Lezgian]</em>. Maxačkala:
+Dagestanskij naučnyj centr Rossijskoj akademii nauk Institut jazyka,
+literatury i iskusstva im. Gamzata Cadasy, 2009.</p>
+<p>[83] D. S. Ganenkov. “Morfologičeskaja i semantičeskaja
+xarakteristika padežej udinskogo jazyka [Morphological and semantic
+characteristics of Udi]”. In: <em>Udinskij sbornik: grammatika, leksika,
+istorija jazyka [Udi. Grammar. Lexicon. History of the language]</em>.
+Ed. by M. E. Alekseev, T. A. Majsak, D. S. Ganenkov and J. A. Lander.
+Moskva: Akademija, 2008, pp. 11-53.</p>
+<p>[84] F. A. Ganieva. <em>Xinalugsko-russkij slovarʹ [Khinalug-Russian
+dictionary]</em>. Maxačkala: DNC RAN, 2002.</p>
+<p>[85] S. M. Gasanova. <em>Očerki darginskoj dialektologii [Essays on
+Dargwa dialectology]</em>. Maxačkala: Institut istorii, jazyka i
+literatury im. G. Cadasy, 1971.</p>
+<p>[86] A. Giacalone Ramat and M. Topadze. “The coding of evidentiality:
+a comparative look at Georgian and Italian.” In: <em>Rivista di
+Linguistica</em> 19.1 (2007), pp. 7-38.</p>
+<p>[87] M. M. Gimbatov. <em>Avarsko-russkij slovarʹ [Avar-Russian
+dictionary]</em>. Maxačkala: DNC RAN, 2006.</p>
+<p>[88] A. L. Grjunberg. <em>Jazyk severoazerbajdžanskix tatov [The
+language of the Northern Azerbaijani Tats]</em>. Leningrad: Izdatelʹstvo
+akademii nauk SSSR, 1963.</p>
+<p>[89] T. E. Gudava. “Botlixskij jazyk [Botlikh]”. In: <em>Jazyki
+narodov SSSR. Tom 4. Iberijsko-kavkazskie jazyki [Languages of the
+peoples of USSR. Volume 4. Ibero-caucasian languages]</em>. Ed. by E. A.
+Bokarev and L. Ketevan. Moskva: Nauka, 1967, pp. 293-306.</p>
+<p>[90] T. E. Gudava. <em>Botlixuri ena [The Botlikh language]</em>.
+Tbilisi: Mecniereba, 1962.</p>
+<p>[91] V. Gukasjan. <em>Udinsko-azerbajdžansko-russkij slovarʹ
+[Udi-Azerbaijani-Russian dictionary]</em>. Baku: Élm, 1974.</p>
+<p>[92] A. C. Harris. <em>Endoclitics and the origins of Udi
+morphosyntax</em>. Oxford: Oxford University Press, 2002.</p>
+<p>[93] M. Haspelmath. <em>A grammar of Lezgian</em>. Berlin/New York:
+Mouton de Gruyter, 1993.</p>
+<p>[94] M. Haspelmath. “Complement clauses”. In: <em>Godoberi</em>. Ed.
+by A. E. Kibrik, S. G. Tatevosov and A. Eulenberg. Munich/Newcastle:
+Lincom Europa, 1996, pp. 174-196.</p>
+<p>[95] G. Hewitt. <em>Georgian. A Learner’s Grammar</em>. London/New
+York: Routledge, 2005.</p>
+<p>[96] G. Hewitt. <em>Georgian. A Structural Reference Grammar</em>.
+Vol. 2. London: School of Oriental and African Studies, University of
+London, 1995.</p>
+<p>[97] D. A. Holisky and R. Gagua. “Tsova-Tush (Batsbi)”. In: <em>The
+indigenous languages of the Caucasus. Volume 4. Part 2</em>. Ed. by R.
+Smeets. Delmar NY: Caravan Books, 1994, pp. 147-212.</p>
+<p>[98] G. X. Ibragimov. <em>Caxurskij jazyk [Tsakhur language]</em>.
+Moskva: Nauka, 1990.</p>
+<p>[99] G. X. Ibragimov. <em>Rutulʹskij jazyk [Rutul]</em>. Moskva:
+Akademija Nauk SSSR, 1978.</p>
+<p>[100] G. X. Ibragimov. <em>Rutulʹskij jazyk [Rutul]</em>. Maxačkala:
+Narody Dagestana, 2004.</p>
+<p>[101] G. X. Ibragimov and J. M. Nurmamedov. <em>Caxursko-russkij
+slovarʹ [Tsakhur-Russian dictionary]</em>. Maxačkala: Dagestanskij
+Gosudarstvennyj Pedagogičeskij Universitet, 2010.</p>
+<p>[102] M. A. Isaev. <em>Russko-darginskij slovarʹ [Russian-Dargwa
+dictionary]</em>. Maxačkala: Institut istorii, jazyka i literatury im.
+G. Cadasy, 2001.</p>
+<p>[103] I. A. Isakov and M. Š. Xalilov. <em>Gunzibskij jazyk (Fonetika.
+Morfologija. Slovoobrazovanie. Leksika. Teksty) [Hunzib (Phonetics,
+Morphology, Word-Formation, Lexicon, Texts)]</em>. Maxačkala: Institut
+istorii, jazyka i literatury im. G. Cadasy, 2012.</p>
+<p>[104] I. A. Isakov and M. Š. Xalilov. <em>Gunzibsko-russkij slovarʹ
+[Hunzib-Russian dictionary]</em>. Maxačkala: DNC RAN Institut jazyka,
+literatury i iskusstva im. G. Cadasy i Institut évoljucionnoj
+antropologii im. M. Planka, 2001.</p>
+<p>[105] É. I. Ismailova. <em>Russko-rutulʹskij slovarʹ [Russian-Rutul
+dictionary]</em>. Maxačkala: DNC RAN Institut jazyka, literatury i
+iskusstva im. G. Cadasy i Institut évoljucionnoj antropologii im. M.
+Planka, 2011.</p>
+<p>[106] N. F. Jakovlev. <em>Morfologija čečenskogo jazyka [Chechen
+morphology]</em>. Groznyj: Izdatelʹstvo Akademii nauk SSSR, 1960.</p>
+<p>[107] L. Johanson. “Turkic indirectivity”. In: <em>The Oxford
+Handbook of Evidentiality</em>. Ed. by A. Y. Aikhenvald. Oxford: Oxford
+University Press, 2018, pp. 510-524.</p>
+<p>[108] X. A. Jusupov. <em>Darginsko-russkij slovarʹ [Dargwa-Russian
+dictionary]</em>. Maxačkala: Institut istorii, jazyka i literatury im.
+G. Cadasy, 2014.</p>
+<p>[109] E. J. Kalinina. “Predloženija s imennym skazuemym [Clause with
+a nominal subject]”. In: <em>Élementy caxurskogo jazyka v tipologičeskom
+osveščenii [Elements of Tsakhur grammar in a typological
+perspective]</em>. Ed. by A. E. Kibrik. Nasledie: Moskva, 1999,
+pp. 420-448.</p>
+<p>[110] S. A. Kalmykova and M. F. Sarueva. <em>Grammatika nogajskogo
+jazyka [Nogai grammar]</em>. Čerkessk: Stavropolʹskoe knižnoe
+izdatelʹstvo, 1973.</p>
+<p>[111] M. V. Kankava. <em>Gruzinsko-russkij slovarʹ [Georgian-Russian
+dictionary]</em>. Tbilisi: Sakartvelos macie, 2001.</p>
+<p>[112] A. T. Karasaev and A. G. Maciev. <em>Russko-čečenskij slovarʹ
+[Russian-Chechen dictionary]</em>. Moskva: Russkij jazyk, 1978.</p>
+<p>[113] S. Kaye, A. Martynova, G. Moroz, et al. “A sketch of Andi (Zilo
+dialect)”. Berlin/New York, 2020.</p>
+<p>[114] K. I. Kazenin. <em>Sintaksis sovremennogo lakskogo jazyka
+[Syntax of contemporary Lak]</em>. Maxačkala: IJaLI, 2013.</p>
+<p>[115] K. R. Kerimov. <em>Glagol xinalugskogo jazyka [Verbs of
+Khinalug]</em>. Maxačkala: Institut istorii, jazyka i literatury im. G.
+Cadasy, 1985.</p>
+<p>[116] Z. Khalilova. “A grammar of Khwarshi”. PhD thesis. University
+of Leiden, 2009.</p>
+<p>[117] Z. Khalilova. “Evidentiality in Tsezic languages”. In:
+<em>Linguistic Discovery</em> 9.2 (2011), pp. 30-48.</p>
+<p>[118] A. A. Kibrik. “Absentiv-aorist und resultativ in der andischen
+Sprache”. In: <em>Sprachen Europas und Asiens</em>. Ed. by H. Fähnrich.
+Jena: Friedrich Schiller Universität, 1985, pp. 55-66.</p>
+<p>[119] A. E. Kibrik. “Archi”. In: <em>The Indigenous Languages of the
+Caucasus. Vol. 4: The Northeast Caucasian Languages. Part 2</em>. Ed. by
+R. Smeets. Delmar, NY: Caravan Press, 1994, pp. 297-365.</p>
+<p>[120] A. E. Kibrik. <em>Arčinskij jazyk. Teksty i slovari [Archi.
+Texts and dictionaries]</em>. Moskva: Izdatelʹstvo Akademii nauk SSSR,
+1977.</p>
+<p>[121] A. E. Kibrik. <em>Élementy caxurskogo jazyka v tipologičeskom
+osveščenii [Elements of Tsakhur grammar in a typological
+perspective]</em>. Nasledie: Moskva, 1999.</p>
+<p>[122] A. E. Kibrik. “Khinalug”. In: <em>The Indigenous Languages of
+the Caucasus. Vol. 4: The Northeast Caucasian Languages. Part 2</em>.
+Ed. by R. Smeets. Delmar, NY: Caravan Press, 1994, pp. 367-406.</p>
+<p>[123] A. E. Kibrik. <em>Opyt strukturnogo opisanija arčinskogo
+jazyka. Tom II. Taksonomičeskaja grammatika [Structural description of
+Archi. Volume II. Taxonomic grammar]</em>. Moskva: Izdatelʹstvo Akademii
+nauk SSSR, 1977.</p>
+<p>[124] A. E. Kibrik. <em>Opyt strukturnogo opisanija arčinskogo
+jazyka. Tom III. Dinamičeskaja grammatika [Structural description of
+Archi. Volume III. Dynamic grammar]</em>. Moskva: Izdatelʹstvo Akademii
+nauk SSSR, 1977.</p>
+<p>[125] A. E. Kibrik. “Semantičeskaja érgativnostʹ [Semantic
+ergativity]”. In: <em>Élementy caxurskogo jazyka v tipologičeskom
+osveščenii [Elements of Tsakhur grammar in a typological
+perspective]</em>. Ed. by A. E. Kibrik. Nasledie: Moskva, 1999,
+pp. 347-353.</p>
+<p>[126] A. E. Kibrik, K. I. Kazenin, E. A. Ljutikova, et al.
+<em>Bagvalinskij jazyk. Grammatika, teksty, slovari [The Bagvalal
+language. Grammar, texts, dictionary]</em>. Moskva: Nasledie, 2001.</p>
+<p>[127] A. E. Kibrik and S. V. Kodzasov. <em>Sopostavitelʹnoe izučenie
+dagestanskix jazykov. Imja. Fonetika [A comparative study of
+Daghestanian languages. Noun. Phonetics]</em>. Moskva: Izdatelʹstvo
+Akademii nauk SSSR, 1990.</p>
+<p>[128] A. E. Kibrik, S. V. Kodzasov, and I. P. Olovjannikova.
+<em>Fragmenty grammatiki xinalugskogo jazyka [Fragments of Khinalug
+grammar]</em>. Moskva: Izdatelʹstvo Akademii nauk SSSR, 1972.</p>
+<p>[129] A. E. Kibrik, S. V. Kodzasov, O. I. P., et al. <em>Opyt
+strukturnogo opisanija arčinskogo jazyka. Tom I. Leksika i fonetika
+[Structural description of Archi. Volume I. Vocabulary and
+phonetics]</em>. Moskva: Izdatelʹstvo Moskovskogo universiteta,
+1977.</p>
+<p>[130] A. Kibrik, S. Tatevosov, and A. Eulenberg. <em>Godoberi</em>.
+Munich/Newcastle: Lincom Europa, 1996.</p>
+<p>[131] A. Kozhukhar. “The self-pronoun in Mehweb”. In: <em>The Mehweb
+language. Essays on phonology, morphology and syntax</em>. Ed. by M.
+Daniel, N. Dobrushina and D. Ganenkov. Berlin: Language Science Press,
+2019, pp. 271-293.</p>
+<p>[132] N. A. Kozintseva. “Perfect forms as a means of expressing
+evidentiality in Modern Eastern Armenian”. In: <em>Evidentials. Turkic,
+Iranian and neighbouring languages</em>. Ed. by L. Johanson and B. Utas.
+Berlin/New York: Mouton de Gruyter, 2000, pp. 401-418.</p>
+<p>[133] A. G. Maciev. <em>Čečensko-russkij slovarʹ [Chechen-Russian
+dictionary]</em>. Moskva: Gosudarstvennoe izdatelʹstvo inostrannyx i
+nacionalʹnyx slovarej, 1961.</p>
+<p>[134] G. I. Madieva. <em>Grammatičeskij očerk bežtinskogo jazyka
+[Grammatical profile of Bezhta]</em>. Maxačkala: DGU, 1965.</p>
+<p>[135] Z. M. Magomedbekova. <em>Axvaxskij jazyk [Akhvakh]</em>.
+Tbilisi: Mecniereba, 1967.</p>
+<p>[136] Z. M. Magomedbekova. “Botlixskij jazyk [Botlikh]”. In:
+<em>Jazyki mira. Kavkazskie jazyki [Languages of the world. Caucasian
+languages]</em>. Ed. by M. E. Alekseev and dr.. Moskva: Academia, 2001,
+pp. 228-236.</p>
+<p>[137] Z. M. Magomedbekova. <em>Karatinskij jazyk [Karata]</em>.
+Tbilisi: Mecniereba, 1971.</p>
+<p>[138] Z. M. Magomedbekova. “Tindinskij jazyk [Tindi]”. In: <em>Jazyki
+mira. Kavkazskie jazyki [Languages of the world. Caucasian
+languages]</em>. Ed. by M. E. Alekseev and dr.. Moskva: Academia, 1998,
+pp. 25-32.</p>
+<p>[139] S. N. I. Magomedov Amirbek D. <em>Kubačinsko-russkij slovarʹ
+[Kubachi-Russian dictionary]</em>. Sankt-Peterburg: Nauka, 2017.</p>
+<p>[140] P. T. Magomedova. <em>Bagvalinsko-russkij slovarʹ
+[Bagvalal-Russian dictionary]</em>. Maxačkala: IJaLI, 2004.</p>
+<p>[141] P. T. Magomedova. <em>Čamalinsko-russkij slovarʹ
+[Chamalal-Russian dictionary]</em>. Maxačkala: IJaLI, 1999.</p>
+<p>[142] P. T. Magomedova. <em>Tindinskij jazyk [Tindi]</em>. Maxačkala:
+IJaLI, 2012.</p>
+<p>[143] P. T. Magomedova. <em>Tindinsko-russkij slovarʹ [Tindi-Russian
+dictionary]</em>. Maxačkala: IJaLI, 2003.</p>
+<p>[144] P. T. Magomedova and I. A. Abdulaeva. <em>Axvaxsko-russkij
+slovarʹ [Akhvakh-Russian dictionary]</em>. Maxačkala: IJaLI, 2007.</p>
+<p>[145] P. T. Magomedova and R. Š. Xalidova. <em>Karatinsko-russkij
+slovarʹ [Karata-Russian dictionary]</em>. Maxačkala: IJaLI, 2001.</p>
+<p>[146] A. A. Magometov. <em>Agulʹskij jazyk [Agul]</em>. Tbilisi:
+Mecniereba, 1970.</p>
+<p>[147] A. A. Magometov. <em>Kubačinskij jazyk [Kubachi]</em>. Tbilisi:
+Akademija Nauk Gruzinskoj SSR, 1963.</p>
+<p>[148] A. A. Magometov. <em>Megebskij dialekt darginskogo jazyka:
+issledovanie i teksty [Mehweb dialect of Dargwa: research and
+texts]</em>. Tbilisi: Mecniereba, 1982.</p>
+<p>[149] A. A. Magometov. <em>Tabasaranskij jazyk: issledovanie i teksty
+[Tabasaran: research and texts]</em>. Tbilisi: Mecniereba, 1965.</p>
+<p>[150] T. Maisak. <em>Affixal, phrasal and clausal caritives in
+Nakh-Daghestanian</em>. 2020.</p>
+<p>[151] T. Maisak. “Structural and functional variations of the perfect
+in Lezgic languages”. In: <em>The perfect volume</em>. Ed. by K. M. Eide
+and M. Fryd. Amsterdam: John Benjamins, 2021, pp. 88-115.</p>
+<p>[152] T. Maisak. “Tense and aspect among the factors conditioning the
+distribution of quotatives: data from Andi”. 12th Conference of the
+Association for Linguistic Typology (ALT) Workshop ``Reported speech as
+a syntactic domain’’ Canberra, 15 December 2017. Hand-out. 2017.</p>
+<p>[153] T. Maisak. “The Aorist/Perfect distinction in Nizh Udi”. In:
+<em>The semantics of verbal categories in Nakh-Daghestanian
+languages</em>. Ed. by D. Forker and T. Maisak. Leiden: Brill, 2018,
+pp. 120-165.</p>
+<p>[154] T. Maisak and D. Ganenkov. “Aghul”. In: <em>Word-Formation. An
+International Handbook of the Languages of Europe. Volume 5</em>. Ed. by
+P. O. Müller, I. Ohnheiser, S. Olsen and F. Rainer. Berlin/Boston: De
+Gruyter Mouton, 2016, pp. 3579-3594.</p>
+<p>[155] T. Maisak and S. Tatevosov. “Beyond evidentiality and
+mirativity. Evidence from Tsakhur”. In: <em>L’Énonciation médiatisée
+II</em>. Ed. by Z. Guentchéva and J. Landabaru. Louvain/Paris/Dudley MA:
+Peeters, 2007, pp. 377-406.</p>
+<p>[156] T. A. Majsak. <em>Agulʹskie teksty 1900-1960-x godov. [Agul
+texts of the 1900-1960s]</em>. Moskva: Academia, 2014.</p>
+<p>[157] T. A. Majsak. “Glagolʹnaja paradigma udinskogo jazyka (Nidžskij
+dialekt) [Verb paradigm in Udi (Nizh dialect)]”. In: <em>Udinskij
+sbornik: grammatika, leksika, istorija jazyka [Udi. Grammar. Lexicon.
+History of the language]</em>. Ed. by M. E. Alekseev, T. A. Majsak, D.
+S. Ganenkov and J. A. Lander. Moskva: Akademija, 2008, pp. 96-161.</p>
+<p>[158] T. A. Majsak. “Glagolʹnaja sistema rikvaninskogo govora
+andijskogo jazyka: formoobrazovanie [The verbal system of the Rikvani
+dialect of Andi: inflection]”. 2016.</p>
+<p>[159] T. A. Majsak. <em>Kratkij russko-udinskij razgovornik (Nidžskij
+dialekt) [Short Udi phrasebook (Nizh dialect)]</em>. Accessed:
+2021-12-17. 2006.</p>
+<p>[160] T. A. Majsak. “Perfekt i aorist v nidžskom dialekte udinskogo
+jazyka [Perfect and aorist in the Nizh dialect of Udi]”. In:
+<em>Tipologija perfekta</em>. Ed. by T. A. Majsak, V. A. Plungjan and K.
+P. Semënova. Sankt-Peterburg: Nauka, 2016, pp. 315-378.</p>
+<p>[161] T. A. Majsak and M. É. Čumakina. “Diskursivnye časticy
+[Discursive particles]”. In: <em>Bagvalinskij jazyk. Grammatika, teksty,
+slovari [The Bagvalal language. Grammar, texts, dictionaries]</em>. Ed.
+by A. E. Kibrik, E. A. Ljutikova and S. G. Tatevosov. Moskva: Nasledie,
+2001, pp. 702-723.</p>
+<p>[162] T. A. Majsak and S. R. Merdanova. <em>Glagolʹnaja sistema
+xpjukskogo govora agulʹskogo jazyka [Verb system of Huppuk Agul]</em>.
+Manuscript, 2002. <a
+href="http://www.lingvarium.org/maisak/publ/Maisak_Merdanova-2002-verb.pdf"
+class="uri">http://www.lingvarium.org/maisak/publ/Maisak_Merdanova-2002-verb.pdf</a>.</p>
+<p>[163] T. A. Majsak and S. R. Merdanova. “Kategorija évidencialʹnosti
+v agulʹskom jazyke [The category of evidentiality in Agul]”. In:
+<em>Kavkazovedenie</em> (2002), pp. 102-112.</p>
+<p>[164] T. A. Majsak and S. R. Merdanova. “Perfekt i smežnye značenija
+v agulʹskom jazyke [The perfect and adjacent meanings in Agul]”. In:
+<em>Tipologija perfekta [Typology of the perfect]</em>. Ed. by T. A.
+Majsak, V. A. Plungjan and K. P. Semënova. Sankt-Peterburg: Nauka, 2016,
+pp. 379-422.</p>
+<p>[165] T. A. Majsak and S. G. Tatevosov. “Évidencialʹnostʹ
+[Evidentiality]”. In: <em>Bagvalinskij jazyk. Grammatika, teksty,
+slovari [The Bagvalal language. Grammar, texts, dictionaries]</em>. Ed.
+by A. E. Kibrik, E. A. Ljutikova and S. G. Tatevosov. Moskva: Nasledie,
+2001, pp. 293-318.</p>
+<p>[166] T. A. Majsak and S. G. Tatevosov. “Kodirovanie épistemičeskogo
+statusa sredstvami morfosintaksisa [Encoding of epistemic status with
+morphosyntactic means]”. In: <em>Voprosy jazykoznanija</em> (1998),
+pp. 60-88.</p>
+<p>[167] Z. M. Mallaeva. <em>Glagol avarskogo jazyka: struktura,
+semantika, funkcii [The verb in Avar: structure, semantics,
+functions]</em>. Maxačkala: IJaLI, 2007.</p>
+<p>[168] S. M. Maxmudova. “Grammatičeskie klassy slov i grammatičeskie
+kategorii rutulʹskogo jazyka [Grammatical word classes and grammatical
+categories of Rutul]”. PhD thesis. DGU, 2002.</p>
+<p>[169] U. A. Mejlanova. <em>Buduxsko-russkij slovarʹ [Budukh-Russian
+dictionary]</em>. Moskva: Nauka, 1984.</p>
+<p>[170] S. R. Merdanova. <em>Morfologija i grammatičeskaja semantika
+agulʹskogo jazyka (na materiale xpjukskogo govora) [Morphology and
+grammatical semantics of Agul language based on Khpyuk dialect]</em>.
+Moskva: RAN IJa, 2004.</p>
+<p>[171] K. Š. Mikajlov. <em>Arčinskij jazyk [Archi]</em>. Maxačkala:
+IJaLI, 1967.</p>
+<p>[172] R. B. Mobili. <em>Udinsko-azerbajdžansko-russkij slovarʹ
+[Udi-Azerbaijani-Russian dictionary]</em>. Baku: Leman, 2010.</p>
+<p>[173] Z. Molochieva. “Category of evidentiality and mirativity in
+Chechen”. Conference on the Languages of the Caucasus, 7-9.12.2007, Max
+Planck Institute EVA, Leipzig. Hand-out. 2007.</p>
+<p>[174] Z. Molochieva. “Tense, aspect and mood in Chechen”. PhD thesis.
+Universität Leipzig, 2010.</p>
+<p>[175] G. Moroz. “Phonology of Mehweb”. In: <em>The Mehweb language.
+Essays on phonology, morphology and syntax</em>. Ed. by M. Daniel, N.
+Dobrushina and D. Ganenkov. Berlin: Language Science Press, 2019,
+pp. 17-37.</p>
+<p>[176] G. Moroz, C. Naccarato, and S. Verhees. “Godoberi”. Berlin/New
+York, 2021.</p>
+<p>[177] K. M. Musaev. <em>Nogajsko-russkij slovarʹ [Nogai-Russian
+dictionary]</em>. Moskva: Nauka, 2018.</p>
+<p>[178] M. M. Musaev. <em>Darginskij jazyk [The Dargwa language]</em>.
+Moskva: Akademija, 2002.</p>
+<p>[179] R. Mutalov. “The tense/aspect system of Standard Dargwa”. In:
+<em>The semantics of verbal categories in Nakh-Daghestanian
+languages</em>. Ed. by D. Forker and T. Maisak. Leiden: Brill, 2018,
+pp. 49-79.</p>
+<p>[180] R. O. Mutalov. <em>Glagol Darginskogo jazyka [The verb in
+Dargwa]</em>. Maxačkala: Izdatelʹsko-poligrofičeskij centr DGU,
+2002.</p>
+<p>[181] A. N.Š. <em>Russko-lezginskij razgovornik [Russian-Lezgian
+phrasebook]</em>. Accessed: 2021-12-17. Maxačkala, 2005.</p>
+<p>[182] M. N. Naftaliev. <em>Evrejsko (džuuri)-russkij slovarʹ
+[Juhuri-Russian dictionary]</em>. Moskva: STMÉGI, 2016.</p>
+<p>[183] J. Nichols. “Chechen”. In: <em>The Indigenous Languages of the
+Caucasus, vol. 4: The Northeast Caucasian Languages, Part 2</em>. Ed. by
+R. Smeets. Delmar, NY: Caravan Press, 1994, pp. 1-77.</p>
+<p>[184] J. Nichols. “Ingush”. In: <em>The Indigenous Languages of the
+Caucasus, vol. 4: The Northeast Caucasian Languages, Part 2</em>. Ed. by
+R. Smeets. Delmar, NY: Caravan Press, 1994, pp. 79-145.</p>
+<p>[185] J. Nichols. <em>Ingush grammar</em>. Berkeley/Los Angeles:
+University of California Press, 2011.</p>
+<p>[186] J. Nichols. <em>Useful phrases in Ingush</em>. Accessed:
+2021-12-17. Berkeley/Los Angeles, 2021.</p>
+<p>[187] J. Pasquereau. “Formes spatiales des noms en karata: emplois
+spatiaux et non-spatiaux”. MA Thesis. Université Lumière Lyon II,
+2010.</p>
+<p>[188] J. Pasquereau. “Karata”. Berlin/New York, 2020.</p>
+<p>[189] M. Polinsky. “Tsez Syntax: A Description”. 2015.</p>
+<p>[190] M. R. Ramazanov. <em>Agulʹsko-russkij slovarʹ [Agul-Russian
+dictionary]</em>. Maxačkala: Lotos, 2010.</p>
+<p>[191] S. M. Saadiev. “Kryts”. In: <em>The Indigenous Languages of the
+Caucasus. Vol. 4: The Northeast Caucasian Languages. Part 2</em>. Ed. by
+R. Smeets. Delmar, NY: Caravan Press, 1994, pp. 407-446.</p>
+<p>[192] P. A. Saidova. “Botlixskij jazyk [Botlikh]”. In: <em>Jazyki
+Rossijskoj Federacii i sosednix gosudarstv. Énciklopedija v trex tomax
+[The languages of Russia and adjacent states. Encyclopaedia in three
+volumes]</em>. Moskva: Academia, 2001, pp. 222-228.</p>
+<p>[193] P. A. Saidova. <em>Dialektologičeskij slovarʹ avarskogo jazyka
+[Avar dialect dictionary]</em>. Sankt-Peterburg: Nauka, 2008.</p>
+<p>[194] P. A. Saidova. <em>Godoberinskij jazyk. Grammatičeskij očerk,
+teksty, slovarʹ [Godoberi. Grammar, texts, dictionary]</em>. Maxačkala:
+IJaLI, 1973.</p>
+<p>[195] P. A. Saidova. <em>Godoberinsko-russkij slovarʹ
+[Godoberi-Russian dictionary]</em>. Maxačkala: DNC RAN Institut jazyka,
+literatury i iskusstva im. G. Cadasy i Institut évoljucionnoj
+antropologii im. M. Planka, 2006.</p>
+<p>[196] P. A. Saidova. <em>Zakatalʹskij dialekt avarskogo jazyka [The
+Zaqatala dialect of Avar]</em>. Maxačkala: IJaLI, 2007.</p>
+<p>[197] P. A. Saidova and M. G. Abusov. <em>Botlixsko-russkij slovarʹ
+[Botlikh-Russian dictionary]</em>. Maxačkala: DNC RAN Institut jazyka,
+literatury i iskusstva im. G. Cadasy i Institut évoljucionnoj
+antropologii im. M. Planka, 2012.</p>
+<p>[198] X. S. Salimov. <em>Gagatlinskij govor andijskogo jazyka [The
+Gagatli dialect of Andi]</em>. Maxačkala: IJaLI, 2010.</p>
+<p>[199] D. N. Šaxbanova. “Butrinskij govor darginskogo jazyka [The
+Butri dialect of Dargwa]”. PhD thesis. Dagestanskij Gosudarstvennyj
+Pedagogičeskij Universitet, 2007.</p>
+<p>[200] W. Schulze. “A functional grammar of Udi”. 2005.</p>
+<p>[201] W. Schulze. <em>Die Sprache der Uden in Nord-Azerbajdžan</em>.
+Wiesbaden: Otto Harrasowitz, 1982.</p>
+<p>[202] W. Schulze. “Khinalug”. In: <em>Word-Formation. An
+International Handbook of the Languages of Europe. Volume 5</em>. Ed. by
+P. O. Müller, I. Ohnheiser, S. Olsen and F. Rainer. Berlin/Boston: De
+Gruyter Mouton, 2016, pp. 3605-3622.</p>
+<p>[203] W. Schulze. “Lak”. In: <em>Word-Formation. An International
+Handbook of the Languages of Europe. Volume 5</em>. Ed. by P. O. Müller,
+I. Ohnheiser, S. Olsen and F. Rainer. Berlin/Boston: De Gruyter Mouton,
+2016, pp. 3622-3638.</p>
+<p>[204] W. Schulze. “Udi”. In: <em>Word-Formation. An International
+Handbook of the Languages of Europe. Volume 5</em>. Ed. by P. O. Müller,
+I. Ohnheiser, S. Olsen and F. Rainer. Berlin/Boston: De Gruyter Mouton,
+2016, pp. 3564-3578.</p>
+<p>[205] É. M. Šejxov. “Sistema poslelogov v buduxskom jazyke”. In:
+<em>Sistema preverbov i poslelogov v iberijsko-kavkazskix jazykax [The
+system of preverbs and postpositions in Caucasian languages]</em>. Ed.
+by N. T. Tabulova and R. X. Temirova. Čerkessk: Karačaevo-čerkesskij NII
+istorii, filologii i ékonomiki, 1983, pp. 282-287.</p>
+<p>[206] M. Š. Širaliev and É. V. Sevortjan. <em>Grammatika
+azerbajdžanskogo jazyka (fonetika, morfologija, sintaksis) [Azerbaijani
+grammar (phonetics, morphology, syntax)]</em>. Baku: Élm, 1971.</p>
+<p>[207] T. B. Sosenskaja. “Čislitelʹnoe [Numeral]”. In: <em>Élementy
+caxurskogo jazyka v tipologičeskom osveščenii [Elements of the Tsakhur
+language in a typological perspective]</em>. Ed. by A. E. Kibrik and S.
+G. Tatevosov. Moskva: Nasledie, 1999, pp. 152-180.</p>
+<p>[208] T. B. Sosenskaja. “Poslelog [Postposition]”. In: <em>Élementy
+caxurskogo jazyka v tipologičeskom osveščenii [Elements of the Tsakhur
+language in a typological perspective]</em>. Ed. by A. E. Kibrik and S.
+G. Tatevosov. Moskva: Nasledie, 1999, pp. 121-129.</p>
+<p>[209] T. B. Sosenskaja. “Sravnitelʹnye konstrukcii [Comparative
+constructions]”. In: <em>Élementy caxurskogo jazyka v tipologičeskom
+osveščenii [Elements of the Tsakhur language in a typological
+perspective]</em>. Ed. by A. E. Kibrik and S. G. Tatevosov. Moskva:
+Nasledie, 1999, pp. 560-568.</p>
+<p>[210] T. B. Sosenskaja. “Sravnitelʹnye konstrukcii [Comparative
+constructions]”. In: <em>Bagvalinskij jazyk. Grammatika, teksty, slovari
+[The Bagvalal language. Grammar, texts, dictionaries]</em>. Ed. by A. E.
+Kibrik, E. A. Ljutikova and S. G. Tatevosov. Moskva: Nasledie, 2001,
+pp. 408-424.</p>
+<p>[211] T. Sosenskaja and S. Tatevosov. “Comparative construction”. In:
+<em>Godoberi</em>. Ed. by A. Kibrik, S. Tatevosov and A. Eulenberg.
+Munich/Newcastle: Lincom Europa, 1996, pp. 167-169.</p>
+<p>[212] J. G. Sulejmanov. “Grammatičeskij očerk andijskogo jazyka (po
+dannym govora s. Rikvani) [A grammar sketch of Andi (based on data from
+the Rikvani dialect)]”. PhD thesis. Moskva: Institut jazykoznanija RAN
+SSSR, 1957.</p>
+<p>[213] D. I. Sulejmanova. “Nazvanija životnyx v botlixskom jazyke
+[Animal names in Botlikh]”. In: <em>Vestnik VÉGU</em> 65.3 (2013), pp.
+195-198.</p>
+<p>[214] N. R. Sumbatova and J. A. Lander. <em>Darginskij govor selenija
+Tanty: grammatičeskij očerk. Voprosy sintaksisa</em>. Moskva: Jazyki
+slavjanskoj kulʹtury, 2014.</p>
+<p>[215] N. R. Sumbatova and R. O. Mutalov. <em>A Grammar of Icari
+Dargwa</em>. Munich: Lincom Europa, 2003.</p>
+<p>[216] B. B. Talibov. <em>Buduxskij jazyk [Budukh]</em>. Moskva:
+Akademija, 2007.</p>
+<p>[217] B. B. Talibov and M. M. Gadžiev. <em>Lezginsko-russkij slovarʹ
+[Lezgian-Russian dictionary]</em>. Moskva: Sovetskaja Énciklopedija,
+1966.</p>
+<p>[218] S. Tatevosov. “Attributives”. In: <em>Godoberi</em>. Ed. by A.
+E. Kibrik, S. G. Tatevosov and A. Eulenberg. Munich/Newcastle: Lincom
+Europa, 1996, pp. 20-35.</p>
+<p>[219] S. Tatevosov. “From resultatives to evidentials: Multiple uses
+of the perfect in Nakh-Daghestanian languages”. In: <em>Journal of
+Pragmatics</em> 33.3 (2001), pp. 443-464.</p>
+<p>[220] S. Tatevosov. “Quantification”. In: <em>Godoberi</em>. Ed. by
+A. E. Kibrik, S. G. Tatevosov and A. Eulenberg. Munich/Newcastle: Lincom
+Europa, 1996, pp. 237-255.</p>
+<p>[221] S. G. Tatevosov. “Analitičeskie glagolʹnye formy [Analytical
+verb forms]”. In: <em>Bagvalinskij jazyk. Grammatika, teksty, slovari
+[The Bagvalal language. Grammar, texts, dictionaries]</em>. Ed. by A. E.
+Kibrik, E. A. Ljutikova and S. G. Tatevosov. Moskva: Nasledie, 2001, pp.
+105-115.</p>
+<p>[222] S. G. Tatevosov. “Čislitelʹnoe [Numeral]”. In: <em>Bagvalinskij
+jazyk. Grammatika, teksty, slovari [The Bagvalal language. Grammar,
+texts, dictionaries]</em>. Ed. by A. E. Kibrik, E. A. Ljutikova and S.
+G. Tatevosov. Moskva: Nasledie, 2001, pp. 155-159.</p>
+<p>[223] S. G. Tatevosov. “Évidencialʹnostʹ i admirativ v bagvalinskom
+jazyke [Evidentiality and admirative in Bagvalal]”. In:
+<em>Évidencialʹnostʹ v jazykax Evropy i Azii: sbornik statej pamjati
+Natalʹi Andreevny Kozincevoj [Evidentiality in the languages of Europe
+and Asia: papers in honor of Natal’ja Andreevna Kozinceva]</em>. Ed. by
+V. S. Xrakovskij. Sankt-Peterburg: Nauka, 2007, pp. 351-397.</p>
+<p>[224] S. M. Temirbulatova. <em>Xajdakskij dialekt darginskogo jazyka
+[Khaidak dialect of Dargwa]</em>. Maxačkala: Institut jazyka, literatury
+i iskusstva im. G. Cadasy, 2004.</p>
+<p>[225] J. G. Testelec and M. Š. Xalilov. “Bežtinskij jazyk [Bezhta]”.
+In: <em>Jazyki mira. Kavkazskie jazyki [Languages of the world.
+Caucasian languages]</em>. Ed. by M. E. Alekseev and dr.. Moskva:
+Academia, 1998, pp. 44-53.</p>
+<p>[226] S. Verhees. “The perfect in Avar and Andi: Cross-linguistic
+variation among two closely related East Caucasian languages”. In:
+<em>Tense, aspect, modality and evidentiality: Cross-linguistic
+perspectives</em>. Ed. by D. Ayoun, A. Celle and L. Lansari. Amsterdam:
+John Benjamins, 2018, pp. 261-280.</p>
+<p>[227] S. Verhees and C. Naccarato. “Towards a tentative origin of
+animacy markers in Botlikh”. 2019.</p>
+<p>[228] D. J. Wilson. “A sketch of Sagada morphology”. In: <em>Durxʺasi
+xazna. Sbornik statej k 60-letiju R. O. Mutalova [Durqasi χazna. A
+collection of papers for R. O. Mutalov’s 60th birthday]</em>. Ed. by T.
+A. Majsak, N. R. Sumbatova and J. G. Testelec. Moskva: Institut
+jazykoznanija RAN, 2021, pp. 386-410.</p>
+<p>[229] S. M. Xajdakov. <em>Laksko-russkij slovarʹ [Lak-Russian
+dictionary]</em>. Moskva: Gosudarstvennoe izdatelʹstvo inostrannyx i
+nacionalʹnyx slovarej, 1962.</p>
+<p>[230] S. M. Xajdakov. <em>Očerki po lakskoj dialektologii [Sketches
+of Lak dialectology]</em>. Moskva: Nauka, 1966.</p>
+<p>[231] R. Š. Xalidova. “Lingvističeskij portret botlixskogo jazyka [A
+linguistic portrait of the Botlikh language]”. In: <em>Vestnik Akademii
+nauk Čečenskoj respubliki</em> 34.1 (2017), pp. 77-81.</p>
+<p>[232] M. Š. Xalilov. “Cezskij jazyk [Tsez]”. In: <em>Jazyki mira.
+Kavkazskie jazyki [Languages of the world. Caucasian languages]</em>.
+Ed. by M. E. Alekseev and dr.. Moskva: Academia, 1998, pp. 62-73.</p>
+<p>[233] M. Š. Xalilov. <em>Cezsko-russkij slovarʹ [Tsez-Russian
+dictionary]</em>. Maxačkala: DNC RAN Institut jazyka, literatury i
+iskusstva im. G. Cadasy i Institut évoljucionnoj antropologii im. M.
+Planka, 1999.</p>
+<p>[234] M. Š. Xalilov. <em>Slovarʹ bežtinskogo jazyka [A dictionary of
+the Bezhta language]</em>. Maxačkala: DNC RAN Institut jazyka,
+literatury i iskusstva im. G. Cadasy i Institut évoljucionnoj
+antropologii im. M. Planka, 2015.</p>
+<p>[235] M. Š. Xalilov and I. A. Isakov. <em>Ginuxsko-russkij slovarʹ
+[Hinuq-Russian dictionary]</em>. Maxačkala: DNC RAN Institut jazyka,
+literatury i iskusstva im. G. Cadasy i Institut évoljucionnoj
+antropologii im. M. Planka, 2005.</p>
+<p>[236] B. G. Xanmagomedov and K. T. Šalbuzov. <em>Tabasaransko-russkij
+slovarʹ [Tabasaran-Russian dictionary]</em>. Moskva: Nauka, 2001.</p>
+<p>[237] L. I. Žirkov. <em>Avarsko-russkij slovarʹ [Avar-Russian
+dictionary]</em>. Moskva: Gosudarstvennyj institut ““Sovetskaja
+énciklopedija, 1936.</p>
+<p>[238] L. I. Žirkov. <em>Lakskij jazyk [Lak]</em>. Moskva: Akademija,
+1955.</p>
+</div>
+</div>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+</head>
+
+<body>
+    <div class="footer-basic">
+        <footer>
+            
+            <div class='lic'><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br /><i>Typological Atlas of the languages of Daghestan </i> (<i>TALD</i>) is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+            <div class="social"><a href="https://github.com/LingConLab/TALD" target="_blank"><span class="iconify" data-icon="octicon:logo-github-16"></span></a></div>
+            </div>
+            
+            <p class="copyright">2020<script>new Date().getFullYear()>2020&&document.write("-"+new Date().getFullYear());</script>,  Linguistic Convergence Laboratory, HSE University</p>
+        </footer>
+    </div>
+    <script type="text/javascript" src="./js/links.js"></script> <!--это чтобы ссылки открывались в новом окне -->
+</body>
+
+</html>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

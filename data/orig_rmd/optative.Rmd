@@ -1,0 +1,220 @@
+```{r, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, comment = '')
+library(lingglosses)
+```
+
+## Introduction
+
+Optatives express a wish or hope of the speaker that something would happen. The term can be used for a dedicated morphological form, or for constructions that express the wish of the speaker but do not contain a lexical item whose primary meaning is that of wish or desire [@bybeeetal1994: 321], [@dobrushinaetal2013], [@nikolaeva2016: 77], [@grosz2012: 5]. This chapter describes the optatives which contain a dedicated affix; there is one case of a periphrastic optative in my data (in Kumyk, see below), but it also contains the dedicated suffix, which is why it is included here.
+
+Dedicated morphological optatives are rather infrequent, as was shown in the chapter on optatives in the World Atlas of Language Structures [@dobrushinaetal2013]. Only 48 of 319 surveyed languages in WALS have it, and many of them are found in northern India and Nepal and in the Caucasus. Indeed, most languages of the Caucasus have special morphological forms to express wish; some of them have several such forms, sometimes denoting different types of wish. Optatives are not only a linguistic, but a cultural feature of this region: blessings are common rituals, almost obligatorily accompanying everyday activities of village life.
+
+Since optatives are quite prominent in the grammar of Daghestanian languages, mentions of these forms can be found even in very brief descriptions. In the grammars written in Russian they are often called wish mood (желательное наклонение -- [@abdullaev1954: 172]), but they also can be also be referred to as jussive (юссив – [@maisakmerdanova2002], and even permissive (пермиссив -- [@comrieetal2015: 381]). The reason for these inconsistencies is not only the lack of terminological consensus, but also the fact that the forms which express optative meanings can have different functional scope.
+
+In the most clear cases, the optative expresses only blessings or curses, while another form is used to express indirect commands (the latter form is also referred to as 3rd person imperative or jussive); this is the case in Mehweb.
+
+(@one) Dargwa: Mehweb [@dobrushina2019: 143]
+```{r}
+gloss_example("ja-allah ħušab taliħ g-a-b!",
+              "PTCL-Allah(NOM) you.pl.DAT luck give:PFV-IRR-OPT",
+              "May [Allah] give [you] luck!")
+```
+
+(@two) Dargwa: Mehweb [@dobrushina2019: 143]
+```{r}
+gloss_example("musa uz-e bet'-a",
+              "Musa M.work:IPFV-IMP say:PFV-IMP.TR",
+              "Let Musa work.")
+```
+
+Many other languages combine these two functions in one form. For example, Rutul has the same form to express blessings and curses addressed to 1st, 2nd or 3rd persons, and to express 3rd person imperative. This form cannot be used to urge 1st or 2nd persons to do something:
+
+(@three) Rutul: Kina (Dobrushina, field data)
+```{r}
+gloss_example("zɨ/wɨ/had saʁ r-iš-ij",
+              "I/you/that healthy 2-become-OPT",
+              "May I/you/she be healthy.")
+```
+
+(@four) Rutul: Kina (Dobrushina, field data)
+```{r}
+gloss_example("said-a uq' sej-ij",
+              "Said-ERG grass mow-OPT",
+              "Said should mow the grass.")
+```
+
+(@five) Rutul: Kina (Dobrushina, field data)
+```{r}
+gloss_example("*wa-d uq' sej-ij",
+              "you-ERG grass mow-OPT",
+              "You should mow the grass.")
+```
+
+In this chapter, the forms of the Rutul type will be classified as optatives. I reserve the term jussive for forms which are restricted to 3rd person imperative (Mehweb, [@dobrushina2019: 133--138]), or combine 3rd person imperative with the expression of a wish with a 3rd person subject (Kumyk, [@gadzhiakhmedov2000]). The terms are presented in Table 1 (see also the discussion of these terms in Dobrushina [-@dobrushina2012]).
+
+#### Table 1. Optative and jussive
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+.tg .tg-8i8s{background-color:#D0CECE;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0lax"></th>
+    <th class="tg-0lax" colspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Optative </span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">(Mehweb form in -b)</span></th>
+    <th class="tg-0lax" colspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Optative </span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">(Rutul form in –Vj)</span></th>
+    <th class="tg-0lax" colspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Jussive </span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">(Kumyk form in –syn/-sin/-sun)</span></th>
+    <th class="tg-0lax" colspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Jussive </span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">(Mehweb form with bet’a)</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">persons</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">command</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">blessings and curses</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">command</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">blessings and curses</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">command</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">blessings and curses</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">command</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">blessings and curses</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">1</span></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-8i8s"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-8i8s"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">2</span></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-8i8s"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-8i8s"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">3</span></td>
+    <td class="tg-0lax"></td>
+    <td class="tg-8i8s"></td>
+    <td class="tg-8i8s"></td>
+    <td class="tg-8i8s"></td>
+    <td class="tg-8i8s"></td>
+    <td class="tg-8i8s"></td>
+    <td class="tg-8i8s"></td>
+    <td class="tg-0lax"></td>
+  </tr>
+</tbody>
+</table>
+
+<br>
+
+Some languages have several dedicated morphological optatives. For example, in most Dargwa languages two parallel forms are found, one of them marked by a suffix, another zero-marked and identical to the stem. Such a case is described for standard Dargwa [@mutalov2002], Itsari [@sumbatovamutalov2003], Sanzhi [@forker2020: 303--304], Tanty [@sumbatovalander2014: 132], and Shiri [@belyaevdraft2019]. In Mehweb (a Dargwa language which is spoken in isolation from other Dargwa languages), the zero-marked form is limited to several verbs. According to some descriptions [@abdullaev1954], [@mutalov2002], [@belyaevdraft2019], zero-marked optatives differ from suffixal optatives in that they express only blessings and curses, while at least in some Dargwa languages suffixal forms co-express optative and jussive. An unusual fact about Dargwa zero-optatives is that they are not verbs in the proper sense. As mentioned in [@abdullaev1954] (for standard Dargwa) and thoroughly discussed in [@sumbatovalander2014] for Tanty Dargwa, zero-optatives take nominal plural endings (@seven), can occur as arguments and can be marked for case (@eight):
+
+
+(@six) Dargwa: Tanty [@sumbatovalander2014: 132]
+```{r}
+gloss_example("ʕuˁ allah-li w=at",
+              "you Allah-ERG M=leave:PF",
+              "May Allah leave you!")
+```
+
+(@seven) Dargwa: Tanty [@sumbatovalander2014: 132]
+```{r}
+gloss_example("ʕuˁxːa allah-li d=at-are/-ar.te",
+              "you.PL Allah-ERG 1/2PL=leave-PL/-PL",
+              "May Allah leave you (PL)!")
+```
+
+(@eight) Dargwa: Tanty [@sumbatovalander2014: 133]
+```{r}
+gloss_example("sa=j allah-li w=at-la kulpat b=erq-ab!",
+              "self=M Allah-ERG M=leave:PF-GEN 	family 	N=blossom:IPF-OPT",
+              "May the family of this person blessed by Allah multiply!")
+```
+
+Similar properties characterize the Lak form in *-wuj*. In this chapter, such forms are considered as usual optatives, despite their nominal features. Even more optative forms were found in Godoberi. While the grammar by [@kibrik1996] mentions only the form in *-be*, the dictionary by [@saidova2006] contains examples of two more optative forms -- in *-beːƛ'a* and in *-wara*.
+
+(@nine) Godoberi [@saidova2006: 95]
+```{r}
+gloss_example("waša iman-ƛi-ssu w-uƛ-i-be",
+              "son faith-GEN-ATTR M-become-IMP-OPT",
+              "May he be a kind, noble son.")
+```
+
+(@ten) Godoberi [@saidova2006: 194]
+```{r}
+gloss_example("ho-rdu-ɬi taliħi ikki-beː-ƛ'a",
+              "that-OBL-DAT luck give-OPT-JUSS",
+              "May they be happy.")
+```
+
+(@eleven) Godoberi [@saidova2006: 39]
+```{r}
+gloss_example("aχirati c'aq'a-b ikk-u-wara du-ɬi",
+              "afterlife excellent-N give-CVB.PST-OPT you-GEN",
+              "May your afterlife be heavenly.")
+```
+
+While most optatives found in Daghestan express blessings and curses, there are rare cases of morphologically dedicated forms which encode another type of wish. Kumyk, a Turkic language spoken in Daghestan, uses three forms in the domain of wishes. Blessings and curses addressed to a 3rd person are expressed by the jussive in *-syn/-sin/-sun* (see Table 1). 2nd person blessings and curses are denoted by a dedicated optative in *-ɣur/-ɣyr/-gür/-gir* or *-ɣun/-ɣyn/-gin/-gün * (alternative forms). There is yet another optative to denote dreams and desires - a periphrastic form where the main verb with the dedicated suffix *-ɣaj* / *-gej* is combined with the past copula *edi*:
+
+(@twelve) Standard Kumyk [@gadzhiakhmedov2000: 126]
+```{r}
+gloss_example("jaxšy jangur jav-ɣaj edi, qurɣaq bol-up tur-a",
+              "good rain rain-OPT COP dry be-CVB stay-CVB",
+              "If only it would rain, it's too dry.")
+```
+
+## Results
+
+Although the majority of the languages of the Caucasus have dedicated inflectional optatives of some sort, there are some languages which do not. These are the Indo-European languages Armenian and Ossetic (note that the latter is not part of the language sample), and one language of the East Caucasian family -- Archi. The WALS chapter on optatives codes Archi as a language with a dedicated optative, because [@kibrik1977: 227] mentions an optative in *-t:an*. However, according to later research, this form is not used by Archi speakers anymore (Dobrushina, fieldwork), [@chumakina2018: 228--231]. The form in *-t:an* does not occur in the Archi corpus, and is known only to the elder speakers, who do not use it. Therefore, this form was not included in the sample, and Archi is classified as a language which has no dedicated optative. Although the speakers of Archi produce blessings and curses as frequently as other people in Daghestan do, they use a special construction for it: a 2nd person imperative combined with 1/2/3rd person subjects (first reported in [@kibrik1977: 221], further described in [@dobrushina2011]). A similar way of expressing optative meaning exists in some other languages, for example, in Karata, but is not mapped here, because it does not contain a dedicated affix.
+
+Map 1 reflects the number of dedicated inflectional optatives in the languages, ranging from zero to three. Other maps are devoted to certain structural patterns found in optatives. Quite often, the optative suffix is added to the imperative form, as is the case with the Avar optative suffix *-gi* [@alekseevetal2012: 224--225]: `r gloss_example("χut'a", "stay.IMP", intext = TRUE)` -- `r gloss_example("χut'a-gi", "stay.IMP-OPT", intext = TRUE)` (verb forms from [@gimbatov2006]). In many other languages optative is not related to imperative, as in Rutul. In some languages, there are exceptions: a few verb forms which are derived from a non-imperative stem, while most are derived from imperatives (for example, the Hinuq optative in *-ƛo*); such optatives are still qualified as imperative-based. Map 2 shows whether the optatives coincide with imperatives, with four values: imperative, non-imperative, both (if the language has several optative forms), or non-applicable (if the language has no dedicated optative). 
+
+Another feature concerns the optative suffix. The origin of the optative suffix is often unknown. However, there is one common source of optatives which can be traced back in some languages. In Avar-Ando-Tsezic and some other languages, optatives often have a suffix based on the imperative of ‘say’ (as was noticed in [@authier2015]). For example, in Khwarshi, the suffix *-ƛo* is based on the imperative of the verb ‘say’ *iƛo*:
+
+(@thirteen) Khwarshi: Kwantlada [@khalilova2009: 251]
+```{r}
+gloss_example("quq-a 	šeš-o-ƛo 	dublo",
+              "throat-IN 	stick-IMP-OPT 	you.GEN2",
+              "Let it (something) be stuck in your throat!")
+```
+
+Some other languages, such as Mehweb and Lak, also have volitional forms marked by a say-imperative, but they express only indirect commands (i.e. 3rd person imperative), while blessings and curses are conveyed by other forms. For this and some other reasons it seems quite plausible that say-optatives developed from jussives by the extension of their meaning to the expression of blessings and curses in all persons. Map 3 shows whether the suffix of the optative is related to the imperative of the verb ‘say’ or not, with four values: say, non-say, both (if the language has several optative forms), or non-applicable (if the language has no dedicated optative).
+These two features often correlate, because the suffix derived from the imperative of the verb ‘say’ is usually added to the imperative of the main verb, cf. Khwarshi *šeš-o-ƛo*, where *šešo* is an imperative of the verb ‘stick’ [tell.IMP (him) stick.IMP] ‘may (he) stick’). Other combinations of these features are also possible: two optatives in Avar are based on imperatives, but none of them have a say-marker. Tat, according to [@authier2012: 176], has an optative with a say-marker derived from the subjunctive. Mehweb has a non-imperative stem and a non-say marker.
+
+The next feature concerns negative optatives. In East Caucasian languages, the negative counterpart of the imperative is usually encoded by a special form, which is formally not related to the imperative, and is usually unique in the system of negative forms (see chapter [Prohibitives]()). Negative optatives vary in this respect. In some languages, the optative marker is added to the prohibitive; therefore, the negative optative contains the whole prohibitive form. For example, the Hinuq negative optative is built as a prohibitive with the optative suffix *-ƛo*, cf. `r gloss_example("kekir-om", "send-PROH", intext = TRUE)` and `r gloss_example("kekir-om-ƛo!", "send-PROH-OPT", intext = TRUE)` in [@forker2013: 231]. The Hinuq optative is mapped as having prohibitive negation. Meanwhile, the Kubachi negative optative does not contain the prohibitive, but has the same prefix *ma-/me-/mā-/mē-*, which is found in these two forms only. Compare the following forms of the verb ‘do’: *baq’-a* (imperative) -- *bīq’-mē-q’it* (imperfective prohibitive), *bāq’-ab* (optative) -- *bīq’-mē-q’-ab* (negative imperfective optative). Another example of such a case is Ingush, where the proclitic *my-* is used with imperatives and optatives in order to form prohibitives and negative optatives. Such cases are classified as having volitional negative markers. Finally, there are languages which use regular (indicative) negation for the negative optative, although prohibitive negation is also found in the language, cf. Agul *ruχ* ‘read’ -- *ma-ruχa* ‘don’t read’, but *xu-raj* ‘may [he] become’ -- *da-xu-raj* ‘may [he] not become’ [@maisakmerdanova2002]. Map 4 encodes negative optative, with five possible values: optatives with standard negation, prohibitive-based optatives, optatives with volitional negation, both (if the language has several optative forms), non-applicable (if the language has no dedicated optative or no dedicated prohibitive).
+
+In some languages, I came across forms which are in some sense irregular -- either they are not accepted by all speakers, or they are limited to several verbs. For example, Mehweb has a negative optative derived from the imperfective stem with prohibitive negation (*lug-a-b* ‘give (imperfective optative)’ - *mu-lug-a-b* (negative optative), as is typical for Dargwa languages, but the regular indicative negation can also be used in the negative optative, especially with the perfective stem (*g-a-b* ‘give (perfective optative)’ can have a negative optative *ħa-g-a-b*) [@dobrushina2019: 139]. Forms with indicative negation seem rarer, and Mehweb speakers vary in their evaluation of such forms -- some fully accept them, while others do not. The forms look like an innovation, which is probably due to the isolation of Mehweb from other Dargwa languages. Another example of irregularity also comes from Mehweb. As indicated earlier, Dargwa languages have a zero-marked optative along with a suffixal one. Mehweb also has a zero-marked optative, but only from several verbs: *w-ebk-a-b* -- *w-ebk’* ‘may he die!’ In all such cases, the irregular form was not included in the database and was not mapped.
+
+## Summary and distribution
+
+As for the number of optatives (Map 1), it is clear that it is not typical for East Caucasian languages to have no dedicated optatives. This feature was found in Nogai, Azerbaijani, Armenian, and Archi. The latter most likely lost its optative and did not develop a new one.
+
+Optatives which are based on imperatives are typical for Avar-Ando-Tsezic languages, and do not occur in the south of Daghestan, as follows from Map 2. It is always an interesting question where Lak and Dargwa varieties belong -- do they behave as southern languages (Lezgic and Khinalug) or as northern languages (Avar-Ando-Tsezic); in this case, Lak and Dargwa are similar to the languages of Lezgic group.
+
+Not surprisingly, a similar distribution is found for say-optatives (Map 3). The say-marker usually is added to the imperative, the optative form being conceptualized as an inducement to transmit the request to someone else: `r add_gloss("do.OPT=say-IMP do-IMP")`. Therefore, the optatives which have say-markers are based on imperatives. The reverse is not true: Andi, Avar, Bagvalal, Bezhta, Botlikh, Tsakhur, and Tsova-Tush have imperative-based optatives, but their suffixes are not related to the verb ‘say’. It is important to keep in mind, however, that there is another volitional form which can have a say-marker -- the jussive. For example, Lak and some Dargwa varieties have jussives based on the verb ‘say’.
+
+The distribution of negative optative patterns (Map 4) also correlates with the distribution of the imperative-based optative to a certain extent: most optatives which are based on imperatives have negative counterparts based on prohibitives, with the exceptions of Tsakhur, and Tsova-Tush (the latter has no prohibitive at all). Languages of the south have either standard negation (most Lezgic languages and Lak) or a special affix shared with the prohibitive, which is referred to as volitional negation in this chapter (Dargwa varieties, Rutul and Udi).
+
+## List of glosses {-}
+
+```{r}
+make_gloss_list(readxl::read_xlsx("../glosses.xlsx"))
+```
+
+## References {-}

@@ -1,0 +1,2 @@
+Depends: R (>= 3.5.0)
+Imports: tidyverse, testthat, RefManageR, readxl, bib2df
