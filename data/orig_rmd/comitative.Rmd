@@ -9,15 +9,17 @@ Comitative constructions express “accompaniment” relations, in which a “co
 
 (@one) _Julie came **with Mark**_.
 
-In the languages of the world, the companion in comitative constructions can be marked by means of different strategies, including case marking, clitics, and adpositions. Within the area of Daghestan, all such strategies are found. In the present chapter, we classify the languages of Daghestan according to **the strategy employed to mark the companion in comitative constructions**. By adopting a narrow definition of comitative construction [@arkhipov2009: 224--225], we exclude from the analysis complex constructions in which the predicate is repeated more than once (e.g. *John came and Mary came*, too) and coordinate constructions (e.g. *John and Mary came*).
+In the languages of the world, the companion in comitative constructions can be marked by means of different strategies, including case marking, clitics, and adpositions. Within the area of Daghestan, all such strategies are found. In the present chapter, we classify the languages of Daghestan according to **the strategy employed to mark the companion in comitative constructions**. By adopting a narrow definition of comitative construction [@arkhipov2009: 224-225], we exclude from the analysis complex constructions in which the predicate is repeated more than once (e.g. *John came and Mary came*, too) and coordinate constructions (e.g. *John and Mary came*).
+
 
 ## Results
 
-In the languages of Daghestan, different strategies are employed to encode comitative meanings. In most languages, the companion is marked by means of case inflection (see [2.1 Case marking]). Other languages use clitics (see [2.2 Clitics]), or postpositions (see [2.3 Postpositions]).
+In the languages of Daghestan, different strategies are employed to encode comitative meanings. In most languages, the companion is marked by means of case inflection (see [Case marking]). Other languages use clitics (see [Clitics]), or postpositions (see [Postpositions]).
+
 
 ### Case marking
 
-The most common strategy to mark the comitative in the languages of Daghestan is case marking. Languages featuring this strategy can be further distinguished according to whether the comitative is marked by: a) a dedicated comitative case (see [2.1.1 Dedicated comitative case]); b) the instrumental case (see [2.1.2 Instrumental case]); or c) a spatial form (see [2.1.3 Spatial cases]).
+The most common strategy to mark the comitative in the languages of Daghestan is case marking. Languages featuring this strategy can be further distinguished according to whether the comitative is marked by: a) a dedicated comitative case (see [Dedicated comitative case]); b) the instrumental case (see [Instrumental case]); or c) a spatial form (see [Spatial cases]).
 
 
 ### Dedicated comitative case
@@ -63,7 +65,8 @@ gloss_example("jacːaː-**ʁoj** **q’ac’o** j-ec-al",
               "Be with the girls.")
 ```
 
-In Tabasaran (Lezgic) the companion is marked by the suffix -*q-di*, which is constituted by a localization marker meaning ‘behind’ (-*q*) and a comitative marker -*di*, which also conveys instrumental, manner and causer meanings when combined with other localization markers [@babaliyeva2013: 47--49]. In Udi (Lezgic) comitative meanings are encoded by the ablative case [@ganenkov2008: 39]. Finally, in Sanzhi Dargwa, the inelative suffix can be used as an alternative to the (more common) dedicated comitative case [@forker2020dargwa: 73, 572].
+In Tabasaran (Lezgic) the companion is marked by the suffix -*q-di*, which is constituted by a localization marker meaning ‘behind’ (-*q*) and a comitative marker -*di*, which also conveys instrumental, manner and causer meanings when combined with other localization markers [@babaliyeva2013: 47-49]. In Udi (Lezgic) comitative meanings are encoded by the ablative case [@ganenkov2008: 39]. Finally, in Sanzhi Dargwa, the inelative suffix can be used as an alternative to the (more common) dedicated comitative case [@forker2020dargwa: 73, 572].
+
 
 ### Clitics
 
@@ -77,6 +80,7 @@ gloss_example("wasː jaš**=eːna** w-aː",
 ```
 
 A comitative clitic (=*žun*) is also found in Hunzib (Tsezic) as an alternative to case marking (see [Spatial cases]).
+
 
 ### Postpositions
 
@@ -118,9 +122,10 @@ gloss_example("i kolkhoz-r-a lezgi-jr.i-qʰ **galaz** azerbajžan-r.i ermeni-jr.
 
 Postpositional constructions are also found in languages in which other strategies (i.e. case marking or clitics) are available, e.g. Avar, Botlikh, Godoberi, and Eastern Armenian.
 
+
 ## Distribution
 
-The distribution of values on maps shows some areal and genealogical clustering. [Map 1](comitative_map.html#m1) shows the distribution of different types of marking, i.e. case marking, clitics and postpositions. Clitics are only found in Avar and in most Andic languages. Constructions with postpositions are found in all three Turkic languages in our sample, in Georgian, Judeo-Tat, and Standard Lezgian (Lezgic), in which comitative postpositions are described as deriving from converbs. Case marking is by far the most common strategy to encode comitative meanings in the languages of Daghestan. [Map 2](comitative_map.html#m2) shows the case form used to mark the companion in comitative constructions. A dedicated comitative case is found in four Lezgic languages, i.e. Agul, Archi, Rutul, and Tsakhur, all Dargwa languages in the sample, Tsova-Tush (Nakh), Lak, Khinalug, and the Andic languages Northern Akhvakh, Karata and Tukita.The instrumental case is employed in Chechen and Ingush (Nakh), Kryz and Budukh (Lezgic), and Eastern Armenian. Spatial cases are used in all Tsezic languages, Tabasaran and Udi (Lezgic).
+The distribution of values on maps shows some areal and genealogical clustering. [Map 1](26_comitative_map.html#m1) shows the distribution of different types of marking, i.e. case marking, clitics and postpositions. Clitics are only found in Avar and in most Andic languages. Constructions with postpositions are found in all three Turkic languages in our sample, in Georgian, Judeo-Tat, and Standard Lezgian (Lezgic), in which comitative postpositions are described as deriving from converbs. Case marking is by far the most common strategy to encode comitative meanings in the languages of Daghestan. [Map 2](26_comitative_map.html#m2) shows the case form used to mark the companion in comitative constructions. A dedicated comitative case is found in four Lezgic languages, i.e. Agul, Archi, Rutul, and Tsakhur, all Dargwa languages in the sample, Tsova-Tush (Nakh), Lak, Khinalug, and the Andic languages Northern Akhvakh, Karata and Tukita.The instrumental case is employed in Chechen and Ingush (Nakh), Kryz and Budukh (Lezgic), and Eastern Armenian. Spatial cases are used in all Tsezic languages, Tabasaran and Udi (Lezgic).
 
 
 [^1]: In Dargwa languages, the comitative case can also have instrumental semantics, but the same function is carried out by either a separate instrumental case, or the ergative.
