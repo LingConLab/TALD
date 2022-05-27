@@ -11,7 +11,7 @@ In the languages of Daghestan both strategies are attested. In this chapter we c
 
 ## Results
 
-The languages of Daghestan can be classified into two groups according to whether they feature morning greetings including questions about the night’s rest (Section 2.1), or based on the combination of concepts like “morning” and “good” (Section 2.2). Within both groups, however, some lexical and morphosyntactic variation is observed.
+The languages of Daghestan can be classified into two groups according to whether they feature morning greetings including questions about the night’s rest (see [Did you wake up?]), or based on the combination of concepts like “morning” and “good” (see [Good morning]). Within both groups, however, some lexical and morphosyntactic variation is observed.
 
 ### Did you wake up?
 
@@ -32,13 +32,13 @@ In other groups of the Nakh-Daghestanian family similar constructions are found 
 (@one) Archi (M. Chumakina, p.c.)
 ```{r}
 gloss_example("nibk'i ac'u=ra",
-              "sleep.ERG [F.SG]fill(PFV)=Q",
-              "Good morning, lit. did the sleep fill (you.f)?")
+              "sleep.ERG fill(PFV.F.SG)=Q",
+              "Good morning, lit. did the sleep fill (you.F)?")
 ```
 
 ### Good morning
 
-Greetings of the type ‘good morning’ can be divided into two categories: 1) a combination of the words ‘morning’ and ‘good, benefit’; 2) a wish-construction (‘may your morning be good’). The first type is found in most southern languages, and is usually constructed from words of Arabic origin: *sabaħ* 'morning' and *xair* 'good, benefit', cf. *sabax xajir* in Rutul. In Arabic, the full greeting would be `r gloss_example("sabaħ al-xair", "morning DEF-good", "good morning", "(lit. the morning good)", intext = TRUE)`. The same greeting is present in Azerbaijani, where it is formed with a possessive construction: `r gloss_example("sabah-ın xeyir", "morning-POS good", intext = TRUE)`. Lezgian and Tsakhur use a construction consisting of an attributive form of a native word for ‘morning’ and the Arabic word *xair*.
+Greetings of the type ‘good morning’ can be divided into two categories: 1) a combination of the words ‘morning’ and ‘good, benefit’; 2) a wish-construction (‘may your morning be good’). The first type is found in most southern languages, and is usually constructed from words of Arabic origin: *sabaħ* 'morning' and *xair* 'good, benefit', cf. *sabax xajir* in Rutul. In Arabic, the full greeting would be `r gloss_example("sabaħ al-xair", "morning DEF-good", "good morning", "(lit. the morning good)", intext = TRUE)`. The same greeting is present in Azerbaijani, where it is formed with a possessive construction: `r gloss_example("sabah-ın xeyir", "morning-POSS good", intext = TRUE)`. Lezgian and Tsakhur use a construction consisting of an attributive form of a native word for ‘morning’ and the Arabic word *xair*.
 
 Wish-constructions are limited to a few languages pertaining to different areas and genetic groups. Their formal appearance is very language-specific: Chechen, Ingush, and Lak employ optatives, in Kumyk and Nogai we find third person imperatives, and in Tat the subjunctive is used. The wish-constructions are also lexically more diverse than the formulas discussed earlier.
 
