@@ -220,7 +220,7 @@ If you would like to contribute a chapter and / or data to the Atlas because you
 
 ## Access to data
 
-The data can be accessed through the interface of the atlas, or downloaded directly from the [GitHub page](https://github.com/LingConLab/TALD/data/orig_table).
+The data can be accessed through the interface of the atlas, or downloaded directly from the [GitHub page](https://github.com/LingConLab/TALD/tree/master/data/orig_table).
 
 ## How to cite{.tabset .tabset-fade .tabset-pills} 
 
