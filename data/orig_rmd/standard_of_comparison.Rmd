@@ -25,7 +25,7 @@ In the languages of Daghestan the standard of comparison is usually marked with 
 In comparative constructions, most languages of Daghestan mark the standard of comparison with a spatial form. However, variation is observed with respect to both the directionality marker (see [Directionality markers]) and the localization marker (see [Localization markers]) employed. 
 
 
-### Directionality markers
+#### Directionality markers
 
 Most languages of Daghestan mark the standard of comparison with an **elative** form, cf. example (@two) from Avar.
 
@@ -112,7 +112,7 @@ gloss_example("wacːi kj’e-ja rehã-ɬːiː muk’u-w ija **jacːu-č’i**",
 
 Three other languages mark the standard of comparison with spatial forms that do not include an overt directionality marker. These languages differ from the languages in [Table 3](#t3) in that they display **essive/lative** syncretism (see [Table 4](#t4)).
 
-#### **Table 4.** Essive/lative markers {#t4}
+#### **Table 4.** Essive/lative markers {#t4 -}
 
 |Family > Branch|Language|Suffix      |
 |---------------|--------|------------|
@@ -129,7 +129,7 @@ gloss_example("hago **di-de-r** ɬora ƛeb-a Ø-eˁžiy goɬ",
               "He is three years older than me.")
 ```
 
-### Localization markers
+#### Localization markers
 
 The most common localization marker in spatial forms encoding the standard of comparison is **SUP** (location on a surface),[^6] cf. (@two). It is found in 19 languages (see [Table 5](#t5)).
 
@@ -216,7 +216,7 @@ gloss_example("iza **suo-l** dika v-u",
 However, it should be pointed out that, in some cases, such comparative suffixes apparently include a spatial suffix, e.g. Khinalug -*q’ilːi* (elative -*lːi*), Tabasaran -*t’an* (elative -*an*), Budukh -*wor* (elative -*r*). In such cases, we might assume that a spatial form specialized in the encoding of the standard of comparison. In addition, Archi -*χur* is reported to have some residual spatial usages [@danielganenkov2009: 673-674].
 
 
-## 3. Distribution
+## Distribution
 
 The standard of comparison in the languages of Daghestan is most often marked by a spatial form. Even in languages featuring a dedicated comparative marker, a possible spatial origin is often detectable. 
 Concerning directionality, elative markers are by far the most frequent option, and occur in 25 languages (see [Table 1](#t1) and [Table 2](#t2)). Elative markers are also the alleged source of some of the comparative markers in [Table 7](#t7). Essive and lative markers are less frequent: the former are found in nine languages, three of which show essive/lative syncretism, whereas a purely lative marker is found in one language only; cf. [Table 3](#t3), [Table 4](#t4)), and example (@six). 

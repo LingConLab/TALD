@@ -22,7 +22,7 @@ In the languages of Daghestan, different strategies are employed to encode comit
 The most common strategy to mark the comitative in the languages of Daghestan is case marking. Languages featuring this strategy can be further distinguished according to whether the comitative is marked by: a) a dedicated comitative case (see [Dedicated comitative case]); b) the instrumental case (see [Instrumental case]); or c) a spatial form (see [Spatial cases]).
 
 
-### Dedicated comitative case
+#### Dedicated comitative case
 
 Dedicated comitative markers are found in four Lezgic languages (Agul, Archi, Rutul, Tsakhur). For Archi, Rutul and Tsakhur, the comitative case is reported to have instrumental semantics too [@mikailov1967: 55; @ibragimov2004: 57; @sosenskaja1999post: 122], but in these languages instrumental meanings are also marked by the ergative case. In Agul the comitative marker -*qaj* derives from the combination of a noun in the postessive case -*q* and a stative verb converb with a postessive prefix *q*-, so *dada-qaj* ‘with father’ would derive from `r gloss_example("＊dada-q qa-j", "father-POST POST.be-CVB", intext = TRUE)` ‘being at/near father’ [@maisak2014: 390].
 In the other branches of the East Caucasian family, dedicated comitative markers are found in Standard Dargwa, Akusha, Kubachi, Mehweb, Itsari, Sanzhi, and Tanty (Dargwa),[^1] Tsova-Tush (Nakh),[^2] Lak and Khinalug. We also include in this group Northern Akhvakh, Karata and Tukita (Andic), whose comitative markers are sometimes described as postpositions. Given that they frequently attach to oblique forms of nouns/pronouns, we prefer to consider such markers as suffixes;[^3] cf. example (@two) from Karata.
@@ -35,7 +35,7 @@ gloss_example("den ɬo-**k’el**-ʕagi ʕurmi ge-da hač'e",
 ```
 
 
-### Instrumental case
+#### Instrumental case
 
 Some languages mark the companion by means of the instrumental case. We include in this group languages for which it is reported that the instrumental case has the main and most prototypical function of marking instruments, and comitative meanings are given as additional usages of the same case. These languages are Chechen and Ingush (Nakh), Kryz and Budukh (Lezgic), and Eastern Armenian; cf. example (@three) from Kryz.
 
@@ -47,7 +47,7 @@ gloss_example("riş gada-**zina** midfar-ik çi-u-ryu // ça-ba-rebe",
 ```
 
 
-### Spatial cases
+#### Spatial cases
 
 Spatial cases mark the companion in all Tsezic languages, in which essive forms are used with different localization markers: cumessive in Bezhta, interessive in Khwarshi [@khalilova2009: 80], animate location essive in Hinuq [@forker2013: 98], apudessive in Tsez and Hunzib. Although in the literature the label “comitative” is sometimes used for such cases, it should be noted that they substantially differ from dedicated comitative markers in that they fit into the spatial inflection paradigm as any other spatial case. Spatial cases encoding comitative meanings can (but need not) be used in combination with postpositions meaning ‘with’ or ‘together’; cf. examples from Bezhta in (@four) and (@five).
 
