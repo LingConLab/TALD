@@ -17,7 +17,7 @@ readxl::read_xlsx("data/contributors.xlsx") %>%
   filter(render == 1) ->
   features
 
-features$id_0 <- sprintf(paste0("%0", nchar(max(features$id)), "d_"), 
+features$id_0 <- sprintf(paste0("%0", nchar(max(features$id))+1, "d_"), 
                          features$id)
 
 features %>% 
