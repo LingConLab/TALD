@@ -1,6 +1,7 @@
 ---
 title: "Evidentiality"
 author: "Samira Verhees"
+date: 'Last update: April 2022'
 bibliography: "data/orig_bib/evidentiality.bib"
 csl: ./data/apa.csl
 link-citations: true
@@ -14,6 +15,34 @@ output:
 ```{r, include = FALSE}
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, comment = '')
 library(lingglosses)
+```
+
+```{r}
+library(RefManageR)
+BibOptions(check.entries = FALSE, style = 'text', bib.style = 'authoryear')
+article_citation <- BibEntry(bibtype = 'Incollection', 
+ key='verhees2020',
+ title='Evidentiality',
+ author='Samira Verhees',
+ year='2020',
+ editor= 'Daniel, Michael  and Filatov, Konstantin and Moroz, George and Mukhin, Timofey and Naccarato, Chiara and Verhees, Samira',
+ publisher='Linguistic Convergence Laboratory, NRU HSE',
+ address='Moscow',
+ booktitle= 'Typological Atlas of the Languages of Daghestan (TALD)',
+ url='http://lingconlab.ru/dagatlas')
+```
+
+## {.tabset .tabset-fade .tabset-pills -} 
+
+### Plain text {-}
+```{r, results = 'asis'}
+print(article_citation, .opts = list(style = 'text'))
+```
+
+### BibTeX {-}
+
+```{r}
+print(article_citation, .opts = list(style = 'Bibtex'))
 ```
 
 Daghestan is part of a large area where relatively simple systems of evidentiality marking are common. This area, sometimes referred to as the “Evidential Belt” ,[^1] stretches across the Eurasian continent and encompasses many genealogically and typologically distant languages (see Plungian [-@plungian2010: 19-21] for a concise overview). Typical of this area is the marking of events not directly witnessed by the speaker (indirect evidentiality).
