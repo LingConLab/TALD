@@ -1,0 +1,107 @@
+```{r, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, comment = '')
+library(lingglosses)
+```
+
+## {-}
+
+General chapter: [Evidentiality](evidentiality.html)
+
+## Introduction
+
+Particles marking reported speech can be divided into two general types: 
+
+1. Quotative
+2. Reportative
+
+A quotative marks an utterance as being a quote (@one). Usually it accompanies a clause headed by a speech verb. 
+
+(@one) Botlikh [@alexeyevverheesunpub]
+```{r}
+gloss_example("iš-qa ʁʷa-ba=**talu** hiƛ'-u hu-šːu-χi",
+              "home-APUD.LAT come-IMP=QUOT say-AOR DEM-M-APUD",
+              "They told him: go home!")
+```
+
+In most East Caucasian languages the quoted utterance is presented (mostly) from the point of view of the original interlocutor. Pronominal arguments inside the quote which are co-referent with the interlocutor identified in the main clause can be replaced with a logophoric pronoun (@two). The logophorics are diachronically connected to the reflexive. See Daniel [-@daniel2015] in more detail.
+
+(@two) Andi: Mixed [@maisak2017: 3]
+```{r}
+gloss_example("isa-di rac'ːin-dːu **en.š-la** ɬe-di=**ɬoʁo** rela ɢobi=**dːu**",
+              "Jesus-ERG ask-PRF self.M-SUPER who-ERG=QUOT hand touch.AOR=QUOT",
+              "Jesus asked: who touched me?")
+```
+
+Reportatives indicate that a proposition is based on hearsay (@three). Unlike the quotative, it does not take non-indicative moods like imperatives in its scope.
+
+(@three) Avar	[@forker2018avar]
+```{r}
+gloss_example("Murad-i-ca dars ɬazab-ize b-ug=**ila**",
+              "Murad-OBL-ERG lesson learn.by.heart-INF N-COP=EVID",
+              "Murad will learn the lesson by heart. (**as they say**)")
+```
+
+Quotatives can also be employed to indicate a kind of hearsay in the form of a depersonalized quote (@four).
+
+(@four) Bezhta [@khalilova2011: 44]
+```{r}
+gloss_example("hugi biλoγa Ø-enλ'-eyo-**λo**",
+              "he house.near i-go-PST.W-QUOT",
+              "He went home, **they said**.")
+```
+
+Note that quotatives are not quotative evidentials. The latter are described in Aikhenvald as marking “reported information with an overt reference to the authorship of the quoted source”  [-@aikhenvald2004: 327]. The quotative markers described in this chapter are quotative indexes as defined by Güldemann [-@guldemann2008: 1]: they signal “the presence of reported speech”, which does not necessarily imply the presence of an overt source.
+
+The dataset also contains a few particles that are discussed in papers on evidentiality. Some of them belong to other knowledge categories. They would merit a separate chapter if there were enough descriptions of similar items. Unfortunately, this is not the case.
+
+The aim of this chapter is to compare the presence of dedicated markers for both quotative and reportative, as well as the morphosyntactic form they take (particle or full verb). The expectation is that the presence of dedicated markers is rare, and that more and less grammaticalized types of markers will cluster together in particular branches of the family.
+
+## Results
+
+Reported speech particles are attested in almost all languages of the family. Most of them have a quotative function. The reportative function is more rarely attested, and especially dedicated reportative markers are uncommon. Reported speech particles often transparently originate from a verb of speech. In some cases a full verb is used as a kind of particle at the synchronic level (@five).
+
+[//]: # (Originally it was `\"ma-ax-utːa!\"`)
+
+(@five) Dargwa: Sanzhi [@forker2019b: 176]
+```{r, results='asis'}
+gloss_example("xːunul-li tiladi b-arq'-ib ca-b hel-i-cːe ma-ax-utːa **r-ik'-ul**",
+              "woman-ERG request N-do.PFV-PRET be-N that-OBL-IN PROH-go-PROH.SG F-say.IPFV-ICVB",
+              "His wife begged him: do not go!")
+```
+
+An inferential particle from an ‘appear’-type verb so far is attested only for Lak.[^1]
+
+[^1]: Example (@six) is a partial example.
+
+(@six) Lak [@friedman2007: 368]
+```{r}
+gloss_example("ina uwčːu x-unu-**kːar-a**",
+              "you drunk become-PAST.GER-appear-2SG",
+              "You have **apparently** become drunk.")
+```
+
+Particles marking general indirect evidentiality are attested in Karata and Kryz. The semantics of the Karata particle are unclear and require further investigation. Kryz borrowed the particle *-mIš* from Azerbaijani. Most likely this is a copy of the copular particle *-(i)mIš* and not of the perfect suffix *-mIš*, since the latter has lost the indirect evidential function (as discussed in chapter [Evidentiality in the tense system](evidentiality_tense.html)). In addition, the target form attaches to various inflected verb forms. In example (@seven), *-miš* indicates “non-direct evidence in the past”, see Authier [-@authier2010: 16]
+
+(@seven) Kryz: Alik [@authier2010: 16]
+```{r}
+gloss_example("u-cbar ʕa-b-xhr-i k'ul-ci cuxud q'ay-ca-**miş**",
+              "3-HPL PV-HPL-come.PF-PART house-GEN master die-PERF-EVID",
+              "The master of the house where they arrived had died.")
+```
+
+## Distribution
+
+The areal distribution of the features is noisy, which probably results from descriptive gaps. The surveyed Turkic languages, for example, appear to lack reported speech particles altogether based on the referenced sources, while such forms are well-attested in other Turkic languages, see for example Greed [-@greed2014] on Tatar.
+
+## Related features {-}
+
+- [Evidentiality in the tense system](evidentiality_tense.html)
+- [Evidential auxiliaries]()
+
+## List of glosses {-}
+
+```{r}
+make_gloss_list(readxl::read_xlsx("../glosses.xlsx"))
+```
+
+## References {-}
