@@ -92,7 +92,8 @@ file.copy(str_c("data/orig_rmd/", major_topics, ".Rmd"),
           overwrite = TRUE)
 
 # create variable with leading 0 -------------------------------------------
-features$id_0 <- sprintf(paste0("%0", nchar(max(features$id)), "d_"), 
+# remove +1 when we will have more then 100 topics
+features$id_0 <- sprintf(paste0("%0", nchar(max(features$id))+1, "d_"), 
                          features$id)
 
 features %>% 
@@ -322,10 +323,12 @@ tibble(column = str_subset(colnames(feature_dataset), 'value\\\\d{1,}$')) %>%
 feature_dataset %>% 
   select(lang, idiom, source, page, matches('value\\\\d{1,}$')) %>% 
   rename_with(function(x){columns_rename[columns_rename$column == x, ]$new_name}, matches('value\\\\d{1,}$'))  %>% 
-  rename(language=lang) %>% 
+  rename(Language=lang, 
+         Idiom = idiom,
+         Source = source) %>% 
   rowwise() %>% 
   mutate(page = str_replace_all(page, '--', '–'),
-         source = Cite(bib, source, 
+         source = Cite(bib, Source, 
                        after = ifelse(!is.na(page), 
                                       str_c(': ', page),
                                       ''))) %>%
@@ -400,7 +403,11 @@ map(seq_along(rmd_filenames), function(i){
     "BibOptions(check.entries = FALSE, style = 'text', bib.style = 'authoryear')",
     "article_citation <- BibEntry(bibtype = 'Incollection', ",
     paste0(" key='", first_authors[i], features$created_date[i], "',"),
-    paste0(" title='", features$title[i], "',"),
+    paste0(" title='", 
+           ifelse(str_detect(rmd_filenames[i], "_map.Rmd"), 
+                  str_c(features$title[i], " (Maps & Data)"), 
+                  features$title[i]), 
+           "',"),
     paste0(" author='", str_replace(features$author[i], ",", " and"), "',"),
     paste0(" year='", features$created_date[i], "',"),
     " editor= 'Daniel, Michael  and Filatov, Konstantin and Moroz, George and Mukhin, Timofey and Naccarato, Chiara and Verhees, Samira',",

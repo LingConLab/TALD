@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="George Moroz" />
+
+
+<title>Voiceless obstruents</title>
+
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="site_libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="site_libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+<style type="text/css">
+/* for pandoc --citeproc since 2.11 */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="css/styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">TALD</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="./about.html">About</a>
+</li>
+<li>
+  <a href="./features.html">
+    <span class="fa fa-atlas"></span>
+     
+    Features
+  </a>
+</li>
+<li>
+  <a href="./changes.html">Changes</a>
+</li>
+<li>
+  <a href="./references.html">References</a>
+</li>
+<li>
+  <a href="./team.html">Team</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Voiceless obstruents</h1>
+<h4 class="author">George Moroz</h4>
+<h4 class="date">Last update: November 2021</h4>
+
+</div>
+
+
+<p>See <a href="023_voiceless_obstruents_map.html">data and
+maps</a>.</p>
+<div id="section"
+class="section level1 tabset tabset-fade tabset-pills unnumbered">
+<h1 class="tabset tabset-fade tabset-pills unnumbered"></h1>
+<div id="plain-text" class="section level2 unnumbered hasAnchor">
+<h2 class="unnumbered hasAnchor">Plain text<a href="#plain-text"
+class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Moroz, G. (2021). “Voiceless obstruents”. In: <em>Typological Atlas
+of the Languages of Daghestan (TALD)</em>. Ed. by M. Daniel, K. Filatov,
+G. Moroz, T. Mukhin, C. Naccarato and S. Verhees. Moscow: Linguistic
+Convergence Laboratory, NRU HSE. <a href="http://lingconlab.ru/dagatlas"
+class="uri">http://lingconlab.ru/dagatlas</a>.</p>
+</div>
+<div id="bibtex" class="section level2 unnumbered hasAnchor">
+<h2 class="unnumbered hasAnchor">BibTeX<a href="#bibtex"
+class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<pre><code>@incollection{moroz2021,
+  title = {Voiceless obstruents},
+  author = {George Moroz},
+  year = {2021},
+  editor = {Michael Daniel and Konstantin Filatov and George Moroz and Timofey Mukhin and Chiara Naccarato and Samira Verhees},
+  publisher = {Linguistic Convergence Laboratory, NRU HSE},
+  address = {Moscow},
+  booktitle = {Typological Atlas of the Languages of Daghestan (TALD)},
+  url = {http://lingconlab.ru/dagatlas},
+}</code></pre>
+</div>
+</div>
+<div id="section-1" class="section level1 unnumbered">
+<h1 class="unnumbered"></h1>
+<p>General chapter: <a href="phonology.html">Phonology</a></p>
+<p>A notable feature of all indigenous languages of the Caucasus is the
+presence of ejective consonants that are usually present in most of the
+possible places of articulation (see the chapter on ejective pʼ). They
+are not restricted to obstruents but also include affricates (and
+sometimes fricatives, see the chapter on ejective fricatives). This
+feature is so widespread that other languages of the Caucasus like the
+Qax dialect of Azerbaijani <span class="citation">(<a
+href="#ref-aslanov74" role="doc-biblioref">Aslanov, 1974</a>; <a
+href="#ref-daniell2021" role="doc-biblioref">Daniel, 2021</a>)</span>,
+the Kaytag dialect of Kumyk <span class="citation">(<a
+href="#ref-dmitriyev40" role="doc-biblioref">Dmitriev, 1940</a>:
+32)</span>, and Ossetic <span class="citation">(<a href="#ref-abaev64"
+role="doc-biblioref">Abaev, 1964</a>: 6)</span> have borrowed some
+ejective consonants due to contact or an East Caucasian substrate. It is
+also worth mentioning that the East Caucasian language Udi lost all
+ejectives, evidently under the influence of Azerbaijani, and replaced
+them with non-aspirated obstruents.</p>
+<p>Voiceless stops in all indigenous languages of the Caucasus tend to
+be slightly aspirated. In some languages there is an opposition of
+aspirated vs. non-aspirated stops (in Russian sources the term
+<em>преруптивный</em> is sometimes used): Udi, Lezgian, Khinalug.</p>
+<p>The last important contrast that is present in East Caucasian
+languages is that of gemination/fortis: it is produced by the
+prolongation of the closure part and the reduction of aspiration in
+stops and affricates, and by the prolongation of the fricative part in
+fricatives. Different scholars treat them differently in different
+languages, so I decided to use gemination through all phonological
+chapters. It is important to notice that unlike West Caucasian and
+Kartvelian languages, some Andic languages and Avar have unique
+geminated ejectives (e. g. <em>kʼː</em>, <em>tsʼː</em>) that are
+produced by prolongation of the burst part of the consonant.</p>
+<p>All those series (unaspirated voiceless - aspirated voiceless -
+geminates - ejectives - geminated ejectives) can be easily distinguished
+with the analysis of parts of consonants: the closure and post burst
+region, usually called Voice Onset Time or VOT <span
+class="citation">(<a href="#ref-catford77" role="doc-biblioref">Catford,
+1977</a>; <a href="#ref-cho99" role="doc-biblioref">Cho &amp; Ladefoged,
+1999</a>; <a href="#ref-grawunder" role="doc-biblioref">Grawunder et
+al., n.d.</a>, <a href="#ref-grawunder10"
+role="doc-biblioref">2010</a>)</span>.</p>
+<p>In order to analyze these data we decided to look at the following
+features: type of distinctions and content of distinctions denoted as a
+consonant symbol <code>C</code>. In <a href="#m1">Table 1</a> we can see
+the two features together.</p>
+<div id="t1" class="section level4 unnumbered hasAnchor">
+<h4 class="unnumbered hasAnchor">Table 1. Types of contrasts in
+voiceless obstruents<a href="#t1" class="anchor-section"
+aria-label="Anchor link to header"></a></h4>
+<table>
+<thead>
+<tr>
+<th style="text-align:left;">
+type
+</th>
+<th style="text-align:left;">
+content
+</th>
+<th style="text-align:left;">
+languages
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+one-way
+</td>
+<td style="text-align:left;">
+C
+</td>
+<td style="text-align:left;">
+Azerbaijani, Kumyk, Nogai, Tat
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+two-way
+</td>
+<td style="text-align:left;">
+C-Cʼ
+</td>
+<td style="text-align:left;">
+Avar, Bagvalal, Bezhta, Budukh, Chamalal, Dargwa, Georgian, Hinuq,
+Hunzib, Ingush, Khwarshi, Kryz, Rutul, Tsez, Tsova-Tush
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+two-way
+</td>
+<td style="text-align:left;">
+C-Cʰ
+</td>
+<td style="text-align:left;">
+Armenian, Udi
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+three-way
+</td>
+<td style="text-align:left;">
+C-Cː-Cʼ
+</td>
+<td style="text-align:left;">
+Agul, Archi, Chechen, Dargwa, Lak, Lezgian, Tabasaran, Tindi, Tsakhur
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+three-way
+</td>
+<td style="text-align:left;">
+C-Cʰ-Cʼ
+</td>
+<td style="text-align:left;">
+Khinalug, Lezgian
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+three-way
+</td>
+<td style="text-align:left;">
+C-Cʼ-Cʼː
+</td>
+<td style="text-align:left;">
+Chamalal
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+four-way
+</td>
+<td style="text-align:left;">
+C-Cː-Cʼ-Cʼː
+</td>
+<td style="text-align:left;">
+Akhvakh, Andi, Avar, Botlikh, Godoberi, Karata, Tindi
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+four-way
+</td>
+<td style="text-align:left;">
+C-Cː-Cʰ-Cʼ
+</td>
+<td style="text-align:left;">
+Khinalug
+</td>
+</tr>
+</tbody>
+</table>
+<p>Even though it is theoretically possible to have a five-way
+distinction, there is no such case in our dataset. A one-way contrast is
+present in non-East Caucasian languages (Azerbaijani, Kumyk, Nogai,
+Tat). The most frequent is a two-way voiceless-ejective distinction that
+is present in the majority of languages. The most frequent three-way
+distinction is the voiceless-geminated-ejective distinction. The most
+frequent four-way distinction is voiceless-geminated-ejective-geminated
+ejective, which is also reconstructed for the protolanguage <span
+class="citation">(<a href="#ref-nichols03" role="doc-biblioref">Nichols,
+1994</a>; <a href="#ref-nikolayev94" role="doc-biblioref">Nikolayev
+&amp; Starostin, 1994</a>)</span>. This
+voiceless-geminated-ejective-geminated is now present exclusively in
+Avar and Andic languages.</p>
+</div>
+</div>
+<div id="references" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">References<a href="#references"
+class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="refs" class="references csl-bib-body hanging-indent"
+line-spacing="2">
+<div id="ref-abaev64" class="csl-entry">
+Abaev, V. I. (1964). <em>A grammatical sketch of
+<span>O</span>ssetic</em>. Indiana Univesrity Press.
+</div>
+<div id="ref-aslanov74" class="csl-entry">
+Aslanov, A. M. (1974). Iberijsko-kavkazskie abruptivy v
+zakatalʹsko-kaxskix govorax azerbajdžanskogo jazyka. <em>Ežegodnik
+Iberijsko-Kavkazskogo Jazykoznanija</em>, <em>1</em>, 224–228.
+</div>
+<div id="ref-catford77" class="csl-entry">
+Catford, J. C. (1977). <em>Fundamental <span>P</span>roblems in
+<span>P</span>honetics</em>. Edinburgh University Press.
+</div>
+<div id="ref-cho99" class="csl-entry">
+Cho, T., &amp; Ladefoged, P. (1999). Variation and universals in
+<span>VOT</span>: Evidence from 18 languages. <em>Journal of
+Phonetics</em>, <em>27</em>, 207–229.
+</div>
+<div id="ref-daniell2021" class="csl-entry">
+Daniel, M. (2021). <em>Ejectives in the <span>A</span>zerbaijani of
+<span>I</span>lisu</em>.
+</div>
+<div id="ref-dmitriyev40" class="csl-entry">
+Dmitriev, N. K. (1940). <em>Grammatika kumykskogo jazyka</em>. AN SSSR.
+</div>
+<div id="ref-grawunder" class="csl-entry">
+Grawunder, S., Moroz, G., Zhigulskaya, V., &amp; Daniel, M. (n.d.).
+<em>VOT in two <span>E</span>ast <span>C</span>aucasian languages</em>.
+</div>
+<div id="ref-grawunder10" class="csl-entry">
+Grawunder, S., Simpson, A., &amp; Khalilov, M. (2010). Phonetic
+characteristics of ejectives - samples from <span>C</span>aucasian
+languages. In J. L. Léonard &amp; S. Naïm (Eds.), <em>Turbulent sounds -
+an interdisciplinary guide, number 21 in interface explorations</em>
+(pp. 356–395). De Gruyter Mouton.
+</div>
+<div id="ref-nichols03" class="csl-entry">
+Nichols, J. (1994). The <span>N</span>akh-<span>D</span>aghestanian
+consonant correspondences. In D. A. Holisky &amp; K. Tuite (Eds.),
+<em>Current trends in caucasian, east european, and inner asian
+linguistics : Papers in honor of howard i. aronson</em> (pp. 207–265).
+John Benjamins Publication Company.
+</div>
+<div id="ref-nikolayev94" class="csl-entry">
+Nikolayev, S. L., &amp; Starostin, S. A. (1994). <em>A
+<span>N</span>orth <span>C</span>aucasian etymological dictionary</em>.
+Asterisk Press.
+</div>
+</div>
+</div>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+</head>
+
+<body>
+    <div class="footer-basic">
+        <footer>
+            
+            <div class='lic'><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br /><i>Typological Atlas of the languages of Daghestan </i> (<i>TALD</i>) is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+            <div class="social"><a href="https://github.com/LingConLab/TALD" target="_blank"><span class="iconify" data-icon="octicon:logo-github-16"></span></a></div>
+            </div>
+            
+            <p class="copyright">2020<script>new Date().getFullYear()>2020&&document.write("-"+new Date().getFullYear());</script>,  Linguistic Convergence Laboratory, HSE University</p>
+        </footer>
+    </div>
+    <script type="text/javascript" src="./js/links.js"></script> <!--это чтобы ссылки открывались в новом окне -->
+</body>
+
+</html>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

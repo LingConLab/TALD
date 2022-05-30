@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="Samira Verhees" />
+
+
+<title>Particles of reported speech and inference</title>
+
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="site_libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="site_libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+<style type="text/css">
+/* for pandoc --citeproc since 2.11 */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="css/styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">TALD</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="./about.html">About</a>
+</li>
+<li>
+  <a href="./features.html">
+    <span class="fa fa-atlas"></span>
+     
+    Features
+  </a>
+</li>
+<li>
+  <a href="./changes.html">Changes</a>
+</li>
+<li>
+  <a href="./references.html">References</a>
+</li>
+<li>
+  <a href="./team.html">Team</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Particles of reported speech and
+inference</h1>
+<h4 class="author">Samira Verhees</h4>
+<h4 class="date">Last update: March 2021</h4>
+
+</div>
+
+
+<p>See <a href="004_particles_map.html">data and maps</a>.</p>
+<div id="section"
+class="section level1 tabset tabset-fade tabset-pills unnumbered">
+<h1 class="tabset tabset-fade tabset-pills unnumbered"></h1>
+<div id="plain-text" class="section level2 unnumbered hasAnchor">
+<h2 class="unnumbered hasAnchor">Plain text<a href="#plain-text"
+class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Verhees, S. (2021). “Particles of reported speech and inference”. In:
+<em>Typological Atlas of the Languages of Daghestan (TALD)</em>. Ed. by
+M. Daniel, K. Filatov, G. Moroz, T. Mukhin, C. Naccarato and S. Verhees.
+Moscow: Linguistic Convergence Laboratory, NRU HSE. <a
+href="http://lingconlab.ru/dagatlas"
+class="uri">http://lingconlab.ru/dagatlas</a>.</p>
+</div>
+<div id="bibtex" class="section level2 unnumbered hasAnchor">
+<h2 class="unnumbered hasAnchor">BibTeX<a href="#bibtex"
+class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<pre><code>@incollection{verhees2021,
+  title = {Particles of reported speech and inference},
+  author = {Samira Verhees},
+  year = {2021},
+  editor = {Michael Daniel and Konstantin Filatov and George Moroz and Timofey Mukhin and Chiara Naccarato and Samira Verhees},
+  publisher = {Linguistic Convergence Laboratory, NRU HSE},
+  address = {Moscow},
+  booktitle = {Typological Atlas of the Languages of Daghestan (TALD)},
+  url = {http://lingconlab.ru/dagatlas},
+}</code></pre>
+</div>
+</div>
+<div id="section-1" class="section level1 unnumbered">
+<h1 class="unnumbered"></h1>
+<p>General chapter: <a href="evidentiality.html">Evidentiality</a></p>
+</div>
+<div id="introduction" class="section level1 hasAnchor" number="1">
+<h1 class="hasAnchor"><span class="header-section-number">1</span>
+Introduction<a href="#introduction" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p>Particles marking reported speech can be divided into two general
+types:</p>
+<ol style="list-style-type: decimal">
+<li>Quotative</li>
+<li>Reportative</li>
+</ol>
+<p>A quotative marks an utterance as being a quote (1). Usually it
+accompanies a clause headed by a speech verb.</p>
+<ol class="example" style="list-style-type: decimal">
+<li>Botlikh <span class="citation">(<a href="#ref-alexeyevverheesunpub"
+role="doc-biblioref">Alexeyev &amp; Verhees, To appear</a>)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>iš-qa</em>
+</td>
+<td style="text-align:left;">
+<em>ʁʷa-ba=<strong>talu</strong></em>
+</td>
+<td style="text-align:left;">
+<em>hiƛ’-u</em>
+</td>
+<td style="text-align:left;">
+<em>hu-šːu-χi</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+home-<span class="smallcaps">apud</span>.<span
+class="smallcaps">lat</span>
+</td>
+<td style="text-align:left;">
+come-<span class="smallcaps">imp</span>=<span
+class="smallcaps">quot</span>
+</td>
+<td style="text-align:left;">
+say-<span class="smallcaps">aor</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">dem</span>-<span
+class="smallcaps">m</span>-<span class="smallcaps">apud</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘They told him: go home!’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>In most East Caucasian languages the quoted utterance is presented
+(mostly) from the point of view of the original interlocutor. Pronominal
+arguments inside the quote which are co-referent with the interlocutor
+identified in the main clause can be replaced with a logophoric pronoun
+(2). The logophorics are diachronically connected to the reflexive. See
+Daniel <span class="citation">(<a href="#ref-daniel2015"
+role="doc-biblioref">2015</a>)</span> in more detail.</p>
+<ol start="2" class="example" style="list-style-type: decimal">
+<li>Andi: Mixed <span class="citation">(<a href="#ref-maisak2017"
+role="doc-biblioref">Maisak, 2017</a>: 3)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>isa-di</em>
+</td>
+<td style="text-align:left;">
+<em>rac’ːin-dːu</em>
+</td>
+<td style="text-align:left;">
+<em><strong>en.š-la</strong></em>
+</td>
+<td style="text-align:left;">
+<em>ɬe-di=<strong>ɬoʁo</strong></em>
+</td>
+<td style="text-align:left;">
+<em>rela</em>
+</td>
+<td style="text-align:left;">
+<em>ɢobi=<strong>dːu</strong></em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Jesus-<span class="smallcaps">erg</span>
+</td>
+<td style="text-align:left;">
+ask-<span class="smallcaps">prf</span>
+</td>
+<td style="text-align:left;">
+self.<span class="smallcaps">m</span>-<span
+class="smallcaps">super</span>
+</td>
+<td style="text-align:left;">
+who-<span class="smallcaps">erg</span>=<span
+class="smallcaps">quot</span>
+</td>
+<td style="text-align:left;">
+hand
+</td>
+<td style="text-align:left;">
+touch.<span class="smallcaps">aor</span>=<span
+class="smallcaps">quot</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Jesus asked: who touched me?’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>Reportatives indicate that a proposition is based on hearsay (3).
+Unlike the quotative, it does not take non-indicative moods like
+imperatives in its scope.</p>
+<ol start="3" class="example" style="list-style-type: decimal">
+<li>Avar <span class="citation">(<a href="#ref-forker2018avar"
+role="doc-biblioref">Forker, 2018</a>)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>Murad-i-ca</em>
+</td>
+<td style="text-align:left;">
+<em>dars</em>
+</td>
+<td style="text-align:left;">
+<em>ɬazab-ize</em>
+</td>
+<td style="text-align:left;">
+<em>b-ug=<strong>ila</strong></em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Murad-<span class="smallcaps">obl</span>-<span
+class="smallcaps">erg</span>
+</td>
+<td style="text-align:left;">
+lesson
+</td>
+<td style="text-align:left;">
+learn.by.heart-<span class="smallcaps">inf</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">n</span>-<span
+class="smallcaps">cop</span>=<span class="smallcaps">evid</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Murad will learn the lesson by heart. (<strong>as they
+say</strong>)’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>Quotatives can also be employed to indicate a kind of hearsay in the
+form of a depersonalized quote (4).</p>
+<ol start="4" class="example" style="list-style-type: decimal">
+<li>Bezhta <span class="citation">(<a href="#ref-khalilova2011"
+role="doc-biblioref">Khalilova, 2011</a>: 44)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>hugi</em>
+</td>
+<td style="text-align:left;">
+<em>biλoγa</em>
+</td>
+<td style="text-align:left;">
+<em>Ø-enλ’-eyo-<strong>λo</strong></em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+he
+</td>
+<td style="text-align:left;">
+house.near
+</td>
+<td style="text-align:left;">
+i-go-<span class="smallcaps">pst</span>.<span
+class="smallcaps">w</span>-<span class="smallcaps">quot</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘He went home, <strong>they said</strong>.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>Note that quotatives are not quotative evidentials. The latter are
+described in Aikhenvald as marking “reported information with an overt
+reference to the authorship of the quoted source” <span
+class="citation">(<a href="#ref-aikhenvald2004"
+role="doc-biblioref">2004</a>: 327)</span>. The quotative markers
+described in this chapter are quotative indexes as defined by Güldemann
+<span class="citation">(<a href="#ref-guldemann2008"
+role="doc-biblioref">2008</a>: 1)</span>: they signal “the presence of
+reported speech”, which does not necessarily imply the presence of an
+overt source.</p>
+<p>The dataset also contains a few particles that are discussed in
+papers on evidentiality. Some of them belong to other knowledge
+categories. They would merit a separate chapter if there were enough
+descriptions of similar items. Unfortunately, this is not the case.</p>
+<p>The aim of this chapter is to compare the presence of dedicated
+markers for both quotative and reportative, as well as the
+morphosyntactic form they take (particle or full verb). The expectation
+is that the presence of dedicated markers is rare, and that more and
+less grammaticalized types of markers will cluster together in
+particular branches of the family.</p>
+</div>
+<div id="results" class="section level1 hasAnchor" number="2">
+<h1 class="hasAnchor"><span class="header-section-number">2</span>
+Results<a href="#results" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p>Reported speech particles are attested in almost all languages of the
+family. Most of them have a quotative function. The reportative function
+is more rarely attested, and especially dedicated reportative markers
+are uncommon. Reported speech particles often transparently originate
+from a verb of speech. In some cases a full verb is used as a kind of
+particle at the synchronic level (5).</p>
+<ol start="5" class="example" style="list-style-type: decimal">
+<li>Dargwa: Sanzhi <span class="citation">(<a href="#ref-forker2019b"
+role="doc-biblioref">Forker, 2019</a>: 176)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; ">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>xːunul-li</em>
+</td>
+<td style="text-align:left;">
+<em>tiladi</em>
+</td>
+<td style="text-align:left;">
+<em>b-arq’-ib</em>
+</td>
+<td style="text-align:left;">
+<em>ca-b</em>
+</td>
+<td style="text-align:left;">
+<em>hel-i-cːe</em>
+</td>
+<td style="text-align:left;">
+<em>ma-ax-utːa</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+woman-<span class="smallcaps">erg</span>
+</td>
+<td style="text-align:left;">
+request
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">n</span>-do.<span
+class="smallcaps">pfv</span>-<span class="smallcaps">pret</span>
+</td>
+<td style="text-align:left;">
+be-<span class="smallcaps">n</span>
+</td>
+<td style="text-align:left;">
+that-<span class="smallcaps">obl</span>-<span
+class="smallcaps">in</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">proh</span>-go-<span
+class="smallcaps">proh</span>.<span class="smallcaps">sg</span>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em><strong>r-ik’-ul</strong></em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps">f</span>-say.<span
+class="smallcaps">ipfv</span>-<span class="smallcaps">icvb</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘His wife begged him: do not go!’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>An inferential particle from an ‘appear’-type verb so far is attested
+only for Lak.<a href="#fn1" class="footnote-ref"
+id="fnref1"><sup>1</sup></a></p>
+<ol start="6" class="example" style="list-style-type: decimal">
+<li>Lak <span class="citation">(<a href="#ref-friedman2007"
+role="doc-biblioref">Friedman, 2007</a>: 368)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>ina</em>
+</td>
+<td style="text-align:left;">
+<em>uwčːu</em>
+</td>
+<td style="text-align:left;">
+<em>x-unu-<strong>kːar-a</strong></em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+you
+</td>
+<td style="text-align:left;">
+drunk
+</td>
+<td style="text-align:left;">
+become-<span class="smallcaps">past</span>.<span
+class="smallcaps">ger</span>-appear-<span class="smallcaps">2sg</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘You have <strong>apparently</strong> become drunk.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>Particles marking general indirect evidentiality are attested in
+Karata and Kryz. The semantics of the Karata particle are unclear and
+require further investigation. Kryz borrowed the particle <em>-mIš</em>
+from Azerbaijani. Most likely this is a copy of the copular particle
+<em>-(i)mIš</em> and not of the perfect suffix <em>-mIš</em>, since the
+latter has lost the indirect evidential function (as discussed in
+chapter <a href="evidentiality_tense.html">Evidentiality in the tense
+system</a>). In addition, the target form attaches to various inflected
+verb forms. In example (7), <em>-miš</em> indicates “non-direct evidence
+in the past”, see Authier <span class="citation">(<a
+href="#ref-authier2010" role="doc-biblioref">2010</a>: 16)</span></p>
+<ol start="7" class="example" style="list-style-type: decimal">
+<li>Kryz: Alik <span class="citation">(<a href="#ref-authier2010"
+role="doc-biblioref">Authier, 2010</a>: 16)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>u-cbar</em>
+</td>
+<td style="text-align:left;">
+<em>ʕa-b-xhr-i</em>
+</td>
+<td style="text-align:left;">
+<em>k’ul-ci</em>
+</td>
+<td style="text-align:left;">
+<em>cuxud</em>
+</td>
+<td style="text-align:left;">
+<em>q’ay-ca-<strong>miş</strong></em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps">3</span>-<span class="smallcaps">hpl</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">pv</span>-<span
+class="smallcaps">hpl</span>-come.<span
+class="smallcaps">pf</span>-<span class="smallcaps">part</span>
+</td>
+<td style="text-align:left;">
+house-<span class="smallcaps">gen</span>
+</td>
+<td style="text-align:left;">
+master
+</td>
+<td style="text-align:left;">
+die-<span class="smallcaps">perf</span>-<span
+class="smallcaps">evid</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘The master of the house where they arrived had died.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+</div>
+<div id="distribution" class="section level1 hasAnchor" number="3">
+<h1 class="hasAnchor"><span class="header-section-number">3</span>
+Distribution<a href="#distribution" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p>The areal distribution of the features is noisy, which probably
+results from descriptive gaps. The surveyed Turkic languages, for
+example, appear to lack reported speech particles altogether based on
+the referenced sources, while such forms are well-attested in other
+Turkic languages, see for example Greed <span class="citation">(<a
+href="#ref-greed2014" role="doc-biblioref">2014</a>)</span> on
+Tatar.</p>
+</div>
+<div id="related-features" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">Related features<a
+href="#related-features" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<ul>
+<li><a href="evidentiality_tense.html">Evidentiality in the tense
+system</a></li>
+<li><a href="">Evidential auxiliaries</a></li>
+</ul>
+</div>
+<div id="list-of-glosses" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">List of glosses<a
+href="#list-of-glosses" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p><span class="smallcaps">2sg</span> — second person singular; <span
+class="smallcaps">3</span> — third person; <span
+class="smallcaps">aor</span> — aorist; <span
+class="smallcaps">apud</span> — apudessive; <span
+class="smallcaps">cop</span> — copula; <span
+class="smallcaps">dem</span> — demonstrative; <span
+class="smallcaps">erg</span> — ergative; <span
+class="smallcaps">evid</span> — evidential; <span
+class="smallcaps">f</span> — feminine; <span
+class="smallcaps">gen</span> — genitive; <span
+class="smallcaps">ger</span> — gerund; <span
+class="smallcaps">hpl</span> — human plural; <span
+class="smallcaps">icvb</span> — imperfective converb; <span
+class="smallcaps">imp</span> — imperative; <span
+class="smallcaps">in</span> — inessive; <span
+class="smallcaps">inf</span> — infinitive; <span
+class="smallcaps">ipfv</span> — imperfective; <span
+class="smallcaps">lat</span> — lative; <span
+class="smallcaps">m</span> — masculine; <span
+class="smallcaps">n</span> — neuter; <span
+class="smallcaps">obl</span> — oblique; <span
+class="smallcaps">part</span> — partitive; <span
+class="smallcaps">past</span> — past tense; <span
+class="smallcaps">perf</span> — perfect; <span
+class="smallcaps">pf</span> — perfective; <span
+class="smallcaps">pfv</span> — perfective; <span
+class="smallcaps">pret</span> — preterite; <span
+class="smallcaps">prf</span> — perfect; <span
+class="smallcaps">proh</span> — prohibitive; <span
+class="smallcaps">pst</span> — past; <span
+class="smallcaps">pv</span> — patient voice; <span
+class="smallcaps">quot</span> — quotative; <span
+class="smallcaps">sg</span> — singular; <span
+class="smallcaps">super</span> — superlocative; <span
+class="smallcaps"><span
+style="background-color:#00d5ff;">w</span></span> — </p>
+</div>
+<div id="references" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">References<a href="#references"
+class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="refs" class="references csl-bib-body hanging-indent"
+line-spacing="2">
+<div id="ref-aikhenvald2004" class="csl-entry">
+Aikhenvald, A. Y. (2004). <em>Evidentiality</em>. Oxford University
+Press.
+</div>
+<div id="ref-alexeyevverheesunpub" class="csl-entry">
+Alexeyev, M., &amp; Verhees, S. (To appear). <em>Botlikh</em> (Y.
+Koryakov &amp; T. Maisak, Eds.). De Gruyter Mouton.
+</div>
+<div id="ref-authier2010" class="csl-entry">
+Authier, G. (2010). Azeri <span>M</span>orphology in <span>K</span>ryz
+(<span>E</span>ast <span>C</span>aucasian). <em>Turkic Languages</em>,
+<em>14</em>, 14–42.
+</div>
+<div id="ref-daniel2015" class="csl-entry">
+Daniel, M. (2015). Logophoric reference in <span>A</span>rchi.
+<em>Journal of Pragmatics</em>, <em>88</em>, 202–219.
+</div>
+<div id="ref-forker2018avar" class="csl-entry">
+Forker, D. (2018). The semantics of evidentiality and epistemic modality
+in <span>A</span>var. In D. Forker &amp; T. Maisak (Eds.), <em>The
+semantics of verbal categories in nakh-daghestanian languages</em> (pp.
+188–214). Brill.
+</div>
+<div id="ref-forker2019b" class="csl-entry">
+Forker, D. (2019). Reported speech constructions in <span>S</span>anzhi
+<span>D</span>argwa and their extension to other areas of grammar.
+<em>Sprachwissenschaft</em>, <em>44</em>(2), 171–199.
+</div>
+<div id="ref-friedman2007" class="csl-entry">
+Friedman, V. A. (2007). The expression of speaker subjectivity in
+<span>L</span>ak (<span>D</span>aghestan). In Z. Guentchéva &amp; J.
+Landabaru (Eds.), <em>L’énonciation médiatisée II</em> (pp. 351–376).
+Peeters.
+</div>
+<div id="ref-greed2014" class="csl-entry">
+Greed, T. (2014). The expression of knowledge in <span>T</span>atar. In
+A. Aikhenvald &amp; R. M. W. Dixon (Eds.), <em>The grammar of knowledge:
+A cross-linguistic typology</em> (pp. 69–88). Oxford University Press.
+</div>
+<div id="ref-guldemann2008" class="csl-entry">
+Güldemann, T. (2008). <em>Quotative <span>I</span>ndexes in
+<span>A</span>frican <span>L</span>anguages: <span>A</span>
+<span>S</span>ynchronic and <span>D</span>iachronic
+<span>S</span>urvey</em>. Mouton De Gruyter.
+</div>
+<div id="ref-khalilova2011" class="csl-entry">
+Khalilova, Z. (2011). Evidentiality in <span>T</span>sezic languages.
+<em>Linguistic Discovery</em>, <em>9</em>(2), 30–48.
+</div>
+<div id="ref-maisak2017" class="csl-entry">
+Maisak, T. (2017). <em>Tense and aspect among the factors conditioning
+the distribution of quotatives: Data from <span>A</span>ndi</em>.
+</div>
+</div>
+</div>
+<div class="footnotes footnotes-end-of-document">
+<hr />
+<ol>
+<li id="fn1"><p>Example (6) is a partial example.<a href="#fnref1"
+class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+</head>
+
+<body>
+    <div class="footer-basic">
+        <footer>
+            
+            <div class='lic'><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br /><i>Typological Atlas of the languages of Daghestan </i> (<i>TALD</i>) is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+            <div class="social"><a href="https://github.com/LingConLab/TALD" target="_blank"><span class="iconify" data-icon="octicon:logo-github-16"></span></a></div>
+            </div>
+            
+            <p class="copyright">2020<script>new Date().getFullYear()>2020&&document.write("-"+new Date().getFullYear());</script>,  Linguistic Convergence Laboratory, HSE University</p>
+        </footer>
+    </div>
+    <script type="text/javascript" src="./js/links.js"></script> <!--это чтобы ссылки открывались в новом окне -->
+</body>
+
+</html>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
