@@ -418,7 +418,7 @@ feature_dataset %>%
          Source = source) %>% 
   rowwise() %>% 
   mutate(page = str_replace_all(page, '--', '–'),
-         source = Cite(bib, Source, 
+         Source = Cite(bib, Source, 
                        after = ifelse(!is.na(page), 
                                       str_c(': ', page),
                                       ''))) %>%
