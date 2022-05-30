@@ -73,7 +73,7 @@ In Armenian the standard way of expressing the caritive meaning in adverbial phr
 ```{r, results='asis'}
 gloss_example("et’e et.nayel-u lin-em č’-em kar-oł as-el t’e Hayastan-n aysōr ur klin-er **aṙanc’** Sp’yuṙk’-i",
               "CONJ look.back-PTCP.FUT be-SUBJ.FUT.1.SG NEG-be.PRS.1SG can-PRS.PTCP say-INF CONJ Armenia.NOM-the today where be-PST.COND.3.SG **PREP** Diaspora-DAT",
-              "If I am about to look back, I cannot say where Armenia would be without the Diaspora.")
+              "If I am about to look back, I cannot say where Armenia would be without the Diaspora.", line_length =90)
 ```
 
 The principles of encoding the languages for [Map 2](28_caritive_adv_map.html) are the same as for [Map 1](27_caritive_attr_map.html#m2). While the value `not having converb` means that, according to my data, a language has only the converbial strategy, the value `dedicated suffix/clitic (~ lessly)` means that a language uses only a dedicated suffix/clitic or it uses both a dedicated suffix/clitic and a converbial constriction.
