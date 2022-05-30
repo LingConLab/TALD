@@ -1,0 +1,5 @@
+## {-}
+
+General chapter: [Phonology](phonology.html)
+
+The most common labial sound in East Caucasian languages is the bilabial **w** which is present in most languages, however in southern Daghestan the approximant become a fricative **v**. In the Dargwa village Ayalakab I witnessed the bilabial fricative realisation **β**.

@@ -1,9 +1,11 @@
 ---
 title: "References"
+link-citations: true
 output:
   html_document:
     include:
       in_header: ./html/header_references.html
+bibliography: "data/bibliography.bib"
 ---
 
 ***
@@ -38,8 +40,15 @@ readxl::read_xlsx("data/biblib.xlsx", sheet = "source type and idiom")  %>%
                 dom = 'fltpi'))
 ```
 
+
+```{r, results = "asis"}
+str_c(c("---", 
+      "nocite: |",
+      str_c("  ", str_c("@", names(bib), collapse = ", ")),
+      "---"), collapse = "\n") %>% 
+  cat()
+```
+
+
 ## References
 
-```{r, results='asis'}
-PrintBibliography(bib)
-```
