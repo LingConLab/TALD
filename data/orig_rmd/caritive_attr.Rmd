@@ -42,7 +42,7 @@ The most widespread dedicated attributive caritive marker in the languages of Da
 
 In languages lacking a caritive suffix/clitic, caritive semantics is usually expressed by the negative participle of the verb ‘have’. In the case of East Caucasian, the negative participle of an existential verb is used (cf. (@six) above). So far, I have found information about participial constructions expressing caritive semantics in the following languages: Agul, Avar, Bagvalal, Budukh, Chechen, Ingush, Karata, Khwarshi, Kryz, Rutul, Tabasaran, Tindi and Tsakhur. However, I assume that this strategy is available in other languages too.
 
-On [Map 1](27_caritive_attr_map.html) the value `not having participle` indicates situations where a participial construction was mentioned in the sources, but a dedicated suffix/clitic was not. The value `dedicated suffix/clitic (~ less)` indicates situations where a dedicated suffix/clitic is described in the available sources, while the participial construction is or is not mentioned (these two scenarios are merged on the map).
+On [Map 1](027_caritive_attr_map.html) the value `not having participle` indicates situations where a participial construction was mentioned in the sources, but a dedicated suffix/clitic was not. The value `dedicated suffix/clitic (~ less)` indicates situations where a dedicated suffix/clitic is described in the available sources, while the participial construction is or is not mentioned (these two scenarios are merged on the map).
 
 
 ### Adverbial caritive phrases
@@ -76,7 +76,7 @@ gloss_example("et’e et.nayel-u lin-em č’-em kar-oł as-el t’e Hayastan-n 
               "If I am about to look back, I cannot say where Armenia would be without the Diaspora.", line_length =90)
 ```
 
-The principles of encoding the languages for [Map 2](28_caritive_adv_map.html) are the same as for [Map 1](27_caritive_attr_map.html#m2). While the value `not having converb` means that, according to my data, a language has only the converbial strategy, the value `dedicated suffix/clitic (~ lessly)` means that a language uses only a dedicated suffix/clitic or it uses both a dedicated suffix/clitic and a converbial constriction.
+The principles of encoding the languages for [Map 2](028_caritive_adv_map.html) are the same as for [Map 1](027_caritive_attr_map.html#m2). While the value `not having converb` means that, according to my data, a language has only the converbial strategy, the value `dedicated suffix/clitic (~ lessly)` means that a language uses only a dedicated suffix/clitic or it uses both a dedicated suffix/clitic and a converbial constriction.
 
 ### Additional remarks
 
