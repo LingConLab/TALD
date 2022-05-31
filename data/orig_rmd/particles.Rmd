@@ -96,7 +96,6 @@ The areal distribution of the features is noisy, which probably results from des
 ## Related features {-}
 
 - [Evidentiality in the tense system](001_evidentiality_tense.html)
-- [Evidential auxiliaries]()
 
 ## List of glosses {-}
 

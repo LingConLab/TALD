@@ -58,17 +58,17 @@ Second, the indirect evidential feature can spread to other tense-aspect forms. 
 |              |Aorist                                                                                   |Perfect                                                                                             |
 |--------------|-----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
 |Aorist/Perfect|`r gloss_example("c'al-**ana**", "read-AOR", intext = TRUE)`                             |`r gloss_example("c'al-**un** **b-ugo**", "read-CVB N-COP", intext = TRUE)`                             |
-|Pluperfect    |`r gloss_example("c'al-un **b-uk'-ana**", "read-CVB N-be-AOR", intext = TRUE)`           |`r gloss_example("c'al-un **b-uk'-un b-ugo**", "read-CVB N-be-CVB N-COP", intext = TRUE)`           |
-|Imperfect     |`r gloss_example("c'al-ul-e-b **b-uk'-ana**", "read-PRS-PTCP-N N-be-AOR", intext = TRUE)`|`r gloss_example("c'al-ul-e-b **b-uk'-un b-ugo**", "read-PRS-PTCP-N N-be-CVB N-COP", intext = TRUE)`|
+|Pluperfect    |`r gloss_example("c'al-un **b-uk'-ana**", "read-CVB N-be-AOR", intext = TRUE)`           |`r gloss_example("c'al-un **b-uk'-un** **b-ugo**", "read-CVB N-be-CVB N-COP", intext = TRUE)`           |
+|Imperfect     |`r gloss_example("c'al-ul-e-b **b-uk'-ana**", "read-PRS-PTCP-N N-be-AOR", intext = TRUE)`|`r gloss_example("c'al-ul-e-b **b-uk'-un** **b-ugo**", "read-PRS-PTCP-N N-be-CVB N-COP", intext = TRUE)`|
 
 [^2]: I use the term “general past” here to refer to the single most frequent and least morphologically and functionally marked past tense. Language descriptions may label the same form Aorist, Preterite, or Perfective Past, depending on the specifics of the language. 
 
-Divergent paradigms are found in Chechen and Tsakhur. Indirect evidential past tenses in Chechen (which contrast with direct evidential and neutral tenses) are derived with different forms of a special auxiliary *xil-* 'be, become' [@molochieva2007]. In Chechen the evidential value is thus connected to the lexical item, rather than its inflectional form. Because the indirect evidential past in Chechen structurally looks like a pluperfect with a perfect auxiliary (cf. example (@four) and the Perfect Pluperfect in [Table 1](#t1)), I argued in Ферхеес [-@verhees2019b: 85-86] that the Chechen system probably also has its roots in the path from perfect to indirect evidentiality.
+Divergent paradigms are found in Chechen and Tsakhur. Indirect evidential past tenses in Chechen (which contrast with direct evidential and neutral tenses) are derived with different forms of a special auxiliary *xil-* 'be, become' [@molochieva2007]. In Chechen the evidential value is thus connected to the lexical item, rather than its inflectional form. Because the indirect evidential past in Chechen structurally looks like a pluperfect with a perfect auxiliary (cf. example (@four) and the Perfect Pluperfect in [Table 1](#t1)), I argued in Verhees [-@verhees2019b: 85-86] that the Chechen system probably also has its roots in the path from perfect to indirect evidentiality.
 
 (@four) Standard Chechen [@molochieva2010: 54]
 ```{r}
 gloss_example("dada-s jol **hwiaq-na** **xilla**",
-              "father-ERG hay.NOM(j) rub:PRV1-CVB be.PRF",
+              "father-ERG hay.NOM(j) rub:PFV-CVB be.PRF",
               "Father has cut/made hay.",
               "(The speaker did not see it.)")
 ``` 
@@ -109,7 +109,6 @@ Despite the striking distribution of these features, a number of factors prevent
 
 - [The perfect](003_perfect.html)
 - [Reported speech particles](004_particles.html)
-- [Evidential auxiliaries]()
 
 ## List of glosses {-}
 

@@ -131,7 +131,6 @@ The distribution of various functions associated with the perfect as a typologic
 
 - [Evidentiality in the tense system](001_evidentiality_tense.html)
 - [Particles of reported speech and inference](004_particles.html)
-- [Evidential auxiliaries]()
 
 ## List of glosses {-}
 
