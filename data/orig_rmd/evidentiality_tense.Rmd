@@ -53,7 +53,7 @@ Following the grammaticalization of the perfect, the category of evidentiality c
 
 Second, the indirect evidential feature can spread to other tense-aspect forms. In at least 15 idioms a perfect form of the auxiliary derives the indirect evidential counterparts of direct or neutral past tenses that take an auxiliary inflected for general past.[^2] These parallel paradigms are often referred to as "series". [Table 1](#t1). below shows a partial illustrative paradigm for Avar.
 
-##### Table 1. Past tenses in Avar: Aorist and Perfect series {#t1 -}
+##### **Table 1.** Past tenses in Avar: Aorist and Perfect series {#t1 -}
 
 |              |Aorist                                                                                   |Perfect                                                                                             |
 |--------------|-----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
