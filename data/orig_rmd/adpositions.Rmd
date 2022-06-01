@@ -338,7 +338,7 @@ A dominant case may be instantiated by an abstract case (such as genitive or dat
 ## List of glosses {-}
 
 ```{r}
-make_gloss_list(readxl::read_xlsx("../glosses.xlsx"))
+make_gloss_list(readxl::read_xlsx("data/glosses.xlsx"))
 ```
 
 ## References {-}

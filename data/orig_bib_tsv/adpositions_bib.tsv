@@ -1,4 +1,4 @@
-CATEGORY	BIBTEXKEY	author	title	year	(title_translation)	publisher	address	pages	booktitle	(booktitle_translation)	editor	journal	volume	number	school	note	url	howpublished	contributor	date_added	comment	correction_notes	checked
+CATEGORY	BIBTEXKEY	author	title	year	TITLE_TRANSLATION	publisher	address	pages	booktitle	BOOKTITLE_TRANSLATION	editor	journal	volume	number	school	note	url	howpublished	contributor	date_added	comment	correction_notes	checked
 book	aliroev1999	Алироев, Ибрагим Ю.	Чеченский язык	1999	The Chechen language	Academia	Москва												Polina Nasledskova	05.05.2022			
 book	authier2012	Authier, Gilles	Grammaire juhuri, ou judéo-tat, langue iranienne des Juifs du Caucase de l’est	2012		Dr. Ludwig Reichert Verlag Wiesbaden	Wiesbaden												Chiara Naccarato				Y
 book	dum-tragut2009	Dum-Tragut, Jasmine	Armenian	2009		John Benjamins	Amsterdam/Philadelphia																Y
@@ -16,10 +16,3 @@ book	shiralievsevortyan1971	Ширалиев, Мамедага Ш. and Сево�
 incollection	sosenskaja1999post	Сосенская, Татьяна Б.	Послелог	1999	Postposition	Наследие	Москва	121--129	Элементы цахурского языка в типологическом освещении	Elements of the Tsakhur language in a typological perspective	Кибрик, Александр Е. and Татевосов, Сергей Г.								Chiara Naccarato	09.02.2021			Y
 incollection	sosenskaja2001pp	Сосенская, Татьяна Б.	Послеложная группа	2001	Postpositional phrase	Наследие	Москва	405--407	Багвалинский язык. Грамматика, тексты, словари.	The Bagvalal language. Grammar, texts, dictionaries	Кибрик, Александр Е. and Лютикова, Екатерина А. and Татевосов, Сергей Г.								Polina Nasledskova	05.05.2022			
 book	vandenberg1995	van den Berg, Helma	A grammar of Hunzib	1995		Lincom	Munich																Y
-																							
-																							
-																							
-																							
-			AGREEING ADPOSITIONS IN AVAR																				
-			AND THE DIRECTIONALITY-OFVALUATION																				
-			DEBATE																				

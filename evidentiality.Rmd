@@ -59,7 +59,7 @@ gloss_example("dosul j-ik'-ara-j=ila č'užu",
               comment = "(the speaker heard this from someone)")
 ```
 
-Typologies of evidentiality typically divide the semantic domain into direct vs. indirect access to information about an event.[^2] These macro-categories branch out into more specific meanings such as “hearsay” or “inference from results”. Figure 1 displays functions for which a special marker is attested in the eastern Caucasus in bold. Category labels are indicated between brackets. The status of direct evidential marking in East Caucasian is disputed (see chapter [Evidentiality in the tense system](evidentiality_tense.html)).
+Typologies of evidentiality typically divide the semantic domain into direct vs. indirect access to information about an event.[^2] These macro-categories branch out into more specific meanings such as “hearsay” or “inference from results”. Figure 1 displays functions for which a special marker is attested in the eastern Caucasus in bold. Category labels are indicated between brackets. The status of direct evidential marking in East Caucasian is disputed (see chapter [Evidentiality in the tense system](001_evidentiality_tense.html)).
 
 [^2]: As discussed in [@verhees2019a], these two categories form a cline of directness, rather than a strict binary opposition.
 
@@ -106,20 +106,20 @@ Three main types of forms are attested in the eastern Caucasus:
 - Particles
 - Auxiliaries
 
-All of these types show varying degrees of grammaticalization in individual languages. At least in the verbal paradigm, evidentiality is considered a relatively recent innovation in East Caucasian [@authiermaisak2011: ix]. In the only language for which we have historical records (Caucasian Albanian) it is not attested. The presence of indirect evidentiality within the verbal system shows a peculiar areal distribution: while the feature is generally common in the family, it is notably absent in a number of languages spoken in the southern part of the eastern Caucasus. It is possible that both the presence and the absence of the feature result from Turkic contact influence, but there are several important caveats to this hypothesis, which are discussed in more detail in the chapter [Evidentiality in the tense system](evidentiality_tense.html).
+All of these types show varying degrees of grammaticalization in individual languages. At least in the verbal paradigm, evidentiality is considered a relatively recent innovation in East Caucasian [@authiermaisak2011: ix]. In the only language for which we have historical records (Caucasian Albanian) it is not attested. The presence of indirect evidentiality within the verbal system shows a peculiar areal distribution: while the feature is generally common in the family, it is notably absent in a number of languages spoken in the southern part of the eastern Caucasus. It is possible that both the presence and the absence of the feature result from Turkic contact influence, but there are several important caveats to this hypothesis, which are discussed in more detail in the chapter [Evidentiality in the tense system](001_evidentiality_tense.html).
 
-The data on particles show no clear areal signal, though this could be the result of a descriptive gap, see [Reported speech particles](particles.html) for more detail.
+The data on particles show no clear areal signal, though this could be the result of a descriptive gap, see [Reported speech particles](004_particles.html) for more detail.
 
-Only one East Caucasian language (Kryz of the Lezgic branch) copied an evidential morpheme from Azerbaijani (discussed in the chapter [Reported speech particles](particles.html)). 
+Only one East Caucasian language (Kryz of the Lezgic branch) copied an evidential morpheme from Azerbaijani (discussed in the chapter [Reported speech particles](004_particles.html)). 
 
 As pointed out by Daniel & Maisak [-@danielmaisak2018: 143--144], the use of the verb ‘find’ as a kind of evidential auxiliary appears to be common among languages that have been in prolonged contact with Avar, such as the Andic and Tsezic languages, but also more distantly related idioms like Archi (Lezgic) and Mehweb (Dargwa).
   
   
 ## Related features {-}
 
-- [Evidentiality in the tense system](evidentiality_tense.html)
-- [The perfect](perfect.html)
-- [Reported speech paricles](particles.html)
+- [Evidentiality in the tense system](001_evidentiality_tense.html)
+- [The perfect](003_perfect.html)
+- [Reported speech paricles](004_particles.html)
 - [Evidential auxiliaries](:())
 
 ## Gloss list {-}

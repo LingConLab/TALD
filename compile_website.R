@@ -12,7 +12,7 @@ if(length(to_install) > 0){
 library(tidyverse)
 
 # RUN TESTS ----------------------------------------------------------------
-testthat::test_dir("tests")
+# testthat::test_dir("tests")
 # this should have no warnings 
 
 # convert .bib.tsv to .bib -------------------------------------------------
@@ -449,5 +449,5 @@ rmarkdown::render_site()
 file.remove(list.files("docs/data", full.names = TRUE, recursive = TRUE))
 file.remove(list.files("docs/html", full.names = TRUE, recursive = TRUE))
 file.remove(list.files("docs/tests", full.names = TRUE, recursive = TRUE))
-file.remove(c(list.files("docs/data", full.names = TRUE), "docs/data", "docs/tests", "docs/html", "docs/DESCRIPTION", "docs/LICENSE"))
+file.remove(c(list.files("docs/data", full.names = TRUE), "docs/data", "docs/tests", "docs/html", "docs/DESCRIPTION", "docs/LICENSE", "docs/Makefile"))
 beepr::beep()
