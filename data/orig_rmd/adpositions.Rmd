@@ -1,3 +1,17 @@
+---
+title: "Adpositions"
+author: "Tatiana Philippova, Polina Nasledskova"
+date: 'Last update: May 2022'
+bibliography: "data/orig_bib/adpositions.bib"
+csl: ./data/apa.csl
+link-citations: true
+output:
+  html_document:
+    number_sections: true
+    anchor_sections: true
+    pandoc_args: --shift-heading-level-by=-1
+---
+
 ```{r, include = FALSE}
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, comment = '')
 library(lingglosses)
@@ -324,7 +338,7 @@ A dominant case may be instantiated by an abstract case (such as genitive or dat
 ## List of glosses {-}
 
 ```{r}
-make_gloss_list()
+make_gloss_list(readxl::read_xlsx("../glosses.xlsx"))
 ```
 
 ## References {-}
