@@ -39,8 +39,10 @@ Feature chapters added:
 - Voiceless obstruents
 - Comitative
 - Attributive and adverbial caritive markers
+- Dominant adpositional case
 
 Major topics added:
 
 - Evidentiality
 - On the phonology of East Caucasian languages
+- Adpositions
