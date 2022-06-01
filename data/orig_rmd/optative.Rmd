@@ -189,8 +189,8 @@ Another feature concerns the optative suffix. The origin of the optative suffix 
 
 (@thirteen) Khwarshi: Kwantlada [@khalilova2009: 251]
 ```{r}
-gloss_example("quq-a 	šeš-o-ƛo 	dublo",
-              "throat-IN 	stick-IMP-OPT 	you.GEN2",
+gloss_example("quq-a šeš-o-ƛo dublo",
+              "throat-IN stick-IMP-OPT you.GEN2",
               "Let it (something) be stuck in your throat!")
 ```
 
