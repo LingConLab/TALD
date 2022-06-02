@@ -45,9 +45,10 @@ gloss_example("said-a uq' sej-ij",
 
 (@five) Rutul: Kina (Dobrushina, field data)
 ```{r}
-gloss_example("*wa-d uq' sej-ij",
+gloss_example("wa-d uq' sej-ij",
               "you-ERG grass mow-OPT",
-              "You should mow the grass.")
+              "You should mow the grass.", 
+              grammaticality = "*")
 ```
 
 In this chapter, the forms of the Rutul type will be classified as optatives. I reserve the term jussive for forms which are restricted to 3rd person imperative (Mehweb, [@dobrushina2019: 133--138]), or combine 3rd person imperative with the expression of a wish with a 3rd person subject (Kumyk, [@gadzhiakhmedov2000]). The terms are presented in [Table 1](#t1) (see also the discussion of these terms in Dobrushina [-@dobrushina2012]).

@@ -1,6 +1,8 @@
-.DEFAULT_GOAL := compile
+.PHONY: all clean
 
-compile:
+R_OPTS=--vanilla
+
+all:
 	Rscript compile_website.R
 clean:
-	rm -r docs/data/*; rm -r docs/html/*; rm -r docs/tests/*; rm -r docs/data/*;
+	rm -rf docs/data docs/html docs/tests docs/data docs/DESCRIPTION docs/LICENSE docs/Makefile

@@ -1,13 +1,14 @@
 ---
 title: "About"
-output: 
-  html_document:
-    include:
-      in_header: ./html/header_about.html
-    toc: true
-    toc_depth: 2
 bibliography: ./data/about.bib
 link-citations: true
+output:
+  html_document:
+    number_sections: true
+    anchor_sections: true
+    pandoc_args: --shift-heading-level-by=-1
+    include:
+      in_header: ./html/header_about.html
 ---
  
 ```{r, include=FALSE}
@@ -49,7 +50,7 @@ Below are some examples from the chapter on [Morning greetings](08_morning_greet
 
 For map visualizations we use the [Lingtypology package](https://github.com/ropensci/lingtypology) [@moroz2017] for [R](https://www.r-project.org/).
 
-### 1. Extrapolated data
+### Extrapolated data
 
 This is our default visualization. It represents each language as a cluster of dots, which correspond to villages where a certain language is spoken.[^1] The inside of each dot is colored by language; languages from the same group have similar colors (e.g. all Lezgic languages have some shade of green). Hover over a dot to see the name of the language, and click to view a popup with a link to the language's page in the [Glottolog](https://glottolog.org) database and the name of the village. The color of the outer dots indicates the value of a linguistic feature. By unticking the box "show languages" you can remove the inner dots and visualize the distribution of different values in the area without the distraction of genealogical information.
 
@@ -162,7 +163,7 @@ map.feature(alldata_clean$lang4map,
                           'data:', alldata_clean$type))
 ```
 
-### 2. Data granularity
+### Data granularity
 
 The data granularity visualization shows the level of accuracy for each datapoint in the previous visualization, e.g. "village dialect" indicates that we had information about the feature for this specific village variety, while "language" means that we only had information for the language in general, from which we extrapolated information for this point. This allows the user to see what kind of data underlies the default visualization.
 
@@ -185,7 +186,7 @@ map.feature(alldata_clean$lang4map,
                           'data:', alldata_clean$type))
 ```
 
-### 3. General datapoints
+### General datapoints
 
 Because the village-based maps can be visually overwhelming, the Atlas also provides a more basic visualization that shows one dot on the map for each language in the sample. By unticking the box "show languages" you can remove the inner dots and visualize the distribution of different values in the area without the distraction of genealogical information.
 
