@@ -60,63 +60,63 @@ In this chapter, the forms of the Rutul type will be classified as optatives. I 
   overflow:hidden;padding:10px 5px;word-break:normal;}
 .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-.tg .tg-8i8s{background-color:#D0CECE;text-align:left;vertical-align:top}
+.tg .tg-llyw{background-color:#c0c0c0;border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
 </style>
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-0lax"></th>
-    <th class="tg-0lax" colspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Optative </span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">(Mehweb form in -b)</span></th>
-    <th class="tg-0lax" colspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Optative </span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">(Rutul form in –Vj)</span></th>
-    <th class="tg-0lax" colspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Jussive </span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">(Kumyk form in –syn/-sin/-sun)</span></th>
-    <th class="tg-0lax" colspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Jussive </span><br><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">(Mehweb form with bet’a)</span></th>
+    <th class="tg-0pky"></th>
+    <th class="tg-0pky" colspan="2">Optative<br>(Mehweb form in -b)</th>
+    <th class="tg-0pky" colspan="2">Optative<br>(Rutul form in -Vj)</th>
+    <th class="tg-0pky" colspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none">Jussive</span><br><span style="font-weight:400;font-style:normal;text-decoration:none">(Kumyk form in –syn/-sin/-sun)</span></th>
+    <th class="tg-0pky" colspan="2">Jussive<br>(Mehweb form with bet’a)</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">persons</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">command</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">blessings and curses</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">command</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">blessings and curses</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">command</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">blessings and curses</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">command</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">blessings and curses</span></td>
+    <td class="tg-0pky">person</td>
+    <td class="tg-0pky">command</td>
+    <td class="tg-0pky">blessings and <br>curses</td>
+    <td class="tg-0pky">command</td>
+    <td class="tg-0pky">blessings and <br>curses</td>
+    <td class="tg-0pky">command</td>
+    <td class="tg-0pky">blessings and <br>curses</td>
+    <td class="tg-0pky">command</td>
+    <td class="tg-0pky">blessings and <br>curses</td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">1</span></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-8i8s"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-8i8s"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
+    <td class="tg-0pky">1</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-llyw"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-llyw"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">2</span></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-8i8s"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-8i8s"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-0lax"></td>
+    <td class="tg-0pky">2</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-llyw"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-llyw"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
+    <td class="tg-0pky"></td>
   </tr>
   <tr>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">3</span></td>
-    <td class="tg-0lax"></td>
-    <td class="tg-8i8s"></td>
-    <td class="tg-8i8s"></td>
-    <td class="tg-8i8s"></td>
-    <td class="tg-8i8s"></td>
-    <td class="tg-8i8s"></td>
-    <td class="tg-8i8s"></td>
-    <td class="tg-0lax"></td>
+    <td class="tg-0pky">3</td>
+    <td class="tg-0pky"></td>
+    <td class="tg-llyw"></td>
+    <td class="tg-llyw"></td>
+    <td class="tg-llyw"></td>
+    <td class="tg-llyw"></td>
+    <td class="tg-llyw"></td>
+    <td class="tg-llyw"></td>
+    <td class="tg-0pky"></td>
   </tr>
 </tbody>
 </table>
