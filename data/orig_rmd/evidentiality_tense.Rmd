@@ -57,12 +57,6 @@ Second, the indirect evidential feature can spread to other tense-aspect forms. 
 
 |              |Aorist                                                                                   |Perfect                                                                                             |
 |--------------|-----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
-|Aorist/Perfect|`r gloss_example("c'al-**ana**", "read-AOR")`                             |`r gloss_example("c'al-**un** **b-ugo**", "read-CVB N-COP")`                             |
-|Pluperfect    |`r gloss_example("c'al-un **b-uk'-ana**", "read-CVB N-be-AOR")`           |`r gloss_example("c'al-un **b-uk'-un** **b-ugo**", "read-CVB N-be-CVB N-COP")`           |
-|Imperfect     |`r gloss_example("c'al-ul-e-b **b-uk'-ana**", "read-PRS-PTCP-N N-be-AOR")`|`r gloss_example("c'al-ul-e-b **b-uk'-un** **b-ugo**", "read-PRS-PTCP-N N-be-CVB N-COP")`|
-
-|              |Aorist                                                                                   |Perfect                                                                                             |
-|--------------|-----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
 |Aorist/Perfect|`r gloss_example("c'al-**ana**", "read-AOR", intext = TRUE)`                             |`r gloss_example("c'al-**un** **b-ugo**", "read-CVB N-COP", intext = TRUE)`                             |
 |Pluperfect    |`r gloss_example("c'al-un **b-uk'-ana**", "read-CVB N-be-AOR", intext = TRUE)`           |`r gloss_example("c'al-un **b-uk'-un** **b-ugo**", "read-CVB N-be-CVB N-COP", intext = TRUE)`           |
 |Imperfect     |`r gloss_example("c'al-ul-e-b **b-uk'-ana**", "read-PRS-PTCP-N N-be-AOR", intext = TRUE)`|`r gloss_example("c'al-ul-e-b **b-uk'-un** **b-ugo**", "read-PRS-PTCP-N N-be-CVB N-COP", intext = TRUE)`|
