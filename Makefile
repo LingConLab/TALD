@@ -1,8 +1,6 @@
-.DEFAULT_GOAL := compile_quietly
+.DEFAULT_GOAL := compile
 
-compile_quietly:
-	R CMD BATCH compile_website.R
 compile:
 	Rscript compile_website.R
 clean:
-    rm -r docs/data/*; rm -r docs/html/*; rm -r docs/tests/*; rm -r docs/data/*;
+	rm -r docs/data/*; rm -r docs/html/*; rm -r docs/tests/*; rm -r docs/data/*;
