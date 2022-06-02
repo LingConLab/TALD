@@ -452,8 +452,4 @@ map(seq_along(rmd_filenames), function(i){
 # RENDER AND CLEAN ---------------------------------------------------------
 rmarkdown::render_site()
 
-# file.remove(list.files("docs/data", full.names = TRUE, recursive = TRUE))
-# file.remove(list.files("docs/html", full.names = TRUE, recursive = TRUE))
-# file.remove(list.files("docs/tests", full.names = TRUE, recursive = TRUE))
-# file.remove(c(list.files("docs/data", full.names = TRUE), "docs/data", "docs/tests", "docs/html", "docs/DESCRIPTION", "docs/LICENSE", "docs/Makefile"))
 beepr::beep()
