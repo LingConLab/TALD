@@ -45,6 +45,8 @@ print(article_citation, .opts = list(style = 'text'))
 print(article_citation, .opts = list(style = 'Bibtex'))
 ```
 
+## {-}
+
 Daghestan is part of a large area where relatively simple systems of evidentiality marking are common. This area, sometimes referred to as the “Evidential Belt” ,[^1] stretches across the Eurasian continent and encompasses many genealogically and typologically distant languages (see Plungian [-@plungian2010: 19-21] for a concise overview). Typical of this area is the marking of events not directly witnessed by the speaker (indirect evidentiality).
 
 [^1]: I have not been able to trace the origin of the term Evidential Belt. It appears in many papers and chapters, but as a rule without reference to another source.
@@ -119,8 +121,7 @@ As pointed out by Daniel & Maisak [-@danielmaisak2018: 143--144], the use of the
 
 - [Evidentiality in the tense system](001_evidentiality_tense.html)
 - [The perfect](003_perfect.html)
-- [Reported speech paricles](004_particles.html)
-- [Evidential auxiliaries](:())
+- [Particles of reported speech and inference](004_particles.html)
 
 ## Gloss list {-}
 

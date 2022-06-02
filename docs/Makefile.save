@@ -1,2 +1,0 @@
-compile_website:
-	CMD BATCHRscript compile_website.R

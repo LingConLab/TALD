@@ -57,6 +57,12 @@ Second, the indirect evidential feature can spread to other tense-aspect forms. 
 
 |              |Aorist                                                                                   |Perfect                                                                                             |
 |--------------|-----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
+|Aorist/Perfect|`r gloss_example("c'al-**ana**", "read-AOR")`                             |`r gloss_example("c'al-**un** **b-ugo**", "read-CVB N-COP")`                             |
+|Pluperfect    |`r gloss_example("c'al-un **b-uk'-ana**", "read-CVB N-be-AOR")`           |`r gloss_example("c'al-un **b-uk'-un** **b-ugo**", "read-CVB N-be-CVB N-COP")`           |
+|Imperfect     |`r gloss_example("c'al-ul-e-b **b-uk'-ana**", "read-PRS-PTCP-N N-be-AOR")`|`r gloss_example("c'al-ul-e-b **b-uk'-un** **b-ugo**", "read-PRS-PTCP-N N-be-CVB N-COP")`|
+
+|              |Aorist                                                                                   |Perfect                                                                                             |
+|--------------|-----------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
 |Aorist/Perfect|`r gloss_example("c'al-**ana**", "read-AOR", intext = TRUE)`                             |`r gloss_example("c'al-**un** **b-ugo**", "read-CVB N-COP", intext = TRUE)`                             |
 |Pluperfect    |`r gloss_example("c'al-un **b-uk'-ana**", "read-CVB N-be-AOR", intext = TRUE)`           |`r gloss_example("c'al-un **b-uk'-un** **b-ugo**", "read-CVB N-be-CVB N-COP", intext = TRUE)`           |
 |Imperfect     |`r gloss_example("c'al-ul-e-b **b-uk'-ana**", "read-PRS-PTCP-N N-be-AOR", intext = TRUE)`|`r gloss_example("c'al-ul-e-b **b-uk'-un** **b-ugo**", "read-PRS-PTCP-N N-be-CVB N-COP", intext = TRUE)`|
@@ -94,7 +100,7 @@ In Azerbaijani the perfect expresses only current relevance. This is most likely
 
 ## Distribution
 
-Evidentiality as part of the tense system and as a function of the perfect shows a peculiar areal distribution in the eastern Caucasus: it is overall common but notably absent in the southern part of the area. This is not due to a lack of description, see Maisak [-@maisakunpub].
+Evidentiality as part of the tense system and as a function of the perfect shows a peculiar areal distribution in the eastern Caucasus: it is overall common but notably absent in the southern part of the area. This is not due to a lack of description, see Maisak [-@maisak2021].
 
 The distribution of these features appears to correspond to the spread of different Turkic languages as lingua franca. Many East Caucasian people would acquire a command of Kumyk or Nogai through trade at the important local markets of Mozdok, Kizlyar, and Buynaksk in the northwestern and central parts of the eastern Caucasus [@wixman1980: 58-59]. Male Daghestanian highlanders could also pick up Kumyk through pastorialism in the central lowlands, which were dominated by Kumyk speakers [@wixman1980: 57, 71]. Azerbaijani was the main lingua franca at the market of Derbent in the south [@wixman1980: 58-59]. It also functioned as the language of literacy for most Lezgic people (see various chapters in Арутюнов и др. [-@arutjunovetal2002]). Overall the influence of Azerbaijani in the south seems more substantial than the influence of Kipchak languages in the northern and central areas. Bilingualism rates for Azerbaijani are much higher [@multidag], and influence on grammatical structure is well-attested (see Aristova [-@aristova2019]), while the linguistic influence of Kipchak languages seems limited to lexical borrowings.
 

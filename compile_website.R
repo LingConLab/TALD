@@ -326,12 +326,18 @@ feature_dataset %>%
   rename(Language=lang, 
          Idiom = idiom,
          Source = source) %>% 
-  rowwise() %>% 
   mutate(page = str_replace_all(page, '--', '–'),
-         Source = Cite(bib, Source, 
+         Source = str_split(Source, '; '),
+         page = str_split(page, '; ')) %>% 
+  unnest_longer(col = c(Source, page)) %>% 
+  rowwise() %>% 
+  mutate(page = ifelse(page == 'NA', NA_character_, page),
+         Source = ifelse(str_detect(Source, 'p.c.$'),
+                         Source,
+                         Cite(bib, Source, 
                        after = ifelse(!is.na(page), 
                                       str_c(': ', page),
-                                      ''))) %>%
+                                      '')))) %>%
   select(-page) %>% 
   DT::datatable(class = 'cell-border stripe', 
     rownames = FALSE, 

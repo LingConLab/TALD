@@ -88,7 +88,7 @@ villages %>%
 rm(all_data_without_languages, change, feature_dataset_4map, feature_dataset_4map_languages, feature_dataset_4map_rest, villages, genlang)
 ```
 
-## number of dedicated optatives{.tabset .tabset-fade .tabset-pills #m1} 
+## Number of dedicated optatives{.tabset .tabset-fade .tabset-pills #m1} 
     
     
 ### Extrapolated data {-}
@@ -165,7 +165,7 @@ map.feature(all_genpoints$lang4map,
               control = all_genpoints$display)
 ```
     
-## positive optative stem{.tabset .tabset-fade .tabset-pills #m2} 
+## Positive optative stem{.tabset .tabset-fade .tabset-pills #m2} 
     
     
 ### Extrapolated data {-}
@@ -242,7 +242,7 @@ map.feature(all_genpoints$lang4map,
               control = all_genpoints$display)
 ```
     
-## positive optative suffix{.tabset .tabset-fade .tabset-pills #m3} 
+## Positive optative suffix{.tabset .tabset-fade .tabset-pills #m3} 
     
     
 ### Extrapolated data {-}
@@ -319,7 +319,7 @@ map.feature(all_genpoints$lang4map,
               control = all_genpoints$display)
 ```
     
-## negative optative stem{.tabset .tabset-fade .tabset-pills #m4} 
+## Negative optative stem{.tabset .tabset-fade .tabset-pills #m4} 
     
     
 ### Extrapolated data {-}
@@ -416,12 +416,18 @@ feature_dataset %>%
   rename(Language=lang, 
          Idiom = idiom,
          Source = source) %>% 
-  rowwise() %>% 
   mutate(page = str_replace_all(page, '--', '–'),
-         Source = Cite(bib, Source, 
+         Source = str_split(Source, '; '),
+         page = str_split(page, '; ')) %>% 
+  unnest_longer(col = c(Source, page)) %>% 
+  rowwise() %>% 
+  mutate(page = ifelse(page == 'NA', NA_character_, page),
+         Source = ifelse(str_detect(Source, 'p.c.$'),
+                         Source,
+                         Cite(bib, Source, 
                        after = ifelse(!is.na(page), 
                                       str_c(': ', page),
-                                      ''))) %>%
+                                      '')))) %>%
   select(-page) %>% 
   DT::datatable(class = 'cell-border stripe', 
     rownames = FALSE, 
