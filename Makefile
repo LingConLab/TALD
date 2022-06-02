@@ -6,7 +6,7 @@ R_OPTS = --vanilla
 all: compile clean
 
 docs/%.html: %.Rmd
-	Rscript -e 'rmarkdown::render("$^")'
+	Rscript -e 'rmarkdown::render("$^", output_dir = "docs")'
 compile:
 	Rscript compile_website.R
 clean:
