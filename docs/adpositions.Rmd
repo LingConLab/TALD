@@ -97,7 +97,7 @@ Directionality markers signal the direction or absence of motion of the trajecto
 |:-----------|:----------|:----------|:-----------|
 | Hinuq  | Tsezic   | *geɬ* (ESS), *geɬ-es* (ABL1), *geɬ-zo* (ABL2), *geɬ-er* (LAT), *geɬ-edo* (DIR)   | @forker2013: 379 |
 | Mehweb | Dargic   | *ʔu* (LAT), *ʔu-b* (ESS), *ʔu-b-adal* (EL)   | @magometov1982: 126 |
-| Bagvalal | Andic | *hiƛ’i* (ESS), *hiƛ’i-sː* (EL), *hiƛ’i-sːini* (TRLAT) | @sosenskaja2001pp: 170 |
+| Bagvalal | Andic | *hiƛ’i* (ESS), *hiƛ’i-sː* (EL), *hiƛ’i-sːini* (TRLAT) | @sosenskaya2001: 170 |
 | Lezgian | Lezgic | *k’anik* (ESS), *k’anikaj* (EL) | @haspelmath1993: 219-220 |
 | Chechen | Nakh | *k’el*  (ESS/LAT), *k’eləħ* (ESS), *k’elərə* (EL), *k’elxuʊlə* (TRLAT),  *k’elħaː* (DIR) | @aliroev1999: 79-80 |
 
@@ -266,7 +266,7 @@ gloss_example(transliteration = "hinc’-ib-a-ɬa č’ihi",
               free_translation = "on stones")
 ```
 
-(@fifteen) Tsakhur (Lezgic) [@sosenskaja1999post: 127]
+(@fifteen) Tsakhur (Lezgic) [@sosenskaya1999post: 127]
 ```{r, results='asis'}
 gloss_example(transliteration = "sa jiʁ-ɨ-lʲ ǯamaʔaIt-ɨ-k’le **χāI-ni** **aq’ʷalʲ** c’e=t=ta wertalʲot ɢaǯe",
               glosses = "one day-OBL-SUP people-OBL-AFF sky-OBL on first=IV=ADV.IV helicopter.IV IV.see.PFV",
