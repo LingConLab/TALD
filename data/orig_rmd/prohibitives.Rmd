@@ -180,37 +180,37 @@ In the TALD sample, only three out of the four prohibitive encoding strategies p
   <tr>
     <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Regular imperative + regular negation marker</span></td>
     <td class="tg-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">113</span></td>
-    <td class="tg-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">23 %</span></td>
+    <td class="tg-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">23%</span></td>
     <td class="tg-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">3</span></td>
     <td class="tg-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">8.11%</span></td>
   </tr>
   <tr>
     <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Regular imperative + special prohibitive marker </span></td>
     <td class="tg-7btt"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">182</span></td>
-    <td class="tg-7btt"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">37 %</span></td>
+    <td class="tg-7btt"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">37%</span></td>
     <td class="tg-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">6</span></td>
-    <td class="tg-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">16.22 %</span></td>
+    <td class="tg-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">16.22%</span></td>
   </tr>
   <tr>
     <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Non-imperative verb form + regular negation marker</span></td>
     <td class="tg-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">55</span></td>
-    <td class="tg-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">11 %</span></td>
+    <td class="tg-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">11%</span></td>
     <td class="tg-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">0</span></td>
     <td class="tg-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">0%</span></td>
   </tr>
   <tr>
     <td class="tg-0pky"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Non-imperative verb form + special prohibitive marker</span></td>
     <td class="tg-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">146</span></td>
-    <td class="tg-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">29 %</span></td>
+    <td class="tg-c3ow"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">29%</span></td>
     <td class="tg-7btt"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">28</span></td>
-    <td class="tg-7btt"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">75.68 %</span></td>
+    <td class="tg-7btt"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">75.68%</span></td>
   </tr>
   <tr>
     <td class="tg-f8tv"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">Total</span></td>
     <td class="tg-8bgf"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">496</span></td>
-    <td class="tg-8bgf"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">100 %</span></td>
+    <td class="tg-8bgf"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">100%</span></td>
     <td class="tg-8bgf"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">37</span></td>
-    <td class="tg-8bgf"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">100 %</span></td>
+    <td class="tg-8bgf"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">100%</span></td>
   </tr>
 </tbody>
 </table>

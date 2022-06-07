@@ -1,4 +1,4 @@
-# install packages ---------------------------------------------------------
+    # install packages ---------------------------------------------------------
 packages <- c("tidyverse", "testthat", "lingglosses", "lingtypology", "bib2df", 
               "DT", "knitr", "ymlthis", "rmarkdown", "RefManageR", "stringi",
               "readxl")

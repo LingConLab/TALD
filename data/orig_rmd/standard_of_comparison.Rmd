@@ -41,7 +41,7 @@ There are 19 such languages (see [Table 1](#t1)). Note that Northern Akhvakh and
 #### **Table 1.** Elative markers {#t1 -}
 
 |Family > Branch|Language        |Suffix                   |
-|---------------|----------------|-------------------------|
+|:--------------|:---------------|:------------------------|
 |EC > Avar-Andic|Avar            |_-da-**sa**_             |
 |               |Akhvakh (North.)|_-g-**une**_             |
 |               |Bagvalal[^2]    |_-la-**sː**_             |
@@ -67,7 +67,7 @@ Five languages feature **ablative** markers (see [Table 2](#t2)). We use the ter
 #### **Table 2.** Ablative markers {#t2 -}
 
 |Family > Branch |Language   |Suffix       |
-|----------------|-----------|-------------|
+|:---------------|:----------|:------------|
 |EC > Lezgic     |Udi        |_-χun_       |
 |Turkic > Kipchak|Kumyk      |_-dan (-den)_|
 |                |Nogai      |_-den_       |
@@ -102,7 +102,7 @@ gloss_example("wacːi kj’e-ja rehã-ɬːiː muk’u-w ija **jacːu-č’i**",
 #### **Table 3.** Essive markers {#t3 -}
 
 |Family > Branch|Language       |Suffix  |
-|---------------|---------------|--------|
+|:--------------|:--------------|:-------|
 |EC > Avar-Andic|Tindi          |_-č'i_  |
 |EC > Dargwa    |Standard Dargwa|_-či-CM_|
 |               |Akusha         |_-či-CM_|
@@ -115,7 +115,7 @@ Three other languages mark the standard of comparison with spatial forms that do
 #### **Table 4.** Essive/lative markers {#t4 -}
 
 |Family > Branch|Language|Suffix      |
-|---------------|--------|------------|
+|:--------------|:-------|:-----------|
 |EC > Avar-Andic|Andi    |_-č'u_      |
 |               |Bagvalal|_-č'_       |
 |EC > Tsezic    |Bezhta  |_-ʁa (-ʁoj)_|
@@ -136,7 +136,7 @@ The most common localization marker in spatial forms encoding the standard of co
 #### **Table 5.** SUP markers {#t5 -}
 
 |Family > Branch|Language        |Suffix              |
-|---------------|----------------|--------------------|
+|:--------------|:---------------|:-------------------|
 |EC > Avar-Andic|Avar            |_-**da**-sa_        |
 |               |Akhvakh (North.)|_-**g**-une_        |
 |               |Bagvalal        |_-**la**-sː_        |
@@ -163,7 +163,7 @@ In all Andic languages (except for Northern Akhvakh) the localization marker **C
 #### **Table 6.** CONT markers {#t6 -}
 
 |Family > Branch|Language|Suffix        |
-|---------------|--------|--------------|
+|:--------------|:-------|:-------------|
 |EC > Avar-Andic|Andi    |_-**č'u**_    |
 |               |Bagvalal|_-**č'**_     |
 |               |Botlikh |_-**č'u**-ku_ |
@@ -195,7 +195,7 @@ In nine languages the standard of comparison is marked with a dedicated suffix, 
 #### **Table 7.** Dedicated comparative markers {#t7 -}
 
 |Family > Branch|Language |Suffix   |
-|---------------|---------|---------|
+|:--------------|:--------|:--------|
 |EC > Lezgic    |Archi    |_-χur_   |
 |               |Budukh   |_-wor_   |
 |               |Rutul    |_-qaʔ_   |
