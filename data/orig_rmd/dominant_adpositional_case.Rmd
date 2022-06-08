@@ -15,7 +15,7 @@ Our goal is to classify the languages of Daghestan and the neighboring areas acc
 
 ## Results
 
-The maps show the distribution of the following values across languages (cf. the dataset):
+The maps show the distribution of the following values across languages (cf. [the dataset](http://lingconlab.ru/dagatlas/030_dominant_adpositional_case_map.html)):
 
 * Dominant case type 
 
@@ -72,11 +72,11 @@ The value ‘none’ is reserved for languages where a dominant adpositional cas
 
 ‘NA’ stands for ‘not available’ and applies to languages such as Chirag (Dargic) for which we do not have sufficient data on the case assignment properties of adpositions to be able to identify a dominant case.
 
-As can be seen from [Map 1](30_dominant_adpositional_case_map.html#m1), the recruitment of an abstract case as a dominant adpositional case is the most widespread option (24+ languages), followed by a spatial (6 languages) and an ambiguous case (4 languages).
+As can be seen from [Map 1](030_dominant_adpositional_case_map.html#m1), the recruitment of an abstract case as a dominant adpositional case is the most widespread option (24+ languages), followed by a spatial (6 languages) and an ambiguous case (4 languages).
 
 ### Value 2. Abstract default cases
 
-[Map 2](30_dominant_adpositional_case_map.html#m2) zooms in on languages with an abstract case serving as the dominant one.
+[Map 2](030_dominant_adpositional_case_map.html#m2) zooms in on languages with an abstract case serving as the dominant one.
 The feature has the following values:
 
 * Genitive
@@ -126,7 +126,7 @@ gloss_example(transliteration = "č’e-ra sangut baƛ’i",
 (@seven) Itsari Dargwa [@sumbatovamutalov2003: 56-58]
 a.
 ```{r}
-gloss_example(transliteration = "qal-la sala=b",
+gloss_example(transliteration = "qal-la sala-b",
               glosses = "house-GEN in_front-ESS(N)",
               free_translation = "in front of the house")
 ```
@@ -137,11 +137,11 @@ gloss_example(transliteration = "miqː lehetːi",
               free_translation = "after the wedding")
 ```
 
-The value ‘irrelevant’ is assigned to languages whose dominant adpositional case is a spatial one and to languages falling in the categories “None” and “NA” on [Map 1](30_dominant_adpositional_case_map.html#m1).
+The value ‘irrelevant’ is assigned to languages whose dominant adpositional case is a spatial one and to languages falling in the categories “None” and “NA” on [Map 1](030_dominant_adpositional_case_map.html#m1).
 
 ### Value 3. Spatial dominant cases
 
-[Map 3](30_dominant_adpositional_case_map.html#m3) looks deeper into languages where the dominant adpositional case is a spatial one. The ones that are treated as ambiguous on [Map 1](30_dominant_adpositional_case_map.html#m1) are mapped here.
+[Map 3](030_dominant_adpositional_case_map.html#m3) looks deeper into languages where the dominant adpositional case is a spatial one. The ones that are treated as ambiguous on [Map 1](030_dominant_adpositional_case_map.html#m1) are mapped here.
 
 The feature has the following values:
 
@@ -162,7 +162,7 @@ gloss_example(transliteration = "χan-i-žo beƛe-ho aldoɣo-r b-aq’-a goì oc
               free_translation = "Twelve horses will come in front of the khan’s palace.")
 ```
 
-The value ‘Irrelevant’ is assigned to languages whose dominant adpositional case is one of the abstract cases and to languages falling in the categories “None” and “NA” on [Map 1](30_dominant_adpositional_case_map.html#m1).
+The value ‘Irrelevant’ is assigned to languages whose dominant adpositional case is one of the abstract cases and to languages falling in the categories “None” and “NA” on [Map 1](030_dominant_adpositional_case_map.html#m1).
 
 ## Distribution
 
