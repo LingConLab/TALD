@@ -221,7 +221,7 @@ If you would like to contribute a chapter and / or data to the Atlas because you
 
 ## Access to data
 
-The data can be accessed through the interface of the atlas, or downloaded directly from the [GitHub page](https://github.com/LingConLab/TALD/tree/master/data/orig_table).
+The data can be accessed through the atlas interface, or downloaded directly from our [GitHub page](https://github.com/LingConLab/TALD/tree/master/data/orig_table). For reasons of space, on the atlas interface we show filtered versions of the original databases, which only include the main information displayed on maps. However, both filtered and full versions of the databases are available for downloading. Full versions including more detailed information for each observation in the database (e.g., specific morphemes or wordforms, examples of their occurrence in texts with glosses and translations) can be downloaded by clicking on the button &&&, or by accessing our [GitHub page](https://github.com/LingConLab/TALD/tree/master/data/orig_table).     
 
 ## How to cite{.tabset .tabset-fade .tabset-pills} 
 
