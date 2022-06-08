@@ -113,7 +113,7 @@ gloss_example(transliteration = "de č’agu goɬ q’ede, **de-de** **purho**=n
 b.
 ```{r}
 gloss_example(transliteration = "meži di-de purho-s b-uɬi-yom",
-              glosses = "you.PL {I}.OBL-ALOC next-ABL1 HPL-gp.out-PROH",
+              glosses = "you.PL {I}.OBL-ALOC next-ABL1 HPL-go_out-PROH",
               free_translation = "Do not go away from me.")
 ```
 
@@ -132,7 +132,7 @@ gloss_example(transliteration = "erexa-n **seʁan-i** **tak-ic’** motec’-av 
 b.
 ```{r}
 gloss_example(transliteration = "**getn-i** **tak-ov** mi mec get eː hos-um",
-              glosses = "ground-DAT under-INS INDEF big river.NOM it.is flow-PTCP.PRS",
+              glosses = "ground-DAT under-INS INDEF big river.NOM it_is flow-PTCP.PRS",
               free_translation = "Under the ground a big river flows.",
               comment = "(there is no starting point and no direction given.)")
 ```
@@ -143,8 +143,8 @@ Turning now to agreement morphemes on postpositions, we note first that it is at
 
 (@five) Godoberi (Andic) [@kibriketal1996: 88]
 ```{r}
-gloss_example(transliteration = "waša hamaχi-č’u **w=oχut’u** wu=na",
-              glosses = "boy donkey(N)-CONT M=after M=go.PST",
+gloss_example(transliteration = "waša hamaχi-č’u **w-oχut’u** wu-na",
+              glosses = "boy donkey(N)-CONT M-after M-go.PST",
               free_translation = "The boy went after the donkey.")
 ```
 
@@ -158,7 +158,7 @@ gloss_example(transliteration = "školal-da ask’o-**w** jasaɬ was w-uχana",
 (@seven)   Archi (Lezgic) (Marina Chumakina, p.c.)
 ```{r, results='asis'}
 gloss_example(transliteration = "zari gǝzet o‹**b**›kɬni arχul-ma-k e‹b›q’en",
-              glosses = "1SG.ERG newspaper.SG.ABS(III) read<III.SG>.PFV the.middle-IN-LAT up.to<III.SG>",
+              glosses = "{I}.ERG newspaper.SG.ABS(III) read<III.SG>.PF the_middle-IN-LAT up_to<III.SG>",
               free_translation = "I read the newspaper up to the middle.")
 ```
 
@@ -177,7 +177,7 @@ In Turkic, some postpositions have a possessive marker indicating the person of 
 (@nine) Azerbaijani [@shiralievsevortyan1971: 301]
 ```{r}
 gloss_example(transliteration = "**qovluǧ-un** **ara-sı-n-dan** bir vərəqə çıx-ar-ıb",
-              glosses = "folder-GEN interval-3.POSS-EP-ABL one sheet go.out-CAUS-ANT",
+              glosses = "folder-GEN interval-3.POSS-EP-ABL one sheet go_out-CAUS-ANT",
               free_translation = "having put out one sheet from the folder…")
 ```
 
@@ -188,14 +188,14 @@ In colloquial Armenian, the dependents of 1st and 2nd person can be expressed by
 a.
 ```{r}
 gloss_example(transliteration = "**inj** **het** mišt hayeren eː xos-um",
-              glosses = "{I}.DAT with always Armenian he.is speak-PTCP.PRS",
+              glosses = "{I}.DAT with always Armenian he_is speak-PTCP.PRS",
               free_translation = "He always speaks Armenian with me.",
               comment = "(standard Armenian)")
 ```
 b.
 ```{r}
 gloss_example(transliteration = "**het-s** mišt hayeren eː xos-um",
-              glosses = "with-my always Armenian he.is speak-PTCP.PRS",
+              glosses = "with-my always Armenian he_is speak-PTCP.PRS",
               free_translation = "He always speaks Armenian with me.",
               comment = "(colloquial Armenian)")
 ```
@@ -213,7 +213,7 @@ A feature that is typical of East Caucasian postpositions is that the vast major
 a.
 ```{r}
 gloss_example(transliteration = "**t'exkaa** **chuhwanahw** t'um joall",
-              glosses = "bone.DAT inside marrow II.be.contained.PRS",
+              glosses = "bone.DAT inside marrow II.be_contained.PRS",
               free_translation = "There is marrow inside a bone/Inside of a bone is marrow.")
 ```
 b.
@@ -235,14 +235,14 @@ Independent uses of adpositions are also mentioned in the grammars of genealogic
 a.
 ```{r, results='asis'}
 gloss_example(transliteration = "p’ap’ul pap-n as-um eː or girk’-e erbek’ **tn-ic’** **durs** č’-i han-el",
-              glosses = "P’ap’ul grandpa.NOM-the say-PTCP.PRS he.is CONJ book.NOM-the never house-ABL out NEG-he.is take-PTCP.PF",
+              glosses = "P’ap’ul grandpa.NOM-the say-PTCP.PRS he_is CONJ book.NOM-the never house-ABL out NEG-he_is take-PTCP.PF",
               free_translation = "P’ap’ul’s grandpa says that he has never taken this book out of the house.")
 ```
 [@dum-tragut2009: 531]
 b.
 ```{r, results='asis'}
 gloss_example(transliteration = "ov č’-i irakana-c’n-i petut’y-an cragir-e na **durs** kmn-a ayd gorčent’ac’-ic’",
-              glosses = "who NEG-he.is fulfill-CAUS-COND.FUT.3SG state-DAT program.NOM-the he.NOM outside stay-COND.FUT.3SG that process-ABL",
+              glosses = "who NEG-he_is fulfill-CAUS-COND.FUT.3SG state-DAT program.NOM-the he.NOM outside stay-COND.FUT.3SG that process-ABL",
               free_translation = "Who does not fulfill the state’s program, will remain outside of that process.")
 ```
 [@dum-tragut2009: 318]
@@ -255,7 +255,7 @@ The set of cases that are assigned by postpositions even within one East Caucasi
 (@thirteen) Chechen (Nakh) [@jakovlev1940: 143]
 ```{r}
 gloss_example(transliteration = "**gɔʊr-a-na** / **gɔʊr** **t’e** ʡyrre so xiːrə",
-              glosses = "horse-OBL-DAT {/} horse.ABS on in.the.morning I sit",
+              glosses = "horse-OBL-DAT {/} horse.ABS on in_the_morning I sit",
               free_translation = "I sat on a horse in the morning.")
 ```
 
@@ -269,7 +269,7 @@ gloss_example(transliteration = "hinc’-ib-a-ɬa č’ihi",
 (@fifteen) Tsakhur (Lezgic) [@sosenskaja1999post: 127]
 ```{r, results='asis'}
 gloss_example(transliteration = "sa jiʁ-ɨ-lʲ ǯamaʔaIt-ɨ-k’le **χāI-ni** **aq’ʷalʲ** c’e=t=ta wertalʲot ɢaǯe",
-              glosses = "one day-OBL-SUP people-OBL-AFF sky-OBL on first=IV=ADV.IV helicopter.IV IV.see.PFV",
+              glosses = "one day-OBL-SUP people-OBL-AFF sky-OBL on first=IV=ADV.IV helicopter.IV IV.see.PF",
               free_translation = "Once the people saw a helicopter in the sky for the first time.")
 ```
 
@@ -294,14 +294,14 @@ Some postpositions assign several cases which may or may not bring about interpr
 (@eighteen)	Sanzhi Dargwa [@forker2020dargwa: 156]
 a.	
 ```{r}
-gloss_example(transliteration = "nuša šːi-la tːura ag-ur=da",
-              glosses = "1.PL village-GEN outside go.PFV-PRET=I",
+gloss_example(transliteration = "nuša šːi-la tːura ag-ur-da",
+              glosses = "we village-GEN outside go.PFV-PRET-I",
               free_translation = "We went out of the village.")
 ```
 b.
 ```{r}
-gloss_example(transliteration = "Rasul-la / Rasul-le-rka tːura cara=ra sa-č-ib=da",
-              glosses = "Rasul-GEN {/} Rasul-LOC-EL outside other=ADD hither-lead.PFV-PRET=I",
+gloss_example(transliteration = "Rasul-la / Rasul-le-rka tːura cara=ra sa-č-ib-da",
+              glosses = "Rasul-GEN {/} Rasul-LOC-EL outside other=ADD hither-lead.PFV-PRET-I",
               free_translation = "Apart from Rasul I also brought another one.")
 ```
 
@@ -313,13 +313,13 @@ Note that several adposition-like elements (typically with the meaning similar t
 a.
 ```{r, results='asis'}
 gloss_example(transliteration = "eli mariyat-**qo-r** ƛexuzaƛ’or c’alduqan-za-qo-r xabaryay-nč’i",
-              glosses = "1PL.ABS Mariyat-**POSS-LAT** except student-OS.PL-POSS-LAT talk-PST.W.NEG",
+              glosses = "we Mariyat-**POSS-LAT** except student-OBL.PL-POSS-LAT talk-PST.W.NEG",
               free_translation = "We did not talk to the students except Mariyat.")
 ```
 b.
 ```{r}
 gloss_example(transliteration = "eli ɣudes ħalt’-o-ɬ-xor b-ik’i-x ħat’an-**ƛ’o** ƛexuzaƛ’or",
-              glosses = "1PL.ABS daily work-OBL-CONT-VERS 1PL-go-PRS Sunday-**SUP.ESS** except",
+              glosses = "we daily work-OBL-CONT-LAT I.PL-go-PRS Sunday-**SUP.ESS** except",
               free_translation = "We go to work every day except Sunday.")
 ```
 
@@ -331,13 +331,13 @@ Also, in Hunzib several (related) postpositions admit both comitative and dative
 a.
 ```{r}
 gloss_example(transliteration = "xõx-ǧur rišo/gišo/tišo",
-              glosses = "tree-COM upwards/downwards/horizontal.direction",
+              glosses = "tree-COM upwards/downwards/horizontal_direction",
               free_translation = "(upwards/downwards) along the tree")
 ```
 b.
 ```{r}
 gloss_example(transliteration = "xõx-i-i rišo/gišo/tišo",
-              glosses = "tree-OBL-DAT upwards/downwards/horizontal.direction",
+              glosses = "tree-OBL-DAT upwards/downwards/horizontal_direction",
               free_translation = "(upwards/downwards) through (inside) the tree")
 ```
 
@@ -347,13 +347,13 @@ In addition, different case forms might be required for nominal vs. pronominal d
 a.
 ```{r}
 gloss_example(transliteration = "ħa **c’en** **t’eħa** berkat=ʔa xurgdaːc",
-              glosses = "2SG.GEN house.GEN after abundance=and be.FUT.IV.NEG",
+              glosses = "you.SG.GEN house.GEN after abundance=and be.FUT.IV.NEG",
               free_translation = "There will be no abundance in your house.")
 ```
 b.
 ```{r}
 gloss_example(transliteration = "so čy-iːqːaːča legjolaž jar yz **suːona** **t’eħa**",
-              glosses = "1SG in-jump.PTCP.OBL die.FUT.II.SIM II.be.PST 3SG 1SG.DAT after",
+              glosses = "{I} in-jump.PTCP.OBL die.FUT.II.SIM II.be.PST she {I}.DAT after",
               free_translation = "She was eager (‘dying’) to go anywhere I went (‘jumped, rushed’).")
 ```
 
@@ -370,7 +370,7 @@ A dominant case may be instantiated by an abstract case (such as genitive or dat
 ## List of glosses {-}
 
 ```{r}
-make_gloss_list(readxl::read_xlsx("data/glosses.xlsx"))
+make_gloss_list(readxl::read_xlsx("../glosses.xlsx"))
 ```
 
 ## References {-}
