@@ -311,7 +311,11 @@ map.feature(all_genpoints$lang4map,
 "
 
 ## Datatable
-
+",
+str_c('[Download](https://raw.githubusercontent.com/LingConLab/TALD/master/data/orig_table/', 
+      str_remove(str_remove(i, "_map.Rmd"), "\\d{1,}_"),
+      '.tsv") the whole dataset.'),
+"
 ```{r}
 bib <- RefManageR::ReadBib(file = '../bibliography.bib')
 
