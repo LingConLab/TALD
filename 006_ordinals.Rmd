@@ -3,7 +3,6 @@ title: Ordinal numerals
 author: Polina Nasledskova, Ivan Netkachev
 date: 'Last update: November 2021'
 bibliography: ./data/orig_bib/ordinals.bib
-csl: ./data/apa.csl
 link-citations: true
 output:
   html_document:

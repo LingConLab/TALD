@@ -3,7 +3,6 @@ title: "Evidentiality"
 author: "Samira Verhees"
 date: 'Last update: April 2022'
 bibliography: "data/orig_bib/evidentiality.bib"
-csl: ./data/apa.csl
 link-citations: true
 output:
   html_document:

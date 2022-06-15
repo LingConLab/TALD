@@ -134,7 +134,7 @@ library(RefManageR)
 
 ## {-}
 
-Visualization 1 (**Extrapolated data**) and 3 (**General datapoints**) are both based on the principle 'one value – one language'. Visualization 2 (**Data granularity**) takes into account dialect levels. On the **Data granularity** maps you can see the village and the data type (village data, general language data, etc.) when you click on a dot. Hover over or click on a dot to see the language.
+Visualization 1 (**Extrapolated data**) and 3 (**General datapoints**) are both based on the principle 'one value – one language'. Visualization 2 (**Data granularity**) takes into account dialect levels. On the **Data granularity** maps you can see the village and the data type (village data, general language data, etc.) when you click on a dot. Hover over or click on a dot to see the language. By unticking the box “show languages” you can remove the inner dots and visualize the distribution of different values in the area without the distraction of genealogical information.
 
 ```{r}
 ",
@@ -383,8 +383,7 @@ map(seq_along(rmd_filenames), function(i){
     ymlthis::yml_citations(bibliography = paste0("./data/orig_bib/", 
                                                  str_remove(features$filename[i], "_map"), 
                                                  ".bib"), 
-                           link_citations = TRUE,
-                           csl = './data/apa.csl') %>% 
+                           link_citations = TRUE) %>% 
     ymlthis::yml_output(html_document(number_sections = TRUE,
                                       anchor_sections = TRUE,
                                       pandoc_args = "--shift-heading-level-by=-1")) %>% 

@@ -3,7 +3,6 @@ title: "Adpositions"
 author: "Tatiana Philippova, Polina Nasledskova"
 date: 'Last update: May 2022'
 bibliography: "data/orig_bib/adpositions.bib"
-csl: ./data/apa.csl
 link-citations: true
 output:
   html_document:

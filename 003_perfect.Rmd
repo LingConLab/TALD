@@ -3,7 +3,6 @@ title: Perfect
 author: Samira Verhees
 date: 'Last update: November 2020'
 bibliography: ./data/orig_bib/perfect.bib
-csl: ./data/apa.csl
 link-citations: true
 output:
   html_document:

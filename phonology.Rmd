@@ -4,7 +4,6 @@ author: "G. Moroz"
 always_allow_html: true
 date: 'Last update: November 2021'
 bibliography: "data/orig_bib/phonology.bib"
-csl: ./data/apa.csl
 link-citations: true
 output:
   html_document:

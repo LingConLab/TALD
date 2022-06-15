@@ -9,7 +9,7 @@ library(RefManageR)
 
 ## {-}
 
-Visualization 1 (**Extrapolated data**) and 3 (**General datapoints**) are both based on the principle 'one value – one language'. Visualization 2 (**Data granularity**) takes into account dialect levels. On the **Data granularity** maps you can see the village and the data type (village data, general language data, etc.) when you click on a dot. Hover over or click on a dot to see the language.
+Visualization 1 (**Extrapolated data**) and 3 (**General datapoints**) are both based on the principle 'one value – one language'. Visualization 2 (**Data granularity**) takes into account dialect levels. On the **Data granularity** maps you can see the village and the data type (village data, general language data, etc.) when you click on a dot. Hover over or click on a dot to see the language. By unticking the box “show languages” you can remove the inner dots and visualize the distribution of different values in the area without the distraction of genealogical information.
 
 ```{r}
 

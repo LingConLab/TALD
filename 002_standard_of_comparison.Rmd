@@ -3,7 +3,6 @@ title: Standard of comparison
 author: Chiara Naccarato
 date: 'Last update: May 2022'
 bibliography: ./data/orig_bib/standard_of_comparison.bib
-csl: ./data/apa.csl
 link-citations: true
 output:
   html_document:

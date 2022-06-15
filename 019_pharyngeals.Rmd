@@ -3,7 +3,6 @@ title: Pharyngeals
 author: George Moroz
 date: 'Last update: November 2021'
 bibliography: ./data/orig_bib/pharyngeals.bib
-csl: ./data/apa.csl
 link-citations: true
 output:
   html_document:
