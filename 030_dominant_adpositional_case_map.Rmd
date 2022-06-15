@@ -1,6 +1,6 @@
 ---
 title: Dominant adpositional case (Maps & Data)
-author: Tatiana Philippova, Polina Nasledskova
+author: Polina Nasledskova, Tatiana Philippova
 date: 'Last update: May 2022'
 bibliography: ./data/orig_bib/dominant_adpositional_case.bib
 csl: ./data/apa.csl
@@ -23,10 +23,10 @@ See [chapter](030_dominant_adpositional_case.html)
 library(RefManageR)
 BibOptions(check.entries = FALSE, style = 'text', bib.style = 'authoryear')
 article_citation <- BibEntry(bibtype = 'Incollection', 
- key='philippova2022',
+ key='nasledskova2022.0',
  title='Dominant adpositional case (Maps & Data)',
- author='Tatiana Philippova and Polina Nasledskova',
- year='2022',
+ author='Polina Nasledskova and Tatiana Philippova',
+ year='2022.0',
  editor= 'Daniel, Michael  and Filatov, Konstantin and Moroz, George and Mukhin, Timofey and Naccarato, Chiara and Verhees, Samira',
  publisher='Linguistic Convergence Laboratory, NRU HSE',
  address='Moscow',
