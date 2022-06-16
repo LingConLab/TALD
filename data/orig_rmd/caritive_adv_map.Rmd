@@ -50,7 +50,7 @@ villages %>%
   filter(!is.na(idiom)) %>% 
   mutate(type = case_when(type == 'village_dialect' ~ 'village',
                           TRUE ~ type)) %>%
-  inner_join(feature_dataset_4map_rest, by = c('type', 'idiom', 'lang')) %>% 
+  inner_join(feature_dataset_4map_rest, by = c('type', 'idiom', 'lang', "family", "aff")) %>% #! , "family", "aff"
   distinct() ->
   all_data_without_languages
 

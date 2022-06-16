@@ -36,7 +36,7 @@ id	lang	idiom	type	genlang_point	map	feature	value1_name	value1	source	page	cont
 35	Khinalug	Khinalug	village	yes	yes	Velar fricatives	Velar fricatives	ɣ, x, xʲ	kibrik1994b	370	George Moroz	2021.10.04
 36	Khinalug	Khinalug	village	no	no	Velar fricatives	Velar fricatives	ɣ, ɣʲ, x, xʲ	kibrikkodzasov1990	346--347	Viola Ivanova	2017.05.06
 37	Khwarshi	Inkhoqwari	village	yes	yes	Velar fricatives	Velar fricatives	none	kibrikkodzasov1990	327	George Moroz	2017.05.06
-38	Khwarshi	Kwantlada	village	yes	yes	Velar fricatives	Velar fricatives	x	khalilova2009	13	George Moroz	2021.10.04
+38	Khwarshi	Kvantlada	village	yes	yes	Velar fricatives	Velar fricatives	x	khalilova2009	13	George Moroz	2021.10.04
 39	Kryz	Kryz	village	no	yes	Velar fricatives	Velar fricatives	ɣ, x	kibrikkodzasov1990	345	Viola Ivanova	2017.05.06
 40	Kryz	Kryz	language	yes	yes	Velar fricatives	Velar fricatives	ɣ, x	saadiev1994	409	George Moroz	2021.10.04
 41	Kumyk	Standard Kumyk	language	yes	yes	Velar fricatives	Velar fricatives	none	abdullaevaetal2014	33--56	George Moroz	2021.10.04
@@ -56,4 +56,4 @@ id	lang	idiom	type	genlang_point	map	feature	value1_name	value1	source	page	cont
 55	Tsez	Kidero	village	no	yes	Velar fricatives	Velar fricatives	none	kibrikkodzasov1990	328	Viola Ivanova	2017.05.06
 56	Tsez	Sagada	village	yes	yes	Velar fricatives	Velar fricatives	none	wilson2021	388	George Moroz	2021.10.04
 57	Tsova-Tush	Zemo-Alvani	village	yes	yes	Velar fricatives	Velar fricatives	ɣ, x	holiskygagua1994	150	George Moroz	2021.10.04
-58	Udi	Nizh	village	yes	yes	Velar fricatives	Velar fricatives	none	kibrikkodzasov1990	347	Viola Ivanova	2017.05.06
+58	Udi	Nidzh	village	yes	yes	Velar fricatives	Velar fricatives	none	kibrikkodzasov1990	347	Viola Ivanova	2017.05.06
