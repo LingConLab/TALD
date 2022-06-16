@@ -246,9 +246,7 @@ map.feature(all_genpoints$lang4map,
 
 ## Datatable
 
-
-[Download](https://raw.githubusercontent.com/LingConLab/TALD/master/data/orig_table/comitative.tsv") the whole dataset.
-
+[Download](https://raw.githubusercontent.com/LingConLab/TALD/master/data/orig_table/comitative.tsv) the whole dataset.
 
 ```{r}
 bib <- RefManageR::ReadBib(file = '../bibliography.bib')

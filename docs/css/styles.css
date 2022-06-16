@@ -67,3 +67,15 @@ ol.example li::marker {
 div.section.level3.unnumbered {
   margin-top: 50px;
 }
+
+.table.table-condensed:not(.dataTable) {
+  border: 1px solid black;
+}
+
+.table.table-condensed:not(.dataTable) thead tr th {
+   border: 1px solid black;
+}
+
+.table.table-condensed:not(.dataTable) tbody tr td {
+   border: 1px solid black;
+}

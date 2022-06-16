@@ -50,7 +50,7 @@ villages %>%
   filter(!is.na(idiom)) %>% 
   mutate(type = case_when(type == 'village_dialect' ~ 'village',
                           TRUE ~ type)) %>%
-  inner_join(feature_dataset_4map_rest, by = c('type', 'idiom', 'lang', "family", "aff")) %>% #! , "family", "aff"
+  inner_join(feature_dataset_4map_rest, by = c('type', 'idiom', 'lang')) %>% 
   distinct() ->
   all_data_without_languages
 
@@ -169,9 +169,7 @@ map.feature(all_genpoints$lang4map,
 
 ## Datatable
 
-
-[Download](https://raw.githubusercontent.com/LingConLab/TALD/master/data/orig_table/caritive_adv.tsv") the whole dataset.
-
+[Download](https://raw.githubusercontent.com/LingConLab/TALD/master/data/orig_table/caritive_adv.tsv) the whole dataset.
 
 ```{r}
 bib <- RefManageR::ReadBib(file = '../bibliography.bib')
