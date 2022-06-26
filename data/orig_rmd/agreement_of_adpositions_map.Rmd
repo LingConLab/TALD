@@ -88,7 +88,7 @@ villages %>%
 rm(all_data_without_languages, change, feature_dataset_4map, feature_dataset_4map_languages, feature_dataset_4map_rest, villages, genlang)
 ```
 
-## adpositional agreement with the absolutive/nominative{.tabset .tabset-fade .tabset-pills #m1} 
+## Adpositional agreement with the absolutive/nominative{.tabset .tabset-fade .tabset-pills #m1} 
     
     
 ### Extrapolated data {-}
@@ -165,7 +165,7 @@ map.feature(all_genpoints$lang4map,
               control = all_genpoints$display)
 ```
     
-## percentage of agreeing adpositions{.tabset .tabset-fade .tabset-pills #m2} 
+## Percentage of agreeing adpositions{.tabset .tabset-fade .tabset-pills #m2} 
     
     
 ### Extrapolated data {-}
@@ -242,7 +242,7 @@ map.feature(all_genpoints$lang4map,
               control = all_genpoints$display)
 ```
     
-## percentage of agreeing adpositions allowing independent use{.tabset .tabset-fade .tabset-pills #m3} 
+## Percentage of agreeing adpositions allowing independent use{.tabset .tabset-fade .tabset-pills #m3} 
     
     
 ### Extrapolated data {-}

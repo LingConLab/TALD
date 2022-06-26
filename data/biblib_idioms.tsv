@@ -161,8 +161,8 @@ grammar	book	khajdakov1966	Lak	Shadni	dialect_toplevel		no	no	Chiara Naccarato
 grammar	book	khajdakov1966	Lak	Ashtikul	dialect_toplevel		no	no	Chiara Naccarato		
 grammar	book	khajdakov1966	Lak	Vikhlin	dialect_toplevel		no	no	Chiara Naccarato		
 grammar	book	khajdakov1966	Lak	Vitskhi	dialect_toplevel		no	no	Chiara Naccarato		
-grammar	phdthesis	khalilova2009	Khwarshi	Kvantlada	village		yes	yes			Y
-other	article	khalilova2011	Khwarshi	Kvantlada	village		no	yes			Y
+grammar	phdthesis	khalilova2009	Khwarshi	Kwantlada	village		yes	yes			Y
+other	article	khalilova2011	Khwarshi	Kwantlada	village		no	yes			Y
 other	article	khalilova2011	Bezhta	Bezhta	village		no	yes			Y
 other	article	khalilova2011	Hunzib	Hunzib	language		no	yes			Y
 other	article	khalilova2011	Tsez	Asakh	village		no	yes			Y
