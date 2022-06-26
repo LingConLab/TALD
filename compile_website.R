@@ -1,4 +1,4 @@
-    # install packages ---------------------------------------------------------
+# install packages ---------------------------------------------------------
 packages <- c("tidyverse", "testthat", "lingglosses", "lingtypology", "bib2df", 
               "DT", "knitr", "ymlthis", "rmarkdown", "RefManageR", "stringi",
               "readxl")
@@ -10,6 +10,15 @@ if(length(to_install) > 0){
 }
 
 library(tidyverse)
+
+# CREATE VILLAGE DATASET --------------------------------------------------
+# Moroz, George, & Verhees, Samira. (2020). East Caucasian villages dataset (Version v2.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.5588473
+
+read_tsv("https://raw.githubusercontent.com/sverhees/master_villages/master/data/villages.tsv") %>% 
+  filter(lang == "Rutul") %>% 
+  select(village, rus_village, lat, lon, gltc_lang, gltc_dialect, version) %>% 
+  rename(village_dataset_version = version) %>% 
+  write_csv("data/villages.csv")
 
 # RUN TESTS ----------------------------------------------------------------
 # testthat::test_dir("tests")
