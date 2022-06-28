@@ -229,7 +229,36 @@ map(multiple_values$values, function(i){
   str_c(
     "## ", multiple_values$titles[i], "{.tabset .tabset-fade .tabset-pills #m", multiple_values$values[i], "} 
     
-    
+### General datapoints {-}
+
+```{r}
+map.feature(all_genpoints$lang4map,
+            latitude = all_genpoints$lat,
+            longitude = all_genpoints$lon,
+            features = factor(all_genpoints$value",
+    multiple_values$values[i],
+    "),
+            title = all_genpoints$value",
+    multiple_values$values[i],
+    "_name[1],
+            color = 'magma',
+            tile = 'Stamen.TonerLite',
+            legend = TRUE,
+            legend.position = 'bottomleft', 
+            zoom.control = TRUE,
+            width = 8) %>% 
+  map.feature(all_genpoints$lang4map,
+              latitude = all_genpoints$lat,
+              longitude = all_genpoints$lon,
+              features = all_genpoints$lang,
+              color = all_genpoints$lang_col,
+              tile = 'Stamen.TonerLite',
+              legend = FALSE,
+              width = 5,
+              pipe.data = .,
+              control = all_genpoints$display)
+```
+
 ### Extrapolated data {-}
 
 ```{r}
@@ -240,6 +269,7 @@ map.feature(alldata_clean$lang4map,
     multiple_values$values[i],
     "),
             color = 'magma',
+            tile = 'Stamen.TonerLite',
             title = alldata_clean$value",
     multiple_values$values[i],
     "_name[1],
@@ -256,6 +286,7 @@ map.feature(alldata_clean$lang4map,
               longitude = alldata_clean$lon,
               features = alldata_clean$lang,
               color = alldata_clean$lang_col,
+              tile = 'Stamen.TonerLite',
               legend = FALSE,
               width = 5,
               pipe.data = .,
@@ -275,6 +306,7 @@ map.feature(alldata_clean$lang4map,
     multiple_values$values[i],    
     "),
             color = 'magma',
+            tile = 'Stamen.TonerLite',
             title = alldata_clean$value",
     multiple_values$values[i],
     "_name[1],
@@ -288,33 +320,7 @@ map.feature(alldata_clean$lang4map,
                           'data:', alldata_clean$type))
 ```
 
-### General datapoints {-}
 
-```{r}
-map.feature(all_genpoints$lang4map,
-            latitude = all_genpoints$lat,
-            longitude = all_genpoints$lon,
-            features = factor(all_genpoints$value",
-    multiple_values$values[i],
-    "),
-            title = all_genpoints$value",
-    multiple_values$values[i],
-    "_name[1],
-            color = 'magma',
-            legend = TRUE,
-            legend.position = 'bottomleft', 
-            zoom.control = TRUE,
-            width = 8) %>% 
-  map.feature(all_genpoints$lang4map,
-              latitude = all_genpoints$lat,
-              longitude = all_genpoints$lon,
-              features = all_genpoints$lang,
-              color = all_genpoints$lang_col,
-              legend = FALSE,
-              width = 5,
-              pipe.data = .,
-              control = all_genpoints$display)
-```
     ")
 }),
 "

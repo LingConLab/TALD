@@ -90,57 +90,6 @@ rm(all_data_without_languages, change, feature_dataset_4map, feature_dataset_4ma
 
 ## Dominant case type{.tabset .tabset-fade .tabset-pills #m1} 
     
-    
-### Extrapolated data {-}
-
-```{r}
-map.feature(alldata_clean$lang4map,
-            latitude = alldata_clean$lat, 
-            longitude = alldata_clean$lon,
-            features = as.factor(alldata_clean$value1),
-            color = 'magma',
-            title = alldata_clean$value1_name[1],
-            legend = TRUE,
-            legend.position = 'bottomleft', 
-            label = alldata_clean$lang,
-            zoom.control = TRUE,
-            width = 8,
-            popup = paste(alldata_clean$village, '|',
-                          alldata_clean$rus_village, '<br>',
-                          'data:', alldata_clean$type)) %>% 
-    map.feature(alldata_clean$lang4map,
-              latitude = alldata_clean$lat,
-              longitude = alldata_clean$lon,
-              features = alldata_clean$lang,
-              color = alldata_clean$lang_col,
-              legend = FALSE,
-              width = 5,
-              pipe.data = .,
-              control = alldata_clean$display,
-              popup = paste(alldata_clean$village, '|',
-                        alldata_clean$rus_village, '<br>',
-                          'data:', alldata_clean$type))
-```
-
-### Data granularity {-}
-
-```{r}
-map.feature(alldata_clean$lang4map,
-            latitude = alldata_clean$lat, 
-            longitude = alldata_clean$lon,
-            features = as.factor(alldata_clean$value1),
-            color = 'magma',
-            title = alldata_clean$value1_name[1],
-            legend = TRUE,
-            legend.position = 'bottomleft', 
-            label = alldata_clean$lang,
-            zoom.control = TRUE,
-            control = alldata_clean$type,
-            popup = paste(alldata_clean$village, '|',
-                        alldata_clean$rus_village, '<br>',
-                          'data:', alldata_clean$type))
-```
-
 ### General datapoints {-}
 
 ```{r}
@@ -150,6 +99,7 @@ map.feature(all_genpoints$lang4map,
             features = factor(all_genpoints$value1),
             title = all_genpoints$value1_name[1],
             color = 'magma',
+            tile = 'Stamen.TonerLite',
             legend = TRUE,
             legend.position = 'bottomleft', 
             zoom.control = TRUE,
@@ -159,24 +109,23 @@ map.feature(all_genpoints$lang4map,
               longitude = all_genpoints$lon,
               features = all_genpoints$lang,
               color = all_genpoints$lang_col,
+              tile = 'Stamen.TonerLite',
               legend = FALSE,
               width = 5,
               pipe.data = .,
               control = all_genpoints$display)
 ```
-    
-## Abstract default cases{.tabset .tabset-fade .tabset-pills #m2} 
-    
-    
+
 ### Extrapolated data {-}
 
 ```{r}
 map.feature(alldata_clean$lang4map,
             latitude = alldata_clean$lat, 
             longitude = alldata_clean$lon,
-            features = as.factor(alldata_clean$value2),
+            features = as.factor(alldata_clean$value1),
             color = 'magma',
-            title = alldata_clean$value2_name[1],
+            tile = 'Stamen.TonerLite',
+            title = alldata_clean$value1_name[1],
             legend = TRUE,
             legend.position = 'bottomleft', 
             label = alldata_clean$lang,
@@ -190,6 +139,7 @@ map.feature(alldata_clean$lang4map,
               longitude = alldata_clean$lon,
               features = alldata_clean$lang,
               color = alldata_clean$lang_col,
+              tile = 'Stamen.TonerLite',
               legend = FALSE,
               width = 5,
               pipe.data = .,
@@ -205,9 +155,10 @@ map.feature(alldata_clean$lang4map,
 map.feature(alldata_clean$lang4map,
             latitude = alldata_clean$lat, 
             longitude = alldata_clean$lon,
-            features = as.factor(alldata_clean$value2),
+            features = as.factor(alldata_clean$value1),
             color = 'magma',
-            title = alldata_clean$value2_name[1],
+            tile = 'Stamen.TonerLite',
+            title = alldata_clean$value1_name[1],
             legend = TRUE,
             legend.position = 'bottomleft', 
             label = alldata_clean$lang,
@@ -218,6 +169,10 @@ map.feature(alldata_clean$lang4map,
                           'data:', alldata_clean$type))
 ```
 
+
+    
+## Abstract default cases{.tabset .tabset-fade .tabset-pills #m2} 
+    
 ### General datapoints {-}
 
 ```{r}
@@ -227,6 +182,7 @@ map.feature(all_genpoints$lang4map,
             features = factor(all_genpoints$value2),
             title = all_genpoints$value2_name[1],
             color = 'magma',
+            tile = 'Stamen.TonerLite',
             legend = TRUE,
             legend.position = 'bottomleft', 
             zoom.control = TRUE,
@@ -236,15 +192,96 @@ map.feature(all_genpoints$lang4map,
               longitude = all_genpoints$lon,
               features = all_genpoints$lang,
               color = all_genpoints$lang_col,
+              tile = 'Stamen.TonerLite',
               legend = FALSE,
               width = 5,
               pipe.data = .,
               control = all_genpoints$display)
 ```
+
+### Extrapolated data {-}
+
+```{r}
+map.feature(alldata_clean$lang4map,
+            latitude = alldata_clean$lat, 
+            longitude = alldata_clean$lon,
+            features = as.factor(alldata_clean$value2),
+            color = 'magma',
+            tile = 'Stamen.TonerLite',
+            title = alldata_clean$value2_name[1],
+            legend = TRUE,
+            legend.position = 'bottomleft', 
+            label = alldata_clean$lang,
+            zoom.control = TRUE,
+            width = 8,
+            popup = paste(alldata_clean$village, '|',
+                          alldata_clean$rus_village, '<br>',
+                          'data:', alldata_clean$type)) %>% 
+    map.feature(alldata_clean$lang4map,
+              latitude = alldata_clean$lat,
+              longitude = alldata_clean$lon,
+              features = alldata_clean$lang,
+              color = alldata_clean$lang_col,
+              tile = 'Stamen.TonerLite',
+              legend = FALSE,
+              width = 5,
+              pipe.data = .,
+              control = alldata_clean$display,
+              popup = paste(alldata_clean$village, '|',
+                        alldata_clean$rus_village, '<br>',
+                          'data:', alldata_clean$type))
+```
+
+### Data granularity {-}
+
+```{r}
+map.feature(alldata_clean$lang4map,
+            latitude = alldata_clean$lat, 
+            longitude = alldata_clean$lon,
+            features = as.factor(alldata_clean$value2),
+            color = 'magma',
+            tile = 'Stamen.TonerLite',
+            title = alldata_clean$value2_name[1],
+            legend = TRUE,
+            legend.position = 'bottomleft', 
+            label = alldata_clean$lang,
+            zoom.control = TRUE,
+            control = alldata_clean$type,
+            popup = paste(alldata_clean$village, '|',
+                        alldata_clean$rus_village, '<br>',
+                          'data:', alldata_clean$type))
+```
+
+
     
 ## Spatial dominant cases{.tabset .tabset-fade .tabset-pills #m3} 
     
-    
+### General datapoints {-}
+
+```{r}
+map.feature(all_genpoints$lang4map,
+            latitude = all_genpoints$lat,
+            longitude = all_genpoints$lon,
+            features = factor(all_genpoints$value3),
+            title = all_genpoints$value3_name[1],
+            color = 'magma',
+            tile = 'Stamen.TonerLite',
+            legend = TRUE,
+            legend.position = 'bottomleft', 
+            zoom.control = TRUE,
+            width = 8) %>% 
+  map.feature(all_genpoints$lang4map,
+              latitude = all_genpoints$lat,
+              longitude = all_genpoints$lon,
+              features = all_genpoints$lang,
+              color = all_genpoints$lang_col,
+              tile = 'Stamen.TonerLite',
+              legend = FALSE,
+              width = 5,
+              pipe.data = .,
+              control = all_genpoints$display)
+```
+
 ### Extrapolated data {-}
 
 ```{r}
@@ -253,6 +290,7 @@ map.feature(alldata_clean$lang4map,
             longitude = alldata_clean$lon,
             features = as.factor(alldata_clean$value3),
             color = 'magma',
+            tile = 'Stamen.TonerLite',
             title = alldata_clean$value3_name[1],
             legend = TRUE,
             legend.position = 'bottomleft', 
@@ -267,6 +305,7 @@ map.feature(alldata_clean$lang4map,
               longitude = alldata_clean$lon,
               features = alldata_clean$lang,
               color = alldata_clean$lang_col,
+              tile = 'Stamen.TonerLite',
               legend = FALSE,
               width = 5,
               pipe.data = .,
@@ -284,6 +323,7 @@ map.feature(alldata_clean$lang4map,
             longitude = alldata_clean$lon,
             features = as.factor(alldata_clean$value3),
             color = 'magma',
+            tile = 'Stamen.TonerLite',
             title = alldata_clean$value3_name[1],
             legend = TRUE,
             legend.position = 'bottomleft', 
@@ -295,29 +335,7 @@ map.feature(alldata_clean$lang4map,
                           'data:', alldata_clean$type))
 ```
 
-### General datapoints {-}
 
-```{r}
-map.feature(all_genpoints$lang4map,
-            latitude = all_genpoints$lat,
-            longitude = all_genpoints$lon,
-            features = factor(all_genpoints$value3),
-            title = all_genpoints$value3_name[1],
-            color = 'magma',
-            legend = TRUE,
-            legend.position = 'bottomleft', 
-            zoom.control = TRUE,
-            width = 8) %>% 
-  map.feature(all_genpoints$lang4map,
-              latitude = all_genpoints$lat,
-              longitude = all_genpoints$lon,
-              features = all_genpoints$lang,
-              color = all_genpoints$lang_col,
-              legend = FALSE,
-              width = 5,
-              pipe.data = .,
-              control = all_genpoints$display)
-```
     
 
 
