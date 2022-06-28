@@ -1,7 +1,7 @@
 ---
 title: "Adpositions"
-author: "Tatiana Philippova, Polina Nasledskova"
-date: 'Last update: May 2022'
+author: "Polina Nasledskova, Tatiana Philippova"
+date: 'Last update: June 2022'
 bibliography: "data/orig_bib/adpositions.bib"
 link-citations: true
 output:
@@ -20,9 +20,9 @@ library(lingglosses)
 library(RefManageR)
 BibOptions(check.entries = FALSE, style = 'text', bib.style = 'authoryear')
 article_citation <- BibEntry(bibtype = 'Incollection', 
- key='philippovanasledskova2022',
+ key='nasledskovaphilippova2022',
  title='Adpositions',
- author='Philippova, Tatiana and Nasledskova, Polina',
+ author='Nasledskova, Polina and Philippova, Tatiana',
  year='2022',
  editor= 'Daniel, Michael and Filatov, Konstantin and Moroz, George and Mukhin, Timofey and Naccarato, Chiara and Verhees, Samira',
  publisher='Linguistic Convergence Laboratory, NRU HSE',
@@ -58,13 +58,13 @@ In terms of their position relative to the dependent noun phrase, East Caucasian
 a.
 ```{r, results='asis'}
 gloss_example(transliteration = "**Im** **ěnker-oǰ** **šnorhiv** darj-i ē gal-is ew ěndun-um k’ristoneakan havatk’-ě",
-              glosses = "my friend-GEN.DAT thanks conversion-DAT he_is come-PTCP.PRS.3SG CONJ adopt-PTCP.PRS Christian belief.NOM-the",
+              glosses = "my friend-GEN thanks conversion-DAT he_is come-PTCP.PRS.3SG CONJ adopt-PTCP.PRS Christian belief.NOM-the",
               free_translation = "Thanks to my friend, he converts and adopts the Christian belief.")
 ```
 b.
 ```{r, results='asis'}
 gloss_example(transliteration = "Xač’atryan-i gorc-er-i-n canot’ac’-el ē **šnorhiv** **ir** **usuc’č’-i** Nat’an Milšteyn-i um mot usan-el ē 10 tari",
-              glosses = "Xachatryan-DAT work-PL-DAT-the get_acquainted-PTCP.PF he_is thanks his teacher-GEN.DAT Nathan Milstein-GEN.DAT REL.DAT at learn-PTCP.PF he_is ten year.NOM",
+              glosses = "Xachatryan-DAT work-PL-DAT-the get_acquainted-PTCP.PF he_is thanks his teacher-GEN Nathan Milstein-GEN REL.DAT at learn-PTCP.PF he_is ten year.NOM",
               free_translation = "He became acquainted with the works of Khachatryan thanks to his teacher, Nathan Milstein, with whom he has studied for 10 years.")
 ```
 
@@ -94,11 +94,11 @@ Directionality markers signal the direction or absence of motion of the trajecto
 
 | language | branch | directional forms | source |
 |:-----------|:----------|:----------|:-----------|
-| Hinuq  | Tsezic   | *geɬ* (ESS), *geɬ-es* (ABL1), *geɬ-zo* (ABL2), *geɬ-er* (LAT), *geɬ-edo* (DIR)   | @forker2013: 379 |
-| Mehweb | Dargic   | *ʔu* (LAT), *ʔu-b* (ESS), *ʔu-b-adal* (EL)   | @magometov1982: 126 |
-| Bagvalal | Andic | *hiƛ’i* (ESS), *hiƛ’i-sː* (EL), *hiƛ’i-sːini* (TRLAT) | @sosenskaja2001pp: 170 |
-| Lezgian | Lezgic | *k’anik* (ESS), *k’anikaj* (EL) | @haspelmath1993: 219-220 |
-| Chechen | Nakh | *k’el*  (ESS/LAT), *k’eləħ* (ESS), *k’elərə* (EL), *k’elxuʊlə* (TRLAT),  *k’elħaː* (DIR) | @aliroev1999: 79-80 |
+| Hinuq  | Tsezic   | *geɬ* (ESS), *geɬes* (ABL1), *geɬzo* (ABL2), *geɬer* (LAT), *geɬedo* (DIR)   | @forker2013: 379 |
+| Mehweb | Dargic   | *ʔu* (LAT), *ʔub* (ESS), *ʔubadal* (EL)   | @magometov1982: 126 |
+| Bagvalal | Andic | *hiƛ’i* (ESS), *hiƛ’isː* (EL), *hiƛ’isːini* (TRLAT) | @sosenskaja2001pp: 170 |
+| Lezgian | Lezgic | *k’anik* (ESS), *k’anikaj* (EL) | @haspelmath1993: 219220 |
+| Chechen | Nakh | *k’el*  (ESS/LAT), *k’eləħ* (ESS), *k’elərə* (EL), *k’elxuʊlə* (TRLAT),  *k’elħaː* (DIR) | @aliroev1999: 7980 |
 
 The examples in (@three) below illustrate the use of different forms in sentences.
 
@@ -111,7 +111,7 @@ gloss_example(transliteration = "de č’agu goɬ q’ede, **de-de** **purho**=n
 ```
 b.
 ```{r}
-gloss_example(transliteration = "meži di-de purho-s b-uɬi-yom",
+gloss_example(transliteration = "meži **di-de** **purho-s** b-uɬi-yom",
               glosses = "you.PL {I}.OBL-ALOC next-ABL1 HPL-go_out-PROH",
               free_translation = "Do not go away from me.")
 ```
@@ -138,7 +138,7 @@ gloss_example(transliteration = "**getn-i** **tak-ov** mi mec get eː hos-um",
 	
 ### Agreement morphology  
 
-Turning now to agreement morphemes on postpositions, we note first that it is attested in languages of all branches of East Caucasian, except for Nakh and Khinalug. Secondly, in every language that has it, it is not pervasive: it is always a minority of postpositions that agree. Agreement slots may be prefixal, suffixal or (rarely) infixal, as shown in (@five), (@six) and (@seven), respectively. 
+Turning now to agreement morphemes on postpositions, we note that it is attested in languages of all branches of East Caucasian, except for Nakh and Khinalug. However, it is never the case that all postpositions in a language display agreement: in most cases, less than a half of them do so. Agreement slots may be prefixal, suffixal or (rarely) infixal, as shown in (@five), (@six) and (@seven), respectively. 
 
 (@five) Godoberi (Andic) [@kibriketal1996: 88]
 ```{r}
@@ -201,7 +201,7 @@ gloss_example(transliteration = "**het-s** mišt hayeren eː xos-um",
 
 However, it is problematic to postulate agreement in these examples, as the free pronoun in the dative or genitive case and the enclitic cannot co-occur. There is also no agreement with the absolutive (nominative) argument. 
 	
-For a more detailed discussion of agreeing adpositions, see chapter Agreement of adpositions with the nominative (in preparation).
+For a more detailed discussion of agreeing adpositions, see [Agreement of adpositions with the absolutive/nominative](http://lingconlab.ru/dagatlas/031_agreement_of_adpositions.html).
 
 ## Syntactic properties
 
@@ -249,7 +249,7 @@ gloss_example(transliteration = "ov č’-i irakana-c’n-i petut’y-an cragir-
 However, in these languages they do not seem to be as pervasive as in East Caucasian. More details on the proportion of adpositions that allow independent (adverbial) use can be found in a dedicated chapter and map (in preparation).
 
 ### Case assignment
-The set of cases that are assigned by postpositions even within one East Caucasian language is pretty large and includes both syntactic (abstract) cases and spatial cases[^2]. This may be illustrated by the case assignment properties of semantically similar postpositions from languages of different branches of East Caucasian.
+The set of cases that are assigned by postpositions even within one East Caucasian language is pretty large and may include both syntactic (abstract) cases and spatial cases[^2]. This may be illustrated by the case assignment properties of semantically similar postpositions from languages of different branches of East Caucasian.
 
 (@thirteen) Chechen (Nakh) [@jakovlev1940: 143]
 ```{r}
@@ -268,11 +268,11 @@ gloss_example(transliteration = "hinc’-ib-a-ɬa č’ihi",
 (@fifteen) Tsakhur (Lezgic) [@sosenskaja1999post: 127]
 ```{r, results='asis'}
 gloss_example(transliteration = "sa jiʁ-ɨ-lʲ ǯamaʔaIt-ɨ-k’le **χāI-ni** **aq’ʷalʲ** c’e=t=ta wertalʲot ɢaǯe",
-              glosses = "one day-OBL-SUP people-OBL-AFF sky-OBL on first=IV=ADV.IV helicopter.IV IV.see.PF",
+              glosses = "one day-OBL-SUP people-OBL-AFF sky-AOBL on first=IV=ADV.IV helicopter.IV IV.see.PF",
               free_translation = "Once the people saw a helicopter in the sky for the first time.")
 ```
 
-There is no clear correlation between the postposition’s meaning (spatial or not) and the type of case it assigns (spatial or not): there are abstract postpositions that assign spatial cases and spatial postpositions requiring an abstract case, as can be seen from the examples below.
+There is no direct relationship between the postposition’s meaning (spatial or not) and the type of case it assigns (spatial or not): there are abstract postpositions that assign spatial cases and spatial postpositions requiring an abstract case, as can be seen from the examples below.
 
 (@sixteen) Hinuq [@forker2013: 390]
 ```{r}
@@ -356,11 +356,11 @@ gloss_example(transliteration = "so čy-iːqːaːča legjolaž jar yz **suːona*
               free_translation = "She was eager (‘dying’) to go anywhere I went (‘jumped, rushed’).")
 ```
 
-In (@twentyone), the same postposition *t’eħa* ‘after’ requires the genitive on its dependent nouns and the dative on its dependent pronouns. A similar, though more systematic, phenomenon is attested in Mehweb: while postpositions can govern various forms of nouns (dative, genitive, comitative, absolutive), all pronominal dependents of postpositions take the dative case form [@magometov1982: 127]. 
+As illustrated in (@twentyone), the same postposition *t’eħa* ‘after’ requires the genitive on its dependent nouns and the dative on its dependent pronouns. A similar, though more systematic, pattern is observed in Mehweb: while postpositions can govern various forms of nouns (dative, genitive, comitative, absolutive), all pronominal dependents of postpositions take the dative case form [@magometov1982: 127]. 
 Outside East Caucasian, this distinction is observed in Armenian: an adposition may require nominative case on nominal dependents and dative case on pronominal ones (for instance, the prepositions *depi* ‘towards’ and *minč'ew* ‘until’ are like this). In addition, a very significant fraction of adpositions require dative-marked nominals and genitive pronominals. However, Modern Eastern Armenian simply does not distinguish between dative and genitive case in nominal forms—this distinction only persists in the pronominal paradigm [@dum-tragut2009: 125], so for the purposes of this study we consider these adpositions to be genitive case assigners. Unambiguously dative adpositional dependents are restricted to 1st and 2nd person pronouns in non-colloquial registers and as such may be treated as exceptions. 
 
 The final point that we would like to make is that many East Caucasian languages have a dominant postpositional case. By dominant case we mean the case that is assigned to postpositional dependents significantly more often than other cases governed by postpositions in a language. For example, Botlikh (<Andic) postpositions govern contessive (8 postpositions) and dative (2 postpositions). We conclude that the dominant postpositional case in Botlikh is contessive.
-A dominant case may be instantiated by an abstract case (such as genitive or dative) or by a spatial case (e.g., contessive). According to the data we have collected, we can assume some case to be the dominant one in most East Caucasian languages, with some exceptions. Several neighboring languages outside the family also have dominant adpositional cases (genitive in Georgian and Armenian, and unmarked (nominative) in Azerbaijani and Tat). Dominant adpositional case is discussed in greater detail in a [dedicated chapter](http://lingconlab.ru/dagatlas/030_dominant_adpositional_case.html). 
+A dominant case may be instantiated by an abstract case (such as genitive or dative) or by a spatial case (e.g., contessive). According to the data we have collected, we can assume some case to be the dominant one in most East Caucasian languages, with some exceptions. Several neighboring languages outside the family also have dominant adpositional cases: genitive in Georgian and Armenian, and unmarked (nominative) in Azerbaijani and (Judeo-)Tat. Dominant adpositional case is discussed in greater detail in a [dedicated chapter](http://lingconlab.ru/dagatlas/030_dominant_adpositional_case.html). 
 
 [^1]: A simple search for lexemes tagged as prepositions and postpositions yields 605,776 and 2,862,460 results, respectively.
 [^2]: It is arguable whether spatial forms of nouns in East Caucasian can be called case forms, but for brevity we will use the term spatial cases to refer to them.
