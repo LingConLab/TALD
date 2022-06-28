@@ -66,16 +66,16 @@ gloss_example(transliteration = "qal-la **r**-i-**r**=da",
               free_translation = "I (fem.) am inside the house.")
 ```
 
-(@four) Archi (Lezgic) (Marina Chumakina, p.c.)
+(@four) Archi (Lezgic) [@bondchumakina2016: 73]
 ```{r, results='asis'}
-gloss_example(transliteration = "zari **gǝzet** o‹b›kɬni arχul-ma-k e‹**b**›q’en",
-              glosses = "1.SG.ERG newspaper.III.SG.ABS III.SG.read.PFV the.middle-IN-LAT III.SG.up.to",
-              free_translation = "I read the newspaper up to the middle.")
+gloss_example(transliteration = "**goroχči** ba-qˁa haˁtər-če-qˁa-k e‹**b**›q’en",
+              glosses = "rolling.stone.III.SG.ABS III.SG-come.PFV river.IV-SG.OBL-INTER-LAT ‹III.SG›up_to",
+              free_translation = "The rolling stone went up to the river. (The stone is near the river, but dry.)")
 ```
 
 [Table 2](#t2) summarizes the distribution of the four marking strategies across languages and postpositions. One can see that Tsezic postpositions only have prefixal agreement markers. Prefixal marking is also the dominant option in the Andic languages — it is the only pattern found in all languages of the branch exhibiting this phenomenon. In contrast, most agreeing postpositions in Avar and the Dargwa languages have the designated slot in the suffix. Finally, agreement in both the prefix and the suffix is only found in Dargwa languages. It is also interesting to note that there are on average 1–2 postpositions with the agreement marker in the prefix (30 postpositions in 15 languages), prefix and suffix (7 postpositions in 4 languages) or infix (3 postpositions in 3 languages) for each language where these slots are attested. By contrast, there are on average 9 postpositions with agreement markers in the suffixal slot in each language where this slot is attested (66 postpositions in 8 languages). In other words, suffixal agreement is the most productive pattern.  
 
-#### **Table 2.** Position of the agreement slot across languages and postpositions {#t2 -}
+#### **Table 2.** Position of the agreement slot across languages and postpositions {#t2}
 | Position | No. of languages | No. of postpositions | Percentage of all |
 |----------|------------------|----------------------|-------------------|
 | prefix | 15 (6 Andic, 4 Dargwa, 5 Tsezic and Lak) | 30 | 28% |
@@ -142,15 +142,15 @@ The distribution of the languages by values is as follows:
 | Number of languages where adpositions agreeing with the nominative are **attested** | 20 |
 | Number of languages where adpositions agreeing with the nominative are **not** **attested** | 23 |
 
-They are mapped on Map 1.
+They are mapped on [Map 1](http://lingconlab.ru/dagatlas/031_agreement_of_adpositions_map.html#m1).
 
-Map 2 shows the percentage of postpositions that agree with the absolutive/nominative for all East Caucasian languages and their neighbors.
+[Map 2](http://lingconlab.ru/dagatlas/031_agreement_of_adpositions_map.html#m2) shows the percentage of postpositions that agree with the absolutive/nominative for all East Caucasian languages and their neighbors.
 
 In Dargwa languages, agreement of postpositions with the absolutive/nominative is very productive, likely due to the fact that class agreement markers are part of the spatial inflection system in these languages, specifically, they are used to signal essive. In other branches (Tsezic, Andic) only a small number of postpositions (cognate within each branch) have agreement morphology, indicating that in these languages this type of agreement is not productive and likely inherited. Avar could be characterized as an intermediate case between Dargwa and Tsezic/Andic: postpositions derived from nouns have a suffixal agreement marker in the essive form (similarly to nouns), whereas other postpositions do not have it. Lak adpositions only have agreement when taking the lative form (built on the gender marker and an orientation morpheme), while their essive forms, built just on the gender marker no longer inflect; the same pattern is observed for Lak nouns in the spatial cases. Thus, the situation in Lak is somewhat similar to that found in Dargwa and Avar, yet it is more complicated.   
 
-Additionally, [Figure 1](#f1) maps which positions of the agreement slot are found on adpositions of a given language.
+Additionally, Figure 1 maps which positions of the agreement slot are found on adpositions of a given language.
 
-#### **Figure 1.** Possible positions of agreement slots on adpositions, by language {#f1 -}
+#### **Figure 1.** Possible positions of agreement slots on adpositions, by language
 
 ```{r}
 language <- c('Kubachi', 'North-Central Dargwa', 'Southwestern Dargwa', 'Lak', 'Avar', 'Andi', 'Godoberi', 'Tindi', 'Bagvalal', 'Chamalal', 'Botlikh', 'Tsakhur', 'Archi', 'Khwarshi-Inkhoqwari', 'Bezhta', 'Hunzib', 'Tsez', 'Hinuq')
@@ -165,7 +165,7 @@ map.feature(languages = df$language,
   width = 3)
 ```
 
-Finally, Map 3 shows the share of the agreeing postpositions that can be used independently (as adverbs) in the language. In most languages with adpositional agreement (14 out of 20), all agreeing adpositions are identical to adverbs. In the three languages that fall into the intermediate category (Bagvalal, Chamalal, Lak), a minority of the agreeing postpositions are deverbal, hence they do not admit adverbial use. Archi, Tsez and Tindi have just one agreeing postposition each: in Archi and Tsez it is known to be deverbal, while the origin of the Tindi lexeme meaning ‘up to’ is unclear, but it is likely to be deverbal too, given its semantics.
+Finally, [Map 3](http://lingconlab.ru/dagatlas/031_agreement_of_adpositions_map.html#m3) shows the share of the agreeing postpositions that can be used independently (as adverbs) in the language. In most languages with adpositional agreement (14 out of 20), all agreeing adpositions are identical to adverbs. In the three languages that fall into the intermediate category (Bagvalal, Chamalal, Lak), a minority of the agreeing postpositions are deverbal, hence they do not admit adverbial use. Archi, Tsez and Tindi have just one agreeing postposition each: in Archi and Tsez it is known to be deverbal, while the origin of the Tindi lexeme meaning ‘up to’ is unclear, but it is likely to be deverbal too, given its semantics.
 
 ## Distribution
 
