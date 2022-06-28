@@ -24,7 +24,7 @@ Agreement of adpositions with the absolutive/nominative is attested in languages
 #### **Table 1.** Number and percentage of postpositions agreeing in gender in East Caucasian languages {#t1 -}
 
 | Branch | Language | Number of agreeing postpositions | Percentage of agreeing postpositions |
-|--------|----------|----------------------------------|----------------------------------------------|
+|:-------|:---------|:---------------------------------|:---------------------------------------------|
 | Dargwa | Kubachi | 8 | 62% |
 |        | Akusha | 15 | 52% |
 |        | Mehweb | 11 | 85% |
@@ -77,7 +77,7 @@ gloss_example(transliteration = "**goroχči** ba-qˁa haˁtər-če-qˁa-k e‹*
 
 #### **Table 2.** Position of the agreement slot across languages and postpositions {#t2}
 | Position | No. of languages | No. of postpositions | Percentage of all |
-|----------|------------------|----------------------|-------------------|
+|:---------|:-----------------|:---------------------|:------------------|
 | prefix | 15 (6 Andic, 4 Dargwa, 5 Tsezic and Lak) | 30 | 28% |
 | suffix | 8 (Avar, Lak, 5 Dargwa, 1 Lezgic) | 66 | 62% |
 | prefix and suffix | 4 (4 Dargwa) | 7 | 7% |
@@ -138,7 +138,7 @@ The distribution of the languages by values is as follows:
 
 #### **Table 3.** Adpositional agreement with the nominative in Daghestan {#t3 -}
 | Value | N |
-|-------|---|
+|:------|:--|
 | Number of languages where adpositions agreeing with the nominative are **attested** | 20 |
 | Number of languages where adpositions agreeing with the nominative are **not** **attested** | 23 |
 
