@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="Samira Verhees" />
+
+
+<title>Evidentiality</title>
+
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="site_libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="site_libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+<style type="text/css">
+/* for pandoc --citeproc since 2.11 */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="css/styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">TALD</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="./about.html">About</a>
+</li>
+<li>
+  <a href="./features.html">
+    <span class="fa fa-atlas"></span>
+     
+    Features
+  </a>
+</li>
+<li>
+  <a href="./changes.html">Changes</a>
+</li>
+<li>
+  <a href="./references.html">References</a>
+</li>
+<li>
+  <a href="./team.html">Team</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Evidentiality</h1>
+<h4 class="author">Samira Verhees</h4>
+<h4 class="date">Last update: April 2022</h4>
+
+</div>
+
+
+<div id="section"
+class="section level1 tabset tabset-fade tabset-pills unnumbered">
+<h1 class="tabset tabset-fade tabset-pills unnumbered"></h1>
+<div id="plain-text" class="section level2 unnumbered hasAnchor">
+<h2 class="unnumbered hasAnchor">Plain text<a href="#plain-text"
+class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Verhees, S. (2020). “Evidentiality”. In: <em>Typological Atlas of the
+Languages of Daghestan (TALD)</em>. Ed. by M. Daniel, K. Filatov, G.
+Moroz, T. Mukhin, C. Naccarato and S. Verhees. Moscow: Linguistic
+Convergence Laboratory, NRU HSE. <a href="http://lingconlab.ru/dagatlas"
+class="uri">http://lingconlab.ru/dagatlas</a>.</p>
+</div>
+<div id="bibtex" class="section level2 unnumbered hasAnchor">
+<h2 class="unnumbered hasAnchor">BibTeX<a href="#bibtex"
+class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<pre><code>@incollection{verhees2020,
+  title = {Evidentiality},
+  author = {Samira Verhees},
+  year = {2020},
+  editor = {Michael Daniel and Konstantin Filatov and George Moroz and Timofey Mukhin and Chiara Naccarato and Samira Verhees},
+  publisher = {Linguistic Convergence Laboratory, NRU HSE},
+  address = {Moscow},
+  booktitle = {Typological Atlas of the Languages of Daghestan (TALD)},
+  url = {http://lingconlab.ru/dagatlas},
+}</code></pre>
+</div>
+</div>
+<div id="section-1" class="section level1 unnumbered">
+<h1 class="unnumbered"></h1>
+<p>Daghestan is part of a large area where relatively simple systems of
+evidentiality marking are common. This area, sometimes referred to as
+the “Evidential Belt” ,<a href="#fn1" class="footnote-ref"
+id="fnref1"><sup>1</sup></a> stretches across the Eurasian continent and
+encompasses many genealogically and typologically distant languages (see
+Plungian <span class="citation">(<a href="#ref-plungian2010"
+role="doc-biblioref">2010</a>: 19-21)</span> for a concise overview).
+Typical of this area is the marking of events not directly witnessed by
+the speaker (indirect evidentiality).</p>
+<ol class="example" style="list-style-type: decimal">
+<li>Avar <span class="citation">(<a href="#ref-uslar1889"
+role="doc-biblioref">Uslar 1889</a>: 29)</span></li>
+</ol>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>dosul</em>
+</td>
+<td style="text-align:left;">
+<em>j-ik’-ara-j=ila</em>
+</td>
+<td style="text-align:left;">
+<em>č’užu</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps">dem</span>.<span class="smallcaps">gen</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">f</span>-be-<span
+class="smallcaps">pst</span>.<span class="smallcaps">ptcp</span>-<span
+class="smallcaps">f</span>=<span class="smallcaps">rep</span>
+</td>
+<td style="text-align:left;">
+wife
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> (the speaker heard this from someone)
+</td>
+</tr>
+</tfoot>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘He had a wife.’
+</td>
+</tr>
+</tfoot>
+</table>
+<p>Typologies of evidentiality typically divide the semantic domain into
+direct vs. indirect access to information about an event.<a href="#fn2"
+class="footnote-ref" id="fnref2"><sup>2</sup></a> These macro-categories
+branch out into more specific meanings such as “hearsay” or “inference
+from results”. Figure 1 displays functions for which a special marker is
+attested in the eastern Caucasus in bold. Category labels are indicated
+between brackets. The status of direct evidential marking in East
+Caucasian is disputed (see chapter <a
+href="001_evidentiality_tense.html">Evidentiality in the tense
+system</a>).</p>
+<p>Figure 1. The semantic domain of evidentiality</p>
+<table>
+<colgroup>
+<col width="18%" />
+<col width="5%" />
+<col width="48%" />
+<col width="5%" />
+<col width="22%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><i>direct</i></td>
+<td>→</td>
+<td>active participation (participatory)</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>→</td>
+<td>visual</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>→</td>
+<td>non-visual sensory</td>
+<td>→</td>
+<td>auditory</td>
+</tr>
+<tr class="even">
+<td><b>indirect</b></td>
+<td>→</td>
+<td><b>inference from results</b> (inferential)</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>→</td>
+<td><b>inference from reasoning</b> (presumptive)</td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>→</td>
+<td><b>hearsay</b> (reportative)</td>
+<td>→</td>
+<td>secondhand</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td>→</td>
+<td>thirdhand</td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td></td>
+<td>→</td>
+<td>folklore</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="related-semantic-notions" class="section level1 hasAnchor"
+number="1">
+<h1 class="hasAnchor"><span class="header-section-number">1</span>
+Related semantic notions<a href="#related-semantic-notions"
+class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>In this general chapter and the chapters on particular features I
+assume a narrow definition of evidentiality as a category marking the
+speaker’s access to information about an event. Some authors apply the
+notion more broadly to include any type of marking that refers to the
+speaker’s knowledge and their attitude towards that knowledge
+(e.g. Chafe &amp; Nichols <span class="citation">(<a
+href="#ref-chafenichols1986" role="doc-biblioref">1986</a>)</span>).
+Cross-linguistically evidentiality tends to co-occur with other
+knowledge-categories. Indirect evidential tenses, for example, may have
+an additional mirative function (indicating that the information is new
+to the speaker and / or hearer), or evidential marking may form a single
+paradigm with egophoric markers (which mark personal knowledge or
+experience).</p>
+<p>Nonetheless, evidentiality and the categories it intertwines with
+constitute distinct functional domains. The focus of the chapters in <a
+href="http://lingconlab.ru/dagatlas/">TALD</a> is access to information.
+Other knowledge categories are discussed only in so far as they have a
+direct relationship to an evidential marker. See Forker’s <span
+class="citation">(<a href="#ref-forker2018a"
+role="doc-biblioref">2018</a>)</span> detailed overview of evidentiality
+in East Caucasian for a more inclusive approach.</p>
+</div>
+<div id="evidentiality-in-east-caucasian"
+class="section level1 hasAnchor" number="2">
+<h1 class="hasAnchor"><span class="header-section-number">2</span>
+Evidentiality in East Caucasian<a
+href="#evidentiality-in-east-caucasian" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p>The East Caucasian languages feature specialized markers (for hearsay
+and more rarely inference) as well as general indirect forms. General
+forms are compatible with interpretations of hearsay and inference (2),
+but the form itself is essentially unspecified. Depending on the
+context, the utterance in (2) with the Bagvalal Perfect can indicate
+that the speaker knows that Ali did not come home because someone told
+them, or because they witnessed a tangible result of this situation (for
+example, Ali’s bed was not slept in).</p>
+<ol start="2" class="example" style="list-style-type: decimal">
+<li>Bagvalal <span class="citation">(<a href="#ref-tatevosov2007"
+role="doc-biblioref">Tatevosov 2007</a>: 362)</span></li>
+</ol>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>ˁali</em>
+</td>
+<td style="text-align:left;">
+<em>w-aː-w-o</em>
+</td>
+<td style="text-align:left;">
+<em>weč’e</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Ali
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">m</span>-come-<span
+class="smallcaps">m</span>-<span class="smallcaps">pfv</span>.<span
+class="smallcaps">cvb</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">neg</span>.<span class="smallcaps">cop</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Ali (I see) did not come (home to sleep). [inferential]’
+</td>
+</tr>
+</tfoot>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Ali (as I was told) did not come (home yet). [hearsay]’
+</td>
+</tr>
+</tfoot>
+</table>
+<p>Inference based on reasoning instead of tangible results may or may
+not be part of a general indirect form’s meaning.</p>
+<p>Three main types of forms are attested in the eastern Caucasus:</p>
+<ul>
+<li>Tense forms</li>
+<li>Particles</li>
+<li>Auxiliaries</li>
+</ul>
+<p>All of these types show varying degrees of grammaticalization in
+individual languages. At least in the verbal paradigm, evidentiality is
+considered a relatively recent innovation in East Caucasian <span
+class="citation">(<a href="#ref-authiermaisak2011"
+role="doc-biblioref">Authier and Maisak 2011</a>: ix)</span>. In the
+only language for which we have historical records (Caucasian Albanian)
+it is not attested. The presence of indirect evidentiality within the
+verbal system shows a peculiar areal distribution: while the feature is
+generally common in the family, it is notably absent in a number of
+languages spoken in the southern part of the eastern Caucasus. It is
+possible that both the presence and the absence of the feature result
+from Turkic contact influence, but there are several important caveats
+to this hypothesis, which are discussed in more detail in the chapter <a
+href="001_evidentiality_tense.html">Evidentiality in the tense
+system</a>.</p>
+<p>The data on particles show no clear areal signal, though this could
+be the result of a descriptive gap, see <a
+href="004_particles.html">Reported speech particles</a> for more
+detail.</p>
+<p>Only one East Caucasian language (Kryz of the Lezgic branch) copied
+an evidential morpheme from Azerbaijani (discussed in the chapter <a
+href="004_particles.html">Reported speech particles</a>).</p>
+<p>As pointed out by Daniel &amp; Maisak <span class="citation">(<a
+href="#ref-danielmaisak2018" role="doc-biblioref">2018</a>:
+143–144)</span>, the use of the verb ‘find’ as a kind of evidential
+auxiliary appears to be common among languages that have been in
+prolonged contact with Avar, such as the Andic and Tsezic languages, but
+also more distantly related idioms like Archi (Lezgic) and Mehweb
+(Dargwa).</p>
+</div>
+<div id="related-features" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">Related features<a
+href="#related-features" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<ul>
+<li><a href="001_evidentiality_tense.html">Evidentiality in the tense
+system</a></li>
+<li><a href="003_perfect.html">The perfect</a></li>
+<li><a href="004_particles.html">Particles of reported speech and
+inference</a></li>
+</ul>
+</div>
+<div id="gloss-list" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">Gloss list<a href="#gloss-list"
+class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p><span class="smallcaps">cop</span> — copula; <span
+class="smallcaps">cvb</span> — converb; <span
+class="smallcaps">dem</span> — demonstrative; <span
+class="smallcaps">f</span> — feminine; <span
+class="smallcaps">gen</span> — genitive; <span
+class="smallcaps">m</span> — masculine; <span
+class="smallcaps">neg</span> — negation; <span
+class="smallcaps">pfv</span> — perfective; <span
+class="smallcaps">pst</span> — past; <span
+class="smallcaps">ptcp</span> — participle; <span
+class="smallcaps">rep</span> — repetitive</p>
+</div>
+<div id="references" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">References<a href="#references"
+class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-authiermaisak2011" class="csl-entry">
+Authier, Gilles, and Timur Maisak. 2011. <span>“Introduction.”</span> In
+<em>Tense, Aspect, Modality and Finiteness in East Caucasian</em>,
+edited by Gilles Authier and Timur Maisak, vii–xii. Bochum:
+Universitätsverlag Dr. N. Brockmeyer.
+</div>
+<div id="ref-chafenichols1986" class="csl-entry">
+Chafe, Wallace, and Johanna Nichols. 1986. <em>Evidentiality:
+<span>T</span>he Linguistic Coding of Epistemology</em>. Norwood, NJ:
+Ablex.
+</div>
+<div id="ref-danielmaisak2018" class="csl-entry">
+Daniélʹ, M. A., and T. A. Majsak. 2018.
+<span>“&lt;&lt;<span>Č</span>ernaja Koška Grammatikalizacii&gt;&gt;:
+Konstrukcii s Glagolom <span>‘Najti’</span> v Dagestanskix
+Jazykax.”</span> In <em>EVRika! Sbornik Statʹej o Poiskax i Naxodkax k
+Jubileju e.v. Raxilinoj</em>, edited by D. A. Ryžova, N. R. Dobrušina,
+A. A. Bonč-Osmolovskaja, A. S. Vyrenkova, M. V. Kjuseva, and B. V.
+Orexov, 120–52. Moskva: Labirint.
+</div>
+<div id="ref-forker2018a" class="csl-entry">
+Forker, Diana. 2018. <span>“Evidentiality in
+<span>N</span>akh-<span>D</span>aghestanian Languages.”</span> In
+<em>The Oxford Handbook of Evidentiality</em>, edited by Alexandra Y.
+Aikhenvald, 490–509. Oxford: Oxford University Press.
+</div>
+<div id="ref-plungian2010" class="csl-entry">
+Plungian, Vladimir A. 2010. <span>“Types of Verbal Evidentiality
+Marking: An Overview.”</span> In <em>Linguistic Realization of
+Evidentiality in European Languages</em>, edited by Gabriele Diewald and
+Elena Smirnova, 15–58. Berlin/New York: De Gruyter Mouton.
+</div>
+<div id="ref-tatevosov2007" class="csl-entry">
+Tatevosov, S. G. 2007. <span>“Évidencialʹnostʹ i Admirativ v
+Bagvalinskom Jazyke.”</span> In <em>Évidencialʹnostʹ v Jazykax Evropy i
+Azii: Sbornik Statej Pamjati Natalʹi Andreevny Kozincevoj</em>, edited
+by V. S. Xrakovskij, 351–97. Sankt-Peterburg: Nauka.
+</div>
+<div id="ref-uslar1889" class="csl-entry">
+Uslar, P. K. 1889. <em>Avarskij Jazyk</em>. Tiflis: Upavlenie
+Kavkazskago Učebnago Okruga.
+</div>
+<div id="ref-verhees2019a" class="csl-entry">
+Verhees, Samira. 2019. <span>“Defining Evidentiality.”</span>
+<em>Voprosy Jazykoznanija</em>, no. 6: 113–33.
+</div>
+</div>
+</div>
+<div class="footnotes footnotes-end-of-document">
+<hr />
+<ol>
+<li id="fn1"><p>I have not been able to trace the origin of the term
+Evidential Belt. It appears in many papers and chapters, but as a rule
+without reference to another source.<a href="#fnref1"
+class="footnote-back">↩︎</a></p></li>
+<li id="fn2"><p>As discussed in <span class="citation">(<a
+href="#ref-verhees2019a" role="doc-biblioref">Verhees 2019</a>)</span>,
+these two categories form a cline of directness, rather than a strict
+binary opposition.<a href="#fnref2" class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+</head>
+
+<body>
+    <div class="footer-basic">
+        <footer>
+            
+            <div class='lic'><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br /><i>Typological Atlas of the languages of Daghestan </i> (<i>TALD</i>) is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+            <div class="social"><a href="https://github.com/LingConLab/TALD" target="_blank"><span class="iconify" data-icon="octicon:logo-github-16"></span></a></div>
+            </div>
+            
+            <p class="copyright">2020<script>new Date().getFullYear()>2020&&document.write("-"+new Date().getFullYear());</script>,  Linguistic Convergence Laboratory, HSE University</p>
+        </footer>
+    </div>
+    <script type="text/javascript" src="./js/links.js"></script> <!--это чтобы ссылки открывались в новом окне -->
+</body>
+
+</html>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

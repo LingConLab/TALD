@@ -1,0 +1,2695 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="Tatiana Philippova, Polina Nasledskova" />
+
+
+<title>Adpositions</title>
+
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="site_libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="site_libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+<style type="text/css">
+/* for pandoc --citeproc since 2.11 */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="css/styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">TALD</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="./about.html">About</a>
+</li>
+<li>
+  <a href="./features.html">
+    <span class="fa fa-atlas"></span>
+     
+    Features
+  </a>
+</li>
+<li>
+  <a href="./changes.html">Changes</a>
+</li>
+<li>
+  <a href="./references.html">References</a>
+</li>
+<li>
+  <a href="./team.html">Team</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Adpositions</h1>
+<h4 class="author">Tatiana Philippova, Polina Nasledskova</h4>
+<h4 class="date">Last update: May 2022</h4>
+
+</div>
+
+
+<div id="section"
+class="section level1 tabset tabset-fade tabset-pills unnumbered">
+<h1 class="tabset tabset-fade tabset-pills unnumbered"></h1>
+<div id="plain-text" class="section level2 unnumbered hasAnchor">
+<h2 class="unnumbered hasAnchor">Plain text<a href="#plain-text"
+class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Philippova, T. and P. Nasledskova (2022). “Adpositions”. In:
+<em>Typological Atlas of the Languages of Daghestan (TALD)</em>. Ed. by
+M. Daniel, K. Filatov, G. Moroz, T. Mukhin, C. Naccarato and S. Verhees.
+Moscow: Linguistic Convergence Laboratory, NRU HSE. <a
+href="http://lingconlab.ru/dagatlas"
+class="uri">http://lingconlab.ru/dagatlas</a>.</p>
+</div>
+<div id="bibtex" class="section level2 unnumbered hasAnchor">
+<h2 class="unnumbered hasAnchor">BibTeX<a href="#bibtex"
+class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<pre><code>@incollection{philippovanasledskova2022,
+  title = {Adpositions},
+  author = {Tatiana Philippova and Polina Nasledskova},
+  year = {2022},
+  editor = {Michael Daniel and Konstantin Filatov and George Moroz and Timofey Mukhin and Chiara Naccarato and Samira Verhees},
+  publisher = {Linguistic Convergence Laboratory, NRU HSE},
+  address = {Moscow},
+  booktitle = {Typological Atlas of the Languages of Daghestan (TALD)},
+  url = {http://lingconlab.ru/dagatlas},
+}</code></pre>
+</div>
+</div>
+<div id="introduction" class="section level1 hasAnchor" number="1">
+<h1 class="hasAnchor"><span class="header-section-number">1</span>
+Introduction<a href="#introduction" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p>This chapter overviews the basic morphological and syntactic
+properties of East Caucasian adpositions as compared to those of
+adpositions found in the neighboring languages (Armenian, Tat, Georgian,
+Azerbaijani, Kumyk and Nogai). Generally, we relied on grammatical
+descriptions in deciding what lexical items fall into the category of
+adpositions, occasionally making very minor adjustments in case we found
+additional lexemes labeled as adpositions in the dictionaries or in case
+a certain lexeme did not fit our working definition of an adposition
+that we adopt from <span class="citation">(<a href="#ref-hagege2010"
+role="doc-biblioref">Hagège 2010</a>)</span>:</p>
+<p>“Adpositions may be defined as grammatical tools which mark the
+relationship between two parts of a sentence: one is the element which
+an adposition governs. It is traditionally called its complement and is
+mostly represented by a noun or noun-like word or phrase[…] The other
+part is an entity which either functions as the predicate of this
+sentence, or is a non-predicative noun” <span class="citation">(<a
+href="#ref-hagege2010" role="doc-biblioref">Hagège 2010</a>:
+1)</span>.</p>
+<p>In terms of their position relative to the dependent noun phrase,
+East Caucasian languages are uniformly postpositional, similarly to
+their Turkic neighbors and Georgian. In contrast, (Judeo)-Tat is
+predominantly a prepositional language, although it features a certain
+number of postpositions, some of which are borrowings from Azerbaijani
+<span class="citation">(<a href="#ref-authier2012"
+role="doc-biblioref">Authier 2012</a>: 101)</span>. Armenian has both
+postpositions and prepositions, the former being more numerous and also
+more frequent in the East Armenian National Corpus (<a
+href="http://www.eanc.net/" class="uri">http://www.eanc.net/</a>)<a
+href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>. In
+addition, according to <span class="citation">(<a
+href="#ref-dum-tragut2009" role="doc-biblioref">Dum-Tragut
+2009</a>)</span>, it features a small set of ambipositions—adpositional
+elements that can be placed either before or after the dependent noun.
+The case form of the nominal dependent required by an ambiposition in
+Armenian may remain stable or change depending on whether the lexeme is
+used prepositionally or postpositionally. The first scenario is
+illustrated in (1) for the ambiposition <em>šnorhiv</em> ‘thanks to’
+that always requires genitive (syncretic with dative in the nominal, but
+not in the pronominal declension); the latter is represented by the
+ambiposition <em>handep</em> ‘for’ in (2) which requires genitive in
+postposition and nominative in preposition.</p>
+<ol class="example" style="list-style-type: decimal">
+<li>Armenian <span class="citation">(<a href="#ref-dum-tragut2009"
+role="doc-biblioref">Dum-Tragut 2009</a>: 379, 493)</span></li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; ">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em><strong>Im</strong></em>
+</td>
+<td style="text-align:left;">
+<em><strong>ěnker-oǰ</strong></em>
+</td>
+<td style="text-align:left;">
+<em><strong>šnorhiv</strong></em>
+</td>
+<td style="text-align:left;">
+<em>darj-i</em>
+</td>
+<td style="text-align:left;">
+<em>ē</em>
+</td>
+<td style="text-align:left;">
+<em>gal-is</em>
+</td>
+<td style="text-align:left;">
+<em>ew</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+my
+</td>
+<td style="text-align:left;">
+friend-<span class="smallcaps">gen</span>.<span
+class="smallcaps">dat</span>
+</td>
+<td style="text-align:left;">
+thanks
+</td>
+<td style="text-align:left;">
+conversion-<span class="smallcaps">dat</span>
+</td>
+<td style="text-align:left;">
+he_is
+</td>
+<td style="text-align:left;">
+come-<span class="smallcaps">ptcp</span>.<span
+class="smallcaps">prs</span>.<span class="smallcaps">3sg</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">conj</span>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>ěndun-um</em>
+</td>
+<td style="text-align:left;">
+<em>k’ristoneakan</em>
+</td>
+<td style="text-align:left;">
+<em>havatk’-ě</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+adopt-<span class="smallcaps">ptcp</span>.<span
+class="smallcaps">prs</span>
+</td>
+<td style="text-align:left;">
+Christian
+</td>
+<td style="text-align:left;">
+belief.<span class="smallcaps">nom</span>-the
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Thanks to my friend, he converts and adopts the Christian
+belief.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; ">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>Xač’atryan-i</em>
+</td>
+<td style="text-align:left;">
+<em>gorc-er-i-n</em>
+</td>
+<td style="text-align:left;">
+<em>canot’ac’-el</em>
+</td>
+<td style="text-align:left;">
+<em>ē</em>
+</td>
+<td style="text-align:left;">
+<em><strong>šnorhiv</strong></em>
+</td>
+<td style="text-align:left;">
+<em><strong>ir</strong></em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Xachatryan-<span class="smallcaps">dat</span>
+</td>
+<td style="text-align:left;">
+work-<span class="smallcaps">pl</span>-<span
+class="smallcaps">dat</span>-the
+</td>
+<td style="text-align:left;">
+get_acquainted-<span class="smallcaps">ptcp</span>.<span
+class="smallcaps">pf</span>
+</td>
+<td style="text-align:left;">
+he_is
+</td>
+<td style="text-align:left;">
+thanks
+</td>
+<td style="text-align:left;">
+his
+</td>
+</tr>
+</tbody>
+</table>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em><strong>usuc’č’-i</strong></em>
+</td>
+<td style="text-align:left;">
+<em>Nat’an</em>
+</td>
+<td style="text-align:left;">
+<em>Milšteyn-i</em>
+</td>
+<td style="text-align:left;">
+<em>um</em>
+</td>
+<td style="text-align:left;">
+<em>mot</em>
+</td>
+<td style="text-align:left;">
+<em>usan-el</em>
+</td>
+<td style="text-align:left;">
+<em>ē</em>
+</td>
+<td style="text-align:left;">
+<em>10</em>
+</td>
+<td style="text-align:left;">
+<em>tari</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+teacher-<span class="smallcaps">gen</span>.<span
+class="smallcaps">dat</span>
+</td>
+<td style="text-align:left;">
+Nathan
+</td>
+<td style="text-align:left;">
+Milstein-<span class="smallcaps">gen</span>.<span
+class="smallcaps">dat</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">rel</span>.<span class="smallcaps">dat</span>
+</td>
+<td style="text-align:left;">
+at
+</td>
+<td style="text-align:left;">
+learn-<span class="smallcaps">ptcp</span>.<span
+class="smallcaps">pf</span>
+</td>
+<td style="text-align:left;">
+he_is
+</td>
+<td style="text-align:left;">
+ten
+</td>
+<td style="text-align:left;">
+year.<span class="smallcaps">nom</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘He became acquainted with the works of Khachatryan thanks
+to his teacher, Nathan Milstein, with whom he has studied for 10 years.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<ol start="2" class="example" style="list-style-type: decimal">
+<li>Armenian <span class="citation">(<a href="#ref-dum-tragut2009"
+role="doc-biblioref">Dum-Tragut 2009</a>: 301)</span></li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em><strong>k’o</strong></em>
+</td>
+<td style="text-align:left;">
+<em><strong>handep</strong></em>
+</td>
+<td style="text-align:left;">
+<em>aysteɬ</em>
+</td>
+<td style="text-align:left;">
+<em>mec</em>
+</td>
+<td style="text-align:left;">
+<em>hargank’</em>
+</td>
+<td style="text-align:left;">
+<em>ka</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+you.<span class="smallcaps"><strong>gen</strong></span>
+</td>
+<td style="text-align:left;">
+for
+</td>
+<td style="text-align:left;">
+here
+</td>
+<td style="text-align:left;">
+big
+</td>
+<td style="text-align:left;">
+esteem.<span class="smallcaps">nom</span>
+</td>
+<td style="text-align:left;">
+exist.<span class="smallcaps">prs</span>.<span
+class="smallcaps">3sg</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘There is big esteem for you here.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em><strong>Handep</strong></em>
+</td>
+<td style="text-align:left;">
+<em><strong>hayrenik’-ě</strong></em>
+</td>
+<td style="text-align:left;">
+<em>nra</em>
+</td>
+<td style="text-align:left;">
+<em>ser-n</em>
+</td>
+<td style="text-align:left;">
+<em>anč’ap’eli</em>
+</td>
+<td style="text-align:left;">
+<em>ē</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+for
+</td>
+<td style="text-align:left;">
+fatherland.<span class="smallcaps"><strong>nom</strong></span>-the
+</td>
+<td style="text-align:left;">
+his
+</td>
+<td style="text-align:left;">
+love.<span class="smallcaps">nom</span>-the
+</td>
+<td style="text-align:left;">
+immeasurable
+</td>
+<td style="text-align:left;">
+it_is
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘His love for his fatherland is immeasurable.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+</div>
+<div id="morphological-properties" class="section level1 hasAnchor"
+number="2">
+<h1 class="hasAnchor"><span class="header-section-number">2</span>
+Morphological properties<a href="#morphological-properties"
+class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="inflection-for-directionality" class="section level2 hasAnchor"
+number="2.1">
+<h2 class="hasAnchor"><span class="header-section-number">2.1</span>
+Inflection for directionality<a href="#inflection-for-directionality"
+class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Although cross-linguistically adpositions tend to have a fixed form,
+East Caucasian postpositions may bear morphemes that could be considered
+inflectional: they may attach directionality and agreement markers that
+we consider in turn.</p>
+<p>Directionality markers signal the direction or absence of motion of
+the trajector (figure) with respect to the landmark (ground). They
+attach to lexemes of different parts of speech that have a spatial
+meaning: nominals in locative forms, local place names, body part
+locations, locative converbs, and spatial adverbs and postpositions. The
+number of values in the directionality category varies from language to
+language; we find essive (absence of motion), lative (motion to the
+landmark), elative (motion from the landmark), translative (motion
+through a landmark), directive (motion towards a landmark), and
+terminative (motion up to a landmark) forms. <a href="#t1">Table 1</a>
+illustrates the inventories of directional forms of postpositions with
+the meaning ‘under’ in a sample of languages from different branches of
+East Caucasian; one can see that the repertoire ranges from 2 to 5 forms
+in this case.</p>
+<div id="t1" class="section level3 unnumbered hasAnchor">
+<h3 class="unnumbered hasAnchor"><strong>Table 1.</strong> Directional
+forms of postpositions synonymous to ‘under’ across the branches of East
+Caucasian<a href="#t1" class="anchor-section"
+aria-label="Anchor link to header"></a></h3>
+<table>
+<colgroup>
+<col width="26%" />
+<col width="23%" />
+<col width="23%" />
+<col width="26%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">language</th>
+<th align="left">branch</th>
+<th align="left">directional forms</th>
+<th align="left">source</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Hinuq</td>
+<td align="left">Tsezic</td>
+<td align="left"><em>geɬ</em> (ESS), <em>geɬ-es</em> (ABL1),
+<em>geɬ-zo</em> (ABL2), <em>geɬ-er</em> (LAT), <em>geɬ-edo</em>
+(DIR)</td>
+<td align="left"><span class="citation">Forker (<a
+href="#ref-forker2013" role="doc-biblioref">2013</a>)</span>: 379</td>
+</tr>
+<tr class="even">
+<td align="left">Mehweb</td>
+<td align="left">Dargic</td>
+<td align="left"><em>ʔu</em> (LAT), <em>ʔu-b</em> (ESS),
+<em>ʔu-b-adal</em> (EL)</td>
+<td align="left"><span class="citation">Magometov (<a
+href="#ref-magometov1982" role="doc-biblioref">1982</a>)</span>:
+126</td>
+</tr>
+<tr class="odd">
+<td align="left">Bagvalal</td>
+<td align="left">Andic</td>
+<td align="left"><em>hiƛ’i</em> (ESS), <em>hiƛ’i-sː</em> (EL),
+<em>hiƛ’i-sːini</em> (TRLAT)</td>
+<td align="left"><span class="citation">Sosenskaja (<a
+href="#ref-sosenskaja2001pp" role="doc-biblioref">2001</a>)</span>:
+170</td>
+</tr>
+<tr class="even">
+<td align="left">Lezgian</td>
+<td align="left">Lezgic</td>
+<td align="left"><em>k’anik</em> (ESS), <em>k’anikaj</em> (EL)</td>
+<td align="left"><span class="citation">Haspelmath (<a
+href="#ref-haspelmath1993" role="doc-biblioref">1993</a>)</span>:
+219-220</td>
+</tr>
+<tr class="odd">
+<td align="left">Chechen</td>
+<td align="left">Nakh</td>
+<td align="left"><em>k’el</em> (ESS/LAT), <em>k’eləħ</em> (ESS),
+<em>k’elərə</em> (EL), <em>k’elxuʊlə</em> (TRLAT), <em>k’elħaː</em>
+(DIR)</td>
+<td align="left"><span class="citation">Aliroev (<a
+href="#ref-aliroev1999" role="doc-biblioref">1999</a>)</span>:
+79-80</td>
+</tr>
+</tbody>
+</table>
+<p>The examples in (3) below illustrate the use of different forms in
+sentences.</p>
+<ol start="3" class="example" style="list-style-type: decimal">
+<li>Hinuq (Tsezic) <span class="citation">(<a href="#ref-forker2013"
+role="doc-biblioref">Forker 2013</a>: 384)</span></li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>de</em>
+</td>
+<td style="text-align:left;">
+<em>č’agu</em>
+</td>
+<td style="text-align:left;">
+<em>goɬ</em>
+</td>
+<td style="text-align:left;">
+<em>q’ede,</em>
+</td>
+<td style="text-align:left;">
+<em><strong>de-de</strong></em>
+</td>
+<td style="text-align:left;">
+<em><strong>purho</strong>=no</em>
+</td>
+<td style="text-align:left;">
+<em>nox-no</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+I
+</td>
+<td style="text-align:left;">
+alive
+</td>
+<td style="text-align:left;">
+be
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">irr</span>
+</td>
+<td style="text-align:left;">
+I.<span class="smallcaps">obl</span>-<span class="smallcaps">aloc</span>
+</td>
+<td style="text-align:left;">
+next=and
+</td>
+<td style="text-align:left;">
+come-<span class="smallcaps">uw</span>.<span
+class="smallcaps">pst</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘If I were alive and you came next to me…’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>meži</em>
+</td>
+<td style="text-align:left;">
+<em>di-de</em>
+</td>
+<td style="text-align:left;">
+<em>purho-s</em>
+</td>
+<td style="text-align:left;">
+<em>b-uɬi-yom</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+you.<span class="smallcaps">pl</span>
+</td>
+<td style="text-align:left;">
+I.<span class="smallcaps">obl</span>-<span class="smallcaps">aloc</span>
+</td>
+<td style="text-align:left;">
+next-<span class="smallcaps">abl1</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">hpl</span>-go_out-<span
+class="smallcaps">proh</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Do not go away from me.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>In the examples above, the form of the postposition differs depending
+on the type of motion: towards the landmark, (3 a), or from it, as in (3
+b).</p>
+<p>Outside East Caucasian, something similar to inflection for
+directionality is found in Modern Eastern Armenian. For instance, the
+postposition <em>tak</em> ‘under’ has an ablative-marked
+(<em>takic’</em>) and an instrumental-marked form (<em>takov</em>),
+which are used in (but not restricted to) elative, (4 a), and
+translative contexts, respectively. However, the semantic contribution
+of these case suffixes when attached to adpositions is not as clear-cut
+as in East Caucasian: for instance, instrumental may also be used if
+motion does not have a clear direction or its direction is not
+important, cf. (4 b) <span class="citation">(<a
+href="#ref-dum-tragut2009" role="doc-biblioref">Dum-Tragut 2009</a>:
+304–305)</span>.</p>
+<ol start="4" class="example" style="list-style-type: decimal">
+<li>Armenian (Indo-European) <span class="citation">(<a
+href="#ref-dum-tragut2009" role="doc-biblioref">Dum-Tragut 2009</a>:
+306)</span></li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>erexa-n</em>
+</td>
+<td style="text-align:left;">
+<em><strong>seʁan-i</strong></em>
+</td>
+<td style="text-align:left;">
+<em><strong>tak-ic’</strong></em>
+</td>
+<td style="text-align:left;">
+<em>motec’-av</em>
+</td>
+<td style="text-align:left;">
+<em>morě</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+child.<span class="smallcaps">nom</span>-the
+</td>
+<td style="text-align:left;">
+table-<span class="smallcaps">dat</span>
+</td>
+<td style="text-align:left;">
+under-<span class="smallcaps">abl</span>
+</td>
+<td style="text-align:left;">
+approach-<span class="smallcaps">aor</span>.<span
+class="smallcaps">3sg</span>
+</td>
+<td style="text-align:left;">
+mother.<span class="smallcaps">dat</span>.the
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> (the starting point of the action is under the table, in the
+direction of the mother.)
+</td>
+</tr>
+</tfoot>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘The child approached the mother from under the table.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em><strong>getn-i</strong></em>
+</td>
+<td style="text-align:left;">
+<em><strong>tak-ov</strong></em>
+</td>
+<td style="text-align:left;">
+<em>mi</em>
+</td>
+<td style="text-align:left;">
+<em>mec</em>
+</td>
+<td style="text-align:left;">
+<em>get</em>
+</td>
+<td style="text-align:left;">
+<em>eː</em>
+</td>
+<td style="text-align:left;">
+<em>hos-um</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+ground-<span class="smallcaps">dat</span>
+</td>
+<td style="text-align:left;">
+under-<span class="smallcaps">ins</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">indef</span>
+</td>
+<td style="text-align:left;">
+big
+</td>
+<td style="text-align:left;">
+river.<span class="smallcaps">nom</span>
+</td>
+<td style="text-align:left;">
+it_is
+</td>
+<td style="text-align:left;">
+flow-<span class="smallcaps">ptcp</span>.<span
+class="smallcaps">prs</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> (there is no starting point and no direction given.)
+</td>
+</tr>
+</tfoot>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Under the ground a big river flows.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+</div>
+</div>
+<div id="agreement-morphology" class="section level2 hasAnchor"
+number="2.2">
+<h2 class="hasAnchor"><span class="header-section-number">2.2</span>
+Agreement morphology<a href="#agreement-morphology"
+class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Turning now to agreement morphemes on postpositions, we note first
+that it is attested in languages of all branches of East Caucasian,
+except for Nakh and Khinalug. Secondly, in every language that has it,
+it is not pervasive: it is always a minority of postpositions that
+agree. Agreement slots may be prefixal, suffixal or (rarely) infixal, as
+shown in (5), (6) and (7), respectively.</p>
+<ol start="5" class="example" style="list-style-type: decimal">
+<li>Godoberi (Andic) <span class="citation">(<a
+href="#ref-kibriketal1996" role="doc-biblioref">Kibrik, Tatevosov, and
+Eulenberg 1996</a>: 88)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>waša</em>
+</td>
+<td style="text-align:left;">
+<em>hamaχi-č’u</em>
+</td>
+<td style="text-align:left;">
+<em><strong>w-oχut’u</strong></em>
+</td>
+<td style="text-align:left;">
+<em>wu-na</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+boy
+</td>
+<td style="text-align:left;">
+donkey(<span class="smallcaps">n</span>)-<span
+class="smallcaps">cont</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">m</span>-after
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">m</span>-go.<span class="smallcaps">pst</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘The boy went after the donkey.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li>Avar <span class="citation">(<a href="#ref-rudnev2020"
+role="doc-biblioref">Rudnev 2020</a>: 833)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>školal-da</em>
+</td>
+<td style="text-align:left;">
+<em>ask’o-<strong>w</strong></em>
+</td>
+<td style="text-align:left;">
+<em>jasaɬ</em>
+</td>
+<td style="text-align:left;">
+<em>was</em>
+</td>
+<td style="text-align:left;">
+<em>w-uχana</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+school(<span class="smallcaps">n</span>).<span
+class="smallcaps">obl</span>-<span class="smallcaps">loc</span>
+</td>
+<td style="text-align:left;">
+near-<span class="smallcaps">m</span>
+</td>
+<td style="text-align:left;">
+girl(<span class="smallcaps">f</span>).<span
+class="smallcaps">erg</span>
+</td>
+<td style="text-align:left;">
+boy(<span class="smallcaps">m</span>).<span class="smallcaps">abs</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">m</span>-beat.<span class="smallcaps">pst</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘The girl beat the boy up near the school.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li>Archi (Lezgic) (Marina Chumakina, p.c.)
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; ">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>zari</em>
+</td>
+<td style="text-align:left;">
+<em>gǝzet</em>
+</td>
+<td style="text-align:left;">
+<em>o‹<strong>b</strong>›kɬni</em>
+</td>
+<td style="text-align:left;">
+<em>arχul-ma-k</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+I.<span class="smallcaps">erg</span>
+</td>
+<td style="text-align:left;">
+newspaper.<span class="smallcaps">sg</span>.<span
+class="smallcaps">abs</span>(<span class="smallcaps">iii</span>)
+</td>
+<td style="text-align:left;">
+read&lt;<span class="smallcaps">iii</span>.<span
+class="smallcaps">sg</span>&gt;.<span class="smallcaps">pf</span>
+</td>
+<td style="text-align:left;">
+the_middle-<span class="smallcaps">in</span>-<span
+class="smallcaps">lat</span>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>e‹b›q’en</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+up_to&lt;<span class="smallcaps">iii</span>.<span
+class="smallcaps">sg</span>&gt;
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘I read the newspaper up to the middle.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>In the examples above the postpositions bear a gender/number affix;
+one can see that its gender/number value corresponds to that of the
+absolutive argument. It is generally the case that agreeing
+postpositions in East Caucasian agree with the absolutive argument.
+However, agreement with their own complement is also marginally
+attested, at least for one Mehweb Dargwa postposition (8):</p>
+<ol start="8" class="example" style="list-style-type: decimal">
+<li>Mehweb Dargwa (Michael Daniel, p.c.)
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>heš</em>
+</td>
+<td style="text-align:left;">
+<em>šara=gʷa</em>
+</td>
+<td style="text-align:left;">
+<em><strong>ʁir-me-la</strong></em>
+</td>
+<td style="text-align:left;">
+<em><strong>d-ajcana-b</strong></em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+this
+</td>
+<td style="text-align:left;">
+lake(<span class="smallcaps">n</span>)=<span
+class="smallcaps">ptc</span>
+</td>
+<td style="text-align:left;">
+rock(<span class="smallcaps">n</span>)-<span
+class="smallcaps">pl</span>-<span class="smallcaps">gen</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">npl</span>-amidst-<span
+class="smallcaps">n</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘This lake is amidst rocks.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>A somewhat similar phenomenon is possessive markers on postpositions
+that are found in Turkic languages and colloquial Armenian. In Turkic,
+some postpositions have a possessive marker indicating the person of its
+dependent:</p>
+<ol start="9" class="example" style="list-style-type: decimal">
+<li>Azerbaijani <span class="citation">(<a
+href="#ref-shiralievsevortyan1971" role="doc-biblioref">Širaliev and
+Sevortjan 1971</a>: 301)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em><strong>qovluǧ-un</strong></em>
+</td>
+<td style="text-align:left;">
+<em><strong>ara-sı-n-dan</strong></em>
+</td>
+<td style="text-align:left;">
+<em>bir</em>
+</td>
+<td style="text-align:left;">
+<em>vərəqə</em>
+</td>
+<td style="text-align:left;">
+<em>çıx-ar-ıb</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+folder-<span class="smallcaps">gen</span>
+</td>
+<td style="text-align:left;">
+interval-<span class="smallcaps">3</span>.<span
+class="smallcaps">poss</span>-<span class="smallcaps">ep</span>-<span
+class="smallcaps">abl</span>
+</td>
+<td style="text-align:left;">
+one
+</td>
+<td style="text-align:left;">
+sheet
+</td>
+<td style="text-align:left;">
+go_out-<span class="smallcaps">caus</span>-<span
+class="smallcaps">ant</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘having put out one sheet from the folder…’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>In (9), the possessive marker on the postposition <em>arasından</em>
+corresponds to the person of its dependent (‘folder’). Note, however,
+that experts typically do not consider such lexemes as adpositions,
+attributing them to nouns (e.g., <span class="citation">Širaliev and
+Sevortjan (<a href="#ref-shiralievsevortyan1971"
+role="doc-biblioref">1971</a>)</span>: 165); our dataset, therefore,
+does not include them either. Adpositions that agree with the absolutive
+(or nominative, for that matter) are not attested in Turkic languages.
+In colloquial Armenian, the dependents of 1st and 2nd person can be
+expressed by possessive enclitics when used with some spatial
+postpositions, cf. (10 a) and (10 b).</p>
+<ol start="10" class="example" style="list-style-type: decimal">
+<li>Armenian <span class="citation">(<a href="#ref-dum-tragut2009"
+role="doc-biblioref">Dum-Tragut 2009</a>: 300)</span></li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em><strong>inj</strong></em>
+</td>
+<td style="text-align:left;">
+<em><strong>het</strong></em>
+</td>
+<td style="text-align:left;">
+<em>mišt</em>
+</td>
+<td style="text-align:left;">
+<em>hayeren</em>
+</td>
+<td style="text-align:left;">
+<em>eː</em>
+</td>
+<td style="text-align:left;">
+<em>xos-um</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+I.<span class="smallcaps">dat</span>
+</td>
+<td style="text-align:left;">
+with
+</td>
+<td style="text-align:left;">
+always
+</td>
+<td style="text-align:left;">
+Armenian
+</td>
+<td style="text-align:left;">
+he_is
+</td>
+<td style="text-align:left;">
+speak-<span class="smallcaps">ptcp</span>.<span
+class="smallcaps">prs</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> (standard Armenian)
+</td>
+</tr>
+</tfoot>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘He always speaks Armenian with me.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em><strong>het-s</strong></em>
+</td>
+<td style="text-align:left;">
+<em>mišt</em>
+</td>
+<td style="text-align:left;">
+<em>hayeren</em>
+</td>
+<td style="text-align:left;">
+<em>eː</em>
+</td>
+<td style="text-align:left;">
+<em>xos-um</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+with-my
+</td>
+<td style="text-align:left;">
+always
+</td>
+<td style="text-align:left;">
+Armenian
+</td>
+<td style="text-align:left;">
+he_is
+</td>
+<td style="text-align:left;">
+speak-<span class="smallcaps">ptcp</span>.<span
+class="smallcaps">prs</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> (colloquial Armenian)
+</td>
+</tr>
+</tfoot>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘He always speaks Armenian with me.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>However, it is problematic to postulate agreement in these examples,
+as the free pronoun in the dative or genitive case and the enclitic
+cannot co-occur. There is also no agreement with the absolutive
+(nominative) argument.</p>
+<p>For a more detailed discussion of agreeing adpositions, see chapter
+Agreement of adpositions with the nominative (in preparation).</p>
+</div>
+</div>
+<div id="syntactic-properties" class="section level1 hasAnchor"
+number="3">
+<h1 class="hasAnchor"><span class="header-section-number">3</span>
+Syntactic properties<a href="#syntactic-properties"
+class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="adnominal-vs.-independent-use" class="section level2 hasAnchor"
+number="3.1">
+<h2 class="hasAnchor"><span class="header-section-number">3.1</span>
+Adnominal vs. independent use<a href="#adnominal-vs.-independent-use"
+class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>A feature that is typical of East Caucasian postpositions is that the
+vast majority of them can be used both adnominally and independently,
+i.e. with a complement or without it, which is unusual from a
+cross-linguistic perspective.</p>
+<ol start="11" class="example" style="list-style-type: decimal">
+<li>Ingush (Nakh) <span class="citation">(<a href="#ref-nichols2011"
+role="doc-biblioref">Nichols 2011</a>: 405)</span></li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em><strong>t’exkaa</strong></em>
+</td>
+<td style="text-align:left;">
+<em><strong>chuhwanahw</strong></em>
+</td>
+<td style="text-align:left;">
+<em>t’um</em>
+</td>
+<td style="text-align:left;">
+<em>joall</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+bone.<span class="smallcaps">dat</span>
+</td>
+<td style="text-align:left;">
+inside
+</td>
+<td style="text-align:left;">
+marrow
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">ii</span>.be_contained.<span
+class="smallcaps">prs</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘There is marrow inside a bone/Inside of a bone is marrow.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>mashen</em>
+</td>
+<td style="text-align:left;">
+<em><strong>chuhwanahw</strong></em>
+</td>
+<td style="text-align:left;">
+<em>jy</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+car
+</td>
+<td style="text-align:left;">
+inside
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">ii</span>.be.<span class="smallcaps">prs</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘The car is inside.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>In (11 a), the Ingush postposition <em>chuhwanahw</em> ‘inside’ is
+used with a dependent noun (in the dative case), while in (11 b) it is
+used without any dependent and the sentence is still felicitous. The
+claim that such postpositions are more typical of East Caucasian
+languages than the strictly adnominal ones is supported by the following
+facts:</p>
+<ul>
+<li>There are East Caucasian languages that lack strictly adnominal
+postpositions, but there are no East Caucasian languages where all
+postpositions can be used only adnominally;</li>
+<li>Strictly adnominal postpositions often turn out to be borrowed
+lexemes.</li>
+</ul>
+<p>Independent uses of adpositions are also mentioned in the grammars of
+genealogically unrelated neighboring languages, see, for instance, (12)
+for the adnominal and independent uses of the Armenian postposition
+<em>durs</em> ‘out, outside’.</p>
+<ol start="12" class="example" style="list-style-type: decimal">
+<li>Armenian</li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; ">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>p’ap’ul</em>
+</td>
+<td style="text-align:left;">
+<em>pap-n</em>
+</td>
+<td style="text-align:left;">
+<em>as-um</em>
+</td>
+<td style="text-align:left;">
+<em>eː</em>
+</td>
+<td style="text-align:left;">
+<em>or</em>
+</td>
+<td style="text-align:left;">
+<em>girk’-e</em>
+</td>
+<td style="text-align:left;">
+<em>erbek’</em>
+</td>
+<td style="text-align:left;">
+<em><strong>tn-ic’</strong></em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+P’ap’ul
+</td>
+<td style="text-align:left;">
+grandpa.<span class="smallcaps">nom</span>-the
+</td>
+<td style="text-align:left;">
+say-<span class="smallcaps">ptcp</span>.<span
+class="smallcaps">prs</span>
+</td>
+<td style="text-align:left;">
+he_is
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">conj</span>
+</td>
+<td style="text-align:left;">
+book.<span class="smallcaps">nom</span>-the
+</td>
+<td style="text-align:left;">
+never
+</td>
+<td style="text-align:left;">
+house-<span class="smallcaps">abl</span>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em><strong>durs</strong></em>
+</td>
+<td style="text-align:left;">
+<em>č’-i</em>
+</td>
+<td style="text-align:left;">
+<em>han-el</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+out
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">neg</span>-he_is
+</td>
+<td style="text-align:left;">
+take-<span class="smallcaps">ptcp</span>.<span
+class="smallcaps">pf</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘P’ap’ul’s grandpa says that he has never taken this book
+out of the house.’
+</td>
+</tr>
+</tfoot>
+</table>
+<span class="citation">(<a href="#ref-dum-tragut2009"
+role="doc-biblioref">Dum-Tragut 2009</a>: 531)</span></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; ">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>ov</em>
+</td>
+<td style="text-align:left;">
+<em>č’-i</em>
+</td>
+<td style="text-align:left;">
+<em>irakana-c’n-i</em>
+</td>
+<td style="text-align:left;">
+<em>petut’y-an</em>
+</td>
+<td style="text-align:left;">
+<em>cragir-e</em>
+</td>
+<td style="text-align:left;">
+<em>na</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+who
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">neg</span>-he_is
+</td>
+<td style="text-align:left;">
+fulfill-<span class="smallcaps">caus</span>-<span
+class="smallcaps">cond</span>.<span class="smallcaps">fut</span>.<span
+class="smallcaps">3sg</span>
+</td>
+<td style="text-align:left;">
+state-<span class="smallcaps">dat</span>
+</td>
+<td style="text-align:left;">
+program.<span class="smallcaps">nom</span>-the
+</td>
+<td style="text-align:left;">
+he.<span class="smallcaps">nom</span>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em><strong>durs</strong></em>
+</td>
+<td style="text-align:left;">
+<em>kmn-a</em>
+</td>
+<td style="text-align:left;">
+<em>ayd</em>
+</td>
+<td style="text-align:left;">
+<em>gorčent’ac’-ic’</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+outside
+</td>
+<td style="text-align:left;">
+stay-<span class="smallcaps">cond</span>.<span
+class="smallcaps">fut</span>.<span class="smallcaps">3sg</span>
+</td>
+<td style="text-align:left;">
+that
+</td>
+<td style="text-align:left;">
+process-<span class="smallcaps">abl</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Who does not fulfill the state’s program, will remain
+outside of that process.’
+</td>
+</tr>
+</tfoot>
+</table>
+<span class="citation">(<a href="#ref-dum-tragut2009"
+role="doc-biblioref">Dum-Tragut 2009</a>: 318)</span></li>
+</ol>
+<p>However, in these languages they do not seem to be as pervasive as in
+East Caucasian. More details on the proportion of adpositions that allow
+independent (adverbial) use can be found in a dedicated chapter and map
+(in preparation).</p>
+</div>
+<div id="case-assignment" class="section level2 hasAnchor" number="3.2">
+<h2 class="hasAnchor"><span class="header-section-number">3.2</span>
+Case assignment<a href="#case-assignment" class="anchor-section"
+aria-label="Anchor link to header"></a></h2>
+<p>The set of cases that are assigned by postpositions even within one
+East Caucasian language is pretty large and includes both syntactic
+(abstract) cases and spatial cases<a href="#fn2" class="footnote-ref"
+id="fnref2"><sup>2</sup></a>. This may be illustrated by the case
+assignment properties of semantically similar postpositions from
+languages of different branches of East Caucasian.</p>
+<ol start="13" class="example" style="list-style-type: decimal">
+<li>Chechen (Nakh) <span class="citation">(<a href="#ref-jakovlev1940"
+role="doc-biblioref">Jakovlev 1940</a>: 143)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em><strong>gɔʊr-a-na</strong></em>
+</td>
+<td style="text-align:left;">
+<em>/</em>
+</td>
+<td style="text-align:left;">
+<em><strong>gɔʊr</strong></em>
+</td>
+<td style="text-align:left;">
+<em><strong>t’e</strong></em>
+</td>
+<td style="text-align:left;">
+<em>ʡyrre</em>
+</td>
+<td style="text-align:left;">
+<em>so</em>
+</td>
+<td style="text-align:left;">
+<em>xiːrə</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+horse-<span class="smallcaps">obl</span>-<span
+class="smallcaps">dat</span>
+</td>
+<td style="text-align:left;">
+/
+</td>
+<td style="text-align:left;">
+horse.<span class="smallcaps">abs</span>
+</td>
+<td style="text-align:left;">
+on
+</td>
+<td style="text-align:left;">
+in_the_morning
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">i</span>
+</td>
+<td style="text-align:left;">
+sit
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘I sat on a horse in the morning.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li>Bagvalal (Andic) <span class="citation">(<a
+href="#ref-sosenskaja2001pp" role="doc-biblioref">Sosenskaja 2001</a>:
+406)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>hinc’-ib-a-ɬa</em>
+</td>
+<td style="text-align:left;">
+<em>č’ihi</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+stone-<span class="smallcaps">pl</span>-<span
+class="smallcaps">obl</span>.<span class="smallcaps">pl</span>-<span
+class="smallcaps">sup</span>
+</td>
+<td style="text-align:left;">
+on
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘on stones’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li>Tsakhur (Lezgic) <span class="citation">(<a
+href="#ref-sosenskaja1999post" role="doc-biblioref">Sosenskaja 1999</a>:
+127)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; ">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>sa</em>
+</td>
+<td style="text-align:left;">
+<em>jiʁ-ɨ-lʲ</em>
+</td>
+<td style="text-align:left;">
+<em>ǯamaʔaIt-ɨ-k’le</em>
+</td>
+<td style="text-align:left;">
+<em><strong>χāI-ni</strong></em>
+</td>
+<td style="text-align:left;">
+<em><strong>aq’ʷalʲ</strong></em>
+</td>
+<td style="text-align:left;">
+<em>c’e=t=ta</em>
+</td>
+<td style="text-align:left;">
+<em>wertalʲot</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+one
+</td>
+<td style="text-align:left;">
+day-<span class="smallcaps">obl</span>-<span
+class="smallcaps">sup</span>
+</td>
+<td style="text-align:left;">
+people-<span class="smallcaps">obl</span>-<span
+class="smallcaps">aff</span>
+</td>
+<td style="text-align:left;">
+sky-<span class="smallcaps">obl</span>
+</td>
+<td style="text-align:left;">
+on
+</td>
+<td style="text-align:left;">
+first=<span class="smallcaps">iv</span>=<span
+class="smallcaps">adv</span>.<span class="smallcaps">iv</span>
+</td>
+<td style="text-align:left;">
+helicopter.<span class="smallcaps">iv</span>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>ɢaǯe</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps">iv</span>.see.<span class="smallcaps">pf</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Once the people saw a helicopter in the sky for the first
+time.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>There is no clear correlation between the postposition’s meaning
+(spatial or not) and the type of case it assigns (spatial or not): there
+are abstract postpositions that assign spatial cases and spatial
+postpositions requiring an abstract case, as can be seen from the
+examples below.</p>
+<ol start="16" class="example" style="list-style-type: decimal">
+<li>Hinuq <span class="citation">(<a href="#ref-forker2013"
+role="doc-biblioref">Forker 2013</a>: 390)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>xabar-ƛ’o</em>
+</td>
+<td style="text-align:left;">
+<em>req’un</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+story-<span class="smallcaps">sup</span>
+</td>
+<td style="text-align:left;">
+accordingly
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘in accordance with the story’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li>Lezgian <span class="citation">(<a href="#ref-haspelmath1993"
+role="doc-biblioref">Haspelmath 1993</a>: 221)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>čarx-ari-n</em>
+</td>
+<td style="text-align:left;">
+<em>arada</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+rock-<span class="smallcaps">pl</span>-<span
+class="smallcaps">gen</span>
+</td>
+<td style="text-align:left;">
+between
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘between the rocks’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>Some postpositions assign several cases which may or may not bring
+about interpretational differences (18 a, b).</p>
+<ol start="18" class="example" style="list-style-type: decimal">
+<li>Sanzhi Dargwa <span class="citation">(<a
+href="#ref-forker2020dargwa" role="doc-biblioref">Forker 2020</a>:
+156)</span></li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>nuša</em>
+</td>
+<td style="text-align:left;">
+<em>šːi-la</em>
+</td>
+<td style="text-align:left;">
+<em>tːura</em>
+</td>
+<td style="text-align:left;">
+<em>ag-ur-da</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+we
+</td>
+<td style="text-align:left;">
+village-<span class="smallcaps">gen</span>
+</td>
+<td style="text-align:left;">
+outside
+</td>
+<td style="text-align:left;">
+go.<span class="smallcaps">pfv</span>-<span
+class="smallcaps">pret</span>-<span class="smallcaps">i</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘We went out of the village.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>Rasul-la</em>
+</td>
+<td style="text-align:left;">
+<em>/</em>
+</td>
+<td style="text-align:left;">
+<em>Rasul-le-rka</em>
+</td>
+<td style="text-align:left;">
+<em>tːura</em>
+</td>
+<td style="text-align:left;">
+<em>cara=ra</em>
+</td>
+<td style="text-align:left;">
+<em>sa-č-ib-da</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Rasul-<span class="smallcaps">gen</span>
+</td>
+<td style="text-align:left;">
+/
+</td>
+<td style="text-align:left;">
+Rasul-<span class="smallcaps">loc</span>-<span
+class="smallcaps">el</span>
+</td>
+<td style="text-align:left;">
+outside
+</td>
+<td style="text-align:left;">
+other=<span class="smallcaps">add</span>
+</td>
+<td style="text-align:left;">
+hither-lead.<span class="smallcaps">pfv</span>-<span
+class="smallcaps">pret</span>-<span class="smallcaps">i</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Apart from Rasul I also brought another one.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>In example (18), the postposition <em>tːura</em> ‘outside’ in its
+spatial sense is only compatible with a genitive dependent. However, in
+its abstract sense ‘apart from, except for’, the postposition has
+different properties: it can assign both genitive and locelative case to
+its dependent; the two options are not perceivably different in terms of
+meaning.</p>
+<p>Note that several adposition-like elements (typically with the
+meaning similar to ‘except’, ‘like’, ‘than’) in a number of languages in
+our sample require a nominal dependent, but the form of the dependent is
+determined by that of its contextual correlate (19).</p>
+<ol start="19" class="example" style="list-style-type: decimal">
+<li>Tsez <span class="citation">(<a href="#ref-polinskydraft2015"
+role="doc-biblioref">Polinsky 2015</a>: 177)</span></li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>eli</em>
+</td>
+<td style="text-align:left;">
+<em>mariyat-<strong>qo-r</strong></em>
+</td>
+<td style="text-align:left;">
+<em>ƛexuzaƛ’or</em>
+</td>
+<td style="text-align:left;">
+<em>c’alduqan-za-qo-r</em>
+</td>
+<td style="text-align:left;">
+<em>xabaryay-nč’i</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+we
+</td>
+<td style="text-align:left;">
+Mariyat-<span
+class="smallcaps"><strong>poss</span>-<span style="font-variant:small-caps;">lat</strong></span>
+</td>
+<td style="text-align:left;">
+except
+</td>
+<td style="text-align:left;">
+student-<span class="smallcaps">obl</span>.<span
+class="smallcaps">pl</span>-<span class="smallcaps">poss</span>-<span
+class="smallcaps">lat</span>
+</td>
+<td style="text-align:left;">
+talk-<span class="smallcaps">pst</span>.<span
+class="smallcaps">w</span>.<span class="smallcaps">neg</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘We did not talk to the students except Mariyat.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>eli</em>
+</td>
+<td style="text-align:left;">
+<em>ɣudes</em>
+</td>
+<td style="text-align:left;">
+<em>ħalt’-o-ɬ-xor</em>
+</td>
+<td style="text-align:left;">
+<em>b-ik’i-x</em>
+</td>
+<td style="text-align:left;">
+<em>ħat’an-<strong>ƛ’o</strong></em>
+</td>
+<td style="text-align:left;">
+<em>ƛexuzaƛ’or</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+we
+</td>
+<td style="text-align:left;">
+daily
+</td>
+<td style="text-align:left;">
+work-<span class="smallcaps">obl</span>-<span
+class="smallcaps">cont</span>-<span class="smallcaps">lat</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">i</span>.<span
+class="smallcaps">pl</span>-go-<span class="smallcaps">prs</span>
+</td>
+<td style="text-align:left;">
+Sunday-<span
+class="smallcaps"><strong>sup</span>.<span style="font-variant:small-caps;">ess</strong></span>
+</td>
+<td style="text-align:left;">
+except
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘We go to work every day except Sunday.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>In example (19), the lexeme <em>ƛexuzaƛ’or</em> ‘except’ is used with
+a noun in the possessive-lative form in (a) and in the superessive form
+in (b). In (19 a), the form of the noun Mariyat is the same as of its
+correlate <em>c’alduqanzaqor</em> ‘students’. In (19 b), the case of
+noun <em>ħat’anƛ’o</em> ‘Sunday’ is superessive, which is used to mark
+temporal adjuncts in any context (with or without ‘except’). We treat
+lexemes like these as not assigning any case.</p>
+<p>Also, in Hunzib several (related) postpositions admit both comitative
+and dative (coinciding with inessive) dependents; the former combination
+brings about the meaning of motion along a landmark and the
+latter—through a landmark, as illustrated in (20).</p>
+<ol start="20" class="example" style="list-style-type: decimal">
+<li>Hunzib <span class="citation">(<a href="#ref-vandenberg1995"
+role="doc-biblioref">Berg 1995</a>: 166)</span></li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>xõx-ǧur</em>
+</td>
+<td style="text-align:left;">
+<em>rišo/gišo/tišo</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+tree-<span class="smallcaps">com</span>
+</td>
+<td style="text-align:left;">
+upwards/downwards/horizontal_direction
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘(upwards/downwards) along the tree’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>xõx-i-i</em>
+</td>
+<td style="text-align:left;">
+<em>rišo/gišo/tišo</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+tree-<span class="smallcaps">obl</span>-<span
+class="smallcaps">dat</span>
+</td>
+<td style="text-align:left;">
+upwards/downwards/horizontal_direction
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘(upwards/downwards) through (inside) the tree’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>In addition, different case forms might be required for nominal
+vs. pronominal dependents.</p>
+<ol start="21" class="example" style="list-style-type: decimal">
+<li>Ingush <span class="citation">(<a href="#ref-nichols2011"
+role="doc-biblioref">Nichols 2011</a>: 402)</span></li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>ħa</em>
+</td>
+<td style="text-align:left;">
+<em><strong>c’en</strong></em>
+</td>
+<td style="text-align:left;">
+<em><strong>t’eħa</strong></em>
+</td>
+<td style="text-align:left;">
+<em>berkat=ʔa</em>
+</td>
+<td style="text-align:left;">
+<em>xurgdaːc</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+you.<span class="smallcaps">sg</span>.<span class="smallcaps">gen</span>
+</td>
+<td style="text-align:left;">
+house.<span class="smallcaps">gen</span>
+</td>
+<td style="text-align:left;">
+after
+</td>
+<td style="text-align:left;">
+abundance=and
+</td>
+<td style="text-align:left;">
+be.<span class="smallcaps">fut</span>.<span
+class="smallcaps">iv</span>.<span class="smallcaps">neg</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘There will be no abundance in your house.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>so</em>
+</td>
+<td style="text-align:left;">
+<em>čy-iːqːaːča</em>
+</td>
+<td style="text-align:left;">
+<em>legjolaž</em>
+</td>
+<td style="text-align:left;">
+<em>jar</em>
+</td>
+<td style="text-align:left;">
+<em>yz</em>
+</td>
+<td style="text-align:left;">
+<em><strong>suːona</strong></em>
+</td>
+<td style="text-align:left;">
+<em><strong>t’eħa</strong></em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+I
+</td>
+<td style="text-align:left;">
+in-jump.<span class="smallcaps">ptcp</span>.<span
+class="smallcaps">obl</span>
+</td>
+<td style="text-align:left;">
+die.<span class="smallcaps">fut</span>.<span
+class="smallcaps">ii</span>.<span class="smallcaps">sim</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">ii</span>.be.<span class="smallcaps">pst</span>
+</td>
+<td style="text-align:left;">
+she
+</td>
+<td style="text-align:left;">
+I.<span class="smallcaps">dat</span>
+</td>
+<td style="text-align:left;">
+after
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘She was eager (‘dying’) to go anywhere I went (‘jumped,
+rushed’).’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>In (21), the same postposition <em>t’eħa</em> ‘after’ requires the
+genitive on its dependent nouns and the dative on its dependent
+pronouns. A similar, though more systematic, phenomenon is attested in
+Mehweb: while postpositions can govern various forms of nouns (dative,
+genitive, comitative, absolutive), all pronominal dependents of
+postpositions take the dative case form <span class="citation">(<a
+href="#ref-magometov1982" role="doc-biblioref">Magometov 1982</a>:
+127)</span>. Outside East Caucasian, this distinction is observed in
+Armenian: an adposition may require nominative case on nominal
+dependents and dative case on pronominal ones (for instance, the
+prepositions <em>depi</em> ‘towards’ and <em>minč’ew</em> ‘until’ are
+like this). In addition, a very significant fraction of adpositions
+require dative-marked nominals and genitive pronominals. However, Modern
+Eastern Armenian simply does not distinguish between dative and genitive
+case in nominal forms—this distinction only persists in the pronominal
+paradigm <span class="citation">(<a href="#ref-dum-tragut2009"
+role="doc-biblioref">Dum-Tragut 2009</a>: 125)</span>, so for the
+purposes of this study we consider these adpositions to be genitive case
+assigners. Unambiguously dative adpositional dependents are restricted
+to 1st and 2nd person pronouns in non-colloquial registers and as such
+may be treated as exceptions.</p>
+<p>The final point that we would like to make is that many East
+Caucasian languages have a dominant postpositional case. By dominant
+case we mean the case that is assigned to postpositional dependents
+significantly more often than other cases governed by postpositions in a
+language. For example, Botlikh (&lt;Andic) postpositions govern
+contessive (8 postpositions) and dative (2 postpositions). We conclude
+that the dominant postpositional case in Botlikh is contessive. A
+dominant case may be instantiated by an abstract case (such as genitive
+or dative) or by a spatial case (e.g., contessive). According to the
+data we have collected, we can assume some case to be the dominant one
+in most East Caucasian languages, with some exceptions. Several
+neighboring languages outside the family also have dominant adpositional
+cases (genitive in Georgian and Armenian, and unmarked (nominative) in
+Azerbaijani and Tat). Dominant adpositional case is discussed in greater
+detail in a <a
+href="http://lingconlab.ru/dagatlas/030_dominant_adpositional_case.html">dedicated
+chapter</a>.</p>
+</div>
+</div>
+<div id="list-of-glosses" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">List of glosses<a
+href="#list-of-glosses" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p><span class="smallcaps">3</span> — third person; <span
+class="smallcaps">3sg</span> — third person singular; <span
+class="smallcaps">abl</span> — ablative; <span class="smallcaps"><span
+style="background-color:#00d5ff;">abl1</span></span> — ; <span
+class="smallcaps">abs</span> — absolutive; <span
+class="smallcaps">add</span> — additive; <span
+class="smallcaps">adv</span> — adverb; <span
+class="smallcaps">aff</span> — affective; <span
+class="smallcaps">aloc</span> — animate location; <span
+class="smallcaps">ant</span> — anterior converb; <span
+class="smallcaps">aor</span> — aorist; <span
+class="smallcaps">caus</span> — causative; <span
+class="smallcaps">com</span> — comitative; <span
+class="smallcaps">cond</span> — conditional; <span
+class="smallcaps">conj</span> — conjunction; <span
+class="smallcaps">cont</span> — contessive; <span
+class="smallcaps">dat</span> — dative; <span
+class="smallcaps">el</span> — elative; <span
+class="smallcaps">ep</span> — epenthetic; <span
+class="smallcaps">erg</span> — ergative; <span
+class="smallcaps">ess</span> — essive; <span
+class="smallcaps">f</span> — feminine; <span
+class="smallcaps">fut</span> — future; <span
+class="smallcaps">gen</span> — genitive; <span
+class="smallcaps">hpl</span> — human plural; <span
+class="smallcaps">i</span> — class I; <span
+class="smallcaps">ii</span> — class II; <span
+class="smallcaps">iii</span> — class III; <span
+class="smallcaps">in</span> — inessive; <span
+class="smallcaps">indef</span> — indefinite; <span
+class="smallcaps">ins</span> — instrumental; <span
+class="smallcaps">irr</span> — irrealis; <span
+class="smallcaps">iv</span> — class IV; <span
+class="smallcaps">lat</span> — lative; <span
+class="smallcaps">loc</span> — locative; <span
+class="smallcaps">m</span> — masculine; <span
+class="smallcaps">n</span> — neuter; <span
+class="smallcaps">neg</span> — negation; <span
+class="smallcaps">nom</span> — nominative; <span
+class="smallcaps">npl</span> — non-human plural; <span
+class="smallcaps">obl</span> — oblique; <span
+class="smallcaps">pf</span> — perfect; <span
+class="smallcaps">pfv</span> — perfective; <span
+class="smallcaps">pl</span> — plural; <span
+class="smallcaps">poss</span> — possessive; <span
+class="smallcaps">pret</span> — preterite; <span
+class="smallcaps">proh</span> — prohibitive; <span
+class="smallcaps">prs</span> — present; <span
+class="smallcaps">pst</span> — past; <span
+class="smallcaps">ptc</span> — particle; <span
+class="smallcaps">ptcp</span> — participle; <span
+class="smallcaps">rel</span> — relative; <span
+class="smallcaps">sg</span> — singular; <span
+class="smallcaps">sim</span> — simultaneous; <span
+class="smallcaps">sup</span> — superessive; <span
+class="smallcaps">uw</span> — unwitnessed; <span
+class="smallcaps">w</span> — witnessed</p>
+</div>
+<div id="references" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">References<a href="#references"
+class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="refs" class="references csl-bib-body hanging-indent">
+<div id="ref-aliroev1999" class="csl-entry">
+Aliroev, Ibragim Ju. 1999. <em>Čečenskij Jazyk (<span>T</span>he
+<span>C</span>hechen Language)</em>. Moskva: Academia.
+</div>
+<div id="ref-authier2012" class="csl-entry">
+Authier, Gilles. 2012. <em>Grammaire Juhuri, Ou Judéo-Tat, Langue
+Iranienne Des <span>J</span>uifs Du <span>C</span>aucase de l’est</em>.
+Wiesbaden: Dr. Ludwig Reichert Verlag Wiesbaden.
+</div>
+<div id="ref-vandenberg1995" class="csl-entry">
+Berg, Helma van den. 1995. <em>A Grammar of <span>H</span>unzib</em>.
+Munich: Lincom.
+</div>
+<div id="ref-dum-tragut2009" class="csl-entry">
+Dum-Tragut, Jasmine. 2009. <em>Armenian</em>. Amsterdam/Philadelphia:
+John Benjamins.
+</div>
+<div id="ref-forker2013" class="csl-entry">
+Forker, Diana. 2013. <em>A Grammar of <span>H</span>inuq</em>.
+Berlin/Boston: De Gruyter Mouton.
+</div>
+<div id="ref-forker2020dargwa" class="csl-entry">
+———. 2020. <em>A Grammar of <span>S</span>anzhi
+<span>D</span>argwa</em>. Berlin: Language Science Press. <a
+href="https://langsci-press.org/catalog/book/250">https://langsci-press.org/catalog/book/250</a>.
+</div>
+<div id="ref-hagege2010" class="csl-entry">
+Hagège, Claude. 2010. <em>Adpositions</em>. Oxford: Oxford University
+Press.
+</div>
+<div id="ref-haspelmath1993" class="csl-entry">
+Haspelmath, Martin. 1993. <em>A Grammar of <span>L</span>ezgian</em>.
+Berlin/New York: Mouton de Gruyter.
+</div>
+<div id="ref-jakovlev1940" class="csl-entry">
+Jakovlev, Nikolaj F. 1940. <em>Sintaksis Čečenskogo Literaturnogo Jazyka
+(<span>S</span>yntax of <span>S</span>tandard
+<span>C</span>hechen)</em>. Moskva/Leningrad: Izdatelʹstvo Akademii Nauk
+SSSR.
+</div>
+<div id="ref-kibriketal1996" class="csl-entry">
+Kibrik, Alexandr, Sergej Tatevosov, and Alexander Eulenberg. 1996.
+<em>Godoberi</em>. Munich/Newcastle: Lincom Europa.
+</div>
+<div id="ref-magometov1982" class="csl-entry">
+Magometov, Aleksandr A. 1982. <em>Megebskij Dialekt Darginskogo Jazyka:
+Issledovanie i Teksty (<span>M</span>ehweb Dialect of
+<span>D</span>argwa: Research and Texts)</em>. Tbilisi: Mecniereba.
+</div>
+<div id="ref-nichols2011" class="csl-entry">
+Nichols, Johanna. 2011. <em>Ingush Grammar</em>. Berkeley/Los Angeles:
+University of California Press.
+</div>
+<div id="ref-polinskydraft2015" class="csl-entry">
+Polinsky, Maria. 2015. <span>“Tsez <span>S</span>yntax: <span>A</span>
+<span>D</span>escription.”</span>
+</div>
+<div id="ref-rudnev2020" class="csl-entry">
+Rudnev, Pavel. 2020. <span>“Agreeing Adpositions in <span>A</span>var
+and the Directionality-of-Valuation Debate.”</span> <em>Linguistic
+Inquiry</em> 51 (4): 829–44.
+</div>
+<div id="ref-shiralievsevortyan1971" class="csl-entry">
+Širaliev, Mamedaga Š., and Érvand V. Sevortjan. 1971. <em>Grammatika
+Azerbajdžanskogo Jazyka (Fonetika, Morfologija, Sintaksis)
+(<span>A</span>zerbaijani Grammar (Phonetics, Morphology, Syntax))</em>.
+Baku: Élm.
+</div>
+<div id="ref-sosenskaja1999post" class="csl-entry">
+Sosenskaja, Tatʹjana B. 1999. <span>“Poslelog
+(<span>P</span>ostposition).”</span> In <em>Élementy Caxurskogo Jazyka v
+Tipologičeskom Osveščenii (Elements of the Tsakhur Language in a
+Typological Perspective)</em>, edited by Aleksandr E. Kibrik and Sergej
+G. Tatevosov, 121–29. Moskva: Nasledie.
+</div>
+<div id="ref-sosenskaja2001pp" class="csl-entry">
+———. 2001. <span>“Posleložnaja Gruppa (<span>P</span>ostpositional
+Phrase).”</span> In <em>Bagvalinskij Jazyk. Grammatika, Teksty, Slovari.
+(The Bagvalal Language. Grammar, Texts, Dictionaries)</em>, edited by
+Aleksandr E. Kibrik, Ekaterina A. Ljutikova, and Sergej G. Tatevosov,
+405–7. Moskva: Nasledie.
+</div>
+</div>
+</div>
+<div class="footnotes footnotes-end-of-document">
+<hr />
+<ol>
+<li id="fn1"><p>A simple search for lexemes tagged as prepositions and
+postpositions yields 605,776 and 2,862,460 results, respectively.<a
+href="#fnref1" class="footnote-back">↩︎</a></p></li>
+<li id="fn2"><p>It is arguable whether spatial forms of nouns in East
+Caucasian can be called case forms, but for brevity we will use the term
+spatial cases to refer to them.<a href="#fnref2"
+class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+</head>
+
+<body>
+    <div class="footer-basic">
+        <footer>
+            
+            <div class='lic'><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br /><i>Typological Atlas of the languages of Daghestan </i> (<i>TALD</i>) is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+            <div class="social"><a href="https://github.com/LingConLab/TALD" target="_blank"><span class="iconify" data-icon="octicon:logo-github-16"></span></a></div>
+            </div>
+            
+            <p class="copyright">2020<script>new Date().getFullYear()>2020&&document.write("-"+new Date().getFullYear());</script>,  Linguistic Convergence Laboratory, HSE University</p>
+        </footer>
+    </div>
+    <script type="text/javascript" src="./js/links.js"></script> <!--это чтобы ссылки открывались в новом окне -->
+</body>
+
+</html>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
