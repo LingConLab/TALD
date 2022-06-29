@@ -3,6 +3,7 @@ title: Adverbial caritive markers
 author: Anastasia Panova
 date: 'Last update: May 2022'
 bibliography: ./data/orig_bib/caritive_adv.bib
+csl: apa.csl
 link-citations: true
 output:
   html_document:

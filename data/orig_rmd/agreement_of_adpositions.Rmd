@@ -149,11 +149,11 @@ They are mapped on [Map 1](http://lingconlab.ru/dagatlas/031_agreement_of_adposi
 
 In Dargwa languages, agreement of postpositions with the absolutive/nominative is very productive, likely due to the fact that class agreement markers are part of the spatial inflection system in these languages, specifically, they are used to signal essive. In other branches (Tsezic, Andic) only a small number of postpositions (cognate within each branch) have agreement morphology, indicating that in these languages this type of agreement is not productive and likely inherited. Avar could be characterized as an intermediate case between Dargwa and Tsezic/Andic: postpositions derived from nouns have a suffixal agreement marker in the essive form (similarly to nouns), whereas other postpositions do not have it. Lak adpositions only have agreement when taking the lative form (built on the gender marker and an orientation morpheme), while their essive forms, built just on the gender marker no longer inflect; the same pattern is observed for Lak nouns in the spatial cases. Thus, the situation in Lak is somewhat similar to that found in Dargwa and Avar, yet it is more complicated.   
 
-Additionally, Figure 1 maps which positions of the agreement slot are found on adpositions of a given language.
+Additionally, [Figure 1](#f1) maps which positions of the agreement slot are found on adpositions of a given language.
 
-#### **Figure 1.** Possible positions of agreement slots on adpositions, by language
+#### **Figure 1.** Possible positions of agreement slots on adpositions, by language {#f1 -}
 
-```{r}
+```{r, fig.width = 9.5}
 language <- c('Kubachi', 'North-Central Dargwa', 'Southwestern Dargwa', 'Lak', 'Avar', 'Andi', 'Godoberi', 'Tindi', 'Bagvalal', 'Chamalal', 'Botlikh', 'Tsakhur', 'Archi', 'Khwarshi-Inkhoqwari', 'Bezhta', 'Hunzib', 'Tsez', 'Hinuq')
 prefix <- c(0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1)
 suffix <- c(1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0)

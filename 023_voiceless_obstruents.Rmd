@@ -3,6 +3,7 @@ title: Voiceless obstruents
 author: George Moroz
 date: 'Last update: November 2021'
 bibliography: ./data/orig_bib/voiceless_obstruents.bib
+csl: apa.csl
 link-citations: true
 output:
   html_document:

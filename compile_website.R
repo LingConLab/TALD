@@ -413,7 +413,8 @@ map(seq_along(rmd_filenames), function(i){
     ymlthis::yml_citations(bibliography = paste0("./data/orig_bib/", 
                                                  str_remove(features$filename[i], "_map"), 
                                                  ".bib"), 
-                           link_citations = TRUE) %>% 
+                           link_citations = TRUE, 
+                           csl = "apa.csl") %>% 
     ymlthis::yml_output(html_document(number_sections = TRUE,
                                       anchor_sections = TRUE,
                                       pandoc_args = "--shift-heading-level-by=-1")) %>% 

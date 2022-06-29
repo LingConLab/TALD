@@ -3,6 +3,7 @@ title: Dominant adpositional case (Maps & Data)
 author: Polina Nasledskova, Tatiana Philippova
 date: 'Last update: May 2022'
 bibliography: ./data/orig_bib/dominant_adpositional_case.bib
+csl: apa.csl
 link-citations: true
 output:
   html_document:
