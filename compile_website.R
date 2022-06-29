@@ -143,7 +143,7 @@ library(RefManageR)
 
 ## {-}
 
-Visualization 1 (**Extrapolated data**) and 3 (**General datapoints**) are both based on the principle 'one value – one language'. Visualization 2 (**Data granularity**) takes into account dialect levels. On the **Data granularity** maps you can see the village and the data type (village data, general language data, etc.) when you click on a dot. Hover over or click on a dot to see the language. By unticking the box “show languages” you can remove the inner dots and visualize the distribution of different values in the area without the distraction of genealogical information.
+Visualization 1 (**General datapoints**) and 3 (**Extrapolated data**) are both based on the principle 'one value – one language'. Visualization 2 (**Data granularity**) takes into account dialect levels. On the **Data granularity** maps you can see the village and the data type (village data, general language data, etc.) when you click on a dot. Hover over or click on a dot to see the language. By unticking the box “show languages” you can remove the inner dots and visualize the distribution of different values in the area without the distraction of genealogical information.
 
 ```{r}
 ",
@@ -151,7 +151,6 @@ str_c('feature_dataset <- read_tsv("../orig_table/',
       str_remove(str_remove(i, "_map.Rmd"), "\\d{1,}_"),
       '.tsv")'),
 "
-
 feature_dataset %>% 
   filter(map == 'yes') ->
   feature_dataset_4map
@@ -242,6 +241,9 @@ map.feature(all_genpoints$lang4map,
     multiple_values$values[i],
     "_name[1],
             color = 'magma',
+            stroke.features = 'a',
+            stroke.color = 'black',
+            stroke.radius = 1,
             tile = 'Stamen.TonerLite',
             legend = TRUE,
             legend.position = 'bottomleft', 
@@ -269,6 +271,9 @@ map.feature(alldata_clean$lang4map,
     multiple_values$values[i],
     "),
             color = 'magma',
+            stroke.features = 'a',
+            stroke.color = 'black',
+            stroke.radius = 1,
             tile = 'Stamen.TonerLite',
             title = alldata_clean$value",
     multiple_values$values[i],
@@ -306,6 +311,9 @@ map.feature(alldata_clean$lang4map,
     multiple_values$values[i],    
     "),
             color = 'magma',
+            stroke.features = 'a',
+            stroke.color = 'black',
+            stroke.radius = 1,
             tile = 'Stamen.TonerLite',
             title = alldata_clean$value",
     multiple_values$values[i],
