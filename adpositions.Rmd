@@ -93,7 +93,7 @@ Directionality markers signal the direction or absence of motion of the trajecto
 
 #### **Table 1.** Directional forms of postpositions synonymous to ‘under’ across the branches of East Caucasian {#t1 -}
 
-| language | branch | directional forms | source |
+| Language | Branch | Directional forms | Source |
 |:-----------|:----------|:----------|:-----------|
 | Hinuq  | Tsezic   | *geɬ* (`r add_gloss("ESS")`), *geɬes* (`r add_gloss("ABL1")`), *geɬzo* (`r add_gloss("ABL2")`), *geɬer* (`r add_gloss("LAT")`), *geɬedo* (`r add_gloss("DIR")`)   | @forker2013: 379 |
 | Mehweb | Dargic   | *ʔu* (`r add_gloss("LAT")`), *ʔub* (`r add_gloss("ESS")`), *ʔubadal* (`r add_gloss("EL")`)   | @magometov1982: 126 |
