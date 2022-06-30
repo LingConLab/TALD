@@ -40,29 +40,26 @@ One of the aims of TALD is to chart the genealogical and geographical distributi
 
  The Atlas currently offers three different types of map visualizations:
 
- 1. Extrapolated data
- 2. Data granularity
- 3. General datapoints
+ 1. General datapoints
+ 2. Extrapolated data
+ 3. Data granularity
 
 Each of these visualizations has its benefits and drawbacks, so we allow the user to toggle between the different options. 
 
-Below are some examples from the chapter on [Morning greetings](08_morning_greetings.html), which describes the two main ways to greet someone in the morning in the languages of Daghestan: wishing them a good morning or asking them whether they woke up.
+Below are some examples from the chapter on [Morning greetings](http://lingconlab.ru/dagatlas/005_morning_greetings.html), which describes the two main ways to greet someone in the morning in the languages of Daghestan: wishing them a good morning or asking them whether they woke up.
 
 For map visualizations we use the [Lingtypology package](https://github.com/ropensci/lingtypology) [@moroz2017] for [R](https://www.r-project.org/).
 
-### Extrapolated data
 
-This is our default visualization. It represents each language as a cluster of dots, which correspond to villages where a certain language is spoken.[^1] The inside of each dot is colored by language; languages from the same group have similar colors (e.g. all Lezgic languages have some shade of green). Hover over a dot to see the name of the language, and click to view a popup with a link to the language's page in the [Glottolog](https://glottolog.org) database and the name of the village. The color of the outer dots indicates the value of a linguistic feature. By unticking the box "show languages" you can remove the inner dots and visualize the distribution of different values in the area without the distraction of genealogical information.
+### General datapoints
 
-A benefit of this type of visualization is that it shows the size and boundaries of speech communities (as opposed to maps based on abstract general datapoints). Its main drawback is that it involves a lot of generalization. We do not have information on each village variety of the languages in our sample, so we extrapolate the information we have on a language or dialect to all the villages where they are spoken. In doing so, we risk overgeneralizing information and erasing possible dialectal differences.
-
-[^1]: This visualization makes use of the [East Caucasian villages dataset](https://github.com/sverhees/master_villages).
+This is the more basic visualization, which shows one dot on the map for each language in the sample. By unticking the box "show languages" you can remove the inner dots and visualize the distribution of different values in the area without the distraction of genealogical information.
 
 ```{r}
 library(tidyverse)
 library(lingtypology)
-feature_dataset <- read_tsv("data/orig_table/morning_greetings.tsv")
 
+feature_dataset <- read_tsv("data/orig_table/morning_greetings.tsv")
 
 feature_dataset %>% 
   filter(map == 'yes') ->
@@ -135,11 +132,53 @@ villages %>%
   
 rm(all_data_without_languages, change, feature_dataset_4map, feature_dataset_4map_languages, feature_dataset_4map_rest, villages, genlang)
 
+map.feature(all_genpoints$lang4map,
+            latitude = all_genpoints$lat,
+            longitude = all_genpoints$lon,
+            features = factor(all_genpoints$value1),
+            title = all_genpoints$value1_name[1],
+            color = 'magma',
+            stroke.features = 'a',
+            stroke.color = 'black',
+            stroke.radius = 1,
+            stroke.legend = FALSE,
+            tile = 'Stamen.TonerLite',
+            legend = TRUE,
+            legend.position = 'bottomleft', 
+            zoom.control = TRUE,
+            width = 8) %>% 
+  map.feature(all_genpoints$lang4map,
+              latitude = all_genpoints$lat,
+              longitude = all_genpoints$lon,
+              features = all_genpoints$lang,
+              color = all_genpoints$lang_col,
+              tile = 'Stamen.TonerLite',
+              legend = FALSE,
+              width = 5,
+              pipe.data = .,
+              control = all_genpoints$display)
+```
+
+
+### Extrapolated data
+
+This visualization represents each language as a cluster of dots, which correspond to villages where a certain language is spoken.[^1] The inside of each dot is colored by language. Languages from the same group have similar colors (e.g., all Lezgic languages have some shade of green). Hover over a dot to see the name of the language, and click to view a popup with a link to the language's page in the [Glottolog](https://glottolog.org) database and the name of the village. The color of the outer dots indicates the value of a linguistic feature. By unticking the box "show languages" you can remove the inner dots and visualize the distribution of different values in the area without the distraction of genealogical information.
+
+A benefit of this type of visualization is that it shows the size and boundaries of speech communities (as opposed to maps based on abstract general datapoints). Its main drawback is that it involves a lot of generalization. We do not have information on each village variety of the languages in our sample, so we extrapolate the information we have on a language or dialect to all the villages where they are spoken. In doing so, we risk overgeneralizing information and erasing possible dialectal differences.
+
+[^1]: This visualization makes use of the [East Caucasian villages dataset](https://github.com/sverhees/master_villages).
+
+```{r}
 map.feature(alldata_clean$lang4map,
             latitude = alldata_clean$lat, 
             longitude = alldata_clean$lon,
             features = as.factor(alldata_clean$value1),
             color = 'magma',
+            stroke.features = 'a',
+            stroke.color = 'black',
+            stroke.radius = 1,
+            stroke.legend = FALSE,
+            tile = 'Stamen.TonerLite',
             title = alldata_clean$value1_name[1],
             legend = TRUE,
             legend.position = 'bottomleft', 
@@ -154,6 +193,7 @@ map.feature(alldata_clean$lang4map,
               longitude = alldata_clean$lon,
               features = alldata_clean$lang,
               color = alldata_clean$lang_col,
+              tile = 'Stamen.TonerLite',
               legend = FALSE,
               width = 5,
               pipe.data = .,
@@ -165,7 +205,7 @@ map.feature(alldata_clean$lang4map,
 
 ### Data granularity
 
-The data granularity visualization shows the level of accuracy for each datapoint in the previous visualization, e.g. "village dialect" indicates that we had information about the feature for this specific village variety, while "language" means that we only had information for the language in general, from which we extrapolated information for this point. This allows the user to see what kind of data underlies the default visualization.
+The data granularity visualization shows the level of accuracy for each datapoint in the previous visualization, e.g., "village dialect" indicates that we had information about the feature for this specific village variety, while "language" means that we only had information for the language in general, from which we extrapolated information for this point. This allows the user to see what kind of data underlies the default visualization.
 
 Our goal for the Atlas is to continue adding new data to existing datasets and thus gradually improve its coverage and accuracy.
 
@@ -175,6 +215,11 @@ map.feature(alldata_clean$lang4map,
             longitude = alldata_clean$lon,
             features = as.factor(alldata_clean$value1),
             color = 'magma',
+            stroke.features = 'a',
+            stroke.color = 'black',
+            stroke.radius = 1,
+            stroke.legend = FALSE,
+            tile = 'Stamen.TonerLite',
             title = alldata_clean$value1_name[1],
             legend = TRUE,
             legend.position = 'bottomleft', 
@@ -186,38 +231,14 @@ map.feature(alldata_clean$lang4map,
                           'data:', alldata_clean$type))
 ```
 
-### General datapoints
-
-Because the village-based maps can be visually overwhelming, the Atlas also provides a more basic visualization that shows one dot on the map for each language in the sample. By unticking the box "show languages" you can remove the inner dots and visualize the distribution of different values in the area without the distraction of genealogical information.
-
-```{r}
-map.feature(all_genpoints$lang4map,
-            latitude = all_genpoints$lat,
-            longitude = all_genpoints$lon,
-            features = factor(all_genpoints$value1),
-            title = all_genpoints$value1_name[1],
-            color = 'magma',
-            legend = TRUE,
-            legend.position = 'bottomleft', 
-            width = 8) %>% 
-  map.feature(all_genpoints$lang4map,
-              latitude = all_genpoints$lat,
-              longitude = all_genpoints$lon,
-              features = all_genpoints$lang,
-              color = all_genpoints$lang_col,
-              legend = FALSE,
-              width = 5,
-              pipe.data = .,
-              control = all_genpoints$display)
-```
 
 ## Contribute to the Atlas
 
 The chapters and datasets in the Atlas are created by researchers specializing in the languages of Daghestan as well as by students of linguistics with no prior knowledge of the area and the languages spoken there.
 
-If you would like to contribute a chapter and / or data to the Atlas because you are studying a certain topic in the languages of Daghestan, or you are a student looking for an internship, do not hesitate to contact us! You can find our contact info under [Team](team.html).
+If you would like to contribute a chapter and / or data to the Atlas because you are studying a certain topic in the languages of Daghestan, or you are a student looking for an internship, do not hesitate to contact us! You can find our contact info under [Team](http://lingconlab.ru/dagatlas/team.html).
 
- To get a better idea of our methodology and what you will have to do if you decide to become a contributor, see our [Contributor Manual](https://sverhees.github.io/dagatlas_masterskaya/index.html).
+To get a better idea of our methodology and what you will have to do if you decide to become a contributor, see our [Contributor Manual](https://sverhees.github.io/dagatlas_masterskaya/index.html).
 
 ## Access to data
 
