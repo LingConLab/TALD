@@ -2,6 +2,7 @@
 title: "About"
 bibliography: ./data/about.bib
 link-citations: true
+csl: apa.csl
 output:
   html_document:
     number_sections: true

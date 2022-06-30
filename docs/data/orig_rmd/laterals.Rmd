@@ -1,0 +1,7 @@
+## {-}
+
+General chapter: [Phonology](phonology.html)
+
+Lateral obstruents are a significant feature of Avar, Andic and Tsezic languages, as well as the Lezgic language Archi. In most cases the lateral system is represented by a fricative *ɬ* and two affricates *tɬ* and *tɬ'* (in addition to *l*, which is present in all languages of the sample. Sometimes the subsystem is even more elaborate due to the presence of geminates.
+
+The inventory of lateral obstruents can differ from 1 (Tsova-Tush, *ɬ*) to 12 (Akhvakh, *ɬ*, *tɬ*, *tɬ'*, each of which have a geminate, labialized and geminate labialized counterpart).

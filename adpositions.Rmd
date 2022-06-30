@@ -4,6 +4,7 @@ author: "Polina Nasledskova, Tatiana Philippova"
 date: 'Last update: June 2022'
 bibliography: "data/orig_bib/adpositions.bib"
 link-citations: true
+csl: apa.csl
 output:
   html_document:
     number_sections: true
@@ -94,11 +95,11 @@ Directionality markers signal the direction or absence of motion of the trajecto
 
 | language | branch | directional forms | source |
 |:-----------|:----------|:----------|:-----------|
-| Hinuq  | Tsezic   | *geɬ* (ESS), *geɬes* (ABL1), *geɬzo* (ABL2), *geɬer* (LAT), *geɬedo* (DIR)   | @forker2013: 379 |
-| Mehweb | Dargic   | *ʔu* (LAT), *ʔub* (ESS), *ʔubadal* (EL)   | @magometov1982: 126 |
-| Bagvalal | Andic | *hiƛ’i* (ESS), *hiƛ’isː* (EL), *hiƛ’isːini* (TRLAT) | @sosenskaja2001pp: 170 |
-| Lezgian | Lezgic | *k’anik* (ESS), *k’anikaj* (EL) | @haspelmath1993: 219220 |
-| Chechen | Nakh | *k’el*  (ESS/LAT), *k’eləħ* (ESS), *k’elərə* (EL), *k’elxuʊlə* (TRLAT),  *k’elħaː* (DIR) | @aliroev1999: 7980 |
+| Hinuq  | Tsezic   | *geɬ* (`r add_gloss("ESS")`), *geɬes* (`r add_gloss("ABL1")`), *geɬzo* (`r add_gloss("ABL2")`), *geɬer* (`r add_gloss("LAT")`), *geɬedo* (`r add_gloss("DIR")`)   | @forker2013: 379 |
+| Mehweb | Dargic   | *ʔu* (`r add_gloss("LAT")`), *ʔub* (`r add_gloss("ESS")`), *ʔubadal* (`r add_gloss("EL")`)   | @magometov1982: 126 |
+| Bagvalal | Andic | *hiƛ’i* (`r add_gloss("ESS")`), *hiƛ’isː* (`r add_gloss("EL")`), *hiƛ’isːini* (`r add_gloss("TRLAT")`) | @sosenskaja2001pp: 170 |
+| Lezgian | Lezgic | *k’anik* (`r add_gloss("ESS")`), *k’anikaj* (`r add_gloss("EL")`) | @haspelmath1993: 219220 |
+| Chechen | Nakh | *k’el*  (`r add_gloss("ESS")`/`r add_gloss("LAT")`), *k’eləħ* (`r add_gloss("ESS")`), *k’elərə* (`r add_gloss("EL")`), *k’elxuʊlə* (`r add_gloss("TRLAT")`),  *k’elħaː* (`r add_gloss("DIR")`) | @aliroev1999: 7980 |
 
 The examples in (@three) below illustrate the use of different forms in sentences.
 
