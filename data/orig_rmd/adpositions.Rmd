@@ -92,14 +92,13 @@ Directionality markers signal the direction or absence of motion of the trajecto
 
 #### **Table 1.** Directional forms of postpositions synonymous to ‘under’ across the branches of East Caucasian {#t1 -}
 
-| Language | Branch | Directional forms | Source |
+| language | branch | directional forms | source |
 |:-----------|:----------|:----------|:-----------|
-| Hinuq  | Tsezic   | *geɬ* (`r add_gloss("ESS"))`
-), *geɬes* (`r add_gloss("ABL1")), *geɬzo* (`r add_gloss("ABL2")), *geɬer* (`r add_gloss("LAT")), *geɬedo* (`r add_gloss("DIR"))   | @forker2013: 379 |
-| Mehweb | Dargic   | *ʔu* (`r add_gloss("LAT")), *ʔub* (`r add_gloss("ESS")), *ʔubadal* (`r add_gloss("EL"))   | @magometov1982: 126 |
-| Bagvalal | Andic | *hiƛ’i* (`r add_gloss("ESS")), *hiƛ’isː* (`r add_gloss("EL")), *hiƛ’isːini* (`r add_gloss("TRLAT")) | @sosenskaja2001pp: 170 |
-| Lezgian | Lezgic | *k’anik* (`r add_gloss("ESS")), *k’anikaj* (`r add_gloss("EL")) | @haspelmath1993: 219220 |
-| Chechen | Nakh | *k’el*  (`r add_gloss("ESS"))/(`r add_gloss("LAT")), *k’eləħ* (`r add_gloss("ESS")), *k’elərə* (`r add_gloss("EL")), *k’elxuʊlə* (`r add_gloss("TRLAT")),  *k’elħaː* (`r add_gloss("DIR")) | @aliroev1999: 7980 |
+| Hinuq  | Tsezic   | *geɬ* (`r add_gloss("ESS")`), *geɬes* (`r add_gloss("ABL1")`), *geɬzo* (`r add_gloss("ABL2")`), *geɬer* (`r add_gloss("LAT")`), *geɬedo* (`r add_gloss("DIR")`)   | @forker2013: 379 |
+| Mehweb | Dargic   | *ʔu* (`r add_gloss("LAT")`), *ʔub* (`r add_gloss("ESS")`), *ʔubadal* (`r add_gloss("EL")`)   | @magometov1982: 126 |
+| Bagvalal | Andic | *hiƛ’i* (`r add_gloss("ESS")`), *hiƛ’isː* (`r add_gloss("EL")`), *hiƛ’isːini* (`r add_gloss("TRLAT")`) | @sosenskaja2001pp: 170 |
+| Lezgian | Lezgic | *k’anik* (`r add_gloss("ESS")`), *k’anikaj* (`r add_gloss("EL")`) | @haspelmath1993: 219220 |
+| Chechen | Nakh | *k’el*  (`r add_gloss("ESS")`/`r add_gloss("LAT")`), *k’eləħ* (`r add_gloss("ESS")`), *k’elərə* (`r add_gloss("EL")`), *k’elxuʊlə* (`r add_gloss("TRLAT")`),  *k’elħaː* (`r add_gloss("DIR")`) | @aliroev1999: 7980 |
 
 The examples in (@three) below illustrate the use of different forms in sentences.
 
