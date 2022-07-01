@@ -4,7 +4,6 @@ author: "Samira Verhees"
 date: 'Last update: April 2022'
 bibliography: "data/orig_bib/evidentiality.bib"
 link-citations: true
-csl: apa.csl
 output:
   html_document:
     number_sections: true

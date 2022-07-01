@@ -58,7 +58,7 @@ map(c(list.files("data/orig_bib", full.names = TRUE), "data/bibliography.bib"), 
 
 
 # embrace uppercased letters with curly braces ----------------------------
-regular_expression <- str_c("((?<=[ \\-\\(\\</])[", str_c(c(LETTERS, "Ž", "Č", "Š", "Ë", "É"), collapse = ""), "])")
+regular_expression <- str_c("((?<=[ \\[\\-\\(\\</])[", str_c(c(LETTERS, "Ž", "Č", "Š", "Ë", "É"), collapse = ""), "])")
 
 library(bib2df)
 
@@ -67,7 +67,10 @@ map(c(list.files("data/orig_bib", full.names = TRUE), "data/bibliography.bib"), 
   bib2df(i) %>% 
     mutate(TITLE = ifelse(!is.na(TITLE), 
                           str_replace_all(TITLE, regular_expression, "\\{\\1\\}"),
-                          NA)) %>% 
+                          NA),
+           BOOKTITLE = ifelse(!is.na(TITLE),
+                              str_replace_all(TITLE, regular_expression, "\\{\\1\\}"),
+                              NA)) %>% 
     df2bib(i)
   } 
 })
