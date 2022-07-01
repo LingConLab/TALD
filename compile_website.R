@@ -28,8 +28,8 @@ read_tsv("https://raw.githubusercontent.com/sverhees/master_villages/master/data
 
 map(list.files("data/orig_bib_tsv", full.names = TRUE), function(bib_tsv){
   read_tsv(bib_tsv, progress = FALSE, show_col_types = FALSE) %>% 
-    mutate(TITLE = ifelse(is.na(TITLE_TRANSLATION), TITLE, str_c(TITLE, " (", TITLE_TRANSLATION, ")")),
-           BOOKTITLE = ifelse(is.na(BOOKTITLE_TRANSLATION), BOOKTITLE, str_c(BOOKTITLE, " (", BOOKTITLE_TRANSLATION, ")"))) %>% 
+    mutate(TITLE = ifelse(is.na(TITLE_TRANSLATION), TITLE, str_c(TITLE, " [", TITLE_TRANSLATION, "]")),
+           BOOKTITLE = ifelse(is.na(BOOKTITLE_TRANSLATION), BOOKTITLE, str_c(BOOKTITLE, " [", BOOKTITLE_TRANSLATION, "]"))) %>% 
     bib2df::df2bib(bib_tsv %>% 
                      str_remove_all("[_\\.]tsv") %>% 
                      str_replace("_bib$", "\\.bib"))

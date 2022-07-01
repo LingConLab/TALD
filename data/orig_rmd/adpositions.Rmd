@@ -4,6 +4,7 @@ author: "Polina Nasledskova, Tatiana Philippova"
 date: 'Last update: June 2022'
 bibliography: "data/orig_bib/adpositions.bib"
 link-citations: true
+csl: apa.csl
 output:
   html_document:
     number_sections: true
