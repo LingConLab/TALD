@@ -92,11 +92,15 @@ rm(all_data_without_languages, change, feature_dataset_4map, feature_dataset_4ma
 ### General datapoints {-}
 
 ```{r}
-map.feature(all_genpoints$lang4map,
-            latitude = all_genpoints$lat,
-            longitude = all_genpoints$lon,
-            features = factor(all_genpoints$value1),
-            title = all_genpoints$value1_name[1],
+all_genpoints %>% 
+  filter(!is.na(all_genpoints$value1)) ->
+  all_genpoints_filtered
+
+map.feature(all_genpoints_filtered$lang4map,
+            latitude = all_genpoints_filtered$lat,
+            longitude = all_genpoints_filtered$lon,
+            features = all_genpoints_filtered$value1,
+            title = all_genpoints_filtered$value1_name[1],
             color = 'magma',
             stroke.features = 'a',
             stroke.color = 'black',
@@ -107,77 +111,81 @@ map.feature(all_genpoints$lang4map,
             legend.position = 'bottomleft', 
             zoom.control = TRUE,
             width = 8) %>% 
-  map.feature(all_genpoints$lang4map,
-              latitude = all_genpoints$lat,
-              longitude = all_genpoints$lon,
-              features = all_genpoints$lang,
-              color = all_genpoints$lang_col,
+  map.feature(all_genpoints_filtered$lang4map,
+              latitude = all_genpoints_filtered$lat,
+              longitude = all_genpoints_filtered$lon,
+              features = all_genpoints_filtered$lang,
+              color = all_genpoints_filtered$lang_col,
               tile = 'Stamen.TonerLite',
               legend = FALSE,
               width = 5,
               pipe.data = .,
-              control = all_genpoints$display)
+              control = all_genpoints_filtered$display)
 ```
 
 ### Extrapolated data {-}
 
 ```{r}
-map.feature(alldata_clean$lang4map,
-            latitude = alldata_clean$lat, 
-            longitude = alldata_clean$lon,
-            features = as.factor(alldata_clean$value1),
+alldata_clean %>% 
+  filter(!is.na(alldata_clean$value1)) ->
+  alldata_clean_filtered
+
+map.feature(alldata_clean_filtered$lang4map,
+            latitude = alldata_clean_filtered$lat, 
+            longitude = alldata_clean_filtered$lon,
+            features = alldata_clean_filtered$value1,
             color = 'magma',
             stroke.features = 'a',
             stroke.color = 'black',
             stroke.radius = 1,
             stroke.legend = FALSE,
             tile = 'Stamen.TonerLite',
-            title = alldata_clean$value1_name[1],
+            title = alldata_clean_filtered$value1_name[1],
             legend = TRUE,
             legend.position = 'bottomleft', 
-            label = alldata_clean$lang,
+            label = alldata_clean_filtered$lang,
             zoom.control = TRUE,
             width = 8,
-            popup = paste(alldata_clean$village, '|',
-                          alldata_clean$rus_village, '<br>',
-                          'data:', alldata_clean$type)) %>% 
-    map.feature(alldata_clean$lang4map,
-              latitude = alldata_clean$lat,
-              longitude = alldata_clean$lon,
-              features = alldata_clean$lang,
-              color = alldata_clean$lang_col,
+            popup = paste(alldata_clean_filtered$village, '|',
+                          alldata_clean_filtered$rus_village, '<br>',
+                          'data:', alldata_clean_filtered$type)) %>% 
+  map.feature(alldata_clean_filtered$lang4map,
+              latitude = alldata_clean_filtered$lat,
+              longitude = alldata_clean_filtered$lon,
+              features = alldata_clean_filtered$lang,
+              color = alldata_clean_filtered$lang_col,
               tile = 'Stamen.TonerLite',
               legend = FALSE,
               width = 5,
               pipe.data = .,
-              control = alldata_clean$display,
-              popup = paste(alldata_clean$village, '|',
-                        alldata_clean$rus_village, '<br>',
-                          'data:', alldata_clean$type))
+              control = alldata_clean_filtered$display,
+              popup = paste(alldata_clean_filtered$village, '|',
+                            alldata_clean_filtered$rus_village, '<br>',
+                            'data:', alldata_clean_filtered$type))
 ```
 
 ### Data granularity {-}
 
 ```{r}
-map.feature(alldata_clean$lang4map,
-            latitude = alldata_clean$lat, 
-            longitude = alldata_clean$lon,
-            features = as.factor(alldata_clean$value1),
+map.feature(alldata_clean_filtered$lang4map,
+            latitude = alldata_clean_filtered$lat, 
+            longitude = alldata_clean_filtered$lon,
+            features = alldata_clean_filtered$value1,
             color = 'magma',
             stroke.features = 'a',
             stroke.color = 'black',
             stroke.radius = 1,
             stroke.legend = FALSE,
             tile = 'Stamen.TonerLite',
-            title = alldata_clean$value1_name[1],
+            title = alldata_clean_filtered$value1_name[1],
             legend = TRUE,
             legend.position = 'bottomleft', 
-            label = alldata_clean$lang,
+            label = alldata_clean_filtered$lang,
             zoom.control = TRUE,
-            control = alldata_clean$type,
-            popup = paste(alldata_clean$village, '|',
-                        alldata_clean$rus_village, '<br>',
-                          'data:', alldata_clean$type))
+            control = alldata_clean_filtered$type,
+            popup = paste(alldata_clean_filtered$village, '|',
+                          alldata_clean_filtered$rus_village, '<br>',
+                          'data:', alldata_clean_filtered$type))
 ```
 
 
@@ -187,11 +195,15 @@ map.feature(alldata_clean$lang4map,
 ### General datapoints {-}
 
 ```{r}
-map.feature(all_genpoints$lang4map,
-            latitude = all_genpoints$lat,
-            longitude = all_genpoints$lon,
-            features = factor(all_genpoints$value2),
-            title = all_genpoints$value2_name[1],
+all_genpoints %>% 
+  filter(!is.na(all_genpoints$value2)) ->
+  all_genpoints_filtered
+
+map.feature(all_genpoints_filtered$lang4map,
+            latitude = all_genpoints_filtered$lat,
+            longitude = all_genpoints_filtered$lon,
+            features = all_genpoints_filtered$value2,
+            title = all_genpoints_filtered$value2_name[1],
             color = 'magma',
             stroke.features = 'a',
             stroke.color = 'black',
@@ -202,77 +214,81 @@ map.feature(all_genpoints$lang4map,
             legend.position = 'bottomleft', 
             zoom.control = TRUE,
             width = 8) %>% 
-  map.feature(all_genpoints$lang4map,
-              latitude = all_genpoints$lat,
-              longitude = all_genpoints$lon,
-              features = all_genpoints$lang,
-              color = all_genpoints$lang_col,
+  map.feature(all_genpoints_filtered$lang4map,
+              latitude = all_genpoints_filtered$lat,
+              longitude = all_genpoints_filtered$lon,
+              features = all_genpoints_filtered$lang,
+              color = all_genpoints_filtered$lang_col,
               tile = 'Stamen.TonerLite',
               legend = FALSE,
               width = 5,
               pipe.data = .,
-              control = all_genpoints$display)
+              control = all_genpoints_filtered$display)
 ```
 
 ### Extrapolated data {-}
 
 ```{r}
-map.feature(alldata_clean$lang4map,
-            latitude = alldata_clean$lat, 
-            longitude = alldata_clean$lon,
-            features = as.factor(alldata_clean$value2),
+alldata_clean %>% 
+  filter(!is.na(alldata_clean$value2)) ->
+  alldata_clean_filtered
+
+map.feature(alldata_clean_filtered$lang4map,
+            latitude = alldata_clean_filtered$lat, 
+            longitude = alldata_clean_filtered$lon,
+            features = alldata_clean_filtered$value2,
             color = 'magma',
             stroke.features = 'a',
             stroke.color = 'black',
             stroke.radius = 1,
             stroke.legend = FALSE,
             tile = 'Stamen.TonerLite',
-            title = alldata_clean$value2_name[1],
+            title = alldata_clean_filtered$value2_name[1],
             legend = TRUE,
             legend.position = 'bottomleft', 
-            label = alldata_clean$lang,
+            label = alldata_clean_filtered$lang,
             zoom.control = TRUE,
             width = 8,
-            popup = paste(alldata_clean$village, '|',
-                          alldata_clean$rus_village, '<br>',
-                          'data:', alldata_clean$type)) %>% 
-    map.feature(alldata_clean$lang4map,
-              latitude = alldata_clean$lat,
-              longitude = alldata_clean$lon,
-              features = alldata_clean$lang,
-              color = alldata_clean$lang_col,
+            popup = paste(alldata_clean_filtered$village, '|',
+                          alldata_clean_filtered$rus_village, '<br>',
+                          'data:', alldata_clean_filtered$type)) %>% 
+  map.feature(alldata_clean_filtered$lang4map,
+              latitude = alldata_clean_filtered$lat,
+              longitude = alldata_clean_filtered$lon,
+              features = alldata_clean_filtered$lang,
+              color = alldata_clean_filtered$lang_col,
               tile = 'Stamen.TonerLite',
               legend = FALSE,
               width = 5,
               pipe.data = .,
-              control = alldata_clean$display,
-              popup = paste(alldata_clean$village, '|',
-                        alldata_clean$rus_village, '<br>',
-                          'data:', alldata_clean$type))
+              control = alldata_clean_filtered$display,
+              popup = paste(alldata_clean_filtered$village, '|',
+                            alldata_clean_filtered$rus_village, '<br>',
+                            'data:', alldata_clean_filtered$type))
 ```
 
 ### Data granularity {-}
 
 ```{r}
-map.feature(alldata_clean$lang4map,
-            latitude = alldata_clean$lat, 
-            longitude = alldata_clean$lon,
-            features = as.factor(alldata_clean$value2),
+map.feature(alldata_clean_filtered$lang4map,
+            latitude = alldata_clean_filtered$lat, 
+            longitude = alldata_clean_filtered$lon,
+            features = alldata_clean_filtered$value2,
             color = 'magma',
             stroke.features = 'a',
             stroke.color = 'black',
             stroke.radius = 1,
             stroke.legend = FALSE,
             tile = 'Stamen.TonerLite',
-            title = alldata_clean$value2_name[1],
+            title = alldata_clean_filtered$value2_name[1],
             legend = TRUE,
             legend.position = 'bottomleft', 
-            label = alldata_clean$lang,
+            label = alldata_clean_filtered$lang,
             zoom.control = TRUE,
-            control = alldata_clean$type,
-            popup = paste(alldata_clean$village, '|',
-                        alldata_clean$rus_village, '<br>',
-                          'data:', alldata_clean$type))
+            control = alldata_clean_filtered$type,
+            popup = paste(alldata_clean_filtered$village, '|',
+                          alldata_clean_filtered$rus_village, '<br>',
+                          'data:', alldata_clean_filtered$type))
 ```
 
 
@@ -282,11 +298,15 @@ map.feature(alldata_clean$lang4map,
 ### General datapoints {-}
 
 ```{r}
-map.feature(all_genpoints$lang4map,
-            latitude = all_genpoints$lat,
-            longitude = all_genpoints$lon,
-            features = factor(all_genpoints$value3),
-            title = all_genpoints$value3_name[1],
+all_genpoints %>% 
+  filter(!is.na(all_genpoints$value3)) ->
+  all_genpoints_filtered
+
+map.feature(all_genpoints_filtered$lang4map,
+            latitude = all_genpoints_filtered$lat,
+            longitude = all_genpoints_filtered$lon,
+            features = all_genpoints_filtered$value3,
+            title = all_genpoints_filtered$value3_name[1],
             color = 'magma',
             stroke.features = 'a',
             stroke.color = 'black',
@@ -297,77 +317,81 @@ map.feature(all_genpoints$lang4map,
             legend.position = 'bottomleft', 
             zoom.control = TRUE,
             width = 8) %>% 
-  map.feature(all_genpoints$lang4map,
-              latitude = all_genpoints$lat,
-              longitude = all_genpoints$lon,
-              features = all_genpoints$lang,
-              color = all_genpoints$lang_col,
+  map.feature(all_genpoints_filtered$lang4map,
+              latitude = all_genpoints_filtered$lat,
+              longitude = all_genpoints_filtered$lon,
+              features = all_genpoints_filtered$lang,
+              color = all_genpoints_filtered$lang_col,
               tile = 'Stamen.TonerLite',
               legend = FALSE,
               width = 5,
               pipe.data = .,
-              control = all_genpoints$display)
+              control = all_genpoints_filtered$display)
 ```
 
 ### Extrapolated data {-}
 
 ```{r}
-map.feature(alldata_clean$lang4map,
-            latitude = alldata_clean$lat, 
-            longitude = alldata_clean$lon,
-            features = as.factor(alldata_clean$value3),
+alldata_clean %>% 
+  filter(!is.na(alldata_clean$value3)) ->
+  alldata_clean_filtered
+
+map.feature(alldata_clean_filtered$lang4map,
+            latitude = alldata_clean_filtered$lat, 
+            longitude = alldata_clean_filtered$lon,
+            features = alldata_clean_filtered$value3,
             color = 'magma',
             stroke.features = 'a',
             stroke.color = 'black',
             stroke.radius = 1,
             stroke.legend = FALSE,
             tile = 'Stamen.TonerLite',
-            title = alldata_clean$value3_name[1],
+            title = alldata_clean_filtered$value3_name[1],
             legend = TRUE,
             legend.position = 'bottomleft', 
-            label = alldata_clean$lang,
+            label = alldata_clean_filtered$lang,
             zoom.control = TRUE,
             width = 8,
-            popup = paste(alldata_clean$village, '|',
-                          alldata_clean$rus_village, '<br>',
-                          'data:', alldata_clean$type)) %>% 
-    map.feature(alldata_clean$lang4map,
-              latitude = alldata_clean$lat,
-              longitude = alldata_clean$lon,
-              features = alldata_clean$lang,
-              color = alldata_clean$lang_col,
+            popup = paste(alldata_clean_filtered$village, '|',
+                          alldata_clean_filtered$rus_village, '<br>',
+                          'data:', alldata_clean_filtered$type)) %>% 
+  map.feature(alldata_clean_filtered$lang4map,
+              latitude = alldata_clean_filtered$lat,
+              longitude = alldata_clean_filtered$lon,
+              features = alldata_clean_filtered$lang,
+              color = alldata_clean_filtered$lang_col,
               tile = 'Stamen.TonerLite',
               legend = FALSE,
               width = 5,
               pipe.data = .,
-              control = alldata_clean$display,
-              popup = paste(alldata_clean$village, '|',
-                        alldata_clean$rus_village, '<br>',
-                          'data:', alldata_clean$type))
+              control = alldata_clean_filtered$display,
+              popup = paste(alldata_clean_filtered$village, '|',
+                            alldata_clean_filtered$rus_village, '<br>',
+                            'data:', alldata_clean_filtered$type))
 ```
 
 ### Data granularity {-}
 
 ```{r}
-map.feature(alldata_clean$lang4map,
-            latitude = alldata_clean$lat, 
-            longitude = alldata_clean$lon,
-            features = as.factor(alldata_clean$value3),
+map.feature(alldata_clean_filtered$lang4map,
+            latitude = alldata_clean_filtered$lat, 
+            longitude = alldata_clean_filtered$lon,
+            features = alldata_clean_filtered$value3,
             color = 'magma',
             stroke.features = 'a',
             stroke.color = 'black',
             stroke.radius = 1,
             stroke.legend = FALSE,
             tile = 'Stamen.TonerLite',
-            title = alldata_clean$value3_name[1],
+            title = alldata_clean_filtered$value3_name[1],
             legend = TRUE,
             legend.position = 'bottomleft', 
-            label = alldata_clean$lang,
+            label = alldata_clean_filtered$lang,
             zoom.control = TRUE,
-            control = alldata_clean$type,
-            popup = paste(alldata_clean$village, '|',
-                        alldata_clean$rus_village, '<br>',
-                          'data:', alldata_clean$type))
+            control = alldata_clean_filtered$type,
+            popup = paste(alldata_clean_filtered$village, '|',
+                          alldata_clean_filtered$rus_village, '<br>',
+                          'data:', alldata_clean_filtered$type))
 ```
 
 
@@ -377,11 +401,15 @@ map.feature(alldata_clean$lang4map,
 ### General datapoints {-}
 
 ```{r}
-map.feature(all_genpoints$lang4map,
-            latitude = all_genpoints$lat,
-            longitude = all_genpoints$lon,
-            features = factor(all_genpoints$value4),
-            title = all_genpoints$value4_name[1],
+all_genpoints %>% 
+  filter(!is.na(all_genpoints$value4)) ->
+  all_genpoints_filtered
+
+map.feature(all_genpoints_filtered$lang4map,
+            latitude = all_genpoints_filtered$lat,
+            longitude = all_genpoints_filtered$lon,
+            features = all_genpoints_filtered$value4,
+            title = all_genpoints_filtered$value4_name[1],
             color = 'magma',
             stroke.features = 'a',
             stroke.color = 'black',
@@ -392,77 +420,81 @@ map.feature(all_genpoints$lang4map,
             legend.position = 'bottomleft', 
             zoom.control = TRUE,
             width = 8) %>% 
-  map.feature(all_genpoints$lang4map,
-              latitude = all_genpoints$lat,
-              longitude = all_genpoints$lon,
-              features = all_genpoints$lang,
-              color = all_genpoints$lang_col,
+  map.feature(all_genpoints_filtered$lang4map,
+              latitude = all_genpoints_filtered$lat,
+              longitude = all_genpoints_filtered$lon,
+              features = all_genpoints_filtered$lang,
+              color = all_genpoints_filtered$lang_col,
               tile = 'Stamen.TonerLite',
               legend = FALSE,
               width = 5,
               pipe.data = .,
-              control = all_genpoints$display)
+              control = all_genpoints_filtered$display)
 ```
 
 ### Extrapolated data {-}
 
 ```{r}
-map.feature(alldata_clean$lang4map,
-            latitude = alldata_clean$lat, 
-            longitude = alldata_clean$lon,
-            features = as.factor(alldata_clean$value4),
+alldata_clean %>% 
+  filter(!is.na(alldata_clean$value4)) ->
+  alldata_clean_filtered
+
+map.feature(alldata_clean_filtered$lang4map,
+            latitude = alldata_clean_filtered$lat, 
+            longitude = alldata_clean_filtered$lon,
+            features = alldata_clean_filtered$value4,
             color = 'magma',
             stroke.features = 'a',
             stroke.color = 'black',
             stroke.radius = 1,
             stroke.legend = FALSE,
             tile = 'Stamen.TonerLite',
-            title = alldata_clean$value4_name[1],
+            title = alldata_clean_filtered$value4_name[1],
             legend = TRUE,
             legend.position = 'bottomleft', 
-            label = alldata_clean$lang,
+            label = alldata_clean_filtered$lang,
             zoom.control = TRUE,
             width = 8,
-            popup = paste(alldata_clean$village, '|',
-                          alldata_clean$rus_village, '<br>',
-                          'data:', alldata_clean$type)) %>% 
-    map.feature(alldata_clean$lang4map,
-              latitude = alldata_clean$lat,
-              longitude = alldata_clean$lon,
-              features = alldata_clean$lang,
-              color = alldata_clean$lang_col,
+            popup = paste(alldata_clean_filtered$village, '|',
+                          alldata_clean_filtered$rus_village, '<br>',
+                          'data:', alldata_clean_filtered$type)) %>% 
+  map.feature(alldata_clean_filtered$lang4map,
+              latitude = alldata_clean_filtered$lat,
+              longitude = alldata_clean_filtered$lon,
+              features = alldata_clean_filtered$lang,
+              color = alldata_clean_filtered$lang_col,
               tile = 'Stamen.TonerLite',
               legend = FALSE,
               width = 5,
               pipe.data = .,
-              control = alldata_clean$display,
-              popup = paste(alldata_clean$village, '|',
-                        alldata_clean$rus_village, '<br>',
-                          'data:', alldata_clean$type))
+              control = alldata_clean_filtered$display,
+              popup = paste(alldata_clean_filtered$village, '|',
+                            alldata_clean_filtered$rus_village, '<br>',
+                            'data:', alldata_clean_filtered$type))
 ```
 
 ### Data granularity {-}
 
 ```{r}
-map.feature(alldata_clean$lang4map,
-            latitude = alldata_clean$lat, 
-            longitude = alldata_clean$lon,
-            features = as.factor(alldata_clean$value4),
+map.feature(alldata_clean_filtered$lang4map,
+            latitude = alldata_clean_filtered$lat, 
+            longitude = alldata_clean_filtered$lon,
+            features = alldata_clean_filtered$value4,
             color = 'magma',
             stroke.features = 'a',
             stroke.color = 'black',
             stroke.radius = 1,
             stroke.legend = FALSE,
             tile = 'Stamen.TonerLite',
-            title = alldata_clean$value4_name[1],
+            title = alldata_clean_filtered$value4_name[1],
             legend = TRUE,
             legend.position = 'bottomleft', 
-            label = alldata_clean$lang,
+            label = alldata_clean_filtered$lang,
             zoom.control = TRUE,
-            control = alldata_clean$type,
-            popup = paste(alldata_clean$village, '|',
-                        alldata_clean$rus_village, '<br>',
-                          'data:', alldata_clean$type))
+            control = alldata_clean_filtered$type,
+            popup = paste(alldata_clean_filtered$village, '|',
+                          alldata_clean_filtered$rus_village, '<br>',
+                          'data:', alldata_clean_filtered$type))
 ```
 
 
