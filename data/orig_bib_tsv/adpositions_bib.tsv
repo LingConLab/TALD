@@ -1,18 +1,18 @@
-CATEGORY	BIBTEXKEY	AUTHOR	TITLE	YEAR	TITLE_TRANSLATION	PUBLISHER	ADDRESS	PAGES	BOOKTITLE	BOOKTITLE_TRANSLATION	EDITOR	JOURNAL	VOLUME	NUMBER	SCHOOL	NOTE	URL	HOWPUBLISHED	CONTRIBUTOR	DATE_ADDED	COMMENT	correction_notes	checked
-book	aliroev1999	Алироев, Ибрагим Ю.	Чеченский язык	1999	The Chechen language	Academia	Москва												Polina Nasledskova	05.05.2022			
-book	authier2012	Authier, Gilles	Grammaire juhuri, ou judéo-tat, langue iranienne des Juifs du Caucase de l’est	2012		Dr. Ludwig Reichert Verlag Wiesbaden	Wiesbaden												Chiara Naccarato				Y
-book	dum-tragut2009	Dum-Tragut, Jasmine	Armenian	2009		John Benjamins	Amsterdam/Philadelphia																Y
-book	forker2013	Forker, Diana	A grammar of Hinuq	2013		De Gruyter Mouton	Berlin/Boston																Y
-book	forker2020dargwa	Forker, Diana	A grammar of Sanzhi Dargwa	2020		Language Science Press	Berlin										https://langsci-press.org/catalog/book/250						Y
-book	hagege2010	Hagège, Claude	Adpositions	2010		Oxford University Press	Oxford														not to be added to biblib		
-book	haspelmath1993	Haspelmath, Martin	A grammar of Lezgian	1993		Mouton de Gruyter	Berlin/New York																Y
-book	jakovlev1940	Яковлев, Николай Ф.	Синтаксис чеченского литературного языка	1940	Syntax of Standard Chechen	Издательство Академии Наук СССР	Москва/Ленинград												Polina Nasledskova	05.05.2022			
-book	kibriketal1996	Kibrik, Alexandr and Tatevosov, Sergej and Eulenberg, Alexander	Godoberi	1996		Lincom Europa	Munich/Newcastle																Y
-book	magometov1982	Магометов, Александр А.	Мегебский диалект даргинского языка: исследование и тексты	1982	Mehweb dialect of Dargwa: research and texts	Мецниереба	Тбилиси												Polina Nasledskova				Y
-book	nichols2011	Nichols, Johanna	Ingush grammar	2011		University of California Press	Berkeley/Los Angeles																Y
-unpublished	polinskydraft2015	Polinsky, Maria 	Tsez Syntax: A Description	2015															Sara Zadykyan				Y
-article	rudnev2020	Rudnev, Pavel	Agreeing adpositions in Avar and the directionality-of-valuation debate	2020				829--844				Linguistic Inquiry	51	4							not to be added to biblib		
-book	shiralievsevortyan1971	Ширалиев, Мамедага Ш. and Севортян, Эрванд В.	Грамматика азербайджанского языка (фонетика, морфология, синтаксис)	1971	Azerbaijani grammar (phonetics, morphology, syntax)	Элм	Баку																Y
-incollection	sosenskaja1999post	Сосенская, Татьяна Б.	Послелог	1999	Postposition	Наследие	Москва	121--129	Элементы цахурского языка в типологическом освещении	Elements of the Tsakhur language in a typological perspective	Кибрик, Александр Е. and Татевосов, Сергей Г.								Chiara Naccarato	09.02.2021			Y
-incollection	sosenskaja2001pp	Сосенская, Татьяна Б.	Послеложная группа	2001	Postpositional phrase	Наследие	Москва	405--407	Багвалинский язык. Грамматика, тексты, словари.	The Bagvalal language. Grammar, texts, dictionaries	Кибрик, Александр Е. and Лютикова, Екатерина А. and Татевосов, Сергей Г.								Polina Nasledskova	05.05.2022			
-book	vandenberg1995	van den Berg, Helma	A grammar of Hunzib	1995		Lincom	Munich																Y
+CATEGORY	BIBTEXKEY	AUTHOR	TITLE	YEAR	TITLE_TRANSLATION	PUBLISHER	ADDRESS	PAGES	BOOKTITLE	BOOKTITLE_TRANSLATION	EDITOR	JOURNAL	NOTE	NUMBER	SCHOOL	URL	VOLUME	CONTRIBUTOR	COMMENT
+book	aliroev1999	Алироев, Ибрагим Ю.	Чеченский язык	1999	The Chechen language	Academia	Moscow												
+book	authier2012	Authier, Gilles	Grammaire juhuri, ou judéo-tat, langue iranienne des Juifs du Caucase de l’est	2012		Dr. Ludwig Reichert Verlag Wiesbaden	Wiesbaden												
+book	dum-tragut2009	Dum-Tragut, Jasmine	Armenian	2009		John Benjamins	Amsterdam/Philadelphia												
+book	forker2013	Forker, Diana	A grammar of Hinuq	2013		De Gruyter Mouton	Berlin/Boston												
+book	forker2020dargwa	Forker, Diana	A grammar of Sanzhi Dargwa	2020		Language Science Press	Berlin									https://langsci-press.org/catalog/book/250			
+book	hagege2010	Hagège, Claude	Adpositions	2010		Oxford University Press	Oxford												
+book	haspelmath1993	Haspelmath, Martin	A grammar of Lezgian	1993		Mouton de Gruyter	Berlin/New York												
+book	jakovlev1940	Яковлев, Николай Ф.	Синтаксис чеченского литературного языка	1940	Syntax of Standard Chechen	Издательство Академии Наук СССР	Moscow/Leningrad												
+book	kibriketal1996	Kibrik, Alexandr and Tatevosov, Sergej and Eulenberg, Alexander	Godoberi	1996		Lincom Europa	Munich/Newcastle												
+book	magometov1982	Магометов, Александр А.	Мегебский диалект даргинского языка: исследование и тексты	1982	Mehweb dialect of Dargwa: research and texts	Мецниереба	Tbilisi												
+book	nichols2011	Nichols, Johanna	Ingush grammar	2011		University of California Press	Berkeley/Los Angeles												
+unpublished	polinskydraft2015	Polinsky, Maria	Tsez Syntax: A Description	2015															
+article	rudnev2020	Rudnev, Pavel	Agreeing adpositions in Avar and the directionality-of-valuation debate	2020				829--844				Linguistic Inquiry		4			51		
+book	shiralievsevortyan1971	Ширалиев, Мамедага Ш. and Севортян, Эрванд В.	Грамматика азербайджанского языка (фонетика, морфология, синтаксис)	1971	Azerbaijani grammar (phonetics, morphology, syntax)	Элм	Baku												
+incollection	sosenskaja1999post	Сосенская, Татьяна Б.	Послелог	1999	Postposition	Наследие	Moscow	121--129	Элементы цахурского языка в типологическом освещении	Elements of the Tsakhur language in a typological perspective	Кибрик, Александр Е. and Татевосов, Сергей Г.								
+incollection	sosenskaja2001pp	Сосенская, Татьяна Б.	Послеложная группа	2001	Postpositional phrase	Наследие	Moscow	405--407	Багвалинский язык. Грамматика, тексты, словари.	The Bagvalal language. Grammar, texts, dictionaries	Кибрик, Александр Е. and Лютикова, Екатерина А. and Татевосов, Сергей Г.								
+book	vandenberg1995	van den Berg, Helma	A grammar of Hunzib	1995		Lincom	Munich												
