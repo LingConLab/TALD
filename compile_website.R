@@ -15,7 +15,6 @@ library(tidyverse)
 # Moroz, George, & Verhees, Samira. (2020). East Caucasian villages dataset (Version v2.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.5588473
 
 read_tsv("https://raw.githubusercontent.com/sverhees/master_villages/master/data/villages.tsv") %>% 
-  filter(lang == "Rutul") %>% 
   select(village, rus_village, lat, lon, gltc_lang, gltc_dialect, version) %>% 
   rename(village_dataset_version = version) %>% 
   write_csv("data/villages.csv")
@@ -27,9 +26,9 @@ read_tsv("https://raw.githubusercontent.com/sverhees/master_villages/master/data
 # convert .bib.tsv to .bib -------------------------------------------------
 
 map(list.files("data/orig_bib_tsv", full.names = TRUE), function(bib_tsv){
-  read_tsv(bib_tsv, progress = FALSE, show_col_types = FALSE) %>% 
+  read_tsv(bib_tsv, progress = FALSE, show_col_types = FALSE) %>%  
     mutate(TITLE = ifelse(is.na(TITLE_TRANSLATION), TITLE, str_c(TITLE, " [", TITLE_TRANSLATION, "]")),
-           BOOKTITLE = ifelse(is.na(BOOKTITLE_TRANSLATION), BOOKTITLE, str_c(BOOKTITLE, " [", BOOKTITLE_TRANSLATION, "]"))) %>% 
+           BOOKTITLE = ifelse(is.na(BOOKTITLE_TRANSLATION), BOOKTITLE, str_c(BOOKTITLE, " [", BOOKTITLE_TRANSLATION, "]"))) %>%
     bib2df::df2bib(bib_tsv %>% 
                      str_remove_all("[_\\.]tsv") %>% 
                      str_replace("_bib$", "\\.bib"))
@@ -75,7 +74,7 @@ map(c(list.files("data/orig_bib", full.names = TRUE), "data/bibliography.bib"), 
   } 
 })
 
-# e <- map(c(list.files("data/orig_bib", full.names = TRUE), "data/bibliography.bib"), 
+# e <- map(c(list.files("data/orig_bib", full.names = TRUE), "data/bibliography.bib"),
 #          function(i){
 #            print(i)
 #            RefManageR::ReadBib(i)})

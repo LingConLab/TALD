@@ -3,7 +3,7 @@ library(testthat)
 
 test_that("Test bibkeys in articles:", {
   map_dfr(list.files("../data/orig_rmd", full.names = TRUE), function(rmd){
-    tibble(refs = str_extract_all(read_lines(rmd, progress = FALSE), "@\\w*?\\d{4}"),
+    tibble(refs = str_extract_all(read_lines(rmd, progress = FALSE), "@\\w*?\\d{4}([a-z])?"),
            files = str_remove(rmd, "../data/orig_rmd/"))}) %>% 
       unnest_longer(refs) %>% 
       mutate(refs = str_remove_all(refs, "\\@"),

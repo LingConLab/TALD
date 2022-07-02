@@ -77,6 +77,7 @@ test_that("Test obligatory fields in bibtex tsvs:
 see https://en.wikipedia.org/wiki/BibTeX for the details.", {
   df <- map_dfr(list.files("../data/orig_bib_tsv", full.names = TRUE), function(i){
     read_tsv(i) %>% 
+      mutate_all(function(x) as.character(x)) %>% 
       mutate(filename = i)})
   
   df %>% 
