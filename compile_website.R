@@ -14,6 +14,9 @@ library(tidyverse)
 # CREATE VILLAGE DATASET --------------------------------------------------
 # Moroz, George, & Verhees, Samira. (2020). East Caucasian villages dataset (Version v2.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.5588473
 
+read_tsv("https://raw.githubusercontent.com/sverhees/master_villages/master/data/TALD/tald_villages.tsv") %>% 
+  write_csv("data/tald_villages.сsv")
+
 read_tsv("https://raw.githubusercontent.com/sverhees/master_villages/master/data/villages.tsv") %>% 
   select(village, rus_village, lat, lon, gltc_lang, gltc_dialect, version) %>% 
   rename(village_dataset_version = version) %>% 
