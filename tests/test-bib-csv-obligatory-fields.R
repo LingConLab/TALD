@@ -46,7 +46,7 @@ test_that("Test column names in the fields in bibtex tsvs", {
 test_that("Test CATEGORY field in bibtex tsvs:
 see https://en.wikipedia.org/wiki/BibTeX for the details.", {
   df <- map_dfr(list.files("../data/orig_bib_tsv", full.names = TRUE), function(i){
-    read_tsv(i) %>% 
+    read_tsv(i, show_col_types = FALSE, progress = FALSE) %>% 
       mutate(filename = i)})
   bad_category <- df[which(!(df$CATEGORY %in% c("article", "book", "booklet", 
                                                 "conference", "inbook", 
