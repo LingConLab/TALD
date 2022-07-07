@@ -227,3 +227,27 @@ see https://en.wikipedia.org/wiki/BibTeX for the details.", {
   }
   expect_equal(observed, expected)
 })
+
+
+test_that("Test BIBTEXKEYs", {
+  df <- map_dfr(list.files("../data/orig_bib_tsv", full.names = TRUE), function(i){
+    read_tsv(i, show_col_types = FALSE, progress = FALSE) %>% 
+      mutate(filename = i)})
+  
+  df %>% 
+    filter(str_detect(BIBTEXKEY, "[^a-z0-9-]")) ->
+    wrong_bibtexkeys
+  
+  if(nrow(wrong_bibtexkeys) > 0){
+    observed <- str_c("Revise the BibTeX entry ", 
+                      wrong_bibtexkeys$BIBTEXKEY, 
+                      " from the file ",
+                      str_remove(wrong_bibtexkeys$filename, ".*/"), 
+                      ".")
+    expected <- rep("", nrow(wrong_fields))
+  } else {
+    observed <- "everything is ok"
+    expected <- "everything is ok"
+  }
+  expect_equal(observed, expected)
+})
