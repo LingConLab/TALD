@@ -1,16 +1,11 @@
 ---
 output: html_document
-bibliography: days_fin.bib
 ---
 
 ```{r, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 library(lingglosses)
 library(tidyverse)
-library(bib2df)
-file_name <- "days_fin_bib.tsv"
-read_tsv(file_name, progress = FALSE) %>% 
-  df2bib(file_name %>% str_remove_all("[_\\.]tsv") %>%  str_replace("_bib$", "\\.bib"))
 ```
 
 ## 1.Introduction
