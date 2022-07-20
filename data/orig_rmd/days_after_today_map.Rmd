@@ -87,7 +87,7 @@ villages %>%
 rm(all_data_without_languages, change, feature_dataset_4map, feature_dataset_4map_languages, feature_dataset_4map_rest, villages, genlang)
 ```
 
-## strategy of naming days after tomorrow{.tabset .tabset-fade .tabset-pills #m1} 
+## Strategy of naming days after tomorrow{.tabset .tabset-fade .tabset-pills #m1} 
     
 ### General datapoints {-}
 
@@ -190,7 +190,7 @@ map.feature(alldata_clean_filtered$lang4map,
 
 
     
-## number of distinct terms for days after today{.tabset .tabset-fade .tabset-pills #m2} 
+## Number of distinct terms for days after today{.tabset .tabset-fade .tabset-pills #m2} 
     
 ### General datapoints {-}
 

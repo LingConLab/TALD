@@ -87,7 +87,7 @@ villages %>%
 rm(all_data_without_languages, change, feature_dataset_4map, feature_dataset_4map_languages, feature_dataset_4map_rest, villages, genlang)
 ```
 
-## amount of distinct terms for days before today{.tabset .tabset-fade .tabset-pills #m1} 
+## Amount of distinct terms for days before today{.tabset .tabset-fade .tabset-pills #m1} 
     
 ### General datapoints {-}
 
