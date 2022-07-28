@@ -14,10 +14,12 @@ library(tidyverse)
 # CREATE VILLAGE DATASET --------------------------------------------------
 # Moroz, George, & Verhees, Samira. (2020). East Caucasian villages dataset (Version v2.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.5588473
 
-read_tsv("https://raw.githubusercontent.com/sverhees/master_villages/master/data/TALD/tald_villages.tsv") %>% 
+read_tsv("https://raw.githubusercontent.com/sverhees/master_villages/master/data/TALD/tald_villages.tsv",
+         progress = FALSE, show_col_types = FALSE) %>% 
   write_tsv("data/tald_villages.csv")
 
-read_tsv("https://raw.githubusercontent.com/sverhees/master_villages/master/data/villages.tsv") %>% 
+read_tsv("https://raw.githubusercontent.com/sverhees/master_villages/master/data/villages.tsv",
+         progress = FALSE, show_col_types = FALSE) %>% 
   select(village, rus_village, lat, lon, gltc_lang, gltc_dialect, version) %>% 
   rename(village_dataset_version = version) %>% 
   write_csv("data/villages.csv")
@@ -27,15 +29,21 @@ read_tsv("https://raw.githubusercontent.com/sverhees/master_villages/master/data
 # this should have no warnings 
 
 # convert .bib.tsv to .bib -------------------------------------------------
+library(bib2df)
 
 map(list.files("data/orig_bib_tsv", full.names = TRUE), function(bib_tsv){
   read_tsv(bib_tsv, progress = FALSE, show_col_types = FALSE) %>%  
     mutate(TITLE = ifelse(is.na(TITLE_TRANSLATION), TITLE, str_c(TITLE, " [", TITLE_TRANSLATION, "]")),
            BOOKTITLE = ifelse(is.na(BOOKTITLE_TRANSLATION), BOOKTITLE, str_c(BOOKTITLE, " [", BOOKTITLE_TRANSLATION, "]"))) %>%
-    bib2df::df2bib(bib_tsv %>% 
+    df2bib(bib_tsv %>% 
                      str_remove_all("[_\\.]tsv") %>% 
                      str_replace("_bib$", "\\.bib"))
 })
+
+readxl::read_xlsx("data/biblib.xlsx") %>% 
+  mutate(TITLE = ifelse(is.na(TITLE_TRANSLATION), TITLE, str_c(TITLE, " [", TITLE_TRANSLATION, "]")),
+         BOOKTITLE = ifelse(is.na(BOOKTITLE_TRANSLATION), BOOKTITLE, str_c(BOOKTITLE, " [", BOOKTITLE_TRANSLATION, "]"))) %>%
+  df2bib("data/bibliography.bib")
 
 # convert cyrillic to latin -----------------------------------------------
 library(stringi)
@@ -61,8 +69,6 @@ map(c(list.files("data/orig_bib", full.names = TRUE), "data/bibliography.bib"), 
 
 # embrace uppercased letters with curly braces ----------------------------
 regular_expression <- str_c("((?<=[ \\[\\-\\(\\</])[", str_c(c(LETTERS, "Ž", "Č", "Š", "Ë", "É"), collapse = ""), "])")
-
-library(bib2df)
 
 map(c(list.files("data/orig_bib", full.names = TRUE), "data/bibliography.bib"), function(i){
   if(file.info(i)$size > 7){
@@ -129,7 +135,8 @@ map(rmd_filenames[str_detect(rmd_filenames, "_map.Rmd")], function(i){
   
   read_tsv(str_c("data/orig_table/", 
                  str_remove(str_remove(i, "_map.Rmd"), "\\d{1,}_"),
-                 ".tsv"))  %>% 
+                 ".tsv"),
+           progress = FALSE, show_col_types = FALSE)  %>% 
     select(matches("^value\\d{1,}_")) %>% 
     distinct() %>% 
     pivot_longer(names_to = "values", values_to = "titles", everything()) %>% 
