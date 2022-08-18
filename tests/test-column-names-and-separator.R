@@ -43,6 +43,6 @@ columns listed in `expected_columns`", {
     observed <- "everything is ok"
     expected <- "everything is ok"
   }
+  write_lines(observed, "../test_logs.txt", append = TRUE)
   expect_equal(observed, expected)    
-
 })

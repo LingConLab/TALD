@@ -40,6 +40,7 @@ test_that("Test column names in the fields in bibtex tsvs", {
       observed <- "everything is ok"
       expected <- "everything is ok"
     }
+    write_lines(observed, "../test_logs.txt", append = TRUE)
     expect_equal(observed, expected)
 })
 
@@ -70,7 +71,8 @@ see https://en.wikipedia.org/wiki/BibTeX for the details.", {
     observed <- "everything is ok"
     expected <- "everything is ok"
   }
-  expect_equal(observed, expected)    
+  write_lines(observed, "../test_logs.txt", append = TRUE)
+  expect_equal(observed, expected)  
 })
 
 test_that("Test obligatory fields in bibtex tsvs:
@@ -225,6 +227,7 @@ see https://en.wikipedia.org/wiki/BibTeX for the details.", {
     observed <- "everything is ok"
     expected <- "everything is ok"
   }
+  write_lines(observed, "../test_logs.txt", append = TRUE)
   expect_equal(observed, expected)
 })
 
@@ -249,5 +252,6 @@ test_that("Test BIBTEXKEYs", {
     observed <- "everything is ok"
     expected <- "everything is ok"
   }
+  write_lines(observed, "../test_logs.txt", append = TRUE)
   expect_equal(observed, expected)
 })

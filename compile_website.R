@@ -25,8 +25,10 @@ read_tsv("https://raw.githubusercontent.com/sverhees/master_villages/master/data
   write_csv("data/villages.csv")
 
 # RUN TESTS ----------------------------------------------------------------
+# file.remove("test_logs.txt")
 # testthat::test_dir("tests")
-# this should have no warnings 
+# test_logs <- read_lines("test_logs.txt") 
+# write_lines(test_logs[test_logs != "everything is ok"], "test_logs.txt")
 
 # convert .bib.tsv to .bib -------------------------------------------------
 library(bib2df)

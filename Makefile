@@ -12,4 +12,4 @@ compile:
 clean:
 	rm -rf docs/data docs/html docs/tests docs/data docs/DESCRIPTION docs/LICENSE docs/Makefile
 test:
-	R -q -e 'testthat::test_dir("tests")'	
+	R -q -e 'file.remove("test_logs.txt"); testthat::test_dir("tests"); test_logs <- read_lines("test_logs.txt"); write_lines(test_logs[test_logs != "everything is ok"], "test_logs.txt")'	

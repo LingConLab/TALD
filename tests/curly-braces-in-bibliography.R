@@ -40,5 +40,6 @@ test_that("BibTeX converts all characters in the title to lowercase.
               observed <- "everything is ok"
               expected <- "everything is ok"
             }
+            write_lines(observed, "../test_logs.txt", append = TRUE)
             expect_equal(observed, expected)    
           })

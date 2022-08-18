@@ -15,5 +15,6 @@ I expect that the h1 header `#` is absent in Rmd files.", {
   expected <- str_c(file = list.files("../data/orig_rmd"), 
                     ": 0 wrong hashes")
   
+  write_lines(observed, "../test_logs.txt", append = TRUE)
   expect_equal(observed, expected)
 })

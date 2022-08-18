@@ -33,6 +33,7 @@ match with `../data/tald_villages.csv`", {
     observed <- "everything is ok"
     expected <- "everything is ok"
   }
+  write_lines(observed, "../test_logs.txt", append = TRUE)
   expect_equal(observed, expected)    
 })
 
@@ -70,6 +71,7 @@ I expect that all village dialect names in the `idiom` field of tables in
     observed <- "everything is ok"
     expected <- "everything is ok"
   }
+  write_lines(observed, "../test_logs.txt", append = TRUE)
   expect_equal(observed, expected)    
 })
 
@@ -106,6 +108,7 @@ I expect that all village non-toplevel 3 dialect names in the `idiom` field of t
     observed <- "everything is ok"
     expected <- "everything is ok"
   }
+  write_lines(observed, "../test_logs.txt", append = TRUE)
   expect_equal(observed, expected)    
 })
 
@@ -142,6 +145,7 @@ I expect that all village non-toplevel 2 dialect names in the `idiom` field of t
     observed <- "everything is ok"
     expected <- "everything is ok"
   }
+  write_lines(observed, "../test_logs.txt", append = TRUE)
   expect_equal(observed, expected)    
 })
 
@@ -178,6 +182,7 @@ I expect that all village non-toplevel 1 dialect names in the `idiom` field of t
     observed <- "everything is ok"
     expected <- "everything is ok"
   }
+  write_lines(observed, "../test_logs.txt", append = TRUE)
   expect_equal(observed, expected)    
 })
 
@@ -214,6 +219,7 @@ I expect that all toplevel dialect names in the `idiom` field of tables in
     observed <- "everything is ok"
     expected <- "everything is ok"
   }
+  write_lines(observed, "../test_logs.txt", append = TRUE)
   expect_equal(observed, expected)    
 })
 
@@ -250,6 +256,7 @@ I expect that all standard language names in the `idiom` field of tables in
     observed <- "everything is ok"
     expected <- "everything is ok"
   }
+  write_lines(observed, "../test_logs.txt", append = TRUE)
   expect_equal(observed, expected)    
 })
 
