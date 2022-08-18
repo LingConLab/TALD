@@ -1,0 +1,55 @@
+---
+output: html_document
+#bibliography: numeral_morphology.bib
+---
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(lingglosses)
+library(tidyverse)
+library(bib2df)
+
+# you need to provide the real name, not `chapter_template`
+#file_name <- "numeral_morphology_bib.tsv"
+#read_tsv(file_name, progress = FALSE) %>% 
+#  df2bib(file_name %>% str_remove_all("[_\\.]tsv") %>%  str_replace("_bib$", "\\.bib"))
+```
+
+# Presence of the numeral marker in the numerals ‘2’--‘10’
+
+## 1. Introduction
+
+This chapter is dedicated to the presence of the numeral marker in the numerals ‘2’--‘10’ across the East Caucasian family and neighboring languages.
+
+## 2. Results
+This map shows the presence or absence of the numeral marker in the cardinals ‘2’ to ‘10’. In comparison to other subsets of numerals, numerals from ‘2’ to ‘10’ are most likely to carry numeral markers. If there is a numeral marker at all, these numerals attach it. Exceptions to this rule are found in Khwarshi, Lezgian, and Kubachi Dargwa. In Khwarshi, numerals ‘3’, ‘5’, and ‘20’ are the only numerals to have the marker. In Lezgian, numerals ‘1’ and ‘2’ lack the marker when used adnominally. This means that according to the definition of numeral marker given above, the numeral ‘2’ does not have a marker. In Kubachi Dargwa, only the numeral ‘9’ bears the marker. However, it is not used with the simple ‘9’ itself, only in complex numerals ending with ‘9’:
+
+(@) Kubachi Dargwa [@magometov1963: 134]
+```{r, echo=FALSE}
+gloss_example(transliteration = "ʕu:č’um",
+              glosses = "nine",
+              free_translation = "9"
+)
+```
+```{r, echo=FALSE}
+gloss_example(transliteration = "wic’-nu-k’ʷa:-ja",
+              glosses = "ten-ADD1-eight-ADD2",
+              free_translation = "18"
+)
+```
+```{r, echo=FALSE}
+gloss_example(transliteration = "wic’-nu-ʕu:č’um-al",
+              glosses = "ten-ADD1-eight-NUM",
+              free_translation = "19"
+)
+```
+
+
+### 3. Areal distribution
+The diapason from ‘2’ to ‘10’ is the core diapason of usage of numeral markers. If an East Caucasian language has numeral markers, they are used in this diapason. Due to this, no areal distribution can be shown.
+
+
+## List of glosses
+`r add_gloss("2")`— second person; `r add_gloss("ABS")` — absolutive; `r add_gloss("ADD")`, `r add_gloss("ADD1")`, `r add_gloss("ADD2")` — additive; `r add_gloss("ADJ")` — adjective; `r add_gloss("ATTR")` — attributive; `r add_gloss("CM")` — class marker; `r add_gloss("COM")` — comitative; `r add_gloss("D")` — class D; `r add_gloss("DEM")` — demonstrative; `r add_gloss("DISTR")` — distributive; `r add_gloss("EMPH")` — emphatic particle; `r add_gloss("ERG")` — ergative; `r add_gloss("I")` — class I; `r add_gloss("III")` — class III; `r add_gloss("INT")` — intensifier; `r add_gloss("IV")` — class IV; `r add_gloss("J")` — class IV; `r add_gloss("LAT")` — lative; `r add_gloss("LNK")` — linking suffix; `r add_gloss("M")` — masculine class; `r add_gloss("N")` — neuter class; `r add_gloss("N2")` — second neuter class; `r add_gloss("NUM")` — numeral marker; `r add_gloss("OBL")` — oblique; `r add_gloss("ORD")` — ordinal; `r add_gloss("PFV")` — perfective; `r add_gloss("SG")` — singular
+
+## References

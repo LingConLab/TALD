@@ -1,0 +1,58 @@
+---
+output: html_document
+#bibliography: numeral_morphology.bib
+---
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(lingglosses)
+library(tidyverse)
+library(bib2df)
+
+# you need to provide the real name, not `chapter_template`
+#file_name <- "numeral_morphology_bib.tsv"
+#read_tsv(file_name, progress = FALSE) %>% 
+#  df2bib(file_name %>% str_remove_all("[_\\.]tsv") %>%  str_replace("_bib$", "\\.bib"))
+```
+
+# Presence of the numeral marker in the numeral ‘100’
+
+## 1. Introduction
+
+This chapter is dedicated to the presence of the numeral marker in the numeral ‘100’ and other hundreds across the East Caucasian family and neighboring languages.
+
+## 2. Results
+The numeral ‘100’ does or does not attach the marker in different languages of the East Caucasian family. In some cases, the situation is more complex. In many Dargic languages and in Bagvalal of the Andic branch, the root carries the marker only when the hundred is not multiplied (in ‘100’ but not in ‘200’—’900’):
+
+(@tanty100_200) Tanty Dargwa [@sumbatovalander2014: 94]
+```{r, echo=FALSE}
+gloss_example(transliteration = "darš-al",
+              glosses = "hundred-NUM",
+              free_translation = "100"
+)
+```
+```{r, echo=FALSE}
+gloss_example(transliteration = "č’u-darš",
+              glosses = "two-hundred",
+              free_translation = "200"
+)
+```
+
+In Southern Lezgic languages Budukh and Kryz, the number ‘100’ is expressed vigesimally, derived from roots ‘five’ and ‘twenty’, as shown in (@kryz_100). I suggest that in such cases it is irrelevant to note whether the marker is present since its presence is defined by properties of ‘20’ and shown on a separate map.
+
+(@kryz_100) Alik Kryz [@authier2009: 104]
+```{r, echo=FALSE}
+gloss_example(transliteration = "fu-d ɢaˤa-d",
+              glosses = "five-NUM twenty-NUM",
+              free_translation = "100"
+)
+```
+
+
+### 3. Areal distribution
+Patterns of usage of the marker generally correspond to the large branches. In Lezgic and Tsezic languages, the marker is usually absent, in Avaro-Andic languages it is present. It is also present in Lak and adjacent Archi of the Lezgic branch. Dargic languages showcase diversity, although there is a recurring pattern of having the marker for the numeral ‘100’ but not its multiplicands in this branch.
+
+## List of glosses
+`r add_gloss("2")`— second person; `r add_gloss("ABS")` — absolutive; `r add_gloss("ADD")`, `r add_gloss("ADD1")`, `r add_gloss("ADD2")` — additive; `r add_gloss("ADJ")` — adjective; `r add_gloss("ATTR")` — attributive; `r add_gloss("CM")` — class marker; `r add_gloss("COM")` — comitative; `r add_gloss("D")` — class D; `r add_gloss("DEM")` — demonstrative; `r add_gloss("DISTR")` — distributive; `r add_gloss("EMPH")` — emphatic particle; `r add_gloss("ERG")` — ergative; `r add_gloss("I")` — class I; `r add_gloss("III")` — class III; `r add_gloss("INT")` — intensifier; `r add_gloss("IV")` — class IV; `r add_gloss("J")` — class IV; `r add_gloss("LAT")` — lative; `r add_gloss("LNK")` — linking suffix; `r add_gloss("M")` — masculine class; `r add_gloss("N")` — neuter class; `r add_gloss("N2")` — second neuter class; `r add_gloss("NUM")` — numeral marker; `r add_gloss("OBL")` — oblique; `r add_gloss("ORD")` — ordinal; `r add_gloss("PFV")` — perfective; `r add_gloss("SG")` — singular
+
+## References
