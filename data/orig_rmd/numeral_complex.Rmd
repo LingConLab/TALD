@@ -32,7 +32,7 @@ gloss_example(transliteration = "š:u-nus=ijalda k’i-q’o-jalda anc’-ila š
 )
 ```
 
-In other languages, numeral markers appear on non-final components of a complex numeral as well. This is typical for languages of the Tsezic and Lezgic branches, as shown in examples (@hinuq_53) and (@lezgian_3895). In such languages hundreds, and often crowns as well, preserve the marker.
+In other languages, numeral markers appear on non-final components of a complex numeral as well. This is typical for languages of the Tsezic and Lezgic branches, as shown in examples (@hinuq_53) and (@lezgian_3k). In such languages hundreds, and often crowns as well, preserve the marker.
 
 (@hinuq_53) Hinuq [@forker2013: 394]
 ```{r, echo=FALSE}
@@ -42,7 +42,7 @@ gloss_example(transliteration = "q’o-**no** qu=no oc’e-**no** ɬo-**no**",
 )
 ```
 
-(@lezgian_3895) Standard Lezgian [@haspelmath1993: 231]
+(@lezgian_3k) Standard Lezgian [@haspelmath1993: 231]
 ```{r, echo=FALSE}
 gloss_example(transliteration = "pu-**d** aɣzur-ni myӡy-**d** wiš-ni q’u-**d**-qa-**n**-ni c’u-wa-**d**",
               glosses = "three-**NUM** thousand-ADD eight-**NUM** hundred-ADD two-**NUM**-twenty-**NUM**-ADD ten-five-**NUM**",
