@@ -10,6 +10,6 @@ docs/%.html: %.Rmd
 compile:
 	Rscript code/compile_website.R
 clean:
-	rm -rf docs/data docs/html docs/tests docs/data docs/DESCRIPTION docs/LICENSE docs/Makefile docs/code
+	rm -rf docs/data docs/html docs/tests docs/data docs/DESCRIPTION docs/LICENSE docs/Makefile docs/code docs/test_logs.txt
 test:
 	Rscript code/test_and_write_logs.R
