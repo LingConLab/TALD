@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="Maksim Melenchenko" />
+
+
+<title>Root for ‘hundred’</title>
+
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="site_libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="site_libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+<style type="text/css">
+/* for pandoc --citeproc since 2.11 */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="css/styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">TALD</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="./about.html">About</a>
+</li>
+<li>
+  <a href="./features.html">
+    <span class="fa fa-atlas"></span>
+     
+    Features
+  </a>
+</li>
+<li>
+  <a href="./changes.html">Changes</a>
+</li>
+<li>
+  <a href="./references.html">References</a>
+</li>
+<li>
+  <a href="./team.html">Team</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Root for ‘hundred’</h1>
+<h4 class="author">Maksim Melenchenko</h4>
+<h4 class="date">Last update: August 2022</h4>
+
+</div>
+
+
+<p>See <a href="047_numeral_root_hundred_map.html">data and
+maps</a>.</p>
+<div id="section"
+class="section level1 tabset tabset-fade tabset-pills unnumbered">
+<h1 class="tabset tabset-fade tabset-pills unnumbered"></h1>
+<div id="plain-text" class="section level2 unnumbered hasAnchor">
+<h2 class="unnumbered hasAnchor">Plain text<a href="#plain-text"
+class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Melenchenko, M. (2022). “Root for ‘hundred’”. In: <em>Typological
+Atlas of the Languages of Daghestan (TALD)</em>. Ed. by M. Daniel, K.
+Filatov, G. Moroz, T. Mukhin, C. Naccarato and S. Verhees. Moscow:
+Linguistic Convergence Laboratory, NRU HSE. DOI: 10.5281/zenodo.6807070.
+<a href="http://lingconlab.ru/dagatlas"
+class="uri">http://lingconlab.ru/dagatlas</a>.</p>
+</div>
+<div id="bibtex" class="section level2 unnumbered hasAnchor">
+<h2 class="unnumbered hasAnchor">BibTeX<a href="#bibtex"
+class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<pre><code>@incollection{melenchenko2022,
+  title = {Root for ‘hundred’},
+  author = {Maksim Melenchenko},
+  year = {2022},
+  editor = {Michael Daniel and Konstantin Filatov and George Moroz and Timofey Mukhin and Chiara Naccarato and Samira Verhees},
+  publisher = {Linguistic Convergence Laboratory, NRU HSE},
+  address = {Moscow},
+  booktitle = {Typological Atlas of the Languages of Daghestan (TALD)},
+  url = {http://lingconlab.ru/dagatlas},
+  doi = {10.5281/zenodo.6807070},
+}</code></pre>
+<p>Root for ‘hundred’</p>
+</div>
+</div>
+<div id="introduction" class="section level1 hasAnchor" number="1">
+<h1 class="hasAnchor"><span class="header-section-number">1</span> 1.
+Introduction<a href="#introduction" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p>This chapter is dedicated to the distribution of possible roots for
+‘hundred’. The root of the lexeme ‘hundred’ has common origins in the
+majority of East Caucasian languages. The North Caucasian etymology
+database by Starostin and Starostin [@-starostinstarostin] reconstructs
+the roots for the proto-languages of the Avar-Andic, Lezgic, Dargic, and
+Lak branches, and also the common proto-Daghestanian root. However, some
+lects express the meaning ‘hundred’ differently than other languages of
+their branch, and some languages are not mentioned in the database.</p>
+</div>
+<div id="results" class="section level1 hasAnchor" number="2">
+<h1 class="hasAnchor"><span class="header-section-number">2</span> 2.
+Results<a href="#results" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p>For example, one widespread version of the root is
+<em>bešan</em>-/<em>bušun</em>-/<em>beɣan</em>- (in different
+variations), which Starostin and Starostin reconstruct as **bišo-nV*. It
+is present in all Andic and most Tsezic languages. Consider the
+following example from Godoberi:</p>
+<ol class="example" style="list-style-type: decimal">
+<li>Godoberi <span class="citation">(<a href="#ref-tatevosov1996"
+role="doc-biblioref">Tatevosov, 1996</a>: 29)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>bešenu-da</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+hundred-<span class="smallcaps">num</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘100’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>Lezgic languages use another realization of the root with variations
+<em>wiš</em>/<em>warž</em>/<em>waˤš</em>, etc., reconstructed as
+**waˤlš:<em>. The exceptions are Budukh and Kryz, which use a vigesimal
+derivation for ‘hundred’ (shown in (1)). The same is attested in
+Tsova-Tush of the Nakh branch, however, in this case the native
+vigesimal derivation is being ousted by the Georgian borrowing
+</em>asi*.</p>
+<ol start="2" class="example" style="list-style-type: decimal">
+<li>Budukh <span class="citation">(<a href="#ref-talibov2007"
+role="doc-biblioref">Talibov, 2007</a>: 145)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>fu-q͡χa-b</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+five-twenty-<span class="smallcaps">cm</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘100’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>The roots mentioned in the North Caucasian etymology database for
+Agul, Archi, and Udi, have initial /<em>b</em>/ instead of /<em>w</em>/.
+For Agul and Udi this is confirmed by the grammars’ data. In the case of
+Agul, however, <span class="citation">(<a href="#ref-magometov1970"
+role="doc-biblioref">Magometov, 1970</a>: 94)</span> gives the root
+<em>werš</em>.</p>
+<p>Dargic languages use the root **darš:* which has almost no phonetic
+variation within the branch. Lak uses a similar root <em>t:urš</em>:</p>
+<ol start="3" class="example" style="list-style-type: decimal">
+<li>Standard Lak <span class="citation">(<a href="#ref-zhirkov1955"
+role="doc-biblioref">Žirkov, 1955</a>: 53)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>t:urš-w.a</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+hundred-<span class="smallcaps">iii</span>.<span
+class="smallcaps">num</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘100’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>The situation with the root ‘hundred’ in the Avar language is
+interesting. It coincides with the word <em>nus</em> ‘knife’ and does
+not visibly resemble the common Avar-Andic roots. It is present in all
+Avar dialects for which I have data, including Zaqatala Avar, which is
+spoken in Northwestern Azerbaijan. <span class="citation">(<a
+href="#ref-starostinstarostin" role="doc-biblioref">Starostin &amp;
+Starostin, n.d.</a>)</span> claim that this root is cognate with the
+Avar-Andic root and gives the following etymological chain: <em>nus</em>
+&lt; *<em>bVns</em> &lt; **bišVnV*-. The word ‘knife’ is considered a
+homonym which is “of course, quite different etymologically”:</p>
+<ol start="4" class="example" style="list-style-type: decimal">
+<li>Zaqatala Avar <span class="citation">(<a href="#ref-saidova2007"
+role="doc-biblioref">Saidova, 2007</a>: 112)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>nos-ojatta</em>
+</td>
+<td style="text-align:left;">
+<em>co</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+hundred-<span class="smallcaps">lnk</span>
+</td>
+<td style="text-align:left;">
+one
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘101’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>The same happens in Hunzib and Bezhta, two Eastern Tsezic languages,
+as shown in (5). The word ‘knife’ is used for ‘hundred’, even though the
+root itself differs from the one in Avar. <span class="citation">(<a
+href="#ref-starostinstarostin" role="doc-biblioref">Starostin &amp;
+Starostin, n.d.</a>)</span> describe this as ‘the result of
+folk-etymological analysis of Avar [homonymous] <em>nus</em>’,
+concluding that <em>č’it’</em> ‘obtained the additional meaning
+‘hundred’ under Avar influence’.</p>
+<ol start="5" class="example" style="list-style-type: decimal">
+<li>Hunzib <span class="citation">(<a href="#ref-vandenberg1995"
+role="doc-biblioref">Berg, 1995</a>: 69)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>hə̃s=č’it’</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+one=hundred
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘100’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>Note that unlike in any other language of the East Caucasian family,
+the word ‘hundred’ in Hunzib and Bezhta is used with the obligatory
+numeral ‘one’. This is also an indication of borrowing. <span
+class="citation">(<a href="#ref-hurford1987"
+role="doc-biblioref">Hurford, 1987</a>: 99)</span> speaks of a
+cross-linguistic rule he calls ‘1-deletion’: the numeral ‘one’ is not
+used with bases and, often, with powers of bases. For hundreds this
+rule, indeed, applies to all East Caucasian languages except these
+two.</p>
+<p>Examples of the roots of Nakh languages are not given in the <span
+class="citation">(<a href="#ref-starostinstarostin"
+role="doc-biblioref">Starostin &amp; Starostin, n.d.</a>)</span>
+database. Chechen and Ingush of the Nakh branch use a similar root which
+I mark on the map by its Chechen realisation, <em>bʕe:</em>:</p>
+<ol start="6" class="example" style="list-style-type: decimal">
+<li>Standard Ingush <span class="citation">(<a href="#ref-nichols2011"
+role="doc-biblioref">Nichols, 2011</a>: 210)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>bʕɛ̯æ:’</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+hundred
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘100’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>Khinalug is not given in the <span class="citation">(<a
+href="#ref-starostinstarostin" role="doc-biblioref">Starostin &amp;
+Starostin, n.d.</a>)</span> database, either. This language uses the
+root pan, which does not bear obvious resemblance to the cognate roots
+mentioned above.</p>
+<div id="areal-distribution" class="section level2 hasAnchor"
+number="2.1">
+<h2 class="hasAnchor"><span class="header-section-number">2.1</span> 3.
+Areal distribution<a href="#areal-distribution" class="anchor-section"
+aria-label="Anchor link to header"></a></h2>
+<p>The distribution of the roots corresponds to the genealogical
+division of the family. The main types are described above.</p>
+</div>
+</div>
+<div id="list-of-glosses" class="section level1 hasAnchor" number="3">
+<h1 class="hasAnchor"><span class="header-section-number">3</span> List
+of glosses<a href="#list-of-glosses" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p><span class="smallcaps">2</span>— second person; <span
+class="smallcaps">abs</span> — absolutive; <span
+class="smallcaps">add</span>, <span class="smallcaps">add1</span>, <span
+class="smallcaps">add2</span> — additive; <span
+class="smallcaps">adj</span> — adjective; <span
+class="smallcaps">attr</span> — attributive; <span
+class="smallcaps">cm</span> — class marker; <span
+class="smallcaps">com</span> — comitative; <span
+class="smallcaps">d</span> — class D; <span class="smallcaps">dem</span>
+— demonstrative; <span class="smallcaps">distr</span> — distributive;
+<span class="smallcaps">emph</span> — emphatic particle; <span
+class="smallcaps">erg</span> — ergative; <span
+class="smallcaps">i</span> — class I; <span class="smallcaps">iii</span>
+— class III; <span class="smallcaps">int</span> — intensifier; <span
+class="smallcaps">iv</span> — class IV; <span class="smallcaps">j</span>
+— class IV; <span class="smallcaps">lat</span> — lative; <span
+class="smallcaps">lnk</span> — linking suffix; <span
+class="smallcaps">m</span> — masculine class; <span
+class="smallcaps">n</span> — neuter class; <span
+class="smallcaps">n2</span> — second neuter class; <span
+class="smallcaps">num</span> — numeral marker; <span
+class="smallcaps">obl</span> — oblique; <span
+class="smallcaps">ord</span> — ordinal; <span
+class="smallcaps">pfv</span> — perfective; <span
+class="smallcaps">sg</span> — singular</p>
+</div>
+<div id="references" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">References<a href="#references"
+class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="refs" class="references csl-bib-body hanging-indent"
+line-spacing="2">
+<div id="ref-vandenberg1995" class="csl-entry">
+Berg, H. van den. (1995). <em>A grammar of <span>H</span>unzib</em>.
+Munich: Lincom.
+</div>
+<div id="ref-hurford1987" class="csl-entry">
+Hurford, J. R. (1987). <em>Language and <span>N</span>umber: The
+emergence of a cognitive system</em>. Oxford: Basil Blackwell.
+</div>
+<div id="ref-magometov1970" class="csl-entry">
+Magometov, A. A. (1970). <em>Agulʹskij jazyk [<span>A</span>gul]</em>.
+Tbilisi: Mecniereba.
+</div>
+<div id="ref-nichols2011" class="csl-entry">
+Nichols, J. (2011). <em>Ingush grammar</em>. Berkeley/Los Angeles:
+University of California Press.
+</div>
+<div id="ref-saidova2007" class="csl-entry">
+Saidova, P. A. (2007). <em>Zakatalʹskij dialekt avarskogo jazyka
+[<span>T</span>he <span>Z</span>aqatala dialect of
+<span>A</span>var]</em>. Makhachkala: IJaLI.
+</div>
+<div id="ref-starostinstarostin" class="csl-entry">
+Starostin, Sergei, &amp; Starostin, G. (n.d.). <em>Tower of
+<span>B</span>abel: Etymological database</em>. Retrieved from <a
+href="https://starlingdb.org">https://starlingdb.org</a>
+</div>
+<div id="ref-talibov2007" class="csl-entry">
+Talibov, B. B. (2007). <em>Buduxskij jazyk [<span>B</span>udukh]</em>.
+Moscow: Akademija.
+</div>
+<div id="ref-tatevosov1996" class="csl-entry">
+Tatevosov, S. (1996). Attributives. In <em>Attributives</em> (p. 20—35).
+Munich/Newcastle: Lincom Europa.
+</div>
+<div id="ref-zhirkov1955" class="csl-entry">
+Žirkov, L. I. (1955). <em>Lakskij jazyk [<span>L</span>ak]</em>. Moscow:
+Akademija.
+</div>
+</div>
+</div>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+</head>
+
+<body>
+    <div class="footer-basic">
+        <footer>
+            
+            <div class='lic'><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br /><i>Typological Atlas of the languages of Daghestan </i> (<i>TALD</i>) is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+            <div class="social"><a href="https://github.com/LingConLab/TALD" target="_blank"><span class="iconify" data-icon="octicon:logo-github-16"></span></a></div>
+            </div>
+            
+            <p class="copyright">2020<script>new Date().getFullYear()>2020&&document.write("-"+new Date().getFullYear());</script>,  Linguistic Convergence Laboratory, HSE University</p>
+        </footer>
+    </div>
+    <script type="text/javascript" src="./js/links.js"></script> <!--это чтобы ссылки открывались в новом окне -->
+</body>
+
+</html>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
