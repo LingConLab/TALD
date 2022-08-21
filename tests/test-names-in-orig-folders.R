@@ -25,7 +25,7 @@ names as in the `../data/contributers.xlsx`", {
   bibs <- str_c(c(expected_texts, expected_mt), ".bib")[which(!(str_c(c(expected_texts, expected_mt), ".bib") %in% list.files("../data/orig_bib")))]
   
   
-  if(bibs != ""){
+  if(length(bibs) > 0){
     observed <- str_c("There is no file", bibs, " in the ../data/orig_table", sep = " ", collapse = "; ")
     expected <- rep("", length(bibs))
   } else {

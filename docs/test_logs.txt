@@ -1,0 +1,16 @@
+The wrong toplevel dialect name Ak-Nogai in the file numeral_ordinals.tsv
+numeral_class.Rmd: 3 wrong hashes
+numeral_complex.Rmd: 3 wrong hashes
+numeral_crowns_endings.Rmd: 3 wrong hashes
+numeral_crowns_ten.Rmd: 3 wrong hashes
+numeral_distributives.Rmd: 3 wrong hashes
+numeral_hundred.Rmd: 3 wrong hashes
+numeral_morphology.Rmd: 3 wrong hashes
+numeral_one.Rmd: 3 wrong hashes
+numeral_ordinals.Rmd: 3 wrong hashes
+numeral_origin.Rmd: 3 wrong hashes
+numeral_regularity.Rmd: 3 wrong hashes
+numeral_root_hundred.Rmd: 3 wrong hashes
+numeral_thousand.Rmd: 3 wrong hashes
+numeral_twenty.Rmd: 3 wrong hashes
+numeral_twoten.Rmd: 3 wrong hashes

@@ -255,3 +255,4 @@ test_that("Test BIBTEXKEYs", {
   write_lines(observed, "../test_logs.txt", append = TRUE)
   expect_equal(observed, expected)
 })
+
