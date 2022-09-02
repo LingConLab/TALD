@@ -1,27 +1,8 @@
----
-output: html_document
-#bibliography: numeral_morphology.bib
----
 
-```{r, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-library(lingglosses)
-library(tidyverse)
-library(bib2df)
-
-# you need to provide the real name, not `chapter_template`
-#file_name <- "numeral_morphology_bib.tsv"
-#read_tsv(file_name, progress = FALSE) %>% 
-#  df2bib(file_name %>% str_remove_all("[_\\.]tsv") %>%  str_replace("_bib$", "\\.bib"))
-```
-
-# Special endings for crowns from 30 to 90
-
-## 1. Introduction
-
+## Introduction
 In East Caucasian languages crowns from 30 to 90 often have unique endings instead of the usual numeral marker. This chapter is dedicated to such cases.
 
-## 2. Results
+## Results
 For example, in Bagvalal (Andic) the final -*da*, which is present in lower and higher numerals, is absent in crowns from 30 to 90. Compare the following examples:
 
 (@) Bagvalal [@tatevosov2001numerals: 155]
@@ -74,11 +55,10 @@ The numeral ‘20’ is expressed with a simple root in the majority of East Cau
 
 If one numeral in the subset ‘30’—‘90’ is derived differently, it is ignored as an exception. This is the case, for example, for Avar, where cardinals from 40 to 90 are derived vigesimally but ‘30’ has its own root: *ɬeber=go*.
 
-
-### 3. Areal distribution
+## Distribution
 Special endings in crowns are a distinctive feature of several Andic languages (Tindi, Bagvalal, and Godoberi), several Lezgic languages (Tabasaran, Tsakhur, and Rutul), and the majority of Dargic varieties.
 
 ## List of glosses
-`r add_gloss("2")`— second person; `r add_gloss("ABS")` — absolutive; `r add_gloss("ADD")`, `r add_gloss("ADD1")`, `r add_gloss("ADD2")` — additive; `r add_gloss("ADJ")` — adjective; `r add_gloss("ATTR")` — attributive; `r add_gloss("CM")` — class marker; `r add_gloss("COM")` — comitative; `r add_gloss("D")` — class D; `r add_gloss("DEM")` — demonstrative; `r add_gloss("DISTR")` — distributive; `r add_gloss("EMPH")` — emphatic particle; `r add_gloss("ERG")` — ergative; `r add_gloss("I")` — class I; `r add_gloss("III")` — class III; `r add_gloss("INT")` — intensifier; `r add_gloss("IV")` — class IV; `r add_gloss("J")` — class IV; `r add_gloss("LAT")` — lative; `r add_gloss("LNK")` — linking suffix; `r add_gloss("M")` — masculine class; `r add_gloss("N")` — neuter class; `r add_gloss("N2")` — second neuter class; `r add_gloss("NUM")` — numeral marker; `r add_gloss("OBL")` — oblique; `r add_gloss("ORD")` — ordinal; `r add_gloss("PFV")` — perfective; `r add_gloss("SG")` — singular
+`r add_gloss("1/2")`— class 1 or 2; `r add_gloss("NUM")` — numeral marker
 
 ## References

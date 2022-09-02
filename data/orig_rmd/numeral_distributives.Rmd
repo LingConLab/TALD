@@ -1,29 +1,10 @@
----
-output: html_document
-#bibliography: numeral_morphology.bib
----
 
-```{r, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-library(lingglosses)
-library(tidyverse)
-library(bib2df)
-
-# you need to provide the real name, not `chapter_template`
-#file_name <- "numeral_morphology_bib.tsv"
-#read_tsv(file_name, progress = FALSE) %>% 
-#  df2bib(file_name %>% str_remove_all("[_\\.]tsv") %>%  str_replace("_bib$", "\\.bib"))
-```
-
-# Derivation of distributives
-
-## 1. Introduction
-
+## Introduction
 This chapter is dedicated to patterns of derivation of distributive numerals across the East Caucasian family and neighboring languages.
 
 Many languages have specific means to express distributivity. The meaning of distributivity can be shown with the following English example: John and Bill carried three suitcases. This sentence exemplifies the semantic relationship between a phrase containing a numeral, which is called ‘share’, and another phrase, or ‘key’. The relationship thus can be expressed as ‘share’ per ‘key’, as in three suitcases [per person] (if suitcases are the ‘key’) or three suitcases [three by three] (if the verb carried is the ‘key’). In many languages across the world, including East Caucasian, numerals used in the ‘share’ phrase belong to a separate numeral series [@gil2013]. The first interpretation is more popular in the sources on East Caucasian languages, and the two different meanings are rarely distinguished.
 
-## 2. Results
+## Results
 In East Caucasian languages distributive numerals are usually derived with reduplication, exemplified by (@itsari_two_each). According to [@gil2013], this mean of derivation is very common cross-linguistically.
 
 (@itsari_two_each) Itsari Dargwa [@sumbatovamutalov2003: 47]
@@ -72,10 +53,10 @@ gloss_example(transliteration = "hos-t’a~hos-t’a",
 
 In languages of other families presented in the area, reduplication as a means to derive distributives is attested in Azerbaijani, Judeo-Tat and Georgian. Kumyk, Nogai, and Armenian use suffixes.
 
-### 3. Areal distribution
+## Distribution
 With rare exceptions, East Caucasian languages use reduplication as the main derivational pattern. Usage of additional suffixes is widespread, although not as much in the Dargic and Nakh branches. Neighboring languages outside of the family also use reduplication, yet not as often as East Caucasian languages.
 
 ## List of glosses
-`r add_gloss("2")`— second person; `r add_gloss("ABS")` — absolutive; `r add_gloss("ADD")`, `r add_gloss("ADD1")`, `r add_gloss("ADD2")` — additive; `r add_gloss("ADJ")` — adjective; `r add_gloss("ATTR")` — attributive; `r add_gloss("CM")` — class marker; `r add_gloss("COM")` — comitative; `r add_gloss("D")` — class D; `r add_gloss("DEM")` — demonstrative; `r add_gloss("DISTR")` — distributive; `r add_gloss("EMPH")` — emphatic particle; `r add_gloss("ERG")` — ergative; `r add_gloss("I")` — class I; `r add_gloss("III")` — class III; `r add_gloss("INT")` — intensifier; `r add_gloss("IV")` — class IV; `r add_gloss("J")` — class IV; `r add_gloss("LAT")` — lative; `r add_gloss("LNK")` — linking suffix; `r add_gloss("M")` — masculine class; `r add_gloss("N")` — neuter class; `r add_gloss("N2")` — second neuter class; `r add_gloss("NUM")` — numeral marker; `r add_gloss("OBL")` — oblique; `r add_gloss("ORD")` — ordinal; `r add_gloss("PFV")` — perfective; `r add_gloss("SG")` — singular
+`r add_gloss("DISTR")` — distributive; `r add_gloss("NUM")` — numeral marker
 
 ## References

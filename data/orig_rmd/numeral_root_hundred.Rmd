@@ -1,27 +1,8 @@
----
-output: html_document
-#bibliography: numeral_morphology.bib
----
 
-```{r, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-library(lingglosses)
-library(tidyverse)
-library(bib2df)
-
-# you need to provide the real name, not `chapter_template`
-#file_name <- "numeral_morphology_bib.tsv"
-#read_tsv(file_name, progress = FALSE) %>% 
-#  df2bib(file_name %>% str_remove_all("[_\\.]tsv") %>%  str_replace("_bib$", "\\.bib"))
-```
-
-# Root for ‘hundred’
-
-## 1. Introduction
-
+## Introduction
 This chapter is dedicated to the distribution of possible roots for ‘hundred’. The root of the lexeme ‘hundred’ has common origins in the majority of East Caucasian languages. The North Caucasian etymology database by Starostin and Starostin [@-starostinstarostin] reconstructs the roots for the proto-languages of the Avar-Andic, Lezgic, Dargic, and Lak branches, and also the common proto-Daghestanian root. However, some lects express the meaning ‘hundred’ differently than other languages of their branch, and some languages are not mentioned in the database.
 
-## 2. Results
+## Results
 For example, one widespread version of the root is *bešan*-/*bušun*-/*beɣan*- (in different variations), which Starostin and Starostin reconstruct as **bišo-nV*. It is present in all Andic and most Tsezic languages. Consider the following example from Godoberi:
 
 (@godoberi_100) Godoberi [@tatevosov1996: 29]
@@ -32,7 +13,7 @@ gloss_example(transliteration = "bešenu-da",
 )
 ```
 
-Lezgic languages use another realization of the root with variations *wiš*/*warž*/*waˤš*, etc., reconstructed as **waˤlš:*. The exceptions are Budukh and Kryz, which use a vigesimal derivation for ‘hundred’ (shown in (@godoberi_100)). The same is attested in Tsova-Tush of the Nakh branch, however, in this case the native vigesimal derivation is being ousted by the Georgian borrowing *asi*.
+Lezgic languages use another realization of the root with variations *wiš*/*warž*/*waˤš*, etc., reconstructed as \**waˤš:*. The exceptions are Budukh and Kryz, which use a vigesimal derivation for ‘hundred’ (shown in (@godoberi_100)). The same is attested in Tsova-Tush of the Nakh branch, however, in this case the native vigesimal derivation is being ousted by the Georgian borrowing *asi*.
 
 (@) Budukh [@talibov2007: 145]
 ```{r, echo=FALSE}
@@ -44,7 +25,7 @@ gloss_example(transliteration = "fu-q͡χa-b",
 
 The roots mentioned in the North Caucasian etymology database for Agul, Archi, and Udi, have initial /*b*/ instead of /*w*/. For Agul and Udi this is confirmed by the grammars’ data. In the case of Agul, however, [@magometov1970: 94] gives the root *werš*.
 
-Dargic languages use the root **darš:* which has almost no phonetic variation within the branch. Lak uses a similar root *t:urš*:
+Dargic languages use the root \**darš:* which has almost no phonetic variation within the branch. Lak uses a similar root *t:urš*:
 
 (@) Standard Lak [@zhirkov1955: 53]
 ```{r, echo=FALSE}
@@ -54,7 +35,7 @@ gloss_example(transliteration = "t:urš-w.a",
 )
 ```
 
-The situation with the root ‘hundred’ in the Avar language is interesting. It coincides with the word *nus* ‘knife’ and does not visibly resemble the common Avar-Andic roots. It is present in all Avar dialects for which I have data, including Zaqatala Avar, which is spoken in Northwestern Azerbaijan. [@starostinstarostin] claim that this root is cognate with the Avar-Andic root and gives the following etymological chain: *nus* < \**bVns* < **bišVnV*-. The word ‘knife’ is considered a homonym which is “of course, quite different etymologically”:
+The situation with the root ‘hundred’ in the Avar language is interesting. It coincides with the word *nus* ‘knife’ and does not visibly resemble the common Avar-Andic roots. It is present in all Avar dialects for which I have data, including Zaqatala Avar, which is spoken in Northwestern Azerbaijan. [@starostinstarostin] claim that this root is cognate with the Avar-Andic root and gives the following etymological chain: *nus* < \**bVns* < \**bišVnV*-. The word ‘knife’ is considered a homonym which is “of course, quite different etymologically”:
 
 (@) Zaqatala Avar [@saidova2007: 112]
 ```{r, echo=FALSE}
@@ -88,10 +69,10 @@ gloss_example(transliteration = "bʕɛ̯æ:’",
 
 Khinalug is not given in the [@starostinstarostin] database, either. This language uses the root pan, which does not bear obvious resemblance to the cognate roots mentioned above.
 
-### 3. Areal distribution
+## Distribution
 The distribution of the roots corresponds to the genealogical division of the family. The main types are described above.
 
 ## List of glosses
-`r add_gloss("2")`— second person; `r add_gloss("ABS")` — absolutive; `r add_gloss("ADD")`, `r add_gloss("ADD1")`, `r add_gloss("ADD2")` — additive; `r add_gloss("ADJ")` — adjective; `r add_gloss("ATTR")` — attributive; `r add_gloss("CM")` — class marker; `r add_gloss("COM")` — comitative; `r add_gloss("D")` — class D; `r add_gloss("DEM")` — demonstrative; `r add_gloss("DISTR")` — distributive; `r add_gloss("EMPH")` — emphatic particle; `r add_gloss("ERG")` — ergative; `r add_gloss("I")` — class I; `r add_gloss("III")` — class III; `r add_gloss("INT")` — intensifier; `r add_gloss("IV")` — class IV; `r add_gloss("J")` — class IV; `r add_gloss("LAT")` — lative; `r add_gloss("LNK")` — linking suffix; `r add_gloss("M")` — masculine class; `r add_gloss("N")` — neuter class; `r add_gloss("N2")` — second neuter class; `r add_gloss("NUM")` — numeral marker; `r add_gloss("OBL")` — oblique; `r add_gloss("ORD")` — ordinal; `r add_gloss("PFV")` — perfective; `r add_gloss("SG")` — singular
+`r add_gloss("CM")` — class marker; `r add_gloss("III")` — class III; `r add_gloss("LNK")` — linking suffix; `r add_gloss("NUM")` — numeral marker
 
 ## References

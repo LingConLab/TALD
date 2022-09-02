@@ -1,27 +1,8 @@
----
-output: html_document
-#bibliography: numeral_morphology.bib
----
 
-```{r, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-library(lingglosses)
-library(tidyverse)
-library(bib2df)
-
-# you need to provide the real name, not `chapter_template`
-#file_name <- "numeral_morphology_bib.tsv"
-#read_tsv(file_name, progress = FALSE) %>% 
-#  df2bib(file_name %>% str_remove_all("[_\\.]tsv") %>%  str_replace("_bib$", "\\.bib"))
-```
-
-# Origin of the ‘ten’ component in crowns
-
-## 1. Introduction
-
+## Introduction
 This chapter is dedicated to the origin of the root which denotes ‘ten’ in crowns across the East Caucasian family.
 
-## 2. Results
+## Results
 Crowns from 30 to 90 often use specific roots as components for ‘ten’. In most languages these roots originate in distorted roots for the numeral ‘ten’, preserving the ejective consonant /*c’*/ in variations of this root across languages. For example, for Godoberi [@tatevosov1996: 29] reports that «both [roots for ‘ten’ in numerals 30—99] *c’a* and *c’ali* are likely to be etymologically related to *hac’a* ‘10’», even though «it seems to be rather awkward to treat them as allomorphs of *hac’a*». This map shows the distribution of possible origins of the ‘ten’ component used in crowns.
 
 In Hunzib and Bezhta of the Tsezic branch the root is *rig*-/*jig*-, which are seemingly cognates. The origin of this root is unknown:
@@ -44,11 +25,10 @@ gloss_example(transliteration = "diɬ-**ij**-‹t’›u",
 )
 ```
 
-
-### 3. Areal distribution
+## Distribution
 The majority of East Caucasian languages use the roots with the consonant /*c’*/. For exceptions to this, no areal distribution can be shown.
 
 ## List of glosses
-`r add_gloss("2")`— second person; `r add_gloss("ABS")` — absolutive; `r add_gloss("ADD")`, `r add_gloss("ADD1")`, `r add_gloss("ADD2")` — additive; `r add_gloss("ADJ")` — adjective; `r add_gloss("ATTR")` — attributive; `r add_gloss("CM")` — class marker; `r add_gloss("COM")` — comitative; `r add_gloss("D")` — class D; `r add_gloss("DEM")` — demonstrative; `r add_gloss("DISTR")` — distributive; `r add_gloss("EMPH")` — emphatic particle; `r add_gloss("ERG")` — ergative; `r add_gloss("I")` — class I; `r add_gloss("III")` — class III; `r add_gloss("INT")` — intensifier; `r add_gloss("IV")` — class IV; `r add_gloss("J")` — class IV; `r add_gloss("LAT")` — lative; `r add_gloss("LNK")` — linking suffix; `r add_gloss("M")` — masculine class; `r add_gloss("N")` — neuter class; `r add_gloss("N2")` — second neuter class; `r add_gloss("NUM")` — numeral marker; `r add_gloss("OBL")` — oblique; `r add_gloss("ORD")` — ordinal; `r add_gloss("PFV")` — perfective; `r add_gloss("SG")` — singular
+`r add_gloss("ADD")` — additive; `r add_gloss("CM")` — class marker; `r add_gloss("NUM")` — numeral marker
 
 ## References

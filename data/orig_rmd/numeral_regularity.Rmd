@@ -1,27 +1,8 @@
----
-output: html_document
-#bibliography: numeral_morphology.bib
----
 
-```{r, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-library(lingglosses)
-library(tidyverse)
-library(bib2df)
-
-# you need to provide the real name, not `chapter_template`
-#file_name <- "numeral_morphology_bib.tsv"
-#read_tsv(file_name, progress = FALSE) %>% 
-#  df2bib(file_name %>% str_remove_all("[_\\.]tsv") %>%  str_replace("_bib$", "\\.bib"))
-```
-
-# Regularity of the numeral marker
-
-## 1. Introduction
-
+## Introduction
 This chapter is dedicated to the regularity of numeral markers across the East Caucasian family and neighboring languages.
 
-## 2. Results
+## Results
 The numeral markers can attach to different subsets of lexemes in different East Caucasian languages. The presence or absence of the marker usually depends on the numeral lexeme, although sometimes the composition of the numeral must be taken into consideration as well. In some languages the marker is absent in non-final elements of a complex numeral (see map 10). To define different subsets of numerals, I use the lexicon of Calude, Verkerk [-@caludeverkerk2016: 5], who call numbers ‘11’—‘19’ **teens**, ‘20’—‘90’ **crowns**, ‘100’—‘900’ **hundreds**, and ‘1 000’—‘9 000’ **thousands**.
 
 Numeral markers appear more often in smaller numerals. It is typical for a language to have markers attached to monomorphemic cardinals ‘2’—‘10’ and ‘20’, sometimes ‘100’. Higher numerals are less likely to have a marker. In some languages crowns from 30 to 90 and/or hundreds from 200 to 900 constitute their own subset which does not attach the marker, whereas numerals ‘10’, ‘20’, and ‘100’ do attach it. This is characteristic of Dargic and some Andic languages. In other languages the marker appears on all cardinals (at least, no exceptions are known). This is the case for some Andic languages, Archi, Lak, and Mehweb Dargwa.
@@ -48,12 +29,10 @@ gloss_example(transliteration = "hoč’ʷa=ja-hac’a=ja",
 )
 ```
 
-
-### 3. Areal distribution
+## Distribution
 Patterns of regularity can be associated with certain phyla, e.g., Dargic languages mostly use the numeral marker with numerals from 2 to 20, whereas in Avaro-Andic languages the scope of its usage extends from 2 to 1,000. Other languages make smaller groups, e.g., Lak and Archi, which use the markers with the maximum scope from 1 to 1,000.
 
-
 ## List of glosses
-`r add_gloss("2")`— second person; `r add_gloss("ABS")` — absolutive; `r add_gloss("ADD")`, `r add_gloss("ADD1")`, `r add_gloss("ADD2")` — additive; `r add_gloss("ADJ")` — adjective; `r add_gloss("ATTR")` — attributive; `r add_gloss("CM")` — class marker; `r add_gloss("COM")` — comitative; `r add_gloss("D")` — class D; `r add_gloss("DEM")` — demonstrative; `r add_gloss("DISTR")` — distributive; `r add_gloss("EMPH")` — emphatic particle; `r add_gloss("ERG")` — ergative; `r add_gloss("I")` — class I; `r add_gloss("III")` — class III; `r add_gloss("INT")` — intensifier; `r add_gloss("IV")` — class IV; `r add_gloss("J")` — class IV; `r add_gloss("LAT")` — lative; `r add_gloss("LNK")` — linking suffix; `r add_gloss("M")` — masculine class; `r add_gloss("N")` — neuter class; `r add_gloss("N2")` — second neuter class; `r add_gloss("NUM")` — numeral marker; `r add_gloss("OBL")` — oblique; `r add_gloss("ORD")` — ordinal; `r add_gloss("PFV")` — perfective; `r add_gloss("SG")` — singular
+`r add_gloss("M")` — masculine class; `r add_gloss("NUM")` — numeral marker
 
 ## References

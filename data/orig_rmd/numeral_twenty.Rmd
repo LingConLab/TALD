@@ -1,27 +1,8 @@
----
-output: html_document
-#bibliography: numeral_morphology.bib
----
 
-```{r, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-library(lingglosses)
-library(tidyverse)
-library(bib2df)
-
-# you need to provide the real name, not `chapter_template`
-#file_name <- "numeral_morphology_bib.tsv"
-#read_tsv(file_name, progress = FALSE) %>% 
-#  df2bib(file_name %>% str_remove_all("[_\\.]tsv") %>%  str_replace("_bib$", "\\.bib"))
-```
-
-# Presence of the numeral marker in the numeral ‘20’
-
-## 1. Introduction
-
+## Introduction
 This chapter is dedicated to the presence of the numeral marker in the numeral ‘20’ across the East Caucasian family and neighboring languages.
 
-## 2. Results
+## Results
 In the majority of the East Caucasian languages, the number ‘20’ is expressed with a monomorphemic root, as shown in (@n_akhvakh_20). In some of these languages, it carries the numeral marker, in some it does not.
 
 (@n_akhvakh_20) Northern Akhvakh [@magomedbekova1967: 40]
@@ -64,11 +45,10 @@ gloss_example(transliteration = "q’o-no qu=no",
 )
 ```
 
-
-### 3. Areal distribution
+## Distribution
 Many languages of the family use numeral markers with ‘20’. No areal distribution can be shown.
 
 ## List of glosses
-`r add_gloss("2")`— second person; `r add_gloss("ABS")` — absolutive; `r add_gloss("ADD")`, `r add_gloss("ADD1")`, `r add_gloss("ADD2")` — additive; `r add_gloss("ADJ")` — adjective; `r add_gloss("ATTR")` — attributive; `r add_gloss("CM")` — class marker; `r add_gloss("COM")` — comitative; `r add_gloss("D")` — class D; `r add_gloss("DEM")` — demonstrative; `r add_gloss("DISTR")` — distributive; `r add_gloss("EMPH")` — emphatic particle; `r add_gloss("ERG")` — ergative; `r add_gloss("I")` — class I; `r add_gloss("III")` — class III; `r add_gloss("INT")` — intensifier; `r add_gloss("IV")` — class IV; `r add_gloss("J")` — class IV; `r add_gloss("LAT")` — lative; `r add_gloss("LNK")` — linking suffix; `r add_gloss("M")` — masculine class; `r add_gloss("N")` — neuter class; `r add_gloss("N2")` — second neuter class; `r add_gloss("NUM")` — numeral marker; `r add_gloss("OBL")` — oblique; `r add_gloss("ORD")` — ordinal; `r add_gloss("PFV")` — perfective; `r add_gloss("SG")` — singular
+`r add_gloss("ADD")` — additive; `r add_gloss("CM")` — class marker; `r add_gloss("NUM")` — numeral marker
 
 ## References
