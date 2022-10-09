@@ -31,12 +31,12 @@ book	abdullaev1954	Абдуллаев, Сайгид Н.	Грамматика д�
 book	talibov2007	Талибов, Букар Б.	Будухский язык	2007	Budukh	Академия	Moscow														
 book	ibragimov2004	Ибрагимов, Гарун Х.	Рутульский язык	2004	Rutul	Народы Дагестана	Makhachkala														
 incollection	nasledskovanetkachev2021	Polina Nasledskova and Ivan Netkachev	Ordinal numerals	2021		Linguistic Convergence Laboratory, NRU HSE	Moscow		Typological Atlas of the Languages of Daghestan (TALD)		Michael Daniel and Konstantin Filatov and George Moroz and Timofey Mukhin and Chiara Naccarato and Samira Verhees						http://lingconlab.ru/dagatlas				
-chapter	martzloff2017	Vincent Martzloff	The derivation history of ordinal numbers in Armenian, Georgian and other Caucasian languages	2017		ИЯЛИ	Makhachkala		Historical Linguistics of the Caucasus: Book of abstracts. Paris, 12–14 April, 2017												
+incollection	martzloff2017	Vincent Martzloff	The derivation history of ordinal numbers in Armenian, Georgian and other Caucasian languages	2017		ИЯЛИ	Makhachkala		Historical Linguistics of the Caucasus: Book of abstracts. Paris, 12–14 April, 2017												
 incollection	stolzveselinova2013	Thomas Stolz and Ljuba N. Veselinova	Ordinal Numerals	2013		Max Planck Institute for Evolutionary Anthropology	Leipzig		The World Atlas of Language Structures Online		Matthew S. Dryer and Martin Haspelmath						https://wals.info/chapter/53				
 incollection	gil2013	David Gil	Distributive Numerals	2013		Max Planck Institute for Evolutionary Anthropology	Leipzig		The World Atlas of Language Structures Online		Matthew S. Dryer and Martin Haspelmath						https://wals.info/chapter/54				
 book	sumbatovamutalov2003	Sumbatova, Nina R. and Mutalov, Rasul O.	A Grammar of Icari Dargwa	2003		Lincom Europa	Munich														
 phdthesis	khalilova2009	Khalilova, Zaira	A grammar of Khwarshi	2009											University of Leiden						
-other	starostinstarostin	Starostin, Sergei, and Starostin, George	Tower of Babel: etymological database														https://starlingdb.org				
+misc	starostinstarostin	Starostin, Sergei, and Starostin, George	Tower of Babel: etymological database														https://starlingdb.org				
 book	magometov1970	Магометов, Александр А.	Агульский язык	1970	Agul	Мецниереба	Tbilisi														
 book	zhirkov1955	Жирков, Лев И.	Лакский язык	1955	Lak	Академия	Moscow														
 book	saidova2007	Саидова, Патимат А.	Закатальский диалект аварского языка	2007	The Zaqatala dialect of Avar	ИЯЛИ	Makhachkala											Samira Verhees			
@@ -44,6 +44,3 @@ book	hurford1987	Hurford, James R.	Language and Number: the emergence of a cogni
 article	dobrushina2007	Добрушина Нина Роландовна	Многоязычие в Дагестане, или зачем человеку три языка	2007								Социологический журнал		1							
 book	bokarev1949	Бокарёв, Анатолий А.	Очерк грамматики чамалинского языка	1949	Grammar sketch of Chamalal	Издательство Академии наук СССР	Moscow/Leningrad														
 unpublished	ganenkov2021draft	Ganenkov, Dmitry	Chirag Dargwa	2021																	
-unpublished	zakirovapc		Aigul Zakirova, p.c.																		
-unpublished	dobrushinapc		Nina Dobrushina, p.c.																		
-unpublished	maisakpc		Timur Maisak, p.c.																		
