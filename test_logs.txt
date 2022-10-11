@@ -1,16 +1,76 @@
+The BibTeX entry moroz2012 from the file numeral_class_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry moroz2012 from the file numeral_class_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry forker2015 from the file numeral_class_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry chumakina2021 from the file numeral_class_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry dobrushina2007 from the file numeral_class_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry moroz2012 from the file numeral_complex_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry moroz2012 from the file numeral_complex_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry forker2015 from the file numeral_complex_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry chumakina2021 from the file numeral_complex_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry dobrushina2007 from the file numeral_complex_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry moroz2012 from the file numeral_crowns_endings_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry moroz2012 from the file numeral_crowns_endings_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry forker2015 from the file numeral_crowns_endings_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry chumakina2021 from the file numeral_crowns_endings_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry dobrushina2007 from the file numeral_crowns_endings_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry moroz2012 from the file numeral_crowns_ten_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry moroz2012 from the file numeral_crowns_ten_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry forker2015 from the file numeral_crowns_ten_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry chumakina2021 from the file numeral_crowns_ten_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry dobrushina2007 from the file numeral_crowns_ten_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry moroz2012 from the file numeral_distributives_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry moroz2012 from the file numeral_distributives_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry forker2015 from the file numeral_distributives_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry chumakina2021 from the file numeral_distributives_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry dobrushina2007 from the file numeral_distributives_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry moroz2012 from the file numeral_hundred_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry moroz2012 from the file numeral_hundred_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry forker2015 from the file numeral_hundred_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry chumakina2021 from the file numeral_hundred_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry dobrushina2007 from the file numeral_hundred_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry moroz2012 from the file numeral_morphology_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry moroz2012 from the file numeral_morphology_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry forker2015 from the file numeral_morphology_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry chumakina2021 from the file numeral_morphology_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry dobrushina2007 from the file numeral_morphology_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry moroz2012 from the file numeral_one_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry moroz2012 from the file numeral_one_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry forker2015 from the file numeral_one_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry chumakina2021 from the file numeral_one_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry dobrushina2007 from the file numeral_one_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry moroz2012 from the file numeral_ordinals_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry moroz2012 from the file numeral_ordinals_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry forker2015 from the file numeral_ordinals_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry chumakina2021 from the file numeral_ordinals_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry dobrushina2007 from the file numeral_ordinals_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry moroz2012 from the file numeral_origin_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry moroz2012 from the file numeral_origin_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry forker2015 from the file numeral_origin_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry chumakina2021 from the file numeral_origin_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry dobrushina2007 from the file numeral_origin_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry moroz2012 from the file numeral_regularity_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry moroz2012 from the file numeral_regularity_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry forker2015 from the file numeral_regularity_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry chumakina2021 from the file numeral_regularity_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry dobrushina2007 from the file numeral_regularity_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry moroz2012 from the file numeral_root_hundred_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry moroz2012 from the file numeral_root_hundred_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry forker2015 from the file numeral_root_hundred_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry chumakina2021 from the file numeral_root_hundred_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry dobrushina2007 from the file numeral_root_hundred_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry moroz2012 from the file numeral_thousand_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry moroz2012 from the file numeral_thousand_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry forker2015 from the file numeral_thousand_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry chumakina2021 from the file numeral_thousand_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry dobrushina2007 from the file numeral_thousand_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry moroz2012 from the file numeral_twenty_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry moroz2012 from the file numeral_twenty_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry forker2015 from the file numeral_twenty_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry chumakina2021 from the file numeral_twenty_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry dobrushina2007 from the file numeral_twenty_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry moroz2012 from the file numeral_twoten_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry moroz2012 from the file numeral_twoten_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry forker2015 from the file numeral_twoten_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry chumakina2021 from the file numeral_twoten_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry dobrushina2007 from the file numeral_twoten_bib.tsv has an empty value in the obligatory field VOLUME
 The wrong toplevel dialect name Ak-Nogai in the file numeral_ordinals.tsv
-numeral_class.Rmd: 3 wrong hashes
-numeral_complex.Rmd: 3 wrong hashes
-numeral_crowns_endings.Rmd: 3 wrong hashes
-numeral_crowns_ten.Rmd: 3 wrong hashes
-numeral_distributives.Rmd: 3 wrong hashes
-numeral_hundred.Rmd: 3 wrong hashes
-numeral_morphology.Rmd: 3 wrong hashes
-numeral_one.Rmd: 3 wrong hashes
-numeral_ordinals.Rmd: 3 wrong hashes
-numeral_origin.Rmd: 3 wrong hashes
-numeral_regularity.Rmd: 3 wrong hashes
-numeral_root_hundred.Rmd: 3 wrong hashes
-numeral_thousand.Rmd: 3 wrong hashes
-numeral_twenty.Rmd: 3 wrong hashes
-numeral_twoten.Rmd: 3 wrong hashes
