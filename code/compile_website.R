@@ -474,7 +474,7 @@ map(seq_along(rmd_filenames), function(i){
            "',"),
     paste0(" author='", str_replace(features$author[i], ",", " and"), "',"),
     paste0(" year='", features$created_date[i], "',"),
-    " editor= 'Daniel, Michael  and Filatov, Konstantin and Moroz, George and Mukhin, Timofey and Naccarato, Chiara and Verhees, Samira',",
+    " editor= 'Daniel, Michael  and Filatov, Konstantin and Maisak, Timur and Moroz, George and Mukhin, Timofey and Naccarato, Chiara and Verhees, Samira',",
     " publisher='Linguistic Convergence Laboratory, NRU HSE',",
     " address='Moscow',",
     " booktitle= 'Typological Atlas of the Languages of Daghestan (TALD)',",
