@@ -11,7 +11,7 @@ or BibTeX:
 ```
 @book{tald2022,
   title = {Typological Atlas of the Languages of Daghestan (TALD), v. 1.0.0},
-  author = {Michael Daniel and Konstantin Filatov and Maisak, Timur and George Moroz and Timofey Mukhin and Chiara Naccarato and Samira Verhees},
+  author = {Michael Daniel and Konstantin Filatov and Timur Maisak and George Moroz and Timofey Mukhin and Chiara Naccarato and Samira Verhees},
   year = {2022},
   publisher = {Linguistic Convergence Laboratory, NRU HSE},
   address = {Moscow},
