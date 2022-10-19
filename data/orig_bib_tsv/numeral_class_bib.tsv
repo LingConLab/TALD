@@ -1,11 +1,11 @@
 CATEGORY	BIBTEXKEY	AUTHOR	TITLE	YEAR	TITLE_TRANSLATION	PUBLISHER	ADDRESS	PAGES	BOOKTITLE	BOOKTITLE_TRANSLATION	EDITOR	JOURNAL	VOLUME	NUMBER	SCHOOL	NOTE	URL	CONTRIBUTOR	date_added	COMMENT	correction_notes
-article	moroz2012	Мороз, Г. А.	Модели образования количественных числительных и устройство языковых систем счисления языков Кавказа	2012		РГГУ	Москва														
+unpublished	moroz2012	Мороз, Г. А.	Модели образования количественных числительных и устройство языковых систем счисления языков Кавказа	2012		РГГУ	Москва														
 book	mikailov1967	Микайлов, Казбек Ш.	Арчинский язык	1967	Archi	ИЯЛИ	Makhachkala														
-article	forker2015	Forker, Diana	Towards a semantic map for intensifying particles: Evidence from Avar	2015		STUF - Language Typology and Universals		485–513					68	4							
+article	forker2015	Forker, Diana	Towards a semantic map for intensifying particles: Evidence from Avar	2015		De Gruyter Mouton	Berlin	485–513				STUF - Language Typology and Universals	68	4							
 incollection	maisakchumakina2001	Майсак, Тимур А. and Чумакина, Марина Э.	Дискурсивные частицы	2001	Discursive particles	Наследие	Moscow	702--723	Багвалинский язык. Грамматика, тексты, словари	The Bagvalal language. Grammar, texts, dictionaries	Кибрик, Александр Е. and Лютикова, Екатерина А. and Татевосов, Сергей Г.										
 unpublished	forker2020	Forker, Diana	Avar grammar sketch	2020		Oxford University Press	Oxford		Oxford Handbook of Languages of the Caucasus		Polinsky, Maria										
 unpublished	mukhin2020	Mukhin, Timofey	Numerals in Kina Rutul	2020		Higher School of Economics															
-article	chumakina2021	Чумакина, М. Э.	Несогласовательные функции согласовательных показателей в дагестанских языках	2021				131—148				Rhema. Рема		2							
+article	chumakina2021	Чумакина, М. Э.	Несогласовательные функции согласовательных показателей в дагестанских языках	2021				131—148				Rhema. Рема	2								
 book	magomedbekova1967	Магомедбекова, Загидат М.	Ахвахский язык	1967	Akhvakh	Мецниереба	Tbilisi														
 book	kibrik1999	Кибрик, Александр Е.	Элементы цахурского языка в типологическом освещении	1999	Elements of Tsakhur grammar in a typological perspective	Наследие	Moscow											Samira Verhees	28.01.2021		
 book	forker2013	Forker, Diana	A grammar of Hinuq	2013		De Gruyter Mouton	Berlin/Boston														
@@ -41,6 +41,6 @@ book	magometov1970	Магометов, Александр А.	Агульский
 book	zhirkov1955	Жирков, Лев И.	Лакский язык	1955	Lak	Академия	Moscow														
 book	saidova2007	Саидова, Патимат А.	Закатальский диалект аварского языка	2007	The Zaqatala dialect of Avar	ИЯЛИ	Makhachkala											Samira Verhees			
 book	hurford1987	Hurford, James R.	Language and Number: the emergence of a cognitive system	1987		Basil Blackwell	Oxford														
-article	dobrushina2007	Добрушина Нина Роландовна	Многоязычие в Дагестане, или зачем человеку три языка	2007								Социологический журнал		1							
+article	dobrushina2007	Добрушина Нина Роландовна	Многоязычие в Дагестане, или зачем человеку три языка	2007								Социологический журнал	1								
 book	bokarev1949	Бокарёв, Анатолий А.	Очерк грамматики чамалинского языка	1949	Grammar sketch of Chamalal	Издательство Академии наук СССР	Moscow/Leningrad														
 unpublished	ganenkov2021draft	Ganenkov, Dmitry	Chirag Dargwa	2021																	
