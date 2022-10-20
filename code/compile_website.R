@@ -78,8 +78,8 @@ map(c(list.files("data/orig_bib", full.names = TRUE), "data/bibliography.bib"), 
     mutate(TITLE = ifelse(!is.na(TITLE), 
                           str_replace_all(TITLE, regular_expression, "\\{\\1\\}"),
                           NA),
-           BOOKTITLE = ifelse(!is.na(TITLE),
-                              str_replace_all(TITLE, regular_expression, "\\{\\1\\}"),
+           BOOKTITLE = ifelse(!is.na(BOOKTITLE),
+                              str_replace_all(BOOKTITLE, regular_expression, "\\{\\1\\}"),
                               NA)) %>% 
     df2bib(i)
   } 
