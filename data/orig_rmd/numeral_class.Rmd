@@ -61,13 +61,13 @@ In some languages, class slots are integrated into some of the numeral roots, wh
 (@) Standard Ingush [@nichols2011: 197--198]
 ```{r, echo=FALSE}
 gloss_example(transliteration = "**j**.iʔ jiʃa",
-              glosses = "**J**.four sister(J)",
+              glosses = "**J**.four {sister(J)}",
               free_translation = "four sisters"
 )
 ```
 ```{r, echo=FALSE}
 gloss_example(transliteration = "**d**.iʔ sahwat",
-              glosses = "**D**.four hour(D)",
+              glosses = "**D**.four {hour(D)}",
               free_translation = "four hours"
 )
 ```
