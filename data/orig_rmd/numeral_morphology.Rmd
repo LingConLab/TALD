@@ -1,3 +1,49 @@
+---
+title: "Numeral morphology"
+author: "Maksim Melenchenko"
+date: 'Last update: August 2022'
+bibliography: "data/orig_bib/numeral_morphology.bib"
+link-citations: true
+csl: apa.csl
+output:
+  html_document:
+    number_sections: true
+    anchor_sections: true
+    pandoc_args: --shift-heading-level-by=-1
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, comment = '')
+library(lingglosses)
+```
+
+```{r}
+library(RefManageR)
+BibOptions(check.entries = FALSE, style = 'text', bib.style = 'authoryear')
+article_citation <- BibEntry(bibtype = 'Incollection', 
+ key='melenchenko2022',
+ title='Numeral Morphology',
+ author='Melenchenko, Maksim',
+ year='2022',
+ editor= 'Daniel, Michael and Filatov, Konstantin and Moroz, George and Mukhin, Timofey and Naccarato, Chiara and Verhees, Samira',
+ publisher='Linguistic Convergence Laboratory, NRU HSE',
+ address='Moscow',
+ booktitle= 'Typological Atlas of the Languages of Daghestan (TALD)',
+ url='http://lingconlab.ru/dagatlas')
+```
+
+## {.tabset .tabset-fade .tabset-pills -} 
+
+### Plain text {-}
+```{r, results = 'asis'}
+print(article_citation, .opts = list(style = 'text'))
+```
+
+### BibTeX {-}
+
+```{r}
+print(article_citation, .opts = list(style = 'Bibtex'))
+```
 
 ## Introduction
 This chapter focuses on several topics in the derivation of numerals in the languages of Daghestan. Most of them have not been studied from a typological perspective, although similar topics have been considered in [@moroz2012] on the material of languages of the Caucasus.
@@ -25,20 +71,20 @@ Apart from East Caucasian languages, the same data were collected for some of th
 ## Results
 The following minor chapters present an overview of several features of numeral morphology across the East Caucasian family:
 
-(1) Origin of the numeral marker
-(2) Regularity of the numeral marker
-(3) Presence of the numeral marker in the numeral ‘1’
-(4) Presence of the numeral marker in the numerals ‘2’—‘10’
-(5) Presence of the numeral marker in the numeral ‘20’
-(6) Presence of the numeral marker in the numeral ‘100’
-(7) Presence of the numeral marker in the numeral ‘1 000’
-(8) Special endings for crowns from 30 to 90
-(9) Origin of the ‘ten’ component in crowns
-(10) Presence of the numeral marker in complex numerals
-(11) Presence of a class suffix in the numeral marker
-(12) Presence of the numeral marker in ordinals
-(13) Derivation of distributives
-(14) Root for ‘hundred’
+(1) [Origin of the numeral marker](035_numeral_origin.html)
+(2) [Regularity of the numeral marker](036_numeral_regularity.html)
+(3) [Presence of the numeral marker in the numeral ‘1’](037_numeral_one.html)
+(4) [Presence of the numeral marker in the numerals ‘2’—‘10’](038_numeral_twoten.html)
+(5) [Presence of the numeral marker in the numeral ‘20’](039_numeral_twenty.html)
+(6) [Presence of the numeral marker in the numeral ‘100’](040_numeral_hundred.html)
+(7) [Presence of the numeral marker in the numeral ‘1 000’](041_numeral_thousand.html)
+(8) [Special endings for crowns from 30 to 90](042_numeral_crowns_endings.html)
+(9) [Origin of the ‘ten’ component in crowns](043_numeral_crowns_ten.html)
+(10) [Presence of the numeral marker in complex numerals](044_numeral_complex.html)
+(11) [Presence of a class suffix in the numeral marker](045_numeral_class.html)
+(12) [Presence of the numeral marker in ordinals](046_numeral_ordinals.html)
+(13) [Derivation of distributives](047_numeral_distributives.html)
+(14) [Root for ‘hundred’](048_numeral_root_hundred.html)
 
 ## Distribution
 In general, each branch of the family (Avar-Andic, Tsezic, Dargic, Lak, Lezgic, Nakh) is easily distinguished by several features. The following overview of distinctive features of branches and specific regions is not comprehensive and describes the general trends, leaving out many small exceptions.
@@ -51,7 +97,7 @@ Tsezic languages are spoken in a small region to the west of the Avar-Andic area
 
 Languages of the Lezgic branch are scattered across the southeastern part of the region. They are often in opposition to the Avar-Andic branch in terms of the values of the features. The numeral marker in Lezgic languages consists of a class suffix (which can be petrified, as in Lezgian). This type of marker is usually present in non-final positions in complex numerals and is present in the numeral ‘1’ in most of these languages.
 
-Dargic languages form a relatively homogeneous branch, in which languages / lects usually have the same values of the features. They are spoken in a large area in central Daghestan. Their distinctive peculiarity is the presence of the numeral marker in the numeral ‘100’ but not in other hundreds (e. g. example (@tanty100_200)). Similarly to the Avar-Andic branch, in Dargic languages numeral markers do not have class suffixes, they are not used in non-final positions of complex numerals, and they are not used with the numeral ‘1’. Like many Andic languages, in crowns Dargic languages use special suffixes instead of the general numeral markers.
+Dargic languages form a relatively homogeneous branch, in which languages / lects usually have the same values of the features. They are spoken in a large area in central Daghestan. Their distinctive peculiarity is the presence of the numeral marker in the numeral ‘100’ but not in other hundreds (e.g. example (@tanty100_200)). Similarly to the Avar-Andic branch, in Dargic languages numeral markers do not have class suffixes, they are not used in non-final positions of complex numerals, and they are not used with the numeral ‘1’. Like many Andic languages, in crowns Dargic languages use special suffixes instead of the general numeral markers.
 
 Lak forms its own branch of the family, and is sometimes united with Dargic. The roots for ‘hundred’ are very similar in Lak and Dargic languages. However, Lak has most in common with Archi, a small Lezgic language, geographically isolated from the rest of the branch. Being in constant contact with Avar and Lak settlements, before the russification in the XXth century many Archi speakers were fluent in these languages [@dobrushina2007: 107]. The influence of Lak is evident in the number of features in which Lak and Archi have the same value. In both languages, the numeral marker is also used as an emphatic particle and includes a class marker. It is used in all the numerals from ‘1’ to the thousands, while it is absent in non-final positions in complex numerals. Some of these features distinguish Archi from other Lezgic languages.
 
