@@ -31,13 +31,13 @@ gloss_example(transliteration = "q’ux-du did-æ",
 ```
 ```{r, echo=FALSE}
 gloss_example(transliteration = "xib-**ɨr** gada",
-              glosses = "three-**I** boy(I)",
+              glosses = "three-**I** {boy(I)}",
               free_translation = "three boys (absolutive)"
 )
 ```
 ```{r, echo=FALSE}
 gloss_example(transliteration = "xib-**dɨ** gadij-eræ",
-              glosses = "three-**OBL** boy(I)-ERG",
+              glosses = "three-**OBL** {boy(I)}-ERG",
               free_translation = "three boys (ergative)"
 )
 ```
