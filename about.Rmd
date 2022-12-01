@@ -239,7 +239,7 @@ The chapters and datasets in the Atlas are created by researchers specializing i
 
 If you would like to contribute a chapter and / or data to the Atlas because you are studying a certain topic in the languages of Daghestan, or you are a student looking for an internship, do not hesitate to contact us! You can find our contact info under [Team](http://lingconlab.ru/dagatlas/team.html).
 
-To get a better idea of our methodology and what you will have to do if you decide to become a contributor, see our [Contributor Manual](https://sverhees.github.io/dagatlas_masterskaya/index.html).
+To get a better idea of our methodology and what you will have to do if you decide to become a contributor, see our [Contributor Manual](https://lingconlab.github.io/TALD_manual/).
 
 ## Access to data
 
