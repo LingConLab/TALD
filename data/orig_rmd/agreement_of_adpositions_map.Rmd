@@ -400,7 +400,7 @@ map.feature(alldata_clean_filtered$lang4map,
 
 ## Datatable
 
-[Download](https://raw.githubusercontent.com/LingConLab/TALD/master/data/orig_table/agreement_of_adpositions.tsv) the whole dataset.
+[Download](https://raw.githubusercontent.com/LingConLab/TALD/master/data/orig_table/agreement_of_adpositions.tsv) the whole dataset and [its description](https://raw.githubusercontent.com/LingConLab/TALD/master/data/md_description/agreement_of_adpositions.md).
 
 ```{r}
 bib <- RefManageR::ReadBib(file = '../bibliography.bib')

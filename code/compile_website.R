@@ -366,7 +366,9 @@ map.feature(alldata_clean_filtered$lang4map,
 ",
 str_c('[Download](https://raw.githubusercontent.com/LingConLab/TALD/master/data/orig_table/', 
       str_remove(str_remove(i, "_map.Rmd"), "\\d{1,}_"),
-      '.tsv) the whole dataset.'),
+      '.tsv) the whole dataset and [its description](https://raw.githubusercontent.com/LingConLab/TALD/master/data/md_description/',
+      str_remove(str_remove(i, "_map.Rmd"), "\\d{1,}_"),
+      '.md).'),
 "
 ```{r}
 bib <- RefManageR::ReadBib(file = '../bibliography.bib')

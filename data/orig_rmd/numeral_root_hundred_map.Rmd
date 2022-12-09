@@ -194,7 +194,7 @@ map.feature(alldata_clean_filtered$lang4map,
 
 ## Datatable
 
-[Download](https://raw.githubusercontent.com/LingConLab/TALD/master/data/orig_table/numeral_root_hundred.tsv) the whole dataset.
+[Download](https://raw.githubusercontent.com/LingConLab/TALD/master/data/orig_table/numeral_root_hundred.tsv) the whole dataset and [its description](https://raw.githubusercontent.com/LingConLab/TALD/master/data/md_description/numeral_root_hundred.md).
 
 ```{r}
 bib <- RefManageR::ReadBib(file = '../bibliography.bib')
