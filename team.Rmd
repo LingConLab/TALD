@@ -10,17 +10,21 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-The project was designed by [Michael Daniel](https://orcid.org/0000-0002-2091-5713), [Konstantin Filatov](https://orcid.org/0000-0002-0706-9161), [George Moroz](https://orcid.org/0000-0003-1990-6083), [Timofey Mukhin](https://orcid.org/0000-0002-4637-0627), [Chiara Naccarato](https://orcid.org/0000-0003-0017-6316), and [Samira Verhees](https://orcid.org/0000-0002-3479-7420).
-
-[Chiara Naccarato](https://orcid.org/0000-0003-0017-6316) and [Samira Verhees](https://orcid.org/0000-0002-3479-7420) coordinate the workshop for students.
+The project was designed by [Michael Daniel](https://orcid.org/0000-0002-2091-5713), [Konstantin Filatov](https://orcid.org/0000-0002-0706-9161), [Timur Maisak](https://orcid.org/0000-0001-6794-0978), [George Moroz](https://orcid.org/0000-0003-1990-6083), [Timofey Mukhin](https://orcid.org/0000-0002-4637-0627), [Chiara Naccarato](https://orcid.org/0000-0003-0017-6316), and [Samira Verhees](https://orcid.org/0000-0002-3479-7420).
 
 [The TALD project](https://ilcl.hse.ru/en/projects/) would not have been realized in its present form without the advice and assistance of a number of people.
 
-Our consultants are: Marina Chumakina, [Nina Dobrushina](https://orcid.org/0000-0002-4559-4274), Steven Kaye, [Yuri Koryakov](https://orcid.org/0000-0003-3962-3312), [Timur Maisak](https://orcid.org/0000-0001-6794-0978), [Aigul Zakirova](https://orcid.org/0000-0003-4780-2732).
+Our consultants are: Marina Chumakina, [Nina Dobrushina](https://orcid.org/0000-0002-4559-4274), Steven Kaye, [Yuri Koryakov](https://orcid.org/0000-0003-3962-3312), [Aigul Zakirova](https://orcid.org/0000-0003-4780-2732).
 
-People who have contributed to the atlas in the past or are currently working on a topic include: Denis Arsentjev, Katerina Dagkou, [Michael Daniel](https://orcid.org/0000-0002-2091-5713), Timofey Dedov, [Nina Dobrushina](https://orcid.org/0000-0002-4559-4274), Fyodor Golosov, Violetta Ivanova, Daria Izmalkova, Inga Kartozia, [Evgeniya Klyagina](https://orcid.org/0000-0003-4720-8039), [Timur Maisak](https://orcid.org/0000-0001-6794-0978), Ekaterina Matyukhina, Maksim Melenchenko, [George Moroz](https://orcid.org/0000-0003-1990-6083), [Timofey Mukhin](https://orcid.org/0000-0002-4637-0627), [Chiara Naccarato](https://orcid.org/0000-0003-0017-6316), Polina Nasledskova, Ivan Netkachev, Aleksandra Nogina, Rita Popova, Varvara Popova, Samira Ochs, [Manuel Padilla-Moyano](https://orcid.org/0000-0002-2051-2885), [Anastasia Panova](https://orcid.org/0000-0003-0793-671X), [Tatiana Philippova](https://orcid.org/0000-0002-9594-0833), Ilya Sadakov, Pasha Skripkina, Sara Zadykian.
+People who have contributed to the atlas in the past or are currently working on a topic include: Anastasia Alekseeva, Denis Arsentjev, Katerina Dagkou, [Michael Daniel](https://orcid.org/0000-0002-2091-5713), Timofey Dedov, [Nina Dobrushina](https://orcid.org/0000-0002-4559-4274), Maria Godunova, Fyodor Golosov, Anastasia Ivanova, Violetta Ivanova, Daria Izmalkova, Inga Kartozia, [Evgeniya Klyagina](https://orcid.org/0000-0003-4720-8039), [Timur Maisak](https://orcid.org/0000-0001-6794-0978), Ekaterina Matyukhina, Maksim Melenchenko, [George Moroz](https://orcid.org/0000-0003-1990-6083), [Timofey Mukhin](https://orcid.org/0000-0002-4637-0627), [Chiara Naccarato](https://orcid.org/0000-0003-0017-6316), Polina Nasledskova, Ivan Netkachev, Aleksandra Nogina, Rita Popova, Varvara Popova, Samira Ochs, [Manuel Padilla-Moyano](https://orcid.org/0000-0002-2051-2885), [Anastasia Panova](https://orcid.org/0000-0003-0793-671X), [Tatiana Philippova](https://orcid.org/0000-0002-9594-0833), Ilya Sadakov, [Elena Shvedova](https://orcid.org/0000-0002-1823-1582), Pasha Skripkina, Sara Zadykian.
+
+[Chiara Naccarato](https://orcid.org/0000-0003-0017-6316) coordinates the workshop for students.
 
 [George Moroz](https://orcid.org/0000-0003-1990-6083) is responsible for the TALD website.
+
+[Chiara Naccarato](https://orcid.org/0000-0003-0017-6316) and [Konstantin Filatov](https://orcid.org/0000-0002-0706-9161) are responsible for chapter editing.
+
+[Elena Shvedova](https://orcid.org/0000-0002-1823-1582) is responsible for the TALD archive.
 
 Photos presented on the site are taken by [Michael Daniel](https://orcid.org/0000-0002-2091-5713), [Konstantin Filatov](https://orcid.org/0000-0002-0706-9161), [Timur Maisak](https://orcid.org/0000-0001-6794-0978), and [Timofey Mukhin](https://orcid.org/0000-0002-4637-0627).
 
