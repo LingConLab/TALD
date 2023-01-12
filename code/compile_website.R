@@ -152,7 +152,6 @@ map(rmd_filenames[str_detect(rmd_filenames, "_map.Rmd")], function(i){
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning=FALSE, fig.width = 9.5)
 library(tidyverse)
 library(lingtypology)
-library(RefManageR)
 ```
 
 ## {-}

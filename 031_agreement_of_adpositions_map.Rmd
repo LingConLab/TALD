@@ -23,10 +23,10 @@ See [chapter](031_agreement_of_adpositions.html)
 library(RefManageR)
 BibOptions(check.entries = FALSE, style = 'text', bib.style = 'authoryear')
 article_citation <- BibEntry(bibtype = 'Incollection', 
- key='nasledskova2022',
+ key='nasledskova2022.0',
  title='Agreement of adpositions with the absolutive/nominative argument (Maps & Data)',
  author='Polina Nasledskova and Tatiana Philippova',
- year='2022',
+ year='2022.0',
  editor= 'Daniel, Michael  and Filatov, Konstantin and Maisak, Timur and Moroz, George and Mukhin, Timofey and Naccarato, Chiara and Verhees, Samira',
  publisher='Linguistic Convergence Laboratory, NRU HSE',
  address='Moscow',

@@ -23,10 +23,10 @@ See [data and maps](006_ordinals_map.html).
 library(RefManageR)
 BibOptions(check.entries = FALSE, style = 'text', bib.style = 'authoryear')
 article_citation <- BibEntry(bibtype = 'Incollection', 
- key='nasledskova2021',
+ key='nasledskova2021.0',
  title='Ordinal numerals',
  author='Polina Nasledskova and Ivan Netkachev',
- year='2021',
+ year='2021.0',
  editor= 'Daniel, Michael  and Filatov, Konstantin and Maisak, Timur and Moroz, George and Mukhin, Timofey and Naccarato, Chiara and Verhees, Samira',
  publisher='Linguistic Convergence Laboratory, NRU HSE',
  address='Moscow',

@@ -1,8 +1,8 @@
 ---
-title: Derivation of distributives (Maps & Data)
+title: Root for ‘hundred’
 author: Maksim Melenchenko
 date: 'Last update: August 2022'
-bibliography: ./data/orig_bib/numeral_distributives.bib
+bibliography: ./data/orig_bib/numeral_root_hundred.bib
 csl: apa.csl
 link-citations: true
 output:
@@ -17,16 +17,16 @@ knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, comment = 
 library(lingglosses)
 ```
 
-See [chapter](047_numeral_distributives.html)
+See [data and maps](047_numeral_root_hundred_map.html).
 
 ```{r}
 library(RefManageR)
 BibOptions(check.entries = FALSE, style = 'text', bib.style = 'authoryear')
 article_citation <- BibEntry(bibtype = 'Incollection', 
- key='melenchenko2022',
- title='Derivation of distributives (Maps & Data)',
+ key='melenchenko2022.0',
+ title='Root for ‘hundred’',
  author='Maksim Melenchenko',
- year='2022',
+ year='2022.0',
  editor= 'Daniel, Michael  and Filatov, Konstantin and Maisak, Timur and Moroz, George and Mukhin, Timofey and Naccarato, Chiara and Verhees, Samira',
  publisher='Linguistic Convergence Laboratory, NRU HSE',
  address='Moscow',
@@ -48,10 +48,10 @@ print(article_citation, .opts = list(style = 'text'))
 print(article_citation, .opts = list(style = 'Bibtex'))
 ```
 
-```{r, child='data/orig_rmd/numeral_distributives_map.Rmd'}
+```{r, child='data/orig_rmd/numeral_root_hundred.Rmd'}
 ```
 
 ```{r, results='asis'}
-PrintBibliography(bib)
+
 ```
 
