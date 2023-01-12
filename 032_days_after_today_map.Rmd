@@ -23,10 +23,10 @@ See [chapter](032_days_after_today.html)
 library(RefManageR)
 BibOptions(check.entries = FALSE, style = 'text', bib.style = 'authoryear')
 article_citation <- BibEntry(bibtype = 'Incollection', 
- key='dedov2022.0',
+ key='dedov2022',
  title='Days after today (Maps & Data)',
  author='Timofey Dedov',
- year='2022.0',
+ year='2022',
  editor= 'Daniel, Michael  and Filatov, Konstantin and Maisak, Timur and Moroz, George and Mukhin, Timofey and Naccarato, Chiara and Verhees, Samira',
  publisher='Linguistic Convergence Laboratory, NRU HSE',
  address='Moscow',

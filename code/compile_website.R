@@ -98,7 +98,8 @@ file.remove(grep("\\d{1,}_.*.Rmd", list.files(), value = TRUE))
 
 # read our fetures data ----------------------------------------------------
 readxl::read_xlsx("data/contributors.xlsx") %>% 
-  filter(render == 1) ->
+  filter(render == 1) %>% 
+  mutate(created_date = as.integer(created_date)) ->
   features
 
 # deal with major topics --------------------------------------------------

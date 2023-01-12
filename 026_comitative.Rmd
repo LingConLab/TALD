@@ -23,10 +23,10 @@ See [data and maps](026_comitative_map.html).
 library(RefManageR)
 BibOptions(check.entries = FALSE, style = 'text', bib.style = 'authoryear')
 article_citation <- BibEntry(bibtype = 'Incollection', 
- key='zadykian2021.0',
+ key='zadykian2021',
  title='Comitative',
  author='Sara Zadykian and Chiara Naccarato',
- year='2021.0',
+ year='2021',
  editor= 'Daniel, Michael  and Filatov, Konstantin and Maisak, Timur and Moroz, George and Mukhin, Timofey and Naccarato, Chiara and Verhees, Samira',
  publisher='Linguistic Convergence Laboratory, NRU HSE',
  address='Moscow',

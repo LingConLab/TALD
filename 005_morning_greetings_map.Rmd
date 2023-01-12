@@ -23,10 +23,10 @@ See [chapter](005_morning_greetings.html)
 library(RefManageR)
 BibOptions(check.entries = FALSE, style = 'text', bib.style = 'authoryear')
 article_citation <- BibEntry(bibtype = 'Incollection', 
- key='naccarato2021.0',
+ key='naccarato2021',
  title='Morning greetings (Maps & Data)',
  author='Chiara Naccarato and Samira Verhees',
- year='2021.0',
+ year='2021',
  editor= 'Daniel, Michael  and Filatov, Konstantin and Maisak, Timur and Moroz, George and Mukhin, Timofey and Naccarato, Chiara and Verhees, Samira',
  publisher='Linguistic Convergence Laboratory, NRU HSE',
  address='Moscow',

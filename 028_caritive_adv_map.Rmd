@@ -23,10 +23,10 @@ See [chapter](028_caritive_adv.html)
 library(RefManageR)
 BibOptions(check.entries = FALSE, style = 'text', bib.style = 'authoryear')
 article_citation <- BibEntry(bibtype = 'Incollection', 
- key='panova2021.0',
+ key='panova2021',
  title='Adverbial caritive markers (Maps & Data)',
  author='Anastasia Panova',
- year='2021.0',
+ year='2021',
  editor= 'Daniel, Michael  and Filatov, Konstantin and Maisak, Timur and Moroz, George and Mukhin, Timofey and Naccarato, Chiara and Verhees, Samira',
  publisher='Linguistic Convergence Laboratory, NRU HSE',
  address='Moscow',
