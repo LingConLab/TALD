@@ -1,0 +1,187 @@
+```{r, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, comment = '')
+library(lingglosses)
+```
+
+## Introduction
+
+Dominant adpositional case refers to a morphological case that is borne by nominal dependents of a majority of adpositions in a language. Identifying a dominant adpositional case may serve as a valuable diagnostic for adposition-hood of some lexemes (as opposed to their being purely adverbial in nature). In addition, at least in some cases, it helps to estimate the degree of grammaticalization of some lexemes into adpositions: for instance, if the genitive case is assigned by just a few adpositions of denominal origin and the remaining adpositions assign other cases, one could seriously entertain the hypothesis that the genitive-assigning ones are nominals of some sort rather than adpositions. By contrast, if the genitive is a dominant adpositional case and is assigned not only by adpositions deriving from nouns, we have weaker grounds for claiming that the denominal lexemes in such a language are not fully grammaticalized into adpositions. 
+
+A dominant adpositional case in East Caucasian may be instantiated by an abstract case (such as genitive or dative) or by a spatial case (e.g., contessive). According to the data we have, we can assume some case to be the dominant one in most East Caucasian languages, with just a few exceptions. Several neighboring languages that fall outside the East Caucasian family also have dominant adpositional cases (genitive in Georgian and Armenian, and nominative in Azerbaijani and Tat).
+
+To the best of our knowledge, the term *dominant case* does not have wide currency, at least as referring to the morphological case most commonly assigned by adpositions in a language. However, it has been used in a similar, frequentist, sense at least in [@keenan2000: 32] and [@gruenthal2019: 16]. Sara Zadykian [@zadykian2021] uses the term *default case* to refer to the case form that adpositions predominantly assign in Andic languages. This term, however, seems more problematic, as it is commonly used to refer to other concepts (mainly in formal linguistic approaches). We believe the concept of dominant case to be useful in the context of East Caucasian languages because of the notorious fuzziness of the adverb-postposition distinction mentioned above and in Section 3.1 of the major topic chapter on [Adpositions](http://lingconlab.ru/dagatlas/adpositions.html). It also looks meaningful to us since grammatical descriptions of languages of this family are comparable in terms of their approach to the adverb-postposition domain. In contrast, it is much more challenging to do broader cross-linguistic comparison of dominant adpositional cases: terminology in this domain is known to be non-uniform; moreover, adpositions often get little to no attention in grammatical descriptions, as reported by Hagège [@hagege2010: 106-108]. It is thus not really surprising that a feature like dominant adpositional case is not described and mapped in WALS.
+
+Our goal is to classify the languages of Daghestan and the neighboring areas according to the type of the dominant adpositional case (spatial or abstract), as well as to classify the languages according to the more exact functions of these cases.
+
+## Results
+
+The maps show the distribution of the following values across languages (cf. [the dataset](http://lingconlab.ru/dagatlas/030_dominant_adpositional_case_map.html)):
+
+* Dominant case type 
+
+* Abstract dominant cases
+
+* Spatial dominant cases
+
+Dominant case type is assigned based on the function of a dominant adpositional case when used on its own (without an adposition). The other two values treat cases formally. In the case of those East Caucasian languages that have a bimorphemic organization of spatial cases, spatial cases are the ones that fall in this group, while the rest of the cases of such languages (the monomorphemic ones) are classified as abstract ones. For languages without a bimorphemic spatial case system the distinction between abstract and spatial cases is based on the specific case name which in turn reflects its function. So, we treat absolutive/nominative, ergative, genitive, dative, instrumental, comitative, comparative and affective as abstract cases and all the other possible cases as spatial cases. Note that not all markers that are formally spatial are (always) functionally spatial and vice versa.
+
+### Value 1. Dominant case type
+
+This feature has the following values:
+
+* Abstract
+
+* Spatial
+
+* Ambiguous
+
+* None 
+
+* NA
+
+[Map 1](30_dominant_adpositional_case_map.html#m1) is the most general one. It classifies dominant cases according to their functional type. The value ‘abstract’ subsumes languages that employ the so-called syntactic cases as the dominant adpositional case. 
+
+An example of a language with an abstract dominant case is Agul (Lezgic), where most of the postpositions assign genitive.
+
+(@one) Agul [@maisak2014: 421]
+```{r}
+gloss_example(transliteration = "ʜalašuw.a-n udih",
+              glosses = "guest.OBL-GEN in_front",
+              free_translation = "in front of the guest")
+```
+
+The value ‘spatial’ comprises languages where a localization form (superessive, contessive or locative) is required by most postpositions. An example of a language with a spatial dominant case is Akhvakh (Andic), where most of the postpositions assign superessive.
+
+(@two) Akhvakh [@magomedovaabdulaeva2007: 344]
+```{r}
+gloss_example(transliteration = "c’ːelo-g-e sːigi",
+              glosses = "guest.PL-SUP-ESS in_front",
+              free_translation = "in front of the guests")
+```
+
+The label ‘ambiguous’ applies to dominant cases that have both spatial and non-spatial functions. One such example is the contessive case of Chamalal (Andic) which is used to mark a temporal possessor (and the standard of comparison) in addition to marking contact.
+
+(@three) Chamalal [@magomedova1999: 432]
+```{r}
+gloss_example(transliteration = "hãq’-u-č’ sːĩː",
+              glosses = "house-OBL-CONT in_front",
+              free_translation = "in front of the house")
+```
+
+The value ‘none’ is reserved for languages where a dominant adpositional case cannot be distinguished. One example of such a language is Bezhta (Tsezic) with 26 postpositions in our sample, 6 of which assign apudessive, 5 of which assign dative, and 4 of which assign absolutive (other cases are assigned even more rarely).
+
+‘NA’ stands for ‘not available’ and applies to languages such as Chirag (Dargic) for which we do not have sufficient data on the case assignment properties of adpositions to be able to identify a dominant case.
+
+As can be seen from [Map 1](030_dominant_adpositional_case_map.html#m1), the recruitment of an abstract case as a dominant adpositional case is the most widespread option (24+ languages), followed by a spatial (6 languages) and an ambiguous case (4 languages).
+
+### Value 2. Abstract dominant cases
+
+[Map 2](030_dominant_adpositional_case_map.html#m2) zooms in on languages with an abstract case serving as the dominant one.
+The feature has the following values:
+
+* Genitive
+
+* Dative
+
+* Other
+
+* Irrelevant 
+
+The value ‘genitive’ subsumes both cases that are labeled as such in the grammars and attributive markers that are traditionally analyzed as part of the case paradigm and fulfill the primary function of the genitive (possession), but attach not only to nominals; the latter are found in some Lezgic and Tsezic languages.
+
+Genitive as a dominant adpositional case is attested, for instance, in Udi (Lezgic).
+
+(@four) Udi [@schulze2005: 657]
+```{r}
+gloss_example(transliteration = "čoban **aruǧ-oy** **best’a** arc-e-ne-y",
+              glosses = "shepherd fire-GEN in_front sit-PF-3SG-PST",
+              free_translation = "The shepherd sat in front of the fire.")
+```
+
+Dative as a dominant adpositional case is attested in Tsova-Tsush (Nakh), as well as in several other languages.
+
+(@five) Tsova-Tsush [@holiskygagua1994: 169]
+```{r}
+gloss_example(transliteration = "c’en-in ħatxe",
+              glosses = "house-DAT in_front",
+              free_translation = "in front of the house")
+```
+
+The value ‘other’ includes Bagvalal (Andic) and Itsari Dargwa (Dargic) that we consider to have two equally dominant adpositional cases. In Bagvalal it is affective (used to mark the experiencer argument of some verbs, see @daniel2001: 140) and absolutive; in Itsari Dargwa it is genitive and absolutive. A remark is in order with respect to Itsari Dargwa postpositions: our sample includes both lexemes that are considered “postpositions proper” and most of the lexemes classified as “subordinative particles” in [@sumbatovamutalov2003]. The inclusion of the latter is important for comparability of the set of adpositions in Itsari Dargwa to those in other languages (“subordinative particles” are semantically and, in some cases, formally similar to lexemes classified as postpositions in other languages of the sample). We note that the genitive case is predominant among the “postpositions proper” and the absolutive (unmarked form) is obligatory for “subordinative particles”; therefore, when taken together, these two abstract cases emerge as the dominant ones.
+
+(@six) Bagvalal [@sosenskaja2001pp: 406-407]
+a.
+```{r}
+gloss_example(transliteration = "awal-a-ba č’ihi",
+              glosses = "house-OBL-AFF above",
+              free_translation = "above the house")
+```
+b.	
+```{r}
+gloss_example(transliteration = "č’e-ra sangut baƛ’i",
+              glosses = "two-CARD chest.ABS between",
+              free_translation = "between two chests")
+```
+
+(@seven) Itsari Dargwa [@sumbatovamutalov2003: 56-58]
+a.
+```{r}
+gloss_example(transliteration = "qal-la sala-b",
+              glosses = "house-GEN in_front-ESS(N)",
+              free_translation = "in front of the house")
+```
+b.
+```{r}
+gloss_example(transliteration = "miqː lehetːi",
+              glosses = "wedding.ABS after",
+              free_translation = "after the wedding")
+```
+
+The value ‘irrelevant’ is assigned to languages whose dominant adpositional case is a spatial one and to languages falling in the categories “None” and “NA” on [Map 1](030_dominant_adpositional_case_map.html#m1).
+
+### Value 3. Spatial dominant cases
+
+[Map 3](030_dominant_adpositional_case_map.html#m3) looks deeper into languages where the dominant adpositional case is a spatial one. The ones that are treated as ambiguous on [Map 1](030_dominant_adpositional_case_map.html#m1) are mapped here.
+
+The feature has the following values:
+
+* Superessive 
+
+* Contessive
+
+* Locative 
+
+* Irrelevant 
+
+We find three spatial cases distinguishable as a dominant case across our language sample: superessive (generally marking the landmark on or above which the trajector is located), contessive (marking the landmark in contact with the trajector), and locative (general or typical location of the trajector with respect to the landmark). Note that the locative dominant case is attested in Hinuq and Akhvakh, where the spatial case systems are regularly bimorpemic, and in Budukh, which has a disintegrating, largely non-compositional, bimorphemic system where the dominant locative is the only essive form in the language that can be used in the spatial sense without an accompanying postposition. The contessive forms in Tindi and Godoberi are also included in the respective group, although synchronically they are practically not used in a spatial function independently (without a postposition); in particular, the Tindi contessive forms stand for standards of comparison when used without a postposition.  
+
+(@eight) Hinuq [@forker2013: 386]
+```{r, results='asis'}
+gloss_example(transliteration = "χan-i-žo beƛe-ho aldoɣo-r b-aq’-a goì oc’eno q’ono gulu",
+              glosses = "khan-OBL-GEN2 house.OBL-**ILOC** in_front-LAT III-come-INF be ten two horse(III)",
+              free_translation = "Twelve horses will come in front of the khan’s palace.")
+```
+
+The value ‘Irrelevant’ is assigned to languages whose dominant adpositional case is one of the abstract cases and to languages falling in the categories “None” and “NA” on [Map 1](030_dominant_adpositional_case_map.html#m1).
+
+## Distribution
+
+Spatial dominant cases are found in Avar-Andic languages (except for Bagvalal and Tindi), Hinuq (Tsezic) and Budukh (Lezgic). In Avar-Andic, it is likely to be an inherited feature, while Hinuq might well have borrowed it, given its intensive contact with Avar. In Budukh it is probably an independent innovation.
+Three Tsezic languages (Bezhta, Hunzib and Tsez) and two Turkic languages (Nogai and Kumyk) do not employ any case as the dominant one for postpositional dependents. 
+Elsewhere in the region (in particular in all Nakh and the remaining non-East-Caucasian languages) it is abstract cases that are predominantly found on adpositional dependents. In particular, all the Nakh languages employ the dative case for that purpose; Armenian[^1], Georgian, most Lezgic languages (except Archi) and their neighboring Lak employ the genitive case, and Azerbaijani and Judeo-Tat adpositional complements most commonly go unmarked (appear in the subject/nominative form)[^2]. Why Archi predominantly employs the dative case with adpositional dependents remains a mystery. 
+Almost all Andic languages that predominantly have adpositional dependents in spatial cases use contessive as the dominant adpositional case. The same case marker is used for adpositional dependents in Tindi, but there this marker has lost its spatial meaning and is synchronically used only as an abstract case. A similar situation is characteristic of Godoberi, where the contessive is almost exclusively used with adpositions, while spatial uses of this form in isolation are not found.
+Akhvakh, unlike other Andic languages, employs the locative as the dominant adpositional case. It is likely to be due to the close contact with Avar, which predominantly employs an analogous form for adpositional dependents. In addition, Akhvakh has lost the spatial case morpheme deriving from the Proto-Andic ＊-*č’u* [@alekseev1988: 83]; in other Andic languages it is exactly the (contessive) case expressed by this morpheme that is a dominant adpositional case.
+In Hinuq (Tsezic) and Budukh (Lezgic), it is also the locative marker that is most commonly required on adpositional dependents. While in Hinuq the meaning of this marker is purely spatial, in Budukh it has functions of a spatial marker and that of an inalienable possession marker, which unites it with other Lezgic languages that favor genitive marking in this domain.
+
+[^1]: It is postpositions in Armenian that predominantly require genitive dependents; prepositions assign nominative or genitive, neither of them being dominant. 
+[^2]: Judeo-Tat postpositions, if considered separately from prepositions, predominantly appear with ablative dependents (which may be a result of matter and pattern borrowing from Azerbaijani).
+
+
+## List of glosses {-}
+
+```{r}
+make_gloss_list(readxl::read_xlsx("../glosses.xlsx"))
+```
+
+## References {-}
+
