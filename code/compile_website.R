@@ -223,15 +223,14 @@ alldata_clean  %>%
 
 #make short
 
-villages %>% 
-  filter(is.na(id)) %>%
-  select(village, rus_village, lat, lon, gltc_lang, lang, aff, family, lang_col, aff_col) %>%
-  left_join(feature_dataset_4map_languages) %>% 
+feature_dataset_4map %>% 
+  filter(genlang_point == 'yes') %>% 
+  mutate(lang = ifelse(idiom == 'Standard Dargwa', 'Standard Dargwa', lang)) %>% 
+  left_join(genlang, by = join_by(lang)) %>% 
   distinct() %>% 
-  bind_rows(all_data_without_languages) %>% 
   mutate(lang4map = lang.gltc(gltc_lang),
          display = 'show languages') %>% 
-  filter(!is.na(contributor))  ->
+  filter(!is.na(contributor)) ->
   all_genpoints
   
 rm(all_data_without_languages, change, feature_dataset_4map, feature_dataset_4map_languages, feature_dataset_4map_rest, villages, genlang)
@@ -247,8 +246,16 @@ map(multiple_values$values, function(i){
 ```{r}
 all_genpoints %>% 
   filter(!is.na(all_genpoints$value",
+            multiple_values$values[i],
+            ")) %>% 
+  add_count(value",
+            multiple_values$values[i],
+          ") %>% 
+  mutate(value",
     multiple_values$values[i],
-    ")) ->
+    " = str_c(value",
+    multiple_values$values[i],
+    ", ' (', n, ')')) ->
   all_genpoints_filtered
 
 map.feature(all_genpoints_filtered$lang4map,
