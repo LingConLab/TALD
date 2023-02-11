@@ -1,7 +1,0 @@
-The BibTeX entry imnajshvili1963 from the file demonstratives_bib.tsv has an empty value in the obligatory field PUBLISHER
-The BibTeX entry mukhinnasledskova2021 from the file demonstratives_bib.tsv has an empty value in the obligatory field BOOKTITLE
-The wrong village dialect name Tad-Magitl’ in the file demonstratives.tsv
-The wrong village dialect name Nidzh in the file demonstratives.tsv
-The wrong toplevel dialect name Eastern Armenian in the file demonstratives.tsv
-The wrong toplevel dialect name Mukhad in the file demonstratives.tsv
-The wrong toplevel dialect name Ak-Nogai in the file numeral_ordinals.tsv
