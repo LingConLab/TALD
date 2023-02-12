@@ -110,157 +110,31 @@ Zilo Andi and Kvanada Bagvalal demonstratives express a four-way contrast, Godob
 
 #### **Table 2.** Zilo Andi [@kayeetaldraft2020: 12-13] {#t2 -}
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-.tg .tg-8zwo{font-style:italic;text-align:left;vertical-align:top}
-</style>
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-1wig"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">S-prox</span></th>
-    <th class="tg-1wig"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">A-prox</span></th>
-    <th class="tg-1wig"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">S&amp;A-dist</span></th>
-    <th class="tg-1wig"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">S&amp;A-far</span></th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘near the speaker’</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">'near the addressee'</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">'distal'</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">'distal relatively further away'</span></td>
-  </tr>
-  <tr>
-    <td class="tg-8zwo"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ho-</span></td>
-    <td class="tg-8zwo"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">he-</span></td>
-    <td class="tg-8zwo"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">hi</span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">(</span><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ni</span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">)</span><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">di</span></td>
-    <td class="tg-8zwo"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">hundo</span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">-</span></td>
-  </tr>
-</tbody>
-</table>
+| **S-prox**         | **A-prox**          | **S&A-dist** | **S&A-far**                      |
+|--------------------|---------------------|--------------|----------------------------------|
+| ‘near the speaker’ | 'neat the addresse' | 'distal'     | 'distal relatively further away' |
+| _ho-_              | _he-_               | _hi(ni)di_   | _hundo-_                         |
 
 #### **Table 3.** Kvanada Bagvalal [@kibrik2001: 161, 658, 670] {#t3 -}
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-.tg .tg-8zwo{font-style:italic;text-align:left;vertical-align:top}
-</style>
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-1wig"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">S-prox</span></th>
-    <th class="tg-1wig"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">S-dist</span></th>
-    <th class="tg-1wig"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">S-far</span></th>
-    <th class="tg-1wig"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">S&amp;A-dist</span></th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘</span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#002033;background-color:transparent">this one, close to the speaker</span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">’</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘</span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#002033;background-color:transparent">this one, remote from the speaker</span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">’</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘that one, remote from the speaker’</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘that one, remote from the speaker and the listener’</span></td>
-  </tr>
-  <tr>
-    <td class="tg-8zwo"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">a-</span></td>
-    <td class="tg-8zwo"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">o-</span></td>
-    <td class="tg-8zwo"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">u-</span></td>
-    <td class="tg-8zwo"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">uhu-</span></td>
-  </tr>
-</tbody>
-</table>
+| **S-prox**                       | **S-dist**                          | **S-far**                           | **S&A-dist**                                         |
+|----------------------------------|-------------------------------------|-------------------------------------|------------------------------------------------------|
+| ‘this one, close to the speaker’ | ‘this one, remote from the speaker’ | ‘that one, remote from the speaker’ | ‘that one, remote from the speaker and the listener’ |
+| _a-_                             | _o-_                                | _u-_                                | _uhu-_                                               |
 
 #### **Table 4.** Godoberi [@gisatullinatoldova1996: 42] [^5] [^6] {#t4 -}
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-.tg .tg-8zwo{font-style:italic;text-align:left;vertical-align:top}
-</style>
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-1wig"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">S-prox</span></th>
-    <th class="tg-1wig"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">S-dist</span></th>
-    <th class="tg-1wig"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">A-prox</span></th>
-    <th class="tg-1wig"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">A-dist</span></th>
-    <th class="tg-1wig"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">S&amp;A-dist</span></th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘this, close to the speaker’</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘at some distance from the speaker’</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘this, close to the listener’</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘at some distance from the listener’</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘aforementioned or that far away’</span></td>
-  </tr>
-  <tr>
-    <td class="tg-8zwo"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ha-</span></td>
-    <td class="tg-8zwo"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">hada-</span></td>
-    <td class="tg-8zwo"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">hu-</span></td>
-    <td class="tg-8zwo"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">hudo-</span></td>
-    <td class="tg-8zwo"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ho-</span></td>
-  </tr>
-</tbody>
-</table>
+| **S-prox**                   | **S-dist**                          | **A-prox**                    | **A-dist**                           | **S&A-dist**                      |
+|------------------------------|-------------------------------------|-------------------------------|--------------------------------------|-----------------------------------|
+| ‘this, close to the speaker’ | ‘at some distance from the speaker’ | ‘this, close to the listener’ | ‘at some distance from the listener’ | ‘aforementioned or that far away’ |
+| ha-                          | _hada-_                             | _hu-_                         | _hudo-_                              | _ho-_                             |
 
 #### **Table 5.** Botlikh [@alexeyevverheesdraft2020: 9] [^7] {#t5 -}
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-.tg .tg-8zwo{font-style:italic;text-align:left;vertical-align:top}
-</style>
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-1wig"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">S-prox</span></th>
-    <th class="tg-1wig"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">S-dist</span></th>
-    <th class="tg-1wig"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">A-prox</span></th>
-    <th class="tg-1wig"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">S&amp;A-dist</span></th>
-    <th class="tg-1wig"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">S&amp;A-far</span></th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘X is in the direct vicinity of the speaker’</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘X is in the vicinity of the speaker, a little to the side’</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘X is close(r) to the addressee’</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘X is not in the vicinity of the speaker or the addressee’</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘X is not in the vicinity of the speaker or the addressee relatively further away’</span></td>
-  </tr>
-  <tr>
-    <td class="tg-8zwo"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ha-</span></td>
-    <td class="tg-8zwo"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ga-</span></td>
-    <td class="tg-8zwo"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">hu-</span></td>
-    <td class="tg-8zwo"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">go-</span></td>
-    <td class="tg-8zwo"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">do-</span></td>
-  </tr>
-</tbody>
-</table>
+| **S-prox**                                   | **S-dist**                                                  | **A-prox**                       | **S&A-dist**                                               | **S&A-far**                                                                        |
+|----------------------------------------------|-------------------------------------------------------------|----------------------------------|------------------------------------------------------------|------------------------------------------------------------------------------------|
+| ‘X is in the direct vicinity of the speaker’ | ‘X is in the vicinity of the speaker, a little to the side’ | ‘X is close(r) to the addressee’ | ‘X is not in the vicinity of the speaker or the addressee’ | ‘X is not in the vicinity of the speaker or the addressee relatively further away’ |
+| _ha-_                                        | _ga-_                                                       | _hu-_                            | _go-_                                                      | _do-_                                                                              |
 
 Rich systems are typologically rare (in Diessel’s sample of 234 languages [-@diessel2013] only 9 languages have a four-way contrast and 4 languages have a five-way contrast). A four-contrast system similar to that of Zilo Andi is reported for Quileute (Chimakuan) [@diessel1999: 41] and Hausa (Chadic, Afro-Asiatic) [@diessel2013], but no system was found to be similar to that of Kvanada Bagvalal. I did not find five-contrast systems similar to those of Godoberi and Botlikh in Diessel’s sample (five-contrast systems in Koasati, Malagasy, Maricopa and Navajo are different in terms of the contrasts involved), but this can be due to the methodological differences in descriptive grammars. Neither of these rich Daghestanian systems corresponds to the types described in [@levinson2018: 36].
 
@@ -270,37 +144,10 @@ Typologically unusual is also the description of the system of Kryz (Lezgic), wh
 
 #### **Table 6.** Kryz [@authier2009: 59-61] {#t6 -}
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-.tg .tg-8zwo{font-style:italic;text-align:left;vertical-align:top}
-</style>
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-1wig"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">S-prox</span></th>
-    <th class="tg-1wig"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">A-prox</span></th>
-    <th class="tg-1wig"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">S-dist</span></th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘sphere of the speaker, close’</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘sphere of the interlocutor’</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘sphere of the speaker, distant’</span></td>
-  </tr>
-  <tr>
-    <td class="tg-8zwo"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">u-</span></td>
-    <td class="tg-8zwo"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">am</span></td>
-    <td class="tg-8zwo"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">a-</span></td>
-  </tr>
-</tbody>
-</table>
+| **S-prox**                     | **A-prox**                   | **S-dist**                       |
+|--------------------------------|------------------------------|----------------------------------|
+| ‘sphere of the speaker, close’ | ‘sphere of the interlocutor’ | ‘sphere of the speaker, distant’ |
+| _u-_                           | _am_                         | _a-_                             |
 
 Unlike the canonical three-term polycentric system, Kryz lacks S&A-dist and has S-dist instead. Since S-dist is described as oriented only relative to the speaker, it is not clear under what conditions S-dist will be used and under what conditions A-prox will be used in a situation when the object is both close to the addressee and far from the speaker. Perhaps the difference in the deictic center can be explained by the inaccuracy of the description, and Kryz probably has a regular S-prox, A-prox, S&A-dist polycentric system. 
 
@@ -320,67 +167,17 @@ Besides distance contrast, demonstrative systems can additionally distinguish el
 
 #### **Table 7.** Archi [@kibrik1977: 124] {#t7 -}
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-8zwo{font-style:italic;text-align:left;vertical-align:top}
-</style>
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-1wig"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">S-prox</span></th>
-    <th class="tg-1wig"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">A-prox</span></th>
-    <th class="tg-1wig"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">S&amp;A-dist</span></th>
-    <th class="tg-1wig"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">above</span></th>
-    <th class="tg-1wig"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">below</span></th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-8zwo"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ja-</span></td>
-    <td class="tg-8zwo"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">jamu-</span></td>
-    <td class="tg-8zwo"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">to-</span></td>
-    <td class="tg-8zwo"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ʁodo-</span></td>
-    <td class="tg-8zwo"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">godo-</span></td>
-  </tr>
-</tbody>
-</table>
+| **S-prox** | **A-prox** | **S&A-dist** | **above** | **below** |
+|------------|------------|--------------|-----------|-----------|
+| _ja-_      | _jamu-_    | _to-_        | _ʁodo-_   | _godo-_   |
 
 #### **Table 8.** Tindi [@magomedova2003: 558] [^9] {#t8 -}
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-8zwo{font-style:italic;text-align:left;vertical-align:top}
-</style>
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-1wig"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">S-prox</span></th>
-    <th class="tg-1wig"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">A-prox</span></th>
-    <th class="tg-1wig"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">S&amp;A-dist</span></th>
-    <th class="tg-1wig"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">above</span></th>
-    <th class="tg-1wig"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">below</span></th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-8zwo"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ja-</span></td>
-    <td class="tg-8zwo"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">jamu-</span></td>
-    <td class="tg-8zwo"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">to-</span></td>
-    <td class="tg-8zwo"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ʁodo-</span></td>
-    <td class="tg-8zwo"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">godo-</span></td>
-  </tr>
-</tbody>
-</table>
+|                       | **S-prox**       | **S-dist**       |
+|-----------------------|------------------|------------------|
+| **at the same level** | _a-ja- (< ada-)_ | _o-ja- (< oda-)_ |
+| **above**             | _a-ɬa-_          | _o-ɬa-_          |
+| **below**             | _a-ɟa-_          | _o-ɟa-_          |
 
 #### Results
 
@@ -408,35 +205,9 @@ gloss_example(transliteration = "**le** ʁ˳ad.i-l al-e ber faqšaw",
 
 #### **Table 9.** Agul [@ganenkovetal2009: 15] {#t9 -}
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-8zwo{font-style:italic;text-align:left;vertical-align:top}
-</style>
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-1wig"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">S-prox</span></th>
-    <th class="tg-1wig"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">A-prox</span></th>
-    <th class="tg-1wig"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">S&amp;A-dist</span></th>
-    <th class="tg-1wig"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">above</span></th>
-    <th class="tg-1wig"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">below</span></th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-8zwo"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ja-</span></td>
-    <td class="tg-8zwo"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">jamu-</span></td>
-    <td class="tg-8zwo"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">to-</span></td>
-    <td class="tg-8zwo"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ʁodo-</span></td>
-    <td class="tg-8zwo"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">godo-</span></td>
-  </tr>
-</tbody>
-</table>
+| **S-prox** | **A-prox/above** | **S&A-dist** | **below** |
+|------------|------------------|--------------|-----------|
+| _me-_      | _le-_            | _te-_        | _ge-_     |
 
 [Map 4](048_demonstratives_map.html#m4) shows the presence of special demonstrative affixes or independent demonstratives that express the category of elevation. 
 
@@ -454,40 +225,10 @@ The visual accessibility of the object to the speech act participants is a commo
 
 #### **Table 10.** Bezhta [@comrieetal2015: 302] {#t10 -}
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-.tg .tg-8zwo{font-style:italic;text-align:left;vertical-align:top}
-</style>
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-0lax"></th>
-    <th class="tg-1wig"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">S-prox</span></th>
-    <th class="tg-1wig"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">A-prox</span></th>
-    <th class="tg-1wig"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">S&amp;A-dist</span></th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-1wig"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">invisible</span></td>
-    <td class="tg-8zwo"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">hudi</span></td>
-    <td class="tg-8zwo"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">huli</span></td>
-    <td class="tg-8zwo"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">hugi</span></td>
-  </tr>
-  <tr>
-    <td class="tg-1wig"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">visible</span></td>
-    <td class="tg-8zwo"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">wa-hdi</span></td>
-    <td class="tg-8zwo"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">wa-hli</span></td>
-    <td class="tg-8zwo"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">wa-hgi</span></td>
-  </tr>
-</tbody>
-</table>
+|               | **S-prox** | **A-prox** | **S&A-dist** |
+|---------------|------------|------------|--------------|
+| **invisible** | _hudi_     | _huli_     | _hugi_       |
+| **visible**   | _wa-hdi_   | _wa-hli_   | _wa-hgi_     |
 
 ## Endophoric features
 
@@ -510,42 +251,11 @@ Several languages are reported to have a demonstrative that is mainly (but not e
 
 #### **Table 11.** Hinuq [@forker2013: 132-140] {#t11 -}
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-.tg .tg-8zwo{font-style:italic;text-align:left;vertical-align:top}
-</style>
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-0lax"></th>
-    <th class="tg-1wig"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">S-prox</span></th>
-    <th class="tg-1wig"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">S-dist</span></th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-1wig"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">1</span>st <span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">series</span></td>
-    <td class="tg-8zwo"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ha-</span></td>
-    <td class="tg-8zwo"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">hay-</span></td>
-  </tr>
-  <tr>
-    <td class="tg-1wig"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">2</span>nd <span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">series</span></td>
-    <td class="tg-8zwo"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">hiba(ha)-</span></td>
-    <td class="tg-8zwo"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">hiba(ha)y-</span></td>
-  </tr>
-  <tr>
-    <td class="tg-1wig"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">3</span>rd<span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> series</span></td>
-    <td class="tg-8zwo"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">iza(ha)-</span></td>
-    <td class="tg-8zwo"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">iza(ha)y-</span></td>
-  </tr>
-</tbody>
-</table>
+|                | **S-prox**  | **S-dist**   |
+|----------------|-------------|--------------|
+| **1st series** | _ha-_       | _hay-_       |
+| **2nd series** | _hiba(ha)-_ | _hiba(ha)y-_ |
+| **3rd series** | _iza(ha)-_  | _iza(ha)y-_  |
 
 It is often not clear from the available descriptions whether the ‘aforementioned’ pronouns are strictly limited to anaphoric uses and cannot be used deictically. 
 
@@ -553,40 +263,10 @@ Among the languages of the sample, I found only one language where demonstrative
 
 #### **Table 12.** Hunzib [@vandenberg1995: 60] {#t12 -}
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-.tg .tg-8zwo{font-style:italic;text-align:left;vertical-align:top}
-</style>
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-0lax"></th>
-    <th class="tg-1wig"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">S-prox</span></th>
-    <th class="tg-1wig"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">A-prox</span></th>
-    <th class="tg-1wig"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">S&amp;A-dist</span></th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-1wig"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">deictic</span></td>
-    <td class="tg-8zwo"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">bǝd</span></td>
-    <td class="tg-8zwo"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">bǝl</span></td>
-    <td class="tg-8zwo"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ǝg</span></td>
-  </tr>
-  <tr>
-    <td class="tg-1wig"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">anaphoric</span></td>
-    <td class="tg-8zwo"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">yǝ-bǝd</span></td>
-    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">NA</span></td>
-    <td class="tg-8zwo"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">yǝ-ʔǝg</span></td>
-  </tr>
-</tbody>
-</table>
+|               | **S-prox** | **A-prox** | **S&A-dist** |
+|---------------|------------|------------|--------------|
+| **deictic**   | _bǝd_      | _bǝl_      | _ǝg_         |
+| **anaphoric** | _yǝ-bǝd_   | _NA_       | _yǝ-ʔǝg_     |
 
 ### Reflexive uses
 
