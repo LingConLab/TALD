@@ -6,7 +6,7 @@ library(lingglosses)
 
 ## Introduction
 
-This chapter is an overview of the demonstrative systems of the languages of Daghestan and adjacent territories. There is a lot of cross-linguistic variation in the systems of demonstrative pronouns. According to typological studies of demonstratives ([@andersonkeenan1985]; [@diessel1999]; [@dixon2003]; [@levinsonetal2018), demonstrative systems may not only differ in terms of the number of pronouns they have, but also in terms of the functions they perform. In addition to distance, demonstratives can mark additional deictic features, for example elevation or visibility. For East Caucasian languages there is a dedicated detailed typological study of demonstrative systems and their diachrony by Schulze [-@schulze2003].
+This chapter is an overview of the demonstrative systems of the languages of Daghestan and adjacent territories. There is a lot of cross-linguistic variation in the systems of demonstrative pronouns. According to typological studies of demonstratives ([@andersonkeenan1985]; [@diessel1999]; [@dixon2003]; [@levinsonetal2018]), demonstrative systems may not only differ in terms of the number of pronouns they have, but also in terms of the functions they perform. In addition to distance, demonstratives can mark additional deictic features, for example elevation or visibility. For East Caucasian languages there is a dedicated detailed typological study of demonstrative systems and their diachrony by Schulze [-@schulze2003].
 
 Below, I address both the most typical and rare features of demonstrative systems expressed by morphological markers (by a dedicated root or a derivational affix). I focus on demonstrative pronouns, leaving aside all other lexical categories of demonstratives (such as demonstrative determiners, adverbs and identifiers) [@diessel1999: 57].
 
@@ -25,7 +25,7 @@ In the case of polycentric systems (see [Orientation of demonstrative systems](#
 
 [Map 1](demonstratives_map.html#m1) shows the number of distance contrasts expressed by demonstratives in the languages of the sample.
 
-The number of contrasts not for all systems corresponds to the number of lexemes considered as a demonstrative. For example, in addition to distance-marking demonstratives, some languages of the sample have a demonstrative that is described as ‘aforementioned’ (see Section 6.1 in [Demonstrative systems]()). For example, Ingush (Nakh) has the demonstratives *je* ‘this’, *dwaara* ‘that’, and the demonstrative *yz* ‘aforementioned’, which does not express a distance contrast but is only used for reference tracking in discourse [@nichols2011: 179]. [^1] The same seems to be true for Chechen (Nakh) [@nichols1994: 34]. Such demonstratives were not taken into account in counting the number of contrasts.
+The number of contrasts not for all systems corresponds to the number of lexemes considered as a demonstrative. For example, in addition to distance-marking demonstratives, some languages of the sample have a demonstrative that is described as ‘aforementioned’ (see [Section 6.1](#anaphoricity)). For example, Ingush (Nakh) has the demonstratives *je* ‘this’, *dwaara* ‘that’, and the demonstrative *yz* ‘aforementioned’, which does not express a distance contrast but is only used for reference tracking in discourse [@nichols2011: 179]. [^1] The same seems to be true for Chechen (Nakh) [@nichols1994: 34]. Such demonstratives were not taken into account in counting the number of contrasts.
 
 I also do not consider demonstratives whose meaning is not clear from the description, but is interpreted by the author as an independent root expressing a separate contrast. Such cases include Azerbaijani [@shiralievsevortyan1971], Bagvalal [@magomedova2004], and Budukh [@talibov2007]. These languages are annotated as having two or possibly more distance contrasts (shown as >=2 on [Map 1](demonstratives_map.html#m1)), because from the description it is not clear whether additional demonstratives involve a distance contrast.
 
@@ -192,14 +192,14 @@ Demonstrative systems like Archi, which has independent pronouns for expressing 
 (@one) *le* used as the A-prox demonstrative. Agul [@ganenkovetal2009: 15]
 ```{r}
 gloss_example(transliteration = "**le** fi e, fi e we χil.i-ʔ a-je-f?",
-              glosses = "DENL what COP what COP your hand-IN {IN}be-PART-S",
+              glosses = "DEML what COP what COP your hand-IN (IN)be-PART-S",
               free_translation = "What is it, what is it in your hands?")
 ```
 
 (@two) *le* used as the above-demonstrative. Agul [@ganenkovetal2009: 15]
 ```{r}
 gloss_example(transliteration = "**le** ʁ˳ad.i-l al-e ber faqšaw",
-              glosses = "DEML roof-SUPER {SUPER}be-PART shovel RE:bring(IMP)",
+              glosses = "DEML roof-SUPER (SUPER)be-PART shovel RE:bring(IMP)",
               free_translation = "Bring (here) that shovel on the roof.")
 ```
 
