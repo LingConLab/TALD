@@ -49,46 +49,11 @@ Anderson and Keenan [-@andersonkeenan1985: 282] and Schulze [-@schulze2003: 297]
 
 #### **Table 1.** Monocentric vs polycentric demonstrative systems {#t1 -}
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
-.tg .tg-5frq{font-style:italic;text-align:center;vertical-align:top}
-</style>
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-amwm" colspan="3"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">monocentric</span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> (Udi)</span></th>
-    <th class="tg-amwm" colspan="3"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">polycentric</span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> (Rutul)</span></th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-5frq"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">me </span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘close to the speaker’</span></td>
-    <td class="tg-amwm"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">S-prox</span></td>
-    <td class="tg-amwm" colspan="2"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">proximal</span></td>
-    <td class="tg-amwm"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">S-prox</span></td>
-    <td class="tg-5frq"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">mi </span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘close to the speaker’</span></td>
-  </tr>
-  <tr>
-    <td class="tg-5frq"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ka </span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘not close to the speaker’</span></td>
-    <td class="tg-amwm"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">S-dist</span></td>
-    <td class="tg-amwm" colspan="2"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">medial</span></td>
-    <td class="tg-amwm"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">A-prox</span></td>
-    <td class="tg-5frq"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ha </span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘close to the addressee’</span></td>
-  </tr>
-  <tr>
-    <td class="tg-5frq"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">t’e</span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"> ‘outside the region of the speaker’</span></td>
-    <td class="tg-amwm"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">S-far</span></td>
-    <td class="tg-amwm" colspan="2"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">distal</span></td>
-    <td class="tg-amwm"><span style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">S&amp;A-dist</span></td>
-    <td class="tg-5frq"><span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ti </span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">‘outside the region of both the speaker and the addressee’</span></td>
-  </tr>
-</tbody>
-</table>
+|             monocentric (Udi)             |        |          |          |                       polycentric (Rutul)                       |
+|:-----------------------------------------:|:------:|:--------:|:--------:|:---------------------------------------------------------------:|
+|        *me* ‘close to the speaker’        | S-prox | proximal |  S-prox  |                   *mi* ‘close to the speaker’                   |
+|      *ka* ‘not close to the speaker’      | S-dist |  medial  |  A-prox  |                  *ha* ‘close to the addressee’                  |
+| *t’e* ‘outside the region of the speaker’ |  S-far |  distal  | S&A-dist | *ti* ‘outside the region of both the speaker and the addressee’ |
 
 Both types may distinguish a more-than-three-way contrast, but such rich systems are usually polycentric [@diessel1999: 40].
 
