@@ -10,7 +10,7 @@ This chapter is an overview of the demonstrative systems of the languages of Dag
 
 Below, I address both the most typical and rare features of demonstrative systems expressed by morphological markers (by a dedicated root or a derivational affix). I focus on demonstrative pronouns, leaving aside all other lexical categories of demonstratives (such as demonstrative determiners, adverbs and identifiers) [@diessel1999: 57].
 
-In [Section 2](#distance-contrasts), I look at the number of distance contrasts in demonstrative systems. In [Section 3](#orientation-of-demonstrative-systems), I focus on systems that show a more-than-two-way distance contrast and divide them according to whether the deictic center in relation to which demonstratives are determined changes (speaker vs addressee) or not (only speaker). In [Section 4](#typologically-rare-systems), I describe the most exotic and typologically rare systems attested in the languages of the sample in terms of distance meaning. In [Sections 5](#additional-spatial-features), I discuss additional deictic parameters that demonstrative can distinguish, such as elevation. In [Section 6](#endophoric-features), I give examples of dedicated marking of non-deictic uses of demonstratives. [Section 7](#conclusion) is the conclusion.
+In [Section 2](#distance-contrasts), I look at the number of distance contrasts in demonstrative systems. In [Section 3](#orientation-of-demonstrative-systems), I focus on systems that show a more-than-two-way distance contrast and divide them according to whether the deictic center in relation to which demonstratives are determined changes (speaker vs addressee) or not (only speaker). In [Section 4](#typologically-rare-systems), I describe the most exotic and typologically rare systems attested in the languages of the sample in terms of distance meaning. In [Sections 5](#additional-spatial-features), I discuss additional parameters that demonstrative can distinguish, such as elevation. In [Section 6](#anaphoric-uses) and [Section 7](#reflexive-uses), I give examples of dedicated marking of non-deictic uses of demonstratives. [Section 8](#conclusion) is the conclusion.
 
 
 ## Distance contrasts
@@ -23,9 +23,9 @@ In the case of polycentric systems (see [Orientation of demonstrative systems](#
 
 ### Results
 
-[Map 1](demonstratives_map.html#m1) shows the number of distance contrasts expressed by demonstratives in the languages of the sample.
+[Map 1](048_demonstratives_map.html#m1) shows the number of distance contrasts expressed by demonstratives in the languages of the sample.
 
-The number of contrasts not for all systems corresponds to the number of lexemes considered as a demonstrative. For example, in addition to distance-marking demonstratives, some languages of the sample have a demonstrative that is described as ‘aforementioned’ (see [Section 6.1](#anaphoricity)). For example, Ingush (Nakh) has the demonstratives *je* ‘this’, *dwaara* ‘that’, and the demonstrative *yz* ‘aforementioned’, which does not express a distance contrast but is only used for reference tracking in discourse [@nichols2011: 179]. [^1] The same seems to be true for Chechen (Nakh) [@nichols1994: 34]. Such demonstratives were not taken into account in counting the number of contrasts.
+The number of contrasts not for all systems corresponds to the number of lexemes considered as a demonstrative. For example, in addition to distance-marking demonstratives, some languages of the sample have a demonstrative that is described as ‘aforementioned’ (see [Section 6](#anaphoric-uses)). For example, Ingush (Nakh) has the demonstratives *je* ‘this’, *dwaara* ‘that’, and the demonstrative *yz* ‘aforementioned’, which does not express a distance contrast but is only used for reference tracking in discourse [@nichols2011: 179]. [^1] The same seems to be true for Chechen (Nakh) [@nichols1994: 34]. Another such case is Kumyk (Turkic) that has two dedicated stems which differ by givenness but have the same deictic meaning, see [Section 5.3](#givenness). Such demonstratives were not taken into account in counting the number of contrasts.
 
 I also do not consider demonstratives whose meaning is not clear from the description, but is interpreted by the author as an independent root expressing a separate contrast. Such cases include Azerbaijani [@shiralievsevortyan1971], Bagvalal [@magomedova2004], and Budukh [@talibov2007]. These languages are annotated as having two or possibly more distance contrasts (shown as >=2 on [Map 1](demonstratives_map.html#m1)), because from the description it is not clear whether additional demonstratives involve a distance contrast.
 
@@ -59,7 +59,7 @@ Both types may distinguish a more-than-three-way contrast, but such rich systems
 
 ### Results
 
-Both mono- and polycentric systems are attested in the languages of the sample. [Map 2](demonstratives_map.html#m2) shows the distribution of the two types of demonstrative systems. 
+Both mono- and polycentric systems are attested in the languages of the sample. [Map 2](048_demonstratives_map.html#m2) shows the distribution of the two types of demonstrative systems. 
 
 ### Distribution
 
@@ -67,7 +67,7 @@ Monocentric and polycentric systems are represented almost evenly in the sample 
 
 ## Typologically rare systems
 
-In [Map 3](demonstratives_map.html#m3), a detailed classification of systems attested in the languages of the sample is presented with an annotation of the distance meanings of each demonstrative root (excluding elevational demonstratives) as explained in the source (for those with a clear deictic meaning), independently of the cross-linguistic validity of this explanation. [^3] In the annotation, I follow the approach of Levinson [-@levinson2018: 36]: **S-prox** = speaker-based proximal term, **S-dist** = speaker-based distal term, **S-far** = speaker far-distal term, **A-prox** = addressee-based proximal, **S&A-prox/dist** = speaker and addressee based proximal/distal. I also use the labels **A-dist** = addressee-based distal and **S&A-far** = speaker and addressee based far distal, but these are not present in Levinson's approach.
+In [Map 3](048_demonstratives_map.html#m3), a detailed classification of systems attested in the languages of the sample is presented with an annotation of the distance meanings of each demonstrative root (excluding elevational demonstratives) as explained in the source (for those with a clear deictic meaning), independently of the cross-linguistic validity of this explanation. [^3] In the annotation, I follow the approach of Levinson [-@levinson2018: 36]: **S-prox** = speaker-based proximal term, **S-dist** = speaker-based distal term, **S-far** = speaker far-distal term, **A-prox** = addressee-based proximal, **S&A-prox/dist** = speaker and addressee based proximal/distal. I also use the labels **A-dist** = addressee-based distal and **S&A-far** = speaker and addressee based far distal, but these are not present in Levinson's approach.
 
 In the sample, there are four languages which have more than three distance contrasts: Zilo Andi, Kvanada Bagvalal, Godoberi and Botlikh (all of them belong to the Andic branch). All systems are polycentric, which agrees with the observations by [@diessel1999: 40], [@diessel2013], [@levinson2018: 37], according to which systems that distinguish more than three distance contrasts are almost always polycentric. [^4]
 
@@ -119,11 +119,11 @@ Unlike the canonical three-term polycentric system, Kryz lacks S&A-dist and has 
 The systems discussed in this section show patterns that are not attested or are very rare elsewhere. Because the data for the classification is obtained from grammars rather than results from controlled and comparable experiments, it needs to be additionally checked.
 
 
-## Additional spatial features
+## Additional features
 
-This section discusses some additional deictic parameters expressed by demonstratives in East Caucasian languages, namely **elevation** and **visibility**. Unlike elevation, consistent expression of visibility is rare in the languages of the sample. 
+This section discusses some additional parameters expressed by demonstratives in East Caucasian languages, namely: **elevation**, **visibility** and **givenness**. Unlike elevation, consistent expression of visibility and givenness is rare in languages of the sample. 
 
-For some languages, it is claimed that these parameters play a role in the choice of demonstratives. However, as it is not always clear how strong is the correlation between the relevant component of meaning and the form of the demonstrative, I only consider languages with what is described as a dedicated morphological expression of elevation and/or visibility.
+For some languages, it is claimed that elevation and visibility play a role in the choice of demonstratives. However, as it is not always clear how strong is the correlation between the relevant component of meaning and the form of the demonstrative, I only consider languages with what is described as a dedicated morphological expression of elevation and/or visibility.
 
 
 ### Elevation
@@ -195,26 +195,38 @@ The visual accessibility of the object to the speech act participants is a commo
 | **invisible** | _hudi_     | _huli_     | _hugi_       |
 | **visible**   | _wa-hdi_   | _wa-hli_   | _wa-hgi_     |
 
-## Endophoric features
+### Givenness
 
-In addition to their primary deictic function, demonstratives can often be used in other functions. All the functions can be divided into **endophoric** and **exophoric** [@diessel1999: 6]. The main difference between these two types is where the referent of the demonstrative is identified: in exophoric use, the referent corresponds to an object in the surrounding world, whereas in endophoric use, the demonstrative refers to a text unit (with an antecedent being an NP or a larger chunk of discourse, e.g. a predication). Cf. adnominal exophoric and endophoric uses of demonstratives in (@three) and (@four).
+There is one language in the sample where demonstratives are contrasted by whether the object was previously mentioned or not. According to [@dmitriev1940: 77-79], Kumyk (Turkic) has two S-prox pronouns, one of which is used when the referent is known to the participants and the other is used to denote a new one, cf. [Table 11](#t11).
 
-(@three) [Pointing at a house.] _Is **this house** yours?_ (exophoric function)
+#### **Table 11.** Kumyk [@dmitriev1940: 77-79] {#t11 -}
 
-(@four) _He had a house a long time ago. And **this house** was very old._ (endophoric function)
+| **S-prox**               | **S-prox**                 | **S-dist**                                                                         | **S-far**       |
+|--------------------------|----------------------------|------------------------------------------------------------------------------------|-----------------|
+| ‘close and known object’ | ‘close and unknown object’ | ‘an object that is farther than (referred by) šu, but closer than (referred by) o’ | ‘remote object’ |
+| _bu_                     | _šu_                       | _šo_                                                                               | _o_             |
 
-Below I provide examples of languages that distinguish the use of demonstratives in the anaphoric function (following [@diessel1999] I call anaphoric those endophoric uses that refer to NP antecedents, which is also the most common endophoric function).
+Systems with dedicated demonstrative forms for (un)given referenets are attested in other languages, for example in Hausa (Chadic, Afro-Asiatic) [@andersonkeenan1985: 289].
 
-In this Section, I also discuss the reflexive uses of pronouns that are also used as demonstratives, although usually the reflexive function is not considered as a function of demonstratives.
+## Anaphoric uses
 
-
-### Anaphoricity
+In addition to the primary deictic function, demonstratives can often be used in other functions [@diessel1999: 6], e.g. anaphorically as the 3rd person pronoun. Below I provide examples of languages that distinguish the use of demonstratives in the anaphoric function (following [@diessel1999], I call anaphoric those endophoric uses that refer to NP antecedents, which is also the most common endophoric function).
 
 East Caucasian languages mostly do not have dedicated anaphoric pronouns and use demonstratives instead, including in independent syntactic positions, e.g. _**He** had a house a long time ago_ where other languages like English use dedicated forms. Usually demonstratives used anaphorically do not differ morphologically from pronouns used in the deictic function, but some exceptions are discussed below.
 
-Several languages are reported to have a demonstrative that is mainly (but not exclusively) used anaphorically as the third person pronoun. Such demonstratives are often described as expressing the meaning ‘aforementioned’.  Apparently, in such languages, the ‘aforementioned’ demonstrative is most frequent in anaphoric contexts, although they are not limited to this use and can also be used deictically. Besides the cases of Chechen and Ingush, which were mentioned in [Section 2](#distance-contrasts), Hinuq (Tsezic) has three demonstrative series, the first of which is almost exclusively used anaphorically [@forker2013: 132-140], cf. [Table 11](#t11). [^11]
+Several languages are reported to have a demonstrative that is mainly (but not exclusively) used anaphorically as the third person pronoun. Such demonstratives are often described as expressing the meaning ‘aforementioned’.  Apparently, in such languages, the ‘aforementioned’ demonstrative is most frequent in anaphoric contexts, although they are not limited to this use and can also be used deictically. 
 
-#### **Table 11.** Hinuq [@forker2013: 132-140] {#t11 -}
+[Map 5](048_demonstratives_map.html#m5) presents which demonstrative is used more frequently as the 3rd person personal pronoun if this information is specialized in the description. In all East Caucasian languages (apparently with the exception of Chechen and Ingush) more than one demonstrative stem is used anaphorically (usually sources do not specify whether each demonstrative stem can be used anaphorically, including elevational ones if there are any, or only a few).
+
+As was mentioned in [Section 2](#distance-contrasts), in Chechen and Ingush 3rd person pronouns seem to have lost their original deictic meanings and are used only anaphorically. According to [@nichols2011: 34], Chechen originally had a three-term person oriented system consisting of S-prox _hara_ ‘this’, S-dist _iza_ ‘aformentioned’, S-far _dʔaːranig_ ‘that’ that transformed into two-term S-prox hara ‘this’, S-dist dʔaːranig ‘that’ with one with _iza_ ‘aformentioned’ grammaticalized into anaphoric function. The ‘aformentioned’ demonstrative _yz_ in Ingush is described as a neutral demonstrative but it is not clear from the description whether it preserves deictic uses. For these languages distance meanings of the demonstrative were annotated in brackets (e.g. (S-dist)), since probably in the modern language, the demonstrative pronoun used anaphorically is no longer used deictically.
+
+As can be seen from [Map 5](048_demonstratives_map.html#m5), there is no language that uses the S-prox demonstrative as the most frequent anaphoric mean. In three-term polycentric systems the S&A dist demonstrative prevail, while in monocentric ones S-dist and S-far compete.
+
+This partially disagrees with the observation by Anderson and Keenan that at least in languages with three-terms systems usually the middle term (A-prox or S-dist) is grammaticalized as the 3rd person pronoun [@diessel1999: 39]. 
+
+Other cases where anaphoric uses are somehow separated from deictic ones include Hinuq (Tsezic) that has three demonstrative series, the first of which is almost exclusively used anaphorically [@forker2013: 132-140], cf. [Table 12](#t12). [^11]
+
+#### **Table 12.** Hinuq [@forker2013: 132-140] {#t12 -}
 
 |                | **S-prox**  | **S-dist**   |
 |----------------|-------------|--------------|
@@ -224,16 +236,18 @@ Several languages are reported to have a demonstrative that is mainly (but not e
 
 It is often not clear from the available descriptions whether the ‘aforementioned’ pronouns are strictly limited to anaphoric uses and cannot be used deictically. 
 
-Among the languages of the sample, I found only one language where demonstratives are reported to consistently differ morphologically depending on what function - deictic or anaphoric - they convey. Hunzib has a dedicated prefix *yǝ-*, which is attached when a demonstrative is used anaphorically [@vandenberg1995: 60], cf. [Table 12](#t12).
+Among the languages of the sample, I found only one language (with the exceptions of Chechen and Ingush discussed above) where demonstratives are reported to consistently differ morphologically depending on what function - deictic or anaphoric - they convey. Hunzib has a dedicated prefix *yǝ-*, which is attached when a demonstrative is used anaphorically [@vandenberg1995: 60], cf. [Table 13](#t13).
 
-#### **Table 12.** Hunzib [@vandenberg1995: 60] {#t12 -}
+#### **Table 13.** Hunzib [@vandenberg1995: 60] {#t13 -}
 
 |               | **S-prox** | **A-prox** | **S&A-dist** |
 |---------------|------------|------------|--------------|
 | **deictic**   | _bǝd_      | _bǝl_      | _ǝg_         |
 | **anaphoric** | _yǝ-bǝd_   | _NA_       | _yǝ-ʔǝg_     |
 
-### Reflexive uses
+## Reflexive uses
+
+In this Section, I discuss the reflexive uses of pronouns that are also used as demonstratives, although usually the reflexive function is not considered as a function of demonstratives.
 
 In Tsez and Khwarshi (both Tsezic), there is a pronoun that can be used both as a demonstrative and reflexive pronoun. 
 
@@ -285,7 +299,9 @@ The richest languages in terms of the number of contrasts belong to the Andic br
 
 Elevation is a common feature of demonstrative systems in the languages of Daghestan and its adjacent territories. Affixal marking of elevation is characteristic of Andic languages, while Lezgic languages express it by dedicated stems, and Tsezic languages are not reported to have it altogether.
 
-Distinctions in terms of visibility and dedicated anaphoric marking are rare. A visibility affix is only attested in Bezhta, whereas an anaphoric affix is attested in Hunzib.
+Distinctions in terms of visibility, givenness and dedicated anaphoric marking are rare. A visibility affix is only attested in Bezhta, whereas an anaphoric affix is attested in Hunzib. Only Kumyk uses different S-prox demonstrative pronouns depending on whether the referent was mentioned previously or not.
+
+According to data from written sources, there is no language where the S-prox demonstrative pronoun is used as the main 3rd person pronoun.
 
 In two languages of the Tsezic branch Tsez and Khwarshi, there is a pronoun which is used as both a demonstrative and a reflexive pronoun. This may be a rare feature not only in the languages of the sample, but also in other languages, and this requires a separate investigation.
 
