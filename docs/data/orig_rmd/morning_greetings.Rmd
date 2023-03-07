@@ -1,0 +1,57 @@
+```{r, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, comment = '')
+library(lingglosses)
+```
+
+## Introduction
+
+The most common type of morning greeting in the languages of the world is constituted by a combination of the concepts “morning” (or other close concepts like “day” or “dawn”) and “good”, as “Good morning” in English. Less common are greetings including questions about the night’s rest, as *Oraire ota?* ‘How was the night?’ in the Bantu language Nkore.
+
+In the languages of Daghestan both strategies are attested. In this chapter we classify the languages of Daghestan according to the strategy used to express morning greetings.
+
+## Results
+
+The languages of Daghestan can be classified into two groups according to whether they feature morning greetings including questions about the night’s rest (see [Did you wake up?]), or based on the combination of concepts like “morning” and “good” (see [Good morning]). Within both groups, however, some lexical and morphosyntactic variation is observed.
+
+### Did you wake up?
+
+Greetings including questions about the night’s rest are derived from verbs meaning ‘wake up’ or ‘get up’, and in most cases feature a past form of the verb. 
+
+In Avar, the morning greeting is expressed with the form *w-orč’ami* (in which the prefix *w-* is the masculine noun class marker; cf. feminine *j-orč’ami* and human plural *r-orč’ami*). The base verb is *b-orč’-ize*, which means ‘wake up’, but also ‘get out, escape’ [@gimbatov2006: 275]. According to Gadzhiakhmedov et al.  [-@gadzhiaxmedovetal2012: 67], the form *w-orč’ami* is derived from the interrogative past form `r gloss_example("w-orč'-a-n=iš", "M-wake_up-LV-PST=Q", intext = TRUE)`.
+
+All Andic languages employ local variants to express morning greetings. Similarly to Avar, they usually include a past form of the verb (but note that Bagvalal and Tukita are based on non-finite forms, i.e. a converb and a participle respectively) followed by an interrogative particle (except for Tukita). Differently from Avar, however, they all feature a base verb meaning ‘get up’ rather than ‘wake up’, cf. Botlikh `r gloss_example("hičː-u=ma", "get_up-AOR=Q", intext = TRUE)`.
+
+In all Andic languages borrowings from Avar are also used along with local variants. In Akhvakh, Bagvalal and Botlikh, the borrowed form is inflected for gender as in Avar, whereas in Chamalal, Godoberi and Karata the form *worč’ami* (also *warč’ami* in Karata) is used for both men and women. In some languages, the Avar form seems to be used with the more general meaning ‘hello’, independently of the time of the day. This is the case for Godoberi [@saidova2006: 98] and Karata (R. Khalidova p.c.). The general impression emerging during consultations with native speakers of Andic languages is that, at least in some of them, the Avar forms are gaining ground at the expense of local variants.
+
+Similarly to Andic languages, Tsezic languages also employ interrogative past forms of verbs meaning ‘wake up’ to express morning greetings, cf. Tsez `r gloss_example("ø-iz-ij=ɛ", "M-get_up-PST=Q", intext = TRUE)`. The question particle is optional in Bezhta, and it is absent in Khwarshi, in which the interrogative modality is realized through intonation. All available dictionaries of Tsezic languages also report the Avar greeting *w-orč’ami*, which is inflected for gender as in Avar, but is usually translated with the more general meaning ‘hello’. During consultations with experts of Tsezic languages we got the impression that Avar forms in Tsezic languages are used less frequently than in Andic languages (Z. Khalilova p.c.).
+
+Dargwa languages feature constructions that are essentially similar to the constructions found in Andic and Tsezic languages. The main difference is that the base verbs most commonly have the meaning ‘wake up’ rather than ‘get up’, cf. Standard Dargwa `r gloss_example("w-elħ-un=ri=w", "M-wake_up-PRET=2SG=Q", intext = TRUE)`. Verbs meaning ‘get up’ are found in Kaitag (as an alternative to a form derived from the verb ‘wake up’) and in Tsudakhar.
+
+In other groups of the Nakh-Daghestanian family similar constructions are found in Lak and Archi (Lezgic). In Lak, the form `r gloss_example("iwz-ra-w", "get_up.M-2SG.PST-Q", intext = TRUE)` is found along with a wish-construction (see Section 2.2), but in the dictionary by Khajdakov [-@khajdakov1962: 124] it is translated more generally as ‘hello’. In Archi, morning greetings are expressed with a formula that differs a little from the constructions discussed above in terms of the lexical units employed (@one).
+
+(@one) Archi (M. Chumakina, p.c.)
+```{r}
+gloss_example("nibk'i ac'u=ra",
+              "sleep.ERG fill(PFV.F.SG)=Q",
+              "Good morning, lit. did the sleep fill (you.F)?")
+```
+
+### Good morning
+
+Greetings of the type ‘good morning’ can be divided into two categories: 1) a combination of the words ‘morning’ and ‘good, benefit’; 2) a wish-construction (‘may your morning be good’). The first type is found in most southern languages, and is usually constructed from words of Arabic origin: *sabaħ* 'morning' and *xair* 'good, benefit', cf. *sabax xajir* in Rutul. In Arabic, the full greeting would be `r gloss_example("sabaħ al-xair", "morning DEF-good", "good morning", "(lit. the morning good)", intext = TRUE)`. The same greeting is present in Azerbaijani, where it is formed with a possessive construction: `r gloss_example("sabah-ın xeyir", "morning-POSS good", intext = TRUE)`. Lezgian and Tsakhur use a construction consisting of an attributive form of a native word for ‘morning’ and the Arabic word *xair*.
+
+Wish-constructions are limited to a few languages pertaining to different areas and genetic groups. Their formal appearance is very language-specific: Chechen, Ingush, and Lak employ optatives, in Kumyk and Nogai we find third person imperatives, and in Tat the subjunctive is used. The wish-constructions are also lexically more diverse than the formulas discussed earlier.
+
+## Distribution
+
+Strategy A (‘Did you wake up?’) is typical of the area where Avar historically functioned as lingua franca. Besides Avar it is found in all Andic and Tsezic languages, as well as in Archi, an outlier language from the Lezgic branch that was heavily influenced by Avar. In some of these languages the phrase is borrowed directly (rather than calqued) from Avar. Remarkably, strategy A is not limited to Avar’s traditional zone of influence. It is also represented in Lak and a number of Dargwa varieties. It remains unclear how this strategy spread across such a large area. To our knowledge, there are not many isoglosses connecting the Avar zone with Lak and Dargwa. Perhaps it is important to note here that direct borrowing of the Avar phrase is not attested in Archi, Lak, or Dargwa.
+
+Strategy B (‘good morning’) subsumes two specific types of constructions, only one of which shows a specific distribution: a combination of Arabic lexemes meaning ‘morning’ and ‘good’. This strategy (B1) is represented in the Lezgic languages spoken in the southern part of the area, as well as in Azerbaijani. Originally this greeting comes from Arabic. The exact process by which it was borrowed into the East Caucasian languages remains unclear (except in the case of Khinalug, where the Azerbaijani phrase with the distinct possessive suffix was adopted without modification). Mediated borrowing through Azerbaijani seems very likely due to the specific areal distribution of this formula, but the East Caucasian variants do not show clear traces of this. The lexemes appear to be adapted directly from Arabic rather than from Azerbaijani, and none of the languages copied the Azerbaijani possessive suffix. At the same time, the Arabic definite article is not copied either. In Naccarato & Verhees [-@naccaratoverhees2021] we proposed that two independent borrowing processes converged in these greetings: while the greeting itself was borrowed from Azerbaijani, the lexemes were adapted from Arabic, as evidenced by the variants of *xair*. The word *sabaħ* is rarely used outside of this formula. Further, any morphology that does not have a direct equivalent in East Caucasian was lost.
+
+## List of glosses {-}
+
+```{r}
+make_gloss_list(readxl::read_xlsx("../glosses.xlsx"))
+```
+
+## References {-}
