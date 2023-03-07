@@ -12,14 +12,9 @@ The BibTeX entry bekova2009 present in the days_before_today.tsv, but absent in 
 The BibTeX entry khalilova1983 present in the days_before_today.tsv, but absent in the biblib.xlsx
 The BibTeX entry talibovgadjiev1966 present in the days_before_today.tsv, but absent in the biblib.xlsx
 The BibTeX entry ibragimovnurmamedov2011 present in the days_before_today.tsv, but absent in the biblib.xlsx
-The BibTeX entry sulejmanov1957 present in the demonstratives.tsv, but absent in the biblib.xlsx
-The BibTeX entry magometova2004 present in the demonstratives.tsv, but absent in the biblib.xlsx
-The BibTeX entry khalidova2017 present in the demonstratives.tsv, but absent in the biblib.xlsx
-The BibTeX entry Haspelmath1993 present in the demonstratives.tsv, but absent in the biblib.xlsx
 The BibTeX entry uslar1979 present in the demonstratives.tsv, but absent in the biblib.xlsx
 The BibTeX entry schulze2008 present in the demonstratives.tsv, but absent in the biblib.xlsx
-The BibTeX entry baskakov1997 present in the demonstratives.tsv, but absent in the biblib.xlsx
-The BibTeX entry imnajshvili1961 present in the demonstratives.tsv, but absent in the biblib.xlsx
+The BibTeX entry imnajshvili1963 present in the demonstratives.tsv, but absent in the biblib.xlsx
 The BibTeX entry moroz2017 present in the ejective_p.tsv, but absent in the biblib.xlsx
 The BibTeX entry morozdraft2021 present in the ejective_p.tsv, but absent in the biblib.xlsx
 The BibTeX entry gaydarivetal2009 present in the ejective_p.tsv, but absent in the biblib.xlsx
