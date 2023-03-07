@@ -11,7 +11,7 @@ names as in the `../data/contributers.xlsx`", {
     sort() ->
     expected_texts
   
-  readxl::read_xlsx("../data/contributors.xlsx", range = readxl::cell_cols(c("B", "I", "J"))) %>% 
+  readxl::read_xlsx("../data/contributors.xlsx") %>% 
     filter(render == 1,
            !is.na(major_topic_text)) %>% 
     pull(filename) %>% 
