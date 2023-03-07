@@ -19,8 +19,9 @@ names as in the `../data/contributers.xlsx`", {
     expected_mt
   
   tables <- str_c(expected_texts, ".tsv")[which(!(str_c(expected_texts, ".tsv") %in% list.files("../data/orig_table")))]
+  tables <- ifelse(length(tables) == 0, "", tables)
   expect_equal(str_c("There is no file", tables, " in the ../data/orig_table", sep = " ", collapse = "; "),
-               "There is no file  in the ../data/orig_table")
+               "There is no file   in the ../data/orig_table")
   
   bibs <- str_c(c(expected_texts, expected_mt), ".bib")[which(!(str_c(c(expected_texts, expected_mt), ".bib") %in% list.files("../data/orig_bib")))]
   
@@ -39,6 +40,3 @@ names as in the `../data/contributers.xlsx`", {
                        list.files("../data/orig_rmd", pattern = "_map.Rmd")), 
                sort(str_c(c(expected_texts, expected_mt), ".Rmd")))
 })
-
-
-
