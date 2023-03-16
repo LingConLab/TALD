@@ -19,3 +19,7 @@ test_that("Test spellingin chapters", {
   write_lines(observed, "../test_logs.txt", append = TRUE)
   expect_equal(observed, expected)
 })
+
+read_lines("../data/spelling_exceptions.txt") %>% 
+  sort() %>% 
+  write_lines("../data/spelling_exceptions.txt")

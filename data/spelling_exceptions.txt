@@ -12,9 +12,11 @@ affixal
 affricate
 agglutinative
 Agul
+Aigul
 Aikhenvald
 Akhvakh
 Akusha
+Alekseeva
 allative
 allomorph
 ambiposition
@@ -48,6 +50,7 @@ Buynaksk
 caritive
 Chadic
 Chamalal
+Chiara
 Chirag
 Chumakina
 circumfix
@@ -67,6 +70,7 @@ Daghestanian
 Dagkou
 Dargic
 Dargwa
+Daria
 Datatable
 decimally
 declaratives
@@ -134,6 +138,7 @@ HPL
 HSE
 Hunzib
 Huppuq'
+Ilya
 Imnajšvili
 imperfective
 imperfectivity

@@ -722,9 +722,4 @@ speling of Armenic in about.Rmd:34
 speling of datapoint in about.Rmd:209
 speling of diasporic in about.Rmd:32
 speling of wordforms in about.Rmd:246
-speling of Aigul in team.Rmd:17
-speling of Alekseeva in team.Rmd:19
-speling of Chiara in team.Rmd:13,19,21,25
-speling of Daria in team.Rmd:19
-speling of Ilya in team.Rmd:19
 speling of Moyano in team.Rmd:19
