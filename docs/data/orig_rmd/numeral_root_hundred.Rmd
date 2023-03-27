@@ -1,0 +1,78 @@
+
+## Introduction
+This chapter is dedicated to the distribution of possible roots for ‘hundred’. The root of the lexeme ‘hundred’ has common origins in the majority of East Caucasian languages. The North Caucasian etymology database by Starostin and Starostin [@-starostinstarostin] reconstructs the roots for the proto-languages of the Avar-Andic, Lezgic, Dargic, and Lak branches, and also the common proto-Daghestanian root. However, some lects express the meaning ‘hundred’ differently than other languages of their branch, and some languages are not mentioned in the database.
+
+## Results
+For example, one widespread version of the root is *bešan*-/*bušun*-/*beɣan*- (in different variations), which Starostin and Starostin reconstruct as **bišo-nV*. It is present in all Andic and most Tsezic languages. Consider the following example from Godoberi:
+
+(@godoberi_100) Godoberi [@tatevosov1996: 29]
+```{r, echo=FALSE}
+gloss_example(transliteration = "bešenu-da",
+              glosses = "hundred-NUM",
+              free_translation = "100"
+)
+```
+
+Lezgic languages use another realization of the root with variations *wiš*/*warž*/*waˤš*, etc., reconstructed as \**waˤš:*. The exceptions are Budukh and Kryz, which use a vigesimal derivation for ‘hundred’ (shown in (@godoberi_100)). The same is attested in Tsova-Tush of the Nakh branch, however, in this case the native vigesimal derivation is being ousted by the Georgian borrowing *asi*.
+
+(@) Budukh [@talibov2007: 145]
+```{r, echo=FALSE}
+gloss_example(transliteration = "fu-q͡χa-b",
+              glosses = "five-twenty-CM",
+              free_translation = "100"
+)
+```
+
+The roots mentioned in the North Caucasian etymology database for Agul, Archi, and Udi, have initial /*b*/ instead of /*w*/. For Agul and Udi this is confirmed by the grammars’ data. In the case of Agul, however, [@magometov1970: 94] gives the root *werš*.
+
+Dargic languages use the root \**darš:* which has almost no phonetic variation within the branch. Lak uses a similar root *t:urš*:
+
+(@) Standard Lak [@zhirkov1955: 53]
+```{r, echo=FALSE}
+gloss_example(transliteration = "t:urš-w.a",
+              glosses = "hundred-III.NUM",
+              free_translation = "100"
+)
+```
+
+The situation with the root ‘hundred’ in the Avar language is interesting. It coincides with the word *nus* ‘knife’ and does not visibly resemble the common Avar-Andic roots. It is present in all Avar dialects for which I have data, including Zaqatala Avar, which is spoken in Northwestern Azerbaijan. [@starostinstarostin] claim that this root is cognate with the Avar-Andic root and gives the following etymological chain: *nus* < \**bVns* < \**bišVnV*-. The word ‘knife’ is considered a homonym which is “of course, quite different etymologically”:
+
+(@) Zaqatala Avar [@saidova2007: 112]
+```{r, echo=FALSE}
+gloss_example(transliteration = "nos-ojatta co",
+              glosses = "hundred-LNK one",
+              free_translation = "101"
+)
+```
+
+The same happens in Hunzib and Bezhta, two Eastern Tsezic languages, as shown in (@hunzib_100). The word ‘knife’ is used for ‘hundred’, even though the root itself differs from the one in Avar. [@starostinstarostin] describe this as ‘the result of folk-etymological analysis of Avar [homonymous] *nus*’, concluding that *č’it’* ‘obtained the additional meaning ‘hundred’ under Avar influence’.
+
+(@hunzib_100) Hunzib [@vandenberg1995: 69]
+```{r, echo=FALSE}
+gloss_example(transliteration = "hə̃s=č’it’",
+              glosses = "one=hundred",
+              free_translation = "100"
+)
+```
+
+Note that unlike in any other language of the East Caucasian family, the word ‘hundred’ in Hunzib and Bezhta is used with the obligatory numeral ‘one’. This is also an indication of borrowing. [@hurford1987: 99] speaks of a cross-linguistic rule he calls ‘1-deletion’: the numeral ‘one’ is not used with bases and, often, with powers of bases. For hundreds this rule, indeed, applies to all East Caucasian languages except these two.
+
+Examples of the roots of Nakh languages are not given in the [@starostinstarostin] database. Chechen and Ingush of the Nakh branch use a similar root which I mark on the map by its Chechen realisation, *bʕe:*:
+
+(@) Standard Ingush [@nichols2011: 210]
+```{r, echo=FALSE}
+gloss_example(transliteration = "bʕɛ̯æ:’",
+              glosses = "hundred",
+              free_translation = "100"
+)
+```
+
+Khinalug is not given in the [@starostinstarostin] database, either. This language uses the root pan, which does not bear obvious resemblance to the cognate roots mentioned above.
+
+## Distribution
+The distribution of the roots corresponds to the genealogical division of the family. The main types are described above.
+
+## List of glosses
+`r add_gloss("CM")` — class marker; `r add_gloss("III")` — class III; `r add_gloss("LNK")` — linking suffix; `r add_gloss("NUM")` — numeral marker
+
+## References
