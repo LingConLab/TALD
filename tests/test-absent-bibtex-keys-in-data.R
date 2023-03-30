@@ -20,9 +20,9 @@ test_that("Test bibkeys in data:", {
     refs_absent_in_biblib
   
   if(nrow(refs_absent_in_biblib) > 0){
-    observed <- str_c("The BibTeX entry ", 
+    observed <- str_c("The BibTeX entry          ", 
                       refs_absent_in_biblib$refs, 
-                      " present in the ",
+                      "          present in the          ",
                       refs_absent_in_biblib$files,
                       ", but absent in the biblib.xlsx")
     expected <- rep("", nrow(refs_absent_in_biblib))

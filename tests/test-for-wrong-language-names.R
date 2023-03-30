@@ -24,9 +24,9 @@ match with `../data/tald_villages.csv`", {
     wrong_langs_df
 
   if(nrow(wrong_langs_df) > 0){
-    observed <- str_c("The wrong langage name ", 
+    observed <- str_c("The wrong langage name          ", 
                       wrong_langs_df$lang, 
-                      " in the file ",
+                      "          in the file          ",
                       wrong_langs_df$file)
     expected <- rep("", nrow(wrong_langs_df))
   } else {

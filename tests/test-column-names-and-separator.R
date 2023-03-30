@@ -34,9 +34,9 @@ columns listed in `expected_columns`", {
     absent_columns
   
   if(nrow(absent_columns) > 0){
-    observed <- str_c("The obligatory column ", 
+    observed <- str_c("The obligatory column          ", 
                       absent_columns$Var1, 
-                      " is absent in the file ",
+                      "          is absent in the file          ",
                       absent_columns$Var2)
     expected <- rep("", nrow(absent_columns))
   } else {

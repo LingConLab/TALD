@@ -25,9 +25,9 @@ test_that("Test bibkeys in articles:", {
     refs_absent_in_bib
   
   if(nrow(refs_absent_in_bib) > 0){
-    observed <- str_c("The BibTeX entry ", 
+    observed <- str_c("The BibTeX entry          ", 
                       refs_absent_in_bib$refs, 
-                      " present in the .Rmd, but absent in the ",
+                      "          present in the .Rmd, but absent in the ",
                       refs_absent_in_bib$files,
                       ".bib")
     expected <- rep("", nrow(refs_absent_in_bib))

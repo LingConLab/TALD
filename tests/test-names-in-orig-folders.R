@@ -27,7 +27,8 @@ names as in the `../data/contributers.xlsx`", {
   
   
   if(length(bibs) > 0){
-    observed <- str_c("There is no file", bibs, " in the ../data/orig_table", sep = " ", collapse = "; ")
+    observed <- str_c("There is no file           ", bibs, 
+                      "          in the ../data/orig_table", sep = " ", collapse = "; ")
     expected <- rep("", length(bibs))
   } else {
     observed <- "everything is ok"

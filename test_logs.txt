@@ -1,82 +1,176 @@
-The BibTeX entry moroz2017 present in the ejective_p.tsv, but absent in the biblib.xlsx
-The BibTeX entry morozdraft2021 present in the ejective_p.tsv, but absent in the biblib.xlsx
-The BibTeX entry gaydarivetal2009 present in the ejective_p.tsv, but absent in the biblib.xlsx
-The BibTeX entry moroz2017 present in the ejective_s.tsv, but absent in the biblib.xlsx
-The BibTeX entry morozdraft2021 present in the ejective_s.tsv, but absent in the biblib.xlsx
-The BibTeX entry gaydarivetal2009 present in the ejective_s.tsv, but absent in the biblib.xlsx
-The BibTeX entry moroz2017 present in the gemination.tsv, but absent in the biblib.xlsx
-The BibTeX entry morozdraft2021 present in the gemination.tsv, but absent in the biblib.xlsx
-The BibTeX entry gaydarivetal2009 present in the gemination.tsv, but absent in the biblib.xlsx
-The BibTeX entry moroz2017 present in the labialization.tsv, but absent in the biblib.xlsx
-The BibTeX entry morozdraft2021 present in the labialization.tsv, but absent in the biblib.xlsx
-The BibTeX entry gaydarivetal2009 present in the labialization.tsv, but absent in the biblib.xlsx
-The BibTeX entry moroz2017 present in the labials.tsv, but absent in the biblib.xlsx
-The BibTeX entry morozdraft2021 present in the labials.tsv, but absent in the biblib.xlsx
-The BibTeX entry gaydarivetal2009 present in the labials.tsv, but absent in the biblib.xlsx
-The BibTeX entry moroz2017 present in the laterals.tsv, but absent in the biblib.xlsx
-The BibTeX entry morozdraft2021 present in the laterals.tsv, but absent in the biblib.xlsx
-The BibTeX entry gaydarivetal2009 present in the laterals.tsv, but absent in the biblib.xlsx
-The BibTeX entry moroz2017 present in the long_vowels.tsv, but absent in the biblib.xlsx
-The BibTeX entry morozdraft2021 present in the long_vowels.tsv, but absent in the biblib.xlsx
-The BibTeX entry gaydarivetal2009 present in the long_vowels.tsv, but absent in the biblib.xlsx
-The BibTeX entry moroz2017 present in the nasalization.tsv, but absent in the biblib.xlsx
-The BibTeX entry morozdraft2021 present in the nasalization.tsv, but absent in the biblib.xlsx
-The BibTeX entry gaydarivetal2009 present in the nasalization.tsv, but absent in the biblib.xlsx
-The BibTeX entry bokarev1949 present in the numeral_class.tsv, but absent in the biblib.xlsx
-The BibTeX entry bokarev1949 present in the numeral_complex.tsv, but absent in the biblib.xlsx
-The BibTeX entry bokarev1949 present in the numeral_crowns_endings.tsv, but absent in the biblib.xlsx
-The BibTeX entry mukhin2020 present in the numeral_crowns_endings.tsv, but absent in the biblib.xlsx
-The BibTeX entry bokarev1949 present in the numeral_crowns_ten.tsv, but absent in the biblib.xlsx
-The BibTeX entry mukhin2020 present in the numeral_crowns_ten.tsv, but absent in the biblib.xlsx
-The BibTeX entry bokarev1949 present in the numeral_distributives.tsv, but absent in the biblib.xlsx
-The BibTeX entry bokarev1949 present in the numeral_hundred.tsv, but absent in the biblib.xlsx
-The BibTeX entry ganenkov2021draft_numerals present in the numeral_hundred.tsv, but absent in the biblib.xlsx
-The BibTeX entry mukhin2020 present in the numeral_hundred.tsv, but absent in the biblib.xlsx
-The BibTeX entry bokarev1949 present in the numeral_one.tsv, but absent in the biblib.xlsx
-The BibTeX entry ganenkov2021draft_numerals present in the numeral_one.tsv, but absent in the biblib.xlsx
-The BibTeX entry mukhin2020 present in the numeral_one.tsv, but absent in the biblib.xlsx
-The BibTeX entry bokarev1949 present in the numeral_ordinals.tsv, but absent in the biblib.xlsx
-The BibTeX entry khalilov1998 present in the numeral_ordinals.tsv, but absent in the biblib.xlsx
-The BibTeX entry mukhin2020 present in the numeral_ordinals.tsv, but absent in the biblib.xlsx
-The BibTeX entry bokarev1949 present in the numeral_origin.tsv, but absent in the biblib.xlsx
-The BibTeX entry bokarev1949 present in the numeral_regularity.tsv, but absent in the biblib.xlsx
-The BibTeX entry ganenkov2021draft_numerals present in the numeral_regularity.tsv, but absent in the biblib.xlsx
-The BibTeX entry mukhin2020 present in the numeral_regularity.tsv, but absent in the biblib.xlsx
-The BibTeX entry bokarev1949 present in the numeral_root_hundred.tsv, but absent in the biblib.xlsx
-The BibTeX entry ganenkov2021draft_numerals present in the numeral_root_hundred.tsv, but absent in the biblib.xlsx
-The BibTeX entry mukhin2020 present in the numeral_root_hundred.tsv, but absent in the biblib.xlsx
-The BibTeX entry bokarev1949 present in the numeral_thousand.tsv, but absent in the biblib.xlsx
-The BibTeX entry ganenkov2021draft_numerals present in the numeral_thousand.tsv, but absent in the biblib.xlsx
-The BibTeX entry mukhin2020 present in the numeral_thousand.tsv, but absent in the biblib.xlsx
-The BibTeX entry bokarev1949 present in the numeral_twenty.tsv, but absent in the biblib.xlsx
-The BibTeX entry ganenkov2021draft_numerals present in the numeral_twenty.tsv, but absent in the biblib.xlsx
-The BibTeX entry mukhin2020 present in the numeral_twenty.tsv, but absent in the biblib.xlsx
-The BibTeX entry bokarev1949 present in the numeral_twoten.tsv, but absent in the biblib.xlsx
-The BibTeX entry ganenkov2021draft_numerals present in the numeral_twoten.tsv, but absent in the biblib.xlsx
-The BibTeX entry mukhin2020 present in the numeral_twoten.tsv, but absent in the biblib.xlsx
-The BibTeX entry moroz2017 present in the palatalized_consonants.tsv, but absent in the biblib.xlsx
-The BibTeX entry morozdraft2021 present in the palatalized_consonants.tsv, but absent in the biblib.xlsx
-The BibTeX entry gaydarivetal2009 present in the palatalized_consonants.tsv, but absent in the biblib.xlsx
-The BibTeX entry moroz2017 present in the pharyngealization.tsv, but absent in the biblib.xlsx
-The BibTeX entry morozdraft2021 present in the pharyngealization.tsv, but absent in the biblib.xlsx
-The BibTeX entry gaydarivetal2009 present in the pharyngealization.tsv, but absent in the biblib.xlsx
-The BibTeX entry moroz2017 present in the pharyngeals.tsv, but absent in the biblib.xlsx
-The BibTeX entry morozdraft2021 present in the pharyngeals.tsv, but absent in the biblib.xlsx
-The BibTeX entry gaydarivetal2009 present in the pharyngeals.tsv, but absent in the biblib.xlsx
-The BibTeX entry moroz2017 present in the umlaut_vowels.tsv, but absent in the biblib.xlsx
-The BibTeX entry morozdraft2021 present in the umlaut_vowels.tsv, but absent in the biblib.xlsx
-The BibTeX entry gaydarivetal2009 present in the umlaut_vowels.tsv, but absent in the biblib.xlsx
-The BibTeX entry moroz2017 present in the uvular_voiced_stop.tsv, but absent in the biblib.xlsx
-The BibTeX entry morozdraft2021 present in the uvular_voiced_stop.tsv, but absent in the biblib.xlsx
-The BibTeX entry gaydarivetal2009 present in the uvular_voiced_stop.tsv, but absent in the biblib.xlsx
-The BibTeX entry moroz2017 present in the velar_fricatives.tsv, but absent in the biblib.xlsx
-The BibTeX entry morozdraft2021 present in the velar_fricatives.tsv, but absent in the biblib.xlsx
-The BibTeX entry gaydarivetal2009 present in the velar_fricatives.tsv, but absent in the biblib.xlsx
-The BibTeX entry moroz2017 present in the voiceless_obstruents.tsv, but absent in the biblib.xlsx
-The BibTeX entry morozdraft2021 present in the voiceless_obstruents.tsv, but absent in the biblib.xlsx
-The BibTeX entry gaydarivetal2009 present in the voiceless_obstruents.tsv, but absent in the biblib.xlsx
+The BibTeX entry          moroz2017          present in the          ejective_p.tsv, but absent in the biblib.xlsx
+The BibTeX entry          morozdraft2021          present in the          ejective_p.tsv, but absent in the biblib.xlsx
+The BibTeX entry          gaydarivetal2009          present in the          ejective_p.tsv, but absent in the biblib.xlsx
+The BibTeX entry          moroz2017          present in the          ejective_s.tsv, but absent in the biblib.xlsx
+The BibTeX entry          morozdraft2021          present in the          ejective_s.tsv, but absent in the biblib.xlsx
+The BibTeX entry          gaydarivetal2009          present in the          ejective_s.tsv, but absent in the biblib.xlsx
+The BibTeX entry          moroz2017          present in the          gemination.tsv, but absent in the biblib.xlsx
+The BibTeX entry          morozdraft2021          present in the          gemination.tsv, but absent in the biblib.xlsx
+The BibTeX entry          gaydarivetal2009          present in the          gemination.tsv, but absent in the biblib.xlsx
+The BibTeX entry          moroz2017          present in the          labialization.tsv, but absent in the biblib.xlsx
+The BibTeX entry          morozdraft2021          present in the          labialization.tsv, but absent in the biblib.xlsx
+The BibTeX entry          gaydarivetal2009          present in the          labialization.tsv, but absent in the biblib.xlsx
+The BibTeX entry          moroz2017          present in the          labials.tsv, but absent in the biblib.xlsx
+The BibTeX entry          morozdraft2021          present in the          labials.tsv, but absent in the biblib.xlsx
+The BibTeX entry          gaydarivetal2009          present in the          labials.tsv, but absent in the biblib.xlsx
+The BibTeX entry          moroz2017          present in the          laterals.tsv, but absent in the biblib.xlsx
+The BibTeX entry          morozdraft2021          present in the          laterals.tsv, but absent in the biblib.xlsx
+The BibTeX entry          gaydarivetal2009          present in the          laterals.tsv, but absent in the biblib.xlsx
+The BibTeX entry          moroz2017          present in the          long_vowels.tsv, but absent in the biblib.xlsx
+The BibTeX entry          morozdraft2021          present in the          long_vowels.tsv, but absent in the biblib.xlsx
+The BibTeX entry          gaydarivetal2009          present in the          long_vowels.tsv, but absent in the biblib.xlsx
+The BibTeX entry          moroz2017          present in the          nasalization.tsv, but absent in the biblib.xlsx
+The BibTeX entry          morozdraft2021          present in the          nasalization.tsv, but absent in the biblib.xlsx
+The BibTeX entry          gaydarivetal2009          present in the          nasalization.tsv, but absent in the biblib.xlsx
+The BibTeX entry          bokarev1949          present in the          numeral_class.tsv, but absent in the biblib.xlsx
+The BibTeX entry          bokarev1949          present in the          numeral_complex.tsv, but absent in the biblib.xlsx
+The BibTeX entry          bokarev1949          present in the          numeral_crowns_endings.tsv, but absent in the biblib.xlsx
+The BibTeX entry          mukhin2020          present in the          numeral_crowns_endings.tsv, but absent in the biblib.xlsx
+The BibTeX entry          bokarev1949          present in the          numeral_crowns_ten.tsv, but absent in the biblib.xlsx
+The BibTeX entry          mukhin2020          present in the          numeral_crowns_ten.tsv, but absent in the biblib.xlsx
+The BibTeX entry          bokarev1949          present in the          numeral_distributives.tsv, but absent in the biblib.xlsx
+The BibTeX entry          bokarev1949          present in the          numeral_hundred.tsv, but absent in the biblib.xlsx
+The BibTeX entry          ganenkov2021draft_numerals          present in the          numeral_hundred.tsv, but absent in the biblib.xlsx
+The BibTeX entry          mukhin2020          present in the          numeral_hundred.tsv, but absent in the biblib.xlsx
+The BibTeX entry          bokarev1949          present in the          numeral_one.tsv, but absent in the biblib.xlsx
+The BibTeX entry          ganenkov2021draft_numerals          present in the          numeral_one.tsv, but absent in the biblib.xlsx
+The BibTeX entry          mukhin2020          present in the          numeral_one.tsv, but absent in the biblib.xlsx
+The BibTeX entry          bokarev1949          present in the          numeral_ordinals.tsv, but absent in the biblib.xlsx
+The BibTeX entry          khalilov1998          present in the          numeral_ordinals.tsv, but absent in the biblib.xlsx
+The BibTeX entry          mukhin2020          present in the          numeral_ordinals.tsv, but absent in the biblib.xlsx
+The BibTeX entry          bokarev1949          present in the          numeral_origin.tsv, but absent in the biblib.xlsx
+The BibTeX entry          bokarev1949          present in the          numeral_regularity.tsv, but absent in the biblib.xlsx
+The BibTeX entry          ganenkov2021draft_numerals          present in the          numeral_regularity.tsv, but absent in the biblib.xlsx
+The BibTeX entry          mukhin2020          present in the          numeral_regularity.tsv, but absent in the biblib.xlsx
+The BibTeX entry          bokarev1949          present in the          numeral_root_hundred.tsv, but absent in the biblib.xlsx
+The BibTeX entry          ganenkov2021draft_numerals          present in the          numeral_root_hundred.tsv, but absent in the biblib.xlsx
+The BibTeX entry          mukhin2020          present in the          numeral_root_hundred.tsv, but absent in the biblib.xlsx
+The BibTeX entry          bokarev1949          present in the          numeral_thousand.tsv, but absent in the biblib.xlsx
+The BibTeX entry          ganenkov2021draft_numerals          present in the          numeral_thousand.tsv, but absent in the biblib.xlsx
+The BibTeX entry          mukhin2020          present in the          numeral_thousand.tsv, but absent in the biblib.xlsx
+The BibTeX entry          bokarev1949          present in the          numeral_twenty.tsv, but absent in the biblib.xlsx
+The BibTeX entry          ganenkov2021draft_numerals          present in the          numeral_twenty.tsv, but absent in the biblib.xlsx
+The BibTeX entry          mukhin2020          present in the          numeral_twenty.tsv, but absent in the biblib.xlsx
+The BibTeX entry          bokarev1949          present in the          numeral_twoten.tsv, but absent in the biblib.xlsx
+The BibTeX entry          ganenkov2021draft_numerals          present in the          numeral_twoten.tsv, but absent in the biblib.xlsx
+The BibTeX entry          mukhin2020          present in the          numeral_twoten.tsv, but absent in the biblib.xlsx
+The BibTeX entry          moroz2017          present in the          palatalized_consonants.tsv, but absent in the biblib.xlsx
+The BibTeX entry          morozdraft2021          present in the          palatalized_consonants.tsv, but absent in the biblib.xlsx
+The BibTeX entry          gaydarivetal2009          present in the          palatalized_consonants.tsv, but absent in the biblib.xlsx
+The BibTeX entry          moroz2017          present in the          pharyngealization.tsv, but absent in the biblib.xlsx
+The BibTeX entry          morozdraft2021          present in the          pharyngealization.tsv, but absent in the biblib.xlsx
+The BibTeX entry          gaydarivetal2009          present in the          pharyngealization.tsv, but absent in the biblib.xlsx
+The BibTeX entry          moroz2017          present in the          pharyngeals.tsv, but absent in the biblib.xlsx
+The BibTeX entry          morozdraft2021          present in the          pharyngeals.tsv, but absent in the biblib.xlsx
+The BibTeX entry          gaydarivetal2009          present in the          pharyngeals.tsv, but absent in the biblib.xlsx
+The BibTeX entry          moroz2017          present in the          umlaut_vowels.tsv, but absent in the biblib.xlsx
+The BibTeX entry          morozdraft2021          present in the          umlaut_vowels.tsv, but absent in the biblib.xlsx
+The BibTeX entry          gaydarivetal2009          present in the          umlaut_vowels.tsv, but absent in the biblib.xlsx
+The BibTeX entry          moroz2017          present in the          uvular_voiced_stop.tsv, but absent in the biblib.xlsx
+The BibTeX entry          morozdraft2021          present in the          uvular_voiced_stop.tsv, but absent in the biblib.xlsx
+The BibTeX entry          gaydarivetal2009          present in the          uvular_voiced_stop.tsv, but absent in the biblib.xlsx
+The BibTeX entry          moroz2017          present in the          velar_fricatives.tsv, but absent in the biblib.xlsx
+The BibTeX entry          morozdraft2021          present in the          velar_fricatives.tsv, but absent in the biblib.xlsx
+The BibTeX entry          gaydarivetal2009          present in the          velar_fricatives.tsv, but absent in the biblib.xlsx
+The BibTeX entry          moroz2017          present in the          voiceless_obstruents.tsv, but absent in the biblib.xlsx
+The BibTeX entry          morozdraft2021          present in the          voiceless_obstruents.tsv, but absent in the biblib.xlsx
+The BibTeX entry          gaydarivetal2009          present in the          voiceless_obstruents.tsv, but absent in the biblib.xlsx
 The wrong village dialect name Gadiri in the file perfect.tsv
 The wrong toplevel dialect name Ak-Nogai in the file numeral_ordinals.tsv
+adpositions.Rmd:          0          wrong hashes
+agreement_of_adpositions_map.Rmd:          0          wrong hashes
+agreement_of_adpositions.Rmd:          0          wrong hashes
+caritive_adv_map.Rmd:          0          wrong hashes
+caritive_adv.Rmd:          0          wrong hashes
+caritive_attr_map.Rmd:          0          wrong hashes
+caritive_attr.Rmd:          0          wrong hashes
+comitative_map.Rmd:          0          wrong hashes
+comitative.Rmd:          0          wrong hashes
+days_after_today_map.Rmd:          0          wrong hashes
+days_after_today.Rmd:          0          wrong hashes
+days_before_today_map.Rmd:          0          wrong hashes
+days_before_today.Rmd:          0          wrong hashes
+demonstratives_map.Rmd:          0          wrong hashes
+demonstratives.Rmd:          0          wrong hashes
+dominant_adpositional_case_map.Rmd:          0          wrong hashes
+dominant_adpositional_case.Rmd:          0          wrong hashes
+ejective_p_map.Rmd:          0          wrong hashes
+ejective_p.Rmd:          0          wrong hashes
+ejective_s_map.Rmd:          0          wrong hashes
+ejective_s.Rmd:          0          wrong hashes
+evidentiality_tense_map.Rmd:          0          wrong hashes
+evidentiality_tense.Rmd:          0          wrong hashes
+evidentiality.Rmd:          0          wrong hashes
+gemination_map.Rmd:          0          wrong hashes
+gemination.Rmd:          0          wrong hashes
+labialization_map.Rmd:          0          wrong hashes
+labialization.Rmd:          0          wrong hashes
+labials_map.Rmd:          0          wrong hashes
+labials.Rmd:          0          wrong hashes
+laterals_map.Rmd:          0          wrong hashes
+laterals.Rmd:          0          wrong hashes
+long_vowels_map.Rmd:          0          wrong hashes
+long_vowels.Rmd:          0          wrong hashes
+morning_greetings_map.Rmd:          0          wrong hashes
+morning_greetings.Rmd:          0          wrong hashes
+nasalization_map.Rmd:          0          wrong hashes
+nasalization.Rmd:          0          wrong hashes
+numeral_class_map.Rmd:          0          wrong hashes
+numeral_class.Rmd:          0          wrong hashes
+numeral_complex_map.Rmd:          0          wrong hashes
+numeral_complex.Rmd:          0          wrong hashes
+numeral_crowns_endings_map.Rmd:          0          wrong hashes
+numeral_crowns_endings.Rmd:          0          wrong hashes
+numeral_crowns_ten_map.Rmd:          0          wrong hashes
+numeral_crowns_ten.Rmd:          0          wrong hashes
+numeral_distributives_map.Rmd:          0          wrong hashes
+numeral_distributives.Rmd:          0          wrong hashes
+numeral_hundred_map.Rmd:          0          wrong hashes
+numeral_hundred.Rmd:          0          wrong hashes
+numeral_morphology.Rmd:          0          wrong hashes
+numeral_one_map.Rmd:          0          wrong hashes
+numeral_one.Rmd:          0          wrong hashes
+numeral_ordinals_map.Rmd:          0          wrong hashes
+numeral_ordinals.Rmd:          0          wrong hashes
+numeral_origin_map.Rmd:          0          wrong hashes
+numeral_origin.Rmd:          0          wrong hashes
+numeral_regularity_map.Rmd:          0          wrong hashes
+numeral_regularity.Rmd:          0          wrong hashes
+numeral_root_hundred_map.Rmd:          0          wrong hashes
+numeral_root_hundred.Rmd:          0          wrong hashes
+numeral_thousand_map.Rmd:          0          wrong hashes
+numeral_thousand.Rmd:          0          wrong hashes
+numeral_twenty_map.Rmd:          0          wrong hashes
+numeral_twenty.Rmd:          0          wrong hashes
+numeral_twoten_map.Rmd:          0          wrong hashes
+numeral_twoten.Rmd:          0          wrong hashes
+optative_map.Rmd:          0          wrong hashes
+optative.Rmd:          0          wrong hashes
+ordinals_map.Rmd:          0          wrong hashes
+ordinals.Rmd:          0          wrong hashes
+palatalized_consonants_map.Rmd:          0          wrong hashes
+palatalized_consonants.Rmd:          0          wrong hashes
+particles_map.Rmd:          0          wrong hashes
+particles.Rmd:          0          wrong hashes
+perfect_map.Rmd:          0          wrong hashes
+perfect.Rmd:          0          wrong hashes
+pharyngealization_map.Rmd:          0          wrong hashes
+pharyngealization.Rmd:          0          wrong hashes
+pharyngeals_map.Rmd:          0          wrong hashes
+pharyngeals.Rmd:          0          wrong hashes
+phonology.Rmd:          0          wrong hashes
+prohibitives_map.Rmd:          0          wrong hashes
+prohibitives.Rmd:          0          wrong hashes
+standard_of_comparison_map.Rmd:          0          wrong hashes
+standard_of_comparison.Rmd:          0          wrong hashes
+umlaut_vowels_map.Rmd:          0          wrong hashes
+umlaut_vowels.Rmd:          0          wrong hashes
+uvular_voiced_stop_map.Rmd:          0          wrong hashes
+uvular_voiced_stop.Rmd:          0          wrong hashes
+velar_fricatives_map.Rmd:          0          wrong hashes
+velar_fricatives.Rmd:          0          wrong hashes
+voiceless_obstruents_map.Rmd:          0          wrong hashes
+voiceless_obstruents.Rmd:          0          wrong hashes
 spelling of          after’        in adpositions.Rmd:360
 spelling of          arasından        in adpositions.Rmd:184
 spelling of          c’alduqanzaqor        in adpositions.Rmd:326

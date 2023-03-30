@@ -31,9 +31,9 @@ test_that("Test column names in the fields in bibtex tsvs", {
     df_missed_fields
   
     if(nrow(df_missed_fields) > 0){
-      observed <- str_c("The obligatory field ", 
+      observed <- str_c("The obligatory field          ", 
                         df_missed_fields$missed_fields,
-                        " is missing in ",
+                        "          is missing in          ",
                         str_remove(df_missed_fields$file, "../data/orig_bib_tsv/"))
       expected <- rep("", nrow(df_missed_fields))
     } else {

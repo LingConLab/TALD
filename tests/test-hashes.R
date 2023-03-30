@@ -9,9 +9,9 @@ I expect that the h1 header `#` is absent in Rmd files.", {
   })
   
   observed <- str_c(file = list.files("../data/orig_rmd"), 
-                    ": ",
+                    ":          ",
                     n_wrong_hashes = n_wrong_hashes, 
-                    " wrong hashes")
+                    "          wrong hashes")
   expected <- str_c(file = list.files("../data/orig_rmd"), 
                     ": 0 wrong hashes")
   

@@ -31,9 +31,9 @@ test_that("BibTeX converts all characters in the title to lowercase.
             
             
             if(nrow(df_missed_curly_braces) > 0){
-              observed <- str_c("Missing curly braces in the TITLE field of ", 
+              observed <- str_c("Missing curly braces in the TITLE field of          ", 
                                 df_missed_curly_braces$BIBTEXKEY,
-                                " entry in the ",
+                                "          entry in the          ",
                                 str_remove(df_missed_curly_braces$source_file, "../data/orig_bib(_tsv)?/"))
               expected <- rep("", nrow(df_missed_curly_braces))
             } else {
