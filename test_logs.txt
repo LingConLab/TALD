@@ -77,102 +77,7 @@ The BibTeX entry          morozdraft2021          present in the          voicel
 The BibTeX entry          gaydarivetal2009          present in the          voiceless_obstruents.tsv, but absent in the biblib.xlsx
 The wrong village dialect name Gadiri in the file perfect.tsv
 The wrong toplevel dialect name Ak-Nogai in the file numeral_ordinals.tsv
-adpositions.Rmd:          0          wrong hashes
-agreement_of_adpositions_map.Rmd:          0          wrong hashes
-agreement_of_adpositions.Rmd:          0          wrong hashes
-caritive_adv_map.Rmd:          0          wrong hashes
-caritive_adv.Rmd:          0          wrong hashes
-caritive_attr_map.Rmd:          0          wrong hashes
-caritive_attr.Rmd:          0          wrong hashes
-comitative_map.Rmd:          0          wrong hashes
-comitative.Rmd:          0          wrong hashes
-days_after_today_map.Rmd:          0          wrong hashes
-days_after_today.Rmd:          0          wrong hashes
-days_before_today_map.Rmd:          0          wrong hashes
-days_before_today.Rmd:          0          wrong hashes
-demonstratives_map.Rmd:          0          wrong hashes
-demonstratives.Rmd:          0          wrong hashes
-dominant_adpositional_case_map.Rmd:          0          wrong hashes
-dominant_adpositional_case.Rmd:          0          wrong hashes
-ejective_p_map.Rmd:          0          wrong hashes
-ejective_p.Rmd:          0          wrong hashes
-ejective_s_map.Rmd:          0          wrong hashes
-ejective_s.Rmd:          0          wrong hashes
-evidentiality_tense_map.Rmd:          0          wrong hashes
-evidentiality_tense.Rmd:          0          wrong hashes
-evidentiality.Rmd:          0          wrong hashes
-gemination_map.Rmd:          0          wrong hashes
-gemination.Rmd:          0          wrong hashes
-labialization_map.Rmd:          0          wrong hashes
-labialization.Rmd:          0          wrong hashes
-labials_map.Rmd:          0          wrong hashes
-labials.Rmd:          0          wrong hashes
-laterals_map.Rmd:          0          wrong hashes
-laterals.Rmd:          0          wrong hashes
-long_vowels_map.Rmd:          0          wrong hashes
-long_vowels.Rmd:          0          wrong hashes
-morning_greetings_map.Rmd:          0          wrong hashes
-morning_greetings.Rmd:          0          wrong hashes
-nasalization_map.Rmd:          0          wrong hashes
-nasalization.Rmd:          0          wrong hashes
-numeral_class_map.Rmd:          0          wrong hashes
-numeral_class.Rmd:          0          wrong hashes
-numeral_complex_map.Rmd:          0          wrong hashes
-numeral_complex.Rmd:          0          wrong hashes
-numeral_crowns_endings_map.Rmd:          0          wrong hashes
-numeral_crowns_endings.Rmd:          0          wrong hashes
-numeral_crowns_ten_map.Rmd:          0          wrong hashes
-numeral_crowns_ten.Rmd:          0          wrong hashes
-numeral_distributives_map.Rmd:          0          wrong hashes
-numeral_distributives.Rmd:          0          wrong hashes
-numeral_hundred_map.Rmd:          0          wrong hashes
-numeral_hundred.Rmd:          0          wrong hashes
-numeral_morphology.Rmd:          0          wrong hashes
-numeral_one_map.Rmd:          0          wrong hashes
-numeral_one.Rmd:          0          wrong hashes
-numeral_ordinals_map.Rmd:          0          wrong hashes
-numeral_ordinals.Rmd:          0          wrong hashes
-numeral_origin_map.Rmd:          0          wrong hashes
-numeral_origin.Rmd:          0          wrong hashes
-numeral_regularity_map.Rmd:          0          wrong hashes
-numeral_regularity.Rmd:          0          wrong hashes
-numeral_root_hundred_map.Rmd:          0          wrong hashes
-numeral_root_hundred.Rmd:          0          wrong hashes
-numeral_thousand_map.Rmd:          0          wrong hashes
-numeral_thousand.Rmd:          0          wrong hashes
-numeral_twenty_map.Rmd:          0          wrong hashes
-numeral_twenty.Rmd:          0          wrong hashes
-numeral_twoten_map.Rmd:          0          wrong hashes
-numeral_twoten.Rmd:          0          wrong hashes
-optative_map.Rmd:          0          wrong hashes
-optative.Rmd:          0          wrong hashes
-ordinals_map.Rmd:          0          wrong hashes
-ordinals.Rmd:          0          wrong hashes
-palatalized_consonants_map.Rmd:          0          wrong hashes
-palatalized_consonants.Rmd:          0          wrong hashes
-particles_map.Rmd:          0          wrong hashes
-particles.Rmd:          0          wrong hashes
-perfect_map.Rmd:          0          wrong hashes
-perfect.Rmd:          0          wrong hashes
-pharyngealization_map.Rmd:          0          wrong hashes
-pharyngealization.Rmd:          0          wrong hashes
-pharyngeals_map.Rmd:          0          wrong hashes
-pharyngeals.Rmd:          0          wrong hashes
-phonology.Rmd:          0          wrong hashes
-prohibitives_map.Rmd:          0          wrong hashes
-prohibitives.Rmd:          0          wrong hashes
-standard_of_comparison_map.Rmd:          0          wrong hashes
-standard_of_comparison.Rmd:          0          wrong hashes
-umlaut_vowels_map.Rmd:          0          wrong hashes
-umlaut_vowels.Rmd:          0          wrong hashes
-uvular_voiced_stop_map.Rmd:          0          wrong hashes
-uvular_voiced_stop.Rmd:          0          wrong hashes
-velar_fricatives_map.Rmd:          0          wrong hashes
-velar_fricatives.Rmd:          0          wrong hashes
-voiceless_obstruents_map.Rmd:          0          wrong hashes
-voiceless_obstruents.Rmd:          0          wrong hashes
 spelling of          after’        in adpositions.Rmd:360
-spelling of          arasından        in adpositions.Rmd:184
 spelling of          c’alduqanzaqor        in adpositions.Rmd:326
 spelling of          chuhwanahw        in adpositions.Rmd:226
 spelling of          depi        in adpositions.Rmd:361
@@ -180,38 +85,20 @@ spelling of          durs        in adpositions.Rmd:232
 spelling of          except’        in adpositions.Rmd:310,326
 spelling of          folder’        in adpositions.Rmd:184
 spelling of          for’        in adpositions.Rmd:56,308
-spelling of          geɬ        in adpositions.Rmd:98
-spelling of          geɬedo        in adpositions.Rmd:98
-spelling of          geɬer        in adpositions.Rmd:98
-spelling of          geɬes        in adpositions.Rmd:98
-spelling of          geɬzo        in adpositions.Rmd:98
 spelling of          handep        in adpositions.Rmd:56
-spelling of          ħat’anƛ’o        in adpositions.Rmd:326
-spelling of          hiƛ’i        in adpositions.Rmd:100
-spelling of          hiƛ’isː        in adpositions.Rmd:100
-spelling of          hiƛ’isːini        in adpositions.Rmd:100
 spelling of          inside’        in adpositions.Rmd:226
 spelling of          interpretational        in adpositions.Rmd:292
 spelling of          k’anik        in adpositions.Rmd:101
 spelling of          k’anikaj        in adpositions.Rmd:101
 spelling of          k’el        in adpositions.Rmd:102
-spelling of          k’eləħ        in adpositions.Rmd:102
-spelling of          k’elərə        in adpositions.Rmd:102
-spelling of          k’elħaː        in adpositions.Rmd:102
-spelling of          k’elxuʊlə        in adpositions.Rmd:102
 spelling of          like’        in adpositions.Rmd:310
 spelling of          locelative        in adpositions.Rmd:308
-spelling of          ƛexuzaƛ’or        in adpositions.Rmd:326
-spelling of          minč'ew        in adpositions.Rmd:361
 spelling of          nd        in adpositions.Rmd:184,360
 spelling of          outside’        in adpositions.Rmd:232,308
 spelling of          perceivably        in adpositions.Rmd:308
 spelling of          postposition’s        in adpositions.Rmd:276
-spelling of          šnorhiv        in adpositions.Rmd:56
 spelling of          students’        in adpositions.Rmd:326
 spelling of          Sunday’        in adpositions.Rmd:326
-spelling of          t’eħa        in adpositions.Rmd:360
-spelling of          tːura        in adpositions.Rmd:308
 spelling of          tak        in adpositions.Rmd:122
 spelling of          takic’        in adpositions.Rmd:122
 spelling of          takov        in adpositions.Rmd:122
@@ -220,9 +107,6 @@ spelling of          to’        in adpositions.Rmd:56
 spelling of          towards’        in adpositions.Rmd:360
 spelling of          under’        in adpositions.Rmd:92,94,122
 spelling of          until’        in adpositions.Rmd:360
-spelling of          ʔu        in adpositions.Rmd:99
-spelling of          ʔub        in adpositions.Rmd:99
-spelling of          ʔubadal        in adpositions.Rmd:99
 spelling of          adposition’s        in agreement_of_adpositions.Rmd:131
 spelling of          after’        in agreement_of_adpositions.Rmd:20
 spelling of          boy’        in agreement_of_adpositions.Rmd:20
@@ -233,15 +117,10 @@ spelling of          Marche        in agreement_of_adpositions.Rmd:96
 spelling of          masсuline        in agreement_of_adpositions.Rmd:20
 spelling of          Nyungan        in agreement_of_adpositions.Rmd:87
 spelling of          of’        in agreement_of_adpositions.Rmd:115
-spelling of          oƛƛo        in agreement_of_adpositions.Rmd:115
-spelling of          oχut’u        in agreement_of_adpositions.Rmd:20
 spelling of          Ripano        in agreement_of_adpositions.Rmd:96,98
 spelling of          Ripatransone        in agreement_of_adpositions.Rmd:96
 spelling of          to’        in agreement_of_adpositions.Rmd:169
-spelling of          waša        in agreement_of_adpositions.Rmd:20
 spelling of          ’        in caritive_adv.Rmd:39,50
-spelling of          akːʷ        in caritive_adv.Rmd:94
-spelling of          akːʷar        in caritive_adv.Rmd:85
 spelling of          anc’        in caritive_adv.Rmd:70
 spelling of          ar        in caritive_adv.Rmd:70,94
 spelling of          c’i        in caritive_adv.Rmd:52
@@ -251,23 +130,17 @@ spelling of          have’        in caritive_adv.Rmd:43,68
 spelling of          heart’        in caritive_adv.Rmd:20
 spelling of          heartless’        in caritive_adv.Rmd:20
 spelling of          lok’o        in caritive_adv.Rmd:21,21
-spelling of          nutː        in caritive_adv.Rmd:41
 spelling of          postposition’        in caritive_adv.Rmd:94
 spelling of          q’        in caritive_adv.Rmd:41,52,52,52
 spelling of          q’u        in caritive_adv.Rmd:41
 spelling of          siz        in caritive_adv.Rmd:41,52,108
-spelling of          sız        in caritive_adv.Rmd:41,52,108
-spelling of          sɨz        in caritive_adv.Rmd:41
 spelling of          suz        in caritive_adv.Rmd:41,41,41,41,52,108
-spelling of          süz        in caritive_adv.Rmd:41,52,108
 spelling of          t’u        in caritive_adv.Rmd:18,21,41
 spelling of          taj        in caritive_adv.Rmd:41
 spelling of          tu        in caritive_adv.Rmd:41
 spelling of          za        in caritive_adv.Rmd:41
 spelling of          zan        in caritive_adv.Rmd:41
 spelling of          ’        in caritive_attr.Rmd:39,50
-spelling of          akːʷ        in caritive_attr.Rmd:94
-spelling of          akːʷar        in caritive_attr.Rmd:85
 spelling of          anc’        in caritive_attr.Rmd:70
 spelling of          ar        in caritive_attr.Rmd:70,94
 spelling of          c’i        in caritive_attr.Rmd:52
@@ -277,21 +150,16 @@ spelling of          have’        in caritive_attr.Rmd:43,68
 spelling of          heart’        in caritive_attr.Rmd:20
 spelling of          heartless’        in caritive_attr.Rmd:20
 spelling of          lok’o        in caritive_attr.Rmd:21,21
-spelling of          nutː        in caritive_attr.Rmd:41
 spelling of          postposition’        in caritive_attr.Rmd:94
 spelling of          q’        in caritive_attr.Rmd:41,52,52,52
 spelling of          q’u        in caritive_attr.Rmd:41
 spelling of          siz        in caritive_attr.Rmd:41,52,108
-spelling of          sız        in caritive_attr.Rmd:41,52,108
-spelling of          sɨz        in caritive_attr.Rmd:41
 spelling of          suz        in caritive_attr.Rmd:41,41,41,41,52,108
-spelling of          süz        in caritive_attr.Rmd:41,52,108
 spelling of          t’u        in caritive_attr.Rmd:18,21,41
 spelling of          taj        in caritive_attr.Rmd:41
 spelling of          tu        in caritive_attr.Rmd:41
 spelling of          za        in caritive_attr.Rmd:41
 spelling of          zan        in caritive_attr.Rmd:41
-spelling of          ː        in comitative.Rmd:134
 spelling of          accompanee        in comitative.Rmd:8
 spelling of          at’        in comitative.Rmd:96
 spelling of          behind’        in comitative.Rmd:68
@@ -309,12 +177,8 @@ spelling of          together’        in comitative.Rmd:52
 spelling of          urt        in comitative.Rmd:96
 spelling of          voz        in comitative.Rmd:105
 spelling of          with’        in comitative.Rmd:52,96,105
-spelling of          žun        in comitative.Rmd:82
 spelling of          birisi        in days_after_today.Rmd:34
 spelling of          birisig’un        in days_after_today.Rmd:34
-spelling of          čɨqaqana        in days_after_today.Rmd:29
-spelling of          čʼint’u        in days_after_today.Rmd:27
-spelling of          čʼĩt’w        in days_after_today.Rmd:27
 spelling of          cʼul        in days_after_today.Rmd:30
 spelling of          cʼulcʼumoaka        in days_after_today.Rmd:30
 spelling of          cʼumoaka        in days_after_today.Rmd:30
@@ -328,7 +192,6 @@ spelling of          nid        in days_after_today.Rmd:27
 spelling of          os        in days_after_today.Rmd:34
 spelling of          os̄ut        in days_after_today.Rmd:34
 spelling of          posle        in days_after_today.Rmd:13,13
-spelling of          qːijqa        in days_after_today.Rmd:29
 spelling of          qa        in days_after_today.Rmd:29
 spelling of          qint’u        in days_after_today.Rmd:27
 spelling of          saj        in days_after_today.Rmd:27
@@ -336,9 +199,6 @@ spelling of          tomorrow’        in days_after_today.Rmd:29
 spelling of          zavtra        in days_after_today.Rmd:13,13,13
 spelling of          birisi        in days_before_today.Rmd:34
 spelling of          birisig’un        in days_before_today.Rmd:34
-spelling of          čɨqaqana        in days_before_today.Rmd:29
-spelling of          čʼint’u        in days_before_today.Rmd:27
-spelling of          čʼĩt’w        in days_before_today.Rmd:27
 spelling of          cʼul        in days_before_today.Rmd:30
 spelling of          cʼulcʼumoaka        in days_before_today.Rmd:30
 spelling of          cʼumoaka        in days_before_today.Rmd:30
@@ -352,7 +212,6 @@ spelling of          nid        in days_before_today.Rmd:27
 spelling of          os        in days_before_today.Rmd:34
 spelling of          os̄ut        in days_before_today.Rmd:34
 spelling of          posle        in days_before_today.Rmd:13,13
-spelling of          qːijqa        in days_before_today.Rmd:29
 spelling of          qa        in days_before_today.Rmd:29
 spelling of          qint’u        in days_before_today.Rmd:27
 spelling of          saj        in days_before_today.Rmd:27
@@ -367,17 +226,12 @@ spelling of          Akvakh        in demonstratives.Rmd:313
 spelling of          Asakh        in demonstratives.Rmd:263,265,272
 spelling of          away’        in demonstratives.Rmd:94,101
 spelling of          awedu        in demonstratives.Rmd:324
-spelling of          bǝd        in demonstratives.Rmd:245,246
-spelling of          bǝl        in demonstratives.Rmd:245
-spelling of          č        in demonstratives.Rmd:254
 spelling of          Chimakuan        in demonstratives.Rmd:104
 spelling of          close’        in demonstratives.Rmd:114
 spelling of          di        in demonstratives.Rmd:81
 spelling of          Diessel’s        in demonstratives.Rmd:104
 spelling of          distant’        in demonstratives.Rmd:114
 spelling of          dwaara        in demonstratives.Rmd:28
-spelling of          dʔaːranig        in demonstratives.Rmd:221,221
-spelling of          ǝg        in demonstratives.Rmd:245
 spelling of          ga        in demonstratives.Rmd:102,319,319,319
 spelling of          ge        in demonstratives.Rmd:175
 spelling of          given’        in demonstratives.Rmd:313
@@ -388,7 +242,6 @@ spelling of          grammaticalized        in demonstratives.Rmd:221,225
 spelling of          hada        in demonstratives.Rmd:95
 spelling of          hara        in demonstratives.Rmd:221,221
 spelling of          hdi        in demonstratives.Rmd:196
-spelling of          həmin        in demonstratives.Rmd:315
 spelling of          hgi        in demonstratives.Rmd:196
 spelling of          hiba        in demonstratives.Rmd:234,234
 spelling of          hli        in demonstratives.Rmd:196
@@ -409,21 +262,16 @@ spelling of          iza        in demonstratives.Rmd:221,221,235,235
 spelling of          ja        in demonstratives.Rmd:137,143,143
 spelling of          jamu        in demonstratives.Rmd:137
 spelling of          je        in demonstratives.Rmd:28
-spelling of          ɟ        in demonstratives.Rmd:321
-spelling of          ɟa        in demonstratives.Rmd:145,145
 spelling of          ka        in demonstratives.Rmd:20,55
 spelling of          Koasati        in demonstratives.Rmd:104
 spelling of          le        in demonstratives.Rmd:155,157,164,175
 spelling of          Levinson's        in demonstratives.Rmd:70
 spelling of          listener’        in demonstratives.Rmd:87,94,94
-spelling of          ɬ        in demonstratives.Rmd:321
-spelling of          ɬa        in demonstratives.Rmd:144,144
 spelling of          Maricopa        in demonstratives.Rmd:104
 spelling of          medial’        in demonstratives.Rmd:48
 spelling of          monocentric        in demonstratives.Rmd:48,48,52,223,296,313
 spelling of          Monocentric        in demonstratives.Rmd:50,66
 spelling of          nd        in demonstratives.Rmd:234,313
-spelling of          neła        in demonstratives.Rmd:263
 spelling of          ni        in demonstratives.Rmd:81
 spelling of          o’        in demonstratives.Rmd:206
 spelling of          object’        in demonstratives.Rmd:206,206,206,313
@@ -433,14 +281,11 @@ spelling of          owenu        in demonstratives.Rmd:324
 spelling of          person’        in demonstratives.Rmd:313
 spelling of          Quileute        in demonstratives.Rmd:104
 spelling of          referenets        in demonstratives.Rmd:209
-spelling of          ʁodo        in demonstratives.Rmd:137
 spelling of          self’        in demonstratives.Rmd:288
 spelling of          side’        in demonstratives.Rmd:101,313
-spelling of          šo        in demonstratives.Rmd:207
 spelling of          sourse        in demonstratives.Rmd:30
 spelling of          speaker’        in demonstratives.Rmd:20,54,54,55,56,80,87,87,87,94,94,101
 spelling of          sphere’        in demonstratives.Rmd:313
-spelling of          šu        in demonstratives.Rmd:206,207
 spelling of          Supyire        in demonstratives.Rmd:20
 spelling of          t’e        in demonstratives.Rmd:20,56
 spelling of          te        in demonstratives.Rmd:175
@@ -449,17 +294,11 @@ spelling of          this’        in demonstratives.Rmd:28,221,254,263,288
 spelling of          uhu        in demonstratives.Rmd:88
 spelling of          un        in demonstratives.Rmd:209
 spelling of          wa        in demonstratives.Rmd:189,196,196,196
-spelling of          yǝ        in demonstratives.Rmd:239,246,246
 spelling of          yz        in demonstratives.Rmd:28,221
-spelling of          ža        in demonstratives.Rmd:263,263,265,272,288,288,288
-spelling of          ži        in demonstratives.Rmd:288
-spelling of          žu        in demonstratives.Rmd:254,254,256,288,288,288
-spelling of          ʔǝg        in demonstratives.Rmd:246
 spelling of          abstract’        in dominant_adpositional_case.Rmd:42
 spelling of          ambiguous’        in dominant_adpositional_case.Rmd:62
 spelling of          available’        in dominant_adpositional_case.Rmd:73
 spelling of          bimorpemic        in dominant_adpositional_case.Rmd:156
-spelling of          č’u        in dominant_adpositional_case.Rmd:173
 spelling of          genitive’        in dominant_adpositional_case.Rmd:90
 spelling of          grammaticalized        in dominant_adpositional_case.Rmd:8
 spelling of          irrelevant’        in dominant_adpositional_case.Rmd:140
@@ -471,10 +310,8 @@ spelling of          spatial’        in dominant_adpositional_case.Rmd:53
 spelling of          Tsush        in dominant_adpositional_case.Rmd:101,103
 spelling of          bol        in evidentiality_tense.Rmd:89
 spelling of          mediative        in evidentiality_tense.Rmd:44
-spelling of          mIš        in evidentiality_tense.Rmd:91,91,91,93
 spelling of          NAF        in evidentiality_tense.Rmd:76,78,87
 spelling of          pastorialism        in evidentiality_tense.Rmd:99
-spelling of          ʁan        in evidentiality_tense.Rmd:89
 spelling of          wo        in evidentiality_tense.Rmd:76,87
 spelling of          xil        in evidentiality_tense.Rmd:66
 spelling of          Арутюнов        in evidentiality_tense.Rmd:99
@@ -486,11 +323,7 @@ spelling of          find’        in evidentiality.Rmd:117
 spelling of          Forker’s        in evidentiality.Rmd:87
 spelling of          thirdhand        in evidentiality.Rmd:79
 spelling of          destinction        in gemination.Rmd:5
-spelling of          ɥ        in labialization.Rmd:8
 spelling of          realisation        in labials.Rmd:5
-spelling of          β        in labials.Rmd:5
-spelling of          ɬ        in laterals.Rmd:5,7,7
-spelling of          tɬ        in laterals.Rmd:5,5,7,7
 spelling of          Dagestan        in long_vowels.Rmd:5
 spelling of          ’        in morning_greetings.Rmd:8,47
 spelling of          al        in morning_greetings.Rmd:20
@@ -506,14 +339,9 @@ spelling of          lexically        in morning_greetings.Rmd:43
 spelling of          morning’        in morning_greetings.Rmd:41,49
 spelling of          Nkore        in morning_greetings.Rmd:8
 spelling of          Oraire        in morning_greetings.Rmd:8
-spelling of          orč’        in morning_greetings.Rmd:20
-spelling of          orč’ami        in morning_greetings.Rmd:20,20,20,20,26
 spelling of          ota        in morning_greetings.Rmd:8
-spelling of          sabaħ        in morning_greetings.Rmd:41,49
 spelling of          sabax        in morning_greetings.Rmd:41
 spelling of          up’        in morning_greetings.Rmd:18,20,22,26,28
-spelling of          warč’ami        in morning_greetings.Rmd:24
-spelling of          worč’ami        in morning_greetings.Rmd:24
 spelling of          xair        in morning_greetings.Rmd:41,41,49
 spelling of          xajir        in morning_greetings.Rmd:41
 spelling of          comon        in nasalization.Rmd:5
@@ -535,7 +363,6 @@ spelling of          ’        in numeral_crowns_endings.Rmd:42,54,56
 spelling of          da        in numeral_crowns_endings.Rmd:6
 spelling of          le        in numeral_crowns_endings.Rmd:22
 spelling of          li        in numeral_crowns_endings.Rmd:22
-spelling of          ɬeber        in numeral_crowns_endings.Rmd:56
 spelling of          twenty’        in numeral_crowns_endings.Rmd:54
 spelling of          vigesimal’        in numeral_crowns_endings.Rmd:54
 spelling of          ten’        in numeral_crowns_ten_map.Rmd:88
@@ -588,15 +415,7 @@ spelling of          Verkerk        in numeral_regularity.Rmd:6
 spelling of          hundred’        in numeral_root_hundred_map.Rmd:88
 spelling of          ’        in numeral_root_hundred.Rmd:48
 spelling of          asi        in numeral_root_hundred.Rmd:16
-spelling of          beɣan        in numeral_root_hundred.Rmd:6
-spelling of          bešan        in numeral_root_hundred.Rmd:6
-spelling of          bišo        in numeral_root_hundred.Rmd:6
-spelling of          bišVnV        in numeral_root_hundred.Rmd:38
-spelling of          bušun        in numeral_root_hundred.Rmd:6
 spelling of          bVns        in numeral_root_hundred.Rmd:38
-spelling of          bʕe        in numeral_root_hundred.Rmd:60
-spelling of          č’it’        in numeral_root_hundred.Rmd:48
-spelling of          darš        in numeral_root_hundred.Rmd:28
 spelling of          deletion’        in numeral_root_hundred.Rmd:58
 spelling of          grammars’        in numeral_root_hundred.Rmd:26
 spelling of          hundred’        in numeral_root_hundred.Rmd:3,16,38,48,58
@@ -605,11 +424,6 @@ spelling of          knife’        in numeral_root_hundred.Rmd:38,48
 spelling of          nV        in numeral_root_hundred.Rmd:6
 spelling of          one’        in numeral_root_hundred.Rmd:58
 spelling of          realisation        in numeral_root_hundred.Rmd:60
-spelling of          urš        in numeral_root_hundred.Rmd:28
-spelling of          warž        in numeral_root_hundred.Rmd:16
-spelling of          waˤš        in numeral_root_hundred.Rmd:16,16
-spelling of          werš        in numeral_root_hundred.Rmd:26
-spelling of          wiš        in numeral_root_hundred.Rmd:16
 spelling of          ’        in numeral_thousand_map.Rmd:88
 spelling of          ’        in numeral_thousand.Rmd:3,6,23
 spelling of          ’        in numeral_twenty_map.Rmd:88
@@ -629,9 +443,6 @@ spelling of          Yine        in ordinals.Rmd:35
 spelling of          Alik        in particles.Rmd:85
 spelling of          appear’        in particles.Rmd:72
 spelling of          grammaticalized        in particles.Rmd:57
-spelling of          Güldemann        in particles.Rmd:53
-spelling of          miš        in particles.Rmd:83
-spelling of          mIš        in particles.Rmd:83,83,83
 spelling of          at’        in perfect.Rmd:69
 spelling of          be’        in perfect.Rmd:31,69
 spelling of          Continuative        in perfect.Rmd:25,95
@@ -643,11 +454,6 @@ spelling of          standing’        in perfect.Rmd:42
 spelling of          pharyngealized        in pharyngealization_map.Rmd:88
 spelling of          Dagestan        in pharyngealization.Rmd:5
 spelling of          pharyngealized        in pharyngealization.Rmd:5
-spelling of          ħ        in pharyngeals.Rmd:5,7
-spelling of          ʜ        in pharyngeals.Rmd:5
-spelling of          ʕ        in pharyngeals.Rmd:5
-spelling of          ʡ        in pharyngeals.Rmd:5
-spelling of          ʢ        in pharyngeals.Rmd:5,7
 spelling of          ai        in phonology.Rmd:196
 spelling of          aj        in phonology.Rmd:196
 spelling of          Akvakh        in phonology.Rmd:92,143
@@ -669,11 +475,8 @@ spelling of          ategories        in prohibitives.Rmd:12
 spelling of          Bancel        in prohibitives.Rmd:150,222
 spelling of          der        in prohibitives.Rmd:10,14
 spelling of          et        in prohibitives.Rmd:150,222
-spelling of          ǧi        in prohibitives.Rmd:93
 spelling of          giz        in prohibitives.Rmd:125
-spelling of          gɨz        in prohibitives.Rmd:125
 spelling of          imperativity’        in prohibitives.Rmd:14
-spelling of          jın        in prohibitives.Rmd:125
 spelling of          kuj        in prohibitives.Rmd:101
 spelling of          kun        in prohibitives.Rmd:101
 spelling of          Lejeune        in prohibitives.Rmd:10,14
@@ -682,79 +485,45 @@ spelling of          marker’        in prohibitives.Rmd:23,222
 spelling of          Musaev’s        in prohibitives.Rmd:125
 spelling of          muts’uvay        in prohibitives.Rmd:77
 spelling of          mV        in prohibitives.Rmd:31,47,47,93,150,150,150,150,150,222
-spelling of          nɨz        in prohibitives.Rmd:125
 spelling of          ptc        in prohibitives.Rmd:101,103
 spelling of          sentential        in prohibitives.Rmd:10
 spelling of          Sg        in prohibitives.Rmd:101
-spelling of          șu        in prohibitives.Rmd:93
 spelling of          vay        in prohibitives.Rmd:77
 spelling of          wear’        in prohibitives.Rmd:93
-spelling of          ː        in standard_of_comparison.Rmd:61,150
 spelling of          aj        in standard_of_comparison.Rmd:55,60,147,157
 spelling of          aloc        in standard_of_comparison.Rmd:123
 spelling of          ar        in standard_of_comparison.Rmd:54
 spelling of          Armenic        in standard_of_comparison.Rmd:75
 spelling of          aveli        in standard_of_comparison.Rmd:227
-spelling of          č        in standard_of_comparison.Rmd:49,120,168,170
-spelling of          č'i        in standard_of_comparison.Rmd:106,173
-spelling of          č'o        in standard_of_comparison.Rmd:51,172
-spelling of          č'u        in standard_of_comparison.Rmd:48,50,119,167,169,171
-spelling of          če        in standard_of_comparison.Rmd:110,152
-spelling of          či        in standard_of_comparison.Rmd:107,108,148,149
 spelling of          da        in standard_of_comparison.Rmd:45,140
 spelling of          dan        in standard_of_comparison.Rmd:72,74
 spelling of          de        in standard_of_comparison.Rmd:227
-spelling of          dən        in standard_of_comparison.Rmd:74
 spelling of          diye        in standard_of_comparison.Rmd:227
 spelling of          ez        in standard_of_comparison.Rmd:84
 spelling of          ic        in standard_of_comparison.Rmd:75
-spelling of          iš        in standard_of_comparison.Rmd:53,156,229
 spelling of          ja        in standard_of_comparison.Rmd:62,63,153,154,233
 spelling of          ka        in standard_of_comparison.Rmd:62,153
 spelling of          ku        in standard_of_comparison.Rmd:48,169
-spelling of          lːi        in standard_of_comparison.Rmd:216
 spelling of          le        in standard_of_comparison.Rmd:233
 spelling of          li        in standard_of_comparison.Rmd:61,150
-spelling of          ƛ        in standard_of_comparison.Rmd:60,147
-spelling of          ƛ'o        in standard_of_comparison.Rmd:58,145,231
 spelling of          more’        in standard_of_comparison.Rmd:227
-spelling of          oː        in standard_of_comparison.Rmd:49,170
-spelling of          q'ilːi        in standard_of_comparison.Rmd:204
-spelling of          q’ilːi        in standard_of_comparison.Rmd:216
-spelling of          qaʔ        in standard_of_comparison.Rmd:201,230,230
-spelling of          ʁa        in standard_of_comparison.Rmd:121,144
-spelling of          ʁoj        in standard_of_comparison.Rmd:121,144
-spelling of          ş        in standard_of_comparison.Rmd:227,227
-spelling of          sː        in standard_of_comparison.Rmd:47,142
 spelling of          sa        in standard_of_comparison.Rmd:45,140
 spelling of          surpass’        in standard_of_comparison.Rmd:12
 spelling of          t'an        in standard_of_comparison.Rmd:202
 spelling of          t’an        in standard_of_comparison.Rmd:216
-spelling of          tː        in standard_of_comparison.Rmd:53,156,229
 spelling of          te        in standard_of_comparison.Rmd:227
 spelling of          une        in standard_of_comparison.Rmd:46,141
 spelling of          upro        in standard_of_comparison.Rmd:227
 spelling of          wor        in standard_of_comparison.Rmd:200,216
-spelling of          yɑː        in standard_of_comparison.Rmd:203
 spelling of          zi        in standard_of_comparison.Rmd:59,146
-spelling of          ži        in standard_of_comparison.Rmd:109,151
 spelling of          ziyodte        in standard_of_comparison.Rmd:227
-spelling of          λ'a        in standard_of_comparison.Rmd:59,146
-spelling of          χ        in standard_of_comparison.Rmd:111
-spelling of          χun        in standard_of_comparison.Rmd:71
-spelling of          χur        in standard_of_comparison.Rmd:199,216,229
 spelling of          Dagestan        in umlaut_vowels.Rmd:5
-spelling of          ɡ        in velar_fricatives.Rmd:5
-spelling of          ɣ        in velar_fricatives.Rmd:5
 spelling of          positionally        in velar_fricatives.Rmd:5
-spelling of          ʁ        in velar_fricatives.Rmd:5
 spelling of          geminated        in voiceless_obstruents.Rmd:9,11,30
 spelling of          Kaytag        in voiceless_obstruents.Rmd:5
-spelling of          kʼː        in voiceless_obstruents.Rmd:9
 spelling of          protolanguage        in voiceless_obstruents.Rmd:30
 spelling of          pʼ        in voiceless_obstruents.Rmd:5
 spelling of          Qax        in voiceless_obstruents.Rmd:5
-spelling of          tsʼː        in voiceless_obstruents.Rmd:9
 spelling of          преруптивный        in voiceless_obstruents.Rmd:7
 spelling of          Armenic        in about.Rmd:34
 spelling of          datapoint        in about.Rmd:209
