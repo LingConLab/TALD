@@ -91,7 +91,8 @@ rm(all_data_without_languages, change, feature_dataset_4map, feature_dataset_4ma
 
 ```{r}
 all_genpoints %>% 
-  filter(!is.na(all_genpoints$value1)) %>% 
+  filter(!is.na(lang4map),
+    !is.na(all_genpoints$value1)) %>% 
   add_count(value1) %>% 
   mutate(value1 = str_c(value1, ' (', n, ')')) ->
   all_genpoints_filtered
@@ -127,7 +128,8 @@ map.feature(all_genpoints_filtered$lang4map,
 
 ```{r}
 alldata_clean %>% 
-  filter(!is.na(alldata_clean$value1)) ->
+  filter(!is.na(lang4map),
+    !is.na(alldata_clean$value1)) ->
   alldata_clean_filtered
 
 map.feature(alldata_clean_filtered$lang4map,

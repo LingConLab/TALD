@@ -91,7 +91,8 @@ rm(all_data_without_languages, change, feature_dataset_4map, feature_dataset_4ma
 
 ```{r}
 all_genpoints %>% 
-  filter(!is.na(all_genpoints$value1)) %>% 
+  filter(!is.na(lang4map),
+    !is.na(all_genpoints$value1)) %>% 
   add_count(value1) %>% 
   mutate(value1 = str_c(value1, ' (', n, ')')) ->
   all_genpoints_filtered
@@ -127,7 +128,8 @@ map.feature(all_genpoints_filtered$lang4map,
 
 ```{r}
 alldata_clean %>% 
-  filter(!is.na(alldata_clean$value1)) ->
+  filter(!is.na(lang4map),
+    !is.na(alldata_clean$value1)) ->
   alldata_clean_filtered
 
 map.feature(alldata_clean_filtered$lang4map,
@@ -196,7 +198,8 @@ map.feature(alldata_clean_filtered$lang4map,
 
 ```{r}
 all_genpoints %>% 
-  filter(!is.na(all_genpoints$value2)) %>% 
+  filter(!is.na(lang4map),
+    !is.na(all_genpoints$value2)) %>% 
   add_count(value2) %>% 
   mutate(value2 = str_c(value2, ' (', n, ')')) ->
   all_genpoints_filtered
@@ -232,7 +235,8 @@ map.feature(all_genpoints_filtered$lang4map,
 
 ```{r}
 alldata_clean %>% 
-  filter(!is.na(alldata_clean$value2)) ->
+  filter(!is.na(lang4map),
+    !is.na(alldata_clean$value2)) ->
   alldata_clean_filtered
 
 map.feature(alldata_clean_filtered$lang4map,
@@ -301,7 +305,8 @@ map.feature(alldata_clean_filtered$lang4map,
 
 ```{r}
 all_genpoints %>% 
-  filter(!is.na(all_genpoints$value3)) %>% 
+  filter(!is.na(lang4map),
+    !is.na(all_genpoints$value3)) %>% 
   add_count(value3) %>% 
   mutate(value3 = str_c(value3, ' (', n, ')')) ->
   all_genpoints_filtered
@@ -337,7 +342,8 @@ map.feature(all_genpoints_filtered$lang4map,
 
 ```{r}
 alldata_clean %>% 
-  filter(!is.na(alldata_clean$value3)) ->
+  filter(!is.na(lang4map),
+    !is.na(alldata_clean$value3)) ->
   alldata_clean_filtered
 
 map.feature(alldata_clean_filtered$lang4map,

@@ -250,7 +250,8 @@ map(multiple_values$values, function(i){
 
 ```{r}
 all_genpoints %>% 
-  filter(!is.na(all_genpoints$value",
+  filter(!is.na(lang4map),
+    !is.na(all_genpoints$value",
             multiple_values$values[i],
             ")) %>% 
   add_count(value",
@@ -298,7 +299,8 @@ map.feature(all_genpoints_filtered$lang4map,
 
 ```{r}
 alldata_clean %>% 
-  filter(!is.na(alldata_clean$value",
+  filter(!is.na(lang4map),
+    !is.na(alldata_clean$value",
     multiple_values$values[i],
     ")) ->
   alldata_clean_filtered
