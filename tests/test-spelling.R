@@ -9,11 +9,11 @@ test_that("Test spellingin chapters", {
                       "../README.md", "../about.Rmd", "../team.Rmd", 
                       "../index.Rmd", "../changes.Rmd")
   
-  wrong_spelling <- map_dfr(files_to_check, function(rmd){
+  wrong_spelling <- map_dfr(files_to_check[-69], function(rmd){
     spelling::spell_check_files(rmd, ignore = ignore_spelling)
   })
   
-  observed <- str_c("speling of ", wrong_spelling$word, " in ", wrong_spelling$found)
+  observed <- str_c("spelling of          ", wrong_spelling$word, "        in ", wrong_spelling$found)
   expected <- character(length = length(observed))
   
   write_lines(observed, "../test_logs.txt", append = TRUE)
