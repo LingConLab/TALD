@@ -1,6 +1,7 @@
 Abaza
 Abkhaz
 absolutive
+accompanee
 adnominal
 adnominally
 adposition
@@ -30,6 +31,7 @@ approximant
 apudessive
 Archi
 Aristova
+Armenic
 Arsentjev
 aspectual
 attributivized
@@ -46,6 +48,7 @@ bimorphemic
 Botlikh
 Budukh
 Buynaksk
+calqued
 caritive
 Chadic
 Chamalal
@@ -54,6 +57,7 @@ Chirag
 Chumakina
 circumfix
 circumfixal
+circumposition
 clitic
 comitative
 completive
@@ -70,6 +74,7 @@ Dagkou
 Dargic
 Dargwa
 Daria
+datapoint
 Datatable
 decimally
 declaratives
@@ -85,6 +90,7 @@ deverbal
 diachronic
 diachronically
 diachrony
+diasporic
 directionality
 distributive
 distributivity
@@ -104,6 +110,7 @@ epiglottal
 Erdal
 ergative
 essive
+et
 Evgeniya
 evidential
 evidentiality
@@ -129,6 +136,7 @@ Godunova
 Golosov
 grammaticalization
 grammaticalize
+grammaticalized
 Hagège
 headedness
 Hinuq
@@ -191,6 +199,7 @@ lect
 lenis
 Levinson
 lexeme
+lexically
 Lezgian
 Lezgic
 lingglosses
@@ -203,7 +212,9 @@ logophoric
 Luchek
 Maisak
 Maksim
+Marche
 Mariyat
+masculine
 Matyukhina
 Mehweb
 Melenchenko
@@ -271,6 +282,8 @@ quotative
 reportative
 resultative
 Rikvani
+Ripano
+Ripatransone
 ru
 russification
 Rutul
@@ -328,6 +341,7 @@ vigesimally
 Violetta
 VOT
 WALS
+wordforms
 Zadykian
 Zakirova
 Zaqatala
