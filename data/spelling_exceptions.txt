@@ -1,7 +1,6 @@
 Abaza
 Abkhaz
 absolutive
-addresse
 adnominal
 adnominally
 adposition
@@ -242,6 +241,7 @@ Pama
 Panova
 participal
 Patimat
+perceivably
 perfective
 perfectivity
 periphrastically
