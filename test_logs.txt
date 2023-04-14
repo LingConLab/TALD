@@ -1,26 +1,3 @@
-The BibTeX entry          bokarev1949          present in the          numeral_class.tsv, but absent in the biblib.xlsx
-The BibTeX entry          bokarev1949          present in the          numeral_complex.tsv, but absent in the biblib.xlsx
-The BibTeX entry          bokarev1949          present in the          numeral_crowns_endings.tsv, but absent in the biblib.xlsx
-The BibTeX entry          bokarev1949          present in the          numeral_crowns_ten.tsv, but absent in the biblib.xlsx
-The BibTeX entry          bokarev1949          present in the          numeral_distributives.tsv, but absent in the biblib.xlsx
-The BibTeX entry          bokarev1949          present in the          numeral_hundred.tsv, but absent in the biblib.xlsx
-The BibTeX entry          ganenkov2021draft_numerals          present in the          numeral_hundred.tsv, but absent in the biblib.xlsx
-The BibTeX entry          bokarev1949          present in the          numeral_one.tsv, but absent in the biblib.xlsx
-The BibTeX entry          ganenkov2021draft_numerals          present in the          numeral_one.tsv, but absent in the biblib.xlsx
-The BibTeX entry          bokarev1949          present in the          numeral_ordinals.tsv, but absent in the biblib.xlsx
-The BibTeX entry          khalilov1998          present in the          numeral_ordinals.tsv, but absent in the biblib.xlsx
-The BibTeX entry          bokarev1949          present in the          numeral_origin.tsv, but absent in the biblib.xlsx
-The BibTeX entry          bokarev1949          present in the          numeral_regularity.tsv, but absent in the biblib.xlsx
-The BibTeX entry          ganenkov2021draft_numerals          present in the          numeral_regularity.tsv, but absent in the biblib.xlsx
-The BibTeX entry          bokarev1949          present in the          numeral_root_hundred.tsv, but absent in the biblib.xlsx
-The BibTeX entry          ganenkov2021draft_numerals          present in the          numeral_root_hundred.tsv, but absent in the biblib.xlsx
-The BibTeX entry          bokarev1949          present in the          numeral_thousand.tsv, but absent in the biblib.xlsx
-The BibTeX entry          ganenkov2021draft_numerals          present in the          numeral_thousand.tsv, but absent in the biblib.xlsx
-The BibTeX entry          bokarev1949          present in the          numeral_twenty.tsv, but absent in the biblib.xlsx
-The BibTeX entry          ganenkov2021draft_numerals          present in the          numeral_twenty.tsv, but absent in the biblib.xlsx
-The BibTeX entry          bokarev1949          present in the          numeral_twoten.tsv, but absent in the biblib.xlsx
-The BibTeX entry          ganenkov2021draft_numerals          present in the          numeral_twoten.tsv, but absent in the biblib.xlsx
-The wrong village dialect name Gadiri in the file perfect.tsv
 The wrong toplevel dialect name Ak-Nogai in the file numeral_ordinals.tsv
 spelling of          after’        in adpositions.Rmd:360
 spelling of          c’alduqanzaqor        in adpositions.Rmd:326
@@ -456,4 +433,3 @@ spelling of          protolanguage        in voiceless_obstruents.Rmd:30
 spelling of          pʼ        in voiceless_obstruents.Rmd:5
 spelling of          Qax        in voiceless_obstruents.Rmd:5
 spelling of          преруптивный        in voiceless_obstruents.Rmd:7
-spelling of          Moyano        in team.Rmd:19
