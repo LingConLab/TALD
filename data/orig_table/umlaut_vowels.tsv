@@ -22,10 +22,10 @@ id	lang	idiom	type	genlang_point	map	feature	value1_name	value1	source	page	cont
 21	Chechen	Standard Chechen	language	yes	yes	Presence of umlaut vowels	Presence of umlaut vowels	attested	nichols1994	5, 8, 7	George Moroz	2021.10.04
 22	Dargwa	Chirag	village	no	yes	Presence of umlaut vowels	Presence of umlaut vowels	not attested	kibrikkodzasov1990	334	George Moroz	2017.05.06
 23	Dargwa	Kaitag	dialect_toplevel	no	yes	Presence of umlaut vowels	Presence of umlaut vowels	not attested	temirbulatova2004	36	George Moroz	2021.10.04
-24	Dargwa	Mehweb	village	yes	yes	Presence of umlaut vowels	Presence of umlaut vowels	not attested	moroz2017	22--34	George Moroz	2021.10.04
+24	Dargwa	Mehweb	village	yes	yes	Presence of umlaut vowels	Presence of umlaut vowels	not attested	moroz2019	22--34	George Moroz	2021.10.04
 25	Dargwa	Tanty	village	no	yes	Presence of umlaut vowels	Presence of umlaut vowels	not attested	sumbatovalander2014	40	George Moroz	2021.10.04
 26	Georgian	Standard Georgian	language	yes	yes	Presence of umlaut vowels	Presence of umlaut vowels	not attested	hewitt1995	21	George Moroz	2021.10.04
-27	Godoberi	Godoberi	village	yes	yes	Presence of umlaut vowels	Presence of umlaut vowels	not attested	morozdraft2021	2	George Moroz	2021.10.04
+27	Godoberi	Godoberi	village	yes	yes	Presence of umlaut vowels	Presence of umlaut vowels	not attested	morozetaldraft2021	2	George Moroz	2021.10.04
 28	Hinuq	Hinuq	village	yes	yes	Presence of umlaut vowels	Presence of umlaut vowels	attested	forker2013	23, 25--26, 26--27	George Moroz	2021.10.04
 29	Hinuq	Hinuq	village	no	yes	Presence of umlaut vowels	Presence of umlaut vowels	attested	kibrikkodzasov1990	329	George Moroz	2017.05.06
 30	Hunzib	Gunzib	village	yes	yes	Presence of umlaut vowels	Presence of umlaut vowels	not attested	isakovxalilov2001	259	George Moroz	2021.10.04
@@ -42,7 +42,7 @@ id	lang	idiom	type	genlang_point	map	feature	value1_name	value1	source	page	cont
 41	Kumyk	Standard Kumyk	language	yes	yes	Presence of umlaut vowels	Presence of umlaut vowels	attested	abdullaevaetal2014	27	George Moroz	2021.10.04
 42	Lak	Khosrekh	village	yes	yes	Presence of umlaut vowels	Presence of umlaut vowels	not attested	kibrikkodzasov1990	333	Viola Ivanova	2017.05.06
 43	Lezgian	Khlyut	village	no	yes	Presence of umlaut vowels	Presence of umlaut vowels	attested	kibrikkodzasov1990	341	George Moroz	2017.05.06
-44	Lezgian	Standard Lezgian	language	yes	yes	Presence of umlaut vowels	Presence of umlaut vowels	attested	gaydarivetal2009	54	George Moroz	2021.10.04
+44	Lezgian	Standard Lezgian	language	yes	yes	Presence of umlaut vowels	Presence of umlaut vowels	attested	gaydarovetal2009	54	George Moroz	2021.10.04
 45	Nogai	Standard Nogai	language	yes	yes	Presence of umlaut vowels	Presence of umlaut vowels	attested	baskakov1940	13	George Moroz	2021.10.04
 46	Rutul	Luchek	village	yes	yes	Presence of umlaut vowels	Presence of umlaut vowels	attested	alekseev1994	217	George Moroz	2021.10.04
 47	Rutul	Luchek	village	no	yes	Presence of umlaut vowels	Presence of umlaut vowels	attested	kibrikkodzasov1990	342--343	Viola Ivanova	2017.05.06

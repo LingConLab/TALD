@@ -22,10 +22,10 @@ id	lang	idiom	type	genlang_point	map	feature	value1_name	value1	value2_name	valu
 21	Chechen	Standard Chechen	language	yes	yes	Number of contrasts in voiceless obstruents	Type of the contrast	three-way	Contents of the contrast	C-Cː-Cʼ	nichols1994	4	George Moroz	2021.10.04
 22	Dargwa	Chirag	village	no	yes	Number of contrasts in voiceless obstruents	Type of the contrast	three-way	Contents of the contrast	C-Cː-Cʼ	kibrikkodzasov1990	334	George Moroz	2017.05.06
 23	Dargwa	Kaitag	dialect_toplevel	no	yes	Number of contrasts in voiceless obstruents	Type of the contrast	three-way	Contents of the contrast	C-Cː-Cʼ	temirbulatova2004	39	George Moroz	2021.10.04
-24	Dargwa	Mehweb	village	yes	yes	Number of contrasts in voiceless obstruents	Type of the contrast	two-way	Contents of the contrast	C-Cʼ	moroz2017	22--34	George Moroz	2021.10.04
+24	Dargwa	Mehweb	village	yes	yes	Number of contrasts in voiceless obstruents	Type of the contrast	two-way	Contents of the contrast	C-Cʼ	moroz2019	22--34	George Moroz	2021.10.04
 25	Dargwa	Tanty	village	no	yes	Number of contrasts in voiceless obstruents	Type of the contrast	three-way	Contents of the contrast	C-Cː-Cʼ	sumbatovalander2014	40--41	George Moroz	2021.10.04
 26	Georgian	Standard Georgian	language	yes	yes	Number of contrasts in voiceless obstruents	Type of the contrast	two-way	Contents of the contrast	C-Cʼ	hewitt1995	19	George Moroz	2021.10.04
-27	Godoberi	Godoberi	village	yes	yes	Number of contrasts in voiceless obstruents	Type of the contrast	four-way	Contents of the contrast	C-Cː-Cʼ-Cʼː	morozdraft2021	2	George Moroz	2021.10.04
+27	Godoberi	Godoberi	village	yes	yes	Number of contrasts in voiceless obstruents	Type of the contrast	four-way	Contents of the contrast	C-Cː-Cʼ-Cʼː	morozetaldraft2021	2	George Moroz	2021.10.04
 28	Hinuq	Hinuq	village	yes	yes	Number of contrasts in voiceless obstruents	Type of the contrast	two-way	Contents of the contrast	C-Cʼ	forker2013	29	George Moroz	2021.10.04
 29	Hinuq	Hinuq	village	no	yes	Number of contrasts in voiceless obstruents	Type of the contrast	two-way	Contents of the contrast	C-Cʼ	kibrikkodzasov1990	329	George Moroz	2017.05.06
 30	Hunzib	Gunzib	village	yes	yes	Number of contrasts in voiceless obstruents	Type of the contrast	two-way	Contents of the contrast	C-Cʼ	isakovxalilov2001	260	George Moroz	2021.10.04
@@ -42,7 +42,7 @@ id	lang	idiom	type	genlang_point	map	feature	value1_name	value1	value2_name	valu
 41	Kumyk	Standard Kumyk	language	yes	yes	Number of contrasts in voiceless obstruents	Type of the contrast	one-way	Contents of the contrast	C	abdullaevaetal2014	33--56	George Moroz	2021.10.04
 42	Lak	Khosrekh	village	yes	yes	Number of contrasts in voiceless obstruents	Type of the contrast	three-way	Contents of the contrast	C-Cː-Cʼ	kibrikkodzasov1990	333	Viola Ivanova	2017.05.06
 43	Lezgian	Khlyut	village	no	yes	Number of contrasts in voiceless obstruents	Type of the contrast	three-way	Contents of the contrast	C-Cʰ-Cʼ	kibrikkodzasov1990	341	George Moroz	2017.05.06
-44	Lezgian	Standard Lezgian	language	yes	yes	Number of contrasts in voiceless obstruents	Type of the contrast	three-way	Contents of the contrast	C-Cː-Cʼ	gaydarivetal2009	56	George Moroz	2021.10.04
+44	Lezgian	Standard Lezgian	language	yes	yes	Number of contrasts in voiceless obstruents	Type of the contrast	three-way	Contents of the contrast	C-Cː-Cʼ	gaydarovetal2009	56	George Moroz	2021.10.04
 45	Nogai	Standard Nogai	language	yes	yes	Number of contrasts in voiceless obstruents	Type of the contrast	one-way	Contents of the contrast	C	baskakov1940	27	George Moroz	2021.10.04
 46	Rutul	Luchek	village	yes	yes	Number of contrasts in voiceless obstruents	Type of the contrast	two-way	Contents of the contrast	C-Cʼ	alekseev1994	215	George Moroz	2021.10.04
 47	Rutul	Luchek	village	no	yes	Number of contrasts in voiceless obstruents	Type of the contrast	two-way	Contents of the contrast	C-Cʼ	kibrikkodzasov1990	342--343	Viola Ivanova	2017.05.06

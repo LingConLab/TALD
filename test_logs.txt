@@ -1,27 +1,3 @@
-The BibTeX entry          moroz2017          present in the          ejective_p.tsv, but absent in the biblib.xlsx
-The BibTeX entry          morozdraft2021          present in the          ejective_p.tsv, but absent in the biblib.xlsx
-The BibTeX entry          gaydarivetal2009          present in the          ejective_p.tsv, but absent in the biblib.xlsx
-The BibTeX entry          moroz2017          present in the          ejective_s.tsv, but absent in the biblib.xlsx
-The BibTeX entry          morozdraft2021          present in the          ejective_s.tsv, but absent in the biblib.xlsx
-The BibTeX entry          gaydarivetal2009          present in the          ejective_s.tsv, but absent in the biblib.xlsx
-The BibTeX entry          moroz2017          present in the          gemination.tsv, but absent in the biblib.xlsx
-The BibTeX entry          morozdraft2021          present in the          gemination.tsv, but absent in the biblib.xlsx
-The BibTeX entry          gaydarivetal2009          present in the          gemination.tsv, but absent in the biblib.xlsx
-The BibTeX entry          moroz2017          present in the          labialization.tsv, but absent in the biblib.xlsx
-The BibTeX entry          morozdraft2021          present in the          labialization.tsv, but absent in the biblib.xlsx
-The BibTeX entry          gaydarivetal2009          present in the          labialization.tsv, but absent in the biblib.xlsx
-The BibTeX entry          moroz2017          present in the          labials.tsv, but absent in the biblib.xlsx
-The BibTeX entry          morozdraft2021          present in the          labials.tsv, but absent in the biblib.xlsx
-The BibTeX entry          gaydarivetal2009          present in the          labials.tsv, but absent in the biblib.xlsx
-The BibTeX entry          moroz2017          present in the          laterals.tsv, but absent in the biblib.xlsx
-The BibTeX entry          morozdraft2021          present in the          laterals.tsv, but absent in the biblib.xlsx
-The BibTeX entry          gaydarivetal2009          present in the          laterals.tsv, but absent in the biblib.xlsx
-The BibTeX entry          moroz2017          present in the          long_vowels.tsv, but absent in the biblib.xlsx
-The BibTeX entry          morozdraft2021          present in the          long_vowels.tsv, but absent in the biblib.xlsx
-The BibTeX entry          gaydarivetal2009          present in the          long_vowels.tsv, but absent in the biblib.xlsx
-The BibTeX entry          moroz2017          present in the          nasalization.tsv, but absent in the biblib.xlsx
-The BibTeX entry          morozdraft2021          present in the          nasalization.tsv, but absent in the biblib.xlsx
-The BibTeX entry          gaydarivetal2009          present in the          nasalization.tsv, but absent in the biblib.xlsx
 The BibTeX entry          ganenkov2021draft_numerals          present in the          numeral_hundred.tsv, but absent in the biblib.xlsx
 The BibTeX entry          ganenkov2021draft_numerals          present in the          numeral_one.tsv, but absent in the biblib.xlsx
 The BibTeX entry          ganenkov2021draft_numerals          present in the          numeral_regularity.tsv, but absent in the biblib.xlsx
@@ -29,27 +5,6 @@ The BibTeX entry          ganenkov2021draft_numerals          present in the    
 The BibTeX entry          ganenkov2021draft_numerals          present in the          numeral_thousand.tsv, but absent in the biblib.xlsx
 The BibTeX entry          ganenkov2021draft_numerals          present in the          numeral_twenty.tsv, but absent in the biblib.xlsx
 The BibTeX entry          ganenkov2021draft_numerals          present in the          numeral_twoten.tsv, but absent in the biblib.xlsx
-The BibTeX entry          moroz2017          present in the          palatalized_consonants.tsv, but absent in the biblib.xlsx
-The BibTeX entry          morozdraft2021          present in the          palatalized_consonants.tsv, but absent in the biblib.xlsx
-The BibTeX entry          gaydarivetal2009          present in the          palatalized_consonants.tsv, but absent in the biblib.xlsx
-The BibTeX entry          moroz2017          present in the          pharyngealization.tsv, but absent in the biblib.xlsx
-The BibTeX entry          morozdraft2021          present in the          pharyngealization.tsv, but absent in the biblib.xlsx
-The BibTeX entry          gaydarivetal2009          present in the          pharyngealization.tsv, but absent in the biblib.xlsx
-The BibTeX entry          moroz2017          present in the          pharyngeals.tsv, but absent in the biblib.xlsx
-The BibTeX entry          morozdraft2021          present in the          pharyngeals.tsv, but absent in the biblib.xlsx
-The BibTeX entry          gaydarivetal2009          present in the          pharyngeals.tsv, but absent in the biblib.xlsx
-The BibTeX entry          moroz2017          present in the          umlaut_vowels.tsv, but absent in the biblib.xlsx
-The BibTeX entry          morozdraft2021          present in the          umlaut_vowels.tsv, but absent in the biblib.xlsx
-The BibTeX entry          gaydarivetal2009          present in the          umlaut_vowels.tsv, but absent in the biblib.xlsx
-The BibTeX entry          moroz2017          present in the          uvular_voiced_stop.tsv, but absent in the biblib.xlsx
-The BibTeX entry          morozdraft2021          present in the          uvular_voiced_stop.tsv, but absent in the biblib.xlsx
-The BibTeX entry          gaydarivetal2009          present in the          uvular_voiced_stop.tsv, but absent in the biblib.xlsx
-The BibTeX entry          moroz2017          present in the          velar_fricatives.tsv, but absent in the biblib.xlsx
-The BibTeX entry          morozdraft2021          present in the          velar_fricatives.tsv, but absent in the biblib.xlsx
-The BibTeX entry          gaydarivetal2009          present in the          velar_fricatives.tsv, but absent in the biblib.xlsx
-The BibTeX entry          moroz2017          present in the          voiceless_obstruents.tsv, but absent in the biblib.xlsx
-The BibTeX entry          morozdraft2021          present in the          voiceless_obstruents.tsv, but absent in the biblib.xlsx
-The BibTeX entry          gaydarivetal2009          present in the          voiceless_obstruents.tsv, but absent in the biblib.xlsx
 The obligatory column          feature          is absent in the file          numeral_class.tsv
 The obligatory column          date          is absent in the file          numeral_class.tsv
 The obligatory column          feature          is absent in the file          numeral_complex.tsv
@@ -78,6 +33,12 @@ The obligatory column          feature          is absent in the file          n
 The obligatory column          date          is absent in the file          numeral_twenty.tsv
 The obligatory column          feature          is absent in the file          numeral_twoten.tsv
 The obligatory column          date          is absent in the file          numeral_twoten.tsv
+The wrong langage name          Maksim Melenchenko          in the file          numeral_class.tsv
+NA
+The wrong langage name          Maksim Melenchenko          in the file          numeral_distributives.tsv
+NA
+The wrong langage name          Maksim Melenchenko          in the file          numeral_origin.tsv
+NA
 The wrong village dialect name Tad-Magitl’ in the file numeral_class.tsv
 The wrong village dialect name Genukh in the file numeral_class.tsv
 The wrong village dialect name Genukh in the file numeral_complex.tsv

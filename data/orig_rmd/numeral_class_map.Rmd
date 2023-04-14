@@ -192,6 +192,220 @@ map.feature(alldata_clean_filtered$lang4map,
 
 
     
+## presence of a class marker{.tabset .tabset-fade .tabset-pills #m1} 
+    
+### General datapoints {-}
+
+```{r}
+all_genpoints %>% 
+  filter(!is.na(lang4map),
+    !is.na(all_genpoints$value1)) %>% 
+  add_count(value1) %>% 
+  mutate(value1 = str_c(value1, ' (', n, ')')) ->
+  all_genpoints_filtered
+
+map.feature(all_genpoints_filtered$lang4map,
+            latitude = all_genpoints_filtered$lat,
+            longitude = all_genpoints_filtered$lon,
+            features = all_genpoints_filtered$value1,
+            title = all_genpoints_filtered$value1_name[1],
+            color = 'magma',
+            stroke.features = 'a',
+            stroke.color = 'black',
+            stroke.radius = 1,
+            stroke.legend = FALSE,
+            tile = 'Stamen.TonerLite',
+            legend = TRUE,
+            legend.position = 'bottomleft', 
+            zoom.control = TRUE,
+            width = 8) %>% 
+  map.feature(all_genpoints_filtered$lang4map,
+              latitude = all_genpoints_filtered$lat,
+              longitude = all_genpoints_filtered$lon,
+              features = all_genpoints_filtered$lang,
+              color = all_genpoints_filtered$lang_col,
+              tile = 'Stamen.TonerLite',
+              legend = FALSE,
+              width = 5,
+              pipe.data = .,
+              control = all_genpoints_filtered$display)
+```
+
+### Extrapolated data {-}
+
+```{r}
+alldata_clean %>% 
+  filter(!is.na(lang4map),
+    !is.na(alldata_clean$value1)) ->
+  alldata_clean_filtered
+
+map.feature(alldata_clean_filtered$lang4map,
+            latitude = alldata_clean_filtered$lat, 
+            longitude = alldata_clean_filtered$lon,
+            features = alldata_clean_filtered$value1,
+            color = 'magma',
+            stroke.features = 'a',
+            stroke.color = 'black',
+            stroke.radius = 1,
+            stroke.legend = FALSE,
+            tile = 'Stamen.TonerLite',
+            title = alldata_clean_filtered$value1_name[1],
+            legend = TRUE,
+            legend.position = 'bottomleft', 
+            label = alldata_clean_filtered$lang,
+            zoom.control = TRUE,
+            width = 8,
+            popup = paste(alldata_clean_filtered$village, '|',
+                          alldata_clean_filtered$rus_village, '<br>',
+                          'data:', alldata_clean_filtered$type)) %>% 
+  map.feature(alldata_clean_filtered$lang4map,
+              latitude = alldata_clean_filtered$lat,
+              longitude = alldata_clean_filtered$lon,
+              features = alldata_clean_filtered$lang,
+              color = alldata_clean_filtered$lang_col,
+              tile = 'Stamen.TonerLite',
+              legend = FALSE,
+              width = 5,
+              pipe.data = .,
+              control = alldata_clean_filtered$display,
+              popup = paste(alldata_clean_filtered$village, '|',
+                            alldata_clean_filtered$rus_village, '<br>',
+                            'data:', alldata_clean_filtered$type))
+```
+
+### Data granularity {-}
+
+```{r}
+map.feature(alldata_clean_filtered$lang4map,
+            latitude = alldata_clean_filtered$lat, 
+            longitude = alldata_clean_filtered$lon,
+            features = alldata_clean_filtered$value1,
+            color = 'magma',
+            stroke.features = 'a',
+            stroke.color = 'black',
+            stroke.radius = 1,
+            stroke.legend = FALSE,
+            tile = 'Stamen.TonerLite',
+            title = alldata_clean_filtered$value1_name[1],
+            legend = TRUE,
+            legend.position = 'bottomleft', 
+            label = alldata_clean_filtered$lang,
+            zoom.control = TRUE,
+            control = alldata_clean_filtered$type,
+            popup = paste(alldata_clean_filtered$village, '|',
+                          alldata_clean_filtered$rus_village, '<br>',
+                          'data:', alldata_clean_filtered$type))
+```
+
+
+    
+## presence of a class marker{.tabset .tabset-fade .tabset-pills #m1} 
+    
+### General datapoints {-}
+
+```{r}
+all_genpoints %>% 
+  filter(!is.na(lang4map),
+    !is.na(all_genpoints$value1)) %>% 
+  add_count(value1) %>% 
+  mutate(value1 = str_c(value1, ' (', n, ')')) ->
+  all_genpoints_filtered
+
+map.feature(all_genpoints_filtered$lang4map,
+            latitude = all_genpoints_filtered$lat,
+            longitude = all_genpoints_filtered$lon,
+            features = all_genpoints_filtered$value1,
+            title = all_genpoints_filtered$value1_name[1],
+            color = 'magma',
+            stroke.features = 'a',
+            stroke.color = 'black',
+            stroke.radius = 1,
+            stroke.legend = FALSE,
+            tile = 'Stamen.TonerLite',
+            legend = TRUE,
+            legend.position = 'bottomleft', 
+            zoom.control = TRUE,
+            width = 8) %>% 
+  map.feature(all_genpoints_filtered$lang4map,
+              latitude = all_genpoints_filtered$lat,
+              longitude = all_genpoints_filtered$lon,
+              features = all_genpoints_filtered$lang,
+              color = all_genpoints_filtered$lang_col,
+              tile = 'Stamen.TonerLite',
+              legend = FALSE,
+              width = 5,
+              pipe.data = .,
+              control = all_genpoints_filtered$display)
+```
+
+### Extrapolated data {-}
+
+```{r}
+alldata_clean %>% 
+  filter(!is.na(lang4map),
+    !is.na(alldata_clean$value1)) ->
+  alldata_clean_filtered
+
+map.feature(alldata_clean_filtered$lang4map,
+            latitude = alldata_clean_filtered$lat, 
+            longitude = alldata_clean_filtered$lon,
+            features = alldata_clean_filtered$value1,
+            color = 'magma',
+            stroke.features = 'a',
+            stroke.color = 'black',
+            stroke.radius = 1,
+            stroke.legend = FALSE,
+            tile = 'Stamen.TonerLite',
+            title = alldata_clean_filtered$value1_name[1],
+            legend = TRUE,
+            legend.position = 'bottomleft', 
+            label = alldata_clean_filtered$lang,
+            zoom.control = TRUE,
+            width = 8,
+            popup = paste(alldata_clean_filtered$village, '|',
+                          alldata_clean_filtered$rus_village, '<br>',
+                          'data:', alldata_clean_filtered$type)) %>% 
+  map.feature(alldata_clean_filtered$lang4map,
+              latitude = alldata_clean_filtered$lat,
+              longitude = alldata_clean_filtered$lon,
+              features = alldata_clean_filtered$lang,
+              color = alldata_clean_filtered$lang_col,
+              tile = 'Stamen.TonerLite',
+              legend = FALSE,
+              width = 5,
+              pipe.data = .,
+              control = alldata_clean_filtered$display,
+              popup = paste(alldata_clean_filtered$village, '|',
+                            alldata_clean_filtered$rus_village, '<br>',
+                            'data:', alldata_clean_filtered$type))
+```
+
+### Data granularity {-}
+
+```{r}
+map.feature(alldata_clean_filtered$lang4map,
+            latitude = alldata_clean_filtered$lat, 
+            longitude = alldata_clean_filtered$lon,
+            features = alldata_clean_filtered$value1,
+            color = 'magma',
+            stroke.features = 'a',
+            stroke.color = 'black',
+            stroke.radius = 1,
+            stroke.legend = FALSE,
+            tile = 'Stamen.TonerLite',
+            title = alldata_clean_filtered$value1_name[1],
+            legend = TRUE,
+            legend.position = 'bottomleft', 
+            label = alldata_clean_filtered$lang,
+            zoom.control = TRUE,
+            control = alldata_clean_filtered$type,
+            popup = paste(alldata_clean_filtered$village, '|',
+                          alldata_clean_filtered$rus_village, '<br>',
+                          'data:', alldata_clean_filtered$type))
+```
+
+
+    
 
 
 ## Datatable
