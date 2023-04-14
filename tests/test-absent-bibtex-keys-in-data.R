@@ -7,8 +7,8 @@ test_that("Test bibkeys in data:", {
   
   map(list.files("../data/orig_table", full.names = TRUE), function(tbl){
     read_tsv(tbl, show_col_types = FALSE, col_select = "source") %>% 
-      tibble(refs = .,
-             files = str_remove(tbl, "../data/orig_table/"))}) %>% 
+      rename(refs = source) %>% 
+      tibble(files = str_remove(tbl, "../data/orig_table/"))})  %>% 
     list_rbind() %>% 
     mutate(refs = str_split(refs, "; "))  %>% 
     unnest_longer(refs) %>% 
