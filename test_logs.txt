@@ -1,99 +1,27 @@
+The BibTeX entry          bokarev1949          present in the          numeral_class.tsv, but absent in the biblib.xlsx
+The BibTeX entry          bokarev1949          present in the          numeral_complex.tsv, but absent in the biblib.xlsx
+The BibTeX entry          bokarev1949          present in the          numeral_crowns_endings.tsv, but absent in the biblib.xlsx
+The BibTeX entry          bokarev1949          present in the          numeral_crowns_ten.tsv, but absent in the biblib.xlsx
+The BibTeX entry          bokarev1949          present in the          numeral_distributives.tsv, but absent in the biblib.xlsx
+The BibTeX entry          bokarev1949          present in the          numeral_hundred.tsv, but absent in the biblib.xlsx
 The BibTeX entry          ganenkov2021draft_numerals          present in the          numeral_hundred.tsv, but absent in the biblib.xlsx
+The BibTeX entry          bokarev1949          present in the          numeral_one.tsv, but absent in the biblib.xlsx
 The BibTeX entry          ganenkov2021draft_numerals          present in the          numeral_one.tsv, but absent in the biblib.xlsx
+The BibTeX entry          bokarev1949          present in the          numeral_ordinals.tsv, but absent in the biblib.xlsx
+The BibTeX entry          khalilov1998          present in the          numeral_ordinals.tsv, but absent in the biblib.xlsx
+The BibTeX entry          bokarev1949          present in the          numeral_origin.tsv, but absent in the biblib.xlsx
+The BibTeX entry          bokarev1949          present in the          numeral_regularity.tsv, but absent in the biblib.xlsx
 The BibTeX entry          ganenkov2021draft_numerals          present in the          numeral_regularity.tsv, but absent in the biblib.xlsx
+The BibTeX entry          bokarev1949          present in the          numeral_root_hundred.tsv, but absent in the biblib.xlsx
 The BibTeX entry          ganenkov2021draft_numerals          present in the          numeral_root_hundred.tsv, but absent in the biblib.xlsx
+The BibTeX entry          bokarev1949          present in the          numeral_thousand.tsv, but absent in the biblib.xlsx
 The BibTeX entry          ganenkov2021draft_numerals          present in the          numeral_thousand.tsv, but absent in the biblib.xlsx
+The BibTeX entry          bokarev1949          present in the          numeral_twenty.tsv, but absent in the biblib.xlsx
 The BibTeX entry          ganenkov2021draft_numerals          present in the          numeral_twenty.tsv, but absent in the biblib.xlsx
+The BibTeX entry          bokarev1949          present in the          numeral_twoten.tsv, but absent in the biblib.xlsx
 The BibTeX entry          ganenkov2021draft_numerals          present in the          numeral_twoten.tsv, but absent in the biblib.xlsx
-The obligatory column          feature          is absent in the file          numeral_class.tsv
-The obligatory column          date          is absent in the file          numeral_class.tsv
-The obligatory column          feature          is absent in the file          numeral_complex.tsv
-The obligatory column          date          is absent in the file          numeral_complex.tsv
-The obligatory column          feature          is absent in the file          numeral_crowns_endings.tsv
-The obligatory column          date          is absent in the file          numeral_crowns_endings.tsv
-The obligatory column          feature          is absent in the file          numeral_crowns_ten.tsv
-The obligatory column          date          is absent in the file          numeral_crowns_ten.tsv
-The obligatory column          feature          is absent in the file          numeral_distributives.tsv
-The obligatory column          date          is absent in the file          numeral_distributives.tsv
-The obligatory column          feature          is absent in the file          numeral_hundred.tsv
-The obligatory column          date          is absent in the file          numeral_hundred.tsv
-The obligatory column          feature          is absent in the file          numeral_one.tsv
-The obligatory column          date          is absent in the file          numeral_one.tsv
-The obligatory column          feature          is absent in the file          numeral_ordinals.tsv
-The obligatory column          date          is absent in the file          numeral_ordinals.tsv
-The obligatory column          feature          is absent in the file          numeral_origin.tsv
-The obligatory column          date          is absent in the file          numeral_origin.tsv
-The obligatory column          feature          is absent in the file          numeral_regularity.tsv
-The obligatory column          date          is absent in the file          numeral_regularity.tsv
-The obligatory column          feature          is absent in the file          numeral_root_hundred.tsv
-The obligatory column          date          is absent in the file          numeral_root_hundred.tsv
-The obligatory column          feature          is absent in the file          numeral_thousand.tsv
-The obligatory column          date          is absent in the file          numeral_thousand.tsv
-The obligatory column          feature          is absent in the file          numeral_twenty.tsv
-The obligatory column          date          is absent in the file          numeral_twenty.tsv
-The obligatory column          feature          is absent in the file          numeral_twoten.tsv
-The obligatory column          date          is absent in the file          numeral_twoten.tsv
-The wrong village dialect name Tad-Magitl’ in the file numeral_class.tsv
-The wrong village dialect name Genukh in the file numeral_class.tsv
-The wrong village dialect name Genukh in the file numeral_complex.tsv
-The wrong village dialect name Genukh in the file numeral_crowns_endings.tsv
-The wrong village dialect name Genukh in the file numeral_crowns_ten.tsv
-The wrong village dialect name Tad-Magitl’ in the file numeral_distributives.tsv
-The wrong village dialect name Genukh in the file numeral_distributives.tsv
-The wrong village dialect name Tad-Magitl’ in the file numeral_hundred.tsv
-The wrong village dialect name Genukh in the file numeral_hundred.tsv
-The wrong village dialect name Genukh in the file numeral_one.tsv
-The wrong village dialect name Genukh in the file numeral_ordinals.tsv
-The wrong village dialect name Tad-Magitl’ in the file numeral_origin.tsv
-The wrong village dialect name Genukh in the file numeral_origin.tsv
-The wrong village dialect name Tad-Magitl’ in the file numeral_regularity.tsv
-The wrong village dialect name Genukh in the file numeral_regularity.tsv
-The wrong village dialect name Genukh in the file numeral_root_hundred.tsv
-The wrong village dialect name Tad-Magitl’ in the file numeral_thousand.tsv
-The wrong village dialect name Genukh in the file numeral_thousand.tsv
-The wrong village dialect name Genukh in the file numeral_twenty.tsv
-The wrong village dialect name Tad-Magitl’ in the file numeral_twoten.tsv
-The wrong village dialect name Genukh in the file numeral_twoten.tsv
 The wrong village dialect name Gadiri in the file perfect.tsv
-The wrong non-toplevel 3 dialect name Xalatala in the file numeral_ordinals.tsv
-The wrong toplevel dialect name Upper Gakvari in the file numeral_class.tsv
-The wrong toplevel dialect name Central in the file numeral_class.tsv
-The wrong toplevel dialect name Eastern Armenian in the file numeral_class.tsv
-The wrong toplevel dialect name Upper Gakvari in the file numeral_complex.tsv
-The wrong toplevel dialect name Central in the file numeral_complex.tsv
-The wrong toplevel dialect name Eastern Armenian in the file numeral_complex.tsv
-The wrong toplevel dialect name Upper Gakvari in the file numeral_crowns_endings.tsv
-The wrong toplevel dialect name Eastern Armenian in the file numeral_crowns_endings.tsv
-The wrong toplevel dialect name Upper Gakvari in the file numeral_crowns_ten.tsv
-The wrong toplevel dialect name Eastern Armenian in the file numeral_crowns_ten.tsv
-The wrong toplevel dialect name Central in the file numeral_distributives.tsv
-The wrong toplevel dialect name Eastern Armenian in the file numeral_distributives.tsv
-The wrong toplevel dialect name Upper Gakvari in the file numeral_hundred.tsv
-The wrong toplevel dialect name Central in the file numeral_hundred.tsv
-The wrong toplevel dialect name Eastern Armenian in the file numeral_hundred.tsv
-The wrong toplevel dialect name Upper Gakvari in the file numeral_one.tsv
-The wrong toplevel dialect name Central in the file numeral_one.tsv
-The wrong toplevel dialect name Eastern Armenian in the file numeral_one.tsv
-The wrong toplevel dialect name Upper Gakvari in the file numeral_ordinals.tsv
-The wrong toplevel dialect name Eastern Armenian in the file numeral_ordinals.tsv
-The wrong toplevel dialect name Upper Gakvari in the file numeral_origin.tsv
-The wrong toplevel dialect name Central in the file numeral_origin.tsv
-The wrong toplevel dialect name Eastern Armenian in the file numeral_origin.tsv
-The wrong toplevel dialect name Upper Gakvari in the file numeral_regularity.tsv
-The wrong toplevel dialect name Central in the file numeral_regularity.tsv
-The wrong toplevel dialect name Eastern Armenian in the file numeral_regularity.tsv
-The wrong toplevel dialect name Upper Gakvari in the file numeral_root_hundred.tsv
-The wrong toplevel dialect name Central in the file numeral_root_hundred.tsv
-The wrong toplevel dialect name Eastern Armenian in the file numeral_root_hundred.tsv
-The wrong toplevel dialect name Upper Gakvari in the file numeral_thousand.tsv
-The wrong toplevel dialect name Central in the file numeral_thousand.tsv
-The wrong toplevel dialect name Eastern Armenian in the file numeral_thousand.tsv
-The wrong toplevel dialect name Upper Gakvari in the file numeral_twenty.tsv
-The wrong toplevel dialect name Central in the file numeral_twenty.tsv
-The wrong toplevel dialect name Eastern Armenian in the file numeral_twenty.tsv
-The wrong toplevel dialect name Upper Gakvari in the file numeral_twoten.tsv
-The wrong toplevel dialect name Central in the file numeral_twoten.tsv
-The wrong toplevel dialect name Eastern Armenian in the file numeral_twoten.tsv
+The wrong toplevel dialect name Ak-Nogai in the file numeral_ordinals.tsv
 spelling of          after’        in adpositions.Rmd:360
 spelling of          c’alduqanzaqor        in adpositions.Rmd:326
 spelling of          chuhwanahw        in adpositions.Rmd:226
@@ -371,6 +299,7 @@ spelling of          le        in numeral_crowns_endings.Rmd:22
 spelling of          li        in numeral_crowns_endings.Rmd:22
 spelling of          twenty’        in numeral_crowns_endings.Rmd:54
 spelling of          vigesimal’        in numeral_crowns_endings.Rmd:54
+spelling of          ten’        in numeral_crowns_ten_map.Rmd:88
 spelling of          ’        in numeral_crowns_ten.Rmd:6
 spelling of          allomorphs        in numeral_crowns_ten.Rmd:6
 spelling of          c’        in numeral_crowns_ten.Rmd:6,29
@@ -380,6 +309,7 @@ spelling of          hac’a        in numeral_crowns_ten.Rmd:6,6
 spelling of          ten’        in numeral_crowns_ten.Rmd:3,6,18
 spelling of          key’        in numeral_distributives.Rmd:5
 spelling of          share’        in numeral_distributives.Rmd:5
+spelling of          ’        in numeral_hundred_map.Rmd:88
 spelling of          ’        in numeral_hundred.Rmd:3,6,22,33
 spelling of          Alik        in numeral_hundred.Rmd:24
 spelling of          five’        in numeral_hundred.Rmd:22
@@ -395,6 +325,7 @@ spelling of          ten’        in numeral_morphology.Rmd:82
 spelling of          thousand’        in numeral_morphology.Rmd:51,65
 spelling of          two’        in numeral_morphology.Rmd:53
 spelling of          XXth        in numeral_morphology.Rmd:102
+spelling of          ’        in numeral_one_map.Rmd:88
 spelling of          ’        in numeral_one.Rmd:3,6,36,53
 spelling of          Dagestan        in numeral_one.Rmd:53
 spelling of          fourth’        in numeral_ordinals.Rmd:6
@@ -415,6 +346,7 @@ spelling of          ’        in numeral_regularity.Rmd:6,8,10,12
 spelling of          Calude        in numeral_regularity.Rmd:6
 spelling of          other’        in numeral_regularity.Rmd:12
 spelling of          Verkerk        in numeral_regularity.Rmd:6
+spelling of          hundred’        in numeral_root_hundred_map.Rmd:88
 spelling of          ’        in numeral_root_hundred.Rmd:48
 spelling of          asi        in numeral_root_hundred.Rmd:16
 spelling of          bVns        in numeral_root_hundred.Rmd:38
@@ -426,11 +358,14 @@ spelling of          knife’        in numeral_root_hundred.Rmd:38,48
 spelling of          nV        in numeral_root_hundred.Rmd:6
 spelling of          one’        in numeral_root_hundred.Rmd:58
 spelling of          realisation        in numeral_root_hundred.Rmd:60
+spelling of          ’        in numeral_thousand_map.Rmd:88
 spelling of          ’        in numeral_thousand.Rmd:3,6,23
+spelling of          ’        in numeral_twenty_map.Rmd:88
 spelling of          ’        in numeral_twenty.Rmd:3,6,16,26,49
 spelling of          ten’        in numeral_twenty.Rmd:16
 spelling of          twenty’        in numeral_twenty.Rmd:26
 spelling of          two’        in numeral_twenty.Rmd:16
+spelling of          ’        in numeral_twoten_map.Rmd:88
 spelling of          ’        in numeral_twoten.Rmd:3,6,29
 spelling of          become’        in ordinals.Rmd:60
 spelling of          dedicated’        in ordinals.Rmd:47

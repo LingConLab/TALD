@@ -85,7 +85,7 @@ feature_dataset_4map %>%
 rm(all_data_without_languages, change, feature_dataset_4map, feature_dataset_4map_languages, feature_dataset_4map_rest, villages, genlang)
 ```
 
-## numeral marker in a complex numeral{.tabset .tabset-fade .tabset-pills #m1} 
+## Presence of the numeral marker in complex numerals{.tabset .tabset-fade .tabset-pills #m1} 
     
 ### General datapoints {-}
 
