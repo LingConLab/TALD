@@ -12,14 +12,14 @@ Visualization 1 (**General datapoints**) and 3 (**Extrapolated data**) are both 
 
 ```{r}
 
-feature_dataset <- read_tsv("../orig_table/days_before_today.tsv")
+feature_dataset <- read_tsv("../orig_table/days_before_today.tsv", show_col_types = FALSE)
 
 feature_dataset %>% 
   filter(map == 'yes') ->
   feature_dataset_4map
 
-villages <- read_tsv('../tald_villages.csv') # village coordinates
-genlang <- read_tsv('../genlangpoints.csv') # general language points
+villages <- read_tsv('../tald_villages.csv', show_col_types = FALSE) # village coordinates
+genlang <- read_tsv('../genlangpoints.csv', show_col_types = FALSE) # general language points
 
 feature_dataset_4map %>% 
   filter(type == 'language') ->
@@ -201,16 +201,16 @@ map.feature(alldata_clean_filtered$lang4map,
 ```{r}
 bib <- RefManageR::ReadBib(file = '../bibliography.bib')
 
-tibble(column = str_subset(colnames(feature_dataset), 'value\\d{1,}$')) %>%
-  mutate(new_name = feature_dataset %>% 
-           select(str_c(column, '_name')) %>% 
-           unlist() %>% 
-           unique()) ->
+feature_dataset %>% 
+  select(str_which(colnames(feature_dataset), 'value\\d{1,}_name$')) %>% 
+  pivot_longer(cols = everything()) %>% 
+  distinct() %>%  
+  mutate(name = str_remove(name, '_name')) ->
   columns_rename
 
 feature_dataset %>% 
   select(lang, idiom, source, page, matches('value\\d{1,}$')) %>% 
-  rename_with(function(x){columns_rename[columns_rename$column == x, ]$new_name}, matches('value\\d{1,}$'))  %>% 
+  rename_with(function(x){columns_rename$value[match(x, columns_rename$name)]}, matches('value\\d{1,}$'))  %>% 
   rename(Language=lang, 
          Idiom = idiom,
          Source = source) %>% 

@@ -1,4 +1,4 @@
-id	lang	idiom	type	genlang_point	map	form	value	value_name	source	page	comment	contributor	example_as_in_source	example	translation_as_in_source	translation	gloss_as_in_source	gloss	example_source	example_page	example_comment
+id	lang	idiom	type	genlang_point	map	form	value1	value1_name	source	page	comment	contributor	example_as_in_source	example	translation_as_in_source	translation	gloss_as_in_source	gloss	example_source	example_page	example_comment
 1	Andi	Andi	village	yes	yes	R=gu	absent	presence of the marker in numeral 1	cercvadze1965	345		Maksim Melenchenko	se-b	se-b		one		one-CM	cercvadze1965	345	
 2	Andi	Kvankhidatli	village	no	yes	R=gu	absent	presence of the marker in numeral 1	cercvadze1965	345		Maksim Melenchenko	ce-b	ce-b		one		one-CM	cercvadze1965	345	
 3	Andi	Zilo	village	no	yes	R=gu	absent	presence of the marker in numeral 1	cercvadze1965	345		Maksim Melenchenko	ce-b	ce-b		one		one-CM	cercvadze1965	345	

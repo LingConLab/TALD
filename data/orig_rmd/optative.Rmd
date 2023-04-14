@@ -16,7 +16,7 @@ In the most clear cases, the optative expresses only blessings or curses, while 
 (@one) Dargwa: Mehweb [@dobrushina2019: 143]
 ```{r}
 gloss_example("ja-allah ħušab taliħ g-a-b!",
-              "PTCL-Allah(NOM) you.pl.DAT luck give:PFV-IRR-OPT",
+              "PTCL-Allah(NOM) you.PL.DAT luck give:PFV-IRR-OPT",
               "May [Allah] give [you] luck!")
 ```
 
@@ -215,7 +215,7 @@ The distribution of negative optative patterns ([Map 4](http://lingconlab.ru/dag
 ## List of glosses {-}
 
 ```{r}
-make_gloss_list(readxl::read_xlsx("../glosses.xlsx"))
+make_gloss_list(readxl::read_xlsx("../glosses.xlsx"), remove_glosses = "12PL")
 ```
 
 ## References {-}

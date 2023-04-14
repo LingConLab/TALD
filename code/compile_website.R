@@ -9,7 +9,7 @@ if(length(to_install) > 0){
   install.packages(to_install, dependencies = TRUE)
 }
 
-library(tidyverse)
+suppressPackageStartupMessages(library(tidyverse))
 
 # CREATE VILLAGE DATASET --------------------------------------------------
 # Moroz, George, & Verhees, Samira. (2020). East Caucasian villages dataset (Version v2.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.5588473
@@ -67,12 +67,13 @@ cyr_latin_coresp <- "
     :: cyrillic-latin;
 "
 
-map(c(list.files("data/orig_bib", full.names = TRUE), "data/bibliography.bib"), function(i){
+s <- map(c(list.files("data/orig_bib", full.names = TRUE), "data/bibliography.bib"), function(i){
   read_lines(i) %>% 
     stri_trans_general(cyr_latin_coresp, rules=TRUE) %>% 
     write_lines(i)
 })
 
+rm(s)
 
 # embrace uppercased letters with curly braces ----------------------------
 regular_expression <- str_c("((?<=[ \\[\\-\\(\\</])[", str_c(c(LETTERS, "Ž", "Č", "Š", "Ë", "É"), collapse = ""), "])")
@@ -109,7 +110,7 @@ readxl::read_xlsx("data/contributors.xlsx") %>%
 
 # deal with major topics --------------------------------------------------
 features %>% 
-  filter(major_topic_text == TRUE) %>% 
+  filter(major_topic_text == 1)  %>% 
   pull(filename) ->
   major_topics
 
@@ -139,7 +140,7 @@ first_authors <- tolower(str_remove(map(str_split(features$author, " "), 2), ","
 
 # create orig_rmd/..._map.Rmd files ----------------------------------------------------
 
-map(rmd_filenames[str_detect(rmd_filenames, "_map.Rmd")], function(i){
+s <- map(rmd_filenames[str_detect(rmd_filenames, "_map.Rmd")], function(i){
   
   read_tsv(str_c("data/orig_table/", 
                  str_remove(str_remove(i, "_map.Rmd"), "\\d{1,}_"),
@@ -168,14 +169,14 @@ Visualization 1 (**General datapoints**) and 3 (**Extrapolated data**) are both 
 ",
 str_c('feature_dataset <- read_tsv("../orig_table/', 
       str_remove(str_remove(i, "_map.Rmd"), "\\d{1,}_"),
-      '.tsv")'),
+      '.tsv", show_col_types = FALSE)'),
 "
 feature_dataset %>% 
   filter(map == 'yes') ->
   feature_dataset_4map
 
-villages <- read_tsv('../tald_villages.csv') # village coordinates
-genlang <- read_tsv('../genlangpoints.csv') # general language points
+villages <- read_tsv('../tald_villages.csv', show_col_types = FALSE) # village coordinates
+genlang <- read_tsv('../genlangpoints.csv', show_col_types = FALSE) # general language points
 
 feature_dataset_4map %>% 
   filter(type == 'language') ->
@@ -387,16 +388,16 @@ str_c('[Download](https://raw.githubusercontent.com/LingConLab/TALD/master/data/
 ```{r}
 bib <- RefManageR::ReadBib(file = '../bibliography.bib')
 
-tibble(column = str_subset(colnames(feature_dataset), 'value\\\\d{1,}$')) %>%
-  mutate(new_name = feature_dataset %>% 
-           select(str_c(column, '_name')) %>% 
-           unlist() %>% 
-           unique()) ->
+feature_dataset %>% 
+  select(str_which(colnames(feature_dataset), 'value\\\\d{1,}_name$')) %>% 
+  pivot_longer(cols = everything()) %>% 
+  distinct() %>%  
+  mutate(name = str_remove(name, '_name')) ->
   columns_rename
 
 feature_dataset %>% 
   select(lang, idiom, source, page, matches('value\\\\d{1,}$')) %>% 
-  rename_with(function(x){columns_rename[columns_rename$column == x, ]$new_name}, matches('value\\\\d{1,}$'))  %>% 
+  rename_with(function(x){columns_rename$value[match(x, columns_rename$name)]}, matches('value\\\\d{1,}$'))  %>% 
   rename(Language=lang, 
          Idiom = idiom,
          Source = source) %>% 
@@ -433,6 +434,8 @@ feature_dataset %>%
     file = str_c("data/orig_rmd/", str_remove(i, "\\d{1,}_"))
   )
 })
+
+rm(s)
 
 # create Rmd files ---------------------------------------------------------
 options(ymlthis.rmd_body = "
