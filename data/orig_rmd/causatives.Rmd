@@ -1,21 +1,9 @@
----
-output: html_document
-bibliography: causatives.bib
----
-
-```{r, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+```{r, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, comment = '')
 library(lingglosses)
-library(tidyverse)
-library(bib2df)
-
-
-file_name <- "causatives_bib.tsv"
-read_tsv(file_name, progress = FALSE) %>% 
-  bib2df::df2bib(file_name %>% str_remove_all("[_\\.]tsv") %>%  str_replace("_bib$", "\\.bib"))
 ```
 
-## 1. Introduction
+## Introduction
 
 The causative construction is an expression, the meaning of which can be schematically represented as "A causes B to X", where A and B are nominal arguments and X is a predicate.
 Causative meaning in East Caucasian languages can be expressed in multiple ways: by means of suffixation (e.g. Bagvalal (@bagvalal)), using light verb constructions (e.g. Kryz (@kryz)), and various intermediate constructions (e.g. Bezhta (@bezhta)). Here we define light verb constructions as:
@@ -26,7 +14,7 @@ Causative meaning in East Caucasian languages can be expressed in multiple ways:
 Thus, periphrastic constructions and complement-taking verbs will be categorized as light verb constructions, and any construction with two identifiable verb stems that is represented as one wordform will be considered intermediate between a suffix and light verb construction.  
 
 (@bagvalal) Bagvalal [@kibrik2001: 387]        
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "madinat-i-r zar b-ic'-e:",
               glosses = "madinat-OBL-ERG ice.NOM N-melt-CAUS",
               free_translation = "Madinat melted the ice.")
@@ -34,7 +22,7 @@ gloss_example(transliteration = "madinat-i-r zar b-ic'-e:",
 
 
 (@kryz) Kryz [@authier2009: 314]
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "a-d zindan.c-a ʕa-r-ğu-z vu-yid",
               glosses = "3-NOTN prison-LOC PV-M-force.in-INF give-AOR.M",
               free_translation = "He had him thrown in jail.")
@@ -44,14 +32,14 @@ gloss_example(transliteration = "a-d zindan.c-a ʕa-r-ğu-z vu-yid",
 <table>
 <tr>
   <td>
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "ija-al",
               glosses = "cry-INF",
               free_translation = "cry")
 ```
   </td>
   <td>
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "ija-gol-al",
               glosses = "cry-put-INF",
               free_translation = "force to cry")
@@ -67,7 +55,7 @@ As  mentioned in [@song2013b], practically every language has a periphrastic cau
 
 The goal of this chapter is to is to classify the types of constructions which can express causative meaning in the languages of Daghestan according to the available descriptions. We will also examine the semantics of the auxiliary verb (where it is present). 
 
-## 2. Results
+## Results
 
 Each causative construction was classified as either a suffix[^1], a light verb or a suffixal auxiliary[^2]. Given the fact that the languages present more of spectrum than a set of classes in regards to the extent to which the causative construction is grammaticalized, the following criteria were used to draw boundaries between the proposed classes:
 
@@ -89,7 +77,7 @@ Each causative construction was classified as either a suffix[^1], a light verb 
      a) must have a transparent lexical origin
      b) must attach to the stem or root of a verb
 
-### 2.1 Morphological causatives
+### Morphological causatives
 
 The majority of languages in the sample have a morphological causative (27/40), specifically a suffix is used to express causative meaning. There are two exceptions:  Budukh (EC > Lezgic), where the synthetic causative is formed by stem shortening and vowel alternation (@budukh) and Tsugni Dargwa, where the synthetic causative is formed by stress shift (@tsugni).
 
@@ -98,14 +86,14 @@ The majority of languages in the sample have a morphological causative (27/40), 
 <table>
 <tr>
   <td>
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "sanꭓ-an",
               glosses = "be_forgotten-INF",
               free_translation = "be forgotten")
 ```
   </td>
   <td>
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "senꭓ-i",
               glosses = "forget-INF",
               free_translation = "forget")
@@ -117,14 +105,14 @@ gloss_example(transliteration = "senꭓ-i",
 (@tsugni) Tsugni Dargwa [@salaibanovsumbatova2022: 2-3 (110-111)]
   
     a) 
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "murad-li hin d-**e**rčː-ib",
               glosses = "Murad-ERG water NPL-drink.PFV-PRET",
               free_translation = "‘Murad drank the water")
 ```  
     
     b) 
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "murad-li urči-cːe hin d-erčː-**í**b",
               glosses = "Murad-ERG horse-INTER water NPL-drink.PFV-PRET",
               free_translation = "Murad gave the horse water to drink")
@@ -133,7 +121,7 @@ gloss_example(transliteration = "murad-li urči-cːe hin d-erčː-**í**b",
 In several languages the causative suffix is fused with tense suffixes, for example in  Akhvakh:
 
 (@) Akhvakh [@magomedbekova1967: 107]
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "q'in-āri",
               glosses = "sew-CAUS.PST",
               free_translation = "caused to sew",
@@ -155,14 +143,14 @@ The Dargwa varieties share a common suffix *-aq* (cf. Table 1), which in the cas
 <table>
 <tr>
   <td>
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "bis-ij",
               glosses = "sell-INF",
               free_translation = "sell",)
 ```
   </td>
   <td>
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "bis-aq-ij",
               glosses = "sell-overcome-INF",
               free_translation = "force to sell",
@@ -226,7 +214,7 @@ gloss_example(transliteration = "bis-aq-ij",
 </tbody>
 </table>
 
-### 2.2 Intermediate forms ("suffixal auxiliaries")
+### Intermediate forms ("suffixal auxiliaries")
 
 Interestingly, a number of languages showcase an intermediate form: a light verb construction at various stages of grammaticalization. There are 10 languages that have causative constructions classified as suffixal auxiliaries (cf. Table 2.).
 In addition to this, there are cases like Avar (EC > Avar), where the light verb construction can be shortened/fused.
@@ -236,14 +224,14 @@ In addition to this, there are cases like Avar (EC > Avar), where the light verb
 <table>
 <tr>
   <td>
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "heq'e-ze ha-b-ize",
               glosses = "drink-INF do-N-INF",
               free_translation = "make drink",)
 ```
   </td>
   <td>
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "heq'e-z-a-b-ize",
               glosses = "drink-INF-do-N-INF",
               free_translation = "make drink",)
@@ -350,7 +338,7 @@ gloss_example(transliteration = "heq'e-z-a-b-ize",
 
 [^4]: For the sake of simplicity, I do not distinguish between roots and stems here.
 
-### 2.3 Light verb constructions
+### Light verb constructions
 
 At least 21 languages have a light verb or periphrastic construction. In the vast majority of the constructions classified here the lexical verb is in the infinitive, with a few exceptions.
 
@@ -359,14 +347,14 @@ In Lak the the auxiliary can combine with both an infinitive (perfective) and a 
 (@) Lak [@kazenin2013: 108]
 
     (a)
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "Jala ga butta-l ∅-uxx-an ∅-uv-ssa-r Shurah-ssa realny učilish-aluwun",
               glosses = "after 3SG father-GEN.SG M-enter.PFV-INF M-do.PST-ADJ-3SG Buynaksk-ADJ real school-ILL",
               free_translation = "Then father sent him to Buynaksk Realschule",
               line_length = 100)
 ```
     (b)
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "Turknal mu bilajat cixwa b-urug<la>g-i b-u-w-nu b-u-r",
               glosses = "turkey this country REFL N-watch<IPFV>.PTCP-3SG N-do.PST-N-PST N-AUX.PRES-3SG",
               free_translation = "Turkey made this country look at itself",
@@ -376,7 +364,7 @@ gloss_example(transliteration = "Turknal mu bilajat cixwa b-urug<la>g-i b-u-w-nu
 In Kryz the auxiliary 'do' combines with a participle. 
 
 (@) Kryz [@authier2009: 173]
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "ꭓinib.c-ir furi ʕu-r-ğar-a ar-id",
               glosses = "wife-ERG man PV-M-believe-VA do-AOR.M",
               free_translation = "The woman persuaded her husband.",)
@@ -387,7 +375,7 @@ In Bagvalal the auxiliary verb forms two constructions: one with the lexical ver
 (@) Bagvalal [@kibrik2001: 385]
 
      (a)
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "ima-š:u-r anwar rasul-i-b as kʷaꭓ:-a w-ešta",
               glosses = "father-OBL.M-ERG Anwar Rasul-OBL-GEN.N money steal-MSD.IPFV.INF M-let",
               free_translation = "Father made Anwar steal money from Rasul.",
@@ -395,7 +383,7 @@ gloss_example(transliteration = "ima-š:u-r anwar rasul-i-b as kʷaꭓ:-a w-ešt
 ```
 
      (b) 
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "ima-š:u-r anwar rasul-i-b as kʷaꭓ:-a: w-ešta",
               glosses = "father-OBL.M-ERG Anwar Rasul-OBL-GEN.N money steal-MSD.POT.INF M-let",
               free_translation = "Father allowed Anwar steal money from Rasul.",
@@ -407,14 +395,14 @@ It is important to note that many languages employ multiple strategies in coding
 (@lezgian) Lezgian [@haspelmath1993: 163, 358]
 
      (a) 
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "ksu-r-un",
               glosses = "sleep-CAUS-MSD",
               free_translation = "put to bed")
 ```
     
      (b)
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "Ada ča-w ∅ ixtilat-ar aqwazar-iz ta-da-j.",
               glosses = "he.ERG we-ADEL (ERG) conversation-PL stop-INF cause-FUT-PST",
               free_translation = "He would make us stop the conversations",
@@ -424,14 +412,14 @@ gloss_example(transliteration = "Ada ča-w ∅ ixtilat-ar aqwazar-iz ta-da-j.",
 (@tsez) Tsez [@bokarev1959tsez: 204, 203]
 
      (a)
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "əs-ir-a",
               glosses = "say-CAUS-INF",
               free_translation = "cause to say/ ask")
 ```
 
      (b)
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "tatan-ik'-a",
               glosses = "warm-CAUS-?INF",
               free_translation = "make warm")
@@ -440,7 +428,7 @@ gloss_example(transliteration = "tatan-ik'-a",
 (@mehweb) Mehweb Dargwa [@barylnikova2019: 173, 174, 176]
 
      (a)
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "pat’imat-ini anwar uʕq’-es aʔ-ib.",
               glosses = "Patimat-ERG Anwar M.go:PFV-INF drive:PFV-AOR",
               free_translation = "Patimat made Anwar go away",
@@ -448,7 +436,7 @@ gloss_example(transliteration = "pat’imat-ini anwar uʕq’-es aʔ-ib.",
 ```
 
     (b)
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "pat’imat-ini anwar w-aq-ib umma d-aq’-as",
               glosses = "Patimat-ERG Anwar M-leave:PFV-AOR kiss NPL-do:PFV-INF",
               free_translation = "Patimat let Anwar kiss her",
@@ -456,13 +444,13 @@ gloss_example(transliteration = "pat’imat-ini anwar w-aq-ib umma d-aq’-as",
 ```
 
     (c) 
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "aꭓaj-ni musa zuba w-aq’-ib",
               glosses = "khan.OBL-ERG Musa blind M-do:PFV-AOR",
               free_translation = "Khan blinded Musa")
 ```
 
-### 2.4 Auxiliary semantics
+### Auxiliary semantics
 
 The most common verbs found in causative constructions were 'do' (13), 'leave' (8) and 'give' (5). The verb 'let' is used in Khwarshi (EC > Tsezic), Bagvalal (EC > Andic), Karata (EC > Andic) and Tindi (EC > Andic). In Bezhta (EC > Tsezic), Botlikh (EC > Andic) and Godoberi (EC > Andic) the verb 'put' is used[^5]. There are a number of verbs attested in only one language, namely, "overcome" (Kubachi Dargwa), "become" (Botlikh), "direct" (Akhvakh), "sell" (Khinalug), "use" (Bezhta). I suspect that verbs glossed as 'force' have that meaning because they form causative constructions and as such might have other core meanings. Not all idioms have available dictionaries, or the verb in question is not mentioned in them, so I have not been able to verify this. The full list of auxiliaries and their semantics is presented in the table below:
 
@@ -699,18 +687,17 @@ The most common verbs found in causative constructions were 'do' (13), 'leave' (
 
 [^6]: the same verb can mean 'let' (cf. [@talibovgadzhiev1966]), however this is the translation used in the source.
 
-## 3. Distribution
+## Distribution
 
 Since most languages have multiple causative constructions, the types shown on the map  are "morphological" if a morphological (suffixal + Budukh vowel alternation) causative is present, then "suffixal auxiliary" if a suffixal auxiliary is present, and "light verb" if only light verb constructions are attested for that language.
 All Andic, Tsezic, Dargwa (except Kubachi) and Turkic languages have a morphological causative. Nakh languages use suffixal auxiliaries. Lezgic languages mostly use light verb constructions, Rutul and Tsakhur have suffixal auxiliaries and Budukh, Lezgian and Udi[^7] have morphological causatives. There does not seem to be any significant areal distribution.
 
 [^7]:  *-d-* in Udi, which is classified as a suffix here, combines with the infinitive of the verb (though other suffixes may follow it) and is described as an auxiliary verb (Maisak, 2008) The reason it is classified as a suffix here is that it is bound to the lexical verb and lacks a transparent lexical origin.
 
-## List of glosses
-```{r, echo=FALSE}
-added_glosses <- data.frame(gloss = c("NOTN"),
-                               definition_en = c("non-neuter pronominal suffix"))
-make_gloss_list(added_glosses)
+## List of glosses {-}
+
+```{r}
+make_gloss_list(readxl::read_xlsx("../glosses.xlsx"))
 ```
 
-## References
+## References {-}

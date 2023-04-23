@@ -1,0 +1,2521 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="Daria Izmalkova" />
+
+
+<title>Causatives: expression type</title>
+
+<script src="site_libs/header-attrs-2.21/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="site_libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="site_libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.2.1/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.2.1/css/v4-shims.min.css" rel="stylesheet" />
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+<style type="text/css">
+/* for pandoc --citeproc since 2.11 */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="css/styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">TALD</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="./about.html">About</a>
+</li>
+<li>
+  <a href="./features.html">
+    <span class="fa fa-atlas"></span>
+     
+    Features
+  </a>
+</li>
+<li>
+  <a href="./changes.html">Changes</a>
+</li>
+<li>
+  <a href="./references.html">References</a>
+</li>
+<li>
+  <a href="./team.html">Team</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Causatives: expression type</h1>
+<h4 class="author">Daria Izmalkova</h4>
+<h4 class="date">Last update: April 2022</h4>
+
+</div>
+
+
+<p>See <a href="050_causatives_map.html">data and maps</a>.</p>
+<div id="section"
+class="section level1 tabset tabset-fade tabset-pills unnumbered">
+<h1 class="tabset tabset-fade tabset-pills unnumbered"></h1>
+<div id="plain-text" class="section level2 unnumbered hasAnchor">
+<h2 class="unnumbered hasAnchor">Plain text<a href="#plain-text"
+class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Izmalkova, D. (2021). “Causatives: expression type”. In:
+<em>Typological Atlas of the Languages of Daghestan (TALD)</em>. Ed. by
+M. Daniel, K. Filatov, T. Maisak, G. Moroz, T. Mukhin, C. Naccarato and
+S. Verhees. Moscow: Linguistic Convergence Laboratory, NRU HSE. DOI:
+10.5281/zenodo.6807070. <a href="http://lingconlab.ru/dagatlas"
+class="uri">http://lingconlab.ru/dagatlas</a>.</p>
+</div>
+<div id="bibtex" class="section level2 unnumbered hasAnchor">
+<h2 class="unnumbered hasAnchor">BibTeX<a href="#bibtex"
+class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<pre><code>@incollection{izmalkova2021,
+  title = {Causatives: expression type},
+  author = {Daria Izmalkova},
+  year = {2021},
+  editor = {Michael Daniel and Konstantin Filatov and Timur Maisak and George Moroz and Timofey Mukhin and Chiara Naccarato and Samira Verhees},
+  publisher = {Linguistic Convergence Laboratory, NRU HSE},
+  address = {Moscow},
+  booktitle = {Typological Atlas of the Languages of Daghestan (TALD)},
+  url = {http://lingconlab.ru/dagatlas},
+  doi = {10.5281/zenodo.6807070},
+}</code></pre>
+</div>
+</div>
+<div id="introduction" class="section level1 hasAnchor" number="1">
+<h1 class="hasAnchor"><span class="header-section-number">1</span>
+Introduction<a href="#introduction" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p>The causative construction is an expression, the meaning of which can
+be schematically represented as “A causes B to X”, where A and B are
+nominal arguments and X is a predicate. Causative meaning in East
+Caucasian languages can be expressed in multiple ways: by means of
+suffixation (e.g. Bagvalal (1)), using light verb constructions
+(e.g. Kryz (2)), and various intermediate constructions (e.g. Bezhta
+(3)). Here we define light verb constructions as:</p>
+<ul>
+<li>consisting of two verbs: a lexical verb and an auxiliary</li>
+<li>where the verbs are (or at least assumed to be) independent
+wordforms (see below)</li>
+</ul>
+<p>Thus, periphrastic constructions and complement-taking verbs will be
+categorized as light verb constructions, and any construction with two
+identifiable verb stems that is represented as one wordform will be
+considered intermediate between a suffix and light verb
+construction.</p>
+<ol class="example" style="list-style-type: decimal">
+<li>Bagvalal <span class="citation">(<a href="#ref-kibrik2001"
+role="doc-biblioref">Kibrik et al., 2001</a>: 387)</span><br />
+
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>madinat-i-r</em>
+</td>
+<td style="text-align:left;">
+<em>zar</em>
+</td>
+<td style="text-align:left;">
+<em>b-ic’-e:</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+madinat-<span class="smallcaps">obl</span>-<span
+class="smallcaps">erg</span>
+</td>
+<td style="text-align:left;">
+ice.<span class="smallcaps">nom</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">n</span>-melt-<span
+class="smallcaps">caus</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Madinat melted the ice.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li>Kryz <span class="citation">(<a href="#ref-authier2009"
+role="doc-biblioref">Authier, 2009</a>: 314)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>a-d</em>
+</td>
+<td style="text-align:left;">
+<em>zindan.c-a</em>
+</td>
+<td style="text-align:left;">
+<em>ʕa-r-ğu-z</em>
+</td>
+<td style="text-align:left;">
+<em>vu-yid</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps">3</span>-<span class="smallcaps">notn</span>
+</td>
+<td style="text-align:left;">
+prison-<span class="smallcaps">loc</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">pv</span>-<span
+class="smallcaps">m</span>-force.in-<span class="smallcaps">inf</span>
+</td>
+<td style="text-align:left;">
+give-<span class="smallcaps">aor</span>.<span class="smallcaps">m</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘He had him thrown in jail.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li>Bezhta <span class="citation">(<a href="#ref-comrieetal2015"
+role="doc-biblioref">Comrie et al., 2015</a>: 361)</span>
+<table>
+<tr>
+<td>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>ija-al</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+cry-<span class="smallcaps">inf</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘cry’
+</td>
+</tr>
+</tfoot>
+</table>
+</td>
+<td>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>ija-gol-al</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+cry-put-<span class="smallcaps">inf</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘force to cry’
+</td>
+</tr>
+</tfoot>
+</table>
+</td>
+</tr>
+</table></li>
+</ol>
+<p>Cross-linguistically causatives are commonly expressed
+morphologically (mostly by affixation) or only by means of a
+periphrastic construction. According to Song <span class="citation">(<a
+href="#ref-song2013a" role="doc-biblioref">2013a</a>)</span>, compounds
+(i.e. monoclausal multiverb constructions) are rare. In East Caucasian
+languages these types of constructions seem to be generally common and
+as such they are also used in certain languages as the primary strategy
+of forming causative expressions.</p>
+<p>As mentioned in <span class="citation">(<a href="#ref-song2013b"
+role="doc-biblioref">Song, 2013b</a>)</span>, practically every language
+has a periphrastic causative construction. We believe this to be true
+for Caucasian languages as well, therefore we assume that the absence of
+a periphrastic construction for certain languages in the sample is
+likely due to missing data.</p>
+<p>The goal of this chapter is to is to classify the types of
+constructions which can express causative meaning in the languages of
+Daghestan according to the available descriptions. We will also examine
+the semantics of the auxiliary verb (where it is present).</p>
+</div>
+<div id="results" class="section level1 hasAnchor" number="2">
+<h1 class="hasAnchor"><span class="header-section-number">2</span>
+Results<a href="#results" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p>Each causative construction was classified as either a suffix<a
+href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>, a light
+verb or a suffixal auxiliary<a href="#fn2" class="footnote-ref"
+id="fnref2"><sup>2</sup></a>. Given the fact that the languages present
+more of spectrum than a set of classes in regards to the extent to which
+the causative construction is grammaticalized, the following criteria
+were used to draw boundaries between the proposed classes:</p>
+<ul>
+<li>A suffix
+<ol style="list-style-type: lower-alpha">
+<li>must be semantically vacuous (i.e not have a transparent lexical
+origin)</li>
+<li>must attach to the stem or root of a verb</li>
+</ol></li>
+<li>A light verb construction
+<ol style="list-style-type: lower-alpha">
+<li>must consist of two identifiable verbs</li>
+<li>the lexical verb must not be a bare stem</li>
+</ol></li>
+<li>A suffixal auxiliary
+<ol style="list-style-type: lower-alpha">
+<li>must have a transparent lexical origin</li>
+<li>must attach to the stem or root of a verb</li>
+</ol></li>
+</ul>
+<div id="morphological-causatives" class="section level2 hasAnchor"
+number="2.1">
+<h2 class="hasAnchor"><span class="header-section-number">2.1</span>
+Morphological causatives<a href="#morphological-causatives"
+class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>The majority of languages in the sample have a morphological
+causative (27/40), specifically a suffix is used to express causative
+meaning. There are two exceptions: Budukh (EC &gt; Lezgic), where the
+synthetic causative is formed by stem shortening and vowel alternation
+(4) and Tsugni Dargwa, where the synthetic causative is formed by stress
+shift (5).</p>
+<ol start="4" class="example" style="list-style-type: decimal">
+<li>Budukh <span class="citation">(<a href="#ref-talibov2007"
+role="doc-biblioref">Talibov, 2007</a>: 168)</span></li>
+</ol>
+<table>
+<tr>
+<td>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>sanꭓ-an</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+be_forgotten-<span class="smallcaps">inf</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘be forgotten’
+</td>
+</tr>
+</tfoot>
+</table>
+</td>
+<td>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>senꭓ-i</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+forget-<span class="smallcaps">inf</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘forget’
+</td>
+</tr>
+</tfoot>
+</table>
+</td>
+</tr>
+</table>
+<ol start="5" class="example" style="list-style-type: decimal">
+<li><p>Tsugni Dargwa <span class="citation">(<a
+href="#ref-salaibanovsumbatova2022" role="doc-biblioref">Salajbanov
+&amp; Sumbatova, 2022</a>: 2-3 (110-111))</span></p>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>murad-li</em>
+</td>
+<td style="text-align:left;">
+<em>hin</em>
+</td>
+<td style="text-align:left;">
+<em>d-<strong>e</strong>rčː-ib</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Murad-<span class="smallcaps">erg</span>
+</td>
+<td style="text-align:left;">
+water
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">npl</span>-drink.<span
+class="smallcaps">pfv</span>-<span class="smallcaps">pret</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘‘Murad drank the water’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>murad-li</em>
+</td>
+<td style="text-align:left;">
+<em>urči-cːe</em>
+</td>
+<td style="text-align:left;">
+<em>hin</em>
+</td>
+<td style="text-align:left;">
+<em>d-erčː-<strong>í</strong>b</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Murad-<span class="smallcaps">erg</span>
+</td>
+<td style="text-align:left;">
+horse-<span class="smallcaps">inter</span>
+</td>
+<td style="text-align:left;">
+water
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">npl</span>-drink.<span
+class="smallcaps">pfv</span>-<span class="smallcaps">pret</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Murad gave the horse water to drink’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol></li>
+</ol>
+<p>In several languages the causative suffix is fused with tense
+suffixes, for example in Akhvakh:</p>
+<ol start="6" class="example" style="list-style-type: decimal">
+<li>Akhvakh <span class="citation">(<a href="#ref-magomedbekova1967"
+role="doc-biblioref">Magomedbekova, 1967</a>: 107)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>q’in-āri</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+sew-<span class="smallcaps">caus</span>.<span
+class="smallcaps">pst</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> (-a + -ari = -āri)
+</td>
+</tr>
+</tfoot>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘caused to sew’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>Turkic languages (Nogai, Kumyk, Azerbaijani) possess multiple sets of
+transitivizing suffixes, without one necessarily expressing exclusively
+causative meaning. In Khangishiev <span class="citation">(<a
+href="#ref-khangishiev2014" role="doc-biblioref">2014</a>)</span>
+(Kumyk) it is noted that these suffixes are distributed lexically,
+however the motivation behind the choice of suffix is not transparent
+(for example different suffixes can be used for the same verb in
+different dialects) and it is speculated that the distribution was once
+tied to the transitivity and semantics of the verb. It is also noted
+that the <em>-tɯr;-tir;-tur;-tyr, -ʁuz;-giz, -ʁar;-ger, -set, -dar</em>
+suffixes are much more restricted in their use. In Shiraliev &amp;
+Sevortyan <span class="citation">(<a href="#ref-shiralievsevortyan1971"
+role="doc-biblioref">1971</a>)</span> (Azerbaijani) <em>dɯr/dir</em> and
+<em>-t</em> are described separately as causative suffixes and the rest
+are mentioned as transivitizing suffixes. In Baskakov <span
+class="citation">(<a href="#ref-baskakov1940"
+role="doc-biblioref">1940</a>)</span> (Nogai) these sets of suffixes are
+simply listed without any comments on their distribution. In Baskakov
+<span class="citation">(<a href="#ref-baskakov1973"
+role="doc-biblioref">1973</a>)</span> it is noted that the suffix
+<em>-kar/-ker</em> is archaic. The suffixes that were noted as rare (or
+not described as causative in the case of Azerbaijani) are not in the
+database (they are only mentioned in the “comment” column).</p>
+<p>The Dargwa varieties share a common suffix <em>-aq</em> (cf. Table
+1), which in the case of Kubachi is said to be the verb ‘overcome’,
+which attaches to the stem <span class="citation">(<a
+href="#ref-magometov1963" role="doc-biblioref">Magometov, 1963</a>:
+214)</span>. There is reason to doubt that the lexical origin of the
+Kubachi causative is so transparent, as it is practically identical to
+the suffix attested in other Dargwa varieties, in addition to the fact
+that there are multiple potential candidates<a href="#fn3"
+class="footnote-ref" id="fnref3"><sup>3</sup></a> for this suffix’s
+source of grammaticalization (Michael Daniel, personal communication).
+Given that it is described as a verb in the source, however, the Kubachi
+causative is classified as a suffixal auxiliary.</p>
+<ol start="7" class="example" style="list-style-type: decimal">
+<li>Kubachi <span class="citation">(<a href="#ref-magometov1963"
+role="doc-biblioref">Magometov, 1963</a>: 214)</span></li>
+</ol>
+<table>
+<tr>
+<td>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>bis-ij</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+sell-<span class="smallcaps">inf</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘sell’
+</td>
+</tr>
+</tfoot>
+</table>
+</td>
+<td>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>bis-aq-ij</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+sell-overcome-<span class="smallcaps">inf</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> (or sell-CAUS-INF)
+</td>
+</tr>
+</tfoot>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘force to sell’
+</td>
+</tr>
+</tfoot>
+</table>
+</td>
+</tr>
+</table>
+<style type="text/css">
+.dargwa   {border-collapse:collapse;
+          border-spacing:0;
+          white-space: nowrap;
+          text-align: center;
+          width: 100%;}
+.dargwa td    {border-color:black;
+              border-style:solid;
+              border-width:1px;
+              font-family:Arial, sans-serif;
+              overflow:hidden;
+              padding:10px 5px;
+              word-break:normal;}
+.dargwa th    {border-color:black;
+              border-style:solid;
+              border-width:1px;
+              font-family:Arial, sans-serif;
+              font-weight:normal;
+              overflow:hidden;
+              padding:10px 10px;
+              word-break:normal;}
+</style>
+<table class="dargwa">
+<caption>
+Table 1. Dargwa causative suffixes
+</caption>
+<thead>
+<tr>
+<th>
+<strong>Dargwa variety</strong>
+</th>
+<th>
+<strong>Causative suffix</strong>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+Mehweb
+</td>
+<td>
+<em>-aq-;-aχaq-</em>
+</td>
+</tr>
+<tr>
+<td>
+Sanzhi
+</td>
+<td>
+<em>-aq-;-aˁq-</em>
+</td>
+</tr>
+<tr>
+<td>
+Kubachi
+</td>
+<td>
+<em>-aq-ij;-iq-ij</em>
+</td>
+</tr>
+<tr>
+<td>
+Tanty
+</td>
+<td>
+<em>-aq-</em>
+</td>
+</tr>
+<tr>
+<td>
+Itsari
+</td>
+<td>
+<em>-aq-;-aˁq-</em>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="intermediate-forms-suffixal-auxiliaries"
+class="section level2 hasAnchor" number="2.2">
+<h2 class="hasAnchor"><span class="header-section-number">2.2</span>
+Intermediate forms (“suffixal auxiliaries”)<a
+href="#intermediate-forms-suffixal-auxiliaries" class="anchor-section"
+aria-label="Anchor link to header"></a></h2>
+<p>Interestingly, a number of languages showcase an intermediate form: a
+light verb construction at various stages of grammaticalization. There
+are 10 languages that have causative constructions classified as
+suffixal auxiliaries (cf. Table 2.). In addition to this, there are
+cases like Avar (EC &gt; Avar), where the light verb construction can be
+shortened/fused.</p>
+<ol start="8" class="example" style="list-style-type: decimal">
+<li>Avar <span class="citation">(<a href="#ref-forkerdraft2020"
+role="doc-biblioref">Forker, 2020</a>: 16)</span></li>
+</ol>
+<table>
+<tr>
+<td>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>heq’e-ze</em>
+</td>
+<td style="text-align:left;">
+<em>ha-b-ize</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+drink-<span class="smallcaps">inf</span>
+</td>
+<td style="text-align:left;">
+do-<span class="smallcaps">n</span>-<span class="smallcaps">inf</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘make drink’
+</td>
+</tr>
+</tfoot>
+</table>
+</td>
+<td>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>heq’e-z-a-b-ize</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+drink-<span class="smallcaps">inf</span>-do-<span
+class="smallcaps">n</span>-<span class="smallcaps">inf</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘make drink’
+</td>
+</tr>
+</tfoot>
+</table>
+</td>
+</tr>
+</table>
+<style type="text/css">
+.big_table   {border-collapse:collapse;
+          border-spacing:0;
+          white-space: nowrap;
+          text-align: center;
+          width: 100%;}
+.big_table td    {border-color:black;
+              border-style:none solid;
+              border-width:1px;
+              font-family:Arial, sans-serif;
+              overflow:hidden;
+              padding:5px 5px;
+              word-break:normal;}
+.big_table th    {border-color:black;
+              border-style:solid;
+              border-width:1px;
+              font-family:Arial, sans-serif;
+              font-weight:normal;
+              overflow:hidden;
+              padding:10px 5px;
+              word-break:normal;}
+.big_table .branch    {border-bottom-color:black;
+                border-bottom-style: solid;
+                border-bottom-width:1px;} 
+.big_table .lang   {border-bottom-color:lightgray;
+                  border-bottom-style:solid;
+                  border-bottom-width:1px;}
+</style>
+<table class="big_table">
+<caption>
+Table 2. Suffixal auxiliaries
+</caption>
+<thead>
+<tr>
+<th>
+<strong>EC branch</strong>
+</th>
+<th>
+<strong>Language</strong>
+</th>
+<th>
+<strong>Auxiliary</strong>
+</th>
+<th>
+<strong>Lexical verb form</strong><a href="#fn4" class="footnote-ref"
+id="fnref4"><sup>4</sup></a>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="3" class="branch">
+Nakh
+</td>
+<td class="lang">
+Chechen
+</td>
+<td class="lang">
+<em>CM-wo</em> ‘do’, <em>jta/i:ta</em> ‘leave’
+</td>
+<td class="lang">
+stem, stem
+</td>
+</tr>
+<tr>
+<td class="lang">
+Ingush
+</td>
+<td class="lang">
+<em>-d.u</em> ‘do’, <em>iit/it</em> ‘leave’
+</td>
+<td class="lang">
+stem, stem
+</td>
+</tr>
+<tr>
+<td class="branch">
+Tsova-Tush
+</td>
+<td class="branch">
+<em>it-ar</em> ‘leave’
+</td>
+<td class="branch">
+stem
+</td>
+</tr>
+<tr>
+<td rowspan="2" class="branch">
+Tsezic
+</td>
+<td class="lang">
+Hinuq
+</td>
+<td class="lang">
+<em>CM-u:</em> ‘do’, <em>tok’-er</em> ‘?’
+</td>
+<td class="lang">
+stem, stem
+</td>
+</tr>
+<tr>
+<td class="branch">
+Bezhta
+</td>
+<td class="branch">
+<em>gol-al/gil-al/gul-al</em> ‘put’, <em>tok’-al</em> ‘use’
+</td>
+<td class="branch">
+stem, stem
+</td>
+</tr>
+<tr>
+<td rowspan="2" class="branch">
+Lezgic
+</td>
+<td class="lang">
+Rutul
+</td>
+<td class="lang">
+<em>haʔas</em> ‘do’
+</td>
+<td class="lang">
+stem
+</td>
+</tr>
+<tr>
+<td class="branch">
+Tsakhur
+</td>
+<td class="branch">
+<em>haʔu</em> ‘do’
+</td>
+<td class="branch">
+potentialis stem
+</td>
+</tr>
+<tr>
+<td rowspan="3" class="branch">
+Dargwa
+</td>
+<td class="lang">
+Sanzhi
+</td>
+<td class="lang">
+<em>CM-irq’/CM-arq’</em> ‘do’
+</td>
+<td class="lang">
+stem?
+</td>
+</tr>
+<tr>
+<td class="lang">
+Kubachi
+</td>
+<td class="lang">
+<em>aqij/iqij</em> ‘overcome’
+</td>
+<td class="lang">
+stem
+</td>
+</tr>
+<tr>
+<td class="branch">
+Tsugni
+</td>
+<td class="branch">
+<em>-aʁ-/-iʁ-</em> ‘drive’
+</td>
+<td class="branch">
+stem
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="light-verb-constructions" class="section level2 hasAnchor"
+number="2.3">
+<h2 class="hasAnchor"><span class="header-section-number">2.3</span>
+Light verb constructions<a href="#light-verb-constructions"
+class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>At least 21 languages have a light verb or periphrastic construction.
+In the vast majority of the constructions classified here the lexical
+verb is in the infinitive, with a few exceptions.</p>
+<p>In Lak the the auxiliary can combine with both an infinitive
+(perfective) and a participle (imperfective).</p>
+<ol start="9" class="example" style="list-style-type: decimal">
+<li><p>Lak <span class="citation">(<a href="#ref-kazenin2013"
+role="doc-biblioref">Kazenin, 2013</a>: 108)</span></p>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>Jala</em>
+</td>
+<td style="text-align:left;">
+<em>ga</em>
+</td>
+<td style="text-align:left;">
+<em>butta-l</em>
+</td>
+<td style="text-align:left;">
+<em>∅-uxx-an</em>
+</td>
+<td style="text-align:left;">
+<em>∅-uv-ssa-r</em>
+</td>
+<td style="text-align:left;">
+<em>Shurah-ssa</em>
+</td>
+<td style="text-align:left;">
+<em>realny</em>
+</td>
+<td style="text-align:left;">
+<em>učilish-aluwun</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+after
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">3sg</span>
+</td>
+<td style="text-align:left;">
+father-<span class="smallcaps">gen</span>.<span
+class="smallcaps">sg</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">m</span>-enter.<span
+class="smallcaps">pfv</span>-<span class="smallcaps">inf</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">m</span>-do.<span
+class="smallcaps">pst</span>-<span class="smallcaps">adj</span>-<span
+class="smallcaps">3sg</span>
+</td>
+<td style="text-align:left;">
+Buynaksk-<span class="smallcaps">adj</span>
+</td>
+<td style="text-align:left;">
+real
+</td>
+<td style="text-align:left;">
+school-<span class="smallcaps">ill</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Then father sent him to Buynaksk Realschule’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>Turknal</em>
+</td>
+<td style="text-align:left;">
+<em>mu</em>
+</td>
+<td style="text-align:left;">
+<em>bilajat</em>
+</td>
+<td style="text-align:left;">
+<em>cixwa</em>
+</td>
+<td style="text-align:left;">
+<em>b-urug&lt;la&gt;g-i</em>
+</td>
+<td style="text-align:left;">
+<em>b-u-w-nu</em>
+</td>
+<td style="text-align:left;">
+<em>b-u-r</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+turkey
+</td>
+<td style="text-align:left;">
+this
+</td>
+<td style="text-align:left;">
+country
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">refl</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">n</span>-watchipfv&gt;.<span
+class="smallcaps">ptcp</span>-<span class="smallcaps">3sg</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">n</span>-do.<span
+class="smallcaps">pst</span>-<span class="smallcaps">n</span>-<span
+class="smallcaps">pst</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">n</span>-<span
+class="smallcaps">aux</span>.<span class="smallcaps">pres</span>-<span
+class="smallcaps">3sg</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Turkey made this country look at itself’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol></li>
+</ol>
+<p>In Kryz the auxiliary ‘do’ combines with a participle.</p>
+<ol start="10" class="example" style="list-style-type: decimal">
+<li>Kryz <span class="citation">(<a href="#ref-authier2009"
+role="doc-biblioref">Authier, 2009</a>: 173)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>ꭓinib.c-ir</em>
+</td>
+<td style="text-align:left;">
+<em>furi</em>
+</td>
+<td style="text-align:left;">
+<em>ʕu-r-ğar-a</em>
+</td>
+<td style="text-align:left;">
+<em>ar-id</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+wife-<span class="smallcaps">erg</span>
+</td>
+<td style="text-align:left;">
+man
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">pv</span>-<span
+class="smallcaps">m</span>-believe-<span class="smallcaps">va</span>
+</td>
+<td style="text-align:left;">
+do-<span class="smallcaps">aor</span>.<span class="smallcaps">m</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘The woman persuaded her husband.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>In Bagvalal the auxiliary verb forms two constructions: one with the
+lexical verb in the infinitive from the imperfective stem, the other
+with the lexical verb in the infinitive from the potential stem. The
+second construction has permissive meaning:</p>
+<ol start="11" class="example" style="list-style-type: decimal">
+<li><p>Bagvalal <span class="citation">(<a href="#ref-kibrik2001"
+role="doc-biblioref">Kibrik et al., 2001</a>: 385)</span></p>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>ima-š:u-r</em>
+</td>
+<td style="text-align:left;">
+<em>anwar</em>
+</td>
+<td style="text-align:left;">
+<em>rasul-i-b</em>
+</td>
+<td style="text-align:left;">
+<em>as</em>
+</td>
+<td style="text-align:left;">
+<em>kʷaꭓ:-a</em>
+</td>
+<td style="text-align:left;">
+<em>w-ešta</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+father-<span class="smallcaps">obl</span>.<span
+class="smallcaps">m</span>-<span class="smallcaps">erg</span>
+</td>
+<td style="text-align:left;">
+Anwar
+</td>
+<td style="text-align:left;">
+Rasul-<span class="smallcaps">obl</span>-<span
+class="smallcaps">gen</span>.<span class="smallcaps">n</span>
+</td>
+<td style="text-align:left;">
+money
+</td>
+<td style="text-align:left;">
+steal-<span class="smallcaps">msd</span>.<span
+class="smallcaps">ipfv</span>.<span class="smallcaps">inf</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">m</span>-let
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Father made Anwar steal money from Rasul.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>ima-š:u-r</em>
+</td>
+<td style="text-align:left;">
+<em>anwar</em>
+</td>
+<td style="text-align:left;">
+<em>rasul-i-b</em>
+</td>
+<td style="text-align:left;">
+<em>as</em>
+</td>
+<td style="text-align:left;">
+<em>kʷaꭓ:-a:</em>
+</td>
+<td style="text-align:left;">
+<em>w-ešta</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+father-<span class="smallcaps">obl</span>.<span
+class="smallcaps">m</span>-<span class="smallcaps">erg</span>
+</td>
+<td style="text-align:left;">
+Anwar
+</td>
+<td style="text-align:left;">
+Rasul-<span class="smallcaps">obl</span>-<span
+class="smallcaps">gen</span>.<span class="smallcaps">n</span>
+</td>
+<td style="text-align:left;">
+money
+</td>
+<td style="text-align:left;">
+steal-<span class="smallcaps">msd</span>.<span
+class="smallcaps">pot</span>.<span class="smallcaps">inf</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">m</span>-let
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Father allowed Anwar steal money from Rasul.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol></li>
+</ol>
+<p>It is important to note that many languages employ multiple
+strategies in coding causative meaning, which in turn are often
+distributed based on semantic (direct/indirect or permissive) or
+morphological (derived from transitive/intransitive verbs or adjectives)
+properties. For example, in Lezgian the suffix <em>-(a)r-</em> is used
+with intransitive verbs (12)(a) and the light verb construction with the
+verb <em>tun</em> ‘leave’ is used with transitive verbs (12)(b), in Tsez
+the suffix <em>-r-/-ir-</em> is used for verbs (13)(a) and the suffix
+<em>-ik’-/-uk’-</em> is used for adjectives (13)(b), in Mehweb Dargwa
+the light verb construction with the verb <em>aʔas</em> ‘drive’ has
+directive meaning (14)(a), with the verb <em>CM-aqas</em> ‘leave’ the
+meaning is permissive (14)(b) and the construction with the verb
+<em>CM-aq’as</em> ‘do’ is used with adjectives (14)(c).</p>
+<ol start="12" class="example" style="list-style-type: decimal">
+<li><p>Lezgian <span class="citation">(<a href="#ref-haspelmath1993"
+role="doc-biblioref">Haspelmath, 1993</a>: 163, 358)</span></p>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>ksu-r-un</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+sleep-<span class="smallcaps">caus</span>-<span
+class="smallcaps">msd</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘put to bed’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>Ada</em>
+</td>
+<td style="text-align:left;">
+<em>ča-w</em>
+</td>
+<td style="text-align:left;">
+<em>∅</em>
+</td>
+<td style="text-align:left;">
+<em>ixtilat-ar</em>
+</td>
+<td style="text-align:left;">
+<em>aqwazar-iz</em>
+</td>
+<td style="text-align:left;">
+<em>ta-da-j.</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+he.<span class="smallcaps">erg</span>
+</td>
+<td style="text-align:left;">
+we-<span class="smallcaps">adel</span>
+</td>
+<td style="text-align:left;">
+(<span class="smallcaps">erg</span>)
+</td>
+<td style="text-align:left;">
+conversation-<span class="smallcaps">pl</span>
+</td>
+<td style="text-align:left;">
+stop-<span class="smallcaps">inf</span>
+</td>
+<td style="text-align:left;">
+cause-<span class="smallcaps">fut</span>-<span
+class="smallcaps">pst</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘He would make us stop the conversations’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol></li>
+<li><p>Tsez <span class="citation">(<a href="#ref-bokarev1959tsez"
+role="doc-biblioref">Bokarëv, 1959</a>: 204, 203)</span></p>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>əs-ir-a</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+say-<span class="smallcaps">caus</span>-<span
+class="smallcaps">inf</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘cause to say/ ask’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>tatan-ik’-a</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+warm-<span class="smallcaps">caus</span>-?<span
+class="smallcaps">inf</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘make warm’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol></li>
+<li><p>Mehweb Dargwa <span class="citation">(<a
+href="#ref-barylnikova2019" role="doc-biblioref">Barylnikova, 2019</a>:
+173, 174, 176)</span></p>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>pat’imat-ini</em>
+</td>
+<td style="text-align:left;">
+<em>anwar</em>
+</td>
+<td style="text-align:left;">
+<em>uʕq’-es</em>
+</td>
+<td style="text-align:left;">
+<em>aʔ-ib.</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Patimat-<span class="smallcaps">erg</span>
+</td>
+<td style="text-align:left;">
+Anwar
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">m</span>.go:<span
+class="smallcaps">pfv</span>-<span class="smallcaps">inf</span>
+</td>
+<td style="text-align:left;">
+drive:<span class="smallcaps">pfv</span>-<span
+class="smallcaps">aor</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Patimat made Anwar go away’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>pat’imat-ini</em>
+</td>
+<td style="text-align:left;">
+<em>anwar</em>
+</td>
+<td style="text-align:left;">
+<em>w-aq-ib</em>
+</td>
+<td style="text-align:left;">
+<em>umma</em>
+</td>
+<td style="text-align:left;">
+<em>d-aq’-as</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Patimat-<span class="smallcaps">erg</span>
+</td>
+<td style="text-align:left;">
+Anwar
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">m</span>-leave:<span
+class="smallcaps">pfv</span>-<span class="smallcaps">aor</span>
+</td>
+<td style="text-align:left;">
+kiss
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">npl</span>-do:<span
+class="smallcaps">pfv</span>-<span class="smallcaps">inf</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Patimat let Anwar kiss her’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>aꭓaj-ni</em>
+</td>
+<td style="text-align:left;">
+<em>musa</em>
+</td>
+<td style="text-align:left;">
+<em>zuba</em>
+</td>
+<td style="text-align:left;">
+<em>w-aq’-ib</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+khan.<span class="smallcaps">obl</span>-<span
+class="smallcaps">erg</span>
+</td>
+<td style="text-align:left;">
+Musa
+</td>
+<td style="text-align:left;">
+blind
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">m</span>-do:<span
+class="smallcaps">pfv</span>-<span class="smallcaps">aor</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Khan blinded Musa’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol></li>
+</ol>
+</div>
+<div id="auxiliary-semantics" class="section level2 hasAnchor"
+number="2.4">
+<h2 class="hasAnchor"><span class="header-section-number">2.4</span>
+Auxiliary semantics<a href="#auxiliary-semantics" class="anchor-section"
+aria-label="Anchor link to header"></a></h2>
+<p>The most common verbs found in causative constructions were ‘do’
+(13), ‘leave’ (8) and ‘give’ (5). The verb ‘let’ is used in Khwarshi (EC
+&gt; Tsezic), Bagvalal (EC &gt; Andic), Karata (EC &gt; Andic) and Tindi
+(EC &gt; Andic). In Bezhta (EC &gt; Tsezic), Botlikh (EC &gt; Andic) and
+Godoberi (EC &gt; Andic) the verb ‘put’ is used<a href="#fn5"
+class="footnote-ref" id="fnref5"><sup>5</sup></a>. There are a number of
+verbs attested in only one language, namely, “overcome” (Kubachi
+Dargwa), “become” (Botlikh), “direct” (Akhvakh), “sell” (Khinalug),
+“use” (Bezhta). I suspect that verbs glossed as ‘force’ have that
+meaning because they form causative constructions and as such might have
+other core meanings. Not all idioms have available dictionaries, or the
+verb in question is not mentioned in them, so I have not been able to
+verify this. The full list of auxiliaries and their semantics is
+presented in the table below:</p>
+<table class="big_table">
+<caption>
+Auxiliary semantics
+</caption>
+<thead>
+<tr>
+<th>
+<strong>Family &gt; branch</strong>
+</th>
+<th>
+<strong>Language</strong>
+</th>
+<th>
+<strong>Auxiliary</strong>
+</th>
+<th>
+<strong>Semantics</strong>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="7" class="branch">
+EC &gt; Andic
+</td>
+<td class="lang">
+Akhvakh
+</td>
+<td class="lang">
+<em>bit’-uruʎa</em>
+</td>
+<td class="lang">
+direct
+</td>
+</tr>
+<tr>
+<td class="lang">
+Godoberi
+</td>
+<td class="lang">
+<em>t’ami</em>
+</td>
+<td class="lang">
+put
+</td>
+</tr>
+<tr>
+<td rowspan="2" class="lang">
+Botlikh
+</td>
+<td>
+<em>t’am-i</em>
+</td>
+<td>
+put
+</td>
+</tr>
+<tr>
+<td class="lang">
+<em>CM-iʁ-a-j</em>
+</td>
+<td class="lang">
+become
+</td>
+</tr>
+<tr>
+<td class="lang">
+Bagvalal
+</td>
+<td class="lang">
+<em>CM-ešta</em>
+</td>
+<td class="lang">
+let
+</td>
+</tr>
+<tr>
+<td class="lang">
+Karata
+</td>
+<td class="lang">
+<em>it-a-ɬ-a</em>
+</td>
+<td class="lang">
+let
+</td>
+</tr>
+<tr>
+<td class="branch">
+Tindi
+</td>
+<td class="branch">
+<em>CM-ešdo</em>
+</td>
+<td class="branch">
+let
+</td>
+</tr>
+<tr>
+<td rowspan="5" class="branch">
+EC &gt; Tsezic
+</td>
+<td rowspan="2" class="lang">
+Hinuq
+</td>
+<td>
+<em>tok’-er</em>
+</td>
+<td>
+‘?’
+</td>
+</tr>
+<tr>
+<td class="lang">
+<em>t’amizi-u:</em>
+</td>
+<td class="lang">
+<strong>‘force’</strong>
+</td>
+</tr>
+<tr>
+<td class="lang">
+Khwarshi
+</td>
+<td class="lang">
+<em>CM-ešt’a</em>
+</td>
+<td class="lang">
+‘let’
+</td>
+</tr>
+<tr>
+<td class="branch" rowspan="2">
+Bezhta
+</td>
+<td>
+<em>gol-al/gil-al/gul-al</em>
+</td>
+<td>
+‘put’
+</td>
+</tr>
+<tr>
+<td class="branch">
+<em>tok’-al</em>
+</td>
+<td class="branch">
+‘use’
+</td>
+</tr>
+<tr>
+<td rowspan="12" class="branch">
+EC &gt; Lezgic
+</td>
+<td rowspan="2" class="lang">
+Agul
+</td>
+<td>
+<em>aq’-a-s</em>
+</td>
+<td>
+‘do’
+</td>
+</tr>
+<tr>
+<td class="lang">
+<em>qačik-a-s</em>
+</td>
+<td class="lang">
+‘<strong>force</strong>’
+</td>
+</tr>
+<tr>
+<td class="lang">
+Archi
+</td>
+<td class="lang">
+<em>a<CM>-s</em>
+</td>
+<td class="lang">
+‘do’
+</td>
+</tr>
+<tr>
+<td class="lang">
+Budukh
+</td>
+<td class="lang">
+<em>CM-uc’u</em>
+</td>
+<td class="lang">
+‘give’
+</td>
+</tr>
+<tr>
+<td rowspan="2" class="lang">
+Kryz
+</td>
+<td>
+<em>aric</em>
+</td>
+<td>
+‘do’
+</td>
+</tr>
+<tr>
+<td class="lang">
+<em>vuyic</em>
+</td>
+<td class="lang">
+‘give’
+</td>
+</tr>
+<tr>
+<td class="lang">
+Lezgian
+</td>
+<td class="lang">
+<em>t-un</em>
+</td>
+<td class="lang">
+‘leave’<a href="#fn6" class="footnote-ref" id="fnref6"><sup>6</sup></a>
+</td>
+</tr>
+<tr>
+<td rowspan="2" class="lang">
+Rutul
+</td>
+<td>
+<em>wy-s</em>
+</td>
+<td>
+‘give’
+</td>
+</tr>
+<tr>
+<td class="lang">
+<em>haʔa-s</em>
+</td>
+<td class="lang">
+‘do’
+</td>
+</tr>
+<tr>
+<td class="lang">
+Tsakhur
+</td>
+<td class="lang">
+<em>haʔu</em>
+</td>
+<td class="lang">
+‘do’
+</td>
+</tr>
+<tr>
+<td class="lang">
+Tabasaran
+</td>
+<td class="lang">
+<em>ği<CM>t-ub</em>
+</td>
+<td class="lang">
+‘leave’
+</td>
+</tr>
+<tr>
+<td class="branch">
+Udi
+</td>
+<td class="branch">
+<em>-b-es</em>
+</td>
+<td class="branch">
+‘do’
+</td>
+</tr>
+<tr>
+<td rowspan="6" class="branch">
+EC &gt; Dargwa
+</td>
+<td rowspan="3" class="lang">
+Mehweb
+</td>
+<td>
+<em>aʔ-as</em>
+</td>
+<td>
+‘drive’
+</td>
+</tr>
+<tr>
+<td>
+<em>CM-aq-as</em>
+</td>
+<td>
+‘leave’
+</td>
+</tr>
+<tr>
+<td class="lang">
+<em>CM-aq’-as</em>
+</td>
+<td class="lang">
+‘do’
+</td>
+</tr>
+<tr>
+<td class="lang">
+Sanzhi
+</td>
+<td class="lang">
+<em>CM-irq-‘/CM-arq-’</em>
+</td>
+<td class="lang">
+‘do’
+</td>
+</tr>
+<tr>
+<td class="lang">
+Kubachi
+</td>
+<td class="lang">
+<em>aq-ij/iq-ij</em>
+</td>
+<td class="lang">
+‘overcome’
+</td>
+</tr>
+<tr>
+<td class="branch">
+Tsugni
+</td>
+<td class="branch">
+<em>-aʁ-;-iʁ-</em>
+</td>
+<td class="branch">
+‘drive’
+</td>
+</tr>
+<tr>
+<td rowspan="2" class="branch">
+EC &gt; Lak
+</td>
+<td rowspan="2" class="branch">
+Lak
+</td>
+<td>
+<em>CM-an</em>
+</td>
+<td>
+‘do’
+</td>
+</tr>
+<tr>
+<td class="branch">
+<em>CM-it-an</em>
+</td>
+<td class="branch">
+‘leave’
+</td>
+</tr>
+<tr>
+<td class="branch">
+EC &gt; Khinalug
+</td>
+<td class="branch">
+Khinalug
+</td>
+<td class="branch">
+<em>ček’iri</em>
+</td>
+<td class="branch">
+‘sell’
+</td>
+</tr>
+<tr>
+<td rowspan="5" class="branch">
+EC &gt; Nakh
+</td>
+<td rowspan="2" class="lang">
+Chechen
+</td>
+<td>
+CM-an
+</td>
+<td>
+‘do’
+</td>
+</tr>
+<tr>
+<td class="lang">
+<em>jta/i:ta</em>
+</td>
+<td class="lang">
+‘leave’
+</td>
+</tr>
+<tr>
+<td rowspan="2" class="lang">
+Ingush
+</td>
+<td>
+<em>d.u</em>
+</td>
+<td>
+‘do’
+</td>
+</tr>
+<tr>
+<td class="lang">
+<em>iit/it</em>
+</td>
+<td class="lang">
+‘leave’
+</td>
+</tr>
+<tr>
+<td class="branch">
+Tsova-Tush
+</td>
+<td class="branch">
+<em>it-ar</em>
+</td>
+<td class="branch">
+‘leave’
+</td>
+</tr>
+<tr>
+<td class="branch">
+EC &gt; Avar
+</td>
+<td class="branch">
+Avar
+</td>
+<td class="branch">
+<em>ha-b-ize</em>
+</td>
+<td class="branch">
+‘do’
+</td>
+</tr>
+<tr>
+<td rowspan="3" class="branch">
+IE &gt; Iranian
+</td>
+<td class="lang">
+Azerbaijan-Tat
+</td>
+<td class="lang">
+<em>saꭓden</em>
+</td>
+<td class="lang">
+‘do’
+</td>
+</tr>
+<tr>
+<td class="lang">
+Aspheron-Tat
+</td>
+<td class="lang">
+<em>doren</em>
+</td>
+<td class="lang">
+‘give’
+</td>
+</tr>
+<tr>
+<td class="branch">
+Judeo-Tat
+</td>
+<td class="branch">
+<em>hiš-de</em>
+</td>
+<td class="branch">
+‘leave’
+</td>
+</tr>
+<tr>
+<td class="branch">
+IE &gt; Armenic
+</td>
+<td class="branch">
+Armenian
+</td>
+<td class="branch">
+<em>t-al</em>
+</td>
+<td class="branch">
+‘give’
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="distribution" class="section level1 hasAnchor" number="3">
+<h1 class="hasAnchor"><span class="header-section-number">3</span>
+Distribution<a href="#distribution" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p>Since most languages have multiple causative constructions, the types
+shown on the map are “morphological” if a morphological (suffixal +
+Budukh vowel alternation) causative is present, then “suffixal
+auxiliary” if a suffixal auxiliary is present, and “light verb” if only
+light verb constructions are attested for that language. All Andic,
+Tsezic, Dargwa (except Kubachi) and Turkic languages have a
+morphological causative. Nakh languages use suffixal auxiliaries. Lezgic
+languages mostly use light verb constructions, Rutul and Tsakhur have
+suffixal auxiliaries and Budukh, Lezgian and Udi<a href="#fn7"
+class="footnote-ref" id="fnref7"><sup>7</sup></a> have morphological
+causatives. There does not seem to be any significant areal
+distribution.</p>
+</div>
+<div id="list-of-glosses" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">List of glosses<a
+href="#list-of-glosses" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p><span class="smallcaps">3</span> — third person; <span
+class="smallcaps">3sg</span> — third person singular; <span
+class="smallcaps">adel</span> — adelative; <span
+class="smallcaps">adj</span> — adjective; <span
+class="smallcaps">aor</span> — aorist; <span
+class="smallcaps">aux</span> — auxiliary; <span
+class="smallcaps">caus</span> — causative; <span
+class="smallcaps">erg</span> — ergative; <span
+class="smallcaps">fut</span> — future; <span
+class="smallcaps">gen</span> — genitive; <span
+class="smallcaps">ill</span> — illative; <span
+class="smallcaps">inf</span> — infinitive; <span
+class="smallcaps">inter</span> — within (a solid object); <span
+class="smallcaps">ipfv</span> — imperfective; <span
+class="smallcaps">loc</span> — locative; <span
+class="smallcaps">m</span> — masculine; <span
+class="smallcaps">msd</span> — masdar; <span
+class="smallcaps">n</span> — neuter; <span
+class="smallcaps">nom</span> — nominative; <span
+class="smallcaps">notn</span> — non-neuter pronominal suffix; <span
+class="smallcaps">npl</span> — non-human plural; <span
+class="smallcaps">obl</span> — oblique; <span
+class="smallcaps">pfv</span> — perfective; <span
+class="smallcaps">pl</span> — plural; <span
+class="smallcaps">pot</span> — potential; <span
+class="smallcaps">pres</span> — present; <span
+class="smallcaps">pret</span> — preterite; <span
+class="smallcaps">pst</span> — past; <span
+class="smallcaps">ptcp</span> — participle; <span
+class="smallcaps">pv</span> — preverb; <span
+class="smallcaps">refl</span> — reflexive; <span
+class="smallcaps">sg</span> — singular; <span
+class="smallcaps">va</span> — verbal adjective</p>
+</div>
+<div id="references" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">References<a href="#references"
+class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="refs" class="references csl-bib-body hanging-indent"
+line-spacing="2">
+<div id="ref-authier2009" class="csl-entry">
+Authier, G. (2009). <em>Grammaire kryz</em>. Peeters.
+</div>
+<div id="ref-barylnikova2019" class="csl-entry">
+Barylnikova, D. (2019). Periphrastic causative constructions in
+<span>M</span>ehweb. In M. Daniel, N. Dobrushina, &amp; D. Ganenkov
+(Eds.), <em>The <span>M</span>ehweb language. <span>E</span>ssays on
+phonology, morphology and syntax</em> (pp. 167–188). Language Science
+Press.
+</div>
+<div id="ref-baskakov1940" class="csl-entry">
+Baskakov, N. A. (1940). <em>Nogajskij jazyk i ego dialekty: Grammatika,
+teksty i slovarʹ [<span>N</span>ogai and its dialects: Grammar, texts
+and dictionary]</em>. Izdatelʹstvo Akademii nauk SSSR.
+</div>
+<div id="ref-baskakov1973" class="csl-entry">
+Baskakov, N. A. (1973). <em>Grammatika nogajskogo jazyka.
+<span>Č</span>astʹ 1. <span>F</span>onetika i morfologija
+[<span>N</span>ogai grammar. <span>P</span>art 1. <span>P</span>honetics
+and morphology]</em>. Karačaevo-Čerkesskoe otdelenie Stavropolʹskogo
+knižnogo izdatelʹstva.
+</div>
+<div id="ref-bokarev1959tsez" class="csl-entry">
+Bokarëv, E. A. (1959). <em>Cezskij jazyk [<span>T</span>sez]</em> (E. A.
+Bokarëv, Ed.; pp. 175–221). Akademija.
+</div>
+<div id="ref-comrieetal2015" class="csl-entry">
+Comrie, B., Khalilov, M., &amp; Khalilova, Z. (2015). <em>A grammar of
+<span>B</span>ezhta</em>. Max Planck Institute for Evolutionary
+Anthropology.
+</div>
+<div id="ref-daniel2019" class="csl-entry">
+Daniel, M. (2019). Mehweb verb morphology. In M. Daniel, N. Dobrushina,
+&amp; D. Ganenkov (Eds.), <em>The <span>M</span>ehweb language.
+<span>E</span>ssays on phonology, morphology and syntax</em> (pp.
+73–116). Language Science Press.
+</div>
+<div id="ref-forkerdraft2020" class="csl-entry">
+Forker, D. (2020). <em>Avar grammar sketch</em> (M. Polinsky, Ed.).
+Oxford University Press.
+</div>
+<div id="ref-haspelmath1993" class="csl-entry">
+Haspelmath, M. (1993). <em>A grammar of <span>L</span>ezgian</em>.
+Mouton de Gruyter.
+</div>
+<div id="ref-kazenin2013" class="csl-entry">
+Kazenin, K. I. (2013). <em>Sintaksis sovremennogo lakskogo jazyka
+[<span>S</span>yntax of contemporary <span>L</span>ak]</em>. IJaLI.
+</div>
+<div id="ref-kibrik2001" class="csl-entry">
+Kibrik, A. E., Kazenin, K. I., Ljutikova, E. A., &amp; Tatevosov, S. G.
+(2001). <em>Bagvalinskij jazyk. <span>G</span>rammatika, teksty, slovari
+[<span>T</span>he <span>B</span>agvalal language. <span>G</span>rammar,
+texts, dictionary]</em>. Nasledie.
+</div>
+<div id="ref-magomedbekova1967" class="csl-entry">
+Magomedbekova, Z. M. (1967). <em>Axvaxskij jazyk
+[<span>A</span>khvakh]</em>. Mecniereba.
+</div>
+<div id="ref-magometov1963" class="csl-entry">
+Magometov, A. A. (1963). <em>Kubačinskij jazyk
+[<span>K</span>ubachi]</em>. Akademija Nauk Gruzinskoj SSR.
+</div>
+<div id="ref-salaibanovsumbatova2022" class="csl-entry">
+Salajbanov, G. R., &amp; Sumbatova, N. R. (2022). Ob odnom
+tipologičeskom raritete: Kauzativ v cugninskom dialekte darginskogo
+jazyka. <em>Voprosy Jazykoznanija</em>, <em>3</em>, 109–131.
+</div>
+<div id="ref-shiralievsevortyan1971" class="csl-entry">
+Širaliev, M. Š., &amp; Sevortjan, É. V. (1971). <em>Grammatika
+azerbajdžanskogo jazyka (fonetika, morfologija, sintaksis)
+[<span>A</span>zerbaijani grammar (phonetics, morphology, syntax)]</em>.
+Élm.
+</div>
+<div id="ref-song2013a" class="csl-entry">
+Song, J. J. (2013a). Nonperiphrastic <span>C</span>ausative
+<span>C</span>onstructions. In <em>The <span>W</span>orld
+<span>A</span>tlas of <span>L</span>anguage <span>S</span>tructures
+<span>O</span>nline</em>. Max Planck Institute for Evolutionary
+Anthropology. <a
+href="https://wals.info/chapter/111">https://wals.info/chapter/111</a>
+</div>
+<div id="ref-song2013b" class="csl-entry">
+Song, J. J. (2013b). Periphrastic <span>C</span>ausative
+<span>C</span>onstructions. In <em>The <span>W</span>orld
+<span>A</span>tlas of <span>L</span>anguage <span>S</span>tructures
+<span>O</span>nline</em>. Max Planck Institute for Evolutionary
+Anthropology. <a
+href="https://wals.info/chapter/110">https://wals.info/chapter/110</a>
+</div>
+<div id="ref-talibov2007" class="csl-entry">
+Talibov, B. B. (2007). <em>Buduxskij jazyk [<span>B</span>udukh]</em>.
+Akademija.
+</div>
+<div id="ref-talibovgadzhiev1966" class="csl-entry">
+Talibov, B. B., &amp; Gadžiev, M. M. (1966). <em>Lezginsko-russkij
+slovarʹ [<span>L</span>ezgian-<span>R</span>ussian dictionary]</em>.
+Sovetskaja Énciklopedija.
+</div>
+<div id="ref-khangishiev2014" class="csl-entry">
+Xangišiev, D. M. (2014). In A. Z. Abdullaeva, N. É. Gadžiaxmedov, K. S.
+Kadyradžiev, I. A. Kerimov, N. X. Olʹmesov, &amp; D. M. Xangišiev
+(Eds.), <em>Sovremennyj kumykskij jazyk [<span>C</span>ontemporary
+<span>K</span>umyk]</em>. IJaLI.
+</div>
+</div>
+</div>
+<div class="footnotes footnotes-end-of-document">
+<hr />
+<ol>
+<li id="fn1"><p>with the exception of Budukh, which has a causative
+classified as “shortening+vowel alternation” and Tsugni Dargwa which has
+a causative classified as “stress shift”<a href="#fnref1"
+class="footnote-back">↩︎</a></p></li>
+<li id="fn2"><p>“suffixal auxiliary” is somewhat of a placeholder for
+any construction that cannot be classified as a suffix or a light verb<a
+href="#fnref2" class="footnote-back">↩︎</a></p></li>
+<li id="fn3"><p>For example in <span class="citation">(<a
+href="#ref-daniel2019" role="doc-biblioref">2019</a>: 97)</span> it is
+speculated to be derived from the verb <em>-aq(ib) ~ -irq-</em> ‘let
+go’.<a href="#fnref3" class="footnote-back">↩︎</a></p></li>
+<li id="fn4"><p>For the sake of simplicity, I do not distinguish between
+roots and stems here.<a href="#fnref4"
+class="footnote-back">↩︎</a></p></li>
+<li id="fn5"><p>It should be noted that the verbs used in these
+constructions are often very polysemous, so the meanings stated here and
+in the database can be somewhat subjective.<a href="#fnref5"
+class="footnote-back">↩︎</a></p></li>
+<li id="fn6"><p>the same verb can mean ‘let’ (cf. <span
+class="citation">(<a href="#ref-talibovgadzhiev1966"
+role="doc-biblioref">Talibov &amp; Gadžiev, 1966</a>)</span>), however
+this is the translation used in the source.<a href="#fnref6"
+class="footnote-back">↩︎</a></p></li>
+<li id="fn7"><p><em>-d-</em> in Udi, which is classified as a suffix
+here, combines with the infinitive of the verb (though other suffixes
+may follow it) and is described as an auxiliary verb (Maisak, 2008) The
+reason it is classified as a suffix here is that it is bound to the
+lexical verb and lacks a transparent lexical origin.<a href="#fnref7"
+class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+</head>
+
+<body>
+    <div class="footer-basic">
+        <footer>
+            
+            <div class='lic'><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br /><i>Typological Atlas of the languages of Daghestan </i> (<i>TALD</i>) is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+            <div class="social"><a href="https://github.com/LingConLab/TALD" target="_blank"><span class="iconify" data-icon="octicon:logo-github-16"></span></a></div>
+            </div>
+            
+            <p class="copyright">2020<script>new Date().getFullYear()>2020&&document.write("-"+new Date().getFullYear());</script>,  Linguistic Convergence Laboratory, HSE University</p>
+        </footer>
+    </div>
+    <script type="text/javascript" src="./js/links.js"></script> <!--это чтобы ссылки открывались в новом окне -->
+</body>
+
+</html>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

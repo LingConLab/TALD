@@ -15,13 +15,13 @@ suppressPackageStartupMessages(library(tidyverse))
 # Moroz, George, & Verhees, Samira. (2020). East Caucasian villages dataset (Version v2.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.5588473
 
 read_tsv("https://raw.githubusercontent.com/sverhees/master_villages/master/data/TALD/tald_villages.tsv",
-         progress = FALSE, show_col_types = FALSE) %>% 
+         progress = FALSE, show_col_types = FALSE) |> 
   write_tsv("data/tald_villages.csv")
 
 read_tsv("https://raw.githubusercontent.com/sverhees/master_villages/master/data/villages.tsv",
-         progress = FALSE, show_col_types = FALSE) %>% 
-  select(village, rus_village, lat, lon, gltc_lang, gltc_dialect, version) %>% 
-  rename(village_dataset_version = version) %>% 
+         progress = FALSE, show_col_types = FALSE) |> 
+  select(village, rus_village, lat, lon, gltc_lang, gltc_dialect, version) |> 
+  rename(village_dataset_version = version) |> 
   write_csv("data/villages.csv")
 
 # RUN TESTS ----------------------------------------------------------------
@@ -34,11 +34,11 @@ read_tsv("https://raw.githubusercontent.com/sverhees/master_villages/master/data
 library(bib2df)
 
 map(list.files("data/orig_bib_tsv", full.names = TRUE), function(bib_tsv){
-  read_tsv(bib_tsv, progress = FALSE, show_col_types = FALSE) %>%  
+  read_tsv(bib_tsv, progress = FALSE, show_col_types = FALSE) |>  
     mutate(TITLE = ifelse(is.na(TITLE_TRANSLATION), TITLE, str_c(TITLE, " [", TITLE_TRANSLATION, "]")),
-           BOOKTITLE = ifelse(is.na(BOOKTITLE_TRANSLATION), BOOKTITLE, str_c(BOOKTITLE, " [", BOOKTITLE_TRANSLATION, "]"))) %>%
-    df2bib(bib_tsv %>% 
-                     str_remove_all("[_\\.]tsv") %>% 
+           BOOKTITLE = ifelse(is.na(BOOKTITLE_TRANSLATION), BOOKTITLE, str_c(BOOKTITLE, " [", BOOKTITLE_TRANSLATION, "]"))) |>
+    df2bib(bib_tsv |> 
+                     str_remove_all("[_\\.]tsv") |> 
                      str_replace("_bib$", "\\.bib"))
 })
 
@@ -47,9 +47,9 @@ readxl::read_xlsx("data/biblib.xlsx",
                                 "numeric", # YEAR 
                                 rep("text", 8),
                                 "numeric", # VOLUME
-                                rep("text", 8))) %>% 
+                                rep("text", 8))) |> 
   mutate(TITLE = ifelse(is.na(TITLE_TRANSLATION), TITLE, str_c(TITLE, " [", TITLE_TRANSLATION, "]")),
-         BOOKTITLE = ifelse(is.na(BOOKTITLE_TRANSLATION), BOOKTITLE, str_c(BOOKTITLE, " [", BOOKTITLE_TRANSLATION, "]"))) %>%
+         BOOKTITLE = ifelse(is.na(BOOKTITLE_TRANSLATION), BOOKTITLE, str_c(BOOKTITLE, " [", BOOKTITLE_TRANSLATION, "]"))) |>
   df2bib("data/bibliography.bib")
 
 # convert cyrillic to latin -----------------------------------------------
@@ -68,8 +68,8 @@ cyr_latin_coresp <- "
 "
 
 s <- map(c(list.files("data/orig_bib", full.names = TRUE), "data/bibliography.bib"), function(i){
-  read_lines(i) %>% 
-    stri_trans_general(cyr_latin_coresp, rules=TRUE) %>% 
+  read_lines(i) |> 
+    stri_trans_general(cyr_latin_coresp, rules=TRUE) |> 
     write_lines(i)
 })
 
@@ -80,13 +80,13 @@ regular_expression <- str_c("((?<=[ \\[\\-\\(\\</])[", str_c(c(LETTERS, "Ž", "�
 
 map(c(list.files("data/orig_bib", full.names = TRUE), "data/bibliography.bib"), function(i){
   if(file.info(i)$size > 7){
-  bib2df(i) %>% 
+  bib2df(i) |> 
     mutate(TITLE = ifelse(!is.na(TITLE), 
                           str_replace_all(TITLE, regular_expression, "\\{\\1\\}"),
                           NA),
            BOOKTITLE = ifelse(!is.na(BOOKTITLE),
                               str_replace_all(BOOKTITLE, regular_expression, "\\{\\1\\}"),
-                              NA)) %>% 
+                              NA)) |> 
     df2bib(i)
   } 
 })
@@ -103,18 +103,18 @@ library(tidyverse)
 file.remove(grep("\\d{1,}_.*.Rmd", list.files(), value = TRUE))
 
 # read our fetures data ----------------------------------------------------
-readxl::read_xlsx("data/contributors.xlsx") %>% 
-  filter(render == 1) %>% 
+readxl::read_xlsx("data/contributors.xlsx") |> 
+  filter(render == 1) |> 
   mutate(created_date = as.integer(created_date)) ->
   features
 
 # deal with major topics --------------------------------------------------
-features %>% 
-  filter(major_topic_text == 1)  %>% 
+features |> 
+  filter(!is.na(major_topic_text))  |> 
   pull(filename) ->
   major_topics
 
-features %>% 
+features |> 
   filter(is.na(major_topic_text)) ->
   features 
 
@@ -127,8 +127,8 @@ file.copy(str_c("data/orig_rmd/", major_topics, ".Rmd"),
 features$id_0 <- sprintf(paste0("%0", nchar(max(features$id))+1, "d_"), 
                          features$id)
 
-features %>% 
-  mutate(filename = str_c(filename, "_map")) %>% 
+features |> 
+  mutate(filename = str_c(filename, "_map")) |> 
   bind_rows(features) ->
   features
 
@@ -145,10 +145,10 @@ s <- map(rmd_filenames[str_detect(rmd_filenames, "_map.Rmd")], function(i){
   read_tsv(str_c("data/orig_table/", 
                  str_remove(str_remove(i, "_map.Rmd"), "\\d{1,}_"),
                  ".tsv"),
-           progress = FALSE, show_col_types = FALSE)  %>% 
-    select(matches("^value\\d{1,}_")) %>% 
-    distinct() %>% 
-    pivot_longer(names_to = "values", values_to = "titles", everything()) %>% 
+           progress = FALSE, show_col_types = FALSE)  |> 
+    select(matches("^value\\d{1,}_")) |> 
+    distinct() |> 
+    pivot_longer(names_to = "values", values_to = "titles", everything()) |> 
     mutate(values = as.double(str_extract(values, "\\d{1,}")))  ->
     multiple_values
   
@@ -171,22 +171,22 @@ str_c('feature_dataset <- read_tsv("../orig_table/',
       str_remove(str_remove(i, "_map.Rmd"), "\\d{1,}_"),
       '.tsv", show_col_types = FALSE)'),
 "
-feature_dataset %>% 
+feature_dataset |> 
   filter(map == 'yes') ->
   feature_dataset_4map
 
 villages <- read_tsv('../tald_villages.csv', show_col_types = FALSE) # village coordinates
 genlang <- read_tsv('../genlangpoints.csv', show_col_types = FALSE) # general language points
 
-feature_dataset_4map %>% 
+feature_dataset_4map |> 
   filter(type == 'language') ->
   feature_dataset_4map_languages
 
-feature_dataset_4map %>% 
+feature_dataset_4map |> 
   filter(type != 'language') ->
   feature_dataset_4map_rest
 
-genlang %>% 
+genlang |> 
   filter(aff == 'Dargwa',
          lang != 'Kaitag',
          lang != 'Standard Dargwa') ->
@@ -199,43 +199,43 @@ if(nrow(change) > 0) {
   villages$gltc_lang[which(villages$dialect_toplevel == 'Kaitag')] <- 'kajt1238'
 }
 
-villages %>% 
-  select(village, rus_village, lat, lon, gltc_lang, lang, aff, family, standard, dialect_toplevel, dialect_nt1, dialect_nt2, dialect_nt3, village_dialect, lang_col, aff_col) %>% 
-  pivot_longer(names_to = 'type', values_to = 'idiom', standard:village_dialect) %>% 
-  filter(!is.na(idiom)) %>% 
+villages |> 
+  select(village, rus_village, lat, lon, gltc_lang, lang, aff, family, standard, dialect_toplevel, dialect_nt1, dialect_nt2, dialect_nt3, village_dialect, lang_col, aff_col) |> 
+  pivot_longer(names_to = 'type', values_to = 'idiom', standard:village_dialect) |> 
+  filter(!is.na(idiom)) |> 
   mutate(type = case_when(type == 'village_dialect' ~ 'village',
-                          TRUE ~ type)) %>%
-  inner_join(feature_dataset_4map_rest, by = c('type', 'idiom', 'lang')) %>% 
+                          TRUE ~ type)) |>
+  inner_join(feature_dataset_4map_rest, by = c('type', 'idiom', 'lang')) |> 
   distinct() ->
   all_data_without_languages
 
-villages %>% 
-  select(village, rus_village, lat, lon, gltc_lang, lang, aff, family, lang_col, aff_col) %>%
-  filter(lang %in% feature_dataset_4map_languages$lang) %>%
-  anti_join(all_data_without_languages %>%  select(village)) %>% 
-  inner_join(feature_dataset_4map_languages) %>% 
-  distinct() %>% 
+villages |> 
+  select(village, rus_village, lat, lon, gltc_lang, lang, aff, family, lang_col, aff_col) |>
+  filter(lang %in% feature_dataset_4map_languages$lang) |>
+  anti_join(all_data_without_languages |>  select(village)) |> 
+  inner_join(feature_dataset_4map_languages) |> 
+  distinct() |> 
   bind_rows(all_data_without_languages)  ->
   alldata_clean  
 
-alldata_clean  %>% 
-  distinct(gltc_lang) %>% 
+alldata_clean  |> 
+  distinct(gltc_lang) |> 
   mutate(lang4map = lang.gltc(gltc_lang),
-         display = 'show languages') %>% 
-  right_join(alldata_clean) %>% 
-  filter(!is.na(contributor)) %>% 
+         display = 'show languages') |> 
+  right_join(alldata_clean) |> 
+  filter(!is.na(contributor)) |> 
   mutate(type = factor(type, levels = c('language', 'dialect_toplevel', 'dialect_nt1', 'dialect_nt2', 'dialect_nt3', 'village'))) ->
   alldata_clean
 
 #make short
 
-feature_dataset_4map %>% 
-  filter(genlang_point == 'yes') %>% 
-  mutate(lang = ifelse(idiom == 'Standard Dargwa', 'Standard Dargwa', lang)) %>% 
-  left_join(genlang, by = join_by(lang)) %>% 
-  distinct() %>% 
+feature_dataset_4map |> 
+  filter(genlang_point == 'yes') |> 
+  mutate(lang = ifelse(idiom == 'Standard Dargwa', 'Standard Dargwa', lang)) |> 
+  left_join(genlang, by = join_by(lang)) |> 
+  distinct() |> 
   mutate(lang4map = lang.gltc(gltc_lang),
-         display = 'show languages') %>% 
+         display = 'show languages') |> 
   filter(!is.na(contributor)) ->
   all_genpoints
   
@@ -250,14 +250,14 @@ map(multiple_values$values, function(i){
 ### General datapoints {-}
 
 ```{r}
-all_genpoints %>% 
+all_genpoints |> 
   filter(!is.na(lang4map),
     !is.na(all_genpoints$value",
             multiple_values$values[i],
-            ")) %>% 
+            ")) |> 
   add_count(value",
             multiple_values$values[i],
-          ") %>% 
+          ") |> 
   mutate(value",
     multiple_values$values[i],
     " = str_c(value",
@@ -299,7 +299,7 @@ map.feature(all_genpoints_filtered$lang4map,
 ### Extrapolated data {-}
 
 ```{r}
-alldata_clean %>% 
+alldata_clean |> 
   filter(!is.na(lang4map),
     !is.na(alldata_clean$value",
     multiple_values$values[i],
@@ -388,32 +388,32 @@ str_c('[Download](https://raw.githubusercontent.com/LingConLab/TALD/master/data/
 ```{r}
 bib <- RefManageR::ReadBib(file = '../bibliography.bib')
 
-feature_dataset %>% 
-  select(str_which(colnames(feature_dataset), 'value\\\\d{1,}_name$')) %>% 
-  pivot_longer(cols = everything()) %>% 
-  distinct() %>%  
+feature_dataset |> 
+  select(str_which(colnames(feature_dataset), 'value\\\\d{1,}_name$')) |> 
+  pivot_longer(cols = everything()) |> 
+  distinct() |>  
   mutate(name = str_remove(name, '_name')) ->
   columns_rename
 
-feature_dataset %>% 
-  select(lang, idiom, source, page, matches('value\\\\d{1,}$')) %>% 
-  rename_with(function(x){columns_rename$value[match(x, columns_rename$name)]}, matches('value\\\\d{1,}$'))  %>% 
+feature_dataset |> 
+  select(lang, idiom, source, page, matches('value\\\\d{1,}$')) |> 
+  rename_with(function(x){columns_rename$value[match(x, columns_rename$name)]}, matches('value\\\\d{1,}$'))  |> 
   rename(Language=lang, 
          Idiom = idiom,
-         Source = source) %>% 
+         Source = source) |> 
   mutate(page = str_replace_all(page, '--', '–'),
          Source = str_split(Source, '; '),
-         page = str_split(page, '; ')) %>% 
-  unnest_longer(col = c(Source, page)) %>% 
-  rowwise() %>% 
+         page = str_split(page, '; ')) |> 
+  unnest_longer(col = c(Source, page)) |> 
+  rowwise() |> 
   mutate(page = ifelse(page == 'NA', NA_character_, page),
          Source = ifelse(str_detect(Source, 'p.c.$'),
                          Source,
                          Cite(bib, Source, 
                        after = ifelse(!is.na(page), 
                                       str_c(': ', page),
-                                      '')))) %>%
-  select(-page) %>% 
+                                      '')))) |>
+  select(-page) |> 
   DT::datatable(class = 'cell-border stripe', 
     rownames = FALSE, 
     filter = 'top', 
@@ -446,23 +446,23 @@ library(lingglosses)
 ")
 
 map(seq_along(rmd_filenames), function(i){
-  ymlthis::yml_empty() %>% 
+  ymlthis::yml_empty() |> 
     ymlthis::yml_title(ifelse(str_detect(rmd_filenames[i], "_map.Rmd"), 
                               str_c(features$title[i], " (Maps & Data)"), 
-                              features$title[i])) %>% 
-    ymlthis::yml_author(features$author[i]) %>% 
+                              features$title[i])) |> 
+    ymlthis::yml_author(features$author[i]) |> 
     ymlthis::yml_date(paste0('Last update: ', 
                              ifelse(str_detect(rmd_filenames[i], "_map.Rmd"), 
                                     features$updated_map[i], 
-                                    features$updated_text[i]))) %>% 
+                                    features$updated_text[i]))) |> 
     ymlthis::yml_citations(bibliography = paste0("./data/orig_bib/", 
                                                  str_remove(features$filename[i], "_map"), 
                                                  ".bib"), 
                            link_citations = TRUE, 
-                           csl = "apa.csl") %>% 
+                           csl = "apa.csl") |> 
     ymlthis::yml_output(html_document(number_sections = TRUE,
                                       anchor_sections = TRUE,
-                                      pandoc_args = "--shift-heading-level-by=-1")) %>% 
+                                      pandoc_args = "--shift-heading-level-by=-1")) |> 
     ymlthis::use_rmarkdown(path = rmd_filenames[i], 
                            open_doc = FALSE, 
                            quiet = TRUE,

@@ -1,5 +1,5 @@
 ---
-title: Demonstrative systems
+title: Demonstratives
 author: Timofey Mukhin
 date: 'Last update: February 2023'
 bibliography: ./data/orig_bib/demonstratives.bib
@@ -24,7 +24,7 @@ library(RefManageR)
 BibOptions(check.entries = FALSE, style = 'text', bib.style = 'authoryear')
 article_citation <- BibEntry(bibtype = 'Incollection', 
  key='mukhin2023',
- title='Demonstrative systems',
+ title='Demonstratives',
  author='Timofey Mukhin',
  year='2023',
  editor= 'Daniel, Michael  and Filatov, Konstantin and Maisak, Timur and Moroz, George and Mukhin, Timofey and Naccarato, Chiara and Verhees, Samira',
