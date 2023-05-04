@@ -8,6 +8,7 @@ output:
 
 ```{r, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
+library(tidyverse)
 ```
 
 The project was designed by [Michael Daniel](https://orcid.org/0000-0002-2091-5713), [Konstantin Filatov](https://orcid.org/0000-0002-0706-9161), [Timur Maisak](https://orcid.org/0000-0001-6794-0978), [George Moroz](https://orcid.org/0000-0003-1990-6083), [Timofey Mukhin](https://orcid.org/0000-0002-4637-0627), [Chiara Naccarato](https://orcid.org/0000-0003-0017-6316), and [Samira Verhees](https://orcid.org/0000-0002-3479-7420).
@@ -31,3 +32,31 @@ Photos presented on the site are taken by [Michael Daniel](https://orcid.org/000
 ## Contact us
 
 You can always contact us via email at <cauatlas@gmail.com> or leave an issue on the [GitHub page](https://github.com/LingConLab/TALD).
+
+## Our contributers
+
+```{r}
+readxl::read_xlsx("data/contributors.xlsx") %>% 
+  filter(render == 1) ->
+  features
+
+features$id_0 <- sprintf(paste0("%0", nchar(max(features$id))+1, "d_"), 
+                         features$id)
+
+features %>% 
+  filter(is.na(major_topic_text)) %>% 
+  mutate(feature = str_c(title, 
+                         "<br><a href='",
+                         str_c(id_0, filename),
+                         ".html'>Chapter</a>|<a href='",
+                         str_c(id_0, filename),
+                         "_map.html'>Maps&Data</a>")) %>% 
+  select(author, feature) |> 
+  DT::datatable(filter = 'top', 
+                escape = FALSE,
+                rownames = FALSE,
+                options = list(pageLength = 150, 
+                               autoWidth = TRUE,
+                               dom = 'tpi'))
+```
+
