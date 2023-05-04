@@ -41,6 +41,9 @@ readxl::read_xlsx("data/contributors.xlsx") %>%
   features
 
 features %>% 
+  mutate(author = str_split(author, ", ")) |> 
+  unnest_longer(author) |> 
+  arrange(author, title) |> 
   group_by(author) |> 
   reframe(chapters = str_c(title, collapse = "<br>")) |> 
   arrange(author) |> 
