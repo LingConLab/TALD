@@ -83,8 +83,8 @@ The following minor chapters present an overview of several features of numeral 
 (10) [Presence of the numeral marker in complex numerals](044_numeral_complex.html)
 (11) [Presence of a class suffix in the numeral marker](045_numeral_class.html)
 (12) [Presence of the numeral marker in ordinals](046_numeral_ordinals.html)
-(13) [Derivation of distributives](047_numeral_distributives.html)
-(14) [Root for ‘hundred’](048_numeral_root_hundred.html)
+(13) [Derivation of distributives](049_numeral_distributives.html)
+(14) [Root for ‘hundred’](047_numeral_root_hundred.html)
 
 ## Distribution
 In general, each branch of the family (Avar-Andic, Tsezic, Dargic, Lak, Lezgic, Nakh) is easily distinguished by several features. The following overview of distinctive features of branches and specific regions is not comprehensive and describes the general trends, leaving out many small exceptions.
