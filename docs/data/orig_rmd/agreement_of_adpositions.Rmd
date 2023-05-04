@@ -1,0 +1,184 @@
+```{r, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, comment = '')
+library(lingglosses)
+library(lingtypology)
+library(tidyverse)
+library(bib2df)
+```
+
+## Introduction
+
+Adpositions in a subset of East Caucasian languages have morphological slots for class (gender and number) agreement with the absolutive/nominative argument of the clause.[^1] This is illustrated in example (@one) from Godoberi, where one can clearly see that the adposition agrees with the absolutive/nominative argument rather than with its dependent noun phrase.
+
+(@one) Godoberi (Andic) [@kibriketal1996: 88]
+```{r}
+gloss_example(transliteration = "**waša** hamaχi-č’u **w=oχut’u** wu=na",
+              glosses = "boy.M.ABS donkey.N-CONT M=after M=go.PST",
+              free_translation = "The boy went after the donkey")
+```
+
+Here, the postposition *w=oχut’u* ‘after’ has a dependent noun ‘donkey’ which belongs to the neuter class, but the agreement prefix on the postposition is masсuline, determined by the only masculine noun in the clause, which is the absolutive/nominative argument *waša* ‘boy’.
+
+Agreement of adpositions with the absolutive/nominative is attested in languages of all branches of East Caucasian, except for Nakh and Khinalug. [Table 1](#t1) summarizes data on agreeing postpositions in every language that has it, grouped by branch. One can see that this phenomenon is quite common in Dargwa languages and in Lak, less prominent in Avar-Andic and quite marginal in Lezgic and Tsezic.
+
+#### **Table 1.** Number and percentage of postpositions agreeing in gender in East Caucasian languages {#t1 -}
+
+| Branch | Language | Number of agreeing postpositions | Percentage of agreeing postpositions |
+|:-------|:---------|:---------------------------------|:---------------------------------------------|
+| Dargwa | Kubachi | 8 | 62% |
+|        | Akusha | 15 | 52% |
+|        | Mehweb | 11 | 85% |
+|        | Itsari | 12 | 44% |
+|        | Sanzhi | 11 | 69% |
+|        | **Median**  | **11** | **62%** |
+| Lak | Lak | 14 | 48% |
+| Avar-Andic | Avar | 10 | 31% |
+|            | Andi (Rikvani) | 1 | 10% |
+|            | Godoberi | 4 | 25% |
+|            | Tindi | 1 | 5% |
+|            | Bagvalal | 5 | 19% |
+|            | Chamalal | 3 | 16% |
+|            | Botlikh | 4 | 27% |
+|            | **Median** | **4** | **19%** |
+| Lezgic | Tsakhur | 2 | 8% |
+|        | Archi | 1 | 6% |
+|        | **Median** | **1.5** | **7%** |
+| Tsezic | Khwarshi | 2 | 12% |
+|        | Bezhta | 1 | 4% |
+|        | Hunzib | 1 | 6% |
+|        | Tsez | 1 | 6% |
+|        | Hinuq | 1 | 5% |
+|        | **Median** | **1** | **6%** |
+
+Agreement slots may be prefixal, suffixal, prefixal and suffixal, or (rarely) infixal, as shown in (@one), (@two), (@three) and (@four), respectively. Note that the infixal strategy is rare and should probably be taken as a special case of the prefixal strategy.
+
+(@two) Avar (Avar-Andic) [@rudnev2020: 833]
+```{r}
+gloss_example(transliteration = "školal-da ask’o-**w** jasaɬ **was** w-uχana",
+              glosses = "school.N.OBL-LOC near-M girl.F.ERG boy.M.ABS M-beat.PST",
+              free_translation = "The girl beat the boy up near the school.")
+```
+
+(@three) Sanzhi Dargwa (Dargwa)[^2] [@forker2020dargwa: 155]
+```{r}
+gloss_example(transliteration = "qal-la **r**-i-**r**=da",
+              glosses = "house-GEN F-in-F=1",
+              free_translation = "I (fem.) am inside the house.")
+```
+
+(@four) Archi (Lezgic) [@bondchumakina2016: 73]
+```{r, results='asis'}
+gloss_example(transliteration = "**goroχči** ba-qˁa haˁtər-če-qˁa-k e‹**b**›q’en",
+              glosses = "rolling.stone.III.SG.ABS III.SG-come.PFV river.IV-SG.OBL-INTER-LAT ‹III.SG›up_to",
+              free_translation = "The rolling stone went up to the river. (The stone is near the river, but dry.)")
+```
+
+[Table 2](#t2) summarizes the distribution of the four marking strategies across languages and postpositions. One can see that Tsezic postpositions only have prefixal agreement markers. Prefixal marking is also the dominant option in the Andic languages — it is the only pattern found in all languages of the branch exhibiting this phenomenon. In contrast, most agreeing postpositions in Avar and the Dargwa languages have the designated slot in the suffix. Finally, agreement in both the prefix and the suffix is only found in Dargwa languages. It is also interesting to note that there are on average 1–2 postpositions with the agreement marker in the prefix (30 postpositions in 15 languages), prefix and suffix (7 postpositions in 4 languages) or infix (3 postpositions in 3 languages) for each language where these slots are attested. By contrast, there are on average 9 postpositions with agreement markers in the suffixal slot in each language where this slot is attested (66 postpositions in 8 languages). In other words, suffixal agreement is the most productive pattern.  
+
+#### **Table 2.** Position of the agreement slot across languages and postpositions {#t2 -}
+
+| Position          | No. of languages                         | No. of postpositions | Percentage of all |
+|:------------------|:-----------------------------------------|:---------------------|:------------------|
+| prefix            | 15 (6 Andic, 4 Dargwa, 5 Tsezic and Lak) | 30                   | 28%               |
+| suffix            | 8 (Avar, Lak, 5 Dargwa, 1 Lezgic)        | 66                   | 62%               |
+| prefix and suffix | 4 (4 Dargwa)                             | 7                    | 7%                |
+| infix             | 3 (2 Andic, 1 Lezgic)                    | 3                    | 3%                |
+
+Summarizing the discussion, the phenomenon of adpositional agreement with the absolutive/nominative is widely attested in East Caucasian languages. However, it is rarely found cross-linguistically. In his book on adpositions, Hagège [-@hagege2010: 175–176] provides examples of adpositions agreeing with the nominative from Avar, regional Southern Italian dialects and Iwaidja (Non-Pama Nyungan, Northern Territory, Australia). In Iwaidja, the agreement marker is on the adposition, but unlike in East Caucasian, Iwaidjan adpositions agree with the nominative in person and number, and not in gender and number (@five).
+
+(@five)	Iwaidja [@evans2000: 131] via [@hagege2010: 176]
+```{r}
+gloss_example(transliteration = "**buɲaɹi** mirinayai ɹaga gunag",
+              glosses = "3.SG.without crocodile DEM place",
+              free_translation = "this place has got no crocodile")
+```
+
+We would like to note a certain discrepancy between the Italian dialect of Ripano (spoken in Ripatransone, Marche) — one of the few languages that exhibits pervasive agreement with the nominative (including on adverbs) and East Caucasian: while it is true that adverbs (including spatial ones) agree in gender and number with the absolutive/nominative in both cases, (@six b), Ripano Italian prepositions apparently agree with their nominal dependent, (@six a). 
+
+(@six) Ripano Italian
+a.
+```{r, results='asis'}
+gloss_example(transliteration = "comma sembra er-e chepit-e **d-e** **sol-e** chə sə vəliev-u scallà n-e occ-e də vì **dop-a** **magnat-a**",
+              glosses = "as always be.IMPF-3.F understood-SG.F of-SG.F alone-SG.F that REFL wanted.IMPF-3.SG.M warm.INF INDEF-SG.F drop-SG.F of wine.SG.M after-N eating-N",
+              free_translation = "As usual, she had understood that he wanted to warm up some wine for himself after dinner.")
+```
+[@lambertelli2003: 78] via [@dalessandro2020: 265]
+
+b.
+```{r}
+gloss_example(transliteration = "Ndovu va?",
+              glosses = "where.M go.3.SG",
+              free_translation = "Where is he going?")
+```
+[@dalessandro2017: 28]
+
+This pattern is also marginally found at least with one postposition of Mehweb Dargwa, cf. example (@seven) where the prefixal slot exhibits agreement with the dependent NP and the suffixal slot takes the value corresponding to the absolutive argument. In addition, Forker [-@forker2013: 388–389] reports on the possibility of agreement with the dependent for the only agreeing Hinuq postposition *-oƛƛo* ‘in the middle of’, see example (@eight). Otherwise, to the best of our knowledge, East Caucasian agreeing postpositions behave just as agreeing adverbs, that is, they agree with the absolutive/nominative. 
+
+(@seven)	Mehweb Dargwa (Dargwa) (courtesy of Michael Daniel)
+```{r}
+gloss_example(transliteration = "heš šara=gʷa ʁir-me-la **d**-ajcana-**b**",
+              glosses = "this lake=PTCL rock-PL-GEN NPL-amidst-N",
+              free_translation = "This lake is amidst rocks.")
+```
+
+(@eight) 	Hinuq (Tsezic) [@forker2013: 389]
+```{r, results='asis'}
+gloss_example(transliteration = "hes bahadur=no ∅-oƛex-iš **elu-de** **b**-oƛƛo goɬa guħ-ƛ’o-r",
+              glosses = "one knight.I=and I-appear-PST we.OBL-ALOC HPL-in.the.middle be.PTCP hill-SUP-LAT",
+              free_translation = "And one knight appeared on a hill that was in the middle of us.")
+```
+
+The specific feature of adpositional agreement with the absolutive/nominative that we explore here is not mentioned in WALS: it only contains a chapter on person marking on adpositions [@bakker2013], which is apparently attested in a greater number of the world’s languages. This feature is tangential to our purposes, however, since it only covers cases where adpositions bear a person affix whose value is dependent on the person (and, sometimes, number) of the adposition’s immediate complement; this phenomenon is not attested in East Caucasian.  
+
+In what follows we classify the languages of Daghestan according to the presence/absence of adpositions agreeing with the absolutive/nominative arguments.
+
+## Results
+
+Due to the relatively small number of agreeing adpositions in East Caucasian, we decided to simply map the presence of such adpositions in a language. Thus, we have two values: attested for languages that are reported to have adpositions agreeing with the absolutive/nominative argument and not attested for languages for which we have not found any evidence for agreeing adpositions.
+The distribution of the languages by values is as follows:
+
+#### **Table 3.** Adpositional agreement with the nominative in Daghestan {#t3 -}
+| Value | N |
+|:------|:--|
+| Number of languages where adpositions agreeing with the nominative are **attested** | 20 |
+| Number of languages where adpositions agreeing with the nominative are **not** **attested** | 23 |
+
+They are mapped on [Map 1](http://lingconlab.ru/dagatlas/031_agreement_of_adpositions_map.html#m1).
+
+[Map 2](http://lingconlab.ru/dagatlas/031_agreement_of_adpositions_map.html#m2) shows the percentage of postpositions that agree with the absolutive/nominative for all East Caucasian languages and their neighbors.
+
+In Dargwa languages, agreement of postpositions with the absolutive/nominative is very productive, likely due to the fact that class agreement markers are part of the spatial inflection system in these languages, specifically, they are used to signal essive. In other branches (Tsezic, Andic) only a small number of postpositions (cognate within each branch) have agreement morphology, indicating that in these languages this type of agreement is not productive and likely inherited. Avar could be characterized as an intermediate case between Dargwa and Tsezic/Andic: postpositions derived from nouns have a suffixal agreement marker in the essive form (similarly to nouns), whereas other postpositions do not have it. Lak adpositions only have agreement when taking the lative form (built on the gender marker and an orientation morpheme), while their essive forms, built just on the gender marker no longer inflect; the same pattern is observed for Lak nouns in the spatial cases. Thus, the situation in Lak is somewhat similar to that found in Dargwa and Avar, yet it is more complicated.   
+
+Additionally, [Figure 1](#f1) maps which positions of the agreement slot are found on adpositions of a given language.
+
+#### **Figure 1.** Possible positions of agreement slots on adpositions, by language {#f1 -}
+
+```{r, fig.width = 9.5}
+language <- c('Kubachi', 'North-Central Dargwa', 'Southwestern Dargwa', 'Lak', 'Avar', 'Andi', 'Godoberi', 'Tindi', 'Bagvalal', 'Chamalal', 'Botlikh', 'Tsakhur', 'Archi', 'Khwarshi-Inkhoqwari', 'Bezhta', 'Hunzib', 'Tsez', 'Hinuq')
+prefix <- c(0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1)
+suffix <- c(1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0)
+prefix_and_suffix <- c(1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0)
+infix <- c(0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0)
+df <- cbind.data.frame(language, prefix, suffix, prefix_and_suffix, infix)
+map.feature(languages = df$language,
+  minichart.data = df[, c('prefix', 'suffix', 'prefix_and_suffix', 'infix')],
+  minichart = 'pie',
+  width = 3)
+```
+
+Finally, [Map 3](http://lingconlab.ru/dagatlas/031_agreement_of_adpositions_map.html#m3) shows the share of the agreeing postpositions that can be used independently (as adverbs) in the language. In most languages with adpositional agreement (14 out of 20), all agreeing adpositions are identical to adverbs. In the three languages that fall into the intermediate category (Bagvalal, Chamalal, Lak), a minority of the agreeing postpositions are deverbal, hence they do not admit adverbial use. Archi, Tsez and Tindi have just one agreeing postposition each: in Archi and Tsez it is known to be deverbal, while the origin of the Tindi lexeme meaning ‘up to’ is unclear, but it is likely to be deverbal too, given its semantics.
+
+## Distribution
+
+Adpositional agreement with the absolutive/nominative in languages of Daghestan is attested only in a subset of East Caucasian languages. Among these languages, such postpositions are most typical of Dargwa, Lak, and Avar-Andic languages: they are reported for all languages of these branches except for Akhvakh and Karata (Andic) and Kaitag (Dargwa). Outside these branches, agreeing postpositions are attested in the Tsezic languages, which are both genealogically and geographically close to Avar-Andic languages, and in two Lezgic languages: Archi and Tsakhur. In Archi, the only agreeing postposition is deverbal [@kibrik1977: 176], so the (infixal) agreement slot is likely inherited from its diachronic source. The two agreeing postpositions attested in Tsakhur also function as adverbs and are part of a small group of underived adverbs that have an agreement suffix [@kibrik1999: 357].
+
+[^1]: For the purposes of this chapter we unite agreement of adpositions with the absolutive argument with that with the nominative argument. This unification is valid at least for two reasons: 1) there are languages (e.g., Italian dialects) exhibiting agreement with the nominative which patterns similarly to the agreement with the absolutive found in East Caucasian; 2) some East Caucasian experts (cf. e.g., [@kibrik1997]; [@danielganenkov2009]; [@creissels2009: 448]) prefer the term nominative over absolutive for the morphologically unmarked S/P case. 
+[^2]: The prefixal gender marker in Sanzhi Dargwa looks like the ones found on verbs, whereas the suffixal marker closely resembles the gender marking obligatory on essive nouns, see Forker [-@forker2020dargwa: 414–415] for relevant examples. The absolutive argument triggering agreement is omitted in (@three).
+
+## List of glosses {-}
+
+```{r}
+make_gloss_list(readxl::read_xlsx("../glosses.xlsx"))
+```
+
+## References {-}

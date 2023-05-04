@@ -33,25 +33,17 @@ Photos presented on the site are taken by [Michael Daniel](https://orcid.org/000
 
 You can always contact us via email at <cauatlas@gmail.com> or leave an issue on the [GitHub page](https://github.com/LingConLab/TALD).
 
-## Our contributers
+## Our contributors
 
 ```{r}
 readxl::read_xlsx("data/contributors.xlsx") %>% 
   filter(render == 1) ->
   features
 
-features$id_0 <- sprintf(paste0("%0", nchar(max(features$id))+1, "d_"), 
-                         features$id)
-
 features %>% 
-  filter(is.na(major_topic_text)) %>% 
-  mutate(feature = str_c(title, 
-                         "<br><a href='",
-                         str_c(id_0, filename),
-                         ".html'>Chapter</a>|<a href='",
-                         str_c(id_0, filename),
-                         "_map.html'>Maps&Data</a>")) %>% 
-  select(author, feature) |> 
+  group_by(author) |> 
+  reframe(chapters = str_c(title, collapse = "<br>")) |> 
+  arrange(author) |> 
   DT::datatable(filter = 'top', 
                 escape = FALSE,
                 rownames = FALSE,

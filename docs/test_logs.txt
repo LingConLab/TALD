@@ -1,0 +1,14 @@
+The BibTeX entry          forker2020          present in the          causatives.tsv, but absent in the biblib.xlsx
+The BibTeX entry          holinskygagua1994          present in the          causatives.tsv, but absent in the biblib.xlsx
+The BibTeX entry          sulaibanovsumbatova2022          present in the          causatives.tsv, but absent in the biblib.xlsx
+The BibTeX entry          deshiriev1958          present in the          causatives.tsv, but absent in the biblib.xlsx
+The BibTeX entry          maxmudova2001          present in the          causatives.tsv, but absent in the biblib.xlsx
+The obligatory field          CONTRIBUTOR          is missing in          causatives_bib.tsv
+The obligatory field          COMMENT          is missing in          causatives_bib.tsv
+The BibTeX entry khangishiev2014 from the file causatives_bib.tsv has an empty value in the obligatory field TITLE
+The obligatory column          date          is absent in the file          causatives.tsv
+The wrong langage name          Bats          in the file          causatives.tsv
+The wrong village dialect name Bezta in the file causatives.tsv
+The wrong toplevel dialect name Central in the file causatives.tsv
+The wrong toplevel dialect name Northen Akhvakh in the file causatives.tsv
+The wrong toplevel dialect name Ak-Nogai in the file numeral_ordinals.tsv
