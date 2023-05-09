@@ -3,7 +3,6 @@ title: Optatives (Maps & Data)
 author: Nina Dobrushina
 date: 'Last update: January 2022'
 bibliography: ./data/orig_bib/optative.bib
-csl: apa.csl
 link-citations: true
 output:
   html_document:

@@ -87,7 +87,6 @@ The following minor chapters present an overview of several features of numeral 
 (14) [Root for ‘hundred’](047_numeral_root_hundred.html)
 
 ## Distribution
-
 In general, each branch of the family (Avar-Andic, Tsezic, Dargic, Lak, Lezgic, Nakh) is easily distinguished by several features. The following overview of distinctive features of branches and specific regions is not comprehensive and describes the general trends, leaving out many small exceptions.
 
 Avar-Andic languages, spoken in the northern part of the mountainous Daghestan, have numeral markers which originate in emphatic particles (-*gu*, -*da*). In several features Avar-Andic languages are unique in the family: for example, they regularly derive ‘20’ from numerals ‘2’ and ‘10’, unlike other East Caucasian languages, which use monomorphemic roots for ‘20’.

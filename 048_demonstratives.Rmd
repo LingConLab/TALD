@@ -3,7 +3,6 @@ title: Demonstratives
 author: Timofey Mukhin
 date: 'Last update: February 2023'
 bibliography: ./data/orig_bib/demonstratives.bib
-csl: apa.csl
 link-citations: true
 output:
   html_document:

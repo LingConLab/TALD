@@ -3,7 +3,6 @@ title: Evidentiality as part of the tense system (Maps & Data)
 author: Samira Verhees
 date: 'Last update: December 2021'
 bibliography: ./data/orig_bib/evidentiality_tense.bib
-csl: apa.csl
 link-citations: true
 output:
   html_document:

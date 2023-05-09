@@ -80,14 +80,14 @@ regular_expression <- str_c("((?<=[ \\[\\-\\(\\</])[", str_c(c(LETTERS, "Å½", "Ä
 
 map(c(list.files("data/orig_bib", full.names = TRUE), "data/bibliography.bib"), function(i){
   if(file.info(i)$size > 7){
-  bib2df(i) |> 
+  bib2df(file = i) |> 
     mutate(TITLE = ifelse(!is.na(TITLE), 
                           str_replace_all(TITLE, regular_expression, "\\{\\1\\}"),
                           NA),
            BOOKTITLE = ifelse(!is.na(BOOKTITLE),
                               str_replace_all(BOOKTITLE, regular_expression, "\\{\\1\\}"),
                               NA)) |> 
-    df2bib(i)
+    df2bib(file = i)
   } 
 })
 
@@ -458,8 +458,7 @@ map(seq_along(rmd_filenames), function(i){
     ymlthis::yml_citations(bibliography = paste0("./data/orig_bib/", 
                                                  str_remove(features$filename[i], "_map"), 
                                                  ".bib"), 
-                           link_citations = TRUE, 
-                           csl = "apa.csl") |> 
+                           link_citations = TRUE) |> 
     ymlthis::yml_output(html_document(number_sections = TRUE,
                                       anchor_sections = TRUE,
                                       pandoc_args = "--shift-heading-level-by=-1")) |> 

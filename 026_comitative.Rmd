@@ -3,7 +3,6 @@ title: Comitative
 author: Sara Zadykian, Chiara Naccarato
 date: 'Last update: May 2022'
 bibliography: ./data/orig_bib/comitative.bib
-csl: apa.csl
 link-citations: true
 output:
   html_document:

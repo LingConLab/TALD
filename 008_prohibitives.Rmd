@@ -3,7 +3,6 @@ title: Prohibitive and its relation with the imperative
 author: Samira Ochs
 date: 'Last update: February 2022'
 bibliography: ./data/orig_bib/prohibitives.bib
-csl: apa.csl
 link-citations: true
 output:
   html_document:

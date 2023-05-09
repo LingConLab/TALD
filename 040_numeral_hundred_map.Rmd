@@ -3,7 +3,6 @@ title: Presence of the numeral marker in the numeral ‘100’ (Maps & Data)
 author: Maksim Melenchenko
 date: 'Last update: August 2022'
 bibliography: ./data/orig_bib/numeral_hundred.bib
-csl: apa.csl
 link-citations: true
 output:
   html_document:
