@@ -36,16 +36,30 @@ You can always contact us via email at <cauatlas@gmail.com> or leave an issue on
 ## Our contributors
 
 ```{r}
-readxl::read_xlsx("data/contributors.xlsx") %>% 
+readxl::read_xlsx("data/contributors.xlsx") |> 
   filter(render == 1) ->
   features
 
+features$id_0 <- sprintf(paste0("%0", nchar(max(features$id))+1, "d_"), 
+                         features$id)
+
 features %>% 
-  mutate(author = str_split(author, ", ")) |> 
+  mutate(feature = ifelse(!is.na(major_topic_text), 
+                          str_c("<a href='",
+                                filename,
+                                ".html'>",
+                                title,
+                                "</a>"),
+                          str_c("<a href='",
+                                str_c(id_0, filename),
+                                ".html'>",
+                                title,
+                                "</a>")),
+         author = str_split(author, ", ")) |>
   unnest_longer(author) |> 
   arrange(author, title) |> 
   group_by(author) |> 
-  reframe(chapters = str_c(title, collapse = "<br>")) |> 
+  reframe(chapters = str_c(feature, collapse = "<br>")) |> 
   arrange(author) |> 
   DT::datatable(filter = 'top', 
                 escape = FALSE,

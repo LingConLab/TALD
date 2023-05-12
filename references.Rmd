@@ -29,6 +29,15 @@ readxl::read_xlsx("data/biblib.xlsx", sheet = "source type and idiom")  %>%
   mutate(source = str_c('<a href="#ref-', bibtexkey, '">', Cite(bib, bibtexkey), '</a>'),
          language = factor(language),
          idiom = factor(idiom),
+         source_type2 = category,
+         source_type2 = case_when(source_type2 == "incollection" ~ "chapter",
+                                  source_type2 == "phdthesis" ~ "PhD Thesis",
+                                  source_type2 == "mastersthesis" ~ "MA Thesis",
+                                  source_type2 == "misc" ~ "miscellaneous",
+                                  source_type == "dictionary" ~ "dictionary",
+                                  source_type == "grammar" ~ "grammar",
+                                  TRUE ~ source_type2),
+         source_type = source_type2,
          source_type = factor(source_type)) %>% 
   select(language, idiom, source, source_type) %>% 
   rename(`source type` = source_type) %>% 
