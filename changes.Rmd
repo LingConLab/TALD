@@ -8,42 +8,32 @@ output:
 
 ```{r, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
+library(tidyverse)
 ```
 
-#### June 2022
+#### June 2023 (v 1.1.0)
 
 Feature chapters added:
 
-- Evidentiality as part of the tense system
-- Standard of comparison
-- Perfect
-- Particles of reported speech and inference
-- Morning greetings
-- Ordinal numerals
-- Optatives
-- Prohibitive and its relation with the imperative
-- Ejective p
-- Ejective s
-- Gemination
-- Labialization
-- Labials
-- Laterals
-- Long vowels
-- Nasalization
-- Palatalized consonants
-- Pharyngealization
-- Pharyngeals
-- Umlaut vowels
-- Uvular voiced stop
-- Velar fricatives
-- Voiceless obstruents
-- Comitative
-- Attributive and adverbial caritive markers
-- Dominant adpositional case
-- Agreement of adpositions with the absolutive/nominative argument
+```{r, results='asis'}
+readxl::read_xlsx("data/contributors.xlsx") |> 
+  filter(!is.na(id),
+         version == "1.1.0") |> 
+  mutate(line = str_c("- ", title, " (", author, ")\n")) |> 
+  pull(line) |> 
+  cat()
+```
 
-Major topics added:
 
-- Evidentiality
-- On the phonology of East Caucasian languages
-- Adpositions
+#### June 2022 (v 1.0.0)
+
+Feature chapters added:
+
+```{r, results='asis'}
+readxl::read_xlsx("data/contributors.xlsx") |> 
+  filter(!is.na(id),
+         version == "1.0.0") |> 
+  mutate(line = str_c("- ", title, " (", author, ")\n")) |> 
+  pull(line) |> 
+  cat()
+```
