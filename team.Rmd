@@ -59,8 +59,11 @@ features %>%
   unnest_longer(author) |> 
   arrange(author, title) |> 
   group_by(author) |> 
-  reframe(chapters = str_c(feature, collapse = "<br>")) |> 
-  arrange(author) |> 
+  reframe(chapters = str_c(feature, collapse = "<br>")) |>
+  mutate(last_name = str_extract(author, " .*?$"),
+         last_name = str_squish(last_name)) |> 
+  arrange(last_name) |> 
+  select(-last_name) |> 
   DT::datatable(filter = 'top', 
                 escape = FALSE,
                 rownames = FALSE,

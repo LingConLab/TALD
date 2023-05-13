@@ -1,0 +1,703 @@
+```{r, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, comment = '')
+library(lingglosses)
+```
+
+## Introduction
+
+The causative construction is an expression, the meaning of which can be schematically represented as "A causes B to X", where A and B are nominal arguments and X is a predicate.
+Causative meaning in East Caucasian languages can be expressed in multiple ways: by means of suffixation (e.g. Bagvalal (@bagvalal)), using light verb constructions (e.g. Kryz (@kryz)), and various intermediate constructions (e.g. Bezhta (@bezhta)). Here we define light verb constructions as:
+
+ - consisting of two verbs: a lexical verb and an auxiliary
+ - where the verbs are (or at least assumed to be) independent wordforms (see below)
+
+Thus, periphrastic constructions and complement-taking verbs will be categorized as light verb constructions, and any construction with two identifiable verb stems that is represented as one wordform will be considered intermediate between a suffix and light verb construction.  
+
+(@bagvalal) Bagvalal [@kibrik2001: 387]        
+```{r}
+gloss_example(transliteration = "madinat-i-r zar b-ic'-e:",
+              glosses = "madinat-OBL-ERG ice.NOM N-melt-CAUS",
+              free_translation = "Madinat melted the ice.")
+```
+
+
+(@kryz) Kryz [@authier2009: 314]
+```{r}
+gloss_example(transliteration = "a-d zindan.c-a ʕa-r-ğu-z vu-yid",
+              glosses = "3-NOTN prison-LOC PV-M-force.in-INF give-AOR.M",
+              free_translation = "He had him thrown in jail.")
+```
+
+(@bezhta) Bezhta [@comrieetal2015: 361]
+<table>
+<tr>
+  <td>
+```{r}
+gloss_example(transliteration = "ija-al",
+              glosses = "cry-INF",
+              free_translation = "cry")
+```
+  </td>
+  <td>
+```{r}
+gloss_example(transliteration = "ija-gol-al",
+              glosses = "cry-put-INF",
+              free_translation = "force to cry")
+```
+  </td>
+</tr>
+</table>
+
+
+Cross-linguistically causatives are commonly expressed morphologically (mostly by affixation) or only by means of a periphrastic construction. According to Song [-@song2013a],  compounds (i.e. monoclausal multiverb constructions) are rare. In East Caucasian languages these types of constructions seem to be generally common and as such they are also used in certain languages as the primary strategy of forming causative expressions.
+
+As  mentioned in [@song2013b], practically every language has a periphrastic causative construction. We believe this to be true for Caucasian languages as well, therefore we assume that the absence of a periphrastic construction for certain languages in the sample is likely due to missing data.
+
+The goal of this chapter is to is to classify the types of constructions which can express causative meaning in the languages of Daghestan according to the available descriptions. We will also examine the semantics of the auxiliary verb (where it is present). 
+
+## Results
+
+Each causative construction was classified as either a suffix[^1], a light verb or a suffixal auxiliary[^2]. Given the fact that the languages present more of spectrum than a set of classes in regards to the extent to which the causative construction is grammaticalized, the following criteria were used to draw boundaries between the proposed classes:
+
+[^1]:  with the exception of Budukh, which has a causative classified as "shortening+vowel alternation" and Tsugni Dargwa which has a causative classified as "stress shift"
+
+[^2]: "suffixal auxiliary" is somewhat of a placeholder for any construction that cannot be classified as a suffix or a light verb  
+
+- A suffix 
+     a) must be semantically vacuous (i.e not have a transparent lexical origin)
+     b) must attach to the stem or root of a verb
+
+
+- A light verb construction
+     a) must consist of two identifiable verbs
+     b) the lexical verb must not be a bare stem
+
+
+- A suffixal auxiliary
+     a) must have a transparent lexical origin
+     b) must attach to the stem or root of a verb
+
+### Morphological causatives
+
+The majority of languages in the sample have a morphological causative (27/40), specifically a suffix is used to express causative meaning. There are two exceptions:  Budukh (EC > Lezgic), where the synthetic causative is formed by stem shortening and vowel alternation (@budukh) and Tsugni Dargwa, where the synthetic causative is formed by stress shift (@tsugni).
+
+(@budukh) Budukh [@talibov2007: 168]
+
+<table>
+<tr>
+  <td>
+```{r}
+gloss_example(transliteration = "sanꭓ-an",
+              glosses = "be_forgotten-INF",
+              free_translation = "be forgotten")
+```
+  </td>
+  <td>
+```{r}
+gloss_example(transliteration = "senꭓ-i",
+              glosses = "forget-INF",
+              free_translation = "forget")
+```
+  </td>
+</tr>
+</table>
+
+(@tsugni) Tsugni Dargwa [@salaibanovsumbatova2022: 2-3 (110-111)]
+  
+    a) 
+```{r}
+gloss_example(transliteration = "murad-li hin d-**e**rčː-ib",
+              glosses = "Murad-ERG water NPL-drink.PFV-PRET",
+              free_translation = "‘Murad drank the water")
+```  
+    
+    b) 
+```{r}
+gloss_example(transliteration = "murad-li urči-cːe hin d-erčː-**í**b",
+              glosses = "Murad-ERG horse-INTER water NPL-drink.PFV-PRET",
+              free_translation = "Murad gave the horse water to drink")
+```  
+
+In several languages the causative suffix is fused with tense suffixes, for example in  Akhvakh:
+
+(@) Akhvakh [@magomedbekova1967: 107]
+```{r}
+gloss_example(transliteration = "q'in-āri",
+              glosses = "sew-CAUS.PST",
+              free_translation = "caused to sew",
+              comment = " (-a + -ari =  -āri)")
+```
+
+Turkic languages (Nogai, Kumyk, Azerbaijani) possess multiple sets of transitivizing suffixes, without one necessarily expressing exclusively causative meaning. 
+In Khangishiev [-@khangishiev2014] (Kumyk) it is noted that these suffixes are distributed lexically, however the motivation behind the choice of suffix is not transparent (for example different suffixes can be used for the same verb in different dialects) and it is speculated that the distribution was once tied to the transitivity and semantics of the verb. It is also noted that the *-tɯr;-tir;-tur;-tyr,  -ʁuz;-giz, -ʁar;-ger, -set, -dar* suffixes are much more restricted in their use. 
+In Shiraliev & Sevortyan [-@shiralievsevortyan1971] (Azerbaijani) *dɯr/dir* and *-t* are described separately as causative suffixes and the rest are mentioned as transivitizing suffixes. 
+In Baskakov [-@baskakov1940] (Nogai) these sets of suffixes are simply listed without any comments on their distribution. In Baskakov [-@baskakov1973] it is noted that the suffix *-kar/-ker* is archaic. 
+The suffixes that were noted as rare (or not described as causative in the case of Azerbaijani) are not in the database (they are only mentioned in the "comment" column). 
+
+The Dargwa varieties share a common suffix *-aq* (cf. Table 1), which in the case of Kubachi is said to be the verb 'overcome', which attaches to the stem [@magometov1963: 214]. There is reason to doubt that the lexical origin of the Kubachi causative is so transparent, as it is practically identical to the suffix attested in other Dargwa varieties, in addition to the fact that there are multiple potential candidates[^3] for this suffix's source of grammaticalization (Michael Daniel, personal communication). Given that it is described as a verb in the source, however, the Kubachi causative  is classified as a suffixal auxiliary.
+
+[^3]: For example in [-@daniel2019: 97] it is speculated to be derived from the verb *-aq(ib) ~ -irq-* ‘let go’.
+
+(@) Kubachi [@magometov1963: 214]
+
+<table>
+<tr>
+  <td>
+```{r}
+gloss_example(transliteration = "bis-ij",
+              glosses = "sell-INF",
+              free_translation = "sell",)
+```
+  </td>
+  <td>
+```{r}
+gloss_example(transliteration = "bis-aq-ij",
+              glosses = "sell-overcome-INF",
+              free_translation = "force to sell",
+              comment = "(or sell-CAUS-INF)")
+```
+  </td>
+</tr>
+</table>
+ 
+<style type="text/css">
+.dargwa   {border-collapse:collapse;
+          border-spacing:0;
+          white-space: nowrap;
+          text-align: center;
+          width: 100%;}
+.dargwa td    {border-color:black;
+              border-style:solid;
+              border-width:1px;
+              font-family:Arial, sans-serif;
+              overflow:hidden;
+              padding:10px 5px;
+              word-break:normal;}
+.dargwa th    {border-color:black;
+              border-style:solid;
+              border-width:1px;
+              font-family:Arial, sans-serif;
+              font-weight:normal;
+              overflow:hidden;
+              padding:10px 10px;
+              word-break:normal;}
+</style>
+<table class = "dargwa">
+<caption>Table 1. Dargwa causative suffixes</caption>
+<thead>
+  <tr>
+    <th>**Dargwa variety**</th>
+    <th>**Causative suffix**</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Mehweb</td>
+    <td>*-aq-;-aχaq-*</td>
+  </tr>
+  <tr>
+    <td>Sanzhi</td>
+    <td>*-aq-;-aˁq-*</td>
+  </tr>
+  <tr>
+    <td>Kubachi</td>
+    <td>*-aq-ij;-iq-ij*</td>
+  </tr>
+  <tr>
+    <td>Tanty</td>
+    <td>*-aq-*</td>
+  </tr>
+  <tr>
+    <td>Itsari</td>
+    <td>*-aq-;-aˁq-*</td>
+  </tr>
+</tbody>
+</table>
+
+### Intermediate forms ("suffixal auxiliaries")
+
+Interestingly, a number of languages showcase an intermediate form: a light verb construction at various stages of grammaticalization. There are 10 languages that have causative constructions classified as suffixal auxiliaries (cf. Table 2.).
+In addition to this, there are cases like Avar (EC > Avar), where the light verb construction can be shortened/fused.
+
+(@) Avar [@forkerdraft2020: 16]
+
+<table>
+<tr>
+  <td>
+```{r}
+gloss_example(transliteration = "heq'e-ze ha-b-ize",
+              glosses = "drink-INF do-N-INF",
+              free_translation = "make drink",)
+```
+  </td>
+  <td>
+```{r}
+gloss_example(transliteration = "heq'e-z-a-b-ize",
+              glosses = "drink-INF-do-N-INF",
+              free_translation = "make drink",)
+```
+  </td>
+</tr>
+</table>
+
+<style type="text/css">
+.big_table   {border-collapse:collapse;
+          border-spacing:0;
+          white-space: nowrap;
+          text-align: center;
+          width: 100%;}
+.big_table td    {border-color:black;
+              border-style:none solid;
+              border-width:1px;
+              font-family:Arial, sans-serif;
+              overflow:hidden;
+              padding:5px 5px;
+              word-break:normal;}
+.big_table th    {border-color:black;
+              border-style:solid;
+              border-width:1px;
+              font-family:Arial, sans-serif;
+              font-weight:normal;
+              overflow:hidden;
+              padding:10px 5px;
+              word-break:normal;}
+.big_table .branch    {border-bottom-color:black;
+                border-bottom-style: solid;
+                border-bottom-width:1px;} 
+.big_table .lang   {border-bottom-color:lightgray;
+                  border-bottom-style:solid;
+                  border-bottom-width:1px;}
+</style>
+<table class = "big_table">
+<caption>Table 2. Suffixal auxiliaries</caption>
+<thead>
+  <tr>
+    <th>**EC branch**</th>
+    <th>**Language**</th>
+    <th>**Auxiliary**</th>
+    <th>**Lexical verb form**[^4]</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td rowspan="3" class="branch">Nakh</td>
+    <td class="lang">Chechen</td>
+    <td class="lang">*CM-wo* 'do', *jta/i:ta* 'leave'</td>
+    <td class="lang">stem, stem</td>
+  </tr>
+  <tr>
+    <td class="lang">Ingush</td>
+    <td class="lang">*-d.u* 'do', *iit/it* 'leave'</td>
+    <td class="lang">stem, stem</td>
+  </tr>
+  <tr>
+    <td class="branch">Tsova-Tush</td>
+    <td class="branch">*it-ar* 'leave'</td>
+    <td class="branch">stem</td>
+  </tr>
+  <tr>
+    <td rowspan="2" class="branch">Tsezic</td>
+    <td class="lang">Hinuq</td>
+    <td class="lang">*CM-u:* 'do', *tok'-er* '?'</td>
+    <td class="lang">stem, stem</td>
+  </tr>
+  <tr>
+    <td class="branch">Bezhta</td>
+    <td class="branch">*gol-al/gil-al/gul-al* 'put', *tok'-al* 'use'</td>
+    <td class="branch">stem, stem</td>
+  </tr>
+   <tr>
+    <td rowspan="2" class="branch">Lezgic</td>
+    <td class="lang">Rutul</td>
+    <td class="lang">*haʔas* 'do'</td>
+    <td class="lang">stem</td>
+  </tr>
+  <tr>
+    <td class="branch">Tsakhur</td>
+    <td class="branch">*haʔu* 'do'</td>
+    <td class="branch">potentialis stem</td>
+  </tr>
+  <tr>
+    <td rowspan="3" class="branch">Dargwa</td>
+    <td class="lang">Sanzhi</td>
+    <td class="lang">*CM-irq'/CM-arq'* 'do'</td>
+    <td class="lang">stem?</td>
+  </tr>
+  <tr>
+    <td class="lang">Kubachi</td>
+    <td class="lang">*aqij/iqij* 'overcome'</td>
+    <td class="lang">stem</td>
+  </tr>
+   <tr>
+    <td class="branch">Tsugni</td>
+    <td class="branch">*-aʁ-/-iʁ-* 'drive'</td>
+    <td class="branch">stem</td>
+  </tr>
+</tbody>
+</table>
+
+[^4]: For the sake of simplicity, I do not distinguish between roots and stems here.
+
+### Light verb constructions
+
+At least 21 languages have a light verb or periphrastic construction. In the vast majority of the constructions classified here the lexical verb is in the infinitive, with a few exceptions.
+
+In Lak the the auxiliary can combine with both an infinitive (perfective) and a participle (imperfective).
+
+(@) Lak [@kazenin2013: 108]
+
+    (a)
+```{r}
+gloss_example(transliteration = "Jala ga butta-l ∅-uxx-an ∅-uv-ssa-r Shurah-ssa realny učilish-aluwun",
+              glosses = "after 3SG father-GEN.SG M-enter.PFV-INF M-do.PST-ADJ-3SG Buynaksk-ADJ real school-ILL",
+              free_translation = "Then father sent him to Buynaksk Realschule",
+              line_length = 100)
+```
+    (b)
+```{r}
+gloss_example(transliteration = "Turknal mu bilajat cixwa b-urug<la>g-i b-u-w-nu b-u-r",
+              glosses = "turkey this country REFL N-watch<IPFV>.PTCP-3SG N-do.PST-N-PST N-AUX.PRES-3SG",
+              free_translation = "Turkey made this country look at itself",
+              line_length = 100)
+```
+
+In Kryz the auxiliary 'do' combines with a participle. 
+
+(@) Kryz [@authier2009: 173]
+```{r}
+gloss_example(transliteration = "ꭓinib.c-ir furi ʕu-r-ğar-a ar-id",
+              glosses = "wife-ERG man PV-M-believe-VA do-AOR.M",
+              free_translation = "The woman persuaded her husband.",)
+```
+
+In Bagvalal the auxiliary verb forms two constructions: one with the lexical verb in the infinitive from the imperfective stem, the other with the lexical verb in the infinitive from the potential stem. The second construction has permissive meaning: 
+
+(@) Bagvalal [@kibrik2001: 385]
+
+     (a)
+```{r}
+gloss_example(transliteration = "ima-š:u-r anwar rasul-i-b as kʷaꭓ:-a w-ešta",
+              glosses = "father-OBL.M-ERG Anwar Rasul-OBL-GEN.N money steal-MSD.IPFV.INF M-let",
+              free_translation = "Father made Anwar steal money from Rasul.",
+              line_length = 100)
+```
+
+     (b) 
+```{r}
+gloss_example(transliteration = "ima-š:u-r anwar rasul-i-b as kʷaꭓ:-a: w-ešta",
+              glosses = "father-OBL.M-ERG Anwar Rasul-OBL-GEN.N money steal-MSD.POT.INF M-let",
+              free_translation = "Father allowed Anwar steal money from Rasul.",
+              line_length = 100)
+```
+
+It is important to note that many languages employ multiple strategies in coding causative meaning, which in turn are often distributed based on semantic (direct/indirect or permissive) or morphological (derived from transitive/intransitive verbs or adjectives) properties. For example, in Lezgian the suffix *-(a)r-* is used with intransitive verbs (@lezgian)(a) and the light verb construction with the verb *tun* 'leave' is used with transitive verbs (@lezgian)(b), in Tsez the suffix *-r-/-ir-* is used for verbs (@tsez)(a) and the suffix *-ik'-/-uk'-* is used for adjectives (@tsez)(b), in Mehweb Dargwa the light verb construction with the verb *aʔas* 'drive' has directive meaning (@mehweb)(a), with the verb *CM-aqas* 'leave' the meaning is permissive (@mehweb)(b) and the construction with the verb *CM-aq’as* 'do' is used with adjectives (@mehweb)(c).
+
+(@lezgian) Lezgian [@haspelmath1993: 163, 358]
+
+     (a) 
+```{r}
+gloss_example(transliteration = "ksu-r-un",
+              glosses = "sleep-CAUS-MSD",
+              free_translation = "put to bed")
+```
+    
+     (b)
+```{r}
+gloss_example(transliteration = "Ada ča-w ∅ ixtilat-ar aqwazar-iz ta-da-j.",
+              glosses = "he.ERG we-ADEL (ERG) conversation-PL stop-INF cause-FUT-PST",
+              free_translation = "He would make us stop the conversations",
+              line_length = 100)
+```
+
+(@tsez) Tsez [@bokarev1959tsez: 204, 203]
+
+     (a)
+```{r}
+gloss_example(transliteration = "əs-ir-a",
+              glosses = "say-CAUS-INF",
+              free_translation = "cause to say/ ask")
+```
+
+     (b)
+```{r}
+gloss_example(transliteration = "tatan-ik'-a",
+              glosses = "warm-CAUS-?INF",
+              free_translation = "make warm")
+```
+
+(@mehweb) Mehweb Dargwa [@barylnikova2019: 173, 174, 176]
+
+     (a)
+```{r}
+gloss_example(transliteration = "pat’imat-ini anwar uʕq’-es aʔ-ib.",
+              glosses = "Patimat-ERG Anwar M.go:PFV-INF drive:PFV-AOR",
+              free_translation = "Patimat made Anwar go away",
+              line_length = 100)
+```
+
+    (b)
+```{r}
+gloss_example(transliteration = "pat’imat-ini anwar w-aq-ib umma d-aq’-as",
+              glosses = "Patimat-ERG Anwar M-leave:PFV-AOR kiss NPL-do:PFV-INF",
+              free_translation = "Patimat let Anwar kiss her",
+              line_length = 100)
+```
+
+    (c) 
+```{r}
+gloss_example(transliteration = "aꭓaj-ni musa zuba w-aq’-ib",
+              glosses = "khan.OBL-ERG Musa blind M-do:PFV-AOR",
+              free_translation = "Khan blinded Musa")
+```
+
+### Auxiliary semantics
+
+The most common verbs found in causative constructions were 'do' (13), 'leave' (8) and 'give' (5). The verb 'let' is used in Khwarshi (EC > Tsezic), Bagvalal (EC > Andic), Karata (EC > Andic) and Tindi (EC > Andic). In Bezhta (EC > Tsezic), Botlikh (EC > Andic) and Godoberi (EC > Andic) the verb 'put' is used[^5]. There are a number of verbs attested in only one language, namely, "overcome" (Kubachi Dargwa), "become" (Botlikh), "direct" (Akhvakh), "sell" (Khinalug), "use" (Bezhta). I suspect that verbs glossed as 'force' have that meaning because they form causative constructions and as such might have other core meanings. Not all idioms have available dictionaries, or the verb in question is not mentioned in them, so I have not been able to verify this. The full list of auxiliaries and their semantics is presented in the table below:
+
+[^5]: It should be noted that the verbs used in these constructions are often very polysemous, so the meanings stated here and in the database can be somewhat subjective.
+
+<table class = "big_table">
+<caption>Auxiliary semantics</caption>
+<thead>
+  <tr>
+    <th>**Family > branch**</th>
+    <th>**Language**</th>
+    <th>**Auxiliary**</th>
+    <th>**Semantics**</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td rowspan="7" class="branch">EC > Andic</td>
+    <td class="lang">Akhvakh</td>
+    <td class="lang">*bit'-uruʎa*</td>
+    <td class="lang">direct</td>
+  </tr>
+  <tr>
+    <td class="lang">Godoberi</td>
+    <td class="lang">*t'ami*</td>
+    <td class="lang">put</td>
+  </tr>
+  <tr>
+    <td rowspan ="2" class="lang">Botlikh</td>
+    <td>*t'am-i*</td>
+    <td>put</td>
+  </tr>
+  <tr>
+    <td class="lang">*CM-iʁ-a-j*</td>
+    <td class="lang">become</td>
+  </tr>
+  <tr>
+    <td class="lang">Bagvalal</td>
+    <td class="lang">*CM-ešta*</td>
+    <td class="lang">let</td>
+  </tr>
+  <tr>
+    <td class="lang">Karata</td>
+    <td class="lang">*it-a-ɬ-a*</td>
+    <td class="lang">let</td>
+  </tr>
+  <tr>
+    <td class="branch">Tindi</td>
+    <td class="branch">*CM-ešdo*</td>
+    <td class="branch">let</td>
+  </tr>
+  <tr>
+    <td rowspan="5" class="branch">EC > Tsezic</td>
+    <td rowspan="2" class="lang">Hinuq</td>
+    <td>*tok'-er*</td>
+    <td>'?'</td>
+  </tr>
+  <tr>
+    <td class="lang">*t'amizi-u:*</td>
+    <td class="lang">**'force'**</td>
+  </tr>
+  <tr>
+    <td class="lang">Khwarshi</td>
+    <td class="lang">*CM-ešt’a*</td>
+    <td class="lang">'let'</td>
+  </tr>
+  <tr>
+    <td class="branch" rowspan = "2">Bezhta</td>
+    <td >*gol-al/gil-al/gul-al*</td>
+    <td >'put'</td>
+  </tr>
+  <tr>
+    <td class="branch">*tok'-al*</td>
+    <td class="branch">'use'</td>
+  </tr>
+  <tr>
+    <td rowspan="12" class="branch">EC > Lezgic</td>
+    <td rowspan="2" class="lang">Agul</td>
+    <td>*aq'-a-s*</td>
+    <td>'do'</td>
+  </tr>
+  <tr>
+    <td class="lang">*qačik-a-s*</td>
+    <td class="lang">'**force**'</td>
+  </tr>
+  <tr>
+    <td class="lang">Archi</td>
+    <td class="lang">*a<CM>-s*</td>
+    <td class="lang">'do'</td>
+  </tr>
+  <tr>
+    <td class="lang">Budukh</td>
+    <td class="lang">*CM-uc'u*</td>
+    <td class="lang">'give'</td>
+  </tr>
+  <tr>
+    <td rowspan="2" class="lang">Kryz</td>
+    <td>*aric*</td>
+    <td>'do'</td>
+  </tr>
+  <tr>
+    <td class="lang">*vuyic*</td>
+    <td class="lang">'give'</td>
+  </tr>
+  <tr>
+    <td class="lang">Lezgian</td>
+    <td class="lang">*t-un*</td>
+    <td class="lang">'leave'[^6]</td>
+  </tr>
+  <tr>
+    <td rowspan="2" class="lang">Rutul</td>
+    <td>*wy-s*</td>
+    <td>'give'</td>
+  </tr>
+  <tr>
+    <td class="lang">*haʔa-s*</td>
+    <td class="lang">'do'</td>
+  </tr>
+  <tr>
+    <td class="lang">Tsakhur</td>
+    <td class="lang">*haʔu*</td>
+    <td class="lang">'do'</td>
+  </tr>
+  <tr>
+    <td class="lang">Tabasaran</td>
+    <td class="lang">*ği<CM>t-ub*</td>
+    <td class="lang">'leave'</td>
+  </tr>
+  <tr>
+    <td class="branch">Udi</td>
+    <td class="branch">*-b-es*</td>
+    <td class="branch">'do'</td>
+  </tr>
+  <tr>
+    <td rowspan="6" class="branch">EC > Dargwa</td>
+    <td rowspan="3" class="lang">Mehweb</td>
+    <td>*aʔ-as*</td>
+    <td>'drive'</td>
+  </tr>
+  <tr>
+    <td>*CM-aq-as*</td>
+    <td>'leave'</td>
+  </tr>
+  <tr>
+    <td class="lang">*CM-aq'-as*</td>
+    <td class="lang">'do'</td>
+  </tr>
+  <tr>
+    <td class="lang">Sanzhi</td>
+    <td class="lang">*CM-irq-'/CM-arq-'*</td>
+    <td class="lang">'do'</td>
+  </tr>
+  <tr>
+    <td class="lang">Kubachi</td>
+    <td class="lang">*aq-ij/iq-ij*</td>
+    <td class="lang">'overcome'</td>
+  </tr>
+  <tr>
+    <td class="branch">Tsugni</td>
+    <td class="branch">*-aʁ-;-iʁ-*</td>
+    <td class="branch">'drive'</td>
+  </tr>
+  <tr>
+    <td rowspan="2" class="branch">EC > Lak</td>
+    <td rowspan="2" class="branch">Lak</td>
+    <td>*CM-an*</td>
+    <td>'do'</td>
+  </tr>
+  <tr>
+    <td class="branch">*CM-it-an*</td>
+    <td class="branch">'leave'</td>
+  </tr>
+  <tr>
+    <td class="branch">EC > Khinalug</td>
+    <td class="branch">Khinalug</td>
+    <td class="branch">*ček'iri*</td>
+    <td class="branch">'sell'</td>
+  </tr>
+  <tr>
+    <td rowspan="5" class="branch">EC > Nakh</td>
+    <td rowspan="2" class="lang">Chechen</td>
+    <td>CM-an</td>
+    <td>'do'</td>
+  </tr>
+  <tr>
+    <td class="lang">*jta/i:ta*</td>
+    <td class="lang">'leave'</td>
+  </tr>
+  <tr>
+    <td rowspan = "2" class="lang">Ingush</td>
+    <td>*d.u*</td>
+    <td>'do'</td>
+  </tr>
+  <tr>
+    <td class="lang">*iit/it*</td>
+    <td class="lang">'leave'</td>
+  </tr>
+  <tr>
+    <td class="branch">Tsova-Tush</td>
+    <td class="branch">*it-ar*</td>
+    <td class="branch">'leave'</td>
+  </tr>
+  <tr>
+    <td class="branch">EC > Avar</td>
+    <td class="branch">Avar</td>
+    <td class="branch">*ha-b-ize*</td>
+    <td class="branch">'do'</td>
+  </tr>
+  <tr>
+    <td rowspan = "3" class="branch">IE > Iranian</td>
+    <td class="lang">Azerbaijan-Tat</td>
+    <td class="lang">*saꭓden*</td>
+    <td class="lang">'do'</td>
+  </tr>
+  <tr>
+    <td class="lang">Aspheron-Tat</td>
+    <td class="lang">*doren*</td>
+    <td class="lang">'give'</td>
+  </tr>
+  <tr>
+    <td class="branch">Judeo-Tat</td>
+    <td class="branch">*hiš-de*</td>
+    <td class="branch">'leave'</td>
+  </tr>
+  <tr>
+    <td class="branch">IE > Armenic</td>
+    <td class="branch">Armenian</td>
+    <td class="branch">*t-al*</td>
+    <td class="branch">'give'</td>
+  </tr>
+ 
+</tbody>
+</table>
+
+[^6]: the same verb can mean 'let' (cf. [@talibovgadzhiev1966]), however this is the translation used in the source.
+
+## Distribution
+
+Since most languages have multiple causative constructions, the types shown on the map  are "morphological" if a morphological (suffixal + Budukh vowel alternation) causative is present, then "suffixal auxiliary" if a suffixal auxiliary is present, and "light verb" if only light verb constructions are attested for that language.
+All Andic, Tsezic, Dargwa (except Kubachi) and Turkic languages have a morphological causative. Nakh languages use suffixal auxiliaries. Lezgic languages mostly use light verb constructions, Rutul and Tsakhur have suffixal auxiliaries and Budukh, Lezgian and Udi[^7] have morphological causatives. There does not seem to be any significant areal distribution.
+
+[^7]:  *-d-* in Udi, which is classified as a suffix here, combines with the infinitive of the verb (though other suffixes may follow it) and is described as an auxiliary verb (Maisak, 2008) The reason it is classified as a suffix here is that it is bound to the lexical verb and lacks a transparent lexical origin.
+
+## List of glosses {-}
+
+```{r}
+make_gloss_list(readxl::read_xlsx("../glosses.xlsx"))
+```
+
+## References {-}
