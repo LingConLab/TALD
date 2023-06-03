@@ -51,7 +51,5 @@ print(article_citation, .opts = list(style = 'Bibtex'))
 ```{r, child='data/orig_rmd/agreement_of_adpositions_map.Rmd'}
 ```
 
-```{r, results='asis'}
-PrintBibliography(bib)
-```
+```{r, results='asis'}PrintBibliography(bib)```
 

@@ -518,11 +518,12 @@ map(seq_along(rmd_filenames), function(i){
     str_c("```{r, child='data/orig_rmd/", features$filename[i], ".Rmd'}"),
     "```",
     "",
-    "```{r, results='asis'}",
     ifelse(str_detect(rmd_filenames[i], "_map.Rmd"), 
-           "PrintBibliography(bib)",
+           str_c(
+             "```{r, results='asis'}",
+             "PrintBibliography(bib)",
+             "```"),
            ""),
-    "```",
     ""),
     rmd_filenames[i], append = TRUE)
 })

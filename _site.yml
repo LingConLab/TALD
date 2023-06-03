@@ -1,6 +1,5 @@
 name: "tald"
 output_dir: "docs"
-new_session: yes # resolves problem with same? references
 output:
   html_document:
     include:  

@@ -1,13 +1,3 @@
----
-output: html_document
----
-
-```{r, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-library(lingglosses)
-library(tidyverse)
-```
-
 ## Introduction
 
 Different languages may use different strategies to refer to the days after today, and they differ in terms of the number of consecutive days that have a special term. For example,  English has no special words for days after tomorrow but uses a productive and fully compositional construction:  'the day after tomorrow', 'the day after the day after tomorrow', etc. Similarly, Russian stacks a prefix meaning 'after' on top of the word for tomorrow, cf. *zavtra* 'tomorrow', *posle-zavtra* 'the day after tomorrow', *posle-posle-zavtra* 'the day after the day after tomorrow', etc.

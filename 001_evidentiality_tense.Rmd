@@ -51,7 +51,5 @@ print(article_citation, .opts = list(style = 'Bibtex'))
 ```{r, child='data/orig_rmd/evidentiality_tense.Rmd'}
 ```
 
-```{r, results='asis'}
 
-```
 
