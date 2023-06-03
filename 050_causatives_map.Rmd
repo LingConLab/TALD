@@ -3,6 +3,7 @@ title: 'Causatives: expression type (Maps & Data)'
 author: Daria Izmalkova
 date: 'Last update: April 2023'
 bibliography: ./data/orig_bib/causatives.bib
+csl: apa.csl
 link-citations: true
 output:
   html_document:

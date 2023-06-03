@@ -3,6 +3,7 @@ title: Agreement of adpositions with the absolutive/nominative argument (Maps & 
 author: Polina Nasledskova, Tatiana Philippova
 date: 'Last update: June 2022'
 bibliography: ./data/orig_bib/agreement_of_adpositions.bib
+csl: apa.csl
 link-citations: true
 output:
   html_document:

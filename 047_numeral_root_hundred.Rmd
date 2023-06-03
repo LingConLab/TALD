@@ -3,6 +3,7 @@ title: Root for ‘hundred’
 author: Maksim Melenchenko
 date: 'Last update: August 2022'
 bibliography: ./data/orig_bib/numeral_root_hundred.bib
+csl: apa.csl
 link-citations: true
 output:
   html_document:

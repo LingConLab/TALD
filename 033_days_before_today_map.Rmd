@@ -3,6 +3,7 @@ title: Days before today (Maps & Data)
 author: Timofey Dedov
 date: 'Last update: June 2022'
 bibliography: ./data/orig_bib/days_before_today.bib
+csl: apa.csl
 link-citations: true
 output:
   html_document:

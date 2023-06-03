@@ -3,6 +3,7 @@ title: Presence of the numeral marker in the numeral ‘1’
 author: Maksim Melenchenko
 date: 'Last update: August 2022'
 bibliography: ./data/orig_bib/numeral_one.bib
+csl: apa.csl
 link-citations: true
 output:
   html_document:

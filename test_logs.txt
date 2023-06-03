@@ -1,4 +1,2 @@
 The BibTeX entry          forker2020          present in the          causatives.tsv, but absent in the biblib.xlsx
-The obligatory column          value1          is absent in the file          causatives.tsv
-The obligatory column          value1_name          is absent in the file          causatives.tsv
 The wrong toplevel dialect name Ak-Nogai in the file numeral_ordinals.tsv

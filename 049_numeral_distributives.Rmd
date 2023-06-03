@@ -3,6 +3,7 @@ title: Derivation of distributives
 author: Maksim Melenchenko
 date: 'Last update: August 2022'
 bibliography: ./data/orig_bib/numeral_distributives.bib
+csl: apa.csl
 link-citations: true
 output:
   html_document:

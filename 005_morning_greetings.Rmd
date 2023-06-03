@@ -3,6 +3,7 @@ title: Morning greetings
 author: Chiara Naccarato, Samira Verhees
 date: 'Last update: November 2021'
 bibliography: ./data/orig_bib/morning_greetings.bib
+csl: apa.csl
 link-citations: true
 output:
   html_document:

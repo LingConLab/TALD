@@ -3,6 +3,7 @@ title: Presence of the numeral marker in the numerals ‘2’–‘10’ (Maps &
 author: Maksim Melenchenko
 date: 'Last update: August 2022'
 bibliography: ./data/orig_bib/numeral_twoten.bib
+csl: apa.csl
 link-citations: true
 output:
   html_document:

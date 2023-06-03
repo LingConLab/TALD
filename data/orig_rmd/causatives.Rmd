@@ -8,8 +8,8 @@ library(lingglosses)
 The causative construction is an expression, the meaning of which can be schematically represented as "A causes B to X", where A and B are nominal arguments and X is a predicate.
 Causative meaning in East Caucasian languages can be expressed in multiple ways: by means of suffixation (e.g. Bagvalal (@bagvalal)), using light verb constructions (e.g. Kryz (@kryz)), and various intermediate constructions (e.g. Bezhta (@bezhta)). Here we define light verb constructions as:
 
- - consisting of two verbs: a lexical verb and an auxiliary
- - where the verbs are (or at least assumed to be) independent wordforms (see below)
+- consisting of two verbs: a lexical verb and an auxiliary
+- where the verbs are (or at least assumed to be) independent wordforms (see below)
 
 Thus, periphrastic constructions and complement-taking verbs will be categorized as light verb constructions, and any construction with two identifiable verb stems that is represented as one wordform will be considered intermediate between a suffix and light verb construction.  
 
@@ -53,9 +53,9 @@ The goal of this chapter is to is to classify the types of constructions which c
 
 Each causative construction was classified as either a suffix[^1], a light verb or a suffixal auxiliary[^2]. Given the fact that the languages present more of spectrum than a set of classes in regards to the extent to which the causative construction is grammaticalized, the following criteria were used to draw boundaries between the proposed classes:
 
-[^1]:  with the exception of Budukh, which has a causative classified as "shortening+vowel alternation" and Tsugni Dargwa which has a causative classified as "stress shift"
+[^1]:  With the exception of Budukh, which has a causative classified as "shortening+vowel alternation" and Tsugni Dargwa which has a causative classified as "stress shift".
 
-[^2]: "suffixal auxiliary" is somewhat of a placeholder for any construction that cannot be classified as a suffix or a light verb  
+[^2]: "Suffixal auxiliary" is somewhat of a placeholder for any construction that cannot be classified as a suffix or a light verb.
 
 - A suffix 
      a) must be semantically vacuous (i.e not have a transparent lexical origin)
@@ -144,7 +144,7 @@ gloss_example(transliteration = "bis-aq-ij",
               comment = "(or sell-CAUS-INF)")
 ```
  
-#### **Table 1.** Dargwa causative suffixes {#t1}
+#### **Table 1.** Dargwa causative suffixes {#t1 -}
  
 | Dargwa variety | Causative suffix |
 |:---------------|:-----------------|
@@ -176,7 +176,7 @@ gloss_example(transliteration = "heq'e-z-a-b-ize",
               free_translation = "make drink",)
 ```
 
-#### **Table 2.** Suffixal auxiliaries {#t2}
+#### **Table 2.** Suffixal auxiliaries {#t2 -}
 
 | EC branch | language     | auxiliary                    | lexical verb form |
 |:----------|:-------------|:-----------------------------|:------------------|
@@ -311,7 +311,7 @@ The most common verbs found in causative constructions were 'do' (13), 'leave' (
 
 [^5]: It should be noted that the verbs used in these constructions are often very polysemous, so the meanings stated here and in the database can be somewhat subjective.
 
-#### **Table 3.** Auxiliary semantics
+#### **Table 3.** Auxiliary semantics {#t3 -}
 
 | Family > branch | Language       | Auxiliary            | Semantics  |
 |:----------------|:---------------|:---------------------|:-----------|

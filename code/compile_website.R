@@ -457,7 +457,8 @@ map(seq_along(rmd_filenames), function(i){
                                     features$updated_text[i]))) |> 
     ymlthis::yml_citations(bibliography = paste0("./data/orig_bib/", 
                                                  str_remove(features$filename[i], "_map"), 
-                                                 ".bib"), 
+                                                 ".bib"),
+                           csl = "apa.csl",
                            link_citations = TRUE) |> 
     ymlthis::yml_output(html_document(number_sections = TRUE,
                                       anchor_sections = TRUE,

@@ -3,6 +3,7 @@ title: Standard of comparison (Maps & Data)
 author: Chiara Naccarato
 date: 'Last update: December 2021'
 bibliography: ./data/orig_bib/standard_of_comparison.bib
+csl: apa.csl
 link-citations: true
 output:
   html_document:
