@@ -56,13 +56,15 @@ Generally, we relied on grammatical descriptions in deciding what lexical items 
 In terms of their position relative to the dependent noun phrase, East Caucasian languages are uniformly postpositional, similarly to their Turkic neighbors and Georgian. In contrast, (Judeo)-Tat is predominantly a prepositional language, although it features a certain number of postpositions, some of which are borrowings from Azerbaijani [@authier2012: 101]. Armenian has both postpositions and prepositions, the former being more numerous and also more frequent in the East Armenian National Corpus (http://www.eanc.net/)[^1]. In addition, according to [@dum-tragut2009], it features a small set of ambipositions—adpositional elements that can be placed either before or after the dependent noun. The case form of the nominal dependent required by an ambiposition in Armenian may remain stable or change depending on whether the lexeme is used prepositionally or postpositionally. The first scenario is illustrated in (@one) for the ambiposition *šnorhiv* ‘thanks to’ that always requires genitive (syncretic with dative in the nominal, but not in the pronominal declension); the latter is represented by the ambiposition *handep* ‘for’ in (@two) which requires genitive in postposition and nominative in preposition.
 
 (@one) Armenian [@dum-tragut2009: 379, 493]
-a.
+
+    a)
 ```{r, results='asis'}
 gloss_example(transliteration = "**Im** **ěnker-oǰ** **šnorhiv** darj-i ē gal-is ew ěndun-um k’ristoneakan havatk’-ě",
               glosses = "my friend-GEN thanks conversion-DAT he_is come-PTCP.PRS.3SG CONJ adopt-PTCP.PRS Christian belief.NOM-the",
               free_translation = "Thanks to my friend, he converts and adopts the Christian belief.")
 ```
-b.
+
+    b)
 ```{r, results='asis'}
 gloss_example(transliteration = "Xač’atryan-i gorc-er-i-n canot’ac’-el ē **šnorhiv** **ir** **usuc’č’-i** Nat’an Milšteyn-i um mot usan-el ē 10 tari",
               glosses = "Xachatryan-DAT work-PL-DAT-the get_acquainted-PTCP.PF he_is thanks his teacher-GEN Nathan Milstein-GEN REL.DAT at learn-PTCP.PF he_is ten year.NOM",
@@ -70,13 +72,15 @@ gloss_example(transliteration = "Xač’atryan-i gorc-er-i-n canot’ac’-el ē
 ```
 
 (@two) Armenian [@dum-tragut2009: 301]
-a.
+
+    a)
 ```{r}
 gloss_example(transliteration = "**k’o** **handep** aysteɬ mec hargank’ ka",
               glosses = "you.**GEN** for here big esteem.NOM exist.PRS.3SG",
               free_translation = "There is big esteem for you here.")
 ```
-b.
+
+    b)
 ```{r}
 gloss_example(transliteration = "**Handep** **hayrenik’-ě** nra ser-n anč’ap’eli ē",
               glosses = "for fatherland.**NOM**-the his love.NOM-the immeasurable it_is",
@@ -104,13 +108,15 @@ Directionality markers signal the direction or absence of motion of the trajecto
 The examples in (@three) below illustrate the use of different forms in sentences.
 
 (@three) Hinuq (Tsezic) [@forker2013: 384]
-a.
+
+    a)
 ```{r}
 gloss_example(transliteration = "de č’agu goɬ q’ede, **de-de** **purho**=no nox-no",
               glosses = "{I} alive be IRR {I}.OBL-ALOC next=and come-UW.PST",
               free_translation = "If I were alive and you came next to me…")
 ```
-b.
+
+    b)
 ```{r}
 gloss_example(transliteration = "meži **di-de** **purho-s** b-uɬi-yom",
               glosses = "you.PL {I}.OBL-ALOC next-ABL1 HPL-go_out-PROH",
@@ -122,14 +128,16 @@ In the examples above, the form of the postposition differs depending on the typ
 Outside East Caucasian, something similar to inflection for directionality is found in Modern Eastern Armenian. For instance, the postposition *tak* ‘under’ has an ablative-marked (*takic’*) and an instrumental-marked form (*takov*), which are used in (but not restricted to) elative, (@four a), and translative contexts, respectively. However, the semantic contribution of these case suffixes when attached to adpositions is not as clear-cut as in East Caucasian: for instance, instrumental may also be used if motion does not have a clear direction or its direction is not important, cf. (@four b) [@dum-tragut2009: 304–305].
 
 (@four) Armenian (Indo-European) [@dum-tragut2009: 306]
-a.
+
+    a)
 ```{r}
 gloss_example(transliteration = "erexa-n **seʁan-i** **tak-ic’** motec’-av morě",
               glosses = "child.NOM-the table-DAT under-ABL approach-AOR.3SG mother.DAT.the",
               free_translation = "The child approached the mother from under the table.",
               comment = "(the starting point of the action is under the table, in the direction of the mother.)")
 ```
-b.
+
+    b)
 ```{r}
 gloss_example(transliteration = "**getn-i** **tak-ov** mi mec get eː hos-um",
               glosses = "ground-DAT under-INS INDEF big river.NOM it_is flow-PTCP.PRS",
@@ -185,14 +193,16 @@ In (@nine), the possessive marker on the postposition *arasından* corresponds t
 In colloquial Armenian, the dependents of 1st and 2nd person can be expressed by possessive enclitics when used with some spatial postpositions, cf. (@ten a) and (@ten b).
 
 (@ten) Armenian [@dum-tragut2009: 300]
-a.
+
+    a)
 ```{r}
 gloss_example(transliteration = "**inj** **het** mišt hayeren eː xos-um",
               glosses = "{I}.DAT with always Armenian he_is speak-PTCP.PRS",
               free_translation = "He always speaks Armenian with me.",
               comment = "(standard Armenian)")
 ```
-b.
+
+    b)
 ```{r}
 gloss_example(transliteration = "**het-s** mišt hayeren eː xos-um",
               glosses = "with-my always Armenian he_is speak-PTCP.PRS",
@@ -210,13 +220,15 @@ For a more detailed discussion of agreeing adpositions, see [Agreement of adposi
 A feature that is typical of East Caucasian postpositions is that the vast majority of them can be used both adnominally and independently, i.e. with a complement or without it, which is unusual from a cross-linguistic perspective.
 
 (@eleven) Ingush (Nakh) [@nichols2011: 405]
-a.
+
+    a)
 ```{r}
 gloss_example(transliteration = "**t'exkaa** **chuhwanahw** t'um joall",
               glosses = "bone.DAT inside marrow II.be_contained.PRS",
               free_translation = "There is marrow inside a bone/Inside of a bone is marrow.")
 ```
-b.
+
+    b)
 ```{r}
 gloss_example(transliteration = "mashen **chuhwanahw** jy",
               glosses = "car inside II.be.PRS",
@@ -232,14 +244,16 @@ The claim that such postpositions are more typical of East Caucasian languages t
 Independent uses of adpositions are also mentioned in the grammars of genealogically unrelated neighboring languages, see, for instance, (@twelve) for the adnominal and independent uses of the Armenian postposition *durs* ‘out, outside’.
 
 (@twelve) Armenian
-a.
+
+    a)
 ```{r, results='asis'}
 gloss_example(transliteration = "p’ap’ul pap-n as-um eː or girk’-e erbek’ **tn-ic’** **durs** č’-i han-el",
               glosses = "P’ap’ul grandpa.NOM-the say-PTCP.PRS he_is CONJ book.NOM-the never house-ABL out NEG-he_is take-PTCP.PF",
               free_translation = "P’ap’ul’s grandpa says that he has never taken this book out of the house.")
 ```
 [@dum-tragut2009: 531]
-b.
+
+    b)
 ```{r, results='asis'}
 gloss_example(transliteration = "ov č’-i irakana-c’n-i petut’y-an cragir-e na **durs** kmn-a ayd gorčent’ac’-ic’",
               glosses = "who NEG-he_is fulfill-CAUS-COND.FUT.3SG state-DAT program.NOM-the he.NOM outside stay-COND.FUT.3SG that process-ABL",
@@ -292,13 +306,15 @@ gloss_example(transliteration = "čarx-ari-n arada",
 Some postpositions assign several cases which may or may not bring about interpretational differences (@eighteen a, b). 
 
 (@eighteen)	Sanzhi Dargwa [@forker2020dargwa: 156]
-a.	
+
+    a)
 ```{r}
 gloss_example(transliteration = "nuša šːi-la tːura ag-ur-da",
               glosses = "we village-GEN outside go.PFV-PRET-I",
               free_translation = "We went out of the village.")
 ```
-b.
+
+    b)
 ```{r}
 gloss_example(transliteration = "Rasul-la / Rasul-le-rka tːura cara=ra sa-č-ib-da",
               glosses = "Rasul-GEN {/} Rasul-LOC-EL outside other=ADD hither-lead.PFV-PRET-I",
@@ -310,13 +326,15 @@ In example (@eighteen), the postposition *tːura* ‘outside’ in its spatial s
 Note that several adposition-like elements (typically with the meaning similar to ‘except’, ‘like’, ‘than’) in a number of languages in our sample require a nominal dependent, but the form of the dependent is determined by that of its contextual correlate (@nineteen).
 
 (@nineteen)	Tsez [@polinskydraft2015: 177]
-a.
+
+    a)
 ```{r, results='asis'}
 gloss_example(transliteration = "eli mariyat-**qo-r** ƛexuzaƛ’or c’alduqan-za-qo-r xabaryay-nč’i",
               glosses = "we Mariyat-**POSS-LAT** except student-OBL.PL-POSS-LAT talk-PST.W.NEG",
               free_translation = "We did not talk to the students except Mariyat.")
 ```
-b.
+
+    b)
 ```{r}
 gloss_example(transliteration = "eli ɣudes ħalt’-o-ɬ-xor b-ik’i-x ħat’an-**ƛ’o** ƛexuzaƛ’or",
               glosses = "we daily work-OBL-CONT-LAT I.PL-go-PRS Sunday-**SUP.ESS** except",
@@ -328,13 +346,15 @@ In example (@nineteen), the lexeme *ƛexuzaƛ’or* ‘except’ is used with a 
 Also, in Hunzib several (related) postpositions admit both comitative and dative (coinciding with inessive) dependents; the former combination brings about the meaning of motion along a landmark and the latter—through a landmark, as illustrated in (@twenty).
 
 (@twenty) Hunzib [@vandenberg1995: 166]
-a.
+
+    a)
 ```{r}
 gloss_example(transliteration = "xõx-ǧur rišo/gišo/tišo",
               glosses = "tree-COM upwards/downwards/horizontal_direction",
               free_translation = "(upwards/downwards) along the tree")
 ```
-b.
+
+    b)
 ```{r}
 gloss_example(transliteration = "xõx-i-i rišo/gišo/tišo",
               glosses = "tree-OBL-DAT upwards/downwards/horizontal_direction",
@@ -344,13 +364,15 @@ gloss_example(transliteration = "xõx-i-i rišo/gišo/tišo",
 In addition, different case forms might be required for nominal vs. pronominal dependents.
 
 (@twentyone) Ingush [@nichols2011: 402]
-a.
+
+    a)
 ```{r}
 gloss_example(transliteration = "ħa **c’en** **t’eħa** berkat=ʔa xurgdaːc",
               glosses = "you.SG.GEN house.GEN after abundance=and be.FUT.IV.NEG",
               free_translation = "There will be no abundance in your house.")
 ```
-b.
+
+    b)
 ```{r}
 gloss_example(transliteration = "so čy-iːqːaːča legjolaž jar yz **suːona** **t’eħa**",
               glosses = "{I} in-jump.PTCP.OBL die.FUT.II.SIM II.be.PST she {I}.DAT after",

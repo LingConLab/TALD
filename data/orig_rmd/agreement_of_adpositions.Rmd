@@ -96,7 +96,8 @@ gloss_example(transliteration = "**buɲaɹi** mirinayai ɹaga gunag",
 We would like to note a certain discrepancy between the Italian dialect of Ripano (spoken in Ripatransone, Marche) — one of the few languages that exhibits pervasive agreement with the nominative (including on adverbs) and East Caucasian: while it is true that adverbs (including spatial ones) agree in gender and number with the absolutive/nominative in both cases, (@six b), Ripano Italian prepositions apparently agree with their nominal dependent, (@six a). 
 
 (@six) Ripano Italian
-a.
+
+    a)
 ```{r, results='asis'}
 gloss_example(transliteration = "comma sembra er-e chepit-e **d-e** **sol-e** chə sə vəliev-u scallà n-e occ-e də vì **dop-a** **magnat-a**",
               glosses = "as always be.IMPF-3.F understood-SG.F of-SG.F alone-SG.F that REFL wanted.IMPF-3.SG.M warm.INF INDEF-SG.F drop-SG.F of wine.SG.M after-N eating-N",
@@ -104,7 +105,7 @@ gloss_example(transliteration = "comma sembra er-e chepit-e **d-e** **sol-e** ch
 ```
 [@lambertelli2003: 78] via [@dalessandro2020: 265]
 
-b.
+    b)
 ```{r}
 gloss_example(transliteration = "Ndovu va?",
               glosses = "where.M go.3.SG",

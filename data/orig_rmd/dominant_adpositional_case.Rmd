@@ -110,13 +110,15 @@ gloss_example(transliteration = "c’en-in ħatxe",
 The value ‘other’ includes Bagvalal (Andic) and Itsari Dargwa (Dargic) that we consider to have two equally dominant adpositional cases. In Bagvalal it is affective (used to mark the experiencer argument of some verbs, see @daniel2001: 140) and absolutive; in Itsari Dargwa it is genitive and absolutive. A remark is in order with respect to Itsari Dargwa postpositions: our sample includes both lexemes that are considered “postpositions proper” and most of the lexemes classified as “subordinative particles” in [@sumbatovamutalov2003]. The inclusion of the latter is important for comparability of the set of adpositions in Itsari Dargwa to those in other languages (“subordinative particles” are semantically and, in some cases, formally similar to lexemes classified as postpositions in other languages of the sample). We note that the genitive case is predominant among the “postpositions proper” and the absolutive (unmarked form) is obligatory for “subordinative particles”; therefore, when taken together, these two abstract cases emerge as the dominant ones.
 
 (@six) Bagvalal [@sosenskaja2001pp: 406-407]
-a.
+
+    a)
 ```{r}
 gloss_example(transliteration = "awal-a-ba č’ihi",
               glosses = "house-OBL-AFF above",
               free_translation = "above the house")
 ```
-b.	
+
+    b)	
 ```{r}
 gloss_example(transliteration = "č’e-ra sangut baƛ’i",
               glosses = "two-CARD chest.ABS between",
@@ -124,13 +126,15 @@ gloss_example(transliteration = "č’e-ra sangut baƛ’i",
 ```
 
 (@seven) Itsari Dargwa [@sumbatovamutalov2003: 56-58]
-a.
+
+    a)
 ```{r}
 gloss_example(transliteration = "qal-la sala-b",
               glosses = "house-GEN in_front-ESS(N)",
               free_translation = "in front of the house")
 ```
-b.
+
+    b)
 ```{r}
 gloss_example(transliteration = "miqː lehetːi",
               glosses = "wedding.ABS after",

@@ -80,7 +80,7 @@ div.section.level3.unnumbered {
    border: 1px solid black;
 }
 
-ol.example li ol {
-   list-style-type: lower-alpha;
+ol.example li ol li::marker{
+   content: counter(list-item, lower-alpha) ". ";
 }
 
