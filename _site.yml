@@ -6,7 +6,7 @@ output:
       in_header: ./html/include_head.html
       after_body: ./html/footer.html
     theme: lumen   
-    css: ./css/styles.css
+    css: ./styles.css
 navbar:
   title: "TALD"
   type: inverse

@@ -1,0 +1,54 @@
+---
+title: "Languages"
+link-citations: true
+csl: apa.csl
+output:
+  html_document:
+    include:
+      in_header: ./html/header_references.html
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE)
+
+library(tidyverse)
+library(DT)
+```
+
+
+```{r}
+map(list.files("data/orig_table", full.names = TRUE), function(file){
+  feature_dataset <- read_tsv(file)
+  
+  feature_dataset |> 
+    select(str_which(colnames(feature_dataset), 'value\\d{1,}_name$')) |> 
+    pivot_longer(cols = everything()) |> 
+    distinct() |>  
+    mutate(name = str_remove(name, '_name')) ->
+    columns_rename
+  
+  feature_dataset |> 
+    select(family, lang, idiom, matches("value\\d")) |> 
+    select(-matches("numeric")) |> 
+    rename_with(function(x){columns_rename$value[match(x, columns_rename$name)]}, matches('value\\d{1,}$')) |> 
+    select(-matches("value\\d{1,}\\_name")) |> 
+    mutate(across(everything(), as.character)) |> 
+    pivot_longer(names_to = "Feature", values_to = "Value", -c(family:idiom)) |> 
+    filter(!is.na(Value)) |> 
+    rename(Language=lang, 
+           Idiom = idiom,
+           Family = family)
+}) |> 
+  list_rbind() ->
+  all
+  DT::datatable(filter = 'top', 
+                escape = 4, 
+                rownames = FALSE,
+                options = list(
+                pageLength = 100, 
+                autoWidth = TRUE,
+                dom = 'fltpi'))
+```
+

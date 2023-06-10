@@ -5,6 +5,8 @@ test_that("Test column names and separator in data:
 I expect that each file in `../data/orig_table` is in `.tsv` format and have 
 columns listed in `expected_columns`", {
   expected_columns <- c("id", 
+                        "family",
+                        "group",
                         "lang", 
                         "idiom", 
                         "type", 

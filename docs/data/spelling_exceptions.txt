@@ -134,6 +134,7 @@ Glottolog
 Godoberi
 Godunova
 Golosov
+Guaraní
 grammaticalization
 grammaticalize
 grammaticalized
@@ -145,6 +146,7 @@ HPL
 HSE
 Hunzib
 Huppuq'
+Huppuq
 Ilya
 Imnajšvili
 imperfective
@@ -242,6 +244,7 @@ Nogai
 Nogina
 nominal
 nominalize
+nominalized
 NRU
 obstruent
 Ochs
@@ -258,6 +261,7 @@ perfective
 perfectivity
 periphrastically
 pharyngeal
+pharyngealized
 pharyngealisation
 pharyngealization
 pharyngealize
@@ -348,3 +352,4 @@ Zakirova
 Zaqatala
 zenodo
 Zilo
+преруптивный
