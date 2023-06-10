@@ -9,7 +9,11 @@ test_that("Test spellingin chapters", {
                       "../README.md", "../about.Rmd", "../team.Rmd", 
                       "../index.Rmd", "../changes.Rmd")
   
-  wrong_spelling <- map_dfr(files_to_check[-69], function(rmd){
+  do_not_check <- c("../data/orig_rmd/optative.Rmd")
+   
+  files_to_check <- files_to_check[files_to_check != do_not_check]
+  
+  wrong_spelling <- map_dfr(files_to_check, function(rmd){
     spelling::spell_check_files(rmd, ignore = ignore_spelling)
   })
   
