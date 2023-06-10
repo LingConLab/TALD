@@ -1,0 +1,58 @@
+
+## Introduction
+This chapter is dedicated to the presence of the numeral marker in the numeral ‘1’ across the East Caucasian family and neighboring languages.
+
+## Results
+This map shows the presence or absence of the numeral marker in the cardinal ‘1’. This cardinal differs from other simple numerals in morphology in most East Caucasian languages. Usually, the numeral marker is not used with the root ‘1’. It is often either absent or replaced with a class suffix (in cases where the general numeral marker is not the class suffix). Examples (@sanzhi_1_6) and (@godoberi_1_3) show possible differences between ‘1’ and adjacent simple cardinals.
+
+(@sanzhi_1_6) Sanzhi Dargwa [@forker2020dargwa: 130]
+```{r, echo=FALSE}
+gloss_example(transliteration = "ca",
+              glosses = "one",
+              free_translation = "1"
+)
+```
+```{r, echo=FALSE}
+gloss_example(transliteration = "urek:-al",
+              glosses = "six-NUM",
+              free_translation = "6"
+)
+```
+
+(@godoberi_1_3) Godoberi [@tatevosov1996: 29]
+```{r, echo=FALSE}
+gloss_example(transliteration = "c’e-b",
+              glosses = "one-CM",
+              free_translation = "1"
+)
+```
+```{r, echo=FALSE}
+gloss_example(transliteration = "ɬabu-da",
+              glosses = "three-NUM",
+              free_translation = "3"
+)
+```
+
+However, in Lak and some of the Lezgic languages the numeral ‘1’ carries the same numeral marker as all other simple numerals:
+
+(@) Mishlesh Tsakhur [@kibrik1999: 154]
+```{r, echo=FALSE}
+gloss_example(transliteration = "sa=b-le",
+              glosses = "one=CM-NUM",
+              free_translation = "1"
+)
+```
+```{r, echo=FALSE}
+gloss_example(transliteration = "xo=b-le",
+              glosses = "five=CM-NUM",
+              free_translation = "5"
+)
+```
+
+## Distribution
+The numeral marker is generally absent in the numeral ‘1’, with the exception of several languages concentrated in the southern Dagestan: Budukh and Kryz, Tsakhur, Tabasaran (Lezgic), and Lak.
+
+## List of glosses
+`r add_gloss("CM")` — class marker; `r add_gloss("NUM")` — numeral marker
+
+## References

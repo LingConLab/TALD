@@ -1,0 +1,21 @@
+## {-}
+
+General chapter: [Phonology](phonology.html)
+
+The presence of velar fricatives is a complicated feature, since many Russian scholars tend to merge the voiced velar fricative *ɣ* and voiced velar stop *ɡ*. Sometimes the voiced velar fricative is mixed (or positionally distributed) with the voiced uvular fricative *ʁ*, and, as a result, scholars provide a merged velar-uvular place of articulation or choose one of them.
+
+[Table 1](#t1) below shows the inventories of velar fricatives. As we can see from the table as well as the map, the most common inventory is just *x*. There are 11 languages that lack velar fricatives, including all non-East Caucasian languages (except Azerbaijani). Eight languages have both voiced and voiceless fricatives. Other systems are rare.
+
+##### Table 1. Inventories of velar fricatives {#t1 -}
+
+```{r}
+library(tidyverse)
+read_tsv("../orig_table/velar_fricatives.tsv") %>% 
+  group_by(value1) %>% 
+  summarise(langs = str_c(unique(lang), collapse = ", ")) %>% 
+  ungroup() %>% 
+  slice(c(4, 5, 7, 6, 2, 3, 1)) %>% 
+  rename(`fricative inventory` = value1,
+         languages = langs) %>% 
+  knitr::kable()
+```
