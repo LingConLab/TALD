@@ -33,7 +33,7 @@ read_tsv("https://raw.githubusercontent.com/sverhees/master_villages/master/data
 # convert .bib.tsv to .bib -------------------------------------------------
 library(bib2df)
 
-map(list.files("data/orig_bib_tsv", full.names = TRUE), function(bib_tsv){
+walk(list.files("data/orig_bib_tsv", full.names = TRUE), function(bib_tsv){
   read_tsv(bib_tsv, progress = FALSE, show_col_types = FALSE) |>  
     mutate(TITLE = ifelse(is.na(TITLE_TRANSLATION), TITLE, str_c(TITLE, " [", TITLE_TRANSLATION, "]")),
            BOOKTITLE = ifelse(is.na(BOOKTITLE_TRANSLATION), BOOKTITLE, str_c(BOOKTITLE, " [", BOOKTITLE_TRANSLATION, "]"))) |>
@@ -67,18 +67,16 @@ cyr_latin_coresp <- "
     :: cyrillic-latin;
 "
 
-s <- map(c(list.files("data/orig_bib", full.names = TRUE), "data/bibliography.bib"), function(i){
+walk(c(list.files("data/orig_bib", full.names = TRUE), "data/bibliography.bib"), function(i){
   read_lines(i) |> 
     stri_trans_general(cyr_latin_coresp, rules=TRUE) |> 
     write_lines(i)
 })
 
-rm(s)
-
 # embrace uppercased letters with curly braces ----------------------------
 regular_expression <- str_c("((?<=[ \\[\\-\\(\\</])[", str_c(c(LETTERS, "Ž", "Č", "Š", "Ë", "É"), collapse = ""), "])")
 
-map(c(list.files("data/orig_bib", full.names = TRUE), "data/bibliography.bib"), function(i){
+walk(c(list.files("data/orig_bib", full.names = TRUE), "data/bibliography.bib"), function(i){
   if(file.info(i)$size > 7){
   bib2df(file = i) |> 
     mutate(TITLE = ifelse(!is.na(TITLE), 
@@ -140,7 +138,7 @@ first_authors <- tolower(str_remove(map(str_split(features$author, " "), 2), ","
 
 # create orig_rmd/..._map.Rmd files ----------------------------------------------------
 
-s <- map(rmd_filenames[str_detect(rmd_filenames, "_map.Rmd")], function(i){
+walk(rmd_filenames[str_detect(rmd_filenames, "_map.Rmd")], function(i){
   
   read_tsv(str_c("data/orig_table/", 
                  str_remove(str_remove(i, "_map.Rmd"), "\\d{1,}_"),
@@ -435,8 +433,6 @@ feature_dataset |>
   )
 })
 
-rm(s)
-
 # create Rmd files ---------------------------------------------------------
 options(ymlthis.rmd_body = "
 ```{r, include = FALSE}
@@ -445,7 +441,7 @@ library(lingglosses)
 ```
 ")
 
-map(seq_along(rmd_filenames), function(i){
+walk(seq_along(rmd_filenames), function(i){
   ymlthis::yml_empty() |> 
     ymlthis::yml_title(ifelse(str_detect(rmd_filenames[i], "_map.Rmd"), 
                               str_c(features$title[i], " (Maps & Data)"), 
@@ -520,8 +516,8 @@ map(seq_along(rmd_filenames), function(i){
     "",
     ifelse(str_detect(rmd_filenames[i], "_map.Rmd"), 
            str_c(
-             "```{r, results='asis'}",
-             "PrintBibliography(bib)",
+             "```{r, results='asis'}\n",
+             "PrintBibliography(bib)\n",
              "```"),
            ""),
     ""),

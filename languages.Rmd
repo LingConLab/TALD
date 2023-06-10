@@ -5,7 +5,7 @@ csl: apa.csl
 output:
   html_document:
     include:
-      in_header: ./html/header_references.html
+      in_header: ./html/header_changes.html
 editor_options: 
   chunk_output_type: console
 ---
@@ -20,7 +20,19 @@ library(DT)
 
 ```{r}
 map(list.files("data/orig_table", full.names = TRUE), function(file){
-  feature_dataset <- read_tsv(file)
+  readxl::read_xlsx("data/contributors.xlsx") |> 
+    filter(render == 1) |> 
+    rowwise() |> 
+    mutate(id_0 = sprintf(str_c("%0", nchar(max(id))+1, "d_"), id),
+           Chapter = str_c("<a href='",
+                                str_c(id_0, filename),
+                                ".html'>",
+                                title,
+                                "</a>")) |> 
+    select(filename, Chapter) ->
+    features
+  
+  feature_dataset <- read_tsv(file, show_col_types = FALSE)
   
   feature_dataset |> 
     select(str_which(colnames(feature_dataset), 'value\\d{1,}_name$')) |> 
@@ -30,25 +42,29 @@ map(list.files("data/orig_table", full.names = TRUE), function(file){
     columns_rename
   
   feature_dataset |> 
-    select(family, lang, idiom, matches("value\\d")) |> 
+    select(lang, idiom, matches("value\\d")) |> 
     select(-matches("numeric")) |> 
     rename_with(function(x){columns_rename$value[match(x, columns_rename$name)]}, matches('value\\d{1,}$')) |> 
     select(-matches("value\\d{1,}\\_name")) |> 
     mutate(across(everything(), as.character)) |> 
-    pivot_longer(names_to = "Feature", values_to = "Value", -c(family:idiom)) |> 
+    pivot_longer(names_to = "Feature", values_to = "Value", -c(lang:idiom)) |> 
     filter(!is.na(Value)) |> 
     rename(Language=lang, 
-           Idiom = idiom,
-           Family = family)
+           Idiom = idiom) |> 
+    mutate(filename = str_remove(file, "data/orig_table/"),
+           filename = str_remove(filename, ".tsv$")) |> 
+    left_join(features, by = join_by(filename)) |> 
+    select(Language, Idiom, Chapter, Feature, Value)
 }) |> 
-  list_rbind() ->
-  all
+  list_rbind() |> 
+  mutate(across(everything(), as.factor)) |> 
+  arrange(Idiom, Language) |>  
   DT::datatable(filter = 'top', 
-                escape = 4, 
+                escape = 4,
                 rownames = FALSE,
                 options = list(
-                pageLength = 100, 
-                autoWidth = TRUE,
-                dom = 'fltpi'))
+                  pageLength = 100, 
+                  autoWidth = TRUE,
+                  dom = 'fltpi'))
 ```
 

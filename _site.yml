@@ -16,6 +16,8 @@ navbar:
     - text: "Features"
       icon: fa-atlas
       href: ./features.html
+    - text: "Languages"
+      href: ./languages.html
     - text: "Changes"
       href: ./changes.html
     - text: "References"
