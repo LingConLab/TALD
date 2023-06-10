@@ -9,10 +9,6 @@ output:
 bibliography: "data/bibliography.bib"
 ---
 
-***
-
-# Grammars, dictionaries and other sources
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, message = FALSE)
 
