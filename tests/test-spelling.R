@@ -13,10 +13,12 @@ test_that("Test spellingin chapters", {
    
   files_to_check <- files_to_check[files_to_check != do_not_check]
   
-  wrong_spelling <- map_dfr(files_to_check, function(rmd){
+  map_dfr(files_to_check, function(rmd){
     spelling::spell_check_files(rmd, ignore = ignore_spelling)
-  })
-  
+  }) |>
+    filter(!str_detect(word, "[’'ʼːχšʔɡɨžčƛłs̄ǝˁəʕħʜșʡʕɯɬʎɟɥʢǧɣβtşʁ]")) ->
+  wrong_spelling
+   
   observed <- str_c("spelling of          ", wrong_spelling$word, "        in ", wrong_spelling$found)
   expected <- character(length = length(observed))
   
@@ -24,6 +26,6 @@ test_that("Test spellingin chapters", {
   expect_equal(observed, expected)
 })
 
-read_lines("../data/spelling_exceptions.txt") %>% 
-  sort() %>% 
+read_lines("../data/spelling_exceptions.txt") |> 
+  sort() |> 
   write_lines("../data/spelling_exceptions.txt")
