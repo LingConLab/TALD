@@ -202,16 +202,15 @@ In Lak the auxiliary can combine with both an infinitive (perfective) and a part
 (@lak) Lak [@kazenin2013: 108]
 
     (a)
-```{r}
+```{r, results='asis'}
 gloss_example(transliteration = "Jala ga butta-l ∅-uxx-an ∅-uv-ssa-r Shurah-ssa realny učilish-aluwun",
               glosses = "after 3SG father-GEN.SG M-enter.PFV-INF M-do.PST-ADJ-3SG Buynaksk-ADJ real school-ILL",
-              free_translation = "Then father sent him to Buynaksk Realschule",
-              line_length = 100)
+              free_translation = "Then father sent him to Buynaksk Realschule")
 ```
     (b)
 ```{r}
-gloss_example(transliteration = "Turknal mu bilajat cixwa b-urug<la>g-i b-u-w-nu b-u-r",
-              glosses = "turkey this country REFL N-watch<IPFV>.PTCP-3SG N-do.PST-N-PST N-AUX.PRES-3SG",
+gloss_example(transliteration = "Turknal mu bilajat cixwa b-urug‹la›g-i b-u-w-nu b-u-r",
+              glosses = "turkey this country REFL N-watch‹IPFV›.PTCP-3SG N-do.PST-N-PST N-AUX.PRES-3SG",
               free_translation = "Turkey made this country look at itself",
               line_length = 100)
 ```
