@@ -135,10 +135,7 @@ spelling of          ida        in numeral_origin.Rmd:53
 spelling of          le        in numeral_origin.Rmd:64
 spelling of          na        in numeral_origin.Rmd:74,74
 spelling of          ra        in numeral_origin.Rmd:74
-spelling of          Calude        in numeral_regularity.Rmd:6
-spelling of          Verkerk        in numeral_regularity.Rmd:6
 spelling of          nV        in numeral_root_hundred.Rmd:6
-spelling of          Guaraní        in ordinals.Rmd:35
 spelling of          Huppuq        in ordinals.Rmd:19,26
 spelling of          nominalized        in ordinals.Rmd:35
 spelling of          Yine        in ordinals.Rmd:35
@@ -188,12 +185,5 @@ spelling of          une        in standard_of_comparison.Rmd:46,141
 spelling of          upro        in standard_of_comparison.Rmd:227
 spelling of          wor        in standard_of_comparison.Rmd:200,216
 spelling of          zi        in standard_of_comparison.Rmd:59,146
-spelling of          Qax        in voiceless_obstruents.Rmd:5
 spelling of          преруптивный        in voiceless_obstruents.Rmd:7
-spelling of          Irina        in team.Rmd:18
-spelling of          Pavel        in team.Rmd:18
-spelling of          Yury        in team.Rmd:28
-spelling of          Zaira        in team.Rmd:18
-spelling of          Zemicheva        in team.Rmd:18
-spelling of          Zerzele        in team.Rmd:18
 The BibTeX entry          maisak2008          present in the .Rmd, but absent in the causatives.bib

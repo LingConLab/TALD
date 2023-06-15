@@ -49,6 +49,7 @@ Botlikh
 Budukh
 Buynaksk
 calqued
+Calude
 caritive
 Chadic
 Chamalal
@@ -137,6 +138,7 @@ Golosov
 grammaticalization
 grammaticalize
 grammaticalized
+Guaraní
 Hagège
 headedness
 Hinuq
@@ -162,6 +164,7 @@ Ingush
 Ingushetia
 interessive
 intransitivity
+Irina
 Isa
 isoglosses
 Itsari
@@ -253,6 +256,7 @@ Pama
 Panova
 participal
 Patimat
+Pavel
 perceivably
 perfective
 perfectivity
@@ -279,6 +283,7 @@ prohibitive
 pronominal
 proto
 prox
+Qax
 quotative
 reportative
 resultative
@@ -338,13 +343,18 @@ unticking
 unwitnessed
 Varvara
 Verhees
+Verkerk
 vigesimally
 Violetta
 VOT
 WALS
 wordforms
+Yury
 Zadykian
+Zaira
 Zakirova
 Zaqatala
+Zemicheva
 zenodo
+Zerzele
 Zilo
