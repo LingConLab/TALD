@@ -40,7 +40,6 @@ spelling of          irq        in causatives.Rmd:128,345
 spelling of          ize        in causatives.Rmd:356
 spelling of          kar        in causatives.Rmd:123
 spelling of          ker        in causatives.Rmd:123
-spelling of          Shiraliev        in causatives.Rmd:120
 spelling of          ub        in causatives.Rmd:340
 spelling of          uk        in causatives.Rmd:248
 spelling of          un        in causatives.Rmd:336
@@ -191,3 +190,10 @@ spelling of          wor        in standard_of_comparison.Rmd:200,216
 spelling of          zi        in standard_of_comparison.Rmd:59,146
 spelling of          Qax        in voiceless_obstruents.Rmd:5
 spelling of          преруптивный        in voiceless_obstruents.Rmd:7
+spelling of          Irina        in team.Rmd:18
+spelling of          Pavel        in team.Rmd:18
+spelling of          Yury        in team.Rmd:28
+spelling of          Zaira        in team.Rmd:18
+spelling of          Zemicheva        in team.Rmd:18
+spelling of          Zerzele        in team.Rmd:18
+The BibTeX entry          maisak2008          present in the .Rmd, but absent in the causatives.bib
