@@ -5,11 +5,11 @@ library(lingglosses)
 
 ## Introduction
 
-The causative construction is an expression, the meaning of which can be schematically represented as "A causes B to X", where A and B are nominal arguments and X is a predicate.
+The causative construction is an expression whose meaning can be schematically represented as "A causes B to X", where A and B are nominal arguments and X is a predicate.
 Causative meaning in East Caucasian languages can be expressed in multiple ways: by means of suffixation (e.g. Bagvalal (@bagvalal)), using light verb constructions (e.g. Kryz (@kryz)), and various intermediate constructions (e.g. Bezhta (@bezhta)). Here we define light verb constructions as:
 
 - consisting of two verbs: a lexical verb and an auxiliary
-- where the verbs are (or at least assumed to be) independent wordforms (see below)
+- where the verbs are (or at least assumed to be) independent wordforms (see below).
 
 Thus, periphrastic constructions and complement-taking verbs will be categorized as light verb constructions, and any construction with two identifiable verb stems that is represented as one wordform will be considered intermediate between a suffix and light verb construction.  
 
@@ -43,7 +43,7 @@ gloss_example(transliteration = "ija-gol-al",
               free_translation = "force to cry")
 ```
 
-Cross-linguistically causatives are commonly expressed morphologically (mostly by affixation) or only by means of a periphrastic construction. According to Song [-@song2013a],  compounds (i.e. monoclausal multiverb constructions) are rare. In East Caucasian languages these types of constructions seem to be generally common and as such they are also used in certain languages as the primary strategy of forming causative expressions.
+Cross-linguistically causatives are commonly expressed morphologically (mostly by affixation) or by means of a periphrastic construction. According to Song [-@song2013a],  compounds (i.e. monoclausal multiverb constructions) are rare. In East Caucasian languages these types of constructions seem to be generally common and as such they are also used in certain languages as the primary strategy of forming causative expressions.
 
 As  mentioned in [@song2013b], practically every language has a periphrastic causative construction. We believe this to be true for Caucasian languages as well, therefore we assume that the absence of a periphrastic construction for certain languages in the sample is likely due to missing data.
 
@@ -51,7 +51,7 @@ The goal of this chapter is to is to classify the types of constructions which c
 
 ## Results
 
-Each causative construction was classified as either a suffix[^1], a light verb or a suffixal auxiliary[^2]. Given the fact that the languages present more of spectrum than a set of classes in regards to the extent to which the causative construction is grammaticalized, the following criteria were used to draw boundaries between the proposed classes:
+Each causative construction was classified as either a suffix[^1], a light verb or a suffixal auxiliary[^2]. Given the fact that the languages present more of a spectrum than a set of classes in regards to the extent to which the causative construction is grammaticalized, the following criteria were used to draw boundaries between the proposed classes:
 
 [^1]:  With the exception of Budukh, which has a causative classified as "shortening+vowel alternation" and Tsugni Dargwa which has a causative classified as "stress shift".
 
@@ -107,9 +107,9 @@ gloss_example(transliteration = "murad-li urči-cːe hin d-erčː-**í**b",
               free_translation = "Murad gave the horse water to drink")
 ```  
 
-In several languages the causative suffix is fused with tense suffixes, for example in  Akhvakh:
+In several languages the causative suffix is fused with tense suffixes, for example in  Akhvakh (@akhvakh):
 
-(@) Akhvakh [@magomedbekova1967: 107]
+(@akhvakh) Akhvakh [@magomedbekova1967: 107]
 ```{r}
 gloss_example(transliteration = "q'in-āri",
               glosses = "sew-CAUS.PST",
@@ -118,16 +118,16 @@ gloss_example(transliteration = "q'in-āri",
 ```
 
 Turkic languages (Nogai, Kumyk, Azerbaijani) possess multiple sets of transitivizing suffixes, without one necessarily expressing exclusively causative meaning. 
-In Khangishiev [-@khangishiev2014] (Kumyk) it is noted that these suffixes are distributed lexically, however the motivation behind the choice of suffix is not transparent (for example different suffixes can be used for the same verb in different dialects) and it is speculated that the distribution was once tied to the transitivity and semantics of the verb. It is also noted that the *-tɯr;-tir;-tur;-tyr,  -ʁuz;-giz, -ʁar;-ger, -set, -dar* suffixes are much more restricted in their use. 
-In Shiraliev & Sevortyan [-@shiralievsevortyan1971] (Azerbaijani) *dɯr/dir* and *-t* are described separately as causative suffixes and the rest are mentioned as transivitizing suffixes. 
-In Baskakov [-@baskakov1940] (Nogai) these sets of suffixes are simply listed without any comments on their distribution. In Baskakov [-@baskakov1973] it is noted that the suffix *-kar/-ker* is archaic. 
-The suffixes that were noted as rare (or not described as causative in the case of Azerbaijani) are not in the database (they are only mentioned in the "comment" column). 
+In [@khangishiev2014] it is noted that in Kumyk these suffixes are distributed lexically, but the motivation behind the choice of the suffix is not transparent (for example, different suffixes can be used for the same verb in different dialects), and it is claimed that their distribution was once related to the transitivity and semantics of the verb. It is also noted that the *-tɯr;-tir;-tur;-tyr,  -ʁuz;-giz, -ʁar;-ger, -set, -dar* suffixes are much more restricted in their use. 
+In [@shiralievsevortyan1971] the Azerbaijani suffixes *dɯr/dir* and *-t* are described separately as causative suffixes, whereas the other suffixes are described as transivitizing suffixes. 
+In [@baskakov1940] these sets of suffixes in Nogai are simply listed without any comments on their distribution. In [@baskakov1973] it is noted that the suffix *-kar/-ker* is archaic. 
+The suffixes that were described as rare (or not described as causative in the case of Azerbaijani) are not in the database (they are only mentioned in the "comment" column). 
 
-The Dargwa varieties share a common suffix *-aq* (cf. [Table 1](#t1)), which in the case of Kubachi is said to be the verb 'overcome', which attaches to the stem [@magometov1963: 214]. There is reason to doubt that the lexical origin of the Kubachi causative is so transparent, as it is practically identical to the suffix attested in other Dargwa varieties, in addition to the fact that there are multiple potential candidates[^3] for this suffix's source of grammaticalization (Michael Daniel, personal communication). Given that it is described as a verb in the source, however, the Kubachi causative  is classified as a suffixal auxiliary.
+The Dargwa varieties share a common suffix *-aq* (cf. [Table 1](#t1)), which in the case of Kubachi (@kubachi) is said to be the verb 'overcome', which attaches to the stem [@magometov1963: 214]. There are reasons to doubt that the lexical origin of the Kubachi causative is that transparent, as it is practically identical to the suffix attested in other Dargwa varieties. In addition, there are multiple potential candidates[^3] for the source of grammaticalization of this suffix (Michael Daniel, p.c.). However, given that it is described as a verb in the source, the Kubachi causative  is classified as a suffixal auxiliary.
 
-[^3]: For example in [-@daniel2019: 97] it is speculated to be derived from the verb *-aq(ib) ~ -irq-* ‘let go’.
+[^3]: For example, in [@daniel2019: 97] it is claimed that this suffix is derived from the verb *-aq(ib) ~ -irq-* ‘let go’.
 
-(@) Kubachi [@magometov1963: 214]
+(@kubachi) Kubachi [@magometov1963: 214]
 
     a)
 ```{r}
@@ -146,21 +146,21 @@ gloss_example(transliteration = "bis-aq-ij",
  
 #### **Table 1.** Dargwa causative suffixes {#t1 -}
  
-| Dargwa variety | Causative suffix |
-|:---------------|:-----------------|
-| Mehweb         | -aq-;-aχaq-      |
-| Sanzhi         | -aq;-aˁq-        |
-| Kubachi        | -aq-ij;-iq-ij    |
-| Tanty          | -aq-             |
-| Itsari         | -aq-;-aˁq-       |
+| Dargwa variety | Causative suffix  |
+|:---------------|:------------------|
+| Mehweb         | -aq-; -aχaq-      |
+| Sanzhi         | -aq; -aˁq-        |
+| Kubachi        | -aq-ij; -iq-ij    |
+| Tanty          | -aq-              |
+| Itsari         | -aq-; -aˁq-       |
 
 
 ### Intermediate forms ("suffixal auxiliaries")
 
 Interestingly, a number of languages showcase an intermediate form: a light verb construction at various stages of grammaticalization. There are 10 languages that have causative constructions classified as suffixal auxiliaries (cf. [Table 2](#t2)).
-In addition to this, there are cases like Avar (EC > Avar), where the light verb construction can be shortened/fused.
+In addition to this, there are cases like Avar (EC > Avar), where the light verb construction can be shortened/fused (@avar).
 
-(@) Avar [@forkerdraft2020: 16]
+(@avar) Avar [@forkerdraft2020: 16]
 
     a)  
 ```{r}
@@ -197,9 +197,9 @@ gloss_example(transliteration = "heq'e-z-a-b-ize",
 
 At least 21 languages have a light verb or periphrastic construction. In the vast majority of the constructions classified here the lexical verb is in the infinitive, with a few exceptions.
 
-In Lak the the auxiliary can combine with both an infinitive (perfective) and a participle (imperfective).
+In Lak the auxiliary can combine with both an infinitive (perfective) and a participle (imperfective) (@lak).
 
-(@) Lak [@kazenin2013: 108]
+(@lak) Lak [@kazenin2013: 108]
 
     (a)
 ```{r}
@@ -216,18 +216,18 @@ gloss_example(transliteration = "Turknal mu bilajat cixwa b-urug<la>g-i b-u-w-nu
               line_length = 100)
 ```
 
-In Kryz the auxiliary 'do' combines with a participle. 
+In Kryz the auxiliary 'do' combines with a participle (@kryztwo). 
 
-(@) Kryz [@authier2009: 173]
+(@kryztwo) Kryz [@authier2009: 173]
 ```{r}
 gloss_example(transliteration = "ꭓinib.c-ir furi ʕu-r-ğar-a ar-id",
               glosses = "wife-ERG man PV-M-believe-VA do-AOR.M",
               free_translation = "The woman persuaded her husband.",)
 ```
 
-In Bagvalal the auxiliary verb forms two constructions: one with the lexical verb in the infinitive from the imperfective stem, the other with the lexical verb in the infinitive from the potential stem. The second construction has permissive meaning: 
+In Bagvalal the auxiliary verb forms two constructions: one with the lexical verb in the infinitive from the imperfective stem, the other with the lexical verb in the infinitive from the potential stem (@bagvalal). The second construction has permissive meaning: 
 
-(@) Bagvalal [@kibrik2001: 385]
+(@bagvalal) Bagvalal [@kibrik2001: 385]
 
      (a)
 ```{r}
@@ -245,7 +245,7 @@ gloss_example(transliteration = "ima-š:u-r anwar rasul-i-b as kʷaꭓ:-a: w-eš
               line_length = 100)
 ```
 
-It is important to note that many languages employ multiple strategies in coding causative meaning, which in turn are often distributed based on semantic (direct/indirect or permissive) or morphological (derived from transitive/intransitive verbs or adjectives) properties. For example, in Lezgian the suffix *-(a)r-* is used with intransitive verbs (@lezgian)(a) and the light verb construction with the verb *tun* 'leave' is used with transitive verbs (@lezgian)(b), in Tsez the suffix *-r-/-ir-* is used for verbs (@tsez)(a) and the suffix *-ik'-/-uk'-* is used for adjectives (@tsez)(b), in Mehweb Dargwa the light verb construction with the verb *aʔas* 'drive' has directive meaning (@mehweb)(a), with the verb *CM-aqas* 'leave' the meaning is permissive (@mehweb)(b) and the construction with the verb *CM-aq’as* 'do' is used with adjectives (@mehweb)(c).
+It is important to note that many languages employ multiple strategies in coding causative meaning, which in turn are often distributed based on semantic (direct/indirect or permissive) or morphological (derived from transitive/intransitive verbs or adjectives) properties. For example, in Lezgian the suffix *-(a)r-* is used with intransitive verbs (@lezgian)(a) and the light verb construction with the verb *tun* 'leave' is used with transitive verbs (@lezgian)(b). In Tsez the suffix *-r-/-ir-* is used for verbs (@tsez)(a) and the suffix *-ik'-/-uk'-* is used for adjectives (@tsez)(b). In Mehweb Dargwa the light verb construction with the verb *aʔas* 'drive' has directive meaning (@mehweb)(a), whereas with the verb *CM-aqas* 'leave' the meaning is permissive (@mehweb)(b); the construction with the verb *CM-aq’as* 'do' is used with adjectives (@mehweb)(c).
 
 (@lezgian) Lezgian [@haspelmath1993: 163, 358]
 
@@ -307,7 +307,7 @@ gloss_example(transliteration = "aꭓaj-ni musa zuba w-aq’-ib",
 
 ### Auxiliary semantics
 
-The most common verbs found in causative constructions were 'do' (13), 'leave' (8) and 'give' (5). The verb 'let' is used in Khwarshi (EC > Tsezic), Bagvalal (EC > Andic), Karata (EC > Andic) and Tindi (EC > Andic). In Bezhta (EC > Tsezic), Botlikh (EC > Andic) and Godoberi (EC > Andic) the verb 'put' is used[^5]. There are a number of verbs attested in only one language, namely, "overcome" (Kubachi Dargwa), "become" (Botlikh), "direct" (Akhvakh), "sell" (Khinalug), "use" (Bezhta). I suspect that verbs glossed as 'force' have that meaning because they form causative constructions and as such might have other core meanings. Not all idioms have available dictionaries, or the verb in question is not mentioned in them, so I have not been able to verify this. The full list of auxiliaries and their semantics is presented in the table below:
+The most common verbs found in causative constructions were 'do' (13), 'leave' (8) and 'give' (5). The verb 'let' is used in Khwarshi (EC > Tsezic), Bagvalal (EC > Andic), Karata (EC > Andic) and Tindi (EC > Andic). In Bezhta (EC > Tsezic), Botlikh (EC > Andic) and Godoberi (EC > Andic) the verb 'put' is used[^5]. There are a number of verbs attested in only one language, namely, "overcome" (Kubachi Dargwa), "become" (Botlikh), "direct" (Akhvakh), "sell" (Khinalug), "use" (Bezhta). I suspect that verbs glossed as 'force' have that meaning because they form causative constructions, but they might have other core meanings. Not all idioms have available dictionaries, or, in some cases, the verb in question is not mentioned in them, so I have not been able to verify this. The full list of auxiliaries and their semantics is presented in [Table 3](#t3):
 
 [^5]: It should be noted that the verbs used in these constructions are often very polysemous, so the meanings stated here and in the database can be somewhat subjective.
 
@@ -363,10 +363,10 @@ The most common verbs found in causative constructions were 'do' (13), 'leave' (
 
 ## Distribution
 
-Since most languages have multiple causative constructions, the types shown on the map  are "morphological" if a morphological (suffixal + Budukh vowel alternation) causative is present, then "suffixal auxiliary" if a suffixal auxiliary is present, and "light verb" if only light verb constructions are attested for that language.
-All Andic, Tsezic, Dargwa (except Kubachi) and Turkic languages have a morphological causative. Nakh languages use suffixal auxiliaries. Lezgic languages mostly use light verb constructions, Rutul and Tsakhur have suffixal auxiliaries and Budukh, Lezgian and Udi[^7] have morphological causatives. There does not seem to be any significant areal distribution.
+Most languages have multiple causative constructions. On [Map 1](http://lingconlab.ru/dagatlas/050_causatives_map.html#m1) the label "morphological" is used for languages in which a morphological causative is present, "suffixal auxiliary" for languages in which a suffixal auxiliary is present, and "light verb" for languages in which only light verb constructions are attested.
+All Andic, Tsezic, Dargwa (except Kubachi) and Turkic languages have a morphological causative. Nakh languages use suffixal auxiliaries. Lezgic languages mostly use light verb constructions, but Rutul and Tsakhur have suffixal auxiliaries, while Budukh, Lezgian and Udi[^7] have morphological causatives. There does not seem to be any significant areal distribution.
 
-[^7]:  *-d-* in Udi, which is classified as a suffix here, combines with the infinitive of the verb (though other suffixes may follow it) and is described as an auxiliary verb (Maisak, 2008) The reason it is classified as a suffix here is that it is bound to the lexical verb and lacks a transparent lexical origin.
+[^7]:  *-d-* in Udi, which is classified as a suffix here, combines with the infinitive of the verb (though other suffixes may follow it) and is described as an auxiliary verb [@maisak2008]. The reason why it is classified as a suffix here is that it is bound to the lexical verb and lacks a transparent lexical origin.
 
 ## List of glosses {-}
 
