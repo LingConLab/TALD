@@ -97,14 +97,14 @@ gloss_example(transliteration = "senꭓ-i",
 ```{r}
 gloss_example(transliteration = "murad-li hin d-**e**rčː-ib",
               glosses = "Murad-ERG water NPL-drink.PFV-PRET",
-              free_translation = "‘Murad drank the water")
+              free_translation = "Murad drank the water.")
 ```  
     
     b) 
 ```{r}
 gloss_example(transliteration = "murad-li urči-cːe hin d-erčː-**í**b",
               glosses = "Murad-ERG horse-INTER water NPL-drink.PFV-PRET",
-              free_translation = "Murad gave the horse water to drink")
+              free_translation = "Murad gave the horse water to drink.")
 ```  
 
 In several languages the causative suffix is fused with tense suffixes, for example in  Akhvakh (@akhvakh):
@@ -205,13 +205,13 @@ In Lak the auxiliary can combine with both an infinitive (perfective) and a part
 ```{r, results='asis'}
 gloss_example(transliteration = "Jala ga butta-l ∅-uxx-an ∅-uv-ssa-r Shurah-ssa realny učilish-aluwun",
               glosses = "after 3SG father-GEN.SG M-enter.PFV-INF M-do.PST-ADJ-3SG Buynaksk-ADJ real school-ILL",
-              free_translation = "Then father sent him to Buynaksk Realschule")
+              free_translation = "Then father sent him to Buynaksk Realschule.")
 ```
     (b)
 ```{r}
 gloss_example(transliteration = "Turknal mu bilajat cixwa b-urug‹la›g-i b-u-w-nu b-u-r",
               glosses = "turkey this country REFL N-watch‹IPFV›.PTCP-3SG N-do.PST-N-PST N-AUX.PRES-3SG",
-              free_translation = "Turkey made this country look at itself",
+              free_translation = "Turkey made this country look at itself.",
               line_length = 100)
 ```
 
@@ -259,7 +259,7 @@ gloss_example(transliteration = "ksu-r-un",
 ```{r}
 gloss_example(transliteration = "Ada ča-w ∅ ixtilat-ar aqwazar-iz ta-da-j.",
               glosses = "he.ERG we-ADEL (ERG) conversation-PL stop-INF cause-FUT-PST",
-              free_translation = "He would make us stop the conversations",
+              free_translation = "He would make us stop the conversations.",
               line_length = 100)
 ```
 
@@ -285,7 +285,7 @@ gloss_example(transliteration = "tatan-ik'-a",
 ```{r}
 gloss_example(transliteration = "pat’imat-ini anwar uʕq’-es aʔ-ib.",
               glosses = "Patimat-ERG Anwar M.go:PFV-INF drive:PFV-AOR",
-              free_translation = "Patimat made Anwar go away",
+              free_translation = "Patimat made Anwar go away.",
               line_length = 100)
 ```
 
@@ -293,7 +293,7 @@ gloss_example(transliteration = "pat’imat-ini anwar uʕq’-es aʔ-ib.",
 ```{r}
 gloss_example(transliteration = "pat’imat-ini anwar w-aq-ib umma d-aq’-as",
               glosses = "Patimat-ERG Anwar M-leave:PFV-AOR kiss NPL-do:PFV-INF",
-              free_translation = "Patimat let Anwar kiss her",
+              free_translation = "Patimat let Anwar kiss her.",
               line_length = 100)
 ```
 
@@ -301,7 +301,7 @@ gloss_example(transliteration = "pat’imat-ini anwar w-aq-ib umma d-aq’-as",
 ```{r}
 gloss_example(transliteration = "aꭓaj-ni musa zuba w-aq’-ib",
               glosses = "khan.OBL-ERG Musa blind M-do:PFV-AOR",
-              free_translation = "Khan blinded Musa")
+              free_translation = "Khan blinded Musa.")
 ```
 
 ### Auxiliary semantics
