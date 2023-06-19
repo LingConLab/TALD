@@ -220,7 +220,7 @@ In Kryz the auxiliary 'do' combines with a participle (@kryztwo).
 (@kryztwo) Kryz [@authier2009: 173]
 ```{r}
 gloss_example(transliteration = "ꭓinib.c-ir furi ʕu-r-ğar-a ar-id",
-              glosses = "wife-ERG man PV-M-believe-VA do-AOR.M",
+              glosses = "wife-ERG man PV-M-believe-PTCP do-AOR.M",
               free_translation = "The woman persuaded her husband.",)
 ```
 
@@ -244,7 +244,7 @@ gloss_example(transliteration = "ima-š:u-r anwar rasul-i-b as kʷaꭓ:-a: w-eš
               line_length = 100)
 ```
 
-It is important to note that many languages employ multiple strategies in coding causative meaning, which in turn are often distributed based on semantic (direct/indirect or permissive) or morphological (derived from transitive/intransitive verbs or adjectives) properties. For example, in Lezgian the suffix *-(a)r-* is used with intransitive verbs (@lezgian)(a) and the light verb construction with the verb *tun* 'leave' is used with transitive verbs (@lezgian)(b). In Tsez the suffix *-r-/-ir-* is used for verbs (@tsez)(a) and the suffix *-ik'-/-uk'-* is used for adjectives (@tsez)(b). In Mehweb Dargwa the light verb construction with the verb *aʔas* 'drive' has directive meaning (@mehweb)(a), whereas with the verb *CM-aqas* 'leave' the meaning is permissive (@mehweb)(b); the construction with the verb *CM-aq’as* 'do' is used with adjectives (@mehweb)(c).
+It is important to note that many languages employ multiple strategies in coding causative meaning, which in turn are often distributed based on semantic (direct/indirect or permissive) or morphological (derived from transitive/intransitive verbs or adjectives) properties. For example, in Lezgian the suffix *-(a)r-* is used with intransitive verbs (@lezgian)(a) and the light verb construction with the verb *tun* 'leave' is used with transitive verbs (@lezgian)(b). In Tsez the suffix *-r-/-ir-* is used for verbs (@tsez a) and the suffix *-ik'-/-uk'-* is used for adjectives (@tsez b). In Mehweb Dargwa the light verb construction with the verb *aʔas* 'drive' has directive meaning (@mehweb a), whereas with the verb *CM-aqas* 'leave' the meaning is permissive (@mehweb b); the construction with the verb *CM-aq’as* 'do' is used with adjectives (@mehweb c).
 
 (@lezgian) Lezgian [@haspelmath1993: 163, 358]
 
