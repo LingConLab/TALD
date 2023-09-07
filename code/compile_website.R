@@ -60,6 +60,8 @@ cyr_latin_coresp <- "
     ю > ju;
     я > ja;
     х > x;
+    Э > È;
+    э > è;
     Щ > Šč;
     Ю > Ju;
     Я > Ja;
