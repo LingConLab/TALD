@@ -1,0 +1,111 @@
+id	lang	idiom	type	genlang_point	map	value_name	value	source	pages	comment	contributor
+1	Andi	Andi	village	yes	yes	base of numeral system	decimal	cercvadze1965	345		Maksim Melenchenko
+2	Andi	Rikvani	village	no	yes	base of numeral system	decimal	sulejmanov1957	299—306		George Moroz
+3	Andi	Gagatli	village	no	yes	base of numeral system	decimal	salimov2010	132		Maksim Melenchenko
+4	Andi	Zilo	village	no	yes	base of numeral system	decimal	kayeetaldraft2020	14		Maksim Melenchenko
+5	Andi	Lower Andi	dialect_toplevel	no	yes	base of numeral system	decimal	Aigul Zakirova, p.c.			Maksim Melenchenko
+6	Bagvalal	Kvanada	village	yes	yes	base of numeral system	decimal	kibrik2001	155—157		George Moroz
+7	Botlikh	Botlikh	village	yes	yes	base of numeral system	decimal	alekseyevverhees2020	14		George Moroz
+8	Chamalal	Standard Chamalal	language	yes	yes	base of numeral system	decimal	bokarev1949a	71—73		George Moroz
+9	Chamalal	Gigatli	dialect_toplevel	no	yes	base of numeral system	decimal	bokarev1949a	71—73		George Moroz
+10	Godoberi	Godoberi	village	yes	yes	base of numeral system	decimal	tatevosov1996	28—29		George Moroz
+11	Karata	Karata	dialect_toplevel	yes	yes	base of numeral system	decimal	magomedbekova1971	93—95		George Moroz
+12	Karata	Siukh	dialect_nt1	no	yes	base of numeral system	decimal	dalgatov2017	12—13		Maksim Melenchenko
+13	Karata	Tukita	village	no	yes	base of numeral system	vigesimal	magomedbekova1971	93—95		George Moroz
+14	Tindi	Tindi	village	yes	yes	base of numeral system	decimal	magomedova2003	560—561		George Moroz
+15	Akhvakh	Northern Akhvakh	dialect_toplevel	yes	yes	base of numeral system	vigesimal	magomedbekova1967	71		George Moroz
+16	Akhvakh	Ratlub	village	no	yes	base of numeral system	vigesimal	abdullaeva2001		No page (read it on a webpage)	Maksim Melenchenko
+17	Avar	Standard Avar	language	yes	yes	base of numeral system	vigesimal	alekseevataev1997	52		George Moroz
+18	Avar	Zaqatala	dialect_nt1	no	yes	base of numeral system	mixed	saidova2007	107	Originally vigesimal, then presumably borrowed decimal crowns 50—90 from Tsakhur	Maksim Melenchenko
+19	Avar	Kusur	dialect_nt1	no	yes	base of numeral system	mixed	isakov1981		Originally vigesimal, then presumably borrowed decimal crowns 50—90 from Tsakhur. No page (read it on a webpage)	Maksim Melenchenko
+20	Avar	Salatav		no	yes	base of numeral system	vigesimal	musalaeva2016	24		Maksim Melenchenko
+21	Avar	Salta	dialect_nt2	no	yes	base of numeral system	vigesimal	radzhabova2012	16		Maksim Melenchenko
+22	Avar	Gergebil'	village	no	yes	base of numeral system	vigesimal	tagirova2003	16		Maksim Melenchenko
+23	Avar	Upper Karakh	dialect_nt2	no	yes	base of numeral system	vigesimal	muradova2003		No page (read it on a webpage)	Maksim Melenchenko
+24	Avar	Amushi Bol'shoe	village	no	yes	base of numeral system	vigesimal	abdulaeva2013	18		Maksim Melenchenko
+25	Avar	Kharakhi	village	no	yes	base of numeral system	vigesimal	dzhamaludinova2013	15—16		Maksim Melenchenko
+26	Avar	Tlokh	village	no	yes	base of numeral system	vigesimal	nurmagomedova2009	18		Maksim Melenchenko
+27	Avar	Sasitli	village	no	yes	base of numeral system	mixed	karimovakhalilova2013	132	Originally vigesimal, then presumably borrowed decimal crowns 50—90 from adjacent Andic languages	Maksim Melenchenko
+28	Avar	Kedi	village	no	yes	base of numeral system	mixed	karimovakhalilova2013	132	Originally vigesimal, then presumably borrowed decimal crowns 50—90 from adjacent Andic languages	Maksim Melenchenko
+29	Avar	Keleb Mixed	dialect_nt1	no	yes	base of numeral system	decimal	sirazhudinovaataev2007	88		Maksim Melenchenko
+30	Hinuq	Hinuq	village	yes	yes	base of numeral system	vigesimal	forker2019	394—399		George Moroz
+31	Khwarshi	Khwarshi	dialect_toplevel	yes	yes	base of numeral system	vigesimal	imnaishvili1963	85		Maksim Melenchenko
+32	Khwarshi	Kwantlada	village	no	yes	base of numeral system	vigesimal	khalilova2009	169—170		George Moroz
+33	Khwarshi	Inkhokvari	village	no	yes	base of numeral system	mixed	imnaishvili1963	85		Maksim Melenchenko
+34	Tsez	Kidero	dialect_nt1	yes	yes	base of numeral system	vigesimal	bokarev1959tsez	202—203		George Moroz
+35	Bezhta	Bezhta	village	yes	yes	base of numeral system	decimal	madieva1965	104—105		George Moroz
+36	Hunzib	Hunzib	language	yes	yes	base of numeral system	decimal	vandenberg1995	68—70		George Moroz
+37	Dargwa	Akusha	dialect_nt1	yes	yes	base of numeral system	decimal	abdullaev1954	135—137		George Moroz
+38	Dargwa	Sanzhi	village	no	yes	base of numeral system	decimal	forker2020dargwa	127—128		George Moroz
+39	Dargwa	Itsari	dialect_nt1	no	yes	base of numeral system	decimal	sumbatovamutalov2003	44—47		George Moroz
+40	Dargwa	Mehweb	dialect_nt1	no	yes	base of numeral system	decimal	magometov1982	58—61		George Moroz
+41	Dargwa	Tanty	dialect_nt2	no	yes	base of numeral system	decimal	sumbatovalander2014	93—96		George Moroz
+42	Dargwa	Kaitag	dialect_toplevel	no	yes	base of numeral system	decimal	temirbulatova2004	18		Maksim Melenchenko
+43	Dargwa	Chirag	dialect_toplevel	no	yes	base of numeral system	decimal	ganenkov2021draft	7		Maksim Melenchenko
+44	Dargwa	Kubachi	dialect_nt2	no	yes	base of numeral system	decimal	magometov1963	134		Maksim Melenchenko
+45	Dargwa	Karbuchimakhi	village	no	yes	base of numeral system	decimal	shakhbanova2011	11—12		Maksim Melenchenko
+46	Dargwa	Mugri	dialect_nt1	no	yes	base of numeral system	decimal	ismailova2012	18		Maksim Melenchenko
+47	Dargwa	Khuduts	village	no	yes	base of numeral system	decimal	ibragimova2012	14—15		Maksim Melenchenko
+48	Dargwa	Lower Mulebki	dialect_nt1	no	yes	base of numeral system	decimal	mirzamagomedova2007	18		Maksim Melenchenko
+49	Dargwa	Meusisha	dialect_nt2	no	yes	base of numeral system	decimal	abdullaeva2019	17		Maksim Melenchenko
+50	Dargwa	Sirhwa	dialect_nt2	no	yes	base of numeral system	decimal	kadibagomaeva2009	12—13		Maksim Melenchenko
+51	Lak	Standard Lak	language	yes	yes	base of numeral system	decimal	zhirkov1955	52—56		George Moroz
+52	Archi	Archib	village	yes	yes	base of numeral system	decimal	kibrik1977	118—119		George Moroz
+53	Agul	Koshan	dialect_toplevel	no	yes	base of numeral system	decimal	ganenkovmaisak2008	7		Maksim Melenchenko
+54	Agul	Tsirkhe	dialect_toplevel	no	yes	base of numeral system	decimal	ganenkovmaisak2008	7		Maksim Melenchenko
+55	Agul	Fite	dialect_toplevel	yes	yes	base of numeral system	both	magometov1970	94—97		George Moroz
+57	Agul	Burkikhan	dialect_toplevel	no	yes	base of numeral system	both	ganenkovmaisak2008	7		Maksim Melenchenko
+58	Agul	Kurag	dialect_toplevel	no	yes	base of numeral system	both	ganenkovmaisak2008	7		Maksim Melenchenko
+59	Agul	Bedyuk	village	no	yes	base of numeral system	both	ganenkovmaisak2008	7		Maksim Melenchenko
+60	Agul	Richa	village	no	yes	base of numeral system	both	ganenkovmaisak2008	7		Maksim Melenchenko
+61	Agul	Usug	village	no	yes	base of numeral system	vigesimal	magometov1970	94—97		George Moroz
+62	Agul	Ukuz	village	no	yes	base of numeral system	vigesimal	ganenkovmaisak2008	7		Maksim Melenchenko
+63	Agul	Kvardal	village	no	yes	base of numeral system	vigesimal	ganenkovmaisak2008	7		Maksim Melenchenko
+64	Agul	Khveredzh	village	no	yes	base of numeral system	vigesimal	ganenkovmaisak2008	7		Maksim Melenchenko
+65	Agul	Huppuq'	village	no	yes	base of numeral system	vigesimal	ganenkovmaisak2008	7		Maksim Melenchenko
+66	Rutul	Standard Rutul	language	yes	yes	base of numeral system	decimal	elicitation			George Moroz
+67	Rutul	Mukhad	dialect_toplevel	no	yes	base of numeral system	decimal	ibragimov2004	72		George Moroz
+68	Rutul	Shinaz	dialect_toplevel	no	yes	base of numeral system	decimal	elicitation			George Moroz
+69	Rutul	Myukhrek	dialect_toplevel	no	yes	base of numeral system	decimal	elicitation			George Moroz
+70	Rutul	Ikhrek	dialect_toplevel	no	yes	base of numeral system	decimal	elicitation			George Moroz
+71	Rutul	Luchek	dialect_toplevel	no	yes	base of numeral system	decimal	elicitation			George Moroz
+72	Rutul	Borch-Khnov	dialect_toplevel	no	yes	base of numeral system	decimal	elicitation			George Moroz
+73	Tabasaran	Standard Tabasaran	language	yes	yes	base of numeral system	decimal	magometov1965	159—163		George Moroz
+74	Tabasaran	Kondik	village	no	yes	base of numeral system	mixed	magometov1965	159—163		Maksim Melenchenko
+75	Tabasaran	Khiv	village	no	yes	base of numeral system	vigesimal	magometov1965	159—163		George Moroz
+76	Tsakhur	Mishlesh	village	yes	yes	base of numeral system	decimal	ibragimov1990	94—95		George Moroz
+77	Tsakhur	Gel'mets	dialect_nt1	no	yes	base of numeral system	decimal	ibragimov2011	15—16		Maksim Melenchenko
+78	Lezgian	Standard Lezgian	language	yes	yes	base of numeral system	vigesimal	haspelmath1993	230—232		George Moroz
+79	Lezgian	Ashar Kurakh	language	no	yes	base of numeral system	vigesimal	murtazaeva2005	16		Maksim Melenchenko
+80	Lezgian	Gelkhen	language	no	yes	base of numeral system	vigesimal	pirmagomedova2013	17		Maksim Melenchenko
+81	Lezgian	Khlyut	language	no	yes	base of numeral system	vigesimal	sultalieva2011	15		Maksim Melenchenko
+82	Lezgian	Maza	language	no	yes	base of numeral system	vigesimal	muradalieva2009	15		Maksim Melenchenko
+83	Lezgian	Kurush	language	no	yes	base of numeral system	vigesimal	abdurakhmanova2014	18		Maksim Melenchenko
+84	Lezgian	Zakhit	language	no	yes	base of numeral system	vigesimal	karabekov2013	18		Maksim Melenchenko
+85	Lezgian	Karakyuri	language	no	yes	base of numeral system	vigesimal	asadova2013	14		Maksim Melenchenko
+86	Lezgian	Shimikhyur	language	no	yes	base of numeral system	vigesimal	shabanova2006	17		Maksim Melenchenko
+87	Lezgian	Gogaz	language	no	yes	base of numeral system	vigesimal	aliverdieva2006	14		Maksim Melenchenko
+88	Lezgian	Kimil Quba	language	no	yes	base of numeral system	mixed	asaliev2003	17	Some tens are apparently borrowed from Azerbaijani (cf. elli '50')	Maksim Melenchenko
+89	Budukh	Budukh	village	yes	yes	base of numeral system	vigesimal	talibov2007	145—150		George Moroz
+90	Kryz	Alik	village	yes	yes	base of numeral system	vigesimal	authier2009	103—104		George Moroz
+91	Udi	Vartashen	dialect_toplevel	yes	yes	base of numeral system	vigesimal	gukasyan1974	281—283		George Moroz
+92	Udi	Nizh	village	no	yes	base of numeral system	decimal	gukasyan1974	281—283		George Moroz
+93	Khinalug	Khinalug	village	yes	yes	base of numeral system	vigesimal	desheriev1959	131—133		George Moroz
+94	Chechen	Standard Chechen	language	yes	yes	base of numeral system	vigesimal	nichols1994	51—52		George Moroz
+95	Chechen	Sharoy	dialect_toplevel	no	yes	base of numeral system	vigesimal	arsakhanov1969	84—85		Maksim Melenchenko
+96	Chechen	Itum-Kali	dialect_toplevel	no	yes	base of numeral system	vigesimal	arsakhanov1969	93		Maksim Melenchenko
+97	Chechen	Galanchozh	dialect_toplevel	no	yes	base of numeral system	vigesimal	arsakhanov1969	107—108, 119, 135—136		Maksim Melenchenko
+98	Chechen	Melkhi	dialect_toplevel	no	yes	base of numeral system	vigesimal	arsakhanov1969	146—147		Maksim Melenchenko
+99	Chechen	Upper Cheberloy	dialect_nt1	no	yes	base of numeral system	vigesimal	arsakhanov1969	62		Maksim Melenchenko
+100	Chechen	Day	dialect_nt1	no	yes	base of numeral system	vigesimal	arsakhanov1969	62		Maksim Melenchenko
+101	Chechen	Akka	village	no	yes	base of numeral system	vigesimal	arsakhanov1969	33		Maksim Melenchenko
+102	Chechen	Vedeno	village	no	yes	base of numeral system	vigesimal	arsakhanov1969	150		Maksim Melenchenko
+103	Chechen	Duisi	village	no	yes	base of numeral system	vigesimal	arsakhanov1969	161—162		Maksim Melenchenko
+104	Ingush	Standard Ingush	language	yes	yes	base of numeral system	vigesimal	nichols2011	114—115		George Moroz
+105	Tsova-Tush	Zemo-Alvani	village	yes	yes	base of numeral system	vigesimal	desheriev1953	189—197		George Moroz
+106	Azerbaijani	Standard Azerbaijani	language	yes	yes	base of numeral system	decimal	sirəliyevsevortyan1971	71—72		George Moroz
+107	Kumyk	Standard Kumyk	language	yes	yes	base of numeral system	decimal	dmitriev1940	72—73		George Moroz
+108	Nogai	Standard Nogai	language	yes	yes	base of numeral system	decimal	baskakov1940	72		George Moroz
+109	Tat	Judeo-Tat	dialect_toplevel	yes	yes	base of numeral system	decimal	authier2012	104	“Un article de Chernij (1869/1905) donne un système différent, vigésimal, avec bisdah ‘30’, dubisd ‘40’, sebisd ‘60’, sebisdah ‘70’, çorbisd ‘80’, et çorbisdah ‘90’ sans localiser le dialecte en question.”	George Moroz
+110	Armenian	Modern Eastern Armenian	dialect_toplevel	yes	yes	base of numeral system	decimal	dum-tragut2009	118—120		George Moroz
+111	Georgian	Standard Georgian	language	yes	yes	base of numeral system	vigesimal	hewitt2005	29—30		George Moroz
