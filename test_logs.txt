@@ -1,4 +1,5 @@
-The BibTeX entry          forker2020          present in the          causatives.tsv, but absent in the biblib.xlsx
+The wrong village dialect name Drushtul in the file erg_abs_pronouns.tsv
+The wrong non-toplevel 2 dialect name Ashty in the file erg_abs_pronouns.tsv
 The wrong toplevel dialect name Ak-Nogai in the file numeral_ordinals.tsv
 spelling of          chuhwanahw        in adpositions.Rmd:238
 spelling of          depi        in adpositions.Rmd:383
@@ -100,6 +101,25 @@ spelling of          uhu        in demonstratives.Rmd:88
 spelling of          un        in demonstratives.Rmd:209
 spelling of          wa        in demonstratives.Rmd:189,196,196,196
 spelling of          yz        in demonstratives.Rmd:28,221
+spelling of          Anchiq        in erg_abs_pronouns.Rmd:235
+spelling of          de        in erg_abs_pronouns.Rmd:9,9
+spelling of          di        in erg_abs_pronouns.Rmd:88
+spelling of          du        in erg_abs_pronouns.Rmd:140
+spelling of          Duakar        in erg_abs_pronouns.Rmd:235,295
+spelling of          duha        in erg_abs_pronouns.Rmd:140
+spelling of          eli        in erg_abs_pronouns.Rmd:9
+spelling of          Gakvari        in erg_abs_pronouns.Rmd:231
+spelling of          Huppuq        in erg_abs_pronouns.Rmd:293
+spelling of          ilʲe        in erg_abs_pronouns.Rmd:9
+spelling of          ilʲo        in erg_abs_pronouns.Rmd:9
+spelling of          jæ        in erg_abs_pronouns.Rmd:191
+spelling of          je        in erg_abs_pronouns.Rmd:285
+spelling of          Maxmudova        in erg_abs_pronouns.Rmd:285
+spelling of          Richa        in erg_abs_pronouns.Rmd:293
+spelling of          SG        in erg_abs_pronouns.Rmd:9,88,134,140,146,148,191,285
+spelling of          va        in erg_abs_pronouns.Rmd:191
+spelling of          waj        in erg_abs_pronouns.Rmd:239
+spelling of          za        in erg_abs_pronouns.Rmd:134
 spelling of          bol        in evidentiality_tense.Rmd:89
 spelling of          NAF        in evidentiality_tense.Rmd:76,78,87
 spelling of          wo        in evidentiality_tense.Rmd:76,87
