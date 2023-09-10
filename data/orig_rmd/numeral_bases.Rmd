@@ -1,79 +1,50 @@
----
-output: html_document
-#bibliography: numeralbase.bib
----
-
-```{r, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+```{r, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, comment = '')
 library(lingglosses)
-library(tidyverse)
-library(bib2df)
-
-file_name <- "numeralbase_bib.tsv"
-read_csv(file_name, progress = FALSE) %>% 
-  df2bib(file_name %>% str_remove_all("[_\\.]tsv") %>%  str_replace("_bib$", "\\.bib"))
 ```
 
-# Numeral Bases
-## 1. Introduction
-This chapter provides an overview of the distribution of bases of numeral systems in languages of the East Caucasian family and their neighbors.
-Here the **base** is defined as the lowest number which is multiplied in order to derive numeral expressions for higher numbers [@greenberg1978: 288; @gvozdanovic1999: 3; @comrie2013] (see a detailed discussion on the definition in [@mengden2010: 32—35]).
-In practice, this definition means that the base is the multiplicand used to derive numerals from ‘20’ to ‘90’ (‘crowns’, in terms of [@caludeverkerk2016]).
-The clarification that the base is the *lowest* number is necessary to formally distinguish what is usually understood as the arithmetic base (e.g., ‘5’, ‘10’, ‘20’ in different languages) from higher multiplicands like ‘100’, ‘1 000’, etc.
+## Introduction
+This chapter provides an overview of the distribution of bases of numeral systems in languages of the East Caucasian family and their neighbors. Here the **base** is defined as the lowest number which is multiplied in order to derive numeral expressions for higher numbers [@greenberg1978: 288; @gvozdanovic1999: 3; @comrie2013] (see a detailed discussion on the definition in [@mengden2010: 32—35]). In practice, this definition means that the base is the multiplicand used to derive numerals from ‘20’ to ‘90’ (‘crowns’, in terms of [@caludeverkerk2016]). The clarification that the base is the *lowest* number is necessary to formally distinguish what is usually understood as the arithmetic base (e.g., ‘5’, ‘10’, ‘20’ in different languages) from higher multiplicands like ‘100’, ‘1 000’, etc.
 
 There are many possible options of numeral bases in languages around the world.
 The most popular systems are **decimal** (base-‘10’) and **vigesimal** (base-‘20’) (and their mixtures), followed by quinary (‘5’) and body-part systems [@comrie2013; @caludeverkerk2016: 3].
 
-## 2. Results
-As noted in previous literature [@vandenberg2001: 165; @ganenkovmaisak2021: 107], East Caucasian numeral systems are either decimal, vigesimal, or mixed.
-In this chapter and on the corresponding maps, East Caucasian lects are coded with four values according to the numeral base they feature: *decimal*, *vigesimal*, *both*, and *mixed*.
-These categories are explained below.
+## Results
 
-### 2.1. Decimal systems
+As noted in previous literature [@vandenberg2001: 165; @ganenkovmaisak2021: 107], East Caucasian numeral systems are either decimal, vigesimal, or mixed. In this chapter and on the corresponding maps, East Caucasian lects are coded with four values according to the numeral base they feature: *decimal*, *vigesimal*, *both*, and *mixed*. These categories are explained below.
+
+### Decimal systems
+
 An example of a language with a decimal (base-‘10’) system is Karata proper (Avar-Andic), which displays a regular pattern for the derivation of crowns from ‘20’ to ‘90’ by using the morph ‘10’:
 
 (@karata_decimal) Karata proper [@magomedbekova1971: 94]
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "hac’a-da",
               glosses = "ten-NUM",
-              free_translation = "10"
-)
-```
-```{r, echo=FALSE}
+              free_translation = "10")
+
 gloss_example(transliteration = "k’e-jac’a-da",
               glosses = "two-ten-NUM",
-              free_translation = "20"
-)
-```
-```{r, echo=FALSE}
+              free_translation = "20")
+
 gloss_example(transliteration = "boʔ-ac’a-da",
               glosses = "four-ten-NUM",
-              free_translation = "40"
-)
+              free_translation = "40")
 ```
 
-Some languages use morphs of the root ‘10’ to derive only a subset of crowns.
-Very often, the number ‘20’ is expressed by a non-derived root, which is presumably cognate in all East Caucasian languages [@starostinstarostin].
-For example, this is the case for Lak:
+Some languages use morphs of the root ‘10’ to derive only a subset of crowns. Very often, the number ‘20’ is expressed by a non-derived root, which is presumably cognate in all East Caucasian languages [@starostinstarostin]. For example, this is the case for Lak:
 
 (@lak_decimal_20) Lak [@zhirkov1955: 53]
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "ac’-wa",
               glosses = "ten-NUM.III",
-              free_translation = "10"
-)
-```
-```{r, echo=FALSE}
+              free_translation = "10")
 gloss_example(transliteration = "q’u-wa",
               glosses = "twenty-NUM.III",
-              free_translation = "20"
-)
-```
-```{r, echo=FALSE}
+              free_translation = "20")
 gloss_example(transliteration = "xːɵ-c’al-wa",
               glosses = "five-ten-NUM.III",
-              free_translation = "50"
-)
+              free_translation = "50")
 ```
 
 Rarely, other irregularities in the derivation of crowns are attested. In several languages, the derivation of '30' is rather opaque, as in Lak
@@ -92,39 +63,33 @@ This is the case for Archi (Lezgic branch), Bezhta and Hunzib (Tsezic branch) (@
 However, as for the exceptions discussed above, the inner structure of the numeric sequence is decimal, even though a different root is used to denote the meaning ‘10’.
 
 (@hunzib_special_root) Hunzib [@vandenberg1995: 69]
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "ac’ə.n",
               glosses = "ten.NUM",
-              free_translation = "10"
-)
-```
-```{r, echo=FALSE}
+              free_translation = "10")
 gloss_example(transliteration = "ɬa.na-rig",
               glosses = "three.NUM-CROWN",
-              free_translation = "30"
-)
+              free_translation = "30")
 ```
 
 Among non-East Caucasian languages, decimal systems are present in Armenian, Azerbaijani, Judeo-Tat, Kumyk, and Nogai.
 
-### 2.2. Vigesimal systems
+### Vigesimal systems
+
 Many East Caucasian languages use vigesimal numeral systems, i. e., their base is ‘20’.
 At the same time, ‘10’ is used as a base for addition in between the twenties, so that, for example, ‘70’ is derived as 3 ✕ 20 + 10.
+
 This subtype of base-‘20’ systems is usually also called vigesimal, but sometimes other terms are used to point out the intricacy (for example, “vigesimal-decimal” [@edelman1999: 223—224]).
 Such a system is found, for instance, in Tsova-Tush of the Nakh branch:
 
 (@tsova_tush_vigesimal) Tsova-Tush [@holiskygagua1994: 188]
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "t’q’a",
               glosses = "twenty",
-              free_translation = "20"
-)
-```
-```{r, echo=FALSE}
+              free_translation = "20")
 gloss_example(transliteration = "ša-uz-t’q’a-it’ː",
               glosses = "two-MULT-twenty-ten",
-              free_translation = "50"
-)
+              free_translation = "50")
 ```
 
 Similarly to the decimal systems, there are some exceptions in the regular vigesimal patterns.
@@ -142,7 +107,7 @@ This vigesimal ‘100’ is itself further used as a base in multiplication and 
 As the definition of base used here relies upon the lowest arithmetic base, both types of systems are considered vigesimal.
 
 (@kryz_vigesimal_100) Alik Kryz [@saadiev1994: 435]
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "q’ʷa-d fə.qːa-r firi",
               glosses = "two-IV five.twenty-I man",
               free_translation = "200 men"
@@ -151,12 +116,14 @@ gloss_example(transliteration = "q’ʷa-d fə.qːa-r firi",
 
 Among non-East Caucasian languages presented in the data, a vigesimal system is found in Georgian.
 
-### 2.3. Both systems
+### Both systems
+
 For central Agul varieties, it is reported that speakers use two systems, one with base ‘10’ and another with base ‘20’.
 These varieties are spoken in the area between northern and southern dialects of Agul, which use decimal and vigesimal systems respectively [@magometov1970: 94—97; @ganenkovmaisak2008: 7].
 It is likely that the simultaneous use of two systems is practiced in other parts of the region but it was not noticed by scholars.
 
-### 2.4. Mixed systems
+### Mixed systems
+
 Several lects are categorized as having “mixed” numeral systems, e.g., systems that use different bases for subsets of crowns.
 Unlike the cases discussed in 2.3, here different bases are distributed across a single numeric sequence, so that the patterns for the derivation of '40' and '50', for instance, may differ, but only one pattern is possible for each of them.
 
@@ -169,7 +136,8 @@ Similarly, in the neighboring Qidi and Sasitli dialects of Avar, the crowns ‘5
 In the village Kondik of the Tabasaran area, ‘60’ and ‘80’ are derived vigesimally, whereas ‘30’, ‘50’, ‘70’, and ‘90’ are derived decimally [@magometov1965: 159—163].
 This is apparently due to the fact that Kondik is situated between the northern and southern dialects of Tabasaran, which use decimal and vigesimal systems respectively.
 
-## 3. Areal distribution
+## Areal distribution
+
 In the East Caucasian family, decimal and vigesimal bases are distributed according to patterns that do not straightforwardly correlate with genealogical or areal distribution.
 Several branches of the family, spoken in different parts of Northeastern Caucasus, include varieties with both types of systems.
 Moreover, in some cases, different dialects of a single language feature different numeral bases.
@@ -183,14 +151,4 @@ The border between the two types is blurred for Agul and Tabasaran, which show c
 The Tsezic branch is subdivided into two groups: West Tsezic languages use vigesimal or mixed (see 2.4) systems, East Tsezic languages use decimal systems.
 The Dargic branch and neighboring Lak all use decimal systems; the Nakh branch and Khinalug use vigesimal systems.
 Neighboring non-East Caucasian languages mostly use the base ‘10’ (Armenian, Judeo-Tat, and Turkic languages), the only exception being Georgian.
-
-## List of glosses
-`r add_gloss("CROWN")` — crowns' suffix;
-`r add_gloss("I")` — class I;
-`r add_gloss("III")` — class III;
-`r add_gloss("IV")` — class IV;
-`r add_gloss("MULT")` — multiplication;
-`r add_gloss("NUM")` — numeral marker.
-
-## References
 
