@@ -38,8 +38,6 @@ The BibTeX entry caludeverkerk2016 from the file numeral_bases_bib.tsv has an em
 The BibTeX entry greenberg1978 from the file numeral_bases_bib.tsv has an empty value in the obligatory field VOLUME
 The BibTeX entry holiskygagua1994 from the file numeral_bases_bib.tsv has an empty value in the obligatory field PUBLISHER
 The BibTeX entry khalilova2009 from the file numeral_bases_bib.tsv has an empty value in the obligatory field SCHOOL
-The obligatory column          feature          is absent in the file          numeral_bases.tsv
-The obligatory column          page          is absent in the file          numeral_bases.tsv
 The wrong village dialect name Drushtul in the file erg_abs_pronouns.tsv
 The wrong village dialect name Inkhokvari in the file numeral_bases.tsv
 The wrong village dialect name Akka in the file numeral_bases.tsv

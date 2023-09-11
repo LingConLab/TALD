@@ -1,0 +1,991 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="Maksim Melenchenko" />
+
+
+<title>Numeral Bases</title>
+
+<script src="site_libs/header-attrs-2.24/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="site_libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="site_libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+<style type="text/css">
+/* for pandoc --citeproc since 2.11 */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">TALD</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="./about.html">About</a>
+</li>
+<li>
+  <a href="./features.html">
+    <span class="fa fa-atlas"></span>
+     
+    Features
+  </a>
+</li>
+<li>
+  <a href="./languages.html">Languages</a>
+</li>
+<li>
+  <a href="./changes.html">Changes</a>
+</li>
+<li>
+  <a href="./references.html">References</a>
+</li>
+<li>
+  <a href="./team.html">Team</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Numeral Bases</h1>
+<h4 class="author">Maksim Melenchenko</h4>
+<h4 class="date">Last update: September 2022</h4>
+
+</div>
+
+
+<p>See <a href="051_numeral_bases_map.html">data and maps</a>.</p>
+<div id="section"
+class="section level1 tabset tabset-fade tabset-pills unnumbered">
+<h1 class="tabset tabset-fade tabset-pills unnumbered"></h1>
+<div id="plain-text" class="section level2 unnumbered hasAnchor">
+<h2 class="unnumbered hasAnchor">Plain text<a href="#plain-text"
+class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Melenchenko, M. (2023). “Numeral Bases”. In: <em>Typological Atlas of
+the Languages of Daghestan (TALD)</em>. Ed. by M. Daniel, K. Filatov, T.
+Maisak, G. Moroz, T. Mukhin, C. Naccarato and S. Verhees. Moscow:
+Linguistic Convergence Laboratory, NRU HSE. DOI: 10.5281/zenodo.6807070.
+<a href="http://lingconlab.ru/dagatlas"
+class="uri">http://lingconlab.ru/dagatlas</a>.</p>
+</div>
+<div id="bibtex" class="section level2 unnumbered hasAnchor">
+<h2 class="unnumbered hasAnchor">BibTeX<a href="#bibtex"
+class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<pre><code>@incollection{melenchenko2023,
+  title = {Numeral Bases},
+  author = {Maksim Melenchenko},
+  year = {2023},
+  editor = {Michael Daniel and Konstantin Filatov and Timur Maisak and George Moroz and Timofey Mukhin and Chiara Naccarato and Samira Verhees},
+  publisher = {Linguistic Convergence Laboratory, NRU HSE},
+  address = {Moscow},
+  booktitle = {Typological Atlas of the Languages of Daghestan (TALD)},
+  url = {http://lingconlab.ru/dagatlas},
+  doi = {10.5281/zenodo.6807070},
+}</code></pre>
+</div>
+</div>
+<div id="introduction" class="section level1 hasAnchor" number="1">
+<h1 class="hasAnchor"><span class="header-section-number">1</span>
+Introduction<a href="#introduction" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p>This chapter provides an overview of the distribution of bases of
+numeral systems in languages of the East Caucasian family and their
+neighbors. Here the <strong>base</strong> is defined as the lowest
+number which is multiplied in order to derive numeral expressions for
+higher numbers <span class="citation">(<a
+href="#ref-greenberg1978">Greenberg 1978</a>: 288; <a
+href="#ref-gvozdanovic1999">Gvozdanović 1999</a>: 3; <a
+href="#ref-comrie2013">Comrie 2013</a>)</span> (see a detailed
+discussion on the definition in <span class="citation">(<a
+href="#ref-mengden2010">Mengden 2010</a>: 32—35)</span>). In practice,
+this definition means that the base is the multiplicand used to derive
+numerals from ‘20’ to ‘90’ (‘crowns’, in terms of <span
+class="citation">(<a href="#ref-caludeverkerk2016">Calude
+2016</a>)</span>). The clarification that the base is the
+<em>lowest</em> number is necessary to formally distinguish what is
+usually understood as the arithmetic base (e.g., ‘5’, ‘10’, ‘20’ in
+different languages) from higher multiplicands like ‘100’, ‘1 000’,
+etc.</p>
+<p>There are many possible options of numeral bases in languages around
+the world. The most popular systems are <strong>decimal</strong>
+(base-‘10’) and <strong>vigesimal</strong> (base-‘20’) (and their
+mixtures), followed by quinary (‘5’) and body-part systems <span
+class="citation">(<a href="#ref-comrie2013">Comrie 2013</a>; <a
+href="#ref-caludeverkerk2016">Calude 2016</a>: 3)</span>.</p>
+</div>
+<div id="results" class="section level1 hasAnchor" number="2">
+<h1 class="hasAnchor"><span class="header-section-number">2</span>
+Results<a href="#results" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p>As noted in previous literature <span class="citation">(<a
+href="#ref-vandenberg2001">Berg 2001</a>: 165; <a
+href="#ref-ganenkovmaisak2021">Ganenkov 2021</a>: 107)</span>, East
+Caucasian numeral systems are either decimal, vigesimal, or mixed. In
+this chapter and on the corresponding maps, East Caucasian lects are
+coded with four values according to the numeral base they feature:
+<em>decimal</em>, <em>vigesimal</em>, <em>both</em>, and <em>mixed</em>.
+These categories are explained below.</p>
+<div id="decimal-systems" class="section level2 hasAnchor" number="2.1">
+<h2 class="hasAnchor"><span class="header-section-number">2.1</span>
+Decimal systems<a href="#decimal-systems" class="anchor-section"
+aria-label="Anchor link to header"></a></h2>
+<p>An example of a language with a decimal (base-‘10’) system is Karata
+proper (Avar-Andic), which displays a regular pattern for the derivation
+of crowns from ‘20’ to ‘90’ by using the morph ‘10’:</p>
+<ol class="example" style="list-style-type: decimal">
+<li>Karata proper <span class="citation">(<a
+href="#ref-magomedbekova1971">Magomedbekova 1971</a>: 94)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>hac’a-da</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+ten-<span class="smallcaps">num</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘10’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>k’e-jac’a-da</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+two-ten-<span class="smallcaps">num</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘20’
+</td>
+</tr>
+</tfoot>
+</table>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>boʔ-ac’a-da</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+four-ten-<span class="smallcaps">num</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘40’
+</td>
+</tr>
+</tfoot>
+</table>
+<p>Some languages use morphs of the root ‘10’ to derive only a subset of
+crowns. Very often, the number ‘20’ is expressed by a non-derived root,
+which is presumably cognate in all East Caucasian languages <span
+class="citation">(<a href="#ref-starostinstarostin">Starostin
+n.d.</a>)</span>. For example, this is the case for Lak:</p>
+<ol start="2" class="example" style="list-style-type: decimal">
+<li>Lak <span class="citation">(<a href="#ref-zhirkov1955">Žirkov
+1955</a>: 53)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>ac’-wa</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+ten-<span class="smallcaps">num</span>.<span
+class="smallcaps">iii</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘10’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>q’u-wa</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+twenty-<span class="smallcaps">num</span>.<span
+class="smallcaps">iii</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘20’
+</td>
+</tr>
+</tfoot>
+</table>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>xːɵ-c’al-wa</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+five-ten-<span class="smallcaps">num</span>.<span
+class="smallcaps">iii</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘50’
+</td>
+</tr>
+</tfoot>
+</table>
+<p>Rarely, other irregularities in the derivation of crowns are
+attested. In several languages, the derivation of ‘30’ is rather opaque,
+as in Lak <em>zuwi-wa</em> (thirty-<span
+class="smallcaps">num</span>.<span class="smallcaps">iii</span>), while
+other crowns show a more transparent pattern (2). The same is true for
+‘90’ in Upper Gakvari Chamalal: <em>ač’un-na</em> (ninety-<span
+class="smallcaps">num</span>), which stands out among other crowns, cf. 
+<em>beƛ’a-c’a-da</em> (eight-ten-<span class="smallcaps">num</span>)
+‘80’. The derivation patterns underlying such cases are not
+straightforward and require a separate discussion. However, these are
+just exceptions to an otherwise prevalent regular pattern of derivation.
+Moreover, these exceptions do not change the decimal pattern itself.
+They divide the numeric sequence in tens just like a regular decimal
+base, and the derivation of numerals in between the multiplicands of
+base does not differ: for example, in Lak ‘31’ is derived regularly as
+<em>zuwi-lːij</em> <em>ca</em> (thirty-<span
+class="smallcaps">lnk</span> one).</p>
+<p>In some languages, the regular derivation of crowns does not make use
+of a morph ‘10’. This is the case for Archi (Lezgic branch), Bezhta and
+Hunzib (Tsezic branch) (3). However, as for the exceptions discussed
+above, the inner structure of the numeric sequence is decimal, even
+though a different root is used to denote the meaning ‘10’.</p>
+<ol start="3" class="example" style="list-style-type: decimal">
+<li>Hunzib <span class="citation">(<a href="#ref-vandenberg1995">Berg
+1995</a>: 69)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>ac’ə.n</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+ten.<span class="smallcaps">num</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘10’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>ɬa.na-rig</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+three.<span class="smallcaps">num</span>-<span
+class="smallcaps">crown</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘30’
+</td>
+</tr>
+</tfoot>
+</table>
+<p>Among non-East Caucasian languages, decimal systems are present in
+Armenian, Azerbaijani, Judeo-Tat, Kumyk, and Nogai.</p>
+</div>
+<div id="vigesimal-systems" class="section level2 hasAnchor"
+number="2.2">
+<h2 class="hasAnchor"><span class="header-section-number">2.2</span>
+Vigesimal systems<a href="#vigesimal-systems" class="anchor-section"
+aria-label="Anchor link to header"></a></h2>
+<p>Many East Caucasian languages use vigesimal numeral systems, i. e.,
+their base is ‘20’. At the same time, ‘10’ is used as a base for
+addition in between the twenties, so that, for example, ‘70’ is derived
+as 3 ✕ 20 + 10.</p>
+<p>This subtype of base-‘20’ systems is usually also called vigesimal,
+but sometimes other terms are used to point out the intricacy (for
+example, “vigesimal-decimal” <span class="citation">(<a
+href="#ref-edelman1999">Edelman 1999</a>: 223—224)</span>). Such a
+system is found, for instance, in Tsova-Tush of the Nakh branch:</p>
+<ol start="4" class="example" style="list-style-type: decimal">
+<li>Tsova-Tush <span class="citation">(<a
+href="#ref-holiskygagua1994">Holisky 1994</a>: 188)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>t’q’a</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+twenty
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘20’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>ša-uz-t’q’a-it’ː</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+two-<span class="smallcaps">mult</span>-twenty-ten
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘50’
+</td>
+</tr>
+</tfoot>
+</table>
+<p>Similarly to the decimal systems, there are some exceptions in the
+regular vigesimal patterns. Several crowns may be derived irregularly,
+with a single root instead of two roots (of the multiplicand and the
+base): ‘30’, as in Standard Avar <em>ɬeber-go</em> (thirty-<span
+class="smallcaps">num</span>), or ‘40’, as in Lezgian <em>jaχc’ur</em>
+(forty). By the same reasoning, these systems are simply categorized as
+vigesimal.</p>
+<p>In East Caucasian languages which use vigesimal numeral systems,
+‘100’ is usually the next arithmetic base. It is expressed by an
+underived root that, in most cases, is presumably cognate for the family
+<span class="citation">(<a href="#ref-starostinstarostin">Starostin
+n.d.</a>)</span>. This base is then multiplied to derive hundreds from
+‘200’ to ‘900’. However, in Budukh and Kryz of the Lezgic branch, ‘100’
+is clearly derived from a vigesimal pattern (5). This vigesimal ‘100’ is
+itself further used as a base in multiplication and addition; e.g.,
+‘200’ is derived as 2 ✕ (5 ✕ 20) (and not 10 ✕ 20). As the definition of
+base used here relies upon the lowest arithmetic base, both types of
+systems are considered vigesimal.</p>
+<ol start="5" class="example" style="list-style-type: decimal">
+<li>Alik Kryz <span class="citation">(<a href="#ref-saadiev1994">Saadiev
+1994</a>: 435)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>q’ʷa-d</em>
+</td>
+<td style="text-align:left;">
+<em>fə.qːa-r</em>
+</td>
+<td style="text-align:left;">
+<em>firi</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+two-<span class="smallcaps">iv</span>
+</td>
+<td style="text-align:left;">
+five.twenty-<span class="smallcaps">i</span>
+</td>
+<td style="text-align:left;">
+man
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘200 men’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>Among non-East Caucasian languages presented in the data, a vigesimal
+system is found in Georgian.</p>
+</div>
+<div id="both-systems" class="section level2 hasAnchor" number="2.3">
+<h2 class="hasAnchor"><span class="header-section-number">2.3</span>
+Both systems<a href="#both-systems" class="anchor-section"
+aria-label="Anchor link to header"></a></h2>
+<p>For central Agul varieties, it is reported that speakers use two
+systems, one with base ‘10’ and another with base ‘20’. These varieties
+are spoken in the area between northern and southern dialects of Agul,
+which use decimal and vigesimal systems respectively <span
+class="citation">(<a href="#ref-magometov1970">Magometov 1970</a>:
+94—97; <a href="#ref-ganenkovmaisak2008">Ganenkov 2008</a>: 7)</span>.
+It is likely that the simultaneous use of two systems is practiced in
+other parts of the region but it was not noticed by scholars.</p>
+</div>
+<div id="mixed-systems" class="section level2 hasAnchor" number="2.4">
+<h2 class="hasAnchor"><span class="header-section-number">2.4</span>
+Mixed systems<a href="#mixed-systems" class="anchor-section"
+aria-label="Anchor link to header"></a></h2>
+<p>Several lects are categorized as having “mixed” numeral systems,
+e.g., systems that use different bases for subsets of crowns. Unlike the
+cases discussed in 2.3, here different bases are distributed across a
+single numeric sequence, so that the patterns for the derivation of ‘40’
+and ‘50’, for instance, may differ, but only one pattern is possible for
+each of them.</p>
+<p>In Zaqatala and Kusur varieties of Avar, the original vigesimal Avar
+system remains for ‘20’, ‘30’, and ‘40’, whereas higher crowns
+(‘50’—‘90’) are replaced with decimal borrowings from Tsakhur <span
+class="citation">(<a href="#ref-saidova2007">Saidova 2007</a>: 107; <a
+href="#ref-isakov2020">Isakov 2020</a>: 94)</span>.</p>
+<p>In Inkhokvari and Kwantlada varieties of Khwarshi, a decimal system
+is used for ‘50’—‘90’, whereas for ‘30’ and ‘40’ a vigesimal system is
+used (‘20’ is atomic). The decimal crowns ‘50’—‘90’ are borrowed from
+adjacent Andic languages, presumably Tindi <span class="citation">(<a
+href="#ref-imnaishvili1963">Imnajšvili 1963</a>: 85; <a
+href="#ref-khalilova2009">Khalilova 2009</a>: 169—170; <a
+href="#ref-karimovakhalilova2013">Karimova 2013</a>: 132)</span>.
+Similarly, in the neighboring Qidi and Sasitli dialects of Avar, the
+crowns ‘50’—‘90’ have been replaced by Andic decimal borrowings <span
+class="citation">(<a href="#ref-karimovakhalilova2013">Karimova
+2013</a>: 132)</span>.</p>
+<p>In the village Kondik of the Tabasaran area, ‘60’ and ‘80’ are
+derived vigesimally, whereas ‘30’, ‘50’, ‘70’, and ‘90’ are derived
+decimally <span class="citation">(<a href="#ref-magometov1965">Magometov
+1965</a>: 159—163)</span>. This is apparently due to the fact that
+Kondik is situated between the northern and southern dialects of
+Tabasaran, which use decimal and vigesimal systems respectively.</p>
+</div>
+</div>
+<div id="areal-distribution" class="section level1 hasAnchor"
+number="3">
+<h1 class="hasAnchor"><span class="header-section-number">3</span> Areal
+distribution<a href="#areal-distribution" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p>In the East Caucasian family, decimal and vigesimal bases are
+distributed according to patterns that do not straightforwardly
+correlate with genealogical or areal distribution. Several branches of
+the family, spoken in different parts of Northeastern Caucasus, include
+varieties with both types of systems. Moreover, in some cases, different
+dialects of a single language feature different numeral bases. Some
+examples of divergence in regards to numeral systems within a branch or
+a language can be easily attributed to language contact, whereas others
+are harder to explain.</p>
+<p>Numeral systems in Avar-Andic languages are predominantly decimal.
+Within the branch, the distribution of bases is areal: Akhvakh,
+(Standard) Avar, and Tukita, spoken in the eastern part of the
+Avar-Andic area, are the only languages to have a vigesimal system. The
+distribution of bases is also areal within the Lezgic branch. Vigesimal
+systems are grouped in the southeastern part of the Lezgic area, while
+decimal systems are grouped in the northwest. The border between the two
+types is blurred for Agul and Tabasaran, which show corresponding
+dialectal variation: northern dialects of both languages use the base
+‘10’, and southern dialects use the base ‘20’. In the center, in some
+cases both systems are used (see 2.3) or a mixed system has appeared
+(2.4).</p>
+<p>The Tsezic branch is subdivided into two groups: West Tsezic
+languages use vigesimal or mixed (see 2.4) systems, East Tsezic
+languages use decimal systems. The Dargic branch and neighboring Lak all
+use decimal systems; the Nakh branch and Khinalug use vigesimal systems.
+Neighboring non-East Caucasian languages mostly use the base ‘10’
+(Armenian, Judeo-Tat, and Turkic languages), the only exception being
+Georgian.</p>
+<div id="refs" class="references csl-bib-body hanging-indent"
+line-spacing="2">
+<div id="ref-vandenberg1995" class="csl-entry">
+Berg, H. van den. (1995). <em>A grammar of <span>H</span>unzib</em>.
+Munich: Lincom.
+</div>
+<div id="ref-vandenberg2001" class="csl-entry">
+Berg, H. van den. (2001). <em>Dargi folktales. <span>O</span>ral stories
+from the <span>C</span>aucasus with an introduction to
+<span>D</span>argi grammar</em>. Leiden: CNWS.
+</div>
+<div id="ref-caludeverkerk2016" class="csl-entry">
+Calude, A., A.; Verkerk. (2016). The typology and diachrony of higher
+numerals in <span>I</span>ndo-<span>E</span>uropean: A phylogenetic
+comparative study. <em>Journal of Language Evolution</em>, 1—18.
+</div>
+<div id="ref-comrie2013" class="csl-entry">
+Comrie, B. (2013). Numeral <span>B</span>ases. In M. Dryer Matthew S.;
+Haspelmath (Ed.), <em>The <span>W</span>orld <span>A</span>tlas of
+<span>L</span>anguage <span>S</span>tructures <span>O</span>nline</em>.
+Leipzig: Max Planck Institute for Evolutionary Anthropology. Retrieved
+from <a
+href="https://wals.info/chapter/131">https://wals.info/chapter/131</a>
+</div>
+<div id="ref-edelman1999" class="csl-entry">
+Edelman, J. (1999). On the history of non-decimal systems and their
+elements in numerals of <span>A</span>ryan languages. In J. Gvozdanović
+(Ed.), <em>Numeral types and changes worldwide</em> (p. 221—242).
+Berlin, New York: De Gruyter Mouton.
+</div>
+<div id="ref-ganenkovmaisak2008" class="csl-entry">
+Ganenkov, T., Dmitry; Maisak. (2008). <em>Contact-induced morphological
+change in <span>A</span>gul dialects</em>.
+</div>
+<div id="ref-ganenkovmaisak2021" class="csl-entry">
+Ganenkov, T., Dmitry; Maisak. (2021). Nakh-<span>D</span>agestanian
+<span>L</span>anguages. In M. Polinsky (Ed.), <em>The
+<span>O</span>xford <span>H</span>andbook of <span>L</span>anguages of
+the <span>C</span>aucasus</em>. Oxford University Press.
+</div>
+<div id="ref-greenberg1978" class="csl-entry">
+Greenberg, J. H. (1978). Generalizations <span>A</span>bout
+<span>N</span>umeral <span>S</span>ystems. <em>Universals of Human
+Language, Volume 3: Word Structure</em>, 249—295.
+</div>
+<div id="ref-gvozdanovic1999" class="csl-entry">
+Gvozdanović, J. (1999). Introduction. In J. Gvozdanović (Ed.),
+<em>Numeral types and changes worldwide</em> (p. 1—4). Berlin, New York:
+De Gruyter Mouton.
+</div>
+<div id="ref-holiskygagua1994" class="csl-entry">
+Holisky, R., Dee Ann; Gagua. (1994). Tsova-<span>T</span>ush
+(<span>B</span>atsbi). In R. Smeets (Ed.), <em>The <span>N</span>orth
+<span>E</span>ast <span>C</span>aucasian <span>L</span>anguages</em> (p.
+147—212). Delmar, NY.
+</div>
+<div id="ref-imnaishvili1963" class="csl-entry">
+Imnajšvili, D. S. (1963). <em>Didojskij jazyk v sravnenii s ginuxskim i
+xvaršinskim jazykami [<span>T</span>he <span>D</span>ido language in
+comparison with <span>H</span>inuq and <span>K</span>hwarshi]</em>.
+Tbilisi: Izd-vo AN GSSR.
+</div>
+<div id="ref-isakov2020" class="csl-entry">
+Isakov, I. (2020). <em>Kusurskij dialekt avarskogo jazyka
+[<span>T</span>he <span>K</span>usur dialect of <span>A</span>var]</em>.
+Maxačkala: Alef.
+</div>
+<div id="ref-karimovakhalilova2013" class="csl-entry">
+Karimova, M. Š., R. Š.; Xalilov. (2013). <em>Zaimstvovannaja leksika v
+xvaršinskom jazyke [<span>B</span>orrowings in
+<span>K</span>hwarshi]</em>. Maxačkala: Alef.
+</div>
+<div id="ref-khalilova2009" class="csl-entry">
+Khalilova, Z. (2009). <em>A grammar of <span>K</span>hwarshi</em> (PhD
+thesis). University of Leiden.
+</div>
+<div id="ref-magomedbekova1971" class="csl-entry">
+Magomedbekova, Z. (1971). <em>Karatinskij jazyk
+[<span>K</span>arata]</em>. Tbilisi: Mecniereba.
+</div>
+<div id="ref-magometov1965" class="csl-entry">
+Magometov, A. (1965). <em>Tabasaranskij jazyk
+[<span>T</span>abasaran]</em>. Tbilisi: Mecniereba.
+</div>
+<div id="ref-magometov1970" class="csl-entry">
+Magometov, A. (1970). <em>Agulʹskij jazyk [<span>A</span>gul]</em>.
+Tbilisi: Mecniereba.
+</div>
+<div id="ref-mengden2010" class="csl-entry">
+Mengden, F. von. (2010). <em>Old <span>E</span>nglish from a
+<span>C</span>ross-<span>L</span>inguistic
+<span>P</span>erspective</em>. Berlin, New York: De Gruyter Mouton.
+</div>
+<div id="ref-saadiev1994" class="csl-entry">
+Saadiev, Sh. M. (1994). Kryts. In R. Smeets (Ed.), <em>The
+<span>N</span>orth <span>E</span>ast <span>C</span>aucasian
+<span>L</span>anguages</em> (p. 407—446). Delmar, NY: Caravan Press.
+</div>
+<div id="ref-saidova2007" class="csl-entry">
+Saidova, P. (2007). <em>Zakatalʹskij dialekt avarskogo jazyka
+[<span>T</span>he <span>Z</span>aqatala dialect of
+<span>A</span>var]</em>. Maxačkala: IJaLI.
+</div>
+<div id="ref-starostinstarostin" class="csl-entry">
+Starostin, G., Sergei; Starostin. (n.d.). <em>Tower of
+<span>B</span>abel: Etymological database</em>. Retrieved from <a
+href="https://starlingdb.org">https://starlingdb.org</a>
+</div>
+<div id="ref-zhirkov1955" class="csl-entry">
+Žirkov, L. (1955). <em>Lakskij jazyk [<span>L</span>ak]</em>. Moskva:
+Akademija.
+</div>
+</div>
+</div>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+</head>
+
+<body>
+    <div class="footer-basic">
+        <footer>
+            
+            <div class='lic'><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br /><i>Typological Atlas of the languages of Daghestan </i> (<i>TALD</i>) is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+            <div class="social"><a href="https://github.com/LingConLab/TALD" target="_blank"><span class="iconify" data-icon="octicon:logo-github-16"></span></a></div>
+            </div>
+            
+            <p class="copyright">2020<script>new Date().getFullYear()>2020&&document.write("-"+new Date().getFullYear());</script>,  Linguistic Convergence Laboratory, HSE University</p>
+        </footer>
+    </div>
+    <script type="text/javascript" src="./js/links.js"></script> <!--это чтобы ссылки открывались в новом окне -->
+</body>
+
+</html>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
