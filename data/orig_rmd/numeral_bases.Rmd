@@ -4,6 +4,7 @@ library(lingglosses)
 ```
 
 ## Introduction
+
 This chapter provides an overview of the distribution of bases of numeral systems in languages of the East Caucasian family and their neighbors. Here the **base** is defined as the lowest number which is multiplied in order to derive numeral expressions for higher numbers [@greenberg1978: 288; @gvozdanovic1999: 3; @comrie2013] (see a detailed discussion on the definition in [@mengden2010: 32—35]). In practice, this definition means that the base is the multiplicand used to derive numerals from ‘20’ to ‘90’ (‘crowns’, in terms of [@caludeverkerk2016]). The clarification that the base is the *lowest* number is necessary to formally distinguish what is usually understood as the arithmetic base (e.g., ‘5’, ‘10’, ‘20’ in different languages) from higher multiplicands like ‘100’, ‘1 000’, etc.
 
 There are many possible options of numeral bases in languages around the world.
@@ -152,3 +153,10 @@ The Tsezic branch is subdivided into two groups: West Tsezic languages use viges
 The Dargic branch and neighboring Lak all use decimal systems; the Nakh branch and Khinalug use vigesimal systems.
 Neighboring non-East Caucasian languages mostly use the base ‘10’ (Armenian, Judeo-Tat, and Turkic languages), the only exception being Georgian.
 
+## List of glosses {-}
+
+```{r}
+make_gloss_list(readxl::read_xlsx("../glosses.xlsx"))
+```
+
+## References {-}
