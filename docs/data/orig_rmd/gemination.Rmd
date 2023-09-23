@@ -1,0 +1,5 @@
+## {-}
+
+General chapter: [Phonology](phonology.html)
+
+Gemination or a fortis/lenis destinction is attested across all branches of the East Caucasian family except Tsezic. It looks as though languages that border with a non-East Caucasian language lose gemination.
