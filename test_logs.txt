@@ -32,6 +32,38 @@ The BibTeX entry          shabanova2006          present in the          numeral
 The BibTeX entry          aliverdieva2006          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
 The BibTeX entry          asaliev2003          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
 The BibTeX entry          arsakhanov1969          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
+The obligatory field          URL          is missing in          evidentiality_bib.tsv
+The obligatory field          CONTRIBUTOR          is missing in          evidentiality_bib.tsv
+The obligatory field          COMMENT          is missing in          evidentiality_bib.tsv
+The obligatory field          CONTRIBUTOR          is missing in          evidentiality_tense_bib.tsv
+The obligatory field          COMMENT          is missing in          evidentiality_tense_bib.tsv
+The BibTeX entry plungian2010 from evidentiality_bib.tsv has the wrong CATEGORY value: INCOLLECTION
+The BibTeX entry forker2018a from evidentiality_bib.tsv has the wrong CATEGORY value: INCOLLECTION
+The BibTeX entry tatevosov2007 from evidentiality_bib.tsv has the wrong CATEGORY value: INCOLLECTION
+The BibTeX entry uslar1889 from evidentiality_bib.tsv has the wrong CATEGORY value: BOOK
+The BibTeX entry verhees2019a from evidentiality_bib.tsv has the wrong CATEGORY value: ARTICLE
+The BibTeX entry chafenichols1986 from evidentiality_bib.tsv has the wrong CATEGORY value: BOOK
+The BibTeX entry authiermaisak2011 from evidentiality_bib.tsv has the wrong CATEGORY value: INCOLLECTION
+The BibTeX entry danielmaisak2018 from evidentiality_bib.tsv has the wrong CATEGORY value: INCOLLECTION
+The BibTeX entry forker2018a from evidentiality_tense_bib.tsv has the wrong CATEGORY value: INCOLLECTION
+The BibTeX entry tatevosov2007 from evidentiality_tense_bib.tsv has the wrong CATEGORY value: INCOLLECTION
+The BibTeX entry verhees2019b from evidentiality_tense_bib.tsv has the wrong CATEGORY value: PHDTHESIS
+The BibTeX entry maisaktatevosov2007 from evidentiality_tense_bib.tsv has the wrong CATEGORY value: INCOLLECTION
+The BibTeX entry johanson2000 from evidentiality_tense_bib.tsv has the wrong CATEGORY value: INCOLLECTION
+The BibTeX entry lazard1999 from evidentiality_tense_bib.tsv has the wrong CATEGORY value: ARTICLE
+The BibTeX entry friedman2000 from evidentiality_tense_bib.tsv has the wrong CATEGORY value: INCOLLECTION
+The BibTeX entry molochieva2007 from evidentiality_tense_bib.tsv has the wrong CATEGORY value: UNPUBLISHED
+The BibTeX entry molochieva2010 from evidentiality_tense_bib.tsv has the wrong CATEGORY value: PHDTHESIS
+The BibTeX entry slobinaksukoc1982 from evidentiality_tense_bib.tsv has the wrong CATEGORY value: INCOLLECTION
+The BibTeX entry johanson2018 from evidentiality_tense_bib.tsv has the wrong CATEGORY value: INCOLLECTION
+The BibTeX entry lazard2000 from evidentiality_tense_bib.tsv has the wrong CATEGORY value: INCOLLECTION
+The BibTeX entry erdal2004 from evidentiality_tense_bib.tsv has the wrong CATEGORY value: BOOK
+The BibTeX entry wixman1980 from evidentiality_tense_bib.tsv has the wrong CATEGORY value: BOOK
+The BibTeX entry arutjunovetal2002 from evidentiality_tense_bib.tsv has the wrong CATEGORY value: BOOK
+The BibTeX entry multidag from evidentiality_tense_bib.tsv has the wrong CATEGORY value: BOOK
+The BibTeX entry aristova2019 from evidentiality_tense_bib.tsv has the wrong CATEGORY value: UNPUBLISHED
+The BibTeX entry maisak2021 from evidentiality_tense_bib.tsv has the wrong CATEGORY value: INCOLLECTION
+The BibTeX entry lindstedt2000 from evidentiality_tense_bib.tsv has the wrong CATEGORY value: INCOLLECTION
 The BibTeX entry ganenkovmaisak2008 from the file numeral_bases_bib.tsv has an empty value in the obligatory field JOURNAL
 The BibTeX entry ganenkovmaisak2008 from the file numeral_bases_bib.tsv has an empty value in the obligatory field VOLUME
 The BibTeX entry caludeverkerk2016 from the file numeral_bases_bib.tsv has an empty value in the obligatory field VOLUME
@@ -215,6 +247,72 @@ spelling of          Huppuq        in ordinals.Rmd:19,26
 spelling of          nominalized        in ordinals.Rmd:35
 spelling of          Yine        in ordinals.Rmd:35
 spelling of          Alik        in particles.Rmd:85
+spelling of          akh        in perfect_bib.tsv:8,12,13
+spelling of          Alexeyev        in perfect_bib.tsv:8
+spelling of          andbook        in perfect_bib.tsv:3
+spelling of          ANNOTE        in perfect_bib.tsv:1
+spelling of          argwa        in perfect_bib.tsv:13
+spelling of          Ayoun        in perfect_bib.tsv:10
+spelling of          belyaev        in perfect_bib.tsv:13
+spelling of          Belyaev        in perfect_bib.tsv:13
+spelling of          BIBTEXKEY        in perfect_bib.tsv:1
+spelling of          Binnick        in perfect_bib.tsv:3
+spelling of          BOOKTITLE        in perfect_bib.tsv:1
+spelling of          bybee        in perfect_bib.tsv:6
+spelling of          Bybee        in perfect_bib.tsv:6,9
+spelling of          bybeedahl        in perfect_bib.tsv:9
+spelling of          Celle        in perfect_bib.tsv:10
+spelling of          comrie        in perfect_bib.tsv:4
+spelling of          Comrie        in perfect_bib.tsv:4
+spelling of          CROSSREF        in perfect_bib.tsv:1
+spelling of          Dahl        in perfect_bib.tsv:9
+spelling of          Dalila        in perfect_bib.tsv:10
+spelling of          De        in perfect_bib.tsv:8
+spelling of          di        in perfect_bib.tsv:12
+spelling of          Eide        in perfect_bib.tsv:2
+spelling of          ezgic        in perfect_bib.tsv:2
+spelling of          Fryd        in perfect_bib.tsv:2
+spelling of          hiri        in perfect_bib.tsv:13
+spelling of          HOWPUBLISHED        in perfect_bib.tsv:1
+spelling of          INCOLLECTION        in perfect_bib.tsv:2,3,5,7,10,11,12,13,14
+spelling of          izh        in perfect_bib.tsv:12
+spelling of          Langendoen        in perfect_bib.tsv:5
+spelling of          Laure        in perfect_bib.tsv:10
+spelling of          mccawley        in perfect_bib.tsv:5
+spelling of          McCawley        in perfect_bib.tsv:5
+spelling of          Melum        in perfect_bib.tsv:2
+spelling of          ndi        in perfect_bib.tsv:10
+spelling of          Nedjalkov        in perfect_bib.tsv:11
+spelling of          Nidzh        in perfect_bib.tsv:14
+spelling of          ol        in perfect_bib.tsv:8
+spelling of          Oleg        in perfect_bib.tsv:13
+spelling of          Pagliuca        in perfect_bib.tsv:6
+spelling of          plungian        in perfect_bib.tsv:7
+spelling of          xford        in perfect_bib.tsv:3
+spelling of          А        in perfect_bib.tsv:7,14
+spelling of          аорист        in perfect_bib.tsv:14
+spelling of          в        in perfect_bib.tsv:7,14
+spelling of          Владимир        in perfect_bib.tsv:7,14
+spelling of          диалекте        in perfect_bib.tsv:14
+spelling of          и        in perfect_bib.tsv:14
+spelling of          К        in perfect_bib.tsv:7
+spelling of          Ксения        in perfect_bib.tsv:7,14
+spelling of          Майсак        in perfect_bib.tsv:7,14
+spelling of          мира        in perfect_bib.tsv:7
+spelling of          Наука        in perfect_bib.tsv:7,14
+spelling of          ниджском        in perfect_bib.tsv:14
+spelling of          П        in perfect_bib.tsv:7,14
+spelling of          Перфект        in perfect_bib.tsv:14
+spelling of          перфекта        in perfect_bib.tsv:7,14
+spelling of          Плунгян        in perfect_bib.tsv:7,14
+spelling of          Предисловие        in perfect_bib.tsv:7
+spelling of          Семёнова        in perfect_bib.tsv:7,14
+spelling of          Тимур        in perfect_bib.tsv:7,14
+spelling of          типологии        in perfect_bib.tsv:7
+spelling of          Типология        in perfect_bib.tsv:7,14
+spelling of          удинского        in perfect_bib.tsv:14
+spelling of          языка        in perfect_bib.tsv:14
+spelling of          языках        in perfect_bib.tsv:7
 spelling of          pharyngealized        in pharyngealization_map.Rmd:88
 spelling of          pharyngealized        in pharyngealization.Rmd:5
 spelling of          ai        in phonology.Rmd:196
@@ -261,4 +359,3 @@ spelling of          upro        in standard_of_comparison.Rmd:227
 spelling of          wor        in standard_of_comparison.Rmd:200,216
 spelling of          zi        in standard_of_comparison.Rmd:59,146
 spelling of          преруптивный        in voiceless_obstruents.Rmd:7
-The BibTeX entry          maisak2008          present in the .Rmd, but absent in the causatives.bib

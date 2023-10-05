@@ -78,14 +78,14 @@ Current relevance is widely attested, though it seems to be limited mostly to re
 
 Many of the perfect forms also preserve the narrow resultative function (35/64), cf. the resultative and resultative perfect uses of the Tabasaran Perfect in examples (@four) and (@five), respectively.
 
-(@four) Tabasaran [@maisak21]
+(@four) Tabasaran [@maisak2021]
 ```{r}
 gloss_example("barχl.i-in muχ **d-a(b)x-na**",
               "carpet-SUPER barley PV-(CL)pour.PFV-PFV",
               "There is barley (lit. barley **is poured**) on the carpet.")
 ```
 
-(@five) Tabasaran [@maisak21]
+(@five) Tabasaran [@maisak2021]
 ```{r}
 gloss_example("uwu läχˁin **d-ap'-na=wa** hamus ʁaraχ sejir ap'-in!",
               "you work PV-do.PFV-PRF=2SG now go.away.IMP walk do-IMP",
