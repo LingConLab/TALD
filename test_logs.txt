@@ -55,61 +55,12 @@ The obligatory field          COMMENT          is missing in          particles_
 The obligatory field          URL          is missing in          perfect_bib.tsv
 The obligatory field          CONTRIBUTOR          is missing in          perfect_bib.tsv
 The obligatory field          COMMENT          is missing in          perfect_bib.tsv
-The BibTeX entry plungian2010 from evidentiality_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry forker2018a from evidentiality_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry tatevosov2007 from evidentiality_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry uslar1889 from evidentiality_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry verhees2019a from evidentiality_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry chafenichols1986 from evidentiality_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry authiermaisak2011 from evidentiality_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry danielmaisak2018 from evidentiality_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry forker2018a from evidentiality_tense_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry tatevosov2007 from evidentiality_tense_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry verhees2019b from evidentiality_tense_bib.tsv has the wrong CATEGORY value: PHDTHESIS
-The BibTeX entry maisaktatevosov2007 from evidentiality_tense_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry johanson2000 from evidentiality_tense_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry lazard1999 from evidentiality_tense_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry friedman2000 from evidentiality_tense_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry molochieva2007 from evidentiality_tense_bib.tsv has the wrong CATEGORY value: UNPUBLISHED
-The BibTeX entry molochieva2010 from evidentiality_tense_bib.tsv has the wrong CATEGORY value: PHDTHESIS
-The BibTeX entry slobinaksukoc1982 from evidentiality_tense_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry johanson2018 from evidentiality_tense_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry lazard2000 from evidentiality_tense_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry erdal2004 from evidentiality_tense_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry wixman1980 from evidentiality_tense_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry arutjunovetal2002 from evidentiality_tense_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry multidag from evidentiality_tense_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry aristova2019 from evidentiality_tense_bib.tsv has the wrong CATEGORY value: UNPUBLISHED
-The BibTeX entry maisak2021 from evidentiality_tense_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry lindstedt2000 from evidentiality_tense_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry alexeyevverheesunpub from particles_bib.tsv has the wrong CATEGORY value: UNPUBLISHED
-The BibTeX entry khalilova2011 from particles_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry maisak2017 from particles_bib.tsv has the wrong CATEGORY value: UNPUBLISHED
-The BibTeX entry forker2018avar from particles_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry aikhenvald2004 from particles_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry guldemann2008 from particles_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry forker2019b from particles_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry friedman2007 from particles_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry authier2010 from particles_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry greed2014 from particles_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry daniel2015 from particles_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry maisak2021 from perfect_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry ritz2012 from perfect_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry comrie1976 from perfect_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry mccawley1971 from perfect_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry bybee1994 from perfect_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry plungian2016 from perfect_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry alexeyevverheesunpub from perfect_bib.tsv has the wrong CATEGORY value: UNPUBLISHED
-The BibTeX entry bybeedahl1989 from perfect_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry verhees2018 from perfect_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry nedjalkovjaxontov1988 from perfect_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry maisak2018 from perfect_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry belyaev2018 from perfect_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry maisak2016 from perfect_bib.tsv has the wrong CATEGORY value: INCOLLECTION
+The BibTeX entry verhees2019a from the file evidentiality_bib.tsv has an empty value in the obligatory field VOLUME
 The BibTeX entry ganenkovmaisak2008 from the file numeral_bases_bib.tsv has an empty value in the obligatory field JOURNAL
 The BibTeX entry ganenkovmaisak2008 from the file numeral_bases_bib.tsv has an empty value in the obligatory field VOLUME
 The BibTeX entry caludeverkerk2016 from the file numeral_bases_bib.tsv has an empty value in the obligatory field VOLUME
 The BibTeX entry greenberg1978 from the file numeral_bases_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry authier2010 from the file particles_bib.tsv has an empty value in the obligatory field VOLUME
 The BibTeX entry holiskygagua1994 from the file numeral_bases_bib.tsv has an empty value in the obligatory field PUBLISHER
 The BibTeX entry khalilova2009 from the file numeral_bases_bib.tsv has an empty value in the obligatory field SCHOOL
 The obligatory column          date          is absent in the file          farewell_wishes.tsv
