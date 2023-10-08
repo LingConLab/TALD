@@ -11,7 +11,7 @@ editor_options:
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, message = FALSE)
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 
 library(tidyverse)
 library(DT)
@@ -20,7 +20,7 @@ library(DT)
 
 ```{r}
 map(list.files("data/orig_table", full.names = TRUE), function(file){
-  readxl::read_xlsx("data/contributors.xlsx") |> 
+  readxl::read_xlsx("data/contributors.xlsx", guess_max = 4000) |> 
     filter(render == 1) |> 
     rowwise() |> 
     mutate(id_0 = sprintf(str_c("%0", nchar(max(id))+1, "d_"), id),

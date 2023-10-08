@@ -16,7 +16,7 @@ library(tidyverse)
 Feature chapters added:
 
 ```{r, results='asis'}
-readxl::read_xlsx("data/contributors.xlsx") |> 
+readxl::read_xlsx("data/contributors.xlsx", guess_max = 200) |> 
   filter(!is.na(id),
          version == "1.1.0") |> 
   mutate(line = str_c("- ", title, " (", author, ")\n")) |> 
@@ -30,7 +30,7 @@ readxl::read_xlsx("data/contributors.xlsx") |>
 Feature chapters added:
 
 ```{r, results='asis'}
-readxl::read_xlsx("data/contributors.xlsx") |> 
+readxl::read_xlsx("data/contributors.xlsx", guess_max = 200) |> 
   filter(!is.na(id),
          version == "1.0.0") |> 
   mutate(line = str_c("- ", title, " (", author, ")\n")) |> 
