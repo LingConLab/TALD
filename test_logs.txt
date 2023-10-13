@@ -415,6 +415,22 @@ The BibTeX entry gasser14 from the file uvular_voiced_stop_bib.tsv has an empty 
 The BibTeX entry gasser14 from the file velar_fricatives_bib.tsv has an empty value in the obligatory field BOOKTITLE
 The BibTeX entry gasser14 from the file voiceless_obstruents_bib.tsv has an empty value in the obligatory field BOOKTITLE
 The BibTeX entry khalilova2009 from the file numeral_bases_bib.tsv has an empty value in the obligatory field SCHOOL
+Revise the BibTeX entry moroz20_villages from the file ejective_p_bib.tsv.
+Revise the BibTeX entry moroz20_villages from the file ejective_s_bib.tsv.
+Revise the BibTeX entry moroz20_villages from the file gemination_bib.tsv.
+Revise the BibTeX entry moroz20_villages from the file labialization_bib.tsv.
+Revise the BibTeX entry moroz20_villages from the file labials_bib.tsv.
+Revise the BibTeX entry moroz20_villages from the file laterals_bib.tsv.
+Revise the BibTeX entry moroz20_villages from the file long_vowels_bib.tsv.
+Revise the BibTeX entry moroz20_villages from the file nasalization_bib.tsv.
+Revise the BibTeX entry moroz20_villages from the file palatalized_consonants_bib.tsv.
+Revise the BibTeX entry moroz20_villages from the file pharyngealization_bib.tsv.
+Revise the BibTeX entry moroz20_villages from the file pharyngeals_bib.tsv.
+Revise the BibTeX entry moroz20_villages from the file phonology_bib.tsv.
+Revise the BibTeX entry moroz20_villages from the file umlaut_vowels_bib.tsv.
+Revise the BibTeX entry moroz20_villages from the file uvular_voiced_stop_bib.tsv.
+Revise the BibTeX entry moroz20_villages from the file velar_fricatives_bib.tsv.
+Revise the BibTeX entry moroz20_villages from the file voiceless_obstruents_bib.tsv.
 The obligatory column          date          is absent in the file          farewell_wishes.tsv
 The wrong langage name          Tukita          in the file          farewell_wishes.tsv
 The wrong village dialect name Drushtul in the file erg_abs_pronouns.tsv

@@ -253,7 +253,7 @@ test_that("Test BIBTEXKEYs", {
                       " from the file ",
                       str_remove(wrong_bibtexkeys$filename, ".*/"), 
                       ".")
-    expected <- rep("", nrow(wrong_fields))
+    expected <- rep("", nrow(wrong_bibtexkeys))
   } else {
     observed <- "everything is ok"
     expected <- "everything is ok"
