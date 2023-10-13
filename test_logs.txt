@@ -87,1277 +87,333 @@ The obligatory field          CONTRIBUTOR          is missing in          velar_
 The obligatory field          COMMENT          is missing in          velar_fricatives_bib.tsv
 The obligatory field          CONTRIBUTOR          is missing in          voiceless_obstruents_bib.tsv
 The obligatory field          COMMENT          is missing in          voiceless_obstruents_bib.tsv
-The BibTeX entry everett13 from ejective_p_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry regier16 from ejective_p_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry bentz18 from ejective_p_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry urban21 from ejective_p_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry urban20 from ejective_p_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry hay07 from ejective_p_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry moran12 from ejective_p_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry wichmann11 from ejective_p_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry donohue11 from ejective_p_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nichols13 from ejective_p_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nikolaev18 from ejective_p_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry holisky94 from ejective_p_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nichols94a from ejective_p_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nichols94b from ejective_p_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry dobrushina19 from ejective_p_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry atkinson11 from ejective_p_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry maddieson11 from ejective_p_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry catford77 from ejective_p_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry hammarstrom21 from ejective_p_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry kibrik82 from ejective_p_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry mudrak19 from ejective_p_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry mudrak20 from ejective_p_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry gigineyshvili77 from ejective_p_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry aslanov74 from ejective_p_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry akiev77 from ejective_p_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry cho99 from ejective_p_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry esling96 from ejective_p_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry esling05 from ejective_p_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry phoible from ejective_p_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry kk90 from ejective_p_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry alekseev01 from ejective_p_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry smeets94a from ejective_p_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry smeets94b from ejective_p_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry koryakov21 from ejective_p_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry yihui18 from ejective_p_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry kibrik01 from ejective_p_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry magomedbekova71 from ejective_p_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry wickham16 from ejective_p_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry hewitt04 from ejective_p_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry talibov07 from ejective_p_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry ardoteli09 from ejective_p_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry gudava64 from ejective_p_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry bokarev81 from ejective_p_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry bokarev60 from ejective_p_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry dmitriyev40 from ejective_p_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry abaev64 from ejective_p_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry imnayshvili77 from ejective_p_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry nikolayev94 from ejective_p_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry talibov80 from ejective_p_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry forker13 from ejective_p_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry fenwick11 from ejective_p_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry catford77 from ejective_p_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry moroz20_villages from ejective_p_bib.tsv has the wrong CATEGORY value: DATASET
-The BibTeX entry wals-1 from ejective_p_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry moroz19 from ejective_p_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry begus21 from ejective_p_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry boris21a from ejective_p_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry boris21b from ejective_p_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry grawunder17 from ejective_p_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry alexeyev21 from ejective_p_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry moroz21 from ejective_p_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry belyayev21 from ejective_p_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry kibrik1994a from ejective_p_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry nichols03 from ejective_p_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry colarusso13 from ejective_p_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry grawunder10 from ejective_p_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry catford83 from ejective_p_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry kodzasov86 from ejective_p_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry gasser14 from ejective_p_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry catford72 from ejective_p_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry kodzasov87 from ejective_p_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry arkhipov19 from ejective_p_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry moroz17 from ejective_p_bib.tsv has the wrong CATEGORY value: MANUAL
-The BibTeX entry rteam from ejective_p_bib.tsv has the wrong CATEGORY value: MANUAL
-The BibTeX entry moroz20 from ejective_p_bib.tsv has the wrong CATEGORY value: MANUAL
-The BibTeX entry daniell2021 from ejective_p_bib.tsv has the wrong CATEGORY value: MISC
-The BibTeX entry eurasianphonology from ejective_p_bib.tsv has the wrong CATEGORY value: MISK
-The BibTeX entry grawunder from ejective_p_bib.tsv has the wrong CATEGORY value: MISK
-The BibTeX entry khalilova09 from ejective_p_bib.tsv has the wrong CATEGORY value: PHDTHESIS
-The BibTeX entry everett13 from ejective_s_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry regier16 from ejective_s_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry bentz18 from ejective_s_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry urban21 from ejective_s_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry urban20 from ejective_s_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry hay07 from ejective_s_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry moran12 from ejective_s_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry wichmann11 from ejective_s_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry donohue11 from ejective_s_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nichols13 from ejective_s_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nikolaev18 from ejective_s_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry holisky94 from ejective_s_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nichols94a from ejective_s_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nichols94b from ejective_s_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry dobrushina19 from ejective_s_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry atkinson11 from ejective_s_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry maddieson11 from ejective_s_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry catford77 from ejective_s_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry hammarstrom21 from ejective_s_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry kibrik82 from ejective_s_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry mudrak19 from ejective_s_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry mudrak20 from ejective_s_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry gigineyshvili77 from ejective_s_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry aslanov74 from ejective_s_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry akiev77 from ejective_s_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry cho99 from ejective_s_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry esling96 from ejective_s_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry esling05 from ejective_s_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry phoible from ejective_s_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry kk90 from ejective_s_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry alekseev01 from ejective_s_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry smeets94a from ejective_s_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry smeets94b from ejective_s_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry koryakov21 from ejective_s_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry yihui18 from ejective_s_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry kibrik01 from ejective_s_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry magomedbekova71 from ejective_s_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry wickham16 from ejective_s_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry hewitt04 from ejective_s_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry talibov07 from ejective_s_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry ardoteli09 from ejective_s_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry gudava64 from ejective_s_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry bokarev81 from ejective_s_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry bokarev60 from ejective_s_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry dmitriyev40 from ejective_s_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry abaev64 from ejective_s_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry imnayshvili77 from ejective_s_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry nikolayev94 from ejective_s_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry talibov80 from ejective_s_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry forker13 from ejective_s_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry fenwick11 from ejective_s_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry catford77 from ejective_s_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry moroz20_villages from ejective_s_bib.tsv has the wrong CATEGORY value: DATASET
-The BibTeX entry wals-1 from ejective_s_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry moroz19 from ejective_s_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry begus21 from ejective_s_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry boris21a from ejective_s_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry boris21b from ejective_s_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry grawunder17 from ejective_s_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry alexeyev21 from ejective_s_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry moroz21 from ejective_s_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry belyayev21 from ejective_s_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry kibrik1994a from ejective_s_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry nichols03 from ejective_s_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry colarusso13 from ejective_s_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry grawunder10 from ejective_s_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry catford83 from ejective_s_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry kodzasov86 from ejective_s_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry gasser14 from ejective_s_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry catford72 from ejective_s_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry kodzasov87 from ejective_s_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry arkhipov19 from ejective_s_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry moroz17 from ejective_s_bib.tsv has the wrong CATEGORY value: MANUAL
-The BibTeX entry rteam from ejective_s_bib.tsv has the wrong CATEGORY value: MANUAL
-The BibTeX entry moroz20 from ejective_s_bib.tsv has the wrong CATEGORY value: MANUAL
-The BibTeX entry daniell2021 from ejective_s_bib.tsv has the wrong CATEGORY value: MISC
-The BibTeX entry eurasianphonology from ejective_s_bib.tsv has the wrong CATEGORY value: MISK
-The BibTeX entry grawunder from ejective_s_bib.tsv has the wrong CATEGORY value: MISK
-The BibTeX entry khalilova09 from ejective_s_bib.tsv has the wrong CATEGORY value: PHDTHESIS
-The BibTeX entry everett13 from gemination_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry regier16 from gemination_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry bentz18 from gemination_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry urban21 from gemination_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry urban20 from gemination_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry hay07 from gemination_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry moran12 from gemination_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry wichmann11 from gemination_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry donohue11 from gemination_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nichols13 from gemination_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nikolaev18 from gemination_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry holisky94 from gemination_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nichols94a from gemination_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nichols94b from gemination_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry dobrushina19 from gemination_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry atkinson11 from gemination_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry maddieson11 from gemination_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry catford77 from gemination_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry hammarstrom21 from gemination_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry kibrik82 from gemination_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry mudrak19 from gemination_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry mudrak20 from gemination_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry gigineyshvili77 from gemination_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry aslanov74 from gemination_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry akiev77 from gemination_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry cho99 from gemination_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry esling96 from gemination_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry esling05 from gemination_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry phoible from gemination_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry kk90 from gemination_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry alekseev01 from gemination_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry smeets94a from gemination_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry smeets94b from gemination_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry koryakov21 from gemination_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry yihui18 from gemination_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry kibrik01 from gemination_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry magomedbekova71 from gemination_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry wickham16 from gemination_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry hewitt04 from gemination_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry talibov07 from gemination_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry ardoteli09 from gemination_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry gudava64 from gemination_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry bokarev81 from gemination_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry bokarev60 from gemination_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry dmitriyev40 from gemination_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry abaev64 from gemination_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry imnayshvili77 from gemination_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry nikolayev94 from gemination_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry talibov80 from gemination_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry forker13 from gemination_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry fenwick11 from gemination_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry catford77 from gemination_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry moroz20_villages from gemination_bib.tsv has the wrong CATEGORY value: DATASET
-The BibTeX entry wals-1 from gemination_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry moroz19 from gemination_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry begus21 from gemination_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry boris21a from gemination_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry boris21b from gemination_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry grawunder17 from gemination_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry alexeyev21 from gemination_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry moroz21 from gemination_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry belyayev21 from gemination_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry kibrik1994a from gemination_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry nichols03 from gemination_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry colarusso13 from gemination_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry grawunder10 from gemination_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry catford83 from gemination_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry kodzasov86 from gemination_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry gasser14 from gemination_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry catford72 from gemination_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry kodzasov87 from gemination_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry arkhipov19 from gemination_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry moroz17 from gemination_bib.tsv has the wrong CATEGORY value: MANUAL
-The BibTeX entry rteam from gemination_bib.tsv has the wrong CATEGORY value: MANUAL
-The BibTeX entry moroz20 from gemination_bib.tsv has the wrong CATEGORY value: MANUAL
-The BibTeX entry daniell2021 from gemination_bib.tsv has the wrong CATEGORY value: MISC
-The BibTeX entry eurasianphonology from gemination_bib.tsv has the wrong CATEGORY value: MISK
-The BibTeX entry grawunder from gemination_bib.tsv has the wrong CATEGORY value: MISK
-The BibTeX entry khalilova09 from gemination_bib.tsv has the wrong CATEGORY value: PHDTHESIS
-The BibTeX entry everett13 from labialization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry regier16 from labialization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry bentz18 from labialization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry urban21 from labialization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry urban20 from labialization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry hay07 from labialization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry moran12 from labialization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry wichmann11 from labialization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry donohue11 from labialization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nichols13 from labialization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nikolaev18 from labialization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry holisky94 from labialization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nichols94a from labialization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nichols94b from labialization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry dobrushina19 from labialization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry atkinson11 from labialization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry maddieson11 from labialization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry catford77 from labialization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry hammarstrom21 from labialization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry kibrik82 from labialization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry mudrak19 from labialization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry mudrak20 from labialization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry gigineyshvili77 from labialization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry aslanov74 from labialization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry akiev77 from labialization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry cho99 from labialization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry esling96 from labialization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry esling05 from labialization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry phoible from labialization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry kk90 from labialization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry alekseev01 from labialization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry smeets94a from labialization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry smeets94b from labialization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry koryakov21 from labialization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry yihui18 from labialization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry kibrik01 from labialization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry magomedbekova71 from labialization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry wickham16 from labialization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry hewitt04 from labialization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry talibov07 from labialization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry ardoteli09 from labialization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry gudava64 from labialization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry bokarev81 from labialization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry bokarev60 from labialization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry dmitriyev40 from labialization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry abaev64 from labialization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry imnayshvili77 from labialization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry nikolayev94 from labialization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry talibov80 from labialization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry forker13 from labialization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry fenwick11 from labialization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry catford77 from labialization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry moroz20_villages from labialization_bib.tsv has the wrong CATEGORY value: DATASET
-The BibTeX entry wals-1 from labialization_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry moroz19 from labialization_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry begus21 from labialization_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry boris21a from labialization_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry boris21b from labialization_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry grawunder17 from labialization_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry alexeyev21 from labialization_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry moroz21 from labialization_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry belyayev21 from labialization_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry kibrik1994a from labialization_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry nichols03 from labialization_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry colarusso13 from labialization_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry grawunder10 from labialization_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry catford83 from labialization_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry kodzasov86 from labialization_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry gasser14 from labialization_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry catford72 from labialization_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry kodzasov87 from labialization_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry arkhipov19 from labialization_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry moroz17 from labialization_bib.tsv has the wrong CATEGORY value: MANUAL
-The BibTeX entry rteam from labialization_bib.tsv has the wrong CATEGORY value: MANUAL
-The BibTeX entry moroz20 from labialization_bib.tsv has the wrong CATEGORY value: MANUAL
-The BibTeX entry daniell2021 from labialization_bib.tsv has the wrong CATEGORY value: MISC
-The BibTeX entry eurasianphonology from labialization_bib.tsv has the wrong CATEGORY value: MISK
-The BibTeX entry grawunder from labialization_bib.tsv has the wrong CATEGORY value: MISK
-The BibTeX entry khalilova09 from labialization_bib.tsv has the wrong CATEGORY value: PHDTHESIS
-The BibTeX entry everett13 from labials_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry regier16 from labials_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry bentz18 from labials_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry urban21 from labials_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry urban20 from labials_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry hay07 from labials_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry moran12 from labials_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry wichmann11 from labials_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry donohue11 from labials_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nichols13 from labials_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nikolaev18 from labials_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry holisky94 from labials_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nichols94a from labials_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nichols94b from labials_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry dobrushina19 from labials_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry atkinson11 from labials_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry maddieson11 from labials_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry catford77 from labials_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry hammarstrom21 from labials_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry kibrik82 from labials_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry mudrak19 from labials_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry mudrak20 from labials_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry gigineyshvili77 from labials_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry aslanov74 from labials_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry akiev77 from labials_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry cho99 from labials_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry esling96 from labials_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry esling05 from labials_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry phoible from labials_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry kk90 from labials_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry alekseev01 from labials_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry smeets94a from labials_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry smeets94b from labials_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry koryakov21 from labials_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry yihui18 from labials_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry kibrik01 from labials_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry magomedbekova71 from labials_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry wickham16 from labials_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry hewitt04 from labials_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry talibov07 from labials_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry ardoteli09 from labials_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry gudava64 from labials_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry bokarev81 from labials_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry bokarev60 from labials_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry dmitriyev40 from labials_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry abaev64 from labials_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry imnayshvili77 from labials_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry nikolayev94 from labials_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry talibov80 from labials_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry forker13 from labials_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry fenwick11 from labials_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry catford77 from labials_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry moroz20_villages from labials_bib.tsv has the wrong CATEGORY value: DATASET
-The BibTeX entry wals-1 from labials_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry moroz19 from labials_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry begus21 from labials_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry boris21a from labials_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry boris21b from labials_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry grawunder17 from labials_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry alexeyev21 from labials_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry moroz21 from labials_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry belyayev21 from labials_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry kibrik1994a from labials_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry nichols03 from labials_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry colarusso13 from labials_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry grawunder10 from labials_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry catford83 from labials_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry kodzasov86 from labials_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry gasser14 from labials_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry catford72 from labials_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry kodzasov87 from labials_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry arkhipov19 from labials_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry moroz17 from labials_bib.tsv has the wrong CATEGORY value: MANUAL
-The BibTeX entry rteam from labials_bib.tsv has the wrong CATEGORY value: MANUAL
-The BibTeX entry moroz20 from labials_bib.tsv has the wrong CATEGORY value: MANUAL
-The BibTeX entry daniell2021 from labials_bib.tsv has the wrong CATEGORY value: MISC
-The BibTeX entry eurasianphonology from labials_bib.tsv has the wrong CATEGORY value: MISK
-The BibTeX entry grawunder from labials_bib.tsv has the wrong CATEGORY value: MISK
-The BibTeX entry khalilova09 from labials_bib.tsv has the wrong CATEGORY value: PHDTHESIS
-The BibTeX entry everett13 from laterals_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry regier16 from laterals_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry bentz18 from laterals_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry urban21 from laterals_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry urban20 from laterals_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry hay07 from laterals_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry moran12 from laterals_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry wichmann11 from laterals_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry donohue11 from laterals_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nichols13 from laterals_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nikolaev18 from laterals_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry holisky94 from laterals_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nichols94a from laterals_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nichols94b from laterals_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry dobrushina19 from laterals_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry atkinson11 from laterals_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry maddieson11 from laterals_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry catford77 from laterals_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry hammarstrom21 from laterals_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry kibrik82 from laterals_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry mudrak19 from laterals_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry mudrak20 from laterals_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry gigineyshvili77 from laterals_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry aslanov74 from laterals_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry akiev77 from laterals_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry cho99 from laterals_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry esling96 from laterals_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry esling05 from laterals_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry phoible from laterals_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry kk90 from laterals_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry alekseev01 from laterals_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry smeets94a from laterals_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry smeets94b from laterals_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry koryakov21 from laterals_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry yihui18 from laterals_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry kibrik01 from laterals_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry magomedbekova71 from laterals_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry wickham16 from laterals_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry hewitt04 from laterals_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry talibov07 from laterals_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry ardoteli09 from laterals_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry gudava64 from laterals_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry bokarev81 from laterals_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry bokarev60 from laterals_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry dmitriyev40 from laterals_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry abaev64 from laterals_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry imnayshvili77 from laterals_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry nikolayev94 from laterals_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry talibov80 from laterals_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry forker13 from laterals_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry fenwick11 from laterals_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry catford77 from laterals_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry moroz20_villages from laterals_bib.tsv has the wrong CATEGORY value: DATASET
-The BibTeX entry wals-1 from laterals_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry moroz19 from laterals_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry begus21 from laterals_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry boris21a from laterals_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry boris21b from laterals_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry grawunder17 from laterals_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry alexeyev21 from laterals_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry moroz21 from laterals_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry belyayev21 from laterals_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry kibrik1994a from laterals_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry nichols03 from laterals_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry colarusso13 from laterals_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry grawunder10 from laterals_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry catford83 from laterals_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry kodzasov86 from laterals_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry gasser14 from laterals_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry catford72 from laterals_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry kodzasov87 from laterals_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry arkhipov19 from laterals_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry moroz17 from laterals_bib.tsv has the wrong CATEGORY value: MANUAL
-The BibTeX entry rteam from laterals_bib.tsv has the wrong CATEGORY value: MANUAL
-The BibTeX entry moroz20 from laterals_bib.tsv has the wrong CATEGORY value: MANUAL
-The BibTeX entry daniell2021 from laterals_bib.tsv has the wrong CATEGORY value: MISC
-The BibTeX entry eurasianphonology from laterals_bib.tsv has the wrong CATEGORY value: MISK
-The BibTeX entry grawunder from laterals_bib.tsv has the wrong CATEGORY value: MISK
-The BibTeX entry khalilova09 from laterals_bib.tsv has the wrong CATEGORY value: PHDTHESIS
-The BibTeX entry everett13 from long_vowels_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry regier16 from long_vowels_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry bentz18 from long_vowels_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry urban21 from long_vowels_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry urban20 from long_vowels_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry hay07 from long_vowels_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry moran12 from long_vowels_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry wichmann11 from long_vowels_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry donohue11 from long_vowels_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nichols13 from long_vowels_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nikolaev18 from long_vowels_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry holisky94 from long_vowels_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nichols94a from long_vowels_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nichols94b from long_vowels_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry dobrushina19 from long_vowels_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry atkinson11 from long_vowels_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry maddieson11 from long_vowels_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry catford77 from long_vowels_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry hammarstrom21 from long_vowels_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry kibrik82 from long_vowels_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry mudrak19 from long_vowels_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry mudrak20 from long_vowels_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry gigineyshvili77 from long_vowels_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry aslanov74 from long_vowels_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry akiev77 from long_vowels_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry cho99 from long_vowels_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry esling96 from long_vowels_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry esling05 from long_vowels_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry phoible from long_vowels_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry kk90 from long_vowels_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry alekseev01 from long_vowels_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry smeets94a from long_vowels_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry smeets94b from long_vowels_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry koryakov21 from long_vowels_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry yihui18 from long_vowels_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry kibrik01 from long_vowels_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry magomedbekova71 from long_vowels_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry wickham16 from long_vowels_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry hewitt04 from long_vowels_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry talibov07 from long_vowels_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry ardoteli09 from long_vowels_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry gudava64 from long_vowels_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry bokarev81 from long_vowels_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry bokarev60 from long_vowels_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry dmitriyev40 from long_vowels_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry abaev64 from long_vowels_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry imnayshvili77 from long_vowels_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry nikolayev94 from long_vowels_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry talibov80 from long_vowels_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry forker13 from long_vowels_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry fenwick11 from long_vowels_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry catford77 from long_vowels_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry moroz20_villages from long_vowels_bib.tsv has the wrong CATEGORY value: DATASET
-The BibTeX entry wals-1 from long_vowels_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry moroz19 from long_vowels_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry begus21 from long_vowels_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry boris21a from long_vowels_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry boris21b from long_vowels_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry grawunder17 from long_vowels_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry alexeyev21 from long_vowels_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry moroz21 from long_vowels_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry belyayev21 from long_vowels_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry kibrik1994a from long_vowels_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry nichols03 from long_vowels_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry colarusso13 from long_vowels_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry grawunder10 from long_vowels_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry catford83 from long_vowels_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry kodzasov86 from long_vowels_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry gasser14 from long_vowels_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry catford72 from long_vowels_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry kodzasov87 from long_vowels_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry arkhipov19 from long_vowels_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry moroz17 from long_vowels_bib.tsv has the wrong CATEGORY value: MANUAL
-The BibTeX entry rteam from long_vowels_bib.tsv has the wrong CATEGORY value: MANUAL
-The BibTeX entry moroz20 from long_vowels_bib.tsv has the wrong CATEGORY value: MANUAL
-The BibTeX entry daniell2021 from long_vowels_bib.tsv has the wrong CATEGORY value: MISC
-The BibTeX entry eurasianphonology from long_vowels_bib.tsv has the wrong CATEGORY value: MISK
-The BibTeX entry grawunder from long_vowels_bib.tsv has the wrong CATEGORY value: MISK
-The BibTeX entry khalilova09 from long_vowels_bib.tsv has the wrong CATEGORY value: PHDTHESIS
-The BibTeX entry everett13 from nasalization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry regier16 from nasalization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry bentz18 from nasalization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry urban21 from nasalization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry urban20 from nasalization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry hay07 from nasalization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry moran12 from nasalization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry wichmann11 from nasalization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry donohue11 from nasalization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nichols13 from nasalization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nikolaev18 from nasalization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry holisky94 from nasalization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nichols94a from nasalization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nichols94b from nasalization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry dobrushina19 from nasalization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry atkinson11 from nasalization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry maddieson11 from nasalization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry catford77 from nasalization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry hammarstrom21 from nasalization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry kibrik82 from nasalization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry mudrak19 from nasalization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry mudrak20 from nasalization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry gigineyshvili77 from nasalization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry aslanov74 from nasalization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry akiev77 from nasalization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry cho99 from nasalization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry esling96 from nasalization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry esling05 from nasalization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry phoible from nasalization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry kk90 from nasalization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry alekseev01 from nasalization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry smeets94a from nasalization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry smeets94b from nasalization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry koryakov21 from nasalization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry yihui18 from nasalization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry kibrik01 from nasalization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry magomedbekova71 from nasalization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry wickham16 from nasalization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry hewitt04 from nasalization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry talibov07 from nasalization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry ardoteli09 from nasalization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry gudava64 from nasalization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry bokarev81 from nasalization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry bokarev60 from nasalization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry dmitriyev40 from nasalization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry abaev64 from nasalization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry imnayshvili77 from nasalization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry nikolayev94 from nasalization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry talibov80 from nasalization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry forker13 from nasalization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry fenwick11 from nasalization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry catford77 from nasalization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry moroz20_villages from nasalization_bib.tsv has the wrong CATEGORY value: DATASET
-The BibTeX entry wals-1 from nasalization_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry moroz19 from nasalization_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry begus21 from nasalization_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry boris21a from nasalization_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry boris21b from nasalization_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry grawunder17 from nasalization_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry alexeyev21 from nasalization_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry moroz21 from nasalization_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry belyayev21 from nasalization_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry kibrik1994a from nasalization_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry nichols03 from nasalization_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry colarusso13 from nasalization_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry grawunder10 from nasalization_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry catford83 from nasalization_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry kodzasov86 from nasalization_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry gasser14 from nasalization_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry catford72 from nasalization_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry kodzasov87 from nasalization_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry arkhipov19 from nasalization_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry moroz17 from nasalization_bib.tsv has the wrong CATEGORY value: MANUAL
-The BibTeX entry rteam from nasalization_bib.tsv has the wrong CATEGORY value: MANUAL
-The BibTeX entry moroz20 from nasalization_bib.tsv has the wrong CATEGORY value: MANUAL
-The BibTeX entry daniell2021 from nasalization_bib.tsv has the wrong CATEGORY value: MISC
-The BibTeX entry eurasianphonology from nasalization_bib.tsv has the wrong CATEGORY value: MISK
-The BibTeX entry grawunder from nasalization_bib.tsv has the wrong CATEGORY value: MISK
-The BibTeX entry khalilova09 from nasalization_bib.tsv has the wrong CATEGORY value: PHDTHESIS
-The BibTeX entry everett13 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry regier16 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry bentz18 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry urban21 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry urban20 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry hay07 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry moran12 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry wichmann11 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry donohue11 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nichols13 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nikolaev18 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry holisky94 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nichols94a from palatalized_consonants_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nichols94b from palatalized_consonants_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry dobrushina19 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry atkinson11 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry maddieson11 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry catford77 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry hammarstrom21 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry kibrik82 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry mudrak19 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry mudrak20 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry gigineyshvili77 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry aslanov74 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry akiev77 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry cho99 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry esling96 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry esling05 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry phoible from palatalized_consonants_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry kk90 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry alekseev01 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry smeets94a from palatalized_consonants_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry smeets94b from palatalized_consonants_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry koryakov21 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry yihui18 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry kibrik01 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry magomedbekova71 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry wickham16 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry hewitt04 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry talibov07 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry ardoteli09 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry gudava64 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry bokarev81 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry bokarev60 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry dmitriyev40 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry abaev64 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry imnayshvili77 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry nikolayev94 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry talibov80 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry forker13 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry fenwick11 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry catford77 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry moroz20_villages from palatalized_consonants_bib.tsv has the wrong CATEGORY value: DATASET
-The BibTeX entry wals-1 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry moroz19 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry begus21 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry boris21a from palatalized_consonants_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry boris21b from palatalized_consonants_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry grawunder17 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry alexeyev21 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry moroz21 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry belyayev21 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry kibrik1994a from palatalized_consonants_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry nichols03 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry colarusso13 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry grawunder10 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry catford83 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry kodzasov86 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry gasser14 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry catford72 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry kodzasov87 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry arkhipov19 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry moroz17 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: MANUAL
-The BibTeX entry rteam from palatalized_consonants_bib.tsv has the wrong CATEGORY value: MANUAL
-The BibTeX entry moroz20 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: MANUAL
-The BibTeX entry daniell2021 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: MISC
-The BibTeX entry eurasianphonology from palatalized_consonants_bib.tsv has the wrong CATEGORY value: MISK
-The BibTeX entry grawunder from palatalized_consonants_bib.tsv has the wrong CATEGORY value: MISK
-The BibTeX entry khalilova09 from palatalized_consonants_bib.tsv has the wrong CATEGORY value: PHDTHESIS
-The BibTeX entry everett13 from pharyngealization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry regier16 from pharyngealization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry bentz18 from pharyngealization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry urban21 from pharyngealization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry urban20 from pharyngealization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry hay07 from pharyngealization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry moran12 from pharyngealization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry wichmann11 from pharyngealization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry donohue11 from pharyngealization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nichols13 from pharyngealization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nikolaev18 from pharyngealization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry holisky94 from pharyngealization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nichols94a from pharyngealization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nichols94b from pharyngealization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry dobrushina19 from pharyngealization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry atkinson11 from pharyngealization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry maddieson11 from pharyngealization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry catford77 from pharyngealization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry hammarstrom21 from pharyngealization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry kibrik82 from pharyngealization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry mudrak19 from pharyngealization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry mudrak20 from pharyngealization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry gigineyshvili77 from pharyngealization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry aslanov74 from pharyngealization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry akiev77 from pharyngealization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry cho99 from pharyngealization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry esling96 from pharyngealization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry esling05 from pharyngealization_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry phoible from pharyngealization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry kk90 from pharyngealization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry alekseev01 from pharyngealization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry smeets94a from pharyngealization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry smeets94b from pharyngealization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry koryakov21 from pharyngealization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry yihui18 from pharyngealization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry kibrik01 from pharyngealization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry magomedbekova71 from pharyngealization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry wickham16 from pharyngealization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry hewitt04 from pharyngealization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry talibov07 from pharyngealization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry ardoteli09 from pharyngealization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry gudava64 from pharyngealization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry bokarev81 from pharyngealization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry bokarev60 from pharyngealization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry dmitriyev40 from pharyngealization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry abaev64 from pharyngealization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry imnayshvili77 from pharyngealization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry nikolayev94 from pharyngealization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry talibov80 from pharyngealization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry forker13 from pharyngealization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry fenwick11 from pharyngealization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry catford77 from pharyngealization_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry moroz20_villages from pharyngealization_bib.tsv has the wrong CATEGORY value: DATASET
-The BibTeX entry wals-1 from pharyngealization_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry moroz19 from pharyngealization_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry begus21 from pharyngealization_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry boris21a from pharyngealization_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry boris21b from pharyngealization_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry grawunder17 from pharyngealization_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry alexeyev21 from pharyngealization_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry moroz21 from pharyngealization_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry belyayev21 from pharyngealization_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry kibrik1994a from pharyngealization_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry nichols03 from pharyngealization_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry colarusso13 from pharyngealization_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry grawunder10 from pharyngealization_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry catford83 from pharyngealization_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry kodzasov86 from pharyngealization_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry gasser14 from pharyngealization_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry catford72 from pharyngealization_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry kodzasov87 from pharyngealization_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry arkhipov19 from pharyngealization_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry moroz17 from pharyngealization_bib.tsv has the wrong CATEGORY value: MANUAL
-The BibTeX entry rteam from pharyngealization_bib.tsv has the wrong CATEGORY value: MANUAL
-The BibTeX entry moroz20 from pharyngealization_bib.tsv has the wrong CATEGORY value: MANUAL
-The BibTeX entry daniell2021 from pharyngealization_bib.tsv has the wrong CATEGORY value: MISC
-The BibTeX entry eurasianphonology from pharyngealization_bib.tsv has the wrong CATEGORY value: MISK
-The BibTeX entry grawunder from pharyngealization_bib.tsv has the wrong CATEGORY value: MISK
-The BibTeX entry khalilova09 from pharyngealization_bib.tsv has the wrong CATEGORY value: PHDTHESIS
-The BibTeX entry everett13 from pharyngeals_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry regier16 from pharyngeals_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry bentz18 from pharyngeals_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry urban21 from pharyngeals_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry urban20 from pharyngeals_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry hay07 from pharyngeals_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry moran12 from pharyngeals_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry wichmann11 from pharyngeals_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry donohue11 from pharyngeals_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nichols13 from pharyngeals_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nikolaev18 from pharyngeals_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry holisky94 from pharyngeals_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nichols94a from pharyngeals_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nichols94b from pharyngeals_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry dobrushina19 from pharyngeals_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry atkinson11 from pharyngeals_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry maddieson11 from pharyngeals_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry catford77 from pharyngeals_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry hammarstrom21 from pharyngeals_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry kibrik82 from pharyngeals_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry mudrak19 from pharyngeals_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry mudrak20 from pharyngeals_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry gigineyshvili77 from pharyngeals_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry aslanov74 from pharyngeals_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry akiev77 from pharyngeals_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry cho99 from pharyngeals_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry esling96 from pharyngeals_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry esling05 from pharyngeals_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry phoible from pharyngeals_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry kk90 from pharyngeals_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry alekseev01 from pharyngeals_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry smeets94a from pharyngeals_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry smeets94b from pharyngeals_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry koryakov21 from pharyngeals_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry yihui18 from pharyngeals_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry kibrik01 from pharyngeals_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry magomedbekova71 from pharyngeals_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry wickham16 from pharyngeals_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry hewitt04 from pharyngeals_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry talibov07 from pharyngeals_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry ardoteli09 from pharyngeals_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry gudava64 from pharyngeals_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry bokarev81 from pharyngeals_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry bokarev60 from pharyngeals_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry dmitriyev40 from pharyngeals_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry abaev64 from pharyngeals_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry imnayshvili77 from pharyngeals_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry nikolayev94 from pharyngeals_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry talibov80 from pharyngeals_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry forker13 from pharyngeals_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry fenwick11 from pharyngeals_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry catford77 from pharyngeals_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry moroz20_villages from pharyngeals_bib.tsv has the wrong CATEGORY value: DATASET
-The BibTeX entry wals-1 from pharyngeals_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry moroz19 from pharyngeals_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry begus21 from pharyngeals_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry boris21a from pharyngeals_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry boris21b from pharyngeals_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry grawunder17 from pharyngeals_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry alexeyev21 from pharyngeals_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry moroz21 from pharyngeals_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry belyayev21 from pharyngeals_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry kibrik1994a from pharyngeals_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry nichols03 from pharyngeals_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry colarusso13 from pharyngeals_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry grawunder10 from pharyngeals_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry catford83 from pharyngeals_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry kodzasov86 from pharyngeals_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry gasser14 from pharyngeals_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry catford72 from pharyngeals_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry kodzasov87 from pharyngeals_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry arkhipov19 from pharyngeals_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry moroz17 from pharyngeals_bib.tsv has the wrong CATEGORY value: MANUAL
-The BibTeX entry rteam from pharyngeals_bib.tsv has the wrong CATEGORY value: MANUAL
-The BibTeX entry moroz20 from pharyngeals_bib.tsv has the wrong CATEGORY value: MANUAL
-The BibTeX entry daniell2021 from pharyngeals_bib.tsv has the wrong CATEGORY value: MISC
-The BibTeX entry eurasianphonology from pharyngeals_bib.tsv has the wrong CATEGORY value: MISK
-The BibTeX entry grawunder from pharyngeals_bib.tsv has the wrong CATEGORY value: MISK
-The BibTeX entry khalilova09 from pharyngeals_bib.tsv has the wrong CATEGORY value: PHDTHESIS
-The BibTeX entry everett13 from phonology_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry regier16 from phonology_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry bentz18 from phonology_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry urban21 from phonology_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry urban20 from phonology_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry hay07 from phonology_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry moran12 from phonology_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry wichmann11 from phonology_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry donohue11 from phonology_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nichols13 from phonology_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nikolaev18 from phonology_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry holisky94 from phonology_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nichols94a from phonology_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nichols94b from phonology_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry dobrushina19 from phonology_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry atkinson11 from phonology_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry maddieson11 from phonology_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry catford77 from phonology_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry hammarstrom21 from phonology_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry kibrik82 from phonology_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry mudrak19 from phonology_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry mudrak20 from phonology_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry gigineyshvili77 from phonology_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry aslanov74 from phonology_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry akiev77 from phonology_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry cho99 from phonology_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry esling96 from phonology_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry esling05 from phonology_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry phoible from phonology_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry kk90 from phonology_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry alekseev01 from phonology_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry smeets94a from phonology_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry smeets94b from phonology_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry koryakov21 from phonology_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry yihui18 from phonology_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry kibrik01 from phonology_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry magomedbekova71 from phonology_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry wickham16 from phonology_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry hewitt04 from phonology_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry talibov07 from phonology_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry ardoteli09 from phonology_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry gudava64 from phonology_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry bokarev81 from phonology_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry bokarev60 from phonology_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry dmitriyev40 from phonology_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry abaev64 from phonology_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry imnayshvili77 from phonology_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry nikolayev94 from phonology_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry talibov80 from phonology_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry forker13 from phonology_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry fenwick11 from phonology_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry catford77 from phonology_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry moroz20_villages from phonology_bib.tsv has the wrong CATEGORY value: DATASET
-The BibTeX entry wals-1 from phonology_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry moroz19 from phonology_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry begus21 from phonology_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry boris21a from phonology_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry boris21b from phonology_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry grawunder17 from phonology_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry alexeyev21 from phonology_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry moroz21 from phonology_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry belyayev21 from phonology_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry kibrik1994a from phonology_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry nichols03 from phonology_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry colarusso13 from phonology_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry grawunder10 from phonology_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry catford83 from phonology_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry kodzasov86 from phonology_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry gasser14 from phonology_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry catford72 from phonology_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry kodzasov87 from phonology_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry arkhipov19 from phonology_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry moroz17 from phonology_bib.tsv has the wrong CATEGORY value: MANUAL
-The BibTeX entry rteam from phonology_bib.tsv has the wrong CATEGORY value: MANUAL
-The BibTeX entry moroz20 from phonology_bib.tsv has the wrong CATEGORY value: MANUAL
-The BibTeX entry daniell2021 from phonology_bib.tsv has the wrong CATEGORY value: MISC
-The BibTeX entry eurasianphonology from phonology_bib.tsv has the wrong CATEGORY value: MISK
-The BibTeX entry grawunder from phonology_bib.tsv has the wrong CATEGORY value: MISK
-The BibTeX entry khalilova09 from phonology_bib.tsv has the wrong CATEGORY value: PHDTHESIS
-The BibTeX entry everett13 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry regier16 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry bentz18 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry urban21 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry urban20 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry hay07 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry moran12 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry wichmann11 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry donohue11 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nichols13 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nikolaev18 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry holisky94 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nichols94a from umlaut_vowels_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nichols94b from umlaut_vowels_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry dobrushina19 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry atkinson11 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry maddieson11 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry catford77 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry hammarstrom21 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry kibrik82 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry mudrak19 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry mudrak20 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry gigineyshvili77 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry aslanov74 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry akiev77 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry cho99 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry esling96 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry esling05 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry phoible from umlaut_vowels_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry kk90 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry alekseev01 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry smeets94a from umlaut_vowels_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry smeets94b from umlaut_vowels_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry koryakov21 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry yihui18 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry kibrik01 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry magomedbekova71 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry wickham16 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry hewitt04 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry talibov07 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry ardoteli09 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry gudava64 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry bokarev81 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry bokarev60 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry dmitriyev40 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry abaev64 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry imnayshvili77 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry nikolayev94 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry talibov80 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry forker13 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry fenwick11 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry catford77 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry moroz20_villages from umlaut_vowels_bib.tsv has the wrong CATEGORY value: DATASET
-The BibTeX entry wals-1 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry moroz19 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry begus21 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry boris21a from umlaut_vowels_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry boris21b from umlaut_vowels_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry grawunder17 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry alexeyev21 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry moroz21 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry belyayev21 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry kibrik1994a from umlaut_vowels_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry nichols03 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry colarusso13 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry grawunder10 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry catford83 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry kodzasov86 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry gasser14 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry catford72 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry kodzasov87 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry arkhipov19 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry moroz17 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: MANUAL
-The BibTeX entry rteam from umlaut_vowels_bib.tsv has the wrong CATEGORY value: MANUAL
-The BibTeX entry moroz20 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: MANUAL
-The BibTeX entry daniell2021 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: MISC
-The BibTeX entry eurasianphonology from umlaut_vowels_bib.tsv has the wrong CATEGORY value: MISK
-The BibTeX entry grawunder from umlaut_vowels_bib.tsv has the wrong CATEGORY value: MISK
-The BibTeX entry khalilova09 from umlaut_vowels_bib.tsv has the wrong CATEGORY value: PHDTHESIS
-The BibTeX entry everett13 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry regier16 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry bentz18 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry urban21 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry urban20 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry hay07 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry moran12 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry wichmann11 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry donohue11 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nichols13 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nikolaev18 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry holisky94 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nichols94a from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nichols94b from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry dobrushina19 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry atkinson11 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry maddieson11 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry catford77 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry hammarstrom21 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry kibrik82 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry mudrak19 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry mudrak20 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry gigineyshvili77 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry aslanov74 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry akiev77 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry cho99 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry esling96 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry esling05 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry phoible from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry kk90 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry alekseev01 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry smeets94a from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry smeets94b from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry koryakov21 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry yihui18 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry kibrik01 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry magomedbekova71 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry wickham16 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry hewitt04 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry talibov07 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry ardoteli09 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry gudava64 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry bokarev81 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry bokarev60 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry dmitriyev40 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry abaev64 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry imnayshvili77 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry nikolayev94 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry talibov80 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry forker13 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry fenwick11 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry catford77 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry moroz20_villages from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: DATASET
-The BibTeX entry wals-1 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry moroz19 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry begus21 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry boris21a from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry boris21b from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry grawunder17 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry alexeyev21 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry moroz21 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry belyayev21 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry kibrik1994a from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry nichols03 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry colarusso13 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry grawunder10 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry catford83 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry kodzasov86 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry gasser14 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry catford72 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry kodzasov87 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry arkhipov19 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry moroz17 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: MANUAL
-The BibTeX entry rteam from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: MANUAL
-The BibTeX entry moroz20 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: MANUAL
-The BibTeX entry daniell2021 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: MISC
-The BibTeX entry eurasianphonology from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: MISK
-The BibTeX entry grawunder from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: MISK
-The BibTeX entry khalilova09 from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: PHDTHESIS
-The BibTeX entry everett13 from velar_fricatives_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry regier16 from velar_fricatives_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry bentz18 from velar_fricatives_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry urban21 from velar_fricatives_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry urban20 from velar_fricatives_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry hay07 from velar_fricatives_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry moran12 from velar_fricatives_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry wichmann11 from velar_fricatives_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry donohue11 from velar_fricatives_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nichols13 from velar_fricatives_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nikolaev18 from velar_fricatives_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry holisky94 from velar_fricatives_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nichols94a from velar_fricatives_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nichols94b from velar_fricatives_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry dobrushina19 from velar_fricatives_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry atkinson11 from velar_fricatives_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry maddieson11 from velar_fricatives_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry catford77 from velar_fricatives_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry hammarstrom21 from velar_fricatives_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry kibrik82 from velar_fricatives_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry mudrak19 from velar_fricatives_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry mudrak20 from velar_fricatives_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry gigineyshvili77 from velar_fricatives_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry aslanov74 from velar_fricatives_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry akiev77 from velar_fricatives_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry cho99 from velar_fricatives_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry esling96 from velar_fricatives_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry esling05 from velar_fricatives_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry phoible from velar_fricatives_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry kk90 from velar_fricatives_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry alekseev01 from velar_fricatives_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry smeets94a from velar_fricatives_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry smeets94b from velar_fricatives_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry koryakov21 from velar_fricatives_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry yihui18 from velar_fricatives_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry kibrik01 from velar_fricatives_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry magomedbekova71 from velar_fricatives_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry wickham16 from velar_fricatives_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry hewitt04 from velar_fricatives_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry talibov07 from velar_fricatives_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry ardoteli09 from velar_fricatives_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry gudava64 from velar_fricatives_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry bokarev81 from velar_fricatives_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry bokarev60 from velar_fricatives_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry dmitriyev40 from velar_fricatives_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry abaev64 from velar_fricatives_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry imnayshvili77 from velar_fricatives_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry nikolayev94 from velar_fricatives_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry talibov80 from velar_fricatives_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry forker13 from velar_fricatives_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry fenwick11 from velar_fricatives_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry catford77 from velar_fricatives_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry moroz20_villages from velar_fricatives_bib.tsv has the wrong CATEGORY value: DATASET
-The BibTeX entry wals-1 from velar_fricatives_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry moroz19 from velar_fricatives_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry begus21 from velar_fricatives_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry boris21a from velar_fricatives_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry boris21b from velar_fricatives_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry grawunder17 from velar_fricatives_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry alexeyev21 from velar_fricatives_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry moroz21 from velar_fricatives_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry belyayev21 from velar_fricatives_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry kibrik1994a from velar_fricatives_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry nichols03 from velar_fricatives_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry colarusso13 from velar_fricatives_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry grawunder10 from velar_fricatives_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry catford83 from velar_fricatives_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry kodzasov86 from velar_fricatives_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry gasser14 from velar_fricatives_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry catford72 from velar_fricatives_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry kodzasov87 from velar_fricatives_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry arkhipov19 from velar_fricatives_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry moroz17 from velar_fricatives_bib.tsv has the wrong CATEGORY value: MANUAL
-The BibTeX entry rteam from velar_fricatives_bib.tsv has the wrong CATEGORY value: MANUAL
-The BibTeX entry moroz20 from velar_fricatives_bib.tsv has the wrong CATEGORY value: MANUAL
-The BibTeX entry daniell2021 from velar_fricatives_bib.tsv has the wrong CATEGORY value: MISC
-The BibTeX entry eurasianphonology from velar_fricatives_bib.tsv has the wrong CATEGORY value: MISK
-The BibTeX entry grawunder from velar_fricatives_bib.tsv has the wrong CATEGORY value: MISK
-The BibTeX entry khalilova09 from velar_fricatives_bib.tsv has the wrong CATEGORY value: PHDTHESIS
-The BibTeX entry everett13 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry regier16 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry bentz18 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry urban21 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry urban20 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry hay07 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry moran12 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry wichmann11 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry donohue11 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nichols13 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nikolaev18 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry holisky94 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nichols94a from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry nichols94b from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry dobrushina19 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry atkinson11 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry maddieson11 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry catford77 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry hammarstrom21 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry kibrik82 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry mudrak19 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry mudrak20 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry gigineyshvili77 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry aslanov74 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry akiev77 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry cho99 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry esling96 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry esling05 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: ARTICLE
-The BibTeX entry phoible from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry kk90 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry alekseev01 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry smeets94a from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry smeets94b from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry koryakov21 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry yihui18 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry kibrik01 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry magomedbekova71 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry wickham16 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry hewitt04 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry talibov07 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry ardoteli09 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry gudava64 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry bokarev81 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry bokarev60 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry dmitriyev40 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry abaev64 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry imnayshvili77 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry nikolayev94 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry talibov80 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry forker13 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry fenwick11 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry catford77 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: BOOK
-The BibTeX entry moroz20_villages from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: DATASET
-The BibTeX entry wals-1 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry moroz19 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry begus21 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry boris21a from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry boris21b from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry grawunder17 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry alexeyev21 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry moroz21 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry belyayev21 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry kibrik1994a from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry nichols03 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry colarusso13 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry grawunder10 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry catford83 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry kodzasov86 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: INCOLLECTION
-The BibTeX entry gasser14 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry catford72 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry kodzasov87 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry arkhipov19 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: INPROCEEDINGS
-The BibTeX entry moroz17 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: MANUAL
-The BibTeX entry rteam from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: MANUAL
-The BibTeX entry moroz20 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: MANUAL
-The BibTeX entry daniell2021 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: MISC
-The BibTeX entry eurasianphonology from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: MISK
-The BibTeX entry grawunder from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: MISK
-The BibTeX entry khalilova09 from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: PHDTHESIS
+The BibTeX entry moroz20_villages from ejective_p_bib.tsv has the wrong CATEGORY value: dataset
+The BibTeX entry eurasianphonology from ejective_p_bib.tsv has the wrong CATEGORY value: misk
+The BibTeX entry grawunder from ejective_p_bib.tsv has the wrong CATEGORY value: misk
+The BibTeX entry moroz20_villages from ejective_s_bib.tsv has the wrong CATEGORY value: dataset
+The BibTeX entry eurasianphonology from ejective_s_bib.tsv has the wrong CATEGORY value: misk
+The BibTeX entry grawunder from ejective_s_bib.tsv has the wrong CATEGORY value: misk
+The BibTeX entry moroz20_villages from gemination_bib.tsv has the wrong CATEGORY value: dataset
+The BibTeX entry eurasianphonology from gemination_bib.tsv has the wrong CATEGORY value: misk
+The BibTeX entry grawunder from gemination_bib.tsv has the wrong CATEGORY value: misk
+The BibTeX entry moroz20_villages from labialization_bib.tsv has the wrong CATEGORY value: dataset
+The BibTeX entry eurasianphonology from labialization_bib.tsv has the wrong CATEGORY value: misk
+The BibTeX entry grawunder from labialization_bib.tsv has the wrong CATEGORY value: misk
+The BibTeX entry moroz20_villages from labials_bib.tsv has the wrong CATEGORY value: dataset
+The BibTeX entry eurasianphonology from labials_bib.tsv has the wrong CATEGORY value: misk
+The BibTeX entry grawunder from labials_bib.tsv has the wrong CATEGORY value: misk
+The BibTeX entry moroz20_villages from laterals_bib.tsv has the wrong CATEGORY value: dataset
+The BibTeX entry eurasianphonology from laterals_bib.tsv has the wrong CATEGORY value: misk
+The BibTeX entry grawunder from laterals_bib.tsv has the wrong CATEGORY value: misk
+The BibTeX entry moroz20_villages from long_vowels_bib.tsv has the wrong CATEGORY value: dataset
+The BibTeX entry eurasianphonology from long_vowels_bib.tsv has the wrong CATEGORY value: misk
+The BibTeX entry grawunder from long_vowels_bib.tsv has the wrong CATEGORY value: misk
+The BibTeX entry moroz20_villages from nasalization_bib.tsv has the wrong CATEGORY value: dataset
+The BibTeX entry eurasianphonology from nasalization_bib.tsv has the wrong CATEGORY value: misk
+The BibTeX entry grawunder from nasalization_bib.tsv has the wrong CATEGORY value: misk
+The BibTeX entry moroz20_villages from palatalized_consonants_bib.tsv has the wrong CATEGORY value: dataset
+The BibTeX entry eurasianphonology from palatalized_consonants_bib.tsv has the wrong CATEGORY value: misk
+The BibTeX entry grawunder from palatalized_consonants_bib.tsv has the wrong CATEGORY value: misk
+The BibTeX entry moroz20_villages from pharyngealization_bib.tsv has the wrong CATEGORY value: dataset
+The BibTeX entry eurasianphonology from pharyngealization_bib.tsv has the wrong CATEGORY value: misk
+The BibTeX entry grawunder from pharyngealization_bib.tsv has the wrong CATEGORY value: misk
+The BibTeX entry moroz20_villages from pharyngeals_bib.tsv has the wrong CATEGORY value: dataset
+The BibTeX entry eurasianphonology from pharyngeals_bib.tsv has the wrong CATEGORY value: misk
+The BibTeX entry grawunder from pharyngeals_bib.tsv has the wrong CATEGORY value: misk
+The BibTeX entry moroz20_villages from phonology_bib.tsv has the wrong CATEGORY value: dataset
+The BibTeX entry eurasianphonology from phonology_bib.tsv has the wrong CATEGORY value: misk
+The BibTeX entry grawunder from phonology_bib.tsv has the wrong CATEGORY value: misk
+The BibTeX entry moroz20_villages from umlaut_vowels_bib.tsv has the wrong CATEGORY value: dataset
+The BibTeX entry eurasianphonology from umlaut_vowels_bib.tsv has the wrong CATEGORY value: misk
+The BibTeX entry grawunder from umlaut_vowels_bib.tsv has the wrong CATEGORY value: misk
+The BibTeX entry moroz20_villages from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: dataset
+The BibTeX entry eurasianphonology from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: misk
+The BibTeX entry grawunder from uvular_voiced_stop_bib.tsv has the wrong CATEGORY value: misk
+The BibTeX entry moroz20_villages from velar_fricatives_bib.tsv has the wrong CATEGORY value: dataset
+The BibTeX entry eurasianphonology from velar_fricatives_bib.tsv has the wrong CATEGORY value: misk
+The BibTeX entry grawunder from velar_fricatives_bib.tsv has the wrong CATEGORY value: misk
+The BibTeX entry moroz20_villages from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: dataset
+The BibTeX entry eurasianphonology from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: misk
+The BibTeX entry grawunder from voiceless_obstruents_bib.tsv has the wrong CATEGORY value: misk
+The BibTeX entry moran12 from the file ejective_p_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry nichols13 from the file ejective_p_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry maddieson11 from the file ejective_p_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry maddieson11 from the file ejective_p_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry hammarstrom21 from the file ejective_p_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry kibrik82 from the file ejective_p_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry kibrik82 from the file ejective_p_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry mudrak19 from the file ejective_p_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry mudrak19 from the file ejective_p_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry mudrak20 from the file ejective_p_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry mudrak20 from the file ejective_p_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry gigineyshvili77 from the file ejective_p_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry akiev77 from the file ejective_p_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry moran12 from the file ejective_s_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry nichols13 from the file ejective_s_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry maddieson11 from the file ejective_s_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry maddieson11 from the file ejective_s_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry hammarstrom21 from the file ejective_s_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry kibrik82 from the file ejective_s_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry kibrik82 from the file ejective_s_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry mudrak19 from the file ejective_s_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry mudrak19 from the file ejective_s_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry mudrak20 from the file ejective_s_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry mudrak20 from the file ejective_s_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry gigineyshvili77 from the file ejective_s_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry akiev77 from the file ejective_s_bib.tsv has an empty value in the obligatory field VOLUME
 The BibTeX entry verhees2019a from the file evidentiality_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry moran12 from the file gemination_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry nichols13 from the file gemination_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry maddieson11 from the file gemination_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry maddieson11 from the file gemination_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry hammarstrom21 from the file gemination_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry kibrik82 from the file gemination_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry kibrik82 from the file gemination_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry mudrak19 from the file gemination_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry mudrak19 from the file gemination_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry mudrak20 from the file gemination_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry mudrak20 from the file gemination_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry gigineyshvili77 from the file gemination_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry akiev77 from the file gemination_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry moran12 from the file labialization_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry nichols13 from the file labialization_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry maddieson11 from the file labialization_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry maddieson11 from the file labialization_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry hammarstrom21 from the file labialization_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry kibrik82 from the file labialization_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry kibrik82 from the file labialization_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry mudrak19 from the file labialization_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry mudrak19 from the file labialization_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry mudrak20 from the file labialization_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry mudrak20 from the file labialization_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry gigineyshvili77 from the file labialization_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry akiev77 from the file labialization_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry moran12 from the file labials_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry nichols13 from the file labials_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry maddieson11 from the file labials_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry maddieson11 from the file labials_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry hammarstrom21 from the file labials_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry kibrik82 from the file labials_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry kibrik82 from the file labials_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry mudrak19 from the file labials_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry mudrak19 from the file labials_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry mudrak20 from the file labials_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry mudrak20 from the file labials_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry gigineyshvili77 from the file labials_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry akiev77 from the file labials_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry moran12 from the file laterals_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry nichols13 from the file laterals_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry maddieson11 from the file laterals_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry maddieson11 from the file laterals_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry hammarstrom21 from the file laterals_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry kibrik82 from the file laterals_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry kibrik82 from the file laterals_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry mudrak19 from the file laterals_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry mudrak19 from the file laterals_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry mudrak20 from the file laterals_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry mudrak20 from the file laterals_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry gigineyshvili77 from the file laterals_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry akiev77 from the file laterals_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry moran12 from the file long_vowels_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry nichols13 from the file long_vowels_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry maddieson11 from the file long_vowels_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry maddieson11 from the file long_vowels_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry hammarstrom21 from the file long_vowels_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry kibrik82 from the file long_vowels_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry kibrik82 from the file long_vowels_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry mudrak19 from the file long_vowels_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry mudrak19 from the file long_vowels_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry mudrak20 from the file long_vowels_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry mudrak20 from the file long_vowels_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry gigineyshvili77 from the file long_vowels_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry akiev77 from the file long_vowels_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry moran12 from the file nasalization_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry nichols13 from the file nasalization_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry maddieson11 from the file nasalization_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry maddieson11 from the file nasalization_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry hammarstrom21 from the file nasalization_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry kibrik82 from the file nasalization_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry kibrik82 from the file nasalization_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry mudrak19 from the file nasalization_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry mudrak19 from the file nasalization_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry mudrak20 from the file nasalization_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry mudrak20 from the file nasalization_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry gigineyshvili77 from the file nasalization_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry akiev77 from the file nasalization_bib.tsv has an empty value in the obligatory field VOLUME
 The BibTeX entry ganenkovmaisak2008 from the file numeral_bases_bib.tsv has an empty value in the obligatory field JOURNAL
 The BibTeX entry ganenkovmaisak2008 from the file numeral_bases_bib.tsv has an empty value in the obligatory field VOLUME
 The BibTeX entry caludeverkerk2016 from the file numeral_bases_bib.tsv has an empty value in the obligatory field VOLUME
 The BibTeX entry greenberg1978 from the file numeral_bases_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry moran12 from the file palatalized_consonants_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry nichols13 from the file palatalized_consonants_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry maddieson11 from the file palatalized_consonants_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry maddieson11 from the file palatalized_consonants_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry hammarstrom21 from the file palatalized_consonants_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry kibrik82 from the file palatalized_consonants_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry kibrik82 from the file palatalized_consonants_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry mudrak19 from the file palatalized_consonants_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry mudrak19 from the file palatalized_consonants_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry mudrak20 from the file palatalized_consonants_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry mudrak20 from the file palatalized_consonants_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry gigineyshvili77 from the file palatalized_consonants_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry akiev77 from the file palatalized_consonants_bib.tsv has an empty value in the obligatory field VOLUME
 The BibTeX entry authier2010 from the file particles_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry moran12 from the file pharyngealization_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry nichols13 from the file pharyngealization_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry maddieson11 from the file pharyngealization_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry maddieson11 from the file pharyngealization_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry hammarstrom21 from the file pharyngealization_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry kibrik82 from the file pharyngealization_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry kibrik82 from the file pharyngealization_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry mudrak19 from the file pharyngealization_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry mudrak19 from the file pharyngealization_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry mudrak20 from the file pharyngealization_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry mudrak20 from the file pharyngealization_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry gigineyshvili77 from the file pharyngealization_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry akiev77 from the file pharyngealization_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry moran12 from the file pharyngeals_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry nichols13 from the file pharyngeals_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry maddieson11 from the file pharyngeals_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry maddieson11 from the file pharyngeals_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry hammarstrom21 from the file pharyngeals_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry kibrik82 from the file pharyngeals_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry kibrik82 from the file pharyngeals_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry mudrak19 from the file pharyngeals_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry mudrak19 from the file pharyngeals_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry mudrak20 from the file pharyngeals_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry mudrak20 from the file pharyngeals_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry gigineyshvili77 from the file pharyngeals_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry akiev77 from the file pharyngeals_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry moran12 from the file phonology_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry nichols13 from the file phonology_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry maddieson11 from the file phonology_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry maddieson11 from the file phonology_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry hammarstrom21 from the file phonology_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry kibrik82 from the file phonology_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry kibrik82 from the file phonology_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry mudrak19 from the file phonology_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry mudrak19 from the file phonology_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry mudrak20 from the file phonology_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry mudrak20 from the file phonology_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry gigineyshvili77 from the file phonology_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry akiev77 from the file phonology_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry moran12 from the file umlaut_vowels_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry nichols13 from the file umlaut_vowels_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry maddieson11 from the file umlaut_vowels_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry maddieson11 from the file umlaut_vowels_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry hammarstrom21 from the file umlaut_vowels_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry kibrik82 from the file umlaut_vowels_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry kibrik82 from the file umlaut_vowels_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry mudrak19 from the file umlaut_vowels_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry mudrak19 from the file umlaut_vowels_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry mudrak20 from the file umlaut_vowels_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry mudrak20 from the file umlaut_vowels_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry gigineyshvili77 from the file umlaut_vowels_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry akiev77 from the file umlaut_vowels_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry moran12 from the file uvular_voiced_stop_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry nichols13 from the file uvular_voiced_stop_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry maddieson11 from the file uvular_voiced_stop_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry maddieson11 from the file uvular_voiced_stop_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry hammarstrom21 from the file uvular_voiced_stop_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry kibrik82 from the file uvular_voiced_stop_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry kibrik82 from the file uvular_voiced_stop_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry mudrak19 from the file uvular_voiced_stop_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry mudrak19 from the file uvular_voiced_stop_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry mudrak20 from the file uvular_voiced_stop_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry mudrak20 from the file uvular_voiced_stop_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry gigineyshvili77 from the file uvular_voiced_stop_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry akiev77 from the file uvular_voiced_stop_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry moran12 from the file velar_fricatives_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry nichols13 from the file velar_fricatives_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry maddieson11 from the file velar_fricatives_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry maddieson11 from the file velar_fricatives_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry hammarstrom21 from the file velar_fricatives_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry kibrik82 from the file velar_fricatives_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry kibrik82 from the file velar_fricatives_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry mudrak19 from the file velar_fricatives_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry mudrak19 from the file velar_fricatives_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry mudrak20 from the file velar_fricatives_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry mudrak20 from the file velar_fricatives_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry gigineyshvili77 from the file velar_fricatives_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry akiev77 from the file velar_fricatives_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry moran12 from the file voiceless_obstruents_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry nichols13 from the file voiceless_obstruents_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry maddieson11 from the file voiceless_obstruents_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry maddieson11 from the file voiceless_obstruents_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry hammarstrom21 from the file voiceless_obstruents_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry kibrik82 from the file voiceless_obstruents_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry kibrik82 from the file voiceless_obstruents_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry mudrak19 from the file voiceless_obstruents_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry mudrak19 from the file voiceless_obstruents_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry mudrak20 from the file voiceless_obstruents_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry mudrak20 from the file voiceless_obstruents_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry gigineyshvili77 from the file voiceless_obstruents_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry akiev77 from the file voiceless_obstruents_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry alexeyev21 from the file ejective_p_bib.tsv has an empty value in the obligatory field BOOKTITLE
+The BibTeX entry moroz21 from the file ejective_p_bib.tsv has an empty value in the obligatory field BOOKTITLE
+The BibTeX entry belyayev21 from the file ejective_p_bib.tsv has an empty value in the obligatory field PUBLISHER
+The BibTeX entry alexeyev21 from the file ejective_s_bib.tsv has an empty value in the obligatory field BOOKTITLE
+The BibTeX entry moroz21 from the file ejective_s_bib.tsv has an empty value in the obligatory field BOOKTITLE
+The BibTeX entry belyayev21 from the file ejective_s_bib.tsv has an empty value in the obligatory field PUBLISHER
+The BibTeX entry alexeyev21 from the file gemination_bib.tsv has an empty value in the obligatory field BOOKTITLE
+The BibTeX entry moroz21 from the file gemination_bib.tsv has an empty value in the obligatory field BOOKTITLE
+The BibTeX entry belyayev21 from the file gemination_bib.tsv has an empty value in the obligatory field PUBLISHER
+The BibTeX entry alexeyev21 from the file labialization_bib.tsv has an empty value in the obligatory field BOOKTITLE
+The BibTeX entry moroz21 from the file labialization_bib.tsv has an empty value in the obligatory field BOOKTITLE
+The BibTeX entry belyayev21 from the file labialization_bib.tsv has an empty value in the obligatory field PUBLISHER
+The BibTeX entry alexeyev21 from the file labials_bib.tsv has an empty value in the obligatory field BOOKTITLE
+The BibTeX entry moroz21 from the file labials_bib.tsv has an empty value in the obligatory field BOOKTITLE
+The BibTeX entry belyayev21 from the file labials_bib.tsv has an empty value in the obligatory field PUBLISHER
+The BibTeX entry alexeyev21 from the file laterals_bib.tsv has an empty value in the obligatory field BOOKTITLE
+The BibTeX entry moroz21 from the file laterals_bib.tsv has an empty value in the obligatory field BOOKTITLE
+The BibTeX entry belyayev21 from the file laterals_bib.tsv has an empty value in the obligatory field PUBLISHER
+The BibTeX entry alexeyev21 from the file long_vowels_bib.tsv has an empty value in the obligatory field BOOKTITLE
+The BibTeX entry moroz21 from the file long_vowels_bib.tsv has an empty value in the obligatory field BOOKTITLE
+The BibTeX entry belyayev21 from the file long_vowels_bib.tsv has an empty value in the obligatory field PUBLISHER
+The BibTeX entry alexeyev21 from the file nasalization_bib.tsv has an empty value in the obligatory field BOOKTITLE
+The BibTeX entry moroz21 from the file nasalization_bib.tsv has an empty value in the obligatory field BOOKTITLE
+The BibTeX entry belyayev21 from the file nasalization_bib.tsv has an empty value in the obligatory field PUBLISHER
 The BibTeX entry holiskygagua1994 from the file numeral_bases_bib.tsv has an empty value in the obligatory field PUBLISHER
+The BibTeX entry alexeyev21 from the file palatalized_consonants_bib.tsv has an empty value in the obligatory field BOOKTITLE
+The BibTeX entry moroz21 from the file palatalized_consonants_bib.tsv has an empty value in the obligatory field BOOKTITLE
+The BibTeX entry belyayev21 from the file palatalized_consonants_bib.tsv has an empty value in the obligatory field PUBLISHER
+The BibTeX entry alexeyev21 from the file pharyngealization_bib.tsv has an empty value in the obligatory field BOOKTITLE
+The BibTeX entry moroz21 from the file pharyngealization_bib.tsv has an empty value in the obligatory field BOOKTITLE
+The BibTeX entry belyayev21 from the file pharyngealization_bib.tsv has an empty value in the obligatory field PUBLISHER
+The BibTeX entry alexeyev21 from the file pharyngeals_bib.tsv has an empty value in the obligatory field BOOKTITLE
+The BibTeX entry moroz21 from the file pharyngeals_bib.tsv has an empty value in the obligatory field BOOKTITLE
+The BibTeX entry belyayev21 from the file pharyngeals_bib.tsv has an empty value in the obligatory field PUBLISHER
+The BibTeX entry alexeyev21 from the file phonology_bib.tsv has an empty value in the obligatory field BOOKTITLE
+The BibTeX entry moroz21 from the file phonology_bib.tsv has an empty value in the obligatory field BOOKTITLE
+The BibTeX entry belyayev21 from the file phonology_bib.tsv has an empty value in the obligatory field PUBLISHER
+The BibTeX entry alexeyev21 from the file umlaut_vowels_bib.tsv has an empty value in the obligatory field BOOKTITLE
+The BibTeX entry moroz21 from the file umlaut_vowels_bib.tsv has an empty value in the obligatory field BOOKTITLE
+The BibTeX entry belyayev21 from the file umlaut_vowels_bib.tsv has an empty value in the obligatory field PUBLISHER
+The BibTeX entry alexeyev21 from the file uvular_voiced_stop_bib.tsv has an empty value in the obligatory field BOOKTITLE
+The BibTeX entry moroz21 from the file uvular_voiced_stop_bib.tsv has an empty value in the obligatory field BOOKTITLE
+The BibTeX entry belyayev21 from the file uvular_voiced_stop_bib.tsv has an empty value in the obligatory field PUBLISHER
+The BibTeX entry alexeyev21 from the file velar_fricatives_bib.tsv has an empty value in the obligatory field BOOKTITLE
+The BibTeX entry moroz21 from the file velar_fricatives_bib.tsv has an empty value in the obligatory field BOOKTITLE
+The BibTeX entry belyayev21 from the file velar_fricatives_bib.tsv has an empty value in the obligatory field PUBLISHER
+The BibTeX entry alexeyev21 from the file voiceless_obstruents_bib.tsv has an empty value in the obligatory field BOOKTITLE
+The BibTeX entry moroz21 from the file voiceless_obstruents_bib.tsv has an empty value in the obligatory field BOOKTITLE
+The BibTeX entry belyayev21 from the file voiceless_obstruents_bib.tsv has an empty value in the obligatory field PUBLISHER
+The BibTeX entry gasser14 from the file ejective_p_bib.tsv has an empty value in the obligatory field BOOKTITLE
+The BibTeX entry gasser14 from the file ejective_s_bib.tsv has an empty value in the obligatory field BOOKTITLE
+The BibTeX entry gasser14 from the file gemination_bib.tsv has an empty value in the obligatory field BOOKTITLE
+The BibTeX entry gasser14 from the file labialization_bib.tsv has an empty value in the obligatory field BOOKTITLE
+The BibTeX entry gasser14 from the file labials_bib.tsv has an empty value in the obligatory field BOOKTITLE
+The BibTeX entry gasser14 from the file laterals_bib.tsv has an empty value in the obligatory field BOOKTITLE
+The BibTeX entry gasser14 from the file long_vowels_bib.tsv has an empty value in the obligatory field BOOKTITLE
+The BibTeX entry gasser14 from the file nasalization_bib.tsv has an empty value in the obligatory field BOOKTITLE
+The BibTeX entry gasser14 from the file palatalized_consonants_bib.tsv has an empty value in the obligatory field BOOKTITLE
+The BibTeX entry gasser14 from the file pharyngealization_bib.tsv has an empty value in the obligatory field BOOKTITLE
+The BibTeX entry gasser14 from the file pharyngeals_bib.tsv has an empty value in the obligatory field BOOKTITLE
+The BibTeX entry gasser14 from the file phonology_bib.tsv has an empty value in the obligatory field BOOKTITLE
+The BibTeX entry gasser14 from the file umlaut_vowels_bib.tsv has an empty value in the obligatory field BOOKTITLE
+The BibTeX entry gasser14 from the file uvular_voiced_stop_bib.tsv has an empty value in the obligatory field BOOKTITLE
+The BibTeX entry gasser14 from the file velar_fricatives_bib.tsv has an empty value in the obligatory field BOOKTITLE
+The BibTeX entry gasser14 from the file voiceless_obstruents_bib.tsv has an empty value in the obligatory field BOOKTITLE
 The BibTeX entry khalilova2009 from the file numeral_bases_bib.tsv has an empty value in the obligatory field SCHOOL
 The obligatory column          date          is absent in the file          farewell_wishes.tsv
 The wrong langage name          Tukita          in the file          farewell_wishes.tsv

@@ -1,11 +1,11 @@
 CATEGORY	BIBTEXKEY	AUTHOR	TITLE	YEAR	TITLE_TRANSLATION	PUBLISHER	ADDRESS	PAGES	BOOKTITLE	BOOKTITLE_TRANSLATION	EDITOR	JOURNAL	NOTE	NUMBER	SCHOOL	URL	VOLUME	CONTRIBUTOR	COMMENT
-article	tent1998structure	Tent, Jan	The structure of deictic day-name systems	1998		Wiley Online Library		112--148				Studia Linguistica		2			52		
-book	magomedova2004	Магомедова, Патимат Т.	Багвалинско-русский словарь	2004	Bagvalal-Russian dictionary	ИЯЛИ	Makhachkala												
-book	saidova2006	Саидова, Патимат А.	Годоберинско-русский словарь	2006	Godoberi-Russian dictionary	ДНЦ РАН Институт языка, литературы и искусства им. Г. Цадасы и Институт эволюционной антропологии им. М. Планка	Makhachkala												
-book	kibrik1999	Кибрик, Александр Е.	Элементы цахурского языка в типологическом освещении	1999	Elements of Tsakhur grammar in a typological perspective	Наследие	Moscow												
-book	kurkiev2005	Куркиев, Алимбек С.	Ингушско-русский словарь	2005	Ingush-Russian dictionary	Сердало	Magas												
-book	bammatov2013	Бамматов, Бурган Г.	Кумыкско-русский словарь	2013	Kumyk-Russian dictionary	ИЯЛИ	Makhachkala												
-book	kibrik1977dict	Кибрик, Александр Е.	Арчинский язык. Тексты и словари	1977	Archi. Texts and dictionaries	Издательство Московского университета	Moscow												
-book	nichols2011	Nichols, Johanna	Ingush grammar	2011		University of California Press	Berkeley/Los Angeles												
-phdthesis	zabitov2001	Забитов, Саид М.	Арабские заимствования в лексико-семантической системе восточнокавказских языков	2001	Arabic borrowings in the lexico-semantic system of the East Caucasian languages										Федеральное государственное бюджетное учреждение науки Институт языкознания Российской академии наук				
-phdthesis	shihaliev2007	Шихалиев, Шамиль Ш.	Исламизация Дагестана в X-XVI веках: историко-культурные аспекты	2007	Islamization of Dagestan in the X-XVI centuries: historical and cultural aspects										Институт этнологии и антропологии им Н Н Миклухо­Маклая Российской Академии наук				
+article	tent1998structure	Tent, Jan	The structure of deictic day-name systems	1998	NA	Wiley Online Library	NA	112--148	NA	NA	NA	Studia Linguistica	NA	2	NA	NA	52	NA	NA
+book	magomedova2004	Магомедова, Патимат Т.	Багвалинско-русский словарь	2004	Bagvalal-Russian dictionary	ИЯЛИ	Makhachkala	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+book	saidova2006	Саидова, Патимат А.	Годоберинско-русский словарь	2006	Godoberi-Russian dictionary	ДНЦ РАН Институт языка, литературы и искусства им. Г. Цадасы и Институт эволюционной антропологии им. М. Планка	Makhachkala	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+book	kibrik1999	Кибрик, Александр Е.	Элементы цахурского языка в типологическом освещении	1999	Elements of Tsakhur grammar in a typological perspective	Наследие	Moscow	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+book	kurkiev2005	Куркиев, Алимбек С.	Ингушско-русский словарь	2005	Ingush-Russian dictionary	Сердало	Magas	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+book	bammatov2013	Бамматов, Бурган Г.	Кумыкско-русский словарь	2013	Kumyk-Russian dictionary	ИЯЛИ	Makhachkala	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+book	kibrik1977dict	Кибрик, Александр Е.	Арчинский язык. Тексты и словари	1977	Archi. Texts and dictionaries	Издательство Московского университета	Moscow	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+book	nichols2011	Nichols, Johanna	Ingush grammar	2011	NA	University of California Press	Berkeley/Los Angeles	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+phdthesis	zabitov2001	Забитов, Саид М.	Арабские заимствования в лексико-семантической системе восточнокавказских языков	2001	Arabic borrowings in the lexico-semantic system of the East Caucasian languages	NA	NA	NA	NA	NA	NA	NA	NA	NA	Федеральное государственное бюджетное учреждение науки Институт языкознания Российской академии наук	NA	NA	NA	NA
+phdthesis	shihaliev2007	Шихалиев, Шамиль Ш.	Исламизация Дагестана в X-XVI веках: историко-культурные аспекты	2007	Islamization of Dagestan in the X-XVI centuries: historical and cultural aspects	NA	NA	NA	NA	NA	NA	NA	NA	NA	Институт этнологии и антропологии им Н Н Миклухо­Маклая Российской Академии наук	NA	NA	NA	NA

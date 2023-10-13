@@ -1,23 +1,23 @@
 CATEGORY	BIBTEXKEY	AUTHOR	TITLE	YEAR	TITLE_TRANSLATION	PUBLISHER	ADDRESS	PAGES	BOOKTITLE	BOOKTITLE_TRANSLATION	EDITOR	JOURNAL	NOTE	NUMBER	SCHOOL	URL	VOLUME	CONTRIBUTOR	COMMENT
-book	authier2009	Authier, Gilles	Grammaire kryz	2009		Peeters	Paris												
-book	authier2012	Authier, Gilles	Grammaire juhuri, ou judéo-tat, langue iranienne des Juifs du Caucase de l’est	2012		Dr. Ludwig Reichert Verlag Wiesbaden	Wiesbaden												
-book	bokarev1949	Бокарёв, Анатолий А.	Синтаксис аварского языка	1949	Syntax of {A}var	Издательство Академии наук СССР	Moscow												
-incollection	danielganenkov2009	Daniel, Michael and Ganenkov, Dmitry	Case marking in {D}aghestanian: limits of elaboration	2009		Oxford University Press	Oxford/New York	668--685	The {O}xford {H}andbook of {C}ase		Malchukov, Andrej and Spencer, Andrew								
-book	desheriev1953	Дешериев, Юнус Д.	Бацбийский язык	1953	Bats/{T}sova-{T}ush	Академия	Moscow												
-book	dum-tragut2009	Dum-Tragut, Jasmine	Armenian	2009		John Benjamins	Amsterdam/Philadelphia												
-article	forker2019	Forker, Diana	The impact of language contact on {H}inuq: {P}honology, morphology, syntax, and lexicon	2019				221--253				Language Typology and Universals		2			72		
-book	forker2020dargwa	Forker, Diana	A grammar of Sanzhi Dargwa	2020		Language Science Press	Berlin												
-book	hewitt2005	Hewitt, George	Georgian. A Learner's Grammar	2005		Routledge	London/New York												
-book	ibragimov2004	Ибрагимов, Гарун Х.	Рутульский язык	2004	Rutul	Народы Дагестана	Makhachkala												
-book	kibrik1977	Кибрик, Александр Е.	Опыт структурного описания арчинского языка. Том {II}. Таксономическая грамматика	1977	Structural description of {A}rchi. {V}olume {II}. {T}axonomic grammar	Издательство Академии наук СССР	Moscow												
-book	kibrik1977dict	Кибрик, Александр Е.	Арчинский язык. Тексты и словари	1977	Archi. Texts and dictionaries	Издательство Московского университета	Moscow												
-book	magomedova2004	Магомедова, Патимат Т.	Багвалинско-русский словарь	2004	Bagvalal-{R}ussian dictionary	ИЯЛИ	Makhachkala												
-book	magomedova2012	Магомедова, Патимат Т.	Тиндинский язык	2012	The {T}indi language	ИЯЛИ	Makhachkala												
-phdthesis	maxmudova2002	Махмудова, Светлана М.	Грамматические классы слов и грамматические категории рутульского языка	2002	Grammatical word classes and grammatical categories of {R}utul										ДГУ				
-book	mikailov1967	Микайлов, Казбек Ш.	Арчинский язык	1967	Archi	ИЯЛИ	Makhachkala												
-incollection	nichols1994	Nichols, Johanna	Chechen	1994		Caravan Press	Delmar, NY	1--77	The {I}ndigenous {L}anguages of the {C}aucasus, vol. 4: {T}he {N}ortheast {C}aucasian {L}anguages, {P}art 2		Smeets, Rieks								
-mastersthesis	pasquereau2010	Pasquereau, Jérémy	Formes spatiales des noms en karata: emplois spatiaux et non-spatiaux	2010											Université Lumière Lyon II				
-incollection	sosenskaja2001	Сосенская, Татьяна Б.	Сравнительные конструкции	2001	Comparative constructions	Наследие	Moscow	408--424	Багвалинский язык. Грамматика, тексты, словари	The {B}agvalal language. {G}rammar, texts, dictionaries	Кибрик, Александр Е. and Лютикова, Екатерина А. and Татевосов, Сергей Г.								
-incollection	stassen2013	Stassen, Leon	Comparative {C}onstructions	2013		Max Planck Institute for Evolutionary Anthropology	Leipzig		The {W}orld {A}tlas of {L}anguage {S}tructures {O}nline							http://wals.info/chapter/121			
-book	stassen1985	Stassen, Leon	Comparison and Universal Grammar	1985		Blackwell	Oxford/New York												
-book	shiralievsevortyan1971	Ширалиев, Мамедага Ш. and Севортян, Эрванд В.	Грамматика азербайджанского языка (фонетика, морфология, синтаксис)	1971	Azerbaijani grammar (phonetics, morphology, syntax)	Элм	Baku												
+book	authier2009	Authier, Gilles	Grammaire kryz	2009	NA	Peeters	Paris	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+book	authier2012	Authier, Gilles	Grammaire juhuri, ou judéo-tat, langue iranienne des Juifs du Caucase de l’est	2012	NA	Dr. Ludwig Reichert Verlag Wiesbaden	Wiesbaden	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+book	bokarev1949	Бокарёв, Анатолий А.	Синтаксис аварского языка	1949	Syntax of {A}var	Издательство Академии наук СССР	Moscow	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+incollection	danielganenkov2009	Daniel, Michael and Ganenkov, Dmitry	Case marking in {D}aghestanian: limits of elaboration	2009	NA	Oxford University Press	Oxford/New York	668--685	The {O}xford {H}andbook of {C}ase	NA	Malchukov, Andrej and Spencer, Andrew	NA	NA	NA	NA	NA	NA	NA	NA
+book	desheriev1953	Дешериев, Юнус Д.	Бацбийский язык	1953	Bats/{T}sova-{T}ush	Академия	Moscow	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+book	dum-tragut2009	Dum-Tragut, Jasmine	Armenian	2009	NA	John Benjamins	Amsterdam/Philadelphia	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+article	forker2019	Forker, Diana	The impact of language contact on {H}inuq: {P}honology, morphology, syntax, and lexicon	2019	NA	NA	NA	221--253	NA	NA	NA	Language Typology and Universals	NA	2	NA	NA	72	NA	NA
+book	forker2020dargwa	Forker, Diana	A grammar of Sanzhi Dargwa	2020	NA	Language Science Press	Berlin	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+book	hewitt2005	Hewitt, George	Georgian. A Learner's Grammar	2005	NA	Routledge	London/New York	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+book	ibragimov2004	Ибрагимов, Гарун Х.	Рутульский язык	2004	Rutul	Народы Дагестана	Makhachkala	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+book	kibrik1977	Кибрик, Александр Е.	Опыт структурного описания арчинского языка. Том {II}. Таксономическая грамматика	1977	Structural description of {A}rchi. {V}olume {II}. {T}axonomic grammar	Издательство Академии наук СССР	Moscow	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+book	kibrik1977dict	Кибрик, Александр Е.	Арчинский язык. Тексты и словари	1977	Archi. Texts and dictionaries	Издательство Московского университета	Moscow	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+book	magomedova2004	Магомедова, Патимат Т.	Багвалинско-русский словарь	2004	Bagvalal-{R}ussian dictionary	ИЯЛИ	Makhachkala	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+book	magomedova2012	Магомедова, Патимат Т.	Тиндинский язык	2012	The {T}indi language	ИЯЛИ	Makhachkala	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+phdthesis	maxmudova2002	Махмудова, Светлана М.	Грамматические классы слов и грамматические категории рутульского языка	2002	Grammatical word classes and grammatical categories of {R}utul	NA	NA	NA	NA	NA	NA	NA	NA	NA	ДГУ	NA	NA	NA	NA
+book	mikailov1967	Микайлов, Казбек Ш.	Арчинский язык	1967	Archi	ИЯЛИ	Makhachkala	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+incollection	nichols1994	Nichols, Johanna	Chechen	1994	NA	Caravan Press	Delmar, NY	1--77	The {I}ndigenous {L}anguages of the {C}aucasus, vol. 4: {T}he {N}ortheast {C}aucasian {L}anguages, {P}art 2	NA	Smeets, Rieks	NA	NA	NA	NA	NA	NA	NA	NA
+mastersthesis	pasquereau2010	Pasquereau, Jérémy	Formes spatiales des noms en karata: emplois spatiaux et non-spatiaux	2010	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	Université Lumière Lyon II	NA	NA	NA	NA
+incollection	sosenskaja2001	Сосенская, Татьяна Б.	Сравнительные конструкции	2001	Comparative constructions	Наследие	Moscow	408--424	Багвалинский язык. Грамматика, тексты, словари	The {B}agvalal language. {G}rammar, texts, dictionaries	Кибрик, Александр Е. and Лютикова, Екатерина А. and Татевосов, Сергей Г.	NA	NA	NA	NA	NA	NA	NA	NA
+incollection	stassen2013	Stassen, Leon	Comparative {C}onstructions	2013	NA	Max Planck Institute for Evolutionary Anthropology	Leipzig	NA	The {W}orld {A}tlas of {L}anguage {S}tructures {O}nline	NA	NA	NA	NA	NA	NA	http://wals.info/chapter/121	NA	NA	NA
+book	stassen1985	Stassen, Leon	Comparison and Universal Grammar	1985	NA	Blackwell	Oxford/New York	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+book	shiralievsevortyan1971	Ширалиев, Мамедага Ш. and Севортян, Эрванд В.	Грамматика азербайджанского языка (фонетика, морфология, синтаксис)	1971	Azerbaijani grammar (phonetics, morphology, syntax)	Элм	Baku	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
