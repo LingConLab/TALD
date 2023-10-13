@@ -44,14 +44,8 @@ The BibTeX entry          shabanova2006          present in the          numeral
 The BibTeX entry          aliverdieva2006          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
 The BibTeX entry          asaliev2003          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
 The BibTeX entry          arsakhanov1969          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
-The obligatory field          TITLE_TRANSLATION          is missing in          ejective_p_bib.tsv
-The obligatory field          BOOKTITLE_TRANSLATION          is missing in          ejective_p_bib.tsv
-The obligatory field          URL          is missing in          ejective_p_bib.tsv
 The obligatory field          CONTRIBUTOR          is missing in          ejective_p_bib.tsv
 The obligatory field          COMMENT          is missing in          ejective_p_bib.tsv
-The obligatory field          TITLE_TRANSLATION          is missing in          ejective_s_bib.tsv
-The obligatory field          BOOKTITLE_TRANSLATION          is missing in          ejective_s_bib.tsv
-The obligatory field          URL          is missing in          ejective_s_bib.tsv
 The obligatory field          CONTRIBUTOR          is missing in          ejective_s_bib.tsv
 The obligatory field          COMMENT          is missing in          ejective_s_bib.tsv
 The obligatory field          URL          is missing in          evidentiality_bib.tsv
@@ -59,9 +53,6 @@ The obligatory field          CONTRIBUTOR          is missing in          eviden
 The obligatory field          COMMENT          is missing in          evidentiality_bib.tsv
 The obligatory field          CONTRIBUTOR          is missing in          evidentiality_tense_bib.tsv
 The obligatory field          COMMENT          is missing in          evidentiality_tense_bib.tsv
-The obligatory field          TITLE_TRANSLATION          is missing in          gemination_bib.tsv
-The obligatory field          BOOKTITLE_TRANSLATION          is missing in          gemination_bib.tsv
-The obligatory field          URL          is missing in          gemination_bib.tsv
 The obligatory field          CONTRIBUTOR          is missing in          gemination_bib.tsv
 The obligatory field          COMMENT          is missing in          gemination_bib.tsv
 The obligatory field          CONTRIBUTOR          is missing in          labialization_bib.tsv
