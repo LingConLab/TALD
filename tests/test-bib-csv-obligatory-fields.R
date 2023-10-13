@@ -4,7 +4,8 @@ library(testthat)
 test_that("Test column names in the fields in bibtex tsvs", {
   map_dfr(list.files("../data/orig_bib_tsv", full.names = TRUE), function(bib_tsv){
     df <- read_tsv(bib_tsv, n_max = 1, progress = FALSE, show_col_types = FALSE) |> 
-      mutate(YEAR = as.character(YEAR))
+      mutate(YEAR = as.character(YEAR),
+             NUMBER = as.character(NUMBER))
     all_fields <-  c('CATEGORY', 
                      'BIBTEXKEY', 
                      'AUTHOR', 
@@ -50,7 +51,8 @@ see https://en.wikipedia.org/wiki/BibTeX for the details.", {
   df <- map_dfr(list.files("../data/orig_bib_tsv/", full.names = TRUE), function(i){
     read_tsv(i, show_col_types = FALSE, progress = FALSE) %>% 
       mutate(filename = i,
-             YEAR = as.character(YEAR))})
+             YEAR = as.character(YEAR),
+             NUMBER = as.character(NUMBER))})
   bad_category <- df[which(!(df$CATEGORY %in% c("article", "book", "booklet", 
                                                 "conference", "inbook", 
                                                 "incollection", "inproceedings", 
@@ -238,7 +240,8 @@ test_that("Test BIBTEXKEYs", {
   df <- map_dfr(list.files("../data/orig_bib_tsv", full.names = TRUE), function(i){
     read_tsv(i, show_col_types = FALSE, progress = FALSE) %>% 
       mutate(filename = i,
-             YEAR = as.character(YEAR))})
+             YEAR = as.character(YEAR),
+             NUMBER = as.character(NUMBER))})
   
   df %>% 
     filter(str_detect(BIBTEXKEY, "[^a-z0-9-]")) ->
