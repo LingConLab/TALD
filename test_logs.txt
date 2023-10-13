@@ -44,17 +44,58 @@ The BibTeX entry          shabanova2006          present in the          numeral
 The BibTeX entry          aliverdieva2006          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
 The BibTeX entry          asaliev2003          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
 The BibTeX entry          arsakhanov1969          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
+The obligatory field          TITLE_TRANSLATION          is missing in          ejective_p_bib.tsv
+The obligatory field          BOOKTITLE_TRANSLATION          is missing in          ejective_p_bib.tsv
+The obligatory field          URL          is missing in          ejective_p_bib.tsv
+The obligatory field          CONTRIBUTOR          is missing in          ejective_p_bib.tsv
+The obligatory field          COMMENT          is missing in          ejective_p_bib.tsv
+The obligatory field          TITLE_TRANSLATION          is missing in          ejective_s_bib.tsv
+The obligatory field          BOOKTITLE_TRANSLATION          is missing in          ejective_s_bib.tsv
+The obligatory field          URL          is missing in          ejective_s_bib.tsv
+The obligatory field          CONTRIBUTOR          is missing in          ejective_s_bib.tsv
+The obligatory field          COMMENT          is missing in          ejective_s_bib.tsv
 The obligatory field          URL          is missing in          evidentiality_bib.tsv
 The obligatory field          CONTRIBUTOR          is missing in          evidentiality_bib.tsv
 The obligatory field          COMMENT          is missing in          evidentiality_bib.tsv
 The obligatory field          CONTRIBUTOR          is missing in          evidentiality_tense_bib.tsv
 The obligatory field          COMMENT          is missing in          evidentiality_tense_bib.tsv
+The obligatory field          TITLE_TRANSLATION          is missing in          gemination_bib.tsv
+The obligatory field          BOOKTITLE_TRANSLATION          is missing in          gemination_bib.tsv
+The obligatory field          URL          is missing in          gemination_bib.tsv
+The obligatory field          CONTRIBUTOR          is missing in          gemination_bib.tsv
+The obligatory field          COMMENT          is missing in          gemination_bib.tsv
+The obligatory field          CONTRIBUTOR          is missing in          labialization_bib.tsv
+The obligatory field          COMMENT          is missing in          labialization_bib.tsv
+The obligatory field          CONTRIBUTOR          is missing in          labials_bib.tsv
+The obligatory field          COMMENT          is missing in          labials_bib.tsv
+The obligatory field          CONTRIBUTOR          is missing in          laterals_bib.tsv
+The obligatory field          COMMENT          is missing in          laterals_bib.tsv
+The obligatory field          CONTRIBUTOR          is missing in          long_vowels_bib.tsv
+The obligatory field          COMMENT          is missing in          long_vowels_bib.tsv
+The obligatory field          CONTRIBUTOR          is missing in          nasalization_bib.tsv
+The obligatory field          COMMENT          is missing in          nasalization_bib.tsv
+The obligatory field          CONTRIBUTOR          is missing in          palatalized_consonants_bib.tsv
+The obligatory field          COMMENT          is missing in          palatalized_consonants_bib.tsv
 The obligatory field          URL          is missing in          particles_bib.tsv
 The obligatory field          CONTRIBUTOR          is missing in          particles_bib.tsv
 The obligatory field          COMMENT          is missing in          particles_bib.tsv
 The obligatory field          URL          is missing in          perfect_bib.tsv
 The obligatory field          CONTRIBUTOR          is missing in          perfect_bib.tsv
 The obligatory field          COMMENT          is missing in          perfect_bib.tsv
+The obligatory field          CONTRIBUTOR          is missing in          pharyngealization_bib.tsv
+The obligatory field          COMMENT          is missing in          pharyngealization_bib.tsv
+The obligatory field          CONTRIBUTOR          is missing in          pharyngeals_bib.tsv
+The obligatory field          COMMENT          is missing in          pharyngeals_bib.tsv
+The obligatory field          CONTRIBUTOR          is missing in          phonology_bib.tsv
+The obligatory field          COMMENT          is missing in          phonology_bib.tsv
+The obligatory field          CONTRIBUTOR          is missing in          umlaut_vowels_bib.tsv
+The obligatory field          COMMENT          is missing in          umlaut_vowels_bib.tsv
+The obligatory field          CONTRIBUTOR          is missing in          uvular_voiced_stop_bib.tsv
+The obligatory field          COMMENT          is missing in          uvular_voiced_stop_bib.tsv
+The obligatory field          CONTRIBUTOR          is missing in          velar_fricatives_bib.tsv
+The obligatory field          COMMENT          is missing in          velar_fricatives_bib.tsv
+The obligatory field          CONTRIBUTOR          is missing in          voiceless_obstruents_bib.tsv
+The obligatory field          COMMENT          is missing in          voiceless_obstruents_bib.tsv
 The BibTeX entry verhees2019a from the file evidentiality_bib.tsv has an empty value in the obligatory field VOLUME
 The BibTeX entry ganenkovmaisak2008 from the file numeral_bases_bib.tsv has an empty value in the obligatory field JOURNAL
 The BibTeX entry ganenkovmaisak2008 from the file numeral_bases_bib.tsv has an empty value in the obligatory field VOLUME
