@@ -12,38 +12,9 @@ The BibTeX entry          khalilov1999          present in the          farewell
 The BibTeX entry          khalilov2000          present in the          farewell_wishes.tsv, but absent in the biblib.xlsx
 The BibTeX entry          sulejmanov1957          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
 The BibTeX entry          alekseyevverhees2020          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
-The BibTeX entry          dalgatov2017          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
 The BibTeX entry          abdullaeva2001          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
-The BibTeX entry          isakov1981          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
-The BibTeX entry          musalaeva2016          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
-The BibTeX entry          radzhabova2012          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
-The BibTeX entry          tagirova2003          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
-The BibTeX entry          muradova2003          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
-The BibTeX entry          abdulaeva2013          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
-The BibTeX entry          dzhamaludinova2013          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
-The BibTeX entry          nurmagomedova2009          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
 The BibTeX entry          karimovakhalilova2013          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
-The BibTeX entry          sirazhudinovaataev2007          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
 The BibTeX entry          imnaishvili1963          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
-The BibTeX entry          shakhbanova2011          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
-The BibTeX entry          ismailova2012          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
-The BibTeX entry          ibragimova2012          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
-The BibTeX entry          mirzamagomedova2007          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
-The BibTeX entry          abdullaeva2019          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
-The BibTeX entry          kadibagomaeva2009          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
-The BibTeX entry          ganenkovmaisak2008          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
-The BibTeX entry          ibragimov2011          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
-The BibTeX entry          murtazaeva2005          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
-The BibTeX entry          pirmagomedova2013          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
-The BibTeX entry          sultalieva2011          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
-The BibTeX entry          muradalieva2009          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
-The BibTeX entry          abdurakhmanova2014          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
-The BibTeX entry          karabekov2013          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
-The BibTeX entry          asadova2013          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
-The BibTeX entry          shabanova2006          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
-The BibTeX entry          aliverdieva2006          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
-The BibTeX entry          asaliev2003          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
-The BibTeX entry          arsakhanov1969          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
 The obligatory field          CONTRIBUTOR          is missing in          ejective_p_bib.tsv
 The obligatory field          COMMENT          is missing in          ejective_p_bib.tsv
 The obligatory field          CONTRIBUTOR          is missing in          ejective_s_bib.tsv
