@@ -296,4 +296,10 @@ Another example of even greater variation is constituted by Dargwa languages. We
 
 However, despite the variation observed between dialects and languages of the same group, some genealogical patterns can still be identified. For example, we have already mentioned that all Nakh languages in our sample behave identically, showing the ergative-absolutive distinction in all pronouns except for the 1PL.INCL pronoun (see Section 2.3.4 for an example from Chechen). Avar and Andic languages tend to show the ergative-absolutive distinction in all personal pronouns. By contrast, Lezgic and Tsezic languages tend to avoid any such distinction at all. No areal patterns were observed in our data.
 
+## List of glosses {-}
+
+```{r}
+make_gloss_list(readxl::read_xlsx("../glosses.xlsx"))
+```
+
 ## References {-}

@@ -10,6 +10,10 @@ The BibTeX entry          xanmagomedovshalbuzov2002          present in the     
 The BibTeX entry          naftaliev2018          present in the          farewell_wishes.tsv, but absent in the biblib.xlsx
 The BibTeX entry          khalilov1999          present in the          farewell_wishes.tsv, but absent in the biblib.xlsx
 The BibTeX entry          khalilov2000          present in the          farewell_wishes.tsv, but absent in the biblib.xlsx
+The BibTeX entry          testelets1980          present in the          number_of_morphological_slots_in_spatial_forms.tsv, but absent in the biblib.xlsx
+The BibTeX entry          alexeyevverhees2020          present in the          number_of_morphological_slots_in_spatial_forms.tsv, but absent in the biblib.xlsx
+The BibTeX entry          temirbulatova2006          present in the          number_of_morphological_slots_in_spatial_forms.tsv, but absent in the biblib.xlsx
+The BibTeX entry          hillery1994          present in the          number_of_morphological_slots_in_spatial_forms.tsv, but absent in the biblib.xlsx
 The BibTeX entry          sulejmanov1957          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
 The BibTeX entry          alekseyevverhees2020          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
 The BibTeX entry          abdullaeva2001          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
@@ -211,6 +215,7 @@ The BibTeX entry mudrak20 from the file nasalization_bib.tsv has an empty value 
 The BibTeX entry mudrak20 from the file nasalization_bib.tsv has an empty value in the obligatory field VOLUME
 The BibTeX entry gigineyshvili77 from the file nasalization_bib.tsv has an empty value in the obligatory field VOLUME
 The BibTeX entry akiev77 from the file nasalization_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry kibrik1970 from the file number_of_morphological_slots_in_spatial_forms_bib.tsv has an empty value in the obligatory field VOLUME
 The BibTeX entry ganenkovmaisak2008 from the file numeral_bases_bib.tsv has an empty value in the obligatory field JOURNAL
 The BibTeX entry ganenkovmaisak2008 from the file numeral_bases_bib.tsv has an empty value in the obligatory field VOLUME
 The BibTeX entry caludeverkerk2016 from the file numeral_bases_bib.tsv has an empty value in the obligatory field VOLUME
@@ -408,13 +413,16 @@ The wrong village dialect name Drushtul in the file erg_abs_pronouns.tsv
 The wrong village dialect name Hunzib in the file farewell_wishes.tsv
 NA
 The wrong village dialect name Gelmets in the file farewell_wishes.tsv
+The wrong village dialect name Uraxa in the file number_of_morphological_slots_in_spatial_forms.tsv
 The wrong village dialect name Inkhokvari in the file numeral_bases.tsv
 The wrong village dialect name Akka in the file numeral_bases.tsv
 The wrong non-toplevel 3 dialect name Kidero in the file farewell_wishes.tsv
-The wrong non-toplevel 2 dialect name Ashty in the file erg_abs_pronouns.tsv
 The wrong non-toplevel 2 dialect name Kidero in the file farewell_wishes.tsv
 The wrong non-toplevel 1 dialect name Siukh in the file numeral_bases.tsv
 The wrong toplevel dialect name Mukhad in the file farewell_wishes.tsv
+The wrong toplevel dialect name Central in the file number_of_morphological_slots_in_spatial_forms.tsv
+The wrong toplevel dialect name Gigatl in the file number_of_morphological_slots_in_spatial_forms.tsv
+The wrong toplevel dialect name Kara-Nogai in the file number_of_morphological_slots_in_spatial_forms.tsv
 The wrong toplevel dialect name Mukhad in the file numeral_bases.tsv
 The wrong toplevel dialect name Shinaz in the file numeral_bases.tsv
 The wrong toplevel dialect name Myukhrek in the file numeral_bases.tsv

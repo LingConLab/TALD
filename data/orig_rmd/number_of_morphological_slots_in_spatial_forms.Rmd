@@ -1,25 +1,9 @@
----
-output:
-  html_document: default
-  pdf_document: default
----
-```{r, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+```{r, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, comment = '')
 library(lingglosses)
-library(tidyverse)
-library(bib2df)
-library(lingtypology)
 ```
 
----
-title: "Number of morphological slots in spatial forms"
-author: "Alexandra Nogina"
-output: html_document
-#bibliography: Number_of_morphological_slots_in_spatial_forms_bib.tsv 
-link-citations: true
----
-
-## 1. Introduction
+## Introduction
 
 One of the most known features of the languages of Daghestan is the rich inventories of spatial forms ([@kibrik1970]; [@testelets1980]; [@comriepolinsky1998]; [@comrie1999]; [@kibrik2003]; [@creissels2009]; [@danielganenkov2009]). Such rich inventories result from combining markers of two -- and sometimes more -- separate grammatical categories occupying distinct morphological slots. The two common categories are **localization** and **directionality**. Localization markers define a spatial domain with respect to a landmark and include meanings such as 'in', 'on', 'under', 'near', etc. Directionality markers indicate the type of motion (motion to, motion from, etc. as well as absence of motion) of the trajector with respect to this spatial domain. Spatial case systems that combine localization and directionality markers are referred to here as **bimorphemic** (cf. 'bidimensional' in [@creissels2009]). An illustration of a typical East Caucasian bimorphemic spatial form is given in example (@one) from Bagvalal.
 
@@ -27,8 +11,7 @@ One of the most known features of the languages of Daghestan is the rich invento
 ```{r}
 gloss_example(transliteration = "*o-w* *ƛ’er-**la-sː*** *w-eɬi*",
               glosses = "DEM-M bridge-**SUP-EL** M-go",
-              free_translation = "He left the bridge (went from the top of the bridge)."
-              )
+              free_translation = "He left the bridge (went from the top of the bridge).")
 ```
 
 
@@ -39,11 +22,11 @@ Finally, some languages display simpler spatial inflection featuring only one sl
 In this chapter, I classify the languages of Daghestan according to the maximum number of slots involved in the spatial forms they feature.
 
 
-## 2. Results
+## Results
 
 The languages of Daghestan can be grouped into three broad types: a) languages with a monomorphemic spatial inflection ([2.1](#2.1.)); b) languages with a bimorphemic spatial inflection ([2.2](#2.2.)); and c) languages with a trimorphemic spatial inflection ([2.3](#2.3.)).
 
-### 2.1. Monomorphemic systems {#2.1. -}
+### Monomorphemic systems {#2.1.}
 
 10 languages of the sample (see [Table 1](#t1)) exhibit a monomorphemic spatial inflection. This is the case for all non-East Caucasian languages included in our sample (cf. Armenian in (@two a,b)), but also for some of the East Caucasian languages (cf. (@three a,b) from Tsova-Tush). In those languages the categories of localization and directionality are fused together, and their semantic value is conveyed through a complex set of case markers and adpositions. In the examples below, every spatial form contains a single marker (locative *-um* in (@two a), ablative *-ic’* in (@two b) etc.), which is non-compositional and cannot be analysed as a combination of several categories. 
 
@@ -128,7 +111,7 @@ gloss_example(transliteration = "*i* *pst’uin* *alne-**re*** *jaʁ-o*",
 </tbody>
 </table></div>
 
-### 2.2. Bimorphemic systems {#2.2. -}
+### Bimorphemic systems {#2.2.}
 
 In 22 languages of the sample a bimorphemic spatial inflection is attested (see [Table 2](#t2)), cf. examples from Hinuq (@four) and Mehweb Dargwa (@five).
 
@@ -196,7 +179,7 @@ gloss_example(transliteration = "*nuša* *ustuj-**šu-b*** *ka-b-iʔ-i-ra*",
 
 11 languages of the sample feature a trimorphemic spatial inflection. The third morpheme in such systems can be deictic, orientational, or approximative. 
 
-#### 2.3.1. Deictic markers {#2.3.1. -}
+#### Deictic markers {#2.3.1.}
 
 In 4 languages of the sample (see [Table 3](#t3)) the marker that introduces the additional category can bear either of the following semantic values: upwards, downwards (@six), hither, and thither (@seven), thus specifying the direction of the trajector’s movement with respect to the deictic centre. However, it is not yet clear whether the semantics of upwards and downwards is indeed deictic, stating the direction with respect to the speaker, or whether it is purely gravitational. Therefore, it may be more precise to designate them as deictic-gravitational systems. In this chapter no distinction was made, and all the values listed above are labelled as deictic, considering that they always appear grouped together in one formal category. An additional study is required to determine whether a further differentiation is needed. 
 
@@ -205,8 +188,7 @@ In 4 languages of the sample (see [Table 3](#t3)) the marker that introduces the
 ```{r results='asis'}
 gloss_example(transliteration = "*qːatːa-**r-ka*** *q’˳-aˁn-ne* *aʁ˳-al* *murgul* *bek’* *le=b=de*",
               glosses = "gorge.**LOC-EL-DOWN** go.IPF-PRS-CONV four-CARD man head EXST=HPL=PST",
-              free_translation = "There were four men walking down the gorge."
-              )
+              free_translation = "There were four men walking down the gorge.")
 ```
 
 (@seven) Northern Tabasaran [@magometov1965: 119][^1]
@@ -214,8 +196,7 @@ gloss_example(transliteration = "*qːatːa-**r-ka*** *q’˳-aˁn-ne* *aʁ˳-al*
 ```{r}
 gloss_example(transliteration = "*daʁ.ǯi-**l-an-tina***",
               glosses = "mountain.OBL-**SUP-ABL-THITHER**",
-              free_translation = "from up in the mountains in the direction away from here"
-              )
+              free_translation = "from up in the mountains in the direction away from here")
 ```
 
 [^1]: The author calls marker *-tina* an ‘adverb-postposition’, although morphophonologically characterises it as a suffix. In fact, all such cases require strong arguments to consider the third slot as bound; see discussion of Tanty Dargwa.
@@ -251,7 +232,7 @@ gloss_example(transliteration = "*daʁ.ǯi-**l-an-tina***",
 </table></div><br>
 Tanty Dargwa differs from the other languages in that the use of the deictic suffix is obligatory in combination with the elative marker (‘motion from’) and optional in combination with the lative (‘motion to’). In the other three languages, the deictic marker is only used in combination with elative markers, and is always optional. 
 
-#### 2.3.2. Orientational markers {#2.3.2. -}
+#### Orientational markers {#2.3.2.}
 
 7 languages (see [Table 4](#t4)) exhibit a trimorphemic system that, in addition to localization and directionality, involves an orientational marker. Similarly to deictic, the orientational marker is attached after a marker of directionality. It indicates that the movement has a certain orientation as defined by the category of directionality, Source or Goal, but makes it vague as to the starting or ending point of that movement, respectively (@testelets1980: 6). Example (@eight) from Standard Tabasaran implies that the boys are coming from the area where the school is located, though not necessarily from the school itself.
 
@@ -320,9 +301,10 @@ gloss_example(transliteration = "*škola.ji-**x’-an-di*** *baja.ri-n* *deste* 
   </tr>
 </tbody>
 </table></div><br>
+
 According to [Table 3](#t3) and [Table 4](#t4), Tabasaran and Kaitag exhibit both deictic and orientational suffixes. However, in Tabasaran, the two markers are attested in different dialects. The orientational suffix is found in Standard Tabasaran, whereas deictic suffixes are only attested in Northern Tabasaran. As for Kaitag, both types of markers are found within the same idiom, although it is not clear whether they can cooccur within one word form. 
 
-#### 2.3.3. Approximative marker
+#### Approximative marker
 
 Finally, one language of the sample, Hunzib (East Caucasian: Tsezic), features an approximative marker. In terms of its semantics, it is similar to orientational markers ([2.3.2](#2.3.2.)), making the boundaries of a spatial domain less precise. However, the approximative in Hunzib can be isolated as a separate pattern due to its position in the nominal form. While the orientational marker fills the slot after the directionality marker, the approximative marker fills the slot between the localization and the directionality markers (@nine). 
 
@@ -337,11 +319,15 @@ gloss_example(transliteration = "*yaraǧ* *r-oxče-n* *li* *žin-do* *ha-**ƛ-do
 
 Such a position in a nominal form may indicate a different path of grammaticalization of the approximative as compared to those of orientational markers. Another reason to treat it separately is that it may have different scope, modifying only the part of the form to the left of it (blurring the boundaries of the spatial domain designated by the localization marker) without affecting the semantics of the directionality marker. However, the semantic difference would remain unclear, and an additional study is required to confirm or disprove this hypothesis.
 
-## 3. Distribution
+## Distribution
 
 All three types of spatial inflection are well represented in the languages of the sample. 10 languages feature a monomorphemic system (see [Table 1](#t1)), 22 languages feature a bimorphemic system (see [Table 2](#t2)), and in 10 languages trimorphemic systems are attested (see [Table 3](#t3), [Table 4](#t4) and example (@nine)). [Map 1](#m1) shows the languages according to the maximum number of markers in their spatial inflection. [Map 2](#m2) shows the subtypes of trimorphemic systems (i. e. deictic, orientational and approximative). 
 The distribution of values on the maps shows both areal and genealogical patterns. Languages with monomorphemic systems are mostly located away from the central Daghestal. They include all non-East Caucasian languages of the sample and those East Caucasian languages that are spoken outside Daghestan (but not all of such languages). Moving closer to the centre, languages with bimorphemic systems are attested. Those are languages belonging to the Andic group in the northwest of Daghestan and to the Lezgic group in the south of Daghestan (with the exception of Tabasaran). Finally, the languages spoken in central Daghestan mostly exhibit trimorphemic systems (with the exception of Archi and some varieties of Dargwa).
 
-## List of glosses {.unnumbered}
+## List of glosses {-}
 
-## References {.unnumbered}
+```{r}
+make_gloss_list(readxl::read_xlsx("../glosses.xlsx"))
+```
+
+## References {-}
