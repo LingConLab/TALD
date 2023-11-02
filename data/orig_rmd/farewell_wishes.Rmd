@@ -18,7 +18,7 @@ gloss_example(transliteration = "dal-e-ⁿ			marš-ol		ḥoⁿ",
               free_translation = "God’s peace to you.")
 ```
 
-(@kubachi3) Kubachi [@magometov1963:205]
+(@kubachi3) Kubachi [@magometov1963: 205]
 ```{r}
 gloss_example(transliteration = "salamatʰ 	w-aqʼ!",
               glosses = "good 		M-do.OPT",
@@ -54,7 +54,7 @@ Still, there usually exists one main formula which is the most frequent. In the 
 
 There are two types of farewell formulae that cover large areas. The first type, shown on Map 1, literally means ‘May the road be good’ or ‘Good road!’.
 
-(@mehweb7) Mehweb [@dobrushina2019:141]
+(@mehweb7) Mehweb [@dobrushina2019: 141]
 ```{r}
 gloss_example(transliteration = "hum-beʡ	aˤχ		d-uh-a-b!",
               glosses = "road-PL 	good 		NPL-become:PFV-IRR-OPT",
@@ -93,7 +93,7 @@ gloss_example(transliteration = "nuχ		bit’a-gi!",
               free_translation = "May the road be straight!")
 ```
 
-(@hunzib12) Hunzib [@vandenberg1995:88]
+(@hunzib12) Hunzib [@vandenberg1995: 88]
 ```{r}
 gloss_example(transliteration = "huni 	bic’i		r-aq-ob",
               glosses = "road 	straight		5-happen-OPT",
@@ -120,7 +120,7 @@ gloss_example(transliteration = "jaʁur 		xu-raj",
               free_translation = "Have a nice trip!")
 ```
 
-(@lezgian15) Lezgian  [@talibovgadzhiev1966:397]
+(@lezgian15) Lezgian  [@talibovgadzhiev1966: 397]
 ```{r}
 gloss_example(transliteration = "juʁur		xuj",
               glosses = "luck[AZ]	become.OPT",
@@ -131,14 +131,14 @@ The form of this word slightly varies in different Lezgic languages (*jaʁur* in
 
 Apart from these three types, there are other, less frequent formulae which are not mapped. For example, in the adjacent language communities of Tsez and Hinuq the same formula, not found in any other places, is used. It consists of the words ‘road’ and ‘send / let’, but the meaning is not transparent; most likely, the intended but not overtly expressed subject of this formula is God: ‘May [God] let the road’ (‘пусть Бог отпустит дорогу’, as it was translated by the speaker of Tsez Arsen Abdullaev).
 
-(@tsez16) Tsez  [@khalilov1999:109]
+(@tsez16) Tsez  [@khalilov1999: 109]
 ```{r}
 gloss_example(transliteration = "huni 	r-egir-o-ƛ",
               glosses = "road 	4-send/let-IMP-OPT",
               free_translation = "Have a nice trip! (lit. ‘May road let’)")
 ```
 
-(@hinuq17) Hinuq  [@forker2013:231]
+(@hinuq17) Hinuq  [@forker2013: 231]
 ```{r}
 gloss_example(transliteration = "hune 	kekir-ƛo",
               glosses = "road 	send/let-OPT",
