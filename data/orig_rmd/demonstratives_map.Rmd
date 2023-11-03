@@ -638,6 +638,7 @@ feature_dataset |>
 
 feature_dataset |> 
   select(lang, idiom, source, page, matches('value\\d{1,}$')) |> 
+  filter(!if_all(matches('value\\d{1,}$'), is.na)) |> 
   rename_with(function(x){columns_rename$value[match(x, columns_rename$name)]}, matches('value\\d{1,}$'))  |> 
   rename(Language=lang, 
          Idiom = idiom,
