@@ -34,7 +34,7 @@ The languages of Daghestan can be grouped into three broad types: a) languages w
   a.
 ```{r}
 gloss_example(transliteration = "*aɾam-ě* *paɾap-um* *ē* *lsaɾan-**um***",
-              glosses = "Aram-the study-PRS.PTCP he.is auditorium-**LOC**",
+              glosses = "Aram-the study-PRS.PTCP he_is auditorium-**LOC**",
               free_translation = "Aram studies in the auditorium."
               )
 ```
@@ -82,7 +82,7 @@ In 22 languages of the sample a bimorphemic spatial inflection is attested (see 
 
 ```{r}
 gloss_example(transliteration = "*eli* *ħalica* *čeq-**i-š*** *b-iq’e-s* *hadu* *nuqo*",
-              glosses = "we.ERG hardly forest-**IN-ABL1** 3-bring-PST DEM log(3)",
+              glosses = "we.ERG hardly forest-**IN-ABL1** III-bring-PST DEM log.III",
               free_translation = "We hardly brought this log out of the forest."
               )
 ```
@@ -143,7 +143,7 @@ Tanty Dargwa differs from the other languages in that the use of the deictic suf
 
 #### Orientational markers {#2.3.2.}
 
-7 languages (see [Table 4](#t4)) exhibit a trimorphemic system that, in addition to localization and directionality, involves an orientational marker. Similarly to deictic, the orientational marker is attached after a marker of directionality. It indicates that the movement has a certain orientation as defined by the category of directionality, Source or Goal, but makes it vague as to the starting or ending point of that movement, respectively (@testelets1980: 6). Example (@eight) from Standard Tabasaran implies that the boys are coming from the area where the school is located, though not necessarily from the school itself.
+7 languages (see [Table 4](#t4)) exhibit a trimorphemic system that, in addition to localization and directionality, involves an orientational marker. Similarly to deictic, the orientational marker is attached after a marker of directionality. It indicates that the movement has a certain orientation as defined by the category of directionality, Source or Goal, but makes it vague as to the starting or ending point of that movement, respectively [@testelets1980: 6]. Example (@eight) from Standard Tabasaran implies that the boys are coming from the area where the school is located, though not necessarily from the school itself.
 
 (@eight) Standard Tabasaran [@alekseevshixalieva2003: 46]
 
@@ -176,7 +176,7 @@ Finally, one language of the sample, Hunzib (East Caucasian: Tsezic), features a
 
 ```{r results='asis'}
 gloss_example(transliteration = "*yaraǧ* *r-oxče-n* *li* *žin-do* *ha-**ƛ-do-ƛ’*** *q’ere* *gul-ur.u*",
-              glosses = "weapon.5 5-take-GER be.5 self.OBL-INS foot-**SUB-APPR-TRANS** down put.5-PPT",
+              glosses = "weapon.V V-take-GER be.V self.OBL-INS foot-**SUB-APPR-TRANS** down put.V-PST.PTCP",
               free_translation = "He took a weapon from somewhere under his feet, where he had laid it down."
               )
 ```
