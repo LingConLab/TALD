@@ -25,7 +25,7 @@ The Atlas consists of:
  * Chapters describing linguistic phenomena typical of the area (some of the chapters are linked to a major topic, i.e., a more descriptive chapter to which several features are related) 
  * Datasets with information on particular features
  * Map visualizations of how these features are distributed
- * A bibliography of literature on languages of the area (see [References](http://lingconlab.ru/dagatlas/references.html))
+ * A bibliography of literature on languages of the area (see [References](references.html))
 
 ## Daghestan as a linguistic area
 
@@ -37,7 +37,7 @@ Historically there was no single lingua franca for the whole area. As a result, 
 
 One of the aims of TALD is to chart the genealogical and geographical distribution of linguistic features and to facilitate multi-faceted analyses of language contact in Daghestan by comparing the presence of shared features with known patterns of [bilingualism](https://multidagestan.com) and [lexical convergence](http://lingconlab.ru/dagloans/).
 
-The list of languages included in our sample is available in the section [Languages](LINK).
+The list of languages included in our sample is available in the section [Languages](languages.html).
 
 ## Map visualizations
 
