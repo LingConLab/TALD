@@ -22,10 +22,10 @@ The **Typological Atlas of the Languages of Daghestan (TALD)** is a tool for the
 
 The Atlas consists of:
 
- * Chapters describing linguistic phenomena typical of the area 
+ * Chapters describing linguistic phenomena typical of the area (some of the chapters are linked to a major topic, i.e., a more descriptive chapter to which several features are related) 
  * Datasets with information on particular features
  * Map visualizations of how these features are distributed
- * A bibliography of literature on languages of the area
+ * A bibliography of literature on languages of the area (see [References](http://lingconlab.ru/dagatlas/references.html))
 
 ## Daghestan as a linguistic area
 
@@ -36,6 +36,8 @@ Other languages spoken in Daghestan include three Turkic languages: Nogai, Kumyk
 Historically there was no single lingua franca for the whole area. As a result, Daghestanians were known for having a command of multiple locally important languages, which they picked up in the course of seasonal labor migration, trading at cardinal markets, and other types of contact. Currently these patterns are disappearing fast due to the expansion of Russian.
 
 One of the aims of TALD is to chart the genealogical and geographical distribution of linguistic features and to facilitate multi-faceted analyses of language contact in Daghestan by comparing the presence of shared features with known patterns of [bilingualism](https://multidagestan.com) and [lexical convergence](http://lingconlab.ru/dagloans/).
+
+The list of languages included in our sample is available in the section [Languages](LINK).
 
 ## Map visualizations
 
@@ -54,7 +56,7 @@ For map visualizations we use the [Lingtypology package](https://github.com/rope
 
 ### General datapoints
 
-This is the more basic visualization, which shows one dot on the map for each language in the sample. By unticking the box "show languages" you can remove the inner dots and visualize the distribution of different values in the area without the distraction of genealogical information.
+This is the more basic visualization, which shows one dot on the map for each language in the sample. The inside of each dot is colored by language. Languages from the same group have similar colors (e.g., all Lezgic languages have some shade of green). Hover over a dot to see the name of the language, and click to view a popup with a link to the language’s page in the Glottolog database and the name of the village. The color of the outer dots indicates the value of a linguistic feature. By unticking the box "show languages" you can remove the inner dots and visualize the distribution of different values in the area without the distraction of genealogical information.
 
 ```{r}
 library(tidyverse)
@@ -163,11 +165,10 @@ map.feature(all_genpoints$lang4map,
 
 ### Extrapolated data
 
-This visualization represents each language as a cluster of dots, which correspond to villages where a certain language is spoken.[^1] The inside of each dot is colored by language. Languages from the same group have similar colors (e.g., all Lezgic languages have some shade of green). Hover over a dot to see the name of the language, and click to view a popup with a link to the language's page in the [Glottolog](https://glottolog.org) database and the name of the village. The color of the outer dots indicates the value of a linguistic feature. By unticking the box "show languages" you can remove the inner dots and visualize the distribution of different values in the area without the distraction of genealogical information.
+This visualization represents each language as a cluster of dots, which correspond to villages where a certain language is spoken (this visualization makes use of the [East Caucasian villages dataset](https://github.com/sverhees/master_villages)). 
 
 A benefit of this type of visualization is that it shows the size and boundaries of speech communities (as opposed to maps based on abstract general datapoints). Its main drawback is that it involves a lot of generalization. We do not have information on each village variety of the languages in our sample, so we extrapolate the information we have on a language or dialect to all the villages where they are spoken. In doing so, we risk overgeneralizing information and erasing possible dialectal differences.
 
-[^1]: This visualization makes use of the [East Caucasian villages dataset](https://github.com/sverhees/master_villages).
 
 ```{r}
 map.feature(alldata_clean$lang4map,
@@ -243,7 +244,7 @@ To get a better idea of our methodology and what you will have to do if you deci
 
 ## Access to data
 
-The data can be accessed through the atlas interface, or downloaded directly from our [GitHub page](https://github.com/LingConLab/TALD/tree/master/data/orig_table). For reasons of space, on the atlas interface we show filtered versions of the original databases, which only include the main information displayed on maps. However, both filtered and full versions of the databases are available for downloading. Full versions including more detailed information for each observation in the database (e.g., specific morphemes or wordforms, examples of their occurrence in texts with glosses and translations) can be downloaded by clicking on the download button, or by accessing our [GitHub page](https://github.com/LingConLab/TALD/tree/master/data/orig_table).     
+The data can be accessed through the Atlas interface, or downloaded directly from our [GitHub page](https://github.com/LingConLab/TALD/tree/master/data/orig_table). For reasons of space, on the Atlas interface we show filtered versions of the original databases, which only include the main information displayed on maps. However, both filtered and full versions of the databases are available for downloading. Full versions including more detailed information for each observation in the database (e.g., specific morphemes or wordforms, examples of their occurrence in texts with glosses and translations) can be downloaded by clicking on the download button, or by accessing our [GitHub page](https://github.com/LingConLab/TALD/tree/master/data/orig_table).     
 
 ## How to cite{.tabset .tabset-fade .tabset-pills} 
 
