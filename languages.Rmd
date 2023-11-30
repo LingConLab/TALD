@@ -54,11 +54,12 @@ map(list.files("data/orig_table", full.names = TRUE), function(file){
     mutate(filename = str_remove(file, "data/orig_table/"),
            filename = str_remove(filename, ".tsv$")) |> 
     left_join(features, by = join_by(filename)) |> 
-    select(Language, Idiom)
+    select(Language, Idiom, Chapter)
 }) |> 
   list_rbind() |> 
   mutate(across(everything(), as.factor))  |> 
   arrange(Idiom, Language) |> 
+  distinct() |> 
   DT::datatable(filter = 'top', 
                 rownames = FALSE,
                 options = list(

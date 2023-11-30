@@ -395,7 +395,6 @@ Revise the BibTeX entry moroz20_villages from the file uvular_voiced_stop_bib.ts
 Revise the BibTeX entry moroz20_villages from the file velar_fricatives_bib.tsv.
 Revise the BibTeX entry moroz20_villages from the file voiceless_obstruents_bib.tsv.
 The obligatory column          date          is absent in the file          farewell_wishes.tsv
-The wrong langage name          Tukita          in the file          farewell_wishes.tsv
 The wrong village dialect name Drushtul in the file erg_abs_pronouns.tsv
 NA
 The wrong village dialect name Inkhokvari in the file numeral_bases.tsv
