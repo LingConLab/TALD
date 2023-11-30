@@ -24,11 +24,11 @@ map(list.files("data/orig_table", full.names = TRUE), function(file){
     filter(render == 1) |> 
     rowwise() |> 
     mutate(id_0 = sprintf(str_c("%0", nchar(max(id))+1, "d_"), id),
-           Chapter = str_c("<a href='",
-                                str_c(id_0, filename),
-                                ".html'>",
-                                title,
-                                "</a>")) |> 
+           Chapter = str_c("- [",
+                           title,
+                           "](",
+                           str_c(id_0, filename),
+                           ".html)")) |> 
     select(filename, Chapter) ->
     features
   
@@ -54,13 +54,12 @@ map(list.files("data/orig_table", full.names = TRUE), function(file){
     mutate(filename = str_remove(file, "data/orig_table/"),
            filename = str_remove(filename, ".tsv$")) |> 
     left_join(features, by = join_by(filename)) |> 
-    select(Language, Idiom, Chapter, Feature, Value)
+    select(Language, Idiom, Chapter)
 }) |> 
   list_rbind() |> 
-  mutate(across(everything(), as.factor)) |> 
-  arrange(Idiom, Language) |>  
+  mutate(across(everything(), as.factor))  |> 
+  arrange(Idiom, Language) |> 
   DT::datatable(filter = 'top', 
-                escape = 4,
                 rownames = FALSE,
                 options = list(
                   pageLength = 100, 
