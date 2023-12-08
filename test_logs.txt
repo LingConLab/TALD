@@ -1,6 +1,4 @@
 The BibTeX entry          abdullaev2015          present in the          farewell_wishes.tsv, but absent in the biblib.xlsx
-The BibTeX entry          testelets1980          present in the          number_of_morphological_slots_in_spatial_forms.tsv, but absent in the biblib.xlsx
-The BibTeX entry          hillery1994          present in the          number_of_morphological_slots_in_spatial_forms.tsv, but absent in the biblib.xlsx
 The BibTeX entry          sulejmanov1957          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
 The BibTeX entry          alekseyevverhees2020          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
 The BibTeX entry          abdullaeva2001          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
