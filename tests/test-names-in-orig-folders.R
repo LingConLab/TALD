@@ -37,7 +37,7 @@ names as in the `../data/contributers.xlsx`", {
   
   write_lines(observed, "../test_logs.txt", append = TRUE)
   expect_equal(observed, expected)
-  expect_equal(setdiff(list.files("../data/orig_rmd"), 
-                       list.files("../data/orig_rmd", pattern = "_map.Rmd")), 
+  expect_equal(sort(setdiff(list.files("../data/orig_rmd"),
+                            list.files("../data/orig_rmd", pattern = "_map.Rmd"))), 
                sort(str_c(c(expected_texts, expected_mt), ".Rmd")))
 })
