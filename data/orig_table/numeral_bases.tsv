@@ -76,16 +76,16 @@ id	lang	idiom	type	genlang_point	map	value1	value1_name	feature	source	page	comm
 76	Tsakhur	Mishlesh	village	yes	yes	decimal	Base of numeral system	Base of numeral system	ibragimov1990	94—95		George Moroz	2023-09-08
 77	Tsakhur	Gel'mets	dialect_nt1	no	yes	decimal	Base of numeral system	Base of numeral system	ibragimov2011	15—16		Maksim Melenchenko	2023-09-08
 78	Lezgian	Standard Lezgian	language	yes	yes	vigesimal	Base of numeral system	Base of numeral system	haspelmath1993	230—232		George Moroz	2023-09-08
-79	Lezgian	Ashar Kurakh	language	no	yes	vigesimal	Base of numeral system	Base of numeral system	murtazaeva2005	16		Maksim Melenchenko	2023-09-08
-80	Lezgian	Gelkhen	language	no	yes	vigesimal	Base of numeral system	Base of numeral system	pirmagomedova2013	17		Maksim Melenchenko	2023-09-08
-81	Lezgian	Khlyut	language	no	yes	vigesimal	Base of numeral system	Base of numeral system	sultalieva2011	15		Maksim Melenchenko	2023-09-08
-82	Lezgian	Maza	language	no	yes	vigesimal	Base of numeral system	Base of numeral system	muradalieva2009	15		Maksim Melenchenko	2023-09-08
-83	Lezgian	Kurush	language	no	yes	vigesimal	Base of numeral system	Base of numeral system	abdurakhmanova2014	18		Maksim Melenchenko	2023-09-08
-84	Lezgian	Zakhit	language	no	yes	vigesimal	Base of numeral system	Base of numeral system	karabekov2013	18		Maksim Melenchenko	2023-09-08
-85	Lezgian	Karakyuri	language	no	yes	vigesimal	Base of numeral system	Base of numeral system	asadova2013	14		Maksim Melenchenko	2023-09-08
-86	Lezgian	Shimikhyur	language	no	yes	vigesimal	Base of numeral system	Base of numeral system	shabanova2006	17		Maksim Melenchenko	2023-09-08
-87	Lezgian	Gogaz	language	no	yes	vigesimal	Base of numeral system	Base of numeral system	aliverdieva2006	14		Maksim Melenchenko	2023-09-08
-88	Lezgian	Kimil Quba	language	no	yes	mixed	Base of numeral system	Base of numeral system	asaliev2003	17	Some tens are apparently borrowed from Azerbaijani (cf. elli '50')	Maksim Melenchenko	2023-09-08
+79	Lezgian	Ashar Kurakh	village	no	yes	vigesimal	Base of numeral system	Base of numeral system	murtazaeva2005	16		Maksim Melenchenko	2023-09-08
+80	Lezgian	Gelkhen	village	no	yes	vigesimal	Base of numeral system	Base of numeral system	pirmagomedova2013	17		Maksim Melenchenko	2023-09-08
+81	Lezgian	Khlyut	village	no	yes	vigesimal	Base of numeral system	Base of numeral system	sultalieva2011	15		Maksim Melenchenko	2023-09-08
+82	Lezgian	Maza	village	no	yes	vigesimal	Base of numeral system	Base of numeral system	muradalieva2009	15		Maksim Melenchenko	2023-09-08
+83	Lezgian	Kurush	village	no	yes	vigesimal	Base of numeral system	Base of numeral system	abdurakhmanova2014	18		Maksim Melenchenko	2023-09-08
+84	Lezgian	Zakhit	village	no	yes	vigesimal	Base of numeral system	Base of numeral system	karabekov2013	18		Maksim Melenchenko	2023-09-08
+85	Lezgian	Karakyuri	village	no	yes	vigesimal	Base of numeral system	Base of numeral system	asadova2013	14		Maksim Melenchenko	2023-09-08
+86	Lezgian	Shimikhyur	village	no	yes	vigesimal	Base of numeral system	Base of numeral system	shabanova2006	17		Maksim Melenchenko	2023-09-08
+87	Lezgian	Gogaz	village	no	yes	vigesimal	Base of numeral system	Base of numeral system	aliverdieva2006	14		Maksim Melenchenko	2023-09-08
+88	Lezgian	Kimil Quba	village	no	yes	mixed	Base of numeral system	Base of numeral system	asaliev2003	17	Some tens are apparently borrowed from Azerbaijani (cf. elli '50')	Maksim Melenchenko	2023-09-08
 89	Budukh	Budukh	village	yes	yes	vigesimal	Base of numeral system	Base of numeral system	talibov2007	145—150		George Moroz	2023-09-08
 90	Kryz	Alik	village	yes	yes	vigesimal	Base of numeral system	Base of numeral system	authier2009	103—104		George Moroz	2023-09-08
 91	Udi	Vartashen	dialect_toplevel	yes	yes	vigesimal	Base of numeral system	Base of numeral system	gukasyan1974	281—283		George Moroz	2023-09-08
