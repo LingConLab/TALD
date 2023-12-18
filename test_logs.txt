@@ -614,7 +614,7 @@ spelling of          pharyngealized        in pharyngealization_map.Rmd:58
 spelling of          pharyngealized        in pharyngealization.Rmd:5
 spelling of          ai        in phonology.Rmd:196
 spelling of          aj        in phonology.Rmd:196
-spelling of          Akvakh        in phonology.Rmd:92,143
+spelling of          Akvakh        in phonology.Rmd:143
 spelling of          eu        in phonology.Rmd:196
 spelling of          ew        in phonology.Rmd:196
 spelling of          excludEA        in phonology.Rmd:92,94
