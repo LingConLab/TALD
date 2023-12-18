@@ -19,7 +19,6 @@ id	village	rus_village	lat	lon	lang	aff	family	standard	default_level	dialect_to
 18	Arsug	Арсуг	41.86408	47.65011	Agul	Lezgic	East Caucasian	NA	Agul	Koshan	Кошанский	NA	NA	NA	NA	NA	NA	Arsug	kosh1245	#00cc66	#00cc66	2022-07-19
 19	Burshag	Буршаг	41.89626	47.64102	Agul	Lezgic	East Caucasian	NA	Agul	Koshan	Кошанский	NA	NA	NA	NA	NA	NA	Burshag	kosh1245	#00cc66	#00cc66	2022-07-19
 16	Kurag	Кураг	41.836764	47.661351	Agul	Lezgic	East Caucasian	NA	Agul	Kurag	Курагский	NA	NA	NA	NA	NA	NA	Kurag	aghu1253	#00cc66	#00cc66	2022-07-19
-NA	Standard Agul	NA	41.92418	47.58429	Agul	Lezgic	East Caucasian	Standard Agul	Agul	NA	NA	NA	NA	NA	NA	NA	NA	NA	aghu1253	#00cc66	#00cc66	2022-07-19
 20	Tsirkhe	Цирхе	41.91513	47.59679	Agul	Lezgic	East Caucasian	NA	Agul	Tsirkhe	Цирхекский	NA	NA	NA	NA	NA	NA	Tsirkhe	aghu1253	#00cc66	#00cc66	2022-07-19
 26	Lologonitl'	Лологонитль	42.51398	46.33093	Akhvakh	Andic	East Caucasian	NA	Akhvakh	Northern Akhvakh	Северноахвахский	NA	NA	NA	NA	NA	NA	Lologonitl'	akhv1239	#9900ff	#9900ff	2022-07-19
 27	Izano	Изано	42.52735	46.40389	Akhvakh	Andic	East Caucasian	NA	Akhvakh	Northern Akhvakh	Северноахвахский	NA	NA	NA	NA	NA	NA	Izano	akhv1239	#9900ff	#9900ff	2022-07-19
@@ -52,7 +51,6 @@ NA	Standard Agul	NA	41.92418	47.58429	Agul	Lezgic	East Caucasian	Standard Agul	A
 54	Archib	Арчиб	42.0664	46.8678	Archi	Lezgic	East Caucasian	NA	Archi	NA	NA	NA	NA	NA	NA	NA	NA	Archib	arch1244	#99cc00	#00cc66	2022-07-19
 55	Kalib	Калиб	42.07054	46.86002	Archi	Lezgic	East Caucasian	NA	Archi	NA	NA	NA	NA	NA	NA	NA	NA	Kalib	arch1244	#99cc00	#00cc66	2022-07-19
 56	Khitab	Хитаб	42.07538	46.867234	Archi	Lezgic	East Caucasian	NA	Archi	NA	NA	NA	NA	NA	NA	NA	NA	Khitab	arch1244	#99cc00	#00cc66	2022-07-19
-NA	Standard Armenian	NA	41.009625	44.384086	Armenian	Armenic	Indo-European	Standard Armenian	Armenian	Modern Eastern Armenian	NA	NA	NA	NA	NA	NA	NA	NA	nucl1235	#dbcfeb	#fff5ee	2022-07-19
 109	Gortnob	Гортноб	41.962665	46.525604	Avar	Avar	East Caucasian	NA	Avar	NA	NA	NA	NA	NA	NA	NA	NA	Gortnob	avar1256	#009999	#009999	2022-07-19
 116	Tlyanada	Тлянада	42.02864	46.51038	Avar	Avar	East Caucasian	NA	Avar	NA	NA	NA	NA	NA	NA	NA	NA	Tlyanada	avar1256	#009999	#009999	2022-07-19
 118	Nitilsukh	Нитилсух	42.04732	46.42938	Avar	Avar	East Caucasian	NA	Avar	NA	NA	NA	NA	NA	NA	NA	NA	Nitilsukh	avar1256	#009999	#009999	2022-07-19
@@ -277,7 +275,6 @@ NA	Standard Armenian	NA	41.009625	44.384086	Armenian	Armenic	Indo-European	Stand
 773	Danukh	Данух	42.84282	46.6275	Avar	Avar	East Caucasian	NA	Avar	NA	NA	NA	NA	NA	NA	NA	NA	Danukh	avar1256	#009999	#009999	2022-07-19
 2023	Tlyarata	Тлярата	42.1	46.33333	Avar	Avar	East Caucasian	NA	Avar	NA	NA	NA	NA	NA	NA	NA	NA	Tlyarata	avar1256	#009999	#009999	2022-07-19
 2031	Siukh (Khunzakhsky district)	Сиух (Хунзахский район)	42.6	46.54722	Avar	Avar	East Caucasian	NA	Avar	NA	NA	NA	NA	NA	NA	NA	NA	Siukh (Khunzakhsky district)	avar1256	#009999	#009999	2022-07-19
-NA	Standard Avar	NA	42.43056	46.66639	Avar	Avar	East Caucasian	Standard Avar	Avar	NA	NA	NA	NA	NA	NA	NA	NA	NA	avar1256	#009999	#009999	2022-07-19
 336	Gergebil'	Гергебиль	42.5047	47.0661	Avar	Avar	East Caucasian	NA	Avar	Northern Avar	Северноаварский	Eastern	Восточный	NA	NA	NA	NA	Gergebil'	avar1256	#009999	#009999	2022-07-19
 347	Khunzakh	Хунзах	42.5394	46.705	Avar	Avar	East Caucasian	NA	Avar	Northern Avar	Северноаварский	Khunzakh	Хунзахский	NA	NA	NA	NA	Khunzakh	avar1256	#009999	#009999	2022-07-19
 406	Moksokh	Моксох	42.6538	46.80572	Avar	Avar	East Caucasian	NA	Avar	Northern Avar	Северноаварский	Khunzakh	Хунзахский	NA	NA	NA	NA	Moksokh	avar1256	#009999	#009999	2022-07-19
@@ -500,7 +497,6 @@ NA	Standard Avar	NA	42.43056	46.66639	Avar	Avar	East Caucasian	Standard Avar	Ava
 1837	Segeler	Сегелер	42.26056	48.11556	Azerbaijani	Oghuz	Turkic	NA	Azerbaijani	NA	NA	NA	NA	NA	NA	NA	NA	Segeler	nort2697	#cccccc	#cccccc	2022-07-19
 2026	Qax	Гах	41.41944	46.91806	Azerbaijani	Oghuz	Turkic	NA	Azerbaijani	NA	NA	NA	NA	NA	NA	NA	NA	Qax	nort2697	#cccccc	#cccccc	2022-07-19
 2028	İlisu	Илису	41.46694	47.05917	Azerbaijani	Oghuz	Turkic	NA	Azerbaijani	NA	NA	NA	NA	NA	NA	NA	NA	Ilisu	nort2697	#cccccc	#cccccc	2022-07-19
-NA	Standard Azerbaijani	NA	40.977675	46.4736975	Azerbaijani	Oghuz	Turkic	Standard Azerbaijani	Azerbaijani	NA	NA	NA	NA	NA	NA	NA	NA	NA	nort2697	#cccccc	#cccccc	2022-07-19
 597	Tlibisho	Тлибишо	42.56054	46.30101	Bagvalal	Andic	East Caucasian	NA	Bagvalal	Eastern Bagvalal	Восточнобагвалинский	Tlisi-Tlibisho	Тлисси-тлибишинский	NA	NA	NA	NA	Tlibisho	bagv1239	#000066	#9900ff	2022-07-19
 600	Tlisi	Тлиси	42.56209	46.27428	Bagvalal	Andic	East Caucasian	NA	Bagvalal	Eastern Bagvalal	Восточнобагвалинский	Tlisi-Tlibisho	Тлисси-тлибишинский	NA	NA	NA	NA	Tlisi	bagv1239	#000066	#9900ff	2022-07-19
 2146	Tlenkhori	Тленхори	42.4681009	46.0549675	Bagvalal	Andic	East Caucasian	NA	Bagvalal	NA	NA	NA	NA	NA	NA	NA	NA	Tlenkhori	bagv1239	#000066	#9900ff	2022-07-19
@@ -996,7 +992,6 @@ NA	Standard Azerbaijani	NA	40.977675	46.4736975	Azerbaijani	Oghuz	Turkic	Standar
 1120	Shua Khalatsani	Джуа Халацани	42.1400039	45.3184987	Chechen	Nakh	East Caucasian	NA	Chechen	NA	NA	NA	NA	NA	NA	NA	NA	Shua Khalatsani	chec1245	#996600	#996633	2022-07-19
 1121	Birkiani	Биркиани	42.1893702	45.2992057	Chechen	Nakh	East Caucasian	NA	Chechen	NA	NA	NA	NA	NA	NA	NA	NA	Birkiani	chec1245	#996600	#996633	2022-07-19
 1122	Omalo (Pankisi)	Омало (Панкиси)	42.1844732	45.3140331	Chechen	Nakh	East Caucasian	NA	Chechen	NA	NA	NA	NA	NA	NA	NA	NA	Omalo (Pankisi)	chec1245	#996600	#996633	2022-07-19
-NA	Standard Chechen	NA	43.5	45.5	Chechen	Nakh	East Caucasian	Standard Chechen	Chechen	NA	NA	NA	NA	NA	NA	NA	NA	NA	chec1245	#996600	#996633	2022-07-19
 634	Khulandoy	Хуландой	42.553333	45.754167	Chechen	Nakh	East Caucasian	NA	Chechen	Sharoy	Шароевский	NA	NA	NA	NA	NA	NA	Khulandoy	chec1245	#996600	#996633	2022-07-19
 643	Kiri	Кири	42.674722	45.914167	Chechen	Nakh	East Caucasian	NA	Chechen	Sharoy	Шароевский	NA	NA	NA	NA	NA	NA	Kiri	chec1245	#996600	#996633	2022-07-19
 975	Novyy sharoy	Новый шарой	43.254444	45.277778	Chechen	Nakh	East Caucasian	NA	Chechen	Sharoy	Шароевский	NA	NA	NA	NA	NA	NA	Novyy sharoy	chec1245	#996600	#996633	2022-07-19
@@ -1059,7 +1054,6 @@ NA	Standard Chechen	NA	43.5	45.5	Chechen	Nakh	East Caucasian	Standard Chechen	Ch
 1379	Ayamakhi	Аямахи	42.40528	47.5725	Dargwa	Dargwa	East Caucasian	NA	Dargwa	NA	NA	NA	NA	NA	NA	NA	NA	Ayamakhi	darg1241	#ff9900	#ff9900	2022-07-19
 1381	Akhinets	Ахинец	42.412612	47.113872	Dargwa	Dargwa	East Caucasian	NA	Dargwa	NA	NA	NA	NA	NA	NA	NA	NA	Akhinets	darg1241	#ff9900	#ff9900	2022-07-19
 1393	Kapulagumi	Капулагуми	42.427995	47.476847	Dargwa	Dargwa	East Caucasian	NA	Dargwa	NA	NA	NA	NA	NA	NA	NA	NA	Kapulagumi	darg1241	#ff9900	#ff9900	2022-07-19
-NA	Standard Dargwa	NA	42.42568	47.43876	Dargwa	Dargwa	East Caucasian	Standard Dargwa	Dargwa	NA	NA	NA	NA	NA	NA	NA	NA	NA	darg1241	#ff9900	#ff9900	2022-07-19
 1280	Dubrimakhi	Дубримахи	42.274418	47.285133	Dargwa	Dargwa	East Caucasian	NA	Dargwa	Northern Dargwa	Севернодаргинский	Akusha	Акушинский	NA	NA	NA	NA	Dubrimakhi	darg1241	#ff9900	#ff9900	2022-07-19
 1281	Burgimakhi	Бургимахи	42.27489	47.28652	Dargwa	Dargwa	East Caucasian	NA	Dargwa	Northern Dargwa	Севернодаргинский	Akusha	Акушинский	NA	NA	NA	NA	Burgimakhi	darg1241	#ff9900	#ff9900	2022-07-19
 1284	Akusha	Акуша	42.275664	47.340107	Dargwa	Dargwa	East Caucasian	NA	Dargwa	Northern Dargwa	Севернодаргинский	Akusha	Акушинский	NA	NA	NA	NA	Akusha	darg1241	#ff9900	#ff9900	2022-07-19
@@ -1292,7 +1286,6 @@ NA	Standard Dargwa	NA	42.42568	47.43876	Dargwa	Dargwa	East Caucasian	Standard Da
 1130	Khuduts	Худуц	41.96638	47.51297	Dargwa	Dargwa	East Caucasian	NA	Dargwa	Southern Dargwa	Южнодаргинский	Upper Vurkun	Верхневуркунский	NA	NA	NA	NA	Khuduts	sout3261	#ff9900	#ff9900	2022-07-19
 2027	Əlibəyli	Алибегло	41.378056	46.821944	Georgian	Georgic	Kartvelian	NA	Georgian	Ingiloy	Ингилойский	NA	NA	NA	NA	NA	NA	Alibeglo	nucl1302	#fff5ee	#000000	2022-07-19
 2029	Meşəbaş	Мешабаш	41.408889	46.874444	Georgian	Georgic	Kartvelian	NA	Georgian	Ingiloy	Ингилойский	NA	NA	NA	NA	NA	NA	Meshabash	nucl1302	#fff5ee	#000000	2022-07-19
-NA	Standard Georgian	NA	41.81574	44.31883	Georgian	Georgic	Kartvelian	Standard Georgian	Georgian	NA	NA	NA	NA	NA	NA	NA	NA	NA	nucl1302	#fff5ee	black	2022-07-19
 1416	Godoberi	Годобери	42.6258	46.1189	Godoberi	Andic	East Caucasian	NA	Godoberi	NA	NA	NA	NA	NA	NA	NA	NA	Godoberi	ghod1238	#003399	#9900ff	2022-07-19
 1417	Beledi	Беледи	42.66722	46.05361	Godoberi	Andic	East Caucasian	NA	Godoberi	NA	NA	NA	NA	NA	NA	NA	NA	Beledi	ghod1238	#003399	#9900ff	2022-07-19
 1418	Zibirkhali	Зибирхали	42.66833	46.07194	Godoberi	Andic	East Caucasian	NA	Godoberi	NA	NA	NA	NA	NA	NA	NA	NA	Zibirkhali	ghod1238	#003399	#9900ff	2022-07-19
@@ -1347,7 +1340,6 @@ NA	Standard Georgian	NA	41.81574	44.31883	Georgian	Georgic	Kartvelian	Standard G
 1464	Zyazikov-yurt	Зязиков-юрт	43.495711	44.767656	Ingush	Nakh	East Caucasian	NA	Ingush	NA	NA	NA	NA	NA	NA	NA	NA	Zyazikov-yurt	ingu1240	#663300	#996633	2022-07-19
 1467	Aki-yurt	Аки-юрт	43.519639	44.865097	Ingush	Nakh	East Caucasian	NA	Ingush	NA	NA	NA	NA	NA	NA	NA	NA	Aki-yurt	ingu1240	#663300	#996633	2022-07-19
 1469	Vezhariy	Вежарий	43.597558	44.57435	Ingush	Nakh	East Caucasian	NA	Ingush	NA	NA	NA	NA	NA	NA	NA	NA	Vezhariy	ingu1240	#663300	#996633	2022-07-19
-NA	Standard Ingush	NA	43.16667	44.81667	Ingush	Nakh	East Caucasian	Standard Ingush	Ingush	NA	NA	NA	NA	NA	NA	NA	NA	NA	ingu1240	#663300	#996633	2022-07-19
 379	Tsumali	Цумали	42.607619	46.260923	Karata	Andic	East Caucasian	NA	Karata	Karata	Каратинский	Anchiq	Анчихский	NA	NA	NA	NA	Tsumali	kara1474	#666699	#9494b8	2022-07-19
 1479	Anchik (Anchikh)	Анчик (Анчих)	42.608098	46.271717	Karata	Andic	East Caucasian	NA	Karata	Karata	Каратинский	Anchiq	Анчихский	NA	NA	NA	NA	Anchiq	kara1474	#666699	#9494b8	2022-07-19
 1477	Archo	Арчо	42.597691	46.305756	Karata	Andic	East Caucasian	NA	Karata	Karata	Каратинский	Archo	Арчойский	NA	NA	NA	NA	Archo	kara1474	#666699	#9494b8	2022-07-19
@@ -1405,7 +1397,6 @@ NA	Standard Ingush	NA	43.16667	44.81667	Ingush	Nakh	East Caucasian	Standard Ingu
 1528	Verkhnie Ishkarty	Верхние Ишкарты	42.84907	46.95309	Kumyk	Kipchak	Turkic	NA	Kumyk	NA	NA	NA	NA	NA	NA	NA	NA	Verkhnie Ishkarty	kumy1244	#a6a6a6	#666666	2022-07-19
 1529	Takalay	Такалай	42.89677	47.1644	Kumyk	Kipchak	Turkic	NA	Kumyk	NA	NA	NA	NA	NA	NA	NA	NA	Takalay	kumy1244	#a6a6a6	#666666	2022-07-19
 1533	Ekibulak	Экибулак	43.04196	47.07152	Kumyk	Kipchak	Turkic	NA	Kumyk	NA	NA	NA	NA	NA	NA	NA	NA	Ekibulak	kumy1244	#a6a6a6	#666666	2022-07-19
-NA	Standard Kumyk	NA	43	47	Kumyk	Kipchak	Turkic	Standard Kumyk	Kumyk	NA	NA	NA	NA	NA	NA	NA	NA	NA	kumy1244	#a6a6a6	#666666	2022-07-19
 1553	Verkhniy Katrukh	Верхний Катрух	41.7468	47.22355	Lak	Lak	East Caucasian	NA	Lak	Arakul	Аракульский	NA	NA	NA	NA	NA	NA	Verkhniy Katrukh	lakk1252	#cc9900	#cc9900	2022-07-19
 1554	Arakul	Аракул	41.77377	47.21238	Lak	Lak	East Caucasian	NA	Lak	Arakul	Аракульский	NA	NA	NA	NA	NA	NA	Arakul	lakk1252	#cc9900	#cc9900	2022-07-19
 1556	Kuli	Кули	42.0227595	47.2387802	Lak	Lak	East Caucasian	NA	Lak	Ashtikul	Аштикулинский	NA	NA	NA	NA	NA	NA	Kuli	lakk1252	#cc9900	#cc9900	2022-07-19
@@ -1449,7 +1440,6 @@ NA	Standard Kumyk	NA	43	47	Kumyk	Kipchak	Turkic	Standard Kumyk	Kumyk	NA	NA	NA	NA
 1590	Ubra	Убра	42.179776	47.102963	Lak	Lak	East Caucasian	NA	Lak	NA	NA	NA	NA	NA	NA	NA	NA	Ubra	lakk1252	#cc9900	#cc9900	2022-07-19
 1604	Guymi	Гуйми	42.230357	47.19589	Lak	Lak	East Caucasian	NA	Lak	NA	NA	NA	NA	NA	NA	NA	NA	Guymi	lakk1252	#cc9900	#cc9900	2022-07-19
 1607	Tsulikana	Цуликана	42.25834	47.25676	Lak	Lak	East Caucasian	NA	Lak	NA	NA	NA	NA	NA	NA	NA	NA	Tsulikana	lakk1252	#cc9900	#cc9900	2022-07-19
-NA	Standard Lak	NA	42.13275	47.0809	Lak	Lak	East Caucasian	Standard Lak	Lak	NA	NA	NA	NA	NA	NA	NA	NA	NA	lakk1252	#cc9900	#cc9900	2022-07-19
 1559	Sumbatl'	Сумбатль	42.04682	47.21919	Lak	Lak	East Caucasian	NA	Lak	Pervotsovkrin	Первоцовкринский	NA	NA	NA	NA	NA	NA	Sumbatl'	lakk1252	#cc9900	#cc9900	2022-07-19
 1560	Tsovkra 1-ya	Цовкра 1-ая	42.05917	47.27056	Lak	Lak	East Caucasian	NA	Lak	Pervotsovkrin	Первоцовкринский	NA	NA	NA	NA	NA	NA	Tsovkra 1-ya	lakk1252	#cc9900	#cc9900	2022-07-19
 1593	Shadni	Шадни	42.192172	47.648927	Lak	Lak	East Caucasian	NA	Lak	Shadni	Шаднинский	NA	NA	NA	NA	NA	NA	Shadni	lakk1252	#cc9900	#cc9900	2022-07-19
@@ -1608,13 +1598,11 @@ NA	Standard Lak	NA	42.13275	47.0809	Lak	Lak	East Caucasian	Standard Lak	Lak	NA	N
 1765	Arablyar	Арабляр	41.935	48.38306	Lezgian	Lezgic	East Caucasian	NA	Lezgian	NA	NA	NA	NA	NA	NA	NA	NA	Arablyar	lezg1247	#00cc00	#00cc66	2022-07-19
 1766	Arablinskoe	Араблинское	41.9675	48.3303	Lezgian	Lezgic	East Caucasian	NA	Lezgian	NA	NA	NA	NA	NA	NA	NA	NA	Arablinskoe	lezg1247	#00cc00	#00cc66	2022-07-19
 1767	Vavilovo	Вавилово	41.98331	48.33065	Lezgian	Lezgic	East Caucasian	NA	Lezgian	NA	NA	NA	NA	NA	NA	NA	NA	Vavilovo	lezg1247	#00cc00	#00cc66	2022-07-19
-NA	Standard Lezgian	NA	41.51572	47.89507	Lezgian	Lezgic	East Caucasian	Standard Lezgian	Lezgian	NA	NA	NA	NA	NA	NA	NA	NA	NA	lezg1247	#00cc00	#00cc66	2022-07-19
 1720	Filya	Филя	41.71803	48.46103	Lezgian	Lezgic	East Caucasian	NA	Lezgian	Samur	Самурский	Dokuzpara	Докузпаринский	NA	NA	NA	NA	Filya	lezg1247	#00cc00	#00cc66	2022-07-19
 1626	Fiy	Фий	41.289126	47.564416	Lezgian	Lezgic	East Caucasian	NA	Lezgian	Samur	Самурский	Fiy	Фийский	NA	NA	NA	NA	Fiy	lezg1247	#00cc00	#00cc66	2022-07-19
 1627	Gdym	Гдым	41.30884	47.4668	Lezgian	Lezgic	East Caucasian	NA	Lezgian	Samur	Самурский	Fiy	Фийский	NA	NA	NA	NA	Gdym	lezg1247	#00cc00	#00cc66	2022-07-19
 1771	Kurush	Куруш	41.28083	47.83	Lezgian	Lezgic	East Caucasian	NA	Lezgian	Samur	Самурский	Kurush	Курушский	NA	NA	NA	NA	Kurush	lezg1247	#00cc00	#00cc66	2022-07-19
 1779	Sary-su	Сары-су	43.839722	46.4325	Nogai	Kipchak	Turkic	NA	Nogai	NA	NA	NA	NA	NA	NA	NA	NA	Sary-su	noga1249	#666666	#666666	2022-07-19
-NA	Standard Nogai	NA	43.59168	46.66178	Nogai	Kipchak	Turkic	Standard Nogai	Nogai	NA	NA	NA	NA	NA	NA	NA	NA	NA	noga1249	#666666	#666666	2022-07-19
 1841	Kiche	Киче	41.53146	47.48171	Rutul	Lezgic	East Caucasian	NA	Rutul	Eastern	Восточный	Mukhad	Мухадский	NA	NA	NA	NA	Kiche	rutu1240	#009900	#00cc66	2022-07-19
 1842	Rutul	Рутул	41.5342	47.4269	Rutul	Lezgic	East Caucasian	NA	Rutul	Eastern	Восточный	Mukhad	Мухадский	NA	NA	NA	NA	Rutul	rutu1240	#009900	#00cc66	2022-07-19
 1843	Kufa	Куфа	41.564115	47.376937	Rutul	Lezgic	East Caucasian	NA	Rutul	Eastern	Восточный	Mukhad	Мухадский	NA	NA	NA	NA	Kufa	rutu1240	#009900	#00cc66	2022-07-19
@@ -1628,7 +1616,6 @@ NA	Standard Nogai	NA	43.59168	46.66178	Nogai	Kipchak	Turkic	Standard Nogai	Nogai
 1847	Kina	Кина	41.6166	47.2647	Rutul	Lezgic	East Caucasian	NA	Rutul	NA	NA	NA	NA	NA	NA	NA	NA	Kina	rutu1240	#009900	#00cc66	2022-07-19
 1849	Vrush	Вруш	41.646787	47.310094	Rutul	Lezgic	East Caucasian	NA	Rutul	NA	NA	NA	NA	NA	NA	NA	NA	Vrush	rutu1240	#009900	#00cc66	2022-07-19
 1853	Aran	Аран	41.67389	47.24639	Rutul	Lezgic	East Caucasian	NA	Rutul	NA	NA	NA	NA	NA	NA	NA	NA	Aran	rutu1240	#009900	#00cc66	2022-07-19
-NA	Standard Rutul	NA	41.61866	47.32436	Rutul	Lezgic	East Caucasian	Standard Rutul	Rutul	NA	NA	NA	NA	NA	NA	NA	NA	NA	rutu1240	#009900	#00cc66	2022-07-19
 1840	Khnov	Хнов	41.378607	47.443605	Rutul	Lezgic	East Caucasian	NA	Rutul	Western	Западный	Borch-Khnov	Борчинско-хиновский	NA	NA	NA	NA	Khnov	rutu1240	#009900	#00cc66	2022-07-19
 2041	Borch	Борч	41.4544	47.323	Rutul	Lezgic	East Caucasian	NA	Rutul	Western	Западный	Borch-Khnov	Борчинско-хиновский	NA	NA	NA	NA	Borch	rutu1240	#009900	#00cc66	2022-07-19
 1854	Ikhrek	Ихрек	41.693931	47.210005	Rutul	Lezgic	East Caucasian	NA	Rutul	Western	Западный	Ikhrek	Ихрекский	NA	NA	NA	NA	Ikhrek	rutu1240	#009900	#00cc66	2022-07-19
@@ -1698,7 +1685,6 @@ NA	Standard Rutul	NA	41.61866	47.32436	Rutul	Lezgic	East Caucasian	Standard Rutu
 1942	Tatil'	Татиль	41.99269	47.98826	Tabasaran	Lezgic	East Caucasian	NA	Tabasaran	NA	NA	NA	NA	NA	NA	NA	NA	Tatil'	taba1259	#339966	#00cc66	2022-07-19
 1943	Khustil'	Хустиль	42.00335	47.93489	Tabasaran	Lezgic	East Caucasian	NA	Tabasaran	NA	NA	NA	NA	NA	NA	NA	NA	Khustil'	taba1259	#339966	#00cc66	2022-07-19
 1944	Gurkhun'	Гурхунь	42.0203	47.92712	Tabasaran	Lezgic	East Caucasian	NA	Tabasaran	NA	NA	NA	NA	NA	NA	NA	NA	Gurkhun'	taba1259	#339966	#00cc66	2022-07-19
-NA	Standard Tabasaran	NA	42.01976	47.83791	Tabasaran	Lezgic	East Caucasian	Standard Tabasaran	Tabasaran	NA	NA	NA	NA	NA	NA	NA	NA	NA	taba1259	#339966	#00cc66	2022-07-19
 1916	Arkit	Аркит	41.947308	48.014025	Tabasaran	Lezgic	East Caucasian	NA	Tabasaran	Northern Tabasaran	Севернотабасаранский	Akhti	Ахтынский	NA	NA	NA	NA	Arkit	taba1259	#339966	#00cc66	2022-07-19
 1932	Gurik	Гурик	41.962788	47.919474	Tabasaran	Lezgic	East Caucasian	NA	Tabasaran	Northern Tabasaran	Севернотабасаранский	Churkulan	Чуркуланский	NA	NA	NA	NA	Gurik	taba1259	#339966	#00cc66	2022-07-19
 1940	Khurik	Хурик	41.98583	47.89861	Tabasaran	Lezgic	East Caucasian	NA	Tabasaran	Northern Tabasaran	Севернотабасаранский	Khurik	Хурикский	NA	NA	NA	NA	Khurik	taba1259	#339966	#00cc66	2022-07-19
@@ -1833,3 +1819,17 @@ NA	Standard Tabasaran	NA	42.01976	47.83791	Tabasaran	Lezgic	East Caucasian	Stand
 2020	Nic	Нидж	40.94	47.66833	Udi	Lezgic	East Caucasian	NA	Udi	Nizh	Ниджский	NA	NA	NA	NA	NA	NA	Nizh	udii1243	#004d00	#00cc66	2022-07-19
 2021	Oğuz	Огуз	41.07083	47.45833	Udi	Lezgic	East Caucasian	NA	Udi	Vartashen	Варташенский	NA	NA	NA	NA	NA	NA	Vartashen	udii1243	#004d00	#00cc66	2022-07-19
 2022	Zinobiani	Зинобиани	41.89694	45.93306	Udi	Lezgic	East Caucasian	NA	Udi	Vartashen	Варташенский	NA	NA	NA	NA	NA	NA	Zinobiani	udii1243	#004d00	#00cc66	2022-07-19
+NA	Standard Agul	NA	41.92418	47.58429	Agul	Lezgic	East Caucasian	Standard Agul	Agul	NA	NA	NA	NA	NA	NA	NA	NA	NA	aghu1253	#00cc66	#00cc66	2022-07-19
+NA	Standard Armenian	NA	41.009625	44.384086	Armenian	Armenic	Indo-European	Standard Armenian	Armenian	Modern Eastern Armenian	NA	NA	NA	NA	NA	NA	NA	NA	nucl1235	#dbcfeb	#fff5ee	2022-07-19
+NA	Standard Avar	NA	42.43056	46.66639	Avar	Avar	East Caucasian	Standard Avar	Avar	NA	NA	NA	NA	NA	NA	NA	NA	NA	avar1256	#009999	#009999	2022-07-19
+NA	Standard Azerbaijani	NA	40.977675	46.4736975	Azerbaijani	Oghuz	Turkic	Standard Azerbaijani	Azerbaijani	NA	NA	NA	NA	NA	NA	NA	NA	NA	nort2697	#cccccc	#cccccc	2022-07-19
+NA	Standard Chechen	NA	43.5	45.5	Chechen	Nakh	East Caucasian	Standard Chechen	Chechen	NA	NA	NA	NA	NA	NA	NA	NA	NA	chec1245	#996600	#996633	2022-07-19
+NA	Standard Dargwa	NA	42.42568	47.43876	Dargwa	Dargwa	East Caucasian	Standard Dargwa	Dargwa	NA	NA	NA	NA	NA	NA	NA	NA	NA	darg1241	#ff9900	#ff9900	2022-07-19
+NA	Standard Georgian	NA	41.81574	44.31883	Georgian	Georgic	Kartvelian	Standard Georgian	Georgian	NA	NA	NA	NA	NA	NA	NA	NA	NA	nucl1302	#fff5ee	black	2022-07-19
+NA	Standard Ingush	NA	43.16667	44.81667	Ingush	Nakh	East Caucasian	Standard Ingush	Ingush	NA	NA	NA	NA	NA	NA	NA	NA	NA	ingu1240	#663300	#996633	2022-07-19
+NA	Standard Kumyk	NA	43	47	Kumyk	Kipchak	Turkic	Standard Kumyk	Kumyk	NA	NA	NA	NA	NA	NA	NA	NA	NA	kumy1244	#a6a6a6	#666666	2022-07-19
+NA	Standard Lak	NA	42.13275	47.0809	Lak	Lak	East Caucasian	Standard Lak	Lak	NA	NA	NA	NA	NA	NA	NA	NA	NA	lakk1252	#cc9900	#cc9900	2022-07-19
+NA	Standard Lezgian	NA	41.51572	47.89507	Lezgian	Lezgic	East Caucasian	Standard Lezgian	Lezgian	NA	NA	NA	NA	NA	NA	NA	NA	NA	lezg1247	#00cc00	#00cc66	2022-07-19
+NA	Standard Nogai	NA	43.59168	46.66178	Nogai	Kipchak	Turkic	Standard Nogai	Nogai	NA	NA	NA	NA	NA	NA	NA	NA	NA	noga1249	#666666	#666666	2022-07-19
+NA	Standard Rutul	NA	41.61866	47.32436	Rutul	Lezgic	East Caucasian	Standard Rutul	Rutul	NA	NA	NA	NA	NA	NA	NA	NA	NA	rutu1240	#009900	#00cc66	2022-07-19
+NA	Standard Tabasaran	NA	42.01976	47.83791	Tabasaran	Lezgic	East Caucasian	Standard Tabasaran	Tabasaran	NA	NA	NA	NA	NA	NA	NA	NA	NA	taba1259	#339966	#00cc66	2022-07-19

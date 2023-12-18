@@ -332,11 +332,18 @@ feature_dataset |>
   inner_join(coordinates_averaged) |> 
   mutate(popup = ifelse((lang4map == idiom | str_detect(idiom, 'Standard')), 
                         str_c('data level: ', type),
-                        str_c(idiom, '<br> data level: ', type)))  |> 
+                        str_c(idiom, '<br> data level: ', type)),
+         type = factor(type, levels = c('language', 
+                                        'top level dialect',
+                                        'non top level 1 dialect',
+                                        'non top level 2 dialect',
+                                        'non top level 3 dialect',
+                                        'village dialect')))  |> 
   filter(!is.na(value",
     multiple_values$values[i],
     "),
-         !is.na(lang4map)) ->
+         !is.na(lang4map)) |> 
+  arrange(type) ->
   data_granularity_map
   
 map.feature(data_granularity_map$lang4map,
