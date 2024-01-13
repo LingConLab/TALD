@@ -207,7 +207,9 @@ map.feature(alldata_clean$lang4map,
 
 ### Data granularity
 
-The data granularity visualization shows the level of accuracy for each datapoint in the previous visualization, e.g., "village dialect" indicates that we had information about the feature for this specific village variety, while "language" means that we only had information for the language in general, from which we extrapolated information for this point. This allows the user to see what kind of data underlies the default visualization.
+The data granularity visualization shows the level of accuracy for each point in a dataset, e.g., "village dialect" indicates that we had information about the feature for a specific village variety, while "language" means that we only had information for the language in general. Sometimes information is available for a certain dialect group within a specific language. For such cases, we use the labels "dialect_toplevel" (if information is available for a macro-group like Southern Avar), "dialect_nt1", where "nt1" stands for "non-toplevel 1" (if information is available for a lower-level dialect group like Zaqatala < Southern Avar), "dialect_nt2", where "nt2" stands for "non-toplevel 2" (if information is available for a dialect group of an even lower level like Balakən < Zaqatala < Southern Avar), and so on.
+
+This allows the user to see what kind of data underlies the default visualization.
 
 Our goal for the Atlas is to continue adding new data to existing datasets and thus gradually improve its coverage and accuracy.
 
