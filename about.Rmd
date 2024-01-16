@@ -62,84 +62,66 @@ This is the more basic visualization, which shows one dot on the map for each la
 library(tidyverse)
 library(lingtypology)
 
-feature_dataset <- read_tsv("data/orig_table/morning_greetings.tsv")
+read_tsv("data/orig_table/morning_greetings.tsv", show_col_types = FALSE, guess_max = 2000) |>
+  mutate(type = case_when(type == 'language' ~ 'language',
+                          type == 'dialect_toplevel' ~ 'top level dialect',
+                          type == 'dialect_nt1' ~ 'non top level 1 dialect',
+                          type == 'dialect_nt2' ~ 'non top level 2 dialect',
+                          type == 'dialect_nt3' ~ 'non top level 3 dialect',
+                          type == 'village' ~ 'village dialect')) |> 
+  filter(map != 'no') ->
+feature_dataset
 
-feature_dataset %>% 
-  filter(map == 'yes') ->
-  feature_dataset_4map
+read_tsv('data/tald_villages.csv', show_col_types = FALSE, guess_max = 2000)  |>
+  select(village, rus_village, lat, lon, gltc_lang, lang, aff, family, standard, default_level, dialect_toplevel, dialect_nt1, dialect_nt2, dialect_nt3, village_dialect, lang_col, aff_col) |> 
+  pivot_longer(names_to = 'type', values_to = 'idiom', standard:village_dialect) |> 
+  filter(!is.na(idiom)) |> 
+  mutate(type = case_when(type == 'standard' ~ 'language',
+                          type == 'default_level' ~ 'language',
+                          type == 'dialect_toplevel' ~ 'top level dialect',
+                          type == 'dialect_nt1' ~ 'non top level 1 dialect',
+                          type == 'dialect_nt2' ~ 'non top level 2 dialect',
+                          type == 'dialect_nt3' ~ 'non top level 3 dialect',
+                          type == 'village_dialect' ~ 'village dialect')) ->
+  coordinates
 
-villages <- read_tsv('data/tald_villages.csv') # village coordinates
-genlang <- read_tsv('data/genlangpoints.csv') # general language points
+coordinates |> 
+  distinct(gltc_lang) |> 
+  mutate(lang4map = lang.gltc(gltc_lang)) ->
+  lang4map
 
-feature_dataset_4map %>% 
-  filter(type == 'language') ->
-  feature_dataset_4map_languages
+coordinates |> 
+  group_by(idiom, type, gltc_lang, lang_col) |> 
+  reframe(lat = mean(lat), 
+          lon = mean(lon)) |> 
+  left_join(lang4map)->
+  coordinates_averaged
 
-feature_dataset_4map %>% 
-  filter(type != 'language') ->
-  feature_dataset_4map_rest
+feature_dataset |> 
+  mutate(idiom = str_remove(idiom, 'Standard ')) |> 
+  inner_join(coordinates, by = c('type', 'idiom', 'lang'), relationship = 'many-to-many') |> 
+  left_join(lang4map) |> 
+  mutate(display = 'show languages') ->
+  all_data
+feature_dataset |> 
+  filter(map == 'yes',
+         genlang_point == 'yes') |>
+  add_count(value1) |> 
+  inner_join(coordinates_averaged) |> 
+  mutate(popup = ifelse((lang4map == idiom | str_detect(idiom, 'Standard')), 
+                        str_c('data level: ', type),
+                        str_c(idiom, '<br> data level: ', type)),
+         value1 = str_c(value1, ' (', n, ')'),
+         display = 'show languages')  |> 
+  filter(!is.na(value1),
+         !is.na(lang4map)) ->
+  general_datapoints_map
 
-genlang %>% 
-  filter(aff == 'Dargwa',
-         lang != 'Kaitag',
-         lang != 'Standard Dargwa') ->
-  change
-
-if(nrow(change) > 0) {
-  villages$gltc_lang[which(villages$village_dialect %in% change$gltc_lang
-)] <- change$gltc_lang
-
-  villages$gltc_lang[which(villages$dialect_toplevel == 'Kaitag')] <- 'kajt1238'
-}
-
-villages %>% 
-  select(village, rus_village, lat, lon, gltc_lang, lang, aff, family, standard, dialect_toplevel, dialect_nt1, dialect_nt2, dialect_nt3, village_dialect, lang_col, aff_col) %>% 
-  pivot_longer(names_to = 'type', values_to = 'idiom', standard:village_dialect) %>% 
-  filter(!is.na(idiom)) %>% 
-  mutate(type = case_when(type == 'village_dialect' ~ 'village',
-                          TRUE ~ type)) %>%
-  inner_join(feature_dataset_4map_rest, by = c('type', 'idiom', 'lang')) %>% 
-  distinct() ->
-  all_data_without_languages
-
-villages %>% 
-  select(village, rus_village, lat, lon, gltc_lang, lang, aff, family, lang_col, aff_col) %>%
-  filter(lang %in% feature_dataset_4map_languages$lang) %>%
-  anti_join(all_data_without_languages %>%  select(village)) %>% 
-  inner_join(feature_dataset_4map_languages) %>% 
-  distinct() %>% 
-  bind_rows(all_data_without_languages)  ->
-  alldata_clean  
-
-alldata_clean  %>% 
-  distinct(gltc_lang) %>% 
-  mutate(lang4map = lang.gltc(gltc_lang),
-         display = 'show languages') %>% 
-  right_join(alldata_clean) %>% 
-  filter(!is.na(contributor)) %>% 
-  mutate(type = factor(type, levels = c('language', 'dialect_toplevel', 'dialect_nt1', 'dialect_nt2', 'dialect_nt3', 'village'))) ->
-  alldata_clean
-
-#make short
-
-villages %>% 
-  filter(is.na(id)) %>%
-  select(village, rus_village, lat, lon, gltc_lang, lang, aff, family, lang_col, aff_col) %>%
-  left_join(feature_dataset_4map_languages) %>% 
-  distinct() %>% 
-  bind_rows(all_data_without_languages) %>% 
-  mutate(lang4map = lang.gltc(gltc_lang),
-         display = 'show languages') %>% 
-  filter(!is.na(contributor))  ->
-  all_genpoints
-  
-rm(all_data_without_languages, change, feature_dataset_4map, feature_dataset_4map_languages, feature_dataset_4map_rest, villages, genlang)
-
-map.feature(all_genpoints$lang4map,
-            latitude = all_genpoints$lat,
-            longitude = all_genpoints$lon,
-            features = factor(all_genpoints$value1),
-            title = all_genpoints$value1_name[1],
+map.feature(general_datapoints_map$lang4map,
+            latitude = general_datapoints_map$lat,
+            longitude = general_datapoints_map$lon,
+            features = general_datapoints_map$value1,
+            title = general_datapoints_map$value1_name[1],
             color = 'magma',
             stroke.features = 'a',
             stroke.color = 'black',
@@ -150,16 +132,16 @@ map.feature(all_genpoints$lang4map,
             legend.position = 'bottomleft', 
             zoom.control = TRUE,
             width = 8) %>% 
-  map.feature(all_genpoints$lang4map,
-              latitude = all_genpoints$lat,
-              longitude = all_genpoints$lon,
-              features = all_genpoints$lang,
-              color = all_genpoints$lang_col,
+  map.feature(general_datapoints_map$lang4map,
+              latitude = general_datapoints_map$lat,
+              longitude = general_datapoints_map$lon,
+              features = general_datapoints_map$lang,
+              color = general_datapoints_map$lang_col,
               tile = 'Esri.WorldGrayCanvas',
               legend = FALSE,
               width = 5,
               pipe.data = .,
-              control = all_genpoints$display)
+              control = general_datapoints_map$display)
 ```
 
 
@@ -171,38 +153,42 @@ A benefit of this type of visualization is that it shows the size and boundaries
 
 
 ```{r}
-map.feature(alldata_clean$lang4map,
-            latitude = alldata_clean$lat, 
-            longitude = alldata_clean$lon,
-            features = as.factor(alldata_clean$value1),
+all_data |> 
+  filter(!is.na(value1)) ->
+  all_data_filtered
+
+map.feature(all_data_filtered$lang4map,
+            latitude = all_data_filtered$lat, 
+            longitude = all_data_filtered$lon,
+            features = all_data_filtered$value1,
             color = 'magma',
             stroke.features = 'a',
             stroke.color = 'black',
             stroke.radius = 1,
             stroke.legend = FALSE,
             tile = 'Esri.WorldGrayCanvas',
-            title = alldata_clean$value1_name[1],
+            title = all_data_filtered$value1_name[1],
             legend = TRUE,
             legend.position = 'bottomleft', 
-            label = alldata_clean$lang,
+            label = all_data_filtered$lang,
             zoom.control = TRUE,
             width = 8,
-            popup = paste(alldata_clean$village, '|',
-                          alldata_clean$rus_village, '<br>',
-                          'data:', alldata_clean$type)) %>% 
-    map.feature(alldata_clean$lang4map,
-              latitude = alldata_clean$lat,
-              longitude = alldata_clean$lon,
-              features = alldata_clean$lang,
-              color = alldata_clean$lang_col,
+            popup = paste(all_data_filtered$village, '|',
+                          all_data_filtered$rus_village, '<br>',
+                          'data:', all_data_filtered$type)) %>% 
+  map.feature(all_data_filtered$lang4map,
+              latitude = all_data_filtered$lat,
+              longitude = all_data_filtered$lon,
+              features = all_data_filtered$lang,
+              color = all_data_filtered$lang_col,
               tile = 'Esri.WorldGrayCanvas',
               legend = FALSE,
               width = 5,
               pipe.data = .,
-              control = alldata_clean$display,
-              popup = paste(alldata_clean$village, '|',
-                        alldata_clean$rus_village, '<br>',
-                          'data:', alldata_clean$type))
+              control = all_data_filtered$display,
+              popup = paste(all_data_filtered$village, '|',
+                            all_data_filtered$rus_village, '<br>',
+                            'data:', all_data_filtered$type))
 ```
 
 ### Data granularity
@@ -214,25 +200,40 @@ This allows the user to see what kind of data underlies the default visualizatio
 Our goal for the Atlas is to continue adding new data to existing datasets and thus gradually improve its coverage and accuracy.
 
 ```{r}
-map.feature(alldata_clean$lang4map,
-            latitude = alldata_clean$lat, 
-            longitude = alldata_clean$lon,
-            features = as.factor(alldata_clean$value1),
+feature_dataset |> 
+  filter(map == 'yes') |> 
+  inner_join(coordinates_averaged) |> 
+  mutate(popup = ifelse((lang4map == idiom | str_detect(idiom, 'Standard')), 
+                        str_c('data level: ', type),
+                        str_c(idiom, '<br> data level: ', type)),
+         type = factor(type, levels = c('language', 
+                                        'top level dialect',
+                                        'non top level 1 dialect',
+                                        'non top level 2 dialect',
+                                        'non top level 3 dialect',
+                                        'village dialect')))  |> 
+  filter(!is.na(value1),
+         !is.na(lang4map)) |> 
+  arrange(type) ->
+  data_granularity_map
+  
+map.feature(data_granularity_map$lang4map,
+            latitude = data_granularity_map$lat, 
+            longitude = data_granularity_map$lon,
+            features = data_granularity_map$value1,
             color = 'magma',
             stroke.features = 'a',
             stroke.color = 'black',
             stroke.radius = 1,
             stroke.legend = FALSE,
             tile = 'Esri.WorldGrayCanvas',
-            title = alldata_clean$value1_name[1],
+            title = data_granularity_map$value1_name[1],
             legend = TRUE,
             legend.position = 'bottomleft', 
-            label = alldata_clean$lang,
+            label = data_granularity_map$lang,
             zoom.control = TRUE,
-            control = alldata_clean$type,
-            popup = paste(alldata_clean$village, '|',
-                        alldata_clean$rus_village, '<br>',
-                          'data:', alldata_clean$type))
+            control = data_granularity_map$type,
+            popup = data_granularity_map$popup)
 ```
 
 

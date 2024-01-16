@@ -89,7 +89,7 @@ map.feature(languages = for_map$lang,
             tile = 'Stamen.TonerLite')
 ```
 
-As we can see, the inventory size of the languages in our dataset range from `r min(range(for_map$n))` (Georgian and Kumyk) to `r max(range(for_map$n))` (Northern Akvakh). We can compare the obtained numbers with the PHOIBLE database [@phoible], which contains phoneme inventories of the languages of the world[^excludEA]:
+As we can see, the inventory size of the languages in our dataset range from `r min(range(for_map$n))` (Georgian and Kumyk) to `r max(range(for_map$n))` (Northern Akhvakh). We can compare the obtained numbers with the PHOIBLE database [@phoible], which contains phoneme inventories of the languages of the world[^excludEA]:
 
 [^excludEA]: When performing such a comparison of our dataset and the one provided by PHOIBLE, the question arises whether we need to exclude East Caucasian and other languages of the Caucasus from the PHOIBLE subsample that we use. In this text we decided to exclude them for the sake of comparability. Not excluding them slightly changed the shape of the density plot shown below, but the change was extremely small. Keep in mind that neither of the samples are balanced, so that they are not ideal for comparison: different language families are overrepresented in both samples, and the sizes of the datasets are different (PHOIBLE's 2169 languages vs our dataset of 50 idioms) etc.
 

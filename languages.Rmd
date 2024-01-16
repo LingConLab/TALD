@@ -68,7 +68,7 @@ map(list.files("data/orig_table", full.names = TRUE), function(file){
                 rownames = FALSE,
                 escape = FALSE,
                 options = list(
-                  pageLength = 100, 
+                  pageLength = 20, 
                   autoWidth = TRUE,
                   dom = 'fltpi'))
 ```
