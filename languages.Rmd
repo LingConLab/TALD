@@ -5,7 +5,7 @@ csl: apa.csl
 output:
   html_document:
     include:
-      in_header: ./html/header_changes.html
+      in_header: ./html/header_languages.html
 editor_options: 
   chunk_output_type: console
 ---
@@ -60,8 +60,13 @@ map(list.files("data/orig_table", full.names = TRUE), function(file){
   mutate(across(everything(), as.factor))  |> 
   arrange(Idiom, Language) |> 
   distinct() |> 
+  group_by(Idiom, Language) |> 
+  summarise(Chapter = str_c(Chapter, collapse = "\n")) |> 
+  mutate(Chapter = markdown::renderMarkdown(Chapter)) |> 
+  arrange(Language) |> 
   DT::datatable(filter = 'top', 
                 rownames = FALSE,
+                escape = FALSE,
                 options = list(
                   pageLength = 100, 
                   autoWidth = TRUE,

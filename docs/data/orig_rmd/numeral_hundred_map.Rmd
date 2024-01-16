@@ -1,0 +1,238 @@
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning=FALSE, fig.width = 9.5)
+library(tidyverse)
+library(lingtypology)
+```
+
+## {-}
+
+Visualization 1 (**General datapoints**) and 3 (**Extrapolated data**) are both based on the principle 'one value – one language'. Visualization 2 (**Data granularity**) takes into account dialect levels. On the **Data granularity** maps you can see the village and the data type (village data, general language data, etc.) when you click on a dot. Hover over or click on a dot to see the language. By unticking the box “show languages” you can remove the inner dots and visualize the distribution of different values in the area without the distraction of genealogical information.
+
+```{r}
+
+read_tsv("../orig_table/numeral_hundred.tsv", show_col_types = FALSE, guess_max = 2000) |>
+  mutate(type = case_when(type == 'language' ~ 'language',
+                          type == 'dialect_toplevel' ~ 'top level dialect',
+                          type == 'dialect_nt1' ~ 'non top level 1 dialect',
+                          type == 'dialect_nt2' ~ 'non top level 2 dialect',
+                          type == 'dialect_nt3' ~ 'non top level 3 dialect',
+                          type == 'village' ~ 'village dialect')) |> 
+  filter(map != 'no') ->
+feature_dataset
+
+read_tsv('../tald_villages.csv', show_col_types = FALSE, guess_max = 2000)  |>
+  select(village, rus_village, lat, lon, gltc_lang, lang, aff, family, standard, default_level, dialect_toplevel, dialect_nt1, dialect_nt2, dialect_nt3, village_dialect, lang_col, aff_col) |> 
+  pivot_longer(names_to = 'type', values_to = 'idiom', standard:village_dialect) |> 
+  filter(!is.na(idiom)) |> 
+  mutate(type = case_when(type == 'standard' ~ 'language',
+                          type == 'default_level' ~ 'language',
+                          type == 'dialect_toplevel' ~ 'top level dialect',
+                          type == 'dialect_nt1' ~ 'non top level 1 dialect',
+                          type == 'dialect_nt2' ~ 'non top level 2 dialect',
+                          type == 'dialect_nt3' ~ 'non top level 3 dialect',
+                          type == 'village_dialect' ~ 'village dialect')) ->
+  coordinates
+
+coordinates |> 
+  distinct(gltc_lang) |> 
+  mutate(lang4map = lang.gltc(gltc_lang)) ->
+  lang4map
+
+coordinates |> 
+  group_by(idiom, type, gltc_lang, lang_col) |> 
+  reframe(lat = mean(lat), 
+          lon = mean(lon)) |> 
+  left_join(lang4map)->
+  coordinates_averaged
+
+feature_dataset |> 
+  mutate(idiom = str_remove(idiom, 'Standard ')) |> 
+  inner_join(coordinates, by = c('type', 'idiom', 'lang'), relationship = 'many-to-many') |> 
+  left_join(lang4map) |> 
+  mutate(display = 'show languages') ->
+  all_data
+```
+
+## Presence of the numeral marker in the numeral ‘100’{.tabset .tabset-fade .tabset-pills #m1} 
+    
+### General datapoints {-}
+
+```{r}
+feature_dataset |> 
+  filter(map == 'yes',
+         genlang_point == 'yes') |>
+  add_count(value1) |> 
+  inner_join(coordinates_averaged) |> 
+  mutate(popup = ifelse((lang4map == idiom | str_detect(idiom, 'Standard')), 
+                        str_c('data level: ', type),
+                        str_c(idiom, '<br> data level: ', type)),
+         value1 = str_c(value1, ' (', n, ')'),
+         display = 'show languages')  |> 
+  filter(!is.na(value1),
+         !is.na(lang4map)) ->
+  general_datapoints_map
+
+map.feature(general_datapoints_map$lang4map,
+            latitude = general_datapoints_map$lat,
+            longitude = general_datapoints_map$lon,
+            features = general_datapoints_map$value1,
+            title = general_datapoints_map$value1_name[1],
+            color = 'magma',
+            stroke.features = 'a',
+            stroke.color = 'black',
+            stroke.radius = 1,
+            stroke.legend = FALSE,
+            tile = 'Esri.WorldGrayCanvas',
+            legend = TRUE,
+            legend.position = 'bottomleft', 
+            zoom.control = TRUE,
+            width = 8) %>% 
+  map.feature(general_datapoints_map$lang4map,
+              latitude = general_datapoints_map$lat,
+              longitude = general_datapoints_map$lon,
+              features = general_datapoints_map$lang,
+              color = general_datapoints_map$lang_col,
+              tile = 'Esri.WorldGrayCanvas',
+              legend = FALSE,
+              width = 5,
+              pipe.data = .,
+              control = general_datapoints_map$display)
+```
+
+### Extrapolated data {-}
+
+```{r}
+all_data |> 
+  filter(!is.na(value1)) ->
+  all_data_filtered
+
+map.feature(all_data_filtered$lang4map,
+            latitude = all_data_filtered$lat, 
+            longitude = all_data_filtered$lon,
+            features = all_data_filtered$value1,
+            color = 'magma',
+            stroke.features = 'a',
+            stroke.color = 'black',
+            stroke.radius = 1,
+            stroke.legend = FALSE,
+            tile = 'Esri.WorldGrayCanvas',
+            title = all_data_filtered$value1_name[1],
+            legend = TRUE,
+            legend.position = 'bottomleft', 
+            label = all_data_filtered$lang,
+            zoom.control = TRUE,
+            width = 8,
+            popup = paste(all_data_filtered$village, '|',
+                          all_data_filtered$rus_village, '<br>',
+                          'data:', all_data_filtered$type)) %>% 
+  map.feature(all_data_filtered$lang4map,
+              latitude = all_data_filtered$lat,
+              longitude = all_data_filtered$lon,
+              features = all_data_filtered$lang,
+              color = all_data_filtered$lang_col,
+              tile = 'Esri.WorldGrayCanvas',
+              legend = FALSE,
+              width = 5,
+              pipe.data = .,
+              control = all_data_filtered$display,
+              popup = paste(all_data_filtered$village, '|',
+                            all_data_filtered$rus_village, '<br>',
+                            'data:', all_data_filtered$type))
+```
+
+### Data granularity {-}
+
+```{r}
+feature_dataset |> 
+  filter(map == 'yes') |> 
+  inner_join(coordinates_averaged) |> 
+  mutate(popup = ifelse((lang4map == idiom | str_detect(idiom, 'Standard')), 
+                        str_c('data level: ', type),
+                        str_c(idiom, '<br> data level: ', type)),
+         type = factor(type, levels = c('language', 
+                                        'top level dialect',
+                                        'non top level 1 dialect',
+                                        'non top level 2 dialect',
+                                        'non top level 3 dialect',
+                                        'village dialect')))  |> 
+  filter(!is.na(value1),
+         !is.na(lang4map)) |> 
+  arrange(type) ->
+  data_granularity_map
+  
+map.feature(data_granularity_map$lang4map,
+            latitude = data_granularity_map$lat, 
+            longitude = data_granularity_map$lon,
+            features = data_granularity_map$value1,
+            color = 'magma',
+            stroke.features = 'a',
+            stroke.color = 'black',
+            stroke.radius = 1,
+            stroke.legend = FALSE,
+            tile = 'Esri.WorldGrayCanvas',
+            title = data_granularity_map$value1_name[1],
+            legend = TRUE,
+            legend.position = 'bottomleft', 
+            label = data_granularity_map$lang,
+            zoom.control = TRUE,
+            control = data_granularity_map$type,
+            popup = data_granularity_map$popup)
+```
+
+
+    
+
+
+## Datatable
+
+[Download](https://raw.githubusercontent.com/LingConLab/TALD/master/data/orig_table/numeral_hundred.tsv) the whole dataset.
+
+```{r}
+bib <- RefManageR::ReadBib(file = '../bibliography.bib')
+
+feature_dataset |> 
+  select(str_which(colnames(feature_dataset), 'value\\d{1,}_name$')) |> 
+  pivot_longer(cols = everything()) |> 
+  distinct() |>  
+  mutate(name = str_remove(name, '_name')) ->
+  columns_rename
+
+feature_dataset |> 
+  select(lang, idiom, source, page, matches('value\\d{1,}$')) |> 
+  filter(!if_all(matches('value\\d{1,}$'), is.na)) |> 
+  rename_with(function(x){columns_rename$value[match(x, columns_rename$name)]}, matches('value\\d{1,}$'))  |> 
+  rename(Language=lang, 
+         Idiom = idiom,
+         Source = source) |> 
+  mutate(page = str_replace_all(page, '--', '–'),
+         Source = str_split(Source, '; '),
+         page = str_split(page, '; ')) |> 
+  unnest_longer(col = c(Source, page)) |> 
+  rowwise() |> 
+  mutate(page = ifelse(page == 'NA', NA_character_, page),
+         Source = ifelse(str_detect(Source, 'p.c.$'),
+                         Source,
+                         Cite(bib, Source, 
+                       after = ifelse(!is.na(page), 
+                                      str_c(': ', page),
+                                      '')))) |>
+  select(-page) |> 
+  DT::datatable(class = 'cell-border stripe', 
+    rownames = FALSE, 
+    filter = 'top', 
+    extensions = 'Buttons',
+    options = list(pageLength = 100, 
+                   autoWidth = TRUE, 
+                   info = FALSE,
+                   dom = 'fBltp',
+                   buttons = list(list(extend = 'collection',
+                                       buttons = c('csv', 'excel', 'pdf'),
+                                       text = '<i class="fas fa-download"></i>')),
+                   paginate = TRUE))
+```
+
+## References {-}
+
+
