@@ -9,6 +9,8 @@ output:
 bibliography: "data/bibliography.bib"
 ---
 
+On this page, we list the references from the datasets. Chapters have their own reference list. 
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, message = FALSE)
 

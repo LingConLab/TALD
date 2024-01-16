@@ -1,0 +1,305 @@
+```{r, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, comment = '')
+```
+
+## Introduction
+
+It is widely known that East Caucasian languages show ergative-absolutive distinction in nouns, as opposed to nominative-accusative distinction found in many other language families. However, the pronouns of many East Caucasian languages may not show any such distinction at all and use the same form in both ergative and absolutive function. Such syncretism of the ergative and absolutive cases is a common feature of the East Caucasian pronominal systems.
+
+To illustrate, in Hinuq, a Tsezic language, all personal pronouns use the same form in both ergative and absolutive function: the 1SG pronoun is *de*, the 2SG pronoun is *me*, the 1PL pronoun is *eli*, and the 2PL pronoun is *meži* in both ergative and absolutive cases [@forker2013: 130]; see [Table 1](#t1). At the same time, another Tsezic language, Khwarshi, does make a distinction between ergative and absolutive in all personal pronouns: the 1SG pronoun is *de* in the ergative, but *do* in the absolutive, the 2SG pronoun is *me* in the ergative, but *mo* in the absolutive, the 1PL pronoun is *ilʲe* in the ergative, but *ilʲo* in the absolutive, and the 2PL pronoun is *miže* in the ergative, but *mižo* in the absolutive [@khalilova2009: 142]; see [Table 2](#t2).
+
+##### **Table 1.** Ergative and absolutive in personal pronouns: Hinuq (< Tsezic) {#t1 -}
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-nrix{text-align:center;vertical-align:middle}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-nrix"></th>
+    <th class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">1SG</span></th>
+    <th class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">2SG</span></th>
+    <th class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">1PL</span></th>
+    <th class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">2PL</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">ABS = ERG</span></td>
+    <td class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">de</span></td>
+    <td class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">me</span></td>
+    <td class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">eli</span></td>
+    <td class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">meži</span></td>
+  </tr>
+</tbody>
+</table>
+
+##### **Table 2.** Ergative and absolutive in personal pronouns: Khwarshi (< Tsezic) {#t2 -}
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-nrix{text-align:center;vertical-align:middle}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-nrix"></th>
+    <th class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">1SG</span></th>
+    <th class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">2SG</span></th>
+    <th class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">1PL</span></th>
+    <th class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">2PL</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">ABS</span></td>
+    <td class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">do</span></td>
+    <td class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">mo</span></td>
+    <td class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">ilʲo</span></td>
+    <td class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">mižo</span></td>
+  </tr>
+  <tr>
+    <td class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">ERG</span></td>
+    <td class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">de</span></td>
+    <td class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">me</span></td>
+    <td class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">ilʲe</span></td>
+    <td class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">miže</span></td>
+  </tr>
+</tbody>
+</table>
+
+The goal of this chapter is to classify the languages of Daghestan according to whether or not their first and second person pronouns distinguish between ergative and absolutive cases. Third person pronouns are not discussed in this study, as many East Caucasian languages use demonstratives to refer to a third person, which is why they usually behave differently from first and second person pronouns and should be considered separately.
+
+Since this feature was expected to show a great diversity not only among different languages of the same group (as shown by the Tsezic languages above), but also among different dialects of the same language, we included data from all the varieties for which we could find information in the available literature.
+
+## Results
+
+As mentioned in the introduction, the languages of Daghestan, as well as their various dialects, behave differently by either showing an ergative-absolutive distinction in personal pronouns or not. We have already seen two examples of pronominal systems – one that distinguishes between ergative and absolutive in all pronouns (as in Khwarshi) and one that lacks such a distinction altogether (as in Hinuq).
+
+However, there is also a third possibility for a language to build its pronominal case system – namely, to distinguish ergative from absolutive only in some of the personal pronouns. For example, in Tsez, also a Tsezic language, the first and second person singular pronouns use the same form (*di* for 1SG and *mi* for 2SG) in both ergative and absolutive function, while the plural pronouns use two different forms for the ergative and absolutive cases [@comrie2007: 1199]; [@imnajshvili1963: 94-95]; see [Table 3](#t3).
+
+##### **Table 3.** Ergative and absolutive in personal pronouns: Tsez (< Tsezic) {#t3 -}
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-nrix{text-align:center;vertical-align:middle}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-nrix"></th>
+    <th class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">1SG</span></th>
+    <th class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">2SG</span></th>
+    <th class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">1PL</span></th>
+    <th class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">2PL</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">ABS</span></td>
+    <td class="tg-nrix" rowspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">di</span></td>
+    <td class="tg-nrix" rowspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">mi</span></td>
+    <td class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">eli</span></td>
+    <td class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">meži</span></td>
+  </tr>
+  <tr>
+    <td class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">ERG</span></td>
+    <td class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">elaː</span></td>
+    <td class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">mežaː[^1]</span></td>
+  </tr>
+</tbody>
+</table>
+
+[^1]: The final vowel in the plural forms can vary in different dialectal varieties of Tsez and also depending on the grammatical class.
+
+Thus, three possibilities exist: a language may a) lack a distinction between ergative and absolutive cases in personal pronouns, b) feature this distinction in all personal pronouns, or c) feature this distinction only for some of the personal pronouns. Let us now observe each of these three possibilities in more detail.
+
+### No distinction between ergative and absolutive in pronouns
+
+The syncretism of the two cases was already illustrated by the Hinuq language above. However, while the Hinuq case system seems to be transparent, i.e. no one would argue that any distinction between ergative and absolutive in pronouns is still present in this language, there are some less evident cases among other East Caucasian languages.
+
+For instance, Budukh, a Lezgic language, is such a case. Even though this language is described by Talibov in [@talibov2007: 119] as lacking an ergative-absolutive distinction in any of its personal pronouns, the author points out that there is a possibility for the speakers to optionally mark ergative by adding a suffix *-za* to the unmarked form. So, the first person singular pronoun *zɨn* can be alternatively used in the form *zɨnza* when used in the ergative function. In addition, the author notes that he once observed an essentially different ergative form of the 2SG pronoun, but since it was found in only one of his examples, he still views Budukh as lacking a distinction between ergative and absolutive cases in pronouns. For the purposes of this chapter, we follow [@talibov2007] and classify Budukh as lacking an ergative-absolutive distinction in personal pronouns.
+
+### Distinction in all personal pronouns
+
+This second possibility was exemplified by Khwarshi in the introduction. However, some less trivial cases were identified.
+
+For example, in Bagvalal, an Andic language which clearly distinguishes between ergative and absolutive in all personal pronouns, some similarity between ergative and absolutive as opposed to other case forms can still be found. More specifically, first and second person singular pronouns use the same stem to derive ergative and absolutive forms, while they use a different (oblique) stem to derive all the other case forms [@kibrik2001: 160]. This is most visible in the 2SG pronoun, where the absolutive form *meː* and the ergative form *men* share the same stem, while all the other case forms are derived by means of the oblique stem *du-*, e.g. genitive *dub*, dative *duha*, and so on. Nevertheless, we classify Bagvalal as showing a distinction between ergative and absolutive cases in all pronouns, since the forms are still different on the surface.
+
+### Distinction only in some pronouns
+
+This type was already illustrated above by Tsez, where only plural, but not singular pronouns show a distinction between ergative and absolutive cases. In fact, this is only one of the possibilities for a language to make an ergative-absolutive distinction in some of its pronouns. In the languages and dialects that we observed, four such possibilities were identified. Let us discuss each of them.
+
+#### Distinction only in 1SG pronoun
+
+This possibility is exemplified by Botlikh, an Andic language which distinguishes between ergative and absolutive only in its 1SG pronoun and lacks this distinction in all other pronouns. For the 1SG pronoun, *den* is used in the absolutive and *iškur* in the ergative, while all the other pronouns take the same form when used in the two functions: *min* (2SG), *iƛi* (1PL.INCL), *išːi* (1PL.EXCL) and *bišti* (2PL) [@alexeyevverheesdraft2020: 12]; see [Table 4](#t4).
+
+##### **Table 4.** Ergative and absolutive in personal pronouns: Botlikh (< Andic) {#t4 -}
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-nrix{text-align:center;vertical-align:middle}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-nrix"></th>
+    <th class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">1SG</span></th>
+    <th class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">2SG</span></th>
+    <th class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">1PL.INCL</span></th>
+    <th class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">1PL.EXCL</span></th>
+    <th class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">2PL</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">ABS</span></td>
+    <td class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">den</span></td>
+    <td class="tg-nrix" rowspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">min</span></td>
+    <td class="tg-nrix" rowspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">iƛi</span></td>
+    <td class="tg-nrix" rowspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">išːi</span></td>
+    <td class="tg-nrix" rowspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">bišti</span></td>
+  </tr>
+  <tr>
+    <td class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">ERG</span></td>
+    <td class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">iškur</span></td>
+  </tr>
+</tbody>
+</table>
+
+Apart from Botlikh, this type is also observed in Archi (< Lezgic).
+
+#### Distinction only in singular pronouns
+
+This possibility is observed in Khinalug, where only 1SG and 2SG pronouns differ with regard to the ergative-absolutive function: for the 1SG pronoun, *zɯ* is used in the absolutive and *jæ* in the ergative, for the 2SG pronoun, *vɯ* is used in the absolutive and *va* in the ergative. 1PL.INCL, 1PL.EXCL and 2PL pronouns (that is, all plural pronouns) use the same form in both functions [@kibriketal1972: 73]; see [Table 5](#t5).
+
+##### **Table 5.** Ergative and absolutive in personal pronouns: Khinalug (< Khinalug) {#t5 -}
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-nrix{text-align:center;vertical-align:middle}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-nrix"></th>
+    <th class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">1SG</span></th>
+    <th class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">2SG</span></th>
+    <th class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">1PL.INCL</span></th>
+    <th class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">1PL.EXCL</span></th>
+    <th class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">2PL</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">ABS</span></td>
+    <td class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">zɯ</span></td>
+    <td class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">vɯ</span></td>
+    <td class="tg-nrix" rowspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">jir</span></td>
+    <td class="tg-nrix" rowspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">kʰin</span></td>
+    <td class="tg-nrix" rowspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">zur</span></td>
+  </tr>
+  <tr>
+    <td class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">ERG</span></td>
+    <td class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">jæ</span></td>
+    <td class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">va</span></td>
+  </tr>
+</tbody>
+</table>
+
+Apart from Khinalug, this type is also found in the variety of Chamalal spoken in Upper Gakvari, as well as in Chirag Dargwa and in the Mukhad dialect of Rutul. However, the latter case is somewhat less transparent and will be discussed further in Section 2.3.5. 
+
+#### Distinction only in plural pronouns
+
+This possibility was illustrated above by Tsez. Apart from Tsez, this type is also observed in Duakar Dargwa and in the Anchiq dialect of Karata.
+
+#### Distinction in all pronouns, except for the 1PL.INCL pronoun
+
+This fourth possibility is found in all the Nakh languages (that is, in Chechen, Ingush and Tsova-Tush), and is not found anywhere else. In Chechen, for example, while all other personal pronouns do make a distinction between ergative and absolutive by using two different forms for these two cases, the 1PL.INCL pronoun is *waj* in both ergative and absolutive cases [@nichols1994: 32]; see [Table 6](#t6). This is one of the reasons why J. Nichols says that the inclusive pronoun in this language “patterns formally with the reflexive pronouns”, most of which do not distinguish ergative from absolutive either.
+
+##### **Table 6.** Ergative and absolutive in personal pronouns: Chechen (< Nakh) {#t6 -}
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-nrix{text-align:center;vertical-align:middle}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-nrix"></th>
+    <th class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">1SG</span></th>
+    <th class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">2SG</span></th>
+    <th class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">1PL.INCL</span></th>
+    <th class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">1PL.EXCL</span></th>
+    <th class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">2PL</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">ABS</span></td>
+    <td class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">swo</span></td>
+    <td class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">ħwo</span></td>
+    <td class="tg-nrix" rowspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">waj</span></td>
+    <td class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">txwo</span></td>
+    <td class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">šu</span></td>
+  </tr>
+  <tr>
+    <td class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">ERG</span></td>
+    <td class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">as</span></td>
+    <td class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">aħ</span></td>
+    <td class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">uoxa</span></td>
+    <td class="tg-nrix"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">aša</span></td>
+  </tr>
+</tbody>
+</table>
+
+#### Intermediate cases
+
+While the four examples cited above seem rather clear, somewhat less transparent cases can be found among other languages of Daghestan. Let us observe the case of the Mukhad dialect of Rutul, a Lezgic language.
+
+This dialect patterns with Khinalug (see Section 2.3.2 above) in that it distinguishes between ergative and absolutive only in singular (1SG and 2SG), but not in plural pronouns. However, as Maxmudova points out in [@maxmudova2002: 197], in the speech of the younger generation plural pronouns can also be marked for ergative by adding a suffix *-še* to the usual (absolutive) form. For instance, the 1PL.EXCL pronoun *je* can sometimes be realized as *ješe* when used in the ergative function. Interestingly, the suffix *-še* here is originally an ergative formant of plural demonstratives. Consequently, this possibility of optional marking of the ergative in plural pronouns is the reason why Maxmudova suggests the establishment of a separate ergative case in the Mukhad pronominal system.
+
+This example of Mukhad, as well as other complicated examples cited in sections 2.1. and 2.2. above, show that the feature analyzed in this chapter is rather unstable, so pronominal systems can shift from one type to another over time.
+
+## Distribution
+
+As it was claimed in the introduction, we expected a great diversity among languages and their dialects with regard to whether or not they make a distinction between ergative and absolutive in personal pronouns. This claim proved consistent with our data – dialectal variation appears to be high.
+
+Let us take Agul (< Lezgic) as an example. We managed to collect data from twelve of its varieties spoken in twelve different villages. Of these twelve varieties, ten lack a distinction between ergative and absolutive, while the remaining two (spoken in Richa and Usug) show this distinction in all their personal pronouns (see [@magometov1970: 101-102] and [@maisak2014: 399-400] for all the Agul varieties considered in our sample). The variety of Agul shown on the map is the one spoken in Huppuq'.
+
+Another example of even greater variation is constituted by Dargwa languages. We collected data from sixteen varieties. Twelve of them show the ergative-absolutive distinction in all pronouns, whereas two varieties do not show any distinction at all. As for the remaining two varieties, even though they both show a distinction only in some of their pronouns and thus were classified within the same category, they still differ in the way they distinguish between the two cases: while Chirag Dargwa distinguishes ergative from absolutive only in singular pronouns, Duakar Dargwa, on the contrary, has this distinction only in plural pronouns (for information on all Dargwa varieties considered in our sample, see [@abdullaev1954: 140-141]; [@forker2020dargwa: 89-90]; [@magometov1963: 139-141]; [@temirbulatova2004: 20]; [@magometov1982: 53]; [@sumbatovamutalov2003: 37]; [@sumbatovalander2014: 77]).
+
+However, despite the variation observed between dialects and languages of the same group, some genealogical patterns can still be identified. For example, we have already mentioned that all Nakh languages in our sample behave identically, showing the ergative-absolutive distinction in all pronouns except for the 1PL.INCL pronoun (see Section 2.3.4 for an example from Chechen). Avar and Andic languages tend to show the ergative-absolutive distinction in all personal pronouns. By contrast, Lezgic and Tsezic languages tend to avoid any such distinction at all. No areal patterns were observed in our data.
+
+## List of glosses {-}
+
+```{r}
+make_gloss_list(readxl::read_xlsx("../glosses.xlsx"))
+```
+
+## References {-}
