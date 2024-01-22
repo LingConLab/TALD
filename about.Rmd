@@ -151,6 +151,8 @@ This visualization represents each language as a cluster of dots, which correspo
 
 A benefit of this type of visualization is that it shows the size and boundaries of speech communities (as opposed to maps based on abstract general datapoints). Its main drawback is that it involves a lot of generalization. We do not have information on each village variety of the languages in our sample, so we extrapolate the information we have on a language or dialect to all the villages where they are spoken. In doing so, we risk overgeneralizing information and erasing possible dialectal differences.
 
+Note, however, that extrapolation is performed in a bottom-up fashion, so if we have data for a specific village variety that differs from other varieties of the same dialect group for a specific feature, we do not extrapolate data to that village. Let us consider the the feature "Number of noun classes" in Andi varieties. In this case we have general (dialect-level) information for Lower Andi (where three noun classes are found) and Upper Andi (in which we can distinguish five noun classes). This distinction will be kept on the map, i.e. Lower and Upper Andi villages will be filled with different colors. In addition, we know that Rikvani Andi differs from the other Upper Andi varieties in that it features six noun classes. In this case we do not extrapolate the general information on Upper Andi to the village of Rikvani because we have more precise information for that village, which will be filled on the map with a different color as compared to both Lower and Upper Andi. 
+
 
 ```{r}
 all_data |> 
