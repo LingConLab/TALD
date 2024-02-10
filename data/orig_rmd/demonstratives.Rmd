@@ -17,7 +17,7 @@ In [Section 2](#distance-contrasts), I look at the number of distance contrasts 
 
 The current chapter investigates the distribution of demonstrative systems depending on the number of distance contrasts expressed by demonstratives.
 
-In the simplest cases, demonstrative systems consist of only one distance-neutral pronoun (cf. German or Supyire systems [@diessel1999: 38-39]). Alternatively, they may distinguish between two (as in English *this* vs *that*) or more degrees of remoteness. In Udi (Lezgic), for example, demonstratives distinguish three degrees of distance from the speaker: *me* ‘close to the speaker’, *ka* ‘not close to the speaker’, *t’e* ‘outside the region of the speaker’ [@schulze2008: 253]. Systems that distinguish more than three contrasts are attested in many languages of the world (see the map in [@diessel2013])), including languages of the East Caucasian family.
+In the simplest cases, demonstrative systems consist of only one distance-neutral pronoun (cf. German or Supyire systems [@diessel1999: 38-39]). Alternatively, they may distinguish between two (as in English *this* vs *that*) or more degrees of remoteness. In Udi (Lezgic), for example, demonstratives distinguish three degrees of distance from the speaker: *me* ‘close to the speaker’, *ka* ‘not close to the speaker’, *t’e* ‘outside the region of the speaker’ [@schulze2008: 253]. Systems that distinguish more than three contrasts are attested in many languages of the world (see [the map](https://wals.info/feature/41A#2/19.3/131.7) in [@diessel2013]) and [the map](https://grambank.clld.org/parameters/GB035?iconsize=30&labels=0&v0=c009E73&v1=cF0E442&v999=tCCCCCC#info-container) in [@hedvigetal2023a], [@hedvigetal2023b]), including languages of the East Caucasian family.
 
 In the case of polycentric systems (see [Orientation of demonstrative systems](#orientation-of-demonstrative systems)), despite the fact that in terms of distance from the deictic center addressee-based terms may denote the same distance as the corresponding speaker-based term, I counted each demonstrative as expressing separate distance contrast.
 
@@ -128,6 +128,8 @@ For some languages, it is claimed that elevation and visibility play a role in t
 
 Besides distance contrast, demonstrative systems can additionally distinguish elevation, indicating location **above** or **below** the level of the deictic center. Elevation can be expressed by independent pronouns, as in Archi (Lezgic) (see [Table 7](#t7)), or by attaching an affix to the demonstrative stem, [^8] as in Tindi (Andic) (see [Table 8](#t8)). The current chapter investigates the distribution of demonstrative systems depending on presence/absence of a dedicated elevational demonstrative pronoun or affix.
 
+For a world-wide sample see [the map](https://grambank.clld.org/parameters/GB036?iconsize=30&labels=0&v0=c009E73&v1=cF0E442&v999=tCCCCCC#map-container) in [@hedvigetal2023a], [@hedvigetal2023b].
+
 #### **Table 7.** Archi [@kibrik1977: 124] {#t7 -}
 
 | **S-prox** | **A-prox** | **S&A-dist** | **above** | **below** |
@@ -185,6 +187,8 @@ In terms of individual branches, Tsezic languages do not distinguish elevation. 
 ### Visibility
 
 The visual accessibility of the object to the speech act participants is a common demonstrative parameter, typical of, e.g., the languages of the Americas [@diessel1999: 41]. There is only one language in my sample where, according to the available description, visibility is consistently distinguished for all demonstratives: [^10] in Bezhta (Tsezic) there is a dedicated visibility prefix *wa-* that can be attached to all three demonstratives of the system, cf. [Table 10](#t10).
+
+For a world-wide sample see [the map](https://grambank.clld.org/parameters/GB037#2/21.0/151.7) in [@hedvigetal2023a], [@hedvigetal2023b].
 
 #### **Table 10.** Bezhta [@comrieetal2015: 302] {#t10 -}
 
