@@ -45,7 +45,7 @@ gloss_example(transliteration = "mahammat üj-ge bar-ɨp dars-lar-ɨ-n **et-sin*
 ```{r}
 gloss_example(transliteration = "ömür-lü **bol-sun**",
               glosses = "long_life-ADJ **be-JUSS**",
-              free_translation = "Let him be a long-living (person)’ (a blessing uttered to parents of a newborn baby, addressed to the latter)")
+              free_translation = "Let him be a long-living (person). [A blessing uttered to parents of a newborn baby, addressed to the latter]")
 ```
 
 Some Nakh-Daghestanian languages have separate forms for indirect commands and for wishes (for example, Mehweb, Archi, Lak, and Chirag Dargwa), but the co-expression of these two meanings by the same form is more frequent. Hence it might be difficult to distinguish jussive from *optative*, a form whose main function is to express a wish or hope of the speaker that something would happen [@dobrushina2021]. Many Nakh-Daghestanian languages, such as Agul and Rutul, have the same form to express blessings and curses addressed to 1st, 2nd or 3rd persons, and to express 3rd person imperative. This form cannot be used to urge 1st or 2nd persons to do something (see examples in [@dobrushina2021]). In this chapter, forms of the Agul and Rutul type will be classified as *optatives*. I reserve the term *jussive* for forms that are restricted to 3rd person imperative (as in Mehweb, see [@dobrushina2019: 133–138], or combine 3rd person imperative with the expression of a wish with a 3rd person subject (as in Kumyk, see [@gadzhiakhmedov2000]). The terms are presented in [Table 1](#t1) (see also the chapter on [Optatives](http://lingconlab.ru/dagatlas/007_optative.html), and the discussion of these terms in [@dobrushina2012]).
@@ -125,14 +125,14 @@ Some Nakh-Daghestanian languages have separate forms for indirect commands and f
 
 This chapter takes into account all formal types of jussives: those which contain a dedicated affix, those which are expressed by some other grammatical category (usually optative), and those which are expressed by a periphrastic construction: combination of some form with another verb. The maps answer the following questions:
 
-- Is there a dedicated jussive marker in the given language [Map 1](http://lingconlab.ru/dagatlas/055_jussive_map.html#m1)?
-- Is there a form or construction which expresses jussive meaning and has a verb 'say' as its source [Map 2](http://lingconlab.ru/dagatlas/055_jussive_map.html#m2)?
-- Is there a jussive encoded by morphological causative markers [Map 3](http://lingconlab.ru/dagatlas/055_jussive_map.html#m3)?
-- Is there an optative form which co-expresses jussive meaning [Map 4](http://lingconlab.ru/dagatlas/055_jussive_map.html#m4)?
+- Is there a dedicated jussive marker in the given language ([Map 1](http://lingconlab.ru/dagatlas/055_jussive_map.html#m1))?
+- Is there a form or construction which expresses jussive meaning and has a verb 'say' as its source ([Map 2](http://lingconlab.ru/dagatlas/055_jussive_map.html#m2))?
+- Is there a jussive encoded by morphological causative markers ([Map 3](http://lingconlab.ru/dagatlas/055_jussive_map.html#m3))?
+- Is there an optative form which co-expresses jussive meaning ([Map 4](http://lingconlab.ru/dagatlas/055_jussive_map.html#m4))?
 
-Note that a language can get positive answers for more than one of these questions. For example,  Kryz has two forms expressing jussive meaning -  proper jussive, restricted to 3rd person (*votif* - [@authier2009: 281]) and optative with jussive meaning (*optatif* - [@authier2009: 279–280]).
+Note that a language can get positive answers for more than one of these questions. For example,  Kryz has two forms expressing jussive meaning -  proper jussive, restricted to 3rd person (*votif* [@authier2009: 281]) and optative with jussive meaning (*optatif* [@authier2009: 279–280]).
 
-[Map 1](http://lingconlab.ru/dagatlas/055_jussive_map.html#m1) reflects the presence of a dedicated affix for jussive in the languages of Daghestan. Besides Turkic languages (see [@four] and [@five]), dedicated morphological jussives are quite infrequent in the area, and often seem innovations with recently grammaticalized suffixes. The Itsari jussive with the suffix *-ikːa* is supposed to derive from the verb 'want' [@mutalov2002: 131] - a unique pattern for the area. Lak, to the contrary, features a pattern that is frequently found in Daghestan - it encodes jussive with the suffix derived from the imperative of the verb 'say':
+[Map 1](http://lingconlab.ru/dagatlas/055_jussive_map.html#m1) reflects the presence of a dedicated affix for jussive in the languages of Daghestan. Besides Turkic languages (see (@four) and (@five)), dedicated morphological jussives are quite infrequent in the area, and often seem innovations with recently grammaticalized suffixes. The Itsari jussive with the suffix *-ikːa* is supposed to derive from the verb 'want' [@mutalov2002: 131] - a unique pattern for the area. Lak, to the contrary, features a pattern that is frequently found in Daghestan - it encodes jussive with the suffix derived from the imperative of the verb 'say':
 
 (@six) Lak [@eldarova1999: 57]
 ```{r}
@@ -141,9 +141,9 @@ gloss_example(transliteration = "uča lasi-ča",
               free_translation = "Let them take.")
 ```
 
-Since the imperative of the Lak verb 'say' underwent reduction and is not identical to the jussive suffix, Lak jussive is qualified as morphologically dedicated. Only Tsakhur and Kryz [@one] have jussive suffixes whose origin is not clear.
+Since the imperative of the Lak verb 'say' underwent reduction and is not identical to the jussive suffix, Lak jussive is qualified as morphologically dedicated. Only Tsakhur and Kryz (@one) have jussive suffixes whose origin is not clear.
 
-Grammaticalization of the verb 'say' to the jussive marker is attested in many languages, although not everywhere it has reached the stage of a suffix as in Lak. For example, Mehweb jussive is expressed by a combination of the full imperative of the main verb and the imperative of the verb 'say'. The fact that the main arguments in the jussive construction are marked in accordance with the lexical verb, and not with the verb 'say', shows that this is not a regular combination of the matrix verb 'say' and an embedded imperative. Compare the following examples. In [@seven a] *Musa* is in the nominative, since the main argument of the verb 'work' is normally in the nominative. In [@seven b] Muħammad stands in the ergative, because 'sing' is a transitive verb with ergative-nominative alignment. Finally, in [@seven c] we observe a usual (non-jussive) construction with the verb 'say', and the addressee is marked by inter-lative.
+Grammaticalization of the verb 'say' to the jussive marker is attested in many languages, although not everywhere it has reached the stage of a suffix as in Lak. For example, Mehweb jussive is expressed by a combination of the full imperative of the main verb and the imperative of the verb 'say'. The fact that the main arguments in the jussive construction are marked in accordance with the lexical verb, and not with the verb 'say', shows that this is not a regular combination of the matrix verb 'say' and an embedded imperative. Compare the following examples. In (@seven a) *Musa* is in the nominative, since the main argument of the verb 'work' is normally in the nominative. In (@seven b) Muħammad stands in the ergative, because 'sing' is a transitive verb with ergative-nominative alignment. Finally, in (@seven c) we observe a usual (non-jussive) construction with the verb 'say', and the addressee is marked by inter-lative.
 
 (@seven) Mehweb [@dobrushina2019: 135]
 a.
