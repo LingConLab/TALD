@@ -1,4 +1,14 @@
 The BibTeX entry          abdullaev2015          present in the          farewell_wishes.tsv, but absent in the biblib.xlsx
+The BibTeX entry          alexeyevverhees2020          present in the          gender_agreement_slot.tsv, but absent in the biblib.xlsx
+The BibTeX entry           jakovlev1960          present in the          gender_agreement_slot.tsv, but absent in the biblib.xlsx
+The BibTeX entry          creisselsquest2008          present in the          jussive.tsv, but absent in the biblib.xlsx
+The BibTeX entry          kozintseva2001          present in the          jussive.tsv, but absent in the biblib.xlsx
+The BibTeX entry          roncero2021          present in the          jussive.tsv, but absent in the biblib.xlsx
+The BibTeX entry          belyaevdraft2019          present in the          jussive.tsv, but absent in the biblib.xlsx
+The BibTeX entry          dobrushina2012          present in the          jussive.tsv, but absent in the biblib.xlsx
+The BibTeX entry          eldarova1999          present in the          jussive.tsv, but absent in the biblib.xlsx
+The BibTeX entry          dobrushina2021draft          present in the          jussive.tsv, but absent in the biblib.xlsx
+The BibTeX entry          alekseevaetal2023          present in the          jussive.tsv, but absent in the biblib.xlsx
 The BibTeX entry          sulejmanov1957          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
 The BibTeX entry          alekseyevverhees2020          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
 The BibTeX entry          abdullaeva2001          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
@@ -135,6 +145,7 @@ The BibTeX entry mudrak20 from the file gemination_bib.tsv has an empty value in
 The BibTeX entry mudrak20 from the file gemination_bib.tsv has an empty value in the obligatory field VOLUME
 The BibTeX entry gigineyshvili77 from the file gemination_bib.tsv has an empty value in the obligatory field VOLUME
 The BibTeX entry akiev77 from the file gemination_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry chumakina2021 from the file gender_agreement_slot_bib.tsv has an empty value in the obligatory field VOLUME
 The BibTeX entry moran12 from the file labialization_bib.tsv has an empty value in the obligatory field VOLUME
 The BibTeX entry nichols13 from the file labialization_bib.tsv has an empty value in the obligatory field VOLUME
 The BibTeX entry maddieson11 from the file labialization_bib.tsv has an empty value in the obligatory field JOURNAL
@@ -393,8 +404,10 @@ Revise the BibTeX entry moroz20_villages from the file uvular_voiced_stop_bib.ts
 Revise the BibTeX entry moroz20_villages from the file velar_fricatives_bib.tsv.
 Revise the BibTeX entry moroz20_villages from the file voiceless_obstruents_bib.tsv.
 The obligatory column          date          is absent in the file          farewell_wishes.tsv
+The obligatory column          feature          is absent in the file          jussive.tsv
 The wrong village dialect name Drushtul in the file erg_abs_pronouns.tsv
 NA
+The wrong village dialect name Kaitag in the file jussive.tsv
 The wrong village dialect name Inkhokvari in the file numeral_bases.tsv
 The wrong village dialect name Ashar Kurakh in the file numeral_bases.tsv
 The wrong village dialect name Gelkhen in the file numeral_bases.tsv
@@ -406,6 +419,9 @@ The wrong village dialect name Akka in the file numeral_bases.tsv
 The wrong non-toplevel 1 dialect name Siukh in the file numeral_bases.tsv
 The wrong toplevel dialect name Ak-Nogai in the file caritive_attr.tsv
 The wrong toplevel dialect name Kara-Nogai in the file caritive_attr.tsv
+The wrong toplevel dialect name Central in the file gender_agreement_slot.tsv
+The wrong toplevel dialect name Kara-Nogai in the file gender_agreement_slot.tsv
+The wrong toplevel dialect name Eastern Armenian in the file jussive.tsv
 The wrong toplevel dialect name Kara-Nogai in the file number_of_morphological_slots_in_spatial_forms.tsv
 The wrong toplevel dialect name Mukhad in the file numeral_bases.tsv
 The wrong toplevel dialect name Shinaz in the file numeral_bases.tsv
@@ -563,6 +579,33 @@ spelling of          Бог        in farewell_wishes.Rmd:132
 spelling of          отпустит        in farewell_wishes.Rmd:132
 spelling of          пусть        in farewell_wishes.Rmd:132
 spelling of          угъур        in farewell_wishes.Rmd:114
+spelling of          Abdullaev        in gender_agreement_slot.Rmd:205
+spelling of          adal        in gender_agreement_slot.Rmd:105
+spelling of          aj        in gender_agreement_slot.Rmd:148
+spelling of          Chadakolob        in gender_agreement_slot.Rmd:189
+spelling of          gi        in gender_agreement_slot.Rmd:116
+spelling of          Gid        in gender_agreement_slot.Rmd:83
+spelling of          gundine        in gender_agreement_slot.Rmd:83
+spelling of          gundinu        in gender_agreement_slot.Rmd:83,83
+spelling of          Keger        in gender_agreement_slot.Rmd:85,101
+spelling of          Kumukh        in gender_agreement_slot.Rmd:157
+spelling of          Kwarandzey        in gender_agreement_slot.Rmd:17
+spelling of          Lavukaleve        in gender_agreement_slot.Rmd:17
+spelling of          li        in gender_agreement_slot.Rmd:105,105,205
+spelling of          Magomedbekova        in gender_agreement_slot.Rmd:116
+spelling of          maj        in gender_agreement_slot.Rmd:148
+spelling of          Marind        in gender_agreement_slot.Rmd:17
+spelling of          Mikailov        in gender_agreement_slot.Rmd:42,85,107,189
+spelling of          naj        in gender_agreement_slot.Rmd:148
+spelling of          ni        in gender_agreement_slot.Rmd:51
+spelling of          Obokh        in gender_agreement_slot.Rmd:85
+spelling of          Rugudzha        in gender_agreement_slot.Rmd:107,109
+spelling of          Trimorphemic        in gender_agreement_slot.Rmd:38
+spelling of          Zhirkov        in gender_agreement_slot.Rmd:148,157
+spelling of          Dragwa        in jussive.Rmd:193
+spelling of          Gadzhiaxmedov        in jussive.Rmd:37,44
+spelling of          nd        in jussive.Rmd:51
+spelling of          Zarina        in jussive.Rmd:172
 spelling of          al        in morning_greetings.Rmd:20
 spelling of          ize        in morning_greetings.Rmd:20
 spelling of          Nkore        in morning_greetings.Rmd:8

@@ -1,0 +1,1526 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="Rita Popova" />
+
+
+<title>Gender agreement slot in nominal inflectional paradigms</title>
+
+<script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="site_libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="site_libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+<style type="text/css">
+/* for pandoc --citeproc since 2.11 */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">TALD</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="./about.html">About</a>
+</li>
+<li>
+  <a href="./features.html">
+    <span class="fa fa-atlas"></span>
+     
+    Features
+  </a>
+</li>
+<li>
+  <a href="./languages.html">Languages</a>
+</li>
+<li>
+  <a href="./changes.html">Changes</a>
+</li>
+<li>
+  <a href="./references.html">References</a>
+</li>
+<li>
+  <a href="./team.html">Team</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Gender agreement slot in nominal
+inflectional paradigms</h1>
+<h4 class="author">Rita Popova</h4>
+<h4 class="date">Last update: February 2024</h4>
+
+</div>
+
+
+<p>See <a href="056_gender_agreement_slot_map.html">data and
+maps</a>.</p>
+<div id="section"
+class="section level1 tabset tabset-fade tabset-pills unnumbered">
+<h1 class="tabset tabset-fade tabset-pills unnumbered"></h1>
+<div id="plain-text" class="section level2 unnumbered hasAnchor">
+<h2 class="unnumbered hasAnchor">Plain text<a href="#plain-text"
+class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Popova, R. (2023). “Gender agreement slot in nominal inflectional
+paradigms”. In: <em>Typological Atlas of the Languages of Daghestan
+(TALD)</em>. Ed. by M. Daniel, K. Filatov, T. Maisak, G. Moroz, T.
+Mukhin, C. Naccarato and S. Verhees. Moscow: Linguistic Convergence
+Laboratory, NRU HSE. DOI: 10.5281/zenodo.6807070. <a
+href="http://lingconlab.ru/dagatlas"
+class="uri">http://lingconlab.ru/dagatlas</a>.</p>
+</div>
+<div id="bibtex" class="section level2 unnumbered hasAnchor">
+<h2 class="unnumbered hasAnchor">BibTeX<a href="#bibtex"
+class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<pre><code>@incollection{popova2023,
+  title = {Gender agreement slot in nominal inflectional paradigms},
+  author = {Rita Popova},
+  year = {2023},
+  editor = {Michael Daniel and Konstantin Filatov and Timur Maisak and George Moroz and Timofey Mukhin and Chiara Naccarato and Samira Verhees},
+  publisher = {Linguistic Convergence Laboratory, NRU HSE},
+  address = {Moscow},
+  booktitle = {Typological Atlas of the Languages of Daghestan (TALD)},
+  url = {http://lingconlab.ru/dagatlas},
+  doi = {10.5281/zenodo.6807070},
+}</code></pre>
+</div>
+</div>
+<div id="introduction" class="section level1 hasAnchor" number="1">
+<h1 class="hasAnchor"><span class="header-section-number">1</span>
+Introduction<a href="#introduction" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p>East Caucasian languages feature a range of unusual gender agreement
+targets. Along with agreeing adpositions (see the chapter on <a
+href="http://lingconlab.ru/dagatlas/031_agreement_of_adpositions.html">Agreement
+of adpositions with the absolutive/nominative argument</a>) and adverbs,
+in some branches of the family one finds agreeing nominals. In some
+inflected forms, nouns show gender agreement with one of the
+participants, similarly to other agreement targets in the clausal
+domain. Gender agreement of inflected nominals in East Caucasian
+languages is attested both in NP and clausal domains. In the clausal
+domain, nominals agree in gender with a nominative participant. Within
+NPs, a possessor may agree with a possessum (see, for example, <span
+class="citation">(<a href="#ref-lander2010">Lander 2010</a>)</span>).
+The latter is characteristic of Andic languages and is not further
+discussed in the present chapter as it only focuses on gender agreement
+within the clause, cf. (1) where the Place argument bears the gender
+value of the nominative participant.</p>
+<ol class="example" style="list-style-type: decimal">
+<li>Dargwa: Mehweb <span class="citation">(<a
+href="#ref-chechuro2019">Chechuro 2019</a>: 66)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>surat</em>
+</td>
+<td style="text-align:left;">
+<em>aqi-le</em>
+</td>
+<td style="text-align:left;">
+<em>le-b</em>
+</td>
+<td style="text-align:left;">
+<em>baʕʜi-ze-<em>b</em></em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+picture(<span class="smallcaps">n</span>)
+</td>
+<td style="text-align:left;">
+up-<span class="smallcaps">advz</span>
+</td>
+<td style="text-align:left;">
+be-<span class="smallcaps">n</span>
+</td>
+<td style="text-align:left;">
+wall-<span class="smallcaps">inter</span>-<span
+class="smallcaps"><strong>n</strong></span>(<span
+class="smallcaps">ess</span>)picture
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘A picture is hanging on the wall.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>Nominals take gender agreement only when inflected for some
+grammatical meanings. The present chapter treats the presence of an
+agreement slot as a feature of an inflectional morpheme expressing some
+particular grammatical meaning. While attributes and predicates are
+common targets of gender agreement cross-linguistically, agreement in
+flagging morphemes (i.e. case markers or adpositions) is extremely rare.
+In her talk on unusual agreement targets, Chumakina <span
+class="citation">(<a href="#ref-chumakina2020">2020</a>)</span> only
+mentions four other cases (besides East Caucasian) of agreement in
+inflected nominals or adpositions, including Coastal Marind (Trans-New
+Guinean), Kwarandzey (Songhai), Gujarati (Indo-Aryan), and Ripano
+(Romance). To this I can only add one external parallel of agreeing
+adpositions in Lavukaleve <span class="citation">(<a
+href="#ref-terrill2003">Terrill 2003</a>: 150)</span>, though I am not
+aware of any systematic cross-linguistic investigation of such ‘unusual’
+gender agreement targets.</p>
+<p>In the present chapter, I provide a brief description of gender
+agreement in the nominal inflection attested in the languages of
+Daghestan. Languages that have no gender agreement, including Lezgian,
+Agul and Udi, as well as other languages of the Caucasus including
+Georgian, Armenian, and Turkic do not demonstrate any unusual gender
+agreement in flagging.</p>
+</div>
+<div id="results" class="section level1 hasAnchor" number="2">
+<h1 class="hasAnchor"><span class="header-section-number">2</span>
+Results<a href="#results" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p>With respect to gender agreement in the nominal inflection paradigm,
+languages of Daghestan fall into four categories:</p>
+<ol style="list-style-type: decimal">
+<li>languages with no gender agreement slots in nominal inflected
+forms</li>
+<li>languages with gender agreement slots in spatial forms</li>
+<li>languages with gender agreement slots in grammatical cases</li>
+<li>languages with gender agreement slots in both spatial forms and
+grammatical cases</li>
+</ol>
+<p>In some languages, historical gender markers have been fossilized, so
+that the inflected form has ceased to agree. In Andic languages, the
+<em>affective</em> marker, historically a directional form that is now
+also or exclusively used for encoding experiencers, originally contained
+an agreement slot. In some languages, this agreement slot now has a
+“frozen” gender marker which goes back to different gender values, and
+is now used irrespectively of the gender value of the nominative
+argument (<span class="citation">Magomedbekova (<a
+href="#ref-magomedbekova1971">1971</a>)</span>: 58). In the present
+chapter, I do not treat such cases of fossilization as instances of
+gender agreement.</p>
+<div id="gender-agreement-of-spatial-forms"
+class="section level2 hasAnchor" number="2.1">
+<h2 class="hasAnchor"><span class="header-section-number">2.1</span>
+Gender agreement of spatial forms<a
+href="#gender-agreement-of-spatial-forms" class="anchor-section"
+aria-label="Anchor link to header"></a></h2>
+<p>Spatial forms of nominals in East Caucasian languages are essentially
+combinations of two or three morphological slots carrying different
+grammatical categories (see the chapter on <a
+href="http://lingconlab.ru/dagatlas/054_number_of_morphological_slots_in_spatial_forms.html">Number
+of morphological slots in spatial forms</a>). Spatial inflection in the
+languages from other families but Nakh is monomorphemic so that a single
+non-compositional marker is used for each spatial meaning. Bimorphemic
+spatial systems include two morphological slots. The first slot contains
+a marker of <em>localization</em>, expressing the topological
+relationship between Figure and Ground (‘in’, ‘on’, ‘under’, ‘by the
+side’, etc). The second slot contains a marker of
+<em>directionality</em> which describes whether the Figure moves to the
+Ground (Goal), from the Ground (Source) or through the Ground (Path), or
+whether there is no motion whatsoever (Place). Gender agreement slots
+may be present in markers of either of the two categories, depending on
+the language, though I did not find any language that shows agreement in
+both localization and directionality at the same time.</p>
+<p>Trimorphemic systems add a third slot that conveys either
+approximative, deictic or orientational meaning (for further details see
+the the chapter on <a
+href="http://lingconlab.ru/dagatlas/054_number_of_morphological_slots_in_spatial_forms.html">Number
+of morphological slots in spatial forms</a>). It follows either the
+directionality or localization marker and may also show gender
+agreement.</p>
+<div id="gender-agreement-in-localization-slots"
+class="section level3 hasAnchor" number="2.1.1">
+<h3 class="hasAnchor"><span class="header-section-number">2.1.1</span>
+Gender agreement in localization slots<a
+href="#gender-agreement-in-localization-slots" class="anchor-section"
+aria-label="Anchor link to header"></a></h3>
+<p>Agreeing localization markers are only attested in Avar. According to
+Mikailov <span class="citation">(<a
+href="#ref-mikailov1959">1959</a>)</span>, in most Avar varieties,
+gender markers are present in the so-called fifth series of spatial
+cases (<em>localization IN</em> in the present chapter). In Standard
+Avar, the primary function of this series is to express location within
+a hollow container:</p>
+<ol start="2" class="example" style="list-style-type: decimal">
+<li>Avar: Standard <span class="citation">(<a
+href="#ref-alekseevataev1997">Alekseev, Ataev 1997</a>: 47)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>čʷanti-<strong>ni-b</strong></em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+bag-<span
+class="smallcaps"><strong>in</span>-<span style="font-variant:small-caps;">n</strong></span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘in a bag’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>The content of the bag in this example is non-human and belongs to
+the neuter gender, so the IN marker <em>-ni</em> takes neuter
+<em>-b</em> agreement.</p>
+<p>The only Avar variety where gender agreement is missing from the
+localization IN is the Antsukh subgroup. Compare the pairs of clauses
+from Antsukh and Standard Avar:</p>
+<ol start="3" class="example" style="list-style-type: decimal">
+<li>Avar: Antsukh <span class="citation">(<a
+href="#ref-mikailov1959">Mikailov 1959</a>: 87)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>dide</em>
+</td>
+<td style="text-align:left;">
+<em>ruq’-i</em>
+</td>
+<td style="text-align:left;">
+<em>w-ugo</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+father(<span class="smallcaps">m</span>)
+</td>
+<td style="text-align:left;">
+home-<span class="smallcaps">in</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">m</span>-<span class="smallcaps">cop</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Father is at home.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li>Avar: Antsukh <span class="citation">(<a
+href="#ref-mikailov1959">Mikailov 1959</a>: 87)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>buba</em>
+</td>
+<td style="text-align:left;">
+<em>ruq’-i</em>
+</td>
+<td style="text-align:left;">
+<em>j-igu</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+mother(<span class="smallcaps">f</span>)
+</td>
+<td style="text-align:left;">
+home-<span class="smallcaps">in</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">f</span>-<span class="smallcaps">cop</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Mother is at home.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li>Avar: Standard <span class="citation">(<a
+href="#ref-mikailov1959">Mikailov 1959</a>: 87)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>emen</em>
+</td>
+<td style="text-align:left;">
+<em>ruq’-<strong>o-w</strong></em>
+</td>
+<td style="text-align:left;">
+<em>w-ugo</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+father(<span class="smallcaps">m</span>)
+</td>
+<td style="text-align:left;">
+home-<span
+class="smallcaps"><strong>in</span>-<span style="font-variant:small-caps;">m</strong></span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">m</span>-<span class="smallcaps">cop</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Father is at home.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li>Avar: Standard <span class="citation">(<a
+href="#ref-mikailov1959">Mikailov 1959</a>: 87)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>ebel</em>
+</td>
+<td style="text-align:left;">
+<em>ruq’-<strong>o-j</strong></em>
+</td>
+<td style="text-align:left;">
+<em>j-igo</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+mother(<span class="smallcaps">f</span>)
+</td>
+<td style="text-align:left;">
+home-<span
+class="smallcaps"><strong>in</span>-<span style="font-variant:small-caps;">f</strong></span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">f</span>-<span class="smallcaps">cop</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Mother is at home.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>Typically, the Avar localization IN agrees when used with essive and
+lative directionality meanings. For example, in Standard Avar, the
+inessive is marked by the gender marker alone, while in the lative use
+the segment <em>-e</em> is added to the gender marker. In elative and
+translative usages, there is no gender agreement slot <span
+class="citation">(<a href="#ref-alekseevataev1997">Alekseev, Ataev
+1997</a>: 48)</span>. Gid Avar is exceptional as its IN marker agrees
+only in lative usages, while the inessive has no gender agreement slot
+<span class="citation">(<a href="#ref-mikailov1959">Mikailov 1959</a>:
+336)</span>. If the nominative participant belongs to gender I or II,
+gender marking is absent from lative usages, too. When controlled by
+gender III or plural nouns, the lative takes one of the <em>-be/-re</em>
+allomorphs, e.g. <em>gundinu-<strong>be</strong></em> (III) /
+<em>gundinu-<strong>re</strong></em> (PL) / <em>gundine</em> (I/II) ‘to
+the pit’ <span class="citation">(<a href="#ref-mikailov1959">Mikailov
+1959</a>: 336)</span>.</p>
+<p>Another agreeing localization reported for Avar by Mikailov is the
+localization SUPER (called “the first series” in traditional
+descriptions). In Sugratl’, Obokh and Keger varieties, the superessive
+<em>-la</em> optionally takes gender agreement:</p>
+<ol start="7" class="example" style="list-style-type: decimal">
+<li>Avar: Sugratl’ <span class="citation">(<a
+href="#ref-mikailov1959">Mikailov 1959</a>: 278)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>nuħ-<strong>la-w</strong></em>
+</td>
+<td style="text-align:left;">
+<em>č’ːa</em>
+</td>
+<td style="text-align:left;">
+<em>w-asːa-w!</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+road-<span
+class="smallcaps"><strong>sup</span>-<span style="font-variant:small-caps;">m</strong></span>
+</td>
+<td style="text-align:left;">
+stay.<span class="smallcaps">imp</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">m</span>-child-<span class="smallcaps">m</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Stay on the road, boy!’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li>Avar: Sugratl’ <span class="citation">(<a
+href="#ref-mikailov1959">Mikailov 1959</a>: 278)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>nuħ-<strong>la-j</strong></em>
+</td>
+<td style="text-align:left;">
+<em>č’ːa</em>
+</td>
+<td style="text-align:left;">
+<em>j-asːa-j!</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+road-<span
+class="smallcaps"><strong>sup</span>-<span style="font-variant:small-caps;">f</strong></span>
+</td>
+<td style="text-align:left;">
+stay.<span class="smallcaps">imp</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">f</span>-child-<span class="smallcaps">f</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Stay on the road, girl!’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>For Keger, another localization marker <em>-ɬːo</em> (traditionally,
+the third series meaning INTER) is also reported to attach an agreement
+marker in essive usages <span class="citation">(<a
+href="#ref-mikailov1959">Mikailov 1959</a>: 278)</span>.</p>
+</div>
+<div id="gender-agreement-in-directionality-slots"
+class="section level3 hasAnchor" number="2.1.2">
+<h3 class="hasAnchor"><span class="header-section-number">2.1.2</span>
+Gender agreement in directionality slots<a
+href="#gender-agreement-in-directionality-slots" class="anchor-section"
+aria-label="Anchor link to header"></a></h3>
+<p>As for directionality markers, gender agreement is most consistent in
+the languages of the Dargwa branch. In Dargwa, the differentiation
+between the lative and the essive is made solely by means of gender
+agreement. For example, <em>ʁarʁa-li-če</em> is ‘onto the stone’ while
+<em>ʁarʁa-li-če-w</em> is ‘on the stone’ (for a male referent). Mehweb
+Dargwa is different from all other varieties in that not only the essive
+but also one of the elative markers agrees in gender. For example, there
+are two options for elative formation for the place name Mehweb:
+<em>meħwe-la</em> and <em>meħwe-‹CM›-adal</em>. Of these, the latter
+takes the gender value of the nominative argument of the clause. The
+distribution of the two allomorphs is unclear (Michael Daniel,
+p.c.).</p>
+<p>Agreeing <em>Translative</em> is reported by Mikailov <span
+class="citation">(<a href="#ref-mikailov1959">1959</a>)</span> for
+Rugudzha Avar:</p>
+<ol start="9" class="example" style="list-style-type: decimal">
+<li>Avar: Rugudzha <span class="citation">(<a
+href="#ref-mikailov1959">Mikailov 1959</a>: 278)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>roxo-sːa-<strong>w-am</strong></em>
+</td>
+<td style="text-align:left;">
+<em>w-eh-ana</em>
+</td>
+<td style="text-align:left;">
+<em>da-w</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+forest-<span class="smallcaps">el</span>-<span
+class="smallcaps"><strong>m</span>-<span style="font-variant:small-caps;">trans</strong></span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">m</span>-come-<span class="smallcaps">aor</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">dem</span>-<span class="smallcaps">m</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘He came through the forest.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>Magomedbekova <span class="citation">(<a
+href="#ref-magomedbekova1971">1971</a>)</span> reports agreeing elatives
+for Tukita: <em>-‹CM›-a</em> as in (10)-(11) and <em>-gi-‹CM›-a</em> as
+in (12)-(13) (transcription and glosses are mine; the source describes
+the latter marker as the translative in the process of unification with
+the elative, which is also reflected in its elative uses in (11)).</p>
+<ol start="10" class="example" style="list-style-type: decimal">
+<li>Tukita <span class="citation">(<a
+href="#ref-magomedbekova1971">Magomedbekova 1971</a>: 80)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>jaxi-ɬːi-č’u-<strong>b-a</strong></em>
+</td>
+<td style="text-align:left;">
+<em>b-uq-e</em>
+</td>
+<td style="text-align:left;">
+<em>din-di</em>
+</td>
+<td style="text-align:left;">
+<em>ha-b</em>
+</td>
+<td style="text-align:left;">
+<em>beqi</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+girl-<span class="smallcaps">obl</span>-<span
+class="smallcaps">cont</span>-<span
+class="smallcaps"><strong>n</span>-<span style="font-variant:small-caps;">el</strong></span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">n</span>-take_away-<span
+class="smallcaps">aor</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">i</span>-<span class="smallcaps">erg</span>
+</td>
+<td style="text-align:left;">
+this-<span class="smallcaps">n</span>
+</td>
+<td style="text-align:left;">
+(<span class="smallcaps">n</span>)apricot
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘I took this apricot from the girl.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li>Tukita <span class="citation">(<a
+href="#ref-magomedbekova1971">Magomedbekova 1971</a>: 80)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>jaxi-ɬːi-č’u-<strong>r-a</strong></em>
+</td>
+<td style="text-align:left;">
+<em>r-ih-i</em>
+</td>
+<td style="text-align:left;">
+<em>ha-r-e</em>
+</td>
+<td style="text-align:left;">
+<em>šːata-di</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+girl-<span class="smallcaps">obl</span>-<span
+class="smallcaps">cont</span>-<span
+class="smallcaps"><strong>npl</span>-<span style="font-variant:small-caps;">el</strong></span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">npl</span>-take-<span
+class="smallcaps">aor</span>
+</td>
+<td style="text-align:left;">
+this-<span class="smallcaps">npl</span>-<span
+class="smallcaps">pl</span>
+</td>
+<td style="text-align:left;">
+stocking-<span class="smallcaps">pl</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘These stockings were bought from the girl.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li>Tukita <span class="citation">(<a
+href="#ref-magomedbekova1971">Magomedbekova 1971</a>: 80)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>ʕanči-la-<strong>gi‹b›a</strong></em>
+</td>
+<td style="text-align:left;">
+<em>ɬabɬabili-b-aχ</em>
+</td>
+<td style="text-align:left;">
+<em>m-uʔ-a</em>
+</td>
+<td style="text-align:left;">
+<em>šːakiba</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+stone-<span class="smallcaps">sup</span>-<span
+class="smallcaps"><strong>el‹n›</strong></span>
+</td>
+<td style="text-align:left;">
+fly-<span class="smallcaps">n</span>-<span class="smallcaps">cvb</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">n</span>-go-<span class="smallcaps">aor</span>
+</td>
+<td style="text-align:left;">
+bird
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘The bird flew off the rock.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li>Tukita <span class="citation">(<a
+href="#ref-magomedbekova1971">Magomedbekova 1971</a>: 80)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>ʕanči-la-<strong>gi‹j›a</strong></em>
+</td>
+<td style="text-align:left;">
+<em>t’al-eχ</em>
+</td>
+<td style="text-align:left;">
+<em>j-ĩʔ-a</em>
+</td>
+<td style="text-align:left;">
+<em>jaxi</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+stone-<span class="smallcaps">sup</span>-<span
+class="smallcaps"><strong>el‹f›</strong></span>
+</td>
+<td style="text-align:left;">
+fall-<span class="smallcaps">cvb</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">f</span>-go-<span class="smallcaps">aor</span>
+</td>
+<td style="text-align:left;">
+girl
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘The girl fell off the rock.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+</div>
+<div
+id="gender-agreement-in-the-third-slot-of-trimorphemic-spatial-forms"
+class="section level3 hasAnchor" number="2.1.3">
+<h3 class="hasAnchor"><span class="header-section-number">2.1.3</span>
+Gender agreement in the third slot of trimorphemic spatial forms<a
+href="#gender-agreement-in-the-third-slot-of-trimorphemic-spatial-forms"
+class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>A few languages of the East Caucasian family combine not two but
+three grammatical categories in their expression of spatial forms (see
+the chapter on <a
+href="http://lingconlab.ru/dagatlas/054_number_of_morphological_slots_in_spatial_forms.html">Number
+of morphological slots in spatial forms</a>). To the localization and
+orientation categories a third category is added as a separate
+inflectional morpheme. In Lak, this third morphological slot is filled
+by the <em>approximative</em> marker <em>-‹CM›-aj</em>. When added after
+the directionality marker, it indicates that the Figure moves towards
+the Ground without reaching it, or that the Figure moves from the area
+adjacent to the Ground and not from the Ground itself. In (14), the
+first spatial argument is marked for orientation with <em>-maj</em>,
+which is analyzed by Zhirkov <span class="citation">(<a
+href="#ref-zhirkov1955">1955</a>)</span> as a plural of gender III
+<em>-b</em> assimilated to the preceding <em>-n</em> <span
+class="citation">(<a href="#ref-zhirkov1955">Žirkov 1955</a>:
+39)</span>. The second spatial argument features the orientation marker
+<em>-naj</em>, where <em>-n</em> originates from assimilation of gender
+IV marker <em>-d</em>.</p>
+<ol start="14" class="example" style="list-style-type: decimal">
+<li>Lak <span class="citation">(<a
+href="#ref-kazenin2013"><strong>kazenin2013?</strong></a>
+61)</span></li>
+</ol>
+<pre><code>&lt;table class=&quot; lightable-minimal&quot; style=&#39;font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; &#39;&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; _naj_ &lt;/td&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; _b-ija_ &lt;/td&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; _q&#39;iblali-j-n-**m-aj**_ &lt;/td&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; _leluχː-ant=gu,_ &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; go.&lt;span style=&quot;font-variant:small-caps;&quot;&gt;prs&lt;/span&gt;.&lt;span style=&quot;font-variant:small-caps;&quot;&gt;ger&lt;/span&gt; &lt;/td&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; &lt;span style=&quot;font-variant:small-caps;&quot;&gt;iii&lt;/span&gt;.&lt;span style=&quot;font-variant:small-caps;&quot;&gt;pl&lt;/span&gt;-cop.&lt;span style=&quot;font-variant:small-caps;&quot;&gt;ipf&lt;/span&gt; &lt;/td&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; qibla.&lt;span style=&quot;font-variant:small-caps;&quot;&gt;obl&lt;/span&gt;-&lt;span style=&quot;font-variant:small-caps;&quot;&gt;sup&lt;/span&gt;-&lt;span style=&quot;font-variant:small-caps;&quot;&gt;lat&lt;/span&gt;-&lt;span style=&quot;font-variant:small-caps;&quot;&gt;**iii&lt;/span&gt;.&lt;span style=&quot;font-variant:small-caps;&quot;&gt;pl&lt;/span&gt;-&lt;span style=&quot;font-variant:small-caps;&quot;&gt;appr**&lt;/span&gt; &lt;/td&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; bird-&lt;span style=&quot;font-variant:small-caps;&quot;&gt;pl&lt;/span&gt;=and, &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt; &lt;table class=&quot; lightable-minimal&quot; style=&#39;font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;&#39;&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; _naj_ &lt;/td&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; _d-ija_ &lt;/td&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; _xːiri-n-**n-aj**_ &lt;/td&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; _qun_ &lt;/td&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; _neχ=gu_ &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; go.&lt;span style=&quot;font-variant:small-caps;&quot;&gt;pres&lt;/span&gt;.&lt;span style=&quot;font-variant:small-caps;&quot;&gt;ger&lt;/span&gt; &lt;/td&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; &lt;span style=&quot;font-variant:small-caps;&quot;&gt;iv&lt;/span&gt;-cop.&lt;span style=&quot;font-variant:small-caps;&quot;&gt;ipf&lt;/span&gt; &lt;/td&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; sea.&lt;span style=&quot;font-variant:small-caps;&quot;&gt;obl&lt;/span&gt;-&lt;span style=&quot;font-variant:small-caps;&quot;&gt;lat&lt;/span&gt;-&lt;span style=&quot;font-variant:small-caps;&quot;&gt;**iv&lt;/span&gt;-&lt;span style=&quot;font-variant:small-caps;&quot;&gt;appr**&lt;/span&gt; &lt;/td&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; big &lt;/td&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; river=and &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;tfoot&gt;&lt;tr&gt;&lt;td style=&quot;padding: 0; &quot; colspan=&quot;100%&quot;&gt;
+&lt;sup&gt;&lt;/sup&gt; &#39;Birds were flying southwards and the big river was flowing towards the sea.&#39;&lt;/td&gt;&lt;/tr&gt;&lt;/tfoot&gt;
+&lt;/table&gt;</code></pre>
+<p>Zhirkov <span class="citation">(<a
+href="#ref-zhirkov1955">1955</a>)</span> only reports these assimilation
+processes for Kumukh and Standard Lak, while in Vitskhi Lak the
+phonological form of gender markers in the approximative is the same as
+in other targets <span class="citation">(<a
+href="#ref-zhirkov1955">Žirkov 1955</a>: 40)</span>.</p>
+</div>
+</div>
+<div id="gender-agreement-in-grammatical-cases"
+class="section level2 hasAnchor" number="2.2">
+<h2 class="hasAnchor"><span class="header-section-number">2.2</span>
+Gender agreement in grammatical cases<a
+href="#gender-agreement-in-grammatical-cases" class="anchor-section"
+aria-label="Anchor link to header"></a></h2>
+<p>Some Andic languages feature a dedicated <em>affective</em> case
+which is mostly used to encode experiencer participants but often has
+vestigial spatial - more specifically, directional - functions.
+Chumakina <span class="citation">(<a
+href="#ref-chumakina2021">2021</a>)</span> argues that this agreeing
+affective was once characteristic of all Andic but now it is fossilized
+in most Andic varieties <span class="citation">(<a
+href="#ref-chumakina2021">Čumakina 2021</a>: 138)</span>. However, in
+some languages it still agrees:</p>
+<ol start="15" class="example" style="list-style-type: decimal">
+<li>Andi <span class="citation">(<a href="#ref-chumakina2021">Čumakina
+2021</a>: 138)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>ilu-<strong>b-o</strong></em>
+</td>
+<td style="text-align:left;">
+<em>q’inkom</em>
+</td>
+<td style="text-align:left;">
+<em>haɢo</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+mother-<span class="smallcaps"><strong>iii</span>.<span
+class="smallcaps">sg</span>-<span style="font-variant:small-caps;">aff</strong></span>
+</td>
+<td style="text-align:left;">
+bull(<span class="smallcaps">iii</span>)
+</td>
+<td style="text-align:left;">
+see.<span class="smallcaps">aor</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Mother saw a bull.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li>Andi <span class="citation">(<a href="#ref-chumakina2021">Čumakina
+2021</a>: 138)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>ilu-<strong>r-o</strong></em>
+</td>
+<td style="text-align:left;">
+<em>c’ul</em>
+</td>
+<td style="text-align:left;">
+<em>haɢo</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+mother-<span
+class="smallcaps"><strong>v</span>-<span style="font-variant:small-caps;">aff</strong></span>
+</td>
+<td style="text-align:left;">
+stick(<span class="smallcaps">v</span>)
+</td>
+<td style="text-align:left;">
+see.<span class="smallcaps">aor</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Mother saw a stick.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>Thus, Andi and Tukita Karata have two agreeing case forms, the
+genitive and the affective (see <span class="citation">(<a
+href="#ref-magomedbekova1971">Magomedbekova 1971</a>)</span> on
+Tukita).</p>
+<p>Tsakhur (Lezgic) has an agreeing <em>possessive</em> which is
+distinct from the attributive marker on the adnominal possessors and is
+used in predicative possessive constructions (broadly understood);
+cf. (17):</p>
+<ol start="17" class="example" style="list-style-type: decimal">
+<li>Tsakhur: Mishlesh <span class="citation">(<a
+href="#ref-kibrik1999">Kibrik 1999</a>: 352)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>dera-j-<strong>qa=r</strong></em>
+</td>
+<td style="text-align:left;">
+<em>siχnari</em>
+</td>
+<td style="text-align:left;">
+<em>wo=r</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+valley-<span class="smallcaps">obl</span>-<span
+class="smallcaps"><strong>poss</span>=<span style="font-variant:small-caps;">m</strong></span>
+</td>
+<td style="text-align:left;">
+thief(<span class="smallcaps">m</span>)
+</td>
+<td style="text-align:left;">
+be=<span class="smallcaps">m</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘In our valley, there was a horse thief…’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>For three varieties of Avar, namely Antsrosunkhada, Tash and
+Chadakolob Avar, Mikailov <span class="citation">(<a
+href="#ref-mikailov1959">1959</a>)</span> reports the agreeing
+<em>dative</em>:</p>
+<ol start="18" class="example" style="list-style-type: decimal">
+<li>Avar: Antsrosunkhada <span class="citation">(<a
+href="#ref-mikailov1959">Mikailov 1959</a>: 84)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>wexasːi-<strong>w-e</strong></em>
+</td>
+<td style="text-align:left;">
+<em>w-as</em>
+</td>
+<td style="text-align:left;">
+<em>w-ehri</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+shepherd-<span
+class="smallcaps"><strong>m</span>-<span style="font-variant:small-caps;">dat</strong></span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">m</span>-child(<span class="smallcaps">m</span>)
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">m</span>-get.<span class="smallcaps">aor</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘To a shepherd, a son was born.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li>Avar: Antsrosunkhada <span class="citation">(<a
+href="#ref-mikailov1959">Mikailov 1959</a>: 84)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>wexasːi-<strong>b-e</strong></em>
+</td>
+<td style="text-align:left;">
+<em>boc’ːi</em>
+</td>
+<td style="text-align:left;">
+<em>b-ehri</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+shepherd-<span
+class="smallcaps"><strong>n</span>-<span style="font-variant:small-caps;">dat</strong></span>
+</td>
+<td style="text-align:left;">
+cattle(<span class="smallcaps">n</span>)
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">n</span>-get.<span class="smallcaps">aor</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘A shepherd got cattle.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>Abdullaev <span class="citation">(<a
+href="#ref-abdullaev1954">1954</a>: 105)</span> reports the agreeing
+<em>instrumental</em> case <em>-či-‹CM›-li</em> for Standard Dargwa, but
+he provides no examples.</p>
+<p>The only idioms which demonstrate gender agreement in both spatial
+and core subparadigms are Antsrosunkhada Avar (the localization IN and
+the dative), Tukita Karata (the elative, the genitive and the
+affective), and Standard Dargwa (the essive and the instrumental).</p>
+</div>
+</div>
+<div id="distribution" class="section level1 hasAnchor" number="3">
+<h1 class="hasAnchor"><span class="header-section-number">3</span>
+Distribution<a href="#distribution" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p><a
+href="http://lingconlab.ru/dagatlas/056_gender_agreement_slot_map.html#m1">Map
+1</a> differentiates between four types of languages. A language may
+either have the gender agreement slot in its inventory of grammatical
+cases, in its inventory of spatial inflection forms, in both inventories
+at the same time, or lack the feature altogether.</p>
+<p>The distribution pattern of agreeing spatial forms is reflected on <a
+href="http://lingconlab.ru/dagatlas/056_gender_agreement_slot_map.html#m2">Map
+2</a>. Here, Dargwa and Avar are clearly two hotbeds. Most Dargwa
+varieties show agreement in the directionality slot, and in most Avar
+varieties the marker of IN localization shows gender agreement.
+Marginally, the elative and the translative have agreement slots in both
+Avar and Dargwa sub-branches, but also in Tukita Karata. Lak has gender
+agreement in the approximative slot.</p>
+<p><a
+href="http://lingconlab.ru/dagatlas/056_gender_agreement_slot_map.html#m3">Map
+3</a> reflects the distribution pattern in the domain of grammatical
+cases. Here, gender agreement is mostly confined to NP-internal
+agreement of the genitive in Andic, which is out of the scope of the
+present paper. The affective marker also has an agreement slot in two
+languages of the Andic group (Andi and Tukita Karata). Outside Andic,
+gender agreement of grammatical case markers is sporadically attested in
+Avar (the dative), Tsakhur (the possessive), and in the instrumental
+form of Standard Dargwa.</p>
+</div>
+<div id="list-of-glosses" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">List of glosses<a
+href="#list-of-glosses" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p><span class="smallcaps">advz</span> — adverbializer; <span
+class="smallcaps">aff</span> — affective; <span
+class="smallcaps">aor</span> — aorist; <span
+class="smallcaps">appr</span> — approximative; <span
+class="smallcaps">cont</span> — contessive; <span
+class="smallcaps">cop</span> — copula; <span
+class="smallcaps">cvb</span> — converb; <span
+class="smallcaps">dat</span> — dative; <span
+class="smallcaps">dem</span> — demonstrative; <span
+class="smallcaps">el</span> — elative; <span class="smallcaps"><span
+style="background-color:#00d5ff;">elf</span></span> — ; <span
+class="smallcaps"><span
+style="background-color:#00d5ff;">eln</span></span> — ; <span
+class="smallcaps">erg</span> — ergative; <span
+class="smallcaps">ess</span> — essive; <span
+class="smallcaps">f</span> — feminine; <span
+class="smallcaps">ger</span> — gerund; <span
+class="smallcaps">i</span> — class I; <span
+class="smallcaps">iii</span> — class III; <span
+class="smallcaps">imp</span> — imperative; <span
+class="smallcaps">in</span> — inessive; <span
+class="smallcaps">inter</span> — within (a solid object); <span
+class="smallcaps">ipf</span> — imperfective; <span
+class="smallcaps">iv</span> — class IV; <span
+class="smallcaps">lat</span> — lative; <span
+class="smallcaps">m</span> — masculine; <span
+class="smallcaps">n</span> — neuter; <span
+class="smallcaps">npl</span> — non-human plural; <span
+class="smallcaps">obl</span> — oblique; <span
+class="smallcaps">pl</span> — plural; <span
+class="smallcaps">poss</span> — possessive; <span
+class="smallcaps">pres</span> — present; <span
+class="smallcaps">prs</span> — present; <span
+class="smallcaps">sg</span> — singular; <span
+class="smallcaps">sup</span> — superessive; <span
+class="smallcaps">trans</span> — transformative; <span
+class="smallcaps">v</span> — class V</p>
+</div>
+<div id="references" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">References<a href="#references"
+class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="refs" class="references csl-bib-body hanging-indent"
+line-spacing="2">
+<div id="ref-abdullaev1954" class="csl-entry">
+Abdullaev, S. N. (1954). <em>Grammatika darginskogo jazyka
+[<span>D</span>argwa grammar]</em>. Maxačkala: IJaLI.
+</div>
+<div id="ref-alekseevataev1997" class="csl-entry">
+Alekseev, M. E., Ataev, B. M. (1997). <em>Avarskij jazyk
+[<span>A</span>var language]</em>. Moscow: Akademija.
+</div>
+<div id="ref-chechuro2019" class="csl-entry">
+Chechuro, I. (2019). Nominal morphology of <span>M</span>ehweb. In M.
+Daniel, N. Dobrushina, D. Ganenkov (Eds.), <em>The <span>M</span>ehweb
+language. <span>E</span>ssays on phonology, morphology and syntax</em>
+(pp. 39–72). Berlin: Language Science Press.
+</div>
+<div id="ref-chumakina2020" class="csl-entry">
+Chumakina, M. (2020). <em>Unusual <span>A</span>greement targets:
+<span>A</span>greement or concord</em>. Moscow.
+</div>
+<div id="ref-chumakina2021" class="csl-entry">
+Čumakina, M. (2021). Nesoglasovatelʹnye funkcii soglasovatelʹnyx
+pokazatelej v dagestanskix jazykax [<span>N</span>on-agreeing functions
+of agreement markers in <span>N</span>akh-<span>D</span>aghestanian
+languages]. <em>Rhema</em>, (2), 131–158.
+</div>
+<div id="ref-kibrik1999" class="csl-entry">
+Kibrik, A. E. (1999). <em>Èlementy caxurskogo jazyka v tipologičeskom
+osveščenii [<span>E</span>lements of <span>T</span>sakhur grammar in a
+typological perspective]</em>. Moscow: Nasledie.
+</div>
+<div id="ref-lander2010" class="csl-entry">
+Lander, Y. (2010). Dialectics of adnominal modifiers: <span>O</span>n
+concord and incorporation in nominal phrases. In F. Floricic (Ed.),
+<em>Essais de typologie et de linguistique générale.
+<span>M</span>élanges offerts à <span>D</span>enis
+<span>C</span>reissels</em> (pp. 287–311). Lyon: ENS éditions.
+</div>
+<div id="ref-magomedbekova1971" class="csl-entry">
+Magomedbekova, Z. M. (1971). <em>Karatinskij jazyk
+[<span>K</span>arata]</em>. Tbilisi: Mecniereba.
+</div>
+<div id="ref-mikailov1959" class="csl-entry">
+Mikailov, Š. (1959). <em>Očerki avarskoj dialektologii
+[<span>E</span>ssays on <span>A</span>var dialectology]</em>. Leningrad:
+Izdatelʹstvo Akademii nauk SSSR [Leningradskoe otd-nie].
+</div>
+<div id="ref-terrill2003" class="csl-entry">
+Terrill, A. (2003). <em>A <span>G</span>rammar of
+<span>L</span>avukaleve</em>. Berlin/New York: De Gruyter Mouton.
+</div>
+<div id="ref-zhirkov1955" class="csl-entry">
+Žirkov, L. I. (1955). <em>Lakskij jazyk [<span>L</span>ak]</em>. Moscow:
+Akademija.
+</div>
+</div>
+</div>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+</head>
+
+<body>
+    <div class="footer-basic">
+        <footer>
+            
+            <div class='lic'><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br /><i>Typological Atlas of the languages of Daghestan </i> (<i>TALD</i>) is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+            <div class="social"><a href="https://github.com/LingConLab/TALD" target="_blank"><span class="iconify" data-icon="octicon:logo-github-16"></span></a></div>
+            </div>
+            
+            <p class="copyright">2020<script>new Date().getFullYear()>2020&&document.write("-"+new Date().getFullYear());</script>,  Linguistic Convergence Laboratory, HSE University</p>
+        </footer>
+    </div>
+    <script type="text/javascript" src="./js/links.js"></script> <!--это чтобы ссылки открывались в новом окне -->
+</body>
+
+</html>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

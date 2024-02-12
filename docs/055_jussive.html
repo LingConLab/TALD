@@ -1,0 +1,1257 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="Nina Dobrushina" />
+
+
+<title>Jussive</title>
+
+<script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="site_libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="site_libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+<style type="text/css">
+/* for pandoc --citeproc since 2.11 */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">TALD</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="./about.html">About</a>
+</li>
+<li>
+  <a href="./features.html">
+    <span class="fa fa-atlas"></span>
+     
+    Features
+  </a>
+</li>
+<li>
+  <a href="./languages.html">Languages</a>
+</li>
+<li>
+  <a href="./changes.html">Changes</a>
+</li>
+<li>
+  <a href="./references.html">References</a>
+</li>
+<li>
+  <a href="./team.html">Team</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Jussive</h1>
+<h4 class="author">Nina Dobrushina</h4>
+<h4 class="date">Last update: February 2024</h4>
+
+</div>
+
+
+<p>See <a href="055_jussive_map.html">data and maps</a>.</p>
+<div id="section"
+class="section level1 tabset tabset-fade tabset-pills unnumbered">
+<h1 class="tabset tabset-fade tabset-pills unnumbered"></h1>
+<div id="plain-text" class="section level2 unnumbered hasAnchor">
+<h2 class="unnumbered hasAnchor">Plain text<a href="#plain-text"
+class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Dobrushina, N. (2023). “Jussive”. In: <em>Typological Atlas of the
+Languages of Daghestan (TALD)</em>. Ed. by M. Daniel, K. Filatov, T.
+Maisak, G. Moroz, T. Mukhin, C. Naccarato and S. Verhees. Moscow:
+Linguistic Convergence Laboratory, NRU HSE. DOI: 10.5281/zenodo.6807070.
+<a href="http://lingconlab.ru/dagatlas"
+class="uri">http://lingconlab.ru/dagatlas</a>.</p>
+</div>
+<div id="bibtex" class="section level2 unnumbered hasAnchor">
+<h2 class="unnumbered hasAnchor">BibTeX<a href="#bibtex"
+class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<pre><code>@incollection{dobrushina2023,
+  title = {Jussive},
+  author = {Nina Dobrushina},
+  year = {2023},
+  editor = {Michael Daniel and Konstantin Filatov and Timur Maisak and George Moroz and Timofey Mukhin and Chiara Naccarato and Samira Verhees},
+  publisher = {Linguistic Convergence Laboratory, NRU HSE},
+  address = {Moscow},
+  booktitle = {Typological Atlas of the Languages of Daghestan (TALD)},
+  url = {http://lingconlab.ru/dagatlas},
+  doi = {10.5281/zenodo.6807070},
+}</code></pre>
+</div>
+</div>
+<div id="introduction" class="section level1 hasAnchor" number="1">
+<h1 class="hasAnchor"><span class="header-section-number">1</span>
+Introduction<a href="#introduction" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p>In this chapter, the term <em>jussive</em> is used for forms or
+constructions which express commands directed towards someone who is not
+a speech act participant, such as English <em>Let them all come!</em>
+The addressee serves as a mediator between the speaker and this
+participant. This category is sometimes called <em>3rd person
+imperative</em> <span class="citation">(<a
+href="#ref-xrakovskij2001">Xrakovskij 2001</a>; <a
+href="#ref-aikhenvald2010">Aikhenvald 2010</a>)</span> or
+<em>exhortative</em> <span class="citation">(<a
+href="#ref-ammannvanderauwera2004">Ammann, Auwera 2004</a>)</span>.</p>
+<p>The central meaning of jussive forms is indirect command:</p>
+<ol class="example" style="list-style-type: decimal">
+<li>Kryz <span class="citation">(<a href="#ref-authier2009">Authier
+2019</a>: 281)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>va</em>
+</td>
+<td style="text-align:left;">
+<em>i-nkan-i</em>
+</td>
+<td style="text-align:left;">
+<em>pul</em>
+</td>
+<td style="text-align:left;">
+<em><strong>tu-ğa-tir</strong>!</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+you.<span class="smallcaps">sg</span>.<span class="smallcaps">gen</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">pv</span>-<span
+class="smallcaps">ipfv</span>.remain-<span class="smallcaps">ptcp</span>
+</td>
+<td style="text-align:left;">
+money
+</td>
+<td style="text-align:left;">
+<span
+class="smallcaps"><strong>pv</span>-carry-<span style="font-variant:small-caps;">juss</strong></span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Let him bring back the rest of your money.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>Additionally, jussives usually can express permission (2) and
+indifference (3):</p>
+<ol start="2" class="example" style="list-style-type: decimal">
+<li>Archi <span class="citation">(<a
+href="#ref-dobrushina2012">Dobrushina 2012</a>: 11)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; ">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>sa‹r›ka</em>
+</td>
+<td style="text-align:left;">
+<em>laha</em>
+</td>
+<td style="text-align:left;">
+<em>guruč’an</em>
+</td>
+<td style="text-align:left;">
+<em>orχir-ši</em>
+</td>
+<td style="text-align:left;">
+<em>—</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+‹II›look(<span class="smallcaps">imp</span>)
+</td>
+<td style="text-align:left;">
+child.<span class="smallcaps">obl</span>(<span
+class="smallcaps">erg</span>)
+</td>
+<td style="text-align:left;">
+sweet(<span class="smallcaps">iv</span>).<span
+class="smallcaps">nom</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">iv</span>.take.<span
+class="smallcaps">ipfv</span>-<span class="smallcaps">cvb</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">—</span>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em><strong>χːeχːa-ba</strong></em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps"><strong>iv</span>.take.<span
+class="smallcaps">imp</span>-<span style="font-variant:small-caps;">juss</strong></span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Look, the child is taking a sweet. — Let him take it.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li>Mehweb Dargwa <span class="citation">(<a
+href="#ref-dobrushina2019">Dobrushina 2019</a>: 136)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em><strong>rurž-e</strong></em>
+</td>
+<td style="text-align:left;">
+<em><strong>bet’-a</strong></em>
+</td>
+<td style="text-align:left;">
+<em>ħarši</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<strong>boil.<span
+class="smallcaps">ipfv</span>-<span style="font-variant:small-caps;">imp</strong></span>
+</td>
+<td style="text-align:left;">
+<strong>say.<span class="smallcaps">pfv</span>-<span
+class="smallcaps">imp</span>.<span style="font-variant:small-caps;">tr</strong></span>
+</td>
+<td style="text-align:left;">
+soup
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Let the soup boil. [I don’t care / Or: It needs more time
+to simmer]’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>Finally, in some languages jussives are also used to express wishes,
+in particular blessings and curses (5) - a type of speech act which is
+very common in everyday communication in the Caucasus:</p>
+<ol start="4" class="example" style="list-style-type: decimal">
+<li>Kumyk - third person command (N. E. Gadzhiaxmedov, p.c., cited in
+<span class="citation">(<a href="#ref-dobrushina2012">Dobrushina
+2012</a>)</span>)
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>mahammat</em>
+</td>
+<td style="text-align:left;">
+<em>üj-ge</em>
+</td>
+<td style="text-align:left;">
+<em>bar-ɨp</em>
+</td>
+<td style="text-align:left;">
+<em>dars-lar-ɨ-n</em>
+</td>
+<td style="text-align:left;">
+<em><strong>et-sin</strong></em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Mohammad
+</td>
+<td style="text-align:left;">
+house-<span class="smallcaps">dat</span>
+</td>
+<td style="text-align:left;">
+go-<span class="smallcaps">cvb</span>
+</td>
+<td style="text-align:left;">
+lesson-<span class="smallcaps">pl</span>-<span
+class="smallcaps">poss</span>.<span class="smallcaps">3</span>-<span
+class="smallcaps">acc</span>
+</td>
+<td style="text-align:left;">
+<strong>make-<span style="font-variant:small-caps;">juss</strong></span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Let Mohammad go home and do his homework.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li>Kumyk - third person blessings and curses (N. E. Gadzhiaxmedov,
+p.c., cited in <span class="citation">(<a
+href="#ref-dobrushina2012">Dobrushina 2012</a>)</span>)
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>ömür-lü</em>
+</td>
+<td style="text-align:left;">
+<em><strong>bol-sun</strong></em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+long_life-<span class="smallcaps">adj</span>
+</td>
+<td style="text-align:left;">
+<strong>be-<span style="font-variant:small-caps;">juss</strong></span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Let him be a long-living (person)’ (a blessing uttered to
+parents of a newborn baby, addressed to the latter)’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>Some Nakh-Daghestanian languages have separate forms for indirect
+commands and for wishes (for example, Mehweb, Archi, Lak, and Chirag
+Dargwa), but the co-expression of these two meanings by the same form is
+more frequent. Hence it might be difficult to distinguish jussive from
+<em>optative</em>, a form whose main function is to express a wish or
+hope of the speaker that something would happen <span
+class="citation">(<a href="#ref-dobrushina2021">Dobrushina
+2021</a>)</span>. Many Nakh-Daghestanian languages, such as Agul and
+Rutul, have the same form to express blessings and curses addressed to
+1st, 2nd or 3rd persons, and to express 3rd person imperative. This form
+cannot be used to urge 1st or 2nd persons to do something (see examples
+in <span class="citation">(<a href="#ref-dobrushina2021">Dobrushina
+2021</a>)</span>). In this chapter, forms of the Agul and Rutul type
+will be classified as <em>optatives</em>. I reserve the term
+<em>jussive</em> for forms that are restricted to 3rd person imperative
+(as in Mehweb, see <span class="citation">(<a
+href="#ref-dobrushina2019">Dobrushina 2019</a>: 133–138)</span>, or
+combine 3rd person imperative with the expression of a wish with a 3rd
+person subject (as in Kumyk, see <span class="citation">(<a
+href="#ref-gadzhiakhmedov2000">Gadžiaxmedov 2000</a>)</span>). The terms
+are presented in <a href="#t1">Table 1</a> (see also the chapter on <a
+href="http://lingconlab.ru/dagatlas/007_optative.html">Optatives</a>,
+and the discussion of these terms in <span class="citation">(<a
+href="#ref-dobrushina2012">Dobrushina 2012</a>)</span>).</p>
+<div id="t1" class="section level4 unnumbered hasAnchor">
+<h4 class="unnumbered hasAnchor"><strong>Table 1.</strong> Optative and
+jussive (from <span class="citation">(<a
+href="#ref-dobrushina2021">Dobrushina 2021</a>)</span>)<a href="#t1"
+class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-llyw{background-color:#c0c0c0;border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+<tr>
+<th class="tg-0pky">
+</th>
+<th class="tg-0pky" colspan="2">
+Optative<br>(Mehweb form in -b)
+</th>
+<th class="tg-0pky" colspan="2">
+Optative<br>(Rutul form in -Vj)
+</th>
+<th class="tg-0pky" colspan="2">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none">Jussive</span><br><span
+style="font-weight:400;font-style:normal;text-decoration:none">(Kumyk
+form in –syn/-sin/-sun)</span>
+</th>
+<th class="tg-0pky" colspan="2">
+Jussive<br>(Mehweb form with bet’a)
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tg-0pky">
+person
+</td>
+<td class="tg-0pky">
+command
+</td>
+<td class="tg-0pky">
+blessings and <br>curses
+</td>
+<td class="tg-0pky">
+command
+</td>
+<td class="tg-0pky">
+blessings and <br>curses
+</td>
+<td class="tg-0pky">
+command
+</td>
+<td class="tg-0pky">
+blessings and <br>curses
+</td>
+<td class="tg-0pky">
+command
+</td>
+<td class="tg-0pky">
+blessings and <br>curses
+</td>
+</tr>
+<tr>
+<td class="tg-0pky">
+1
+</td>
+<td class="tg-0pky">
+</td>
+<td class="tg-llyw">
+</td>
+<td class="tg-0pky">
+</td>
+<td class="tg-llyw">
+</td>
+<td class="tg-0pky">
+</td>
+<td class="tg-0pky">
+</td>
+<td class="tg-0pky">
+</td>
+<td class="tg-0pky">
+</td>
+</tr>
+<tr>
+<td class="tg-0pky">
+2
+</td>
+<td class="tg-0pky">
+</td>
+<td class="tg-llyw">
+</td>
+<td class="tg-0pky">
+</td>
+<td class="tg-llyw">
+</td>
+<td class="tg-0pky">
+</td>
+<td class="tg-0pky">
+</td>
+<td class="tg-0pky">
+</td>
+<td class="tg-0pky">
+</td>
+</tr>
+<tr>
+<td class="tg-0pky">
+3
+</td>
+<td class="tg-0pky">
+</td>
+<td class="tg-llyw">
+</td>
+<td class="tg-llyw">
+</td>
+<td class="tg-llyw">
+</td>
+<td class="tg-llyw">
+</td>
+<td class="tg-llyw">
+</td>
+<td class="tg-llyw">
+</td>
+<td class="tg-0pky">
+</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+</div>
+</div>
+<div id="results" class="section level1 hasAnchor" number="2">
+<h1 class="hasAnchor"><span class="header-section-number">2</span>
+Results<a href="#results" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p>This chapter takes into account all formal types of jussives: those
+which contain a dedicated affix, those which are expressed by some other
+grammatical category (usually optative), and those which are expressed
+by a periphrastic construction: combination of some form with another
+verb. The maps answer the following questions:</p>
+<ul>
+<li>Is there a dedicated jussive marker in the given language <a
+href="http://lingconlab.ru/dagatlas/055_jussive_map.html#m1">Map
+1</a>?</li>
+<li>Is there a form or construction which expresses jussive meaning and
+has a verb ‘say’ as its source <a
+href="http://lingconlab.ru/dagatlas/055_jussive_map.html#m2">Map
+2</a>?</li>
+<li>Is there a jussive encoded by morphological causative markers <a
+href="http://lingconlab.ru/dagatlas/055_jussive_map.html#m3">Map
+3</a>?</li>
+<li>Is there an optative form which co-expresses jussive meaning <a
+href="http://lingconlab.ru/dagatlas/055_jussive_map.html#m4">Map
+4</a>?</li>
+</ul>
+<p>Note that a language can get positive answers for more than one of
+these questions. For example, Kryz has two forms expressing jussive
+meaning - proper jussive, restricted to 3rd person (<em>votif</em> -
+<span class="citation">(<a href="#ref-authier2009">Authier 2019</a>:
+281)</span>) and optative with jussive meaning (<em>optatif</em> - <span
+class="citation">(<a href="#ref-authier2009">Authier 2019</a>:
+279–280)</span>).</p>
+<p><a href="http://lingconlab.ru/dagatlas/055_jussive_map.html#m1">Map
+1</a> reflects the presence of a dedicated affix for jussive in the
+languages of Daghestan. Besides Turkic languages (see <span
+class="citation">(<a href="#ref-four"><strong>four?</strong></a>)</span>
+and <span class="citation">(<a
+href="#ref-five"><strong>five?</strong></a>)</span>), dedicated
+morphological jussives are quite infrequent in the area, and often seem
+innovations with recently grammaticalized suffixes. The Itsari jussive
+with the suffix <em>-ikːa</em> is supposed to derive from the verb
+‘want’ <span class="citation">(<a href="#ref-mutalov2002">Mutalov
+2002</a>: 131)</span> - a unique pattern for the area. Lak, to the
+contrary, features a pattern that is frequently found in Daghestan - it
+encodes jussive with the suffix derived from the imperative of the verb
+‘say’:</p>
+<ol start="6" class="example" style="list-style-type: decimal">
+<li>Lak <span class="citation">(<a href="#ref-eldarova1999">Èlʹdarova
+1999</a>: 57)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>uča</em>
+</td>
+<td style="text-align:left;">
+<em>lasi-ča</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+say.<span class="smallcaps">imp</span>
+</td>
+<td style="text-align:left;">
+take.<span class="smallcaps">imp</span>-say.<span
+class="smallcaps">imp</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Let them take.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>Since the imperative of the Lak verb ‘say’ underwent reduction and is
+not identical to the jussive suffix, Lak jussive is qualified as
+morphologically dedicated. Only Tsakhur and Kryz <span
+class="citation">(<a href="#ref-one"><strong>one?</strong></a>)</span>
+have jussive suffixes whose origin is not clear.</p>
+<p>Grammaticalization of the verb ‘say’ to the jussive marker is
+attested in many languages, although not everywhere it has reached the
+stage of a suffix as in Lak. For example, Mehweb jussive is expressed by
+a combination of the full imperative of the main verb and the imperative
+of the verb ‘say’. The fact that the main arguments in the jussive
+construction are marked in accordance with the lexical verb, and not
+with the verb ‘say’, shows that this is not a regular combination of the
+matrix verb ‘say’ and an embedded imperative. Compare the following
+examples. In <span class="citation">(<a
+href="#ref-seven"><strong>seven?</strong></a> a)</span> <em>Musa</em> is
+in the nominative, since the main argument of the verb ‘work’ is
+normally in the nominative. In <span class="citation">(<a
+href="#ref-seven"><strong>seven?</strong></a> b)</span> Muħammad stands
+in the ergative, because ‘sing’ is a transitive verb with
+ergative-nominative alignment. Finally, in <span class="citation">(<a
+href="#ref-seven"><strong>seven?</strong></a> c)</span> we observe a
+usual (non-jussive) construction with the verb ‘say’, and the addressee
+is marked by inter-lative.</p>
+<ol start="7" class="example" style="list-style-type: decimal">
+<li>Mehweb <span class="citation">(<a
+href="#ref-dobrushina2019">Dobrushina 2019</a>: 135)</span></li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>musa</em>
+</td>
+<td style="text-align:left;">
+<em><strong>uz-e</strong></em>
+</td>
+<td style="text-align:left;">
+<em><strong>bet’-a</strong></em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Musa
+</td>
+<td style="text-align:left;">
+<span class="smallcaps"><strong>m</span>.work.<span
+class="smallcaps">ipfv</span>-<span style="font-variant:small-caps;">imp</strong></span>
+</td>
+<td style="text-align:left;">
+<strong>say.<span class="smallcaps">pfv</span>-<span
+class="smallcaps">imp</span>.<span style="font-variant:small-caps;">tr</strong></span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Let Musa work.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>muħammad-ini</em>
+</td>
+<td style="text-align:left;">
+<em>deč’</em>
+</td>
+<td style="text-align:left;">
+<em><strong>b-aq’-a</strong></em>
+</td>
+<td style="text-align:left;">
+<em><strong>bet’-a</strong></em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Muhammad-<span class="smallcaps">erg</span>
+</td>
+<td style="text-align:left;">
+song
+</td>
+<td style="text-align:left;">
+<span class="smallcaps"><strong>n</span>-do.<span
+class="smallcaps">pfv</span>-<span
+class="smallcaps">imp</span>.<span style="font-variant:small-caps;">tr</strong></span>
+</td>
+<td style="text-align:left;">
+<strong>say.<span class="smallcaps">pfv</span>-<span
+class="smallcaps">imp</span>.<span style="font-variant:small-caps;">tr</strong></span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Let Muhammad sing a song.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>musa-ze</em>
+</td>
+<td style="text-align:left;">
+<em><strong>uz-e</strong></em>
+</td>
+<td style="text-align:left;">
+<em><strong>bet’-a</strong></em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Musa-<span class="smallcaps">inter</span>(<span
+class="smallcaps">lat</span>)
+</td>
+<td style="text-align:left;">
+<span class="smallcaps"><strong>m</span>.work.<span
+class="smallcaps">ipfv</span>-<span style="font-variant:small-caps;">imp</strong></span>
+</td>
+<td style="text-align:left;">
+<strong>say.<span class="smallcaps">pfv</span>-<span
+class="smallcaps">imp</span>.<span style="font-variant:small-caps;">tr</strong></span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Tell Musa to work.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p><a href="http://lingconlab.ru/dagatlas/055_jussive_map.html#m2">Map
+2</a> shows all ‘say’-based jussives, regardless of their degree of
+grammaticalization - from affixes (as in Lak) to the periphrastic
+construction with two verbs, as in Mehweb, Archi, and Chirag Dargwa.
+Note that this map covers not only jussives, but also optatives with
+jussive functions as, for example, in Hinuq or Chamalal. In the chapter
+on <a
+href="http://lingconlab.ru/dagatlas/007_optative.html">Optatives</a>
+<span class="citation">(<a href="#ref-dobrushina2021">Dobrushina
+2021</a>)</span> there is another map which covers only
+‘say’-optatives.</p>
+<p>Much less frequently is jussive expressed as the imperative of a
+causativized verb. This pattern is found in Chechen, Ingush, and Kubachi
+Dargwa.</p>
+<ol start="8" class="example" style="list-style-type: decimal">
+<li>Chechen (Zarina Molochieva, p.c., cited in <span
+class="citation">(<a href="#ref-dobrushina2012">Dobrushina
+2012</a>)</span>)
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>p’eːt’mat-ie</em>
+</td>
+<td style="text-align:left;">
+<em>beːpig</em>
+</td>
+<td style="text-align:left;">
+<em>d-a-it-a</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Patimat-<span class="smallcaps">all</span>
+</td>
+<td style="text-align:left;">
+bread(<span class="smallcaps">iii</span>).<span
+class="smallcaps">nom</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">iii</span>-make-<span
+class="smallcaps">caus</span>-<span class="smallcaps">imp</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Let Patimat bake bread / Make Patimat bake bread.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p><a href="http://lingconlab.ru/dagatlas/055_jussive_map.html#m3">Map
+3</a> reflects only jussives encoded by morphological causative markers.
+Note that there are also many languages which use some kind of
+periphrastic constructions with the causative verb ‘let’ or a particle
+derived from this verb, but these cases were not included in the map,
+because it is usually difficult to distinguish between obligatory
+marking by causative verbs or particles and optional marking, which is
+found in many languages.</p>
+<p><a href="http://lingconlab.ru/dagatlas/055_jussive_map.html#m4">Map
+4</a> compares proper jussives and optatives which co-express jussive
+functions. As was mentioned in the introduction, optatives, unlike
+jussives, are compatible with all three persons. In some languages, such
+as Agul, Bagvalal, Tanty Dargwa, and Karata, optatives express an
+indirect command when they are used with a third person subject; these
+languages are reflected on this map as “optative”. Some other languages,
+such as Mehweb, have separate forms for jussive and optative, the first
+being dedicated to the expression of an indirect command, the second
+being dedicated to the expression of blessings and curses. Such
+languages are shown as “non-optatives”.</p>
+<p>Note, however, that in many languages the distinction between the
+form with jussive function (indirect command) and the form with optative
+functions (wishes) can be observed only on the level of frequency. For
+example, Kryz has two forms that can be used both for indirect command
+and for wishes, but the first function is much more typical for the
+jussive (<em>votif</em>), while the second one is more typical for the
+optative, according to Authier <span class="citation">(<a
+href="#ref-authier2009">2019</a>)</span>. In the absence of large
+corpora such issues cannot be solved, so in this study we classify the
+forms based mainly on the researchers’ judgments.</p>
+</div>
+<div id="distribution" class="section level1 hasAnchor" number="3">
+<h1 class="hasAnchor"><span class="header-section-number">3</span>
+Distribution<a href="#distribution" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p>A dedicated jussive affix is found in all Turkic languages (Kumyk,
+Nogai, and Azerbaijani), Itsari, Lak and two Lezgic languages, Kryz and
+Tsakhur. Since both Kryz and Tsakhur are in contact with Azerbaijani,
+one can suppose that the dedicated jussive has developed under its
+influence (as was suggested in <span class="citation">(<a
+href="#ref-authier2010">Authier 2010</a>)</span>).</p>
+<p>‘Say’-affixes and constructions are especially typical of Tsezic and
+Andic languages, but are also found in some Dargwa varieties and in Lak.
+Among Lezgic languages, only Rutul features this form; its geographical
+position and known history of language contact does not allow to
+hypothesize the contact origin of this form. There is also one
+Indo-European language which has an optative/jussive form with a
+‘say’-suffix, namely Tat.</p>
+<p>Morphological causatives encode jussive meanings very infrequently.
+This is found in two Nakh languages (Ingush and Chechen) and,
+unexpectedly, in Kubachi Dargwa.</p>
+<p>Co-expression of jussives by optatives is by far the most frequent
+way to express jussive meanings in the Nakh-Daghestanian family. There
+are, however, some notable exceptions. These are Ingush, Chechen, Avar,
+Botlikh, Lak, Kubachi Dargwa, Mehweb Dargwa, Chirag Dragwa, Itsari
+Dargwa, and Tsakhur; some of these languages have several optative
+affixes, none of which is used for jussives.</p>
+</div>
+<div id="list-of-glosses" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">List of glosses<a
+href="#list-of-glosses" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p><span class="smallcaps">3</span> — third person; <span
+class="smallcaps">acc</span> — accusative; <span
+class="smallcaps">adj</span> — adjective; <span
+class="smallcaps">all</span> — allative; <span
+class="smallcaps">caus</span> — causative; <span
+class="smallcaps">cvb</span> — converb; <span
+class="smallcaps">dat</span> — dative; <span
+class="smallcaps">erg</span> — ergative; <span
+class="smallcaps">gen</span> — genitive; <span
+class="smallcaps">iii</span> — class III; <span
+class="smallcaps">imp</span> — imperative; <span
+class="smallcaps">inter</span> — within (a solid object); <span
+class="smallcaps">ipfv</span> — imperfective; <span
+class="smallcaps">iv</span> — class IV; <span
+class="smallcaps">juss</span> — jussive; <span
+class="smallcaps">lat</span> — lative; <span
+class="smallcaps">m</span> — masculine; <span
+class="smallcaps">n</span> — neuter; <span
+class="smallcaps">nom</span> — nominative; <span
+class="smallcaps">obl</span> — oblique; <span
+class="smallcaps">pfv</span> — perfective; <span
+class="smallcaps">pl</span> — plural; <span
+class="smallcaps">poss</span> — possessive; <span
+class="smallcaps">ptcp</span> — participle; <span
+class="smallcaps">pv</span> — preverb; <span
+class="smallcaps">sg</span> — singular; <span
+class="smallcaps">tr</span> — transitive</p>
+</div>
+<div id="references" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">References<a href="#references"
+class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="refs" class="references csl-bib-body hanging-indent"
+line-spacing="2">
+<div id="ref-aikhenvald2010" class="csl-entry">
+Aikhenvald, A. Y. (2010). <em>Imperatives and
+<span>C</span>ommands</em>. Oxford: Oxford University Press.
+</div>
+<div id="ref-ammannvanderauwera2004" class="csl-entry">
+Ammann, A., Auwera, J. van der. (2004). Complementizer-headed
+<span>M</span>ain <span>C</span>lauses for <span>V</span>olitional
+<span>M</span>oods in the <span>L</span>anguages of
+<span>S</span>outh-<span>E</span>astern <span>E</span>urope:
+<span>A</span> <span>B</span>alkanism? In O. Mišeska Tomić (Ed.),
+<em>Balkan <span>S</span>yntax and <span>S</span>emantics</em> (pp.
+293–314). Amsterdam/Philadelphia: John Benjamins.
+</div>
+<div id="ref-authier2010" class="csl-entry">
+Authier, G. (2010). Azeri morphology in <span>K</span>ryz
+(<span>E</span>ast <span>C</span>aucasian). <em>Turkic Languages</em>,
+<em>14</em>, 14–42.
+</div>
+<div id="ref-authier2009" class="csl-entry">
+Authier, G. (2019). <em>Grammaire kryz</em>. Paris: Peeters.
+</div>
+<div id="ref-dobrushina2012" class="csl-entry">
+Dobrushina, N. (2012). What is the <span>J</span>ussive for?
+<span>A</span> study of third person commands in six
+<span>C</span>aucasian languages. <em>Linguistics</em>, <em>50</em>(1),
+1–25.
+</div>
+<div id="ref-dobrushina2019" class="csl-entry">
+Dobrushina, N. (2019). Moods of <span>M</span>ehweb. In M. Daniel, N.
+Dobrushina, D. Ganenkov (Eds.), <em>The <span>M</span>ehweb language.
+<span>E</span>ssays on phonology, morphology and syntax</em> (pp.
+117–165). Berlin: Language Science Press.
+</div>
+<div id="ref-dobrushina2021" class="csl-entry">
+Dobrushina, N. (2021). Optatives. In M. Daniel, K. Filatov, T. Maisak,
+G. Moroz, T. Mukhin, C. Naccarato, S. Verhees (Eds.), <em>Typological
+<span>A</span>tlas of the <span>L</span>anguages of
+<span>D</span>aghestan (<span>T</span>ALD)</em>. Moscow: Linguistic
+Convergence Laboratory. Retrieved from <a
+href="https://lingconlab.github.io/TALD/007_optative.html">https://lingconlab.github.io/TALD/007_optative.html</a>
+</div>
+<div id="ref-eldarova1999" class="csl-entry">
+Èlʹdarova, R. G. (1999). <em>Lakskij glagol (sistema glagolʹnogo
+slovoizmenenija) [<span>L</span>ak verb (system of verbal
+inflection)]</em>. Makhachkala: IPC DGU.
+</div>
+<div id="ref-gadzhiakhmedov2000" class="csl-entry">
+Gadžiaxmedov, N. È. (2000). <em>Slovoizmenitelʹnye kategorii imeni i
+glagola v kumykskom jazyke [<span>N</span>ominal and verbal inflectional
+categories in <span>K</span>umyk]</em>. Makhachkala: Jupiter.
+</div>
+<div id="ref-mutalov2002" class="csl-entry">
+Mutalov, R. O. (2002). <em>Glagol <span>D</span>arginskogo jazyka
+[<span>T</span>he verb in <span>D</span>argwa]</em>. Makhachkala:
+Izdatelʹsko-poligrofičeskij centr DGU.
+</div>
+<div id="ref-xrakovskij2001" class="csl-entry">
+Xrakovskij, V. S. (2001). <em>Typology of <span>I</span>mperative
+<span>C</span>onstructions</em>. Munich: Lincom Europa.
+</div>
+</div>
+</div>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+</head>
+
+<body>
+    <div class="footer-basic">
+        <footer>
+            
+            <div class='lic'><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br /><i>Typological Atlas of the languages of Daghestan </i> (<i>TALD</i>) is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+            <div class="social"><a href="https://github.com/LingConLab/TALD" target="_blank"><span class="iconify" data-icon="octicon:logo-github-16"></span></a></div>
+            </div>
+            
+            <p class="copyright">2020<script>new Date().getFullYear()>2020&&document.write("-"+new Date().getFullYear());</script>,  Linguistic Convergence Laboratory, HSE University</p>
+        </footer>
+    </div>
+    <script type="text/javascript" src="./js/links.js"></script> <!--это чтобы ссылки открывались в новом окне -->
+</body>
+
+</html>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

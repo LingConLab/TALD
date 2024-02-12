@@ -19,9 +19,9 @@ gloss_example(transliteration = "va i-nkan-i pul **tu-ğa-tir**!",
 Additionally, jussives usually can express permission (@two) and indifference (@three):
 
 (@two) Archi [@dobrushina2012: 11]
-```{r}
-gloss_example(transliteration = "sa‹r›ka laha guruč’an orχir-ši - **χːeχːa-ba**",
-              glosses = "II›look(IMP) child.OBL(ERG) sweet(IV).NOM IV.take.IPFV-CVB - **IV.take.IMP-JUSS**",
+```{r, results='asis'}
+gloss_example(transliteration = "sa‹r›ka laha guruč’an orχir-ši —  **χːeχːa-ba**",
+              glosses = "‹II›look(IMP) child.OBL(ERG) sweet(IV).NOM IV.take.IPFV-CVB — **IV.take.IMP-JUSS**",
               free_translation = "Look, the child is taking a sweet. — Let him take it.")
 ```
 
