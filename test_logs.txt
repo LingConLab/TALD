@@ -1,14 +1,7 @@
 The BibTeX entry          abdullaev2015          present in the          farewell_wishes.tsv, but absent in the biblib.xlsx
 The BibTeX entry          alexeyevverhees2020          present in the          gender_agreement_slot.tsv, but absent in the biblib.xlsx
 The BibTeX entry           jakovlev1960          present in the          gender_agreement_slot.tsv, but absent in the biblib.xlsx
-The BibTeX entry          creisselsquest2008          present in the          jussive.tsv, but absent in the biblib.xlsx
-The BibTeX entry          kozintseva2001          present in the          jussive.tsv, but absent in the biblib.xlsx
-The BibTeX entry          roncero2021          present in the          jussive.tsv, but absent in the biblib.xlsx
-The BibTeX entry          belyaevdraft2019          present in the          jussive.tsv, but absent in the biblib.xlsx
 The BibTeX entry          dobrushina2012          present in the          jussive.tsv, but absent in the biblib.xlsx
-The BibTeX entry          eldarova1999          present in the          jussive.tsv, but absent in the biblib.xlsx
-The BibTeX entry          dobrushina2021draft          present in the          jussive.tsv, but absent in the biblib.xlsx
-The BibTeX entry          alekseevaetal2023          present in the          jussive.tsv, but absent in the biblib.xlsx
 The BibTeX entry          sulejmanov1957          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
 The BibTeX entry          alekseyevverhees2020          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
 The BibTeX entry          abdullaeva2001          present in the          numeral_bases.tsv, but absent in the biblib.xlsx

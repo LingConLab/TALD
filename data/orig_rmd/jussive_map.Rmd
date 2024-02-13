@@ -55,7 +55,7 @@ feature_dataset |>
   all_data
 ```
 
-## presence of dedicated affix{.tabset .tabset-fade .tabset-pills #m1} 
+## Presence of dedicated affix{.tabset .tabset-fade .tabset-pills #m1} 
     
 ### General datapoints {-}
 
@@ -183,7 +183,7 @@ map.feature(data_granularity_map$lang4map,
 
 
     
-## say'-based suffix{.tabset .tabset-fade .tabset-pills #m2} 
+## Say-based suffix{.tabset .tabset-fade .tabset-pills #m2} 
     
 ### General datapoints {-}
 
@@ -311,7 +311,7 @@ map.feature(data_granularity_map$lang4map,
 
 
     
-## causative suffix{.tabset .tabset-fade .tabset-pills #m3} 
+## Causative suffix{.tabset .tabset-fade .tabset-pills #m3} 
     
 ### General datapoints {-}
 
@@ -439,7 +439,7 @@ map.feature(data_granularity_map$lang4map,
 
 
     
-## coexpression by optative{.tabset .tabset-fade .tabset-pills #m4} 
+## Coexpression by optative{.tabset .tabset-fade .tabset-pills #m4} 
     
 ### General datapoints {-}
 
@@ -567,7 +567,7 @@ map.feature(data_granularity_map$lang4map,
 
 
     
-## presence of dedicated affix{.tabset .tabset-fade .tabset-pills #m1} 
+## Presence of dedicated affix{.tabset .tabset-fade .tabset-pills #m1} 
     
 ### General datapoints {-}
 
@@ -695,7 +695,7 @@ map.feature(data_granularity_map$lang4map,
 
 
     
-## say'-based suffix{.tabset .tabset-fade .tabset-pills #m2} 
+## Say-based suffix{.tabset .tabset-fade .tabset-pills #m2} 
     
 ### General datapoints {-}
 
@@ -823,7 +823,7 @@ map.feature(data_granularity_map$lang4map,
 
 
     
-## causative suffix{.tabset .tabset-fade .tabset-pills #m3} 
+## Causative suffix{.tabset .tabset-fade .tabset-pills #m3} 
     
 ### General datapoints {-}
 
@@ -951,7 +951,7 @@ map.feature(data_granularity_map$lang4map,
 
 
     
-## coexpression by optative{.tabset .tabset-fade .tabset-pills #m4} 
+## Coexpression by optative{.tabset .tabset-fade .tabset-pills #m4} 
     
 ### General datapoints {-}
 

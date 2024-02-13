@@ -25,6 +25,10 @@ body {
   font-size: 14pt;
   font-family: Charis SIL;
 }
+
+td {
+  font-family: Charis SIL;
+}
    
 /* footer ниже*/
 .footer-basic .copyright {
