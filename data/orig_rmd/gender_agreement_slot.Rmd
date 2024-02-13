@@ -148,7 +148,7 @@ gloss_example(transliteration = "ʕanči-la-**gi‹j›a** t'al-eχ j-ĩʔ-a jax
 A few languages of the East Caucasian family combine not two but three grammatical categories in their expression of spatial forms (see the chapter on [Number of morphological slots in spatial forms](http://lingconlab.ru/dagatlas/054_number_of_morphological_slots_in_spatial_forms.html)). To the localization and orientation categories a third category is added as a separate inflectional morpheme. In Lak, this third morphological slot is filled by the *approximative* marker *-‹CM›-aj*. When added after the directionality marker, it indicates that the Figure moves towards the Ground without reaching it, or that the Figure moves from the area adjacent to the Ground and not from the Ground itself. In (@fourteen), the first spatial argument is marked for orientation with *-maj*, which is analyzed by Zhirkov [-@zhirkov1955] as a plural of gender III *-b* assimilated to the preceding *-n* [@zhirkov1955: 39]. The second spatial argument features the orientation marker *-naj*, where *-n* originates from assimilation of gender IV marker *-d*.
 
 (@fourteen) Lak [@kazenin2013: 61]
-```{r}
+```{r results='asis'}
               gloss_example(transliteration = "naj b-ija q'iblali-j-n-**m-aj** leluχː-ant=gu, naj d-ija xːiri-n-**n-aj** qun neχ=gu",
               glosses = "go.PRS.GER III.PL-cop.IPF qibla.OBL-SUP-LAT-**III.PL-APPR** bird-PL=and, go.PRES.GER IV-cop.IPF sea.OBL-LAT-**IV-APPR** big river=and",
               free_translation = "Birds were flying southwards and the big river was flowing towards the sea.")
