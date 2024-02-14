@@ -25,30 +25,30 @@ gloss_example(transliteration = "salamatʰ 	w-aqʼ!",
               free_translation = "May you do well!")
 ```
 
-Even within the same language community (such as a village), several farewell formulae can be used. For example, as found within a field study in Rutul villages, in the village of Kufa three speakers produced three different formulae:
+Even within the same language community (such as a village), several farewell formulae can be used. For example, as found within a field study in Rutul villages, three different formulae can be used depending on the speaker and the village:
 
-(@kufa4) Kufa Rutul (field data by Maxim Melenchenko)
+(@kufa4) Kufa Rutul (field data by Nina Dobrushina)
 ```{r}
 gloss_example(transliteration = "hɨx-dɨ raˁq w-iši-j",
               glosses = "good-ATTR road N-become-OPT",
               free_translation = "‘Have a nice trip!’ (lit. ‘May the road be good’)")
 ```
 
-(@kufa5) Kufa Rutul (field data by Maxim Melenchenko)
+(@kufa5) Kufa Rutul (field data by Nina Dobrushina)
 ```{r}
 gloss_example(transliteration = "uɣur 		w-iši-j",
               glosses = "luck[AZ] 	N-become-OPT",
               free_translation = "‘Have a nice trip!’ (lit. ‘May the luck be’)")
 ```
 
-(@kufa6) Kufa Rutul (field data by Maxim Melenchenko)
+(@kufa6) Kufa Rutul (field data by Nina Dobrushina)
 ```{r}
 gloss_example(transliteration = "ačiχ-dɨ 		raˁq 	w-iši-j",
               glosses = "open-ATTR		road	N-become-OPT",
               free_translation = "‘Have a nice trip!’ (lit. ‘May the road be open’)")
 ```
 
-Still, there usually exists one main formula which is the most frequent. In the above-mentioned village of Kufa all three speakers produced the formula in (@kufa4), while the other two formulae came up only once. In the other eleven Rutul villages which were surveyed within the same field research, the result was similar - the formula in (@kufa4) is by far the most common one. However, since most of the data analyzed in this chapter were collected from dictionaries, in most cases I did not have the opportunity to check which formula is the most common. Therefore, for each language I listed and mapped all formulae which were mentioned as expressing farewell meaning, and treated them equally.
+Still, there usually exists one main formula which is the most frequent. In twelve Rutul villages which were surveyed within the same field research, the formula in (@kufa4) is by far the most common one. However, since most of the data analyzed in this chapter were collected from dictionaries, in most cases I did not have the opportunity to check which formula is the most common. Therefore, for each language I listed and mapped all formulae which were mentioned as expressing farewell meaning, and treated them equally.
 
 ## Results
 
