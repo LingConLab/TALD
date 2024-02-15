@@ -559,7 +559,7 @@ spelling of          Dzhaliev        in farewell_wishes.Rmd:71
 spelling of          Fazir        in farewell_wishes.Rmd:71
 spelling of          JUSS        in farewell_wishes.Rmd:130
 spelling of          Khalilov        in farewell_wishes.Rmd:7
-spelling of          Kufa        in farewell_wishes.Rmd:28,30,37,44,51
+spelling of          Kufa        in farewell_wishes.Rmd:30,37,44
 spelling of          lu        in farewell_wishes.Rmd:130
 spelling of          Mazhid        in farewell_wishes.Rmd:7
 spelling of          Merdanova        in farewell_wishes.Rmd:116
