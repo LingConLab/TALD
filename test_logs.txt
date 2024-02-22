@@ -6,7 +6,6 @@ The BibTeX entry          sulejmanov1957          present in the          numera
 The BibTeX entry          alekseyevverhees2020          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
 The BibTeX entry          abdullaeva2001          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
 The BibTeX entry          karimovakhalilova2013          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
-The BibTeX entry          imnaishvili1963          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
 The obligatory field          CONTRIBUTOR          is missing in          ejective_p_bib.tsv
 The obligatory field          COMMENT          is missing in          ejective_p_bib.tsv
 The obligatory field          CONTRIBUTOR          is missing in          ejective_s_bib.tsv
@@ -481,47 +480,47 @@ spelling of          iq        in days_before_today.Rmd:34
 spelling of          iqna        in days_before_today.Rmd:34
 spelling of          nid        in days_before_today.Rmd:27
 spelling of          qa        in days_before_today.Rmd:29
-spelling of          ada        in demonstratives.Rmd:141
-spelling of          Akvakh        in demonstratives.Rmd:311
-spelling of          awedu        in demonstratives.Rmd:322
+spelling of          ada        in demonstratives.Rmd:143
+spelling of          Akvakh        in demonstratives.Rmd:315
+spelling of          awedu        in demonstratives.Rmd:326
 spelling of          Chimakuan        in demonstratives.Rmd:102
 spelling of          di        in demonstratives.Rmd:79
 spelling of          dwaara        in demonstratives.Rmd:28
-spelling of          ga        in demonstratives.Rmd:100,317,317,317
-spelling of          ge        in demonstratives.Rmd:173
-spelling of          godo        in demonstratives.Rmd:135
+spelling of          ga        in demonstratives.Rmd:100,321,321,321
+spelling of          ge        in demonstratives.Rmd:175
+spelling of          godo        in demonstratives.Rmd:137
 spelling of          hada        in demonstratives.Rmd:93
-spelling of          hara        in demonstratives.Rmd:219,219
-spelling of          hdi        in demonstratives.Rmd:194
-spelling of          hgi        in demonstratives.Rmd:194
-spelling of          hiba        in demonstratives.Rmd:232,232
-spelling of          hli        in demonstratives.Rmd:194
-spelling of          hobodu        in demonstratives.Rmd:322,322
-spelling of          homonu        in demonstratives.Rmd:322,322
+spelling of          hara        in demonstratives.Rmd:223,223
+spelling of          hdi        in demonstratives.Rmd:198
+spelling of          hgi        in demonstratives.Rmd:198
+spelling of          hiba        in demonstratives.Rmd:236,236
+spelling of          hli        in demonstratives.Rmd:198
+spelling of          hobodu        in demonstratives.Rmd:326,326
+spelling of          homonu        in demonstratives.Rmd:326,326
 spelling of          hu        in demonstratives.Rmd:93,100
-spelling of          hudi        in demonstratives.Rmd:193
+spelling of          hudi        in demonstratives.Rmd:197
 spelling of          hudo        in demonstratives.Rmd:93
-spelling of          hugi        in demonstratives.Rmd:193
-spelling of          huli        in demonstratives.Rmd:193
+spelling of          hugi        in demonstratives.Rmd:197
+spelling of          huli        in demonstratives.Rmd:197
 spelling of          hundo        in demonstratives.Rmd:79
-spelling of          idu        in demonstratives.Rmd:252
-spelling of          inu        in demonstratives.Rmd:252,252
-spelling of          iza        in demonstratives.Rmd:219,219,233,233
-spelling of          ja        in demonstratives.Rmd:135,141,141
-spelling of          jamu        in demonstratives.Rmd:135
+spelling of          idu        in demonstratives.Rmd:256
+spelling of          inu        in demonstratives.Rmd:256,256
+spelling of          iza        in demonstratives.Rmd:223,223,237,237
+spelling of          ja        in demonstratives.Rmd:137,143,143
+spelling of          jamu        in demonstratives.Rmd:137
 spelling of          je        in demonstratives.Rmd:28
 spelling of          ka        in demonstratives.Rmd:20,53
-spelling of          le        in demonstratives.Rmd:153,155,162,173
+spelling of          le        in demonstratives.Rmd:155,157,164,175
 spelling of          Maricopa        in demonstratives.Rmd:102
-spelling of          nd        in demonstratives.Rmd:232,311
+spelling of          nd        in demonstratives.Rmd:236,315
 spelling of          ni        in demonstratives.Rmd:79
-spelling of          oda        in demonstratives.Rmd:141
-spelling of          owenu        in demonstratives.Rmd:322
+spelling of          oda        in demonstratives.Rmd:143
+spelling of          owenu        in demonstratives.Rmd:326
 spelling of          Supyire        in demonstratives.Rmd:20
 spelling of          uhu        in demonstratives.Rmd:86
-spelling of          un        in demonstratives.Rmd:207
-spelling of          wa        in demonstratives.Rmd:187,194,194,194
-spelling of          yz        in demonstratives.Rmd:28,219
+spelling of          un        in demonstratives.Rmd:211
+spelling of          wa        in demonstratives.Rmd:189,198,198,198
+spelling of          yz        in demonstratives.Rmd:28,223
 spelling of          Anchiq        in erg_abs_pronouns.Rmd:235
 spelling of          de        in erg_abs_pronouns.Rmd:9,9
 spelling of          di        in erg_abs_pronouns.Rmd:88
