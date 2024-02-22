@@ -2,10 +2,6 @@ The BibTeX entry          abdullaev2015          present in the          farewel
 The BibTeX entry          alexeyevverhees2020          present in the          gender_agreement_slot.tsv, but absent in the biblib.xlsx
 The BibTeX entry           jakovlev1960          present in the          gender_agreement_slot.tsv, but absent in the biblib.xlsx
 The BibTeX entry          dobrushina2012          present in the          jussive.tsv, but absent in the biblib.xlsx
-The BibTeX entry          sulejmanov1957          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
-The BibTeX entry          alekseyevverhees2020          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
-The BibTeX entry          abdullaeva2001          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
-The BibTeX entry          karimovakhalilova2013          present in the          numeral_bases.tsv, but absent in the biblib.xlsx
 The obligatory field          CONTRIBUTOR          is missing in          ejective_p_bib.tsv
 The obligatory field          COMMENT          is missing in          ejective_p_bib.tsv
 The obligatory field          CONTRIBUTOR          is missing in          ejective_s_bib.tsv
