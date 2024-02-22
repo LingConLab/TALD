@@ -25,8 +25,8 @@ id	lang	idiom	type	genlang_point	map	value1	value1_name	feature	source	page	comm
 24	Avar	Amushi Bol'shoe	village	no	yes	vigesimal	Base of numeral system	Base of numeral system	abdulaeva2013	18		Maksim Melenchenko	2023-09-08
 25	Avar	Kharakhi	village	no	yes	vigesimal	Base of numeral system	Base of numeral system	dzhamaludinova2013	15—16		Maksim Melenchenko	2023-09-08
 26	Avar	Tlokh	village	no	yes	vigesimal	Base of numeral system	Base of numeral system	nurmagomedova2009	18		Maksim Melenchenko	2023-09-08
-27	Avar	Sasitli	village	no	yes	mixed	Base of numeral system	Base of numeral system	karimovakhalilova2013	132	Originally vigesimal, then presumably borrowed decimal crowns 50—90 from adjacent Andic languages	Maksim Melenchenko	2023-09-08
-28	Avar	Kedi	village	no	yes	mixed	Base of numeral system	Base of numeral system	karimovakhalilova2013	132	Originally vigesimal, then presumably borrowed decimal crowns 50—90 from adjacent Andic languages	Maksim Melenchenko	2023-09-08
+27	Avar	Sasitli	village	no	yes	mixed	Base of numeral system	Base of numeral system	karimovakhalilov2013	132	Originally vigesimal, then presumably borrowed decimal crowns 50—90 from adjacent Andic languages	Maksim Melenchenko	2023-09-08
+28	Avar	Kedi	village	no	yes	mixed	Base of numeral system	Base of numeral system	karimovakhalilov2013	132	Originally vigesimal, then presumably borrowed decimal crowns 50—90 from adjacent Andic languages	Maksim Melenchenko	2023-09-08
 29	Avar	Keleb Mixed	dialect_nt1	no	yes	decimal	Base of numeral system	Base of numeral system	sirazhudinovaataev2007	88		Maksim Melenchenko	2023-09-08
 30	Hinuq	Hinuq	village	yes	yes	vigesimal	Base of numeral system	Base of numeral system	forker2019	394—399		George Moroz	2023-09-08
 31	Khwarshi	Khwarshi	dialect_toplevel	yes	yes	vigesimal	Base of numeral system	Base of numeral system	imnajshvili1963	85		Maksim Melenchenko	2023-09-08
