@@ -9,7 +9,7 @@ The imperative is a grammatical mood that expresses a command. The prohibitive i
 
 According to WALS, out of all the languages that have a morphological imperative, most have distinct morphological forms for the second person singular and the second person plural (79 percent in [@vanderauweraetal2013]). This means that cross-linguistically there is a tendency for languages to distinguish between singular and plural imperatives, if they have the imperative at all. How does Daghestan as a linguistic area typologically compare to the rest of the world? According to the analysis presented in this chapter, Daghestan is indeed distinct in this regard, but not dramatically: 60 percent of the languages sampled distinguish between singular and plural imperatives. This study also explores plural marking on prohibitives, which WALS does not. 
 
-Expression of the plural on commands should be distinguished from gender-number marking on verbs, cf. (@one a,b) and (@one c,d), which is present in most Nakh-Daghestanian languages [@zakirova2023: 74].
+Expression of the plural on commands should be distinguished from gender-number marking on verbs, cf. (@one a, b) and (@one c, d), which is present in most Nakh-Daghestanian languages [@zakirova2023: 74].
 
 (@one) Rutul: Mukhad [@maxmudova2002: 159, 183]
   a.
@@ -58,7 +58,7 @@ Number can also be unmarked, as in Lezgian:
 (@three) Lezgian [@haspelmath1993: 249, 461]
   a.
 ```{r}
-gloss_example(transliteration = "aqːwaz, ja juldoš-ar za-qʰ jab aka-l*",
+gloss_example(transliteration = "aqːwaz, ja juldoš-ar za-qʰ jab aka-l",
               glosses = "Stop(IMP) PT comrade-PL 1SG-POESS ear attach-IMP",
               free_translation = "Stop, comrades, listen to me!")
 ```
@@ -72,7 +72,7 @@ gloss_example(transliteration = "aqːwaz, Peri!",
 This particular study is concerned specifically with suffixal number marking on imperatives and prohibitives, as gender-number prefixes are the same for all forms of the verb (@one). In this sense, if a given language has no number marking on the imperative outside of gender-number prefix, we view this as absence of number marking on the imperative, cf. (@four).
 
 (@four) Bagvalal: Kvanada [@kibrik2001: 321]
-```{r}
+```{r results='asis'}
 gloss_example(transliteration = "o-b bišːdi-b-da partal b-aχːa b-ah-aː **b**-e-be-ʁala-di heƛ'i o-šːu-r",
               glosses = "this-N you-GEN.N-PTC stuff N-away N-take-POT.INF **HPL**-come-IMP-PTC-DI say this-OBL.M-ERG",
               free_translation = "Come pick up this stuff of yours – he said.")
@@ -103,7 +103,7 @@ gloss_example(transliteration = "w-aˤbʡ-a-**na** rasul!",
 
 Similarly, the prohibitive plural can be marked or unmarked. Marked prohibitive plural can also be classified in a similar way: _**general plural marking**_, such as the allocutive suffix in (@seven) and _**plural marking dedicated to commands**_.
 
-(@seven) Dargwa: Tanty [@sumbatova2014: 164, 143]
+(@seven) Dargwa: Tanty [@sumbatovalander2014: 164, 143]
 
   a.
 ```{r}
@@ -151,7 +151,7 @@ gloss_example(transliteration = "χːeχːala b-exʷ-**abi** ešq-a-r",
 ## Results
 
 Among the sampled languages, plural marking on imperatives seems to be the prevailing strategy (60 percent of the languages) ([Map 1](http://lingconlab.ru/dagatlas/057_plural_marking_on_imperatives_map.html#m1)).
-Notably, some languages have multiple imperative forms with varying degrees of politeness. In Ingush the neutral (default) imperative is unmarked for plurality, while the future imperative has plural marking [@Nichols2011: 274-275]. In cases like this, we decided to map only the neutral imperative form. 
+Notably, some languages have multiple imperative forms with varying degrees of politeness. In Ingush the neutral (default) imperative is unmarked for plurality, while the future imperative has plural marking [@nichols2011: 274-275]. In cases like this, we decided to map only the neutral imperative form. 
 Fewer languages mark the plural prohibitive ([Map 2](http://lingconlab.ru/dagatlas/057_plural_marking_on_imperatives_map.html#m2)). There are no cases in which  imperative plural is absent but prohibitive plural is present. Out of all languages that have plural imperatives, around 60 percent also have plural prohibitives ([Map 5](http://lingconlab.ru/dagatlas/057_plural_marking_on_imperatives_map.html#m5)).
 
 Based on the imperative morpheme types mentioned (*unmarked*, *general plural marking* and *plural marking dedicated to commands*), it was assumed that some languages could also have *dedicated prohibitive plurals*. However, no such morphemes were found among the sampled languages. The prohibitive, if pluralised at all, is pluralised using the imperative plural marker (cf. (@nine) and (@six)).
