@@ -1,0 +1,1439 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="Vasiliy Zerzele" />
+
+
+<title>Plural marking on imperatives and prohibitives</title>
+
+<script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="site_libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="site_libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+<style type="text/css">
+/* for pandoc --citeproc since 2.11 */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">TALD</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="./about.html">About</a>
+</li>
+<li>
+  <a href="./features.html">
+    <span class="fa fa-atlas"></span>
+     
+    Features
+  </a>
+</li>
+<li>
+  <a href="./languages.html">Languages</a>
+</li>
+<li>
+  <a href="./changes.html">Changes</a>
+</li>
+<li>
+  <a href="./references.html">References</a>
+</li>
+<li>
+  <a href="./team.html">Team</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Plural marking on imperatives and
+prohibitives</h1>
+<h4 class="author">Vasiliy Zerzele</h4>
+<h4 class="date">Last update: February 2024</h4>
+
+</div>
+
+
+<p>See <a href="057_plural_marking_on_imperatives_map.html">data and
+maps</a>.</p>
+<div id="section"
+class="section level1 tabset tabset-fade tabset-pills unnumbered">
+<h1 class="tabset tabset-fade tabset-pills unnumbered"></h1>
+<div id="plain-text" class="section level2 unnumbered hasAnchor">
+<h2 class="unnumbered hasAnchor">Plain text<a href="#plain-text"
+class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Zerzele, V. (2023). “Plural marking on imperatives and prohibitives”.
+In: <em>Typological Atlas of the Languages of Daghestan (TALD)</em>. Ed.
+by M. Daniel, K. Filatov, T. Maisak, G. Moroz, T. Mukhin, C. Naccarato
+and S. Verhees. Moscow: Linguistic Convergence Laboratory, NRU HSE. DOI:
+10.5281/zenodo.6807070. <a href="http://lingconlab.ru/dagatlas"
+class="uri">http://lingconlab.ru/dagatlas</a>.</p>
+</div>
+<div id="bibtex" class="section level2 unnumbered hasAnchor">
+<h2 class="unnumbered hasAnchor">BibTeX<a href="#bibtex"
+class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<pre><code>@incollection{zerzele2023,
+  title = {Plural marking on imperatives and prohibitives},
+  author = {Vasiliy Zerzele},
+  year = {2023},
+  editor = {Michael Daniel and Konstantin Filatov and Timur Maisak and George Moroz and Timofey Mukhin and Chiara Naccarato and Samira Verhees},
+  publisher = {Linguistic Convergence Laboratory, NRU HSE},
+  address = {Moscow},
+  booktitle = {Typological Atlas of the Languages of Daghestan (TALD)},
+  url = {http://lingconlab.ru/dagatlas},
+  doi = {10.5281/zenodo.6807070},
+}</code></pre>
+</div>
+</div>
+<div id="introduction" class="section level1 hasAnchor" number="1">
+<h1 class="hasAnchor"><span class="header-section-number">1</span>
+Introduction<a href="#introduction" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p>The imperative is a grammatical mood that expresses a command. The
+prohibitive is a negative imperative, a form denoting prohibition. This
+chapter focuses on the ways plural imperatives and prohibitives are
+marked in the languages of Daghestan, and primarily on whether or not
+these plural morphemes are dedicated to commands and how they interact
+with transitivity of the verb.</p>
+<p>According to WALS, out of all the languages that have a morphological
+imperative, most have distinct morphological forms for the second person
+singular and the second person plural (79 percent in <span
+class="citation">(<a href="#ref-vanderauweraetal2013">Johan van der
+Auwera 2013</a>)</span>). This means that cross-linguistically there is
+a tendency for languages to distinguish between singular and plural
+imperatives, if they have the imperative at all. How does Daghestan as a
+linguistic area typologically compare to the rest of the world?
+According to the analysis presented in this chapter, Daghestan is indeed
+distinct in this regard, but not dramatically: 60 percent of the
+languages sampled distinguish between singular and plural imperatives.
+This study also explores plural marking on prohibitives, which WALS does
+not.</p>
+<p>Expression of the plural on commands should be distinguished from
+gender-number marking on verbs, cf. (1 a,b) and (1 c,d), which is
+present in most Nakh-Daghestanian languages <span class="citation">(<a
+href="#ref-zakirova2023">Zakirova 2023</a>: 74)</span>.</p>
+<ol class="example" style="list-style-type: decimal">
+<li>Rutul: Mukhad <span class="citation">(<a
+href="#ref-maxmudova2002">Maxmudova 2002</a>: 159, 183)</span></li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>j-ɨq’-a</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps">m</span>.<span
+class="smallcaps">sg</span>-come-<span class="smallcaps">imp</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Come! (addressing a singular speaker)’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>d-ɨq’-a</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps">hpl</span>-come-<span
+class="smallcaps">imp</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Come! (addressing several speakers)’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>j-ɨq’-as</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps">m</span>.<span
+class="smallcaps">sg</span>-come-<span class="smallcaps">inf</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘to come (singular)’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>d-ɨq’-as</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps">hpl</span>-come-<span
+class="smallcaps">inf</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘to come (plural)’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>Some Nakh-Daghestanian languages may additionally express number on
+the verb by (irregular) means independent from gender (2).</p>
+<ol start="2" class="example" style="list-style-type: decimal">
+<li>Ingush <span class="citation">(<a href="#ref-nichols2011">Nichols
+2011</a>: 313)</span>, as cited by <span class="citation">(<a
+href="#ref-zakirova2023">Zakirova 2023</a>: 103)</span></li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>ɨz</em>
+</td>
+<td style="text-align:left;">
+<em>wa-xei<strong>ra</strong></em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps">3sg</span>
+</td>
+<td style="text-align:left;">
+down-sit.<span class="smallcaps"><strong>wit</strong></span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘He sat down.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>ɨz</em>
+</td>
+<td style="text-align:left;">
+<em>wa-xei<strong>šar</strong></em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps">3pl</span>
+</td>
+<td style="text-align:left;">
+down-sit.<span
+class="smallcaps"><strong>pl</span>.<span style="font-variant:small-caps;">wit</strong></span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘They sat down.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>Number can also be unmarked, as in Lezgian:</p>
+<ol start="3" class="example" style="list-style-type: decimal">
+<li>Lezgian <span class="citation">(<a
+href="#ref-haspelmath1993">Haspelmath 1993</a>: 249, 461)</span></li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>aqːwaz,</em>
+</td>
+<td style="text-align:left;">
+<em>ja</em>
+</td>
+<td style="text-align:left;">
+<em>juldoš-ar</em>
+</td>
+<td style="text-align:left;">
+<em>za-qʰ</em>
+</td>
+<td style="text-align:left;">
+<em>jab</em>
+</td>
+<td style="text-align:left;">
+_aka-l*_
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Stop(<span class="smallcaps">imp</span>)
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">pt</span>
+</td>
+<td style="text-align:left;">
+comrade-<span class="smallcaps">pl</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">1sg</span>-<span class="smallcaps">poess</span>
+</td>
+<td style="text-align:left;">
+ear
+</td>
+<td style="text-align:left;">
+attach-<span class="smallcaps">imp</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Stop, comrades, listen to me!’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>aqːwaz,</em>
+</td>
+<td style="text-align:left;">
+<em>Peri!</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Stop(<span class="smallcaps">imp</span>)
+</td>
+<td style="text-align:left;">
+Peri
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Stop, Peri!’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>This particular study is concerned specifically with suffixal number
+marking on imperatives and prohibitives, as gender-number prefixes are
+the same for all forms of the verb (1). In this sense, if a given
+language has no number marking on the imperative outside of
+gender-number prefix, we view this as absence of number marking on the
+imperative, cf. (4).</p>
+<ol start="4" class="example" style="list-style-type: decimal">
+<li>Bagvalal: Kvanada <span class="citation">(<a
+href="#ref-kibrik2001">Kibrik et al. 2001</a>: 321)</span></li>
+</ol>
+<pre><code>&lt;table class=&quot; lightable-minimal&quot; style=&#39;font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; &#39;&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; _o-b_ &lt;/td&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; _bišːdi-b-da_ &lt;/td&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; _partal_ &lt;/td&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; _b-aχːa_ &lt;/td&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; _b-ah-aː_ &lt;/td&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; _**b**-e-be-ʁala-di_ &lt;/td&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; _heƛ&#39;i_ &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; this-&lt;span style=&quot;font-variant:small-caps;&quot;&gt;n&lt;/span&gt; &lt;/td&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; you-&lt;span style=&quot;font-variant:small-caps;&quot;&gt;gen&lt;/span&gt;.&lt;span style=&quot;font-variant:small-caps;&quot;&gt;n&lt;/span&gt;-&lt;span style=&quot;font-variant:small-caps;&quot;&gt;ptc&lt;/span&gt; &lt;/td&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; stuff &lt;/td&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; &lt;span style=&quot;font-variant:small-caps;&quot;&gt;n&lt;/span&gt;-away &lt;/td&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; &lt;span style=&quot;font-variant:small-caps;&quot;&gt;n&lt;/span&gt;-take-&lt;span style=&quot;font-variant:small-caps;&quot;&gt;pot&lt;/span&gt;.&lt;span style=&quot;font-variant:small-caps;&quot;&gt;inf&lt;/span&gt; &lt;/td&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; &lt;span style=&quot;font-variant:small-caps;&quot;&gt;**hpl**&lt;/span&gt;-come-&lt;span style=&quot;font-variant:small-caps;&quot;&gt;imp&lt;/span&gt;-&lt;span style=&quot;font-variant:small-caps;&quot;&gt;ptc&lt;/span&gt;-&lt;span style=&quot;font-variant:small-caps;&quot;&gt;di&lt;/span&gt; &lt;/td&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; say &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt; &lt;table class=&quot; lightable-minimal&quot; style=&#39;font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;&#39;&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; _o-šːu-r_ &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style=&quot;text-align:left;&quot;&gt; this-&lt;span style=&quot;font-variant:small-caps;&quot;&gt;obl&lt;/span&gt;.&lt;span style=&quot;font-variant:small-caps;&quot;&gt;m&lt;/span&gt;-&lt;span style=&quot;font-variant:small-caps;&quot;&gt;erg&lt;/span&gt; &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;tfoot&gt;&lt;tr&gt;&lt;td style=&quot;padding: 0; &quot; colspan=&quot;100%&quot;&gt;
+&lt;sup&gt;&lt;/sup&gt; &#39;Come pick up this stuff of yours – he said.&#39;&lt;/td&gt;&lt;/tr&gt;&lt;/tfoot&gt;
+&lt;/table&gt;</code></pre>
+<p>As opposed to cases in which imperative plural markers are absent (1,
+3, 4), in some languages of the area the imperative plural is
+morphologically <strong>marked</strong>. This type of imperative is
+further divided into two subtypes: <em><strong>general plural
+marking</strong></em> (e.g. a clitic in (5 a)) and <em><strong>plural
+marking dedicated to commands</strong></em> (6). In the first type, a
+plural marker found elsewhere in the language (5 b) is also used on the
+imperative. In the second type, the plural imperative has a unique,
+dedicated plural morpheme.</p>
+<ol start="5" class="example" style="list-style-type: decimal">
+<li>Udi: Nizh <span class="citation">(<a href="#ref-maisak2006">Maisak
+2006</a>: 2-3)</span></li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>äjč’ä</em>
+</td>
+<td style="text-align:left;">
+<em>ek<strong>-i-nan</strong></em>
+</td>
+<td style="text-align:left;">
+<em>beši</em>
+</td>
+<td style="text-align:left;">
+<em>k’oya</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+tomorrow
+</td>
+<td style="text-align:left;">
+come.<span class="smallcaps">imp<strong></span>-<span
+class="smallcaps">imp</span>-<span style="font-variant:small-caps;">2pl</strong></span>
+</td>
+<td style="text-align:left;">
+we.<span class="smallcaps">poss</span>
+</td>
+<td style="text-align:left;">
+house.<span class="smallcaps">dat</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Tommorow come to our house!’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>vaˤn</em>
+</td>
+<td style="text-align:left;">
+<em>za</em>
+</td>
+<td style="text-align:left;">
+<em>q’amiš<strong>-nan</strong>?</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+you.<span class="smallcaps">pl</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">i</span>.<span class="smallcaps">dat</span>
+</td>
+<td style="text-align:left;">
+understanding<strong>-<span style="font-variant:small-caps;">2pl</strong></span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Do you understand me? (Addressing several people)’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<ol start="6" class="example" style="list-style-type: decimal">
+<li>Dargwa: Mehweb <span class="citation">(<a
+href="#ref-dobrushina2019">Dobrushina 2019</a>: 123)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>w-aˤbʡ-a-<strong>na</strong></em>
+</td>
+<td style="text-align:left;">
+<em>rasul!</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps">m</span>-kill.<span
+class="smallcaps">pfv</span>-<span class="smallcaps">imp</span>.<span
+class="smallcaps">tr</span>-<span
+class="smallcaps"><strong>imp</span>.<span style="font-variant:small-caps;">pl</strong></span>
+</td>
+<td style="text-align:left;">
+Rasul
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘You all kill Rasul!’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>Similarly, the prohibitive plural can be marked or unmarked. Marked
+prohibitive plural can also be classified in a similar way:
+<em><strong>general plural marking</strong></em>, such as the allocutive
+suffix in (7) and <em><strong>plural marking dedicated to
+commands</strong></em>.</p>
+<ol start="7" class="example" style="list-style-type: decimal">
+<li>Dargwa: Tanty <span class="citation">(<a
+href="#ref-sumbatova2014"><strong>sumbatova2014?</strong></a> 164,
+143)</span></li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>če-tːi<strong>-ma-</strong>d-irk-u-tː<strong>-a-ja</strong>!</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps">on</span>-behind<strong>-<span
+class="smallcaps">proh</span>-<span style="font-variant:small-caps;"></strong>2pl</span>-fall.<span
+class="smallcaps">ipf</span>-<span class="smallcaps">th</span>-<span
+class="smallcaps">2<strong></span>-<span
+class="smallcaps">imp</span>-<span
+class="smallcaps">all</span>.<span style="font-variant:small-caps;">pl</strong></span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Don’t win!’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>čaj</em>
+</td>
+<td style="text-align:left;">
+<em>či-ž</em>
+</td>
+<td style="text-align:left;">
+<em>dikː-u-l-da<strong>-ja</strong>?</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+tea
+</td>
+<td style="text-align:left;">
+who-<span class="smallcaps">dat</span>
+</td>
+<td style="text-align:left;">
+1/2PLwant-<span class="smallcaps">prs</span>-<span
+class="smallcaps">cvb</span>-<span
+class="smallcaps">2pl<strong></span>-<span
+class="smallcaps">all</span>.<span style="font-variant:small-caps;">pl</strong></span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Who wants tea?’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>Finally, we considered the relationship between plural marking on
+imperatives and transitivity, as some languages have morphological
+number distinction only in intransitive verbs, see <span
+class="citation">(<a
+href="#ref-starodubtseva2024"><strong>starodubtseva2024?</strong></a>)</span>.</p>
+<ol start="8" class="example" style="list-style-type: decimal">
+<li>Karata: Anchiq (Konstantin Filatov, p.c.)</li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>men=al</em>
+</td>
+<td style="text-align:left;">
+<em>hosːa=ra</em>
+</td>
+<td style="text-align:left;">
+<em>gah-<strong>a</strong></em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+you.<span class="smallcaps">sg</span>=<span class="smallcaps">add</span>
+</td>
+<td style="text-align:left;">
+thus=<span class="smallcaps">emph</span>
+</td>
+<td style="text-align:left;">
+do-<span class="smallcaps"><strong>imp</strong></span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘You(SG) do it too!’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>bišdi-l=ara</em>
+</td>
+<td style="text-align:left;">
+<em>gah-<strong>a</strong></em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+you.<span class="smallcaps">pl</span>-<span
+class="smallcaps">erg</span>=<span class="smallcaps">emph</span>
+</td>
+<td style="text-align:left;">
+do-<span class="smallcaps"><strong>imp</strong></span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘You(PL) do it yourselves!’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>ʕedero</em>
+</td>
+<td style="text-align:left;">
+<em>w-ox-<strong>u</strong></em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+immediately
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">m</span>-come-<span
+class="smallcaps"><strong>imp</strong></span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Come quick!’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>χːeχːala</em>
+</td>
+<td style="text-align:left;">
+<em>b-exʷ-<strong>abi</strong></em>
+</td>
+<td style="text-align:left;">
+<em>ešq-a-r</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+fast
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">hpl</span>-come-<span
+class="smallcaps"><strong>imp</span>.<span style="font-variant:small-caps;">pl</strong></span>
+</td>
+<td style="text-align:left;">
+home-<span class="smallcaps">sup</span>-<span
+class="smallcaps">lat</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Quick, come home!’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+</div>
+<div id="results" class="section level1 hasAnchor" number="2">
+<h1 class="hasAnchor"><span class="header-section-number">2</span>
+Results<a href="#results" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p>Among the sampled languages, plural marking on imperatives seems to
+be the prevailing strategy (60 percent of the languages) (<a
+href="http://lingconlab.ru/dagatlas/057_plural_marking_on_imperatives_map.html#m1">Map
+1</a>). Notably, some languages have multiple imperative forms with
+varying degrees of politeness. In Ingush the neutral (default)
+imperative is unmarked for plurality, while the future imperative has
+plural marking <span class="citation">(<a
+href="#ref-Nichols2011"><strong>Nichols2011?</strong></a>
+274-275)</span>. In cases like this, we decided to map only the neutral
+imperative form. Fewer languages mark the plural prohibitive (<a
+href="http://lingconlab.ru/dagatlas/057_plural_marking_on_imperatives_map.html#m2">Map
+2</a>). There are no cases in which imperative plural is absent but
+prohibitive plural is present. Out of all languages that have plural
+imperatives, around 60 percent also have plural prohibitives (<a
+href="http://lingconlab.ru/dagatlas/057_plural_marking_on_imperatives_map.html#m5">Map
+5</a>).</p>
+<p>Based on the imperative morpheme types mentioned (<em>unmarked</em>,
+<em>general plural marking</em> and <em>plural marking dedicated to
+commands</em>), it was assumed that some languages could also have
+<em>dedicated prohibitive plurals</em>. However, no such morphemes were
+found among the sampled languages. The prohibitive, if pluralised at
+all, is pluralised using the imperative plural marker (cf. (9) and
+(6)).</p>
+<ol start="9" class="example" style="list-style-type: decimal">
+<li>Dargwa: Mehweb <span class="citation">(<a
+href="#ref-dobrushina2019">Dobrushina 2019</a>: 128)</span></li>
+</ol>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>deč’</em>
+</td>
+<td style="text-align:left;">
+<em>mi-m-iq’<strong>-adi-na</strong>!</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+song
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">neg</span>.<span
+class="smallcaps">vol</span>-<span class="smallcaps">n</span>-do.<span
+class="smallcaps">ipfv</span>-<span
+class="smallcaps"><strong>proh</span>-<span
+class="smallcaps">imp</span>.<span style="font-variant:small-caps;">pl</strong></span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Don’t sing! (addressing several people)’
+</td>
+</tr>
+</tfoot>
+</table>
+<p>An exception to this general rule is Chirag Dargwa, where the
+prohibitive plural (10 a) and the imperative plural (10 b) are marked
+using different morphemes:</p>
+<ol start="10" class="example" style="list-style-type: decimal">
+<li>Dargwa: Chirag <span class="citation">(<a
+href="#ref-ganenkov2021draft">Ganenkov 2021</a>)</span></li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>uncːa</em>
+</td>
+<td style="text-align:left;">
+<em>me-bšː-i<strong>-tːa</strong></em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+door(<span class="smallcaps">abs</span>)
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">proh</span>-open.<span
+class="smallcaps">ipf</span>-<span
+class="smallcaps"><strong>proh</strong></span>.<span
+class="smallcaps">tr</span>-<span
+class="smallcaps"><strong>pl</strong></span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Don’t open the door! (addressing several people)’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>ca</em>
+</td>
+<td style="text-align:left;">
+<em>čuja</em>
+</td>
+<td style="text-align:left;">
+<em>b-ic-a-<strong>ja</strong></em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+one
+</td>
+<td style="text-align:left;">
+ram(<span class="smallcaps">abs</span>)
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">n</span>.<span
+class="smallcaps">sg</span>-sell.<span class="smallcaps">pf</span>-<span
+class="smallcaps"><strong>imp</span>-<span style="font-variant:small-caps;">pl</strong></span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Sell one ram! (addressing several people)’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>But even in Chirag prohibitives can be optionally double-marked for
+plurality with the imperative plural morpheme <em>-ja</em>.</p>
+<p>Out of the 25 languages that have the plural imperative, only in 5
+plural marking is dependent on the transitivity of the verb, with
+intransitive imperatives being marked for plural <a
+href="http://lingconlab.ru/dagatlas/057_plural_marking_on_imperatives_map.html#m3">Map
+3</a>. Among them is Kubachi Dargwa, which has this split only in one
+conjugation (11). While transitive imperatives of the 1st conjugation
+class do not mark plurality (11 a, b), intransitive imperatives of the
+1st conjugation class do (11 c, d). All verbs belonging to the 2nd and
+3rd classes distinguish number irrespective of their transitivity.</p>
+<ol start="11" class="example" style="list-style-type: decimal">
+<li>Dargwa: Kubachi <span class="citation">(<a
+href="#ref-magometov1963">Magometov 1963</a>: 202)</span></li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>b-iːq’-<strong>a</strong></em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps">n</span>-do-<span
+class="smallcaps"><strong>imp</strong></span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Do!’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>b-iːq’-<strong>a</strong></em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps">n</span>-do-<span
+class="smallcaps"><strong>imp</strong></span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Do!’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>w-iːq’-<strong>e</strong></em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps">m</span>-work-<span
+class="smallcaps"><strong>imp</strong></span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Work!’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>d-iːq’-<strong>aː</strong></em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps">hpl</span>-work-<span
+class="smallcaps"><strong>imp</span>.<span style="font-variant:small-caps;">pl</strong></span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Work!’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>There are no cases of similar splits in prohibitive forms <a
+href="http://lingconlab.ru/dagatlas/057_plural_marking_on_imperatives_map.html#m4">Map
+4</a>.</p>
+</div>
+<div id="distribution" class="section level1 hasAnchor" number="3">
+<h1 class="hasAnchor"><span class="header-section-number">3</span>
+Distribution<a href="#distribution" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p>Most branches of the Nakh-Daghestanian family show a certain
+homogeneity when it comes to plural marking on imperatives. All Dargwa
+and all Nakh languages except Ingush have a morphological plural
+imperative, while all Tsezic languages lack it. However, there is no
+clear prevalence of one type over the other among Avar-Andic and Lezgic
+languages. All languages outside Nakh-Daghestanian uniformly distinguish
+between singular and plural imperatives. None of them displays plural
+marking dedicated to commands.</p>
+<p>The distribution of the morphological plural prohibitive is less
+clear. The only connection with the distribution of the plural
+imperative seems to be that both are marked in all Dargwa languages and
+unmarked in all Tsezic languages. More generally, it can be observed
+that languages that lack the plural imperative will certainly lack the
+prohibitive plural as well.</p>
+<p>The transitivity split in plural marking on imperatives is not very
+common in general and is only found in some languages of the Avar-Andic,
+Dargwa and Lezgic branches, while it is completely absent in all the
+other branches. Notably, the only Lezgic language to show the split is
+Archi.</p>
+</div>
+<div id="list-of-glosses" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">List of glosses<a
+href="#list-of-glosses" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p><span class="smallcaps">1sg</span> — first person singular; <span
+class="smallcaps">2</span> — second person; <span
+class="smallcaps"><span
+style="background-color:#00d5ff;">2pl</span></span> — ; <span
+class="smallcaps">3pl</span> — third person plural; <span
+class="smallcaps">3sg</span> — third person singular; <span
+class="smallcaps">abs</span> — absolutive; <span
+class="smallcaps">add</span> — additive; <span
+class="smallcaps">all</span> — allative; <span
+class="smallcaps">cvb</span> — converb; <span
+class="smallcaps">dat</span> — dative; <span
+class="smallcaps">di</span> — dual inclusive; <span
+class="smallcaps">emph</span> — emphatic; <span
+class="smallcaps">erg</span> — ergative; <span
+class="smallcaps">gen</span> — genitive; <span
+class="smallcaps">hpl</span> — human plural; <span
+class="smallcaps">i</span> — class I; <span
+class="smallcaps">imp</span> — imperative; <span
+class="smallcaps">inf</span> — infinitive; <span
+class="smallcaps">ipf</span> — imperfective; <span
+class="smallcaps">ipfv</span> — imperfective; <span
+class="smallcaps">lat</span> — lative; <span
+class="smallcaps">m</span> — masculine; <span
+class="smallcaps">n</span> — neuter; <span
+class="smallcaps">neg</span> — negation; <span
+class="smallcaps">obl</span> — oblique; <span class="smallcaps"><span
+style="background-color:#00d5ff;">on</span></span> — ; <span
+class="smallcaps">pf</span> — perfect; <span
+class="smallcaps">pfv</span> — perfective; <span
+class="smallcaps">pl</span> — plural; <span
+class="smallcaps">poess</span> — postessive; <span
+class="smallcaps">poss</span> — possessive; <span
+class="smallcaps">pot</span> — potential; <span
+class="smallcaps">proh</span> — prohibitive; <span
+class="smallcaps">prs</span> — present; <span
+class="smallcaps">pt</span> — presentative; <span
+class="smallcaps">ptc</span> — particle; <span
+class="smallcaps">sg</span> — singular; <span
+class="smallcaps">sup</span> — superessive; <span
+class="smallcaps">th</span> — thematic; <span
+class="smallcaps">tr</span> — transitive; <span
+class="smallcaps">vol</span> — volitional; <span
+class="smallcaps">wit</span> — witnessed</p>
+</div>
+<div id="references" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">References<a href="#references"
+class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="refs" class="references csl-bib-body hanging-indent"
+line-spacing="2">
+<div id="ref-dobrushina2019" class="csl-entry">
+Dobrushina, N. (2019). Moods of <span>M</span>ehweb. In M. Daniel, N.
+Dobrushina, D. Ganenkov (Eds.), <em>The <span>M</span>ehweb language.
+<span>E</span>ssays on phonology, morphology and syntax</em> (pp.
+117–165). Berlin: Language Science Press.
+</div>
+<div id="ref-ganenkov2021draft" class="csl-entry">
+Ganenkov, D. (2021). <em>Chirag <span>D</span>argwa</em>.
+</div>
+<div id="ref-haspelmath1993" class="csl-entry">
+Haspelmath, M. (1993). <em>A grammar of <span>L</span>ezgian</em>.
+Berlin/New York: Mouton de Gruyter.
+</div>
+<div id="ref-vanderauweraetal2013" class="csl-entry">
+Johan van der Auwera, U. P., Ludo Lejeune. (2013). The
+<span>M</span>orphological <span>I</span>mperative. In <em>The
+<span>W</span>orld <span>A</span>tlas of <span>L</span>anguage
+<span>S</span>tructures <span>O</span>nline</em>. Leipzig: Max Planck
+Institute for Evolutionary Anthropology.
+</div>
+<div id="ref-kibrik2001" class="csl-entry">
+Kibrik, A. E., Kazenin, K. I., Lyutikova, E. A., Tatevosov, S. G.
+(2001). <em>Bagvalinskij jazyk. <span>G</span>rammatika, teksty, slovari
+[<span>T</span>he <span>B</span>agvalal language. <span>G</span>rammar,
+texts, dictionary]</em>. Moscow: Nasledie.
+</div>
+<div id="ref-magometov1963" class="csl-entry">
+Magometov, A. A. (1963). <em>Kubačinskij jazyk
+[<span>K</span>ubachi]</em>. Tbilisi: Akademija Nauk Gruzinskoj SSR.
+</div>
+<div id="ref-maisak2006" class="csl-entry">
+Maisak, T. A. (2006). <em>Kratkij russko-udinskij razgovornik
+(<span>N</span>idžskij dialekt) [<span>S</span>hort <span>U</span>di
+phrasebook (<span>N</span>izh dialect)]</em>. Retrieved from <a
+href="http://udilang.narod.ru/texts/Udirazgovornik.pdf">http://udilang.narod.ru/texts/Udirazgovornik.pdf</a>
+</div>
+<div id="ref-maxmudova2002" class="csl-entry">
+Maxmudova, S. M. (2002). <em>Grammatičeskie klassy slov i grammatičeskie
+kategorii rutulʹskogo jazyka [<span>G</span>rammatical word classes and
+grammatical categories of <span>R</span>utul]</em> (PhD thesis). DGU.
+</div>
+<div id="ref-nichols2011" class="csl-entry">
+Nichols, J. (2011). <em>Ingush grammar</em>. Berkeley/Los Angeles:
+University of California Press.
+</div>
+<div id="ref-zakirova2023" class="csl-entry">
+Zakirova, A. N. (2023). <em>NUMBER <span>M</span>ARKING
+<span>A</span>CROSS <span>D</span>IFFERENT <span>W</span>ORD
+<span>C</span>LASSES <span>I</span>n <span>T</span>HE <span>E</span>AST
+<span>C</span>AUCASIAN <span>L</span>ANGUAGES</em> (PhD thesis). Moscow.
+</div>
+</div>
+</div>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+</head>
+
+<body>
+    <div class="footer-basic">
+        <footer>
+            
+            <div class='lic'><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br /><i>Typological Atlas of the languages of Daghestan </i> (<i>TALD</i>) is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+            <div class="social"><a href="https://github.com/LingConLab/TALD" target="_blank"><span class="iconify" data-icon="octicon:logo-github-16"></span></a></div>
+            </div>
+            
+            <p class="copyright">2020<script>new Date().getFullYear()>2020&&document.write("-"+new Date().getFullYear());</script>,  Linguistic Convergence Laboratory, HSE University</p>
+        </footer>
+    </div>
+    <script type="text/javascript" src="./js/links.js"></script> <!--это чтобы ссылки открывались в новом окне -->
+</body>
+
+</html>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

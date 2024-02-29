@@ -1,7 +1,6 @@
 The BibTeX entry          abdullaev2015          present in the          farewell_wishes.tsv, but absent in the biblib.xlsx
-The BibTeX entry          alexeyevverhees2020          present in the          gender_agreement_slot.tsv, but absent in the biblib.xlsx
 The BibTeX entry           jakovlev1960          present in the          gender_agreement_slot.tsv, but absent in the biblib.xlsx
-The BibTeX entry          dobrushina2012          present in the          jussive.tsv, but absent in the biblib.xlsx
+The BibTeX entry          sumbatovamutalov2003A          present in the          plural_marking_on_imperatives.tsv, but absent in the biblib.xlsx
 The obligatory field          CONTRIBUTOR          is missing in          ejective_p_bib.tsv
 The obligatory field          COMMENT          is missing in          ejective_p_bib.tsv
 The obligatory field          CONTRIBUTOR          is missing in          ejective_s_bib.tsv
@@ -375,6 +374,7 @@ The BibTeX entry gasser14 from the file uvular_voiced_stop_bib.tsv has an empty 
 The BibTeX entry gasser14 from the file velar_fricatives_bib.tsv has an empty value in the obligatory field BOOKTITLE
 The BibTeX entry gasser14 from the file voiceless_obstruents_bib.tsv has an empty value in the obligatory field BOOKTITLE
 The BibTeX entry khalilova2009 from the file numeral_bases_bib.tsv has an empty value in the obligatory field SCHOOL
+The BibTeX entry zakirova2023 from the file plural_marking_on_imperatives_bib.tsv has an empty value in the obligatory field SCHOOL
 Revise the BibTeX entry moroz20_villages from the file ejective_p_bib.tsv.
 Revise the BibTeX entry moroz20_villages from the file ejective_s_bib.tsv.
 Revise the BibTeX entry moroz20_villages from the file gemination_bib.tsv.
@@ -651,6 +651,9 @@ spelling of          excludEA        in phonology.Rmd:92,94
 spelling of          ia        in phonology.Rmd:196
 spelling of          ja        in phonology.Rmd:196
 spelling of          ue        in phonology.Rmd:196
+spelling of          Anchiq        in plural_marking_on_imperatives.Rmd:123
+spelling of          ja        in plural_marking_on_imperatives.Rmd:184
+spelling of          nd        in plural_marking_on_imperatives.Rmd:186
 spelling of          mV        in prohibitives_map.Rmd:314
 spelling of          aj        in prohibitives.Rmd:47,47,47,123
 spelling of          al        in prohibitives.Rmd:150,222
