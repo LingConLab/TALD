@@ -1,6 +1,5 @@
 The BibTeX entry          abdullaev2015          present in the          farewell_wishes.tsv, but absent in the biblib.xlsx
 The BibTeX entry           jakovlev1960          present in the          gender_agreement_slot.tsv, but absent in the biblib.xlsx
-The BibTeX entry          sumbatovamutalov2003A          present in the          plural_marking_on_imperatives.tsv, but absent in the biblib.xlsx
 The obligatory field          CONTRIBUTOR          is missing in          ejective_p_bib.tsv
 The obligatory field          COMMENT          is missing in          ejective_p_bib.tsv
 The obligatory field          CONTRIBUTOR          is missing in          ejective_s_bib.tsv
