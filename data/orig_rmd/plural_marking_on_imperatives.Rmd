@@ -59,7 +59,7 @@ Number can also be unmarked, as in Lezgian:
   a.
 ```{r}
 gloss_example(transliteration = "aqːwaz, ja juldoš-ar za-qʰ jab aka-l",
-              glosses = "Stop(IMP) PT comrade-PL 1SG-POESS ear attach-IMP",
+              glosses = "Stop(IMP) PTC comrade-PL 1SG-POESS ear attach-IMP",
               free_translation = "Stop, comrades, listen to me!")
 ```
   b.
@@ -107,14 +107,14 @@ Similarly, the prohibitive plural can be marked or unmarked. Marked prohibitive 
 
   a.
 ```{r}
-gloss_example(transliteration = "če-tːi**-ma-**d-irk-u-tː**-a-ja**!",
-              glosses = "ON-behind**-PROH-**2PL-fall.IPF-TH-2**-IMP-ALL.PL**",
+gloss_example(transliteration = "če-tːi-**ma**-d-irk-u-tː**-a-ja**!",
+              glosses = "PV-behind-**PROH**-2PL-fall.IPF-TH-2**-IMP-ALL.PL**",
               free_translation = "Don't win!")
 ``` 
   b.
 ```{r}
-gloss_example(transliteration = "čaj či-ž dikː-u-l-da**-ja**?",
-              glosses = "tea who-DAT 1/2PLwant-PRS-CVB-2PL**-ALL.PL**",
+gloss_example(transliteration = "čaj či-ž dikː-u-l-da-**ja**?",
+              glosses = "tea who-DAT 1/2PLwant-PRS-CVB-2PL-**ALL.PL**",
               free_translation = "Who wants tea?")
 ``` 
 
