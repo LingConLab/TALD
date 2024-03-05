@@ -7,9 +7,9 @@ library(lingglosses)
 
 The imperative is a grammatical mood that expresses a command. The prohibitive is a negative imperative, a form denoting prohibition. This chapter focuses on the ways plural imperatives and prohibitives are marked in the languages of Daghestan, and primarily on whether or not these plural morphemes are dedicated to commands and how they interact with transitivity of the verb. 
 
-According to WALS, out of all the languages that have a morphological imperative, most have distinct morphological forms for the second person singular and the second person plural (79 percent in [@vanderauweraetal2013]). This means that cross-linguistically there is a tendency for languages to distinguish between singular and plural imperatives, if they have the imperative at all. How does Daghestan as a linguistic area typologically compare to the rest of the world? According to the analysis presented in this chapter, Daghestan is indeed distinct in this regard, but not dramatically: 60 percent of the languages sampled distinguish between singular and plural imperatives. This study also explores plural marking on prohibitives, which WALS does not. 
+According to WALS, out of all the languages that have a morphological imperative, most have distinct morphological forms for the second person singular and the second person plural (79 percent in [@vanderauweraetal2013]). This means that cross-linguistically there is a tendency for languages to distinguish between singular and plural imperatives, if they have the imperative at all. How does Daghestan as a linguistic area typologically compare to the rest of the world? This study also explores plural marking on prohibitives, which WALS does not. 
 
-Expression of the plural on commands should be distinguished from gender-number marking on verbs, cf. (@one a, b) and (@one c, d), which is present in most Nakh-Daghestanian languages [@zakirova2023: 74].
+Expression of the plural on commands should be distinguished from gender-number marking on verbs [@zakirova2023: 74], cf. (@one a, b) and (@one c, d), which is present in most Nakh-Daghestanian languages.
 
 (@one) Rutul: Mukhad [@maxmudova2002: 159, 183]
   a.
@@ -59,13 +59,13 @@ Number can also be unmarked, as in Lezgian:
   a.
 ```{r}
 gloss_example(transliteration = "aqːwaz, ja juldoš-ar za-qʰ jab aka-l",
-              glosses = "Stop(IMP) PTC comrade-PL 1SG-POESS ear attach-IMP",
+              glosses = "stop(IMP) PTC comrade-PL 1SG-POESS ear attach-IMP",
               free_translation = "Stop, comrades, listen to me!")
 ```
   b.
 ```{r}
 gloss_example(transliteration = "aqːwaz, Peri!",
-              glosses = "Stop(IMP) Peri",
+              glosses = "stop(IMP) Peri",
               free_translation = "Stop, Peri!")
 ```
 
@@ -91,7 +91,7 @@ gloss_example(transliteration = "äjč'ä ek**-i-nan** beši k'oya",
 ```{r}
 gloss_example(transliteration = "vaˤn za q'amiš**-nan**?",
               glosses = "you.PL I.DAT understanding**-2PL**",
-              free_translation = "Do you understand me? (Addressing several people)")
+              free_translation = "Do you understand me? (addressing several people)")
 ``` 
 
 (@six) Dargwa: Mehweb [@dobrushina2019: 123]
@@ -150,7 +150,7 @@ gloss_example(transliteration = "χːeχːala b-exʷ-**abi** ešq-a-r",
 
 ## Results
 
-Among the sampled languages, plural marking on imperatives seems to be the prevailing strategy (60 percent of the languages) ([Map 1](http://lingconlab.ru/dagatlas/057_plural_marking_on_imperatives_map.html#m1)).
+Among the languages in the sample, plural marking on imperatives seems to be the prevailing strategy (55 to 60 percent of the languages, depending on the number of dialects taken into account) ([Map 1](http://lingconlab.ru/dagatlas/057_plural_marking_on_imperatives_map.html#m1)). Considering the Nakh-Daghestanian family alone slightly changes this ratio: 45 to 53 percent of the languages, again depending on the number of dialects taken into account.
 Notably, some languages have multiple imperative forms with varying degrees of politeness. In Ingush the neutral (default) imperative is unmarked for plurality, while the future imperative has plural marking [@nichols2011: 274-275]. In cases like this, we decided to map only the neutral imperative form. 
 Fewer languages mark the plural prohibitive ([Map 2](http://lingconlab.ru/dagatlas/057_plural_marking_on_imperatives_map.html#m2)). There are no cases in which  imperative plural is absent but prohibitive plural is present. Out of all languages that have plural imperatives, around 60 percent also have plural prohibitives ([Map 5](http://lingconlab.ru/dagatlas/057_plural_marking_on_imperatives_map.html#m5)).
 
@@ -183,7 +183,7 @@ gloss_example(transliteration = "ca čuja b-ic-a-**ja**",
 
 But even in Chirag prohibitives can be optionally double-marked for plurality with the imperative plural morpheme *-ja*.
 
-Out of the 25 languages that have the plural imperative, only in 5 plural marking is dependent on the transitivity of the verb, with intransitive imperatives being marked for plural [Map 3](http://lingconlab.ru/dagatlas/057_plural_marking_on_imperatives_map.html#m3). Among them is Kubachi Dargwa, which has this split only in one conjugation (@eleven). While transitive imperatives of the 1st conjugation class do not mark plurality (@eleven a, b), intransitive imperatives of the 1st conjugation class do (@eleven c, d). All verbs belonging to the 2nd and 3rd classes distinguish number irrespective of their transitivity.
+Out of the 25 languages that have the plural imperative, only in 5 plural marking is dependent on the transitivity of the verb, with intransitive imperatives being marked for plural ([Map 3](http://lingconlab.ru/dagatlas/057_plural_marking_on_imperatives_map.html#m3)). Among them is Kubachi Dargwa, which has this split only in one conjugation (@eleven). While transitive imperatives of the 1st conjugation class do not mark plurality (@eleven a, b), intransitive imperatives of the same conjugation do (@eleven c, d). All verbs belonging to the 2nd and 3rd classes distinguish number irrespective of their transitivity.
 
 (@eleven) Dargwa: Kubachi [@magometov1963: 202]
 
@@ -213,7 +213,7 @@ gloss_example(transliteration = "d-iːq'-**aː**",
 ```
 
 
-There are no cases of similar splits in prohibitive forms [Map 4](http://lingconlab.ru/dagatlas/057_plural_marking_on_imperatives_map.html#m4).
+There are no cases of similar splits in prohibitive forms ([Map 4](http://lingconlab.ru/dagatlas/057_plural_marking_on_imperatives_map.html#m4)).
 
 
 ## Distribution
