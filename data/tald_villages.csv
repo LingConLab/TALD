@@ -505,9 +505,11 @@ id	village	rus_village	lat	lon	lang	aff	family	standard	default_level	dialect_to
 595	Khushtada	Хуштада	42.517389	46.166126	Bagvalal	Andic	East Caucasian	NA	Bagvalal	Western Bagvalal	Западнобагвалинский	Tlondoda-Khushtada	Тлондинско-хуштадинский	NA	NA	NA	NA	Khushtada	bagv1239	#000066	#9900ff	2022-07-19
 596	Tlondoda	Тлондода	42.5247	46.1989	Bagvalal	Andic	East Caucasian	NA	Bagvalal	Western Bagvalal	Западнобагвалинский	Tlondoda-Khushtada	Тлондинско-хуштадинский	NA	NA	NA	NA	Tlondoda	bagv1239	#000066	#9900ff	2022-07-19
 606	Bezhta	Бежта	42.1339	46.1247	Bezhta	Tsezic	East Caucasian	NA	Bezhta	Bezhta	Бежтинский	NA	NA	NA	NA	NA	NA	Bezhta	bezh1248	#ff5050	#ff5050	2022-07-19
-603	Chantlisqure	Чантлискуре	41.9095028	45.9071768	Bezhta	Tsezic	East Caucasian	NA	Bezhta	NA	NA	NA	NA	NA	NA	NA	NA	Chantlisqure	bezh1248	#ff5050	#ff5050	2022-07-19
+603	Chantlisqure	Чантлискуре	41.9095028	45.9071768	Bezhta	Tsezic	East Caucasian	NA	Bezhta	Tlyadal	Тлядальский	NA	NA	NA	NA	NA	NA	Chantlisqure	bezh1248	#ff5050	#ff5050	2022-07-19
 604	Tlyadal	Тлядал	42.125339	46.237247	Bezhta	Tsezic	East Caucasian	NA	Bezhta	Tlyadal	Тлядальский	NA	NA	NA	NA	NA	NA	Tlyadal	bezh1248	#ff5050	#ff5050	2022-07-19
 605	Khasharkhota	Хашархота	42.12912	46.142158	Bezhta	Tsezic	East Caucasian	NA	Bezhta	Tlyadal	Тлядальский	NA	NA	NA	NA	NA	NA	Khasharkhota	bezh1248	#ff5050	#ff5050	2022-07-19
+2148	Karauzek	Караузек	43.6875	46.66278	Bezhta	Tsezic	East Caucasian	NA	Bezhta	Tlyadal	Тлядальский	NA	NA	NA	NA	NA	NA	Karauzek	bezh1248	#ff5050	#ff5050	2022-07-19
+2149	Kachalay	Качалай	43.70694	46.71	Bezhta	Tsezic	East Caucasian	NA	Bezhta	Bezhta	Бежтинский	NA	NA	NA	NA	NA	NA	Kachalay	bezh1248	#ff5050	#ff5050	2022-07-19
 610	Botlikh	Ботлих	42.667813	46.221451	Botlikh	Andic	East Caucasian	NA	Botlikh	Botlikh	Ботлихский	NA	NA	NA	NA	NA	NA	Botlikh	botl1242	#336699	#9900ff	2022-07-19
 609	Miarso	Миарсо	42.654059	46.175643	Botlikh	Andic	East Caucasian	NA	Botlikh	Miarso	Миарсинский	NA	NA	NA	NA	NA	NA	Miarso	botl1242	#336699	#9900ff	2022-07-19
 611	Ashino	Ашино	42.683462	46.156727	Botlikh	Andic	East Caucasian	NA	Botlikh	NA	NA	NA	NA	NA	NA	NA	NA	Ashino	botl1242	#336699	#9900ff	2022-07-19
