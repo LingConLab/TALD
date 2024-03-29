@@ -1,3 +1,8 @@
+```{r, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, comment = '')
+library(lingglosses)
+```
+
 ## Introduction
 
 In some East Caucasian languages, positive transitive and intransitive verbs form imperatives with different suffixes. The distinction between transitive and intransitive imperatives may also be reflected in the marking of the plural of the addressee. Negative imperatives (prohibitives) can also have a transitive split, but very infrequently, so I do not discuss them in the current chapter. The goal is to classify languages according to the way transitive and intransitive imperatives are formed and to show the distribution of these parameters.
@@ -59,12 +64,12 @@ To sum up, there are languages that divide verbs into two classes in the imperat
 
 ##### **Table 4.** Transitive / intransitive imperatives in Kubachi Dargwa [@magometov1963: 202] {#t4 -}
 
-|---------------|Transitive verb                              |Intransitive verb                           |
+|               |Transitive verb                              |Intransitive verb                           |
 |---------------|---------------------------------------------|--------------------------------------------|
 |1st conjugation|*b-aːq’-a*                                   |*w-iːq’-e*                                  |
-|---------------|`r add_gloss("N")`-do-`r add_gloss("IMP")`   |`r add_gloss("M")`-work-`r add_gloss("IMP")`|
+|               |`r add_gloss("N")`-do-`r add_gloss("IMP")`   |`r add_gloss("M")`-work-`r add_gloss("IMP")`|
 |3rd conjugation|*b-aχ-ij*                                    |*w-imd-ij*                                  |
-|---------------|`r add_gloss("N")`-learn-`r add_gloss("IMP")`|`r add_gloss("M")`-run-`r add_gloss("IMP")` |
+|               |`r add_gloss("N")`-learn-`r add_gloss("IMP")`|`r add_gloss("M")`-run-`r add_gloss("IMP")` |
 
 Another special case is found in Mehweb (Dargwa < East Caucasian). In this language a transitive split (-*a* for transitive and -*e* for intransitive) is applicable only for perfective verbs.
 
@@ -87,26 +92,26 @@ Not all languages mark the distinction of the number of addressees in the impera
 |Language (village)      |Intransitive imperative (plural addressee)                          |Transitive imperative (plural addressee)   |
 |------------------------|--------------------------------------------------------------------|-------------------------------------------|
 |Archi (Archib)          |_oci-**r**_                                                         |*ba*                                       |
-|------------------------|stop.`r add_gloss("IMP")`-`r add_gloss("PL")`                       |say.`r add_gloss("IMP")`                   |
+|                        |stop.`r add_gloss("IMP")`-`r add_gloss("PL")`                       |say.`r add_gloss("IMP")`                   |
 |Andi (Zilo)             |_rečːo-b-**ul**_                                                    |*saʁijd-o*                                 |
-|------------------------|forget.`r add_gloss("PST")`-`r add_gloss("IMP")`-`r add_gloss("PL")`|heal-`r add_gloss("IMP")`                  |
+|                        |forget.`r add_gloss("PST")`-`r add_gloss("IMP")`-`r add_gloss("PL")`|heal-`r add_gloss("IMP")`                  |
 |Chamalal (Lower Gakvari)|_m-una-b-**i**_                                                     |*čʼin-a*                                   |
-|------------------------|`r add_gloss("HPL")`-come-`r add_gloss("IMP")`-`r add_gloss("PL")`  |hit-`r add_gloss("IMP")`                   |
+|                        |`r add_gloss("HPL")`-come-`r add_gloss("IMP")`-`r add_gloss("PL")`  |hit-`r add_gloss("IMP")`                   |
 |Tindi (Tindi)           |_tʼ-ab**i**_                                                        |*bešːd-a*                                  |
-|------------------------|run-`r add_gloss("IMP.PL")`                                         |let_go-`r add_gloss("IMP")`                |
+|                        |run-`r add_gloss("IMP.PL")`                                         |let_go-`r add_gloss("IMP")`                |
 |Dargwa (Kubachi)        |_diːq’-**aː**_                                                      |*baːq’-a*                                  |
-|------------------------|work-`r add_gloss("IMP.PL")`                                        |do-`r add_gloss("IMP")`                    |
+|                        |work-`r add_gloss("IMP.PL")`                                        |do-`r add_gloss("IMP")`                    |
 
 In other languages, the plural imperative form is independent of transitivity. It is interpreted as having a single suffix for the plural of transitive and intransitive verbs like in Itsari (Dargwa < East Caucasian).
 
 ##### **Table 7.** Marking of singular / plural addressee in Itsari Dargwa [@sumbatovamutalov2003: 94] {#t7 -}
 
-|------------|Singular addressee                              |Plural addressee                                  |
+|            |Singular addressee                              |Plural addressee                                  |
 |------------|------------------------------------------------|--------------------------------------------------|
 |Intransitive|*w-išː-(i)*                                     |*d-išː-aja*                                       |
-|------------|`r add_gloss("M")`-sleep-`r add_gloss("IMP.SG")`|`r add_gloss("HPL")`-sleep-`r add_gloss("IMP.PL")`|
+|            |`r add_gloss("M")`-sleep-`r add_gloss("IMP.SG")`|`r add_gloss("HPL")`-sleep-`r add_gloss("IMP.PL")`|
 |Transitive  |*b-uc-a*                                        |*b-uc-aja*                                        |
-|------------|`r add_gloss("N")`-hold-`r add_gloss("IMP.SG")` |`r add_gloss("N")`-hold-`r add_gloss("IMP.PL")`   |
+|            |`r add_gloss("N")`-hold-`r add_gloss("IMP.SG")` |`r add_gloss("N")`-hold-`r add_gloss("IMP.PL")`   |
 
 The last group of languages shows no plural marker at all, as in Rutul (< Lezgic < East Caucasian). For these languages the selected feature is not applicable.
 
@@ -119,6 +124,7 @@ The last group of languages shows no plural marker at all, as in Rutul (< Lezgic
 |(both to singular and plural addressees)                       |(both to singular and plural addressees)  |
 
 To summarize, there are three options:
+
 - transitivity distinction in plural is absent (both transitive and intransitive verbs have the same plural form);
 - transitivity distinction in plural is present (only intransitive verbs have a plural marker);
 - no number agreement with the addressee is found in imperatives.
@@ -127,9 +133,17 @@ To summarize, there are three options:
 ## Distribution
 
 The maps allow us to establish the following distributional patterns:
+
 - transitive and intransitive imperatives differ only in the Avar-Ando-Tsezic (except Northern Akhvakh and Khwarshi) and Dargwa languages;
 - the difference in the formation of the plural also appears predominantly in the Avar-Ando-Tsezic group and in the Dargwa languages, but less frequently;
 - languages that have the distinction between transitive / intransitive verbs in the plural also have a transitivity split in suffixes. Archi is the only exception, since it has a transitivity split only in the plural marker;
 - beyond the East Caucasian family no distinction in the form of the imperative was detected depending on transitivity.
 
 
+## List of glosses {-}
+
+```{r}
+make_gloss_list(readxl::read_xlsx("../glosses.xlsx"))
+```
+
+## References {-}
