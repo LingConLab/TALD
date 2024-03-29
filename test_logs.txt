@@ -416,6 +416,8 @@ The wrong toplevel dialect name Ikhrek in the file numeral_bases.tsv
 The wrong toplevel dialect name Luchek in the file numeral_bases.tsv
 The wrong toplevel dialect name Borch-Khnov in the file numeral_bases.tsv
 The wrong toplevel dialect name Ak-Nogai in the file numeral_ordinals.tsv
+The wrong toplevel dialect name Central in the file trans_intrans_imperative.tsv
+The wrong toplevel dialect name Nothern Akhvakh in the file trans_intrans_imperative.tsv
 spelling of          chuhwanahw        in adpositions.Rmd:238
 spelling of          depi        in adpositions.Rmd:383
 spelling of          handep        in adpositions.Rmd:56
@@ -687,4 +689,18 @@ spelling of          une        in standard_of_comparison.Rmd:46,141
 spelling of          upro        in standard_of_comparison.Rmd:227
 spelling of          wor        in standard_of_comparison.Rmd:200,216
 spelling of          zi        in standard_of_comparison.Rmd:59,146
+spelling of          æ        in trans_intrans_imperative.Rmd:54
+spelling of          aja        in trans_intrans_imperative.Rmd:106,108
+spelling of          Ando        in trans_intrans_imperative.Rmd:130,131
+spelling of          Archib        in trans_intrans_imperative.Rmd:89
+spelling of          ba        in trans_intrans_imperative.Rmd:52,89
+spelling of          Gakvari        in trans_intrans_imperative.Rmd:93
+spelling of          ij        in trans_intrans_imperative.Rmd:66,66
+spelling of          imd        in trans_intrans_imperative.Rmd:66
+spelling of          mari        in trans_intrans_imperative.Rmd:18
+spelling of          oci        in trans_intrans_imperative.Rmd:89
+spelling of          uc        in trans_intrans_imperative.Rmd:108,108
+spelling of          ul        in trans_intrans_imperative.Rmd:91
+spelling of          una        in trans_intrans_imperative.Rmd:93
+spelling of          uq        in trans_intrans_imperative.Rmd:75
 spelling of          преруптивный        in voiceless_obstruents.Rmd:7
