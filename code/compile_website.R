@@ -71,7 +71,8 @@ cyr_latin_coresp <- "
 "
 
 # dataset with some transcription fixes like: Lander, Jurij -> Lander, Yury
-tr_patches <- read_csv("data/transliteration_patches.csv")
+tr_patches <- read_csv("data/transliteration_patches.csv", 
+                       show_col_types = FALSE)
 
 vector_of_patches <- tr_patches$to
 names(vector_of_patches) <- tr_patches$from

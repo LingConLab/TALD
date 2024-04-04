@@ -98,9 +98,9 @@ Not all languages mark the distinction of the number of addressees in the impera
 |Chamalal (Lower Gakvari)|_m-una-b-**i**_                                                     |*čʼin-a*                                   |
 |                        |`r add_gloss("HPL")`-come-`r add_gloss("IMP")`-`r add_gloss("PL")`  |hit-`r add_gloss("IMP")`                   |
 |Tindi (Tindi)           |_tʼ-ab**i**_                                                        |*bešːd-a*                                  |
-|                        |run-`r add_gloss("IMP.PL")`                                         |let_go-`r add_gloss("IMP")`                |
+|                        |run-`r add_gloss("IMP")`.`r add_gloss("PL")`                                         |let_go-`r add_gloss("IMP")`                |
 |Dargwa (Kubachi)        |_diːq’-**aː**_                                                      |*baːq’-a*                                  |
-|                        |work-`r add_gloss("IMP.PL")`                                        |do-`r add_gloss("IMP")`                    |
+|                        |work-`r add_gloss("IMP")`.`r add_gloss("PL")`                                        |do-`r add_gloss("IMP")`                    |
 
 In other languages, the plural imperative form is independent of transitivity. It is interpreted as having a single suffix for the plural of transitive and intransitive verbs like in Itsari (Dargwa < East Caucasian).
 
@@ -109,9 +109,9 @@ In other languages, the plural imperative form is independent of transitivity. I
 |            |Singular addressee                              |Plural addressee                                  |
 |------------|------------------------------------------------|--------------------------------------------------|
 |Intransitive|*w-išː-(i)*                                     |*d-išː-aja*                                       |
-|            |`r add_gloss("M")`-sleep-`r add_gloss("IMP.SG")`|`r add_gloss("HPL")`-sleep-`r add_gloss("IMP.PL")`|
+|            |`r add_gloss("M")`-sleep-`r add_gloss("IMP")`.`r add_gloss("SG")`|`r add_gloss("HPL")`-sleep-`r add_gloss("IMP")`.`r add_gloss("PL")`|
 |Transitive  |*b-uc-a*                                        |*b-uc-aja*                                        |
-|            |`r add_gloss("N")`-hold-`r add_gloss("IMP.SG")` |`r add_gloss("N")`-hold-`r add_gloss("IMP.PL")`   |
+|            |`r add_gloss("N")`-hold-`r add_gloss("IMP")`.`r add_gloss("SG")` |`r add_gloss("N")`-hold-`r add_gloss("IMP")`.`r add_gloss("PL")`   |
 
 The last group of languages shows no plural marker at all, as in Rutul (< Lezgic < East Caucasian). For these languages the selected feature is not applicable.
 
