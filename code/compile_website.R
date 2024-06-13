@@ -35,12 +35,21 @@ suppressPackageStartupMessages(library(tidyverse))
 library(bib2df)
 
 walk(list.files("data/orig_bib_tsv", full.names = TRUE), function(bib_tsv){
-  read_tsv(bib_tsv, progress = FALSE, show_col_types = FALSE) |>  
-    mutate(TITLE = ifelse(is.na(TITLE_TRANSLATION), TITLE, str_c(TITLE, " [", TITLE_TRANSLATION, "]")),
-           BOOKTITLE = ifelse(is.na(BOOKTITLE_TRANSLATION), BOOKTITLE, str_c(BOOKTITLE, " [", BOOKTITLE_TRANSLATION, "]"))) |>
-    df2bib(bib_tsv |> 
-                     str_remove_all("[_\\.]tsv") |> 
-                     str_replace("_bib$", "\\.bib"))
+  bib_tsv_df <- read_tsv(bib_tsv, progress = FALSE, show_col_types = FALSE)
+  
+  bib_tsv |> 
+    str_remove_all("[_\\.]tsv") |> 
+    str_replace("_bib$", "\\.bib") ->
+    result_file
+  
+  if(nrow(bib_tsv_df) == 0) {
+    write_lines("", result_file)
+  } else {
+    bib_tsv_df |>  
+      mutate(TITLE = ifelse(is.na(TITLE_TRANSLATION), TITLE, str_c(TITLE, " [", TITLE_TRANSLATION, "]")),
+             BOOKTITLE = ifelse(is.na(BOOKTITLE_TRANSLATION), BOOKTITLE, str_c(BOOKTITLE, " [", BOOKTITLE_TRANSLATION, "]"))) |>
+      df2bib(result_file)
+  }
 })
 
 readxl::read_xlsx("data/biblib.xlsx", 
