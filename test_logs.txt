@@ -1,5 +1,9 @@
+The BibTeX entry          tagiyev2006          present in the          days_after_today.tsv, but absent in the biblib.xlsx
+The BibTeX entry          tagiyev2006          present in the          days_before_today.tsv, but absent in the biblib.xlsx
+The BibTeX entry          tagiyev2006          present in the          dominant_adpositional_case.tsv, but absent in the biblib.xlsx
 The BibTeX entry          abdullaev2015          present in the          farewell_wishes.tsv, but absent in the biblib.xlsx
-The BibTeX entry           jakovlev1960          present in the          gender_agreement_slot.tsv, but absent in the biblib.xlsx
+The BibTeX entry          babalieva2013          present in the          jussive.tsv, but absent in the biblib.xlsx
+The BibTeX entry          babalieva2013          present in the          optative.tsv, but absent in the biblib.xlsx
 The obligatory field          CONTRIBUTOR          is missing in          ejective_p_bib.tsv
 The obligatory field          COMMENT          is missing in          ejective_p_bib.tsv
 The obligatory field          CONTRIBUTOR          is missing in          ejective_s_bib.tsv
