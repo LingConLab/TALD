@@ -85,7 +85,6 @@ The BibTeX entry gasser14 from the file phonology_bib.tsv has an empty value in 
 The BibTeX entry khalilova2009 from the file numeral_bases_bib.tsv has an empty value in the obligatory field SCHOOL
 The BibTeX entry zakirova2023 from the file plural_marking_on_imperatives_bib.tsv has an empty value in the obligatory field SCHOOL
 The obligatory column          date          is absent in the file          farewell_wishes.tsv
-The obligatory column          feature          is absent in the file          jussive.tsv
 The wrong village dialect name Drushtul in the file erg_abs_pronouns.tsv
 NA
 The wrong village dialect name Inkhokvari in the file numeral_bases.tsv
