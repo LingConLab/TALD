@@ -1,0 +1,110 @@
+The BibTeX entry          abdullaev2015          present in the          farewell_wishes.tsv, but absent in the biblib.xlsx
+The BibTeX entry           jakovlev1960          present in the          gender_agreement_slot.tsv, but absent in the biblib.xlsx
+The obligatory field          CONTRIBUTOR          is missing in          ejective_p_bib.tsv
+The obligatory field          COMMENT          is missing in          ejective_p_bib.tsv
+The obligatory field          CONTRIBUTOR          is missing in          ejective_s_bib.tsv
+The obligatory field          COMMENT          is missing in          ejective_s_bib.tsv
+The obligatory field          URL          is missing in          evidentiality_bib.tsv
+The obligatory field          CONTRIBUTOR          is missing in          evidentiality_bib.tsv
+The obligatory field          COMMENT          is missing in          evidentiality_bib.tsv
+The obligatory field          CONTRIBUTOR          is missing in          evidentiality_tense_bib.tsv
+The obligatory field          COMMENT          is missing in          evidentiality_tense_bib.tsv
+The obligatory field          CONTRIBUTOR          is missing in          gemination_bib.tsv
+The obligatory field          COMMENT          is missing in          gemination_bib.tsv
+The obligatory field          CONTRIBUTOR          is missing in          labials_bib.tsv
+The obligatory field          COMMENT          is missing in          labials_bib.tsv
+The obligatory field          CONTRIBUTOR          is missing in          laterals_bib.tsv
+The obligatory field          COMMENT          is missing in          laterals_bib.tsv
+The obligatory field          CONTRIBUTOR          is missing in          long_vowels_bib.tsv
+The obligatory field          COMMENT          is missing in          long_vowels_bib.tsv
+The obligatory field          CONTRIBUTOR          is missing in          nasalization_bib.tsv
+The obligatory field          COMMENT          is missing in          nasalization_bib.tsv
+The obligatory field          CONTRIBUTOR          is missing in          palatalized_consonants_bib.tsv
+The obligatory field          COMMENT          is missing in          palatalized_consonants_bib.tsv
+The obligatory field          URL          is missing in          particles_bib.tsv
+The obligatory field          CONTRIBUTOR          is missing in          particles_bib.tsv
+The obligatory field          COMMENT          is missing in          particles_bib.tsv
+The obligatory field          URL          is missing in          perfect_bib.tsv
+The obligatory field          CONTRIBUTOR          is missing in          perfect_bib.tsv
+The obligatory field          COMMENT          is missing in          perfect_bib.tsv
+The obligatory field          CONTRIBUTOR          is missing in          phonology_bib.tsv
+The obligatory field          COMMENT          is missing in          phonology_bib.tsv
+The obligatory field          CONTRIBUTOR          is missing in          umlaut_vowels_bib.tsv
+The obligatory field          COMMENT          is missing in          umlaut_vowels_bib.tsv
+The obligatory field          CONTRIBUTOR          is missing in          uvular_voiced_stop_bib.tsv
+The obligatory field          COMMENT          is missing in          uvular_voiced_stop_bib.tsv
+The obligatory field          CONTRIBUTOR          is missing in          velar_fricatives_bib.tsv
+The obligatory field          COMMENT          is missing in          velar_fricatives_bib.tsv
+The BibTeX entry verhees2019a from the file evidentiality_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry chumakina2021 from the file gender_agreement_slot_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry moran12 from the file nasalization_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry nichols13 from the file nasalization_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry maddieson11 from the file nasalization_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry maddieson11 from the file nasalization_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry hammarstrom21 from the file nasalization_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry kibrik82 from the file nasalization_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry kibrik82 from the file nasalization_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry mudrak19 from the file nasalization_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry mudrak19 from the file nasalization_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry mudrak20 from the file nasalization_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry mudrak20 from the file nasalization_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry gigineyshvili77 from the file nasalization_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry akiev77 from the file nasalization_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry kibrik1970 from the file number_of_morphological_slots_in_spatial_forms_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry ganenkovmaisak2008 from the file numeral_bases_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry ganenkovmaisak2008 from the file numeral_bases_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry caludeverkerk2016 from the file numeral_bases_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry greenberg1978 from the file numeral_bases_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry authier2010 from the file particles_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry moran12 from the file phonology_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry nichols13 from the file phonology_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry maddieson11 from the file phonology_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry maddieson11 from the file phonology_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry hammarstrom21 from the file phonology_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry kibrik82 from the file phonology_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry kibrik82 from the file phonology_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry mudrak19 from the file phonology_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry mudrak19 from the file phonology_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry mudrak20 from the file phonology_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry mudrak20 from the file phonology_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry gigineyshvili77 from the file phonology_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry akiev77 from the file phonology_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry alexeyev21 from the file nasalization_bib.tsv has an empty value in the obligatory field BOOKTITLE
+The BibTeX entry moroz21 from the file nasalization_bib.tsv has an empty value in the obligatory field BOOKTITLE
+The BibTeX entry belyayev21 from the file nasalization_bib.tsv has an empty value in the obligatory field PUBLISHER
+The BibTeX entry holiskygagua1994 from the file numeral_bases_bib.tsv has an empty value in the obligatory field PUBLISHER
+The BibTeX entry alexeyev21 from the file phonology_bib.tsv has an empty value in the obligatory field BOOKTITLE
+The BibTeX entry moroz21 from the file phonology_bib.tsv has an empty value in the obligatory field BOOKTITLE
+The BibTeX entry belyayev21 from the file phonology_bib.tsv has an empty value in the obligatory field PUBLISHER
+The BibTeX entry gasser14 from the file nasalization_bib.tsv has an empty value in the obligatory field BOOKTITLE
+The BibTeX entry gasser14 from the file phonology_bib.tsv has an empty value in the obligatory field BOOKTITLE
+The BibTeX entry khalilova2009 from the file numeral_bases_bib.tsv has an empty value in the obligatory field SCHOOL
+The BibTeX entry zakirova2023 from the file plural_marking_on_imperatives_bib.tsv has an empty value in the obligatory field SCHOOL
+The obligatory column          date          is absent in the file          farewell_wishes.tsv
+The obligatory column          feature          is absent in the file          jussive.tsv
+The wrong village dialect name Drushtul in the file erg_abs_pronouns.tsv
+NA
+The wrong village dialect name Inkhokvari in the file numeral_bases.tsv
+The wrong village dialect name Ashar Kurakh in the file numeral_bases.tsv
+The wrong village dialect name Gelkhen in the file numeral_bases.tsv
+The wrong village dialect name Maza in the file numeral_bases.tsv
+The wrong village dialect name Karakyuri in the file numeral_bases.tsv
+The wrong village dialect name Gogaz in the file numeral_bases.tsv
+The wrong village dialect name Kimil Quba in the file numeral_bases.tsv
+The wrong village dialect name Akka in the file numeral_bases.tsv
+The wrong non-toplevel 1 dialect name Siukh in the file numeral_bases.tsv
+The wrong toplevel dialect name Ak-Nogai in the file caritive_attr.tsv
+The wrong toplevel dialect name Kara-Nogai in the file caritive_attr.tsv
+The wrong toplevel dialect name Central in the file gender_agreement_slot.tsv
+The wrong toplevel dialect name Kara-Nogai in the file gender_agreement_slot.tsv
+The wrong toplevel dialect name Eastern Armenian in the file jussive.tsv
+The wrong toplevel dialect name Kara-Nogai in the file number_of_morphological_slots_in_spatial_forms.tsv
+The wrong toplevel dialect name Mukhad in the file numeral_bases.tsv
+The wrong toplevel dialect name Shinaz in the file numeral_bases.tsv
+The wrong toplevel dialect name Myukhrek in the file numeral_bases.tsv
+The wrong toplevel dialect name Ikhrek in the file numeral_bases.tsv
+The wrong toplevel dialect name Luchek in the file numeral_bases.tsv
+The wrong toplevel dialect name Borch-Khnov in the file numeral_bases.tsv
+The wrong toplevel dialect name Ak-Nogai in the file numeral_ordinals.tsv
+The wrong toplevel dialect name Central in the file trans_intrans_imperative.tsv
+The wrong toplevel dialect name Nothern Akhvakh in the file trans_intrans_imperative.tsv
