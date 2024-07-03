@@ -2,8 +2,6 @@ The BibTeX entry          tagiyev2006          present in the          days_afte
 The BibTeX entry          tagiyev2006          present in the          days_before_today.tsv, but absent in the biblib.xlsx
 The BibTeX entry          tagiyev2006          present in the          dominant_adpositional_case.tsv, but absent in the biblib.xlsx
 The BibTeX entry          abdullaev2015          present in the          farewell_wishes.tsv, but absent in the biblib.xlsx
-The BibTeX entry          babalieva2013          present in the          jussive.tsv, but absent in the biblib.xlsx
-The BibTeX entry          babalieva2013          present in the          optative.tsv, but absent in the biblib.xlsx
 The obligatory field          CONTRIBUTOR          is missing in          ejective_p_bib.tsv
 The obligatory field          COMMENT          is missing in          ejective_p_bib.tsv
 The obligatory field          CONTRIBUTOR          is missing in          ejective_s_bib.tsv
@@ -228,9 +226,6 @@ spelling of          duha        in erg_abs_pronouns.Rmd:140
 spelling of          eli        in erg_abs_pronouns.Rmd:9
 spelling of          Gakvari        in erg_abs_pronouns.Rmd:231
 spelling of          Huppuq        in erg_abs_pronouns.Rmd:293
-spelling of          ilʲe        in erg_abs_pronouns.Rmd:9
-spelling of          ilʲo        in erg_abs_pronouns.Rmd:9
-spelling of          jæ        in erg_abs_pronouns.Rmd:191
 spelling of          je        in erg_abs_pronouns.Rmd:285
 spelling of          Maxmudova        in erg_abs_pronouns.Rmd:285
 spelling of          Richa        in erg_abs_pronouns.Rmd:293
@@ -242,10 +237,6 @@ spelling of          bol        in evidentiality_tense.Rmd:89
 spelling of          NAF        in evidentiality_tense.Rmd:76,78,87
 spelling of          wo        in evidentiality_tense.Rmd:76,87
 spelling of          xil        in evidentiality_tense.Rmd:66
-spelling of          Арутюнов        in evidentiality_tense.Rmd:99
-spelling of          др        in evidentiality_tense.Rmd:99
-spelling of          и        in evidentiality_tense.Rmd:99
-spelling of          Татевосов        in evidentiality_tense.Rmd:26
 spelling of          cline        in evidentiality.Rmd:66
 spelling of          Abdullaev        in farewell_wishes.Rmd:132
 spelling of          Aghul        in farewell_wishes.Rmd:116,130
@@ -262,12 +253,7 @@ spelling of          Mazhid        in farewell_wishes.Rmd:7
 spelling of          Merdanova        in farewell_wishes.Rmd:116
 spelling of          ol        in farewell_wishes.Rmd:130
 spelling of          Solmaz        in farewell_wishes.Rmd:116
-spelling of          uğur        in farewell_wishes.Rmd:130
 spelling of          yol        in farewell_wishes.Rmd:130
-spelling of          Бог        in farewell_wishes.Rmd:132
-spelling of          отпустит        in farewell_wishes.Rmd:132
-spelling of          пусть        in farewell_wishes.Rmd:132
-spelling of          угъур        in farewell_wishes.Rmd:114
 spelling of          Abdullaev        in gender_agreement_slot.Rmd:205
 spelling of          adal        in gender_agreement_slot.Rmd:105
 spelling of          aj        in gender_agreement_slot.Rmd:148
@@ -305,7 +291,6 @@ spelling of          comon        in nasalization.Rmd:5
 spelling of          hovewer        in nasalization.Rmd:5
 spelling of          bek        in number_of_morphological_slots_in_spatial_forms.Rmd:162
 spelling of          cooccur        in number_of_morphological_slots_in_spatial_forms.Rmd:169
-spelling of          dä        in number_of_morphological_slots_in_spatial_forms.Rmd:167
 spelling of          di        in number_of_morphological_slots_in_spatial_forms.Rmd:166
 spelling of          labelled        in number_of_morphological_slots_in_spatial_forms.Rmd:115
 spelling of          maj        in number_of_morphological_slots_in_spatial_forms.Rmd:165
@@ -390,7 +375,6 @@ spelling of          une        in standard_of_comparison.Rmd:46,141
 spelling of          upro        in standard_of_comparison.Rmd:227
 spelling of          wor        in standard_of_comparison.Rmd:200,216
 spelling of          zi        in standard_of_comparison.Rmd:59,146
-spelling of          æ        in trans_intrans_imperative.Rmd:59
 spelling of          aja        in trans_intrans_imperative.Rmd:111,113
 spelling of          Ando        in trans_intrans_imperative.Rmd:137,138
 spelling of          Archib        in trans_intrans_imperative.Rmd:94
@@ -404,4 +388,3 @@ spelling of          uc        in trans_intrans_imperative.Rmd:113,113
 spelling of          ul        in trans_intrans_imperative.Rmd:96
 spelling of          una        in trans_intrans_imperative.Rmd:98
 spelling of          uq        in trans_intrans_imperative.Rmd:80
-spelling of          преруптивный        in voiceless_obstruents.Rmd:7
