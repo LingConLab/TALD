@@ -3,7 +3,9 @@ library(testthat)
 
 test_that("Test column names in the fields in bibtex tsvs", {
   map_dfr(list.files("../data/orig_bib_tsv", full.names = TRUE), function(bib_tsv){
-    df <- read_tsv(bib_tsv, n_max = 1, progress = FALSE, show_col_types = FALSE) |> 
+    df <- read_tsv(bib_tsv, n_max = 1, 
+                   progress = FALSE, 
+                   show_col_types = FALSE) |> 
       mutate(YEAR = as.character(YEAR),
              NUMBER = as.character(NUMBER))
     all_fields <-  c('CATEGORY', 
@@ -51,6 +53,8 @@ see https://en.wikipedia.org/wiki/BibTeX for the details.", {
   df <- map_dfr(list.files("../data/orig_bib_tsv/", full.names = TRUE), function(i){
     read_tsv(i, show_col_types = FALSE, progress = FALSE) %>% 
       mutate(filename = i,
+             VOLUME = as.character(VOLUME),
+             ISSUE = ifelse("ISSUE" %in% colnames(.), as.character(ISSUE), NA),
              YEAR = as.character(YEAR),
              NUMBER = as.character(NUMBER))})
   bad_category <- df[which(!(df$CATEGORY %in% c("article", "book", "booklet", 
@@ -82,7 +86,7 @@ see https://en.wikipedia.org/wiki/BibTeX for the details.", {
 test_that("Test obligatory fields in bibtex tsvs:
 see https://en.wikipedia.org/wiki/BibTeX for the details.", {
   df <- map_dfr(list.files("../data/orig_bib_tsv", full.names = TRUE), function(i){
-    read_tsv(i) %>% 
+    read_tsv(i, show_col_types = FALSE, progress = FALSE) %>% 
       mutate_all(function(x) as.character(x)) %>% 
       mutate(filename = i)})
   
@@ -238,8 +242,10 @@ see https://en.wikipedia.org/wiki/BibTeX for the details.", {
 
 test_that("Test BIBTEXKEYs", {
   df <- map_dfr(list.files("../data/orig_bib_tsv", full.names = TRUE), function(i){
-    read_tsv(i, show_col_types = FALSE, progress = FALSE) %>% 
+    read_tsv(i, show_col_types = FALSE, progress = FALSE) %>%
       mutate(filename = i,
+             ISSUE = ifelse("ISSUE" %in% colnames(.), as.character(ISSUE), NA),
+             VOLUME = as.character(VOLUME),
              YEAR = as.character(YEAR),
              NUMBER = as.character(NUMBER))})
   
