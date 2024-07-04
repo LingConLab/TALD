@@ -1,0 +1,38 @@
+
+## Introduction
+This chapter is dedicated to the regularity of numeral markers across the East Caucasian family and neighboring languages.
+
+## Results
+The numeral markers can attach to different subsets of lexemes in different East Caucasian languages. The presence or absence of the marker usually depends on the numeral lexeme, although sometimes the composition of the numeral must be taken into consideration as well. In some languages the marker is absent in non-final elements of a complex numeral (see map 10). To define different subsets of numerals, I use the lexicon of Calude, Verkerk [-@caludeverkerk2016: 5], who call numbers ‘11’—‘19’ **teens**, ‘20’—‘90’ **crowns**, ‘100’—‘900’ **hundreds**, and ‘1 000’—‘9 000’ **thousands**.
+
+Numeral markers appear more often in smaller numerals. It is typical for a language to have markers attached to monomorphemic cardinals ‘2’—‘10’ and ‘20’, sometimes ‘100’. Higher numerals are less likely to have a marker. In some languages crowns from 30 to 90 and/or hundreds from 200 to 900 constitute their own subset which does not attach the marker, whereas numerals ‘10’, ‘20’, and ‘100’ do attach it. This is characteristic of Dargic and some Andic languages. In other languages the marker appears on all cardinals (at least, no exceptions are known). This is the case for some Andic languages, Archi, Lak, and Mehweb Dargwa.
+
+The map presents a simplified overview of the presence of the marker in different subsets of numerals. Values of the parameter include popular subsets of monomorphemic numerals which carry the marker. These are: ‘1—20’, ‘2—10’, ‘2—20’, ‘1—1 000’, ‘2—1 000’. Possible monomorphemic roots are numbers from 1 to 10, 20, 100, and 100. Thus, the value ‘2—1 000’ means that numerals ‘2’—‘10’, ‘20’, ‘100’, and ‘1 000’ receive the marker. Note that subsets of numerals which receive the marker are continuous. In other words, it is hypothetically possible that numerals ‘2’—‘10’ and ‘100’ have the marker while ‘20’ does not, however, such a situation is not attested in East Caucasian languages.
+
+In Bagvalal, numerals ‘100’ and ‘1 000’ carry the marker but other hundreds (‘200’—‘900’) and thousands (‘2 000’—‘9 000’) do not. This case is uncategorizable with the defined values and thus marked as ‘other’ on the map. In several Dargic languages the numeral ‘100’ carries the marker while ‘200’ to ‘900’ do not, and thousands never carry the marker. These cases are marked as ‘2—20’. Another complex situation is attested in Kubachi Dargwa, where the marker appears only on the root ‘9’ when it is in complex numerals. This case is also impossible to describe in terms of subsets of numerals. It is also marked as ‘other’.
+
+In different languages the marker is obligatorily or optionally omitted in various contexts. For example, the marker is omitted in Tanty Dargwa when counting [@sumbatovalander2014: 94], in Karata in fast speech [@magomedbekova1971: 93]. In Bagvalal it can be optionally omitted at the end of complex numerals [@tatevosov2001numerals: 156]. It is also often omitted in approximative contexts in languages across the family:
+
+(@) Rikvani Andi (Rikvani field corpus 2016)
+```{r, echo=FALSE}
+gloss_example(transliteration = "w.oɢo ijšdu hek’a",
+              glosses = "M.four five man",
+              free_translation = "four or five people"
+)
+```
+
+(@) Tindi [@magomedova2012: 146]
+```{r, echo=FALSE}
+gloss_example(transliteration = "hoč’ʷa=ja-hac’a=ja",
+              glosses = "nine=NUM-ten=NUM",
+              free_translation = "nine to ten"
+)
+```
+
+## Distribution
+Patterns of regularity can be associated with certain phyla, e.g., Dargic languages mostly use the numeral marker with numerals from 2 to 20, whereas in Avaro-Andic languages the scope of its usage extends from 2 to 1,000. Other languages make smaller groups, e.g., Lak and Archi, which use the markers with the maximum scope from 1 to 1,000.
+
+## List of glosses
+`r add_gloss("M")` — masculine class; `r add_gloss("NUM")` — numeral marker
+
+## References

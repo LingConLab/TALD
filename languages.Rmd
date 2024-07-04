@@ -17,6 +17,11 @@ library(tidyverse)
 library(DT)
 ```
 
+This page represents idioms used in the TALD database. The East Caucasian language family has a lot of dialects and varieties. There is no unified genealogical classification of all idioms spoken in Daghestan, so we compiled our own genealogical classification that tries to merge together different traditional and modern approaches to language/dialect classification of Daghestanian languages. In this tree you can also find the geneological affiliation of each village used in the TALD. This classification is different from one you can find in [the Glottolog database](https://glottolog.org/resource/languoid/id/nakh1245). In the first tabset you can find a table that contains all the idioms used in the TALD and the corresponding chapter they are used in. In the second tabset you can find a tree that represents the genealogical classification that we use in the current version of the Atlas.
+
+## {.tabset .tabset-fade .tabset-pills} 
+
+### TALD Chapters by language
 
 ```{r}
 map(list.files("data/orig_table", full.names = TRUE), function(file){
@@ -71,5 +76,85 @@ map(list.files("data/orig_table", full.names = TRUE), function(file){
                   pageLength = 20, 
                   autoWidth = TRUE,
                   dom = 'fltpi'))
+```
+
+### Genealogical classification of TALD idioms 
+
+```{r}
+read_tsv("data/tald_villages.csv") |> 
+  filter(!is.na(village_dialect)) |> 
+  distinct(family, lang, dialect_nt1, dialect_nt2, dialect_nt3, 
+           village_dialect) |> 
+  arrange(family, lang, dialect_nt1, dialect_nt2, dialect_nt3, 
+          village_dialect) |> 
+  mutate(id = 1:n()) |> 
+  pivot_longer(names_to = "cols", values_to = "value", -id) |>
+  na.omit() |> 
+  group_by(id) |> 
+  mutate(new_col = letters[1:n()]) |> 
+  select(-cols) |> 
+  ungroup() |> 
+  pivot_wider(names_from = new_col, values_from = value) |> 
+  mutate(L1 = a |> factor() |> as.double()) |> 
+  group_by(a) |> 
+  mutate(L3 = b |> factor() |> as.double()) |>
+  group_by(b) |> 
+  mutate(L5 = c |> factor() |> as.double()) |> 
+  group_by(c) |> 
+  mutate(L7 = d |> factor() |> as.double()) |> 
+  group_by(d) |> 
+  mutate(L9 = e |> factor() |> as.double()) |> 
+  group_by(e) |> 
+  mutate(L11 = f |> factor() |> as.double()) |> 
+  ungroup() |> 
+  pivot_longer(names_to = "col", values_to = "value", a:f) |> 
+  filter(!is.na(value)) |> 
+  mutate(L2 = ifelse(col == "a", "text", "children"),
+         L4 = case_when(col == "b" ~ "text",
+                        col %in% c("a") ~ NA,
+                        TRUE ~ "children"),
+         L3 = ifelse(is.na(L4), NA, L3),
+         L6 = case_when(col == "c" ~ "text",
+                        col %in% c("a", "b") ~ NA,
+                        TRUE ~ "children"),
+         L5 = ifelse(is.na(L6), NA, L5),
+         L8 = case_when(col == "d" ~ "text",
+                        col %in% c("a", "b", "c") ~ NA,
+                        TRUE ~ "children"),
+         L7 = ifelse(is.na(L8), NA, L7),
+         L10 = case_when(col == "e" ~ "text",
+                         col %in% c("a", "b", "c", "d") ~ NA,
+                         TRUE ~ "children"),
+         L9 = ifelse(is.na(L10), NA, L9),
+         L12 = case_when(col == "f" ~ "text",
+                         col %in% c("a", "b", "c", "d", "e") ~ NA,
+                         TRUE ~ "children"),
+         L11 = ifelse(is.na(L12), NA, L11),
+         L4 = ifelse(is.na(L3), NA, L4),
+         L6 = ifelse(is.na(L5), NA, L6),
+         L8 = ifelse(is.na(L7), NA, L8),
+         L10 = ifelse(is.na(L9), NA, L10)) |> 
+  filter(!is.na(value)) |>
+  distinct(L1, L2, L3, L4, L5, L6, L7, L8, L9, L10, L11, L12, value) |> 
+  mutate_all(as.character) |> 
+  mutate(id = 1:n())  ->
+  result
+  
+result |> 
+  mutate(across(L1:L12, function(i){ifelse(i == "text", "icon", i)}),
+         value = "FALSE") |> 
+  bind_rows(result) |> 
+  arrange(id) |> 
+  select(-id) |> 
+  rrapply::rrapply(how = "unmelt") |>
+  rrapply::rrapply(condition = function(x) x == "FALSE",
+          f = as.logical,
+          how = "replace") |> 
+  modify_tree(pre = function(x) {
+    nm <- names(x)
+    if (1 %in% nm) unname(x)
+    else x
+  }) |> 
+  jsTreeR::jstree(search = TRUE)
 ```
 

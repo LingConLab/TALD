@@ -1,0 +1,54 @@
+
+## Introduction
+This chapter is dedicated to the presence of the numeral marker in the numeral ‘20’ across the East Caucasian family and neighboring languages.
+
+## Results
+In the majority of the East Caucasian languages, the number ‘20’ is expressed with a monomorphemic root, as shown in (@n_akhvakh_20). In some of these languages, it carries the numeral marker, in some it does not.
+
+(@n_akhvakh_20) Northern Akhvakh [@magomedbekova1967: 40]
+```{r, echo=FALSE}
+gloss_example(transliteration = "q’endo-da-be",
+              glosses = "twenty-NUM-CM",
+              free_translation = "20"
+)
+```
+
+In other languages ‘20’ is expressed decimally, derived from the roots ‘two’ and ‘ten’, as in other crowns (‘30’—‘90’), see (@botlikh_20). In these cases, I suggest that it is irrelevant to note whether the marker is present, since its presence is defined by properties of crowns and discussed in a separate section. ‘20’ is derived decimally in most Avar-Andic languages and it is never derived decimally in languages of other branches.
+
+(@botlikh_20) Botlikh [@saidova2001: 225]
+```{r, echo=FALSE}
+gloss_example(transliteration = "k’a-c’a-da",
+              glosses = "two-ten-NUM",
+              free_translation = "20"
+)
+```
+
+In Hinuq of the Tsezic languages, it seems that the numeral ‘20’ has the numeral marker only when multiplied, i.e. in ‘40’, ‘60’, and ‘80’ but not in ‘20’ itself, as exemplified by (@hinuq_20_30_40). [@forker2013: 394] claims that, for example, it is used in the numeral ‘40’, which is derived vigesimally. However, in Tsezic languages it is hard to distinguish the additive suffix and the numeral marker. They coincide, and their relation to one another in diachrony is unclear. [@forker2013: 394] marks -*no* after the root ‘twenty’ in the numeral ‘40’ as the additive suffix but gives no explanation with respect to its presence. Following her interpretation, on the map Hinuq is marked as a language in which ‘20’ does not receive the marker.
+
+(@hinuq_20_30_40) Hinuq [@forker2013: 394]
+```{r, echo=FALSE}
+gloss_example(transliteration = "qu",
+              glosses = "twenty",
+              free_translation = "20"
+)
+```
+```{r, echo=FALSE}
+gloss_example(transliteration = "qu=no oc’e-no",
+              glosses = "twenty=ADD ten-NUM",
+              free_translation = "30"
+)
+```
+```{r, echo=FALSE}
+gloss_example(transliteration = "q’o-no qu=no",
+              glosses = "two-NUM twenty=ADD",
+              free_translation = "40"
+)
+```
+
+## Distribution
+Many languages of the family use numeral markers with ‘20’. No areal distribution can be shown.
+
+## List of glosses
+`r add_gloss("ADD")` — additive; `r add_gloss("CM")` — class marker; `r add_gloss("NUM")` — numeral marker
+
+## References
