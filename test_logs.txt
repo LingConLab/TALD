@@ -92,7 +92,7 @@ Revise the BibTeX entry moroz20_villages from the file nasalization_bib.tsv.
 Revise the BibTeX entry moroz20_villages from the file phonology_bib.tsv.
 The wrong village dialect name Drushtul in the file erg_abs_pronouns.tsv
 NA
-The wrong village dialect name Inkhokvari in the file numeral_bases.tsv
+The wrong village dialect name Inkhokwari in the file numeral_bases.tsv
 The wrong village dialect name Gelkhen in the file numeral_bases.tsv
 The wrong village dialect name Maza in the file numeral_bases.tsv
 The wrong village dialect name Gogaz in the file numeral_bases.tsv
