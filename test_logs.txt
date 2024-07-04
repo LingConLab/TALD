@@ -90,7 +90,6 @@ The BibTeX entry khalilova2009 from the file numeral_bases_bib.tsv has an empty 
 The BibTeX entry zakirova2023 from the file plural_marking_on_imperatives_bib.tsv has an empty value in the obligatory field SCHOOL
 Revise the BibTeX entry moroz20_villages from the file nasalization_bib.tsv.
 Revise the BibTeX entry moroz20_villages from the file phonology_bib.tsv.
-The obligatory column          date          is absent in the file          farewell_wishes.tsv
 The wrong village dialect name Drushtul in the file erg_abs_pronouns.tsv
 NA
 The wrong village dialect name Inkhokvari in the file numeral_bases.tsv
@@ -198,3 +197,7 @@ spelling of          diye        in standard_of_comparison.Rmd:227
 spelling of          upro        in standard_of_comparison.Rmd:227
 spelling of          Ando        in trans_intrans_imperative.Rmd:137,138
 spelling of          mari        in trans_intrans_imperative.Rmd:23
+The BibTeX entry          maisak2008          present in the .Rmd, but absent in the causatives.bib
+The BibTeX entry          dmitriev1940          present in the .Rmd, but absent in the demonstratives.bib
+The BibTeX entry          khalilov1999          present in the .Rmd, but absent in the farewell_wishes.bib
+The BibTeX entry          imnaishvili1963          present in the .Rmd, but absent in the numeral_bases.bib
