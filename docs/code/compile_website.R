@@ -1,7 +1,7 @@
 # install packages ---------------------------------------------------------
 packages <- c("tidyverse", "testthat", "lingglosses", "lingtypology", "bib2df", 
               "DT", "knitr", "ymlthis", "rmarkdown", "RefManageR", "stringi",
-              "readxl")
+              "readxl", "jsTreeR", "rrapply")
 
 to_install <- packages[!(packages %in% installed.packages())]
 
@@ -58,8 +58,12 @@ readxl::read_xlsx("data/biblib.xlsx",
                                 rep("text", 8),
                                 "numeric", # VOLUME
                                 rep("text", 8))) |> 
-  mutate(TITLE = ifelse(is.na(TITLE_TRANSLATION), TITLE, str_c(TITLE, " [", TITLE_TRANSLATION, "]")),
-         BOOKTITLE = ifelse(is.na(BOOKTITLE_TRANSLATION), BOOKTITLE, str_c(BOOKTITLE, " [", BOOKTITLE_TRANSLATION, "]"))) |>
+  mutate(TITLE = ifelse(is.na(TITLE_TRANSLATION), 
+                        TITLE, 
+                        str_c(TITLE, " [", TITLE_TRANSLATION, "]")),
+         BOOKTITLE = ifelse(is.na(BOOKTITLE_TRANSLATION), 
+                            BOOKTITLE, 
+                            str_c(BOOKTITLE, " [", BOOKTITLE_TRANSLATION, "]"))) |>
   df2bib("data/bibliography.bib")
 
 # convert cyrillic to latin -----------------------------------------------
