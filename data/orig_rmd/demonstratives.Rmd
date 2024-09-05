@@ -103,7 +103,7 @@ Rich systems are typologically rare (in Diessel’s sample of 234 languages [-@d
 
 The systems of Kvanada Bagvalal, Godoberi and Botlikh are unexpected since, as far as can be judged from the descriptions, the deictic meanings of some demonstratives overlap (for example S&A-dist vs S-dist/S-far in Kvanada Bagvalal, A-dist vs S-prox/S&A-dist in Godoberi, S-dist vs S&A-dist/S&A-far in Botlikh) and it is not always obvious which parameters influence the choice of a particular demonstrative.
 
-Typologically unusual is also the description of the system of Kryz (Lezgic), which has a three-way system, as shown in [Table 6](#t6).
+Typologically unusual is also the system of Kryz (Lezgic), which has a three-way system, as shown in [Table 6](#t6). Unlike the canonical three-term polycentric system, Kryz lacks S&A-dist and has S-dist instead.
 
 #### **Table 6.** Kryz [@authier2009: 59-61] {#t6 -}
 
@@ -111,8 +111,6 @@ Typologically unusual is also the description of the system of Kryz (Lezgic), wh
 |--------------------------------|------------------------------|----------------------------------|
 | ‘sphere of the speaker, close’ | ‘sphere of the interlocutor’ | ‘sphere of the speaker, distant’ |
 | _u-_                           | _am_                         | _a-_                             |
-
-Unlike the canonical three-term polycentric system, Kryz lacks S&A-dist and has S-dist instead. Since S-dist is described as oriented only relative to the speaker, it is not clear under what conditions S-dist will be used and under what conditions A-prox will be used in a situation when the object is both close to the addressee and far from the speaker.
 
 The systems discussed in this section show patterns that are not attested or are very rare elsewhere. Because the data for the classification is obtained from grammars rather than results from controlled and comparable experiments, it needs to be additionally checked.
 
