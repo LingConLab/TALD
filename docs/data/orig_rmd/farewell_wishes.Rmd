@@ -131,7 +131,7 @@ The form of this word slightly varies in different Lezgic languages (*jaʁur* in
 
 Apart from these three types, there are other, less frequent formulae which are not mapped. For example, in the adjacent language communities of Tsez and Hinuq the same formula, not found in any other places, is used. It consists of the words ‘road’ and ‘send / let’, but the meaning is not transparent; most likely, the intended but not overtly expressed subject of this formula is God: ‘May [God] let the road’ (‘пусть Бог отпустит дорогу’, as it was translated by the speaker of Tsez Arsen Abdullaev).
 
-(@tsez16) Tsez  [@khalilov1999: 109]
+(@tsez16) Tsez  [@xalilov1999: 109]
 ```{r}
 gloss_example(transliteration = "huni 	r-egir-o-ƛ",
               glosses = "road 	4-send/let-IMP-OPT",

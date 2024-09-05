@@ -55,7 +55,7 @@ feature_dataset |>
   all_data
 ```
 
-## Straight way or good way{.tabset .tabset-fade .tabset-pills #m1} 
+## straight way or good way{.tabset .tabset-fade .tabset-pills #m1} 
     
 ### General datapoints {-}
 
@@ -183,7 +183,7 @@ map.feature(data_granularity_map$lang4map,
 
 
     
-## Straight way or jaʁur/juʁur/uʁur/uɣur{.tabset .tabset-fade .tabset-pills #m2} 
+## straight way or jaʁur/juʁur/uʁur/uɣur{.tabset .tabset-fade .tabset-pills #m2} 
     
 ### General datapoints {-}
 

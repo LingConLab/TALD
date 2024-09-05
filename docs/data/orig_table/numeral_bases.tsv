@@ -31,7 +31,7 @@ id	lang	idiom	type	genlang_point	map	value1	value1_name	feature	source	page	comm
 30	Hinuq	Hinuq	village	yes	yes	vigesimal	Base of numeral system	Base of numeral system	forker2019	394—399		George Moroz	2023-09-08
 31	Khwarshi	Khwarshi	dialect_toplevel	yes	yes	vigesimal	Base of numeral system	Base of numeral system	imnajshvili1963	85		Maksim Melenchenko	2023-09-08
 32	Khwarshi	Kwantlada	village	no	yes	vigesimal	Base of numeral system	Base of numeral system	khalilova2009	169—170		George Moroz	2023-09-08
-33	Khwarshi	Inkhokwari	village	no	yes	mixed	Base of numeral system	Base of numeral system	imnajshvili1963	85		Maksim Melenchenko	2023-09-08
+33	Khwarshi	Inkhokvari	village	no	yes	mixed	Base of numeral system	Base of numeral system	imnajshvili1963	85		Maksim Melenchenko	2023-09-08
 34	Tsez	Kidero	dialect_nt1	yes	yes	vigesimal	Base of numeral system	Base of numeral system	bokarev1959tsez	202—203		George Moroz	2023-09-08
 35	Bezhta	Bezhta	village	yes	yes	decimal	Base of numeral system	Base of numeral system	madieva1965	104—105		George Moroz	2023-09-08
 36	Hunzib	Hunzib	language	yes	yes	decimal	Base of numeral system	Base of numeral system	vandenberg1995	68—70		George Moroz	2023-09-08
