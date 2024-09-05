@@ -55,7 +55,7 @@ feature_dataset |>
   all_data
 ```
 
-## ergative-absolutive distinction in first and second person pronouns{.tabset .tabset-fade .tabset-pills #m1} 
+## Ergative-absolutive distinction in personal pronouns{.tabset .tabset-fade .tabset-pills #m1} 
     
 ### General datapoints {-}
 
