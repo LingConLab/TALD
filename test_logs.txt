@@ -2,41 +2,9 @@ The BibTeX entry          tagiyev2006          present in the          days_afte
 The BibTeX entry          tagiyev2006          present in the          days_before_today.tsv, but absent in the biblib.xlsx
 The BibTeX entry          tagiyev2006          present in the          dominant_adpositional_case.tsv, but absent in the biblib.xlsx
 The BibTeX entry          abdullaev2015          present in the          farewell_wishes.tsv, but absent in the biblib.xlsx
-The obligatory field          CONTRIBUTOR          is missing in          ejective_p_bib.tsv
-The obligatory field          COMMENT          is missing in          ejective_p_bib.tsv
-The obligatory field          CONTRIBUTOR          is missing in          ejective_s_bib.tsv
-The obligatory field          COMMENT          is missing in          ejective_s_bib.tsv
 The obligatory field          URL          is missing in          evidentiality_bib.tsv
-The obligatory field          CONTRIBUTOR          is missing in          evidentiality_bib.tsv
-The obligatory field          COMMENT          is missing in          evidentiality_bib.tsv
-The obligatory field          CONTRIBUTOR          is missing in          evidentiality_tense_bib.tsv
-The obligatory field          COMMENT          is missing in          evidentiality_tense_bib.tsv
-The obligatory field          CONTRIBUTOR          is missing in          gemination_bib.tsv
-The obligatory field          COMMENT          is missing in          gemination_bib.tsv
-The obligatory field          CONTRIBUTOR          is missing in          labials_bib.tsv
-The obligatory field          COMMENT          is missing in          labials_bib.tsv
-The obligatory field          CONTRIBUTOR          is missing in          laterals_bib.tsv
-The obligatory field          COMMENT          is missing in          laterals_bib.tsv
-The obligatory field          CONTRIBUTOR          is missing in          long_vowels_bib.tsv
-The obligatory field          COMMENT          is missing in          long_vowels_bib.tsv
-The obligatory field          CONTRIBUTOR          is missing in          nasalization_bib.tsv
-The obligatory field          COMMENT          is missing in          nasalization_bib.tsv
-The obligatory field          CONTRIBUTOR          is missing in          palatalized_consonants_bib.tsv
-The obligatory field          COMMENT          is missing in          palatalized_consonants_bib.tsv
 The obligatory field          URL          is missing in          particles_bib.tsv
-The obligatory field          CONTRIBUTOR          is missing in          particles_bib.tsv
-The obligatory field          COMMENT          is missing in          particles_bib.tsv
 The obligatory field          URL          is missing in          perfect_bib.tsv
-The obligatory field          CONTRIBUTOR          is missing in          perfect_bib.tsv
-The obligatory field          COMMENT          is missing in          perfect_bib.tsv
-The obligatory field          CONTRIBUTOR          is missing in          phonology_bib.tsv
-The obligatory field          COMMENT          is missing in          phonology_bib.tsv
-The obligatory field          CONTRIBUTOR          is missing in          umlaut_vowels_bib.tsv
-The obligatory field          COMMENT          is missing in          umlaut_vowels_bib.tsv
-The obligatory field          CONTRIBUTOR          is missing in          uvular_voiced_stop_bib.tsv
-The obligatory field          COMMENT          is missing in          uvular_voiced_stop_bib.tsv
-The obligatory field          CONTRIBUTOR          is missing in          velar_fricatives_bib.tsv
-The obligatory field          COMMENT          is missing in          velar_fricatives_bib.tsv
 The BibTeX entry moroz20_villages from nasalization_bib.tsv has the wrong CATEGORY value: dataset
 The BibTeX entry eurasianphonology from nasalization_bib.tsv has the wrong CATEGORY value: misk
 The BibTeX entry grawunder from nasalization_bib.tsv has the wrong CATEGORY value: misk

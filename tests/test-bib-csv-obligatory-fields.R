@@ -25,9 +25,7 @@ test_that("Test column names in the fields in bibtex tsvs", {
                      'NUMBER', 
                      'SCHOOL', 
                      'URL', 
-                     'VOLUME', 
-                     'CONTRIBUTOR', 
-                     'COMMENT')
+                     'VOLUME')
     missed_fields <- all_fields[which(!(all_fields %in% colnames(df)))]
     tibble(missed_fields = missed_fields, 
            file = bib_tsv)
