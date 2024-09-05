@@ -1,4 +1,5 @@
 Abaza
+Abdullaev
 Abkhaz
 absolutive
 accompanee
@@ -47,6 +48,7 @@ Bezhta
 bimorphemic
 Botlikh
 Budukh
+Bulbul
 Buynaksk
 calqued
 Calude
@@ -100,6 +102,7 @@ Dmitry
 Dobrushina
 DOI
 durative
+Dzhaliev
 egophoric
 ejective
 Ekaterina
@@ -118,6 +121,8 @@ evidentiality
 evidentially
 exophora
 experiencer
+Fazir
+Fazir
 Filatov
 Forker
 formant
@@ -146,6 +151,7 @@ homonymous
 HPL
 HSE
 Hunzib
+Huppuq
 Huppuq'
 Ilya
 Imnajšvili
@@ -219,6 +225,7 @@ Marche
 Mariyat
 masculine
 Matyukhina
+Maxmudova
 Mehweb
 Melenchenko
 Mikhin
@@ -357,4 +364,5 @@ Zaqatala
 Zemicheva
 zenodo
 Zerzele
+Zhirkov
 Zilo

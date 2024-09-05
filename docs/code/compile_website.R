@@ -1,7 +1,7 @@
 # install packages ---------------------------------------------------------
 packages <- c("tidyverse", "testthat", "lingglosses", "lingtypology", "bib2df", 
               "DT", "knitr", "ymlthis", "rmarkdown", "RefManageR", "stringi",
-              "readxl", "jsTreeR", "rrapply")
+              "readxl", "jsTreeR", "rrapply", "spelling")
 
 to_install <- packages[!(packages %in% installed.packages())]
 
