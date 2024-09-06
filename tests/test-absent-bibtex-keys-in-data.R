@@ -2,20 +2,23 @@ library(tidyverse)
 library(testthat)
 
 test_that("Test bibkeys in data:", {
-  biblib <- readxl::read_xlsx("../data/biblib.xlsx", 
-                              range = readxl::cell_cols("B"))$BIBTEXKEY
+  readxl::read_xlsx("../data/biblib.xlsx", 
+                              range = readxl::cell_cols("B")) |> 
+    pull(BIBTEXKEY) ->
+    biblib
   
-  map(list.files("../data/orig_table", full.names = TRUE), function(tbl){
-    read_tsv(tbl, show_col_types = FALSE, col_select = "source") %>% 
-      rename(refs = source) %>% 
-      tibble(files = str_remove(tbl, "../data/orig_table/"))})  %>% 
-    list_rbind() %>% 
-    mutate(refs = str_split(refs, "; "))  %>% 
-    unnest_longer(refs) %>% 
-    filter(str_detect(refs, "\\w*?\\d{4}([a-z])?")) %>% 
-    na.omit() %>% 
-    distinct() %>% 
-    mutate(detected = refs %in% biblib) %>% 
+  list.files("../data/orig_table", full.names = TRUE) |> 
+    map(function(tbl){
+      read_tsv(tbl, show_col_types = FALSE, col_select = "source") |> 
+        rename(refs = source) |> 
+        tibble(files = str_remove(tbl, "../data/orig_table/"))}) |> 
+    list_rbind() |> 
+    mutate(refs = str_split(refs, "; "))  |> 
+    unnest_longer(refs) |> 
+    filter(str_detect(refs, "\\w*?\\d{4}([a-z])?")) |> 
+    na.omit() |> 
+    distinct() |> 
+    mutate(detected = refs %in% biblib) |> 
     filter(!detected) ->
     refs_absent_in_biblib
   
