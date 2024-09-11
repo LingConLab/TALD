@@ -1,72 +1,21 @@
-The BibTeX entry          tagiyev2006          present in the          days_after_today.tsv, but absent in the biblib.xlsx
-The BibTeX entry          tagiyev2006          present in the          days_before_today.tsv, but absent in the biblib.xlsx
 The BibTeX entry          tagiyev2006          present in the          dominant_adpositional_case.tsv, but absent in the biblib.xlsx
-The BibTeX entry          magomedovaabdullaeva2007          present in the          farewell_wishes.tsv, but absent in the biblib.xlsx
-The BibTeX entry          saidovaabuzov2012          present in the          farewell_wishes.tsv, but absent in the biblib.xlsx
-The BibTeX entry          yusupov2015          present in the          farewell_wishes.tsv, but absent in the biblib.xlsx
-The BibTeX entry          magometov1964          present in the          farewell_wishes.tsv, but absent in the biblib.xlsx
-The BibTeX entry          talibov1966          present in the          farewell_wishes.tsv, but absent in the biblib.xlsx
-The BibTeX entry          alisultanov2019          present in the          farewell_wishes.tsv, but absent in the biblib.xlsx
-The BibTeX entry          xanmagomedovshalbuzov2002          present in the          farewell_wishes.tsv, but absent in the biblib.xlsx
-The BibTeX entry          naftaliev2018          present in the          farewell_wishes.tsv, but absent in the biblib.xlsx
-The BibTeX entry          khalilov1999          present in the          farewell_wishes.tsv, but absent in the biblib.xlsx
-The BibTeX entry          khalilov2000          present in the          farewell_wishes.tsv, but absent in the biblib.xlsx
 The obligatory field          URL          is missing in          evidentiality_bib.tsv
 The obligatory field          URL          is missing in          particles_bib.tsv
 The obligatory field          URL          is missing in          perfect_bib.tsv
-The BibTeX entry moroz20_villages from nasalization_bib.tsv has the wrong CATEGORY value: dataset
-The BibTeX entry eurasianphonology from nasalization_bib.tsv has the wrong CATEGORY value: misk
-The BibTeX entry grawunder from nasalization_bib.tsv has the wrong CATEGORY value: misk
-The BibTeX entry moroz20_villages from phonology_bib.tsv has the wrong CATEGORY value: dataset
-The BibTeX entry eurasianphonology from phonology_bib.tsv has the wrong CATEGORY value: misk
-The BibTeX entry grawunder from phonology_bib.tsv has the wrong CATEGORY value: misk
 The BibTeX entry verhees2019a from the file evidentiality_bib.tsv has an empty value in the obligatory field VOLUME
 The BibTeX entry chumakina2021 from the file gender_agreement_slot_bib.tsv has an empty value in the obligatory field VOLUME
-The BibTeX entry moran12 from the file nasalization_bib.tsv has an empty value in the obligatory field VOLUME
-The BibTeX entry nichols13 from the file nasalization_bib.tsv has an empty value in the obligatory field VOLUME
-The BibTeX entry maddieson11 from the file nasalization_bib.tsv has an empty value in the obligatory field JOURNAL
-The BibTeX entry maddieson11 from the file nasalization_bib.tsv has an empty value in the obligatory field VOLUME
-The BibTeX entry hammarstrom21 from the file nasalization_bib.tsv has an empty value in the obligatory field VOLUME
-The BibTeX entry kibrik82 from the file nasalization_bib.tsv has an empty value in the obligatory field JOURNAL
-The BibTeX entry kibrik82 from the file nasalization_bib.tsv has an empty value in the obligatory field VOLUME
-The BibTeX entry mudrak19 from the file nasalization_bib.tsv has an empty value in the obligatory field JOURNAL
-The BibTeX entry mudrak19 from the file nasalization_bib.tsv has an empty value in the obligatory field VOLUME
-The BibTeX entry mudrak20 from the file nasalization_bib.tsv has an empty value in the obligatory field JOURNAL
-The BibTeX entry mudrak20 from the file nasalization_bib.tsv has an empty value in the obligatory field VOLUME
-The BibTeX entry gigineyshvili77 from the file nasalization_bib.tsv has an empty value in the obligatory field VOLUME
-The BibTeX entry akiev77 from the file nasalization_bib.tsv has an empty value in the obligatory field VOLUME
 The BibTeX entry kibrik1970 from the file number_of_morphological_slots_in_spatial_forms_bib.tsv has an empty value in the obligatory field VOLUME
 The BibTeX entry ganenkovmaisak2008 from the file numeral_bases_bib.tsv has an empty value in the obligatory field JOURNAL
 The BibTeX entry ganenkovmaisak2008 from the file numeral_bases_bib.tsv has an empty value in the obligatory field VOLUME
 The BibTeX entry caludeverkerk2016 from the file numeral_bases_bib.tsv has an empty value in the obligatory field VOLUME
 The BibTeX entry greenberg1978 from the file numeral_bases_bib.tsv has an empty value in the obligatory field VOLUME
 The BibTeX entry authier2010 from the file particles_bib.tsv has an empty value in the obligatory field VOLUME
-The BibTeX entry moran12 from the file phonology_bib.tsv has an empty value in the obligatory field VOLUME
-The BibTeX entry nichols13 from the file phonology_bib.tsv has an empty value in the obligatory field VOLUME
-The BibTeX entry maddieson11 from the file phonology_bib.tsv has an empty value in the obligatory field JOURNAL
-The BibTeX entry maddieson11 from the file phonology_bib.tsv has an empty value in the obligatory field VOLUME
-The BibTeX entry hammarstrom21 from the file phonology_bib.tsv has an empty value in the obligatory field VOLUME
-The BibTeX entry kibrik82 from the file phonology_bib.tsv has an empty value in the obligatory field JOURNAL
-The BibTeX entry kibrik82 from the file phonology_bib.tsv has an empty value in the obligatory field VOLUME
-The BibTeX entry mudrak19 from the file phonology_bib.tsv has an empty value in the obligatory field JOURNAL
-The BibTeX entry mudrak19 from the file phonology_bib.tsv has an empty value in the obligatory field VOLUME
-The BibTeX entry mudrak20 from the file phonology_bib.tsv has an empty value in the obligatory field JOURNAL
-The BibTeX entry mudrak20 from the file phonology_bib.tsv has an empty value in the obligatory field VOLUME
-The BibTeX entry gigineyshvili77 from the file phonology_bib.tsv has an empty value in the obligatory field VOLUME
-The BibTeX entry akiev77 from the file phonology_bib.tsv has an empty value in the obligatory field VOLUME
-The BibTeX entry alexeyev21 from the file nasalization_bib.tsv has an empty value in the obligatory field BOOKTITLE
-The BibTeX entry moroz21 from the file nasalization_bib.tsv has an empty value in the obligatory field BOOKTITLE
-The BibTeX entry belyayev21 from the file nasalization_bib.tsv has an empty value in the obligatory field PUBLISHER
+The BibTeX entry comrieetal2015 from the file nasalization_bib.tsv has an empty value in the obligatory field TITLE
+The BibTeX entry comrieetal2015 from the file nasalization_bib.tsv has an empty value in the obligatory field PUBLISHER
+The BibTeX entry comrieetal2015 from the file nasalization_bib.tsv has an empty value in the obligatory field YEAR
 The BibTeX entry holiskygagua1994 from the file numeral_bases_bib.tsv has an empty value in the obligatory field PUBLISHER
-The BibTeX entry alexeyev21 from the file phonology_bib.tsv has an empty value in the obligatory field BOOKTITLE
-The BibTeX entry moroz21 from the file phonology_bib.tsv has an empty value in the obligatory field BOOKTITLE
-The BibTeX entry belyayev21 from the file phonology_bib.tsv has an empty value in the obligatory field PUBLISHER
-The BibTeX entry gasser14 from the file nasalization_bib.tsv has an empty value in the obligatory field BOOKTITLE
-The BibTeX entry gasser14 from the file phonology_bib.tsv has an empty value in the obligatory field BOOKTITLE
 The BibTeX entry khalilova2009 from the file numeral_bases_bib.tsv has an empty value in the obligatory field SCHOOL
 The BibTeX entry zakirova2023 from the file plural_marking_on_imperatives_bib.tsv has an empty value in the obligatory field SCHOOL
-Revise the BibTeX entry moroz20_villages from the file nasalization_bib.tsv.
-Revise the BibTeX entry moroz20_villages from the file phonology_bib.tsv.
 The obligatory column          date          is absent in the file          farewell_wishes.tsv
 The wrong village dialect name Drushtul in the file erg_abs_pronouns.tsv
 The wrong village dialect name Hunzib in the file farewell_wishes.tsv
