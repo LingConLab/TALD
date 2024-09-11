@@ -2,6 +2,6 @@
 
 General chapter: [Phonology](phonology.html)
 
-Nasalized vowels are a comon feature of Andic and Tsezic languages, hovewer some researchers report a sporadic final **n**-delition that leads to the development of nasalized vowels in other branches (e.g. Bezhta, [@comrieetal2015]).
+Nasalized vowels are a common feature of Andic and Tsezic languages, however some researchers report a sporadic final **n**-delition that leads to the development of nasalized vowels in other branches (e.g. Bezhta, [@comrieetal2015]).
 
 ## References {-}

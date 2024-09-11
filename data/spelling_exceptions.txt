@@ -186,6 +186,7 @@ Kartvelian
 Katerina
 Khajdakov
 Khalidova
+Khalilov
 Khalilova
 Khinalug
 Khwarshi
@@ -219,6 +220,7 @@ locational
 locative
 logophoric
 Luchek
+Magomedbekova
 Maisak
 Maksim
 Marche
@@ -226,8 +228,11 @@ Mariyat
 masculine
 Matyukhina
 Maxmudova
+Mazhid
 Mehweb
 Melenchenko
+Merdanova
+Mikailov
 Mikhin
 mirative
 mirativity
@@ -238,6 +243,7 @@ monovalent
 Moroz
 morphologically
 morphologization
+morphophonologically
 morphosyntactic
 Moyano
 Mozdok
@@ -252,6 +258,7 @@ Nogai
 Nogina
 nominal
 nominalize
+nominalized
 NRU
 obstruent
 Ochs
@@ -272,6 +279,7 @@ pharyngeal
 pharyngealisation
 pharyngealization
 pharyngealize
+pharyngealized
 Philippova
 PHOIBLE
 Plungian
@@ -291,6 +299,7 @@ pronominal
 proto
 prox
 Qax
+quinary
 quotative
 reportative
 resultative
@@ -307,6 +316,7 @@ Schulze
 Shiri
 Shvedova
 Skripkina
+Solmaz
 Starostin
 stative
 subordinative
@@ -331,6 +341,7 @@ Timofey
 Tindi
 trajector
 translative
+trimorphemic
 Tsakhur
 Tsez
 Tsezic
@@ -355,12 +366,14 @@ vigesimally
 Violetta
 VOT
 WALS
+wordform
 wordforms
 Yury
 Zadykian
 Zaira
 Zakirova
 Zaqatala
+Zarina
 Zemicheva
 zenodo
 Zerzele
