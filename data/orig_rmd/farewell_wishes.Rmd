@@ -113,7 +113,7 @@ gloss_example(transliteration = "t’al-ek-mul 		ka",
 
 There is one more pattern which covers several languages. In most Lezgic languages and Khinalug there is a formula containing a word which originates from Azerbaijani, where it means ‘luck’ and is used in different wish formulae, but is not common at parting. By contrast, at least in some Lezgic languages, this word is used exclusively in farewell formulae. For example, in the dictionary of Rutul the word uʁur (*угъур*, [@alisultanovsulejmanova2019]) has no translation of its own, and all examples of its usage are farewell wishes. In a similar way, my Lezgian consultant was unable to translate this word and was unaware of its origin.
 
-(@aghul14) Aghul (Huppuq’ dialect) (Solmaz Merdanova, p.c.)
+(@Agul14) Agul (Huppuq’ dialect) (Solmaz Merdanova, p.c.)
 ```{r}
 gloss_example(transliteration = "jaʁur 		xu-raj",
               glosses = "luck[AZ] 	be-OPT",
@@ -127,7 +127,7 @@ gloss_example(transliteration = "juʁur		xuj",
               free_translation = "Have a nice trip!")
 ```
 
-The form of this word slightly varies in different Lezgic languages (*jaʁur* in Aghul, *juʁur* in Standard Lezgian, *uɣur* and *uʁur* in different dialects of Rutul), but the formula is identical in all these languages: luck[AZ] N-become-OPT. Interestingly, a parallel formula *uğur-lu ol-sun* (luck-ADJ be-JUSS) exists in modern Azerbaijani, but is not dedicated to the farewell wish, and can be translated as ‘good luck!’. The most common farewell formula in Azerbaijani is *yaxşı yol* ‘good road’; in the above mentioned field research in Rutul villages this Azerbaijani phrase came up once, but in general it is not used in send-offs in Rutul villages.
+The form of this word slightly varies in different Lezgic languages (*jaʁur* in Agul, *juʁur* in Standard Lezgian, *uɣur* and *uʁur* in different dialects of Rutul), but the formula is identical in all these languages: luck[AZ] N-become-OPT. Interestingly, a parallel formula *uğur-lu ol-sun* (luck-ADJ be-JUSS) exists in modern Azerbaijani, but is not dedicated to the farewell wish, and can be translated as ‘good luck!’. The most common farewell formula in Azerbaijani is *yaxşı yol* ‘good road’; in the above mentioned field research in Rutul villages this Azerbaijani phrase came up once, but in general it is not used in send-offs in Rutul villages.
 
 Apart from these three types, there are other, less frequent formulae which are not mapped. For example, in the adjacent language communities of Tsez and Hinuq the same formula, not found in any other places, is used. It consists of the words ‘road’ and ‘send / let’, but the meaning is not transparent; most likely, the intended but not overtly expressed subject of this formula is God: ‘May [God] let the road’ (‘пусть Бог отпустит дорогу’, as it was translated by the speaker of Tsez Arsen Abdullaev).
 
