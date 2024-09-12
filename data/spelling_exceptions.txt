@@ -27,6 +27,7 @@ anaphorically
 Anchix
 Andi
 Andic
+Ando
 aorist
 approximant
 apudessive
@@ -61,6 +62,7 @@ Chumakina
 circumfix
 circumfixal
 circumposition
+cline
 clitic
 comitative
 completive
@@ -201,6 +203,7 @@ Kubachi
 Kumyk
 Kvanada
 Kwantlada
+labelled
 labialization
 labialized
 Lak
