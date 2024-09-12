@@ -1,10 +1,9 @@
 The BibTeX entry          tagiyev2006          present in the          dominant_adpositional_case.tsv, but absent in the biblib.xlsx
 The BibTeX entry verhees2019a from the file evidentiality_bib.tsv has an empty value in the obligatory field VOLUME
 The BibTeX entry caludeverkerk2016 from the file numeral_bases_bib.tsv has an empty value in the obligatory field VOLUME
-The BibTeX entry greenberg1978 from the file numeral_bases_bib.tsv has an empty value in the obligatory field VOLUME
-The BibTeX entry authier2010 from the file particles_bib.tsv has an empty value in the obligatory field VOLUME
 The BibTeX entry chumakina2021 from the file gender_agreement_slot_bib.tsv has an empty value in the obligatory field BOOKTITLE
 The BibTeX entry chumakina2021 from the file gender_agreement_slot_bib.tsv has an empty value in the obligatory field PUBLISHER
+The BibTeX entry greenberg1978 from the file numeral_bases_bib.tsv has an empty value in the obligatory field PUBLISHER
 The BibTeX entry holiskygagua1994 from the file numeral_bases_bib.tsv has an empty value in the obligatory field PUBLISHER
 The BibTeX entry khalilova2009 from the file numeral_bases_bib.tsv has an empty value in the obligatory field SCHOOL
 The BibTeX entry zakirova2023 from the file plural_marking_on_imperatives_bib.tsv has an empty value in the obligatory field SCHOOL
@@ -38,7 +37,6 @@ spelling of          dada        in comitative.Rmd:27
 spelling of          galaz        in comitative.Rmd:114
 spelling of          iqna        in days_after_today.Rmd:24
 spelling of          iqna        in days_before_today.Rmd:34
-spelling of          Akvakh        in demonstratives.Rmd:313
 spelling of          awedu        in demonstratives.Rmd:324
 spelling of          Chimakuan        in demonstratives.Rmd:102
 spelling of          dwaara        in demonstratives.Rmd:28
@@ -60,9 +58,6 @@ spelling of          Supyire        in demonstratives.Rmd:20
 spelling of          duha        in erg_abs_pronouns.Rmd:56
 spelling of          kʰin        in erg_abs_pronouns.Rmd:83,84
 spelling of          uoxa        in erg_abs_pronouns.Rmd:101
-spelling of          cline        in evidentiality.Rmd:66
-spelling of          Aghul        in farewell_wishes.Rmd:116,130
-spelling of          Ando        in farewell_wishes.Rmd:103,153,157
 spelling of          JUSS        in farewell_wishes.Rmd:130
 spelling of          adal        in gender_agreement_slot.Rmd:105
 spelling of          gundine        in gender_agreement_slot.Rmd:83
@@ -70,18 +65,13 @@ spelling of          gundinu        in gender_agreement_slot.Rmd:83,83
 spelling of          Kwarandzey        in gender_agreement_slot.Rmd:17
 spelling of          Lavukaleve        in gender_agreement_slot.Rmd:17
 spelling of          Marind        in gender_agreement_slot.Rmd:17
-spelling of          Dragwa        in jussive.Rmd:193
-spelling of          Gadzhiaxmedov        in jussive.Rmd:37,44
 spelling of          Nkore        in morning_greetings.Rmd:8
 spelling of          Oraire        in morning_greetings.Rmd:8
 spelling of          xair        in morning_greetings.Rmd:41,41,49
 spelling of          xajir        in morning_greetings.Rmd:41
-spelling of          cooccur        in number_of_morphological_slots_in_spatial_forms.Rmd:169
-spelling of          labelled        in number_of_morphological_slots_in_spatial_forms.Rmd:115
 spelling of          Inkhokvari        in numeral_bases.Rmd:133
 spelling of          Qidi        in numeral_bases.Rmd:133
 spelling of          azir        in numeral_complex.Rmd:65,65
-spelling of          Ando        in numeral_morphology.Rmd:94
 spelling of          Yine        in ordinals.Rmd:35
 spelling of          Bancel        in prohibitives.Rmd:150,222
 spelling of          Lejeune        in prohibitives.Rmd:10,14
@@ -90,6 +80,5 @@ spelling of          aloc        in standard_of_comparison.Rmd:123
 spelling of          aveli        in standard_of_comparison.Rmd:227
 spelling of          diye        in standard_of_comparison.Rmd:227
 spelling of          upro        in standard_of_comparison.Rmd:227
-spelling of          Ando        in trans_intrans_imperative.Rmd:137,138
 spelling of          mari        in trans_intrans_imperative.Rmd:23
 The BibTeX entry          dmitriev1940          present in the .Rmd, but absent in the demonstratives.bib
