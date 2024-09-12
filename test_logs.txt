@@ -1,15 +1,12 @@
 The BibTeX entry          tagiyev2006          present in the          dominant_adpositional_case.tsv, but absent in the biblib.xlsx
-The obligatory field          URL          is missing in          evidentiality_bib.tsv
-The obligatory field          URL          is missing in          particles_bib.tsv
-The obligatory field          URL          is missing in          perfect_bib.tsv
 The BibTeX entry verhees2019a from the file evidentiality_bib.tsv has an empty value in the obligatory field VOLUME
-The BibTeX entry chumakina2021 from the file gender_agreement_slot_bib.tsv has an empty value in the obligatory field VOLUME
-The BibTeX entry kibrik1970 from the file number_of_morphological_slots_in_spatial_forms_bib.tsv has an empty value in the obligatory field VOLUME
 The BibTeX entry ganenkovmaisak2008 from the file numeral_bases_bib.tsv has an empty value in the obligatory field JOURNAL
 The BibTeX entry ganenkovmaisak2008 from the file numeral_bases_bib.tsv has an empty value in the obligatory field VOLUME
 The BibTeX entry caludeverkerk2016 from the file numeral_bases_bib.tsv has an empty value in the obligatory field VOLUME
 The BibTeX entry greenberg1978 from the file numeral_bases_bib.tsv has an empty value in the obligatory field VOLUME
 The BibTeX entry authier2010 from the file particles_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry chumakina2021 from the file gender_agreement_slot_bib.tsv has an empty value in the obligatory field BOOKTITLE
+The BibTeX entry chumakina2021 from the file gender_agreement_slot_bib.tsv has an empty value in the obligatory field PUBLISHER
 The BibTeX entry holiskygagua1994 from the file numeral_bases_bib.tsv has an empty value in the obligatory field PUBLISHER
 The BibTeX entry khalilova2009 from the file numeral_bases_bib.tsv has an empty value in the obligatory field SCHOOL
 The BibTeX entry zakirova2023 from the file plural_marking_on_imperatives_bib.tsv has an empty value in the obligatory field SCHOOL
@@ -98,4 +95,3 @@ spelling of          upro        in standard_of_comparison.Rmd:227
 spelling of          Ando        in trans_intrans_imperative.Rmd:137,138
 spelling of          mari        in trans_intrans_imperative.Rmd:23
 The BibTeX entry          dmitriev1940          present in the .Rmd, but absent in the demonstratives.bib
-The BibTeX entry          imnaishvili1963          present in the .Rmd, but absent in the numeral_bases.bib

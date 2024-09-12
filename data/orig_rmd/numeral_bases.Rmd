@@ -131,7 +131,7 @@ Unlike the cases discussed in 2.3, here different bases are distributed across a
 In Zaqatala and Kusur varieties of Avar, the original vigesimal Avar system remains for ‘20’, ‘30’, and ‘40’, whereas higher crowns (‘50’—‘90’) are replaced with decimal borrowings from Tsakhur [@saidova2007: 107; @isakov2020: 94].
 
 In Inkhokvari and Kwantlada varieties of Khwarshi, a decimal system is used for ‘50’—‘90’, whereas for ‘30’ and ‘40’ a vigesimal system is used (‘20’ is atomic).
-The decimal crowns ‘50’—‘90’ are borrowed from adjacent Andic languages, presumably Tindi [@imnaishvili1963: 85; @khalilova2009: 169—170; @karimovakhalilova2013: 132].
+The decimal crowns ‘50’—‘90’ are borrowed from adjacent Andic languages, presumably Tindi [@imnajshvili1963: 85; @khalilova2009: 169—170; @karimovakhalilova2013: 132].
 Similarly, in the neighboring Qidi and Sasitli dialects of Avar, the crowns ‘50’—‘90’ have been replaced by Andic decimal borrowings [@karimovakhalilova2013: 132].
 
 In the village Kondik of the Tabasaran area, ‘60’ and ‘80’ are derived vigesimally, whereas ‘30’, ‘50’, ‘70’, and ‘90’ are derived decimally [@magometov1965: 159—163].
