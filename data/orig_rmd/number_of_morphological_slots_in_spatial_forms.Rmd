@@ -166,7 +166,7 @@ gloss_example(transliteration = "*škola.ji-**x’-an-di*** *baja.ri-n* *deste* 
 | East Caucasian: Lezgic | Tabasaran (Standard Tabasaran) |*-di*|
 | East Caucasian: Tsezic | Bezhta |*-dä:*|
 
-According to [Table 3](#t3) and [Table 4](#t4), Tabasaran and Kaitag exhibit both deictic and orientational suffixes. However, in Tabasaran, the two markers are attested in different dialects. The orientational suffix is found in Standard Tabasaran, whereas deictic suffixes are only attested in Northern Tabasaran. As for Kaitag, both types of markers are found within the same idiom, although it is not clear whether they can cooccur within one word form. 
+According to [Table 3](#t3) and [Table 4](#t4), Tabasaran and Kaitag exhibit both deictic and orientational suffixes. However, in Tabasaran, the two markers are attested in different dialects. The orientational suffix is found in Standard Tabasaran, whereas deictic suffixes are only attested in Northern Tabasaran. As for Kaitag, both types of markers are found within the same idiom, although it is not clear whether they can co-occur within one word form. 
 
 #### Approximative marker
 
