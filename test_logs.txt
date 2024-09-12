@@ -1,7 +1,5 @@
 The BibTeX entry          tagiyev2006          present in the          dominant_adpositional_case.tsv, but absent in the biblib.xlsx
 The BibTeX entry verhees2019a from the file evidentiality_bib.tsv has an empty value in the obligatory field VOLUME
-The BibTeX entry ganenkovmaisak2008 from the file numeral_bases_bib.tsv has an empty value in the obligatory field JOURNAL
-The BibTeX entry ganenkovmaisak2008 from the file numeral_bases_bib.tsv has an empty value in the obligatory field VOLUME
 The BibTeX entry caludeverkerk2016 from the file numeral_bases_bib.tsv has an empty value in the obligatory field VOLUME
 The BibTeX entry greenberg1978 from the file numeral_bases_bib.tsv has an empty value in the obligatory field VOLUME
 The BibTeX entry authier2010 from the file particles_bib.tsv has an empty value in the obligatory field VOLUME
