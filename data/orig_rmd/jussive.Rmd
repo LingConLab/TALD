@@ -34,14 +34,14 @@ gloss_example(transliteration = "**rurž-e** **bet'-a** ħarši",
 
 Finally, in some languages jussives are also used to express wishes, in particular blessings and curses (@five) - a type of speech act which is very common in everyday communication in the Caucasus:
 
-(@four) Kumyk - third person command (N. E. Gadzhiaxmedov, p.c., cited in [@dobrushina2012])
+(@four) Kumyk - third person command (N. E. Gadzhiakhmedov, p.c., cited in [@dobrushina2012])
 ```{r}
 gloss_example(transliteration = "mahammat üj-ge bar-ɨp dars-lar-ɨ-n **et-sin**",
               glosses = "Mohammad house-DAT go-CVB lesson-PL-POSS.3-ACC **make-JUSS**",
               free_translation = "Let Mohammad go home and do his homework.")
 ```
 
-(@five) Kumyk - third person blessings and curses (N. E. Gadzhiaxmedov, p.c., cited in [@dobrushina2012])
+(@five) Kumyk - third person blessings and curses (N. E. Gadzhiakhmedov, p.c., cited in [@dobrushina2012])
 ```{r}
 gloss_example(transliteration = "ömür-lü **bol-sun**",
               glosses = "long_life-ADJ **be-JUSS**",
@@ -190,7 +190,7 @@ A dedicated jussive affix is found in all Turkic languages (Kumyk, Nogai, and Az
 
 Morphological causatives encode jussive meanings very infrequently. This is found in two Nakh languages (Ingush and Chechen) and, unexpectedly, in Kubachi Dargwa.
 
-Co-expression of jussives by optatives is by far the most frequent way to express jussive meanings in the Nakh-Daghestanian family. There are, however, some notable exceptions. These are Ingush, Chechen, Avar, Botlikh, Lak, Kubachi Dargwa, Mehweb Dargwa, Chirag Dragwa, Itsari Dargwa, and Tsakhur; some of these languages have several optative affixes, none of which is used for jussives.
+Co-expression of jussives by optatives is by far the most frequent way to express jussive meanings in the Nakh-Daghestanian family. There are, however, some notable exceptions. These are Ingush, Chechen, Avar, Botlikh, Lak, Kubachi Dargwa, Mehweb Dargwa, Chirag Dargwa, Itsari Dargwa, and Tsakhur; some of these languages have several optative affixes, none of which is used for jussives.
 
 ## List of glosses {-}
 
