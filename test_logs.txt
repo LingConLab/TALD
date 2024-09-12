@@ -10,13 +10,10 @@ The BibTeX entry ganenkovmaisak2008 from the file numeral_bases_bib.tsv has an e
 The BibTeX entry caludeverkerk2016 from the file numeral_bases_bib.tsv has an empty value in the obligatory field VOLUME
 The BibTeX entry greenberg1978 from the file numeral_bases_bib.tsv has an empty value in the obligatory field VOLUME
 The BibTeX entry authier2010 from the file particles_bib.tsv has an empty value in the obligatory field VOLUME
-The BibTeX entry comrieetal2015 from the file nasalization_bib.tsv has an empty value in the obligatory field TITLE
-The BibTeX entry comrieetal2015 from the file nasalization_bib.tsv has an empty value in the obligatory field PUBLISHER
-The BibTeX entry comrieetal2015 from the file nasalization_bib.tsv has an empty value in the obligatory field YEAR
 The BibTeX entry holiskygagua1994 from the file numeral_bases_bib.tsv has an empty value in the obligatory field PUBLISHER
 The BibTeX entry khalilova2009 from the file numeral_bases_bib.tsv has an empty value in the obligatory field SCHOOL
 The BibTeX entry zakirova2023 from the file plural_marking_on_imperatives_bib.tsv has an empty value in the obligatory field SCHOOL
-The obligatory column          date          is absent in the file          farewell_wishes.tsv
+Revise the BibTeX entry moroz20_villages from the file phonology_bib.tsv.
 The wrong village dialect name Drushtul in the file erg_abs_pronouns.tsv
 The wrong village dialect name Hunzib in the file farewell_wishes.tsv
 NA

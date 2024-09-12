@@ -52,6 +52,7 @@ see https://en.wikipedia.org/wiki/BibTeX for the details.", {
     read_tsv(i, show_col_types = FALSE, progress = FALSE) %>% 
       mutate(filename = i,
              VOLUME = as.character(VOLUME),
+             AUTHOR = as.character(AUTHOR),
              ISSUE = ifelse("ISSUE" %in% colnames(.), as.character(ISSUE), NA),
              YEAR = as.character(YEAR),
              NUMBER = as.character(NUMBER))})
@@ -239,15 +240,18 @@ see https://en.wikipedia.org/wiki/BibTeX for the details.", {
 
 
 test_that("Test BIBTEXKEYs", {
-  df <- map_dfr(list.files("../data/orig_bib_tsv", full.names = TRUE), function(i){
+  map(list.files("../data/orig_bib_tsv", full.names = TRUE), function(i){
     read_tsv(i, show_col_types = FALSE, progress = FALSE) %>%
       mutate(filename = i,
+             AUTHOR = as.character(AUTHOR),
              ISSUE = ifelse("ISSUE" %in% colnames(.), as.character(ISSUE), NA),
              VOLUME = as.character(VOLUME),
              YEAR = as.character(YEAR),
-             NUMBER = as.character(NUMBER))})
+             NUMBER = as.character(NUMBER))}) |> 
+    list_rbind() ->
+    df
   
-  df %>% 
+  df  |>  
     filter(str_detect(BIBTEXKEY, "[^a-z0-9-]")) ->
     wrong_bibtexkeys
   
