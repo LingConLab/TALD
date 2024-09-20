@@ -17,6 +17,8 @@ langs_and_dialects <- str_c("(", langs_and_dialects, ")", collapse = "")
 str_subset(test_logs, "(everything is ok)|(0          wrong hashes)|[ːʔʢʡʕʜħɬłčβɟɡǧɥχɣλƛüıɨəʁžšşșǝʲæäğА-я]", negate = TRUE) |> 
   str_subset("spelling of          .{2,3} ", negate = TRUE) |> 
   str_subset(str_glue("spelling of          {langs_and_dialects} "), negate = TRUE) |> 
+  setdiff(read_lines("data/remove_from_logs.txt")) |> 
   write_lines("test_logs.txt", append = FALSE)
+
 read_lines("test_logs.txt") %>% cat(sep = "\n")
 system("git add -u")

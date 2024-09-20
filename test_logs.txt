@@ -1,27 +1,522 @@
-The BibTeX entry          tagiyev2006          present in the          dominant_adpositional_case.tsv, but absent in the biblib.xlsx
-The BibTeX entry verhees2019a from the file evidentiality_bib.tsv has an empty value in the obligatory field VOLUME
-The BibTeX entry caludeverkerk2016 from the file numeral_bases_bib.tsv has an empty value in the obligatory field VOLUME
-The BibTeX entry chumakina2021 from the file gender_agreement_slot_bib.tsv has an empty value in the obligatory field BOOKTITLE
-The BibTeX entry chumakina2021 from the file gender_agreement_slot_bib.tsv has an empty value in the obligatory field PUBLISHER
-The BibTeX entry greenberg1978 from the file numeral_bases_bib.tsv has an empty value in the obligatory field PUBLISHER
-The BibTeX entry holiskygagua1994 from the file numeral_bases_bib.tsv has an empty value in the obligatory field PUBLISHER
-The BibTeX entry khalilova2009 from the file numeral_bases_bib.tsv has an empty value in the obligatory field SCHOOL
-The BibTeX entry zakirova2023 from the file plural_marking_on_imperatives_bib.tsv has an empty value in the obligatory field SCHOOL
 Revise the BibTeX entry moroz20_villages from the file phonology_bib.tsv.
+The wrong langage name          Akhvakh          in the file          agreement_of_adpositions.tsv
+The wrong langage name          Dargwa          in the file          agreement_of_adpositions.tsv
+The wrong langage name          Akhvakh          in the file          caritive_adv.tsv
+The wrong langage name          Dargwa          in the file          caritive_adv.tsv
+The wrong langage name          Akhvakh          in the file          caritive_attr.tsv
+The wrong langage name          Dargwa          in the file          caritive_attr.tsv
+The wrong langage name          Akhvakh          in the file          causatives.tsv
+The wrong langage name          Dargwa          in the file          causatives.tsv
+The wrong langage name          Akhvakh          in the file          comitative.tsv
+The wrong langage name          Dargwa          in the file          comitative.tsv
+The wrong langage name          Akhvakh          in the file          days_after_today.tsv
+The wrong langage name          Dargwa          in the file          days_after_today.tsv
+The wrong langage name          Akhvakh          in the file          days_before_today.tsv
+The wrong langage name          Dargwa          in the file          days_before_today.tsv
+The wrong langage name          Akhvakh          in the file          demonstratives.tsv
+The wrong langage name          Dargwa          in the file          demonstratives.tsv
+The wrong langage name          Akhvakh          in the file          dominant_adpositional_case.tsv
+The wrong langage name          Dargwa          in the file          dominant_adpositional_case.tsv
+The wrong langage name          Akhvakh          in the file          ejective_p.tsv
+The wrong langage name          Dargwa          in the file          ejective_p.tsv
+The wrong langage name          Akhvakh          in the file          ejective_s.tsv
+The wrong langage name          Dargwa          in the file          ejective_s.tsv
+The wrong langage name          Akhvakh          in the file          erg_abs_pronouns.tsv
+The wrong langage name          Dargwa          in the file          erg_abs_pronouns.tsv
+The wrong langage name          Akhvakh          in the file          evidentiality_tense.tsv
+The wrong langage name          Dargwa          in the file          evidentiality_tense.tsv
+The wrong langage name          Akhvakh          in the file          farewell_wishes.tsv
+The wrong langage name          Dargwa          in the file          farewell_wishes.tsv
+The wrong langage name          Akhvakh          in the file          gemination.tsv
+The wrong langage name          Dargwa          in the file          gemination.tsv
+The wrong langage name          Akhvakh          in the file          gender_agreement_slot.tsv
+The wrong langage name          Dargwa          in the file          gender_agreement_slot.tsv
+The wrong langage name          Akhvakh          in the file          jussive.tsv
+The wrong langage name          Dargwa          in the file          jussive.tsv
+The wrong langage name          Akhvakh          in the file          labialization.tsv
+The wrong langage name          Dargwa          in the file          labialization.tsv
+The wrong langage name          Akhvakh          in the file          labials.tsv
+The wrong langage name          Dargwa          in the file          labials.tsv
+The wrong langage name          Akhvakh          in the file          laterals.tsv
+The wrong langage name          Dargwa          in the file          laterals.tsv
+The wrong langage name          Akhvakh          in the file          long_vowels.tsv
+The wrong langage name          Dargwa          in the file          long_vowels.tsv
+The wrong langage name          Akhvakh          in the file          morning_greetings.tsv
+The wrong langage name          Dargwa          in the file          morning_greetings.tsv
+The wrong langage name          Akhvakh          in the file          nasalization.tsv
+The wrong langage name          Dargwa          in the file          nasalization.tsv
+The wrong langage name          Akhvakh          in the file          number_of_morphological_slots_in_spatial_forms.tsv
+The wrong langage name          Dargwa          in the file          number_of_morphological_slots_in_spatial_forms.tsv
+The wrong langage name          Akhvakh          in the file          numeral_bases.tsv
+The wrong langage name          Dargwa          in the file          numeral_bases.tsv
+The wrong langage name          Akhvakh          in the file          numeral_class.tsv
+The wrong langage name          Dargwa          in the file          numeral_class.tsv
+The wrong langage name          Akhvakh          in the file          numeral_complex.tsv
+The wrong langage name          Dargwa          in the file          numeral_complex.tsv
+The wrong langage name          Akhvakh          in the file          numeral_crowns_endings.tsv
+The wrong langage name          Dargwa          in the file          numeral_crowns_endings.tsv
+The wrong langage name          Akhvakh          in the file          numeral_crowns_ten.tsv
+The wrong langage name          Dargwa          in the file          numeral_crowns_ten.tsv
+The wrong langage name          Akhvakh          in the file          numeral_distributives.tsv
+The wrong langage name          Dargwa          in the file          numeral_distributives.tsv
+The wrong langage name          Akhvakh          in the file          numeral_hundred.tsv
+The wrong langage name          Dargwa          in the file          numeral_hundred.tsv
+The wrong langage name          Akhvakh          in the file          numeral_one.tsv
+The wrong langage name          Dargwa          in the file          numeral_one.tsv
+The wrong langage name          Akhvakh          in the file          numeral_ordinals.tsv
+The wrong langage name          Dargwa          in the file          numeral_ordinals.tsv
+The wrong langage name          Akhvakh          in the file          numeral_origin.tsv
+The wrong langage name          Dargwa          in the file          numeral_origin.tsv
+The wrong langage name          Akhvakh          in the file          numeral_regularity.tsv
+The wrong langage name          Dargwa          in the file          numeral_regularity.tsv
+The wrong langage name          Akhvakh          in the file          numeral_root_hundred.tsv
+The wrong langage name          Dargwa          in the file          numeral_root_hundred.tsv
+The wrong langage name          Akhvakh          in the file          numeral_thousand.tsv
+The wrong langage name          Dargwa          in the file          numeral_thousand.tsv
+The wrong langage name          Akhvakh          in the file          numeral_twenty.tsv
+The wrong langage name          Dargwa          in the file          numeral_twenty.tsv
+The wrong langage name          Akhvakh          in the file          numeral_twoten.tsv
+The wrong langage name          Dargwa          in the file          numeral_twoten.tsv
+The wrong langage name          Akhvakh          in the file          optative.tsv
+The wrong langage name          Dargwa          in the file          optative.tsv
+The wrong langage name          Akhvakh          in the file          ordinals.tsv
+The wrong langage name          Dargwa          in the file          ordinals.tsv
+The wrong langage name          Akhvakh          in the file          palatalized_consonants.tsv
+The wrong langage name          Dargwa          in the file          palatalized_consonants.tsv
+The wrong langage name          Akhvakh          in the file          particles.tsv
+The wrong langage name          Dargwa          in the file          particles.tsv
+The wrong langage name          Akhvakh          in the file          perfect.tsv
+The wrong langage name          Dargwa          in the file          perfect.tsv
+The wrong langage name          Akhvakh          in the file          pharyngealization.tsv
+The wrong langage name          Dargwa          in the file          pharyngealization.tsv
+The wrong langage name          Akhvakh          in the file          pharyngeals.tsv
+The wrong langage name          Dargwa          in the file          pharyngeals.tsv
+The wrong langage name          Dargwa          in the file          plural_marking_on_imperatives.tsv
+The wrong langage name          Akhvakh          in the file          plural_marking_on_imperatives.tsv
+The wrong langage name          Akhvakh          in the file          prohibitives.tsv
+The wrong langage name          Dargwa          in the file          prohibitives.tsv
+The wrong langage name          Akhvakh          in the file          standard_of_comparison.tsv
+The wrong langage name          Dargwa          in the file          standard_of_comparison.tsv
+The wrong langage name          Akhvakh          in the file          trans_intrans_imperative.tsv
+The wrong langage name          Dargwa          in the file          trans_intrans_imperative.tsv
+The wrong langage name          Akhvakh          in the file          umlaut_vowels.tsv
+The wrong langage name          Dargwa          in the file          umlaut_vowels.tsv
+The wrong langage name          Akhvakh          in the file          uvular_voiced_stop.tsv
+The wrong langage name          Dargwa          in the file          uvular_voiced_stop.tsv
+The wrong langage name          Akhvakh          in the file          velar_fricatives.tsv
+The wrong langage name          Dargwa          in the file          velar_fricatives.tsv
+The wrong langage name          Akhvakh          in the file          voiceless_obstruents.tsv
+The wrong langage name          Dargwa          in the file          voiceless_obstruents.tsv
+The wrong village dialect name Budukh in the file agreement_of_adpositions.tsv
+The wrong village dialect name Mehweb in the file agreement_of_adpositions.tsv
+The wrong village dialect name Hinuq in the file agreement_of_adpositions.tsv
+The wrong village dialect name Khinalug in the file agreement_of_adpositions.tsv
+The wrong village dialect name Kwantlada in the file agreement_of_adpositions.tsv
+The wrong village dialect name Alik in the file agreement_of_adpositions.tsv
+The wrong village dialect name Mehweb in the file caritive_adv.tsv
+The wrong village dialect name Hinuq in the file caritive_adv.tsv
+The wrong village dialect name Khinalug in the file caritive_adv.tsv
+The wrong village dialect name Kwantlada in the file caritive_adv.tsv
+The wrong village dialect name Alik in the file caritive_adv.tsv
+The wrong village dialect name Hinuq in the file caritive_attr.tsv
+The wrong village dialect name Kwantlada in the file caritive_attr.tsv
+The wrong village dialect name Alik in the file caritive_attr.tsv
+The wrong village dialect name Budukh in the file causatives.tsv
+The wrong village dialect name Mehweb in the file causatives.tsv
+The wrong village dialect name Hinuq in the file causatives.tsv
+The wrong village dialect name Khinalug in the file causatives.tsv
+The wrong village dialect name Kwantlada in the file causatives.tsv
+The wrong village dialect name Alik in the file causatives.tsv
+The wrong village dialect name Budukh in the file comitative.tsv
+The wrong village dialect name Mehweb in the file comitative.tsv
+The wrong village dialect name Hinuq in the file comitative.tsv
+The wrong village dialect name Khinalug in the file comitative.tsv
+The wrong village dialect name Kwantlada in the file comitative.tsv
+The wrong village dialect name Alik in the file comitative.tsv
+The wrong village dialect name Mehweb in the file days_after_today.tsv
+The wrong village dialect name Hinuq in the file days_after_today.tsv
+The wrong village dialect name Khinalug in the file days_after_today.tsv
+The wrong village dialect name Kwantlada in the file days_after_today.tsv
+The wrong village dialect name Kryz in the file days_after_today.tsv
+The wrong village dialect name Mehweb in the file days_before_today.tsv
+The wrong village dialect name Hinuq in the file days_before_today.tsv
+The wrong village dialect name Khinalug in the file days_before_today.tsv
+The wrong village dialect name Kwantlada in the file days_before_today.tsv
+The wrong village dialect name Kryz in the file days_before_today.tsv
+The wrong village dialect name Khinalug in the file demonstratives.tsv
+The wrong village dialect name Budukh in the file demonstratives.tsv
+The wrong village dialect name Alik in the file demonstratives.tsv
+The wrong village dialect name Hinuq in the file demonstratives.tsv
+The wrong village dialect name Kwantlada in the file demonstratives.tsv
+The wrong village dialect name Budukh in the file dominant_adpositional_case.tsv
+The wrong village dialect name Mehweb in the file dominant_adpositional_case.tsv
+The wrong village dialect name Hinuq in the file dominant_adpositional_case.tsv
+The wrong village dialect name Khinalug in the file dominant_adpositional_case.tsv
+The wrong village dialect name Kwantlada in the file dominant_adpositional_case.tsv
+The wrong village dialect name Alik in the file dominant_adpositional_case.tsv
+The wrong village dialect name Budukh in the file ejective_p.tsv
+The wrong village dialect name Gigatli in the file ejective_p.tsv
+The wrong village dialect name Mehweb in the file ejective_p.tsv
+The wrong village dialect name Hinuq in the file ejective_p.tsv
+The wrong village dialect name Khinalug in the file ejective_p.tsv
+The wrong village dialect name Kwantlada in the file ejective_p.tsv
+The wrong village dialect name Kryz in the file ejective_p.tsv
+The wrong village dialect name Budukh in the file ejective_s.tsv
+The wrong village dialect name Gigatli in the file ejective_s.tsv
+The wrong village dialect name Mehweb in the file ejective_s.tsv
+The wrong village dialect name Hinuq in the file ejective_s.tsv
+The wrong village dialect name Khinalug in the file ejective_s.tsv
+The wrong village dialect name Kwantlada in the file ejective_s.tsv
+The wrong village dialect name Kryz in the file ejective_s.tsv
 The wrong village dialect name Drushtul in the file erg_abs_pronouns.tsv
+The wrong village dialect name Budukh in the file erg_abs_pronouns.tsv
+The wrong village dialect name Mehweb in the file erg_abs_pronouns.tsv
+The wrong village dialect name Hinuq in the file erg_abs_pronouns.tsv
+The wrong village dialect name Khinalug in the file erg_abs_pronouns.tsv
+The wrong village dialect name Kwantlada in the file erg_abs_pronouns.tsv
+The wrong village dialect name Alik in the file erg_abs_pronouns.tsv
+The wrong village dialect name Kryz in the file erg_abs_pronouns.tsv
+The wrong village dialect name Budukh in the file evidentiality_tense.tsv
+The wrong village dialect name Gigatli in the file evidentiality_tense.tsv
+The wrong village dialect name Hinuq in the file evidentiality_tense.tsv
+The wrong village dialect name Khinalug in the file evidentiality_tense.tsv
+The wrong village dialect name Kwantlada in the file evidentiality_tense.tsv
+The wrong village dialect name Alik in the file evidentiality_tense.tsv
+The wrong village dialect name Budukh in the file farewell_wishes.tsv
+The wrong village dialect name Mehweb in the file farewell_wishes.tsv
+The wrong village dialect name Hinuq in the file farewell_wishes.tsv
 The wrong village dialect name Hunzib in the file farewell_wishes.tsv
+The wrong village dialect name Khinalug in the file farewell_wishes.tsv
+The wrong village dialect name Kwantlada in the file farewell_wishes.tsv
+The wrong village dialect name Alik in the file farewell_wishes.tsv
 NA
 The wrong village dialect name Gelmets in the file farewell_wishes.tsv
-The wrong village dialect name Inkhokvari in the file numeral_bases.tsv
+The wrong village dialect name Budukh in the file gemination.tsv
+The wrong village dialect name Gigatli in the file gemination.tsv
+The wrong village dialect name Mehweb in the file gemination.tsv
+The wrong village dialect name Hinuq in the file gemination.tsv
+The wrong village dialect name Khinalug in the file gemination.tsv
+The wrong village dialect name Kwantlada in the file gemination.tsv
+The wrong village dialect name Kryz in the file gemination.tsv
+The wrong village dialect name Budukh in the file gender_agreement_slot.tsv
+The wrong village dialect name Mehweb in the file gender_agreement_slot.tsv
+The wrong village dialect name Hinuq in the file gender_agreement_slot.tsv
+The wrong village dialect name Khinalug in the file gender_agreement_slot.tsv
+The wrong village dialect name Kwantlada in the file gender_agreement_slot.tsv
+The wrong village dialect name Alik in the file gender_agreement_slot.tsv
+The wrong village dialect name Budukh in the file jussive.tsv
+The wrong village dialect name Mehweb in the file jussive.tsv
+The wrong village dialect name Hinuq in the file jussive.tsv
+The wrong village dialect name Khinalug in the file jussive.tsv
+The wrong village dialect name Kwantlada in the file jussive.tsv
+The wrong village dialect name Alik in the file jussive.tsv
+The wrong village dialect name Budukh in the file labialization.tsv
+The wrong village dialect name Gigatli in the file labialization.tsv
+The wrong village dialect name Mehweb in the file labialization.tsv
+The wrong village dialect name Hinuq in the file labialization.tsv
+The wrong village dialect name Khinalug in the file labialization.tsv
+The wrong village dialect name Kwantlada in the file labialization.tsv
+The wrong village dialect name Kryz in the file labialization.tsv
+The wrong village dialect name Budukh in the file labials.tsv
+The wrong village dialect name Gigatli in the file labials.tsv
+The wrong village dialect name Mehweb in the file labials.tsv
+The wrong village dialect name Hinuq in the file labials.tsv
+The wrong village dialect name Khinalug in the file labials.tsv
+The wrong village dialect name Kwantlada in the file labials.tsv
+The wrong village dialect name Kryz in the file labials.tsv
+The wrong village dialect name Budukh in the file laterals.tsv
+The wrong village dialect name Gigatli in the file laterals.tsv
+The wrong village dialect name Mehweb in the file laterals.tsv
+The wrong village dialect name Hinuq in the file laterals.tsv
+The wrong village dialect name Khinalug in the file laterals.tsv
+The wrong village dialect name Kwantlada in the file laterals.tsv
+The wrong village dialect name Kryz in the file laterals.tsv
+The wrong village dialect name Budukh in the file long_vowels.tsv
+The wrong village dialect name Gigatli in the file long_vowels.tsv
+The wrong village dialect name Mehweb in the file long_vowels.tsv
+The wrong village dialect name Hinuq in the file long_vowels.tsv
+The wrong village dialect name Khinalug in the file long_vowels.tsv
+The wrong village dialect name Kwantlada in the file long_vowels.tsv
+The wrong village dialect name Kryz in the file long_vowels.tsv
+The wrong village dialect name Budukh in the file morning_greetings.tsv
+The wrong village dialect name Mehweb in the file morning_greetings.tsv
+The wrong village dialect name Hinuq in the file morning_greetings.tsv
+The wrong village dialect name Khinalug in the file morning_greetings.tsv
+The wrong village dialect name Kwantlada in the file morning_greetings.tsv
+The wrong village dialect name Alik in the file morning_greetings.tsv
+The wrong village dialect name Budukh in the file nasalization.tsv
+The wrong village dialect name Gigatli in the file nasalization.tsv
+The wrong village dialect name Mehweb in the file nasalization.tsv
+The wrong village dialect name Hinuq in the file nasalization.tsv
+The wrong village dialect name Khinalug in the file nasalization.tsv
+The wrong village dialect name Kwantlada in the file nasalization.tsv
+The wrong village dialect name Kryz in the file nasalization.tsv
+The wrong village dialect name Budukh in the file number_of_morphological_slots_in_spatial_forms.tsv
+The wrong village dialect name Mehweb in the file number_of_morphological_slots_in_spatial_forms.tsv
+The wrong village dialect name Hinuq in the file number_of_morphological_slots_in_spatial_forms.tsv
+The wrong village dialect name Khinalug in the file number_of_morphological_slots_in_spatial_forms.tsv
+The wrong village dialect name Kwantlada in the file number_of_morphological_slots_in_spatial_forms.tsv
+The wrong village dialect name Alik in the file number_of_morphological_slots_in_spatial_forms.tsv
+The wrong village dialect name Amushi Bol'shoe in the file numeral_bases.tsv
+The wrong village dialect name Hinuq in the file numeral_bases.tsv
+The wrong village dialect name Kwantlada in the file numeral_bases.tsv
 The wrong village dialect name Gelkhen in the file numeral_bases.tsv
 The wrong village dialect name Maza in the file numeral_bases.tsv
 The wrong village dialect name Gogaz in the file numeral_bases.tsv
 The wrong village dialect name Kimil Quba in the file numeral_bases.tsv
+The wrong village dialect name Budukh in the file numeral_bases.tsv
+The wrong village dialect name Alik in the file numeral_bases.tsv
+The wrong village dialect name Khinalug in the file numeral_bases.tsv
 The wrong village dialect name Akka in the file numeral_bases.tsv
-The wrong non-toplevel 1 dialect name Siukh in the file numeral_bases.tsv
+The wrong village dialect name Kwantlada in the file numeral_class.tsv
+The wrong village dialect name Hinuq in the file numeral_class.tsv
+The wrong village dialect name Budukh in the file numeral_class.tsv
+The wrong village dialect name Khinalug in the file numeral_class.tsv
+The wrong village dialect name Kvankhidatli in the file numeral_complex.tsv
+The wrong village dialect name Kwantlada in the file numeral_complex.tsv
+The wrong village dialect name Hinuq in the file numeral_complex.tsv
+The wrong village dialect name Budukh in the file numeral_complex.tsv
+The wrong village dialect name Khinalug in the file numeral_complex.tsv
+The wrong village dialect name Kwantlada in the file numeral_crowns_endings.tsv
+The wrong village dialect name Hinuq in the file numeral_crowns_endings.tsv
+The wrong village dialect name Budukh in the file numeral_crowns_endings.tsv
+The wrong village dialect name Khinalug in the file numeral_crowns_endings.tsv
+The wrong village dialect name Kwantlada in the file numeral_crowns_ten.tsv
+The wrong village dialect name Hinuq in the file numeral_crowns_ten.tsv
+The wrong village dialect name Budukh in the file numeral_crowns_ten.tsv
+The wrong village dialect name Khinalug in the file numeral_crowns_ten.tsv
+The wrong village dialect name Kwantlada in the file numeral_distributives.tsv
+The wrong village dialect name Hinuq in the file numeral_distributives.tsv
+The wrong village dialect name Mehweb in the file numeral_distributives.tsv
+The wrong village dialect name Budukh in the file numeral_distributives.tsv
+The wrong village dialect name Alik in the file numeral_distributives.tsv
+The wrong village dialect name Kvankhidatli in the file numeral_hundred.tsv
+The wrong village dialect name Kwantlada in the file numeral_hundred.tsv
+The wrong village dialect name Hinuq in the file numeral_hundred.tsv
+The wrong village dialect name Budukh in the file numeral_hundred.tsv
+The wrong village dialect name Khinalug in the file numeral_hundred.tsv
+The wrong village dialect name Kvankhidatli in the file numeral_one.tsv
+The wrong village dialect name Kwantlada in the file numeral_one.tsv
+The wrong village dialect name Hinuq in the file numeral_one.tsv
+The wrong village dialect name Budukh in the file numeral_one.tsv
+The wrong village dialect name Khinalug in the file numeral_one.tsv
+The wrong village dialect name Kwantlada in the file numeral_ordinals.tsv
+The wrong village dialect name Hinuq in the file numeral_ordinals.tsv
+The wrong village dialect name Budukh in the file numeral_ordinals.tsv
+The wrong village dialect name Khinalug in the file numeral_ordinals.tsv
+The wrong village dialect name Kvankhidatli in the file numeral_origin.tsv
+The wrong village dialect name Kwantlada in the file numeral_origin.tsv
+The wrong village dialect name Hinuq in the file numeral_origin.tsv
+The wrong village dialect name Budukh in the file numeral_origin.tsv
+The wrong village dialect name Khinalug in the file numeral_origin.tsv
+The wrong village dialect name Kvankhidatli in the file numeral_regularity.tsv
+The wrong village dialect name Kwantlada in the file numeral_regularity.tsv
+The wrong village dialect name Hinuq in the file numeral_regularity.tsv
+The wrong village dialect name Budukh in the file numeral_regularity.tsv
+The wrong village dialect name Khinalug in the file numeral_regularity.tsv
+The wrong village dialect name Kwantlada in the file numeral_root_hundred.tsv
+The wrong village dialect name Hinuq in the file numeral_root_hundred.tsv
+The wrong village dialect name Budukh in the file numeral_root_hundred.tsv
+The wrong village dialect name Khinalug in the file numeral_root_hundred.tsv
+The wrong village dialect name Kvankhidatli in the file numeral_thousand.tsv
+The wrong village dialect name Kwantlada in the file numeral_thousand.tsv
+The wrong village dialect name Hinuq in the file numeral_thousand.tsv
+The wrong village dialect name Budukh in the file numeral_thousand.tsv
+The wrong village dialect name Khinalug in the file numeral_thousand.tsv
+The wrong village dialect name Kwantlada in the file numeral_twenty.tsv
+The wrong village dialect name Hinuq in the file numeral_twenty.tsv
+The wrong village dialect name Budukh in the file numeral_twenty.tsv
+The wrong village dialect name Khinalug in the file numeral_twenty.tsv
+The wrong village dialect name Kwantlada in the file numeral_twoten.tsv
+The wrong village dialect name Hinuq in the file numeral_twoten.tsv
+The wrong village dialect name Budukh in the file numeral_twoten.tsv
+The wrong village dialect name Khinalug in the file numeral_twoten.tsv
+The wrong village dialect name Budukh in the file optative.tsv
+The wrong village dialect name Mehweb in the file optative.tsv
+The wrong village dialect name Hinuq in the file optative.tsv
+The wrong village dialect name Khinalug in the file optative.tsv
+The wrong village dialect name Kwantlada in the file optative.tsv
+The wrong village dialect name Alik in the file optative.tsv
+The wrong village dialect name Budukh in the file ordinals.tsv
+The wrong village dialect name Mehweb in the file ordinals.tsv
+The wrong village dialect name Hinuq in the file ordinals.tsv
+The wrong village dialect name Khinalug in the file ordinals.tsv
+The wrong village dialect name Kwantlada in the file ordinals.tsv
+The wrong village dialect name Alik in the file ordinals.tsv
+The wrong village dialect name Budukh in the file palatalized_consonants.tsv
+The wrong village dialect name Gigatli in the file palatalized_consonants.tsv
+The wrong village dialect name Mehweb in the file palatalized_consonants.tsv
+The wrong village dialect name Hinuq in the file palatalized_consonants.tsv
+The wrong village dialect name Khinalug in the file palatalized_consonants.tsv
+The wrong village dialect name Kwantlada in the file palatalized_consonants.tsv
+The wrong village dialect name Kryz in the file palatalized_consonants.tsv
+The wrong village dialect name Budukh in the file particles.tsv
+The wrong village dialect name Hinuq in the file particles.tsv
+The wrong village dialect name Khinalug in the file particles.tsv
+The wrong village dialect name Kwantlada in the file particles.tsv
+The wrong village dialect name Alik in the file particles.tsv
+The wrong village dialect name Budukh in the file perfect.tsv
+The wrong village dialect name Gigatli in the file perfect.tsv
+The wrong village dialect name Hinuq in the file perfect.tsv
+The wrong village dialect name Khinalug in the file perfect.tsv
+The wrong village dialect name Kwantlada in the file perfect.tsv
+The wrong village dialect name Alik in the file perfect.tsv
+The wrong village dialect name Budukh in the file pharyngealization.tsv
+The wrong village dialect name Gigatli in the file pharyngealization.tsv
+The wrong village dialect name Mehweb in the file pharyngealization.tsv
+The wrong village dialect name Hinuq in the file pharyngealization.tsv
+The wrong village dialect name Khinalug in the file pharyngealization.tsv
+The wrong village dialect name Kwantlada in the file pharyngealization.tsv
+The wrong village dialect name Kryz in the file pharyngealization.tsv
+The wrong village dialect name Budukh in the file pharyngeals.tsv
+The wrong village dialect name Gigatli in the file pharyngeals.tsv
+The wrong village dialect name Mehweb in the file pharyngeals.tsv
+The wrong village dialect name Hinuq in the file pharyngeals.tsv
+The wrong village dialect name Khinalug in the file pharyngeals.tsv
+The wrong village dialect name Kwantlada in the file pharyngeals.tsv
+The wrong village dialect name Kryz in the file pharyngeals.tsv
+The wrong village dialect name Budukh in the file plural_marking_on_imperatives.tsv
+The wrong village dialect name Mehweb in the file plural_marking_on_imperatives.tsv
+The wrong village dialect name Alik in the file plural_marking_on_imperatives.tsv
+The wrong village dialect name Khinalug in the file plural_marking_on_imperatives.tsv
+The wrong village dialect name Kwantlada in the file plural_marking_on_imperatives.tsv
+The wrong village dialect name Hinuq in the file plural_marking_on_imperatives.tsv
+The wrong village dialect name Budukh in the file prohibitives.tsv
+The wrong village dialect name Mehweb in the file prohibitives.tsv
+The wrong village dialect name Hinuq in the file prohibitives.tsv
+The wrong village dialect name Khinalug in the file prohibitives.tsv
+The wrong village dialect name Kwantlada in the file prohibitives.tsv
+The wrong village dialect name Alik in the file prohibitives.tsv
+The wrong village dialect name Budukh in the file standard_of_comparison.tsv
+The wrong village dialect name Mehweb in the file standard_of_comparison.tsv
+The wrong village dialect name Hinuq in the file standard_of_comparison.tsv
+The wrong village dialect name Khinalug in the file standard_of_comparison.tsv
+The wrong village dialect name Kwantlada in the file standard_of_comparison.tsv
+The wrong village dialect name Alik in the file standard_of_comparison.tsv
+The wrong village dialect name Budukh in the file trans_intrans_imperative.tsv
+The wrong village dialect name Mehweb in the file trans_intrans_imperative.tsv
+The wrong village dialect name Hinuq in the file trans_intrans_imperative.tsv
+The wrong village dialect name Khinalug in the file trans_intrans_imperative.tsv
+The wrong village dialect name Kwantlada in the file trans_intrans_imperative.tsv
+The wrong village dialect name Alik in the file trans_intrans_imperative.tsv
+The wrong village dialect name Budukh in the file umlaut_vowels.tsv
+The wrong village dialect name Gigatli in the file umlaut_vowels.tsv
+The wrong village dialect name Mehweb in the file umlaut_vowels.tsv
+The wrong village dialect name Hinuq in the file umlaut_vowels.tsv
+The wrong village dialect name Khinalug in the file umlaut_vowels.tsv
+The wrong village dialect name Kwantlada in the file umlaut_vowels.tsv
+The wrong village dialect name Kryz in the file umlaut_vowels.tsv
+The wrong village dialect name Budukh in the file uvular_voiced_stop.tsv
+The wrong village dialect name Gigatli in the file uvular_voiced_stop.tsv
+The wrong village dialect name Mehweb in the file uvular_voiced_stop.tsv
+The wrong village dialect name Hinuq in the file uvular_voiced_stop.tsv
+The wrong village dialect name Khinalug in the file uvular_voiced_stop.tsv
+The wrong village dialect name Kwantlada in the file uvular_voiced_stop.tsv
+The wrong village dialect name Kryz in the file uvular_voiced_stop.tsv
+The wrong village dialect name Budukh in the file velar_fricatives.tsv
+The wrong village dialect name Gigatli in the file velar_fricatives.tsv
+The wrong village dialect name Mehweb in the file velar_fricatives.tsv
+The wrong village dialect name Hinuq in the file velar_fricatives.tsv
+The wrong village dialect name Khinalug in the file velar_fricatives.tsv
+The wrong village dialect name Kwantlada in the file velar_fricatives.tsv
+The wrong village dialect name Kryz in the file velar_fricatives.tsv
+The wrong village dialect name Budukh in the file voiceless_obstruents.tsv
+The wrong village dialect name Gigatli in the file voiceless_obstruents.tsv
+The wrong village dialect name Mehweb in the file voiceless_obstruents.tsv
+The wrong village dialect name Hinuq in the file voiceless_obstruents.tsv
+The wrong village dialect name Khinalug in the file voiceless_obstruents.tsv
+The wrong village dialect name Kwantlada in the file voiceless_obstruents.tsv
+The wrong village dialect name Kryz in the file voiceless_obstruents.tsv
+The wrong non-toplevel 2 dialect name Sugratl' in the file gender_agreement_slot.tsv
+The wrong non-toplevel 1 dialect name Chabakoroy in the file erg_abs_pronouns.tsv
+The wrong non-toplevel 1 dialect name Gid in the file gender_agreement_slot.tsv
+The wrong non-toplevel 1 dialect name Batlukh in the file gender_agreement_slot.tsv
+The wrong non-toplevel 1 dialect name Keleb Mixed in the file gender_agreement_slot.tsv
+The wrong non-toplevel 1 dialect name Keleb Mixed in the file numeral_bases.tsv
+The wrong non-toplevel 1 dialect name Mehweb in the file numeral_bases.tsv
+The wrong non-toplevel 1 dialect name Mehweb in the file numeral_class.tsv
+The wrong non-toplevel 1 dialect name Mehweb in the file numeral_complex.tsv
+The wrong non-toplevel 1 dialect name Mehweb in the file numeral_crowns_endings.tsv
+The wrong non-toplevel 1 dialect name Mehweb in the file numeral_crowns_ten.tsv
+The wrong non-toplevel 1 dialect name Mehweb in the file numeral_hundred.tsv
+The wrong non-toplevel 1 dialect name Mehweb in the file numeral_one.tsv
+The wrong non-toplevel 1 dialect name Mehweb in the file numeral_ordinals.tsv
+The wrong non-toplevel 1 dialect name Mehweb in the file numeral_origin.tsv
+The wrong non-toplevel 1 dialect name Mehweb in the file numeral_regularity.tsv
+The wrong non-toplevel 1 dialect name Mehweb in the file numeral_root_hundred.tsv
+The wrong non-toplevel 1 dialect name Mehweb in the file numeral_thousand.tsv
+The wrong non-toplevel 1 dialect name Mehweb in the file numeral_twenty.tsv
+The wrong non-toplevel 1 dialect name Mehweb in the file numeral_twoten.tsv
+The wrong toplevel dialect name Kaitag in the file agreement_of_adpositions.tsv
 The wrong toplevel dialect name Ak-Nogai in the file caritive_attr.tsv
+The wrong toplevel dialect name Gigatli in the file causatives.tsv
+The wrong toplevel dialect name Kaitag in the file causatives.tsv
+The wrong toplevel dialect name Kaitag in the file days_after_today.tsv
+The wrong toplevel dialect name Kaitag in the file days_before_today.tsv
+The wrong toplevel dialect name Kaitag in the file dominant_adpositional_case.tsv
+The wrong toplevel dialect name Kaitag in the file ejective_p.tsv
+The wrong toplevel dialect name Kaitag in the file ejective_s.tsv
+The wrong toplevel dialect name Gigatli in the file erg_abs_pronouns.tsv
+The wrong toplevel dialect name Kaitag in the file erg_abs_pronouns.tsv
+The wrong toplevel dialect name Kaitag in the file evidentiality_tense.tsv
+The wrong toplevel dialect name Kaitag in the file farewell_wishes.tsv
+The wrong toplevel dialect name Kaitag in the file gemination.tsv
+The wrong toplevel dialect name Gigatli in the file gender_agreement_slot.tsv
+The wrong toplevel dialect name Vitskhi in the file gender_agreement_slot.tsv
+The wrong toplevel dialect name Eastern Armenian in the file jussive.tsv
+The wrong toplevel dialect name Kaitag in the file labialization.tsv
+The wrong toplevel dialect name Kaitag in the file labials.tsv
+The wrong toplevel dialect name Kaitag in the file laterals.tsv
+The wrong toplevel dialect name Kaitag in the file long_vowels.tsv
+The wrong toplevel dialect name Kaitag in the file morning_greetings.tsv
+The wrong toplevel dialect name Kaitag in the file nasalization.tsv
+The wrong toplevel dialect name Gigatli in the file number_of_morphological_slots_in_spatial_forms.tsv
+The wrong toplevel dialect name Kaitag in the file number_of_morphological_slots_in_spatial_forms.tsv
+The wrong toplevel dialect name Gigatli in the file numeral_bases.tsv
+The wrong toplevel dialect name Kaitag in the file numeral_bases.tsv
+The wrong toplevel dialect name Koshan in the file numeral_bases.tsv
+The wrong toplevel dialect name Kaitag in the file numeral_class.tsv
+The wrong toplevel dialect name Alik in the file numeral_class.tsv
+The wrong toplevel dialect name Kaitag in the file numeral_complex.tsv
+The wrong toplevel dialect name Alik in the file numeral_complex.tsv
+The wrong toplevel dialect name Gigatli in the file numeral_crowns_endings.tsv
+The wrong toplevel dialect name Kaitag in the file numeral_crowns_endings.tsv
+The wrong toplevel dialect name Alik in the file numeral_crowns_endings.tsv
+The wrong toplevel dialect name Gigatli in the file numeral_crowns_ten.tsv
+The wrong toplevel dialect name Kaitag in the file numeral_crowns_ten.tsv
+The wrong toplevel dialect name Alik in the file numeral_crowns_ten.tsv
+The wrong toplevel dialect name Kaitag in the file numeral_distributives.tsv
+The wrong toplevel dialect name Kaitag in the file numeral_hundred.tsv
+The wrong toplevel dialect name Alik in the file numeral_hundred.tsv
+The wrong toplevel dialect name Kaitag in the file numeral_one.tsv
+The wrong toplevel dialect name Alik in the file numeral_one.tsv
+The wrong toplevel dialect name Kaitag in the file numeral_ordinals.tsv
+The wrong toplevel dialect name Alik in the file numeral_ordinals.tsv
 The wrong toplevel dialect name Ak-Nogai in the file numeral_ordinals.tsv
+The wrong toplevel dialect name Kaitag in the file numeral_origin.tsv
+The wrong toplevel dialect name Alik in the file numeral_origin.tsv
+The wrong toplevel dialect name Kaitag in the file numeral_regularity.tsv
+The wrong toplevel dialect name Alik in the file numeral_regularity.tsv
+The wrong toplevel dialect name Gigatli in the file numeral_root_hundred.tsv
+The wrong toplevel dialect name Alik in the file numeral_root_hundred.tsv
+The wrong toplevel dialect name Kaitag in the file numeral_thousand.tsv
+The wrong toplevel dialect name Alik in the file numeral_thousand.tsv
+The wrong toplevel dialect name Kaitag in the file numeral_twenty.tsv
+The wrong toplevel dialect name Alik in the file numeral_twenty.tsv
+The wrong toplevel dialect name Kaitag in the file numeral_twoten.tsv
+The wrong toplevel dialect name Alik in the file numeral_twoten.tsv
+The wrong toplevel dialect name Kaitag in the file ordinals.tsv
+The wrong toplevel dialect name Kaitag in the file palatalized_consonants.tsv
+The wrong toplevel dialect name Kaitag in the file perfect.tsv
+The wrong toplevel dialect name Kaitag in the file pharyngealization.tsv
+The wrong toplevel dialect name Kaitag in the file pharyngeals.tsv
+The wrong toplevel dialect name Gigatli in the file standard_of_comparison.tsv
 The wrong toplevel dialect name Nothern Akhvakh in the file trans_intrans_imperative.tsv
+The wrong toplevel dialect name Kaitag in the file trans_intrans_imperative.tsv
+The wrong toplevel dialect name Kaitag in the file umlaut_vowels.tsv
+The wrong toplevel dialect name Kaitag in the file uvular_voiced_stop.tsv
+The wrong toplevel dialect name Kaitag in the file velar_fricatives.tsv
+The wrong toplevel dialect name Kaitag in the file voiceless_obstruents.tsv
 spelling of          chuhwanahw        in adpositions.Rmd:238
 spelling of          depi        in adpositions.Rmd:383
 spelling of          handep        in adpositions.Rmd:56
@@ -56,6 +551,7 @@ spelling of          Maricopa        in demonstratives.Rmd:102
 spelling of          owenu        in demonstratives.Rmd:324
 spelling of          Supyire        in demonstratives.Rmd:20
 spelling of          duha        in erg_abs_pronouns.Rmd:56
+spelling of          Gakvari        in erg_abs_pronouns.Rmd:86
 spelling of          kʰin        in erg_abs_pronouns.Rmd:83,84
 spelling of          uoxa        in erg_abs_pronouns.Rmd:101
 spelling of          JUSS        in farewell_wishes.Rmd:130
@@ -69,10 +565,13 @@ spelling of          Nkore        in morning_greetings.Rmd:8
 spelling of          Oraire        in morning_greetings.Rmd:8
 spelling of          xair        in morning_greetings.Rmd:41,41,49
 spelling of          xajir        in morning_greetings.Rmd:41
-spelling of          Inkhokvari        in numeral_bases.Rmd:133
+spelling of          Alik        in numeral_bases.Rmd:110
+spelling of          Gakvari        in numeral_bases.Rmd:51
 spelling of          Qidi        in numeral_bases.Rmd:133
 spelling of          azir        in numeral_complex.Rmd:65,65
+spelling of          Alik        in numeral_hundred.Rmd:24
 spelling of          Yine        in ordinals.Rmd:35
+spelling of          Alik        in particles.Rmd:85
 spelling of          Bancel        in prohibitives.Rmd:150,222
 spelling of          Lejeune        in prohibitives.Rmd:10,14
 spelling of          manzu        in prohibitives.Rmd:77
@@ -80,5 +579,6 @@ spelling of          aloc        in standard_of_comparison.Rmd:123
 spelling of          aveli        in standard_of_comparison.Rmd:227
 spelling of          diye        in standard_of_comparison.Rmd:227
 spelling of          upro        in standard_of_comparison.Rmd:227
+spelling of          Gakvari        in trans_intrans_imperative.Rmd:98
 spelling of          mari        in trans_intrans_imperative.Rmd:23
 The BibTeX entry          dmitriev1940          present in the .Rmd, but absent in the demonstratives.bib
