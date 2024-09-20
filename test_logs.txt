@@ -1,6 +1,4 @@
 Revise the BibTeX entry moroz20_villages from the file phonology_bib.tsv.
-The wrong language name          Akhvakh          in the file          agreement_of_adpositions.tsv
-The wrong language name          Dargwa          in the file          agreement_of_adpositions.tsv
 The wrong language name          Akhvakh          in the file          caritive_adv.tsv
 The wrong language name          Dargwa          in the file          caritive_adv.tsv
 The wrong language name          Akhvakh          in the file          caritive_attr.tsv
@@ -107,12 +105,11 @@ The wrong language name          Akhvakh          in the file          velar_fri
 The wrong language name          Dargwa          in the file          velar_fricatives.tsv
 The wrong language name          Akhvakh          in the file          voiceless_obstruents.tsv
 The wrong language name          Dargwa          in the file          voiceless_obstruents.tsv
-The wrong village dialect name Budukh in the file agreement_of_adpositions.tsv
 The wrong village dialect name Mehweb in the file agreement_of_adpositions.tsv
-The wrong village dialect name Hinuq in the file agreement_of_adpositions.tsv
 The wrong village dialect name Khinalug in the file agreement_of_adpositions.tsv
-The wrong village dialect name Kwantlada in the file agreement_of_adpositions.tsv
 The wrong village dialect name Alik in the file agreement_of_adpositions.tsv
+The wrong village dialect name Hinuq in the file agreement_of_adpositions.tsv
+The wrong village dialect name Kwantlada in the file agreement_of_adpositions.tsv
 The wrong village dialect name Mehweb in the file caritive_adv.tsv
 The wrong village dialect name Hinuq in the file caritive_adv.tsv
 The wrong village dialect name Khinalug in the file caritive_adv.tsv
@@ -447,7 +444,6 @@ The wrong non-toplevel 1 dialect name Mehweb in the file numeral_root_hundred.ts
 The wrong non-toplevel 1 dialect name Mehweb in the file numeral_thousand.tsv
 The wrong non-toplevel 1 dialect name Mehweb in the file numeral_twenty.tsv
 The wrong non-toplevel 1 dialect name Mehweb in the file numeral_twoten.tsv
-The wrong toplevel dialect name Kaitag in the file agreement_of_adpositions.tsv
 The wrong toplevel dialect name Ak-Nogai in the file caritive_attr.tsv
 The wrong toplevel dialect name Gigatli in the file causatives.tsv
 The wrong toplevel dialect name Kaitag in the file causatives.tsv

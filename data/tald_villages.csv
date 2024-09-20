@@ -821,7 +821,7 @@ id	village	rus_village	lat	lon	lang	aff	family	standard	default_level	dialect_to
 820	Satti	Сатти	42.840278	45.706111	Chechen	Nakh	East Caucasian		Chechen									Satti	chec1245	#996600	#996633	2024-09-19
 821	Pionerskoe	Пионерское	43.042469	45.708575	Chechen	Nakh	East Caucasian		Chechen									Pionerskoe	chec1245	#996600	#996633	2024-09-19
 822	Lakha-varandy	Лаха-варанды	43.044444	45.708889	Chechen	Nakh	East Caucasian		Chechen									Lakha-varandy	chec1245	#996600	#996633	2024-09-19
-823	Dts «chishki»	"Дтс """"""""""""""""чишки”"	43.019082	45.71085	Chechen	Nakh	East Caucasian		Chechen									Dts «chishki»	chec1245	#996600	#996633	2024-09-19
+823	Dts «chishki»	Дтс “чишки”	43.019082	45.71085	Chechen	Nakh	East Caucasian		Chechen									Dts «chishki»	chec1245	#996600	#996633	2024-09-19
 824	Yaryshmardy	Йарышмарды	42.996944	45.711667	Chechen	Nakh	East Caucasian		Chechen									Yaryshmardy	chec1245	#996600	#996633	2024-09-19
 825	Bekum-kale	Бекум-кале	42.857429	45.714459	Chechen	Nakh	East Caucasian		Chechen									Bekum-kale	chec1245	#996600	#996633	2024-09-19
 826	Zony	Зоны	42.948333	45.722222	Chechen	Nakh	East Caucasian		Chechen									Zony	chec1245	#996600	#996633	2024-09-19
@@ -1424,27 +1424,27 @@ id	village	rus_village	lat	lon	lang	aff	family	standard	default_level	dialect_to
 1423	Primorskiy	Приморский	41.845694	48.580097	Lezgian	Lezgic	East Caucasian		Lezgian									Primorskiy	lezg1247	#00cc00	#00cc66	2024-09-19
 1424	Sary-su	Сары-су	43.839722	46.4325	Nogai	Kipchak	Turkic		Nogai									Sary-su	noga1249	#666666	#666666	2024-09-19
 1425	Standard Nogai		43.59168	46.66178	Nogai	Kipchak	Turkic	Standard Nogai	Nogai										noga1249	#666666	#666666	2024-09-19
-1426	Akhinets	Ахинец	42.412612	47.113872	North-Central Dargwa	Dargwa	East Caucasian		Dargwa									Akhinets	darg1241	#ff9900	#ff9900	2024-09-19
-1427	Dingo	Динго	42.35347	47.18138	North-Central Dargwa	Dargwa	East Caucasian		Dargwa									Dingo	darg1241	#ff9900	#ff9900	2024-09-19
-1428	Kusamakhi	Кусамахи	42.36441	47.270869	North-Central Dargwa	Dargwa	East Caucasian		Dargwa									Kusamakhi	darg1241	#ff9900	#ff9900	2024-09-19
-1429	Urtsamakhi	Урцамахи	42.34854	47.276792	North-Central Dargwa	Dargwa	East Caucasian		Dargwa									Urtsamakhi	darg1241	#ff9900	#ff9900	2024-09-19
-1430	Kuknamakhi	Кукнамахи	42.359775	47.286853	North-Central Dargwa	Dargwa	East Caucasian		Dargwa									Kuknamakhi	darg1241	#ff9900	#ff9900	2024-09-19
-1431	Tazirkent	Тазиркент	42.35863	47.3576	North-Central Dargwa	Dargwa	East Caucasian		Dargwa									Tazirkent	darg1241	#ff9900	#ff9900	2024-09-19
-1432	Adukmakhi	Адукмахи	42.39928	47.401891	North-Central Dargwa	Dargwa	East Caucasian		Dargwa									Adukmakhi	darg1241	#ff9900	#ff9900	2024-09-19
-1433	Nikabarkmakhi	Никабаркмахи	42.01667	47.41667	North-Central Dargwa	Dargwa	East Caucasian		Dargwa									Nikabarkmakhi	darg1241	#ff9900	#ff9900	2024-09-19
-1434	Sangimakhi	Сангимахи	42.33788	47.43307	North-Central Dargwa	Dargwa	East Caucasian		Dargwa	Northern Dargwa	Севернодаргинский	Murego-Gubden	Мюрего-губденский					Sangimakhi	darg1241	#ff9900	#ff9900	2024-09-19
-1435	Verkhnie Kabkomakhi	Верхние Кабкомахи	42.34176	47.43688	North-Central Dargwa	Dargwa	East Caucasian		Dargwa									Verkhnie Kabkomakhi	darg1241	#ff9900	#ff9900	2024-09-19
-1436	Standard Dargwa		42.42568	47.43876	North-Central Dargwa	Dargwa	East Caucasian	Standard Dargwa	Dargwa										darg1241	#ff9900	#ff9900	2024-09-19
-1437	Zhamsory	Жамсоры	42.382089	47.462508	North-Central Dargwa	Dargwa	East Caucasian		Dargwa									Zhamsory	darg1241	#ff9900	#ff9900	2024-09-19
-1438	Kardmakhi	Кардмахи	42.37842	47.46472	North-Central Dargwa	Dargwa	East Caucasian		Dargwa									Kardmakhi	darg1241	#ff9900	#ff9900	2024-09-19
-1439	Kapulagumi	Капулагуми	42.427995	47.476847	North-Central Dargwa	Dargwa	East Caucasian		Dargwa									Kapulagumi	darg1241	#ff9900	#ff9900	2024-09-19
-1440	Mekesh	Мекеш	42.337924	47.510751	North-Central Dargwa	Dargwa	East Caucasian		Dargwa									Mekesh	darg1241	#ff9900	#ff9900	2024-09-19
-1441	Aymazimakhi	Аймазимахи	42.401788	47.525794	North-Central Dargwa	Dargwa	East Caucasian		Dargwa									Aymazimakhi	darg1241	#ff9900	#ff9900	2024-09-19
-1442	Shulerchi	Шулерчи	42.13744	47.56335	North-Central Dargwa	Dargwa	East Caucasian		Dargwa									Shulerchi	darg1241	#ff9900	#ff9900	2024-09-19
-1443	Ayamakhi	Аямахи	42.40528	47.5725	North-Central Dargwa	Dargwa	East Caucasian		Dargwa									Ayamakhi	darg1241	#ff9900	#ff9900	2024-09-19
-1444	Mugri	Мугри	42.26767	47.62872	North-Central Dargwa	Dargwa	East Caucasian		Dargwa	Northern Dargwa	Севернодаргинский	Mugri	Мугринский					Mugri	darg1241	#ff9900	#ff9900	2024-09-19
-1445	Vikry	Викры	42.20556	47.67889	North-Central Dargwa	Dargwa	East Caucasian		Dargwa	Northern Dargwa	Севернодаргинский	Muiri	Муиринский					Vikry	darg1241	#ff9900	#ff9900	2024-09-19
-1446	Druzhba	Дружба	42.2419	48.0042	North-Central Dargwa	Dargwa	East Caucasian		Dargwa									Druzhba	darg1241	#ff9900	#ff9900	2024-09-19
+1426	Akhinets	Ахинец	42.412612	47.113872	North-Central Dargwa	Dargwic	East Caucasian		Dargwa									Akhinets	darg1241	#ff9900	#ff9900	2024-09-19
+1427	Dingo	Динго	42.35347	47.18138	North-Central Dargwa	Dargwic	East Caucasian		Dargwa									Dingo	darg1241	#ff9900	#ff9900	2024-09-19
+1428	Kusamakhi	Кусамахи	42.36441	47.270869	North-Central Dargwa	Dargwic	East Caucasian		Dargwa									Kusamakhi	darg1241	#ff9900	#ff9900	2024-09-19
+1429	Urtsamakhi	Урцамахи	42.34854	47.276792	North-Central Dargwa	Dargwic	East Caucasian		Dargwa									Urtsamakhi	darg1241	#ff9900	#ff9900	2024-09-19
+1430	Kuknamakhi	Кукнамахи	42.359775	47.286853	North-Central Dargwa	Dargwic	East Caucasian		Dargwa									Kuknamakhi	darg1241	#ff9900	#ff9900	2024-09-19
+1431	Tazirkent	Тазиркент	42.35863	47.3576	North-Central Dargwa	Dargwic	East Caucasian		Dargwa									Tazirkent	darg1241	#ff9900	#ff9900	2024-09-19
+1432	Adukmakhi	Адукмахи	42.39928	47.401891	North-Central Dargwa	Dargwic	East Caucasian		Dargwa									Adukmakhi	darg1241	#ff9900	#ff9900	2024-09-19
+1433	Nikabarkmakhi	Никабаркмахи	42.01667	47.41667	North-Central Dargwa	Dargwic	East Caucasian		Dargwa									Nikabarkmakhi	darg1241	#ff9900	#ff9900	2024-09-19
+1434	Sangimakhi	Сангимахи	42.33788	47.43307	North-Central Dargwa	Dargwic	East Caucasian		Dargwa	Northern Dargwa	Севернодаргинский	Murego-Gubden	Мюрего-губденский					Sangimakhi	darg1241	#ff9900	#ff9900	2024-09-19
+1435	Verkhnie Kabkomakhi	Верхние Кабкомахи	42.34176	47.43688	North-Central Dargwa	Dargwic	East Caucasian		Dargwa									Verkhnie Kabkomakhi	darg1241	#ff9900	#ff9900	2024-09-19
+1436	Standard Dargwa		42.42568	47.43876	North-Central Dargwa	Dargwic	East Caucasian	Standard Dargwa	Dargwa										darg1241	#ff9900	#ff9900	2024-09-19
+1437	Zhamsory	Жамсоры	42.382089	47.462508	North-Central Dargwa	Dargwic	East Caucasian		Dargwa									Zhamsory	darg1241	#ff9900	#ff9900	2024-09-19
+1438	Kardmakhi	Кардмахи	42.37842	47.46472	North-Central Dargwa	Dargwic	East Caucasian		Dargwa									Kardmakhi	darg1241	#ff9900	#ff9900	2024-09-19
+1439	Kapulagumi	Капулагуми	42.427995	47.476847	North-Central Dargwa	Dargwic	East Caucasian		Dargwa									Kapulagumi	darg1241	#ff9900	#ff9900	2024-09-19
+1440	Mekesh	Мекеш	42.337924	47.510751	North-Central Dargwa	Dargwic	East Caucasian		Dargwa									Mekesh	darg1241	#ff9900	#ff9900	2024-09-19
+1441	Aymazimakhi	Аймазимахи	42.401788	47.525794	North-Central Dargwa	Dargwic	East Caucasian		Dargwa									Aymazimakhi	darg1241	#ff9900	#ff9900	2024-09-19
+1442	Shulerchi	Шулерчи	42.13744	47.56335	North-Central Dargwa	Dargwic	East Caucasian		Dargwa									Shulerchi	darg1241	#ff9900	#ff9900	2024-09-19
+1443	Ayamakhi	Аямахи	42.40528	47.5725	North-Central Dargwa	Dargwic	East Caucasian		Dargwa									Ayamakhi	darg1241	#ff9900	#ff9900	2024-09-19
+1444	Mugri	Мугри	42.26767	47.62872	North-Central Dargwa	Dargwic	East Caucasian		Dargwa	Northern Dargwa	Севернодаргинский	Mugri	Мугринский					Mugri	darg1241	#ff9900	#ff9900	2024-09-19
+1445	Vikry	Викры	42.20556	47.67889	North-Central Dargwa	Dargwic	East Caucasian		Dargwa	Northern Dargwa	Севернодаргинский	Muiri	Муиринский					Vikry	darg1241	#ff9900	#ff9900	2024-09-19
+1446	Druzhba	Дружба	42.2419	48.0042	North-Central Dargwa	Dargwic	East Caucasian		Dargwa									Druzhba	darg1241	#ff9900	#ff9900	2024-09-19
 1447	Shukty	Шукты	42.22488	47.30349	North-Central Dargwa	Dargwic	East Caucasian		Hapshima	Hapshima	гапшиминское	Shuqta	шуктинский					Shukty	darg1241	#ff9900	#ff9900	2024-09-19
 1448	Gapshima	Гапшима	42.2122	47.3261	North-Central Dargwa	Dargwic	East Caucasian		Hapshima	Hapshima	гапшиминское	Hapshima	гапшиминский					Gapshima	darg1241	#ff9900	#ff9900	2024-09-19
 1449	Megeb	Мегеб	42.2528	47.0472	North-Central Dargwa	Dargwic	East Caucasian		Mehweb									Megeb	darg1241	#ff9900	#ff9900	2024-09-19
