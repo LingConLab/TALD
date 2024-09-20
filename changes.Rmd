@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = FALSE)
 library(tidyverse)
 ```
 
-#### January 2024 (v 1.1.0)
+#### October 2024 (v 1.1.0)
 
 Feature chapters added:
 

@@ -18,20 +18,20 @@ id	village	rus_village	lat	lon	lang	aff	family	standard	default_level	dialect_to
 17	Goa	Гоа	41.753585	47.703213	Agul	Lezgic	East Caucasian		Agul	Central Agul	Среднеагульский							Goa	aghu1253	#00cc66	#00cc66	2024-09-19
 18	Fite	Фите	41.79161	47.73998	Agul	Lezgic	East Caucasian		Agul	Fite	Фитинский							Fite	aghu1253	#00cc66	#00cc66	2024-09-19
 19	Gelinbatan	Гелинбатан	41.94722	48.16722	Agul	Lezgic	East Caucasian		Agul	Fite	Фитинский							Gelinbatan	aghu1253	#00cc66	#00cc66	2024-09-19
-20	Kvankhidatl'	Кванхидатль	42.65789	46.271742	Andi	Andic	East Caucasian		Lower Andi									Kvankhidatl'	lowe1465	#003366	#9900ff	2024-09-19
-21	Muni	Муни	42.680242	46.308874	Andi	Andic	East Caucasian		Lower Andi									Muni	lowe1465	#003366	#9900ff	2024-09-19
-22	Khando	Хандо	42.72694	46.23361	Andi	Andic	East Caucasian		Upper Andi									Khando	uppe1485	#003366	#9900ff	2024-09-19
-23	Mekheturi	Мехетури	42.70556	46.2375	Andi	Andic	East Caucasian		Upper Andi									Mekheturi	uppe1485	#003366	#9900ff	2024-09-19
-24	Tsibilta	Цибилта	42.74322	46.24311	Andi	Andic	East Caucasian		Upper Andi									Tsibilta	uppe1485	#003366	#9900ff	2024-09-19
-25	Chanko	Чанко	42.717936	46.246417	Andi	Andic	East Caucasian		Upper Andi									Chanko	uppe1485	#003366	#9900ff	2024-09-19
-26	Shivor	Шивор	42.714662	46.256637	Andi	Andic	East Caucasian		Upper Andi									Shivor	uppe1485	#003366	#9900ff	2024-09-19
-27	Andi	Анди	42.7856	46.2639	Andi	Andic	East Caucasian		Upper Andi									Andi	uppe1485	#003366	#9900ff	2024-09-19
-28	Rushukha	Рушуха	42.71509	46.28112	Andi	Andic	East Caucasian		Upper Andi									Rushukha	uppe1485	#003366	#9900ff	2024-09-19
-29	Gunkha	Гунха	42.78968	46.28275	Andi	Andic	East Caucasian		Upper Andi									Gunkha	uppe1485	#003366	#9900ff	2024-09-19
-30	Gagatli	Гагатли	42.800361	46.292645	Andi	Andic	East Caucasian		Upper Andi									Gagatli	uppe1485	#003366	#9900ff	2024-09-19
-31	Ashali	Ашали	42.76963	46.30878	Andi	Andic	East Caucasian		Upper Andi									Ashali	uppe1485	#003366	#9900ff	2024-09-19
-32	Zilo	Зило	42.731394	46.319223	Andi	Andic	East Caucasian		Upper Andi									Zilo	uppe1485	#003366	#9900ff	2024-09-19
-33	Rikvani	Риквани	42.782304	46.319372	Andi	Andic	East Caucasian		Upper Andi									Rikvani	uppe1485	#003366	#9900ff	2024-09-19
+20	Kvankhidatl'	Кванхидатль	42.65789	46.271742	Andi	Avar-Andic	East Caucasian		Lower Andi									Kvankhidatl'	lowe1465	#003366	#9900ff	2024-09-19
+21	Muni	Муни	42.680242	46.308874	Andi	Avar-Andic	East Caucasian		Lower Andi									Muni	lowe1465	#003366	#9900ff	2024-09-19
+22	Khando	Хандо	42.72694	46.23361	Andi	Avar-Andic	East Caucasian		Upper Andi									Khando	uppe1485	#003366	#9900ff	2024-09-19
+23	Mekheturi	Мехетури	42.70556	46.2375	Andi	Avar-Andic	East Caucasian		Upper Andi									Mekheturi	uppe1485	#003366	#9900ff	2024-09-19
+24	Tsibilta	Цибилта	42.74322	46.24311	Andi	Avar-Andic	East Caucasian		Upper Andi									Tsibilta	uppe1485	#003366	#9900ff	2024-09-19
+25	Chanko	Чанко	42.717936	46.246417	Andi	Avar-Andic	East Caucasian		Upper Andi									Chanko	uppe1485	#003366	#9900ff	2024-09-19
+26	Shivor	Шивор	42.714662	46.256637	Andi	Avar-Andic	East Caucasian		Upper Andi									Shivor	uppe1485	#003366	#9900ff	2024-09-19
+27	Andi	Анди	42.7856	46.2639	Andi	Avar-Andic	East Caucasian		Upper Andi									Andi	uppe1485	#003366	#9900ff	2024-09-19
+28	Rushukha	Рушуха	42.71509	46.28112	Andi	Avar-Andic	East Caucasian		Upper Andi									Rushukha	uppe1485	#003366	#9900ff	2024-09-19
+29	Gunkha	Гунха	42.78968	46.28275	Andi	Avar-Andic	East Caucasian		Upper Andi									Gunkha	uppe1485	#003366	#9900ff	2024-09-19
+30	Gagatli	Гагатли	42.800361	46.292645	Andi	Avar-Andic	East Caucasian		Upper Andi									Gagatli	uppe1485	#003366	#9900ff	2024-09-19
+31	Ashali	Ашали	42.76963	46.30878	Andi	Avar-Andic	East Caucasian		Upper Andi									Ashali	uppe1485	#003366	#9900ff	2024-09-19
+32	Zilo	Зило	42.731394	46.319223	Andi	Avar-Andic	East Caucasian		Upper Andi									Zilo	uppe1485	#003366	#9900ff	2024-09-19
+33	Rikvani	Риквани	42.782304	46.319372	Andi	Avar-Andic	East Caucasian		Upper Andi									Rikvani	uppe1485	#003366	#9900ff	2024-09-19
 34	Kubatl'	Кубатль	42.03659	46.85973	Archi	Lezgic	East Caucasian		Archi									Kubatl'	arch1244	#99cc00	#00cc66	2024-09-19
 35	Kalib	Калиб	42.07054	46.86002	Archi	Lezgic	East Caucasian		Archi									Kalib	arch1244	#99cc00	#00cc66	2024-09-19
 36	Khitab	Хитаб	42.07538	46.867234	Archi	Lezgic	East Caucasian		Archi									Khitab	arch1244	#99cc00	#00cc66	2024-09-19
@@ -553,21 +553,21 @@ id	village	rus_village	lat	lon	lang	aff	family	standard	default_level	dialect_to
 552	Nizhniy Dzhalgan	Нижний Джалган	41.99007	48.31898	Azerbaijani	Oghuz	Turkic		Azerbaijani									Nizhniy Dzhalgan	nort2697	#cccccc	#cccccc	2024-09-19
 553	Khazar	Хазар	41.9944	48.3375	Azerbaijani	Oghuz	Turkic		Azerbaijani									Khazar	nort2697	#cccccc	#cccccc	2024-09-19
 554	Nyugdi	Нюгди	41.85872	48.43455	Azerbaijani	Oghuz	Turkic		Azerbaijani									Nyugdi	nort2697	#cccccc	#cccccc	2024-09-19
-555	Tlenkhori	Тленхори	42.4681009	46.0549675	Bagvalal	Andic	East Caucasian		Bagvalal	Western Bagvalal	Западнобагвалинский							Tlenkhori	bagv1239	#000066	#9900ff	2024-09-19
-556	Khushtada	Хуштада	42.517389	46.166126	Bagvalal	Andic	East Caucasian		Bagvalal	Western Bagvalal	Западнобагвалинский	Tlondoda-Khushtada	Тлондинско-хуштадинский					Khushtada	bagv1239	#000066	#9900ff	2024-09-19
-557	Kvanada	Кванада	42.561478	46.17397	Bagvalal	Andic	East Caucasian		Bagvalal	Western Bagvalal	Западнобагвалинский	Kvanada-Gimerso	Квандинско-гимерсинский					Kvanada	bagv1239	#000066	#9900ff	2024-09-19
-558	Tlondoda	Тлондода	42.5247	46.1989	Bagvalal	Andic	East Caucasian		Bagvalal	Western Bagvalal	Западнобагвалинский	Tlondoda-Khushtada	Тлондинско-хуштадинский					Tlondoda	bagv1239	#000066	#9900ff	2024-09-19
-559	Gimerso	Гимерсо	42.561489	46.227545	Bagvalal	Andic	East Caucasian		Bagvalal	Western Bagvalal	Западнобагвалинский	Kvanada-Gimerso	Квандинско-гимерсинский					Gimerso	bagv1239	#000066	#9900ff	2024-09-19
-560	Tlisi	Тлиси	42.56209	46.27428	Bagvalal	Andic	East Caucasian		Bagvalal	Eastern Bagvalal	Восточнобагвалинский	Tlisi-Tlibisho	Тлисси-тлибишинский					Tlisi	bagv1239	#000066	#9900ff	2024-09-19
-561	Tlibisho	Тлибишо	42.56054	46.30101	Bagvalal	Andic	East Caucasian		Bagvalal	Eastern Bagvalal	Восточнобагвалинский	Tlisi-Tlibisho	Тлисси-тлибишинский					Tlibisho	bagv1239	#000066	#9900ff	2024-09-19
+555	Tlenkhori	Тленхори	42.4681009	46.0549675	Bagvalal	Avar-Andic	East Caucasian		Bagvalal	Western Bagvalal	Западнобагвалинский							Tlenkhori	bagv1239	#000066	#9900ff	2024-09-19
+556	Khushtada	Хуштада	42.517389	46.166126	Bagvalal	Avar-Andic	East Caucasian		Bagvalal	Western Bagvalal	Западнобагвалинский	Tlondoda-Khushtada	Тлондинско-хуштадинский					Khushtada	bagv1239	#000066	#9900ff	2024-09-19
+557	Kvanada	Кванада	42.561478	46.17397	Bagvalal	Avar-Andic	East Caucasian		Bagvalal	Western Bagvalal	Западнобагвалинский	Kvanada-Gimerso	Квандинско-гимерсинский					Kvanada	bagv1239	#000066	#9900ff	2024-09-19
+558	Tlondoda	Тлондода	42.5247	46.1989	Bagvalal	Avar-Andic	East Caucasian		Bagvalal	Western Bagvalal	Западнобагвалинский	Tlondoda-Khushtada	Тлондинско-хуштадинский					Tlondoda	bagv1239	#000066	#9900ff	2024-09-19
+559	Gimerso	Гимерсо	42.561489	46.227545	Bagvalal	Avar-Andic	East Caucasian		Bagvalal	Western Bagvalal	Западнобагвалинский	Kvanada-Gimerso	Квандинско-гимерсинский					Gimerso	bagv1239	#000066	#9900ff	2024-09-19
+560	Tlisi	Тлиси	42.56209	46.27428	Bagvalal	Avar-Andic	East Caucasian		Bagvalal	Eastern Bagvalal	Восточнобагвалинский	Tlisi-Tlibisho	Тлисси-тлибишинский					Tlisi	bagv1239	#000066	#9900ff	2024-09-19
+561	Tlibisho	Тлибишо	42.56054	46.30101	Bagvalal	Avar-Andic	East Caucasian		Bagvalal	Eastern Bagvalal	Восточнобагвалинский	Tlisi-Tlibisho	Тлисси-тлибишинский					Tlibisho	bagv1239	#000066	#9900ff	2024-09-19
 562	Chantlisqure	Чантлискуре	41.9095028	45.9071768	Bezhta	Tsezic	East Caucasian		Bezhta									Chantlisqure	bezh1248	#ff5050	#ff5050	2024-09-19
 563	Bezhta	Бежта	42.1339	46.1247	Bezhta	Tsezic	East Caucasian		Bezhta	Bezhta	Бежтинский							Bezhta	bezh1248	#ff5050	#ff5050	2024-09-19
 564	Khasharkhota	Хашархота	42.12912	46.142158	Bezhta	Tsezic	East Caucasian		Bezhta	Khasharkhota	Тлядальский							Khasharkhota	bezh1248	#ff5050	#ff5050	2024-09-19
 565	Tlyadal	Тлядал	42.125339	46.237247	Bezhta	Tsezic	East Caucasian		Bezhta	Tlyadal	Тлядальский							Tlyadal	bezh1248	#ff5050	#ff5050	2024-09-19
-566	Ashino	Ашино	42.683462	46.156727	Botlikh	Andic	East Caucasian		Botlikh	Botlikh	Ботлихский							Ashino	botl1242	#336699	#9900ff	2024-09-19
-567	Miarso	Миарсо	42.654059	46.175643	Botlikh	Andic	East Caucasian		Botlikh	Miarso	Миарсинский							Miarso	botl1242	#336699	#9900ff	2024-09-19
-568	Botlikh	Ботлих	42.667813	46.221451	Botlikh	Andic	East Caucasian		Botlikh	Botlikh	Ботлихский							Botlikh	botl1242	#336699	#9900ff	2024-09-19
-569	Ankho	Анхо	42.723184	46.239448	Botlikh	Andic	East Caucasian		Botlikh	Botlikh	Ботлихский							Ankho	botl1242	#336699	#9900ff	2024-09-19
+566	Ashino	Ашино	42.683462	46.156727	Botlikh	Avar-Andic	East Caucasian		Botlikh	Botlikh	Ботлихский							Ashino	botl1242	#336699	#9900ff	2024-09-19
+567	Miarso	Миарсо	42.654059	46.175643	Botlikh	Avar-Andic	East Caucasian		Botlikh	Miarso	Миарсинский							Miarso	botl1242	#336699	#9900ff	2024-09-19
+568	Botlikh	Ботлих	42.667813	46.221451	Botlikh	Avar-Andic	East Caucasian		Botlikh	Botlikh	Ботлихский							Botlikh	botl1242	#336699	#9900ff	2024-09-19
+569	Ankho	Анхо	42.723184	46.239448	Botlikh	Avar-Andic	East Caucasian		Botlikh	Botlikh	Ботлихский							Ankho	botl1242	#336699	#9900ff	2024-09-19
 570	Yergüc	Ергюдж	41.209167	48.283056	Budukh	Lezgic	East Caucasian		Budukh									Yergüc	budu1248	#006600	#00cc66	2024-09-19
 571	Buduq	Будуг	41.18611	48.36861	Budukh	Lezgic	East Caucasian		Budukh									Buduq	budu1248	#006600	#00cc66	2024-09-19
 572	Sukhtakala	Сухтакала	41.266667	48.4	Budukh	Lezgic	East Caucasian		Budukh									Sukhtakala	budu1248	#006600	#00cc66	2024-09-19
@@ -575,23 +575,23 @@ id	village	rus_village	lat	lon	lang	aff	family	standard	default_level	dialect_to
 574	Karakyz	Карагыз	41.133333	48.483333	Budukh	Lezgic	East Caucasian		Budukh									Karakyz	budu1248	#006600	#00cc66	2024-09-19
 575	Bağbanlı	Багбанлы	41.3803182	48.6369682	Budukh	Lezgic	East Caucasian		Budukh									Bağbanlı	budu1248	#006600	#00cc66	2024-09-19
 576	Yalavanc	Ялавандж	41.228333	49.090278	Budukh	Lezgic	East Caucasian		Budukh									Yalavanc	budu1248	#006600	#00cc66	2024-09-19
-577	Kenkhi	Кенхи	42.641667	45.945556	Chamalal	Andic	East Caucasian		Chamalal	Kenkhi	Кенхинский							Kenkhi	cham1309	#000099	#9900ff	2024-09-19
-578	Verkhnee Gakvari	Верхнее Гаквари	42.547874	46.032686	Chamalal	Andic	East Caucasian		Chamalal	Upper Gakvari	Верхнегакваринский							Verkhnee Gakvari	cham1309	#000099	#9900ff	2024-09-19
-579	Nizhnee Gakvari	Нижнее Гаквари	42.53602	46.05171	Chamalal	Andic	East Caucasian		Chamalal	Lower Gakvari	Нижнегакваринский							Nizhnee Gakvari	cham1309	#000099	#9900ff	2024-09-19
-580	Tsumada	Цумада	42.48187	46.05247	Chamalal	Andic	East Caucasian		Chamalal	Tsumadi	Гакваринский							Tsumada	cham1309	#000099	#9900ff	2024-09-19
-581	Egdada	Эгдада	42.4681009	46.0549675	Chamalal	Andic	East Caucasian		Chamalal	Lower Gakvari	Нижнегакваринский							Egdada	cham1309	#000099	#9900ff	2024-09-19
-582	Tsidatl'	Цидатль	42.51855	46.05795	Chamalal	Andic	East Caucasian		Chamalal	Lower Gakvari	Нижнегакваринский							Tsidatl'	cham1309	#000099	#9900ff	2024-09-19
-583	Richaganikh	Ричаганих	42.49724	46.05853	Chamalal	Andic	East Caucasian		Chamalal	Tsumadi	Гакваринский							Richaganikh	cham1309	#000099	#9900ff	2024-09-19
-584	Batlakhatli	Батлахатли	42.580364	46.058877	Chamalal	Andic	East Caucasian		Chamalal									Batlakhatli	cham1309	#000099	#9900ff	2024-09-19
-585	Tsumada-Urukh	Цумада-Урух	42.474208	46.063467	Chamalal	Andic	East Caucasian		Chamalal	Tsumadi	Цумадинский							Tsumada-Urukh	cham1309	#000099	#9900ff	2024-09-19
-586	Gadiri	Гадири	42.566265	46.065746	Chamalal	Andic	East Caucasian		Chamalal	Gadyri	Гадыринский							Gadiri	cham1309	#000099	#9900ff	2024-09-19
-587	Tsuydi	Цуйди	42.52334	46.07182	Chamalal	Andic	East Caucasian		Chamalal	Lower Gakvari	Нижнегакваринский							Tsuydi	cham1309	#000099	#9900ff	2024-09-19
-588	Gachitli	Гачитли	42.551361	46.088803	Chamalal	Andic	East Caucasian		Chamalal	Gadyri	Гадыринский							Gachitli	cham1309	#000099	#9900ff	2024-09-19
-589	Gigikh	Гигих	42.532529	46.101767	Chamalal	Andic	East Caucasian		Chamalal	Gadyri	Гадыринский							Gigikh	cham1309	#000099	#9900ff	2024-09-19
-590	Kochali	Кочали	42.527888	46.116112	Chamalal	Andic	East Caucasian		Chamalal	Gadyri	Гадыринский							Kochali	cham1309	#000099	#9900ff	2024-09-19
-591	Agvali	Агвали	42.541192	46.121798	Chamalal	Andic	East Caucasian		Chamalal									Agvali	cham1309	#000099	#9900ff	2024-09-19
-592	Gigatl'	Гигатль	42.58136	46.0964	Chamalal	Andic	East Caucasian		Gigatli									Gigatl'	cham1309	#000099	#9900ff	2024-09-19
-593	Gigatli-Urukh	Гигатли-Урух	42.590934	46.142589	Chamalal	Andic	East Caucasian		Gigatli									Gigatli-Urukh	cham1309	#000099	#9900ff	2024-09-19
+577	Kenkhi	Кенхи	42.641667	45.945556	Chamalal	Avar-Andic	East Caucasian		Chamalal	Kenkhi	Кенхинский							Kenkhi	cham1309	#000099	#9900ff	2024-09-19
+578	Verkhnee Gakvari	Верхнее Гаквари	42.547874	46.032686	Chamalal	Avar-Andic	East Caucasian		Chamalal	Upper Gakvari	Верхнегакваринский							Verkhnee Gakvari	cham1309	#000099	#9900ff	2024-09-19
+579	Nizhnee Gakvari	Нижнее Гаквари	42.53602	46.05171	Chamalal	Avar-Andic	East Caucasian		Chamalal	Lower Gakvari	Нижнегакваринский							Nizhnee Gakvari	cham1309	#000099	#9900ff	2024-09-19
+580	Tsumada	Цумада	42.48187	46.05247	Chamalal	Avar-Andic	East Caucasian		Chamalal	Tsumadi	Гакваринский							Tsumada	cham1309	#000099	#9900ff	2024-09-19
+581	Egdada	Эгдада	42.4681009	46.0549675	Chamalal	Avar-Andic	East Caucasian		Chamalal	Lower Gakvari	Нижнегакваринский							Egdada	cham1309	#000099	#9900ff	2024-09-19
+582	Tsidatl'	Цидатль	42.51855	46.05795	Chamalal	Avar-Andic	East Caucasian		Chamalal	Lower Gakvari	Нижнегакваринский							Tsidatl'	cham1309	#000099	#9900ff	2024-09-19
+583	Richaganikh	Ричаганих	42.49724	46.05853	Chamalal	Avar-Andic	East Caucasian		Chamalal	Tsumadi	Гакваринский							Richaganikh	cham1309	#000099	#9900ff	2024-09-19
+584	Batlakhatli	Батлахатли	42.580364	46.058877	Chamalal	Avar-Andic	East Caucasian		Chamalal									Batlakhatli	cham1309	#000099	#9900ff	2024-09-19
+585	Tsumada-Urukh	Цумада-Урух	42.474208	46.063467	Chamalal	Avar-Andic	East Caucasian		Chamalal	Tsumadi	Цумадинский							Tsumada-Urukh	cham1309	#000099	#9900ff	2024-09-19
+586	Gadiri	Гадири	42.566265	46.065746	Chamalal	Avar-Andic	East Caucasian		Chamalal	Gadyri	Гадыринский							Gadiri	cham1309	#000099	#9900ff	2024-09-19
+587	Tsuydi	Цуйди	42.52334	46.07182	Chamalal	Avar-Andic	East Caucasian		Chamalal	Lower Gakvari	Нижнегакваринский							Tsuydi	cham1309	#000099	#9900ff	2024-09-19
+588	Gachitli	Гачитли	42.551361	46.088803	Chamalal	Avar-Andic	East Caucasian		Chamalal	Gadyri	Гадыринский							Gachitli	cham1309	#000099	#9900ff	2024-09-19
+589	Gigikh	Гигих	42.532529	46.101767	Chamalal	Avar-Andic	East Caucasian		Chamalal	Gadyri	Гадыринский							Gigikh	cham1309	#000099	#9900ff	2024-09-19
+590	Kochali	Кочали	42.527888	46.116112	Chamalal	Avar-Andic	East Caucasian		Chamalal	Gadyri	Гадыринский							Kochali	cham1309	#000099	#9900ff	2024-09-19
+591	Agvali	Агвали	42.541192	46.121798	Chamalal	Avar-Andic	East Caucasian		Chamalal									Agvali	cham1309	#000099	#9900ff	2024-09-19
+592	Gigatl'	Гигатль	42.58136	46.0964	Chamalal	Avar-Andic	East Caucasian		Gigatli									Gigatl'	cham1309	#000099	#9900ff	2024-09-19
+593	Gigatli-Urukh	Гигатли-Урух	42.590934	46.142589	Chamalal	Avar-Andic	East Caucasian		Gigatli									Gigatli-Urukh	cham1309	#000099	#9900ff	2024-09-19
 594	Bratskoe	Братское	43.649167	44.883611	Chechen	Nakh	East Caucasian		Chechen									Bratskoe	chec1245	#996600	#996633	2024-09-19
 595	Komarovo	Комарово	43.521389	45.0425	Chechen	Nakh	East Caucasian		Chechen									Komarovo	chec1245	#996600	#996633	2024-09-19
 596	Gvardeyskoe	Гвардейское	43.673333	45.051944	Chechen	Nakh	East Caucasian		Chechen									Gvardeyskoe	chec1245	#996600	#996633	2024-09-19
@@ -1056,9 +1056,9 @@ id	village	rus_village	lat	lon	lang	aff	family	standard	default_level	dialect_to
 1055	Standard Georgian		41.81574	44.31883	Georgian	Georgic	Kartvelian	Standard Georgian	Georgian										nucl1302	#fff5ee	black	2024-09-19
 1056	Əlibəyli	Алибегло	41.378056	46.821944	Georgian	Georgic	Kartvelian		Georgian	Ingiloy	Ингилойский							Əlibəyli	nucl1302	#fff5ee	#000000	2024-09-19
 1057	Meşəbaş	Мешабаш	41.408889	46.874444	Georgian	Georgic	Kartvelian		Georgian	Ingiloy	Ингилойский							Meşəbaş	nucl1302	#fff5ee	#000000	2024-09-19
-1058	Godoberi	Годобери	42.6258	46.1189	Godoberi	Andic	East Caucasian		Avar	Kuyada-Salta	Куяда-салтинское	Kuyada	куядинский					Godoberi	ghod1238	#003399	#9900ff	2024-09-19
-1059	Beledi	Беледи	42.66722	46.05361	Godoberi	Andic	East Caucasian		Godoberi	Beledi-Zibirkhali								Beledi	ghod1238	#003399	#9900ff	2024-09-19
-1060	Zibirkhali	Зибирхали	42.66833	46.07194	Godoberi	Andic	East Caucasian		Godoberi	Beledi-Zibirkhali	Беледи-зибирхалинский							Zibirkhali	ghod1238	#003399	#9900ff	2024-09-19
+1058	Godoberi	Годобери	42.6258	46.1189	Godoberi	Avar-Andic	East Caucasian		Avar	Kuyada-Salta	Куяда-салтинское	Kuyada	куядинский					Godoberi	ghod1238	#003399	#9900ff	2024-09-19
+1059	Beledi	Беледи	42.66722	46.05361	Godoberi	Avar-Andic	East Caucasian		Godoberi	Beledi-Zibirkhali								Beledi	ghod1238	#003399	#9900ff	2024-09-19
+1060	Zibirkhali	Зибирхали	42.66833	46.07194	Godoberi	Avar-Andic	East Caucasian		Godoberi	Beledi-Zibirkhali	Беледи-зибирхалинский							Zibirkhali	ghod1238	#003399	#9900ff	2024-09-19
 1061	Genukh	Генух	42.1764	45.98646	Hinuq	Tsezic	East Caucasian		Hinuq									Genukh	hinu1240	#cc0000	#ff5050	2024-09-19
 1062	Saruso	Сарусо	41.9034507	45.991913	Hunzib	Tsezic	East Caucasian		Hunzib									Saruso	hunz1247	#ff0066	#ff5050	2024-09-19
 1063	Nakhada	Нахада	42.14406	46.19143	Hunzib	Tsezic	East Caucasian		Hunzib									Nakhada	hunz1247	#ff0066	#ff5050	2024-09-19
@@ -1152,17 +1152,17 @@ id	village	rus_village	lat	lon	lang	aff	family	standard	default_level	dialect_to
 1151	Sanakari	Санакари	42.012126	47.641267	Kajtak	Dargwic	East Caucasian		Sanaqari-Chahrizhi	Sanaqari	санакаринское							Sanakari	kajt1238	#ff9900	#ff9900	2024-09-19
 1152	Zelenomorskoe	Зеленоморское	42.77004	47.68884	Kajtak	Dargwic	East Caucasian		Sanaqari-Chahrizhi	mixed	mixed							Zelenomorskoe	kajt1238	#ff9900	#ff9900	2024-09-19
 1153	Shari	Шари	41.957302	47.608649	Kajtak	Dargwic	East Caucasian		Shari									Shari	kajt1238	#ff9900	#ff9900	2024-09-19
-1154	Ratsitl	Рацитль	42.63788	46.33455	Karata-Tukita	Andic	East Caucasian		Avar	Baqluq-Northern Avar	Батлухско-северное	Northern Avar	северноаварский	Unqratl	ункратльский			Ratsitl	kara1474	#666699	#9494b8	2024-09-19
-1155	Tukita	Тукита	42.57056	46.37278	Karata-Tukita	Andic	East Caucasian		Avar	Baqluq-Northern Avar	Батлухско-северное	Northern Avar	северноаварский	Khunz	хунзахский			Tukita	kara1474	#666699	#9494b8	2024-09-19
-1156	Nizhnee Inkhelo	Нижнее Инхело	42.645134	46.259367	Karata-Tukita	Andic	East Caucasian		Karata	Karata	Каратинский							Nizhnee Inkhelo	kara1474	#666699	#9494b8	2024-09-19
-1157	Tsumali	Цумали	42.607619	46.260923	Karata-Tukita	Andic	East Caucasian		Karata	Anchiq	Анчихский							Tsumali	kara1474	#666699	#9494b8	2024-09-19
-1158	Anchik	Анчик	42.608098	46.271717	Karata-Tukita	Andic	East Caucasian		Karata	Anchiq	Анчихский							Anchik	kara1474	#666699	#9494b8	2024-09-19
-1159	Rachabulda	Рачабулда	42.617256	46.300014	Karata-Tukita	Andic	East Caucasian		Karata	Karata	Каратинский	Mashtada-Rachabulda	Маштада-рачабулдинский					Rachabulda	kara1474	#666699	#9494b8	2024-09-19
-1160	Archo	Арчо	42.597691	46.305756	Karata-Tukita	Andic	East Caucasian		Karata	Karata	Каратинский							Archo	kara1474	#666699	#9494b8	2024-09-19
-1161	Mashtada	Маштада	42.61362	46.314659	Karata-Tukita	Andic	East Caucasian		Karata	Karata	Каратинский	Mashtada-Rachabulda	Маштада-рачабулдинский					Mashtada	kara1474	#666699	#9494b8	2024-09-19
-1162	Verkhnee Inkhelo	Верхнее Инхело	42.62035	46.329732	Karata-Tukita	Andic	East Caucasian		Karata	Karata	Каратинский							Verkhnee Inkhelo	kara1474	#666699	#9494b8	2024-09-19
-1163	Karata	Карата	42.5942	46.3419	Karata-Tukita	Andic	East Caucasian		Karata	Karata	Каратинский							Karata	kara1474	#666699	#9494b8	2024-09-19
-1164	Siukh (Khasavyurt district)	Сиух (Хасавюртовский район)	43.41066	46.60497	Karata-Tukita	Andic	East Caucasian		Karata									Siukh (Khasavyurt district)	kara1474	#666699	#9494b8	2024-09-19
+1154	Ratsitl	Рацитль	42.63788	46.33455	Karata-Tukita	Avar-Andic	East Caucasian		Avar	Baqluq-Northern Avar	Батлухско-северное	Northern Avar	северноаварский	Unqratl	ункратльский			Ratsitl	kara1474	#666699	#9494b8	2024-09-19
+1155	Tukita	Тукита	42.57056	46.37278	Karata-Tukita	Avar-Andic	East Caucasian		Avar	Baqluq-Northern Avar	Батлухско-северное	Northern Avar	северноаварский	Khunz	хунзахский			Tukita	kara1474	#666699	#9494b8	2024-09-19
+1156	Nizhnee Inkhelo	Нижнее Инхело	42.645134	46.259367	Karata-Tukita	Avar-Andic	East Caucasian		Karata	Karata	Каратинский							Nizhnee Inkhelo	kara1474	#666699	#9494b8	2024-09-19
+1157	Tsumali	Цумали	42.607619	46.260923	Karata-Tukita	Avar-Andic	East Caucasian		Karata	Anchiq	Анчихский							Tsumali	kara1474	#666699	#9494b8	2024-09-19
+1158	Anchik	Анчик	42.608098	46.271717	Karata-Tukita	Avar-Andic	East Caucasian		Karata	Anchiq	Анчихский							Anchik	kara1474	#666699	#9494b8	2024-09-19
+1159	Rachabulda	Рачабулда	42.617256	46.300014	Karata-Tukita	Avar-Andic	East Caucasian		Karata	Karata	Каратинский	Mashtada-Rachabulda	Маштада-рачабулдинский					Rachabulda	kara1474	#666699	#9494b8	2024-09-19
+1160	Archo	Арчо	42.597691	46.305756	Karata-Tukita	Avar-Andic	East Caucasian		Karata	Karata	Каратинский							Archo	kara1474	#666699	#9494b8	2024-09-19
+1161	Mashtada	Маштада	42.61362	46.314659	Karata-Tukita	Avar-Andic	East Caucasian		Karata	Karata	Каратинский	Mashtada-Rachabulda	Маштада-рачабулдинский					Mashtada	kara1474	#666699	#9494b8	2024-09-19
+1162	Verkhnee Inkhelo	Верхнее Инхело	42.62035	46.329732	Karata-Tukita	Avar-Andic	East Caucasian		Karata	Karata	Каратинский							Verkhnee Inkhelo	kara1474	#666699	#9494b8	2024-09-19
+1163	Karata	Карата	42.5942	46.3419	Karata-Tukita	Avar-Andic	East Caucasian		Karata	Karata	Каратинский							Karata	kara1474	#666699	#9494b8	2024-09-19
+1164	Siukh (Khasavyurt district)	Сиух (Хасавюртовский район)	43.41066	46.60497	Karata-Tukita	Avar-Andic	East Caucasian		Karata									Siukh (Khasavyurt district)	kara1474	#666699	#9494b8	2024-09-19
 1165	Xınalıq	Хыналыг	41.17778	48.12694	Khinalug	Khinalug	East Caucasian		Khinalug									Xınalıq	khin1240	#cccc00	#cccc00	2024-09-19
 1166	Khonokh	Хонох	42.3311591	46.130717	Khwarshi-Inkhoqwari	Tsezic	East Caucasian		Avar	Hid-Qeleb	Гидское	Qeleb	келебский					Khonokh	khva1239	#993333	#ff5050	2024-09-19
 1167	Khvayni	Хвайни	42.415087	45.968736	Khwarshi-Inkhoqwari	Tsezic	East Caucasian		Khwarshi	Inkhoqwari	Инхокваринский							Khvayni	khva1239	#993333	#ff5050	2024-09-19
@@ -1628,13 +1628,13 @@ id	village	rus_village	lat	lon	lang	aff	family	standard	default_level	dialect_to
 1627	Ginta	Гинта	42.2042	47.4186	North-Central Dargwa	Dargwic	East Caucasian		Usisha-Butri	Usisha-Butri	усиша-бутринское	Hinta	гинтинский					Ginta	darg1241	#ff9900	#ff9900	2024-09-19
 1628	Kurkimakhi	Куркимахи	42.2154493	47.4207726	North-Central Dargwa	Dargwic	East Caucasian		Usisha-Butri	Usisha-Butri	усиша-бутринское	Hinta	гинтинский					Kurkimakhi	darg1241	#ff9900	#ff9900	2024-09-19
 1629	Butri	Бутри	42.1791838	47.4283254	North-Central Dargwa	Dargwic	East Caucasian		Usisha-Butri	Usisha-Butri	усиша-бутринское	Butri	бутринский					Butri	darg1241	#ff9900	#ff9900	2024-09-19
-1630	Lologonitl'	Лологонитль	42.51398	46.33093	Northern Akhvakh	Andic	East Caucasian		Northern Akhvakh	Northern Akhvakh	Северноахвахский							Lologonitl'	akhv1239	#9900ff	#9900ff	2024-09-19
-1631	Kvankero	Кванкеро	42.55244	46.3404	Northern Akhvakh	Andic	East Caucasian		Northern Akhvakh	Northern Akhvakh	Северноахвахский							Kvankero	akhv1239	#9900ff	#9900ff	2024-09-19
-1632	Tad-Magitl'	Тад-магитль	42.550266	46.348953	Northern Akhvakh	Andic	East Caucasian		Northern Akhvakh	Northern Akhvakh	Северноахвахский							Tad-Magitl'	akhv1239	#9900ff	#9900ff	2024-09-19
-1633	Tsvakilkolo	Цвакилколо	42.55213	46.35351	Northern Akhvakh	Andic	East Caucasian		Northern Akhvakh	Northern Akhvakh	Северноахвахский							Tsvakilkolo	akhv1239	#9900ff	#9900ff	2024-09-19
-1634	Kudiyabroso	Кудиябросо	42.541069	46.377932	Northern Akhvakh	Andic	East Caucasian		Northern Akhvakh	Northern Akhvakh	Северноахвахский							Kudiyabroso	akhv1239	#9900ff	#9900ff	2024-09-19
-1635	Izano	Изано	42.52735	46.40389	Northern Akhvakh	Andic	East Caucasian		Northern Akhvakh	Northern Akhvakh	Северноахвахский							Izano	akhv1239	#9900ff	#9900ff	2024-09-19
-1636	Axaxdərə	Ахвах-дере	41.6624507	46.6360615	Northern Akhvakh	Andic	East Caucasian		Northern Akhvakh	Northern Akhvakh	Северноахвахский							Axaxdərə	akhv1239	#9900ff	#9900ff	2024-09-19
+1630	Lologonitl'	Лологонитль	42.51398	46.33093	Northern Akhvakh	Avar-Andic	East Caucasian		Northern Akhvakh	Northern Akhvakh	Северноахвахский							Lologonitl'	akhv1239	#9900ff	#9900ff	2024-09-19
+1631	Kvankero	Кванкеро	42.55244	46.3404	Northern Akhvakh	Avar-Andic	East Caucasian		Northern Akhvakh	Northern Akhvakh	Северноахвахский							Kvankero	akhv1239	#9900ff	#9900ff	2024-09-19
+1632	Tad-Magitl'	Тад-магитль	42.550266	46.348953	Northern Akhvakh	Avar-Andic	East Caucasian		Northern Akhvakh	Northern Akhvakh	Северноахвахский							Tad-Magitl'	akhv1239	#9900ff	#9900ff	2024-09-19
+1633	Tsvakilkolo	Цвакилколо	42.55213	46.35351	Northern Akhvakh	Avar-Andic	East Caucasian		Northern Akhvakh	Northern Akhvakh	Северноахвахский							Tsvakilkolo	akhv1239	#9900ff	#9900ff	2024-09-19
+1634	Kudiyabroso	Кудиябросо	42.541069	46.377932	Northern Akhvakh	Avar-Andic	East Caucasian		Northern Akhvakh	Northern Akhvakh	Северноахвахский							Kudiyabroso	akhv1239	#9900ff	#9900ff	2024-09-19
+1635	Izano	Изано	42.52735	46.40389	Northern Akhvakh	Avar-Andic	East Caucasian		Northern Akhvakh	Northern Akhvakh	Северноахвахский							Izano	akhv1239	#9900ff	#9900ff	2024-09-19
+1636	Axaxdərə	Ахвах-дере	41.6624507	46.6360615	Northern Akhvakh	Avar-Andic	East Caucasian		Northern Akhvakh	Northern Akhvakh	Северноахвахский							Axaxdərə	akhv1239	#9900ff	#9900ff	2024-09-19
 1637	Burshag	Буршаг	41.89626	47.64102	Qushan Aghul	Lezgic	East Caucasian		Qushan Aghul									Burshag	kosh1245	#00cc66	#00cc66	2024-09-19
 1638	Arsug	Арсуг	41.86408	47.65011	Qushan Aghul	Lezgic	East Caucasian		Qushan Aghul									Arsug	kosh1245	#00cc66	#00cc66	2024-09-19
 1639	Khudig	Худиг	41.85373	47.65854	Qushan Aghul	Lezgic	East Caucasian		Qushan Aghul									Khudig	kosh1245	#00cc66	#00cc66	2024-09-19
@@ -1655,9 +1655,9 @@ id	village	rus_village	lat	lon	lang	aff	family	standard	default_level	dialect_to
 1654	Rutul	Рутул	41.5342	47.4269	Rutul	Lezgic	East Caucasian		Rutul	Mukhad								Rutul	rutu1240	#009900	#00cc66	2024-09-19
 1655	Khnyukh	Хнюх	41.58289	47.43299	Rutul	Lezgic	East Caucasian		Rutul	Mukhad								Khnyukh	rutu1240	#009900	#00cc66	2024-09-19
 1656	Kiche	Киче	41.53146	47.48171	Rutul	Lezgic	East Caucasian		Rutul	Mukhad								Kiche	rutu1240	#009900	#00cc66	2024-09-19
-1657	Ratlub	Ратлуб	42.359268	46.433433	Southern Akhvakh	Andic	East Caucasian		Southern Akhvakh	Southern Akhvakh	Южноахвахский							Ratlub	sout3319	#9900ff	#9900ff	2024-09-19
-1658	Tsekob	Цекоб	42.422785	46.450219	Southern Akhvakh	Andic	East Caucasian		Southern Akhvakh	Southern Akhvakh	Южноахвахский							Tsekob	sout3319	#9900ff	#9900ff	2024-09-19
-1659	Tlyanub	Тлянуб	42.43568	46.45745	Southern Akhvakh	Andic	East Caucasian		Southern Akhvakh	Southern Akhvakh	Южноахвахский							Tlyanub	sout3319	#9900ff	#9900ff	2024-09-19
+1657	Ratlub	Ратлуб	42.359268	46.433433	Southern Akhvakh	Avar-Andic	East Caucasian		Southern Akhvakh	Southern Akhvakh	Южноахвахский							Ratlub	sout3319	#9900ff	#9900ff	2024-09-19
+1658	Tsekob	Цекоб	42.422785	46.450219	Southern Akhvakh	Avar-Andic	East Caucasian		Southern Akhvakh	Southern Akhvakh	Южноахвахский							Tsekob	sout3319	#9900ff	#9900ff	2024-09-19
+1659	Tlyanub	Тлянуб	42.43568	46.45745	Southern Akhvakh	Avar-Andic	East Caucasian		Southern Akhvakh	Southern Akhvakh	Южноахвахский							Tlyanub	sout3319	#9900ff	#9900ff	2024-09-19
 1660	Shari	Шари	42.061059	47.587936	Southwestern Dargwa	Dargwic	East Caucasian		Amuzgi-Shiri	Shiri	ширинское							Shari	sout3261	#ff9900	#ff9900	2024-09-19
 1661	Amuzgi	Амузги	42.067988	47.597592	Southwestern Dargwa	Dargwic	East Caucasian		Amuzgi-Shiri	Amuzgi	амузгинское							Amuzgi	sout3261	#ff9900	#ff9900	2024-09-19
 1662	Sanzhi	Санжи	41.978061	47.56402	Southwestern Dargwa	Dargwic	East Caucasian		Sanzhi-Itsari	Sanzhi	санжинское							Sanzhi	sout3261	#ff9900	#ff9900	2024-09-19
@@ -1841,21 +1841,21 @@ id	village	rus_village	lat	lon	lang	aff	family	standard	default_level	dialect_to
 1840	Giləzi	Гилази	40.8715	49.3444	Tat	Iranian	Indo-European		Tat	Muslim Tat		Central						Giləzi	musl1236	#d5daff	#fffded	2024-09-19
 1841	Balaxanı	Балаханы	40.4608	49.9235	Tat	Iranian	Indo-European		Tat	Muslim Tat		Southern						Balaxanı	musl1236	#d5daff	#fffded	2024-09-19
 1842	Suraxanı	Сураханы	40.4181	49.9991	Tat	Iranian	Indo-European		Tat	Muslim Tat		Upper Şirvan						Suraxanı	musl1236	#d5daff	#fffded	2024-09-19
-1843	Echeda	Эчеда	42.43436	45.992398	Tindi	Andic	East Caucasian		Tindi	Tindi	Тиндинский							Echeda	tind1238	#333399	#9900ff	2024-09-19
-1844	Gadaychi	Гадайчи	42.470059	46.070951	Tindi	Andic	East Caucasian		Tindi	Tindi	Тиндинский							Gadaychi	tind1238	#333399	#9900ff	2024-09-19
-1845	Khalikh	Халих	42.48467	46.09121	Tindi	Andic	East Caucasian		Tindi	Tindi	Тиндинский							Khalikh	tind1238	#333399	#9900ff	2024-09-19
-1846	Tissi-Akhitli	Тисси-Ахитли	42.501506	46.103923	Tindi	Andic	East Caucasian		Tindi	Tindi	Тиндинский							Tissi-Akhitli	tind1238	#333399	#9900ff	2024-09-19
-1847	Tenla	Тенла	42.465771	46.128629	Tindi	Andic	East Caucasian		Tindi	Tindi	Тиндинский							Tenla	tind1238	#333399	#9900ff	2024-09-19
-1848	Sanukh	Санух	42.47054	46.13446	Tindi	Andic	East Caucasian		Tindi	Tindi	Тиндинский							Sanukh	tind1238	#333399	#9900ff	2024-09-19
-1849	Tindi	Тинди	42.454716	46.13469	Tindi	Andic	East Caucasian		Tindi	Tindi	Тиндинский							Tindi	tind1238	#333399	#9900ff	2024-09-19
-1850	Bekhvalutchi	Бехвалутчи	42.464704	46.139754	Tindi	Andic	East Caucasian		Tindi	Tindi	Тиндинский							Bekhvalutchi	tind1238	#333399	#9900ff	2024-09-19
-1851	Tissi	Тисси	42.48917	46.14395	Tindi	Andic	East Caucasian		Tindi	Tindi	Тиндинский							Tissi	tind1238	#333399	#9900ff	2024-09-19
-1852	Mukharkh	Мухарх	42.459302	46.15171	Tindi	Andic	East Caucasian		Tindi	Tindi	Тиндинский							Mukharkh	tind1238	#333399	#9900ff	2024-09-19
-1853	Gunduchi	Гундучи	42.424818	46.15836	Tindi	Andic	East Caucasian		Tindi	Tindi	Тиндинский							Gunduchi	tind1238	#333399	#9900ff	2024-09-19
-1854	Gvanachi	Гваначи	42.4606005	46.1622609	Tindi	Andic	East Caucasian		Tindi	Tindi	Тиндинский							Gvanachi	tind1238	#333399	#9900ff	2024-09-19
-1855	Aknada	Акнада	42.4024828	46.1693204	Tindi	Andic	East Caucasian		Tindi	Aknada-Angida	Акнада-ангидинский							Aknada	tind1238	#333399	#9900ff	2024-09-19
-1856	Angida	Ангида	42.43279	46.1924	Tindi	Andic	East Caucasian		Tindi	Aknada-Angida	Акнада-ангидинский							Angida	tind1238	#333399	#9900ff	2024-09-19
-1857	Asha	Аша	42.450373	46.3334458	Tindi	Andic	East Caucasian		Tindi	Tindi	Тиндинский							Asha	tind1238	#333399	#9900ff	2024-09-19
+1843	Echeda	Эчеда	42.43436	45.992398	Tindi	Avar-Andic	East Caucasian		Tindi	Tindi	Тиндинский							Echeda	tind1238	#333399	#9900ff	2024-09-19
+1844	Gadaychi	Гадайчи	42.470059	46.070951	Tindi	Avar-Andic	East Caucasian		Tindi	Tindi	Тиндинский							Gadaychi	tind1238	#333399	#9900ff	2024-09-19
+1845	Khalikh	Халих	42.48467	46.09121	Tindi	Avar-Andic	East Caucasian		Tindi	Tindi	Тиндинский							Khalikh	tind1238	#333399	#9900ff	2024-09-19
+1846	Tissi-Akhitli	Тисси-Ахитли	42.501506	46.103923	Tindi	Avar-Andic	East Caucasian		Tindi	Tindi	Тиндинский							Tissi-Akhitli	tind1238	#333399	#9900ff	2024-09-19
+1847	Tenla	Тенла	42.465771	46.128629	Tindi	Avar-Andic	East Caucasian		Tindi	Tindi	Тиндинский							Tenla	tind1238	#333399	#9900ff	2024-09-19
+1848	Sanukh	Санух	42.47054	46.13446	Tindi	Avar-Andic	East Caucasian		Tindi	Tindi	Тиндинский							Sanukh	tind1238	#333399	#9900ff	2024-09-19
+1849	Tindi	Тинди	42.454716	46.13469	Tindi	Avar-Andic	East Caucasian		Tindi	Tindi	Тиндинский							Tindi	tind1238	#333399	#9900ff	2024-09-19
+1850	Bekhvalutchi	Бехвалутчи	42.464704	46.139754	Tindi	Avar-Andic	East Caucasian		Tindi	Tindi	Тиндинский							Bekhvalutchi	tind1238	#333399	#9900ff	2024-09-19
+1851	Tissi	Тисси	42.48917	46.14395	Tindi	Avar-Andic	East Caucasian		Tindi	Tindi	Тиндинский							Tissi	tind1238	#333399	#9900ff	2024-09-19
+1852	Mukharkh	Мухарх	42.459302	46.15171	Tindi	Avar-Andic	East Caucasian		Tindi	Tindi	Тиндинский							Mukharkh	tind1238	#333399	#9900ff	2024-09-19
+1853	Gunduchi	Гундучи	42.424818	46.15836	Tindi	Avar-Andic	East Caucasian		Tindi	Tindi	Тиндинский							Gunduchi	tind1238	#333399	#9900ff	2024-09-19
+1854	Gvanachi	Гваначи	42.4606005	46.1622609	Tindi	Avar-Andic	East Caucasian		Tindi	Tindi	Тиндинский							Gvanachi	tind1238	#333399	#9900ff	2024-09-19
+1855	Aknada	Акнада	42.4024828	46.1693204	Tindi	Avar-Andic	East Caucasian		Tindi	Aknada-Angida	Акнада-ангидинский							Aknada	tind1238	#333399	#9900ff	2024-09-19
+1856	Angida	Ангида	42.43279	46.1924	Tindi	Avar-Andic	East Caucasian		Tindi	Aknada-Angida	Акнада-ангидинский							Angida	tind1238	#333399	#9900ff	2024-09-19
+1857	Asha	Аша	42.450373	46.3334458	Tindi	Avar-Andic	East Caucasian		Tindi	Tindi	Тиндинский							Asha	tind1238	#333399	#9900ff	2024-09-19
 1858	Muxax	Мухах	41.5662	46.7003	Tsakhur	Lezgic	East Caucasian		Tsakhur	Tsakh	Цахский	Mukhakh-Sabunchin	Мухахско-сабучинский					Muxax	tsak1249	#669900	#00cc66	2024-09-19
 1859	Qum	Кум	41.4550912	46.9013871	Tsakhur	Lezgic	East Caucasian		Tsakhur	Tsakh	Цахский	Tsakhur-Kum	Цахур-кумский					Qum	tsak1249	#669900	#00cc66	2024-09-19
 1860	Mukhakh	Мухах	41.70068	46.991105	Tsakhur	Lezgic	East Caucasian		Tsakhur	Tsakh	Цахский	Mukhakh-Sabunchin	Мухахско-сабучинский					Mukhakh	tsak1249	#669900	#00cc66	2024-09-19
