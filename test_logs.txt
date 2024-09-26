@@ -575,4 +575,3 @@ spelling of          diye        in standard_of_comparison.Rmd:227
 spelling of          upro        in standard_of_comparison.Rmd:227
 spelling of          Gakvari        in trans_intrans_imperative.Rmd:98
 spelling of          mari        in trans_intrans_imperative.Rmd:23
-The BibTeX entry          dmitriev1940          present in the .Rmd, but absent in the demonstratives.bib
