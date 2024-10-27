@@ -518,17 +518,17 @@ id	village	rus_village	lat	lon	lang	aff	family	standard	default_level	dialect_to
 517	Godoberi	Годобери	42.6258	46.1189	Godoberi	Avar-Andic	East Caucasian		Avar	Kuyada-Salta	Куяда-салтинское	Kuyada	куядинский					Godoberi	ghod1238	#003399	#9900ff	2024-10-03
 518	Beledi	Беледи	42.66722	46.05361	Godoberi	Avar-Andic	East Caucasian		Godoberi	Beledi-Zibirkhali								Beledi	ghod1238	#003399	#9900ff	2024-10-03
 519	Zibirkhali	Зибирхали	42.66833	46.07194	Godoberi	Avar-Andic	East Caucasian		Godoberi	Beledi-Zibirkhali	Беледи-зибирхалинский							Zibirkhali	ghod1238	#003399	#9900ff	2024-10-03
-520	Karata	Карата	42.5942	46.3419	Karata-Tukita	Avar-Andic	East Caucasian		Karata	Karata	Каратинский							Karata	kara1474	#666699	#9494b8	2024-10-03
-521	Ratsitl	Рацитль	42.63788	46.33455	Karata-Tukita	Avar-Andic	East Caucasian		Karata	Karata	Каратинский							Ratsitl	kara1474	#666699	#9494b8	2024-10-03
-522	Tsumali	Цумали	42.607619	46.260923	Karata-Tukita	Avar-Andic	East Caucasian		Karata	Anchiq	Анчихский							Tsumali	kara1474	#666699	#9494b8	2024-10-03
-523	Anchik	Анчик	42.608098	46.271717	Karata-Tukita	Avar-Andic	East Caucasian		Karata	Anchiq	Анчихский							Anchik	kara1474	#666699	#9494b8	2024-10-03
-524	Rachabulda	Рачабулда	42.617256	46.300014	Karata-Tukita	Avar-Andic	East Caucasian		Karata	Karata	Каратинский	Mashtada-Rachabulda	Маштада-рачабулдинский					Rachabulda	kara1474	#666699	#9494b8	2024-10-03
-525	Mashtada	Маштада	42.61362	46.314659	Karata-Tukita	Avar-Andic	East Caucasian		Karata	Karata	Каратинский	Mashtada-Rachabulda	Маштада-рачабулдинский					Mashtada	kara1474	#666699	#9494b8	2024-10-03
-526	Nizhnee Inkhelo	Нижнее Инхело	42.645134	46.259367	Karata-Tukita	Avar-Andic	East Caucasian		Karata	Karata	Каратинский							Nizhnee Inkhelo	kara1474	#666699	#9494b8	2024-10-03
-527	Archo	Арчо	42.597691	46.305756	Karata-Tukita	Avar-Andic	East Caucasian		Karata	Karata	Каратинский							Archo	kara1474	#666699	#9494b8	2024-10-03
-528	Verkhnee Inkhelo	Верхнее Инхело	42.62035	46.329732	Karata-Tukita	Avar-Andic	East Caucasian		Karata	Karata	Каратинский							Verkhnee Inkhelo	kara1474	#666699	#9494b8	2024-10-03
-529	Siukh (Khasavyurt district)	Сиух (Хасавюртовский район)	43.41066	46.60497	Karata-Tukita	Avar-Andic	East Caucasian		Karata									Siukh (Khasavyurt district)	kara1474	#666699	#9494b8	2024-10-03
-530	Tukita	Тукита	42.57056	46.37278	Karata-Tukita	Avar-Andic	East Caucasian		Tukita									Tukita	kara1474	#666699	#9494b8	2024-10-03
+520	Karata	Карата	42.5942	46.3419	Karata-Tukita	Avar-Andic	East Caucasian		Karata	Karata	Каратинский							Karata	kara1474	#666699	#9900ff	2024-10-03
+521	Ratsitl	Рацитль	42.63788	46.33455	Karata-Tukita	Avar-Andic	East Caucasian		Karata	Karata	Каратинский							Ratsitl	kara1474	#666699	#9900ff	2024-10-03
+522	Tsumali	Цумали	42.607619	46.260923	Karata-Tukita	Avar-Andic	East Caucasian		Karata	Anchiq	Анчихский							Tsumali	kara1474	#666699	#9900ff	2024-10-03
+523	Anchik	Анчик	42.608098	46.271717	Karata-Tukita	Avar-Andic	East Caucasian		Karata	Anchiq	Анчихский							Anchik	kara1474	#666699	#9900ff	2024-10-03
+524	Rachabulda	Рачабулда	42.617256	46.300014	Karata-Tukita	Avar-Andic	East Caucasian		Karata	Karata	Каратинский	Mashtada-Rachabulda	Маштада-рачабулдинский					Rachabulda	kara1474	#666699	#9900ff	2024-10-03
+525	Mashtada	Маштада	42.61362	46.314659	Karata-Tukita	Avar-Andic	East Caucasian		Karata	Karata	Каратинский	Mashtada-Rachabulda	Маштада-рачабулдинский					Mashtada	kara1474	#666699	#9900ff	2024-10-03
+526	Nizhnee Inkhelo	Нижнее Инхело	42.645134	46.259367	Karata-Tukita	Avar-Andic	East Caucasian		Karata	Karata	Каратинский							Nizhnee Inkhelo	kara1474	#666699	#9900ff	2024-10-03
+527	Archo	Арчо	42.597691	46.305756	Karata-Tukita	Avar-Andic	East Caucasian		Karata	Karata	Каратинский							Archo	kara1474	#666699	#9900ff	2024-10-03
+528	Verkhnee Inkhelo	Верхнее Инхело	42.62035	46.329732	Karata-Tukita	Avar-Andic	East Caucasian		Karata	Karata	Каратинский							Verkhnee Inkhelo	kara1474	#666699	#9900ff	2024-10-03
+529	Siukh (Khasavyurt district)	Сиух (Хасавюртовский район)	43.41066	46.60497	Karata-Tukita	Avar-Andic	East Caucasian		Karata									Siukh (Khasavyurt district)	kara1474	#666699	#9900ff	2024-10-03
+530	Tukita	Тукита	42.57056	46.37278	Karata-Tukita	Avar-Andic	East Caucasian		Tukita									Tukita	kara1474	#666699	#9900ff	2024-10-03
 531	Axaxdərə	Ахвах-дере	41.6624507	46.6360615	Northern Akhvakh	Avar-Andic	East Caucasian		Northern Akhvakh	Axaxdərə								Axaxdərə	akhv1239	#9900ff	#9900ff	2024-10-03
 532	Lologonitl'	Лологонитль	42.51398	46.33093	Northern Akhvakh	Avar-Andic	East Caucasian		Northern Akhvakh									Lologonitl'	akhv1239	#9900ff	#9900ff	2024-10-03
 533	Kvankero	Кванкеро	42.55244	46.3404	Northern Akhvakh	Avar-Andic	East Caucasian		Northern Akhvakh									Kvankero	akhv1239	#9900ff	#9900ff	2024-10-03
