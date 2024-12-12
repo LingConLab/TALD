@@ -1,0 +1,2920 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="Asya Alekseeva, Michael Daniel" />
+
+
+<title>Inclusive/exclusive distinction in pronouns</title>
+
+<script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="site_libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="site_libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.5.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet" />
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+<style type="text/css">
+/* for pandoc --citeproc since 2.11 */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">TALD</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="./about.html">About</a>
+</li>
+<li>
+  <a href="./features.html">
+    <span class="fa fa-atlas"></span>
+     
+    Features
+  </a>
+</li>
+<li>
+  <a href="./languages.html">Languages</a>
+</li>
+<li>
+  <a href="./changes.html">Changes</a>
+</li>
+<li>
+  <a href="./references.html">References</a>
+</li>
+<li>
+  <a href="./team.html">Team</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Inclusive/exclusive distinction in
+pronouns</h1>
+<h4 class="author">Asya Alekseeva, Michael Daniel</h4>
+<h4 class="date">Last update: December 2024</h4>
+
+</div>
+
+
+<p>See <a
+href="059_inclusive_exclusive_distinction_in_personal_pronouns_map.html">data
+and maps</a>.</p>
+<div id="section"
+class="section level1 tabset tabset-fade tabset-pills unnumbered">
+<h1 class="tabset tabset-fade tabset-pills unnumbered"></h1>
+<div id="plain-text" class="section level2 unnumbered hasAnchor">
+<h2 class="unnumbered hasAnchor">Plain text<a href="#plain-text"
+class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Alekseeva, A. and M. Daniel (2024). “Inclusive/exclusive distinction
+in pronouns”. In: <em>Typological Atlas of the Languages of Daghestan
+(TALD)</em>. Ed. by M. Daniel, K. Filatov, T. Maisak, G. Moroz, T.
+Mukhin, C. Naccarato and S. Verhees. Moscow: Linguistic Convergence
+Laboratory, NRU HSE. DOI: 10.5281/zenodo.6807070. <a
+href="http://lingconlab.ru/dagatlas"
+class="uri">http://lingconlab.ru/dagatlas</a>.</p>
+</div>
+<div id="bibtex" class="section level2 unnumbered hasAnchor">
+<h2 class="unnumbered hasAnchor">BibTeX<a href="#bibtex"
+class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<pre><code>@incollection{alekseeva2024,
+  title = {Inclusive/exclusive distinction in pronouns},
+  author = {Asya Alekseeva and Michael Daniel},
+  year = {2024},
+  editor = {Michael Daniel and Konstantin Filatov and Timur Maisak and George Moroz and Timofey Mukhin and Chiara Naccarato and Samira Verhees},
+  publisher = {Linguistic Convergence Laboratory, NRU HSE},
+  address = {Moscow},
+  booktitle = {Typological Atlas of the Languages of Daghestan (TALD)},
+  url = {http://lingconlab.ru/dagatlas},
+  doi = {10.5281/zenodo.6807070},
+}</code></pre>
+</div>
+</div>
+<div id="introduction" class="section level1 hasAnchor" number="1">
+<h1 class="hasAnchor"><span class="header-section-number">1</span>
+Introduction<a href="#introduction" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p>The chapter deals with first person plural pronouns, i.e. pronouns
+expressing the meaning ‘we’. Languages of the world differ as to whether
+they distinguish between pronouns with exclusive and inclusive
+reference. The languages that make the distinction have two pronouns in
+the 1PL: ‘we, you are included’ and ‘we, you are excluded’. The Khnov
+dialect of Rutul (Lezgic &lt; East Caucasian) is an example of such a
+language. Example (<a href="#one">1a</a>) shows the context ‘You haven’t
+seen us’, where the hearer is not included in the reference of ‘us’, and
+the form <em>juˤqumbɨ</em> is used. In (<a href="#one">1b</a>) another
+form is used: <em>jinewi</em>; in this case the hearer is included in
+the reference ‘We are all humans’. The form <em>juˤqumbɨ</em> is called
+“first person exclusive” (1EXCL), and <em>jinewi</em> “first person
+inclusive” (1INCL).</p>
+<ol class="example" style="list-style-type: decimal">
+<li>Khnov Rutul, Lezgic, East Caucasian [Ilya Sadakov, field data]</li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; ">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>wa-s</em>
+</td>
+<td style="text-align:left;">
+<em>juˤqumbɨ</em>
+</td>
+<td style="text-align:left;">
+<em>ʁ-a&lt;d&gt;gu-d</em>
+</td>
+<td style="text-align:left;">
+<em>dɨš</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps">2sg</span>-<span class="smallcaps">dat</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">1excl</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">pv</span>-&lt;<span
+class="smallcaps">hpl</span>&gt;see.<span
+class="smallcaps">pfv</span>-<span class="smallcaps">attr</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">cop</span>.<span class="smallcaps">neg</span>-
+</td>
+</tr>
+</tbody>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; ">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>jinewi</em>
+</td>
+<td style="text-align:left;">
+<em>sine</em>
+</td>
+<td style="text-align:left;">
+<em>insan-ar</em>
+</td>
+<td style="text-align:left;">
+<em>d-iʔi</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps">1incl</span>
+</td>
+<td style="text-align:left;">
+all
+</td>
+<td style="text-align:left;">
+person-<span class="smallcaps">pl</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">hpl</span>-<span class="smallcaps">cop</span>
+</td>
+</tr>
+</tbody>
+</table></li>
+</ol>
+<p>In East Caucasian languages the inclusive and the exclusive may or
+may not be differentiated. In the latter case there is only one form
+which expresses the meaning ‘we’, both with exclusive and inclusive
+reference. This is the case in Kina Rutul (the variety of Rutul spoken
+in the village of Kina). In both contexts (<a href="#two">2a</a>) (the
+hearer is excluded) and (<a href="#two">2b</a>) (the hearer is included)
+the form <em>je</em> is used, which contrasts with Khnov Rutul (see (<a
+href="#one">1a</a>) and (<a href="#one">1b</a>) above).</p>
+<ol start="2" class="example" style="list-style-type: decimal">
+<li>Kina Rutul, Lezgic, East Caucasian [Maxim Melenchenko, field
+data]</li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; ">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>wa-s</em>
+</td>
+<td style="text-align:left;">
+<em>je</em>
+</td>
+<td style="text-align:left;">
+<em>ʁ-e&lt;d&gt;gü-r=a</em>
+</td>
+<td style="text-align:left;">
+<em>dɨš</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps">2sg</span>-<span class="smallcaps">dat</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">1pl</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">pv</span>-&lt;<span
+class="smallcaps">hpl</span>&gt;see.<span
+class="smallcaps">pfv</span>-<span class="smallcaps">cvb</span>=be
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">cop</span>.<span class="smallcaps">neg</span>-
+</td>
+</tr>
+</tbody>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; ">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>je</em>
+</td>
+<td style="text-align:left;">
+<em>sin</em>
+</td>
+<td style="text-align:left;">
+<em>insan-ar</em>
+</td>
+<td style="text-align:left;">
+<em>d-iʔi</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps">1pl</span>
+</td>
+<td style="text-align:left;">
+all
+</td>
+<td style="text-align:left;">
+person-<span class="smallcaps">pl</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">hpl</span>-<span class="smallcaps">cop</span>
+</td>
+</tr>
+</tbody>
+</table></li>
+</ol>
+<p>Cross-linguistically, the formal distinction between inclusive and
+exclusive pronouns is quite common. It is present in 68 out of 200
+languages (34%) according to WALS data <span class="citation">(<a
+href="#ref-cysouw2013">Cysouw 2013</a>)</span>. In this chapter and in
+the map I will use the label “attested” if the inclusive/exclusive
+distinction is present in a language, and “not attested” if it is not
+present. In the latter case, I will designate the first person plural
+pronoun as <strong>neutral</strong> ‘we’.</p>
+<p>The goal of this chapter is to classify the languages of Daghestan
+according to the presence of the inclusive/exclusive distinction in
+their pronominal systems.</p>
+</div>
+<div id="results" class="section level1 hasAnchor" number="2">
+<h1 class="hasAnchor"><span class="header-section-number">2</span>
+Results<a href="#results" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<div id="non-east-caucasian-languages" class="section level2 hasAnchor"
+number="2.1">
+<h2 class="hasAnchor"><span class="header-section-number">2.1</span>
+Non-East-Caucasian languages<a href="#non-east-caucasian-languages"
+class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>None of the non-East-Caucasian languages included in the sample
+distinguishes between the inclusive and the exclusive. These are the
+following languages: Armenian, Georgian, Tat (Muslim Tat and Judeo-Tat),
+Kumyk, Nogai and Azerbaijani. The forms of speech act participants (SAP)
+pronouns of these languages are shown in <a href="#t1">Table 1</a>.</p>
+<div id="t1" class="section level4 unnumbered hasAnchor">
+<h4 class="unnumbered hasAnchor"><strong>Table 1.</strong> SAP pronouns
+in Armenian, Georgian, Tat, Kumyk, Nogai and Azerbaijani (see <span
+class="citation">(<a href="#ref-dum-tragut2009">Dum-Tragut 2009</a>:
+124; <a href="#ref-hewitt1995">Hewitt 1995</a>: 76; <a
+href="#ref-griunberg1963">Grjunberg 1963</a>: 38; <a
+href="#ref-abdullaevaetal2014">Abdullaeva et al. 2014</a>: 247; <a
+href="#ref-baskakov1973">Baskakov 1973</a>: 161; <a
+href="#ref-shiralievsevortyan1971">Širaliev, Sevortjan 1971</a>:
+79)</span>, respectively).<a href="#t1" class="anchor-section"
+aria-label="Anchor link to header"></a></h4>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-fymr{border-color:inherit;font-weight:bold;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+<tr>
+<th class="tg-0pky">
+</th>
+<th class="tg-fymr">
+1SG
+</th>
+<th class="tg-c3ow">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">1PL</span>
+</th>
+<th class="tg-c3ow">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">2SG</span>
+</th>
+<th class="tg-c3ow">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">2PL</span>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tg-c3ow">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Modern
+East Armenian</span>
+</td>
+<td class="tg-c3ow">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">jes</span>
+</td>
+<td class="tg-c3ow">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">menkʰ</span>
+</td>
+<td class="tg-c3ow">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">du</span>
+</td>
+<td class="tg-c3ow">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">dukʰ</span>
+</td>
+</tr>
+<tr>
+<td class="tg-c3ow">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Standard
+Georgian</span>
+</td>
+<td class="tg-c3ow">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">me</span>
+</td>
+<td class="tg-c3ow">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">čven</span>
+</td>
+<td class="tg-c3ow">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">šen</span>
+</td>
+<td class="tg-c3ow">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">tkven</span>
+</td>
+</tr>
+<tr>
+<td class="tg-c3ow">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Muslim
+Tat</span>
+</td>
+<td class="tg-c3ow">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">mæn</span>
+</td>
+<td class="tg-c3ow">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">(i)mu(n)</span>
+</td>
+<td class="tg-c3ow">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ty</span>
+</td>
+<td class="tg-c3ow">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">(i)šmu(n)</span>
+</td>
+</tr>
+<tr>
+<td class="tg-c3ow">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Standard
+Kumyk</span>
+</td>
+<td class="tg-c3ow">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">men</span>
+</td>
+<td class="tg-c3ow">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">biz</span>
+</td>
+<td class="tg-c3ow">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">sen</span>
+</td>
+<td class="tg-c3ow">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">siz</span>
+</td>
+</tr>
+<tr>
+<td class="tg-c3ow">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Standard
+Nogai</span>
+</td>
+<td class="tg-c3ow">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">men</span>
+</td>
+<td class="tg-c3ow">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">biz</span>
+</td>
+<td class="tg-c3ow">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">sen</span>
+</td>
+<td class="tg-c3ow">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">siz</span>
+</td>
+</tr>
+<tr>
+<td class="tg-c3ow">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Standard
+Azerbaijani</span>
+</td>
+<td class="tg-c3ow">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">mən</span>
+</td>
+<td class="tg-c3ow">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">biz</span>
+</td>
+<td class="tg-c3ow">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">sən</span>
+</td>
+<td class="tg-c3ow">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">siz</span>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="avar-andic-branch" class="section level2 hasAnchor"
+number="2.2">
+<h2 class="hasAnchor"><span class="header-section-number">2.2</span>
+Avar-Andic branch<a href="#avar-andic-branch" class="anchor-section"
+aria-label="Anchor link to header"></a></h2>
+<p>In the Andic branch of East Caucasian, the inclusive/exclusive
+distinction was attested in all languages. The pronouns of Karata of
+Archo (<a href="#t2">Table 2</a>) serve as an example of a system
+typically found in Andic languages.</p>
+<div id="t2" class="section level4 unnumbered hasAnchor">
+<h4 class="unnumbered hasAnchor"><strong>Table 2.</strong> SAP pronouns
+of the Karata language, Archo village <span class="citation">(<a
+href="#ref-magomedbekova1971">Magomedbekova 1971</a>: 101)</span>.<a
+href="#t2" class="anchor-section"
+aria-label="Anchor link to header"></a></h4>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-5frq{font-style:italic;text-align:center;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+<tr>
+<th class="tg-0lax">
+</th>
+<th class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">1SG</span>
+</th>
+<th class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">1INCL</span>
+</th>
+<th class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">1EXCL</span>
+</th>
+<th class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">2SG</span>
+</th>
+<th class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">2PL</span>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Karata,
+Archo village</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">den</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">iƛi</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">išːi</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">men</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">bišːdi</span>
+</td>
+</tr>
+</tbody>
+</table>
+<p>In Avar, almost all the dialects and lects also have the distinction.
+Only two varieties lack it. According to <span class="citation">(<a
+href="#ref-isakov2020">Isakov 2020</a>: 97-98)</span> the idioms of the
+Kusur and Upper Dzhengutaj villages do not distinguish between inclusive
+and exclusive. In the case of Kusur, this can be due to its geographical
+isolation from other Avar villages and to the fact that Kusur is
+adjacent to the territory of Tsakhur (Lezgic), which lacks the
+inclusive/exclusive distinction. <a href="#t3">Table 3</a> compares the
+pronoun sets in Standard Avar and in the Avar of Kusur. We see that the
+latter lost the inclusive form <em>niɬ</em>, and the meaning of the
+exclusive pronoun <em>niž</em> expanded to cover the neutral ‘we’.</p>
+</div>
+<div id="t3" class="section level4 unnumbered hasAnchor">
+<h4 class="unnumbered hasAnchor"><strong>Table 3.</strong> Standard Avar
+pronouns <span class="citation">(<a
+href="#ref-alekseevataev1997">Alekseev, Ataev 1997</a>: 53-54)</span>
+and the pronouns of the Avar of Kusur <span class="citation">(<a
+href="#ref-isakov2020">Isakov 2020</a>: 97-98)</span>.<a href="#t3"
+class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-5frq{font-style:italic;text-align:center;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+<tr>
+<th class="tg-0lax">
+</th>
+<th class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">1SG</span>
+</th>
+<th class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">1INCL</span>
+</th>
+<th class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">1EXCL</span>
+</th>
+<th class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">2SG</span>
+</th>
+<th class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">2PL</span>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Standard
+Avar</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">dun</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">niɬ</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">niž</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">mun</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">nuž</span>
+</td>
+</tr>
+<tr>
+<td class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Kusur
+Avar</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">dun</span>
+</td>
+<td class="tg-5frq" colspan="2">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">niž</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">mun</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">nuž</span>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="dargwa" class="section level2 unnumbered hasAnchor">
+<h2 class="unnumbered hasAnchor">Dargwa languages<a href="#dargwa"
+class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Dargwa languages (here I use the classification of Dargwa languages
+proposed by Yury Koryakov <span class="citation">(<a
+href="#ref-koryakov2021">2021</a>)</span>) demonstrate a great variation
+with respect to the inclusive/exclusive distinction. All Northern Dargwa
+languages lack the distinction. Some but not all Southern Dargwa
+languages as well as Chirag and Kaitag Dargwa make the distinction.
+Dargwa languages are remarkable because of the diversity of the
+diachronic processes in personal pronouns systems of different
+varieties.</p>
+<p>Ganenkov <span class="citation">(<a
+href="#ref-ganenkov2013">2013</a>)</span> reconstructs the pronominal
+system of Proto-Dargwa and proposes a scenario of its evolution in
+languages which descended from the proto-language. <a href="#t4">Table
+4</a> shows the reconstruction and the forms attested in some Dargwa
+varieties.</p>
+<div id="t4" class="section level4 unnumbered hasAnchor">
+<h4 class="unnumbered hasAnchor"><strong>Table 4.</strong> Personal
+pronouns in Proto-Dargwa, Chirag, Kaitag, Northern Dargwa — Standard
+Dargwa, Tsudakhar and Butri, Southern Dargwa — Shiri, Kunki, Itsari,
+Sanzhi, Tanty and Kubachi.<a href="#t4" class="anchor-section"
+aria-label="Anchor link to header"></a></h4>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-5frq{font-style:italic;text-align:center;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+<tr>
+<th class="tg-0lax">
+</th>
+<th class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">source</span>
+</th>
+<th class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">1SG</span>
+</th>
+<th class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">1INCL</span>
+</th>
+<th class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">1EXCL</span>
+</th>
+<th class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">2SG</span>
+</th>
+<th class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">2PL</span>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Proto-Dargwa</span>
+</td>
+<td class="tg-baqh">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"><span
+class="citation">Ganenkov (<a
+href="#ref-ganenkov2013">2013</a>)</span></span>
+</td>
+<td class="tg-5frq">
+<span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">*du</span>
+</td>
+<td class="tg-5frq">
+<span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">*nux:a</span>
+</td>
+<td class="tg-5frq">
+<span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">*nus:a</span>
+</td>
+<td class="tg-5frq">
+<span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">*ħu</span>
+</td>
+<td class="tg-5frq">
+<span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">*nuš:a</span>
+</td>
+</tr>
+<tr>
+<td class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Chirag</span>
+</td>
+<td class="tg-baqh">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"><span
+class="citation">Kibrik, Kodzasov (<a
+href="#ref-kibrikkodzasov1990">1990</a>)</span>: 221; Dmitry Ganenkov,
+p.c.</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">du</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">núxːa</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">núsːa</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ʕuˤ</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">núš:a</span>
+</td>
+</tr>
+<tr>
+<td class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Kaitag</span>
+</td>
+<td class="tg-baqh">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"><span
+class="citation">Temirbulatova (<a
+href="#ref-temirbulatova2004">2004</a>)</span>: 130</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">du</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">nixːa</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">nisːa</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">i</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">nuš:a</span>
+</td>
+</tr>
+<tr>
+<td class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Standard
+Dargwa</span>
+</td>
+<td class="tg-baqh">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"><span
+class="citation">Berg (<a href="#ref-vandenberg2001">2001</a>)</span>:
+27</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">nu
+</span><span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">(GEN</span><span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">
+dila</span><span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">)</span>
+</td>
+<td class="tg-5frq" colspan="2">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">nuša</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ħu</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ħuša</span>
+</td>
+</tr>
+<tr>
+<td class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Tsudakhar</span>
+</td>
+<td class="tg-baqh">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"><span
+class="citation">Abdullaev (<a
+href="#ref-abdullaev1954">1954</a>)</span>: 141</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">du</span>
+</td>
+<td class="tg-5frq" colspan="2">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">nux:a
+</span><span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">(OBL
+</span><span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">niš:-</span><span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">)</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ʕu</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ʕuš:a</span>
+</td>
+</tr>
+<tr>
+<td class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Butri</span>
+</td>
+<td class="tg-baqh">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"><span
+class="citation">Šaxbanova (<a
+href="#ref-shakhbanova2007">2007</a>)</span>: 25, 91, 101-102</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">du</span>
+</td>
+<td class="tg-5frq" colspan="2">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">nux:a</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">i</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">iš:a</span>
+</td>
+</tr>
+<tr>
+<td class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Shiri</span>
+</td>
+<td class="tg-baqh">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"><span
+class="citation">Beljaev (<a href="#ref-belyaev2019">2019</a>)</span>:
+34; Oleg Belyaev, p.c.</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">du</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">nuxːa</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">nusːa</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ʔü</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">nuš:a</span>
+</td>
+</tr>
+<tr>
+<td class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Kunki</span>
+</td>
+<td class="tg-baqh">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Dmitry
+Ganenkov, p.c.</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">du</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">nuš:a</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">nusːa</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">u</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">uš:a</span>
+</td>
+</tr>
+<tr>
+<td class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Itsari</span>
+</td>
+<td class="tg-baqh">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"><span
+class="citation">Sumbatova, Mutalov (<a
+href="#ref-sumbatovamutalov2003">2003</a>)</span>: 37</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">du</span>
+</td>
+<td class="tg-5frq" colspan="2">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">nuš:a</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">u</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">nuš:a</span>
+</td>
+</tr>
+<tr>
+<td class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Sanzhi</span>
+</td>
+<td class="tg-baqh">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"><span
+class="citation">Forker (<a
+href="#ref-forker2020dargwa">2020</a>)</span>: 20</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">du</span>
+</td>
+<td class="tg-5frq" colspan="2">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">nuš:a</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">u</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">uš:a</span>
+</td>
+</tr>
+<tr>
+<td class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Tanty</span>
+</td>
+<td class="tg-baqh">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"><span
+class="citation">Sumbatova, Lander (<a
+href="#ref-sumbatovalander2014">2014</a>)</span>: 77</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">du</span>
+</td>
+<td class="tg-5frq" colspan="2">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">nuxːa
+</span><span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">(OBL
+</span><span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">niš:-</span><span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">)</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ʕuˤ</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ʕuˤx:a
+</span><span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">(OBL
+</span><span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ʕaˤš:-</span><span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">)</span>
+</td>
+</tr>
+<tr>
+<td class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Kubachi</span>
+</td>
+<td class="tg-baqh">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"><span
+class="citation">Magometov (<a
+href="#ref-magometov1963">1963</a>)</span>: 139</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">du</span>
+</td>
+<td class="tg-5frq" colspan="2">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">nus:a</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">u</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">uš:a</span>
+</td>
+</tr>
+</tbody>
+</table>
+<p>According to Ganenkov’s reconstruction, in Chirag, Kaitag and Shiri,
+the Proto-Dargwa pronominal system remained unchanged. In other
+varieties, except Kunki, the inclusive/exclusive distinction was lost.
+In Kunki the distinction is still present, but according to the
+hypothesis, the original system underwent a change. The original *1INCL
+pronoun *<em>nux:a</em> was replaced by the descendent of the original
+*2PL *<em>nuš:a</em>. The latter was substituted, in its 2PL function,
+by an innovative 2PL <em>uš:a</em>. This new 2PL form appeared in all
+varieties except Chirag, Kaitag and Shiri, and also in Itsari, where the
+1PL and the 2PL are syncretic. Ganenkov suggests that the innovative
+form <em>uš:a</em> (and its parallels in other innovating systems) has
+been formed from the 2SG pronoun by analogy.</p>
+<p>As for the varieties where the distinction was lost, three sources
+for their present 1PL forms are attested: *1INCL, *1EXCL and *2PL. In
+Butri the source of the 1PL is the former inclusive pronoun. A similar
+process occurred in Tsudakhar and Tanty, but there the former inclusive
+took up the function of 1PL only in the absolutive and ergative case,
+while in other cases the stem <em>niš:</em>- which originates from *2PL
+is used. In Kubachi, the 1PL goes back to the *1EXCL. In the remaining
+cases, i.e. in Standard Dargwa, Itsari and Sanzhi, the *2PL became the
+1PL, and the original *1INCL and *1EXCL were both lost. In Itsari, there
+is a syncretism of 1PL and 2PL, whereas in Standard Dargwa and Sanzhi
+the *2PL shifted to the 1PL, and a new form (similar to the situation in
+other varieties) for the 2PL appeared. A notable change occurred in
+Standard Dargwa and some Northern dialects, where the form of 1SG
+(originally, <em>du</em>) was replaced by <em>nu</em>, so that the
+system became symmetrical: <em>nu</em> — 1SG, <em>ħu</em> — 2SG, and the
+plural forms are “derived” from the singular ones by the means of
+formant -<em>ša</em>.</p>
+<p><a href="#t5">Table 5</a> summarizes the origins of pronouns in each
+idiom. In the columns “1SG”, “1INCL”, etc., the origin of the
+corresponding present pronominal form is shown. E.g., if the column
+“1INCL” contains *2PL, this means that the synchronic form of 1INCL
+originates from *2PL of proto-Dargwa. If no origin is displayed, the
+synchronic form is written, e.g. <em>ħuša</em> for Standard Dargwa,
+which does not have a correspondence in the proto-language and is an
+innovation.</p>
+</div>
+<div id="t5" class="section level4 unnumbered hasAnchor">
+<h4 class="unnumbered hasAnchor"><strong>Table 5.</strong> The origins
+of personal pronouns in the Dargwa varieties, according to <span
+class="citation">(<a href="#ref-ganenkov2013">Ganenkov
+2013</a>)</span>.<a href="#t5" class="anchor-section"
+aria-label="Anchor link to header"></a></h4>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-5frq{font-style:italic;text-align:center;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+<tr>
+<th class="tg-0lax">
+</th>
+<th class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">1SG</span>
+</th>
+<th class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">1INCL</span>
+</th>
+<th class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">1EXCL</span>
+</th>
+<th class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">2SG</span>
+</th>
+<th class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">2PL</span>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Proto-Dargwa</span>
+</td>
+<td class="tg-5frq">
+<span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">*du</span>
+</td>
+<td class="tg-5frq">
+<span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">*nux:a</span>
+</td>
+<td class="tg-5frq">
+<span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">*nus:a</span>
+</td>
+<td class="tg-5frq">
+<span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">*ħu</span>
+</td>
+<td class="tg-5frq">
+<span style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">*nuš:a</span>
+</td>
+</tr>
+<tr>
+<td class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Chirag</span>
+</td>
+<td class="tg-baqh">
+<span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">*1SG</span>
+</td>
+<td class="tg-baqh">
+<span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">*1INCL</span>
+</td>
+<td class="tg-baqh">
+<span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">*1EXCL</span>
+</td>
+<td class="tg-baqh">
+<span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">*2SG</span>
+</td>
+<td class="tg-baqh">
+<span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">*2PL</span>
+</td>
+</tr>
+<tr>
+<td class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Kaitag</span>
+</td>
+<td class="tg-baqh">
+<span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">*1SG</span>
+</td>
+<td class="tg-baqh">
+<span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">*1INCL</span>
+</td>
+<td class="tg-baqh">
+<span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">*1EXCL</span>
+</td>
+<td class="tg-baqh">
+<span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">*2SG</span>
+</td>
+<td class="tg-baqh">
+<span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">*2PL</span>
+</td>
+</tr>
+<tr>
+<td class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Standard
+Dargwa</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">nu
+</span><span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">(GEN</span><span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">
+</span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">*1SG)</span>
+</td>
+<td class="tg-baqh" colspan="2">
+<span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">*2PL</span>
+</td>
+<td class="tg-baqh">
+<span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">*2SG</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ħuša</span>
+</td>
+</tr>
+<tr>
+<td class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Tsudakhar</span>
+</td>
+<td class="tg-baqh">
+<span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">*1SG</span>
+</td>
+<td class="tg-baqh" colspan="2">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"><em>1INCL</span><span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">
+</span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">(OBL
+</em>2PL)</span>
+</td>
+<td class="tg-baqh">
+<span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">*2SG</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ʕuš:a</span>
+</td>
+</tr>
+<tr>
+<td class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Butri</span>
+</td>
+<td class="tg-baqh">
+<span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">*1SG</span>
+</td>
+<td class="tg-baqh" colspan="2">
+<span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">*1INCL</span>
+</td>
+<td class="tg-baqh">
+<span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">*2SG</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">iš:a</span>
+</td>
+</tr>
+<tr>
+<td class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Shiri</span>
+</td>
+<td class="tg-baqh">
+<span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">*1SG</span>
+</td>
+<td class="tg-baqh">
+<span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">*1INCL</span>
+</td>
+<td class="tg-baqh">
+<span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">*1EXCL</span>
+</td>
+<td class="tg-baqh">
+<span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">*2SG</span>
+</td>
+<td class="tg-baqh">
+<span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">*2PL</span>
+</td>
+</tr>
+<tr>
+<td class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Kunki</span>
+</td>
+<td class="tg-baqh">
+<span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">*1SG</span>
+</td>
+<td class="tg-baqh">
+<span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">*2PL</span>
+</td>
+<td class="tg-baqh">
+<span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">*1EXCL</span>
+</td>
+<td class="tg-baqh">
+<span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">*2SG</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">uš:a</span>
+</td>
+</tr>
+<tr>
+<td class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Itsari</span>
+</td>
+<td class="tg-baqh">
+<span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">*1SG</span>
+</td>
+<td class="tg-baqh" colspan="2">
+<span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">*2PL</span>
+</td>
+<td class="tg-baqh">
+<span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">*2SG</span>
+</td>
+<td class="tg-baqh">
+<span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">*2PL</span>
+</td>
+</tr>
+<tr>
+<td class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Sanzhi</span>
+</td>
+<td class="tg-baqh">
+<span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">*1SG</span>
+</td>
+<td class="tg-baqh" colspan="2">
+<span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">*2PL</span>
+</td>
+<td class="tg-baqh">
+<span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">*2SG</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">uš:a</span>
+</td>
+</tr>
+<tr>
+<td class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Tanty</span>
+</td>
+<td class="tg-baqh">
+<span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">*1SG</span>
+</td>
+<td class="tg-baqh" colspan="2">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"><em>1INCL</span><span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">
+</span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">(OBL
+</em>2PL)</span>
+</td>
+<td class="tg-baqh">
+<span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">*2SG</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ʕuˤx:a
+</span><span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">(OBL
+</span><span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ʕaˤš:-</span><span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">)</span>
+</td>
+</tr>
+<tr>
+<td class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Kubachi</span>
+</td>
+<td class="tg-baqh">
+<span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">*1SG</span>
+</td>
+<td class="tg-baqh" colspan="2">
+<span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">*1EXCL</span>
+</td>
+<td class="tg-baqh">
+<span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">*2SG</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">uš:a</span>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Dargwa languages show multiple semantic shifts in the system of
+personal pronouns.</p>
+</div>
+</div>
+<div id="lezgic-languages" class="section level2 hasAnchor"
+number="2.3">
+<h2 class="hasAnchor"><span class="header-section-number">2.3</span>
+Lezgic languages<a href="#lezgic-languages" class="anchor-section"
+aria-label="Anchor link to header"></a></h2>
+<p>Lezgic languages also show diverse behavior with respect to the
+inclusive/exclusive distinction. Some languages have it, including
+Tabasaran, Agul and Archi, while some others lack it, including Budukh,
+Tsakhur, Udi and Lezgian. <a href="#t6">Table 6</a> shows the personal
+pronouns in Tabasaran and Lezgian.</p>
+<div id="t6" class="section level4 unnumbered hasAnchor">
+<h4 class="unnumbered hasAnchor"><strong>Table 6.</strong> Personal
+pronouns in Tabasaran <span class="citation">(<a
+href="#ref-babaliyeva2013">Babaliyeva 2013</a>: 54)</span> and Lezgian
+<span class="citation">(<a href="#ref-haspelmath1993">Haspelmath
+1993</a>: 184)</span>.<a href="#t6" class="anchor-section"
+aria-label="Anchor link to header"></a></h4>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-8bgf{border-color:inherit;font-style:italic;text-align:center;vertical-align:top}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+<tr>
+<th class="tg-0pky">
+</th>
+<th class="tg-7btt">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">1SG</span>
+</th>
+<th class="tg-7btt">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">1INCL</span>
+</th>
+<th class="tg-7btt">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">1EXCL</span>
+</th>
+<th class="tg-7btt">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">2SG</span>
+</th>
+<th class="tg-7btt">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">2PL</span>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tg-7btt">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Standard
+Tabasaran</span>
+</td>
+<td class="tg-8bgf">
+uzu
+</td>
+<td class="tg-8bgf">
+uxu
+</td>
+<td class="tg-8bgf">
+uču
+</td>
+<td class="tg-8bgf">
+uvu
+</td>
+<td class="tg-8bgf">
+učʷu
+</td>
+</tr>
+<tr>
+<td class="tg-7btt">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Standard
+Lezgian</span>
+</td>
+<td class="tg-8bgf">
+zun
+</td>
+<td class="tg-8bgf" colspan="2">
+čun
+</td>
+<td class="tg-8bgf">
+wun
+</td>
+<td class="tg-8bgf">
+kün
+</td>
+</tr>
+</tbody>
+</table>
+<p>While Archi does have the distinction, this language went through a
+renewal of the category. Archi uses several unrelated or irregularly
+related stems, including <em>nen</em> for the nominative and the
+ergative (these are syncretic), *<em>CM-olo</em> in the genitive and
+*<em>CM-el</em> in the dative (CM stand for a class (gender) marker),
+and *<em>la-</em> followed by case inflections in other cases. These
+forms have exclusive reference. But when followed by an intensifier
+particle <em>-a-CM-u</em> (CM stand for a class (gender) marker; in <a
+href="#t7">Table 7</a> <em>-t’-u</em> probably &lt; -<em>atu</em> in
+Gender 4/NPl), the same form acquires inclusive reference. Thus, Archi
+has lost the original pronouns for the inclusive and the exclusive, but
+subsequently renewed the inclusive/exclusive distinction recruiting a
+new morphological means.</p>
+</div>
+<div id="t7" class="section level4 unnumbered hasAnchor">
+<h4 class="unnumbered hasAnchor"><strong>Table 7.</strong> Archi
+personal pronouns <span class="citation">(<a
+href="#ref-kibrik1977">Kibrik 1977</a>: 125-126)</span>.<a href="#t7"
+class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-8bgf{border-color:inherit;font-style:italic;text-align:center;vertical-align:top}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+<tr>
+<th class="tg-0pky">
+</th>
+<th class="tg-7btt">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">1SG</span>
+</th>
+<th class="tg-7btt">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">1INCL</span>
+</th>
+<th class="tg-7btt">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">1EXCL</span>
+</th>
+<th class="tg-7btt">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">2SG</span>
+</th>
+<th class="tg-7btt">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">2PL</span>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tg-7btt">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Archi</span>
+</td>
+<td class="tg-8bgf">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">zon</span>
+</td>
+<td class="tg-8bgf">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">nen-t’u</span>
+</td>
+<td class="tg-8bgf">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">nen</span>
+</td>
+<td class="tg-8bgf">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">un</span>
+</td>
+<td class="tg-8bgf">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">žʷen</span>
+</td>
+</tr>
+</tbody>
+</table>
+<p>Two Lezgic languages, Rutul and Kryz, show a certain degree of
+dialectal variation with respect to the inclusive/exclusive distinction.
+<a href="#t8">Table 8</a> shows the pronouns in three varieties of Kryz,
+namely Kryz Proper (Kryz of Kryz), the Kryz of Alik and Ismailli Kryz.
+The first two varieties continue the inclusive/exclusive distinction.
+The Kryz of Alik is notable for its form of the 2PL <em>jin.</em>
+Authier <span class="citation">(<a href="#ref-authier2009">Authier
+2019</a>: 43)</span> suggests that the original pronoun (which is
+<em>vin</em> in other dialects) was lost, and the inclusive pronoun
+<em>jin</em> took over its function (see <a href="#dargwa">corresponding
+section</a> for similar processes in Dargwa languages).</p>
+<p>As for the third variety presented, Ismailli Kryz, it is reported
+<span class="citation">(<a href="#ref-authier2021">Authier 2021</a>:
+216)</span> to have lost the inclusive/exclusive distinction. The
+originally inclusive pronoun <em>ji(=n)</em> took over the functions of
+the neutral ‘we’.</p>
+</div>
+<div id="t8" class="section level4 unnumbered hasAnchor">
+<h4 class="unnumbered hasAnchor"><strong>Table 8.</strong> Personal
+pronouns of Kryz Proper <span class="citation">(<a
+href="#ref-saadiev1994">Saadiev 1994</a>: 420)</span>, Alik Kryz <span
+class="citation">(<a href="#ref-authier2009">Authier 2019</a>:
+43)</span> and Ismailli Kryz <span class="citation">(<a
+href="#ref-authier2021">Authier 2021</a>: 216)</span>.<a href="#t8"
+class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-8bgf{border-color:inherit;font-style:italic;text-align:center;vertical-align:top}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-5frq{font-style:italic;text-align:center;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+<tr>
+<th class="tg-0pky">
+</th>
+<th class="tg-7btt">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">1SG</span>
+</th>
+<th class="tg-7btt">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">1INCL</span>
+</th>
+<th class="tg-7btt">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">1EXCL</span>
+</th>
+<th class="tg-7btt">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">2SG</span>
+</th>
+<th class="tg-7btt">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">2PL</span>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tg-7btt">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Kryz
+Proper</span>
+</td>
+<td class="tg-8bgf">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">zən</span>
+</td>
+<td class="tg-8bgf">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">jin</span>
+</td>
+<td class="tg-8bgf">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">žin</span>
+</td>
+<td class="tg-8bgf">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">vən</span>
+</td>
+<td class="tg-8bgf">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">vin</span>
+</td>
+</tr>
+<tr>
+<td class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Alik
+Kryz</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">zi(n)</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">jin</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ži(n)</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">vun</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">jin</span>
+</td>
+</tr>
+<tr>
+<td class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Ismailli
+Kryz</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">zi(=n)</span>
+</td>
+<td class="tg-5frq" colspan="2">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ji(=n)</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">vun</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">vin</span>
+</td>
+</tr>
+</tbody>
+</table>
+<p>The situation of the dialects of Rutul is even more complex. <a
+href="#t9">Table 9</a> shows the pronouns in some Rutul varieties. Most
+of them do not distinguish between the inclusive and the exclusive,
+however, historically different forms are used for 1PL (the same is true
+for the second person): <em>je</em> and <em>že</em> / <em>ži</em>. In
+Khnov Rutul the distinction is attested but, similarly to the Archi
+case, it has been renewed. The inclusive form transparently goes back to
+the inclusive *<em>ji</em> (<em>jinewi</em> &lt; <em>ji=ne wi</em>
+[1PL=ADD 2SG], literally ‘we and you’). It is possible that the
+exclusive <em>juˁqumbɨ</em> was also derived from the originally
+inclusive *<em>ji</em> (<em>juˁqumbɨ</em> &lt; <em>juˁ-qu-mbɨ</em>
+[1PL-ASSOC-PL], literally ‘we and ours’; cf. in Kina Rutul:
+<em>rasul-quner</em> [Rasul-ASSOC] ‘Rasul and people associated with
+him’). What is unclear is whether the new inclusive and exclusive
+pronouns were introduced when *<em>je</em> still had the plural meaning,
+or when it already shifted to the singular: in Khnov, <em>ji</em> is
+used for the 1SG, even though it originally had the meaning of inclusive
+plural (cf. <em>je</em> in Mukhad and Kina Rutul).</p>
+<p>Note also the situation in the Mukhad dialect, on which Standard
+Rutul is based. Mukhad is spoken in the villages of Rutul (the center of
+the Rutul district), Kufa and Kiche. In Mukhad the inclusive/exclusive
+distinction is optional. The form <em>je</em> can be used both in
+inclusive and exclusive contexts. However, for the inclusive, speakers
+tend to use the form <em>je wɨ</em>, which is a juxtaposition of the 1PL
+(<em>je</em>) and 2SG (<em>wɨ</em>) pronouns. Juxtaposition is not a
+regular morphological operation in the language, so this construction
+may be considered a kind of compound reminiscent of the inclusive in
+Khnov. It then can be concluded that in Mukhad the distinction was also
+lost, but a new inclusive form (<em>je wɨ</em>) is on its way to the
+pronominal system. As it is not obligatory in inclusive contexts, the
+villages speaking Mukhad Rutul were assigned the value “not
+attested”.</p>
+</div>
+<div id="t9" class="section level4 unnumbered hasAnchor">
+<h4 class="unnumbered hasAnchor"><strong>Table 9.</strong> Personal
+pronouns in some Rutul varieties: Mukhad (literary language) (<span
+class="citation">Maxmudova (<a
+href="#ref-maxmudova2001">2001</a>)</span>: 134; Ilya Sadakov, p.c.),
+Kina (Ilya Sadakov, p.c.; Timofey Mukhin, p.c.), Shinaz (<span
+class="citation">Ibragimov (<a
+href="#ref-ibragimov2004">2004</a>)</span>: 133; Ilya Sadakov, p.c.),
+Myukhrek (<span class="citation">Ibragimova (<a
+href="#ref-ibragimova2009">2009</a>)</span>: 52; Ilya Sadakov, p.c.) and
+Khnov (<span class="citation">Islamov (<a
+href="#ref-islamov2014">2014</a>)</span>: 11; Ilya Sadakov, p.c.).<a
+href="#t9" class="anchor-section"
+aria-label="Anchor link to header"></a></h4>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-8bgf{border-color:inherit;font-style:italic;text-align:center;vertical-align:top}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-5frq{font-style:italic;text-align:center;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+<tr>
+<th class="tg-0pky">
+</th>
+<th class="tg-7btt">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">1SG</span>
+</th>
+<th class="tg-7btt">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">1INCL</span>
+</th>
+<th class="tg-7btt">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">1EXCL</span>
+</th>
+<th class="tg-7btt">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">2SG</span>
+</th>
+<th class="tg-7btt">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">2PL</span>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tg-7btt">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Mukhad
+Rutul</span>
+</td>
+<td class="tg-8bgf">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">zɨ</span>
+</td>
+<td class="tg-8bgf">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">je
+(wɨ)</span>
+</td>
+<td class="tg-8bgf">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">je</span>
+</td>
+<td class="tg-8bgf">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">wɨ</span>
+</td>
+<td class="tg-8bgf">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">waˤ</span>
+</td>
+</tr>
+<tr>
+<td class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Kina
+Rutul</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">zɨ</span>
+</td>
+<td class="tg-5frq" colspan="2">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">je</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">wɨ</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">we</span>
+</td>
+</tr>
+<tr>
+<td class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Shinaz
+Rutul</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">zɨ</span>
+</td>
+<td class="tg-5frq" colspan="2">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ži</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ʁu</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">žu</span>
+</td>
+</tr>
+<tr>
+<td class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Myukhrek
+Rutul</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">zɨ</span>
+</td>
+<td class="tg-5frq" colspan="2">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">že
+/ ži</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">wɨ</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">žu</span>
+</td>
+</tr>
+<tr>
+<td class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Khnov
+Rutul</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ji</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">jinewi</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">juˁqumbɨ</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ʁu</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">wi</span>
+</td>
+</tr>
+</tbody>
+</table>
+<p>One more Rutul dialect that requires a special discussion is the
+Rutul of Ikhrek; see <a href="#t10">Table 10</a>. According to <span
+class="citation">(<a href="#ref-ibragimov2004">Ibragimov 2004</a>:
+181)</span>, there is no inclusive/exclusive distinction. Yet, two forms
+are used for 1PL — <em>ži</em> and <em>ji</em> (cf. the form for 1PL
+<em>je</em> in Kina and <em>ži</em> in Shinaz). Ibragimov <span
+class="citation">(<a href="#ref-ibragimov2004">Ibragimov 2004</a>:
+181)</span> states that these forms are in free distribution, though
+<em>ži</em> is used more often. Authier <span class="citation">(<a
+href="#ref-authier2021">Authier 2021</a>: 215)</span> suggests, however,
+that the Ikhrek dialect actually distinguishes between the inclusive
+(<em>ji</em>) and the exclusive (<em>ži</em>). Our field data does not
+support Authier’s claim and confirms Ibragimov’s statement: both forms
+<em>ji</em> and <em>ži</em> were used in both inclusive and exclusive
+contexts.</p>
+</div>
+<div id="t10" class="section level4 unnumbered hasAnchor">
+<h4 class="unnumbered hasAnchor"><strong>Table 10.</strong> Data for
+Ikhrek Rutul from different sources.<a href="#t10"
+class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-5frq{font-style:italic;text-align:center;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+<tr>
+<th class="tg-0lax">
+</th>
+<th class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">1SG</span>
+</th>
+<th class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">1INCL</span>
+</th>
+<th class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">1EXCL</span>
+</th>
+<th class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">2SG</span>
+</th>
+<th class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">2PL</span>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tg-baqh">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"><span
+class="citation">Ibragimov (<a
+href="#ref-ibragimov2004">2004</a>)</span>: 181</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">zɨ</span>
+</td>
+<td class="tg-5frq" colspan="2">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ži
+/ ji</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ʁu</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">žu</span>
+</td>
+</tr>
+<tr>
+<td class="tg-baqh">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Our
+field data</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">zɨ</span>
+</td>
+<td class="tg-5frq" colspan="2">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ži
+/ ji</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ʁu</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">žu</span>
+</td>
+</tr>
+<tr>
+<td class="tg-baqh">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent"><span
+class="citation">Authier (<a href="#ref-authier2021">2021</a>)</span>:
+215</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">zɨ</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ji</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ži</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ʁu</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">žu</span>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="the-other-branches-nakh-tsezic-lak-and-khinalug"
+class="section level2 hasAnchor" number="2.4">
+<h2 class="hasAnchor"><span class="header-section-number">2.4</span> The
+other branches: Nakh, Tsezic, Lak and Khinalug<a
+href="#the-other-branches-nakh-tsezic-lak-and-khinalug"
+class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Tsezic languages lack the inclusive/exclusive distinction. The same
+is true for Lak. <a href="#t11">Table 11</a> shows the personal pronouns
+of Bezhta (Tsezic) as spoken in the village of Khasharkhota and the
+personal pronouns of Standard Lak. The neutral ‘we’ in Lak derives from
+the proto-East-Caucasian exclusive form *<em>ži</em>, and the origin of
+the neutral ‘we’ in Tsezic languages is the proto-East-Caucasian
+inclusive form *<em>Lǟ</em> <span class="citation">(<a
+href="#ref-nikolaevstarostin1994">Nikolayev, Starostin
+1994</a>)</span>.</p>
+<div id="t11" class="section level4 unnumbered hasAnchor">
+<h4 class="unnumbered hasAnchor"><strong>Table 11.</strong> Personal
+pronouns in Bezhta and Lak <span class="citation">(<a
+href="#ref-kibrikkodzasov1990">Kibrik, Kodzasov 1990</a>:
+220-222)</span>.<a href="#t11" class="anchor-section"
+aria-label="Anchor link to header"></a></h4>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-5frq{font-style:italic;text-align:center;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+<tr>
+<th class="tg-0lax">
+</th>
+<th class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">1SG</span>
+</th>
+<th class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">1PL</span>
+</th>
+<th class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">2SG</span>
+</th>
+<th class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">2PL</span>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Bezhta,
+Khasharkhota village</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">do</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ile</span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">
+(&lt; *1INCL)</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">mi</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">miže</span>
+</td>
+</tr>
+<tr>
+<td class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Literary
+Lak</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">na</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">žu</span><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">
+(&lt; *1EXCL)</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ina</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">zu</span>
+</td>
+</tr>
+</tbody>
+</table>
+<p>On the other hand, the distinction is attested in Nakh and Khinalug.
+The personal pronouns of Khinalug and Chechen (Nakh) are given in <a
+href="#t12">Table 12</a>.</p>
+</div>
+<div id="t12" class="section level4 unnumbered hasAnchor">
+<h4 class="unnumbered hasAnchor"><strong>Table 12.</strong> Khinalug
+<span class="citation">(<a href="#ref-kibrikkodzasov1990">Kibrik,
+Kodzasov 1990</a>: 220-223; <a href="#ref-kibriketal1972">Kibrik et al.
+1972</a>: 72)</span> and Chechen personal pronouns <span
+class="citation">(<a href="#ref-nichols1994">Nichols 1994</a>:
+32)</span>.<a href="#t12" class="anchor-section"
+aria-label="Anchor link to header"></a></h4>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-5frq{font-style:italic;text-align:center;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+<tr>
+<th class="tg-0lax">
+</th>
+<th class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">1SG</span>
+</th>
+<th class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">1INCL</span>
+</th>
+<th class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">1EXCL</span>
+</th>
+<th class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">2SG</span>
+</th>
+<th class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">2PL</span>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Khinalug</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">zɨ</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">kin</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">jir</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">vɨ</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">zur</span>
+</td>
+</tr>
+<tr>
+<td class="tg-amwm">
+<span
+style="font-weight:700;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Chechen</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">swo</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">vaj</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">txwo</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">ʜwo</span>
+</td>
+<td class="tg-5frq">
+<span
+style="font-weight:400;font-style:italic;text-decoration:none;color:#000;background-color:transparent">šu</span>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div id="distribution" class="section level1 hasAnchor" number="3">
+<h1 class="hasAnchor"><span class="header-section-number">3</span>
+Distribution<a href="#distribution" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p>The following general pattern can be seen on the [map]. The languages
+that distinguish between the inclusive and the exclusive are located in
+the west, whereas the ones that do not make the distinction are situated
+in the east of Daghestan. There are two main exceptions to this pattern:
+Tsezic languages in the west, which do not have the distinction, and the
+area in the center, where Tabasaran, Agul and some Dargwa varieties are
+spoken, which lack the distinction.</p>
+<p>This general areal pattern can be by and large explained by the
+genealogical distribution of the languages: the ones which have the
+distinction, i.e. Avar-Andic, are spoken in the northwest of Dagestan,
+while those that mostly lack it, i.e. Lezgic languages, are spoken in
+the southeast. Dargwa languages are geographically split into the
+southern area, where the distinction is present at least in some
+varieties, and the northern area, where it is completely absent. The
+southern Dargwa language area is adjacent to Agul and Tabasaran, both
+Lezgic, which preserved the distinction.</p>
+<p>As suggested in <span class="citation">(<a
+href="#ref-authier2021">Authier 2021</a>)</span>, the languages in the
+geographical center (Lak, some Dargwa in the South, Agul and Tabasaran)
+preserve the distinction between inclusive and exclusive inherited from
+the proto-languages, whereas the languages in the periphery, which are
+more prone to contacts with non-East-Caucasian languages, like
+Azerbaijani, Georgian, Kumyk, etc., lack it. The loss of the inclusive
+in Tsezic is explained by Authier by relatively weak contact with Andic
+languages and strong contact with Georgian. However, Tsezic is in
+contact with Avar, which has the opposition <span class="citation">(<a
+href="#ref-dobrushinaetal2017">Dobrushina et al. 2017</a>)</span>.</p>
+<p>To conclude, the distribution of the inclusive/exclusive distinction
+is primarily explained by genealogy. However, some influence of
+geographical factors may also be suspected, including contacts with
+non-East-Caucasian languages which lack the distinction. This hypothesis
+requires further investigation.</p>
+</div>
+<div id="references" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">References<a href="#references"
+class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="refs" class="references csl-bib-body hanging-indent"
+line-spacing="2">
+<div id="ref-abdullaev1954" class="csl-entry">
+Abdullaev, S. N. (1954). <em>Grammatika darginskogo jazyka
+[<span>D</span>argwa grammar]</em>. Makhachkala: IJaLI.
+</div>
+<div id="ref-abdullaevaetal2014" class="csl-entry">
+Abdullaeva, A. Z., Gadžiaxmedov, N. È., Kadyradžiev, K. S., Kerimov, I.
+A., Olʹmesov, N. X., Xangišiev, D. M. (2014). <em>Sovremennyj kumykskij
+jazyk [<span>C</span>ontemporary <span>K</span>umyk]</em>. Makhachkala:
+IJaLI.
+</div>
+<div id="ref-alekseevataev1997" class="csl-entry">
+Alekseev, M. E., Ataev, B. M. (1997). <em>Avarskij jazyk
+[<span>A</span>var language]</em>. Moscow: Akademija.
+</div>
+<div id="ref-authier2009" class="csl-entry">
+Authier, G. (2019). <em>Grammaire kryz</em>. Paris: Peeters.
+</div>
+<div id="ref-authier2021" class="csl-entry">
+Authier, G. (2021). Clusivity and the history of personal pronouns in
+<span>E</span>ast <span>C</span>aucasian. <em>Folia Linguistica
+Historica</em>, <em>55</em>(s42-s1), 205–222.
+</div>
+<div id="ref-babaliyeva2013" class="csl-entry">
+Babaliyeva, A. (2013). <em>Études sur la morphosyntaxe du
+<span>T</span>abasaran <span>L</span>ittéraire [<span>S</span>tudies on
+the morphosyntax of <span>S</span>tandard <span>T</span>abasaran]</em>
+(PhD thesis). École Pratique des Hautes Études.
+</div>
+<div id="ref-baskakov1973" class="csl-entry">
+Baskakov, N. A. (1973). <em>Grammatika nogajskogo jazyka.
+<span>Č</span>astʹ 1. <span>F</span>onetika i morfologija
+[<span>N</span>ogai grammar. <span>P</span>art 1. <span>P</span>honetics
+and morphology]</em>. Cherkessk: Karačaevo-Čerkesskoe otdelenie
+Stavropolʹskogo knižnogo izdatelʹstva.
+</div>
+<div id="ref-belyaev2019" class="csl-entry">
+Beljaev, O. I. (2019). Mesto širinskogo i amuzginskogo sredi dialektov
+darginskogo jazyka [<span>T</span>he <span>P</span>osition of
+<span>S</span>hiri and <span>A</span>muzgi among <span>D</span>argwa
+<span>V</span>arieties]. <em>Tomskij Žurnal Lingvističeskix i
+Antropologičeskix Issledovanij</em>, <em>24</em>(2), 20–38.
+</div>
+<div id="ref-vandenberg2001" class="csl-entry">
+Berg, H. van den. (2001). <em>Dargi folktales. <span>O</span>ral stories
+from the <span>C</span>aucaus with an introduction to <span>D</span>argi
+grammar</em>. Leiden: CNWS.
+</div>
+<div id="ref-cysouw2013" class="csl-entry">
+Cysouw, M. (2013). Inclusive/<span>E</span>xclusive
+<span>D</span>istinction in <span>I</span>ndependent
+<span>P</span>ronouns. In M. Dryer, M. Haspelmath (Eds.), <em>The
+<span>W</span>orld <span>A</span>tlas of <span>L</span>anguage
+<span>S</span>tructures <span>O</span>nline</em>. Zenodo. Retrieved from
+<a
+href="https://doi.org/10.5281/zenodo.7385533">https://doi.org/10.5281/zenodo.7385533</a>
+</div>
+<div id="ref-dobrushinaetal2017" class="csl-entry">
+Dobrushina, N., Staferova, D., Belokon, A. (Eds.). (2017). Moscow:
+Linguistic Convergence Laboratory, HSE. Retrieved from <a
+href="https://multidagestan.com">https://multidagestan.com</a>
+</div>
+<div id="ref-dum-tragut2009" class="csl-entry">
+Dum-Tragut, J. (2009). <em>Armenian</em>. Amsterdam/Philadelphia: John
+Benjamins.
+</div>
+<div id="ref-forker2020dargwa" class="csl-entry">
+Forker, D. (2020). <em>A grammar of <span>S</span>anzhi
+<span>D</span>argwa</em>. Berlin: Language Science Press.
+</div>
+<div id="ref-ganenkov2013" class="csl-entry">
+Ganenkov, D. S. (2013). Rekonstrukcija sistemy ličnyx mestoimenij
+pradarginskogo jazyka [<span>R</span>econstruction of the system of
+personal pronouns of the proto-<span>D</span>argwa language]. In V. Z.
+Demʹjankov, A. V. Dybo (Eds.), <em>Vtoraja konferencija-škola "problemy
+jazyka: Vzgljad molodyx učenyx". <span>S</span>bornik statej
+[<span>T</span>he second conference-school "problems of language: The
+view of young scientists". <span>C</span>ollection of articles]</em>
+(pp. 98–108). Moscow: Institut jazykoznanija RAN.
+</div>
+<div id="ref-griunberg1963" class="csl-entry">
+Grjunberg, A. L. (1963). <em>Jazyk severoazerbajdžanskix tatov
+[<span>T</span>he language of the <span>N</span>orthern
+<span>A</span>zerbaijani <span>T</span>ats]</em>. Leningrad:
+Izdatelʹstvo akademii nauk SSSR.
+</div>
+<div id="ref-haspelmath1993" class="csl-entry">
+Haspelmath, M. (1993). <em>A grammar of <span>L</span>ezgian</em>.
+Berlin/New York: Mouton de Gruyter.
+</div>
+<div id="ref-hewitt1995" class="csl-entry">
+Hewitt, G. (1995). Georgian. <span>A</span> <span>S</span>tructural
+<span>R</span>eference <span>G</span>rammar. In <em>London Oriental and
+African Language Library</em> (Vol. 2). London: University of London;
+School of Oriental; African Studies, University of London.
+</div>
+<div id="ref-ibragimov2004" class="csl-entry">
+Ibragimov, G. X. (2004). <em>Rutulʹskij jazyk [<span>R</span>utul]</em>.
+Makhachkala: Narody Dagestana.
+</div>
+<div id="ref-ibragimova2009" class="csl-entry">
+Ibragimova, L. M. (2009). <em>Mjuxrekskij dialekt rutulʹskogo jazyka
+[<span>M</span>yukhrek dialect of the <span>R</span>utul language]</em>
+(PhD thesis). DGPU.
+</div>
+<div id="ref-isakov2020" class="csl-entry">
+Isakov, I. A. (2020). <em>Kusurskij dialekt avarskogo jazyka
+[<span>K</span>usur dialect of the <span>A</span>var language]</em>.
+Makhachkala: Institut JaLI DFIC RAN, ALEF.
+</div>
+<div id="ref-islamov2014" class="csl-entry">
+Islamov, R. A. (2014). <em>Xnovskij govor borčinsko-xnovskogo dialekta
+rutulʹskogo jazyka: Fonetika, morfologija, leksika [<span>K</span>hnov
+idiom of the <span>B</span>orch-<span>K</span>hnov dialect of the
+<span>R</span>utul language: Phonetics, morphology, lexicon]</em> (PhD
+thesis). DGPU.
+</div>
+<div id="ref-kibrik1977" class="csl-entry">
+Kibrik, A. E. (1977). <em>Opyt strukturnogo opisanija arčinskogo jazyka.
+<span>T</span>om <span>II</span>. <span>T</span>aksonomičeskaja
+grammatika [<span>S</span>tructural description of <span>A</span>rchi.
+<span>V</span>olume <span>I</span>i. <span>T</span>axonomic
+grammar]</em>. Moscow: Izdatelʹstvo Moskovskogo universiteta.
+</div>
+<div id="ref-kibrikkodzasov1990" class="csl-entry">
+Kibrik, A. E., Kodzasov, S. V. (1990). <em>Sopostavitelʹnoe izučenie
+dagestanskix jazykov. <span>I</span>mja. <span>F</span>onetika
+[<span>A</span> comparative study of <span>D</span>aghestanian
+languages. <span>N</span>oun. <span>P</span>honetics]</em>. Moscow:
+Izdatelʹstvo Akademii nauk SSSR.
+</div>
+<div id="ref-kibriketal1972" class="csl-entry">
+Kibrik, A. E., Kodzasov, S. V., Olovjannikova, I. P. (1972).
+<em>Fragmenty grammatiki xinalugskogo jazyka [<span>F</span>ragments of
+<span>K</span>hinalug grammar]</em>. Moscow: Izdatelʹstvo Akademii nauk
+SSSR.
+</div>
+<div id="ref-koryakov2021" class="csl-entry">
+Korjakov, J. B. (2021). Darginskie jazyki i ix klassifikacija
+[<span>D</span>argwa languages and their classification]. In T. A.
+Maisak, N. R. Sumbatova, Y. G. Testelets (Eds.), <em>Durxʺasi xazna.
+<span>S</span>bornik statej k 60-letiju <span>R</span>.o.
+<span>M</span>utalova [<span>D</span>urqasi χazna.
+<span>C</span>ollection of articles dedicated to the 60th anniversary of
+<span>R</span>.o. <span>M</span>utalov]</em> (pp. 139–154). Moscow:
+Buki-Vedi.
+</div>
+<div id="ref-magomedbekova1971" class="csl-entry">
+Magomedbekova, Z. M. (1971). <em>Karatinskij jazyk
+[<span>K</span>arata]</em>. Tbilisi: Mecniereba.
+</div>
+<div id="ref-magometov1963" class="csl-entry">
+Magometov, A. A. (1963). <em>Kubačinskij jazyk
+[<span>K</span>ubachi]</em>. Tbilisi: Akademija Nauk Gruzinskoj SSR.
+</div>
+<div id="ref-maxmudova2001" class="csl-entry">
+Maxmudova, S. M. (2001). <em>Morfologija rutulʹskogo jazyka
+[<span>M</span>orphology of <span>R</span>utul]</em>. Moscow: Sovetskij
+pisatelʹ.
+</div>
+<div id="ref-nichols1994" class="csl-entry">
+Nichols, J. (1994). Chechen. In R. Smeets (Ed.), <em>The
+<span>I</span>ndigenous <span>L</span>anguages of the
+<span>C</span>aucasus, vol. 4: <span>T</span>he <span>N</span>ortheast
+<span>C</span>aucasian <span>L</span>anguages, <span>P</span>art 2</em>
+(pp. 1–77). Delmar, NY: Caravan Press.
+</div>
+<div id="ref-nikolaevstarostin1994" class="csl-entry">
+Nikolayev, S. L., Starostin, S. A. (1994). Moscow: Asterisk Publishers.
+</div>
+<div id="ref-saadiev1994" class="csl-entry">
+Saadiev, Sh. M. (1994). Kryts. In R. Smeets (Ed.), <em>The
+<span>I</span>ndigenous <span>L</span>anguages of the
+<span>C</span>aucasus. <span>V</span>ol. 4: <span>T</span>he
+<span>N</span>ortheast <span>C</span>aucasian <span>L</span>anguages.
+<span>P</span>art 2</em> (pp. 407–446). Delmar, NY: Caravan Press.
+</div>
+<div id="ref-shakhbanova2007" class="csl-entry">
+Šaxbanova, D. N. (2007). <em>Butrinskij govor darginskogo jazyka
+[<span>T</span>he <span>B</span>utri dialect of
+<span>D</span>argwa]</em> (PhD thesis). Dagestanskij Gosudarstvennyj
+Pedagogičeskij Universitet.
+</div>
+<div id="ref-shiralievsevortyan1971" class="csl-entry">
+Širaliev, M. Š., Sevortjan, E. V. (1971). <em>Grammatika
+azerbajdžanskogo jazyka (fonetika, morfologija, sintaksis)
+[<span>A</span>zerbaijani grammar (phonetics, morphology, syntax)]</em>.
+Baku: Èlm.
+</div>
+<div id="ref-sumbatovalander2014" class="csl-entry">
+Sumbatova, N. R., Lander, Y. A. (2014). <em>Darginskij govor selenija
+<span>T</span>anty: Grammatičeskij očerk. <span>V</span>oprosy
+sintaksisa</em>. Moscow: Jazyki slavjanskoj kulʹtury.
+</div>
+<div id="ref-sumbatovamutalov2003" class="csl-entry">
+Sumbatova, N. R., Mutalov, R. O. (2003). <em>A <span>G</span>rammar of
+<span>I</span>cari <span>D</span>argwa</em>. Munich: Lincom Europa.
+</div>
+<div id="ref-temirbulatova2004" class="csl-entry">
+Temirbulatova, S. M. (2004). <em>Xajdakskij dialekt darginskogo jazyka
+[<span>K</span>haidak dialect of <span>D</span>argwa]</em>. Makhachkala:
+Institut jazyka, literatury i iskusstva im. G. Cadasy.
+</div>
+</div>
+</div>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+</head>
+
+<body>
+    <div class="footer-basic">
+        <footer>
+            
+            <div class='lic'><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br /><i>Typological Atlas of the languages of Daghestan </i> (<i>TALD</i>) is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0 International License</a>.
+            <div class="social"><a href="https://github.com/LingConLab/TALD" target="_blank"><span class="iconify" data-icon="octicon:logo-github-16"></span></a></div>
+            </div>
+            
+            <p class="copyright">2020<script>new Date().getFullYear()>2020&&document.write("-"+new Date().getFullYear());</script>,  Linguistic Convergence Laboratory, HSE University</p>
+        </footer>
+    </div>
+    <script type="text/javascript" src="./js/links.js"></script> <!--это чтобы ссылки открывались в новом окне -->
+</body>
+
+</html>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

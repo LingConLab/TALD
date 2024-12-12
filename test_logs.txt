@@ -1,3 +1,14 @@
+The BibTeX entry          mikailov1959           present in the          inclusive_exclusive_distinction_in_personal_pronouns.tsv, but absent in the biblib.xlsx
+The BibTeX entry          belyaev2019           present in the          inclusive_exclusive_distinction_in_personal_pronouns.tsv, but absent in the biblib.xlsx
+The BibTeX entry          ibragimova2012           present in the          inclusive_exclusive_distinction_in_personal_pronouns.tsv, but absent in the biblib.xlsx
+The BibTeX entry          kibrikkodzasov1990           present in the          inclusive_exclusive_distinction_in_personal_pronouns.tsv, but absent in the biblib.xlsx
+The BibTeX entry          authier2021          present in the          inclusive_exclusive_distinction_in_personal_pronouns.tsv, but absent in the biblib.xlsx
+The BibTeX entry          ibragimova2009           present in the          inclusive_exclusive_distinction_in_personal_pronouns.tsv, but absent in the biblib.xlsx
+The BibTeX entry          ibragimov2004           present in the          inclusive_exclusive_distinction_in_personal_pronouns.tsv, but absent in the biblib.xlsx
+The BibTeX entry          maxmudova2001           present in the          inclusive_exclusive_distinction_in_personal_pronouns.tsv, but absent in the biblib.xlsx
+The BibTeX entry          islamov2014           present in the          inclusive_exclusive_distinction_in_personal_pronouns.tsv, but absent in the biblib.xlsx
+The BibTeX entry dobrushinaetal2017 from the file inclusive_exclusive_distinction_in_personal_pronouns_bib.tsv has an empty value in the obligatory field TITLE
+The BibTeX entry nikolaevstarostin1994 from the file inclusive_exclusive_distinction_in_personal_pronouns_bib.tsv has an empty value in the obligatory field TITLE
 Revise the BibTeX entry moroz20_villages from the file phonology_bib.tsv.
 The wrong language name          Armenian          in the file          agreement_of_adpositions.tsv
 The wrong language name          Akhvakh          in the file          caritive_adv.tsv
@@ -45,6 +56,9 @@ The wrong language name          Dargwa          in the file          gemination
 The wrong language name          Akhvakh          in the file          gender_agreement_slot.tsv
 The wrong language name          Armenian          in the file          gender_agreement_slot.tsv
 The wrong language name          Dargwa          in the file          gender_agreement_slot.tsv
+The wrong language name          Akhvakh          in the file          inclusive_exclusive_distinction_in_personal_pronouns.tsv
+The wrong language name          Armenian          in the file          inclusive_exclusive_distinction_in_personal_pronouns.tsv
+The wrong language name          Dargwa          in the file          inclusive_exclusive_distinction_in_personal_pronouns.tsv
 The wrong language name          Akhvakh          in the file          jussive.tsv
 The wrong language name          Armenian          in the file          jussive.tsv
 The wrong language name          Dargwa          in the file          jussive.tsv
@@ -253,6 +267,12 @@ The wrong village dialect name Hinuq in the file gender_agreement_slot.tsv
 The wrong village dialect name Khinalug in the file gender_agreement_slot.tsv
 The wrong village dialect name Kwantlada in the file gender_agreement_slot.tsv
 The wrong village dialect name Alik in the file gender_agreement_slot.tsv
+The wrong village dialect name Mehweb in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
+The wrong village dialect name Khinalug in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
+The wrong village dialect name Budukh in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
+The wrong village dialect name Alik in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
+The wrong village dialect name Kryz in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
+The wrong village dialect name Kwantlada in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
 The wrong village dialect name Budukh in the file jussive.tsv
 The wrong village dialect name Mehweb in the file jussive.tsv
 The wrong village dialect name Hinuq in the file jussive.tsv
@@ -470,8 +490,14 @@ The wrong village dialect name Hinuq in the file voiceless_obstruents.tsv
 The wrong village dialect name Khinalug in the file voiceless_obstruents.tsv
 The wrong village dialect name Kwantlada in the file voiceless_obstruents.tsv
 The wrong village dialect name Kryz in the file voiceless_obstruents.tsv
+The wrong non-toplevel 2 dialect name Tsynit in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
+The wrong non-toplevel 2 dialect name Usukhchai in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
+The wrong non-toplevel 2 dialect name Khuryug in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
 The wrong non-toplevel 1 dialect name Chabakoroy in the file erg_abs_pronouns.tsv
 The wrong non-toplevel 1 dialect name Gid in the file gender_agreement_slot.tsv
+The wrong non-toplevel 1 dialect name Chabakoroy in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
+The wrong non-toplevel 1 dialect name Gid in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
+The wrong non-toplevel 1 dialect name Keleb Mixed in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
 The wrong non-toplevel 1 dialect name Keleb Mixed in the file numeral_bases.tsv
 The wrong non-toplevel 1 dialect name Mehweb in the file numeral_bases.tsv
 The wrong non-toplevel 1 dialect name Mehweb in the file numeral_class.tsv
@@ -518,6 +544,9 @@ The wrong toplevel dialect name Kaitag in the file gemination.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file gender_agreement_slot.tsv
 The wrong toplevel dialect name Gigatli in the file gender_agreement_slot.tsv
 The wrong toplevel dialect name Vitskhi in the file gender_agreement_slot.tsv
+The wrong toplevel dialect name Modern Eastern Armenian in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
+The wrong toplevel dialect name Kaitag in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
+The wrong toplevel dialect name Quba in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
 The wrong toplevel dialect name Eastern Armenian in the file jussive.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file labialization.tsv
 The wrong toplevel dialect name Kaitag in the file labialization.tsv
@@ -652,6 +681,11 @@ spelling of          gundinu        in gender_agreement_slot.Rmd:83,83
 spelling of          Kwarandzey        in gender_agreement_slot.Rmd:17
 spelling of          Lavukaleve        in gender_agreement_slot.Rmd:17
 spelling of          Marind        in gender_agreement_slot.Rmd:17
+spelling of          Alik        in inclusive_exclusive_distinction_in_personal_pronouns.Rmd:525,529
+spelling of          Ganenkov        in inclusive_exclusive_distinction_in_personal_pronouns.Rmd:197,326
+spelling of          Ibragimov        in inclusive_exclusive_distinction_in_personal_pronouns.Rmd:645
+spelling of          jinewi        in inclusive_exclusive_distinction_in_personal_pronouns.Rmd:7,7,578
+spelling of          quner        in inclusive_exclusive_distinction_in_personal_pronouns.Rmd:578
 spelling of          Nkore        in morning_greetings.Rmd:8
 spelling of          Oraire        in morning_greetings.Rmd:8
 spelling of          xair        in morning_greetings.Rmd:41,41,49
