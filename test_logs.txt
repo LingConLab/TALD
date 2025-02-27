@@ -7,8 +7,14 @@ The BibTeX entry          ibragimova2009           present in the          inclu
 The BibTeX entry          ibragimov2004           present in the          inclusive_exclusive_distinction_in_personal_pronouns.tsv, but absent in the biblib.xlsx
 The BibTeX entry          maxmudova2001           present in the          inclusive_exclusive_distinction_in_personal_pronouns.tsv, but absent in the biblib.xlsx
 The BibTeX entry          islamov2014           present in the          inclusive_exclusive_distinction_in_personal_pronouns.tsv, but absent in the biblib.xlsx
+The BibTeX entry          talibov2007, alekseevazaev2019          present in the          path_encoding.tsv, but absent in the biblib.xlsx
+The BibTeX entry          Bokarev1949          present in the          path_encoding.tsv, but absent in the biblib.xlsx
+The BibTeX entry          isakovkhalilov2012          present in the          path_encoding.tsv, but absent in the biblib.xlsx
+The BibTeX entry comriepolinsky1998 from the file path_encoding_bib.tsv has an empty value in the obligatory field JOURNAL
+The BibTeX entry comriepolinsky1998 from the file path_encoding_bib.tsv has an empty value in the obligatory field VOLUME
 The BibTeX entry dobrushinaetal2017 from the file inclusive_exclusive_distinction_in_personal_pronouns_bib.tsv has an empty value in the obligatory field TITLE
 The BibTeX entry nikolaevstarostin1994 from the file inclusive_exclusive_distinction_in_personal_pronouns_bib.tsv has an empty value in the obligatory field TITLE
+Revise the BibTeX entry Nogina2023 from the file path_encoding_bib.tsv.
 Revise the BibTeX entry moroz20_villages from the file phonology_bib.tsv.
 The wrong language name          Armenian          in the file          agreement_of_adpositions.tsv
 The wrong language name          Akhvakh          in the file          caritive_adv.tsv
@@ -140,6 +146,9 @@ The wrong language name          Dargwa          in the file          palatalize
 The wrong language name          Akhvakh          in the file          particles.tsv
 The wrong language name          Armenian          in the file          particles.tsv
 The wrong language name          Dargwa          in the file          particles.tsv
+The wrong language name          Akhvakh          in the file          path_encoding.tsv
+The wrong language name          Armenian          in the file          path_encoding.tsv
+The wrong language name          Dargwa          in the file          path_encoding.tsv
 The wrong language name          Akhvakh          in the file          perfect.tsv
 The wrong language name          Armenian          in the file          perfect.tsv
 The wrong language name          Dargwa          in the file          perfect.tsv
@@ -418,6 +427,12 @@ The wrong village dialect name Hinuq in the file particles.tsv
 The wrong village dialect name Khinalug in the file particles.tsv
 The wrong village dialect name Kwantlada in the file particles.tsv
 The wrong village dialect name Alik in the file particles.tsv
+The wrong village dialect name Budukh in the file path_encoding.tsv
+The wrong village dialect name Mehweb in the file path_encoding.tsv
+The wrong village dialect name Hinuq in the file path_encoding.tsv
+The wrong village dialect name Khinalug in the file path_encoding.tsv
+The wrong village dialect name Kwantlada in the file path_encoding.tsv
+The wrong village dialect name Alik in the file path_encoding.tsv
 The wrong village dialect name Budukh in the file perfect.tsv
 The wrong village dialect name Gigatli in the file perfect.tsv
 The wrong village dialect name Hinuq in the file perfect.tsv
@@ -616,6 +631,7 @@ The wrong toplevel dialect name Kaitag in the file ordinals.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file palatalized_consonants.tsv
 The wrong toplevel dialect name Kaitag in the file palatalized_consonants.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file particles.tsv
+The wrong toplevel dialect name Modern Eastern Armenian in the file path_encoding.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file perfect.tsv
 The wrong toplevel dialect name Kaitag in the file perfect.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file pharyngealization.tsv
@@ -697,6 +713,9 @@ spelling of          azir        in numeral_complex.Rmd:65,65
 spelling of          Alik        in numeral_hundred.Rmd:24
 spelling of          Yine        in ordinals.Rmd:35
 spelling of          Alik        in particles.Rmd:85
+spelling of          APUD        in path_encoding.Rmd:21
+spelling of          areally        in path_encoding.Rmd:181
+spelling of          ccording        in path_encoding.Rmd:143
 spelling of          Bancel        in prohibitives.Rmd:150,222
 spelling of          Lejeune        in prohibitives.Rmd:10,14
 spelling of          manzu        in prohibitives.Rmd:77
@@ -706,3 +725,6 @@ spelling of          diye        in standard_of_comparison.Rmd:227
 spelling of          upro        in standard_of_comparison.Rmd:227
 spelling of          Gakvari        in trans_intrans_imperative.Rmd:98
 spelling of          mari        in trans_intrans_imperative.Rmd:23
+The BibTeX entry          nogina2023          present in the .Rmd, but absent in the path_encoding.bib
+The BibTeX entry          ganenkov2008          present in the .Rmd, but absent in the path_encoding.bib
+The BibTeX entry          daniel2001          present in the .Rmd, but absent in the path_encoding.bib

@@ -1,0 +1,1439 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="Vasiliy Zerzele" />
+
+
+<title>Path encoding</title>
+
+<script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="site_libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="site_libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.5.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet" />
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+<style type="text/css">
+/* for pandoc --citeproc since 2.11 */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">TALD</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="./about.html">About</a>
+</li>
+<li>
+  <a href="./features.html">
+    <span class="fa fa-atlas"></span>
+     
+    Features
+  </a>
+</li>
+<li>
+  <a href="./languages.html">Languages</a>
+</li>
+<li>
+  <a href="./changes.html">Changes</a>
+</li>
+<li>
+  <a href="./references.html">References</a>
+</li>
+<li>
+  <a href="./team.html">Team</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Path encoding</h1>
+<h4 class="author">Vasiliy Zerzele</h4>
+<h4 class="date">Last update: February 2025</h4>
+
+</div>
+
+
+<p>See <a href="060_path_encoding_map.html">data and maps</a>.</p>
+<div id="section"
+class="section level1 tabset tabset-fade tabset-pills unnumbered">
+<h1 class="tabset tabset-fade tabset-pills unnumbered"></h1>
+<div id="plain-text" class="section level2 unnumbered hasAnchor">
+<h2 class="unnumbered hasAnchor">Plain text<a href="#plain-text"
+class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Zerzele, V. (2025). “Path encoding”. In: <em>Typological Atlas of the
+Languages of Daghestan (TALD)</em>. Ed. by M. Daniel, K. Filatov, T.
+Maisak, G. Moroz, T. Mukhin, C. Naccarato and S. Verhees. Moscow:
+Linguistic Convergence Laboratory, NRU HSE. DOI: 10.5281/zenodo.6807070.
+<a href="http://lingconlab.ru/dagatlas"
+class="uri">http://lingconlab.ru/dagatlas</a>.</p>
+</div>
+<div id="bibtex" class="section level2 unnumbered hasAnchor">
+<h2 class="unnumbered hasAnchor">BibTeX<a href="#bibtex"
+class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<pre><code>@incollection{zerzele2025,
+  title = {Path encoding},
+  author = {Vasiliy Zerzele},
+  year = {2025},
+  editor = {Michael Daniel and Konstantin Filatov and Timur Maisak and George Moroz and Timofey Mukhin and Chiara Naccarato and Samira Verhees},
+  publisher = {Linguistic Convergence Laboratory, NRU HSE},
+  address = {Moscow},
+  booktitle = {Typological Atlas of the Languages of Daghestan (TALD)},
+  url = {http://lingconlab.ru/dagatlas},
+  doi = {10.5281/zenodo.6807070},
+}</code></pre>
+</div>
+</div>
+<div id="introduction" class="section level1 hasAnchor" number="1">
+<h1 class="hasAnchor"><span class="header-section-number">1</span>
+Introduction<a href="#introduction" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p>In the tradition of linguistic description of the languages of the
+Caucasus, <em>translative</em> is a term used to refer to a locative
+case or an adposition with the meaning of motion <em>through</em> a
+spatial domain. In English, prepositions such as <em>over</em>,
+<em>through</em>, <em>across</em> and <em>along</em> would fit the
+definition of <em>translative prepositions</em> <span
+class="citation">(<a href="#ref-comriepolinsky1998">Bernard, Maria
+1998</a>: 99)</span>.</p>
+<p>A considerable number of Nakh-Daghestanian languages, which make up
+most of the languages in my sample, have a <em>bimorphemic</em> system
+in which locative “cases” combine two different case suffixes: a marker
+of <em>localization</em>, which defines the spatial domain and includes
+meanings like ‘in’, ‘at’, ‘under’, ‘on’, etc., and a
+<em>directionality</em> marker which indicates the type of location or
+motion, i.e. ‘to’, ‘from’, ‘through’, as well as absence of motion. One
+example of such a system is the case system of Khwarshi:</p>
+<div id="t1" class="section level3 unnumbered hasAnchor">
+<h3 class="unnumbered hasAnchor"><strong>Table 1.</strong> Khwarshi
+(Khalilova, 2009: 74)<a href="#t1" class="anchor-section"
+aria-label="Anchor link to header"></a></h3>
+<table>
+<colgroup>
+<col width="10%" />
+<col width="11%" />
+<col width="11%" />
+<col width="15%" />
+<col width="14%" />
+<col width="18%" />
+<col width="18%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="center"></th>
+<th align="center">Essive</th>
+<th align="center">Lative</th>
+<th align="center">Versative</th>
+<th align="center">Ablative</th>
+<th align="center">Translative</th>
+<th align="center">Terminative</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">SUPER</td>
+<td align="center">-ƛ’o</td>
+<td align="center">-ƛ’o-l</td>
+<td align="center">-ƛ’o-ɣul</td>
+<td align="center">-ƛ’o-zi</td>
+<td align="center">-ƛ’o-ɣužaz</td>
+<td align="center">-ƛ’o-q’a</td>
+</tr>
+<tr class="even">
+<td align="center">SUB</td>
+<td align="center">-ƛʰ</td>
+<td align="center">-ƛʰ-ul</td>
+<td align="center">-ƛʰ-ɣul</td>
+<td align="center">-ƛʰ-zi</td>
+<td align="center">-ƛʰ-ɣužaz</td>
+<td align="center">-ƛʰ-q’a</td>
+</tr>
+<tr class="odd">
+<td align="center">IN</td>
+<td align="center">-ma</td>
+<td align="center">-ma-l</td>
+<td align="center">-ma-ɣul</td>
+<td align="center">-ma-zi</td>
+<td align="center">-ma-ɣužaz</td>
+<td align="center">-ma-q’a</td>
+</tr>
+<tr class="even">
+<td align="center">INTER</td>
+<td align="center">-ɬ</td>
+<td align="center">-ɬ-ul</td>
+<td align="center">-ɬ-ɣul</td>
+<td align="center">-ɬ-zi</td>
+<td align="center">-ɬ-ɣužaz</td>
+<td align="center">-ɬ-q’a</td>
+</tr>
+<tr class="odd">
+<td align="center">AD</td>
+<td align="center">-ho</td>
+<td align="center">-ho-l</td>
+<td align="center">-ho-ɣul</td>
+<td align="center">-ho-zi</td>
+<td align="center">-ho-ɣužaz</td>
+<td align="center">-ho-q’a</td>
+</tr>
+<tr class="even">
+<td align="center">APUD</td>
+<td align="center">-ɣo</td>
+<td align="center">-ɣo-l</td>
+<td align="center">-ɣo-ɣul</td>
+<td align="center">-ɣo-zi</td>
+<td align="center">-ɣo-ɣužaz</td>
+<td align="center">-ɣo-q’a</td>
+</tr>
+<tr class="odd">
+<td align="center">CONT</td>
+<td align="center">-qo</td>
+<td align="center">-qo-l</td>
+<td align="center">-qo-ɣul</td>
+<td align="center">-qo-zi</td>
+<td align="center">-qo-ɣužaz</td>
+<td align="center">-q-q’a</td>
+</tr>
+</tbody>
+</table>
+<p>Additionally, there are languages featuring trimorphemic systems in
+which the third morpheme has deictic, orientational or approximative
+meanings <span class="citation">(<a
+href="#ref-nogina2023"><strong>nogina2023?</strong></a>)</span>.
+However, for this chapter the difference between bimorphemic and
+trimorphemic systems is irrelevant, as it does not impact
+path-encoding.</p>
+<p>In this work, directionality markers with translative semantics were
+classified as <strong>dedicated translative cases</strong>. These
+markers are used specifically and only to mark the translative meaning
+of motion ‘through’ the spatial domain. Such dedicated markers are found
+both in languages with bimorphemic systems (cf. <a href="#t1">Table
+1</a>). and in languages with monomorphemic systems, such as
+Chechen:</p>
+<ol class="example" style="list-style-type: decimal">
+<li>Standard Chechen <span class="citation">(<a
+href="#ref-molochieva2010">Molochieva 2010</a>: 210)</span></li>
+</ol>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; ">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>so</em>
+</td>
+<td style="text-align:left;">
+<em>kuoraa-<strong>xula</strong></em>
+</td>
+<td style="text-align:left;">
+<em>gu-sh</em>
+</td>
+<td style="text-align:left;">
+<em>j-ara</em>
+</td>
+<td style="text-align:left;">
+<em>cu</em>
+</td>
+<td style="text-align:left;">
+<em>shimmuo</em>
+</td>
+<td style="text-align:left;">
+<em>hu</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps">1sg</span>.<span
+class="smallcaps">nom</span>(<span class="smallcaps">j</span>)
+</td>
+<td style="text-align:left;">
+window-<span class="smallcaps"><strong>trans</strong></span>
+</td>
+<td style="text-align:left;">
+see:<span class="smallcaps">ipfv</span>-CVBsim
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">j</span>-be.<span class="smallcaps">pst</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">dem</span>
+</td>
+<td style="text-align:left;">
+two.<span class="smallcaps">erg</span>
+</td>
+<td style="text-align:left;">
+what
+</td>
+</tr>
+</tbody>
+</table>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>liela-d-o</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+carry:<span class="smallcaps">inf</span>-<span
+class="smallcaps">d</span>-make:<span
+class="smallcaps">ipfv</span>.<span class="smallcaps">prs</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘I (could) see through the window what those two were
+doing.’
+</td>
+</tr>
+</tfoot>
+</table>
+<p>Some languages do not have a dedicated translative marker and use a
+<strong>non-dedicated suffix</strong>, i.e. a non-translative marker
+with a secondary translative meaning.</p>
+<ol start="2" class="example" style="list-style-type: decimal">
+<li>Tabasaran <span class="citation">(<a
+href="#ref-babaliyeva2013">Babaliyeva 2013</a>: 39)</span></li>
+</ol>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>žærɣlar.i-<strong>ʔan</strong>-sina</em>
+</td>
+<td style="text-align:left;">
+<em>a&lt;b&gt;qh-nu</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+rock.<span class="smallcaps">pl</span>-<span
+class="smallcaps"><strong>inel</strong></span>-down
+</td>
+<td style="text-align:left;">
+&lt;<span class="smallcaps">n</span>&gt;fall-<span
+class="smallcaps">aor</span>.
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘He fell down through the rocks.’
+</td>
+</tr>
+</tfoot>
+</table>
+<p>In (2) an elative directionality marker is used. Usually, elative
+markers indicate motion ‘from’ (out of) the spatial domain, yet in this
+context the marker bears translative meaning.</p>
+<p>If a language does not express translative meaning by case marking
+alone, this function is usually fulfilled by
+<strong>adpositions</strong>:</p>
+<ol start="3" class="example" style="list-style-type: decimal">
+<li>Tat: Judeo-Tat <span class="citation">(<a
+href="#ref-authier2012">Authier 2012</a>: 54)</span></li>
+</ol>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>u-ho</em>
+</td>
+<td style="text-align:left;">
+<em>edembir-yt</em>
+</td>
+<td style="text-align:left;">
+<em>jes-de</em>
+</td>
+<td style="text-align:left;">
+<em><strong>ez</strong></em>
+</td>
+<td style="text-align:left;">
+<em>tepei</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps">3</span>-<span class="smallcaps">pl</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">foc</span>.<span
+class="smallcaps">pst</span>-<span class="smallcaps">3pl</span>
+</td>
+<td style="text-align:left;">
+jump-<span class="smallcaps">part</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps"><strong>abl</strong></span>
+</td>
+<td style="text-align:left;">
+bonfire
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘They were jumping through the bonfire.’
+</td>
+</tr>
+</tfoot>
+</table>
+<ol start="4" class="example" style="list-style-type: decimal">
+<li>Tindi <span class="citation">(<a
+href="#ref-magomedova2003">Magomedova 2003</a>: 45)</span></li>
+</ol>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>ɬesːa-<strong>qa</strong></em>
+</td>
+<td style="text-align:left;">
+<em><strong>aqa</strong></em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+river-<span class="smallcaps"><strong>all</strong></span>
+</td>
+<td style="text-align:left;">
+<strong>along</strong>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Along the river.’
+</td>
+</tr>
+</tfoot>
+</table>
+<p>It is important to note that many languages use a combination of both
+case marking and adposition, compare (3) and (4). Yet in my
+classification they are still classified as marking translative meaning
+with an adposition if the translative meaning cannot be expressed
+without it.</p>
+</div>
+</div>
+<div id="results" class="section level1 hasAnchor" number="2">
+<h1 class="hasAnchor"><span class="header-section-number">2</span>
+Results<a href="#results" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p>Among the sampled languages non-dedicated translative marking appears
+to be the prevailing strategy (18 out of 40 languages and dialects
+sampled), although non-dedicated markers are also common (17 out of 40
+languages). Thus, case marking is the dominant strategy for the
+expression of translative meaning in Daghestan. If we only consider the
+members of the Nakh-Daghestanian language family, to which the vast
+majority of the languages in the sample belong, non-dedicated case
+marking and dedicated case marking are found in 16 languages each. Thus,
+the expression of translative meaning through case marking is found in
+32 out of 34 Nakh-Daghestanian languages in the area.</p>
+<ol start="5" class="example" style="list-style-type: decimal">
+<li>Udi: Nizh <span class="citation">(<a
+href="#ref-ganenkov2008"><strong>ganenkov2008?</strong></a>
+41)</span></li>
+</ol>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>me</em>
+</td>
+<td style="text-align:left;">
+<em>durb-in-<strong>aχun</strong></em>
+</td>
+<td style="text-align:left;">
+<em>χe=ne</em>
+</td>
+<td style="text-align:left;">
+<em>cːoroj-e-sa.</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps">prox</span>
+</td>
+<td style="text-align:left;">
+pipe-<span class="smallcaps">o</span>-<span
+class="smallcaps"><strong>abl</strong></span>
+</td>
+<td style="text-align:left;">
+water=<span class="smallcaps">3sg</span>
+</td>
+<td style="text-align:left;">
+flow-<span class="smallcaps">lv</span>-<span
+class="smallcaps">prs</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Water flows through this pipe.’
+</td>
+</tr>
+</tfoot>
+</table>
+<ol start="6" class="example" style="list-style-type: decimal">
+<li>Tsakhur: Mishlesh <span class="citation">(<a
+href="#ref-kibrik1999">Kibrik 1999</a>: 174)</span></li>
+</ol>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; ">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>gade-b-iš-e</em>
+</td>
+<td style="text-align:left;">
+<em>q’ol-n-ɢ-ē-q’ol-n-ɢ-ē</em>
+</td>
+<td style="text-align:left;">
+<em>alʁah-a-jī</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+boy-<span class="smallcaps">pl</span>-<span
+class="smallcaps">obl</span>.<span class="smallcaps">pl</span>-<span
+class="smallcaps">erg</span>
+</td>
+<td style="text-align:left;">
+two-<span class="smallcaps">a</span>-<span
+class="smallcaps">obl</span>.<span class="smallcaps">1</span>-<span
+class="smallcaps">erg</span>-two-<span class="smallcaps">a</span>-<span
+class="smallcaps">obl</span>.<span class="smallcaps">1</span>-<span
+class="smallcaps">erg</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">npl</span>.move-<span
+class="smallcaps">ipf</span>-<span class="smallcaps">em1</span>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>jilʁ-ī-l-<strong>e</strong></em>
+</td>
+<td style="text-align:left;">
+<em>dawar-ā-r</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+bridge-<span class="smallcaps">obl</span>-<span
+class="smallcaps">sup</span>-<span
+class="smallcaps"><strong>el</strong></span>
+</td>
+<td style="text-align:left;">
+ram-<span class="smallcaps">pl</span>-<span
+class="smallcaps">nom</span>.<span class="smallcaps">pl</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Boys moved rams across the bridge in pairs.’
+</td>
+</tr>
+</tfoot>
+</table>
+<p>Almost all non-dedicated translative markers are either ablative (5)
+or elative (6) suffixes. The labels <em>ablative</em> and
+<em>elative</em> are both used to indicate motion <em>from</em>.
+Different labels are thus the result of different terminological
+choices, and do not seem to imply any semantic difference in terms of
+directional properties.</p>
+<p>The only exception to this general rule is Armenian, which uses the
+instrumental case to mark translative meanings:</p>
+<ol start="7" class="example" style="list-style-type: decimal">
+<li>Armenian <span class="citation">(<a
+href="#ref-dum-tragut2009">Dum-Tragut 2009</a>: 91)</span></li>
+</ol>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>Get-<strong>ov</strong></em>
+</td>
+<td style="text-align:left;">
+<em>anc’n-el</em>
+</td>
+<td style="text-align:left;">
+<em>t’e</em>
+</td>
+<td style="text-align:left;">
+<em>kamurj-<strong>ov</strong></em>
+</td>
+<td style="text-align:left;">
+<em>gn-al?</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+river-<span class="smallcaps"><strong>inst</strong></span>
+</td>
+<td style="text-align:left;">
+pass-<span class="smallcaps">inf</span>
+</td>
+<td style="text-align:left;">
+or
+</td>
+<td style="text-align:left;">
+bridge-<span class="smallcaps"><strong>inst</strong></span>
+</td>
+<td style="text-align:left;">
+go-<span class="smallcaps">inf</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘(Shall we) pass the river or go over the bridge?’
+</td>
+</tr>
+</tfoot>
+</table>
+<p>Interestingly, the same rule does not apply to locative cases
+combined with adpositions. Languages use a variety of cases, including
+allative (4), ablative (8) or no case at all (3).</p>
+<ol start="8" class="example" style="list-style-type: decimal">
+<li>Nogai <span class="citation">(<a href="#ref-baskakov1973">Baskakov
+1973</a>: 276)</span></li>
+</ol>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>keš</em>
+</td>
+<td style="text-align:left;">
+<em>sajɯn</em>
+</td>
+<td style="text-align:left;">
+<em>kullɯk-tan</em>
+</td>
+<td style="text-align:left;">
+<em>šɯk-sa</em>
+</td>
+<td style="text-align:left;">
+<em>ol</em>
+</td>
+<td style="text-align:left;">
+<em>sosɯ</em>
+</td>
+<td style="text-align:left;">
+<em>kœpir-<strong>den</strong></em>
+</td>
+<td style="text-align:left;">
+<em>œtedi</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+evening
+</td>
+<td style="text-align:left;">
+every
+</td>
+<td style="text-align:left;">
+work-<span class="smallcaps">abl</span>
+</td>
+<td style="text-align:left;">
+leave-<span class="smallcaps">pst</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">3sg</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">det</span>
+</td>
+<td style="text-align:left;">
+bridge-<span class="smallcaps"><strong>abl</strong></span>
+</td>
+<td style="text-align:left;">
+through
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Every evening after works he leaves through this bridge.’
+</td>
+</tr>
+</tfoot>
+</table>
+<p>Sometimes a given language can express translative meanings in two
+different non-dedicated ways.</p>
+<ol start="9" class="example" style="list-style-type: decimal">
+<li>Agul <span class="citation">(<a href="#ref-magometov1970">Magometov
+1970</a>: 83)</span></li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>calik-<strong>di</strong></em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+wall-<span class="smallcaps"><strong>dir</strong></span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Along a wall’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>muxurik-<strong>di</strong></em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+chest-<span class="smallcaps"><strong>dir</strong></span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Along a (human) chest’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>jux</em>
+</td>
+<td style="text-align:left;">
+<em>xulaq-<strong>di</strong></em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+go.<span class="smallcaps">imp</span>
+</td>
+<td style="text-align:left;">
+house-<span class="smallcaps"><strong>dir</strong></span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Go in the direction of my house!’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>Agul has a directive case that can express translative meanings but
+only in combination with certain stems that have the topological
+properties of a vertical surface (compare 9 a, 9 b and 9 c). In other
+cases, Agul speakers resort to elative marking:</p>
+<ol start="10" class="example" style="list-style-type: decimal">
+<li>Agul <span class="citation">(<a href="#ref-maisak2014">Maisak
+2014</a>: 217)</span></li>
+</ol>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>zun</em>
+</td>
+<td style="text-align:left;">
+<em>ruq’-ar.i-k-<strong>es</strong></em>
+</td>
+<td style="text-align:left;">
+<em>kejč’w.a-jdi</em>
+</td>
+<td style="text-align:left;">
+<em>qːadaq</em>
+</td>
+<td style="text-align:left;">
+<em>e</em>
+</td>
+<td style="text-align:left;">
+<em>p.u-ne</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps">1sg</span>
+</td>
+<td style="text-align:left;">
+iron-<span class="smallcaps">pl</span>-<span
+class="smallcaps">cont</span>-<span
+class="smallcaps"><strong>elat</strong></span>
+</td>
+<td style="text-align:left;">
+CONTget.out.<span class="smallcaps">ipf</span>-<span
+class="smallcaps">pt</span>:<span class="smallcaps">hab</span>
+</td>
+<td style="text-align:left;">
+nail
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">cop</span>
+</td>
+<td style="text-align:left;">
+speak.<span class="smallcaps">pf</span>-<span
+class="smallcaps">aor</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘’I am the nail, that goes through the iron’ – he said.’
+</td>
+</tr>
+</tfoot>
+</table>
+<p>In some languages, the presence of a dedicated translative marker is
+dubious, as the marker might have been recorded in the past, but is now
+being ousted by some other case marker, usually by the elative. In
+Bagvalal, “[a]ccording to informants, this marker [translative] often
+can be omitted without making the sentence ungrammatical” <span
+class="citation">(<a
+href="#ref-daniel2001"><strong>daniel2001?</strong></a> 143)</span>,
+with no further details provided. In Botlikh we observe a different
+situation, as the original translative marker is now used with elative
+meanings too, and is partially ousting the original elative marker <span
+class="citation">(<a href="#ref-alexeyevverheesdraft2020">Alexeyev,
+Verhees 2020</a>)</span>.</p>
+<ol start="11" class="example" style="list-style-type: decimal">
+<li>Georgian <span class="citation">(<a href="#ref-hewitt1995">Hewitt
+1995</a>: 149)</span></li>
+</ol>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em><strong>gada</strong>-di-s</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps"><strong>through</strong></span>-go-<span
+class="smallcaps">3sg</span>.<span class="smallcaps">subj</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘X is going over/across/through’
+</td>
+</tr>
+</tfoot>
+</table>
+<p>The only language in the sample that employs a different strategy is
+Georgian, which expresses translative meanings with a
+<strong>preverb</strong>. Some Nakh-Daghestanian languages can also do
+so derivationally, but unlike them the Georgian translative preverb is
+not derivational.</p>
+<ol start="12" class="example" style="list-style-type: decimal">
+<li>Georgian <span class="citation">(<a href="#ref-hewitt1995">Hewitt
+1995</a>: 151, 189)</span></li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>pot-<strong>sa</strong></em>
+</td>
+<td style="text-align:left;">
+<em>da</em>
+</td>
+<td style="text-align:left;">
+<em>odesa-<strong>s</strong></em>
+</td>
+<td style="text-align:left;">
+<em>šoris</em>
+</td>
+<td style="text-align:left;">
+<em>gem-eb-i</em>
+</td>
+<td style="text-align:left;">
+<em><strong>da</strong>-di-an</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Poti-<span class="smallcaps"><strong>dat</strong></span>
+</td>
+<td style="text-align:left;">
+and
+</td>
+<td style="text-align:left;">
+Odessa-<span class="smallcaps"><strong>dat</strong></span>
+</td>
+<td style="text-align:left;">
+between
+</td>
+<td style="text-align:left;">
+boat-<span class="smallcaps">pl</span>-<span
+class="smallcaps">nom</span>
+</td>
+<td style="text-align:left;">
+<span
+class="smallcaps"><strong>go</span>.<span style="font-variant:small-caps;">regularly</strong></span>-go-<span
+class="smallcaps">pl</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Boats (regularly) journey between Poti and Odessa.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>opl-ma</em>
+</td>
+<td style="text-align:left;">
+<em>axalux-<strong>s</strong></em>
+</td>
+<td style="text-align:left;">
+<em><strong>ga</strong>-a-t’an-a</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+sweat-<span class="smallcaps">erg</span>
+</td>
+<td style="text-align:left;">
+shirt-<span class="smallcaps"><strong>dat</strong></span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps"><strong>through</strong></span>-<span
+class="smallcaps">3sg</span>.<span
+class="smallcaps">lv</span>-penetrate-<span class="smallcaps">3sg</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Sweat penetrated through the shirt.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>It is also certain that the Georgian translative is not distinctly
+marked on the dependent, as the dependent only receives dative
+case-marking that can be applied to a variety of locative meanings.
+Compare (12 a), where the destinations are marked by dative and (12 b),
+where the medium is marked by dative. In both examples the dependents
+are marked the same, while the verbs have different preverbs that
+express different locative relations. It can be thus concluded that the
+actual meaning of translativity in Georgian is conveyed primarily by the
+preverb and not by case-marking. This makes Georgian a unique case among
+the languages sampled, so it deserves a separate classification.</p>
+</div>
+<div id="distribution" class="section level1 hasAnchor" number="3">
+<h1 class="hasAnchor"><span class="header-section-number">3</span>
+Distribution<a href="#distribution" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p>Regarding Nakh-Daghestanian languages, there is no clear genealogical
+relationship that can be drawn for using either a dedicated case, a
+non-dedicated case, or an adposition.</p>
+<p>Avar has a dedicated translative case. Within the Andic branch,
+Akhvakh, Bagvalal, Botlikh and Godoberi use a dedicated case, while
+Andi, Chamalal and Karata use ablative/elative. All Tsezic languages use
+a dedicated marker, except for Hinuq.</p>
+<p>Mehweb, Tanty and Kubachi Dargwa all have a dedicated translative,
+while Standard Dargwa and Itsari do not. All sampled Lezgic languages
+have non-dedicated translative markers, except for Archi.</p>
+<p>The presence of a dedicated marker in Archi could be explained
+areally, as Archi is on the outskirts of what can be considered a
+general Lezgic area and is in close contact with Lak as well as Avar.
+These languages have a dedicated translative case, which might have
+influenced Archi.</p>
+<p>As for non-Nakh-Daghestanian languages, Armenian is the only language
+using instrumental. Kumyk is the only Turkic language in the area that
+uses a non-dedicated locative case (i.e. ablative) to mark translative
+meanings.</p>
+</div>
+<div id="list-of-glosses" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">List of glosses<a
+href="#list-of-glosses" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p><span class="smallcaps">1</span> — first person; <span
+class="smallcaps">1sg</span> — first person singular; <span
+class="smallcaps">3</span> — third person; <span
+class="smallcaps">3pl</span> — third person plural; <span
+class="smallcaps">3sg</span> — third person singular; <span
+class="smallcaps">a</span> — agent-like argument of canonical transitive
+verb; <span class="smallcaps">abl</span> — ablative; <span
+class="smallcaps">all</span> — allative; <span
+class="smallcaps">aor</span> — aorist; <span
+class="smallcaps">cont</span> — contessive; <span
+class="smallcaps">cop</span> — copula; <span
+class="smallcaps">d</span> — determiner; <span
+class="smallcaps">dat</span> — dative; <span
+class="smallcaps">dem</span> — demonstrative; <span
+class="smallcaps">det</span> — determiner; <span
+class="smallcaps">dir</span> — directional; <span
+class="smallcaps">el</span> — elative; <span
+class="smallcaps">elat</span> — elative; <span class="smallcaps"><span
+style="background-color:#00d5ff;">em1</span></span> — ; <span
+class="smallcaps">erg</span> — ergative; <span
+class="smallcaps">foc</span> — focus; <span class="smallcaps"><span
+style="background-color:#00d5ff;">go</span></span> — ; <span
+class="smallcaps">hab</span> — habitual; <span
+class="smallcaps">imp</span> — imperative; <span
+class="smallcaps">inel</span> — inelative; <span
+class="smallcaps">inf</span> — infinitive; <span
+class="smallcaps">inst</span> — instrumental; <span
+class="smallcaps">ipf</span> — imperfective; <span
+class="smallcaps">ipfv</span> — imperfective; <span
+class="smallcaps"><span
+style="background-color:#00d5ff;">j</span></span> — ; <span
+class="smallcaps">lv</span> — linking vowel; <span
+class="smallcaps">n</span> — neuter; <span
+class="smallcaps">nom</span> — nominative; <span
+class="smallcaps">npl</span> — non-human plural; <span
+class="smallcaps">o</span> — object; <span
+class="smallcaps">obl</span> — oblique; <span
+class="smallcaps">part</span> — partitive; <span
+class="smallcaps">pf</span> — perfect; <span
+class="smallcaps">pl</span> — plural; <span
+class="smallcaps">prox</span> — proximal; <span
+class="smallcaps">prs</span> — present; <span
+class="smallcaps">pst</span> — past; <span
+class="smallcaps">pt</span> — presentative; <span
+class="smallcaps"><span
+style="background-color:#00d5ff;">regularly</span></span> — ; <span
+class="smallcaps">subj</span> — subjunctive; <span
+class="smallcaps">sup</span> — superessive; <span
+class="smallcaps"><span
+style="background-color:#00d5ff;">through</span></span> — ; <span
+class="smallcaps">trans</span> — transformative</p>
+</div>
+<div id="references" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">References<a href="#references"
+class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="refs" class="references csl-bib-body hanging-indent"
+line-spacing="2">
+<div id="ref-alexeyevverheesdraft2020" class="csl-entry">
+Alexeyev, M., Verhees, S. (2020). <em>Botlikh</em> (Y. Koryakov, T.
+Maisak, Eds.). Berlin/New York: De Gruyter Mouton.
+</div>
+<div id="ref-authier2012" class="csl-entry">
+Authier, G. (2012). <em>Grammaire juhuri, ou judéo-tat, langue iranienne
+des <span>J</span>uifs du <span>C</span>aucase de l’est</em>. Wiesbaden:
+Dr. Ludwig Reichert Verlag Wiesbaden.
+</div>
+<div id="ref-babaliyeva2013" class="csl-entry">
+Babaliyeva, A. (2013). <em>Études sur la morphosyntaxe du
+<span>T</span>abasaran <span>L</span>ittéraire [<span>S</span>tudies on
+the morphosyntax of <span>S</span>tandard <span>T</span>abasaran]</em>
+(PhD thesis). École Pratique des Hautes Études.
+</div>
+<div id="ref-baskakov1973" class="csl-entry">
+Baskakov, N. A. (1973). <em>Grammatika nogajskogo jazyka.
+<span>Č</span>astʹ 1. <span>F</span>onetika i morfologija
+[<span>N</span>ogai grammar. <span>P</span>art 1. <span>P</span>honetics
+and morphology]</em>. Cherkessk: Karačaevo-Čerkesskoe otdelenie
+Stavropolʹskogo knižnogo izdatelʹstva.
+</div>
+<div id="ref-comriepolinsky1998" class="csl-entry">
+Bernard, C., Maria, P. (1998). <em>The great <span>D</span>aghestanian
+case hoax</em>. 95–114.
+</div>
+<div id="ref-dum-tragut2009" class="csl-entry">
+Dum-Tragut, J. (2009). <em>Armenian</em>. Amsterdam/Philadelphia: John
+Benjamins.
+</div>
+<div id="ref-hewitt1995" class="csl-entry">
+Hewitt, G. (1995). Georgian. <span>A</span> <span>S</span>tructural
+<span>R</span>eference <span>G</span>rammar. In <em>London Oriental and
+African Language Library</em> (Vol. 2). London: University of London;
+School of Oriental; African Studies, University of London.
+</div>
+<div id="ref-kibrik1999" class="csl-entry">
+Kibrik, A. E. (Ed.). (1999). <em>Èlementy caxurskogo jazyka v
+tipologičeskom osveščenii [<span>E</span>lements of <span>T</span>sakhur
+grammar in a typological perspective]</em>. Moscow: Nasledie.
+</div>
+<div id="ref-magomedova2003" class="csl-entry">
+Magomedova, P. T. (2003). <em>Tindinsko-russkij slovarʹ
+[<span>T</span>indi-<span>R</span>ussian dictionary]</em>. Makhachkala:
+IJaLI.
+</div>
+<div id="ref-magometov1970" class="csl-entry">
+Magometov, A. A. (1970). <em>Agulʹskij jazyk [<span>A</span>gul]</em>.
+Tbilisi: Mecniereba.
+</div>
+<div id="ref-maisak2014" class="csl-entry">
+Maisak, T. A. (2014). <em>Agulʹskie teksty 1900-1960-x godov.
+[<span>A</span>gul texts of the 1900-1960s]</em>. Moscow: Academia.
+</div>
+<div id="ref-molochieva2010" class="csl-entry">
+Molochieva, Z. (2010). <em>Tense, aspect and mood in
+<span>C</span>hechen</em> (PhD thesis). Universität Leipzig.
+</div>
+</div>
+</div>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+</head>
+
+<body>
+    <div class="footer-basic">
+        <footer>
+            
+            <div class='lic'><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br /><i>Typological Atlas of the languages of Daghestan </i> (<i>TALD</i>) is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0 International License</a>.
+            <div class="social"><a href="https://github.com/LingConLab/TALD" target="_blank"><span class="iconify" data-icon="octicon:logo-github-16"></span></a></div>
+            </div>
+            
+            <p class="copyright">2020<script>new Date().getFullYear()>2020&&document.write("-"+new Date().getFullYear());</script>,  Linguistic Convergence Laboratory, HSE University</p>
+        </footer>
+    </div>
+    <script type="text/javascript" src="./js/links.js"></script> <!--это чтобы ссылки открывались в новом окне -->
+</body>
+
+</html>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

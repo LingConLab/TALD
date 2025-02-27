@@ -784,4 +784,10 @@ As suggested in [@authier2021], the languages in the geographical center (Lak, s
 
 To conclude, the distribution of the inclusive/exclusive distinction is primarily explained by genealogy. However, some influence of geographical factors may also be suspected, including contacts with non-East-Caucasian languages which lack the distinction. This hypothesis requires further investigation.
 
+## List of glosses {-}
+
+```{r}
+make_gloss_list(readxl::read_xlsx("../glosses.xlsx"))
+```
+
 ## References {-}
