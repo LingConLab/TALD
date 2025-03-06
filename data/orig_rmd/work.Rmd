@@ -1,20 +1,7 @@
-
-install.packages("lingglosses")
-library(lingglosses)
-
-```{r, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+```{r, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, comment = '')
 library(lingglosses)
 ```
-
----
-title: "Expression of the sense 'to work'"
-author: "Konstantin Filatov, Svetlana Zemicheva"
-output: html_document
-bibliography: bibliography.bib
-link-citations: yes
----
-
 
 ## Introduction
 
@@ -68,19 +55,20 @@ Hinuq has both the dedicated verb *b-eddoː-z* (`r add_gloss("N-work-PURP")`) an
 
 
 ## Distribution
-For the distribution of the strategies see Maps.
-For the three languages in which more than one label is possible, namely Standard Dargwa, Hinuq, and Tsez, we consider the dedicated verb strategy as the default variant, and do not present it on the map.
+
+For the distribution of the strategies see Maps. For the three languages in which more than one label is possible, namely Standard Dargwa, Hinuq, and Tsez, we consider the dedicated verb strategy as the default variant, and do not present it on the map.
 
 Colexification with the verb ‘to do’ is used in Nogai (<Kipchak) and Kubachi (<Dargwa); it is also found in Standard Dargwa.
-
 
 Verbs with the same root as the verb ‘to do’ are found exclusively in three closely related Andic idioms: Botlikh, Godoberi, and Tukita.
 For the rest of Andic and Dargwa languages, the dedicated verb strategy is the typical one. It is also found in some Lezgic (Agul, Archi), and Tsezic (Hunzib, Khwarshi) languages spoken in the center of Daghestan.
 
 Light verb constructions are present in most of Lezgic, Tsezic, and Nakh languages, as well as in Khinalug and Judeo-Tat (<Iranian). Some dedicated verbs found in the languages of these groups were probably borrowed, e.g. *mušebadd-aː* (`r add_gloss("work-INF")`) in Tsova-Tush (<Nakh) [@desheriev1953: 12], a language spoken in Georgia, cf. *muša-oba* (`r add_gloss("work-ABSTR")`) [@tsibakhashvili1978: 192] in Georgian. Another example is represented by the verbs components *işlamiş* (`r add_gloss("working")`) in Alik (<Kryz<Lezgic) [@authier2009: 258] and *işlemiş xe-s* (`r add_gloss("working become-INF")`) in Mishlesh (<Tsakhur<Lezgic) [@kibrik1999: 898]. Since both idioms are in contact with Azerbaijani, we can suggest that these forms are borrowings cf. Azerbaijani *işlə-mək* (`r add_gloss("work-INF")`) [@tagiyev2006: 612].
 
+## List of glosses {-}
+
 ```{r}
 make_gloss_list()
 ```
 
-## References
+## References {-}

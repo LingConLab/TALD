@@ -10,12 +10,15 @@ The BibTeX entry          islamov2014           present in the          inclusiv
 The BibTeX entry          talibov2007, alekseevazaev2019          present in the          path_encoding.tsv, but absent in the biblib.xlsx
 The BibTeX entry          Bokarev1949          present in the          path_encoding.tsv, but absent in the biblib.xlsx
 The BibTeX entry          isakovkhalilov2012          present in the          path_encoding.tsv, but absent in the biblib.xlsx
+The BibTeX entry          yusupov2014       https://ids.clld.org/valuesets/9-120-57          present in the          work.tsv, but absent in the biblib.xlsx
+The BibTeX entry          abdullaev2015          present in the          work.tsv, but absent in the biblib.xlsx
 The BibTeX entry comriepolinsky1998 from the file path_encoding_bib.tsv has an empty value in the obligatory field JOURNAL
 The BibTeX entry comriepolinsky1998 from the file path_encoding_bib.tsv has an empty value in the obligatory field VOLUME
 The BibTeX entry dobrushinaetal2017 from the file inclusive_exclusive_distinction_in_personal_pronouns_bib.tsv has an empty value in the obligatory field TITLE
 The BibTeX entry nikolaevstarostin1994 from the file inclusive_exclusive_distinction_in_personal_pronouns_bib.tsv has an empty value in the obligatory field TITLE
 Revise the BibTeX entry Nogina2023 from the file path_encoding_bib.tsv.
 Revise the BibTeX entry moroz20_villages from the file phonology_bib.tsv.
+Revise the BibTeX entry françois2008 from the file work_bib.tsv.
 The wrong language name          Armenian          in the file          agreement_of_adpositions.tsv
 The wrong language name          Akhvakh          in the file          caritive_adv.tsv
 The wrong language name          Armenian          in the file          caritive_adv.tsv
@@ -182,6 +185,9 @@ The wrong language name          Dargwa          in the file          velar_fric
 The wrong language name          Akhvakh          in the file          voiceless_obstruents.tsv
 The wrong language name          Armenian          in the file          voiceless_obstruents.tsv
 The wrong language name          Dargwa          in the file          voiceless_obstruents.tsv
+The wrong language name          Akhvakh          in the file          work.tsv
+The wrong language name          Armenian          in the file          work.tsv
+The wrong language name          Dargwa          in the file          work.tsv
 The wrong village dialect name Mehweb in the file agreement_of_adpositions.tsv
 The wrong village dialect name Hinuq in the file agreement_of_adpositions.tsv
 The wrong village dialect name Kwantlada in the file agreement_of_adpositions.tsv
@@ -505,6 +511,12 @@ The wrong village dialect name Hinuq in the file voiceless_obstruents.tsv
 The wrong village dialect name Khinalug in the file voiceless_obstruents.tsv
 The wrong village dialect name Kwantlada in the file voiceless_obstruents.tsv
 The wrong village dialect name Kryz in the file voiceless_obstruents.tsv
+The wrong village dialect name Budukh in the file work.tsv
+The wrong village dialect name Mehweb in the file work.tsv
+The wrong village dialect name Hinuq in the file work.tsv
+The wrong village dialect name Khinalug in the file work.tsv
+The wrong village dialect name Kwantlada in the file work.tsv
+The wrong village dialect name Alik in the file work.tsv
 The wrong non-toplevel 2 dialect name Tsynit in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
 The wrong non-toplevel 2 dialect name Usukhchai in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
 The wrong non-toplevel 2 dialect name Khuryug in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
@@ -528,6 +540,7 @@ The wrong non-toplevel 1 dialect name Mehweb in the file numeral_root_hundred.ts
 The wrong non-toplevel 1 dialect name Mehweb in the file numeral_thousand.tsv
 The wrong non-toplevel 1 dialect name Mehweb in the file numeral_twenty.tsv
 The wrong non-toplevel 1 dialect name Mehweb in the file numeral_twoten.tsv
+The wrong non-toplevel 1 dialect name ? in the file work.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file agreement_of_adpositions.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file caritive_adv.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file caritive_attr.tsv
@@ -653,6 +666,9 @@ The wrong toplevel dialect name Modern Eastern Armenian in the file velar_fricat
 The wrong toplevel dialect name Kaitag in the file velar_fricatives.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file voiceless_obstruents.tsv
 The wrong toplevel dialect name Kaitag in the file voiceless_obstruents.tsv
+The wrong toplevel dialect name Eastern Armenian in the file work.tsv
+The wrong toplevel dialect name Gigatli in the file work.tsv
+The wrong toplevel dialect name Kaitag in the file work.tsv
 spelling of          chuhwanahw        in adpositions.Rmd:238
 spelling of          depi        in adpositions.Rmd:383
 spelling of          handep        in adpositions.Rmd:56
@@ -725,6 +741,37 @@ spelling of          diye        in standard_of_comparison.Rmd:227
 spelling of          upro        in standard_of_comparison.Rmd:227
 spelling of          Gakvari        in trans_intrans_imperative.Rmd:98
 spelling of          mari        in trans_intrans_imperative.Rmd:23
+spelling of          Alik        in work.Rmd:10,66
+spelling of          bolh        in work.Rmd:41
+spelling of          colexified        in work.Rmd:51
+spelling of          ejno        in work.Rmd:54
+spelling of          Gakvari        in work.Rmd:47
+spelling of          gihab        in work.Rmd:45
+spelling of          Gubin        in work.Rmd:41
+spelling of          lexified        in work.Rmd:39
+spelling of          lexifying        in work.Rmd:26
+spelling of          referr        in work.Rmd:28
+spelling of          žofo        in work.Rmd:41
 The BibTeX entry          nogina2023          present in the .Rmd, but absent in the path_encoding.bib
 The BibTeX entry          ganenkov2008          present in the .Rmd, but absent in the path_encoding.bib
 The BibTeX entry          daniel2001          present in the .Rmd, but absent in the path_encoding.bib
+The BibTeX entry          authier2009          present in the .Rmd, but absent in the work.bib
+The BibTeX entry          nichols2011          present in the .Rmd, but absent in the work.bib
+The BibTeX entry          karasaevmaciev1978          present in the .Rmd, but absent in the work.bib
+The BibTeX entry          ismailova2011          present in the .Rmd, but absent in the work.bib
+The BibTeX entry          izgijaeva2005          present in the .Rmd, but absent in the work.bib
+The BibTeX entry          naftaliev2016          present in the .Rmd, but absent in the work.bib
+The BibTeX entry          magomedovsaidovakutta2017          present in the .Rmd, but absent in the work.bib
+The BibTeX entry          magomedovaxalidova2001          present in the .Rmd, but absent in the work.bib
+The BibTeX entry          ramazanov2010          present in the .Rmd, but absent in the work.bib
+The BibTeX entry          alisultanova2009          present in the .Rmd, but absent in the work.bib
+The BibTeX entry          tagiyev2006b          present in the .Rmd, but absent in the work.bib
+The BibTeX entry          magomedova1999          present in the .Rmd, but absent in the work.bib
+The BibTeX entry          yusupov2014          present in the .Rmd, but absent in the work.bib
+The BibTeX entry          xalilovisakov2005          present in the .Rmd, but absent in the work.bib
+The BibTeX entry          abdulaevkhalilov2023          present in the .Rmd, but absent in the work.bib
+The BibTeX entry          xalilov1999          present in the .Rmd, but absent in the work.bib
+The BibTeX entry          desheriev1953          present in the .Rmd, but absent in the work.bib
+The BibTeX entry          tsibakhashvili1978          present in the .Rmd, but absent in the work.bib
+The BibTeX entry          kibrik1999          present in the .Rmd, but absent in the work.bib
+The BibTeX entry          tagiyev2006          present in the .Rmd, but absent in the work.bib
