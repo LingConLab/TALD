@@ -195,22 +195,18 @@ The wrong village dialect name Mehweb in the file caritive_adv.tsv
 The wrong village dialect name Hinuq in the file caritive_adv.tsv
 The wrong village dialect name Khinalug in the file caritive_adv.tsv
 The wrong village dialect name Kwantlada in the file caritive_adv.tsv
-The wrong village dialect name Alik in the file caritive_adv.tsv
 The wrong village dialect name Hinuq in the file caritive_attr.tsv
 The wrong village dialect name Kwantlada in the file caritive_attr.tsv
-The wrong village dialect name Alik in the file caritive_attr.tsv
 The wrong village dialect name Budukh in the file causatives.tsv
 The wrong village dialect name Mehweb in the file causatives.tsv
 The wrong village dialect name Hinuq in the file causatives.tsv
 The wrong village dialect name Khinalug in the file causatives.tsv
 The wrong village dialect name Kwantlada in the file causatives.tsv
-The wrong village dialect name Alik in the file causatives.tsv
 The wrong village dialect name Budukh in the file comitative.tsv
 The wrong village dialect name Mehweb in the file comitative.tsv
 The wrong village dialect name Hinuq in the file comitative.tsv
 The wrong village dialect name Khinalug in the file comitative.tsv
 The wrong village dialect name Kwantlada in the file comitative.tsv
-The wrong village dialect name Alik in the file comitative.tsv
 The wrong village dialect name Mehweb in the file days_after_today.tsv
 The wrong village dialect name Hinuq in the file days_after_today.tsv
 The wrong village dialect name Khinalug in the file days_after_today.tsv
@@ -223,7 +219,6 @@ The wrong village dialect name Kwantlada in the file days_before_today.tsv
 The wrong village dialect name Kryz in the file days_before_today.tsv
 The wrong village dialect name Khinalug in the file demonstratives.tsv
 The wrong village dialect name Budukh in the file demonstratives.tsv
-The wrong village dialect name Alik in the file demonstratives.tsv
 The wrong village dialect name Hinuq in the file demonstratives.tsv
 The wrong village dialect name Kwantlada in the file demonstratives.tsv
 The wrong village dialect name Budukh in the file dominant_adpositional_case.tsv
@@ -231,7 +226,6 @@ The wrong village dialect name Mehweb in the file dominant_adpositional_case.tsv
 The wrong village dialect name Hinuq in the file dominant_adpositional_case.tsv
 The wrong village dialect name Khinalug in the file dominant_adpositional_case.tsv
 The wrong village dialect name Kwantlada in the file dominant_adpositional_case.tsv
-The wrong village dialect name Alik in the file dominant_adpositional_case.tsv
 The wrong village dialect name Budukh in the file ejective_p.tsv
 The wrong village dialect name Gigatli in the file ejective_p.tsv
 The wrong village dialect name Mehweb in the file ejective_p.tsv
@@ -252,21 +246,18 @@ The wrong village dialect name Mehweb in the file erg_abs_pronouns.tsv
 The wrong village dialect name Hinuq in the file erg_abs_pronouns.tsv
 The wrong village dialect name Khinalug in the file erg_abs_pronouns.tsv
 The wrong village dialect name Kwantlada in the file erg_abs_pronouns.tsv
-The wrong village dialect name Alik in the file erg_abs_pronouns.tsv
 The wrong village dialect name Kryz in the file erg_abs_pronouns.tsv
 The wrong village dialect name Budukh in the file evidentiality_tense.tsv
 The wrong village dialect name Gigatli in the file evidentiality_tense.tsv
 The wrong village dialect name Hinuq in the file evidentiality_tense.tsv
 The wrong village dialect name Khinalug in the file evidentiality_tense.tsv
 The wrong village dialect name Kwantlada in the file evidentiality_tense.tsv
-The wrong village dialect name Alik in the file evidentiality_tense.tsv
 The wrong village dialect name Budukh in the file farewell_wishes.tsv
 The wrong village dialect name Mehweb in the file farewell_wishes.tsv
 The wrong village dialect name Hinuq in the file farewell_wishes.tsv
 The wrong village dialect name Hunzib in the file farewell_wishes.tsv
 The wrong village dialect name Khinalug in the file farewell_wishes.tsv
 The wrong village dialect name Kwantlada in the file farewell_wishes.tsv
-The wrong village dialect name Alik in the file farewell_wishes.tsv
 NA
 The wrong village dialect name Gelmets in the file farewell_wishes.tsv
 The wrong village dialect name Budukh in the file gemination.tsv
@@ -281,11 +272,9 @@ The wrong village dialect name Mehweb in the file gender_agreement_slot.tsv
 The wrong village dialect name Hinuq in the file gender_agreement_slot.tsv
 The wrong village dialect name Khinalug in the file gender_agreement_slot.tsv
 The wrong village dialect name Kwantlada in the file gender_agreement_slot.tsv
-The wrong village dialect name Alik in the file gender_agreement_slot.tsv
 The wrong village dialect name Mehweb in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
 The wrong village dialect name Khinalug in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
 The wrong village dialect name Budukh in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
-The wrong village dialect name Alik in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
 The wrong village dialect name Kryz in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
 The wrong village dialect name Kwantlada in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
 The wrong village dialect name Budukh in the file jussive.tsv
@@ -293,7 +282,6 @@ The wrong village dialect name Mehweb in the file jussive.tsv
 The wrong village dialect name Hinuq in the file jussive.tsv
 The wrong village dialect name Khinalug in the file jussive.tsv
 The wrong village dialect name Kwantlada in the file jussive.tsv
-The wrong village dialect name Alik in the file jussive.tsv
 The wrong village dialect name Budukh in the file labialization.tsv
 The wrong village dialect name Gigatli in the file labialization.tsv
 The wrong village dialect name Mehweb in the file labialization.tsv
@@ -327,7 +315,6 @@ The wrong village dialect name Mehweb in the file morning_greetings.tsv
 The wrong village dialect name Hinuq in the file morning_greetings.tsv
 The wrong village dialect name Khinalug in the file morning_greetings.tsv
 The wrong village dialect name Kwantlada in the file morning_greetings.tsv
-The wrong village dialect name Alik in the file morning_greetings.tsv
 The wrong village dialect name Budukh in the file nasalization.tsv
 The wrong village dialect name Gigatli in the file nasalization.tsv
 The wrong village dialect name Mehweb in the file nasalization.tsv
@@ -340,7 +327,6 @@ The wrong village dialect name Mehweb in the file number_of_morphological_slots_
 The wrong village dialect name Hinuq in the file number_of_morphological_slots_in_spatial_forms.tsv
 The wrong village dialect name Khinalug in the file number_of_morphological_slots_in_spatial_forms.tsv
 The wrong village dialect name Kwantlada in the file number_of_morphological_slots_in_spatial_forms.tsv
-The wrong village dialect name Alik in the file number_of_morphological_slots_in_spatial_forms.tsv
 The wrong village dialect name Amushi Bol'shoe in the file numeral_bases.tsv
 The wrong village dialect name Hinuq in the file numeral_bases.tsv
 The wrong village dialect name Kwantlada in the file numeral_bases.tsv
@@ -349,7 +335,6 @@ The wrong village dialect name Maza in the file numeral_bases.tsv
 The wrong village dialect name Gogaz in the file numeral_bases.tsv
 The wrong village dialect name Kimil Quba in the file numeral_bases.tsv
 The wrong village dialect name Budukh in the file numeral_bases.tsv
-The wrong village dialect name Alik in the file numeral_bases.tsv
 The wrong village dialect name Khinalug in the file numeral_bases.tsv
 The wrong village dialect name Akka in the file numeral_bases.tsv
 The wrong village dialect name Kwantlada in the file numeral_class.tsv
@@ -372,7 +357,6 @@ The wrong village dialect name Kwantlada in the file numeral_distributives.tsv
 The wrong village dialect name Hinuq in the file numeral_distributives.tsv
 The wrong village dialect name Mehweb in the file numeral_distributives.tsv
 The wrong village dialect name Budukh in the file numeral_distributives.tsv
-The wrong village dialect name Alik in the file numeral_distributives.tsv
 The wrong village dialect name Kwantlada in the file numeral_hundred.tsv
 The wrong village dialect name Hinuq in the file numeral_hundred.tsv
 The wrong village dialect name Budukh in the file numeral_hundred.tsv
@@ -414,13 +398,11 @@ The wrong village dialect name Mehweb in the file optative.tsv
 The wrong village dialect name Hinuq in the file optative.tsv
 The wrong village dialect name Khinalug in the file optative.tsv
 The wrong village dialect name Kwantlada in the file optative.tsv
-The wrong village dialect name Alik in the file optative.tsv
 The wrong village dialect name Budukh in the file ordinals.tsv
 The wrong village dialect name Mehweb in the file ordinals.tsv
 The wrong village dialect name Hinuq in the file ordinals.tsv
 The wrong village dialect name Khinalug in the file ordinals.tsv
 The wrong village dialect name Kwantlada in the file ordinals.tsv
-The wrong village dialect name Alik in the file ordinals.tsv
 The wrong village dialect name Budukh in the file palatalized_consonants.tsv
 The wrong village dialect name Gigatli in the file palatalized_consonants.tsv
 The wrong village dialect name Mehweb in the file palatalized_consonants.tsv
@@ -432,19 +414,16 @@ The wrong village dialect name Budukh in the file particles.tsv
 The wrong village dialect name Hinuq in the file particles.tsv
 The wrong village dialect name Khinalug in the file particles.tsv
 The wrong village dialect name Kwantlada in the file particles.tsv
-The wrong village dialect name Alik in the file particles.tsv
 The wrong village dialect name Budukh in the file path_encoding.tsv
 The wrong village dialect name Mehweb in the file path_encoding.tsv
 The wrong village dialect name Hinuq in the file path_encoding.tsv
 The wrong village dialect name Khinalug in the file path_encoding.tsv
 The wrong village dialect name Kwantlada in the file path_encoding.tsv
-The wrong village dialect name Alik in the file path_encoding.tsv
 The wrong village dialect name Budukh in the file perfect.tsv
 The wrong village dialect name Gigatli in the file perfect.tsv
 The wrong village dialect name Hinuq in the file perfect.tsv
 The wrong village dialect name Khinalug in the file perfect.tsv
 The wrong village dialect name Kwantlada in the file perfect.tsv
-The wrong village dialect name Alik in the file perfect.tsv
 The wrong village dialect name Budukh in the file pharyngealization.tsv
 The wrong village dialect name Gigatli in the file pharyngealization.tsv
 The wrong village dialect name Mehweb in the file pharyngealization.tsv
@@ -461,7 +440,6 @@ The wrong village dialect name Kwantlada in the file pharyngeals.tsv
 The wrong village dialect name Kryz in the file pharyngeals.tsv
 The wrong village dialect name Budukh in the file plural_marking_on_imperatives.tsv
 The wrong village dialect name Mehweb in the file plural_marking_on_imperatives.tsv
-The wrong village dialect name Alik in the file plural_marking_on_imperatives.tsv
 The wrong village dialect name Khinalug in the file plural_marking_on_imperatives.tsv
 The wrong village dialect name Kwantlada in the file plural_marking_on_imperatives.tsv
 The wrong village dialect name Hinuq in the file plural_marking_on_imperatives.tsv
@@ -470,19 +448,16 @@ The wrong village dialect name Mehweb in the file prohibitives.tsv
 The wrong village dialect name Hinuq in the file prohibitives.tsv
 The wrong village dialect name Khinalug in the file prohibitives.tsv
 The wrong village dialect name Kwantlada in the file prohibitives.tsv
-The wrong village dialect name Alik in the file prohibitives.tsv
 The wrong village dialect name Budukh in the file standard_of_comparison.tsv
 The wrong village dialect name Mehweb in the file standard_of_comparison.tsv
 The wrong village dialect name Hinuq in the file standard_of_comparison.tsv
 The wrong village dialect name Khinalug in the file standard_of_comparison.tsv
 The wrong village dialect name Kwantlada in the file standard_of_comparison.tsv
-The wrong village dialect name Alik in the file standard_of_comparison.tsv
 The wrong village dialect name Budukh in the file trans_intrans_imperative.tsv
 The wrong village dialect name Mehweb in the file trans_intrans_imperative.tsv
 The wrong village dialect name Hinuq in the file trans_intrans_imperative.tsv
 The wrong village dialect name Khinalug in the file trans_intrans_imperative.tsv
 The wrong village dialect name Kwantlada in the file trans_intrans_imperative.tsv
-The wrong village dialect name Alik in the file trans_intrans_imperative.tsv
 The wrong village dialect name Budukh in the file umlaut_vowels.tsv
 The wrong village dialect name Gigatli in the file umlaut_vowels.tsv
 The wrong village dialect name Mehweb in the file umlaut_vowels.tsv
@@ -516,7 +491,6 @@ The wrong village dialect name Mehweb in the file work.tsv
 The wrong village dialect name Hinuq in the file work.tsv
 The wrong village dialect name Khinalug in the file work.tsv
 The wrong village dialect name Kwantlada in the file work.tsv
-The wrong village dialect name Alik in the file work.tsv
 The wrong non-toplevel 2 dialect name Tsynit in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
 The wrong non-toplevel 2 dialect name Usukhchai in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
 The wrong non-toplevel 2 dialect name Khuryug in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
@@ -595,48 +569,35 @@ The wrong toplevel dialect name Kaitag in the file numeral_bases.tsv
 The wrong toplevel dialect name Koshan in the file numeral_bases.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file numeral_bases.tsv
 The wrong toplevel dialect name Kaitag in the file numeral_class.tsv
-The wrong toplevel dialect name Alik in the file numeral_class.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file numeral_class.tsv
 The wrong toplevel dialect name Kaitag in the file numeral_complex.tsv
-The wrong toplevel dialect name Alik in the file numeral_complex.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file numeral_complex.tsv
 The wrong toplevel dialect name Gigatli in the file numeral_crowns_endings.tsv
 The wrong toplevel dialect name Kaitag in the file numeral_crowns_endings.tsv
-The wrong toplevel dialect name Alik in the file numeral_crowns_endings.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file numeral_crowns_endings.tsv
 The wrong toplevel dialect name Gigatli in the file numeral_crowns_ten.tsv
 The wrong toplevel dialect name Kaitag in the file numeral_crowns_ten.tsv
-The wrong toplevel dialect name Alik in the file numeral_crowns_ten.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file numeral_crowns_ten.tsv
 The wrong toplevel dialect name Kaitag in the file numeral_distributives.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file numeral_distributives.tsv
 The wrong toplevel dialect name Kaitag in the file numeral_hundred.tsv
-The wrong toplevel dialect name Alik in the file numeral_hundred.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file numeral_hundred.tsv
 The wrong toplevel dialect name Kaitag in the file numeral_one.tsv
-The wrong toplevel dialect name Alik in the file numeral_one.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file numeral_one.tsv
 The wrong toplevel dialect name Kaitag in the file numeral_ordinals.tsv
-The wrong toplevel dialect name Alik in the file numeral_ordinals.tsv
 The wrong toplevel dialect name Ak-Nogai in the file numeral_ordinals.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file numeral_ordinals.tsv
 The wrong toplevel dialect name Kaitag in the file numeral_origin.tsv
-The wrong toplevel dialect name Alik in the file numeral_origin.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file numeral_origin.tsv
 The wrong toplevel dialect name Kaitag in the file numeral_regularity.tsv
-The wrong toplevel dialect name Alik in the file numeral_regularity.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file numeral_regularity.tsv
 The wrong toplevel dialect name Gigatli in the file numeral_root_hundred.tsv
-The wrong toplevel dialect name Alik in the file numeral_root_hundred.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file numeral_root_hundred.tsv
 The wrong toplevel dialect name Kaitag in the file numeral_thousand.tsv
-The wrong toplevel dialect name Alik in the file numeral_thousand.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file numeral_thousand.tsv
 The wrong toplevel dialect name Kaitag in the file numeral_twenty.tsv
-The wrong toplevel dialect name Alik in the file numeral_twenty.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file numeral_twenty.tsv
 The wrong toplevel dialect name Kaitag in the file numeral_twoten.tsv
-The wrong toplevel dialect name Alik in the file numeral_twoten.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file numeral_twoten.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file optative.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file ordinals.tsv
@@ -713,7 +674,6 @@ spelling of          gundinu        in gender_agreement_slot.Rmd:83,83
 spelling of          Kwarandzey        in gender_agreement_slot.Rmd:17
 spelling of          Lavukaleve        in gender_agreement_slot.Rmd:17
 spelling of          Marind        in gender_agreement_slot.Rmd:17
-spelling of          Alik        in inclusive_exclusive_distinction_in_personal_pronouns.Rmd:525,529
 spelling of          Ganenkov        in inclusive_exclusive_distinction_in_personal_pronouns.Rmd:197,326
 spelling of          Ibragimov        in inclusive_exclusive_distinction_in_personal_pronouns.Rmd:645
 spelling of          jinewi        in inclusive_exclusive_distinction_in_personal_pronouns.Rmd:7,7,578
@@ -722,13 +682,10 @@ spelling of          Nkore        in morning_greetings.Rmd:8
 spelling of          Oraire        in morning_greetings.Rmd:8
 spelling of          xair        in morning_greetings.Rmd:41,41,49
 spelling of          xajir        in morning_greetings.Rmd:41
-spelling of          Alik        in numeral_bases.Rmd:110
 spelling of          Gakvari        in numeral_bases.Rmd:51
 spelling of          Qidi        in numeral_bases.Rmd:133
 spelling of          azir        in numeral_complex.Rmd:65,65
-spelling of          Alik        in numeral_hundred.Rmd:24
 spelling of          Yine        in ordinals.Rmd:35
-spelling of          Alik        in particles.Rmd:85
 spelling of          APUD        in path_encoding.Rmd:21
 spelling of          areally        in path_encoding.Rmd:181
 spelling of          ccording        in path_encoding.Rmd:143
@@ -741,7 +698,6 @@ spelling of          diye        in standard_of_comparison.Rmd:227
 spelling of          upro        in standard_of_comparison.Rmd:227
 spelling of          Gakvari        in trans_intrans_imperative.Rmd:98
 spelling of          mari        in trans_intrans_imperative.Rmd:23
-spelling of          Alik        in work.Rmd:10,66
 spelling of          bolh        in work.Rmd:41
 spelling of          colexified        in work.Rmd:51
 spelling of          ejno        in work.Rmd:54
