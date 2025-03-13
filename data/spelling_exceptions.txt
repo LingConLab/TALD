@@ -30,6 +30,7 @@ Andic
 Ando
 aorist
 approximant
+APUD
 apudessive
 Archi
 Aristova
@@ -133,6 +134,8 @@ franca
 Fyodor
 Gadzhiakhmedov
 Gagatli
+Gakvari
+Ganenkov
 Gasanova
 geminate
 gemination
@@ -155,6 +158,7 @@ HSE
 Hunzib
 Huppuq
 Huppuq'
+Ibragimov
 Ilya
 Imnajšvili
 imperfective
@@ -180,6 +184,7 @@ Ivanova
 Izmalkova
 Johanson
 Judeo
+JUSS
 jussive
 Kaitag
 Karata
@@ -213,6 +218,8 @@ lenis
 Levinson
 lexeme
 lexically
+lexified
+lexifying
 Lezgian
 Lezgic
 lingglosses

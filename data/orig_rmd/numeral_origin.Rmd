@@ -1,8 +1,14 @@
+```{r, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, comment = '')
+library(lingglosses)
+```
 
 ## Introduction
+
 This chapter is dedicated to the origins of numeral markers across the East Caucasian family and neighboring languages.
 
 ## Results
+
 Numeral markers in East Caucasian seem to be semantically vacuous, but in some languages they coincide with affixes of different categories. The first map shows the distribution of known origins of numeral markers in the languages of the family. In the Avar-Andic branch and some other languages, numeral markers coincide with intensifying particles [@forker2015]. These particles may originate in copulas ‘to be’ [@maisakchumakina2001: 718]. Consider the following examples from Standard Avar which show different uses of this suffix:
 
 (@) Standard Avar [@forker2020: 13]
@@ -98,7 +104,10 @@ Numeral markers also occur in some other languages of the Caucasus, e.g. Abaza [
 ## Distribution
 Lezgic languages generally use class markers as numeral markers and Avar-Andic languages particles with emphatic functions (-*gu*, -*go*, -*da*). Dargic and Tsezic branches use different markers whose origins are not identified. Nakh languages and Khinalug do not have numeral markers.
 
-## List of glosses
-`r add_gloss("2")`— second person; `r add_gloss("ADD")` — additive; `r add_gloss("ATTR")` — attributive; `r add_gloss("CM")` — class marker; `r add_gloss("COM")` — comitative; `r add_gloss("DEM")` — demonstrative; `r add_gloss("EMPH")` — emphatic particle; `r add_gloss("INT")` — intensifier; `r add_gloss("IV")` — class IV; `r add_gloss("LAT")` — lative; `r add_gloss("N")` — neuter class; `r add_gloss("N2")` — second neuter class; `r add_gloss("NUM")` — numeral marker; `r add_gloss("OBL")` — oblique; `r add_gloss("PFV")` — perfective; `r add_gloss("SG")` — singular
+## List of glosses {-}
 
-## References
+```{r}
+make_gloss_list(readxl::read_xlsx("../glosses.xlsx"))
+```
+
+## References {-}

@@ -32,4 +32,4 @@ Also interesting is the distribution of the number of distinct terms included in
 
 As was mentioned earlier, the first strategy tends to use a large number of distinct terms (usually four and five, sometimes two, but in these cases it is possible to assume insufficient data), while the third one tends to use only a few (usually two and three), and both options are attested for the second strategy (from two to seven terms). It should be kept in mind that perhaps not all of the terms recorded in the dictionaries are still used currently. See, for example, [@nichols2011: 192] on the use of days before today and after today in Ingush.
 
-## References
+## References {-}

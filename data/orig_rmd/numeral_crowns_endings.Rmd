@@ -1,8 +1,14 @@
+```{r, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, comment = '')
+library(lingglosses)
+```
 
 ## Introduction
+
 In East Caucasian languages crowns from 30 to 90 often have unique endings instead of the usual numeral marker. This chapter is dedicated to such cases.
 
 ## Results
+
 For example, in Bagvalal (Andic) the final -*da*, which is present in lower and higher numerals, is absent in crowns from 30 to 90. Compare the following examples:
 
 (@) Bagvalal [@tatevosov2001numerals: 155]
@@ -56,9 +62,13 @@ The numeral ‘20’ is expressed with a simple root in the majority of East Cau
 If one numeral in the subset ‘30’—‘90’ is derived differently, it is ignored as an exception. This is the case, for example, for Avar, where cardinals from 40 to 90 are derived vigesimally but ‘30’ has its own root: *ɬeber=go*.
 
 ## Distribution
+
 Special endings in crowns are a distinctive feature of several Andic languages (Tindi, Bagvalal, and Godoberi), several Lezgic languages (Tabasaran, Tsakhur, and Rutul), and the majority of Dargic varieties.
 
-## List of glosses
-`r add_gloss("1/2")`— class 1 or 2; `r add_gloss("NUM")` — numeral marker
+## List of glosses {-}
 
-## References
+```{r}
+make_gloss_list(readxl::read_xlsx("../glosses.xlsx"))
+```
+
+## References {-}

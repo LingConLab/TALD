@@ -1,8 +1,14 @@
+```{r, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, comment = '')
+library(lingglosses)
+```
 
 ## Introduction
+
 This chapter is dedicated to the presence of the numeral marker in the numeral ‘20’ across the East Caucasian family and neighboring languages.
 
 ## Results
+
 In the majority of the East Caucasian languages, the number ‘20’ is expressed with a monomorphemic root, as shown in (@n_akhvakh_20). In some of these languages, it carries the numeral marker, in some it does not.
 
 (@n_akhvakh_20) Northern Akhvakh [@magomedbekova1967: 40]
@@ -46,9 +52,13 @@ gloss_example(transliteration = "q’o-no qu=no",
 ```
 
 ## Distribution
+
 Many languages of the family use numeral markers with ‘20’. No areal distribution can be shown.
 
-## List of glosses
-`r add_gloss("ADD")` — additive; `r add_gloss("CM")` — class marker; `r add_gloss("NUM")` — numeral marker
+## List of glosses {-}
 
-## References
+```{r}
+make_gloss_list(readxl::read_xlsx("../glosses.xlsx"))
+```
+
+## References {-}

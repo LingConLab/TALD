@@ -105,7 +105,10 @@ Udi is another Lezgic language which stands out within the branch. It has a simp
 
 Other languages of the region (Kumyk, Nogai, Azerbaijani, Armenian, Judeo-Tat, and Georgian) do not display many common features with the East Caucasian languages. None of them have numeral markers (Georgian final -*i* is the nominative marker).
 
-## List of glosses
-`r add_gloss("ABS")` — absolutive; `r add_gloss("I")` — class I; `r add_gloss("NUM")` — numeral marker
+## List of glosses {-}
 
-## References
+```{r}
+make_gloss_list(readxl::read_xlsx("data/glosses.xlsx"))
+```
+
+## References {-}

@@ -1,8 +1,14 @@
+```{r, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, comment = '')
+library(lingglosses)
+```
 
 ## Introduction
+
 This chapter is dedicated to the regularity of numeral markers across the East Caucasian family and neighboring languages.
 
 ## Results
+
 The numeral markers can attach to different subsets of lexemes in different East Caucasian languages. The presence or absence of the marker usually depends on the numeral lexeme, although sometimes the composition of the numeral must be taken into consideration as well. In some languages the marker is absent in non-final elements of a complex numeral (see map 10). To define different subsets of numerals, I use the lexicon of Calude, Verkerk [-@caludeverkerk2016: 5], who call numbers ‘11’—‘19’ **teens**, ‘20’—‘90’ **crowns**, ‘100’—‘900’ **hundreds**, and ‘1 000’—‘9 000’ **thousands**.
 
 Numeral markers appear more often in smaller numerals. It is typical for a language to have markers attached to monomorphemic cardinals ‘2’—‘10’ and ‘20’, sometimes ‘100’. Higher numerals are less likely to have a marker. In some languages crowns from 30 to 90 and/or hundreds from 200 to 900 constitute their own subset which does not attach the marker, whereas numerals ‘10’, ‘20’, and ‘100’ do attach it. This is characteristic of Dargic and some Andic languages. In other languages the marker appears on all cardinals (at least, no exceptions are known). This is the case for some Andic languages, Archi, Lak, and Mehweb Dargwa.
@@ -30,9 +36,13 @@ gloss_example(transliteration = "hoč’ʷa=ja-hac’a=ja",
 ```
 
 ## Distribution
+
 Patterns of regularity can be associated with certain phyla, e.g., Dargic languages mostly use the numeral marker with numerals from 2 to 20, whereas in Avaro-Andic languages the scope of its usage extends from 2 to 1,000. Other languages make smaller groups, e.g., Lak and Archi, which use the markers with the maximum scope from 1 to 1,000.
 
-## List of glosses
-`r add_gloss("M")` — masculine class; `r add_gloss("NUM")` — numeral marker
+## List of glosses {-}
 
-## References
+```{r}
+make_gloss_list(readxl::read_xlsx("../glosses.xlsx"))
+```
+
+## References {-}

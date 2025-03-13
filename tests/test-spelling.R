@@ -16,7 +16,7 @@ test_that("Test spellingin chapters", {
   map_dfr(files_to_check, function(rmd){
     spelling::spell_check_files(rmd, ignore = ignore_spelling)
   }) |>
-    filter(!str_detect(word, "[’'ʼːχšʔɡɨžčƛłs̄ǝˁəʕħʜșʡʕɯɬʎɟɥʢǧɣβtşʁ]")) ->
+    filter(!str_detect(word, "[’'ʼːχšʔɡɨžčƛłžs̄ǝʰˁəʕħʜșʡʕɯɬʎɟɥʢǧɣβtşʁ]")) ->
   wrong_spelling
    
   observed <- str_c("spelling of          ", wrong_spelling$word, "        in ", wrong_spelling$found)

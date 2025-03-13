@@ -1,10 +1,16 @@
+```{r, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, comment = '')
+library(lingglosses)
+```
 
 ## Introduction
+
 This chapter is dedicated to patterns of derivation of distributive numerals across the East Caucasian family and neighboring languages.
 
 Many languages have specific means to express distributivity. The meaning of distributivity can be shown with the following English example: John and Bill carried three suitcases. This sentence exemplifies the semantic relationship between a phrase containing a numeral, which is called ‘share’, and another phrase, or ‘key’. The relationship thus can be expressed as ‘share’ per ‘key’, as in three suitcases [per person] (if suitcases are the ‘key’) or three suitcases [three by three] (if the verb carried is the ‘key’). In many languages across the world, including East Caucasian, numerals used in the ‘share’ phrase belong to a separate numeral series [@gil2013]. The first interpretation is more popular in the sources on East Caucasian languages, and the two different meanings are rarely distinguished.
 
 ## Results
+
 In East Caucasian languages distributive numerals are usually derived with reduplication, exemplified by (@itsari_two_each). According to [@gil2013], this mean of derivation is very common cross-linguistically.
 
 (@itsari_two_each) Itsari Dargwa [@sumbatovamutalov2003: 47]
@@ -54,9 +60,13 @@ gloss_example(transliteration = "hos-t’a~hos-t’a",
 In languages of other families presented in the area, reduplication as a means to derive distributives is attested in Azerbaijani, Judeo-Tat and Georgian. Kumyk, Nogai, and Armenian use suffixes.
 
 ## Distribution
+
 With rare exceptions, East Caucasian languages use reduplication as the main derivational pattern. Usage of additional suffixes is widespread, although not as much in the Dargic and Nakh branches. Neighboring languages outside of the family also use reduplication, yet not as often as East Caucasian languages.
 
-## List of glosses
-`r add_gloss("DISTR")` — distributive; `r add_gloss("NUM")` — numeral marker
+## List of glosses {-}
 
-## References
+```{r}
+make_gloss_list(readxl::read_xlsx("../glosses.xlsx"))
+```
+
+## References {-}
