@@ -46,7 +46,7 @@ The goal of this chapter is to classify the languages of Daghestan according to 
 ### Non-East-Caucasian languages
 None of the non-East-Caucasian languages included in the sample distinguishes between the inclusive and the exclusive. These are the following languages: Armenian, Georgian, Tat (Muslim Tat and Judeo-Tat), Kumyk, Nogai and Azerbaijani. The forms of speech act participants (SAP) pronouns of these languages are shown in [Table 1](#t1).
 
-##### **Table 1.** SAP pronouns in Armenian, Georgian, Tat, Kumyk, Nogai and Azerbaijani (see [@dum-tragut2009: 124 ; @hewitt1995: 76 ; @griunberg1963: 38 ; @abdullaevaetal2014: 247 ; @baskakov1973: 161 ; @shiralievsevortyan1971: 79], respectively). {#t1 -}
+#### **Table 1.** SAP pronouns in Armenian, Georgian, Tat, Kumyk, Nogai and Azerbaijani (see [@dum-tragut2009: 124 ; @hewitt1995: 76 ; @griunberg1963: 38 ; @abdullaevaetal2014: 247 ; @baskakov1973: 161 ; @shiralievsevortyan1971: 79], respectively). {#t1 -}
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -115,7 +115,7 @@ None of the non-East-Caucasian languages included in the sample distinguishes be
 
 In the Andic branch of East Caucasian, the inclusive/exclusive distinction was attested in all languages. The pronouns of Karata of Archo ([Table 2](#t2)) serve as an example of a system typically found in Andic languages.
 
-##### **Table 2.** SAP pronouns of the Karata language, Archo village [@magomedbekova1971: 101]. {#t2 -}
+#### **Table 2.** SAP pronouns of the Karata language, Archo village [@magomedbekova1971: 101]. {#t2 -}
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -151,7 +151,7 @@ In the Andic branch of East Caucasian, the inclusive/exclusive distinction was a
 
 In Avar, almost all the dialects and lects also have the distinction. Only two varieties lack it. According to [@isakov2020: 97-98] the idioms of the Kusur and Upper Dzhengutaj villages do not distinguish between inclusive and exclusive. In the case of Kusur, this can be due to its geographical isolation from other Avar villages and to the fact that Kusur is adjacent to the territory of Tsakhur (Lezgic), which lacks the inclusive/exclusive distinction. [Table 3](#t3) compares the pronoun sets in Standard Avar and in the Avar of Kusur. We see that the latter lost the inclusive form *niɬ*, and the meaning of the exclusive pronoun *niž* expanded to cover the neutral ‘we’.
 
-##### **Table 3.** Standard Avar pronouns [@alekseevataev1997: 53-54] and the pronouns of the Avar of Kusur [@isakov2020: 97-98]. {#t3 -}
+#### **Table 3.** Standard Avar pronouns [@alekseevataev1997: 53-54] and the pronouns of the Avar of Kusur [@isakov2020: 97-98]. {#t3 -}
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -196,7 +196,7 @@ Dargwa languages (here I use the classification of Dargwa languages proposed by 
 
 Ganenkov [-@ganenkov2013] reconstructs the pronominal system of Proto-Dargwa and proposes a scenario of its evolution in languages which descended from the proto-language. [Table 4](#t4) shows the reconstruction and the forms attested in some Dargwa varieties.
 
-##### **Table 4.** Personal pronouns in Proto-Dargwa, Chirag, Kaitag, Northern Dargwa — Standard Dargwa, Tsudakhar and Butri, Southern Dargwa — Shiri, Kunki, Itsari, Sanzhi, Tanty and Kubachi. {#t4 -}
+#### **Table 4.** Personal pronouns in Proto-Dargwa, Chirag, Kaitag, Northern Dargwa — Standard Dargwa, Tsudakhar and Butri, Southern Dargwa — Shiri, Kunki, Itsari, Sanzhi, Tanty and Kubachi. {#t4 -}
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -329,7 +329,7 @@ As for the varieties where the distinction was lost, three sources for their pre
 
 [Table 5](#t5) summarizes the origins of pronouns in each idiom. In the columns “1SG”, “1INCL”, etc., the origin of the corresponding present pronominal form is shown. E.g., if the column “1INCL” contains \*2PL, this means that the synchronic form of 1INCL originates from \*2PL of proto-Dargwa. If no origin is displayed, the synchronic form is written, e.g. *ħuša* for Standard Dargwa, which does not have a correspondence in the proto-language and is an innovation.
 
-##### **Table 5.** The origins of personal pronouns in the Dargwa varieties, according to [@ganenkov2013]. {#t5 -}
+#### **Table 5.** The origins of personal pronouns in the Dargwa varieties, according to [@ganenkov2013]. {#t5 -}
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -449,7 +449,7 @@ Dargwa languages show multiple semantic shifts in the system of personal pronoun
 
 Lezgic languages also show diverse behavior with respect to the inclusive/exclusive distinction. Some languages have it, including Tabasaran, Agul and Archi, while some others lack it, including Budukh, Tsakhur, Udi and Lezgian. [Table 6](#t6) shows the personal pronouns in Tabasaran and Lezgian.
 
-##### **Table 6.** Personal pronouns in Tabasaran [@babaliyeva2013: 54] and Lezgian [@haspelmath1993: 184]. {#t6 -}
+#### **Table 6.** Personal pronouns in Tabasaran [@babaliyeva2013: 54] and Lezgian [@haspelmath1993: 184]. {#t6 -}
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -490,7 +490,7 @@ Lezgic languages also show diverse behavior with respect to the inclusive/exclus
 
 While Archi does have the distinction, this language went through a renewal of the category. Archi uses several unrelated or irregularly related stems, including *nen* for the nominative and the ergative (these are syncretic), \**CM-olo* in the genitive and \**CM-el* in the dative (CM stand for a class (gender) marker), and \**la-* followed by case inflections in other cases. These forms have exclusive reference. But when followed by an intensifier particle *-a-CM-u* (CM stand for a class (gender) marker; in [Table 7](#t7) *-t'-u* probably < -*atu* in Gender 4/NPl), the same form acquires inclusive reference. Thus, Archi has lost the original pronouns for the inclusive and the exclusive, but subsequently renewed the inclusive/exclusive distinction recruiting a new morphological means.
 
-##### **Table 7.** Archi personal pronouns [@kibrik1977: 125-126]. {#t7 -}
+#### **Table 7.** Archi personal pronouns [@kibrik1977: 125-126]. {#t7 -}
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -526,7 +526,7 @@ Two Lezgic languages, Rutul and Kryz, show a certain degree of dialectal variati
 
 As for the third variety presented, Ismailli Kryz, it is reported [@authier2021: 216] to have lost the inclusive/exclusive distinction. The originally inclusive pronoun *ji(=n)* took over the functions of the neutral ‘we’.
 
-##### **Table 8.** Personal pronouns of Kryz Proper [@saadiev1994: 420], Alik Kryz [@authier2009: 43] and Ismailli Kryz [@authier2021: 216]. {#t8 -}
+#### **Table 8.** Personal pronouns of Kryz Proper [@saadiev1994: 420], Alik Kryz [@authier2009: 43] and Ismailli Kryz [@authier2021: 216]. {#t8 -}
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -579,7 +579,7 @@ The situation of the dialects of Rutul is even more complex. [Table 9](#t9) show
 
 Note also the situation in the Mukhad dialect, on which Standard Rutul is based. Mukhad is spoken in the villages of Rutul (the center of the Rutul district), Kufa and Kiche. In Mukhad the inclusive/exclusive distinction is optional. The form *je* can be used both in inclusive and exclusive contexts. However, for the inclusive, speakers tend to use the form *je wɨ*, which is a juxtaposition of the 1PL (*je*) and 2SG (*wɨ*) pronouns. Juxtaposition is not a regular morphological operation in the language, so this construction may be considered a kind of compound reminiscent of the inclusive in Khnov. It then can be concluded that in Mukhad the distinction was also lost, but a new inclusive form (*je wɨ*) is on its way to the pronominal system. As it is not obligatory in inclusive contexts, the villages speaking Mukhad Rutul were assigned the value “not attested”.
 
-##### **Table 9.** Personal pronouns in some Rutul varieties: Mukhad (literary language) (@maxmudova2001: 134; Ilya Sadakov, p.c.), Kina (Ilya Sadakov, p.c.; Timofey Mukhin, p.c.), Shinaz (@ibragimov2004: 133; Ilya Sadakov, p.c.), Myukhrek (@ibragimova2009: 52; Ilya Sadakov, p.c.) and Khnov (@islamov2014: 11; Ilya Sadakov, p.c.). {#t9 -}
+#### **Table 9.** Personal pronouns in some Rutul varieties: Mukhad (literary language) (@maxmudova2001: 134; Ilya Sadakov, p.c.), Kina (Ilya Sadakov, p.c.; Timofey Mukhin, p.c.), Shinaz (@ibragimov2004: 133; Ilya Sadakov, p.c.), Myukhrek (@ibragimova2009: 52; Ilya Sadakov, p.c.) and Khnov (@islamov2014: 11; Ilya Sadakov, p.c.). {#t9 -}
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -644,7 +644,7 @@ Note also the situation in the Mukhad dialect, on which Standard Rutul is based.
 
 One more Rutul dialect that requires a special discussion is the Rutul of Ikhrek; see [Table 10](#t10). According to [@ibragimov2004: 181], there is no inclusive/exclusive distinction. Yet, two forms are used for 1PL — *ži* and *ji* (cf. the form for 1PL *je* in Kina and *ži* in Shinaz). Ibragimov [@ibragimov2004: 181] states that these forms are in free distribution, though *ži* is used more often. Authier [@authier2021: 215] suggests, however, that the Ikhrek dialect actually distinguishes between the inclusive (*ji*) and the exclusive (*ži*). Our field data does not support Authier’s claim and confirms Ibragimov’s statement: both forms *ji* and *ži* were used in both inclusive and exclusive contexts.
 
-##### **Table 10.** Data for Ikhrek Rutul from different sources. {#t10 -}
+#### **Table 10.** Data for Ikhrek Rutul from different sources. {#t10 -}
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -695,7 +695,7 @@ One more Rutul dialect that requires a special discussion is the Rutul of Ikhrek
 
 Tsezic languages lack the inclusive/exclusive distinction. The same is true for Lak. [Table 11](#t11) shows the personal pronouns of Bezhta (Tsezic) as spoken in the village of Khasharkhota and the personal pronouns of Standard Lak. The neutral ‘we’ in Lak derives from the proto-East-Caucasian exclusive form \**ži*, and the origin of the neutral ‘we’ in Tsezic languages is the proto-East-Caucasian inclusive form \**Lǟ* [@nikolaevstarostin1994].
 
-##### **Table 11.** Personal pronouns in Bezhta and Lak [@kibrikkodzasov1990: 220-222]. {#t11 -}
+#### **Table 11.** Personal pronouns in Bezhta and Lak [@kibrikkodzasov1990: 220-222]. {#t11 -}
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -734,7 +734,7 @@ Tsezic languages lack the inclusive/exclusive distinction. The same is true for 
 
 On the other hand, the distinction is attested in Nakh and Khinalug. The personal pronouns of Khinalug and Chechen (Nakh) are given in [Table 12](#t12).
 
-##### **Table 12.** Khinalug [@kibrikkodzasov1990: 220-223 ; @kibriketal1972: 72] and Chechen personal pronouns [@nichols1994: 32]. {#t12 -}
+#### **Table 12.** Khinalug [@kibrikkodzasov1990: 220-223 ; @kibriketal1972: 72] and Chechen personal pronouns [@nichols1994: 32]. {#t12 -}
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}

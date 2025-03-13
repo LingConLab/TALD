@@ -9,7 +9,7 @@ In the tradition of linguistic description of the languages of the Caucasus, _tr
 
 A considerable number of Nakh-Daghestanian languages, which make up most of the languages in my sample, have a _bimorphemic_ system in which locative “cases” combine two different case suffixes: a marker of _localization_, which defines the spatial domain and includes meanings like ‘in’, ‘at’, ‘under’, ‘on’, etc., and a _directionality_ marker which indicates the type of location or motion, i.e. ‘to’, ‘from’, ‘through’, as well as absence of motion. One example of such a system is the case system of Khwarshi:
 
-##### **Table 1.** Khwarshi (Khalilova, 2009: 74) {#t1 -}
+#### **Table 1.** Khwarshi (Khalilova, 2009: 74) {#t1 -}
  
 |       | Essive | Lative | Versative | Ablative | Translative | Terminative |
 |:-----:|:------:|:------:|:---------:|:--------:|:-----------:|:-----------:|

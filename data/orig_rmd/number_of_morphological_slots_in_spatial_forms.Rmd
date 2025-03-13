@@ -62,7 +62,7 @@ gloss_example(transliteration = "*i* *pst’uin* *alne-**re*** *jaʁ-o*",
               )
 ```
 
-##### **Table 1.** Languages with monomorphemic spatial inflection {#t1 -}
+#### **Table 1.** Languages with monomorphemic spatial inflection {#t1 -}
 
 | **Family: Branch** | **Language** |
 |---|:---:|
@@ -96,7 +96,7 @@ gloss_example(transliteration = "*nuša* *ustuj-**šu-b*** *ka-b-iʔ-i-ra*",
               )
 ```
 
-##### **Table 2.** Languages with bimorphemic spatial inflection {#t2 -}
+#### **Table 2.** Languages with bimorphemic spatial inflection {#t2 -}
 
 | **Family: Branch** | **Language** |
 |---|:---:|
@@ -132,7 +132,7 @@ gloss_example(transliteration = "*daʁ.ǯi-**l-an-tina***",
 
 [^1]: The author calls marker *-tina* an ‘adverb-postposition’, although morphophonologically characterises it as a suffix. In fact, all such cases require strong arguments to consider the third slot as bound; see discussion of Tanty Dargwa.
 
-##### **Table 3.** Languages with trimorphemic deictic spatial inflection {#t3 -}
+#### **Table 3.** Languages with trimorphemic deictic spatial inflection {#t3 -}
 
 | **Family: Branch** | **Language** |
 |---|:---:|
@@ -154,7 +154,7 @@ gloss_example(transliteration = "*škola.ji-**x’-an-di*** *baja.ri-n* *deste* 
               )
 ```
 
-##### **Table 4.** Languages with trimorphemic orientational spatial inflection {#t4 -}
+#### **Table 4.** Languages with trimorphemic orientational spatial inflection {#t4 -}
 
 | Family: Branch | Language | Orientational marker |
 |---|:---:|:---:|

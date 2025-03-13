@@ -9,13 +9,13 @@ It is widely known that East Caucasian languages show ergative-absolutive distin
 
 To illustrate, in Hinuq, a Tsezic language, all personal pronouns use the same form in both ergative and absolutive function: the `r add_gloss("1SG")` pronoun is *de*, the `r add_gloss("2SG")` pronoun is *me*, the `r add_gloss("1PL")` pronoun is *eli*, and the `r add_gloss("2PL")` pronoun is *meži* in both ergative and absolutive cases [@forker2013: 130]; see [Table 1](#t1). At the same time, another Tsezic language, Khwarshi, does make a distinction between ergative and absolutive in all personal pronouns: the `r add_gloss("1SG")` pronoun is *de* in the ergative, but *do* in the absolutive, the `r add_gloss("2SG")` pronoun is *me* in the ergative, but *mo* in the absolutive, the `r add_gloss("1PL")` pronoun is *ilʲe* in the ergative, but *ilʲo* in the absolutive, and the `r add_gloss("2PL")` pronoun is *miže* in the ergative, but *mižo* in the absolutive [@khalilova2009: 142]; see [Table 2](#t2).
 
-##### **Table 1.** Ergative and absolutive in personal pronouns: Hinuq (< Tsezic) {#t1 -}
+#### **Table 1.** Ergative and absolutive in personal pronouns: Hinuq (< Tsezic) {#t1 -}
 
 |                                             | `r add_gloss("1SG")` | `r add_gloss("2SG")` | `r add_gloss("1PL")` | `r add_gloss("2PL")` |
 |:-------------------------------------------:|:--------------------:|:--------------------:|:--------------------:|:--------------------:|
 | `r add_gloss("ABS")` = `r add_gloss("ERG")` |          de          |          me          |          eli         |         meži         |
 
-##### **Table 2.** Ergative and absolutive in personal pronouns: Khwarshi (< Tsezic) {#t2 -}
+#### **Table 2.** Ergative and absolutive in personal pronouns: Khwarshi (< Tsezic) {#t2 -}
 
 |                      | `r add_gloss("1SG")` | `r add_gloss("2SG")` | `r add_gloss("1PL")` | `r add_gloss("2PL")` |
 |:--------------------:|:--------------------:|:--------------------:|:--------------------:|:--------------------:|
@@ -32,7 +32,7 @@ As mentioned in the introduction, the languages of Daghestan, as well as their v
 
 However, there is also a third possibility for a language to build its pronominal case system – namely, to distinguish ergative from absolutive only in some of the personal pronouns. For example, in Tsez, also a Tsezic language, the first and second person singular pronouns use the same form (*di* for `r add_gloss("1SG")` and *mi* for `r add_gloss("2SG")`) in both ergative and absolutive function, while the plural pronouns use two different forms for the ergative and absolutive cases [@comrie2007: 1199]; [@imnajshvili1963: 94-95]; see [Table 3](#t3).
 
-##### **Table 3.** Ergative and absolutive in personal pronouns: Tsez (< Tsezic) {#t3 -}
+#### **Table 3.** Ergative and absolutive in personal pronouns: Tsez (< Tsezic) {#t3 -}
 
 |                      | `r add_gloss("1SG")` | `r add_gloss("2SG")` | `r add_gloss("1PL")` | `r add_gloss("2PL")` |
 |:--------------------:|:--------------------:|:--------------------:|:--------------------:|:--------------------:|
@@ -63,7 +63,7 @@ This type was already illustrated above by Tsez, where only plural, but not sing
 
 This possibility is exemplified by Botlikh, an Andic language which distinguishes between ergative and absolutive only in its 1SG pronoun and lacks this distinction in all other pronouns. For the `r add_gloss("1SG")` pronoun, *den* is used in the absolutive and *iškur* in the ergative, while all the other pronouns take the same form when used in the two functions: *min* (`r add_gloss("2SG")`), *iƛi* (`r add_gloss("1PL")`.`r add_gloss("INCL")`), *išːi* (`r add_gloss("1PL")`.`r add_gloss("EXCL")`) and *bišti* (`r add_gloss("2PL")`) [@alexeyevverheesdraft2020: 12]; see [Table 4](#t4).
 
-##### **Table 4.** Ergative and absolutive in personal pronouns: Botlikh (< Andic) {#t4 -}
+#### **Table 4.** Ergative and absolutive in personal pronouns: Botlikh (< Andic) {#t4 -}
 
 |                      | `r add_gloss("1SG")` | `r add_gloss("2SG")` | `r add_gloss("1PL")`.`r add_gloss("INCL")` | `r add_gloss("1PL")`.`r add_gloss("EXCL")` | `r add_gloss("2PL")` |
 |:--------------------:|:--------------------:|:--------------------:|:------------------------------------------:|:------------------------------------------:|:--------------------:|
@@ -76,7 +76,7 @@ Apart from Botlikh, this type is also observed in Archi (< Lezgic).
 
 This possibility is observed in Khinalug, where only `r add_gloss("1SG")` and `r add_gloss("2SG")` pronouns differ with regard to the ergative-absolutive function: for the `r add_gloss("1SG")` pronoun, *zɯ* is used in the absolutive and *jæ* in the ergative, for the `r add_gloss("2SG")` pronoun, *vɯ* is used in the absolutive and *va* in the ergative. `r add_gloss("1PL")`.`r add_gloss("INCL")`, `r add_gloss("1PL")`.`r add_gloss("EXCL")` and `r add_gloss("2PL")` pronouns (that is, all plural pronouns) use the same form in both functions [@kibriketal1972: 73]; see [Table 5](#t5).
 
-##### **Table 5.** Ergative and absolutive in personal pronouns: Khinalug (< Khinalug) {#t5 -}
+#### **Table 5.** Ergative and absolutive in personal pronouns: Khinalug (< Khinalug) {#t5 -}
 
 |                      | `r add_gloss("1SG")` | `r add_gloss("2SG")` | `r add_gloss("1PL")`.`r add_gloss("INCL")` | `r add_gloss("1PL")`.`r add_gloss("EXCL")` | `r add_gloss("2PL")` |
 |:--------------------:|:--------------------:|:--------------------:|:------------------------------------------:|:------------------------------------------:|:--------------------:|
@@ -93,7 +93,7 @@ This possibility was illustrated above by Tsez. Apart from Tsez, this type is al
 
 This fourth possibility is found in all the Nakh languages (that is, in Chechen, Ingush and Tsova-Tush), and is not found anywhere else. In Chechen, for example, while all other personal pronouns do make a distinction between ergative and absolutive by using two different forms for these two cases, the `r add_gloss("1PL")`.`r add_gloss("INCL")` pronoun is *waj* in both ergative and absolutive cases [@nichols1994: 32]; see [Table 6](#t6). This is one of the reasons why J. Nichols says that the inclusive pronoun in this language “patterns formally with the reflexive pronouns”, most of which do not distinguish ergative from absolutive either.
 
-##### **Table 6.** Ergative and absolutive in personal pronouns: Chechen (< Nakh) {#t6 -}
+#### **Table 6.** Ergative and absolutive in personal pronouns: Chechen (< Nakh) {#t6 -}
 
 |                      | `r add_gloss("1SG")` | `r add_gloss("2SG")` | `r add_gloss("1PL")`.`r add_gloss("INCL")` | `r add_gloss("1PL")`.`r add_gloss("EXCL")` | `r add_gloss("2PL")` |
 |:--------------------:|:--------------------:|:--------------------:|:------------------------------------------:|:------------------------------------------:|:--------------------:|

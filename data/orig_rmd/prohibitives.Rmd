@@ -22,11 +22,11 @@ The types of verb forms used for the prohibitive are much less clear in the lite
 
 The following 28 languages belong to the category ‘non-imperative verb form + special prohibitive marker’:
 
-* All 9 Avar-Andic languages: Northern Akhvakh, Andi, Standard Avar, Bagvalal, Botlikh, Chamalal, Godoberi, Karata, Tindi
-* 5 Dargwa varieties: Standard Dargwa, Mehweb, Itsari, Kubachi, Tanty
-* Lak
-* 8 Lezgic languages (except for Udi): Agul, Archi, Budukh, Kryz, Lezgian, Rutul, Tabasaran, Tsakhur
-* All 5 Tsezic languages: Bezhta, Hinuq, Hunzib, Khwarshi, Tsez
+- All 9 Avar-Andic languages: Northern Akhvakh, Andi, Standard Avar, Bagvalal, Botlikh, Chamalal, Godoberi, Karata, Tindi
+- 5 Dargwa varieties: Standard Dargwa, Mehweb, Itsari, Kubachi, Tanty
+- Lak
+- 8 Lezgic languages (except for Udi): Agul, Archi, Budukh, Kryz, Lezgian, Rutul, Tabasaran, Tsakhur
+- All 5 Tsezic languages: Bezhta, Hinuq, Hunzib, Khwarshi, Tsez
 
 While the suffixes and prefixes encode only prohibition, some additional remarks are necessary about the circumfixes used in Agul, Kryz, Lak, and Tabasaran. The prefixal part of the circumfix (*mV-* in all four languages) is the specialized prohibitive marker, while the functions of the suffixal parts are more diverse. In Lak, the suffixes *-ara* and *-ari* mark prohibition and, additionally, second person singular (@laksg) or plural (@lakpl).
 
@@ -153,7 +153,7 @@ Following Bancel et al.’s [-@banceletal2021] finding that the particle &ast;**
 
 In the TALD sample, only three out of the four prohibitive encoding strategies presented in the WALS are attested. [Table 1](#t1) shows a comparison of the two samples.
 
-##### **Table 1.** Comparison of the prohibitive encoding strategies in the WALS and TALD samples{#t1 -}
+#### **Table 1.** Comparison of the prohibitive encoding strategies in the WALS and TALD samples{#t1 -}
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}

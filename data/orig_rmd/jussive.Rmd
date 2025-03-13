@@ -50,7 +50,7 @@ gloss_example(transliteration = "ömür-lü **bol-sun**",
 
 Some Nakh-Daghestanian languages have separate forms for indirect commands and for wishes (for example, Mehweb, Archi, Lak, and Chirag Dargwa), but the co-expression of these two meanings by the same form is more frequent. Hence it might be difficult to distinguish jussive from *optative*, a form whose main function is to express a wish or hope of the speaker that something would happen [@dobrushina2021]. Many Nakh-Daghestanian languages, such as Agul and Rutul, have the same form to express blessings and curses addressed to 1st, 2nd or 3rd persons, and to express 3rd person imperative. This form cannot be used to urge 1st or 2nd persons to do something (see examples in [@dobrushina2021]). In this chapter, forms of the Agul and Rutul type will be classified as *optatives*. I reserve the term *jussive* for forms that are restricted to 3rd person imperative (as in Mehweb, see [@dobrushina2019: 133–138], or combine 3rd person imperative with the expression of a wish with a 3rd person subject (as in Kumyk, see [@gadzhiakhmedov2000]). The terms are presented in [Table 1](#t1) (see also the chapter on [Optatives](http://lingconlab.ru/dagatlas/007_optative.html), and the discussion of these terms in [@dobrushina2012]).
 
-##### **Table 1.** Optative and jussive (from [@dobrushina2021]) {#t1 -}
+#### **Table 1.** Optative and jussive (from [@dobrushina2021]) {#t1 -}
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}

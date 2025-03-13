@@ -6,7 +6,7 @@ Pharyngeals in the Caucasus are covered extensively in the literature [@catford8
 
 The most common scenario is one place of articulation (or none): either pharyngeal or epiglottal, with a voiced and a voiceless consonant. The rest of the systems are connected to an epiglottal stop that is merged with different subsystems. There are also rare cases with just one pharyngeal consonant: *ħ* or *ʢ*.
 
-##### Table 1. Inventories of pharyngeals and epiglottals {#t1 -}
+#### Table 1. Inventories of pharyngeals and epiglottals {#t1 -}
 
 ```{r}
 library(tidyverse)

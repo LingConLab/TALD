@@ -12,7 +12,7 @@ All those series (unaspirated voiceless - aspirated voiceless - geminates - ejec
 
 In order to analyze these data we decided to look at the following features: type of distinctions and content of distinctions denoted as a consonant symbol `C`. In [Table 1](#m1) we can see the two features together.
 
-##### Table 1. Types of contrasts in voiceless obstruents {#t1 -}
+#### **Table 1.** Types of contrasts in voiceless obstruents {#t1 -}
 
 ```{r}
 library(tidyverse)
@@ -30,4 +30,3 @@ read_tsv("../orig_table/voiceless_obstruents.tsv") %>%
 Even though it is theoretically possible to have a five-way distinction, there is no such case in our dataset. A one-way contrast is present in non-East Caucasian languages (Azerbaijani, Kumyk, Nogai, Tat). The most frequent is a two-way voiceless-ejective distinction that is present in the majority of languages. The most frequent three-way distinction is the voiceless-geminated-ejective distinction. The most frequent four-way distinction is voiceless-geminated-ejective-geminated ejective, which is also reconstructed for the protolanguage [@nikolayev94; @nichols03]. This voiceless-geminated-ejective-geminated is now present exclusively in Avar and Andic languages.
 
 ## References {-}
-
