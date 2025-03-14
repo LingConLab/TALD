@@ -9,7 +9,6 @@ The BibTeX entry          islamov2014           present in the          inclusiv
 The BibTeX entry          talibov2007, alekseevazaev2019          present in the          path_encoding.tsv, but absent in the biblib.xlsx
 The BibTeX entry          Bokarev1949          present in the          path_encoding.tsv, but absent in the biblib.xlsx
 The BibTeX entry          isakovkhalilov2012          present in the          path_encoding.tsv, but absent in the biblib.xlsx
-The BibTeX entry          yusupov2014       https://ids.clld.org/valuesets/9-120-57          present in the          work.tsv, but absent in the biblib.xlsx
 The BibTeX entry          abdullaev2015          present in the          work.tsv, but absent in the biblib.xlsx
 The BibTeX entry comriepolinsky1998 from the file path_encoding_bib.tsv has an empty value in the obligatory field JOURNAL
 The BibTeX entry comriepolinsky1998 from the file path_encoding_bib.tsv has an empty value in the obligatory field VOLUME

@@ -91,7 +91,7 @@ vector_of_patches <- tr_patches$to
 names(vector_of_patches) <- tr_patches$from
 
 walk(c(list.files("data/orig_bib", full.names = TRUE), "data/bibliography.bib"), function(i){
-  read_lines(i) |> 
+  read_lines(i, progress = FALSE) |> 
     stri_trans_general(cyr_latin_coresp, rules=TRUE) |> 
     str_replace_all(vector_of_patches) |> 
     write_lines(i)
@@ -112,11 +112,6 @@ walk(c(list.files("data/orig_bib", full.names = TRUE), "data/bibliography.bib"),
     df2bib(file = i)
   } 
 })
-
-# e <- map(c(list.files("data/orig_bib", full.names = TRUE), "data/bibliography.bib"),
-#          function(i){
-#            print(i)
-#            RefManageR::ReadBib(i)})
 
 # GENERATION OF THE RMD ----------------------------------------------------
 library(tidyverse)
