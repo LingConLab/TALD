@@ -1818,9 +1818,9 @@ id	village	rus_village	lat	lon	lang	aff	family	standard	default_level	dialect_to
 1817	Khushet	Хушет	42.39721	45.77278	Tsez	Tsezic	East Caucasian		Tsez	Tsez	Цезский							Khushet	dido1241	#990033	#ff5050	2024-10-03
 1818	El'bok	Эльбок	42.183907	45.906506	Tsez	Tsezic	East Caucasian		Tsez	Tsez	Цезский							El'bok	dido1241	#990033	#ff5050	2024-10-03
 1819	Standard Armenian		41.009625	44.384086	Eastern Armenian	Armenic	Indo-European	Standard Armenian	Eastern Armenian										nucl1235	#dbcfeb	#fff5ee	2024-10-03
-1820	Gombori	Гомбори	41.8582	45.207	Tat	Iranian	Indo-European		Tat	Judeo-Tat								Gombori	jude1256	#d5daff	#fffded	2024-10-03
-1821	Derbent	Дербент	42.06917	48.29583	Tat	Iranian	Indo-European		Tat	Judeo-Tat	Горско-еврейский							Derbent	jude1256	#d5daff	#fffded	2024-10-03
-1822	Aşağı Atuc		41.4467	48.5702	Tat	Iranian	Indo-European		Tat	Judeo-Tat								Aşağı Atuc	jude1256	#d5daff	#fffded	2024-10-03
+1820	Gombori	Гомбори	41.8582	45.207	Tat	Iranian	Indo-European		Juhuri									Gombori	jude1256	#d5daff	#fffded	2024-10-03
+1821	Derbent	Дербент	42.06917	48.29583	Tat	Iranian	Indo-European		Juhuri									Derbent	jude1256	#d5daff	#fffded	2024-10-03
+1822	Aşağı Atuc		41.4467	48.5702	Tat	Iranian	Indo-European		Juhuri									Aşağı Atuc	jude1256	#d5daff	#fffded	2024-10-03
 1823	Dağ Quşçu	Дагкушчу	41.0045	48.9739	Tat	Iranian	Indo-European		Tat	Muslim Tat		Central						Dağ Quşçu	musl1236	#d5daff	#fffded	2024-10-03
 1824	Giləzi	Гилази	40.8715	49.3444	Tat	Iranian	Indo-European		Tat	Muslim Tat		Central						Giləzi	musl1236	#d5daff	#fffded	2024-10-03
 1825	Əhən		40.8527	48.4166	Tat	Iranian	Indo-European		Tat	Muslim Tat		Northern						Əhən	musl1236	#d5daff	#fffded	2024-10-03
@@ -1918,12 +1918,12 @@ id	village	rus_village	lat	lon	lang	aff	family	standard	default_level	dialect_to
 1917	Yunyy Pakhar'	Юный Пахарь	42.180183	48.160227	Azerbaijani	Oghuz	Turkic		Azerbaijani									Yunyy Pakhar'	nort2697	#cccccc	#cccccc	2024-10-03
 1918	Mugarty	Мугарты	41.9947	48.1614	Azerbaijani	Oghuz	Turkic		Azerbaijani									Mugarty	nort2697	#cccccc	#cccccc	2024-10-03
 1919	Kala	Кала	42.1464	48.1634	Azerbaijani	Oghuz	Turkic		Azerbaijani									Kala	nort2697	#cccccc	#cccccc	2024-10-03
-1920	Mitagi	Митаги	42.01736	48.19083	Azerbaijani	Oghuz	Turkic		Azerbaijani									Mitagi	nort2697	#cccccc	#cccccc	2024-10-03
+1920	Mitagi	Митаги	42.01736	48.19083	Muslim Tat	Iranian	Indo-European		Mitahi-Jalqan									Mitagi	nort2697	#cccccc	#cccccc	2024-10-03
 1921	Imeni Michurina	Имени Мичурина	42.17695	48.19867	Azerbaijani	Oghuz	Turkic		Azerbaijani									Imeni Michurina	nort2697	#cccccc	#cccccc	2024-10-03
 1922	Mitagi-Kazmalyar	Митаги-Казмаляр	42.035494	48.204804	Azerbaijani	Oghuz	Turkic		Azerbaijani									Mitagi-Kazmalyar	nort2697	#cccccc	#cccccc	2024-10-03
 1923	Rukel'	Рукель	41.9881	48.2253	Azerbaijani	Oghuz	Turkic		Azerbaijani									Rukel'	nort2697	#cccccc	#cccccc	2024-10-03
 1924	Sabnova	Сабнова	42.063172	48.254419	Azerbaijani	Oghuz	Turkic		Azerbaijani									Sabnova	nort2697	#cccccc	#cccccc	2024-10-03
-1925	Dzhalgan	Джалган	42.02454	48.26224	Azerbaijani	Oghuz	Turkic		Azerbaijani									Dzhalgan	nort2697	#cccccc	#cccccc	2024-10-03
+1925	Dzhalgan	Джалган	42.02454	48.26224	Muslim Tat	Iranian	Indo-European		Mitahi-Jalqan									Dzhalgan	nort2697	#cccccc	#cccccc	2024-10-03
 1926	Muzaim	Музаим	41.90837	48.29136	Azerbaijani	Oghuz	Turkic		Azerbaijani									Muzaim	nort2697	#cccccc	#cccccc	2024-10-03
 1927	Nizhniy Dzhalgan	Нижний Джалган	41.99007	48.31898	Azerbaijani	Oghuz	Turkic		Azerbaijani									Nizhniy Dzhalgan	nort2697	#cccccc	#cccccc	2024-10-03
 1928	Khazar	Хазар	41.9944	48.3375	Azerbaijani	Oghuz	Turkic		Azerbaijani									Khazar	nort2697	#cccccc	#cccccc	2024-10-03

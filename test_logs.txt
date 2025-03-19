@@ -514,20 +514,27 @@ The wrong non-toplevel 1 dialect name Mehweb in the file numeral_twenty.tsv
 The wrong non-toplevel 1 dialect name Mehweb in the file numeral_twoten.tsv
 The wrong non-toplevel 1 dialect name ? in the file work.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file agreement_of_adpositions.tsv
+The wrong toplevel dialect name Judeo-Tat in the file agreement_of_adpositions.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file caritive_adv.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file caritive_attr.tsv
 The wrong toplevel dialect name Ak-Nogai in the file caritive_attr.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file causatives.tsv
 The wrong toplevel dialect name Gigatli in the file causatives.tsv
+The wrong toplevel dialect name Judeo-Tat in the file causatives.tsv
 The wrong toplevel dialect name Kaitag in the file causatives.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file comitative.tsv
+The wrong toplevel dialect name Judeo-Tat in the file comitative.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file days_after_today.tsv
 The wrong toplevel dialect name Kaitag in the file days_after_today.tsv
+The wrong toplevel dialect name Judeo-Tat in the file days_after_today.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file days_before_today.tsv
 The wrong toplevel dialect name Kaitag in the file days_before_today.tsv
+The wrong toplevel dialect name Judeo-Tat in the file days_before_today.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file demonstratives.tsv
+The wrong toplevel dialect name Judeo-Tat in the file demonstratives.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file dominant_adpositional_case.tsv
 The wrong toplevel dialect name Kaitag in the file dominant_adpositional_case.tsv
+The wrong toplevel dialect name Judeo-Tat in the file dominant_adpositional_case.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file ejective_p.tsv
 The wrong toplevel dialect name Kaitag in the file ejective_p.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file ejective_s.tsv
@@ -535,19 +542,25 @@ The wrong toplevel dialect name Kaitag in the file ejective_s.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file erg_abs_pronouns.tsv
 The wrong toplevel dialect name Gigatli in the file erg_abs_pronouns.tsv
 The wrong toplevel dialect name Kaitag in the file erg_abs_pronouns.tsv
+The wrong toplevel dialect name Judeo-Tat in the file erg_abs_pronouns.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file evidentiality_tense.tsv
 The wrong toplevel dialect name Kaitag in the file evidentiality_tense.tsv
+The wrong toplevel dialect name Judeo-Tat in the file evidentiality_tense.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file farewell_wishes.tsv
 The wrong toplevel dialect name Kaitag in the file farewell_wishes.tsv
+The wrong toplevel dialect name Judeo-Tat in the file farewell_wishes.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file gemination.tsv
 The wrong toplevel dialect name Kaitag in the file gemination.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file gender_agreement_slot.tsv
 The wrong toplevel dialect name Gigatli in the file gender_agreement_slot.tsv
 The wrong toplevel dialect name Vitskhi in the file gender_agreement_slot.tsv
+The wrong toplevel dialect name Judeo-Tat in the file gender_agreement_slot.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
 The wrong toplevel dialect name Kaitag in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
+The wrong toplevel dialect name Judeo-Tat in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
 The wrong toplevel dialect name Quba in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
 The wrong toplevel dialect name Eastern Armenian in the file jussive.tsv
+The wrong toplevel dialect name Judeo-Tat in the file jussive.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file labialization.tsv
 The wrong toplevel dialect name Kaitag in the file labialization.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file labials.tsv
@@ -557,66 +570,90 @@ The wrong toplevel dialect name Kaitag in the file laterals.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file long_vowels.tsv
 The wrong toplevel dialect name Kaitag in the file long_vowels.tsv
 The wrong toplevel dialect name Kaitag in the file morning_greetings.tsv
+The wrong toplevel dialect name Judeo-Tat in the file morning_greetings.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file nasalization.tsv
 The wrong toplevel dialect name Kaitag in the file nasalization.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file number_of_morphological_slots_in_spatial_forms.tsv
 The wrong toplevel dialect name Gigatli in the file number_of_morphological_slots_in_spatial_forms.tsv
 The wrong toplevel dialect name Kaitag in the file number_of_morphological_slots_in_spatial_forms.tsv
+The wrong toplevel dialect name Judeo-Tat in the file number_of_morphological_slots_in_spatial_forms.tsv
 The wrong toplevel dialect name Gigatli in the file numeral_bases.tsv
 The wrong toplevel dialect name Kaitag in the file numeral_bases.tsv
 The wrong toplevel dialect name Koshan in the file numeral_bases.tsv
+The wrong toplevel dialect name Judeo-Tat in the file numeral_bases.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file numeral_bases.tsv
 The wrong toplevel dialect name Kaitag in the file numeral_class.tsv
+The wrong toplevel dialect name Judeo-Tat in the file numeral_class.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file numeral_class.tsv
 The wrong toplevel dialect name Kaitag in the file numeral_complex.tsv
+The wrong toplevel dialect name Judeo-Tat in the file numeral_complex.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file numeral_complex.tsv
 The wrong toplevel dialect name Gigatli in the file numeral_crowns_endings.tsv
 The wrong toplevel dialect name Kaitag in the file numeral_crowns_endings.tsv
+The wrong toplevel dialect name Judeo-Tat in the file numeral_crowns_endings.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file numeral_crowns_endings.tsv
 The wrong toplevel dialect name Gigatli in the file numeral_crowns_ten.tsv
 The wrong toplevel dialect name Kaitag in the file numeral_crowns_ten.tsv
+The wrong toplevel dialect name Judeo-Tat in the file numeral_crowns_ten.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file numeral_crowns_ten.tsv
 The wrong toplevel dialect name Kaitag in the file numeral_distributives.tsv
+The wrong toplevel dialect name Judeo-Tat in the file numeral_distributives.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file numeral_distributives.tsv
 The wrong toplevel dialect name Kaitag in the file numeral_hundred.tsv
+The wrong toplevel dialect name Judeo-Tat in the file numeral_hundred.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file numeral_hundred.tsv
 The wrong toplevel dialect name Kaitag in the file numeral_one.tsv
+The wrong toplevel dialect name Judeo-Tat in the file numeral_one.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file numeral_one.tsv
 The wrong toplevel dialect name Kaitag in the file numeral_ordinals.tsv
 The wrong toplevel dialect name Ak-Nogai in the file numeral_ordinals.tsv
+The wrong toplevel dialect name Judeo-Tat in the file numeral_ordinals.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file numeral_ordinals.tsv
 The wrong toplevel dialect name Kaitag in the file numeral_origin.tsv
+The wrong toplevel dialect name Judeo-Tat in the file numeral_origin.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file numeral_origin.tsv
 The wrong toplevel dialect name Kaitag in the file numeral_regularity.tsv
+The wrong toplevel dialect name Judeo-Tat in the file numeral_regularity.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file numeral_regularity.tsv
 The wrong toplevel dialect name Gigatli in the file numeral_root_hundred.tsv
+The wrong toplevel dialect name Judeo-Tat in the file numeral_root_hundred.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file numeral_root_hundred.tsv
 The wrong toplevel dialect name Kaitag in the file numeral_thousand.tsv
+The wrong toplevel dialect name Judeo-Tat in the file numeral_thousand.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file numeral_thousand.tsv
 The wrong toplevel dialect name Kaitag in the file numeral_twenty.tsv
+The wrong toplevel dialect name Judeo-Tat in the file numeral_twenty.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file numeral_twenty.tsv
 The wrong toplevel dialect name Kaitag in the file numeral_twoten.tsv
+The wrong toplevel dialect name Judeo-Tat in the file numeral_twoten.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file numeral_twoten.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file optative.tsv
+The wrong toplevel dialect name Judeo-Tat in the file optative.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file ordinals.tsv
 The wrong toplevel dialect name Kaitag in the file ordinals.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file palatalized_consonants.tsv
 The wrong toplevel dialect name Kaitag in the file palatalized_consonants.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file particles.tsv
+The wrong toplevel dialect name Judeo-Tat in the file particles.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file path_encoding.tsv
+The wrong toplevel dialect name Judeo-Tat in the file path_encoding.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file perfect.tsv
 The wrong toplevel dialect name Kaitag in the file perfect.tsv
+The wrong toplevel dialect name Judeo-Tat in the file perfect.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file pharyngealization.tsv
 The wrong toplevel dialect name Kaitag in the file pharyngealization.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file pharyngeals.tsv
 The wrong toplevel dialect name Kaitag in the file pharyngeals.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file plural_marking_on_imperatives.tsv
+The wrong toplevel dialect name Judeo-Tat in the file plural_marking_on_imperatives.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file prohibitives.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file standard_of_comparison.tsv
 The wrong toplevel dialect name Gigatli in the file standard_of_comparison.tsv
+The wrong toplevel dialect name Judeo-Tat in the file standard_of_comparison.tsv
 The wrong toplevel dialect name Nothern Akhvakh in the file trans_intrans_imperative.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file trans_intrans_imperative.tsv
 The wrong toplevel dialect name Kaitag in the file trans_intrans_imperative.tsv
+The wrong toplevel dialect name Judeo-Tat in the file trans_intrans_imperative.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file umlaut_vowels.tsv
 The wrong toplevel dialect name Kaitag in the file umlaut_vowels.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file uvular_voiced_stop.tsv
@@ -628,6 +665,7 @@ The wrong toplevel dialect name Kaitag in the file voiceless_obstruents.tsv
 The wrong toplevel dialect name Eastern Armenian in the file work.tsv
 The wrong toplevel dialect name Gigatli in the file work.tsv
 The wrong toplevel dialect name Kaitag in the file work.tsv
+The wrong toplevel dialect name Judeo-Tat in the file work.tsv
 spelling of          chuhwanahw        in adpositions.Rmd:238
 spelling of          depi        in adpositions.Rmd:383
 spelling of          handep        in adpositions.Rmd:56
