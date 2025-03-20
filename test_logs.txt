@@ -328,9 +328,7 @@ The wrong village dialect name Kwantlada in the file number_of_morphological_slo
 The wrong village dialect name Amushi Bol'shoe in the file numeral_bases.tsv
 The wrong village dialect name Hinuq in the file numeral_bases.tsv
 The wrong village dialect name Kwantlada in the file numeral_bases.tsv
-The wrong village dialect name Gelkhen in the file numeral_bases.tsv
 The wrong village dialect name Maza in the file numeral_bases.tsv
-The wrong village dialect name Gogaz in the file numeral_bases.tsv
 The wrong village dialect name Kimil Quba in the file numeral_bases.tsv
 The wrong village dialect name Budukh in the file numeral_bases.tsv
 The wrong village dialect name Khinalug in the file numeral_bases.tsv
