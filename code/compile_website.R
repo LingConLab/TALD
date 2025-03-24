@@ -413,7 +413,7 @@ feature_dataset |>
   rowwise() |> 
   mutate(page = ifelse(page == 'NA', NA_character_, page),
          Source = case_when(str_detect(Source, '[Ff]ield [Dd]ata') ~ Source,
-                            str_detect(Source, 'p.\\s?c.$') ~ Source,
+                            str_detect(Source, 'p.\\\\s?c.$') ~ Source,
                             TRUE ~ Cite(bib, Source, 
                                         after = ifelse(!is.na(page),  str_c(': ', page), '')))) |> 
   select(-page) |> 

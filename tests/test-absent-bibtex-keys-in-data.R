@@ -36,3 +36,19 @@ test_that("Test bibkeys in data:", {
   write_lines(observed, "../test_logs.txt", append = TRUE)
   expect_equal(observed, expected)    
 })
+
+# "Test not-bibkeys entries in source column:"
+# list.files("../data/orig_table", full.names = TRUE) |> 
+#   map(function(tbl){
+#     read_tsv(tbl, show_col_types = FALSE, col_select = "source") |> 
+#       rename(refs = source) |> 
+#       tibble(files = str_remove(tbl, "../data/orig_table/"))}) |> 
+#   list_rbind() |> 
+#   mutate(refs = str_split(refs, "; "))  |> 
+#   unnest_longer(refs) |> 
+#   filter(str_detect(refs, "\\w*?\\d{4}([a-z])?", negate = TRUE),
+#          str_detect(refs, "p.c.", negate = TRUE),
+#          str_detect(refs, "[Ff]ield [Dd]ata", negate = TRUE)) |> 
+#   na.omit() |> 
+#   distinct() 
+

@@ -212,12 +212,10 @@ feature_dataset |>
   unnest_longer(col = c(Source, page)) |> 
   rowwise() |> 
   mutate(page = ifelse(page == 'NA', NA_character_, page),
-         Source = ifelse(str_detect(Source, 'p.c.$'),
-                         Source,
-                         Cite(bib, Source, 
-                       after = ifelse(!is.na(page), 
-                                      str_c(': ', page),
-                                      '')))) |>
+         Source = case_when(str_detect(Source, '[Ff]ield [Dd]ata') ~ Source,
+                            str_detect(Source, 'p.\\s?c.$') ~ Source,
+                            TRUE ~ Cite(bib, Source, 
+                                        after = ifelse(!is.na(page),  str_c(': ', page), '')))) |> 
   select(-page) |> 
   DT::datatable(class = 'cell-border stripe', 
     rownames = FALSE, 
