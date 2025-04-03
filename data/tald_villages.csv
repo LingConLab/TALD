@@ -970,10 +970,10 @@ id	village	rus_village	lat	lon	lang	aff	family	standard	default_level	dialect_to
 969	Haput	Гапут	41.142778	48.194444	Kryz	Lezgic	East Caucasian		Kryz	Haput	Хапутский							Haput	kryt1240	#009933	#00cc66	2025-03-20
 970	Hapıtlı	Гапытлы	40.6936086804298	48.0396346810257	Kryz	Lezgic	East Caucasian		Kryz	Haput	Хапутский							Hapıtlı	kryt1240	#009933	#00cc66	2025-03-20
 971	Cek	Джек	41.19694	48.24167	Kryz	Lezgic	East Caucasian		Kryz	Jek	Джекский							Cek	kryt1240	#009933	#00cc66	2025-03-20
-972	Yergüc	Ергюдж	41.209265	48.293666	Kryz	Lezgic	East Caucasian		Kryz	Kryz Propper	Крызский							Yergüc	kryt1240	#009933	#00cc66	2025-03-20
-973	Yergüc	Ергюдж	41.4244525427884	48.7435491719004	Kryz	Lezgic	East Caucasian		Kryz	Kryz Propper	Крызский							Yergüc	kryt1240	#009933	#00cc66	2025-03-20
-974	Qrız	Крыз	41.21556	48.24667	Kryz	Lezgic	East Caucasian		Kryz	Kryz Propper	Крызский							Qrız	kryt1240	#009933	#00cc66	2025-03-20
-975	Qrızdəhnə	Крыз-Дехне	41.234681	48.304612	Kryz	Lezgic	East Caucasian		Kryz	Kryz Propper	Крызский							Qrızdəhnə	kryt1240	#009933	#00cc66	2025-03-20
+972	Yergüc	Ергюдж	41.209265	48.293666	Kryz	Lezgic	East Caucasian		Kryz	Kryz Proper	Крызский							Yergüc	kryt1240	#009933	#00cc66	2025-03-20
+973	Yergüc	Ергюдж	41.4244525427884	48.7435491719004	Kryz	Lezgic	East Caucasian		Kryz	Kryz Proper	Крызский							Yergüc	kryt1240	#009933	#00cc66	2025-03-20
+974	Qrız	Крыз	41.21556	48.24667	Kryz	Lezgic	East Caucasian		Kryz	Kryz Proper	Крызский							Qrız	kryt1240	#009933	#00cc66	2025-03-20
+975	Qrızdəhnə	Крыз-Дехне	41.234681	48.304612	Kryz	Lezgic	East Caucasian		Kryz	Kryz Proper	Крызский							Qrızdəhnə	kryt1240	#009933	#00cc66	2025-03-20
 976	Mollaisaqlı	Моллаисаклы	40.6838289	47.8703049	Kryz	Lezgic	East Caucasian		Kryz	Haput	Хапутский							Mollaisaqlı	kryt1240	#009933	#00cc66	2025-03-20
 977	Şıxhaput	Шыхгапыт	41.40541	48.774833	Kryz	Lezgic	East Caucasian		Kryz	Haput	Хапутский							Şıxhaput	kryt1240	#009933	#00cc66	2025-03-20
 978	2nd Otdelenie Sovkhoza	2-е Отделение Совхоза	41.685754	48.243673	Lezgian	Lezgic	East Caucasian		Lezgian	Kyure	Кюринское	Yarki	Яркинский					2nd Otdelenie Sovkhoza	lezg1247	#00cc00	#00cc66	2025-03-20

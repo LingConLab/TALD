@@ -103,7 +103,7 @@ id	lang	idiom	type	genlang_point	map	value1	value1_name	feature	source	page	comm
 103	Chechen	Duisi	village	no	yes	vigesimal	Base of numeral system	Base of numeral system	arsakhanov1969	161--162		Maksim Melenchenko	2023-09-08
 104	Ingush	Standard Ingush	language	yes	yes	vigesimal	Base of numeral system	Base of numeral system	nichols2011	114--115		George Moroz	2023-09-08
 105	Tsova-Tush	Zemo-Alvani	village	yes	yes	vigesimal	Base of numeral system	Base of numeral system	desheriev1953	189--197		George Moroz	2023-09-08
-106	Azerbaijani	Standard Azerbaijani	language	yes	yes	decimal	Base of numeral system	Base of numeral system	sirəliyevsevortyan1971	71--72		George Moroz	2023-09-08
+106	Azerbaijani	Standard Azerbaijani	language	yes	yes	decimal	Base of numeral system	Base of numeral system	shiralievsevortyan1971	71--72		George Moroz	2023-09-08
 107	Kumyk	Standard Kumyk	language	yes	yes	decimal	Base of numeral system	Base of numeral system	dmitriev1940	72--73		George Moroz	2023-09-08
 108	Nogai	Standard Nogai	language	yes	yes	decimal	Base of numeral system	Base of numeral system	baskakov1940	72		George Moroz	2023-09-08
 109	Tat	Judeo-Tat	dialect_toplevel	yes	yes	decimal	Base of numeral system	Base of numeral system	authier2012	104	“Un article de Chernij (1869/1905) donne un système différent, vigésimal, avec bisdah ‘30’, dubisd ‘40’, sebisd ‘60’, sebisdah ‘70’, çorbisd ‘80’, et çorbisdah ‘90’ sans localiser le dialecte en question.”	George Moroz	2023-09-08
