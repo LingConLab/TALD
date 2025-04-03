@@ -836,7 +836,7 @@ Tsezic languages lack the inclusive/exclusive distinction.[Table 12](#t12) shows
   <tr>
     <td class="tg-hwu2"><span style="font-weight:700;font-style:normal;text-decoration:none;background-color:transparent">Bezhta, Khasharkhota village</span></td>
     <td class="tg-7lvb"><span style="font-weight:400;font-style:italic;text-decoration:none;background-color:transparent">do</span></td>
-    <td class="tg-7lvb"><span style="font-weight:400;font-style:italic;text-decoration:none;background-color:transparent">ile</span><span style="font-weight:400;font-style:normal;text-decoration:none;background-color:transparent"> (&lt; *1INCL)</span></td>
+    <td class="tg-7lvb"><span style="font-weight:400;font-style:italic;text-decoration:none;background-color:transparent">ile</span><span style="font-weight:400;font-style:normal;text-decoration:none;background-color:transparent"> (&lt; *INCL)</span></td>
     <td class="tg-7lvb"><span style="font-weight:400;font-style:italic;text-decoration:none;background-color:transparent">mi</span></td>
     <td class="tg-7lvb"><span style="font-weight:400;font-style:italic;text-decoration:none;background-color:transparent">miže</span></td>
   </tr>
@@ -865,8 +865,8 @@ On the other hand, the distinction is attested in Nakh and Khinalug. The persona
   <tr>
     <th class="tg-p5ev"></th>
     <th class="tg-hwu2"><span style="font-weight:700;font-style:normal;text-decoration:none;background-color:transparent">1SG</span></th>
-    <th class="tg-hwu2"><span style="font-weight:700;font-style:normal;text-decoration:none;background-color:transparent">1INCL</span></th>
-    <th class="tg-hwu2"><span style="font-weight:700;font-style:normal;text-decoration:none;background-color:transparent">1EXCL</span></th>
+    <th class="tg-hwu2"><span style="font-weight:700;font-style:normal;text-decoration:none;background-color:transparent">INCL</span></th>
+    <th class="tg-hwu2"><span style="font-weight:700;font-style:normal;text-decoration:none;background-color:transparent">EXCL</span></th>
     <th class="tg-hwu2"><span style="font-weight:700;font-style:normal;text-decoration:none;background-color:transparent">2SG</span></th>
     <th class="tg-hwu2"><span style="font-weight:700;font-style:normal;text-decoration:none;background-color:transparent">2PL</span></th>
   </tr></thead>
@@ -900,8 +900,8 @@ As suggested in [@authier2021], the languages in the geographical center (Lak, s
 To conclude, the distribution of the inclusive/exclusive distinction is primarily explained by genealogy. However, some influence of geographical factors may also be suspected, including contacts with non-East-Caucasian languages which lack the distinction. This hypothesis requires further investigation.
 
 ```{r, include=FALSE}
-gloss_example("a b c d",
-              "PTCL GEN DAT IV OBL",
+gloss_example("a b c d e f g",
+              "PTCL GEN DAT IV OBL 1SG 2PL",
               "FAKE CALL")
 ```
 
