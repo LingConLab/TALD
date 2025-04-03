@@ -1,3 +1,12 @@
+The BibTeX entry          mikailov1959           present in the          inclusive_exclusive_distinction_in_personal_pronouns.tsv, but absent in the biblib.xlsx
+The BibTeX entry          belyaev2019           present in the          inclusive_exclusive_distinction_in_personal_pronouns.tsv, but absent in the biblib.xlsx
+The BibTeX entry          ibragimova2012           present in the          inclusive_exclusive_distinction_in_personal_pronouns.tsv, but absent in the biblib.xlsx
+The BibTeX entry          kibrikkodzasov1990           present in the          inclusive_exclusive_distinction_in_personal_pronouns.tsv, but absent in the biblib.xlsx
+The BibTeX entry          friedman2021           present in the          inclusive_exclusive_distinction_in_personal_pronouns.tsv, but absent in the biblib.xlsx
+The BibTeX entry          ibragimova2009           present in the          inclusive_exclusive_distinction_in_personal_pronouns.tsv, but absent in the biblib.xlsx
+The BibTeX entry          ibragimov2004           present in the          inclusive_exclusive_distinction_in_personal_pronouns.tsv, but absent in the biblib.xlsx
+The BibTeX entry          maxmudova2001           present in the          inclusive_exclusive_distinction_in_personal_pronouns.tsv, but absent in the biblib.xlsx
+The BibTeX entry          islamov2014           present in the          inclusive_exclusive_distinction_in_personal_pronouns.tsv, but absent in the biblib.xlsx
 The BibTeX entry          bokarev1949          present in the          path_encoding.tsv, but absent in the biblib.xlsx
 The BibTeX entry          isakovkhalilov2012          present in the          path_encoding.tsv, but absent in the biblib.xlsx
 The BibTeX entry          abdullaev2015          present in the          work.tsv, but absent in the biblib.xlsx
@@ -5,6 +14,7 @@ The BibTeX entry comriepolinsky1998 from the file path_encoding_bib.tsv has an e
 The BibTeX entry comriepolinsky1998 from the file path_encoding_bib.tsv has an empty value in the obligatory field VOLUME
 The BibTeX entry dobrushinaetal2017 from the file inclusive_exclusive_distinction_in_personal_pronouns_bib.tsv has an empty value in the obligatory field TITLE
 The BibTeX entry nikolaevstarostin1994 from the file inclusive_exclusive_distinction_in_personal_pronouns_bib.tsv has an empty value in the obligatory field TITLE
+The BibTeX entry daniel2026 from the file inclusive_exclusive_distinction_in_personal_pronouns_bib.tsv has an empty value in the obligatory field TITLE
 Revise the BibTeX entry Nogina2023 from the file path_encoding_bib.tsv.
 Revise the BibTeX entry moroz20_villages from the file phonology_bib.tsv.
 Revise the BibTeX entry françois2008 from the file work_bib.tsv.
@@ -265,6 +275,7 @@ The wrong village dialect name Mehweb in the file inclusive_exclusive_distinctio
 The wrong village dialect name Khinalug in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
 The wrong village dialect name Budukh in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
 The wrong village dialect name Kryz in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
+The wrong village dialect name Hinuq in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
 The wrong village dialect name Kwantlada in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
 The wrong village dialect name Budukh in the file jussive.tsv
 The wrong village dialect name Mehweb in the file jussive.tsv
@@ -694,8 +705,10 @@ spelling of          gundine        in gender_agreement_slot.Rmd:83
 spelling of          gundinu        in gender_agreement_slot.Rmd:83,83
 spelling of          Lavukaleve        in gender_agreement_slot.Rmd:17
 spelling of          Marind        in gender_agreement_slot.Rmd:17
-spelling of          jinewi        in inclusive_exclusive_distinction_in_personal_pronouns.Rmd:7,7,578
-spelling of          quner        in inclusive_exclusive_distinction_in_personal_pronouns.Rmd:578
+spelling of          cognacy        in inclusive_exclusive_distinction_in_personal_pronouns.Rmd:804
+spelling of          jinewi        in inclusive_exclusive_distinction_in_personal_pronouns.Rmd:8,8,583
+spelling of          neighbour        in inclusive_exclusive_distinction_in_personal_pronouns.Rmd:804
+spelling of          quner        in inclusive_exclusive_distinction_in_personal_pronouns.Rmd:583
 spelling of          Nkore        in morning_greetings.Rmd:8
 spelling of          Oraire        in morning_greetings.Rmd:8
 spelling of          xair        in morning_greetings.Rmd:41,41,49
