@@ -1,11 +1,7 @@
-The BibTeX entry          bokarev1949          present in the          path_encoding.tsv, but absent in the biblib.xlsx
-The BibTeX entry          isakovkhalilov2012          present in the          path_encoding.tsv, but absent in the biblib.xlsx
-The BibTeX entry comriepolinsky1998 from the file path_encoding_bib.tsv has an empty value in the obligatory field JOURNAL
-The BibTeX entry comriepolinsky1998 from the file path_encoding_bib.tsv has an empty value in the obligatory field VOLUME
 The BibTeX entry dobrushinaetal2017 from the file inclusive_exclusive_distinction_in_personal_pronouns_bib.tsv has an empty value in the obligatory field TITLE
 The BibTeX entry nikolaevstarostin1994 from the file inclusive_exclusive_distinction_in_personal_pronouns_bib.tsv has an empty value in the obligatory field TITLE
 The BibTeX entry daniel2026 from the file inclusive_exclusive_distinction_in_personal_pronouns_bib.tsv has an empty value in the obligatory field TITLE
-Revise the BibTeX entry Nogina2023 from the file path_encoding_bib.tsv.
+The BibTeX entry comriepolinsky1998 from the file path_encoding_bib.tsv has an empty value in the obligatory field PUBLISHER
 Revise the BibTeX entry moroz20_villages from the file phonology_bib.tsv.
 Revise the BibTeX entry françois2008 from the file work_bib.tsv.
 The wrong language name          Armenian          in the file          agreement_of_adpositions.tsv
@@ -138,9 +134,8 @@ The wrong language name          Dargwa          in the file          palatalize
 The wrong language name          Akhvakh          in the file          particles.tsv
 The wrong language name          Armenian          in the file          particles.tsv
 The wrong language name          Dargwa          in the file          particles.tsv
-The wrong language name          Akhvakh          in the file          path_encoding.tsv
-The wrong language name          Armenian          in the file          path_encoding.tsv
-The wrong language name          Dargwa          in the file          path_encoding.tsv
+The wrong language name          Mehweb          in the file          path_encoding.tsv
+The wrong language name          Juhuri          in the file          path_encoding.tsv
 The wrong language name          Akhvakh          in the file          perfect.tsv
 The wrong language name          Armenian          in the file          perfect.tsv
 The wrong language name          Dargwa          in the file          perfect.tsv
@@ -402,11 +397,6 @@ The wrong village dialect name Budukh in the file particles.tsv
 The wrong village dialect name Hinuq in the file particles.tsv
 The wrong village dialect name Khinalug in the file particles.tsv
 The wrong village dialect name Kwantlada in the file particles.tsv
-The wrong village dialect name Budukh in the file path_encoding.tsv
-The wrong village dialect name Mehweb in the file path_encoding.tsv
-The wrong village dialect name Hinuq in the file path_encoding.tsv
-The wrong village dialect name Khinalug in the file path_encoding.tsv
-The wrong village dialect name Kwantlada in the file path_encoding.tsv
 The wrong village dialect name Budukh in the file perfect.tsv
 The wrong village dialect name Gigatli in the file perfect.tsv
 The wrong village dialect name Hinuq in the file perfect.tsv
@@ -619,8 +609,6 @@ The wrong toplevel dialect name Modern Eastern Armenian in the file palatalized_
 The wrong toplevel dialect name Kaitag in the file palatalized_consonants.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file particles.tsv
 The wrong toplevel dialect name Judeo-Tat in the file particles.tsv
-The wrong toplevel dialect name Modern Eastern Armenian in the file path_encoding.tsv
-The wrong toplevel dialect name Judeo-Tat in the file path_encoding.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file perfect.tsv
 The wrong toplevel dialect name Kaitag in the file perfect.tsv
 The wrong toplevel dialect name Judeo-Tat in the file perfect.tsv
@@ -710,6 +698,4 @@ spelling of          ejno        in work.Rmd:54
 spelling of          gihab        in work.Rmd:45
 spelling of          Gubin        in work.Rmd:41
 spelling of          referr        in work.Rmd:28
-The BibTeX entry          nogina2023          present in the .Rmd, but absent in the path_encoding.bib
-The BibTeX entry          ganenkov2008          present in the .Rmd, but absent in the path_encoding.bib
-The BibTeX entry          daniel2001          present in the .Rmd, but absent in the path_encoding.bib
+The BibTeX entry          kibrik1999          present in the .Rmd, but absent in the path_encoding.bib
