@@ -65,6 +65,7 @@ circumfixal
 circumposition
 cline
 clitic
+cognacy
 comitative
 completive
 compositional
@@ -262,6 +263,7 @@ Mukhin
 Naccarato
 Nakh
 Nasledskova
+neighbour
 Netkachev
 Nizh
 Nogai

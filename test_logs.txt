@@ -670,9 +670,7 @@ spelling of          gundine        in gender_agreement_slot.Rmd:83
 spelling of          gundinu        in gender_agreement_slot.Rmd:83,83
 spelling of          Lavukaleve        in gender_agreement_slot.Rmd:17
 spelling of          Marind        in gender_agreement_slot.Rmd:17
-spelling of          cognacy        in inclusive_exclusive_distinction_in_personal_pronouns.Rmd:804
 spelling of          jinewi        in inclusive_exclusive_distinction_in_personal_pronouns.Rmd:8,8,583
-spelling of          neighbour        in inclusive_exclusive_distinction_in_personal_pronouns.Rmd:804
 spelling of          quner        in inclusive_exclusive_distinction_in_personal_pronouns.Rmd:583
 spelling of          Nkore        in morning_greetings.Rmd:8
 spelling of          Oraire        in morning_greetings.Rmd:8
