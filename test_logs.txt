@@ -1,6 +1,5 @@
 The BibTeX entry comriepolinsky1998 from the file path_encoding_bib.tsv has an empty value in the obligatory field PUBLISHER
 Revise the BibTeX entry moroz20_villages from the file phonology_bib.tsv.
-Revise the BibTeX entry françois2008 from the file work_bib.tsv.
 The wrong language name          Armenian          in the file          agreement_of_adpositions.tsv
 The wrong language name          Akhvakh          in the file          caritive_adv.tsv
 The wrong language name          Armenian          in the file          caritive_adv.tsv
