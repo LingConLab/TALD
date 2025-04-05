@@ -58,6 +58,7 @@ caritive
 Chadic
 Chamalal
 Chiara
+Chimakuan
 Chirag
 Chumakina
 circumfix
@@ -150,6 +151,7 @@ grammaticalization
 grammaticalize
 grammaticalized
 Guaraní
+Gubin
 Hagège
 headedness
 Hinuq
@@ -182,6 +184,8 @@ Isa
 isoglosses
 Itsari
 Ivanova
+Iwaidja
+Iwaidjan
 Izmalkova
 Johanson
 Judeo
@@ -214,6 +218,7 @@ labialization
 labialized
 Lak
 lative
+Lavukaleve
 lect
 lenis
 Levinson
@@ -235,6 +240,8 @@ Magomedbekova
 Maisak
 Maksim
 Marche
+Maricopa
+Marind
 Mariyat
 masculine
 Matyukhina
@@ -266,12 +273,14 @@ Nasledskova
 neighbour
 Netkachev
 Nizh
+Nkore
 Nogai
 Nogina
 nominal
 nominalize
 nominalized
 NRU
+Nyungan
 obstruent
 Ochs
 Oghuz
@@ -311,6 +320,7 @@ pronominal
 proto
 prox
 Qax
+Qidi
 quinary
 quotative
 reportative
@@ -337,6 +347,7 @@ superelative
 superessive
 suppletive
 suprasegmental
+Supyire
 synchronic
 synchronically
 syncretic
@@ -380,6 +391,7 @@ VOT
 WALS
 wordform
 wordforms
+Yine
 Yury
 Zadykian
 Zaira

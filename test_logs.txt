@@ -633,9 +633,6 @@ The wrong toplevel dialect name Kaitag in the file voiceless_obstruents.tsv
 spelling of          chuhwanahw        in adpositions.Rmd:238
 spelling of          depi        in adpositions.Rmd:383
 spelling of          handep        in adpositions.Rmd:56
-spelling of          Iwaidja        in agreement_of_adpositions.Rmd:87,89
-spelling of          Iwaidjan        in agreement_of_adpositions.Rmd:87
-spelling of          Nyungan        in agreement_of_adpositions.Rmd:87
 spelling of          aqij        in causatives.Rmd:191
 spelling of          aric        in causatives.Rmd:333
 spelling of          doren        in causatives.Rmd:357
@@ -645,7 +642,6 @@ spelling of          dada        in comitative.Rmd:27
 spelling of          iqna        in days_after_today.Rmd:24
 spelling of          iqna        in days_before_today.Rmd:34
 spelling of          awedu        in demonstratives.Rmd:324
-spelling of          Chimakuan        in demonstratives.Rmd:102
 spelling of          dwaara        in demonstratives.Rmd:28
 spelling of          godo        in demonstratives.Rmd:135
 spelling of          hada        in demonstratives.Rmd:93
@@ -659,24 +655,17 @@ spelling of          hugi        in demonstratives.Rmd:195
 spelling of          huli        in demonstratives.Rmd:195
 spelling of          hundo        in demonstratives.Rmd:79
 spelling of          jamu        in demonstratives.Rmd:135
-spelling of          Maricopa        in demonstratives.Rmd:102
 spelling of          owenu        in demonstratives.Rmd:324
-spelling of          Supyire        in demonstratives.Rmd:20
 spelling of          duha        in erg_abs_pronouns.Rmd:56
 spelling of          uoxa        in erg_abs_pronouns.Rmd:101
 spelling of          adal        in gender_agreement_slot.Rmd:105
 spelling of          gundine        in gender_agreement_slot.Rmd:83
 spelling of          gundinu        in gender_agreement_slot.Rmd:83,83
-spelling of          Lavukaleve        in gender_agreement_slot.Rmd:17
-spelling of          Marind        in gender_agreement_slot.Rmd:17
 spelling of          jinewi        in inclusive_exclusive_distinction_in_personal_pronouns.Rmd:8,8,583
 spelling of          quner        in inclusive_exclusive_distinction_in_personal_pronouns.Rmd:583
-spelling of          Nkore        in morning_greetings.Rmd:8
 spelling of          Oraire        in morning_greetings.Rmd:8
 spelling of          xair        in morning_greetings.Rmd:41,41,49
 spelling of          xajir        in morning_greetings.Rmd:41
-spelling of          Qidi        in numeral_bases.Rmd:133
-spelling of          Yine        in ordinals.Rmd:35
 spelling of          areally        in path_encoding.Rmd:181
 spelling of          ccording        in path_encoding.Rmd:143
 spelling of          Bancel        in prohibitives.Rmd:150,222
@@ -690,6 +679,5 @@ spelling of          bolh        in work.Rmd:41
 spelling of          colexified        in work.Rmd:51
 spelling of          ejno        in work.Rmd:54
 spelling of          gihab        in work.Rmd:45
-spelling of          Gubin        in work.Rmd:41
 spelling of          referr        in work.Rmd:28
 The BibTeX entry          kibrik1999          present in the .Rmd, but absent in the path_encoding.bib
