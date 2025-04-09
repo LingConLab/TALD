@@ -1,5 +1,10 @@
+The BibTeX entry          magomedovsaidovakkutta2017          present in the          commemorative.tsv, but absent in the biblib.xlsx
+The BibTeX entry          abdullaev2015          present in the          commemorative.tsv, but absent in the biblib.xlsx
+The BibTeX entry          alisultanov2019          present in the          commemorative.tsv, but absent in the biblib.xlsx
 The BibTeX entry comriepolinsky1998 from the file path_encoding_bib.tsv has an empty value in the obligatory field PUBLISHER
 Revise the BibTeX entry moroz20_villages from the file phonology_bib.tsv.
+The obligatory column          feature          is absent in the file          commemorative.tsv
+Duplicated column name      'other'      in the      commemorative.tsv
 The wrong language name          Armenian          in the file          agreement_of_adpositions.tsv
 The wrong language name          Akhvakh          in the file          caritive_adv.tsv
 The wrong language name          Armenian          in the file          caritive_adv.tsv
@@ -13,6 +18,12 @@ The wrong language name          Dargwa          in the file          causatives
 The wrong language name          Akhvakh          in the file          comitative.tsv
 The wrong language name          Armenian          in the file          comitative.tsv
 The wrong language name          Dargwa          in the file          comitative.tsv
+The wrong language name          Akhvakh          in the file          commemorative.tsv
+The wrong language name          Armenian          in the file          commemorative.tsv
+The wrong language name          Mehweb          in the file          commemorative.tsv
+The wrong language name          Mitahi-Jalqan          in the file          commemorative.tsv
+The wrong language name          Tsudaqar          in the file          commemorative.tsv
+The wrong language name          Ossetian          in the file          commemorative.tsv
 The wrong language name          Akhvakh          in the file          days_after_today.tsv
 The wrong language name          Armenian          in the file          days_after_today.tsv
 The wrong language name          Dargwa          in the file          days_after_today.tsv
@@ -639,6 +650,32 @@ spelling of          doren        in causatives.Rmd:357
 spelling of          iqij        in causatives.Rmd:191
 spelling of          vuyic        in causatives.Rmd:334
 spelling of          dada        in comitative.Rmd:27
+spelling of          Abdurrahman        in commemorative.Rmd:69,189
+spelling of          Akiev        in commemorative.Rmd:173
+spelling of          apagiri        in commemorative.Rmd:27,105
+spelling of          barq        in commemorative.Rmd:107
+spelling of          Bogomolova        in commemorative.Rmd:48
+spelling of          bukvalʹno        in commemorative.Rmd:21
+spelling of          delil        in commemorative.Rmd:21
+spelling of          Eldarova        in commemorative.Rmd:91
+spelling of          Elikli        in commemorative.Rmd:69,189
+spelling of          gihiri        in commemorative.Rmd:105
+spelling of          giri        in commemorative.Rmd:105
+spelling of          Gohar        in commemorative.Rmd:182
+spelling of          Jurij        in commemorative.Rmd:21
+spelling of          Komen        in commemorative.Rmd:166
+spelling of          Magomed        in commemorative.Rmd:111
+spelling of          Murad        in commemorative.Rmd:44,55
+spelling of          Muradyan        in commemorative.Rmd:182
+spelling of          pokojnik        in commemorative.Rmd:36
+spelling of          pokojnyj        in commemorative.Rmd:21,36
+spelling of          Sulaibanov        in commemorative.Rmd:157
+spelling of          Suleymanov        in commemorative.Rmd:44,55
+spelling of          Vydrin        in commemorative.Rmd:196
+spelling of          xleb        in commemorative.Rmd:21
+spelling of          عَفَا        in commemorative.Rmd:76
+spelling of          عَفْوٌ        in commemorative.Rmd:76
+spelling of          يَعْفُو        in commemorative.Rmd:76
 spelling of          iqna        in days_after_today.Rmd:24
 spelling of          iqna        in days_before_today.Rmd:34
 spelling of          awedu        in demonstratives.Rmd:324

@@ -1,8 +1,8 @@
 ---
-title: Expression of the sense "to work"
-author: Svetlana Zemicheva, Konstantin Filatov
-date: 'Last update: March 2025'
-bibliography: ./data/orig_bib/work.bib
+title: Commemorative formulas
+author: Nina Dobrushina
+date: 'Last update: April 2025'
+bibliography: ./data/orig_bib/commemorative.bib
 csl: apa.csl
 link-citations: true
 output:
@@ -17,15 +17,15 @@ knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, comment = 
 library(lingglosses)
 ```
 
-See [data and maps](061_work_map.html).
+See [data and maps](062_commemorative_map.html).
 
 ```{r}
 library(RefManageR)
 BibOptions(check.entries = FALSE, style = 'text', bib.style = 'authoryear')
 article_citation <- BibEntry(bibtype = 'Incollection', 
- key='zemicheva2025',
- title='Expression of the sense "to work"',
- author='Svetlana Zemicheva and Konstantin Filatov',
+ key='dobrushina2025',
+ title='Commemorative formulas',
+ author='Nina Dobrushina',
  year='2025',
  editor= 'Daniel, Michael  and Filatov, Konstantin and Maisak, Timur and Moroz, George and Mukhin, Timofey and Naccarato, Chiara and Verhees, Samira',
  publisher='Linguistic Convergence Laboratory, NRU HSE',
@@ -48,7 +48,7 @@ print(article_citation, .opts = list(style = 'text'))
 print(article_citation, .opts = list(style = 'Bibtex'))
 ```
 
-```{r, child='data/orig_rmd/work.Rmd'}
+```{r, child='data/orig_rmd/commemorative.Rmd'}
 ```
 
 
