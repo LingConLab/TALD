@@ -1,0 +1,223 @@
+```{r, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, comment = '')
+library(lingglosses)
+```
+
+## Introduction
+
+In Daghestanian languages, a mention of a deceased person is often accompanied by a formula, as in the following example from Chirag Dargwa:
+
+(@one) Chirag Dargwa [@ganenkov2021draft]
+```{r}
+gloss_example("wali-ra w-ač'-ib, **ʡapa** **b-arq'-ab** cin-na",
+              "Wali-ADD M.SG-come.PFV-AOR **forgiveness** **N.SG-do.PFV-OPT** self.SG-GEN",
+              "Wali also came, God rest his soul.")
+```
+
+Commemorative formulas studied in this chapter are used as epithets rather than as stand-alone wishes. A close equivalent to these formulas is the Russian expression `r gloss_example("svetloj pamjati", "bright.GEN memory.GEN", intext = TRUE)`, which is, however, much less common in Russian as compared to the languages of Daghestan:
+
+(@two) Russian [@daniel1978: 9]
+
+  _Kak i ego pokojnyj drug, **svetloj pamjati** Jurij Galanskov, Ginzburg delil svoj xleb i svoju odeždu s bližnim bukvalʹno, po-evangelʹski._
+
+  'Like his late friend, Yuri Galanskov, **may his memory be bright**, Ginzburg shared his bread and his clothing with his neighbours in a literally evangelical way.'
+
+As follows from the description below, commemorative formulas can be of attributive type, containing adjectives or participles, or predicative type, including optatives and jussives. In the former case they are more likely to be preposed to the name of the deceased person, in the latter case they more often follow it. However, this is only a tendency. Commemorative formulas with optatives and jussives are often inserted into a sentence as parenthetical clauses and may precede the name of the deceased ((@eight)-(@ten)), while participles are used in standalone wishes in many Nakh-Daghestanian languages. The syntactic role and position of these formulas should be studied in large corpora.
+
+Wish formulas which accompany the mention of a deceased person can develop into a word which means 'deceased', which in its turn can be combined with a wish formula. This is probably what happened in Tukita Karata, where the word *apagiri* 'late' is likely to have originated from the combination of the Arabic word *ʕafā* 'forgive' and the masdar of the Tukita verb 'do' (see [Results]). In (@three) it is combined with a wish 'May his sins be washed away':
+
+(@three) Tukita Karata (Tukita corpus, Michael Daniel, p.c.)
+```{r}
+gloss_example("munah-ibi n-unč-a-ƛ'a apagiri-šːu-r-e",
+              "sin-PL NPL-wash-IMP-OPT deceased-OBL.M-NPL-GEN",
+              "May the sins of the deceased be washed away.")
+```
+
+Commemorative formulas are often translated as 'late' or 'deceased' in texts and even in dictionaries. For example, the word 'deceased' is translated from Russian (*pokojnyj*, *pokojnik*) by means of compounds derived from wish formulas: Akhvakh *munahečaːdabe* ('sin' + participle of the verb 'wash') [@magomedovaabdulaeva2007: 304] and Karata *munačurow* ('sin' + participle of the verb 'deprive') [@magomedovaxalidova2001: 225].
+
+The data for this survey were collected in dictionaries, corpora, and through elicitation. I asked language consultants what expression they use to accompany the mention of a deceased person, and suggested the Russian sentence *Moj svetloj pamjati deduška byl xorošim stroitelem* ('My grandfather, of blessed memory, was a good builder') as a stimulus. Many dictionaries include commemorative formulas with the remark 'about a deceased'.
+
+Commemorative formulas are different in different parts of Daghestan. Several such formulas can coexist in one village, but usually one of them is considerably more frequent. Without a text corpus, it is not easy to judge which of them is the most common, so for some languages several formulas were coded.
+
+## Results
+
+One of the most widely spread commemorative formulas contains the word *rahmat* (*raħmat*, *reħmet*, *raˁhmat*), from Arabic *r-ḥ-m*, the passive participle of the verb 'give mercy, pardon, forgive' (Murad Suleymanov, p.c.). The formula came to Nakh-Daghestanian languages through Azerbaijani.
+
+Depending on the language, the formula can contain an adjective (@four), (@five), or a verb combined with the word *rahmat* / *raħmat* (@five), (@six). Adjectives usually have suffixes borrowed from Azerbaijani: -*lu* in Tabasaran, -*lɨʁ* in Tsakhur [@kibriketal1999: 198]. As for verbs, in my data the verbs 'become' and 'do'  are attested in formulas with the word *rahmat*. Agul and Lezgian use the intransitive verb 'be, become' (@six). Azerbaijani, Kumyk, Kryz, Khinalug and Rutul use the transitive verb 'do' (@five), (@seven). The formulas with 'do' may also contain the word *Allah* in the ergative, thus expressing the wish that Allah should give mercy to the deceased (@six). Verbs can be used in the optative or in the jussive (in Khinalug, Kryz, Azerbaijani, Kumyk) or as a participle (Rutul, Lezgian). The Agul formula may contain a special optative participle. The formulas with optatives and jussives often contain a reflexive or demonstrative pronoun referencing the aforementioned deceased.
+
+(@four) Tabasaran (Tabasaran corpus, village of Mezhgul, Natalia Bogomolova, p.c.)
+```{r, results='asis'}
+gloss_example("ča-n χ-aˁri-in-ǯi duvu χaˁ-ra ʁ-ap’-nu ha-c-d-ar zehmet-ar ʁi-zig-u insan vu-j, dumu **raˁhmat-lu** ha-mu aba",
+              "self-GEN hand-PL-SUP-DIR this.ERG house-ADD PFV-do-PF EMPH-that-ADV-PL labour-PL PFV-pull-PTCP man COP-PST DEM **mercy-ADJ** EMPH-PROX grandfather",
+              "He built houses with his own hands, such a hardworking man he was, my late grandfather.")
+```
+
+(@five) Azerbaijani (Murad Suleymanov, p.c.)
+```{r, results='asis'}
+gloss_example("öl-ən-lər-iniz-ə **Allah** **rəhmət** **elə-sin**, bir gün mənim **rəhmət-lik** baba-m nə-dən ötrü-isə nökər-imiz-i məscid-ə göndər-miš-di",
+              "die-PTCP.SBJ-PL-POSS.2PL-DAT **God** **mercy** **do-JUS.3** one day {I}.GEN **mercy-ADJ** grandfather-POSS.1SG what-ABL for_the_sake_of-INDF servant-POSS.1PL-ACC mosque-DAT send-PRF-PST.3",
+              "May God have mercy on your dead, my late grandfather once sent our servant to the mosque for some purpose.")
+```
+
+(@six) Lezgian (Tsnal dialect, Fazir Dzhaliev, p.c.)
+```{r, results='asis'}
+gloss_example("**rähmet** **xa-ji** Mehamd-a-n rik' ala-j zat' tir ima",
+              "**mercy** **be-AOR.PTCP** Mehammad-OBL-GEN heart be.on-PTCP thing COP.PST this",
+              "The late Mehammad loved this thing.")
+```
+
+(@seven) Kryz (Abdurrahman Elikli, p.c.)
+```{r, results='asis'}
+gloss_example("za babay, **Allah-ci-r** **an-ʁan** **raʕmat** **ara-y**, sa-r ɣala usta-yə-ni",
+              "{I}.GEN grandfather **Allah-OBL-ERG** **3.H.GEN-EQU** **mercy** **do-OPT** one-M good master-COP.M-PST",
+              "My grandfather, bless his memory, was a good builder.")
+```
+
+The second formula is attested in most Dargwa varieties (Standard Dargwa, Kubachi, Tanty, Urtsaki, Sanzhi, Chirag Dargwa), but also in Agul, Lak, and, with some reservations, also Mehweb Dargwa, Tukita and Bagvalal. This formula also includes an Arabic loan. The word *æˁpa* / *ʡaˁpa* / *ʡapa* / *ʡafa* /  *æpa* / *apa* originates from the Arabic verb 
+عَفَا
+ *ʕafā* (past) – 
+ يَعْفُو
+ *yaʕfū* (non-past) – 
+ عَفْوٌ
+ *ʕafw-* (action noun) 'forgive' (Aleksey Duntsov, p.c.). Another component of this formula in all languages and dialects is the optative of the verb 'do'. Thus, the formula means 'let (Allah) do a forgiveness':
+
+(@eight) Standard Dargwa [@yusupov2014: 350]
+```{r}
+gloss_example("**ʡaˁpa** **b-arq'** ʡaˁħ-si adam w-iri",
+              "**forgiveness** **N-do.PFV.OPT** good-ATTR man M-be.PST",
+              "The deceased was a good man.")
+```
+
+(@nine) Lak (Rosa Eldarova, p.c.)
+```{r, results='asis'}
+gloss_example("**æˁpa** **b-ivu** tːul butːa-n čʼæˁ<v>u-ssa mah-ri k'ul-a",
+              "**forgiveness** **N-do.OPT** {I}.GEN father-DAT <PL>many-ADJ tale-PL know-PST.3",
+              "My late (=may his sins be forgiven) father knew many tales.")
+```
+
+(@ten) Agul (Burkikhan) (Agul corpus, Timur Maisak, p.c.)
+```{r, results='asis'}
+gloss_example("gunah-ar **ʡafa** **aq'u-raj** uči-n, imami fat'ima-w-as-ra χura-s xu-n-dawuj",
+              "sin-PL **forgiveness** **do.PF-OPT** self-GEN Imami fatima-APUD-EL-ADD read.IPF-INF become.PFV-AOR-COP.NEG.PST",
+              "May her sins be forgiven, even Imami Fatima could not read (it) either.")
+```
+
+In Tukita, the same Arabic word is supposedly part of the word *apagiri*, which is translated by Tukita speakers as 'deceased', where -*giri* could be a contracted form of *gihiri*, the masdar of the verb 'do' (Michael Daniel, p.c.). In Bagvalal, the word *apaǯalhu-w* is used both as a wish (the dictionary translation is ‘May his sins be washed out’) and as a word for 'deceased'. While the first part of this word can be traced back to *ʡaˁpa*, the second part is similar to *haǯal* 'hour of death'. Both Tukita and Bagvalal also have another formula (see below).
+
+In my experience, speakers are usually not aware of the meaning of the word *ʡaˁpa*. For example, a speaker of Urtsaki Dargwa, who reported using the expression *ʡaˁpa* *barq'* (cf. Standard Dargwa in (@eight)), did not know what the first word means. In Mehweb Dargwa, a language spoken outside of the Dargwa zone and surrounded by speakers of Avar and Lak, the expression including this word is used infrequently. A speaker of Mehweb remembered it only when she was directly asked about its use and meaning. She came up with the expression *ʡapabaq'*, which she perceived as one word, because Mehweb has lost zero-marked optative typical of Dargwa languages (see [@dobrushina2019]). Apparently, both morphological elements of this expression became incomprehensible for Mehweb speakers.
+
+Finally, there is a formula which covers a large area where Avar is spoken as a lingua franca. This formula is translated as 'May the sins be washed away'. With this formula, only structural (pattern) borrowing is observed: languages use their own words to express the same semantics. There is also slight variation as to the meaning of the verb which is used: a general verb for 'wash' (Akhvakh, Andi, Archi, Avar, Bagvalal, Botlikh, Anchiq Karata, Tindi, Tsez, Tukita Karata), or a more specific verb for the religious ritual of ablution (Tsezic languages Bezhta, Hinuq, Khwarshi, and Hunzib, and one Andic language, Tindi). In some languages, the verb 'deprive, take away' is used (Godoberi, Karata, Chamalal), but, interestingly, the formula is still translated into Russian as 'May the sins be washed away', both by speakers and in dictionaries.
+
+(@eleven) Anchiq Karata (Magomed Gadzhimagomedov, p.c.)
+```{r}
+gloss_example("c'aq'o-w hek'wa w-uk'wa **munah** **m-uča-w**",
+              "good-M man M-be.PST **sin** **N-wash.PTCP-M**",
+              "He was a good man, the deceased.")
+```
+
+(@twelve) Khwarshi (Inkhokvari dialect) (Zaira Khalilova, p.c.)
+```{r}
+gloss_example("Allah-is-e **munahi-bo** **čurid-oƛo**",
+              "Allah-DEM.M-ERG **sin-PL** **perform_ablution-OPT**",
+              "May Allah forgive the sins!")
+```
+
+(@thirteen) Godoberi [@saidova2006: 226]
+```{r}
+gloss_example("munah-abe čurã-wara",
+              "sin-PL deprive-OPT",
+              "May the sins be taken away!")
+```
+
+The verb form in the wish 'May the sins be washed away' can be an optative (@thirteen), a participle (@eleven), (@fourteen) or, rarely, a future form (@fifteen). In some languages both the optative and the participle are attested. It is not clear whether participial clauses are part of relative clauses ('whose sins are washed away') or are parenthetical clauses in the same way as optatives are, because, as mentioned above, in many Nakh-Daghestanian languages participles can be used as stand-alone wishes. Since Archi does not have a dedicated optative, the second person imperative is used instead (@sixteen).
+
+(@fourteen) Tindi [@magomedova2003: 265]
+```{r}
+gloss_example("**munahi** **čurij-u-w**",
+              "**sin** **perform_ablution-PTCP-M**",
+              "May the sins be washed away!")
+```
+
+(@fifteen) Tsez [@xalilov1999: 362]
+```{r}
+gloss_example("**munaħ** **esad-an**",
+              "**sin** **III.wash-FUT**",
+              "May the sins be washed away!")
+```
+
+(@sixteen) Archi (Archi corpus, Michael Daniel, p.c.)
+```{r, results='asis'}
+gloss_example("wišː=u mača, **bunah-mul** **čučeb-a** **allah-li** **ža-n**, pət'a-n lo e-r-di-li muʔminət=er-ši",
+              "you.PL=ADD kin **sin-PL** **wash-IMP** **Allah-ERG** **self-GEN** Pata-GEN child be-2-PST-EV Muminat=say.IPFV-CVB.IPFV",
+              "And your relative, may her sins be forgiven, Pata's daughter, her name was Muminat.")
+```
+
+Besides these three formulas, which cover large territories, there are also patterns which function on a more local scale. For example, in the adjacent Dargwa villages Tsugni, Tanty, Itsari and Urtsaki, and in the village of Tsudakhar, the same formula 'May the sins and mistakes be forgiven' (lit. 'kept') is used:
+
+(@seventeen) Tsugni Dargwa (Gasangusen Sulaibanov, p.c.)
+```{r, results='asis'}
+gloss_example("dila χʷaltːatːi, (cun-na) **bunah** **χːat'a** **gu-r-d-uc**, ʡaˤχ-ce admi w-irχʷ-aj",
+              "{I}.GEN grandfather (REFL.OBL-GEN) **sin** **mistake** **SUB-ABL-NPL-keep.PFV.OPT(3)** good-ATTR person M-be.IPFV-3.HAB.PST",
+              "My grandfather, may his sins be forgiven, was a good man.")
+```
+
+The expressions used in Chechen and Ingush include the complex verb 'forgive' (with a light verb 'do'). The construction is semantically similar to the formula with the word *ʡapa*, the difference being that the nominal part of 'forgive' does not reflect the Arabic *ʕafā*:
+
+(@eighteen) Chechen (Erwin Komen, p.c.)
+```{r}
+gloss_example("**daːl-a** **geč-d-o-jla** **cunːa**",
+              "**God-ERG** **forgive-D-do.PRS-SUBJ** **he.DAT**",
+              "May God forgive him!")
+```
+
+(@nineteen) Ingush (Timur Akiev, p.c.)
+```{r}
+gloss_example("**dal-a** **geršt-d-o-lda** **cuna**",
+              "**God-ERG** **forgive-D-do.PRS-SUBJ** **he.DAT**",
+              "May God forgive him!")
+```
+
+Finally, there is a range of expressions used in some languages outside Daghestan, including some Nakh-Daghestanian languages spoken in Azerbaijan, but also Kartvelian, Turkic and Indo-European languages, which all share the word 'light' (Armenian, Kryz, Tat, Udi, Ossetian, Georgian, Nogai): 'may God keep her/him in light', 'may her/his soul be in light', 'may the light spread on his(her) tomb', 'may the light be'. However, it is not clear to what extent these expressions are functionally parallel to those discussed above. While in Daghestan the modifying formulas are omnipresent, I have no information about their presence outside Daghestan. It is possible that some of these formulas are not used as attributes. It is also not clear how frequently they are used.
+
+(@twenty) Armenian (Gohar Muradyan, p.c.)
+```{r}
+gloss_example("**lusa-hogi** papik-s lav šinarar er",
+              "**light-soul** grandfather-1SG.POSS good builder be.PST.3SG",
+              "My illuminated by the light grandpa was a good builder.")
+```
+
+(@twenty-one) Kryz (Abdurrahman Elikli, p.c.)
+```{r, results='asis'}
+gloss_example("za babay, **ug** **sir-aʕ-an** **nur** **kina** **işi**, sa-r ghala ustayəni",
+              "{I}.GEN grandfather **SELF.M(GEN)** **tomb-IN-LAT** **light** **spread** **be.OPT** one-M good master.COP.M.PST",
+              "My grandfather, may the light spread on his tomb, was a good builder.")
+```
+
+(@twenty-two) Ossetic (Iron dialect) (Arseniy Vydrin, p.c.)
+```{r}
+gloss_example("mɜ fǝd-ǝ-mad, ruxšag wɜd tǝng žɜrdɜxɜlar adɜjmag wǝd",
+              "{I}.POSS father-GEN-mother bright be.IMP.3SG very kind person be.pst.3SG",
+              "My grandmother, may the light be, was a very kind person.")
+```
+
+## Distribution
+
+Commemorative formulas show a very clear areal distribution.
+
+The formulas with the Arabic word *raħmat* / *rahmat* are found in southern Daghestan [Map 1](062_commemorative_map.html#m1). All Lezgic languages feature this formula with the exception of Archi, which is situated outside of the area where other Lezgic languages are spoken. The formula with *raħmat* / *rahmat* is also typical of the Turkic language Azerbaijani and the Nakh-Daghestanian language Khinalug (spoken in Azerbaijan). In Nakh-Daghestanian languages, the source of this formula is most likely Azerbaijani, which was used as a lingua franca in the whole Southern Daghestan. This is also suggested by the fact that adjectives with this root usually contain Azerbaijani suffixes. At the same time, in Azerbaijani the word *rahmat* lost pharyngealization (which is present in Arabic), while in most Nakh-Daghestanian languages pharyngealization is present: *raħmat* in Agul,  *räħmät* in Khinalug, etc. Since this root is also present in non-Lezgic Nakh-Daghestanian languages, which did not have intensive contact with Azerbaijani, it might be the case that what was borrowed to Lezgic languages from Azerbaijani was the use of the word *raħmat* in the commemorative formula rather than the formula as a whole. This would count as a case of pattern borrowing rather than matter borrowing.
+
+The formulas with the word *ʡaˁpa* are used by speakers of most Dargwa languages, as well as Lak and Agul (note that both languages are adjacent to the Dargwa area) [Map 2](062_commemorative_map.html#m2). Traces of these formulas are likely to be found in Tukita and Bagvalal, although these languages do not belong to the Dargwa-Lak-Agul area.
+
+The formula 'May the sins be washed away' is attested in the area where Avar is spoken as a lingua franca [Map 3](062_commemorative_map.html#m3). It is found in all Avar-Ando-Tsezic languages and in Archi, a Lezgic language whose speakers are bilingual in Avar and Lak.
+
+In Mehweb, a Dargwa language surrounded by speakers of Avar and Lak, the main formula also resembles that of Avar, and can be literally translated as 'May the sins be hidden'. As mentioned above, the formula with the word *ʡaˁpa* which is attested in all Dargwa languages is also found in Mehweb, albeit it is used infrequently.
+
+Finally, formulas containing the word 'light' are used mainly on the periphery of and outside the East Caucasian family. They are typical of the languages of Christian peoples, such as Georgian, Armenian and Ossetian, but not only (cf. Kryz, Tat, Udi, Nogai).
+
+## List of glosses {-}
+
+```{r}
+make_gloss_list(readxl::read_xlsx("../glosses.xlsx"))
+```
+
+## References {-}
