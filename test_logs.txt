@@ -648,8 +648,6 @@ spelling of          barq        in commemorative.Rmd:107
 spelling of          delil        in commemorative.Rmd:21
 spelling of          gihiri        in commemorative.Rmd:105
 spelling of          giri        in commemorative.Rmd:105
-spelling of          pokojnik        in commemorative.Rmd:36
-spelling of          pokojnyj        in commemorative.Rmd:21,36
 spelling of          xleb        in commemorative.Rmd:21
 spelling of          iqna        in days_after_today.Rmd:24
 spelling of          iqna        in days_before_today.Rmd:34
