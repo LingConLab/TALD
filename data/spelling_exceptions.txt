@@ -1,5 +1,6 @@
 Abaza
 Abdullaev
+Abdurrahman
 Abkhaz
 absolutive
 accompanee
@@ -16,6 +17,7 @@ Agul
 Aigul
 Aikhenvald
 Akhvakh
+Akiev
 Akusha
 Alekseeva
 allative
@@ -48,8 +50,10 @@ Azeri
 Bagvalal
 Bezhta
 bimorphemic
+Bogomolova
 Botlikh
 Budukh
+bukvalʹno
 Bulbul
 Buynaksk
 calqued
@@ -67,6 +71,7 @@ circumposition
 cline
 clitic
 cognacy
+colexified
 comitative
 completive
 compositional
@@ -112,7 +117,9 @@ egophoric
 ejective
 Ekaterina
 elative
+Eldarova
 elevational
+Elikli
 enclitic
 endophoric
 epiglottal
@@ -146,6 +153,7 @@ Gilles
 Glottolog
 Godoberi
 Godunova
+Gohar
 Golosov
 grammaticalization
 grammaticalize
@@ -189,6 +197,7 @@ Iwaidjan
 Izmalkova
 Johanson
 Judeo
+Jurij
 JUSS
 jussive
 Kaitag
@@ -206,6 +215,7 @@ Kina
 Kipchak
 Kizlyar
 Klyagina
+Komen
 Konstantin
 Koryakov
 Kryz
@@ -236,6 +246,7 @@ locational
 locative
 logophoric
 Luchek
+Magomed
 Magomedbekova
 Maisak
 Maksim
@@ -267,6 +278,8 @@ Moyano
 Mozdok
 Mukhad
 Mukhin
+Murad
+Muradyan
 Naccarato
 Nakh
 Nasledskova
@@ -343,6 +356,8 @@ Starostin
 stative
 subordinative
 suffixal
+Sulaibanov
+Suleymanov
 superelative
 superessive
 suppletive
@@ -388,6 +403,7 @@ Verkerk
 vigesimally
 Violetta
 VOT
+Vydrin
 WALS
 wordform
 wordforms
@@ -403,3 +419,6 @@ zenodo
 Zerzele
 Zhirkov
 Zilo
+عَفَا
+عَفْوٌ
+يَعْفُو
