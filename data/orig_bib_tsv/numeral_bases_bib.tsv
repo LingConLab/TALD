@@ -1,23 +1,23 @@
-CATEGORY	BIBTEXKEY	AUTHOR	TITLE	YEAR	TITLE_TRANSLATION	PUBLISHER	ADDRESS	PAGES	BOOKTITLE	BOOKTITLE_TRANSLATION	EDITOR	JOURNAL	NOTE	NUMBER	SCHOOL	URL	VOLUME	CONTRIBUTOR	COMMENT
-incollection	ganenkovmaisak2021	Ganenkov, Dmitry and Maisak, Timur	Nakh-Dagestanian Languages	2021		Oxford University Press			The Oxford Handbook of Languages of the Caucasus		Polinsky, Maria								
-inproceedings	ganenkovmaisak2008	Ganenkov, Dmitry and Maisak, Timur	Contact-induced morphological change in Agul dialects	2008			Vienna		Workshop “Morphological Variation and Change in Languages of the Caucasus”										
-book	magometov1965	Магометов, Александр	Табасаранский язык	1965	Tabasaran	Мецниереба	Тбилиси												
-book	magometov1970	Магометов, Александр	Агульский язык	1970	Agul	Мецниереба	Тбилиси												
-article	caludeverkerk2016	Calude, A. and Verkerk, A.	The typology and diachrony of higher numerals in Indo-European: a phylogenetic comparative study	2016				91—108				Journal of Language Evolution		2			1		
-book	vandenberg1995	van den Berg, Helma	A grammar of Hunzib	1995		Lincom	Munich												
-phdthesis	khalilova2009	Khalilova, Zaira	A grammar of Khwarshi	2009											University of Leiden				
-book	vandenberg2001	van den Berg, Helma	Dargi folktales. Oral stories from the Caucasus with an introduction to Dargi grammar	2001		CNWS	Leiden												
-incollection	greenberg1978	Greenberg, Joseph H.	Generalizations About Numeral Systems	1978		Stanford University Press	Stanford	249—295	Universals of Human Language, Volume 3: Word Structure		Greenberg, Joseph and Ferguson, Charles and Moravcsik, Edith								
-book	imnajshvili1963	Имнайшвили, Д.С.	Дидойский язык в сравнении с гинухским и хваршинским языками	1963	The Dido language in comparison with Hinuq and Khwarshi	Изд-во АН ГССР	Тбилиси												
-book	isakov2020	Исаков, Исак	Кусурский диалект аварского языка	2020	The Kusur dialect of Avar	Алеф	Махачкала												
-incollection	comrie2013	Comrie, Bernard	Numeral Bases	2013		Max Planck Institute for Evolutionary Anthropology	Leipzig		The World Atlas of Language Structures Online		Dryer, Matthew S.; Haspelmath, Martin					https://wals.info/chapter/131			
-incollection	edelman1999	Edelman, Joy	On the history of non-decimal systems and their elements in numerals of Aryan languages	1999		De Gruyter Mouton	Berlin, New York	221—242	Numeral types and changes worldwide		Gvozdanović, Jadranka								
-incollection	gvozdanovic1999	Gvozdanović, Jadranka	Introduction	1999		De Gruyter Mouton	Berlin, New York	1—4	Numeral types and changes worldwide		Gvozdanović, Jadranka								
-incollection	holiskygagua1994	Holisky, Dee Ann and Gagua, Rusudan	Tsova-Tush (Batsbi)	1994		Caravan	Delmar, NY	147—212	The North East Caucasian Languages		Smeets, Rieks			2					
-book	karimovakhalilova2013	Каримова, Р. Ш. And Халилов, М. Ш.	Заимствованная лексика в хваршинском языке	2013	Borrowings in Khwarshi	Алеф	Махачкала												
-book	magomedbekova1971	Магомедбекова, Загидат	Каратинский язык	1971	Karata	Мецниереба	Тбилиси												
-book	mengden2010	Mengden, Ferdinand von	Old English from a Cross-Linguistic Perspective	2010		De Gruyter Mouton	Berlin, New York												
-book	saidova2007	Саидова, Патимат	Закатальский диалект аварского языка	2007	The Zaqatala dialect of Avar	ИЯЛИ	Махачкала												
-incollection	saadiev1994	Saadiev, Sh. M.	Kryts	1994		Caravan Press	Delmar, NY	407—446	The North East Caucasian Languages		Smeets, Rieks			2					
-book	zhirkov1955	Жирков, Лев	Лакский язык	1955	Lak	Академия	Москва												
-misc	starostinstarostin	Starostin, Sergei and Starostin, George	Tower of Babel: etymological database													https://starlingdb.org			
+CATEGORY	BIBTEXKEY	AUTHOR	TITLE	YEAR	TITLE_TRANSLATION	PUBLISHER	ADDRESS	PAGES	BOOKTITLE	BOOKTITLE_TRANSLATION	EDITOR	JOURNAL	NOTE	NUMBER	SCHOOL	URL	VOLUME	CONTRIBUTOR	COMMENT	HOWPUBLISHED
+incollection	ganenkovmaisak2021	Ganenkov, Dmitry and Maisak, Timur	Nakh-Dagestanian Languages	2021		Oxford University Press			The Oxford Handbook of Languages of the Caucasus		Polinsky, Maria									
+inproceedings	ganenkovmaisak2008	Ganenkov, Dmitry and Maisak, Timur	Contact-induced morphological change in Agul dialects	2008			Vienna		Workshop “Morphological Variation and Change in Languages of the Caucasus”											
+book	magometov1965	Магометов, Александр	Табасаранский язык	1965	Tabasaran	Мецниереба	Тбилиси													
+book	magometov1970	Магометов, Александр	Агульский язык	1970	Agul	Мецниереба	Тбилиси													
+article	caludeverkerk2016	Calude, A. and Verkerk, A.	The typology and diachrony of higher numerals in Indo-European: a phylogenetic comparative study	2016				91—108				Journal of Language Evolution		2			1			
+book	vandenberg1995	van den Berg, Helma	A grammar of Hunzib	1995		Lincom	Munich													
+phdthesis	khalilova2009	Khalilova, Zaira	A grammar of Khwarshi	2009											University of Leiden					
+book	vandenberg2001	van den Berg, Helma	Dargi folktales. Oral stories from the Caucasus with an introduction to Dargi grammar	2001		CNWS	Leiden													
+incollection	greenberg1978	Greenberg, Joseph H.	Generalizations About Numeral Systems	1978		Stanford University Press	Stanford	249—295	Universals of Human Language, Volume 3: Word Structure		Greenberg, Joseph and Ferguson, Charles and Moravcsik, Edith									
+book	imnajshvili1963	Имнайшвили, Д.С.	Дидойский язык в сравнении с гинухским и хваршинским языками	1963	The Dido language in comparison with Hinuq and Khwarshi	Изд-во АН ГССР	Тбилиси													
+book	isakov2020	Исаков, Исак	Кусурский диалект аварского языка	2020	The Kusur dialect of Avar	Алеф	Махачкала													
+incollection	comrie2013	Comrie, Bernard	Numeral Bases	2013		Max Planck Institute for Evolutionary Anthropology	Leipzig		The World Atlas of Language Structures Online		Dryer, Matthew S.; Haspelmath, Martin					https://wals.info/chapter/131				
+incollection	edelman1999	Edelman, Joy	On the history of non-decimal systems and their elements in numerals of Aryan languages	1999		De Gruyter Mouton	Berlin, New York	221—242	Numeral types and changes worldwide		Gvozdanović, Jadranka									
+incollection	gvozdanovic1999	Gvozdanović, Jadranka	Introduction	1999		De Gruyter Mouton	Berlin, New York	1—4	Numeral types and changes worldwide		Gvozdanović, Jadranka									
+incollection	holiskygagua1994	Holisky, Dee Ann and Gagua, Rusudan	Tsova-Tush (Batsbi)	1994		Caravan	Delmar, NY	147—212	The North East Caucasian Languages		Smeets, Rieks			2						
+book	karimovakhalilova2013	Каримова, Р. Ш. And Халилов, М. Ш.	Заимствованная лексика в хваршинском языке	2013	Borrowings in Khwarshi	Алеф	Махачкала													
+book	magomedbekova1971	Магомедбекова, Загидат	Каратинский язык	1971	Karata	Мецниереба	Тбилиси													
+book	mengden2010	Mengden, Ferdinand von	Old English from a Cross-Linguistic Perspective	2010		De Gruyter Mouton	Berlin, New York													
+book	saidova2007	Саидова, Патимат	Закатальский диалект аварского языка	2007	The Zaqatala dialect of Avar	ИЯЛИ	Махачкала													
+incollection	saadiev1994	Saadiev, Sh. M.	Kryts	1994		Caravan Press	Delmar, NY	407—446	The North East Caucasian Languages		Smeets, Rieks			2						
+book	zhirkov1955	Жирков, Лев	Лакский язык	1955	Lak	Академия	Москва													
+misc	starostinstarostin	Starostin, Sergei and Starostin, George	Tower of Babel: etymological database													https://starlingdb.org				

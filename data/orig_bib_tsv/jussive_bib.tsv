@@ -1,13 +1,13 @@
-CATEGORY	BIBTEXKEY	AUTHOR	TITLE	YEAR	TITLE_TRANSLATION	PUBLISHER	ADDRESS	PAGES	BOOKTITLE	BOOKTITLE_TRANSLATION	EDITOR	JOURNAL	NOTE	NUMBER	SCHOOL	URL	VOLUME	CONTRIBUTOR	COMMENT
-book	aikhenvald2010	Aikhenvald, Aleksandra Y.	Imperatives and Commands	2010		Oxford University Press	Oxford												
-incollection	ammannvanderauwera2004	Ammann, Andreas and van der Auwera, Johan	Complementizer-headed Main Clauses for Volitional Moods in the Languages of South-Eastern Europe: A Balkanism?	2004		John Benjamins	Amsterdam/Philadelphia	293--314	Balkan Syntax and Semantics		Mišeska Tomić, Olga								
-article	authier2010	Authier, Gilles	Azeri morphology in Kryz (East Caucasian)	2010				14--42				Turkic Languages					14		
-book	authier2009	Authier, Gilles	Grammaire kryz	2019		Peeters	Paris												
-incollection	vanderauweraetal2004	Van der Auwera, Johan and Dobrushina, Nina and Goussev, Valentin 	A Semantic Map for Imperative-Hortatives	2004		Palgrave Macmillan	London	44--66	Contrastive Analysis in Language. Identifying Linguistic Units of Comparison		Willems, Dominique and Defrancq, Bart and Colleman, Timothy and Noël, Dirk								
-article	dobrushina2012	Dobrushina, Nina	What is the Jussive for? A study of third person commands in six Caucasian languages	2012				1--25				Linguistics		1			50		
-incollection	dobrushina2019	Dobrushina, Nina	Moods of Mehweb	2019		Language Science Press	Berlin	117--165	The Mehweb language. Essays on phonology, morphology and syntax		Daniel, Michael and Dobrushina, Nina and Ganenkov, Dmitry								
-incollection	dobrushina2021	Dobrushina, Nina	Optatives	2021		Linguistic Convergence Laboratory	Moscow		Typological Atlas of the Languages of Daghestan (TALD)		Daniel, Michael and Filatov, Konstantin and Maisak, Timur and Moroz, George and Mukhin, Timofey and Naccarato, Chiara and Verhees, Samira					https://lingconlab.github.io/TALD/007_optative.html			
-book	gadzhiakhmedov2000	Гаджиахмедов, Нурмагомед Э.	Словоизменительные категории имени и глагола в кумыкском языке	2000	Nominal and verbal inflectional categories in Kumyk	Юпитер	Makhachkala												
-book	mutalov2002	Муталов, Расул О.	Глагол Даргинского языка	2002	The verb in Dargwa	Издательско-полигрофический центр ДГУ	Makhachkala												
-book	xrakovskij2001	Xrakovskij, Victor S	Typology of Imperative Constructions	2001		Lincom Europa	Munich												
-book	eldarova1999	Эльдарова, Роза Г.	Лакский глагол (система глагольного словоизменения)	1999	Lak verb (system of verbal inflection)	IPC DGU	Makhachkala												
+CATEGORY	BIBTEXKEY	AUTHOR	TITLE	YEAR	TITLE_TRANSLATION	PUBLISHER	ADDRESS	PAGES	BOOKTITLE	BOOKTITLE_TRANSLATION	EDITOR	JOURNAL	NOTE	NUMBER	SCHOOL	URL	VOLUME	CONTRIBUTOR	COMMENT	HOWPUBLISHED
+book	aikhenvald2010	Aikhenvald, Aleksandra Y.	Imperatives and Commands	2010		Oxford University Press	Oxford													
+incollection	ammannvanderauwera2004	Ammann, Andreas and van der Auwera, Johan	Complementizer-headed Main Clauses for Volitional Moods in the Languages of South-Eastern Europe: A Balkanism?	2004		John Benjamins	Amsterdam/Philadelphia	293--314	Balkan Syntax and Semantics		Mišeska Tomić, Olga									
+article	authier2010	Authier, Gilles	Azeri morphology in Kryz (East Caucasian)	2010				14--42				Turkic Languages					14			
+book	authier2009	Authier, Gilles	Grammaire kryz	2019		Peeters	Paris													
+incollection	vanderauweraetal2004	Van der Auwera, Johan and Dobrushina, Nina and Goussev, Valentin	A Semantic Map for Imperative-Hortatives	2004		Palgrave Macmillan	London	44--66	Contrastive Analysis in Language. Identifying Linguistic Units of Comparison		Willems, Dominique and Defrancq, Bart and Colleman, Timothy and Noël, Dirk									
+article	dobrushina2012	Dobrushina, Nina	What is the Jussive for? A study of third person commands in six Caucasian languages	2012				1--25				Linguistics		1			50			
+incollection	dobrushina2019	Dobrushina, Nina	Moods of Mehweb	2019		Language Science Press	Berlin	117--165	The Mehweb language. Essays on phonology, morphology and syntax		Daniel, Michael and Dobrushina, Nina and Ganenkov, Dmitry									
+incollection	dobrushina2021	Dobrushina, Nina	Optatives	2021		Linguistic Convergence Laboratory	Moscow		Typological Atlas of the Languages of Daghestan (TALD)		Daniel, Michael and Filatov, Konstantin and Maisak, Timur and Moroz, George and Mukhin, Timofey and Naccarato, Chiara and Verhees, Samira					https://lingconlab.github.io/TALD/007_optative.html				
+book	gadzhiakhmedov2000	Гаджиахмедов, Нурмагомед Э.	Словоизменительные категории имени и глагола в кумыкском языке	2000	Nominal and verbal inflectional categories in Kumyk	Юпитер	Makhachkala													
+book	mutalov2002	Муталов, Расул О.	Глагол Даргинского языка	2002	The verb in Dargwa	Издательско-полигрофический центр ДГУ	Makhachkala													
+book	xrakovskij2001	Xrakovskij, Victor S	Typology of Imperative Constructions	2001		Lincom Europa	Munich													
+book	eldarova1999	Эльдарова, Роза Г.	Лакский глагол (система глагольного словоизменения)	1999	Lak verb (system of verbal inflection)	IPC DGU	Makhachkala													

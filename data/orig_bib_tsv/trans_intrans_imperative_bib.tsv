@@ -1,9 +1,9 @@
-CATEGORY	BIBTEXKEY	AUTHOR	TITLE	YEAR	TITLE_TRANSLATION	PUBLISHER	ADDRESS	PAGES	BOOKTITLE	BOOKTITLE_TRANSLATION	EDITOR	JOURNAL	NOTE	NUMBER	SCHOOL	URL	VOLUME	CONTRIBUTOR	COMMENT
-book	kibrik2001	Кибрик, Александр Е. and Казенин, Константин И. and Лютикова, Екатерина А. and Татевосов, Сергей Г.	Багвалинский язык. Грамматика, тексты, словари	2001	The Bagvalal language. Grammar, texts, dictionary	Наследие	Moscow												
-incollection	dobrushina2019	Dobrushina, Nina	Moods of Mehweb	2019		Language Science Press	Berlin	117--165	The Mehweb language. Essays on phonology, morphology and syntax		Daniel, Michael and Dobrushina, Nina and Ganenkov, Dmitry								
-book	magometov1970	Магометов, Александр А.	Агульский язык	1970	Agul	Мецниереба	Tbilisi												
-book	magometov1963	Магометов, Александр А.	Кубачинский язык	1963	Kubachi	Академия Наук Грузинской ССР	Tbilisi												
-incollection	daniel2019	Daniel, Michael	Mehweb verb morphology	2019		Language Science Press	Berlin	73--116	The Mehweb language. Essays on phonology, morphology and syntax		Daniel, Michael and Dobrushina, Nina and Ganenkov, Dmitry								
-incollection	zerzele2024	Zerzele, Vasiliy	Plural marking on imperatives and prohibitives	2024		Linguistic Convergence Laboratory	Moscow		Typological Atlas of the Languages of Daghestan (TALD)		Daniel, Michael and Filatov, Konstantin and Maisak, Timur and Moroz, George and Mukhin, Timofey and Naccarato, Chiara and Verhees, Samira								
-book	sumbatovamutalov2003	Sumbatova, Nina R. and Mutalov, Rasul O.	A Grammar of Icari Dargwa	2003		Lincom Europa	Munich												
-misc	dobrushina2021draft	Dobrushina, Nina	Uses of volitional forms	2021					Grammar of Kina Rutul										unpublished
+CATEGORY	BIBTEXKEY	AUTHOR	TITLE	YEAR	TITLE_TRANSLATION	PUBLISHER	ADDRESS	PAGES	BOOKTITLE	BOOKTITLE_TRANSLATION	EDITOR	JOURNAL	NOTE	NUMBER	SCHOOL	URL	VOLUME	CONTRIBUTOR	COMMENT	HOWPUBLISHED
+book	kibrik2001	Кибрик, Александр Е. and Казенин, Константин И. and Лютикова, Екатерина А. and Татевосов, Сергей Г.	Багвалинский язык. Грамматика, тексты, словари	2001	The Bagvalal language. Grammar, texts, dictionary	Наследие	Moscow													
+incollection	dobrushina2019	Dobrushina, Nina	Moods of Mehweb	2019		Language Science Press	Berlin	117--165	The Mehweb language. Essays on phonology, morphology and syntax		Daniel, Michael and Dobrushina, Nina and Ganenkov, Dmitry									
+book	magometov1970	Магометов, Александр А.	Агульский язык	1970	Agul	Мецниереба	Tbilisi													
+book	magometov1963	Магометов, Александр А.	Кубачинский язык	1963	Kubachi	Академия Наук Грузинской ССР	Tbilisi													
+incollection	daniel2019	Daniel, Michael	Mehweb verb morphology	2019		Language Science Press	Berlin	73--116	The Mehweb language. Essays on phonology, morphology and syntax		Daniel, Michael and Dobrushina, Nina and Ganenkov, Dmitry									
+incollection	zerzele2024	Zerzele, Vasiliy	Plural marking on imperatives and prohibitives	2024		Linguistic Convergence Laboratory	Moscow		Typological Atlas of the Languages of Daghestan (TALD)		Daniel, Michael and Filatov, Konstantin and Maisak, Timur and Moroz, George and Mukhin, Timofey and Naccarato, Chiara and Verhees, Samira									
+book	sumbatovamutalov2003	Sumbatova, Nina R. and Mutalov, Rasul O.	A Grammar of Icari Dargwa	2003		Lincom Europa	Munich													
+misc	dobrushina2021draft	Dobrushina, Nina	Uses of volitional forms	2021					Grammar of Kina Rutul										unpublished	

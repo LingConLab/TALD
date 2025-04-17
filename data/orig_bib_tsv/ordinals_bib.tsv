@@ -1,8 +1,8 @@
-CATEGORY	BIBTEXKEY	AUTHOR	TITLE	YEAR	TITLE_TRANSLATION	PUBLISHER	ADDRESS	PAGES	BOOKTITLE	BOOKTITLE_TRANSLATION	EDITOR	JOURNAL	NOTE	NUMBER	SCHOOL	URL	VOLUME	CONTRIBUTOR	COMMENT
-book	bokarev1959	Бокарёв, Евгений А.	Цезские (дидойские) языки Дагестана	1959	Tsezic (Didoic) languages of Daghestan	Академия	Москва	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-phdthesis	hanson2010	Hanson, Rebecca	A grammar of Yine (Piro)	2010	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	La Trobe University	NA	NA	NA	NA
-book	krishnamurti2003	Krishnamurti, Bhadriraju	The Dravidian languages	2003	NA	Cambridge University Press	Cambridge	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-unpublished	nasledskova2018	Nasledskova, Polina	The expression of ordinality: a cross-linguistic survey	2018	NA	NA	NA	NA	NA	NA	NA	NA	Term paper	NA	NA	NA	NA	NA	NA
-unpublished	schulze2005	Schulze, Wolfgang	A functional grammar of Udi	2005	NA	NA	NA	NA	NA	NA	NA	NA	Manuscript	NA	NA	NA	NA	NA	NA
-book	forker2013	Forker, Diana	A grammar of Hinuq	2013	NA	De Gruyter Mouton	Berlin/Boston	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
-book	desheriev1953	Дешериев, Юнус Д.	Бацбийский язык	1953	Bats	Академия	Москва	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA	NA
+CATEGORY	BIBTEXKEY	AUTHOR	TITLE	YEAR	TITLE_TRANSLATION	PUBLISHER	ADDRESS	PAGES	BOOKTITLE	BOOKTITLE_TRANSLATION	EDITOR	JOURNAL	NOTE	NUMBER	SCHOOL	URL	VOLUME	CONTRIBUTOR	COMMENT	HOWPUBLISHED
+book	bokarev1959	Бокарёв, Евгений А.	Цезские (дидойские) языки Дагестана	1959	Tsezic (Didoic) languages of Daghestan	Академия	Москва													
+phdthesis	hanson2010	Hanson, Rebecca	A grammar of Yine (Piro)	2010											La Trobe University					
+book	krishnamurti2003	Krishnamurti, Bhadriraju	The Dravidian languages	2003		Cambridge University Press	Cambridge													
+unpublished	nasledskova2018	Nasledskova, Polina	The expression of ordinality: a cross-linguistic survey	2018									Term paper							
+unpublished	schulze2005	Schulze, Wolfgang	A functional grammar of Udi	2005									Manuscript							
+book	forker2013	Forker, Diana	A grammar of Hinuq	2013		De Gruyter Mouton	Berlin/Boston													
+book	desheriev1953	Дешериев, Юнус Д.	Бацбийский язык	1953	Bats	Академия	Москва													
