@@ -688,5 +688,4 @@ spelling of          mari        in trans_intrans_imperative.Rmd:23
 spelling of          bolh        in work.Rmd:41
 spelling of          ejno        in work.Rmd:54
 spelling of          gihab        in work.Rmd:45
-spelling of          referr        in work.Rmd:28
 The BibTeX entry          kibrik1999          present in the .Rmd, but absent in the path_encoding.bib
