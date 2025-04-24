@@ -1,0 +1,23 @@
+## {-}
+
+General chapter: [Phonology](phonology.html)
+
+Pharyngeals in the Caucasus are covered extensively in the literature [@catford83; @kodzasov86; @kodzasov87; @colarusso13; @arkhipov19; @belyayev21]. Even thought there is a new model of laryngeal articulation [@esling96; @esling05], it is hard to adjust data created within the old model to the new approach without a new acoustic study, therefor I will use the standard IPA model here, which distinguishes pharyngeals (*ħ*, *ʕ*) and epiglottals (*ʜ*, *ʢ*, *ʡ*).
+
+The most common scenario is one place of articulation (or none): either pharyngeal or epiglottal, with a voiced and a voiceless consonant. The rest of the systems are connected to an epiglottal stop that is merged with different subsystems. There are also rare cases with just one pharyngeal consonant: *ħ* or *ʢ*.
+
+#### Table 1. Inventories of pharyngeals and epiglottals {#t1 -}
+
+```{r}
+library(tidyverse)
+read_tsv("../orig_table/pharyngeals.tsv") %>% 
+  group_by(value1) %>% 
+  summarise(langs = str_c(unique(lang), collapse = ", ")) %>% 
+  ungroup() %>% 
+  slice(c(4, 5, 7, 6, 2, 3, 1)) %>% 
+  rename(`fricative inventory` = value1,
+         languages = langs) %>% 
+  knitr::kable()
+```
+
+## References {-}

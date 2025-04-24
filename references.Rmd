@@ -1,5 +1,4 @@
 ---
-title: "References"
 link-citations: true
 csl: apa.csl
 output:
@@ -20,8 +19,7 @@ library(RefManageR)
 bib <- ReadBib(file = "data/bibliography.bib") 
 ```
 
-
-```{r, warning = FALSE}
+```{r, include=FALSE}
 readxl::read_xlsx("data/biblib.xlsx", sheet = "source type and idiom")  |>
   rowwise() |> 
   mutate(source = str_c('<a href="#ref-', bibtexkey, '">', Cite(bib, bibtexkey), '</a>'),
@@ -47,7 +45,6 @@ readxl::read_xlsx("data/biblib.xlsx", sheet = "source type and idiom")  |>
                 autoWidth = TRUE,
                 dom = 'fltpi'))
 ```
-
 
 ```{r, results = "asis"}
 str_c(c("---", 

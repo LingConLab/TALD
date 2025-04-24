@@ -1,0 +1,32 @@
+## {-}
+
+General chapter: [Phonology](phonology.html)
+
+A notable feature of all indigenous languages of the Caucasus is the presence of ejective consonants that are usually present in most of the possible places of articulation (see the chapter on ejective pʼ). They are not restricted to obstruents but also include affricates (and sometimes fricatives, see the chapter on ejective fricatives). This feature is so widespread that other languages of the Caucasus like the Qax dialect of Azerbaijani [@aslanov74; @daniell2021], the Kaytag dialect of Kumyk [@dmitriyev40: 32], and Ossetic [@abaev64: 6] have borrowed some ejective consonants due to contact or an East Caucasian substrate. It is also worth mentioning that the East Caucasian language Udi lost all ejectives, evidently under the influence of Azerbaijani, and replaced them with non-aspirated obstruents.
+
+Voiceless stops in all indigenous languages of the Caucasus tend to be slightly aspirated. In some languages there is an opposition of aspirated vs. non-aspirated stops (in Russian sources the term *преруптивный* is sometimes used): Udi, Lezgian, Khinalug.
+
+The last important contrast that is present in East Caucasian languages is that of gemination/fortis: it is produced by the prolongation of the closure part and the reduction of aspiration in stops and affricates, and by the prolongation of the fricative part in fricatives. Different scholars treat them differently in different languages, so I decided to use gemination through all phonological chapters. It is important to notice that unlike West Caucasian and Kartvelian languages, some Andic languages and Avar have unique geminated ejectives (e. g. *kʼː*, *tsʼː*) that are produced by prolongation of the burst part of the consonant.
+
+All those series (unaspirated voiceless - aspirated voiceless - geminates - ejectives - geminated ejectives) can be easily distinguished with the analysis of parts of consonants: the closure and post burst region, usually called Voice Onset Time or VOT [@catford77; @cho99; @grawunder10; @grawunder].
+
+In order to analyze these data we decided to look at the following features: type of distinctions and content of distinctions denoted as a consonant symbol `C`. In [Table 1](#m1) we can see the two features together.
+
+#### **Table 1.** Types of contrasts in voiceless obstruents {#t1 -}
+
+```{r}
+library(tidyverse)
+read_tsv("../orig_table/voiceless_obstruents.tsv") %>% 
+  group_by(value1, value2) %>% 
+  summarise(langs = str_c(unique(lang), collapse = ", ")) %>% 
+  ungroup() %>% 
+  slice(c(3, 8, 7, 4, 5, 6, 2, 1)) %>% 
+  rename(type = value1,
+         content = value2, 
+         languages = langs) %>% 
+  knitr::kable()
+```
+
+Even though it is theoretically possible to have a five-way distinction, there is no such case in our dataset. A one-way contrast is present in non-East Caucasian languages (Azerbaijani, Kumyk, Nogai, Tat). The most frequent is a two-way voiceless-ejective distinction that is present in the majority of languages. The most frequent three-way distinction is the voiceless-geminated-ejective distinction. The most frequent four-way distinction is voiceless-geminated-ejective-geminated ejective, which is also reconstructed for the protolanguage [@nikolayev94; @nichols03]. This voiceless-geminated-ejective-geminated is now present exclusively in Avar and Andic languages.
+
+## References {-}
