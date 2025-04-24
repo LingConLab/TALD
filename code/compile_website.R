@@ -55,7 +55,7 @@ walk(list.files("data/orig_bib_tsv", full.names = TRUE), function(bib_tsv){
 readxl::read_xlsx("data/biblib.xlsx", 
                   col_types = c(rep("text", 4),
                                 "numeric", # YEAR 
-                                rep("text", 8),
+                                rep("text", 9),
                                 "numeric", # VOLUME
                                 rep("text", 8))) |> 
   mutate(TITLE = ifelse(is.na(TITLE_TRANSLATION), 
