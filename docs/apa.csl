@@ -495,7 +495,7 @@
         <group delimiter=", ">
           <text variable="title" text-case="title"/>
           <names variable="author">
-            <name initialize-with="." form="short" delimiter="-"/>
+            <name form="short" delimiter="-"/>
           </names>
         </group>
       </if>
