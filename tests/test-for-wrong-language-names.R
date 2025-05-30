@@ -7,7 +7,7 @@ match with `../data/tald_villages.csv`", {
   read_tsv("../data/tald_villages.csv",
            progress = FALSE, 
            show_col_types = FALSE) |> 
-    pull(language) |> 
+    pull(default_level) |> 
     unique() |> 
     sort() ->
     expected_langs

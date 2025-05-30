@@ -7,7 +7,7 @@ columns listed in `expected_columns`", {
   expected_columns <- c("id", 
                         # "family",
                         # "group",
-                        "lang", 
+                        "language", 
                         "idiom", 
                         "type", 
                         "genlang_point", 
