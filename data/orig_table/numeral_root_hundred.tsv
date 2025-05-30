@@ -1,4 +1,4 @@
-id	lang	idiom	type	genlang_point	map	form	value1	value1_name	feature	source	page	comment	contributor	date	example_as_in_source	example	translation_as_in_source	translation	gloss_as_in_source	gloss	example_source	example_page	example_comment
+id	language	idiom	type	genlang_point	map	form	value1	value1_name	feature	source	page	comment	contributor	date	example_as_in_source	example	translation_as_in_source	translation	gloss_as_in_source	gloss	example_source	example_page	example_comment
 1	Upper Andi	Andi	village	yes	yes	bešonu	*bišo-nV ('knife')	Root for ‘hundred’	Root for ‘hundred’	cercvadze1965	345		Maksim Melenchenko	2022-08-19	бешону	bešonu	100	100		hundred	alekseevetal1998	224	
 2	Upper Andi	Rikvani	village	no	yes	bešonu	*bišo-nV ('knife')	Root for ‘hundred’	Root for ‘hundred’	suleymanov1957	303		Maksim Melenchenko	2022-08-19	бешонугу	bešonu-gu	100	100		hundred-NUM	suleymanov1957	303	
 3	Upper Andi	Gagatli	village	no	yes	bešenu	*bišo-nV ('knife')	Root for ‘hundred’	Root for ‘hundred’	salimov2010	132		Maksim Melenchenko	2022-08-19	бешену-гу	bešunu-gu	100	100		hundred-NUM	salimov2010	132	

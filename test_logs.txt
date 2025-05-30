@@ -1,206 +1,63 @@
 The BibTeX entry comriepolinsky1998 from the file path_encoding_bib.tsv has an empty value in the obligatory field PUBLISHER
 Revise the BibTeX entry moroz20_villages from the file phonology_bib.tsv.
-The wrong language name          Mehweb          in the file          agreement_of_adpositions.tsv
-The wrong language name          Juhuri          in the file          agreement_of_adpositions.tsv
-The wrong language name          Mehweb          in the file          caritive_adv.tsv
-The wrong language name          Gigatli          in the file          causatives.tsv
-The wrong language name          Mehweb          in the file          causatives.tsv
-The wrong language name          Juhuri          in the file          causatives.tsv
-The wrong language name          Kajtag          in the file          causatives.tsv
-The wrong language name          Mehweb          in the file          comitative.tsv
-The wrong language name          Juhuri          in the file          comitative.tsv
-The wrong language name          Mehweb          in the file          commemorative.tsv
-The wrong language name          Mitahi-Jalqan          in the file          commemorative.tsv
-The wrong language name          Tsudaqar          in the file          commemorative.tsv
-The wrong language name          Ossetian          in the file          commemorative.tsv
-The wrong language name          Kajtag          in the file          days_after_today.tsv
-The wrong language name          Mehweb          in the file          days_after_today.tsv
-The wrong language name          Juhuri          in the file          days_after_today.tsv
-The wrong language name          Kajtag          in the file          days_before_today.tsv
-The wrong language name          Mehweb          in the file          days_before_today.tsv
-The wrong language name          Juhuri          in the file          days_before_today.tsv
-The wrong language name          Juhuri          in the file          demonstratives.tsv
-The wrong language name          Kajtag          in the file          dominant_adpositional_case.tsv
-The wrong language name          Mehweb          in the file          dominant_adpositional_case.tsv
-The wrong language name          Juhuri          in the file          dominant_adpositional_case.tsv
-The wrong language name          Qushan Agul          in the file          ejective_p.tsv
-The wrong language name          Gigatli          in the file          ejective_p.tsv
-The wrong language name          Kajtag          in the file          ejective_p.tsv
-The wrong language name          Mehweb          in the file          ejective_p.tsv
-The wrong language name          Qushan Agul          in the file          ejective_s.tsv
-The wrong language name          Gigatli          in the file          ejective_s.tsv
-The wrong language name          Kajtag          in the file          ejective_s.tsv
-The wrong language name          Mehweb          in the file          ejective_s.tsv
-The wrong language name          Qushan Agul          in the file          erg_abs_pronouns.tsv
-The wrong language name          Gigatli          in the file          erg_abs_pronouns.tsv
-The wrong language name          Tsudaqar          in the file          erg_abs_pronouns.tsv
-The wrong language name          Kajtag          in the file          erg_abs_pronouns.tsv
-The wrong language name          Mehweb          in the file          erg_abs_pronouns.tsv
-The wrong language name          Juhuri          in the file          erg_abs_pronouns.tsv
-The wrong language name          Gigatli          in the file          evidentiality_tense.tsv
-The wrong language name          Kajtag          in the file          evidentiality_tense.tsv
-The wrong language name          Juhuri          in the file          evidentiality_tense.tsv
-The wrong language name          Mehweb          in the file          farewell_wishes.tsv
-The wrong language name          Kajtag          in the file          farewell_wishes.tsv
-The wrong language name          Juhuri          in the file          farewell_wishes.tsv
-The wrong language name          Qushan Agul          in the file          gemination.tsv
-The wrong language name          Gigatli          in the file          gemination.tsv
-The wrong language name          Kajtag          in the file          gemination.tsv
-The wrong language name          Mehweb          in the file          gemination.tsv
-The wrong language name          Gigatli          in the file          gender_agreement_slot.tsv
-The wrong language name          Mehweb          in the file          gender_agreement_slot.tsv
-The wrong language name          Juhuri          in the file          gender_agreement_slot.tsv
-The wrong language name          Dargwa          in the file          inclusive_exclusive_distinction_in_personal_pronouns.tsv
-The wrong language name          Tsudaqar          in the file          inclusive_exclusive_distinction_in_personal_pronouns.tsv
-The wrong language name          Kajtag          in the file          inclusive_exclusive_distinction_in_personal_pronouns.tsv
-The wrong language name          Mehweb          in the file          inclusive_exclusive_distinction_in_personal_pronouns.tsv
-The wrong language name          Juhuri          in the file          inclusive_exclusive_distinction_in_personal_pronouns.tsv
-The wrong language name          Qushan Agul          in the file          inclusive_exclusive_distinction_in_personal_pronouns.tsv
-The wrong language name          Armenian          in the file          jussive.tsv
-The wrong language name          Mehweb          in the file          jussive.tsv
-The wrong language name          Juhuri          in the file          jussive.tsv
-The wrong language name          Qushan Agul          in the file          labialization.tsv
-The wrong language name          Gigatli          in the file          labialization.tsv
-The wrong language name          Kajtag          in the file          labialization.tsv
-The wrong language name          Mehweb          in the file          labialization.tsv
-The wrong language name          Qushan Agul          in the file          labials.tsv
-The wrong language name          Gigatli          in the file          labials.tsv
-The wrong language name          Mehweb          in the file          labials.tsv
-The wrong language name          Kajtag          in the file          labials.tsv
-The wrong language name          Qushan Agul          in the file          laterals.tsv
-The wrong language name          Gigatli          in the file          laterals.tsv
-The wrong language name          Kajtag          in the file          laterals.tsv
-The wrong language name          Mehweb          in the file          laterals.tsv
-The wrong language name          Qushan Agul          in the file          long_vowels.tsv
-The wrong language name          Gigatli          in the file          long_vowels.tsv
-The wrong language name          Kajtag          in the file          long_vowels.tsv
-The wrong language name          Mehweb          in the file          long_vowels.tsv
-The wrong language name          Armenian          in the file          morning_greetings.tsv
-The wrong language name          Kajtag          in the file          morning_greetings.tsv
-The wrong language name          Mehweb          in the file          morning_greetings.tsv
-The wrong language name          Tsudaqar          in the file          morning_greetings.tsv
-The wrong language name          Juhuri          in the file          morning_greetings.tsv
-The wrong language name          Qushan Agul          in the file          nasalization.tsv
-The wrong language name          Gigatli          in the file          nasalization.tsv
-The wrong language name          Kajtag          in the file          nasalization.tsv
-The wrong language name          Mehweb          in the file          nasalization.tsv
-The wrong language name          Gigatli          in the file          number_of_morphological_slots_in_spatial_forms.tsv
-The wrong language name          Kajtag          in the file          number_of_morphological_slots_in_spatial_forms.tsv
-The wrong language name          Mehweb          in the file          number_of_morphological_slots_in_spatial_forms.tsv
-The wrong language name          Juhuri          in the file          number_of_morphological_slots_in_spatial_forms.tsv
-The wrong language name          Gigatli          in the file          numeral_bases.tsv
-The wrong language name          Mehweb          in the file          numeral_bases.tsv
-The wrong language name          Kajtag          in the file          numeral_bases.tsv
-The wrong language name          Qushan Agul          in the file          numeral_bases.tsv
-The wrong language name          Juhuri          in the file          numeral_bases.tsv
-The wrong language name          Mehweb          in the file          numeral_class.tsv
-The wrong language name          Kajtag          in the file          numeral_class.tsv
-The wrong language name          Qushan Agul          in the file          numeral_class.tsv
-The wrong language name          Juhuri          in the file          numeral_class.tsv
-The wrong language name          Mehweb          in the file          numeral_complex.tsv
-The wrong language name          Kajtag          in the file          numeral_complex.tsv
-The wrong language name          Qushan Agul          in the file          numeral_complex.tsv
-The wrong language name          Juhuri          in the file          numeral_complex.tsv
-The wrong language name          Gigatli          in the file          numeral_crowns_endings.tsv
-The wrong language name          Mehweb          in the file          numeral_crowns_endings.tsv
-The wrong language name          Kajtag          in the file          numeral_crowns_endings.tsv
-The wrong language name          Qushan Agul          in the file          numeral_crowns_endings.tsv
-The wrong language name          Juhuri          in the file          numeral_crowns_endings.tsv
-The wrong language name          Gigatli          in the file          numeral_crowns_ten.tsv
-The wrong language name          Mehweb          in the file          numeral_crowns_ten.tsv
-The wrong language name          Kajtag          in the file          numeral_crowns_ten.tsv
-The wrong language name          Qushan Agul          in the file          numeral_crowns_ten.tsv
-The wrong language name          Juhuri          in the file          numeral_crowns_ten.tsv
-The wrong language name          Mehweb          in the file          numeral_distributives.tsv
-The wrong language name          Kajtag          in the file          numeral_distributives.tsv
-The wrong language name          Qushan Agul          in the file          numeral_distributives.tsv
-The wrong language name          Juhuri          in the file          numeral_distributives.tsv
-The wrong language name          Mehweb          in the file          numeral_hundred.tsv
-The wrong language name          Kajtag          in the file          numeral_hundred.tsv
-The wrong language name          Qushan Agul          in the file          numeral_hundred.tsv
-The wrong language name          Juhuri          in the file          numeral_hundred.tsv
-The wrong language name          Mehweb          in the file          numeral_one.tsv
-The wrong language name          Kajtag          in the file          numeral_one.tsv
-The wrong language name          Qushan Agul          in the file          numeral_one.tsv
-The wrong language name          Juhuri          in the file          numeral_one.tsv
-The wrong language name          Mehweb          in the file          numeral_ordinals.tsv
-The wrong language name          Kajtag          in the file          numeral_ordinals.tsv
-The wrong language name          Qushan Agul          in the file          numeral_ordinals.tsv
-The wrong language name          Juhuri          in the file          numeral_ordinals.tsv
-The wrong language name          Mehweb          in the file          numeral_origin.tsv
-The wrong language name          Kajtag          in the file          numeral_origin.tsv
-The wrong language name          Qushan Agul          in the file          numeral_origin.tsv
-The wrong language name          Juhuri          in the file          numeral_origin.tsv
-The wrong language name          Mehweb          in the file          numeral_regularity.tsv
-The wrong language name          Kajtag          in the file          numeral_regularity.tsv
-The wrong language name          Qushan Agul          in the file          numeral_regularity.tsv
-The wrong language name          Juhuri          in the file          numeral_regularity.tsv
-The wrong language name          Gigatli          in the file          numeral_root_hundred.tsv
-The wrong language name          Mehweb          in the file          numeral_root_hundred.tsv
-The wrong language name          Juhuri          in the file          numeral_root_hundred.tsv
-The wrong language name          Mehweb          in the file          numeral_thousand.tsv
-The wrong language name          Kajtag          in the file          numeral_thousand.tsv
-The wrong language name          Qushan Agul          in the file          numeral_thousand.tsv
-The wrong language name          Juhuri          in the file          numeral_thousand.tsv
-The wrong language name          Mehweb          in the file          numeral_twenty.tsv
-The wrong language name          Kajtag          in the file          numeral_twenty.tsv
-The wrong language name          Qushan Agul          in the file          numeral_twenty.tsv
-The wrong language name          Juhuri          in the file          numeral_twenty.tsv
-The wrong language name          Mehweb          in the file          numeral_twoten.tsv
-The wrong language name          Kajtag          in the file          numeral_twoten.tsv
-The wrong language name          Qushan Agul          in the file          numeral_twoten.tsv
-The wrong language name          Juhuri          in the file          numeral_twoten.tsv
-The wrong language name          Mehweb          in the file          optative.tsv
-The wrong language name          Juhuri          in the file          optative.tsv
-The wrong language name          Kajtag          in the file          ordinals.tsv
-The wrong language name          Mehweb          in the file          ordinals.tsv
-The wrong language name          Qushan Agul          in the file          palatalized_consonants.tsv
-The wrong language name          Gigatli          in the file          palatalized_consonants.tsv
-The wrong language name          Kajtag          in the file          palatalized_consonants.tsv
-The wrong language name          Mehweb          in the file          palatalized_consonants.tsv
-The wrong language name          Juhuri          in the file          particles.tsv
-The wrong language name          Mehweb          in the file          path_encoding.tsv
-The wrong language name          Juhuri          in the file          path_encoding.tsv
-The wrong language name          Gigatli          in the file          perfect.tsv
-The wrong language name          Kajtag          in the file          perfect.tsv
-The wrong language name          Juhuri          in the file          perfect.tsv
-The wrong language name          Qushan Agul          in the file          pharyngealization.tsv
-The wrong language name          Gigatli          in the file          pharyngealization.tsv
-The wrong language name          Kajtag          in the file          pharyngealization.tsv
-The wrong language name          Mehweb          in the file          pharyngealization.tsv
-The wrong language name          Qushan Agul          in the file          pharyngeals.tsv
-The wrong language name          Gigatli          in the file          pharyngeals.tsv
-The wrong language name          Mehweb          in the file          pharyngeals.tsv
-The wrong language name          Kajtag          in the file          pharyngeals.tsv
-The wrong language name          Juhuri          in the file          plural_marking_on_imperatives.tsv
-The wrong language name          Mehweb          in the file          plural_marking_on_imperatives.tsv
-The wrong language name          Qushan Agul          in the file          prohibitives.tsv
-The wrong language name          Mehweb          in the file          prohibitives.tsv
-The wrong language name          Gigatli          in the file          standard_of_comparison.tsv
-The wrong language name          Mehweb          in the file          standard_of_comparison.tsv
-The wrong language name          Juhuri          in the file          standard_of_comparison.tsv
-The wrong language name          Kajtag          in the file          trans_intrans_imperative.tsv
-The wrong language name          Mehweb          in the file          trans_intrans_imperative.tsv
-The wrong language name          Juhuri          in the file          trans_intrans_imperative.tsv
-The wrong language name          Qushan Agul          in the file          umlaut_vowels.tsv
-The wrong language name          Gigatli          in the file          umlaut_vowels.tsv
-The wrong language name          Kajtag          in the file          umlaut_vowels.tsv
-The wrong language name          Mehweb          in the file          umlaut_vowels.tsv
-The wrong language name          Qushan Agul          in the file          uvular_voiced_stop.tsv
-The wrong language name          Gigatli          in the file          uvular_voiced_stop.tsv
-The wrong language name          Kajtag          in the file          uvular_voiced_stop.tsv
-The wrong language name          Mehweb          in the file          uvular_voiced_stop.tsv
-The wrong language name          Qushan Agul          in the file          velar_fricatives.tsv
-The wrong language name          Gigatli          in the file          velar_fricatives.tsv
-The wrong language name          Mehweb          in the file          velar_fricatives.tsv
-The wrong language name          Kajtag          in the file          velar_fricatives.tsv
-The wrong language name          Qushan Agul          in the file          voiceless_obstruents.tsv
-The wrong language name          Gigatli          in the file          voiceless_obstruents.tsv
-The wrong language name          Kajtag          in the file          voiceless_obstruents.tsv
-The wrong language name          Mehweb          in the file          voiceless_obstruents.tsv
-The wrong language name          Gigatli          in the file          work.tsv
-The wrong language name          Kajtag          in the file          work.tsv
-The wrong language name          Mehweb          in the file          work.tsv
+The obligatory column          lang          is absent in the file          agreement_of_adpositions.tsv
+The obligatory column          lang          is absent in the file          caritive_adv.tsv
+The obligatory column          lang          is absent in the file          caritive_attr.tsv
+The obligatory column          lang          is absent in the file          causatives.tsv
+The obligatory column          lang          is absent in the file          comitative.tsv
+The obligatory column          lang          is absent in the file          commemorative.tsv
+The obligatory column          lang          is absent in the file          days_after_today.tsv
+The obligatory column          lang          is absent in the file          days_before_today.tsv
+The obligatory column          lang          is absent in the file          demonstratives.tsv
+The obligatory column          lang          is absent in the file          dominant_adpositional_case.tsv
+The obligatory column          lang          is absent in the file          ejective_p.tsv
+The obligatory column          lang          is absent in the file          ejective_s.tsv
+The obligatory column          lang          is absent in the file          erg_abs_pronouns.tsv
+The obligatory column          lang          is absent in the file          evidentiality_tense.tsv
+The obligatory column          lang          is absent in the file          farewell_wishes.tsv
+The obligatory column          lang          is absent in the file          gemination.tsv
+The obligatory column          lang          is absent in the file          gender_agreement_slot.tsv
+The obligatory column          lang          is absent in the file          inclusive_exclusive_distinction_in_personal_pronouns.tsv
+The obligatory column          lang          is absent in the file          jussive.tsv
+The obligatory column          lang          is absent in the file          labialization.tsv
+The obligatory column          lang          is absent in the file          labials.tsv
+The obligatory column          lang          is absent in the file          laterals.tsv
+The obligatory column          lang          is absent in the file          long_vowels.tsv
+The obligatory column          lang          is absent in the file          morning_greetings.tsv
+The obligatory column          lang          is absent in the file          nasalization.tsv
+The obligatory column          lang          is absent in the file          number_of_morphological_slots_in_spatial_forms.tsv
+The obligatory column          lang          is absent in the file          numeral_bases.tsv
+The obligatory column          lang          is absent in the file          numeral_class.tsv
+The obligatory column          lang          is absent in the file          numeral_complex.tsv
+The obligatory column          lang          is absent in the file          numeral_crowns_endings.tsv
+The obligatory column          lang          is absent in the file          numeral_crowns_ten.tsv
+The obligatory column          lang          is absent in the file          numeral_distributives.tsv
+The obligatory column          lang          is absent in the file          numeral_hundred.tsv
+The obligatory column          lang          is absent in the file          numeral_one.tsv
+The obligatory column          lang          is absent in the file          numeral_ordinals.tsv
+The obligatory column          lang          is absent in the file          numeral_origin.tsv
+The obligatory column          lang          is absent in the file          numeral_regularity.tsv
+The obligatory column          lang          is absent in the file          numeral_root_hundred.tsv
+The obligatory column          lang          is absent in the file          numeral_thousand.tsv
+The obligatory column          lang          is absent in the file          numeral_twenty.tsv
+The obligatory column          lang          is absent in the file          numeral_twoten.tsv
+The obligatory column          lang          is absent in the file          optative.tsv
+The obligatory column          lang          is absent in the file          ordinals.tsv
+The obligatory column          lang          is absent in the file          palatalized_consonants.tsv
+The obligatory column          lang          is absent in the file          particles.tsv
+The obligatory column          lang          is absent in the file          path_encoding.tsv
+The obligatory column          lang          is absent in the file          perfect.tsv
+The obligatory column          lang          is absent in the file          pharyngealization.tsv
+The obligatory column          lang          is absent in the file          pharyngeals.tsv
+The obligatory column          lang          is absent in the file          plural_marking_on_imperatives.tsv
+The obligatory column          lang          is absent in the file          prohibitives.tsv
+The obligatory column          lang          is absent in the file          standard_of_comparison.tsv
+The obligatory column          lang          is absent in the file          trans_intrans_imperative.tsv
+The obligatory column          lang          is absent in the file          umlaut_vowels.tsv
+The obligatory column          lang          is absent in the file          uvular_voiced_stop.tsv
+The obligatory column          lang          is absent in the file          velar_fricatives.tsv
+The obligatory column          lang          is absent in the file          voiceless_obstruents.tsv
+The obligatory column          lang          is absent in the file          work.tsv
 The wrong village dialect name Hinuq in the file agreement_of_adpositions.tsv
 The wrong village dialect name Kwantlada in the file agreement_of_adpositions.tsv
 The wrong village dialect name Hinuq in the file caritive_adv.tsv

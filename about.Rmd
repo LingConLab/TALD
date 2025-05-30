@@ -73,7 +73,8 @@ read_tsv("data/orig_table/morning_greetings.tsv", show_col_types = FALSE, guess_
 feature_dataset
 
 read_tsv('data/tald_villages.csv', show_col_types = FALSE, guess_max = 2000)  |>
-  select(village, rus_village, lat, lon, gltc_lang, lang, aff, family, standard, default_level, dialect_toplevel, dialect_nt1, dialect_nt2, dialect_nt3, village_dialect, lang_col, aff_col) |> 
+  select(village, rus_village, lat, lon, gltc_lang, aff, family, standard, default_level, dialect_toplevel, dialect_nt1, dialect_nt2, dialect_nt3, village_dialect, lang_col, aff_col) |> 
+  mutate(language = default_level) |>
   pivot_longer(names_to = 'type', values_to = 'idiom', standard:village_dialect) |> 
   filter(!is.na(idiom)) |> 
   mutate(type = case_when(type == 'standard' ~ 'language',
@@ -99,10 +100,11 @@ coordinates |>
 
 feature_dataset |> 
   mutate(idiom = str_remove(idiom, 'Standard ')) |> 
-  inner_join(coordinates, by = c('type', 'idiom', 'lang'), relationship = 'many-to-many') |> 
+  inner_join(coordinates, by = c('type', 'idiom', 'language'), relationship = 'many-to-many') |> 
   left_join(lang4map) |> 
   mutate(display = 'show languages') ->
   all_data
+
 feature_dataset |> 
   filter(map == 'yes',
          genlang_point == 'yes') |>
@@ -135,7 +137,7 @@ map.feature(general_datapoints_map$lang4map,
   map.feature(general_datapoints_map$lang4map,
               latitude = general_datapoints_map$lat,
               longitude = general_datapoints_map$lon,
-              features = general_datapoints_map$lang,
+              features = general_datapoints_map$language,
               color = general_datapoints_map$lang_col,
               tile = 'Esri.WorldGrayCanvas',
               legend = FALSE,
@@ -172,7 +174,7 @@ map.feature(all_data_filtered$lang4map,
             title = all_data_filtered$value1_name[1],
             legend = TRUE,
             legend.position = 'bottomleft', 
-            label = all_data_filtered$lang,
+            label = all_data_filtered$language,
             zoom.control = TRUE,
             width = 8,
             popup = paste(all_data_filtered$village, '|',
@@ -181,7 +183,7 @@ map.feature(all_data_filtered$lang4map,
   map.feature(all_data_filtered$lang4map,
               latitude = all_data_filtered$lat,
               longitude = all_data_filtered$lon,
-              features = all_data_filtered$lang,
+              features = all_data_filtered$language,
               color = all_data_filtered$lang_col,
               tile = 'Esri.WorldGrayCanvas',
               legend = FALSE,
@@ -232,7 +234,7 @@ map.feature(data_granularity_map$lang4map,
             title = data_granularity_map$value1_name[1],
             legend = TRUE,
             legend.position = 'bottomleft', 
-            label = data_granularity_map$lang,
+            label = data_granularity_map$language,
             zoom.control = TRUE,
             control = data_granularity_map$type,
             popup = data_granularity_map$popup)

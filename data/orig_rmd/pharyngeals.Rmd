@@ -12,7 +12,7 @@ The most common scenario is one place of articulation (or none): either pharynge
 library(tidyverse)
 read_tsv("../orig_table/pharyngeals.tsv") %>% 
   group_by(value1) %>% 
-  summarise(langs = str_c(unique(lang), collapse = ", ")) %>% 
+  summarise(langs = str_c(unique(language), collapse = ", ")) %>% 
   ungroup() %>% 
   slice(c(4, 5, 7, 6, 2, 3, 1)) %>% 
   rename(`fricative inventory` = value1,

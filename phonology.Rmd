@@ -66,18 +66,18 @@ The map below shows the size of the phoneme inventories in languages of the east
 
 ```{r}
 set.seed(42)
-df %>% 
-  distinct(lang, source, glottocode) %>% 
-  group_by(lang) %>% 
-  slice_sample(n = 1) %>% 
+df |> 
+  distinct(lang, source, glottocode) |> 
+  group_by(lang) |> 
+  slice_sample(n = 1) |> 
   mutate(filter_languages = TRUE) ->
   filter_for_maps
 ```
 
 ```{r}
-df %>% 
-  left_join(filter_for_maps) %>% 
-  filter(filter_languages) %>% 
+df |> 
+  left_join(filter_for_maps) |> 
+  filter(filter_languages) |> 
   count(lang, source, glottocode) ->
   for_map
 
@@ -97,19 +97,19 @@ As we can see, the inventory size of the languages in our dataset range from `r 
 ph <- phoible.feature(na.rm = FALSE)
 
 set.seed(42)
-ph %>% 
-  distinct(language, inventoryid, glottocode) %>% 
-  group_by(language) %>% 
-  sample_n(1) %>% 
-  anti_join(df, by = "glottocode") %>% 
+ph |> 
+  distinct(language, inventoryid, glottocode) |> 
+  group_by(language) |> 
+  sample_n(1) |> 
+  anti_join(df, by = "glottocode") |> 
   pull(inventoryid) ->
   ph_sample
 ```
 
 ```{r}
-ph %>% 
-  filter(inventoryid %in% ph_sample) %>% 
-  count(language, inventoryid) %>% 
+ph |> 
+  filter(inventoryid %in% ph_sample) |> 
+  count(language, inventoryid) |> 
   ggplot(aes(n))+
   geom_density(data = for_map, aes(x = n))+
   geom_density(color = "red")+
@@ -125,10 +125,10 @@ As demonstrated on the plot, East Caucasian languages in general have big segmen
 We can compare the consonant inventories in the same way we compared the whole phoneme inventories earlier:
 
 ```{r}
-df %>% 
-  left_join(filter_for_maps) %>% 
+df |> 
+  left_join(filter_for_maps) |> 
   filter(filter_languages,
-         segment_type == "consonant") %>% 
+         segment_type == "consonant") |> 
   count(lang, source) ->
   for_map
 
@@ -144,10 +144,10 @@ As we can see, the inventory size differs from `r min(range(for_map$n))` (Azerba
 
 ```{r}
 set.seed(42)
-ph %>% 
+ph |> 
   filter(inventoryid %in% ph_sample,
-         segmentclass == "consonant") %>% 
-  count(language, inventoryid) %>% 
+         segmentclass == "consonant") |> 
+  count(language, inventoryid) |> 
   ggplot(aes(n))+
   geom_density(data = for_map, aes(x = n))+
   geom_density(size = 1, color = "red")+
@@ -163,10 +163,10 @@ As demonstrated on the plot, the majority of languages from PHOIBLE have less co
 We can do the same comparison for the vowel inventories:
 
 ```{r}
-df %>% 
-  left_join(filter_for_maps) %>% 
+df |> 
+  left_join(filter_for_maps) |> 
   filter(filter_languages,
-         segment_type == "vowel" | segment_type == "diphthong") %>% 
+         segment_type == "vowel" | segment_type == "diphthong") |> 
   count(lang, source) ->
   for_map
 
@@ -181,10 +181,10 @@ map.feature(languages = for_map$lang,
 The vowel inventory size ranges from `r min(range(for_map$n))` (Avar) to `r max(range(for_map$n))` (Chechen). Again we can compare the obtained numbers with the PHOIBLE database [@phoible]:
 
 ```{r}
-ph %>% 
+ph |> 
   filter(segmentclass == "vowel",
-         inventoryid %in% ph_sample) %>% 
-  count(language, inventoryid) %>% 
+         inventoryid %in% ph_sample) |> 
+  count(language, inventoryid) |> 
   ggplot(aes(n))+
   geom_density(data = for_map, aes(x = n))+
   geom_density(size = 1, color = "red")+

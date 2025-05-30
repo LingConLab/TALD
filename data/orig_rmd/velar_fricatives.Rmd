@@ -10,12 +10,12 @@ The presence of velar fricatives is a complicated feature, since many Russian sc
 
 ```{r}
 library(tidyverse)
-read_tsv("../orig_table/velar_fricatives.tsv") %>% 
-  group_by(value1) %>% 
-  summarise(langs = str_c(unique(lang), collapse = ", ")) %>% 
-  ungroup() %>% 
-  slice(c(4, 5, 7, 6, 2, 3, 1)) %>% 
+read_tsv("../orig_table/velar_fricatives.tsv") |> 
+  group_by(value1) |> 
+  summarise(langs = str_c(unique(language), collapse = ", ")) |> 
+  ungroup() |> 
+  slice(c(4, 5, 7, 6, 2, 3, 1)) |> 
   rename(`fricative inventory` = value1,
-         languages = langs) %>% 
+         languages = langs) |> 
   knitr::kable()
 ```

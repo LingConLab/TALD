@@ -47,14 +47,14 @@ map(list.files("data/orig_table", full.names = TRUE), function(file){
     columns_rename
   
   feature_dataset |> 
-    select(lang, idiom, matches("value\\d")) |> 
+    select(language, idiom, matches("value\\d")) |> 
     select(-matches("numeric")) |> 
     rename_with(function(x){columns_rename$value[match(x, columns_rename$name)]}, matches('value\\d{1,}$')) |> 
     select(-matches("value\\d{1,}\\_name")) |> 
     mutate(across(everything(), as.character)) |> 
-    pivot_longer(names_to = "Feature", values_to = "Value", -c(lang:idiom)) |> 
+    pivot_longer(names_to = "Feature", values_to = "Value", -c(language:idiom)) |> 
     filter(!is.na(Value)) |> 
-    rename(Language=lang, 
+    rename(Language=language, 
            Idiom = idiom) |> 
     mutate(filename = str_remove(file, "data/orig_table/"),
            filename = str_remove(filename, ".tsv$")) |> 

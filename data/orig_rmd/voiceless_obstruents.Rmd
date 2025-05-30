@@ -16,14 +16,14 @@ In order to analyze these data we decided to look at the following features: typ
 
 ```{r}
 library(tidyverse)
-read_tsv("../orig_table/voiceless_obstruents.tsv") %>% 
-  group_by(value1, value2) %>% 
-  summarise(langs = str_c(unique(lang), collapse = ", ")) %>% 
-  ungroup() %>% 
-  slice(c(3, 8, 7, 4, 5, 6, 2, 1)) %>% 
+read_tsv("../orig_table/voiceless_obstruents.tsv") |> 
+  group_by(value1, value2) |> 
+  summarise(langs = str_c(unique(language), collapse = ", ")) |> 
+  ungroup() |> 
+  slice(c(3, 8, 7, 4, 5, 6, 2, 1)) |> 
   rename(type = value1,
          content = value2, 
-         languages = langs) %>% 
+         languages = langs) |> 
   knitr::kable()
 ```
 
