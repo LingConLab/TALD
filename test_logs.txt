@@ -93,7 +93,6 @@ The wrong language name          Mehweb          in the file          numeral_ba
 The wrong language name          Kajtag          in the file          numeral_bases.tsv
 The wrong language name          Qushan Agul          in the file          numeral_bases.tsv
 The wrong language name          Juhuri          in the file          numeral_bases.tsv
-The wrong language name          Maksim Melenchenko          in the file          numeral_class.tsv
 The wrong language name          Mehweb          in the file          numeral_class.tsv
 The wrong language name          Kajtag          in the file          numeral_class.tsv
 The wrong language name          Qushan Agul          in the file          numeral_class.tsv
@@ -112,11 +111,9 @@ The wrong language name          Mehweb          in the file          numeral_cr
 The wrong language name          Kajtag          in the file          numeral_crowns_ten.tsv
 The wrong language name          Qushan Agul          in the file          numeral_crowns_ten.tsv
 The wrong language name          Juhuri          in the file          numeral_crowns_ten.tsv
-The wrong language name          Maksim Melenchenko          in the file          numeral_distributives.tsv
 The wrong language name          Mehweb          in the file          numeral_distributives.tsv
 The wrong language name          Kajtag          in the file          numeral_distributives.tsv
 The wrong language name          Qushan Agul          in the file          numeral_distributives.tsv
-NA
 The wrong language name          Juhuri          in the file          numeral_distributives.tsv
 The wrong language name          Mehweb          in the file          numeral_hundred.tsv
 The wrong language name          Kajtag          in the file          numeral_hundred.tsv
@@ -130,7 +127,6 @@ The wrong language name          Mehweb          in the file          numeral_or
 The wrong language name          Kajtag          in the file          numeral_ordinals.tsv
 The wrong language name          Qushan Agul          in the file          numeral_ordinals.tsv
 The wrong language name          Juhuri          in the file          numeral_ordinals.tsv
-The wrong language name          Maksim Melenchenko          in the file          numeral_origin.tsv
 The wrong language name          Mehweb          in the file          numeral_origin.tsv
 The wrong language name          Kajtag          in the file          numeral_origin.tsv
 The wrong language name          Qushan Agul          in the file          numeral_origin.tsv
@@ -256,6 +252,7 @@ The wrong village dialect name Hinuq in the file farewell_wishes.tsv
 The wrong village dialect name Hunzib in the file farewell_wishes.tsv
 The wrong village dialect name Khinalug in the file farewell_wishes.tsv
 The wrong village dialect name Kwantlada in the file farewell_wishes.tsv
+NA
 The wrong village dialect name Gelmets in the file farewell_wishes.tsv
 The wrong village dialect name Budukh in the file gemination.tsv
 The wrong village dialect name Hinuq in the file gemination.tsv

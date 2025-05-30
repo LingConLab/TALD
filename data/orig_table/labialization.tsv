@@ -1,59 +1,59 @@
-id	lang	idiom	type	genlang_point	map	feature	value1_name	value1	source	page	contributor	date	idiom_new	language_new	type_new
-1	Qushan Agul	Burshag	village	no	yes	Presence of labialized consonants	Presence of labialized consonants	attested	kibrikkodzasov1990	340--341	Viola Ivanova	2017.05.06	Burshag	Qushan Agul	village
-2	Agul	Huppuq'	village	yes	yes	Presence of labialized consonants	Presence of labialized consonants	attested	maisakganenkov2016		George Moroz	2021.10.04			
-3	Northern Akhvakh	Northern Akhvakh	language	yes	yes	Presence of labialized consonants	Presence of labialized consonants	attested	creisselsdraft2020		George Moroz	2021.10.04	Northern Akhvakh	Northern Akhvakh	language
-4	Northern Akhvakh	Tad-Magitl'	village	no	yes	Presence of labialized consonants	Presence of labialized consonants	attested	kibrikkodzasov1990	322--323	Viola Ivanova	2017.05.06	Tad-Magitl'	Northern Akhvakh	village
-5	Upper Andi	Andi	village	no	yes	Presence of labialized consonants	Presence of labialized consonants	attested	kibrikkodzasov1990	321	George Moroz	2017.05.06	Andi	Upper Andi	village
-6	Upper Andi	Zilo	village	yes	yes	Presence of labialized consonants	Presence of labialized consonants	attested	kayeetaldraft2020		George Moroz	2021.10.04	Zilo	Upper Andi	village
-7	Archi	Archib	village	yes	yes	Presence of labialized consonants	Presence of labialized consonants	attested	kibrik1994a	300	George Moroz	2021.10.04			
-8	Archi	Archib	village	no	yes	Presence of labialized consonants	Presence of labialized consonants	attested	kibrikkodzasov1990	335--336	Viola Ivanova	2017.05.06			
-9	Eastern Armenian	Eastern Armenian	language	yes	yes	Presence of labialized consonants	Presence of labialized consonants	not attested	dum-tragut2009	17, 19, 18, 20	George Moroz	2021.10.04	Eastern Armenian	Eastern Armenian	language
-10	Avar	Chadakolob	village	no	yes	Presence of labialized consonants	Presence of labialized consonants	attested	kibrikkodzasov1990	320	Viola Ivanova	2017.05.06			
-11	Avar	Standard Avar	language	yes	yes	Presence of labialized consonants	Presence of labialized consonants	not attested	alekseevataev1997	35	George Moroz	2021.10.04			
-12	Azerbaijani	Standard Azerbaijani	language	yes	yes	Presence of labialized consonants	Presence of labialized consonants	not attested	shiralievsevortyan1971	16--26	George Moroz	2021.10.04			
-13	Bagvalal	Kvanada	village	yes	yes	Presence of labialized consonants	Presence of labialized consonants	attested	kibrik2001	35--46	George Moroz	2021.10.04			
-14	Bezhta	Bezhta	dialect_toplevel	yes	yes	Presence of labialized consonants	Presence of labialized consonants	not attested	comrieetal2015	86	George Moroz	2021.10.04			
-15	Bezhta	Tlyadal	village	no	yes	Presence of labialized consonants	Presence of labialized consonants	not attested	kibrikkodzasov1990	330	Viola Ivanova	2017.05.06			
-16	Botlikh	Botlikh	village	yes	yes	Presence of labialized consonants	Presence of labialized consonants	attested	alexeyevverheesdraft2020		George Moroz	2021.10.04			
-17	Budukh	Budukh	village	yes	yes	Presence of labialized consonants	Presence of labialized consonants	not attested	kibrikkodzasov1990	345	George Moroz	2017.05.06			
-18	Budukh	Budukh	village	no	no	Presence of labialized consonants	Presence of labialized consonants	not attested	talibov2007	35	George Moroz	2021.10.04			
-19	Gigatli	Gigatli	language	yes	yes	Presence of labialized consonants	Presence of labialized consonants	attested	kibrikkodzasov1990	324	George Moroz	2017.05.06	Gigatli	Gigatli	language
-20	Chamalal	Upper Gakvari	dialect_nt1	no	yes	Presence of labialized consonants	Presence of labialized consonants	attested	bokarev1949a	12, 15	George Moroz	2021.10.04			
-21	Chechen	Standard Chechen	language	yes	yes	Presence of labialized consonants	Presence of labialized consonants	not attested	nichols1994	4	George Moroz	2021.10.04			
-22	Chirag	Chirag	language	no	yes	Presence of labialized consonants	Presence of labialized consonants	attested	kibrikkodzasov1990	334	George Moroz	2017.05.06	Chirag	Chirag	language
-23	Kajtag	Kajtag	language	no	yes	Presence of labialized consonants	Presence of labialized consonants	attested	temirbulatova2004	39	George Moroz	2021.10.04	Kajtag	Kajtag	language
-24	Mehweb	Mehweb	language	yes	yes	Presence of labialized consonants	Presence of labialized consonants	attested	moroz2019	22--34	George Moroz	2021.10.04	Mehweb	Mehweb	language
-25	Southwestern Dargwa	Tanti	dialect_toplevel	no	yes	Presence of labialized consonants	Presence of labialized consonants	attested	sumbatovalander2014	40--41	George Moroz	2021.10.04	Tanti	Southwestern Dargwa	dialect_toplevel
-26	Georgian	Standard Georgian	language	yes	yes	Presence of labialized consonants	Presence of labialized consonants	not attested	hewitt1995	19	George Moroz	2021.10.04			
-27	Godoberi	Godoberi	village	yes	yes	Presence of labialized consonants	Presence of labialized consonants	attested	morozetaldraft2021	2	George Moroz	2021.10.04			
-28	Hinuq	Hinuq	village	yes	yes	Presence of labialized consonants	Presence of labialized consonants	attested	forker2013	29	George Moroz	2021.10.04			
-29	Hinuq	Hinuq	village	no	yes	Presence of labialized consonants	Presence of labialized consonants	attested	kibrikkodzasov1990	329	George Moroz	2017.05.06			
-30	Hunzib	Hunzib	language	yes	yes	Presence of labialized consonants	Presence of labialized consonants	not attested	isakovxalilov2001	260	George Moroz	2021.10.04	Hunzib	Hunzib	language
-31	Hunzib	Hunzib	language	no	yes	Presence of labialized consonants	Presence of labialized consonants	attested	kibrikkodzasov1990	332	George Moroz	2017.05.06	Hunzib	Hunzib	language
-32	Ingush	Standard Ingush	language	yes	yes	Presence of labialized consonants	Presence of labialized consonants	not attested	nichols2011	20	George Moroz	2021.10.04			
-33	Karata-Tukita	Karata	dialect_toplevel	yes	yes	Presence of labialized consonants	Presence of labialized consonants	not attested	magomedbekova1971	12--18	George Moroz	2021.10.04	Karata	Karata-Tukita	dialect_toplevel
-34	Tukita	Tukita	language	yes	yes	Presence of labialized consonants	Presence of labialized consonants	attested	gadzhieva2007	8	George Moroz	2021.10.04	Tukita	Tukita	language
-35	Khinalug	Khinalug	village	yes	yes	Presence of labialized consonants	Presence of labialized consonants	not attested	kibrik1994b	370	George Moroz	2021.10.04			
-36	Khinalug	Khinalug	village	no	no	Presence of labialized consonants	Presence of labialized consonants	not attested	kibrikkodzasov1990	346--347	Viola Ivanova	2017.05.06			
-37	Khwarshi	Inkhoqwari	village	yes	yes	Presence of labialized consonants	Presence of labialized consonants	not attested	kibrikkodzasov1990	327	George Moroz	2017.05.06			
-38	Khwarshi	Kwantlada	village	yes	yes	Presence of labialized consonants	Presence of labialized consonants	attested	khalilova2009	13	George Moroz	2021.10.04			
-39	Kryz	Kryz Proper	dialect_toplevel	yes	yes	Presence of labialized consonants	Presence of labialized consonants	attested	saadiev1994	409	George Moroz	2021.10.04	Kryz Proper	Kryz	dialect_toplevel
-40	Kryz	Kryz Proper	dialect_toplevel	no	yes	Presence of labialized consonants	Presence of labialized consonants	attested	kibrikkodzasov1990	345	Viola Ivanova	2017.05.06	Kryz Proper	Kryz	dialect_toplevel
-41	Kumyk	Standard Kumyk	language	yes	yes	Presence of labialized consonants	Presence of labialized consonants	not attested	abdullaevaetal2014	33--56	George Moroz	2021.10.04			
-42	Lak	Khosrekh	village	yes	yes	Presence of labialized consonants	Presence of labialized consonants	attested	kibrikkodzasov1990	333	Viola Ivanova	2017.05.06			
-43	Lezgian	Khlyut	village	no	yes	Presence of labialized consonants	Presence of labialized consonants	attested	kibrikkodzasov1990	341	George Moroz	2017.05.06			
-44	Lezgian	Standard Lezgian	language	yes	yes	Presence of labialized consonants	Presence of labialized consonants	attested	gaydarovetal2009	56	George Moroz	2021.10.04			
-45	Nogai	Standard Nogai	language	yes	yes	Presence of labialized consonants	Presence of labialized consonants	not attested	baskakov1940	27	George Moroz	2021.10.04			
-46	Rutul	Luchek	village	yes	yes	Presence of labialized consonants	Presence of labialized consonants	attested	alekseev1994	215	George Moroz	2021.10.04			
-47	Rutul	Luchek	village	no	yes	Presence of labialized consonants	Presence of labialized consonants	attested	kibrikkodzasov1990	342--343	Viola Ivanova	2017.05.06			
-48	Tabasaran	Dyubek	village	no	yes	Presence of labialized consonants	Presence of labialized consonants	attested	kibrikkodzasov1990	336	George Moroz	2017.05.06			
-49	Tabasaran	Standard Tabasaran	language	yes	yes	Presence of labialized consonants	Presence of labialized consonants	attested	alekseevshixalieva2003	29	George Moroz	2021.10.04			
-50	Tat	Muslim Tat	dialect_toplevel	yes	yes	Presence of labialized consonants	Presence of labialized consonants	not attested	griunberg1963	17	George Moroz	2021.10.04			
-51	Tindi	Tindi	village	no	yes	Presence of labialized consonants	Presence of labialized consonants	attested	kibrikkodzasov1990	326--327	Viola Ivanova	2017.05.06			
-52	Tindi	Tindi	village	yes	yes	Presence of labialized consonants	Presence of labialized consonants	attested	magomedova2012		George Moroz	2021.10.04			
-53	Tsakhur	Mikik	village	no	yes	Presence of labialized consonants	Presence of labialized consonants	attested	kibrikkodzasov1990	343	George Moroz	2017.05.06			
-54	Tsakhur	Mishlesh	village	yes	yes	Presence of labialized consonants	Presence of labialized consonants	attested	kibrik1999	16	George Moroz	2021.10.04			
-55	Tsez	Kidero	village	no	yes	Presence of labialized consonants	Presence of labialized consonants	attested	kibrikkodzasov1990	328	Viola Ivanova	2017.05.06			
-56	Tsez	Sagada	village	yes	yes	Presence of labialized consonants	Presence of labialized consonants	not attested	wilson2021	388	George Moroz	2021.10.04			
-57	Tsova-Tush	Zemo-Alvani	village	yes	yes	Presence of labialized consonants	Presence of labialized consonants	not attested	holiskygagua1994	150	George Moroz	2021.10.04			
-58	Udi	Nizh	village	yes	yes	Presence of labialized consonants	Presence of labialized consonants	not attested	kibrikkodzasov1990	347	Viola Ivanova	2017.05.06			
+id	lang	idiom	type	genlang_point	map	feature	value1_name	value1	source	page	contributor	date
+1	Qushan Agul	Burshag	village	no	yes	Presence of labialized consonants	Presence of labialized consonants	attested	kibrikkodzasov1990	340--341	Viola Ivanova	2017.05.06
+2	Agul	Huppuq'	village	yes	yes	Presence of labialized consonants	Presence of labialized consonants	attested	maisakganenkov2016		George Moroz	2021.10.04
+3	Northern Akhvakh	Northern Akhvakh	language	yes	yes	Presence of labialized consonants	Presence of labialized consonants	attested	creisselsdraft2020		George Moroz	2021.10.04
+4	Northern Akhvakh	Tad-Magitl'	village	no	yes	Presence of labialized consonants	Presence of labialized consonants	attested	kibrikkodzasov1990	322--323	Viola Ivanova	2017.05.06
+5	Upper Andi	Andi	village	no	yes	Presence of labialized consonants	Presence of labialized consonants	attested	kibrikkodzasov1990	321	George Moroz	2017.05.06
+6	Upper Andi	Zilo	village	yes	yes	Presence of labialized consonants	Presence of labialized consonants	attested	kayeetaldraft2020		George Moroz	2021.10.04
+7	Archi	Archib	village	yes	yes	Presence of labialized consonants	Presence of labialized consonants	attested	kibrik1994a	300	George Moroz	2021.10.04
+8	Archi	Archib	village	no	yes	Presence of labialized consonants	Presence of labialized consonants	attested	kibrikkodzasov1990	335--336	Viola Ivanova	2017.05.06
+9	Eastern Armenian	Eastern Armenian	language	yes	yes	Presence of labialized consonants	Presence of labialized consonants	not attested	dum-tragut2009	17, 19, 18, 20	George Moroz	2021.10.04
+10	Avar	Chadakolob	village	no	yes	Presence of labialized consonants	Presence of labialized consonants	attested	kibrikkodzasov1990	320	Viola Ivanova	2017.05.06
+11	Avar	Standard Avar	language	yes	yes	Presence of labialized consonants	Presence of labialized consonants	not attested	alekseevataev1997	35	George Moroz	2021.10.04
+12	Azerbaijani	Standard Azerbaijani	language	yes	yes	Presence of labialized consonants	Presence of labialized consonants	not attested	shiralievsevortyan1971	16--26	George Moroz	2021.10.04
+13	Bagvalal	Kvanada	village	yes	yes	Presence of labialized consonants	Presence of labialized consonants	attested	kibrik2001	35--46	George Moroz	2021.10.04
+14	Bezhta	Bezhta	dialect_toplevel	yes	yes	Presence of labialized consonants	Presence of labialized consonants	not attested	comrieetal2015	86	George Moroz	2021.10.04
+15	Bezhta	Tlyadal	village	no	yes	Presence of labialized consonants	Presence of labialized consonants	not attested	kibrikkodzasov1990	330	Viola Ivanova	2017.05.06
+16	Botlikh	Botlikh	village	yes	yes	Presence of labialized consonants	Presence of labialized consonants	attested	alexeyevverheesdraft2020		George Moroz	2021.10.04
+17	Budukh	Budukh	village	yes	yes	Presence of labialized consonants	Presence of labialized consonants	not attested	kibrikkodzasov1990	345	George Moroz	2017.05.06
+18	Budukh	Budukh	village	no	no	Presence of labialized consonants	Presence of labialized consonants	not attested	talibov2007	35	George Moroz	2021.10.04
+19	Gigatli	Gigatli	language	yes	yes	Presence of labialized consonants	Presence of labialized consonants	attested	kibrikkodzasov1990	324	George Moroz	2017.05.06
+20	Chamalal	Upper Gakvari	dialect_nt1	no	yes	Presence of labialized consonants	Presence of labialized consonants	attested	bokarev1949a	12, 15	George Moroz	2021.10.04
+21	Chechen	Standard Chechen	language	yes	yes	Presence of labialized consonants	Presence of labialized consonants	not attested	nichols1994	4	George Moroz	2021.10.04
+22	Chirag	Chirag	language	no	yes	Presence of labialized consonants	Presence of labialized consonants	attested	kibrikkodzasov1990	334	George Moroz	2017.05.06
+23	Kajtag	Kajtag	language	no	yes	Presence of labialized consonants	Presence of labialized consonants	attested	temirbulatova2004	39	George Moroz	2021.10.04
+24	Mehweb	Mehweb	language	yes	yes	Presence of labialized consonants	Presence of labialized consonants	attested	moroz2019	22--34	George Moroz	2021.10.04
+25	Southwestern Dargwa	Tanti	dialect_toplevel	no	yes	Presence of labialized consonants	Presence of labialized consonants	attested	sumbatovalander2014	40--41	George Moroz	2021.10.04
+26	Georgian	Standard Georgian	language	yes	yes	Presence of labialized consonants	Presence of labialized consonants	not attested	hewitt1995	19	George Moroz	2021.10.04
+27	Godoberi	Godoberi	village	yes	yes	Presence of labialized consonants	Presence of labialized consonants	attested	morozetaldraft2021	2	George Moroz	2021.10.04
+28	Hinuq	Hinuq	village	yes	yes	Presence of labialized consonants	Presence of labialized consonants	attested	forker2013	29	George Moroz	2021.10.04
+29	Hinuq	Hinuq	village	no	yes	Presence of labialized consonants	Presence of labialized consonants	attested	kibrikkodzasov1990	329	George Moroz	2017.05.06
+30	Hunzib	Hunzib	language	yes	yes	Presence of labialized consonants	Presence of labialized consonants	not attested	isakovxalilov2001	260	George Moroz	2021.10.04
+31	Hunzib	Hunzib	language	no	yes	Presence of labialized consonants	Presence of labialized consonants	attested	kibrikkodzasov1990	332	George Moroz	2017.05.06
+32	Ingush	Standard Ingush	language	yes	yes	Presence of labialized consonants	Presence of labialized consonants	not attested	nichols2011	20	George Moroz	2021.10.04
+33	Karata-Tukita	Karata	dialect_toplevel	yes	yes	Presence of labialized consonants	Presence of labialized consonants	not attested	magomedbekova1971	12--18	George Moroz	2021.10.04
+34	Tukita	Tukita	language	yes	yes	Presence of labialized consonants	Presence of labialized consonants	attested	gadzhieva2007	8	George Moroz	2021.10.04
+35	Khinalug	Khinalug	village	yes	yes	Presence of labialized consonants	Presence of labialized consonants	not attested	kibrik1994b	370	George Moroz	2021.10.04
+36	Khinalug	Khinalug	village	no	no	Presence of labialized consonants	Presence of labialized consonants	not attested	kibrikkodzasov1990	346--347	Viola Ivanova	2017.05.06
+37	Khwarshi	Inkhoqwari	village	yes	yes	Presence of labialized consonants	Presence of labialized consonants	not attested	kibrikkodzasov1990	327	George Moroz	2017.05.06
+38	Khwarshi	Kwantlada	village	yes	yes	Presence of labialized consonants	Presence of labialized consonants	attested	khalilova2009	13	George Moroz	2021.10.04
+39	Kryz	Kryz Proper	dialect_toplevel	yes	yes	Presence of labialized consonants	Presence of labialized consonants	attested	saadiev1994	409	George Moroz	2021.10.04
+40	Kryz	Kryz Proper	dialect_toplevel	no	yes	Presence of labialized consonants	Presence of labialized consonants	attested	kibrikkodzasov1990	345	Viola Ivanova	2017.05.06
+41	Kumyk	Standard Kumyk	language	yes	yes	Presence of labialized consonants	Presence of labialized consonants	not attested	abdullaevaetal2014	33--56	George Moroz	2021.10.04
+42	Lak	Khosrekh	village	yes	yes	Presence of labialized consonants	Presence of labialized consonants	attested	kibrikkodzasov1990	333	Viola Ivanova	2017.05.06
+43	Lezgian	Khlyut	village	no	yes	Presence of labialized consonants	Presence of labialized consonants	attested	kibrikkodzasov1990	341	George Moroz	2017.05.06
+44	Lezgian	Standard Lezgian	language	yes	yes	Presence of labialized consonants	Presence of labialized consonants	attested	gaydarovetal2009	56	George Moroz	2021.10.04
+45	Nogai	Standard Nogai	language	yes	yes	Presence of labialized consonants	Presence of labialized consonants	not attested	baskakov1940	27	George Moroz	2021.10.04
+46	Rutul	Luchek	village	yes	yes	Presence of labialized consonants	Presence of labialized consonants	attested	alekseev1994	215	George Moroz	2021.10.04
+47	Rutul	Luchek	village	no	yes	Presence of labialized consonants	Presence of labialized consonants	attested	kibrikkodzasov1990	342--343	Viola Ivanova	2017.05.06
+48	Tabasaran	Dyubek	village	no	yes	Presence of labialized consonants	Presence of labialized consonants	attested	kibrikkodzasov1990	336	George Moroz	2017.05.06
+49	Tabasaran	Standard Tabasaran	language	yes	yes	Presence of labialized consonants	Presence of labialized consonants	attested	alekseevshixalieva2003	29	George Moroz	2021.10.04
+50	Tat	Muslim Tat	dialect_toplevel	yes	yes	Presence of labialized consonants	Presence of labialized consonants	not attested	griunberg1963	17	George Moroz	2021.10.04
+51	Tindi	Tindi	village	no	yes	Presence of labialized consonants	Presence of labialized consonants	attested	kibrikkodzasov1990	326--327	Viola Ivanova	2017.05.06
+52	Tindi	Tindi	village	yes	yes	Presence of labialized consonants	Presence of labialized consonants	attested	magomedova2012		George Moroz	2021.10.04
+53	Tsakhur	Mikik	village	no	yes	Presence of labialized consonants	Presence of labialized consonants	attested	kibrikkodzasov1990	343	George Moroz	2017.05.06
+54	Tsakhur	Mishlesh	village	yes	yes	Presence of labialized consonants	Presence of labialized consonants	attested	kibrik1999	16	George Moroz	2021.10.04
+55	Tsez	Kidero	village	no	yes	Presence of labialized consonants	Presence of labialized consonants	attested	kibrikkodzasov1990	328	Viola Ivanova	2017.05.06
+56	Tsez	Sagada	village	yes	yes	Presence of labialized consonants	Presence of labialized consonants	not attested	wilson2021	388	George Moroz	2021.10.04
+57	Tsova-Tush	Zemo-Alvani	village	yes	yes	Presence of labialized consonants	Presence of labialized consonants	not attested	holiskygagua1994	150	George Moroz	2021.10.04
+58	Udi	Nizh	village	yes	yes	Presence of labialized consonants	Presence of labialized consonants	not attested	kibrikkodzasov1990	347	Viola Ivanova	2017.05.06
