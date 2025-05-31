@@ -5,8 +5,8 @@ library(bib2df)
 test_that("BibTeX converts all characters in the title to lowercase. 
           If you want to override this, wrap the character(s) in curly braces", {
             map_dfr(list.files("../data/orig_bib", full.names = TRUE), function(i){
-              suppressWarnings({bib2df(i)}) %>% 
-                select(BIBTEXKEY, TITLE) %>%  
+              suppressWarnings({bib2df(i)}) |> 
+                select(BIBTEXKEY, TITLE) |>  
                 mutate(topic = str_remove(i, "../data/orig_bib/"),
                        topic = str_remove(topic, ".bib$"),
                        source_file = i)
@@ -14,18 +14,18 @@ test_that("BibTeX converts all characters in the title to lowercase.
               bibs
             
             map_dfr(list.files("../data/orig_bib_tsv", full.names = TRUE), function(i){
-              read_tsv(i, progress = FALSE, show_col_types = FALSE) %>% 
-                select(BIBTEXKEY, TITLE) %>%  
+              read_tsv(i, progress = FALSE, show_col_types = FALSE) |> 
+                select(BIBTEXKEY, TITLE) |>  
                 mutate(topic = str_remove(i, "../data/orig_bib_tsv/"),
                        topic = str_remove(topic, "_bib.tsv$"),
                        source_file_tsv = i)
             }) ->
               tsvs
             
-            bibs %>% 
-              full_join(tsvs) %>% 
+            bibs |> 
+              full_join(tsvs) |> 
               mutate(source_file = ifelse(is.na(source_file_tsv), source_file, source_file_tsv),
-                     TITLE = str_remove_all(TITLE, "\\{.*?\\}")) %>% 
+                     TITLE = str_remove_all(TITLE, "\\{.*?\\}")) |> 
               filter(str_remove(TITLE, "^.") != tolower(str_remove(TITLE, "^."))) ->
               df_missed_curly_braces          
             

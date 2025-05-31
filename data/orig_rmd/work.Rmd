@@ -25,7 +25,7 @@ gloss_example(transliteration = "siexan berrigacha naaxa **bolx** **byr**",
 
 Our goal is to analyze the variation between verbs and light verb constructions lexifying the sense[^1] ‘to work’ in the languages of Daghestan and their areal distribution.
 
-[^1]: In this Chapter, we follow the approach suggested in [@franсois2008: 167] and use the term “sense” to refer to ‘semantic atoms’, which allows us to compare different languages at the lexical level.
+[^1]: In this Chapter, we follow the approach suggested in [@francois2008: 167] and use the term “sense” to refer to ‘semantic atoms’, which allows us to compare different languages at the lexical level.
 
 We collected expressions with the sense 'to work' from available dictionaries and grammars and then compared them to the verb ‘to do’ and the noun ‘work’. The light verb construction we are interested in consists of two elements: the noun ‘work’ and the light verb ‘to do’ (see example 2).
 

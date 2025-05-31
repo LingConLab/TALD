@@ -1,5 +1,3 @@
-The BibTeX entry comriepolinsky1998 from the file path_encoding_bib.tsv has an empty value in the obligatory field PUBLISHER
-Revise the BibTeX entry moroz20_villages from the file phonology_bib.tsv.
 The wrong language name          Kajtak          in the file          agreement_of_adpositions.tsv
 The wrong language name          Ossetian          in the file          commemorative.tsv
 The wrong language name          Dargwa          in the file          inclusive_exclusive_distinction_in_personal_pronouns.tsv
@@ -294,3 +292,4 @@ spelling of          bolh        in work.Rmd:41
 spelling of          ejno        in work.Rmd:54
 spelling of          gihab        in work.Rmd:45
 The BibTeX entry          kibrik1999          present in the .Rmd, but absent in the path_encoding.bib
+The BibTeX entry          francois2008          present in the .Rmd, but absent in the work.bib
