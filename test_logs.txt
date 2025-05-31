@@ -1,8 +1,3 @@
-The wrong language name          Kajtak          in the file          agreement_of_adpositions.tsv
-The wrong language name          Ossetian          in the file          commemorative.tsv
-The wrong language name          Dargwa          in the file          inclusive_exclusive_distinction_in_personal_pronouns.tsv
-The wrong language name          Armenian          in the file          jussive.tsv
-The wrong language name          Armenian          in the file          morning_greetings.tsv
 The wrong village dialect name Hinuq in the file agreement_of_adpositions.tsv
 The wrong village dialect name Kwantlada in the file agreement_of_adpositions.tsv
 The wrong village dialect name Hinuq in the file caritive_adv.tsv
@@ -235,7 +230,6 @@ The wrong toplevel dialect name Southwestern Dargwa in the file agreement_of_adp
 The wrong toplevel dialect name Ak-Nogai in the file caritive_attr.tsv
 The wrong toplevel dialect name Southwestern Dargwa in the file commemorative.tsv
 The wrong toplevel dialect name Quba in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
-The wrong toplevel dialect name Eastern Armenian in the file jussive.tsv
 The wrong toplevel dialect name Ak-Nogai in the file numeral_ordinals.tsv
 spelling of          chuhwanahw        in adpositions.Rmd:238
 spelling of          depi        in adpositions.Rmd:383

@@ -1826,12 +1826,12 @@ id	village	rus_village	lat	lon	lang	aff	family	standard	default_level	dialect_to
 1825	Shauri	Шаури	42.270484	45.941421	Tsez	Tsezic	East Caucasian		Tsez	Tsez	Цезский	Kidero	Кидеринский					Shauri	dido1241	#990033	#ff5050	2025-03-20
 1826	Shiya	Шия	42.26556	45.8025	Tsez	Tsezic	East Caucasian		Tsez	Tsez	Цезский	Asakh	Асахский					Shiya	dido1241	#990033	#ff5050	2025-03-20
 1827	El'bok	Эльбок	42.183907	45.906506	Tsez	Tsezic	East Caucasian		Tsez	Tsez	Цезский							El'bok	dido1241	#990033	#ff5050	2025-03-20
-1828	Standard Armenian		41.009625	44.384086	Eastern Armenian	Armenic	Indo-European	Standard Armenian	Eastern Armenian										nucl1235	#dbcfeb	#fff5ee	2025-03-20
+1828	Standard Armenian		41.009625	44.384086	Eastern Armenian	Armenic	Indo-European	Standard Armenian	Eastern Armenian										nucl1235	#dbcfeb	#fffded	2025-03-20
 1829	Gombori	Гомбори	41.8582	45.207	Tat	Iranian	Indo-European		Juhuri									Gombori	jude1256	#d5daff	#fffded	2025-03-20
 1830	Derbent	Дербент	42.06917	48.29583	Tat	Iranian	Indo-European		Juhuri									Derbent	jude1256	#d5daff	#fffded	2025-03-20
 1831	Aşağı Atuc		41.4467	48.5702	Tat	Iranian	Indo-European		Juhuri									Aşağı Atuc	jude1256	#d5daff	#fffded	2025-03-20
-1832	Dzhalgan	Джалган	42.02454	48.26224	Muslim Tat	Iranian	Indo-European		Mitahi-Jalqan									Dzhalgan	nort2697	#cccccc	#cccccc	2025-03-20
-1833	Mitagi	Митаги	42.01736	48.19083	Muslim Tat	Iranian	Indo-European		Mitahi-Jalqan									Mitagi	nort2697	#cccccc	#cccccc	2025-03-20
+1832	Dzhalgan	Джалган	42.02454	48.26224	Muslim Tat	Iranian	Indo-European		Mitahi-Jalqan									Dzhalgan	nort2697	#cccccc	#fffded	2025-03-20
+1833	Mitagi	Митаги	42.01736	48.19083	Muslim Tat	Iranian	Indo-European		Mitahi-Jalqan									Mitagi	nort2697	#cccccc	#fffded	2025-03-20
 1834	Ərüsküş	Арискюш	40.94493	48.91224	Tat	Iranian	Indo-European		Tat	Muslim Tat		Northern						Ərüsküş	musl1236	#d5daff	#fffded	2025-03-20
 1835	Afurca	Афруджа	41.1592	48.6174	Tat	Iranian	Indo-European		Tat	Muslim Tat		Northern						Afurca	musl1236	#d5daff	#fffded	2025-03-20
 1836	Balaxanı	Балаханы	40.4608	49.9235	Tat	Iranian	Indo-European		Tat	Muslim Tat		Southern						Balaxanı	musl1236	#d5daff	#fffded	2025-03-20
@@ -1937,3 +1937,4 @@ id	village	rus_village	lat	lon	lang	aff	family	standard	default_level	dialect_to
 1936	Chinar	Чинар	42.1075	48.1439	Azerbaijani	Oghuz	Turkic		Azerbaijani									Chinar	nort2697	#cccccc	#cccccc	2025-03-20
 1937	Yunyy Pakhar'	Юный Пахарь	42.180183	48.160227	Azerbaijani	Oghuz	Turkic		Azerbaijani									Yunyy Pakhar'	nort2697	#cccccc	#cccccc	2025-03-20
 1938	Standard Azerbaijani		40.977675	46.4736975	Azerbaijani	Oghuz	Turkic	Standard Azerbaijani	Azerbaijani										nort2697	#cccccc	#cccccc	2025-03-20
+1939	Standard Ossetian		42.98	44.61	Modern Ossetic	Iranian	Indo-European	Standard Ossetian	Ossetian										osse1243	#D8CAF6	#fffded	2025-03-20
