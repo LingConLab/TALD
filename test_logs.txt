@@ -284,4 +284,3 @@ spelling of          bolh        in work.Rmd:41
 spelling of          ejno        in work.Rmd:54
 spelling of          gihab        in work.Rmd:45
 The BibTeX entry          kibrik1999          present in the .Rmd, but absent in the path_encoding.bib
-The BibTeX entry          francois2008          present in the .Rmd, but absent in the work.bib
