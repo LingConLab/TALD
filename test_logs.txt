@@ -226,9 +226,7 @@ The wrong non-toplevel 1 dialect name Chabakoroy in the file inclusive_exclusive
 The wrong non-toplevel 1 dialect name Gid in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
 The wrong non-toplevel 1 dialect name Keleb Mixed in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
 The wrong non-toplevel 1 dialect name Keleb Mixed in the file numeral_bases.tsv
-The wrong toplevel dialect name Southwestern Dargwa in the file agreement_of_adpositions.tsv
 The wrong toplevel dialect name Ak-Nogai in the file caritive_attr.tsv
-The wrong toplevel dialect name Southwestern Dargwa in the file commemorative.tsv
 The wrong toplevel dialect name Quba in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
 The wrong toplevel dialect name Ak-Nogai in the file numeral_ordinals.tsv
 spelling of          chuhwanahw        in adpositions.Rmd:238
