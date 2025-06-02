@@ -1,9 +1,5 @@
 NA
-The wrong non-toplevel 2 dialect name Rugudzha in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
-The wrong non-toplevel 2 dialect name Nyutyug in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
-The wrong non-toplevel 2 dialect name Kurush in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
-The wrong non-toplevel 1 dialect name Kurakh in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
-The wrong toplevel dialect name Shadni in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
+The wrong non-toplevel 2 dialect name Qurush in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
 spelling of          chuhwanahw        in adpositions.Rmd:238
 spelling of          depi        in adpositions.Rmd:383
 spelling of          handep        in adpositions.Rmd:56
