@@ -77,7 +77,7 @@ id	village	rus_village	lat	lon	lang	aff	family	standard	default_level	dialect_to
 76	Khadakolob	Хадаколоб	42.231683	46.261819	Avar	Avar-Andic	East Caucasian		Avar	Antlratl	Анкратльское	Northern Antlratl	северноанкратльский	Antsuq	анцухский			Khadakolob	avar1256	#009999	#009999	2025-03-20
 77	Kharada	Харада	42.222648	46.258528	Avar	Avar-Andic	East Caucasian		Avar	Antlratl	Анкратльское	Northern Antlratl	северноанкратльский	Antsuq	анцухский			Kharada	avar1256	#009999	#009999	2025-03-20
 78	Khintida	Хинтида	42.220547	46.275395	Avar	Avar-Andic	East Caucasian		Avar	Antlratl	Анкратльское	Northern Antlratl	северноанкратльский	Antsuq	анцухский			Khintida	avar1256	#009999	#009999	2025-03-20
-79	Chadakolob	Чадаколоб	42.19182	46.31981	Avar	Avar-Andic	East Caucasian		Avar	Antlratl	Анкратльское	Northern Antlratl	северноанкратльский	Antsuq	анцухский			Chadakolob	avar1256	#009999	#009999	2025-03-20
+79	Chadakolob	Чадаколоб	42.19182	46.31981	Avar	Avar-Andic	East Caucasian		Avar	Antlratl	Анкратльское	Northern Antlratl	северноанкратльский	Antsuq	анцухский			Sogratl	avar1256	#009999	#009999	2025-03-20
 80	Chododa	Чодода	42.193439	46.314784	Avar	Avar-Andic	East Caucasian		Avar	Antlratl	Анкратльское	Northern Antlratl	северноанкратльский	Antsuq	анцухский			Chododa	avar1256	#009999	#009999	2025-03-20
 81	Albaniya	Албания	42.2863	46.3985	Avar	Avar-Andic	East Caucasian		Avar	Antlratl	Анкратльское	Northern Antlratl	северноанкратльский	Tash	ташский			Albaniya	avar1256	#009999	#009999	2025-03-20
 82	Anada	Анада	42.17306	46.36917	Avar	Avar-Andic	East Caucasian		Avar	Antlratl	Анкратльское	Northern Antlratl	северноанкратльский	Tash	ташский			Anada	avar1256	#009999	#009999	2025-03-20
@@ -557,7 +557,7 @@ id	village	rus_village	lat	lon	lang	aff	family	standard	default_level	dialect_to
 556	Tlondoda	Тлондода	42.5247	46.1989	Bagvalal	Avar-Andic	East Caucasian		Bagvalal	Western Bagvalal	Западнобагвалинский	Tlondoda-Khushtada	Тлондинско-хуштадинский					Tlondoda	bagv1239	#000066	#9900ff	2025-03-20
 557	Khushtada	Хуштада	42.517389	46.166126	Bagvalal	Avar-Andic	East Caucasian		Bagvalal	Western Bagvalal	Западнобагвалинский	Tlondoda-Khushtada	Тлондинско-хуштадинский					Khushtada	bagv1239	#000066	#9900ff	2025-03-20
 558	Tlenkhori	Тленхори	42.4681009	46.0549675	Bagvalal	Avar-Andic	East Caucasian		Bagvalal	Western Bagvalal	Западнобагвалинский							Tlenkhori	bagv1239	#000066	#9900ff	2025-03-20
-559	Bezhta	Бежта	42.1339	46.1247	Bezhta	Tsezic	East Caucasian		Bezhta									Bezhta	bezh1248	#ff5050	#ff5050	2025-03-20
+559	Bezhta	Бежта	42.1339	46.1247	Bezhta	Tsezic	East Caucasian		Karata-Tukita									Bezhta	bezh1248	#ff5050	#ff5050	2025-03-20
 560	Tlyadal	Тлядал	42.125339	46.237247	Bezhta	Tsezic	East Caucasian		Bezhta									Tlyadal	bezh1248	#ff5050	#ff5050	2025-03-20
 561	Khasharkhota	Хашархота	42.12912	46.142158	Bezhta	Tsezic	East Caucasian		Bezhta									Khasharkhota	bezh1248	#ff5050	#ff5050	2025-03-20
 562	Chantlisqure	Чантлискуре	41.9095028	45.9071768	Bezhta	Tsezic	East Caucasian		Bezhta									Chantlisqure	bezh1248	#ff5050	#ff5050	2025-03-20

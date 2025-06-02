@@ -1,4 +1,21 @@
+The wrong village dialect name Chadakolob in the file ejective_p.tsv
+The wrong village dialect name Chadakolob in the file ejective_s.tsv
 NA
+The wrong village dialect name Chadakolob in the file gemination.tsv
+The wrong village dialect name Chadakolob in the file gender_agreement_slot.tsv
+The wrong village dialect name Chadakolob in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
+The wrong village dialect name Chadakolob in the file labialization.tsv
+The wrong village dialect name Chadakolob in the file labials.tsv
+The wrong village dialect name Chadakolob in the file laterals.tsv
+The wrong village dialect name Chadakolob in the file long_vowels.tsv
+The wrong village dialect name Chadakolob in the file nasalization.tsv
+The wrong village dialect name Chadakolob in the file palatalized_consonants.tsv
+The wrong village dialect name Chadakolob in the file pharyngealization.tsv
+The wrong village dialect name Chadakolob in the file pharyngeals.tsv
+The wrong village dialect name Chadakolob in the file umlaut_vowels.tsv
+The wrong village dialect name Chadakolob in the file uvular_voiced_stop.tsv
+The wrong village dialect name Chadakolob in the file velar_fricatives.tsv
+The wrong village dialect name Chadakolob in the file voiceless_obstruents.tsv
 The wrong non-toplevel 2 dialect name Chokh in the file gender_agreement_slot.tsv
 The wrong non-toplevel 2 dialect name Salta in the file gender_agreement_slot.tsv
 The wrong non-toplevel 2 dialect name Keger in the file gender_agreement_slot.tsv
@@ -33,18 +50,11 @@ The wrong non-toplevel 1 dialect name Mukhad in the file jussive.tsv
 The wrong non-toplevel 1 dialect name Mukhad in the file number_of_morphological_slots_in_spatial_forms.tsv
 The wrong non-toplevel 1 dialect name Siukh in the file numeral_bases.tsv
 The wrong non-toplevel 1 dialect name Kusur in the file numeral_bases.tsv
-The wrong non-toplevel 1 dialect name Anchiq in the file numeral_class.tsv
 The wrong non-toplevel 1 dialect name Mukhad in the file numeral_class.tsv
-The wrong non-toplevel 1 dialect name Anchiq in the file numeral_distributives.tsv
 The wrong non-toplevel 1 dialect name Mukhad in the file numeral_distributives.tsv
-The wrong non-toplevel 1 dialect name Anchiq in the file numeral_ordinals.tsv
 The wrong non-toplevel 1 dialect name Mukhad in the file numeral_ordinals.tsv
-The wrong non-toplevel 1 dialect name Anchiq in the file numeral_origin.tsv
 The wrong non-toplevel 1 dialect name Mukhad in the file numeral_origin.tsv
-The wrong non-toplevel 1 dialect name Anchiq in the file numeral_regularity.tsv
 The wrong non-toplevel 1 dialect name Mukhad in the file numeral_root_hundred.tsv
-The wrong non-toplevel 1 dialect name Anchiq in the file numeral_twoten.tsv
-The wrong non-toplevel 1 dialect name Anchiq in the file optative.tsv
 The wrong non-toplevel 1 dialect name Mukhad in the file optative.tsv
 The wrong non-toplevel 1 dialect name Mukhad in the file particles.tsv
 The wrong non-toplevel 1 dialect name Mukhad in the file path_encoding.tsv
@@ -53,33 +63,14 @@ The wrong non-toplevel 1 dialect name Mukhad in the file prohibitives.tsv
 The wrong non-toplevel 1 dialect name Mukhad in the file standard_of_comparison.tsv
 The wrong non-toplevel 1 dialect name Mukhad in the file trans_intrans_imperative.tsv
 The wrong toplevel dialect name Kara-Nogai in the file caritive_attr.tsv
-The wrong toplevel dialect name Bezhta in the file days_after_today.tsv
-The wrong toplevel dialect name Bezhta in the file days_before_today.tsv
-The wrong toplevel dialect name Bezhta in the file ejective_p.tsv
-The wrong toplevel dialect name Bezhta in the file ejective_s.tsv
-The wrong toplevel dialect name Bezhta in the file erg_abs_pronouns.tsv
-The wrong toplevel dialect name Bezhta in the file gemination.tsv
 The wrong toplevel dialect name Kara-Nogai in the file gender_agreement_slot.tsv
 The wrong toplevel dialect name Shadni in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
-The wrong toplevel dialect name Bezhta in the file labialization.tsv
-The wrong toplevel dialect name Bezhta in the file labials.tsv
-The wrong toplevel dialect name Bezhta in the file laterals.tsv
-The wrong toplevel dialect name Bezhta in the file long_vowels.tsv
-The wrong toplevel dialect name Bezhta in the file nasalization.tsv
 The wrong toplevel dialect name Kara-Nogai in the file number_of_morphological_slots_in_spatial_forms.tsv
 The wrong toplevel dialect name Tsirkhe in the file numeral_bases.tsv
 The wrong toplevel dialect name Burkikhan in the file numeral_bases.tsv
 The wrong toplevel dialect name Kurag in the file numeral_bases.tsv
 The wrong toplevel dialect name Shinaz in the file numeral_bases.tsv
 The wrong toplevel dialect name Luchek in the file numeral_bases.tsv
-The wrong toplevel dialect name Bezhta in the file palatalized_consonants.tsv
-The wrong toplevel dialect name Bezhta in the file pharyngealization.tsv
-The wrong toplevel dialect name Bezhta in the file pharyngeals.tsv
-The wrong toplevel dialect name Bezhta in the file trans_intrans_imperative.tsv
-The wrong toplevel dialect name Bezhta in the file umlaut_vowels.tsv
-The wrong toplevel dialect name Bezhta in the file uvular_voiced_stop.tsv
-The wrong toplevel dialect name Bezhta in the file velar_fricatives.tsv
-The wrong toplevel dialect name Bezhta in the file voiceless_obstruents.tsv
 spelling of          chuhwanahw        in adpositions.Rmd:238
 spelling of          depi        in adpositions.Rmd:383
 spelling of          handep        in adpositions.Rmd:56
@@ -195,6 +186,7 @@ spelling of          ol        in farewell_wishes.Rmd:130
 spelling of          yol        in farewell_wishes.Rmd:130
 spelling of          adal        in gender_agreement_slot.Rmd:105
 spelling of          aj        in gender_agreement_slot.Rmd:148
+spelling of          Chadakolob        in gender_agreement_slot.Rmd:189
 spelling of          gi        in gender_agreement_slot.Rmd:116
 spelling of          Gid        in gender_agreement_slot.Rmd:83
 spelling of          gundine        in gender_agreement_slot.Rmd:83

@@ -12,7 +12,7 @@ id	language	idiom	type	genlang_point	map	feature	value1_name	value1	source	page	
 11	Avar	Chadakolob	village	no	yes	Pharyngeal inventories	Pharyngeal inventories	ʜ, ʢ	kibrikkodzasov1990	320	Viola Ivanova	2017.05.06
 12	Azerbaijani	Standard Azerbaijani	language	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ħ	shiralievsevortyan1971	16--26	George Moroz	2021.10.04
 13	Bagvalal	Kvanada	village	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ʜ, ʢ	kibrik2001	35--46	George Moroz	2021.10.04
-14	Bezhta	Bezhta	dialect_toplevel	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ħ, ʕ	comrieetal2015	86	George Moroz	2021.10.04
+14	Bezhta	Bezhta	default_level	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ħ, ʕ	comrieetal2015	86	George Moroz	2021.10.04
 15	Bezhta	Tlyadal	village	no	yes	Pharyngeal inventories	Pharyngeal inventories	ʜ, ʢ	kibrikkodzasov1990	330	Viola Ivanova	2017.05.06
 16	Botlikh	Botlikh	village	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ħ, ʕ	alexeyevverheesdraft2020		George Moroz	2021.10.04
 17	Budukh	Budukh	language	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ʜ, ʡ, ʢ	kibrikkodzasov1990	345	George Moroz	2017.05.06

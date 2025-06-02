@@ -11,7 +11,7 @@ id	language	idiom	type	genlang_point	map	feature	value1	value1_name	source	page	
 10	Avar	Chadakolob	village	no	yes	Inventory of v-like consonants	w	Inventory of v-like consonants	kibrikkodzasov1990	320	Viola Ivanova	2017.05.06
 11	Azerbaijani	Standard Azerbaijani	language	yes	yes	Inventory of v-like consonants	v	Inventory of v-like consonants	shiralievsevortyan1971	16--26	George Moroz	2021.10.04
 12	Bagvalal	Kvanada	village	yes	yes	Inventory of v-like consonants	w	Inventory of v-like consonants	kibrik2001	35--46	George Moroz	2021.10.04
-13	Bezhta	Bezhta	dialect_toplevel	yes	yes	Inventory of v-like consonants	w	Inventory of v-like consonants	comrieetal2015	86	George Moroz	2021.10.04
+13	Bezhta	Bezhta	default_level	yes	yes	Inventory of v-like consonants	w	Inventory of v-like consonants	comrieetal2015	86	George Moroz	2021.10.04
 14	Bezhta	Tlyadal	village	no	yes	Inventory of v-like consonants	w	Inventory of v-like consonants	kibrikkodzasov1990	330	Viola Ivanova	2017.05.06
 15	Botlikh	Botlikh	village	yes	yes	Inventory of v-like consonants	w	Inventory of v-like consonants	alexeyevverheesdraft2020		George Moroz	2021.10.04
 16	Budukh	Budukh	language	yes	yes	Inventory of v-like consonants	v, w	Inventory of v-like consonants	kibrikkodzasov1990	345	George Moroz	2017.05.06

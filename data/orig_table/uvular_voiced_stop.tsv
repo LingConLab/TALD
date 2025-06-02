@@ -12,7 +12,7 @@ id	language	idiom	type	genlang_point	map	feature	value1_name	value1	source	page	
 11	Avar	Standard Avar	language	yes	yes	Presence of uvular voiced stop	Presence of uvular voiced stop	not attested	alekseevataev1997	35	George Moroz	2021.10.04
 12	Azerbaijani	Standard Azerbaijani	language	yes	yes	Presence of uvular voiced stop	Presence of uvular voiced stop	not attested	shiralievsevortyan1971	16--26	George Moroz	2021.10.04
 13	Bagvalal	Kvanada	village	yes	yes	Presence of uvular voiced stop	Presence of uvular voiced stop	not attested	kibrik2001	35--46	George Moroz	2021.10.04
-14	Bezhta	Bezhta	dialect_toplevel	yes	yes	Presence of uvular voiced stop	Presence of uvular voiced stop	not attested	comrieetal2015	86	George Moroz	2021.10.04
+14	Bezhta	Bezhta	default_level	yes	yes	Presence of uvular voiced stop	Presence of uvular voiced stop	not attested	comrieetal2015	86	George Moroz	2021.10.04
 15	Bezhta	Tlyadal	village	no	yes	Presence of uvular voiced stop	Presence of uvular voiced stop	not attested	kibrikkodzasov1990	330	Viola Ivanova	2017.05.06
 16	Botlikh	Botlikh	village	yes	yes	Presence of uvular voiced stop	Presence of uvular voiced stop	not attested	alexeyevverheesdraft2020		George Moroz	2021.10.04
 17	Budukh	Budukh	language	yes	yes	Presence of uvular voiced stop	Presence of uvular voiced stop	attested	kibrikkodzasov1990	345	George Moroz	2017.05.06
