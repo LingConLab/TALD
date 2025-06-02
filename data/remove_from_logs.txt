@@ -7,6 +7,8 @@ The wrong toplevel dialect name Quba in the file inclusive_exclusive_distinction
 The wrong village dialect name Kimil Quba in the file numeral_bases.tsv
 The wrong non-toplevel 1 dialect name Keleb Mixed in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
 The wrong non-toplevel 1 dialect name Keleb Mixed in the file numeral_bases.tsv
+The wrong non-toplevel 1 dialect name Kakhib Mixed in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
+The wrong non-toplevel 1 dialect name Batsada Mixed in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
 
 ## Мы пока не ввели диалекты ногайского
 The wrong toplevel dialect name Ak-Nogai in the file caritive_attr.tsv
