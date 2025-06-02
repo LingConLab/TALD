@@ -1,6 +1,6 @@
 id	language	idiom	type	genlang_point	map	feature	value1_name	value1	source	page	contributor	date
 1	Qushan Agul	Burshag	village	no	yes	Presence of nasal vowels	Presence of nasal vowels	not attested	kibrikkodzasov1990	340--341	Viola Ivanova	2017.05.06
-2	Agul	Huppuq'	village	yes	yes	Presence of nasal vowels	Presence of nasal vowels	not attested	maisakganenkov2016		George Moroz	2021.10.04
+2	Agul	Huppuq'	dialect_toplevel	yes	yes	Presence of nasal vowels	Presence of nasal vowels	not attested	maisakganenkov2016		George Moroz	2021.10.04
 3	Northern Akhvakh	Northern Akhvakh	language	yes	yes	Presence of nasal vowels	Presence of nasal vowels	attested	creisselsdraft2020		George Moroz	2021.10.04
 4	Northern Akhvakh	Tad-Magitl'	village	no	yes	Presence of nasal vowels	Presence of nasal vowels	attested	kibrikkodzasov1990	322--323	Viola Ivanova	2017.05.06
 5	Upper Andi	Andi	village	no	yes	Presence of nasal vowels	Presence of nasal vowels	attested	kibrikkodzasov1990	321	George Moroz	2017.05.06
@@ -31,11 +31,11 @@ id	language	idiom	type	genlang_point	map	feature	value1_name	value1	source	page	
 30	Hunzib	Hunzib	language	yes	yes	Presence of nasal vowels	Presence of nasal vowels	attested	isakovxalilov2001	259	George Moroz	2021.10.04
 31	Hunzib	Hunzib	language	no	yes	Presence of nasal vowels	Presence of nasal vowels	attested	kibrikkodzasov1990	332	George Moroz	2017.05.06
 32	Ingush	Standard Ingush	language	yes	yes	Presence of nasal vowels	Presence of nasal vowels	not attested	nichols2011	22	George Moroz	2021.10.04
-33	Karata-Tukita	Karata	dialect_toplevel	yes	yes	Presence of nasal vowels	Presence of nasal vowels	attested	magomedbekova1971	12--18	George Moroz	2021.10.04
+33	Karata	Karata	dialect_toplevel	yes	yes	Presence of nasal vowels	Presence of nasal vowels	attested	magomedbekova1971	12--18	George Moroz	2021.10.04
 34	Tukita	Tukita	language	yes	yes	Presence of nasal vowels	Presence of nasal vowels	attested	gadzhieva2007	7	George Moroz	2021.10.04
 35	Khinalug	Khinalug	language	yes	yes	Presence of nasal vowels	Presence of nasal vowels	not attested	kibrik1994b	372	George Moroz	2021.10.04
 36	Khinalug	Khinalug	language	no	no	Presence of nasal vowels	Presence of nasal vowels	not attested	kibrikkodzasov1990	346--347	Viola Ivanova	2017.05.06
-37	Khwarshi	Inkhoqwari	village	yes	yes	Presence of nasal vowels	Presence of nasal vowels	attested	kibrikkodzasov1990	327	George Moroz	2017.05.06
+37	Khwarshi	Inkhoqwari	dialect_toplevel	yes	yes	Presence of nasal vowels	Presence of nasal vowels	attested	kibrikkodzasov1990	327	George Moroz	2017.05.06
 38	Khwarshi	Kvantlada	village	yes	yes	Presence of nasal vowels	Presence of nasal vowels	attested	khalilova2009	23	George Moroz	2021.10.04
 39	Kryz	Kryz Proper	dialect_toplevel	yes	yes	Presence of nasal vowels	Presence of nasal vowels	not attested	saadiev1994	410	George Moroz	2021.10.04
 40	Kryz	Kryz Proper	dialect_toplevel	no	yes	Presence of nasal vowels	Presence of nasal vowels	not attested	kibrikkodzasov1990	345	Viola Ivanova	2017.05.06
@@ -56,4 +56,4 @@ id	language	idiom	type	genlang_point	map	feature	value1_name	value1	source	page	
 55	Tsez	Kidero	village	no	yes	Presence of nasal vowels	Presence of nasal vowels	not attested	kibrikkodzasov1990	328	Viola Ivanova	2017.05.06
 56	Tsez	Sagada	village	yes	yes	Presence of nasal vowels	Presence of nasal vowels	not attested	wilson2021	388	George Moroz	2021.10.04
 57	Tsova-Tush	Zemo-Alvani	village	yes	yes	Presence of nasal vowels	Presence of nasal vowels	not attested	holiskygagua1994	150	George Moroz	2021.10.04
-58	Udi	Nizh	village	yes	yes	Presence of nasal vowels	Presence of nasal vowels	not attested	kibrikkodzasov1990	347	Viola Ivanova	2017.05.06
+58	Udi	Nizh	dialect_toplevel	yes	yes	Presence of nasal vowels	Presence of nasal vowels	not attested	kibrikkodzasov1990	347	Viola Ivanova	2017.05.06

@@ -30,11 +30,11 @@ id	language	idiom	type	genlang_point	map	feature	value1	value1_name	source	page	
 29	Hunzib	Hunzib	language	yes	yes	Inventory of v-like consonants	w	Inventory of v-like consonants	isakovxalilov2001	260	George Moroz	2021.10.04
 30	Hunzib	Hunzib	language	no	yes	Inventory of v-like consonants	w, β	Inventory of v-like consonants	kibrikkodzasov1990	332	George Moroz	2017.05.06
 31	Ingush	Standard Ingush	language	yes	yes	Inventory of v-like consonants	v	Inventory of v-like consonants	nichols2011	20	George Moroz	2021.10.04
-32	Karata-Tukita	Karata	dialect_toplevel	yes	yes	Inventory of v-like consonants	w	Inventory of v-like consonants	magomedbekova1971	12--18	George Moroz	2021.10.04
+32	Karata	Karata	dialect_toplevel	yes	yes	Inventory of v-like consonants	w	Inventory of v-like consonants	magomedbekova1971	12--18	George Moroz	2021.10.04
 33	Tukita	Tukita	language	yes	yes	Inventory of v-like consonants	w	Inventory of v-like consonants	gadzhieva2007	8	George Moroz	2021.10.04
 34	Khinalug	Khinalug	language	yes	yes	Inventory of v-like consonants	v, w	Inventory of v-like consonants	kibrik1994b	370	George Moroz	2021.10.04
 35	Khinalug	Khinalug	language	no	no	Inventory of v-like consonants	v	Inventory of v-like consonants	kibrikkodzasov1990	346--347	Viola Ivanova	2017.05.06
-36	Khwarshi	Inkhoqwari	village	yes	yes	Inventory of v-like consonants	w	Inventory of v-like consonants	kibrikkodzasov1990	327	George Moroz	2017.05.06
+36	Khwarshi	Inkhoqwari	dialect_toplevel	yes	yes	Inventory of v-like consonants	w	Inventory of v-like consonants	kibrikkodzasov1990	327	George Moroz	2017.05.06
 37	Khwarshi	Kvantlada	village	yes	yes	Inventory of v-like consonants	w	Inventory of v-like consonants	khalilova2009	13	George Moroz	2021.10.04
 38	Kryz	Kryz Proper	dialect_toplevel	no	yes	Inventory of v-like consonants	v	Inventory of v-like consonants	kibrikkodzasov1990	345	Viola Ivanova	2017.05.06
 39	Kryz	Kryz Proper	dialect_toplevel	yes	yes	Inventory of v-like consonants	v	Inventory of v-like consonants	saadiev1994	409	George Moroz	2021.10.04
@@ -55,4 +55,4 @@ id	language	idiom	type	genlang_point	map	feature	value1	value1_name	source	page	
 54	Tsez	Kidero	village	no	yes	Inventory of v-like consonants	w	Inventory of v-like consonants	kibrikkodzasov1990	328	Viola Ivanova	2017.05.06
 55	Tsez	Sagada	village	yes	yes	Inventory of v-like consonants	w	Inventory of v-like consonants	wilson2021	388	George Moroz	2021.10.04
 56	Tsova-Tush	Zemo-Alvani	village	yes	yes	Inventory of v-like consonants	v	Inventory of v-like consonants	holiskygagua1994	150	George Moroz	2021.10.04
-57	Udi	Nizh	village	yes	yes	Inventory of v-like consonants	v	Inventory of v-like consonants	kibrikkodzasov1990	347	Viola Ivanova	2017.05.06
+57	Udi	Nizh	dialect_toplevel	yes	yes	Inventory of v-like consonants	v	Inventory of v-like consonants	kibrikkodzasov1990	347	Viola Ivanova	2017.05.06
