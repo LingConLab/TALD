@@ -9,8 +9,6 @@ The wrong non-toplevel 2 dialect name Keger in the file inclusive_exclusive_dist
 The wrong non-toplevel 2 dialect name Nyutyug in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
 The wrong non-toplevel 2 dialect name Kurush in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
 The wrong non-toplevel 2 dialect name Salta in the file numeral_bases.tsv
-The wrong non-toplevel 1 dialect name Myukhrek in the file erg_abs_pronouns.tsv
-The wrong non-toplevel 1 dialect name Ikhrek in the file erg_abs_pronouns.tsv
 The wrong non-toplevel 1 dialect name Batsada in the file gender_agreement_slot.tsv
 The wrong non-toplevel 1 dialect name Khunzaq in the file gender_agreement_slot.tsv
 The wrong non-toplevel 1 dialect name Shulani in the file gender_agreement_slot.tsv
@@ -24,8 +22,6 @@ The wrong toplevel dialect name Shadni in the file inclusive_exclusive_distincti
 The wrong toplevel dialect name Tsirkhe in the file numeral_bases.tsv
 The wrong toplevel dialect name Burkikhan in the file numeral_bases.tsv
 The wrong toplevel dialect name Kurag in the file numeral_bases.tsv
-The wrong toplevel dialect name Shinaz in the file numeral_bases.tsv
-The wrong toplevel dialect name Luchek in the file numeral_bases.tsv
 spelling of          chuhwanahw        in adpositions.Rmd:238
 spelling of          depi        in adpositions.Rmd:383
 spelling of          handep        in adpositions.Rmd:56

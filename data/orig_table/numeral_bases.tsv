@@ -66,10 +66,10 @@ id	language	idiom	type	genlang_point	map	value1	value1_name	feature	source	page	
 65	Agul	Huppuq'	dialect_toplevel	no	yes	vigesimal	Base of numeral system	Base of numeral system	ganenkovmaisak2008	7		Maksim Melenchenko	2023-09-08	
 66	Rutul	Standard Rutul	language	yes	yes	decimal	Base of numeral system	Base of numeral system	field data			George Moroz	2023-09-08	
 67	Rutul	Mukhad	dialect_toplevel	no	yes	decimal	Base of numeral system	Base of numeral system	ibragimov2004	72		George Moroz	2023-09-08	
-68	Rutul	Shinaz	dialect_toplevel	no	yes	decimal	Base of numeral system	Base of numeral system	field data			George Moroz	2023-09-08	
+68	Rutul	Shinaz	village	no	yes	decimal	Base of numeral system	Base of numeral system	field data			George Moroz	2023-09-08	
 69	Rutul	Myukhrek	dialect_toplevel	no	yes	decimal	Base of numeral system	Base of numeral system	field data			George Moroz	2023-09-08	
 70	Rutul	Ikhrek	dialect_toplevel	no	yes	decimal	Base of numeral system	Base of numeral system	field data			George Moroz	2023-09-08	
-71	Rutul	Luchek	dialect_toplevel	no	yes	decimal	Base of numeral system	Base of numeral system	field data			George Moroz	2023-09-08	
+71	Rutul	Luchek	village	no	yes	decimal	Base of numeral system	Base of numeral system	field data			George Moroz	2023-09-08	
 72	Borch-Khnov	Borch-Khnov	language	no	yes	decimal	Base of numeral system	Base of numeral system	field data			George Moroz	2023-09-08	
 73	Tabasaran	Standard Tabasaran	language	yes	yes	decimal	Base of numeral system	Base of numeral system	magometov1965	159--163		George Moroz	2023-09-08	
 74	Tabasaran	Kondik	village	no	yes	mixed	Base of numeral system	Base of numeral system	magometov1965	159--163		Maksim Melenchenko	2023-09-08	
