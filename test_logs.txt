@@ -1,14 +1,7 @@
 NA
-The wrong non-toplevel 2 dialect name Chokh in the file gender_agreement_slot.tsv
-The wrong non-toplevel 2 dialect name Salta in the file gender_agreement_slot.tsv
-The wrong non-toplevel 2 dialect name Keger in the file gender_agreement_slot.tsv
-The wrong non-toplevel 2 dialect name Hotoch-Khindakh in the file gender_agreement_slot.tsv
-The wrong non-toplevel 2 dialect name Kuyada in the file gender_agreement_slot.tsv
 The wrong non-toplevel 2 dialect name Rugudzha in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
-The wrong non-toplevel 2 dialect name Keger in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
 The wrong non-toplevel 2 dialect name Nyutyug in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
 The wrong non-toplevel 2 dialect name Kurush in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
-The wrong non-toplevel 2 dialect name Salta in the file numeral_bases.tsv
 The wrong non-toplevel 1 dialect name Batsada in the file gender_agreement_slot.tsv
 The wrong non-toplevel 1 dialect name Khunzaq in the file gender_agreement_slot.tsv
 The wrong non-toplevel 1 dialect name Shulani in the file gender_agreement_slot.tsv
