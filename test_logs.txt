@@ -20,10 +20,7 @@ The wrong non-toplevel 1 dialect name Batsada Mixed in the file inclusive_exclus
 The wrong non-toplevel 1 dialect name Kurakh in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
 The wrong non-toplevel 1 dialect name Siukh in the file numeral_bases.tsv
 The wrong non-toplevel 1 dialect name Kusur in the file numeral_bases.tsv
-The wrong toplevel dialect name Kara-Nogai in the file caritive_attr.tsv
-The wrong toplevel dialect name Kara-Nogai in the file gender_agreement_slot.tsv
 The wrong toplevel dialect name Shadni in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
-The wrong toplevel dialect name Kara-Nogai in the file number_of_morphological_slots_in_spatial_forms.tsv
 The wrong toplevel dialect name Tsirkhe in the file numeral_bases.tsv
 The wrong toplevel dialect name Burkikhan in the file numeral_bases.tsv
 The wrong toplevel dialect name Kurag in the file numeral_bases.tsv
