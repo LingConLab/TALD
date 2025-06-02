@@ -16,8 +16,3 @@ The wrong toplevel dialect name Ak-Nogai in the file numeral_ordinals.tsv
 The wrong toplevel dialect name Kara-Nogai in the file caritive_attr.tsv
 The wrong toplevel dialect name Kara-Nogai in the file gender_agreement_slot.tsv
 The wrong toplevel dialect name Kara-Nogai in the file number_of_morphological_slots_in_spatial_forms.tsv
-
-## понять
-The wrong non-toplevel 2 dialect name Tsynit in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
-
-
