@@ -15,8 +15,8 @@ id	language	idiom	type	genlang_point	map	feature	value1_name	value1	source	page	
 14	Bezhta	Bezhta	dialect_toplevel	yes	yes	Presence of long vowels	Presence of long vowels	attested	comrieetal2015	42, 41	George Moroz	2021.10.04
 15	Bezhta	Tlyadal	village	no	yes	Presence of long vowels	Presence of long vowels	attested	kibrikkodzasov1990	330	Viola Ivanova	2017.05.06
 16	Botlikh	Botlikh	village	yes	yes	Presence of long vowels	Presence of long vowels	not attested	alexeyevverheesdraft2020		George Moroz	2021.10.04
-17	Budukh	Budukh	village	yes	yes	Presence of long vowels	Presence of long vowels	not attested	kibrikkodzasov1990	345	George Moroz	2017.05.06
-18	Budukh	Budukh	village	no	no	Presence of long vowels	Presence of long vowels	not attested	talibov2007	37	George Moroz	2021.10.04
+17	Budukh	Budukh	language	yes	yes	Presence of long vowels	Presence of long vowels	not attested	kibrikkodzasov1990	345	George Moroz	2017.05.06
+18	Budukh	Budukh	language	no	no	Presence of long vowels	Presence of long vowels	not attested	talibov2007	37	George Moroz	2021.10.04
 19	Gigatli	Gigatli	language	yes	yes	Presence of long vowels	Presence of long vowels	attested	kibrikkodzasov1990	324	George Moroz	2017.05.06
 20	Chamalal	Upper Gakvari	dialect_nt1	no	yes	Presence of long vowels	Presence of long vowels	attested	bokarev1949a	13	George Moroz	2021.10.04
 21	Chechen	Standard Chechen	language	yes	yes	Presence of long vowels	Presence of long vowels	attested	nichols1994	5, 8, 7	George Moroz	2021.10.04
@@ -26,17 +26,17 @@ id	language	idiom	type	genlang_point	map	feature	value1_name	value1	source	page	
 25	Southwestern Dargwa	Tanti	dialect_toplevel	no	yes	Presence of long vowels	Presence of long vowels	not attested	sumbatovalander2014	40	George Moroz	2021.10.04
 26	Georgian	Standard Georgian	language	yes	yes	Presence of long vowels	Presence of long vowels	not attested	hewitt1995	21	George Moroz	2021.10.04
 27	Godoberi	Godoberi	village	yes	yes	Presence of long vowels	Presence of long vowels	attested	morozetaldraft2021	2	George Moroz	2021.10.04
-28	Hinuq	Hinuq	village	yes	yes	Presence of long vowels	Presence of long vowels	attested	forker2013	23, 25--26, 26--27	George Moroz	2021.10.04
-29	Hinuq	Hinuq	village	no	yes	Presence of long vowels	Presence of long vowels	attested	kibrikkodzasov1990	329	George Moroz	2017.05.06
+28	Hinuq	Hinuq	language	yes	yes	Presence of long vowels	Presence of long vowels	attested	forker2013	23, 25--26, 26--27	George Moroz	2021.10.04
+29	Hinuq	Hinuq	language	no	yes	Presence of long vowels	Presence of long vowels	attested	kibrikkodzasov1990	329	George Moroz	2017.05.06
 30	Hunzib	Hunzib	language	yes	yes	Presence of long vowels	Presence of long vowels	attested	isakovxalilov2001	259	George Moroz	2021.10.04
 31	Hunzib	Hunzib	language	no	yes	Presence of long vowels	Presence of long vowels	attested	kibrikkodzasov1990	332	George Moroz	2017.05.06
 32	Ingush	Standard Ingush	language	yes	yes	Presence of long vowels	Presence of long vowels	attested	nichols2011	22	George Moroz	2021.10.04
 33	Karata-Tukita	Karata	dialect_toplevel	yes	yes	Presence of long vowels	Presence of long vowels	not attested	magomedbekova1971	12--18	George Moroz	2021.10.04
 34	Tukita	Tukita	language	yes	yes	Presence of long vowels	Presence of long vowels	attested	gadzhieva2007	7	George Moroz	2021.10.04
-35	Khinalug	Khinalug	village	yes	yes	Presence of long vowels	Presence of long vowels	not attested	kibrik1994b	372	George Moroz	2021.10.04
-36	Khinalug	Khinalug	village	no	no	Presence of long vowels	Presence of long vowels	attested	kibrikkodzasov1990	346--347	Viola Ivanova	2017.05.06
+35	Khinalug	Khinalug	language	yes	yes	Presence of long vowels	Presence of long vowels	not attested	kibrik1994b	372	George Moroz	2021.10.04
+36	Khinalug	Khinalug	language	no	no	Presence of long vowels	Presence of long vowels	attested	kibrikkodzasov1990	346--347	Viola Ivanova	2017.05.06
 37	Khwarshi	Inkhoqwari	village	yes	yes	Presence of long vowels	Presence of long vowels	attested	kibrikkodzasov1990	327	George Moroz	2017.05.06
-38	Khwarshi	Kwantlada	village	yes	yes	Presence of long vowels	Presence of long vowels	attested	khalilova2009	23	George Moroz	2021.10.04
+38	Khwarshi	Kvantlada	village	yes	yes	Presence of long vowels	Presence of long vowels	attested	khalilova2009	23	George Moroz	2021.10.04
 39	Kryz	Kryz Proper	dialect_toplevel	yes	yes	Presence of long vowels	Presence of long vowels	not attested	saadiev1994	410	George Moroz	2021.10.04
 40	Kryz	Kryz Proper	dialect_toplevel	no	yes	Presence of long vowels	Presence of long vowels	not attested	kibrikkodzasov1990	345	Viola Ivanova	2017.05.06
 41	Kumyk	Standard Kumyk	language	yes	yes	Presence of long vowels	Presence of long vowels	not attested	abdullaevaetal2014	27	George Moroz	2021.10.04

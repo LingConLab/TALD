@@ -14,8 +14,8 @@ id	language	idiom	type	genlang_point	map	feature	value1	value1_name	source	page	
 13	Bezhta	Bezhta	dialect_toplevel	yes	yes	Inventory of v-like consonants	w	Inventory of v-like consonants	comrieetal2015	86	George Moroz	2021.10.04
 14	Bezhta	Tlyadal	village	no	yes	Inventory of v-like consonants	w	Inventory of v-like consonants	kibrikkodzasov1990	330	Viola Ivanova	2017.05.06
 15	Botlikh	Botlikh	village	yes	yes	Inventory of v-like consonants	w	Inventory of v-like consonants	alexeyevverheesdraft2020		George Moroz	2021.10.04
-16	Budukh	Budukh	village	yes	yes	Inventory of v-like consonants	v, w	Inventory of v-like consonants	kibrikkodzasov1990	345	George Moroz	2017.05.06
-17	Budukh	Budukh	village	no	no	Inventory of v-like consonants	w	Inventory of v-like consonants	talibov2007	35	George Moroz	2021.10.04
+16	Budukh	Budukh	language	yes	yes	Inventory of v-like consonants	v, w	Inventory of v-like consonants	kibrikkodzasov1990	345	George Moroz	2017.05.06
+17	Budukh	Budukh	language	no	no	Inventory of v-like consonants	w	Inventory of v-like consonants	talibov2007	35	George Moroz	2021.10.04
 18	Chamalal	Upper Gakvari	dialect_nt1	no	yes	Inventory of v-like consonants	w	Inventory of v-like consonants	bokarev1949a	12	George Moroz	2021.10.04
 19	Gigatli	Gigatli	language	yes	yes	Inventory of v-like consonants	w	Inventory of v-like consonants	kibrikkodzasov1990	324	George Moroz	2017.05.06
 20	Chechen	Standard Chechen	language	yes	yes	Inventory of v-like consonants	w	Inventory of v-like consonants	nichols1994	4	George Moroz	2021.10.04
@@ -25,17 +25,17 @@ id	language	idiom	type	genlang_point	map	feature	value1	value1_name	source	page	
 24	Kajtag	Kajtag	language	no	yes	Inventory of v-like consonants	w, β	Inventory of v-like consonants	temirbulatova2004	39	George Moroz	2021.10.04
 25	Georgian	Standard Georgian	language	yes	yes	Inventory of v-like consonants	v	Inventory of v-like consonants	hewitt1995	19	George Moroz	2021.10.04
 26	Godoberi	Godoberi	village	yes	yes	Inventory of v-like consonants	w	Inventory of v-like consonants	morozetaldraft2021	2	George Moroz	2021.10.04
-27	Hinuq	Hinuq	village	yes	yes	Inventory of v-like consonants	w	Inventory of v-like consonants	forker2013	29	George Moroz	2021.10.04
-28	Hinuq	Hinuq	village	no	yes	Inventory of v-like consonants	w	Inventory of v-like consonants	kibrikkodzasov1990	329	George Moroz	2017.05.06
+27	Hinuq	Hinuq	language	yes	yes	Inventory of v-like consonants	w	Inventory of v-like consonants	forker2013	29	George Moroz	2021.10.04
+28	Hinuq	Hinuq	language	no	yes	Inventory of v-like consonants	w	Inventory of v-like consonants	kibrikkodzasov1990	329	George Moroz	2017.05.06
 29	Hunzib	Hunzib	language	yes	yes	Inventory of v-like consonants	w	Inventory of v-like consonants	isakovxalilov2001	260	George Moroz	2021.10.04
 30	Hunzib	Hunzib	language	no	yes	Inventory of v-like consonants	w, β	Inventory of v-like consonants	kibrikkodzasov1990	332	George Moroz	2017.05.06
 31	Ingush	Standard Ingush	language	yes	yes	Inventory of v-like consonants	v	Inventory of v-like consonants	nichols2011	20	George Moroz	2021.10.04
 32	Karata-Tukita	Karata	dialect_toplevel	yes	yes	Inventory of v-like consonants	w	Inventory of v-like consonants	magomedbekova1971	12--18	George Moroz	2021.10.04
 33	Tukita	Tukita	language	yes	yes	Inventory of v-like consonants	w	Inventory of v-like consonants	gadzhieva2007	8	George Moroz	2021.10.04
-34	Khinalug	Khinalug	village	yes	yes	Inventory of v-like consonants	v, w	Inventory of v-like consonants	kibrik1994b	370	George Moroz	2021.10.04
-35	Khinalug	Khinalug	village	no	no	Inventory of v-like consonants	v	Inventory of v-like consonants	kibrikkodzasov1990	346--347	Viola Ivanova	2017.05.06
+34	Khinalug	Khinalug	language	yes	yes	Inventory of v-like consonants	v, w	Inventory of v-like consonants	kibrik1994b	370	George Moroz	2021.10.04
+35	Khinalug	Khinalug	language	no	no	Inventory of v-like consonants	v	Inventory of v-like consonants	kibrikkodzasov1990	346--347	Viola Ivanova	2017.05.06
 36	Khwarshi	Inkhoqwari	village	yes	yes	Inventory of v-like consonants	w	Inventory of v-like consonants	kibrikkodzasov1990	327	George Moroz	2017.05.06
-37	Khwarshi	Kwantlada	village	yes	yes	Inventory of v-like consonants	w	Inventory of v-like consonants	khalilova2009	13	George Moroz	2021.10.04
+37	Khwarshi	Kvantlada	village	yes	yes	Inventory of v-like consonants	w	Inventory of v-like consonants	khalilova2009	13	George Moroz	2021.10.04
 38	Kryz	Kryz Proper	dialect_toplevel	no	yes	Inventory of v-like consonants	v	Inventory of v-like consonants	kibrikkodzasov1990	345	Viola Ivanova	2017.05.06
 39	Kryz	Kryz Proper	dialect_toplevel	yes	yes	Inventory of v-like consonants	v	Inventory of v-like consonants	saadiev1994	409	George Moroz	2021.10.04
 40	Kumyk	Standard Kumyk	language	yes	yes	Inventory of v-like consonants	w	Inventory of v-like consonants	abdullaevaetal2014	33--56	George Moroz	2021.10.04

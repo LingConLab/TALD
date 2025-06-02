@@ -28,10 +28,10 @@ id	language	idiom	type	genlang_point	map	value1	value1_name	feature	source	page	
 27	Avar	Sasitli	village	no	yes	mixed	Base of numeral system	Base of numeral system	karimovakhalilov2013	132	Originally vigesimal, then presumably borrowed decimal crowns 50—90 from adjacent Andic languages	Maksim Melenchenko	2023-09-08	
 28	Avar	Kedi	village	no	yes	mixed	Base of numeral system	Base of numeral system	karimovakhalilov2013	132	Originally vigesimal, then presumably borrowed decimal crowns 50—90 from adjacent Andic languages	Maksim Melenchenko	2023-09-08	
 29	Avar	Keleb Mixed	dialect_nt1	no	yes	decimal	Base of numeral system	Base of numeral system	sirazhudinovaataev2007	88		Maksim Melenchenko	2023-09-08	
-30	Hinuq	Hinuq	village	yes	yes	vigesimal	Base of numeral system	Base of numeral system	forker2019	394--399		George Moroz	2023-09-08	
+30	Hinuq	Hinuq	language	yes	yes	vigesimal	Base of numeral system	Base of numeral system	forker2019	394--399		George Moroz	2023-09-08	
 31	Khwarshi	Khwarshi Proper	dialect_toplevel	yes	yes	vigesimal	Base of numeral system	Base of numeral system	imnajshvili1963	85		Maksim Melenchenko	2023-09-08	check me
 31	Khwarshi	Khwarshi	dialect_nt1	yes	yes	vigesimal	Base of numeral system	Base of numeral system	imnajshvili1963	85		Maksim Melenchenko	2023-09-08	check me
-32	Khwarshi	Kwantlada	village	no	yes	vigesimal	Base of numeral system	Base of numeral system	khalilova2009	169--170		George Moroz	2023-09-08	
+32	Khwarshi	Kvantlada	village	no	yes	vigesimal	Base of numeral system	Base of numeral system	khalilova2009	169--170		George Moroz	2023-09-08	
 33	Khwarshi	Inkhoqwari	dialect_toplevel	no	yes	mixed	Base of numeral system	Base of numeral system	imnajshvili1963	85		Maksim Melenchenko	2023-09-08	
 34	Tsez	Kidero	dialect_nt1	yes	yes	vigesimal	Base of numeral system	Base of numeral system	bokarev1959tsez	202--203		George Moroz	2023-09-08	
 35	Bezhta	Bezhta	village	yes	yes	decimal	Base of numeral system	Base of numeral system	madieva1965	104--105		George Moroz	2023-09-08	
@@ -87,11 +87,11 @@ id	language	idiom	type	genlang_point	map	value1	value1_name	feature	source	page	
 86	Lezgian	Shimikhyur	village	no	yes	vigesimal	Base of numeral system	Base of numeral system	shabanova2006	17		Maksim Melenchenko	2023-09-08	
 87	Lezgian	Gogaz	village	no	yes	vigesimal	Base of numeral system	Base of numeral system	aliverdieva2006	14		Maksim Melenchenko	2023-09-08	
 88	Lezgian	Kimil Quba	village	no	yes	mixed	Base of numeral system	Base of numeral system	asaliev2003	17	Some tens are apparently borrowed from Azerbaijani (cf. elli '50')	Maksim Melenchenko	2023-09-08	
-89	Budukh	Budukh	village	yes	yes	vigesimal	Base of numeral system	Base of numeral system	talibov2007	145--150		George Moroz	2023-09-08	
+89	Budukh	Budukh	language	yes	yes	vigesimal	Base of numeral system	Base of numeral system	talibov2007	145--150		George Moroz	2023-09-08	
 90	Kryz	Alik	village	yes	yes	vigesimal	Base of numeral system	Base of numeral system	authier2009	103--104		George Moroz	2023-09-08	
 91	Udi	Vartashen	dialect_toplevel	yes	yes	vigesimal	Base of numeral system	Base of numeral system	gukasyan1974	281--283		George Moroz	2023-09-08	
 92	Udi	Nizh	village	no	yes	decimal	Base of numeral system	Base of numeral system	gukasyan1974	281--283		George Moroz	2023-09-08	
-93	Khinalug	Khinalug	village	yes	yes	vigesimal	Base of numeral system	Base of numeral system	desheriev1959	131--133		George Moroz	2023-09-08	
+93	Khinalug	Khinalug	language	yes	yes	vigesimal	Base of numeral system	Base of numeral system	desheriev1959	131--133		George Moroz	2023-09-08	
 94	Chechen	Standard Chechen	language	yes	yes	vigesimal	Base of numeral system	Base of numeral system	nichols1994	51--52		George Moroz	2023-09-08	
 95	Chechen	Sharoy	dialect_toplevel	no	yes	vigesimal	Base of numeral system	Base of numeral system	arsakhanov1969	84--85		Maksim Melenchenko	2023-09-08	
 96	Chechen	Itum-Kali	dialect_toplevel	no	yes	vigesimal	Base of numeral system	Base of numeral system	arsakhanov1969	93		Maksim Melenchenko	2023-09-08	
@@ -99,7 +99,7 @@ id	language	idiom	type	genlang_point	map	value1	value1_name	feature	source	page	
 98	Chechen	Melkhi	dialect_toplevel	no	yes	vigesimal	Base of numeral system	Base of numeral system	arsakhanov1969	146--147		Maksim Melenchenko	2023-09-08	
 99	Chechen	Upper Cheberloy	dialect_nt1	no	yes	vigesimal	Base of numeral system	Base of numeral system	arsakhanov1969	62		Maksim Melenchenko	2023-09-08	
 100	Chechen	Day	dialect_nt1	no	yes	vigesimal	Base of numeral system	Base of numeral system	arsakhanov1969	62		Maksim Melenchenko	2023-09-08	
-101	Chechen	Akka	village	no	yes	vigesimal	Base of numeral system	Base of numeral system	arsakhanov1969	33		Maksim Melenchenko	2023-09-08	
+101	Chechen	Akka (Chechnya)	village	no	yes	vigesimal	Base of numeral system	Base of numeral system	arsakhanov1969	33		Maksim Melenchenko	2023-09-08	
 102	Chechen	Vedeno	village	no	yes	vigesimal	Base of numeral system	Base of numeral system	arsakhanov1969	150		Maksim Melenchenko	2023-09-08	
 103	Chechen	Duisi	village	no	yes	vigesimal	Base of numeral system	Base of numeral system	arsakhanov1969	161--162		Maksim Melenchenko	2023-09-08	
 104	Ingush	Standard Ingush	language	yes	yes	vigesimal	Base of numeral system	Base of numeral system	nichols2011	114--115		George Moroz	2023-09-08	
