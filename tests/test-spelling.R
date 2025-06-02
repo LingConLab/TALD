@@ -4,7 +4,16 @@ library(spelling)
 
 test_that("Test spellingin chapters", {
   
-  ignore_spelling <- read_lines("../data/spelling_exceptions.txt")
+  read_tsv("../data/tald_villages.csv", progress = FALSE, show_col_types = FALSE) |>
+    select(dialect_toplevel, dialect_nt1, dialect_nt2, dialect_nt3, village_dialect) |>
+    pivot_longer(names_to = "col", values_to = "value", everything()) |>
+    na.omit() |>
+    distinct(value) |>
+    pull(value) ->
+    langs_and_dialects
+  
+  ignore_spelling <- c(read_lines("../data/spelling_exceptions.txt"), 
+                           langs_and_dialects)
   files_to_check <- c(list.files("../data/orig_rmd", full.names = TRUE),
                       "../README.md", "../about.Rmd", "../team.Rmd", 
                       "../index.Rmd", "../changes.Rmd")

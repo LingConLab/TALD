@@ -1,56 +1,568 @@
+The wrong language name          Karata-Tukita          in the file          agreement_of_adpositions.tsv
+The wrong language name          Karata-Tukita          in the file          caritive_adv.tsv
+The wrong language name          Karata-Tukita          in the file          caritive_attr.tsv
+The wrong language name          Karata-Tukita          in the file          causatives.tsv
+The wrong language name          Karata-Tukita          in the file          comitative.tsv
+The wrong language name          Karata-Tukita          in the file          commemorative.tsv
+The wrong language name          Karata-Tukita          in the file          days_after_today.tsv
+The wrong language name          Karata-Tukita          in the file          days_before_today.tsv
+The wrong language name          Karata-Tukita          in the file          demonstratives.tsv
+The wrong language name          Karata-Tukita          in the file          dominant_adpositional_case.tsv
+The wrong language name          Karata-Tukita          in the file          ejective_p.tsv
+The wrong language name          Karata-Tukita          in the file          ejective_s.tsv
+The wrong language name          Karata-Tukita          in the file          erg_abs_pronouns.tsv
+The wrong language name          Karata-Tukita          in the file          evidentiality_tense.tsv
+The wrong language name          Karata-Tukita          in the file          farewell_wishes.tsv
+The wrong language name          Karata-Tukita          in the file          gemination.tsv
+The wrong language name          Karata-Tukita          in the file          gender_agreement_slot.tsv
+The wrong language name          Karata-Tukita          in the file          inclusive_exclusive_distinction_in_personal_pronouns.tsv
+The wrong language name          Karata-Tukita          in the file          jussive.tsv
+The wrong language name          Karata-Tukita          in the file          labialization.tsv
+The wrong language name          Karata-Tukita          in the file          labials.tsv
+The wrong language name          Karata-Tukita          in the file          laterals.tsv
+The wrong language name          Karata-Tukita          in the file          long_vowels.tsv
+The wrong language name          Karata-Tukita          in the file          morning_greetings.tsv
+The wrong language name          Karata-Tukita          in the file          nasalization.tsv
+The wrong language name          Karata-Tukita          in the file          number_of_morphological_slots_in_spatial_forms.tsv
+The wrong language name          Karata-Tukita          in the file          numeral_bases.tsv
+The wrong language name          Karata-Tukita          in the file          numeral_class.tsv
+The wrong language name          Karata-Tukita          in the file          numeral_complex.tsv
+The wrong language name          Karata-Tukita          in the file          numeral_crowns_endings.tsv
+The wrong language name          Karata-Tukita          in the file          numeral_crowns_ten.tsv
+The wrong language name          Karata-Tukita          in the file          numeral_distributives.tsv
+The wrong language name          Karata-Tukita          in the file          numeral_hundred.tsv
+The wrong language name          Karata-Tukita          in the file          numeral_one.tsv
+The wrong language name          Karata-Tukita          in the file          numeral_ordinals.tsv
+The wrong language name          Karata-Tukita          in the file          numeral_origin.tsv
+The wrong language name          Karata-Tukita          in the file          numeral_regularity.tsv
+The wrong language name          Karata-Tukita          in the file          numeral_root_hundred.tsv
+The wrong language name          Karata-Tukita          in the file          numeral_thousand.tsv
+The wrong language name          Karata-Tukita          in the file          numeral_twenty.tsv
+The wrong language name          Karata-Tukita          in the file          numeral_twoten.tsv
+The wrong language name          Karata-Tukita          in the file          optative.tsv
+The wrong language name          Karata-Tukita          in the file          ordinals.tsv
+The wrong language name          Karata-Tukita          in the file          palatalized_consonants.tsv
+The wrong language name          Karata-Tukita          in the file          particles.tsv
+The wrong language name          Karata-Tukita          in the file          path_encoding.tsv
+The wrong language name          Karata-Tukita          in the file          perfect.tsv
+The wrong language name          Karata-Tukita          in the file          pharyngealization.tsv
+The wrong language name          Karata-Tukita          in the file          pharyngeals.tsv
+The wrong language name          Karata-Tukita          in the file          plural_marking_on_imperatives.tsv
+The wrong language name          Karata-Tukita          in the file          prohibitives.tsv
+The wrong language name          Karata-Tukita          in the file          standard_of_comparison.tsv
+The wrong language name          Karata-Tukita          in the file          trans_intrans_imperative.tsv
+The wrong language name          Karata-Tukita          in the file          umlaut_vowels.tsv
+The wrong language name          Karata-Tukita          in the file          uvular_voiced_stop.tsv
+The wrong language name          Karata-Tukita          in the file          velar_fricatives.tsv
+The wrong language name          Karata-Tukita          in the file          voiceless_obstruents.tsv
+The wrong language name          Karata-Tukita          in the file          work.tsv
+The wrong village dialect name Nizh in the file agreement_of_adpositions.tsv
+The wrong village dialect name Huppuq' in the file caritive_adv.tsv
+The wrong village dialect name Lower Gakvari in the file caritive_adv.tsv
+The wrong village dialect name Alik in the file caritive_adv.tsv
+The wrong village dialect name Nizh in the file caritive_adv.tsv
+The wrong village dialect name Huppuq' in the file caritive_attr.tsv
+The wrong village dialect name Lower Gakvari in the file caritive_attr.tsv
+The wrong village dialect name Alik in the file caritive_attr.tsv
+The wrong village dialect name Nizh in the file caritive_attr.tsv
+The wrong village dialect name Alik in the file causatives.tsv
+The wrong village dialect name Nizh in the file causatives.tsv
+The wrong village dialect name Upper Gakvari in the file comitative.tsv
+The wrong village dialect name Alik in the file comitative.tsv
+The wrong village dialect name Nizh in the file comitative.tsv
+The wrong village dialect name Nizh in the file commemorative.tsv
+The wrong village dialect name Huppuq' in the file days_after_today.tsv
+The wrong village dialect name Lower Gakvari in the file days_after_today.tsv
+The wrong village dialect name Anchiq in the file days_after_today.tsv
+The wrong village dialect name Nizh in the file days_after_today.tsv
+The wrong village dialect name Huppuq' in the file days_before_today.tsv
+The wrong village dialect name Lower Gakvari in the file days_before_today.tsv
+The wrong village dialect name Anchiq in the file days_before_today.tsv
+The wrong village dialect name Nizh in the file days_before_today.tsv
+The wrong village dialect name Lower Gakvari in the file demonstratives.tsv
+The wrong village dialect name Alik in the file demonstratives.tsv
+The wrong village dialect name Nizh in the file demonstratives.tsv
+The wrong village dialect name Upper Gakvari in the file dominant_adpositional_case.tsv
+The wrong village dialect name Lower Gakvari in the file dominant_adpositional_case.tsv
+The wrong village dialect name Alik in the file dominant_adpositional_case.tsv
+The wrong village dialect name Nizh in the file dominant_adpositional_case.tsv
+The wrong village dialect name Huppuq' in the file ejective_p.tsv
+The wrong village dialect name Inkhoqwari in the file ejective_p.tsv
+The wrong village dialect name Nizh in the file ejective_p.tsv
+The wrong village dialect name Huppuq' in the file ejective_s.tsv
+The wrong village dialect name Inkhoqwari in the file ejective_s.tsv
+The wrong village dialect name Nizh in the file ejective_s.tsv
+The wrong village dialect name Huppuq' in the file erg_abs_pronouns.tsv
+The wrong village dialect name Upper Gakvari in the file erg_abs_pronouns.tsv
+The wrong village dialect name Anchiq in the file erg_abs_pronouns.tsv
+The wrong village dialect name Alik in the file erg_abs_pronouns.tsv
+The wrong village dialect name Nizh in the file erg_abs_pronouns.tsv
+The wrong village dialect name Huppuq' in the file evidentiality_tense.tsv
+The wrong village dialect name Gadyri in the file evidentiality_tense.tsv
+The wrong village dialect name Upper Gakvari in the file evidentiality_tense.tsv
+The wrong village dialect name Alik in the file evidentiality_tense.tsv
+The wrong village dialect name Nizh in the file evidentiality_tense.tsv
+The wrong village dialect name Huppuq' in the file farewell_wishes.tsv
+The wrong village dialect name Lower Gakvari in the file farewell_wishes.tsv
+The wrong village dialect name Anchiq in the file farewell_wishes.tsv
+The wrong village dialect name Alik in the file farewell_wishes.tsv
 NA
+The wrong village dialect name Nizh in the file farewell_wishes.tsv
+The wrong village dialect name Huppuq' in the file gemination.tsv
+The wrong village dialect name Inkhoqwari in the file gemination.tsv
+The wrong village dialect name Nizh in the file gemination.tsv
+The wrong village dialect name Upper Gakvari in the file gender_agreement_slot.tsv
+The wrong village dialect name Anchiq in the file gender_agreement_slot.tsv
+The wrong village dialect name Alik in the file gender_agreement_slot.tsv
+The wrong village dialect name Nizh in the file gender_agreement_slot.tsv
+The wrong village dialect name Upper Gakvari in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
+The wrong village dialect name Lower Gakvari in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
+The wrong village dialect name Anchiq in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
+The wrong village dialect name Huppuq' in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
+The wrong village dialect name Alik in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
+The wrong village dialect name Nizh in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
+The wrong village dialect name Inkhoqwari in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
+The wrong village dialect name Huppuq' in the file jussive.tsv
+The wrong village dialect name Lower Gakvari in the file jussive.tsv
+The wrong village dialect name Upper Gakvari in the file jussive.tsv
+The wrong village dialect name Alik in the file jussive.tsv
+The wrong village dialect name Nizh in the file jussive.tsv
+The wrong village dialect name Huppuq' in the file labialization.tsv
+The wrong village dialect name Inkhoqwari in the file labialization.tsv
+The wrong village dialect name Nizh in the file labialization.tsv
+The wrong village dialect name Inkhoqwari in the file labials.tsv
+The wrong village dialect name Nizh in the file labials.tsv
+The wrong village dialect name Huppuq' in the file laterals.tsv
+The wrong village dialect name Inkhoqwari in the file laterals.tsv
+The wrong village dialect name Nizh in the file laterals.tsv
+The wrong village dialect name Huppuq' in the file long_vowels.tsv
+The wrong village dialect name Inkhoqwari in the file long_vowels.tsv
+The wrong village dialect name Nizh in the file long_vowels.tsv
+The wrong village dialect name Lower Gakvari in the file morning_greetings.tsv
+The wrong village dialect name Anchiq in the file morning_greetings.tsv
+The wrong village dialect name Alik in the file morning_greetings.tsv
+The wrong village dialect name Nizh in the file morning_greetings.tsv
+The wrong village dialect name Huppuq' in the file nasalization.tsv
+The wrong village dialect name Inkhoqwari in the file nasalization.tsv
+The wrong village dialect name Nizh in the file nasalization.tsv
+The wrong village dialect name Upper Gakvari in the file number_of_morphological_slots_in_spatial_forms.tsv
+The wrong village dialect name Alik in the file number_of_morphological_slots_in_spatial_forms.tsv
+The wrong village dialect name Nizh in the file number_of_morphological_slots_in_spatial_forms.tsv
+The wrong village dialect name Gergebil' in the file numeral_bases.tsv
+The wrong village dialect name Huppuq' in the file numeral_bases.tsv
+The wrong village dialect name Ashar Kurakh in the file numeral_bases.tsv
+The wrong village dialect name Gelkhen in the file numeral_bases.tsv
+The wrong village dialect name Karakyuri in the file numeral_bases.tsv
+The wrong village dialect name Alik in the file numeral_bases.tsv
+The wrong village dialect name Nizh in the file numeral_bases.tsv
+The wrong village dialect name Alik in the file numeral_distributives.tsv
+The wrong village dialect name Huppuq' in the file optative.tsv
+The wrong village dialect name Lower Gakvari in the file optative.tsv
+The wrong village dialect name Alik in the file optative.tsv
+The wrong village dialect name Nizh in the file optative.tsv
+The wrong village dialect name Huppuq' in the file ordinals.tsv
+The wrong village dialect name Upper Gakvari in the file ordinals.tsv
+The wrong village dialect name Alik in the file ordinals.tsv
+The wrong village dialect name Huppuq' in the file palatalized_consonants.tsv
+The wrong village dialect name Inkhoqwari in the file palatalized_consonants.tsv
+The wrong village dialect name Nizh in the file palatalized_consonants.tsv
+The wrong village dialect name Huppuq' in the file particles.tsv
+The wrong village dialect name Upper Gakvari in the file particles.tsv
+The wrong village dialect name Alik in the file particles.tsv
+The wrong village dialect name Nizh in the file particles.tsv
+The wrong village dialect name Huppuq' in the file path_encoding.tsv
+The wrong village dialect name Lower Gakvari in the file path_encoding.tsv
+The wrong village dialect name Alik in the file path_encoding.tsv
+The wrong village dialect name Nizh in the file path_encoding.tsv
+The wrong village dialect name Huppuq' in the file perfect.tsv
+The wrong village dialect name Gadyri in the file perfect.tsv
+The wrong village dialect name Upper Gakvari in the file perfect.tsv
+The wrong village dialect name Alik in the file perfect.tsv
+The wrong village dialect name Nizh in the file perfect.tsv
+The wrong village dialect name Huppuq' in the file pharyngealization.tsv
+The wrong village dialect name Inkhoqwari in the file pharyngealization.tsv
+The wrong village dialect name Nizh in the file pharyngealization.tsv
+The wrong village dialect name Huppuq' in the file pharyngeals.tsv
+The wrong village dialect name Inkhoqwari in the file pharyngeals.tsv
+The wrong village dialect name Nizh in the file pharyngeals.tsv
+The wrong village dialect name Nizh in the file plural_marking_on_imperatives.tsv
+The wrong village dialect name Alik in the file plural_marking_on_imperatives.tsv
+The wrong village dialect name Lower Gakvari in the file plural_marking_on_imperatives.tsv
+The wrong village dialect name Anchiq in the file plural_marking_on_imperatives.tsv
+The wrong village dialect name Huppuq' in the file plural_marking_on_imperatives.tsv
+The wrong village dialect name Upper Gakvari in the file prohibitives.tsv
+The wrong village dialect name Lower Gakvari in the file prohibitives.tsv
+The wrong village dialect name Alik in the file prohibitives.tsv
+The wrong village dialect name Nizh in the file prohibitives.tsv
+The wrong village dialect name Upper Gakvari in the file standard_of_comparison.tsv
+The wrong village dialect name Lower Gakvari in the file standard_of_comparison.tsv
+The wrong village dialect name Anchiq in the file standard_of_comparison.tsv
+The wrong village dialect name Alik in the file standard_of_comparison.tsv
+The wrong village dialect name Nizh in the file standard_of_comparison.tsv
+The wrong village dialect name Lower Gakvari in the file trans_intrans_imperative.tsv
+The wrong village dialect name Alik in the file trans_intrans_imperative.tsv
+The wrong village dialect name Nizh in the file trans_intrans_imperative.tsv
+The wrong village dialect name Huppuq' in the file umlaut_vowels.tsv
+The wrong village dialect name Inkhoqwari in the file umlaut_vowels.tsv
+The wrong village dialect name Nizh in the file umlaut_vowels.tsv
+The wrong village dialect name Huppuq' in the file uvular_voiced_stop.tsv
+The wrong village dialect name Inkhoqwari in the file uvular_voiced_stop.tsv
+The wrong village dialect name Nizh in the file uvular_voiced_stop.tsv
+The wrong village dialect name Huppuq' in the file velar_fricatives.tsv
+The wrong village dialect name Inkhoqwari in the file velar_fricatives.tsv
+The wrong village dialect name Nizh in the file velar_fricatives.tsv
+The wrong village dialect name Huppuq' in the file voiceless_obstruents.tsv
+The wrong village dialect name Inkhoqwari in the file voiceless_obstruents.tsv
+The wrong village dialect name Nizh in the file voiceless_obstruents.tsv
+The wrong village dialect name Lower Gakvari in the file work.tsv
+The wrong village dialect name Upper Gakvari in the file work.tsv
+The wrong village dialect name Tanti in the file work.tsv
+The wrong village dialect name Anchiq in the file work.tsv
+The wrong village dialect name Alik in the file work.tsv
+The wrong village dialect name Nizh in the file work.tsv
+The wrong non-toplevel 3 dialect name Kidero in the file farewell_wishes.tsv
+The wrong non-toplevel 2 dialect name Kidero in the file farewell_wishes.tsv
+The wrong non-toplevel 2 dialect name Chadakolob in the file gender_agreement_slot.tsv
+The wrong non-toplevel 2 dialect name Sogratl in the file gender_agreement_slot.tsv
+The wrong non-toplevel 2 dialect name Bukhti in the file gender_agreement_slot.tsv
+The wrong non-toplevel 2 dialect name Obokh in the file gender_agreement_slot.tsv
+The wrong non-toplevel 2 dialect name Gamsutl' in the file gender_agreement_slot.tsv
+The wrong non-toplevel 2 dialect name Chokh in the file gender_agreement_slot.tsv
+The wrong non-toplevel 2 dialect name Salta in the file gender_agreement_slot.tsv
+The wrong non-toplevel 2 dialect name Keger in the file gender_agreement_slot.tsv
+The wrong non-toplevel 2 dialect name Hotoch-Khindakh in the file gender_agreement_slot.tsv
+The wrong non-toplevel 2 dialect name Kuyada in the file gender_agreement_slot.tsv
+The wrong non-toplevel 2 dialect name Rugudzha in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
+The wrong non-toplevel 2 dialect name Keger in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
+The wrong non-toplevel 2 dialect name Obokh in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
+The wrong non-toplevel 2 dialect name Nyutyug in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
+The wrong non-toplevel 2 dialect name Kurush in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
+The wrong non-toplevel 2 dialect name Salta in the file numeral_bases.tsv
+The wrong non-toplevel 1 dialect name Mukhad in the file agreement_of_adpositions.tsv
+The wrong non-toplevel 1 dialect name Mukhad in the file caritive_attr.tsv
+The wrong non-toplevel 1 dialect name Upper Gakvari in the file causatives.tsv
+The wrong non-toplevel 1 dialect name Mukhad in the file causatives.tsv
+The wrong non-toplevel 1 dialect name Mukhad in the file comitative.tsv
+The wrong non-toplevel 1 dialect name Mukhad in the file demonstratives.tsv
+The wrong non-toplevel 1 dialect name Mukhad in the file dominant_adpositional_case.tsv
+The wrong non-toplevel 1 dialect name Upper Gakvari in the file ejective_p.tsv
+The wrong non-toplevel 1 dialect name Upper Gakvari in the file ejective_s.tsv
+The wrong non-toplevel 1 dialect name Nizhnee Inkhelo in the file erg_abs_pronouns.tsv
+The wrong non-toplevel 1 dialect name Archo in the file erg_abs_pronouns.tsv
+The wrong non-toplevel 1 dialect name Mukhad in the file erg_abs_pronouns.tsv
+The wrong non-toplevel 1 dialect name Shinaz in the file erg_abs_pronouns.tsv
+The wrong non-toplevel 1 dialect name Myukhrek in the file erg_abs_pronouns.tsv
+The wrong non-toplevel 1 dialect name Ikhrek in the file erg_abs_pronouns.tsv
+The wrong non-toplevel 1 dialect name Upper Gakvari in the file gemination.tsv
+The wrong non-toplevel 1 dialect name Batsada in the file gender_agreement_slot.tsv
+The wrong non-toplevel 1 dialect name Khunzaq in the file gender_agreement_slot.tsv
+The wrong non-toplevel 1 dialect name Shulani in the file gender_agreement_slot.tsv
+The wrong non-toplevel 1 dialect name Nizhnee Inkhelo in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
+The wrong non-toplevel 1 dialect name Kusur in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
+The wrong non-toplevel 1 dialect name Kakhib Mixed in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
+The wrong non-toplevel 1 dialect name Batsada Mixed in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
+The wrong non-toplevel 1 dialect name Kurakh in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
+The wrong non-toplevel 1 dialect name Mukhad in the file jussive.tsv
+The wrong non-toplevel 1 dialect name Upper Gakvari in the file labialization.tsv
+The wrong non-toplevel 1 dialect name Upper Gakvari in the file labials.tsv
+The wrong non-toplevel 1 dialect name Upper Gakvari in the file laterals.tsv
+The wrong non-toplevel 1 dialect name Upper Gakvari in the file long_vowels.tsv
+The wrong non-toplevel 1 dialect name Upper Gakvari in the file nasalization.tsv
+The wrong non-toplevel 1 dialect name Mukhad in the file number_of_morphological_slots_in_spatial_forms.tsv
+The wrong non-toplevel 1 dialect name Siukh in the file numeral_bases.tsv
+The wrong non-toplevel 1 dialect name Kusur in the file numeral_bases.tsv
+The wrong non-toplevel 1 dialect name Upper Gakvari in the file numeral_class.tsv
+The wrong non-toplevel 1 dialect name Anchiq in the file numeral_class.tsv
+The wrong non-toplevel 1 dialect name Mukhad in the file numeral_class.tsv
+The wrong non-toplevel 1 dialect name Upper Gakvari in the file numeral_complex.tsv
+The wrong non-toplevel 1 dialect name Upper Gakvari in the file numeral_crowns_endings.tsv
+The wrong non-toplevel 1 dialect name Upper Gakvari in the file numeral_crowns_ten.tsv
+The wrong non-toplevel 1 dialect name Upper Gakvari in the file numeral_distributives.tsv
+The wrong non-toplevel 1 dialect name Anchiq in the file numeral_distributives.tsv
+The wrong non-toplevel 1 dialect name Mukhad in the file numeral_distributives.tsv
+The wrong non-toplevel 1 dialect name Upper Gakvari in the file numeral_hundred.tsv
+The wrong non-toplevel 1 dialect name Upper Gakvari in the file numeral_one.tsv
+The wrong non-toplevel 1 dialect name Upper Gakvari in the file numeral_ordinals.tsv
+The wrong non-toplevel 1 dialect name Anchiq in the file numeral_ordinals.tsv
+The wrong non-toplevel 1 dialect name Mukhad in the file numeral_ordinals.tsv
+The wrong non-toplevel 1 dialect name Upper Gakvari in the file numeral_origin.tsv
+The wrong non-toplevel 1 dialect name Anchiq in the file numeral_origin.tsv
+The wrong non-toplevel 1 dialect name Mukhad in the file numeral_origin.tsv
+The wrong non-toplevel 1 dialect name Upper Gakvari in the file numeral_regularity.tsv
+The wrong non-toplevel 1 dialect name Anchiq in the file numeral_regularity.tsv
+The wrong non-toplevel 1 dialect name Upper Gakvari in the file numeral_root_hundred.tsv
+The wrong non-toplevel 1 dialect name Mukhad in the file numeral_root_hundred.tsv
+The wrong non-toplevel 1 dialect name Upper Gakvari in the file numeral_thousand.tsv
+The wrong non-toplevel 1 dialect name Upper Gakvari in the file numeral_twenty.tsv
+The wrong non-toplevel 1 dialect name Upper Gakvari in the file numeral_twoten.tsv
+The wrong non-toplevel 1 dialect name Anchiq in the file numeral_twoten.tsv
+The wrong non-toplevel 1 dialect name Anchiq in the file optative.tsv
+The wrong non-toplevel 1 dialect name Mukhad in the file optative.tsv
+The wrong non-toplevel 1 dialect name Upper Gakvari in the file palatalized_consonants.tsv
+The wrong non-toplevel 1 dialect name Mukhad in the file particles.tsv
+The wrong non-toplevel 1 dialect name Mukhad in the file path_encoding.tsv
+The wrong non-toplevel 1 dialect name Upper Gakvari in the file pharyngealization.tsv
+The wrong non-toplevel 1 dialect name Upper Gakvari in the file pharyngeals.tsv
+The wrong non-toplevel 1 dialect name Mukhad in the file plural_marking_on_imperatives.tsv
+The wrong non-toplevel 1 dialect name Mukhad in the file prohibitives.tsv
+The wrong non-toplevel 1 dialect name Mukhad in the file standard_of_comparison.tsv
+The wrong non-toplevel 1 dialect name Mukhad in the file trans_intrans_imperative.tsv
+The wrong non-toplevel 1 dialect name Upper Gakvari in the file umlaut_vowels.tsv
+The wrong non-toplevel 1 dialect name Upper Gakvari in the file uvular_voiced_stop.tsv
+The wrong non-toplevel 1 dialect name Upper Gakvari in the file velar_fricatives.tsv
+The wrong non-toplevel 1 dialect name Upper Gakvari in the file voiceless_obstruents.tsv
+The wrong toplevel dialect name Kara-Nogai in the file caritive_attr.tsv
+The wrong toplevel dialect name Bezhta in the file days_after_today.tsv
+The wrong toplevel dialect name Bezhta in the file days_before_today.tsv
+The wrong toplevel dialect name Bezhta in the file ejective_p.tsv
+The wrong toplevel dialect name Bezhta in the file ejective_s.tsv
+The wrong toplevel dialect name Bezhta in the file erg_abs_pronouns.tsv
+The wrong toplevel dialect name Bezhta in the file gemination.tsv
+The wrong toplevel dialect name Kara-Nogai in the file gender_agreement_slot.tsv
+The wrong toplevel dialect name Shadni in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
+The wrong toplevel dialect name Bezhta in the file labialization.tsv
+The wrong toplevel dialect name Bezhta in the file labials.tsv
+The wrong toplevel dialect name Bezhta in the file laterals.tsv
+The wrong toplevel dialect name Bezhta in the file long_vowels.tsv
+The wrong toplevel dialect name Bezhta in the file nasalization.tsv
+The wrong toplevel dialect name Kara-Nogai in the file number_of_morphological_slots_in_spatial_forms.tsv
+The wrong toplevel dialect name Tsirkhe in the file numeral_bases.tsv
+The wrong toplevel dialect name Burkikhan in the file numeral_bases.tsv
+The wrong toplevel dialect name Kurag in the file numeral_bases.tsv
+The wrong toplevel dialect name Shinaz in the file numeral_bases.tsv
+The wrong toplevel dialect name Luchek in the file numeral_bases.tsv
+The wrong toplevel dialect name Bezhta in the file palatalized_consonants.tsv
+The wrong toplevel dialect name Bezhta in the file pharyngealization.tsv
+The wrong toplevel dialect name Bezhta in the file pharyngeals.tsv
+The wrong toplevel dialect name Bezhta in the file trans_intrans_imperative.tsv
+The wrong toplevel dialect name Bezhta in the file umlaut_vowels.tsv
+The wrong toplevel dialect name Bezhta in the file uvular_voiced_stop.tsv
+The wrong toplevel dialect name Bezhta in the file velar_fricatives.tsv
+The wrong toplevel dialect name Bezhta in the file voiceless_obstruents.tsv
 spelling of          chuhwanahw        in adpositions.Rmd:238
 spelling of          depi        in adpositions.Rmd:383
 spelling of          handep        in adpositions.Rmd:56
+spelling of          nd        in adpositions.Rmd:192,382
+spelling of          ar        in caritive_adv.Rmd:70,94
+spelling of          gu        in caritive_adv.Rmd:52,52,52
+spelling of          ar        in caritive_attr.Rmd:70,94
+spelling of          gu        in caritive_attr.Rmd:52,52,52
+spelling of          al        in causatives.Rmd:187,327,328,359
+spelling of          aq        in causatives.Rmd:126,128,151,152,153,154,155,342,345
 spelling of          aqij        in causatives.Rmd:191
+spelling of          ar        in causatives.Rmd:185,354
 spelling of          aric        in causatives.Rmd:333
+spelling of          arq        in causatives.Rmd:344
+spelling of          dar        in causatives.Rmd:121
+spelling of          de        in causatives.Rmd:358
+spelling of          dir        in causatives.Rmd:122
 spelling of          doren        in causatives.Rmd:357
+spelling of          ger        in causatives.Rmd:121
+spelling of          gil        in causatives.Rmd:187,327
+spelling of          gol        in causatives.Rmd:187,327
+spelling of          gul        in causatives.Rmd:187,327
+spelling of          ib        in causatives.Rmd:128
+spelling of          ij        in causatives.Rmd:153,345
+spelling of          ik        in causatives.Rmd:247
+spelling of          iq        in causatives.Rmd:153,345
 spelling of          iqij        in causatives.Rmd:191
+spelling of          ir        in causatives.Rmd:247
+spelling of          irq        in causatives.Rmd:128,344
+spelling of          kar        in causatives.Rmd:123
+spelling of          ker        in causatives.Rmd:123
+spelling of          ub        in causatives.Rmd:339
+spelling of          uk        in causatives.Rmd:247
+spelling of          un        in causatives.Rmd:335
 spelling of          vuyic        in causatives.Rmd:334
+spelling of          wy        in causatives.Rmd:336
 spelling of          dada        in comitative.Rmd:27
+spelling of          di        in comitative.Rmd:68,68
+spelling of          qaj        in comitative.Rmd:27,27
+spelling of          apa        in commemorative.Rmd:76
 spelling of          apagiri        in commemorative.Rmd:27,105
 spelling of          barq        in commemorative.Rmd:107
+spelling of          byl        in commemorative.Rmd:38
 spelling of          delil        in commemorative.Rmd:21
 spelling of          gihiri        in commemorative.Rmd:105
 spelling of          giri        in commemorative.Rmd:105
+spelling of          ḥ        in commemorative.Rmd:44
+spelling of          Kak        in commemorative.Rmd:21
+spelling of          lu        in commemorative.Rmd:46
+spelling of          Moj        in commemorative.Rmd:38
+spelling of          po        in commemorative.Rmd:21
 spelling of          xleb        in commemorative.Rmd:21
+spelling of          iq        in days_after_today.Rmd:24
 spelling of          iqna        in days_after_today.Rmd:24
+spelling of          nid        in days_after_today.Rmd:17
+spelling of          qa        in days_after_today.Rmd:19
+spelling of          iq        in days_before_today.Rmd:34
 spelling of          iqna        in days_before_today.Rmd:34
+spelling of          nid        in days_before_today.Rmd:27
+spelling of          qa        in days_before_today.Rmd:29
+spelling of          ada        in demonstratives.Rmd:141
 spelling of          awedu        in demonstratives.Rmd:324
+spelling of          di        in demonstratives.Rmd:79
 spelling of          dwaara        in demonstratives.Rmd:28
+spelling of          ga        in demonstratives.Rmd:100,319,319,319
+spelling of          ge        in demonstratives.Rmd:173
 spelling of          godo        in demonstratives.Rmd:135
 spelling of          hada        in demonstratives.Rmd:93
 spelling of          hara        in demonstratives.Rmd:221,221
+spelling of          hdi        in demonstratives.Rmd:196
+spelling of          hgi        in demonstratives.Rmd:196
 spelling of          hiba        in demonstratives.Rmd:234,234
+spelling of          hli        in demonstratives.Rmd:196
 spelling of          hobodu        in demonstratives.Rmd:324,324
 spelling of          homonu        in demonstratives.Rmd:324,324
+spelling of          hu        in demonstratives.Rmd:93,100
 spelling of          hudi        in demonstratives.Rmd:195
 spelling of          hudo        in demonstratives.Rmd:93
 spelling of          hugi        in demonstratives.Rmd:195
 spelling of          huli        in demonstratives.Rmd:195
 spelling of          hundo        in demonstratives.Rmd:79
+spelling of          idu        in demonstratives.Rmd:254
+spelling of          inu        in demonstratives.Rmd:254,254
+spelling of          ja        in demonstratives.Rmd:135,141,141
 spelling of          jamu        in demonstratives.Rmd:135
+spelling of          je        in demonstratives.Rmd:28
+spelling of          ka        in demonstratives.Rmd:20,53
+spelling of          le        in demonstratives.Rmd:153,155,162,173
+spelling of          nd        in demonstratives.Rmd:234,313
+spelling of          ni        in demonstratives.Rmd:79
+spelling of          oda        in demonstratives.Rmd:141
 spelling of          owenu        in demonstratives.Rmd:324
+spelling of          uhu        in demonstratives.Rmd:86
+spelling of          un        in demonstratives.Rmd:209
+spelling of          wa        in demonstratives.Rmd:187,196,196,196
+spelling of          de        in erg_abs_pronouns.Rmd:10,10,16,23
+spelling of          di        in erg_abs_pronouns.Rmd:33,39,40
+spelling of          du        in erg_abs_pronouns.Rmd:56
 spelling of          duha        in erg_abs_pronouns.Rmd:56
+spelling of          eli        in erg_abs_pronouns.Rmd:10,16,39
+spelling of          je        in erg_abs_pronouns.Rmd:107
+spelling of          jir        in erg_abs_pronouns.Rmd:83,84
 spelling of          uoxa        in erg_abs_pronouns.Rmd:101
+spelling of          va        in erg_abs_pronouns.Rmd:77,84
+spelling of          waj        in erg_abs_pronouns.Rmd:94,100,101
+spelling of          bol        in evidentiality_tense.Rmd:89
+spelling of          NAF        in evidentiality_tense.Rmd:76,78,87
+spelling of          wo        in evidentiality_tense.Rmd:76,87
+spelling of          xil        in evidentiality_tense.Rmd:66
+spelling of          Bon        in farewell_wishes.Rmd:3
+spelling of          lu        in farewell_wishes.Rmd:130
+spelling of          ol        in farewell_wishes.Rmd:130
+spelling of          yol        in farewell_wishes.Rmd:130
 spelling of          adal        in gender_agreement_slot.Rmd:105
+spelling of          aj        in gender_agreement_slot.Rmd:148
+spelling of          gi        in gender_agreement_slot.Rmd:116
+spelling of          Gid        in gender_agreement_slot.Rmd:83
 spelling of          gundine        in gender_agreement_slot.Rmd:83
 spelling of          gundinu        in gender_agreement_slot.Rmd:83,83
+spelling of          li        in gender_agreement_slot.Rmd:105,105,205
+spelling of          maj        in gender_agreement_slot.Rmd:148
+spelling of          naj        in gender_agreement_slot.Rmd:148
+spelling of          ni        in gender_agreement_slot.Rmd:51
+spelling of          du        in inclusive_exclusive_distinction_in_personal_pronouns.Rmd:344
+spelling of          el        in inclusive_exclusive_distinction_in_personal_pronouns.Rmd:746
+spelling of          je        in inclusive_exclusive_distinction_in_personal_pronouns.Rmd:24,583,583,583,585,585,585,585,651
+spelling of          ji        in inclusive_exclusive_distinction_in_personal_pronouns.Rmd:531,583,583,583,583,651,651,651
+spelling of          jin        in inclusive_exclusive_distinction_in_personal_pronouns.Rmd:529,529
 spelling of          jinewi        in inclusive_exclusive_distinction_in_personal_pronouns.Rmd:8,8,583
+spelling of          Lǟ        in inclusive_exclusive_distinction_in_personal_pronouns.Rmd:810
+spelling of          ne        in inclusive_exclusive_distinction_in_personal_pronouns.Rmd:583
+spelling of          nen        in inclusive_exclusive_distinction_in_personal_pronouns.Rmd:746
+spelling of          nux        in inclusive_exclusive_distinction_in_personal_pronouns.Rmd:342
+spelling of          olo        in inclusive_exclusive_distinction_in_personal_pronouns.Rmd:746
+spelling of          qu        in inclusive_exclusive_distinction_in_personal_pronouns.Rmd:583
 spelling of          quner        in inclusive_exclusive_distinction_in_personal_pronouns.Rmd:583
+spelling of          vin        in inclusive_exclusive_distinction_in_personal_pronouns.Rmd:529
+spelling of          wi        in inclusive_exclusive_distinction_in_personal_pronouns.Rmd:583
+spelling of          nd        in jussive.Rmd:51
+spelling of          al        in morning_greetings.Rmd:20
 spelling of          Oraire        in morning_greetings.Rmd:8
 spelling of          xair        in morning_greetings.Rmd:41,41,49
 spelling of          xajir        in morning_greetings.Rmd:41
+spelling of          bek        in number_of_morphological_slots_in_spatial_forms.Rmd:162
+spelling of          di        in number_of_morphological_slots_in_spatial_forms.Rmd:166
+spelling of          maj        in number_of_morphological_slots_in_spatial_forms.Rmd:165
+spelling of          wā        in number_of_morphological_slots_in_spatial_forms.Rmd:163
+spelling of          al        in numeral_class.Rmd:11
+spelling of          al        in numeral_complex.Rmd:71,71
+spelling of          gu        in numeral_complex.Rmd:71
+spelling of          da        in numeral_crowns_endings.Rmd:12
+spelling of          le        in numeral_crowns_endings.Rmd:28
+spelling of          li        in numeral_crowns_endings.Rmd:28
+spelling of          da        in numeral_morphology.Rmd:92
+spelling of          gu        in numeral_morphology.Rmd:92
+spelling of          al        in numeral_origin.Rmd:90,90
+spelling of          da        in numeral_origin.Rmd:59,59,105
+spelling of          gu        in numeral_origin.Rmd:105
+spelling of          ida        in numeral_origin.Rmd:59
+spelling of          le        in numeral_origin.Rmd:70
+spelling of          na        in numeral_origin.Rmd:80,80
+spelling of          ra        in numeral_origin.Rmd:80
+spelling of          nV        in numeral_root_hundred.Rmd:12
 spelling of          areally        in path_encoding.Rmd:181
 spelling of          ccording        in path_encoding.Rmd:143
+spelling of          qo        in path_encoding.Rmd:22,22,22,22,22
+spelling of          ul        in path_encoding.Rmd:17,19
+spelling of          ai        in phonology.Rmd:196
+spelling of          aj        in phonology.Rmd:196
+spelling of          eu        in phonology.Rmd:196
+spelling of          ew        in phonology.Rmd:196
+spelling of          ia        in phonology.Rmd:196
+spelling of          ja        in phonology.Rmd:196
+spelling of          ue        in phonology.Rmd:196
+spelling of          ja        in plural_marking_on_imperatives.Rmd:184
+spelling of          nd        in plural_marking_on_imperatives.Rmd:186
+spelling of          mV        in prohibitives_map.Rmd:315
+spelling of          aj        in prohibitives.Rmd:47,47,47,123
+spelling of          al        in prohibitives.Rmd:150,222
+spelling of          ara        in prohibitives.Rmd:31
+spelling of          ari        in prohibitives.Rmd:31
 spelling of          Bancel        in prohibitives.Rmd:150,222
+spelling of          der        in prohibitives.Rmd:10,14
+spelling of          kuj        in prohibitives.Rmd:101
+spelling of          kun        in prohibitives.Rmd:101
 spelling of          Lejeune        in prohibitives.Rmd:10,14
+spelling of          mV        in prohibitives.Rmd:31,47,47,93,150,150,150,150,150,222
+spelling of          Sg        in prohibitives.Rmd:101
+spelling of          vay        in prohibitives.Rmd:77
+spelling of          aj        in standard_of_comparison.Rmd:55,60,147,157
 spelling of          aloc        in standard_of_comparison.Rmd:123
+spelling of          ar        in standard_of_comparison.Rmd:54
 spelling of          aveli        in standard_of_comparison.Rmd:227
+spelling of          da        in standard_of_comparison.Rmd:45,140
+spelling of          dan        in standard_of_comparison.Rmd:72,74
+spelling of          de        in standard_of_comparison.Rmd:227
 spelling of          diye        in standard_of_comparison.Rmd:227
+spelling of          ic        in standard_of_comparison.Rmd:75
+spelling of          ja        in standard_of_comparison.Rmd:62,63,153,154,233
+spelling of          ka        in standard_of_comparison.Rmd:62,153
+spelling of          ku        in standard_of_comparison.Rmd:48,169
+spelling of          le        in standard_of_comparison.Rmd:233
+spelling of          li        in standard_of_comparison.Rmd:61,150
+spelling of          une        in standard_of_comparison.Rmd:46,141
 spelling of          upro        in standard_of_comparison.Rmd:227
+spelling of          wor        in standard_of_comparison.Rmd:200,216
+spelling of          aja        in trans_intrans_imperative.Rmd:111,113
+spelling of          ba        in trans_intrans_imperative.Rmd:57,94
+spelling of          ij        in trans_intrans_imperative.Rmd:71,71
+spelling of          imd        in trans_intrans_imperative.Rmd:71
 spelling of          mari        in trans_intrans_imperative.Rmd:23
+spelling of          oci        in trans_intrans_imperative.Rmd:94
+spelling of          uc        in trans_intrans_imperative.Rmd:113,113
+spelling of          ul        in trans_intrans_imperative.Rmd:96
+spelling of          una        in trans_intrans_imperative.Rmd:98
+spelling of          uq        in trans_intrans_imperative.Rmd:80
 spelling of          bolh        in work.Rmd:41
+spelling of          da        in work.Rmd:54,54
+spelling of          edu        in work.Rmd:45,45
 spelling of          ejno        in work.Rmd:54
+spelling of          gih        in work.Rmd:45
 spelling of          gihab        in work.Rmd:45
-The BibTeX entry          kibrik1999          present in the .Rmd, but absent in the path_encoding.bib
+spelling of          ir        in work.Rmd:51
+spelling of          kor        in work.Rmd:42
+spelling of          oba        in work.Rmd:66
+spelling of          wa        in work.Rmd:54
+spelling of          xe        in work.Rmd:66

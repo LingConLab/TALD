@@ -20,12 +20,14 @@ Akhvakh
 Akiev
 Akusha
 Alekseeva
+Alik
 allative
 allomorph
 ambiposition
 anaphora
 anaphoric
 anaphorically
+Anchiq
 Anchix
 Andi
 Andic
@@ -55,6 +57,7 @@ Botlikh
 Budukh
 bukvalʹno
 Bulbul
+Burkikhan
 Buynaksk
 calqued
 Calude
@@ -111,6 +114,7 @@ Dmitriev
 Dmitry
 Dobrushina
 DOI
+Duakar
 durative
 Dzhaliev
 egophoric
@@ -185,6 +189,7 @@ infixal
 Inga
 Ingush
 Ingushetia
+Inkhokvari
 interessive
 intransitivity
 Irina
@@ -340,6 +345,7 @@ quinary
 quotative
 reportative
 resultative
+Richa
 Rikvani
 Ripano
 Ripatransone
@@ -350,6 +356,7 @@ Sadakov
 Samira
 Sanzhi
 Schulze
+SG
 Shiri
 Shvedova
 Skripkina
