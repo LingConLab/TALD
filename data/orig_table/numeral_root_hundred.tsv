@@ -32,7 +32,7 @@ id	language	idiom	type	genlang_point	map	form	value1	value1_name	feature	source	
 31	Tabasaran	Standard Tabasaran	language	yes	yes	warž	*waˤlš:	Root for ‘hundred’	Root for ‘hundred’	alekseevshixalieva2003	52		Maksim Melenchenko	2022-08-19	варж	warž	100	100		hundred	alekseevshixalieva2003	52	
 32	Agul	Central Agul	dialect_toplevel	yes	yes	werš	*waˤlš:	Root for ‘hundred’	Root for ‘hundred’	magometov1970	94		Maksim Melenchenko	2022-08-19	werš	werš	100	100		hundred	magometov1970	95	
 33	Tsakhur	Mishlesh	village	yes	yes	waˤš	*waˤlš:	Root for ‘hundred’	Root for ‘hundred’	kibrik1999	154		Maksim Melenchenko	2022-08-19	waˤš	waˤš	100	100		hundred	kibrik1999	154	
-34	Rutul	Mukhad	dialect_nt1	yes	yes	wæš	*waˤlš:	Root for ‘hundred’	Root for ‘hundred’	ibragimov2004	75		Maksim Melenchenko	2022-08-19	ваьш	wæš	100	100		hundred	ibragimov2004	76	
+34	Rutul	Mukhad	dialect_toplevel	yes	yes	wæš	*waˤlš:	Root for ‘hundred’	Root for ‘hundred’	ibragimov2004	75		Maksim Melenchenko	2022-08-19	ваьш	wæš	100	100		hundred	ibragimov2004	76	
 35	Rutul	Kina	village	no	yes	weš	*waˤlš:	Root for ‘hundred’	Root for ‘hundred’	mukhin2020	5		Maksim Melenchenko	2022-08-19	weš	weš	100	100		hundred	mukhin2020	5	
 36	Budukh	Budukh	language	yes	yes	vigesimal	5 x 20	Root for ‘hundred’	Root for ‘hundred’	talibov2007	145		Maksim Melenchenko	2022-08-19	фу-хъа-б	fu-qa-b	100	100		five-twenty-CM	talibov2007	145	
 37	Kryz	Alik	dialect_toplevel	yes	yes	vigesimal	5 x 20	Root for ‘hundred’	Root for ‘hundred’	authier2009	104	[starostin: 435] gives a more merged form: fəq:a-d.	Maksim Melenchenko	2022-08-19	fu-d ɢaˤa-d	fu-d ɢaˤa-d	100	100		five-CM twenty-CM	authier2009	105	
