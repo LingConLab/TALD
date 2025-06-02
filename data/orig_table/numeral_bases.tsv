@@ -53,10 +53,10 @@ id	language	idiom	type	genlang_point	map	value1	value1_name	feature	source	page	
 51	Lak	Standard Lak	language	yes	yes	decimal	Base of numeral system	Base of numeral system	zhirkov1955	52--56		George Moroz	2023-09-08	
 52	Archi	Archib	village	yes	yes	decimal	Base of numeral system	Base of numeral system	kibrik1977	118--119		George Moroz	2023-09-08	
 53	Qushan Agul	Qushan Agul	language	no	yes	decimal	Base of numeral system	Base of numeral system	ganenkovmaisak2008	7		Maksim Melenchenko	2023-09-08	
-54	Agul	Tsirkhe	dialect_toplevel	no	yes	decimal	Base of numeral system	Base of numeral system	ganenkovmaisak2008	7		Maksim Melenchenko	2023-09-08	
+54	Agul	Tsirkhe	village	no	yes	decimal	Base of numeral system	Base of numeral system	ganenkovmaisak2008	7		Maksim Melenchenko	2023-09-08	
 55	Agul	Fite	dialect_toplevel	yes	yes	both	Base of numeral system	Base of numeral system	magometov1970	94--97		George Moroz	2023-09-08	
-57	Agul	Burkikhan	dialect_toplevel	no	yes	both	Base of numeral system	Base of numeral system	ganenkovmaisak2008	7		Maksim Melenchenko	2023-09-08	
-58	Agul	Kurag	dialect_toplevel	no	yes	both	Base of numeral system	Base of numeral system	ganenkovmaisak2008	7		Maksim Melenchenko	2023-09-08	
+57	Agul	Burkikhan	village	no	yes	both	Base of numeral system	Base of numeral system	ganenkovmaisak2008	7		Maksim Melenchenko	2023-09-08	
+58	Agul	Kurag	dialect_nt1	no	yes	both	Base of numeral system	Base of numeral system	ganenkovmaisak2008	7		Maksim Melenchenko	2023-09-08	
 59	Agul	Bedyuk	village	no	yes	both	Base of numeral system	Base of numeral system	ganenkovmaisak2008	7		Maksim Melenchenko	2023-09-08	
 60	Agul	Richa	village	no	yes	both	Base of numeral system	Base of numeral system	ganenkovmaisak2008	7		Maksim Melenchenko	2023-09-08	
 61	Agul	Usug	village	no	yes	vigesimal	Base of numeral system	Base of numeral system	magometov1970	94--97		George Moroz	2023-09-08	
