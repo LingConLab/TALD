@@ -10,14 +10,14 @@ id	language	idiom	type	genlang_point	map	value1	value1_name	feature	source	page	
 9	Gigatli	Gigatli	language	no	yes	decimal	Base of numeral system	Base of numeral system	bokarev1949a	71--73		George Moroz	2023-09-08	
 10	Godoberi	Godoberi	village	yes	yes	decimal	Base of numeral system	Base of numeral system	tatevosov1996	28--29		George Moroz	2023-09-08	
 11	Karata	Karata	dialect_toplevel	yes	yes	decimal	Base of numeral system	Base of numeral system	magomedbekova1971	93--95		George Moroz	2023-09-08	
-12	Karata	Siukh	dialect_nt1	no	yes	decimal	Base of numeral system	Base of numeral system	dalgatov2017	12--13		Maksim Melenchenko	2023-09-08	
+12	Karata	Siukh	village	no	yes	decimal	Base of numeral system	Base of numeral system	dalgatov2017	12--13		Maksim Melenchenko	2023-09-08	
 13	Tukita	Tukita	language	no	yes	vigesimal	Base of numeral system	Base of numeral system	magomedbekova1971	93--95		George Moroz	2023-09-08	
 14	Tindi	Tindi	village	yes	yes	decimal	Base of numeral system	Base of numeral system	magomedova2003	560--561		George Moroz	2023-09-08	
 15	Northern Akhvakh	Northern Akhvakh	language	yes	yes	vigesimal	Base of numeral system	Base of numeral system	magomedbekova1967	71		George Moroz	2023-09-08	
 16	Southern Akhvakh	Ratlub	village	no	yes	vigesimal	Base of numeral system	Base of numeral system	abdulaeva2001		No page (read it on a webpage)	Maksim Melenchenko	2023-09-08	
 17	Avar	Standard Avar	language	yes	yes	vigesimal	Base of numeral system	Base of numeral system	alekseevataev1997	52		George Moroz	2023-09-08	
 18	Avar	Zaqatala	dialect_nt1	no	yes	mixed	Base of numeral system	Base of numeral system	saidova2007	107	Originally vigesimal, then presumably borrowed decimal crowns 50—90 from Tsakhur	Maksim Melenchenko	2023-09-08	
-19	Avar	Kusur	dialect_nt1	no	yes	mixed	Base of numeral system	Base of numeral system	isakov1981		Originally vigesimal, then presumably borrowed decimal crowns 50—90 from Tsakhur. No page (read it on a webpage)	Maksim Melenchenko	2023-09-08	
+19	Avar	Kusur	dialect_toplevel	no	yes	mixed	Base of numeral system	Base of numeral system	isakov1981		Originally vigesimal, then presumably borrowed decimal crowns 50—90 from Tsakhur. No page (read it on a webpage)	Maksim Melenchenko	2023-09-08	
 20	Avar	Salataw	dialect_nt2	no	yes	vigesimal	Base of numeral system	Base of numeral system	musalaeva2016	24		Maksim Melenchenko	2023-09-08	
 21	Avar	Kudali-Salta	dialect_nt1	no	yes	vigesimal	Base of numeral system	Base of numeral system	radzhabova2012	16		Maksim Melenchenko	2023-09-08	
 22	Avar	Gergebil	dialect_nt3	no	yes	vigesimal	Base of numeral system	Base of numeral system	tagirova2003	16		Maksim Melenchenko	2023-09-08	
