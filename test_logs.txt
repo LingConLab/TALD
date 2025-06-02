@@ -1,25 +1,4 @@
-The wrong village dialect name Upper Gakvari in the file comitative.tsv
-The wrong village dialect name Upper Gakvari in the file dominant_adpositional_case.tsv
-The wrong village dialect name Upper Gakvari in the file erg_abs_pronouns.tsv
-The wrong village dialect name Upper Gakvari in the file evidentiality_tense.tsv
 NA
-The wrong village dialect name Upper Gakvari in the file gender_agreement_slot.tsv
-The wrong village dialect name Upper Gakvari in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
-The wrong village dialect name Upper Gakvari in the file jussive.tsv
-The wrong village dialect name Upper Gakvari in the file number_of_morphological_slots_in_spatial_forms.tsv
-The wrong village dialect name Upper Gakvari in the file ordinals.tsv
-The wrong village dialect name Upper Gakvari in the file particles.tsv
-The wrong village dialect name Upper Gakvari in the file perfect.tsv
-The wrong village dialect name Upper Gakvari in the file prohibitives.tsv
-The wrong village dialect name Upper Gakvari in the file standard_of_comparison.tsv
-The wrong village dialect name Upper Gakvari in the file work.tsv
-The wrong non-toplevel 3 dialect name Kidero in the file farewell_wishes.tsv
-The wrong non-toplevel 2 dialect name Kidero in the file farewell_wishes.tsv
-The wrong non-toplevel 2 dialect name Chadakolob in the file gender_agreement_slot.tsv
-The wrong non-toplevel 2 dialect name Sogratl in the file gender_agreement_slot.tsv
-The wrong non-toplevel 2 dialect name Bukhti in the file gender_agreement_slot.tsv
-The wrong non-toplevel 2 dialect name Obokh in the file gender_agreement_slot.tsv
-The wrong non-toplevel 2 dialect name Gamsutl' in the file gender_agreement_slot.tsv
 The wrong non-toplevel 2 dialect name Chokh in the file gender_agreement_slot.tsv
 The wrong non-toplevel 2 dialect name Salta in the file gender_agreement_slot.tsv
 The wrong non-toplevel 2 dialect name Keger in the file gender_agreement_slot.tsv
@@ -27,7 +6,6 @@ The wrong non-toplevel 2 dialect name Hotoch-Khindakh in the file gender_agreeme
 The wrong non-toplevel 2 dialect name Kuyada in the file gender_agreement_slot.tsv
 The wrong non-toplevel 2 dialect name Rugudzha in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
 The wrong non-toplevel 2 dialect name Keger in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
-The wrong non-toplevel 2 dialect name Obokh in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
 The wrong non-toplevel 2 dialect name Nyutyug in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
 The wrong non-toplevel 2 dialect name Kurush in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
 The wrong non-toplevel 2 dialect name Salta in the file numeral_bases.tsv
