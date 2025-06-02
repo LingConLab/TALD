@@ -17,7 +17,7 @@ id	language	idiom	type	genlang_point	map	feature	value1_name	value1	source	page	
 16	Botlikh	Botlikh	village	yes	yes	Velar fricatives	Velar fricatives	x	alexeyevverheesdraft2020		George Moroz	2021.10.04
 17	Budukh	Budukh	language	yes	yes	Velar fricatives	Velar fricatives	ɣ, x	kibrikkodzasov1990	345	George Moroz	2017.05.06
 18	Budukh	Budukh	language	no	no	Velar fricatives	Velar fricatives	x	talibov2007	35	George Moroz	2021.10.04
-19	Chamalal	Upper Gakvari	dialect_nt1	no	yes	Velar fricatives	Velar fricatives	x	bokarev1949a	12, 15	George Moroz	2021.10.04
+19	Chamalal	Upper Gakvari	dialect_toplevel	no	yes	Velar fricatives	Velar fricatives	x	bokarev1949a	12, 15	George Moroz	2021.10.04
 20	Gigatli	Gigatli	language	yes	yes	Velar fricatives	Velar fricatives	x	kibrikkodzasov1990	324	George Moroz	2017.05.06
 21	Chechen	Standard Chechen	language	yes	yes	Velar fricatives	Velar fricatives	ɣ, x	nichols1994	4	George Moroz	2021.10.04
 22	Chirag	Chirag	language	no	yes	Velar fricatives	Velar fricatives	x	kibrikkodzasov1990	334	George Moroz	2017.05.06

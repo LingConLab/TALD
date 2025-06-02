@@ -18,7 +18,7 @@ id	language	idiom	type	genlang_point	map	feature	value1_name	value1	source	page	
 17	Budukh	Budukh	language	yes	yes	Number of contrasts in voiceless obstruents	Presence of geminates	not attested	kibrikkodzasov1990	345	George Moroz	2017.05.06
 18	Budukh	Budukh	language	no	no	Number of contrasts in voiceless obstruents	Presence of geminates	not attested	talibov2007	35	George Moroz	2021.10.04
 19	Gigatli	Gigatli	language	yes	yes	Number of contrasts in voiceless obstruents	Presence of geminates	attested	kibrikkodzasov1990	324	George Moroz	2017.05.06
-20	Chamalal	Upper Gakvari	dialect_nt1	no	yes	Number of contrasts in voiceless obstruents	Presence of geminates	attested	bokarev1949a	12, 15	George Moroz	2021.10.04
+20	Chamalal	Upper Gakvari	dialect_toplevel	no	yes	Number of contrasts in voiceless obstruents	Presence of geminates	attested	bokarev1949a	12, 15	George Moroz	2021.10.04
 21	Chechen	Standard Chechen	language	yes	yes	Number of contrasts in voiceless obstruents	Presence of geminates	attested	nichols1994	4	George Moroz	2021.10.04
 22	Chirag	Chirag	language	no	yes	Number of contrasts in voiceless obstruents	Presence of geminates	attested	kibrikkodzasov1990	334	George Moroz	2017.05.06
 23	Kajtag	Kajtag	language	no	yes	Number of contrasts in voiceless obstruents	Presence of geminates	attested	temirbulatova2004	39	George Moroz	2021.10.04
