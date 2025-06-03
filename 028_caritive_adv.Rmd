@@ -21,7 +21,7 @@ See [data and maps](028_caritive_adv_map.html).
 
 ```{r}
 library(RefManageR)
-BibOptions(check.entries = FALSE, style = 'text', bib.style = 'authoryear')
+BibOptions(check.entries = FALSE, style = 'text', first.inits = FALSE, bib.style = 'authoryear')
 article_citation <- BibEntry(bibtype = 'Incollection', 
  key='panova2021',
  title='Adverbial caritive markers',

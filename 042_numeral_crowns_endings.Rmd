@@ -21,7 +21,7 @@ See [data and maps](042_numeral_crowns_endings_map.html).
 
 ```{r}
 library(RefManageR)
-BibOptions(check.entries = FALSE, style = 'text', bib.style = 'authoryear')
+BibOptions(check.entries = FALSE, style = 'text', first.inits = FALSE, bib.style = 'authoryear')
 article_citation <- BibEntry(bibtype = 'Incollection', 
  key='melenchenko2022',
  title='Special endings for crowns from 30 to 90',

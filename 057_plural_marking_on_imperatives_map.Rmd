@@ -21,7 +21,7 @@ See [chapter](057_plural_marking_on_imperatives.html)
 
 ```{r}
 library(RefManageR)
-BibOptions(check.entries = FALSE, style = 'text', bib.style = 'authoryear')
+BibOptions(check.entries = FALSE, style = 'text', first.inits = FALSE, bib.style = 'authoryear')
 article_citation <- BibEntry(bibtype = 'Incollection', 
  key='zerzele2023',
  title='Plural marking on imperatives and prohibitives (Maps & Data)',

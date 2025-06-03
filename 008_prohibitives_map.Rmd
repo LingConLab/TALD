@@ -21,7 +21,7 @@ See [chapter](008_prohibitives.html)
 
 ```{r}
 library(RefManageR)
-BibOptions(check.entries = FALSE, style = 'text', bib.style = 'authoryear')
+BibOptions(check.entries = FALSE, style = 'text', first.inits = FALSE, bib.style = 'authoryear')
 article_citation <- BibEntry(bibtype = 'Incollection', 
  key='ochs2021',
  title='Prohibitive and its relation with the imperative (Maps & Data)',

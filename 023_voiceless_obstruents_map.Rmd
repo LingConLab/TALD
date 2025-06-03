@@ -21,7 +21,7 @@ See [chapter](023_voiceless_obstruents.html)
 
 ```{r}
 library(RefManageR)
-BibOptions(check.entries = FALSE, style = 'text', bib.style = 'authoryear')
+BibOptions(check.entries = FALSE, style = 'text', first.inits = FALSE, bib.style = 'authoryear')
 article_citation <- BibEntry(bibtype = 'Incollection', 
  key='moroz2021',
  title='Voiceless obstruents (Maps & Data)',

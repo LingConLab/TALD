@@ -21,7 +21,7 @@ See [chapter](030_dominant_adpositional_case.html)
 
 ```{r}
 library(RefManageR)
-BibOptions(check.entries = FALSE, style = 'text', bib.style = 'authoryear')
+BibOptions(check.entries = FALSE, style = 'text', first.inits = FALSE, bib.style = 'authoryear')
 article_citation <- BibEntry(bibtype = 'Incollection', 
  key='nasledskova2022',
  title='Dominant adpositional case (Maps & Data)',

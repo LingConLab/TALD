@@ -21,7 +21,7 @@ See [data and maps](061_work_map.html).
 
 ```{r}
 library(RefManageR)
-BibOptions(check.entries = FALSE, style = 'text', bib.style = 'authoryear')
+BibOptions(check.entries = FALSE, style = 'text', first.inits = FALSE, bib.style = 'authoryear')
 article_citation <- BibEntry(bibtype = 'Incollection', 
  key='zemicheva2025',
  title='Expression of the sense ‘to work’',

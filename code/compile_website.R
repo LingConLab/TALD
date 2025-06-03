@@ -485,7 +485,7 @@ walk(seq_along(rmd_filenames), function(i){
     # create and add citation
     "```{r}",
     "library(RefManageR)",
-    "BibOptions(check.entries = FALSE, style = 'text', bib.style = 'authoryear')",
+    "BibOptions(check.entries = FALSE, style = 'text', first.inits = FALSE, bib.style = 'authoryear')",
     "article_citation <- BibEntry(bibtype = 'Incollection', ",
     paste0(" key='", first_authors[i], features$created_date[i], "',"),
     paste0(" title='", 

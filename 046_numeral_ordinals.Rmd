@@ -21,7 +21,7 @@ See [data and maps](046_numeral_ordinals_map.html).
 
 ```{r}
 library(RefManageR)
-BibOptions(check.entries = FALSE, style = 'text', bib.style = 'authoryear')
+BibOptions(check.entries = FALSE, style = 'text', first.inits = FALSE, bib.style = 'authoryear')
 article_citation <- BibEntry(bibtype = 'Incollection', 
  key='melenchenko2022',
  title='Presence of the numeral marker in ordinals',
