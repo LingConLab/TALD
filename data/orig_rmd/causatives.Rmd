@@ -178,18 +178,18 @@ gloss_example(transliteration = "heq'e-z-a-b-ize",
 
 #### **Table 2.** Suffixal auxiliaries {#t2 -}
 
-| EC branch | language     | auxiliary                    | lexical verb form |
-|:----------|:-------------|:-----------------------------|:------------------|
-|  Nakh     | Chechen      | CM-an 'do', jta/i:ta 'leave' | stem, stem        |
-|           | Ingush       | CM-u 'do', -iit/-it 'leave'  | stem, stem        |
-|           | Tsova-Tush   | -it-ar 'leave'               | stem              |
-| Tsezic    | Hinuq        | CM-u:- 'do', tok’er- '?'     | stem, stem        |
-|           | Bezhta       | gol-al/gil-al/gul-al 'put'   | stem              |
-| Lezgic    | Rutul        | haʔas 'do'                   | stem              |
-|           | Tsakhur      | haʔu 'do'                    | potentialis stem  |
-| Dargwa    | Sanzhi       | CM-irq’-/CM-arq’- 'do'       | stem?             |
-|           | Kubachi      | -aqij/-iqij 'overcome'       | stem              |
-|           | Tsugni       | -aʁ-/-iʁ- 'drive'            | stem              |
+| EC branch | language     | auxiliary                    | lexical verb form[^4] |
+|:----------|:-------------|:-----------------------------|:----------------------|
+|  Nakh     | Chechen      | CM-an 'do', jta/i:ta 'leave' | stem, stem            |
+|           | Ingush       | CM-u 'do', -iit/-it 'leave'  | stem, stem            |
+|           | Tsova-Tush   | -it-ar 'leave'               | stem                  |
+| Tsezic    | Hinuq        | CM-u:- 'do', tok’er- '?'     | stem, stem            |
+|           | Bezhta       | gol-al/gil-al/gul-al 'put'   | stem                  |
+| Lezgic    | Rutul        | haʔas 'do'                   | stem                  |
+|           | Tsakhur      | haʔu 'do'                    | potentialis stem      |
+| Dargwa    | Sanzhi       | CM-irq’-/CM-arq’- 'do'       | stem?                 |
+|           | Kubachi      | -aqij/-iqij 'overcome'       | stem                  |
+|           | Tsugni       | -aʁ-/-iʁ- 'drive'            | stem                  |
 
 [^4]: For the sake of simplicity, I do not distinguish between roots and stems here.
 
@@ -312,51 +312,51 @@ The most common verbs found in causative constructions were 'do' (13), 'leave' (
 
 #### **Table 3.** Auxiliary semantics {#t3 -}
 
-| Family > branch | Language       | Auxiliary            | Semantics  |
-|:----------------|:---------------|:---------------------|:-----------|
-| EC > Andic      | Akhvakh        | bit’-uruʎa           | direct     |
-|                 | Godoberi       | t’ami                | put        |
-|                 | Botlikh        | t’am-i               | put        |
-|                 |                | CM-iʁ-a-j            | become     |
-|                 | Bagvalal       | CM-ešta              | let        |
-|                 | Karata         | it-a-ɬ-a             | let        |
-|                 | Tindi          | CM-ešdo              | let        |
-| EC > Tsezic     | Hinuq          | tok’-er              | ‘?’        |
-|                 |                | t’amizi-u:           | ‘force’    |
-|                 | Khwarshi       | CM-ešt’a             | ‘let’      |
-|                 | Bezhta         | gol-al/gil-al/gul-al | ‘put’      |
-|                 |                | tok’-al              | ‘use’      |
-| EC > Lezgic     | Agul           | aq’-a-s              | ‘do’       |
-|                 |                | qačik-a-s            | ‘force’    |
-|                 | Archi          | a-s                  | ‘do’       |
-|                 | Budukh         | CM-uc’u              | ‘give’     |
-|                 | Kryz           | aric                 | ‘do’       |
-|                 |                | vuyic                | ‘give’     |
-|                 | Lezgian        | t-un                 | ‘leave’6   |
-|                 | Rutul          | wy-s                 | ‘give’     |
-|                 |                | haʔa-s               | ‘do’       |
-|                 | Tsakhur        | haʔu                 | ‘do’       |
-|                 | Tabasaran      | ğit-ub               | ‘leave’    |
-|                 | Udi            | -b-es                | ‘do’       |
-| EC > Dargwa     | Mehweb         | aʔ-as                | ‘drive’    |
-|                 |                | CM-aq-as             | ‘leave’    |
-|                 |                | CM-aq’-as            | ‘do’       |
-|                 | Sanzhi         | CM-irq-‘/CM-arq-’    | ‘do’       |
-|                 | Kubachi        | aq-ij/iq-ij          | ‘overcome’ |
-|                 | Tsugni         | -aʁ-;-iʁ-            | ‘drive’    |
-| EC > Lak        | Lak            | CM-an                | ‘do’       |
-|                 |                | CM-it-an             | ‘leave’    |
-| EC > Khinalug   | Khinalug       | ček’iri              | ‘sell’     |
-| EC > Nakh       | Chechen        | CM-an                | ‘do’       |
-|                 |                | jta/i:ta             | ‘leave’    |
-|                 | Ingush         | d.u                  | ‘do’       |
-|                 |                | iit/it               | ‘leave’    |
-|                 | Tsova-Tush     | it-ar                | ‘leave’    |
-| EC > Avar       | Avar           | ha-b-ize             | ‘do’       |
-| IE > Iranian    | Azerbaijan-Tat | saꭓden               | ‘do’       |
-|                 | Aspheron-Tat   | doren                | ‘give’     |
-|                 | Judeo-Tat      | hiš-de               | ‘leave’    |
-| IE > Armenic    | Armenian       | t-al                 | ‘give’     |
+| Family > branch | Language       | Auxiliary            | Semantics   |
+|:----------------|:---------------|:---------------------|:------------|
+| EC > Andic      | Akhvakh        | bit’-uruʎa           | direct      |
+|                 | Godoberi       | t’ami                | put         |
+|                 | Botlikh        | t’am-i               | put         |
+|                 |                | CM-iʁ-a-j            | become      |
+|                 | Bagvalal       | CM-ešta              | let         |
+|                 | Karata         | it-a-ɬ-a             | let         |
+|                 | Tindi          | CM-ešdo              | let         |
+| EC > Tsezic     | Hinuq          | tok’-er              | ‘?’         |
+|                 |                | t’amizi-u:           | ‘force’     |
+|                 | Khwarshi       | CM-ešt’a             | ‘let’       |
+|                 | Bezhta         | gol-al/gil-al/gul-al | ‘put’       |
+|                 |                | tok’-al              | ‘use’       |
+| EC > Lezgic     | Agul           | aq’-a-s              | ‘do’        |
+|                 |                | qačik-a-s            | ‘force’     |
+|                 | Archi          | a-s                  | ‘do’        |
+|                 | Budukh         | CM-uc’u              | ‘give’      |
+|                 | Kryz           | aric                 | ‘do’        |
+|                 |                | vuyic                | ‘give’      |
+|                 | Lezgian        | t-un                 | ‘leave’[^6] |
+|                 | Rutul          | wy-s                 | ‘give’      |
+|                 |                | haʔa-s               | ‘do’        |
+|                 | Tsakhur        | haʔu                 | ‘do’        |
+|                 | Tabasaran      | ğit-ub               | ‘leave’     |
+|                 | Udi            | -b-es                | ‘do’        |
+| EC > Dargwa     | Mehweb         | aʔ-as                | ‘drive’     |
+|                 |                | CM-aq-as             | ‘leave’     |
+|                 |                | CM-aq’-as            | ‘do’        |
+|                 | Sanzhi         | CM-irq-‘/CM-arq-’    | ‘do’        |
+|                 | Kubachi        | aq-ij/iq-ij          | ‘overcome’  |
+|                 | Tsugni         | -aʁ-;-iʁ-            | ‘drive’     |
+| EC > Lak        | Lak            | CM-an                | ‘do’        |
+|                 |                | CM-it-an             | ‘leave’     |
+| EC > Khinalug   | Khinalug       | ček’iri              | ‘sell’      |
+| EC > Nakh       | Chechen        | CM-an                | ‘do’        |
+|                 |                | jta/i:ta             | ‘leave’     |
+|                 | Ingush         | d.u                  | ‘do’        |
+|                 |                | iit/it               | ‘leave’     |
+|                 | Tsova-Tush     | it-ar                | ‘leave’     |
+| EC > Avar       | Avar           | ha-b-ize             | ‘do’        |
+| IE > Iranian    | Azerbaijan-Tat | saꭓden               | ‘do’        |
+|                 | Aspheron-Tat   | doren                | ‘give’      |
+|                 | Judeo-Tat      | hiš-de               | ‘leave’     |
+| IE > Armenic    | Armenian       | t-al                 | ‘give’      |
 
 [^6]: the same verb can mean 'let' (cf. [@talibovgadzhiev1966]), however this is the translation used in the source.
 

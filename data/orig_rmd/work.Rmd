@@ -36,7 +36,7 @@ Our sample includes data from 45 idioms. Among them, Hinuq and Tsez (<Tsezic) ar
 
 We found out that the variation between lexical and constructional expressions can be described in terms of four labels. Besides light verb constructions, we identified three groups of lexical verb expressions: 1) the verb ‘to do’, 2) a verb with the same root as the verb ‘to do’,[^2] 3) a dedicated verb.
 
-[^2]: In such cases we can speak about colexification – “the capacity, for two senses, to be lexified by the same lexeme in synchrony” [@franсois2008: 171].
+[^2]: In such cases we can speak about colexification – “the capacity, for two senses, to be lexified by the same lexeme in synchrony” [@francois2008: 171].
 
 Light verb construction is a relatively popular way to express the sense ‘to work’. It is found in 12 idioms, including Chechen (<Nakh) *bolh b-an* (`r add_gloss("work B-do:INF")`) [@karasaevmaciev1978: 500] and Rutul (<Lezgic) *gʷalaχ w-ɨʔɨ-n* (`r add_gloss("work 3-do.PFV-NMLZ")` [@ismailova2011: 253]. Interestingly, in Judeo-Tat (<Iranian) two different constructions are possible: *žofo keši-re* `r add_gloss("work pull-INF")`
 and *kor sox-tə* (`r add_gloss("work do-INF")`) [@izgijaeva2005: 362]; we can suggest some dialect variation here, since the latter is found in the Gubin dialect [@naftaliev2016: 452].
