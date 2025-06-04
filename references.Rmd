@@ -55,6 +55,3 @@ str_c(c("---",
   cat()
 ```
 
-
-## References
-
