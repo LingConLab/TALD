@@ -8,7 +8,7 @@ id	language	idiom	type	genlang_point	map	form	value1	value1_name	feature	source	
 7	Chamalal	Upper Gakvari	dialect_toplevel	yes	yes	beɣan	*bišo-nV ('knife')	Root for ‘hundred’	Root for ‘hundred’	bokarev1949b	73		Maksim Melenchenko	2022-08-19	бегьанна	beɣan-na	100	100		hundred-NUM	bokarev1949b	71	-na is -da assimilated to the final /n/ in bešan
 8	Gigatli	Gigatli	language	no	yes	bešan	*bišo-nV ('knife')	Root for ‘hundred’	Root for ‘hundred’	bokarev1949b	73		Maksim Melenchenko	2022-08-19	бешанда	bešan-da	100	100		hundred-NUM	bokarev1949b	71	
 9	Tindi	Tindi	village	yes	yes	behã	*bišo-nV ('knife')	Root for ‘hundred’	Root for ‘hundred’	magomedova2012	144		Maksim Melenchenko	2022-08-19	behã-da	behã-da	100	100		hundred-NUM	authierdraft2020	15	
-10	Godoberi	Godoberi	village	yes	yes	bešenu	*bišo-nV ('knife')	Root for ‘hundred’	Root for ‘hundred’	tatevosov1996	29		Maksim Melenchenko	2022-08-19	bešenu-da	bešenu-da	100	100		hundred-NUM	tatevosov1996	29	
+10	Godoberi	Godoberi	language	yes	yes	bešenu	*bišo-nV ('knife')	Root for ‘hundred’	Root for ‘hundred’	tatevosov1996	29		Maksim Melenchenko	2022-08-19	bešenu-da	bešenu-da	100	100		hundred-NUM	tatevosov1996	29	
 11	Northern Akhvakh	Northern Akhvakh	language	yes	yes	bešano	*bišo-nV ('knife')	Root for ‘hundred’	Root for ‘hundred’	magomedbekova1967	71		Maksim Melenchenko	2022-08-19	bešanodabe	bešano-da-be	100	100		hundred-NUM-CM	magomedbekova1967	71	
 12	Karata	Karata	dialect_toplevel	yes	yes	bešan	*bišo-nV ('knife')	Root for ‘hundred’	Root for ‘hundred’	magomedbekova1971	93		Maksim Melenchenko	2022-08-19	bešanda	bešan-da	100	100		hundred-NUM	magomedbekova1971	93	
 13	Tukita	Tukita	language	no	yes	beçʲan	*bišo-nV ('knife')	Root for ‘hundred’	Root for ‘hundred’	gadzhieva2007	87		Maksim Melenchenko	2022-08-19	бехь’ан	beçʲan	100	100		hundred	gadzhieva2007	87	
@@ -27,7 +27,7 @@ id	language	idiom	type	genlang_point	map	form	value1	value1_name	feature	source	
 26	Chirag	Chirag	language	no	yes	daršː	*darš:	Root for ‘hundred’	Root for ‘hundred’	ganenkov2021draft_numerals	1		Maksim Melenchenko	2022-08-19	daršː	daršː	100	100		hundred	ganenkov2021draft_numerals	1	
 27	Kubachi	Kubachi	language	no	yes	daˤ:š	*darš:	Root for ‘hundred’	Root for ‘hundred’	magometov1963	134		Maksim Melenchenko	2022-08-19	dǟš	daˤ:š	100	100		hundred	magometov1963	136	
 28	Lak	Standard Lak	language	yes	yes	t:urš	t:urš	Root for ‘hundred’	Root for ‘hundred’	zhirkov1955	53		Maksim Melenchenko	2022-08-19	ттуршва	t:urš-w.a	100	100		hundred-III.NUM	zhirkov1955	53	
-29	Archi	Archib	village	yes	yes	baˤš:	beš-	Root for ‘hundred’	Root for ‘hundred’	mikailov1967	77		Maksim Melenchenko	2022-08-19	баIш:итIу	baˤš:-i<t'>u	100	100		hundred-<CM>NUM	mikailov1967	77	
+29	Archi	Archi	language	yes	yes	baˤš:	beš-	Root for ‘hundred’	Root for ‘hundred’	mikailov1967	77		Maksim Melenchenko	2022-08-19	баIш:итIу	baˤš:-i<t'>u	100	100		hundred-<CM>NUM	mikailov1967	77	
 30	Lezgian	Standard Lezgian	language	yes	yes	wiš	*waˤlš:	Root for ‘hundred’	Root for ‘hundred’	haspelmath1993	230		Maksim Melenchenko	2022-08-19	wiš	wiš	100	100		hundred	haspelmath1993	231	
 31	Tabasaran	Standard Tabasaran	language	yes	yes	warž	*waˤlš:	Root for ‘hundred’	Root for ‘hundred’	alekseevshixalieva2003	52		Maksim Melenchenko	2022-08-19	варж	warž	100	100		hundred	alekseevshixalieva2003	52	
 32	Agul	Central Agul	dialect_toplevel	yes	yes	werš	*waˤlš:	Root for ‘hundred’	Root for ‘hundred’	magometov1970	94		Maksim Melenchenko	2022-08-19	werš	werš	100	100		hundred	magometov1970	95	

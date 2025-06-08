@@ -5,8 +5,8 @@ id	language	idiom	type	genlang_point	map	feature	value1_name	value1	source	page	
 4	Northern Akhvakh	Tad-Magitl'	village	no	yes	Presence of lateral obstruents	Presence of lateral obstruents	attested	kibrikkodzasov1990	322--323	Viola Ivanova	2017.05.06
 5	Upper Andi	Andi	village	no	yes	Presence of lateral obstruents	Presence of lateral obstruents	attested	kibrikkodzasov1990	321	George Moroz	2017.05.06
 6	Upper Andi	Zilo	village	yes	yes	Presence of lateral obstruents	Presence of lateral obstruents	attested	kayeetaldraft2020		George Moroz	2021.10.04
-7	Archi	Archib	village	yes	yes	Presence of lateral obstruents	Presence of lateral obstruents	attested	kibrik1994a	300	George Moroz	2021.10.04
-8	Archi	Archib	village	no	yes	Presence of lateral obstruents	Presence of lateral obstruents	attested	kibrikkodzasov1990	335--336	Viola Ivanova	2017.05.06
+7	Archi	Archi	language	yes	yes	Presence of lateral obstruents	Presence of lateral obstruents	attested	kibrik1994a	300	George Moroz	2021.10.04
+8	Archi	Archi	language	no	yes	Presence of lateral obstruents	Presence of lateral obstruents	attested	kibrikkodzasov1990	335--336	Viola Ivanova	2017.05.06
 9	Eastern Armenian	Eastern Armenian	language	yes	yes	Presence of lateral obstruents	Presence of lateral obstruents	not attested	dum-tragut2009	17, 19, 18, 20	George Moroz	2021.10.04
 10	Avar	Chadakolob	village	no	yes	Presence of lateral obstruents	Presence of lateral obstruents	attested	kibrikkodzasov1990	320	Viola Ivanova	2017.05.06
 11	Avar	Standard Avar	language	yes	yes	Presence of lateral obstruents	Presence of lateral obstruents	attested	alekseevataev1997	35	George Moroz	2021.10.04
@@ -25,7 +25,7 @@ id	language	idiom	type	genlang_point	map	feature	value1_name	value1	source	page	
 24	Mehweb	Mehweb	language	yes	yes	Presence of lateral obstruents	Presence of lateral obstruents	not attested	moroz2019	22--34	George Moroz	2021.10.04
 25	Southwestern Dargwa	Tanti	dialect_toplevel	no	yes	Presence of lateral obstruents	Presence of lateral obstruents	not attested	sumbatovalander2014	40--41	George Moroz	2021.10.04
 26	Georgian	Standard Georgian	language	yes	yes	Presence of lateral obstruents	Presence of lateral obstruents	not attested	hewitt1995	19	George Moroz	2021.10.04
-27	Godoberi	Godoberi	village	yes	yes	Presence of lateral obstruents	Presence of lateral obstruents	attested	morozetaldraft2021	2	George Moroz	2021.10.04
+27	Godoberi	Godoberi	language	yes	yes	Presence of lateral obstruents	Presence of lateral obstruents	attested	morozetaldraft2021	2	George Moroz	2021.10.04
 28	Hinuq	Hinuq	language	yes	yes	Presence of lateral obstruents	Presence of lateral obstruents	attested	forker2013	29	George Moroz	2021.10.04
 29	Hinuq	Hinuq	language	no	yes	Presence of lateral obstruents	Presence of lateral obstruents	attested	kibrikkodzasov1990	329	George Moroz	2017.05.06
 30	Hunzib	Hunzib	language	yes	yes	Presence of lateral obstruents	Presence of lateral obstruents	attested	isakovxalilov2001	260	George Moroz	2021.10.04

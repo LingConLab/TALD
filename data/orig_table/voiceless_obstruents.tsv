@@ -5,8 +5,8 @@ id	language	idiom	type	genlang_point	map	feature	value1_name	value1	value2_name	
 4	Northern Akhvakh	Tad-Magitl'	village	no	yes	Number of contrasts in voiceless obstruents	Type of the contrast	four-way	Contents of the contrast	C-Cː-Cʼ-Cʼː	kibrikkodzasov1990	322--323	Viola Ivanova	2017.05.06
 5	Upper Andi	Andi	village	no	yes	Number of contrasts in voiceless obstruents	Type of the contrast	four-way	Contents of the contrast	C-Cː-Cʼ-Cʼː	kibrikkodzasov1990	321	George Moroz	2017.05.06
 6	Upper Andi	Zilo	village	yes	yes	Number of contrasts in voiceless obstruents	Type of the contrast	four-way	Contents of the contrast	C-Cː-Cʼ-Cʼː	kayeetaldraft2020		George Moroz	2021.10.04
-7	Archi	Archib	village	yes	yes	Number of contrasts in voiceless obstruents	Type of the contrast	three-way	Contents of the contrast	C-Cː-Cʼ	kibrik1994a	300	George Moroz	2021.10.04
-8	Archi	Archib	village	no	yes	Number of contrasts in voiceless obstruents	Type of the contrast	three-way	Contents of the contrast	C-Cː-Cʼ	kibrikkodzasov1990	335--336	Viola Ivanova	2017.05.06
+7	Archi	Archi	language	yes	yes	Number of contrasts in voiceless obstruents	Type of the contrast	three-way	Contents of the contrast	C-Cː-Cʼ	kibrik1994a	300	George Moroz	2021.10.04
+8	Archi	Archi	language	no	yes	Number of contrasts in voiceless obstruents	Type of the contrast	three-way	Contents of the contrast	C-Cː-Cʼ	kibrikkodzasov1990	335--336	Viola Ivanova	2017.05.06
 9	Eastern Armenian	Eastern Armenian	language	yes	yes	Number of contrasts in voiceless obstruents	Type of the contrast	two-way	Contents of the contrast	C-Cʰ	dum-tragut2009	17	George Moroz	2021.10.04
 10	Avar	Chadakolob	village	no	yes	Number of contrasts in voiceless obstruents	Type of the contrast	two-way	Contents of the contrast	C-Cʼ	kibrikkodzasov1990	320	Viola Ivanova	2017.05.06
 11	Avar	Standard Avar	language	yes	yes	Number of contrasts in voiceless obstruents	Type of the contrast	four-way	Contents of the contrast	C-Cː-Cʼ-Cʼː	alekseevataev1997	35	George Moroz	2021.10.04
@@ -25,7 +25,7 @@ id	language	idiom	type	genlang_point	map	feature	value1_name	value1	value2_name	
 24	Mehweb	Mehweb	language	yes	yes	Number of contrasts in voiceless obstruents	Type of the contrast	two-way	Contents of the contrast	C-Cʼ	moroz2019	22--34	George Moroz	2021.10.04
 25	Southwestern Dargwa	Tanti	dialect_toplevel	no	yes	Number of contrasts in voiceless obstruents	Type of the contrast	three-way	Contents of the contrast	C-Cː-Cʼ	sumbatovalander2014	40--41	George Moroz	2021.10.04
 26	Georgian	Standard Georgian	language	yes	yes	Number of contrasts in voiceless obstruents	Type of the contrast	two-way	Contents of the contrast	C-Cʼ	hewitt1995	19	George Moroz	2021.10.04
-27	Godoberi	Godoberi	village	yes	yes	Number of contrasts in voiceless obstruents	Type of the contrast	four-way	Contents of the contrast	C-Cː-Cʼ-Cʼː	morozetaldraft2021	2	George Moroz	2021.10.04
+27	Godoberi	Godoberi	language	yes	yes	Number of contrasts in voiceless obstruents	Type of the contrast	four-way	Contents of the contrast	C-Cː-Cʼ-Cʼː	morozetaldraft2021	2	George Moroz	2021.10.04
 28	Hinuq	Hinuq	language	yes	yes	Number of contrasts in voiceless obstruents	Type of the contrast	two-way	Contents of the contrast	C-Cʼ	forker2013	29	George Moroz	2021.10.04
 29	Hinuq	Hinuq	language	no	yes	Number of contrasts in voiceless obstruents	Type of the contrast	two-way	Contents of the contrast	C-Cʼ	kibrikkodzasov1990	329	George Moroz	2017.05.06
 30	Hunzib	Hunzib	language	yes	yes	Number of contrasts in voiceless obstruents	Type of the contrast	two-way	Contents of the contrast	C-Cʼ	isakovxalilov2001	260	George Moroz	2021.10.04
