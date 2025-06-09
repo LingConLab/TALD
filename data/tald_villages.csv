@@ -1053,7 +1053,7 @@ id	village	rus_village	lat	lon	lang	aff	family	standard	default_level	dialect_to
 1052	Standard Armenian		41.009625	44.384086	Eastern Armenian	Armenic	Indo-European	Standard Armenian	Eastern Armenian										nucl1235	#dbcfeb	#fffded	2025-03-20
 1053	Əlibəyli	Алибегло	41.378056	46.821944	Georgian	Georgic	Kartvelian		Georgian	Ingiloy	Ингилойский							Əlibəyli	nucl1302	#fff5ee	#000000	2025-03-20
 1054	Meşəbaş	Мешабаш	41.408889	46.874444	Georgian	Georgic	Kartvelian		Georgian	Ingiloy	Ингилойский							Meşəbaş	nucl1302	#fff5ee	#000000	2025-03-20
-1055	Standard Georgian		41.81574	44.31883	Georgian	Georgic	Kartvelian	Standard Georgian	Georgian										nucl1302	#fff5ee	black	2025-03-20
+1055	Standard Georgian		41.81574	44.31883	Georgian	Georgic	Kartvelian	Standard Georgian	Georgian										nucl1302	#fff5ee	#000000	2025-03-20
 1056	Beledi	Беледи	42.66722	46.05361	Godoberi	Avar-Andic	East Caucasian		Godoberi	Beledi-Zibirkhali	Беледи-зибирхалинский							Beledi	ghod1238	#003399	#9900ff	2025-03-20
 1057	Zibirkhali	Зибирхали	42.66833	46.07194	Godoberi	Avar-Andic	East Caucasian		Godoberi	Beledi-Zibirkhali	Беледи-зибирхалинский							Zibirkhali	ghod1238	#003399	#9900ff	2025-03-20
 1058	Godoberi	Годобери	42.6258	46.1189	Godoberi	Avar-Andic	East Caucasian		Godoberi	Godoberi								Godoberi	ghod1238	#003399	#9900ff	2025-03-20
