@@ -13,7 +13,6 @@ The wrong language name          North Dargwa          in the file          domi
 The wrong language name          North Dargwa          in the file          erg_abs_pronouns.tsv
 The wrong language name          North Dargwa          in the file          evidentiality_tense.tsv
 The wrong language name          North Dargwa          in the file          farewell_wishes.tsv
-The wrong language name          North Dargwa          in the file          gender_agreement_slot.tsv
 The wrong language name          North Dargwa          in the file          inclusive_exclusive_distinction_in_personal_pronouns.tsv
 The wrong language name          North Dargwa          in the file          jussive.tsv
 The wrong language name          North-Central Dargwa          in the file          morning_greetings.tsv
