@@ -1,5 +1,5 @@
 id	language	idiom	type	genlang_point	map	feature	value1_name	value1	source	page	contributor	date
-1	Qushan Agul	Burshag	village	no	yes	Presence of pharyngealized segments	Presence of pharyngealized segments	attested	kibrikkodzasov1990	340--341	Viola Ivanova	2017.05.06
+1	Qushan Agul	Burshag	village	yes	yes	Presence of pharyngealized segments	Presence of pharyngealized segments	attested	kibrikkodzasov1990	340--341	Viola Ivanova	2017.05.06
 2	Agul	Huppuq'	dialect_toplevel	yes	yes	Presence of pharyngealized segments	Presence of pharyngealized segments	not attested	maisakganenkov2016		George Moroz	2021.10.04
 3	Northern Akhvakh	Northern Akhvakh	language	yes	yes	Presence of pharyngealized segments	Presence of pharyngealized segments	not attested	creisselsdraft2020		George Moroz	2021.10.04
 4	Northern Akhvakh	Tad-Magitl'	village	no	yes	Presence of pharyngealized segments	Presence of pharyngealized segments	not attested	kibrikkodzasov1990	322--323	Viola Ivanova	2017.05.06
@@ -18,12 +18,12 @@ id	language	idiom	type	genlang_point	map	feature	value1_name	value1	source	page	
 17	Budukh	Budukh	language	yes	yes	Presence of pharyngealized segments	Presence of pharyngealized segments	not attested	kibrikkodzasov1990	345	George Moroz	2017.05.06
 18	Budukh	Budukh	language	no	no	Presence of pharyngealized segments	Presence of pharyngealized segments	attested	talibov2007	35, 37	George Moroz	2021.10.04
 19	Gigatli	Gigatli	language	yes	yes	Presence of pharyngealized segments	Presence of pharyngealized segments	not attested	kibrikkodzasov1990	324	George Moroz	2017.05.06
-20	Chamalal	Upper Gakvari	dialect_toplevel	no	yes	Presence of pharyngealized segments	Presence of pharyngealized segments	not attested	bokarev1949a	12, 15, 13	George Moroz	2021.10.04
+20	Chamalal	Upper Gakvari	dialect_toplevel	yes	yes	Presence of pharyngealized segments	Presence of pharyngealized segments	not attested	bokarev1949a	12, 15, 13	George Moroz	2021.10.04
 21	Chechen	Standard Chechen	language	yes	yes	Presence of pharyngealized segments	Presence of pharyngealized segments	attested	nichols1994	4, 5, 8, 7	George Moroz	2021.10.04
-22	Chirag	Chirag	language	no	yes	Presence of pharyngealized segments	Presence of pharyngealized segments	attested	kibrikkodzasov1990	334	George Moroz	2017.05.06
-23	Kajtag	Kajtag	language	no	yes	Presence of pharyngealized segments	Presence of pharyngealized segments	attested	temirbulatova2004	39, 36	George Moroz	2021.10.04
+22	Chirag	Chirag	language	yes	yes	Presence of pharyngealized segments	Presence of pharyngealized segments	attested	kibrikkodzasov1990	334	George Moroz	2017.05.06
+23	Kajtag	Kajtag	language	yes	yes	Presence of pharyngealized segments	Presence of pharyngealized segments	attested	temirbulatova2004	39, 36	George Moroz	2021.10.04
 24	Mehweb	Mehweb	language	yes	yes	Presence of pharyngealized segments	Presence of pharyngealized segments	attested	moroz2019	22--34	George Moroz	2021.10.04
-25	Southwestern Dargwa	Tanti	dialect_toplevel	no	yes	Presence of pharyngealized segments	Presence of pharyngealized segments	attested	sumbatovalander2014	40--41, 40	George Moroz	2021.10.04
+25	Southwestern Dargwa	Tanti	dialect_toplevel	yes	yes	Presence of pharyngealized segments	Presence of pharyngealized segments	attested	sumbatovalander2014	40--41, 40	George Moroz	2021.10.04
 26	Georgian	Standard Georgian	language	yes	yes	Presence of pharyngealized segments	Presence of pharyngealized segments	not attested	hewitt1995	19, 21	George Moroz	2021.10.04
 27	Godoberi	Godoberi	language	yes	yes	Presence of pharyngealized segments	Presence of pharyngealized segments	not attested	morozetaldraft2021	2	George Moroz	2021.10.04
 28	Hinuq	Hinuq	language	yes	yes	Presence of pharyngealized segments	Presence of pharyngealized segments	attested	forker2013	29, 24--25, 23, 25--26, 26--27	George Moroz	2021.10.04
@@ -36,7 +36,7 @@ id	language	idiom	type	genlang_point	map	feature	value1_name	value1	source	page	
 35	Khinalug	Khinalug	language	yes	yes	Presence of pharyngealized segments	Presence of pharyngealized segments	not attested	kibrik1994b	370, 372	George Moroz	2021.10.04
 36	Khinalug	Khinalug	language	no	no	Presence of pharyngealized segments	Presence of pharyngealized segments	not attested	kibrikkodzasov1990	346--347	Viola Ivanova	2017.05.06
 37	Khwarshi	Inkhoqwari	dialect_toplevel	yes	yes	Presence of pharyngealized segments	Presence of pharyngealized segments	not attested	kibrikkodzasov1990	327	George Moroz	2017.05.06
-38	Khwarshi	Kvantlada	village	yes	yes	Presence of pharyngealized segments	Presence of pharyngealized segments	attested	khalilova2009	13, 23	George Moroz	2021.10.04
+38	Khwarshi	Kvantlada	village	no	yes	Presence of pharyngealized segments	Presence of pharyngealized segments	attested	khalilova2009	13, 23	George Moroz	2021.10.04
 39	Kryz	Kryz Proper	dialect_toplevel	yes	yes	Presence of pharyngealized segments	Presence of pharyngealized segments	not attested	saadiev1994	409, 410	George Moroz	2021.10.04
 40	Kryz	Kryz Proper	dialect_toplevel	no	yes	Presence of pharyngealized segments	Presence of pharyngealized segments	not attested	kibrikkodzasov1990	345	Viola Ivanova	2017.05.06
 41	Kumyk	Standard Kumyk	language	yes	yes	Presence of pharyngealized segments	Presence of pharyngealized segments	not attested	abdullaevaetal2014	33--56, 27	George Moroz	2021.10.04
