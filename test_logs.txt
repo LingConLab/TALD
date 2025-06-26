@@ -1,7 +1,6 @@
 The wrong language name          North Dargwa          in the file          agreement_of_adpositions.tsv
 The wrong language name          North Dargwa          in the file          caritive_adv.tsv
 The wrong language name          North Dargwa          in the file          caritive_attr.tsv
-The wrong language name          North-Central Dargwa          in the file          caritive_attr.tsv
 The wrong language name          North Dargwa          in the file          causatives.tsv
 The wrong language name          North Dargwa          in the file          comitative.tsv
 NA
@@ -13,17 +12,17 @@ The wrong language name          North Dargwa          in the file          domi
 The wrong language name          North Dargwa          in the file          erg_abs_pronouns.tsv
 The wrong language name          North Dargwa          in the file          evidentiality_tense.tsv
 The wrong language name          North Dargwa          in the file          farewell_wishes.tsv
+The wrong language name          North Dargwa          in the file          gender_agreement_slot.tsv
 The wrong language name          North Dargwa          in the file          inclusive_exclusive_distinction_in_personal_pronouns.tsv
 The wrong language name          North Dargwa          in the file          jussive.tsv
-The wrong language name          North-Central Dargwa          in the file          morning_greetings.tsv
 The wrong language name          North Dargwa          in the file          morning_greetings.tsv
-The wrong language name          North-Central Dargwa          in the file          numeral_bases.tsv
+The wrong language name          North Dargwa          in the file          numeral_bases.tsv
 The wrong language name          Maksim Melenchenko          in the file          numeral_class.tsv
-The wrong language name          North-Central Dargwa          in the file          numeral_class.tsv
+The wrong language name          North Dargwa          in the file          numeral_class.tsv
 The wrong language name          Maksim Melenchenko          in the file          numeral_distributives.tsv
-The wrong language name          North-Central Dargwa          in the file          numeral_ordinals.tsv
+The wrong language name          North Dargwa          in the file          numeral_ordinals.tsv
 The wrong language name          Maksim Melenchenko          in the file          numeral_origin.tsv
-The wrong language name          North-Central Dargwa          in the file          numeral_origin.tsv
+The wrong language name          North Dargwa          in the file          numeral_origin.tsv
 The wrong language name          North Dargwa          in the file          optative.tsv
 The wrong language name          North Dargwa          in the file          particles.tsv
 The wrong language name          North Dargwa          in the file          path_encoding.tsv
@@ -33,7 +32,13 @@ The wrong language name          North Dargwa          in the file          proh
 The wrong language name          North Dargwa          in the file          standard_of_comparison.tsv
 The wrong language name          North Dargwa          in the file          trans_intrans_imperative.tsv
 The wrong language name          North Dargwa          in the file          work.tsv
+The wrong non-toplevel 1 dialect name Meusisha in the file caritive_attr.tsv
+The wrong non-toplevel 1 dialect name Urkarakh in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
 The wrong non-toplevel 1 dialect name Muiri in the file morning_greetings.tsv
+The wrong non-toplevel 1 dialect name Meusisha in the file numeral_bases.tsv
+The wrong non-toplevel 1 dialect name Meusisha in the file numeral_class.tsv
+The wrong non-toplevel 1 dialect name Meusisha in the file numeral_ordinals.tsv
+The wrong non-toplevel 1 dialect name Meusisha in the file numeral_origin.tsv
 spelling of          chuhwanahw        in adpositions.Rmd:238
 spelling of          depi        in adpositions.Rmd:383
 spelling of          handep        in adpositions.Rmd:56

@@ -1,59 +1,59 @@
-id	language	idiom	type	genlang_point	map	feature	value1_name	value1	source	page	contributor	date	language_new	idiom_new	type_new
-1	Qushan Agul	Burshag	village	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ʜ, ʢ	kibrikkodzasov1990	340--341	Viola Ivanova	2017.05.06			
-2	Agul	Huppuq'	dialect_toplevel	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ʜ, ʡ, ʢ	maisakganenkov2016		George Moroz	2021.10.04			
-3	Northern Akhvakh	Northern Akhvakh	language	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ħ, ʕ	creisselsdraft2020		George Moroz	2021.10.04			
-4	Northern Akhvakh	Tad-Magitl'	village	no	yes	Pharyngeal inventories	Pharyngeal inventories	ʜ, ʢ	kibrikkodzasov1990	322--323	Viola Ivanova	2017.05.06			
-5	Upper Andi	Zilo	village	no	yes	Pharyngeal inventories	Pharyngeal inventories	ħ, ʕ	kayeetaldraft2020		George Moroz	2021.10.04			
-6	Upper Andi	Andi	village	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ʜ, ʢ	kibrikkodzasov1990	321	George Moroz	2017.05.06			
-7	Archi	Archi	language	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ħ, ʕ	kibrik1994a	300	George Moroz	2021.10.04			
-8	Archi	Archi	language	no	yes	Pharyngeal inventories	Pharyngeal inventories	ʜ, ʢ	kibrikkodzasov1990	335--336	Viola Ivanova	2017.05.06			
-9	Eastern Armenian	Eastern Armenian	language	yes	yes	Pharyngeal inventories	Pharyngeal inventories	none	dum-tragut2009	17, 19, 18, 20	George Moroz	2021.10.04			
-10	Avar	Standard Avar	language	no	yes	Pharyngeal inventories	Pharyngeal inventories	ħ, ʕ, ʡ	alekseevataev1997	35	George Moroz	2021.10.04			
-11	Avar	Chadakolob	village	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ʜ, ʢ	kibrikkodzasov1990	320	Viola Ivanova	2017.05.06			
-12	Azerbaijani	Standard Azerbaijani	language	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ħ	shiralievsevortyan1971	16--26	George Moroz	2021.10.04			
-13	Bagvalal	Kvanada	village	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ʜ, ʢ	kibrik2001	35--46	George Moroz	2021.10.04			
-14	Bezhta	Bezhta	default_level	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ħ, ʕ	comrieetal2015	86	George Moroz	2021.10.04			
-15	Bezhta	Tlyadal	village	no	yes	Pharyngeal inventories	Pharyngeal inventories	ʜ, ʢ	kibrikkodzasov1990	330	Viola Ivanova	2017.05.06			
-16	Botlikh	Botlikh	village	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ħ, ʕ	alexeyevverheesdraft2020		George Moroz	2021.10.04			
-17	Budukh	Budukh	language	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ʜ, ʡ, ʢ	kibrikkodzasov1990	345	George Moroz	2017.05.06			
-18	Budukh	Budukh	language	no	no	Pharyngeal inventories	Pharyngeal inventories	ħ, ʕ	talibov2007	35	George Moroz	2021.10.04			
-19	Chamalal	Upper Gakvari	dialect_toplevel	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ħ, ʕ	bokarev1949a	12, 15	George Moroz	2021.10.04			
-20	Gigatli	Gigatli	language	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ʜ, ʢ	kibrikkodzasov1990	324	George Moroz	2017.05.06			
-21	Chechen	Standard Chechen	language	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ʜ, ʡ	nichols1994	4	George Moroz	2021.10.04			
-22	Chirag	Chirag	language	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ʜ, ʢ	kibrikkodzasov1990	334	George Moroz	2017.05.06			
-23	Mehweb	Mehweb	language	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ħ, ʜ, ʡ	moroz2019	22--34	George Moroz	2021.10.04			
-24	Southwestern Dargwa	Tanti	dialect_toplevel	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ħ, ʕ, ʡ	sumbatovalander2014	40--41	George Moroz	2021.10.04			
-25	Kajtag	Kajtag	language	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ħ, ʕ	temirbulatova2004	39	George Moroz	2021.10.04			
-26	Georgian	Standard Georgian	language	yes	yes	Pharyngeal inventories	Pharyngeal inventories	none	hewitt1995	19	George Moroz	2021.10.04			
-27	Godoberi	Godoberi	language	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ħ, ʕ	morozetaldraft2021	2	George Moroz	2021.10.04			
-28	Hinuq	Hinuq	language	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ħ, ʡ	forker2013	29	George Moroz	2021.10.04			
-29	Hinuq	Hinuq	language	no	yes	Pharyngeal inventories	Pharyngeal inventories	ʜ, ʢ	kibrikkodzasov1990	329	George Moroz	2017.05.06			
-30	Hunzib	Hunzib	language	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ħ, ʕ	isakovxalilov2001	260	George Moroz	2021.10.04			
-31	Hunzib	Hunzib	language	no	yes	Pharyngeal inventories	Pharyngeal inventories	ʜ, ʢ	kibrikkodzasov1990	332	George Moroz	2017.05.06			
-32	Ingush	Standard Ingush	language	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ħ, ʕ	nichols2011	20	George Moroz	2021.10.04			
-33	Karata	Karata	dialect_toplevel	yes	yes	Pharyngeal inventories	Pharyngeal inventories	none	magomedbekova1971	12--18	George Moroz	2021.10.04			
-34	Tukita	Tukita	language	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ħ, ʕ	gadzhieva2007	8	George Moroz	2021.10.04			
-35	Khinalug	Khinalug	language	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ħ, ʕ	kibrik1994b	370	George Moroz	2021.10.04			
-36	Khinalug	Khinalug	language	no	no	Pharyngeal inventories	Pharyngeal inventories	ʜ, ʢ	kibrikkodzasov1990	346--347	Viola Ivanova	2017.05.06			
-37	Khwarshi	Inkhoqwari	dialect_toplevel	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ʜ, ʢ	kibrikkodzasov1990	327	George Moroz	2017.05.06			
-38	Khwarshi	Kvantlada	village	no	yes	Pharyngeal inventories	Pharyngeal inventories	ħ, ʕ	khalilova2009	13	George Moroz	2021.10.04			
-39	Kryz	Kryz Proper	dialect_toplevel	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ʜ, ʢ	kibrikkodzasov1990	345	Viola Ivanova	2017.05.06			
-40	Kryz	Kryz Proper	dialect_toplevel	no	yes	Pharyngeal inventories	Pharyngeal inventories	ħ, ʕ	saadiev1994	409	George Moroz	2021.10.04			
-41	Kumyk	Standard Kumyk	language	yes	yes	Pharyngeal inventories	Pharyngeal inventories	none	abdullaevaetal2014	33--56	George Moroz	2021.10.04			
-42	Lak	Khosrekh	village	yes	yes	Pharyngeal inventories	Pharyngeal inventories	none	kibrikkodzasov1990	333	Viola Ivanova	2017.05.06			
-43	Lezgian	Standard Lezgian	language	no	yes	Pharyngeal inventories	Pharyngeal inventories	none	gaydarovetal2009	56	George Moroz	2021.10.04			
-44	Lezgian	Khlyut	village	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ʜ, ʢ	kibrikkodzasov1990	341	George Moroz	2017.05.06			
-45	Nogai	Standard Nogai	language	yes	yes	Pharyngeal inventories	Pharyngeal inventories	none	baskakov1940	27	George Moroz	2021.10.04			
-46	Rutul	Luchek	village	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ħ, ʡ	alekseev1994	215	George Moroz	2021.10.04			
-47	Rutul	Luchek	village	no	yes	Pharyngeal inventories	Pharyngeal inventories	ʢ	kibrikkodzasov1990	342--343	Viola Ivanova	2017.05.06			
-48	Tabasaran	Standard Tabasaran	language	no	yes	Pharyngeal inventories	Pharyngeal inventories	none	alekseevshixalieva2003	29	George Moroz	2021.10.04			
-49	Tabasaran	Dyubek	village	yes	yes	Pharyngeal inventories	Pharyngeal inventories	none	kibrikkodzasov1990	336	George Moroz	2017.05.06			
-50	Tat	Muslim Tat	dialect_toplevel	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ħ, ʡ	griunberg1963	17	George Moroz	2021.10.04			
-51	Tindi	Tindi	village	no	yes	Pharyngeal inventories	Pharyngeal inventories	ʜ, ʢ	kibrikkodzasov1990	326--327	Viola Ivanova	2017.05.06			
-52	Tindi	Tindi	village	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ħ, ʕ	magomedova2012		George Moroz	2021.10.04			
-53	Tsakhur	Mishlesh	village	no	yes	Pharyngeal inventories	Pharyngeal inventories	none	kibrik1999	16	George Moroz	2021.10.04			
-54	Tsakhur	Mikik	village	yes	yes	Pharyngeal inventories	Pharyngeal inventories	none	kibrikkodzasov1990	343	George Moroz	2017.05.06			
-55	Tsez	Kidero	village	no	yes	Pharyngeal inventories	Pharyngeal inventories	ʜ, ʢ	kibrikkodzasov1990	328	Viola Ivanova	2017.05.06			
-56	Tsez	Sagada	village	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ħ	wilson2021	388	George Moroz	2021.10.04			
-57	Tsova-Tush	Zemo-Alvani	village	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ħ, ʕ	holiskygagua1994	150	George Moroz	2021.10.04			
-58	Udi	Nizh	dialect_toplevel	yes	yes	Pharyngeal inventories	Pharyngeal inventories	none	kibrikkodzasov1990	347	Viola Ivanova	2017.05.06			
+id	language	idiom	type	genlang_point	map	feature	value1_name	value1	source	page	contributor	date
+1	Qushan Agul	Burshag	village	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ʜ, ʢ	kibrikkodzasov1990	340--341	Viola Ivanova	2017.05.06
+2	Agul	Huppuq'	dialect_toplevel	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ʜ, ʡ, ʢ	maisakganenkov2016		George Moroz	2021.10.04
+3	Northern Akhvakh	Northern Akhvakh	language	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ħ, ʕ	creisselsdraft2020		George Moroz	2021.10.04
+4	Northern Akhvakh	Tad-Magitl'	village	no	yes	Pharyngeal inventories	Pharyngeal inventories	ʜ, ʢ	kibrikkodzasov1990	322--323	Viola Ivanova	2017.05.06
+5	Upper Andi	Zilo	village	no	yes	Pharyngeal inventories	Pharyngeal inventories	ħ, ʕ	kayeetaldraft2020		George Moroz	2021.10.04
+6	Upper Andi	Andi	village	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ʜ, ʢ	kibrikkodzasov1990	321	George Moroz	2017.05.06
+7	Archi	Archi	language	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ħ, ʕ	kibrik1994a	300	George Moroz	2021.10.04
+8	Archi	Archi	language	no	yes	Pharyngeal inventories	Pharyngeal inventories	ʜ, ʢ	kibrikkodzasov1990	335--336	Viola Ivanova	2017.05.06
+9	Eastern Armenian	Eastern Armenian	language	yes	yes	Pharyngeal inventories	Pharyngeal inventories	none	dum-tragut2009	17, 19, 18, 20	George Moroz	2021.10.04
+10	Avar	Standard Avar	language	no	yes	Pharyngeal inventories	Pharyngeal inventories	ħ, ʕ, ʡ	alekseevataev1997	35	George Moroz	2021.10.04
+11	Avar	Chadakolob	village	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ʜ, ʢ	kibrikkodzasov1990	320	Viola Ivanova	2017.05.06
+12	Azerbaijani	Standard Azerbaijani	language	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ħ	shiralievsevortyan1971	16--26	George Moroz	2021.10.04
+13	Bagvalal	Kvanada	village	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ʜ, ʢ	kibrik2001	35--46	George Moroz	2021.10.04
+14	Bezhta	Bezhta	default_level	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ħ, ʕ	comrieetal2015	86	George Moroz	2021.10.04
+15	Bezhta	Tlyadal	village	no	yes	Pharyngeal inventories	Pharyngeal inventories	ʜ, ʢ	kibrikkodzasov1990	330	Viola Ivanova	2017.05.06
+16	Botlikh	Botlikh	village	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ħ, ʕ	alexeyevverheesdraft2020		George Moroz	2021.10.04
+17	Budukh	Budukh	language	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ʜ, ʡ, ʢ	kibrikkodzasov1990	345	George Moroz	2017.05.06
+18	Budukh	Budukh	language	no	no	Pharyngeal inventories	Pharyngeal inventories	ħ, ʕ	talibov2007	35	George Moroz	2021.10.04
+19	Chamalal	Upper Gakvari	dialect_toplevel	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ħ, ʕ	bokarev1949a	12, 15	George Moroz	2021.10.04
+20	Gigatli	Gigatli	language	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ʜ, ʢ	kibrikkodzasov1990	324	George Moroz	2017.05.06
+21	Chechen	Standard Chechen	language	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ʜ, ʡ	nichols1994	4	George Moroz	2021.10.04
+22	Chirag	Chirag	language	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ʜ, ʢ	kibrikkodzasov1990	334	George Moroz	2017.05.06
+23	Mehweb	Mehweb	language	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ħ, ʜ, ʡ	moroz2019	22--34	George Moroz	2021.10.04
+24	Southwestern Dargwa	Tanti	dialect_toplevel	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ħ, ʕ, ʡ	sumbatovalander2014	40--41	George Moroz	2021.10.04
+25	Kajtag	Kajtag	language	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ħ, ʕ	temirbulatova2004	39	George Moroz	2021.10.04
+26	Georgian	Standard Georgian	language	yes	yes	Pharyngeal inventories	Pharyngeal inventories	none	hewitt1995	19	George Moroz	2021.10.04
+27	Godoberi	Godoberi	language	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ħ, ʕ	morozetaldraft2021	2	George Moroz	2021.10.04
+28	Hinuq	Hinuq	language	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ħ, ʡ	forker2013	29	George Moroz	2021.10.04
+29	Hinuq	Hinuq	language	no	yes	Pharyngeal inventories	Pharyngeal inventories	ʜ, ʢ	kibrikkodzasov1990	329	George Moroz	2017.05.06
+30	Hunzib	Hunzib	language	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ħ, ʕ	isakovxalilov2001	260	George Moroz	2021.10.04
+31	Hunzib	Hunzib	language	no	yes	Pharyngeal inventories	Pharyngeal inventories	ʜ, ʢ	kibrikkodzasov1990	332	George Moroz	2017.05.06
+32	Ingush	Standard Ingush	language	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ħ, ʕ	nichols2011	20	George Moroz	2021.10.04
+33	Karata	Karata	dialect_toplevel	yes	yes	Pharyngeal inventories	Pharyngeal inventories	none	magomedbekova1971	12--18	George Moroz	2021.10.04
+34	Tukita	Tukita	language	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ħ, ʕ	gadzhieva2007	8	George Moroz	2021.10.04
+35	Khinalug	Khinalug	language	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ħ, ʕ	kibrik1994b	370	George Moroz	2021.10.04
+36	Khinalug	Khinalug	language	no	no	Pharyngeal inventories	Pharyngeal inventories	ʜ, ʢ	kibrikkodzasov1990	346--347	Viola Ivanova	2017.05.06
+37	Khwarshi	Inkhoqwari	dialect_toplevel	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ʜ, ʢ	kibrikkodzasov1990	327	George Moroz	2017.05.06
+38	Khwarshi	Kvantlada	village	no	yes	Pharyngeal inventories	Pharyngeal inventories	ħ, ʕ	khalilova2009	13	George Moroz	2021.10.04
+39	Kryz	Kryz Proper	dialect_toplevel	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ʜ, ʢ	kibrikkodzasov1990	345	Viola Ivanova	2017.05.06
+40	Kryz	Kryz Proper	dialect_toplevel	no	yes	Pharyngeal inventories	Pharyngeal inventories	ħ, ʕ	saadiev1994	409	George Moroz	2021.10.04
+41	Kumyk	Standard Kumyk	language	yes	yes	Pharyngeal inventories	Pharyngeal inventories	none	abdullaevaetal2014	33--56	George Moroz	2021.10.04
+42	Lak	Khosrekh	village	yes	yes	Pharyngeal inventories	Pharyngeal inventories	none	kibrikkodzasov1990	333	Viola Ivanova	2017.05.06
+43	Lezgian	Standard Lezgian	language	no	yes	Pharyngeal inventories	Pharyngeal inventories	none	gaydarovetal2009	56	George Moroz	2021.10.04
+44	Lezgian	Khlyut	village	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ʜ, ʢ	kibrikkodzasov1990	341	George Moroz	2017.05.06
+45	Nogai	Standard Nogai	language	yes	yes	Pharyngeal inventories	Pharyngeal inventories	none	baskakov1940	27	George Moroz	2021.10.04
+46	Rutul	Luchek	village	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ħ, ʡ	alekseev1994	215	George Moroz	2021.10.04
+47	Rutul	Luchek	village	no	yes	Pharyngeal inventories	Pharyngeal inventories	ʢ	kibrikkodzasov1990	342--343	Viola Ivanova	2017.05.06
+48	Tabasaran	Standard Tabasaran	language	no	yes	Pharyngeal inventories	Pharyngeal inventories	none	alekseevshixalieva2003	29	George Moroz	2021.10.04
+49	Tabasaran	Dyubek	village	yes	yes	Pharyngeal inventories	Pharyngeal inventories	none	kibrikkodzasov1990	336	George Moroz	2017.05.06
+50	Tat	Muslim Tat	dialect_toplevel	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ħ, ʡ	griunberg1963	17	George Moroz	2021.10.04
+51	Tindi	Tindi	village	no	yes	Pharyngeal inventories	Pharyngeal inventories	ʜ, ʢ	kibrikkodzasov1990	326--327	Viola Ivanova	2017.05.06
+52	Tindi	Tindi	village	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ħ, ʕ	magomedova2012		George Moroz	2021.10.04
+53	Tsakhur	Mishlesh	village	no	yes	Pharyngeal inventories	Pharyngeal inventories	none	kibrik1999	16	George Moroz	2021.10.04
+54	Tsakhur	Mikik	village	yes	yes	Pharyngeal inventories	Pharyngeal inventories	none	kibrikkodzasov1990	343	George Moroz	2017.05.06
+55	Tsez	Kidero	village	no	yes	Pharyngeal inventories	Pharyngeal inventories	ʜ, ʢ	kibrikkodzasov1990	328	Viola Ivanova	2017.05.06
+56	Tsez	Sagada	village	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ħ	wilson2021	388	George Moroz	2021.10.04
+57	Tsova-Tush	Zemo-Alvani	village	yes	yes	Pharyngeal inventories	Pharyngeal inventories	ħ, ʕ	holiskygagua1994	150	George Moroz	2021.10.04
+58	Udi	Nizh	dialect_toplevel	yes	yes	Pharyngeal inventories	Pharyngeal inventories	none	kibrikkodzasov1990	347	Viola Ivanova	2017.05.06
