@@ -13,13 +13,6 @@ The BibTeX entry          khalilova1983          present in the          days_be
 The BibTeX entry          talibovgadjiev1966          present in the          days_before_today.tsv, but absent in the biblib.xlsx
 The BibTeX entry          ibragimovnurmamedov2011          present in the          days_before_today.tsv, but absent in the biblib.xlsx
 NA
-The wrong non-toplevel 1 dialect name Meusisha in the file caritive_attr.tsv
-The wrong non-toplevel 1 dialect name Urkarakh in the file inclusive_exclusive_distinction_in_personal_pronouns.tsv
-The wrong non-toplevel 1 dialect name Muiri in the file morning_greetings.tsv
-The wrong non-toplevel 1 dialect name Meusisha in the file numeral_bases.tsv
-The wrong non-toplevel 1 dialect name Meusisha in the file numeral_class.tsv
-The wrong non-toplevel 1 dialect name Meusisha in the file numeral_ordinals.tsv
-The wrong non-toplevel 1 dialect name Meusisha in the file numeral_origin.tsv
 No {-} in the Reference section in the file       days_after_today.Rmd
 spelling of          chuhwanahw        in adpositions.Rmd:238
 spelling of          depi        in adpositions.Rmd:383
