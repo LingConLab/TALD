@@ -56,7 +56,7 @@ feature_dataset |>
   all_data
 ```
 
-## Amount of distinct terms for days before today{.tabset .tabset-fade .tabset-pills #m1} 
+## amount of distinct terms for days before today{.tabset .tabset-fade .tabset-pills #m1} 
     
 ### General datapoints {-}
 

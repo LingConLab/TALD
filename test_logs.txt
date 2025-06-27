@@ -1,3 +1,17 @@
+The BibTeX entry          magimedovaabdulaeva2007          present in the          days_after_today.tsv, but absent in the biblib.xlsx
+The BibTeX entry           tagiyev2006a          present in the          days_after_today.tsv, but absent in the biblib.xlsx
+The BibTeX entry          saidovabusov2012          present in the          days_after_today.tsv, but absent in the biblib.xlsx
+The BibTeX entry          magomedova1996          present in the          days_after_today.tsv, but absent in the biblib.xlsx
+The BibTeX entry          yakovlev1960          present in the          days_after_today.tsv, but absent in the biblib.xlsx
+The BibTeX entry          khalilova1983          present in the          days_after_today.tsv, but absent in the biblib.xlsx
+The BibTeX entry          juin2008          present in the          days_after_today.tsv, but absent in the biblib.xlsx
+The BibTeX entry          talibovgadjiev1966          present in the          days_after_today.tsv, but absent in the biblib.xlsx
+The BibTeX entry          magomedova2001          present in the          days_after_today.tsv, but absent in the biblib.xlsx
+The BibTeX entry          magimedovaabdulaeva2007          present in the          days_before_today.tsv, but absent in the biblib.xlsx
+The BibTeX entry          bekova2009          present in the          days_before_today.tsv, but absent in the biblib.xlsx
+The BibTeX entry          khalilova1983          present in the          days_before_today.tsv, but absent in the biblib.xlsx
+The BibTeX entry          talibovgadjiev1966          present in the          days_before_today.tsv, but absent in the biblib.xlsx
+The BibTeX entry          ibragimovnurmamedov2011          present in the          days_before_today.tsv, but absent in the biblib.xlsx
 The wrong language name          North Dargwa          in the file          agreement_of_adpositions.tsv
 The wrong language name          North Dargwa          in the file          caritive_adv.tsv
 The wrong language name          North Dargwa          in the file          caritive_attr.tsv
@@ -5,8 +19,6 @@ The wrong language name          North Dargwa          in the file          caus
 The wrong language name          North Dargwa          in the file          comitative.tsv
 NA
 The wrong language name          North Dargwa          in the file          commemorative.tsv
-The wrong language name          North Dargwa          in the file          days_after_today.tsv
-The wrong language name          North Dargwa          in the file          days_before_today.tsv
 The wrong language name          North Dargwa          in the file          demonstratives.tsv
 The wrong language name          North Dargwa          in the file          dominant_adpositional_case.tsv
 The wrong language name          North Dargwa          in the file          erg_abs_pronouns.tsv
@@ -39,6 +51,7 @@ The wrong non-toplevel 1 dialect name Meusisha in the file numeral_bases.tsv
 The wrong non-toplevel 1 dialect name Meusisha in the file numeral_class.tsv
 The wrong non-toplevel 1 dialect name Meusisha in the file numeral_ordinals.tsv
 The wrong non-toplevel 1 dialect name Meusisha in the file numeral_origin.tsv
+No {-} in the Reference section in the file       days_after_today.Rmd
 spelling of          chuhwanahw        in adpositions.Rmd:238
 spelling of          depi        in adpositions.Rmd:383
 spelling of          handep        in adpositions.Rmd:56
@@ -91,10 +104,11 @@ spelling of          lu        in commemorative.Rmd:46
 spelling of          Moj        in commemorative.Rmd:38
 spelling of          po        in commemorative.Rmd:21
 spelling of          xleb        in commemorative.Rmd:21
-spelling of          iq        in days_after_today.Rmd:24
-spelling of          iqna        in days_after_today.Rmd:24
-spelling of          nid        in days_after_today.Rmd:17
-spelling of          qa        in days_after_today.Rmd:19
+spelling of          giun        in days_after_today.Rmd:26
+spelling of          iq        in days_after_today.Rmd:26
+spelling of          iqna        in days_after_today.Rmd:26
+spelling of          nid        in days_after_today.Rmd:19
+spelling of          qa        in days_after_today.Rmd:21
 spelling of          iq        in days_before_today.Rmd:34
 spelling of          iqna        in days_before_today.Rmd:34
 spelling of          nid        in days_before_today.Rmd:27

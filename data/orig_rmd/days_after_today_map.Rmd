@@ -56,7 +56,7 @@ feature_dataset |>
   all_data
 ```
 
-## Strategy of naming days after tomorrow{.tabset .tabset-fade .tabset-pills #m1} 
+## strategy of naming days after tomorrow{.tabset .tabset-fade .tabset-pills #m1} 
     
 ### General datapoints {-}
 
@@ -184,7 +184,7 @@ map.feature(data_granularity_map$lang4map,
 
 
     
-## Number of distinct terms for days after today{.tabset .tabset-fade .tabset-pills #m2} 
+## number of distinct terms for days after today{.tabset .tabset-fade .tabset-pills #m2} 
     
 ### General datapoints {-}
 
