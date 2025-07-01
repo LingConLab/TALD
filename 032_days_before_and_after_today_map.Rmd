@@ -1,0 +1,57 @@
+---
+title: Days before and after today (Maps & Data)
+author: Timofey Dedov
+date: 'Last update: June 2022'
+bibliography: ./data/orig_bib/days_before_and_after_today.bib
+csl: apa.csl
+link-citations: true
+output:
+  html_document:
+    number_sections: true
+    anchor_sections: true
+    pandoc_args: --shift-heading-level-by=-1
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, comment = '')
+library(lingglosses)
+```
+
+See [chapter](032_days_before_and_after_today.html)
+
+```{r}
+library(RefManageR)
+BibOptions(check.entries = FALSE, style = 'text', first.inits = FALSE, bib.style = 'authoryear')
+article_citation <- BibEntry(bibtype = 'Incollection', 
+ key='dedov2022',
+ title='Days before and after today (Maps & Data)',
+ author='Timofey Dedov',
+ year='2022',
+ editor= 'Daniel, Michael  and Filatov, Konstantin and Maisak, Timur and Moroz, George and Mukhin, Timofey and Naccarato, Chiara and Verhees, Samira',
+ publisher='Linguistic Convergence Laboratory, NRU HSE',
+ address='Moscow',
+ booktitle= 'Typological Atlas of the Languages of Daghestan (TALD)',
+ url='http://lingconlab.ru/dagatlas',
+ doi='10.5281/zenodo.6807070')
+```
+
+## {.tabset .tabset-fade .tabset-pills -} 
+
+### Plain text {-}
+```{r, results = 'asis'}
+print(article_citation, .opts = list(style = 'text'))
+```
+
+### BibTeX {-}
+
+```{r}
+print(article_citation, .opts = list(style = 'Bibtex'))
+```
+
+```{r, child='data/orig_rmd/days_before_and_after_today_map.Rmd'}
+```
+
+```{r, results='asis'}
+PrintBibliography(bib)
+```
+
