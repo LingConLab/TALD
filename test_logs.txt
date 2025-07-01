@@ -1,7 +1,4 @@
-The obligatory column          source          is absent in the file          days_before_and_after_today.tsv
-The obligatory column          page          is absent in the file          days_before_and_after_today.tsv
-Duplicated column name      'source'      in the      days_before_and_after_today.tsv
-Duplicated column name      'page'      in the      days_before_and_after_today.tsv
+The BibTeX entry           tagiyev2006a          present in the          days_before_and_after_today.tsv, but absent in the biblib.xlsx
 NA
 No {-} in the Reference section in the file       days_before_and_after_today.Rmd
 spelling of          chuhwanahw        in adpositions.Rmd:238
