@@ -1,19 +1,9 @@
-The BibTeX entry          magimedovaabdulaeva2007          present in the          days_after_today.tsv, but absent in the biblib.xlsx
-The BibTeX entry           tagiyev2006a          present in the          days_after_today.tsv, but absent in the biblib.xlsx
-The BibTeX entry          saidovabusov2012          present in the          days_after_today.tsv, but absent in the biblib.xlsx
-The BibTeX entry          magomedova1996          present in the          days_after_today.tsv, but absent in the biblib.xlsx
-The BibTeX entry          yakovlev1960          present in the          days_after_today.tsv, but absent in the biblib.xlsx
-The BibTeX entry          khalilova1983          present in the          days_after_today.tsv, but absent in the biblib.xlsx
-The BibTeX entry          juin2008          present in the          days_after_today.tsv, but absent in the biblib.xlsx
-The BibTeX entry          talibovgadjiev1966          present in the          days_after_today.tsv, but absent in the biblib.xlsx
-The BibTeX entry          magomedova2001          present in the          days_after_today.tsv, but absent in the biblib.xlsx
-The BibTeX entry          magimedovaabdulaeva2007          present in the          days_before_today.tsv, but absent in the biblib.xlsx
-The BibTeX entry          bekova2009          present in the          days_before_today.tsv, but absent in the biblib.xlsx
-The BibTeX entry          khalilova1983          present in the          days_before_today.tsv, but absent in the biblib.xlsx
-The BibTeX entry          talibovgadjiev1966          present in the          days_before_today.tsv, but absent in the biblib.xlsx
-The BibTeX entry          ibragimovnurmamedov2011          present in the          days_before_today.tsv, but absent in the biblib.xlsx
+The obligatory column          source          is absent in the file          days_before_and_after_today.tsv
+The obligatory column          page          is absent in the file          days_before_and_after_today.tsv
+Duplicated column name      'source'      in the      days_before_and_after_today.tsv
+Duplicated column name      'page'      in the      days_before_and_after_today.tsv
 NA
-No {-} in the Reference section in the file       days_after_today.Rmd
+No {-} in the Reference section in the file       days_before_and_after_today.Rmd
 spelling of          chuhwanahw        in adpositions.Rmd:238
 spelling of          depi        in adpositions.Rmd:383
 spelling of          handep        in adpositions.Rmd:56
@@ -66,15 +56,11 @@ spelling of          lu        in commemorative.Rmd:46
 spelling of          Moj        in commemorative.Rmd:38
 spelling of          po        in commemorative.Rmd:21
 spelling of          xleb        in commemorative.Rmd:21
-spelling of          giun        in days_after_today.Rmd:26
-spelling of          iq        in days_after_today.Rmd:26
-spelling of          iqna        in days_after_today.Rmd:26
-spelling of          nid        in days_after_today.Rmd:19
-spelling of          qa        in days_after_today.Rmd:21
-spelling of          iq        in days_before_today.Rmd:34
-spelling of          iqna        in days_before_today.Rmd:34
-spelling of          nid        in days_before_today.Rmd:27
-spelling of          qa        in days_before_today.Rmd:29
+spelling of          giun        in days_before_and_after_today.Rmd:26
+spelling of          iq        in days_before_and_after_today.Rmd:26
+spelling of          iqna        in days_before_and_after_today.Rmd:26
+spelling of          nid        in days_before_and_after_today.Rmd:19
+spelling of          qa        in days_before_and_after_today.Rmd:21
 spelling of          ada        in demonstratives.Rmd:141
 spelling of          awedu        in demonstratives.Rmd:324
 spelling of          di        in demonstratives.Rmd:79
