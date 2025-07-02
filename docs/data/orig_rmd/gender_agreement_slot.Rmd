@@ -1,0 +1,225 @@
+```{r, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, comment = '')
+library(lingglosses)
+```
+
+## Introduction
+
+East Caucasian languages feature a range of unusual gender agreement targets. Along with agreeing adpositions (see the chapter on [Agreement of adpositions with the absolutive/nominative argument](http://lingconlab.ru/dagatlas/031_agreement_of_adpositions.html)) and adverbs, in some branches of the family one finds agreeing nominals. In some inflected forms, nouns show gender agreement with one of the participants, similarly to other agreement targets in the clausal domain. Gender agreement of inflected nominals in East Caucasian languages is attested both in NP and clausal domains. In the clausal domain, nominals agree in gender with a nominative participant. Within NPs, a possessor may agree with a possessum (see, for example, [@lander2010]). The latter is characteristic of Andic languages and is not further discussed in the present chapter as it only focuses on gender agreement within the clause, cf. (@one) where the Place argument bears the gender value of the nominative participant.
+
+(@one) Dargwa: Mehweb [@chechuro2019: 66]
+```{r}
+gloss_example(transliteration = "surat aqi-le le-b baʕʜi-ze-*b*",
+              glosses = "picture(N) up-ADVZ be-N wall-INTER-**N**(ESS)",
+              free_translation = "A picture is hanging on the wall.")
+```
+
+Nominals take gender agreement only when inflected for some grammatical meanings. The present chapter treats the presence of an agreement slot as a feature of an inflectional morpheme expressing some particular grammatical meaning. While attributes and predicates are common targets of gender agreement cross-linguistically, agreement in flagging morphemes (i.e. case markers or adpositions) is extremely rare. In her talk on unusual agreement targets, Chumakina [-@chumakina2020] only mentions four other cases (besides East Caucasian) of agreement in inflected nominals or adpositions, including Coastal Marind (Trans-New Guinean), Kwarandzey (Songhai), Gujarati (Indo-Aryan),  and Ripano (Romance). To this I can only add one external parallel of agreeing adpositions in Lavukaleve [@terrill2003: 150], though I am not aware of any systematic cross-linguistic investigation of such 'unusual' gender agreement targets.
+
+In the present chapter, I provide a brief description of gender agreement in the nominal inflection attested in the languages of Daghestan. Languages that have no gender agreement, including Lezgian, Agul and Udi, as well as other languages of the Caucasus including Georgian, Armenian, and Turkic do not demonstrate any unusual gender agreement in flagging.
+
+
+## Results
+
+With respect to gender agreement in the nominal inflection paradigm, languages of Daghestan fall into four categories:
+
+1. languages with no gender agreement slots in nominal inflected forms
+2. languages with gender agreement slots in spatial forms
+3. languages with gender agreement slots in grammatical cases
+4. languages with gender agreement slots in both spatial forms and grammatical cases
+
+In some languages, historical gender markers have been fossilized, so that the inflected form has ceased to agree. In Andic languages, the *affective* marker, historically a directional form that is now also or exclusively used for encoding experiencers, originally contained an agreement slot. In some languages, this agreement slot now has a "frozen" gender marker which goes back to different gender values, and is now used irrespectively of the gender value of the nominative argument (@magomedbekova1971: 58). In the present chapter, I do not treat such cases of fossilization as instances of gender agreement.
+
+
+### Gender agreement of spatial forms
+
+Spatial forms of nominals in East Caucasian languages are essentially combinations of two or three morphological slots carrying different grammatical categories (see the chapter on [Number of morphological slots in spatial forms](http://lingconlab.ru/dagatlas/054_number_of_morphological_slots_in_spatial_forms.html)). Spatial inflection in the languages from other families but Nakh is monomorphemic so that a single non-compositional marker is used for each spatial meaning. Bimorphemic spatial systems include two morphological slots. The first slot contains a marker of *localization*, expressing the topological relationship between Figure and Ground ('in', 'on', 'under', 'by the side', etc.). The second slot contains a marker of *directionality* which describes whether the Figure moves to the Ground (Goal), from the Ground (Source) or through the Ground (Path), or whether there is no motion whatsoever (Place). Gender agreement slots may be present in markers of either of the two categories, depending on the language, though I did not find any language that shows agreement in both localization and directionality at the same time.
+
+Trimorphemic systems add a third slot that conveys either approximative, deictic or orientational meaning (for further details see the the chapter on [Number of morphological slots in spatial forms](http://lingconlab.ru/dagatlas/054_number_of_morphological_slots_in_spatial_forms.html)). It follows either the directionality or localization marker and may also show gender agreement.
+
+#### Gender agreement in localization slots
+
+Agreeing localization markers are only attested in Avar. According to Mikailov [-@mikailov1959], in most Avar varieties, gender markers are present in the so-called fifth series of spatial cases (*localization* IN in the present chapter). In Standard Avar, the primary function of this series is to express location within a hollow container:
+
+(@two) Avar: Standard [@alekseevataev1997: 47]
+```{r}
+gloss_example(transliteration = "čʷanti-**ni-b**",
+              glosses = "bag-**IN-N**",
+              free_translation = "in a bag")
+```
+
+The content of the bag in this example is non-human and belongs to the neuter gender, so the IN marker *-ni* takes neuter *-b* agreement.
+
+The only Avar variety where gender agreement is missing from the localization IN is the Antsukh subgroup. Compare the pairs of clauses from Antsukh and Standard Avar:
+
+(@three) Avar: Antsukh [@mikailov1959: 87]
+```{r}
+gloss_example(transliteration = "dide ruq'-i w-ugo",
+              glosses = "father(M) home-IN M-COP",
+              free_translation = "Father is at home.")
+```
+
+(@four) Avar: Antsukh [@mikailov1959: 87]
+```{r}
+gloss_example(transliteration = "buba ruq'-i j-igu",
+              glosses = "mother(F) home-IN F-COP",
+              free_translation = "Mother is at home.")
+```
+
+(@five) Avar: Standard [@mikailov1959: 87]
+```{r}
+gloss_example(transliteration = "emen ruq'-**o-w** w-ugo",
+              glosses = "father(M) home-**IN-M** M-COP",
+              free_translation = "Father is at home.")
+```
+
+(@six) Avar: Standard [@mikailov1959: 87]
+```{r}
+gloss_example(transliteration = "ebel ruq'-**o-j** j-igo",
+              glosses = "mother(F) home-**IN-F** F-COP",
+              free_translation = "Mother is at home.")
+```
+
+Typically, the Avar localization IN agrees when used with essive and lative directionality meanings. For example, in Standard Avar, the inessive is marked by the gender marker alone, while in the lative use the segment *-e* is added to the gender marker. In elative and translative usages, there is no gender agreement slot [@alekseevataev1997: 48]. Gid Avar is exceptional as its IN marker agrees only in lative usages, while the inessive has no gender agreement slot [@mikailov1959: 336]. If the nominative participant belongs to gender I or II, gender marking is absent from lative usages, too. When controlled by gender III or plural nouns, the lative takes one of the *-be/-re* allomorphs, e.g. _gundinu-**be**_ (III) / _gundinu-**re**_ (PL) / *gundine* (I/II) 'to the pit' [@mikailov1959: 336].
+
+Another agreeing localization reported for Avar by Mikailov is the localization SUPER (called “the first series” in traditional descriptions). In Sugratl', Obokh and Keger varieties, the superessive *-la* optionally takes gender agreement: 
+
+(@seven) Avar: Sugratl' [@mikailov1959: 278]
+```{r}
+gloss_example(transliteration = "nuħ-**la-w** č'ːa w-asːa-w!",
+              glosses = "road-**SUP-M**	stay.IMP M-child-M",
+              free_translation = "Stay on the road, boy!")
+```
+
+(@eight) Avar: Sugratl' [@mikailov1959: 278]
+```{r}
+gloss_example(transliteration = "nuħ-**la-j** č'ːa j-asːa-j!",
+              glosses = "road-**SUP-F**	stay.IMP F-child-F",
+              free_translation = "Stay on the road, girl!")
+```
+
+For Keger, another localization marker *-ɬːo* (traditionally, the third series meaning INTER) is also reported to attach an agreement marker in essive usages [@mikailov1959: 278].
+
+#### Gender agreement in directionality slots
+
+As for directionality markers, gender agreement is most consistent in the languages of the Dargwa branch. In Dargwa, the differentiation between the lative and the essive is made solely by means of gender agreement. For example, *ʁarʁa-li-če* is 'onto the stone' while *ʁarʁa-li-če-w* is 'on the stone' (for a male referent). Mehweb Dargwa is different from all other varieties in that not only the essive but also one of the elative markers agrees in gender. For example, there are two options for elative formation for the place name Mehweb: *meħwe-la* and *meħwe-‹CM›-adal*. Of these, the latter takes the gender value of the nominative argument of the clause. The distribution of the two allomorphs is unclear (Michael Daniel, p.c.).
+
+Agreeing *Translative* is reported by Mikailov [-@mikailov1959] for Rugudzha Avar:
+
+(@nine) Avar: Rugudzha [@mikailov1959: 278]
+```{r}
+gloss_example(transliteration = "roxo-sːa-**w-am** w-eh-ana da-w",
+              glosses = "forest-EL-**M-TRANS** M-come-AOR DEM-M",
+              free_translation = "He came through the forest.")
+```
+
+Magomedbekova [-@magomedbekova1971] reports agreeing elatives for Tukita: *-‹CM›-a* as in (@ten)-(@eleven) and *-gi-‹CM›-a* as in (@twelve)-(@thirteen) (transcription and glosses are mine; the source describes the latter marker as the translative in the process of unification with the elative, which is also reflected in its elative uses in (@eleven)).
+
+(@ten) Tukita [@magomedbekova1971: 80]
+```{r}
+gloss_example(transliteration = "jaxi-ɬːi-č'u-**b-a** b-uq-e din-di ha-b beqi",
+              glosses = "girl-OBL-CONT-**N-EL**	N-take_away-AOR	I-ERG	this-N (N)apricot",
+              free_translation = "I took this apricot from the girl.")
+```
+
+(@eleven) Tukita [@magomedbekova1971: 80]
+```{r}
+gloss_example(transliteration = "jaxi-ɬːi-č'u-**r-a** r-ih-i ha-r-e šːata-di",
+              glosses = "girl-OBL-CONT-**NPL-EL** NPL-take-AOR this-NPL-PL stocking-PL",
+              free_translation = "These stockings were bought from the girl.")
+```
+
+(@twelve) Tukita [@magomedbekova1971: 80]
+```{r}
+gloss_example(transliteration = "ʕanči-la-**gi‹b›a** ɬabɬabili-b-aχ m-uʔ-a šːakiba",
+              glosses = "stone-SUP-**EL‹N›** fly-N-CVB N-go-AOR	bird",
+              free_translation = "The bird flew off the rock.")
+```
+
+(@thirteen) Tukita [@magomedbekova1971: 80]
+```{r}
+gloss_example(transliteration = "ʕanči-la-**gi‹j›a** t'al-eχ j-ĩʔ-a jaxi",
+              glosses = "stone-SUP-**EL‹F›** fall-CVB	F-go-AOR girl",
+              free_translation = "The girl fell off the rock.")
+```
+
+#### Gender agreement in the third slot of trimorphemic spatial forms
+
+A few languages of the East Caucasian family combine not two but three grammatical categories in their expression of spatial forms (see the chapter on [Number of morphological slots in spatial forms](http://lingconlab.ru/dagatlas/054_number_of_morphological_slots_in_spatial_forms.html)). To the localization and orientation categories a third category is added as a separate inflectional morpheme. In Lak, this third morphological slot is filled by the *approximative* marker *-‹CM›-aj*. When added after the directionality marker, it indicates that the Figure moves towards the Ground without reaching it, or that the Figure moves from the area adjacent to the Ground and not from the Ground itself. In (@fourteen), the first spatial argument is marked for orientation with *-maj*, which is analyzed by Zhirkov [-@zhirkov1955] as a plural of gender III *-b* assimilated to the preceding *-n* [@zhirkov1955: 39]. The second spatial argument features the orientation marker *-naj*, where *-n* originates from assimilation of gender IV marker *-d*.
+
+(@fourteen) Lak [@kazenin2013: 61]
+```{r results='asis'}
+              gloss_example(transliteration = "naj b-ija q'iblali-j-n-**m-aj** leluχː-ant=gu, naj d-ija xːiri-n-**n-aj** qun neχ=gu",
+              glosses = "go.PRS.GER III.PL-cop.IPF qibla.OBL-SUP-LAT-**III.PL-APPR** bird-PL=and, go.PRES.GER IV-cop.IPF sea.OBL-LAT-**IV-APPR** big river=and",
+              free_translation = "Birds were flying southwards and the big river was flowing towards the sea.")
+```
+
+Zhirkov [-@zhirkov1955] only reports these assimilation processes for Kumukh and Standard Lak, while in Vitskhi Lak the phonological form of gender markers in the approximative is the same as in other targets [@zhirkov1955: 40].
+
+
+### Gender agreement in grammatical cases
+
+Some Andic languages feature a dedicated *affective* case which is mostly used to encode experiencer participants but often has vestigial spatial - more specifically, directional - functions. Chumakina [-@chumakina2021] argues that this agreeing affective was once characteristic of all Andic but now it is fossilized in most Andic varieties [@chumakina2021: 138]. However, in some languages it still agrees:
+
+(@fifteen) Andi [@chumakina2021: 138]
+```{r}
+gloss_example(transliteration = "ilu-**b-o** q'inkom haɢo",
+              glosses = "mother-**III.SG-AFF** bull(III) see.AOR",
+              free_translation = "Mother saw a bull.")
+```
+
+(@sixteen) Andi [@chumakina2021: 138]
+```{r}
+gloss_example(transliteration = "ilu-**r-o** c'ul haɢo",
+              glosses = "mother-**V-AFF** stick(V) see.AOR",
+              free_translation = "Mother saw a stick.")
+```
+
+Thus, Andi and Tukita Karata have two agreeing case forms, the genitive and the affective (see [@magomedbekova1971] on Tukita).
+
+Tsakhur (Lezgic) has an agreeing *possessive* which is distinct from the attributive marker on the adnominal possessors and is used in predicative possessive constructions (broadly understood); cf. (@seventeen): 
+
+(@seventeen) Tsakhur: Mishlesh [@kibrik1999: 352]
+```{r}
+gloss_example(transliteration = "dera-j-**qa=r** siχnari wo=r",
+              glosses = "valley-OBL-**POSS=M** thief(M) be=M",
+              free_translation = "In our valley, there was a horse thief…")
+```
+
+For three varieties of Avar, namely Antsrosunkhada, Tash and Chadakolob Avar, Mikailov [-@mikailov1959] reports the agreeing *dative*:
+
+(@eighteen) Avar: Antsrosunkhada [@mikailov1959: 84]
+```{r}
+gloss_example(transliteration = "wexasːi-**w-e** w-as w-ehri",
+              glosses = "shepherd-**M-DAT** M-child(M) M-get.AOR",
+              free_translation = "To a shepherd, a son was born.")
+```
+
+(@nineteen) Avar: Antsrosunkhada [@mikailov1959: 84]
+```{r}
+gloss_example(transliteration = "wexasːi-**b-e** boc'ːi b-ehri",
+              glosses = "shepherd-**N-DAT**	cattle(N) N-get.AOR",
+              free_translation = "A shepherd got cattle.")
+```
+
+Abdullaev [-@abdullaev1954: 105] reports the agreeing *instrumental* case *-či-‹CM›-li* for Standard Dargwa, but he provides no examples.
+
+The only idioms which demonstrate gender agreement in both spatial and core subparadigms are Antsrosunkhada Avar (the localization IN and the dative), Tukita Karata (the elative, the genitive and the affective), and Standard Dargwa (the essive and the instrumental).
+
+
+## Distribution
+
+[Map 1](http://lingconlab.ru/dagatlas/056_gender_agreement_slot_map.html#m1) differentiates between four types of languages. A language may either have the gender agreement slot in its inventory of grammatical cases, in its inventory of spatial inflection forms, in both inventories at the same time, or lack the feature altogether. 
+
+The distribution pattern of agreeing spatial forms is reflected on [Map 2](http://lingconlab.ru/dagatlas/056_gender_agreement_slot_map.html#m2). Here,  Dargwa and Avar are clearly two hotbeds. Most Dargwa varieties show agreement in the directionality slot, and in most Avar varieties the marker of IN localization shows gender agreement. Marginally, the elative and the translative have agreement slots in both Avar and Dargwa sub-branches, but also in Tukita Karata. Lak has gender agreement in the approximative slot.
+
+[Map 3](http://lingconlab.ru/dagatlas/056_gender_agreement_slot_map.html#m3) reflects the distribution pattern in the domain of grammatical cases. Here, gender agreement is mostly confined to NP-internal agreement of the genitive in Andic, which is out of the scope of the present paper. The affective marker also has an agreement slot in two languages of the Andic group (Andi and Tukita Karata). Outside Andic, gender agreement of grammatical case markers is sporadically attested in Avar (the dative), Tsakhur (the possessive), and in the instrumental form of Standard Dargwa.
+
+
+## List of glosses {-}
+
+```{r}
+make_gloss_list(readxl::read_xlsx("../glosses.xlsx"))
+```
+
+## References {-}
