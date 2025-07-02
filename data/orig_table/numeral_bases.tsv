@@ -3,18 +3,18 @@ id	language	idiom	type	genlang_point	map	value1	value1_name	feature	source	page	
 2	Upper Andi	Rikvani	village	no	yes	decimal	Base of numeral system	Base of numeral system	suleymanov1957	299--306		George Moroz	2023-09-08	
 3	Upper Andi	Gagatli	village	no	yes	decimal	Base of numeral system	Base of numeral system	salimov2010	132		Maksim Melenchenko	2023-09-08	
 4	Upper Andi	Zilo	village	no	yes	decimal	Base of numeral system	Base of numeral system	kayeetaldraft2020	14		Maksim Melenchenko	2023-09-08	
-5	Lower Andi	Lower Andi	language	no	yes	decimal	Base of numeral system	Base of numeral system	Aigul Zakirova, p.c.			Maksim Melenchenko	2023-09-08	
+5	Lower Andi	Lower Andi	language	yes	yes	decimal	Base of numeral system	Base of numeral system	Aigul Zakirova, p.c.			Maksim Melenchenko	2023-09-08	
 6	Bagvalal	Kvanada	village	yes	yes	decimal	Base of numeral system	Base of numeral system	kibrik2001	155--157		George Moroz	2023-09-08	
 7	Botlikh	Botlikh	village	yes	yes	decimal	Base of numeral system	Base of numeral system	alexeyevverheesdraft2020	14		George Moroz	2023-09-08	
 8	Chamalal	Standard Chamalal	language	yes	yes	decimal	Base of numeral system	Base of numeral system	bokarev1949a	71--73		George Moroz	2023-09-08	
-9	Gigatli	Gigatli	language	no	yes	decimal	Base of numeral system	Base of numeral system	bokarev1949a	71--73		George Moroz	2023-09-08	
+9	Gigatli	Gigatli	language	yes	yes	decimal	Base of numeral system	Base of numeral system	bokarev1949a	71--73		George Moroz	2023-09-08	
 10	Godoberi	Godoberi	language	yes	yes	decimal	Base of numeral system	Base of numeral system	tatevosov1996	28--29		George Moroz	2023-09-08	
 11	Karata	Karata	dialect_toplevel	yes	yes	decimal	Base of numeral system	Base of numeral system	magomedbekova1971	93--95		George Moroz	2023-09-08	
 12	Karata	Siukh	village	no	yes	decimal	Base of numeral system	Base of numeral system	dalgatov2017	12--13		Maksim Melenchenko	2023-09-08	
-13	Tukita	Tukita	language	no	yes	vigesimal	Base of numeral system	Base of numeral system	magomedbekova1971	93--95		George Moroz	2023-09-08	
+13	Tukita	Tukita	language	yes	yes	vigesimal	Base of numeral system	Base of numeral system	magomedbekova1971	93--95		George Moroz	2023-09-08	
 14	Tindi	Tindi	village	yes	yes	decimal	Base of numeral system	Base of numeral system	magomedova2003	560--561		George Moroz	2023-09-08	
 15	Northern Akhvakh	Northern Akhvakh	language	yes	yes	vigesimal	Base of numeral system	Base of numeral system	magomedbekova1967	71		George Moroz	2023-09-08	
-16	Southern Akhvakh	Ratlub	village	no	yes	vigesimal	Base of numeral system	Base of numeral system	abdulaeva2001		No page (read it on a webpage)	Maksim Melenchenko	2023-09-08	
+16	Southern Akhvakh	Ratlub	village	yes	yes	vigesimal	Base of numeral system	Base of numeral system	abdulaeva2001		No page (read it on a webpage)	Maksim Melenchenko	2023-09-08	
 17	Avar	Standard Avar	language	yes	yes	vigesimal	Base of numeral system	Base of numeral system	alekseevataev1997	52		George Moroz	2023-09-08	
 18	Avar	Zaqatala	dialect_nt1	no	yes	mixed	Base of numeral system	Base of numeral system	saidova2007	107	Originally vigesimal, then presumably borrowed decimal crowns 50—90 from Tsakhur	Maksim Melenchenko	2023-09-08	
 19	Avar	Kusur	dialect_toplevel	no	yes	mixed	Base of numeral system	Base of numeral system	isakov1981		Originally vigesimal, then presumably borrowed decimal crowns 50—90 from Tsakhur. No page (read it on a webpage)	Maksim Melenchenko	2023-09-08	
@@ -30,7 +30,7 @@ id	language	idiom	type	genlang_point	map	value1	value1_name	feature	source	page	
 29	Avar	Keleb Mixed	dialect_nt1	no	yes	decimal	Base of numeral system	Base of numeral system	sirazhudinovaataev2007	88		Maksim Melenchenko	2023-09-08	
 30	Hinuq	Hinuq	language	yes	yes	vigesimal	Base of numeral system	Base of numeral system	forker2019	394--399		George Moroz	2023-09-08	
 31	Khwarshi	Khwarshi Proper	dialect_toplevel	yes	yes	vigesimal	Base of numeral system	Base of numeral system	imnajshvili1963	85		Maksim Melenchenko	2023-09-08	check me
-31	Khwarshi	Khwarshi	dialect_nt1	yes	yes	vigesimal	Base of numeral system	Base of numeral system	imnajshvili1963	85		Maksim Melenchenko	2023-09-08	check me
+31	Khwarshi	Khwarshi	dialect_nt1	no	yes	vigesimal	Base of numeral system	Base of numeral system	imnajshvili1963	85		Maksim Melenchenko	2023-09-08	check me
 32	Khwarshi	Kvantlada	village	no	yes	vigesimal	Base of numeral system	Base of numeral system	khalilova2009	169--170		George Moroz	2023-09-08	
 33	Khwarshi	Inkhoqwari	dialect_toplevel	no	yes	mixed	Base of numeral system	Base of numeral system	imnajshvili1963	85		Maksim Melenchenko	2023-09-08	
 34	Tsez	Kidero	dialect_nt1	yes	yes	vigesimal	Base of numeral system	Base of numeral system	bokarev1959tsez	202--203		George Moroz	2023-09-08	
@@ -38,12 +38,12 @@ id	language	idiom	type	genlang_point	map	value1	value1_name	feature	source	page	
 36	Hunzib	Hunzib	language	yes	yes	decimal	Base of numeral system	Base of numeral system	vandenberg1995	68--70		George Moroz	2023-09-08	
 37	Northern Dargwa	Aqusha	dialect_toplevel	yes	yes	decimal	Base of numeral system	Base of numeral system	abdullaev1954	135--137		George Moroz	2023-09-08	
 38	Sanzhi-Itsari	Sanzhi	dialect_toplevel	no	yes	decimal	Base of numeral system	Base of numeral system	forker2020dargwa	127--128		George Moroz	2023-09-08	
-39	Sanzhi-Itsari	Itsari	dialect_toplevel	no	yes	decimal	Base of numeral system	Base of numeral system	sumbatovamutalov2003	44--47		George Moroz	2023-09-08	
-40	Mehweb	Mehweb	language	no	yes	decimal	Base of numeral system	Base of numeral system	magometov1982	58--61		George Moroz	2023-09-08	
-41	Southwestern Dargwa	Tanti	dialect_toplevel	no	yes	decimal	Base of numeral system	Base of numeral system	sumbatovalander2014	93--96		George Moroz	2023-09-08	
-42	Kajtag	Kajtag	language	no	yes	decimal	Base of numeral system	Base of numeral system	temirbulatova2004	18		Maksim Melenchenko	2023-09-08	
-43	Chirag	Chirag	language	no	yes	decimal	Base of numeral system	Base of numeral system	ganenkov2021draft	7		Maksim Melenchenko	2023-09-08	
-44	Kubachi	Kubachi	language	no	yes	decimal	Base of numeral system	Base of numeral system	magometov1963	134		Maksim Melenchenko	2023-09-08	
+39	Sanzhi-Itsari	Itsari	dialect_toplevel	yes	yes	decimal	Base of numeral system	Base of numeral system	sumbatovamutalov2003	44--47		George Moroz	2023-09-08	
+40	Mehweb	Mehweb	language	yes	yes	decimal	Base of numeral system	Base of numeral system	magometov1982	58--61		George Moroz	2023-09-08	
+41	Southwestern Dargwa	Tanti	dialect_toplevel	yes	yes	decimal	Base of numeral system	Base of numeral system	sumbatovalander2014	93--96		George Moroz	2023-09-08	
+42	Kajtag	Kajtag	language	yes	yes	decimal	Base of numeral system	Base of numeral system	temirbulatova2004	18		Maksim Melenchenko	2023-09-08	
+43	Chirag	Chirag	language	yes	yes	decimal	Base of numeral system	Base of numeral system	ganenkov2021draft	7		Maksim Melenchenko	2023-09-08	
+44	Kubachi	Kubachi	language	yes	yes	decimal	Base of numeral system	Base of numeral system	magometov1963	134		Maksim Melenchenko	2023-09-08	
 45	Southwestern Dargwa	Karbuchimakhi	village	no	yes	decimal	Base of numeral system	Base of numeral system	shakhbanova2011	11--12		Maksim Melenchenko	2023-09-08	
 46	Northern Dargwa	Mugri	dialect_nt1	no	yes	decimal	Base of numeral system	Base of numeral system	ismailova2012	18		Maksim Melenchenko	2023-09-08	
 47	Southwestern Dargwa	Khuduts	dialect_nt1	no	yes	decimal	Base of numeral system	Base of numeral system	ibragimova2012	14--15		Maksim Melenchenko	2023-09-08	
@@ -52,7 +52,7 @@ id	language	idiom	type	genlang_point	map	value1	value1_name	feature	source	page	
 50	Southwestern Dargwa	Sirhwa	dialect_toplevel	no	yes	decimal	Base of numeral system	Base of numeral system	kadibagomaeva2009	12--13		Maksim Melenchenko	2023-09-08	
 51	Lak	Standard Lak	language	yes	yes	decimal	Base of numeral system	Base of numeral system	zhirkov1955	52--56		George Moroz	2023-09-08	
 52	Archi	Archi	language	yes	yes	decimal	Base of numeral system	Base of numeral system	kibrik1977	118--119		George Moroz	2023-09-08	
-53	Qushan Agul	Qushan Agul	language	no	yes	decimal	Base of numeral system	Base of numeral system	ganenkovmaisak2008	7		Maksim Melenchenko	2023-09-08	
+53	Qushan Agul	Qushan Agul	language	yes	yes	decimal	Base of numeral system	Base of numeral system	ganenkovmaisak2008	7		Maksim Melenchenko	2023-09-08	
 54	Agul	Tsirkhe	village	no	yes	decimal	Base of numeral system	Base of numeral system	ganenkovmaisak2008	7		Maksim Melenchenko	2023-09-08	
 55	Agul	Fite	dialect_toplevel	yes	yes	both	Base of numeral system	Base of numeral system	magometov1970	94--97		George Moroz	2023-09-08	
 57	Agul	Burkikhan	village	no	yes	both	Base of numeral system	Base of numeral system	ganenkovmaisak2008	7		Maksim Melenchenko	2023-09-08	
@@ -70,7 +70,7 @@ id	language	idiom	type	genlang_point	map	value1	value1_name	feature	source	page	
 69	Rutul	Myukhrek	dialect_toplevel	no	yes	decimal	Base of numeral system	Base of numeral system	field data			George Moroz	2023-09-08	
 70	Rutul	Ikhrek	dialect_toplevel	no	yes	decimal	Base of numeral system	Base of numeral system	field data			George Moroz	2023-09-08	
 71	Rutul	Luchek	village	no	yes	decimal	Base of numeral system	Base of numeral system	field data			George Moroz	2023-09-08	
-72	Borch-Khnov	Borch-Khnov	language	no	yes	decimal	Base of numeral system	Base of numeral system	field data			George Moroz	2023-09-08	
+72	Borch-Khnov	Borch-Khnov	language	yes	yes	decimal	Base of numeral system	Base of numeral system	field data			George Moroz	2023-09-08	
 73	Tabasaran	Standard Tabasaran	language	yes	yes	decimal	Base of numeral system	Base of numeral system	magometov1965	159--163		George Moroz	2023-09-08	
 74	Tabasaran	Kondik	village	no	yes	mixed	Base of numeral system	Base of numeral system	magometov1965	159--163		Maksim Melenchenko	2023-09-08	
 75	Tabasaran	Khiv	village	no	yes	vigesimal	Base of numeral system	Base of numeral system	magometov1965	159--163		George Moroz	2023-09-08	
