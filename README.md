@@ -4,15 +4,15 @@ The languages of Daghestan have a long descriptive tradition. Available grammars
 
 ## How to cite
 
-Daniel, M., K. Filatov, T. Maisak, G. Moroz, T. Mukhin, C. Naccarato, S. Verhees (2022). Typological Atlas of the Languages of Daghestan (TALD), v. 1.0.0. Moscow: Linguistic Convergence Laboratory, NRU HSE. DOI: [10.5281/zenodo.6807070](https://doi.org/10.5281/zenodo.6807070) http://lingconlab.ru/dagatlas.
+Daniel Michael, Filatov Konstantin, Maisak Timur, Moroz George, Mukhin Timofey, Naccarato Chiara, Verhees Samira (2025). Typological Atlas of the Languages of Daghestan (TALD), v. 2.0.0. Moscow: Linguistic Convergence Laboratory, NRU HSE. DOI: [10.5281/zenodo.6807070](https://doi.org/10.5281/zenodo.6807070) http://lingconlab.ru/dagatlas.
 
 or BibTeX:
 
 ```
-@book{tald2022,
-  title = {Typological Atlas of the Languages of Daghestan (TALD), v. 1.0.0},
+@book{tald2025,
+  title = {Typological Atlas of the Languages of Daghestan (TALD), v. 2.0.0},
   author = {Michael Daniel and Konstantin Filatov and Timur Maisak and George Moroz and Timofey Mukhin and Chiara Naccarato and Samira Verhees},
-  year = {2022},
+  year = {2025},
   publisher = {Linguistic Convergence Laboratory, NRU HSE},
   address = {Moscow},
   url = {http://lingconlab.ru/dagatlas},

@@ -1,5 +1,4 @@
 NA
-No {-} in the Reference section in the file       days_before_and_after_today.Rmd
 spelling of          chuhwanahw        in adpositions.Rmd:238
 spelling of          depi        in adpositions.Rmd:383
 spelling of          handep        in adpositions.Rmd:56
@@ -52,11 +51,11 @@ spelling of          lu        in commemorative.Rmd:46
 spelling of          Moj        in commemorative.Rmd:38
 spelling of          po        in commemorative.Rmd:21
 spelling of          xleb        in commemorative.Rmd:21
-spelling of          giun        in days_before_and_after_today.Rmd:26
-spelling of          iq        in days_before_and_after_today.Rmd:26
-spelling of          iqna        in days_before_and_after_today.Rmd:26
-spelling of          nid        in days_before_and_after_today.Rmd:19
-spelling of          qa        in days_before_and_after_today.Rmd:21
+spelling of          giun        in days_before_and_after_today.Rmd:28
+spelling of          iq        in days_before_and_after_today.Rmd:28
+spelling of          iqna        in days_before_and_after_today.Rmd:28
+spelling of          nid        in days_before_and_after_today.Rmd:21
+spelling of          qa        in days_before_and_after_today.Rmd:23
 spelling of          ada        in demonstratives.Rmd:141
 spelling of          awedu        in demonstratives.Rmd:324
 spelling of          di        in demonstratives.Rmd:79

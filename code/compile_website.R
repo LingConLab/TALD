@@ -498,7 +498,7 @@ walk(seq_along(rmd_filenames), function(i){
     " editor= 'Daniel, Michael  and Filatov, Konstantin and Maisak, Timur and Moroz, George and Mukhin, Timofey and Naccarato, Chiara and Verhees, Samira',",
     " publisher='Linguistic Convergence Laboratory, NRU HSE',",
     " address='Moscow',",
-    " booktitle= 'Typological Atlas of the Languages of Daghestan (TALD)',",
+    " booktitle= 'Typological Atlas of the Languages of Daghestan (TALD), v 2.0.0',",
     " url='http://lingconlab.ru/dagatlas',",
     " doi='10.5281/zenodo.6807070')",
     "```",
