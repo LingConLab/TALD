@@ -25,8 +25,8 @@ In Archi, the ‘ten’ root which is used in crowns is also of an unknown sourc
 
 (@) Archi [@mikailov1967: 75]
 ```{r, echo=FALSE}
-gloss_example(transliteration = "diɬ-**ij**-‹t’›u",
-              glosses = "six-**ten**-NUM‹CM›",
+gloss_example(transliteration = "diɬ-**ij**-<t’>u",
+              glosses = "six-**ten**-NUM<CM>",
               free_translation = "60"
 )
 ```

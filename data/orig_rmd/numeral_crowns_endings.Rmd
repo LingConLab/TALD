@@ -50,7 +50,7 @@ In Rutul and Tabasaran of the Lezgic branch crowns differ from other cardinals i
 (@rutul_80) Kina Rutul [@mukhin2020: 5]
 ```{r, echo=FALSE}
 gloss_example(transliteration = "mɨj-c’ɨ.**r**",
-              glosses = "eight-ten.**1/2**",
+              glosses = "eight-ten.**1.2**",
               free_translation = "80"
 )
 ```

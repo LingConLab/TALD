@@ -96,7 +96,7 @@ gloss_example(transliteration = "nuχ		bit’a-gi!",
 (@hunzib12) Hunzib [@vandenberg1995: 88]
 ```{r}
 gloss_example(transliteration = "huni 	bic’i		r-aq-ob",
-              glosses = "road 	straight		5-happen-OPT",
+              glosses = "road 	straight		V-happen-OPT",
               free_translation = "May the road be straight!")
 ```
 
@@ -134,7 +134,7 @@ Apart from these three types, there are other, less frequent formulae which are 
 (@tsez16) Tsez  [@xalilov1999: 109]
 ```{r}
 gloss_example(transliteration = "huni 	r-egir-o-ƛ",
-              glosses = "road 	4-send/let-IMP-OPT",
+              glosses = "road 	IV-send/let-IMP-OPT",
               free_translation = "Have a nice trip! (lit. ‘May road let’)")
 ```
 

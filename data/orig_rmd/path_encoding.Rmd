@@ -146,7 +146,7 @@ In some languages, the presence of a dedicated translative marker is dubious, as
 
 ```{r}
 gloss_example(transliteration = "**gada**-di-s",
-              glosses = "**THROUGH**-go-3SG.SUBJ",
+              glosses = "**through**-go-3SG.SUBJ",
               free_translation = "X is going over/across/through")
 ```
 
@@ -157,13 +157,13 @@ The only language in the sample that employs a different strategy is Georgian, w
 a.
 ```{r}
 gloss_example(transliteration = "pot-**sa** da odesa-**s** šoris gem-eb-i **da**-di-an",
-              glosses = "Poti-**DAT** and Odessa-**DAT** between boat-PL-NOM **GO.REGULARLY**-go-PL",
+              glosses = "Poti-**DAT** and Odessa-**DAT** between boat-PL-NOM **go.regularly**-go-PL",
               free_translation = "Boats (regularly) journey between Poti and Odessa.")
 ```
 b.
 ```{r}
 gloss_example(transliteration = "opl-ma axalux-**s** **ga**-a-t’an-a",
-              glosses = "sweat-ERG shirt-**DAT** **THROUGH**-3SG.LV-penetrate-3SG",
+              glosses = "sweat-ERG shirt-**DAT** **through**-3SG.LV-penetrate-3SG",
               free_translation = "Sweat penetrated through the shirt.")
 ```
 

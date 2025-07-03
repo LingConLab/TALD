@@ -102,7 +102,7 @@ For Keger, another localization marker *-ɬːo* (traditionally, the third series
 
 #### Gender agreement in directionality slots
 
-As for directionality markers, gender agreement is most consistent in the languages of the Dargwa branch. In Dargwa, the differentiation between the lative and the essive is made solely by means of gender agreement. For example, *ʁarʁa-li-če* is 'onto the stone' while *ʁarʁa-li-če-w* is 'on the stone' (for a male referent). Mehweb Dargwa is different from all other varieties in that not only the essive but also one of the elative markers agrees in gender. For example, there are two options for elative formation for the place name Mehweb: *meħwe-la* and *meħwe-‹CM›-adal*. Of these, the latter takes the gender value of the nominative argument of the clause. The distribution of the two allomorphs is unclear (Michael Daniel, p.c.).
+As for directionality markers, gender agreement is most consistent in the languages of the Dargwa branch. In Dargwa, the differentiation between the lative and the essive is made solely by means of gender agreement. For example, *ʁarʁa-li-če* is 'onto the stone' while *ʁarʁa-li-če-w* is 'on the stone' (for a male referent). Mehweb Dargwa is different from all other varieties in that not only the essive but also one of the elative markers agrees in gender. For example, there are two options for elative formation for the place name Mehweb: *meħwe-la* and *meħwe-<CM>-adal*. Of these, the latter takes the gender value of the nominative argument of the clause. The distribution of the two allomorphs is unclear (Michael Daniel, p.c.).
 
 Agreeing *Translative* is reported by Mikailov [-@mikailov1959] for Rugudzha Avar:
 
@@ -113,7 +113,7 @@ gloss_example(transliteration = "roxo-sːa-**w-am** w-eh-ana da-w",
               free_translation = "He came through the forest.")
 ```
 
-Magomedbekova [-@magomedbekova1971] reports agreeing elatives for Tukita: *-‹CM›-a* as in (@ten)-(@eleven) and *-gi-‹CM›-a* as in (@twelve)-(@thirteen) (transcription and glosses are mine; the source describes the latter marker as the translative in the process of unification with the elative, which is also reflected in its elative uses in (@eleven)).
+Magomedbekova [-@magomedbekova1971] reports agreeing elatives for Tukita: *-<CM>-a* as in (@ten)-(@eleven) and *-gi-<CM>-a* as in (@twelve)-(@thirteen) (transcription and glosses are mine; the source describes the latter marker as the translative in the process of unification with the elative, which is also reflected in its elative uses in (@eleven)).
 
 (@ten) Tukita [@magomedbekova1971: 80]
 ```{r}
@@ -131,21 +131,21 @@ gloss_example(transliteration = "jaxi-ɬːi-č'u-**r-a** r-ih-i ha-r-e šːata-d
 
 (@twelve) Tukita [@magomedbekova1971: 80]
 ```{r}
-gloss_example(transliteration = "ʕanči-la-**gi‹b›a** ɬabɬabili-b-aχ m-uʔ-a šːakiba",
-              glosses = "stone-SUP-**EL‹N›** fly-N-CVB N-go-AOR	bird",
+gloss_example(transliteration = "ʕanči-la-**gi<b>a** ɬabɬabili-b-aχ m-uʔ-a šːakiba",
+              glosses = "stone-SUP-**EL<N>** fly-N-CVB N-go-AOR	bird",
               free_translation = "The bird flew off the rock.")
 ```
 
 (@thirteen) Tukita [@magomedbekova1971: 80]
 ```{r}
-gloss_example(transliteration = "ʕanči-la-**gi‹j›a** t'al-eχ j-ĩʔ-a jaxi",
-              glosses = "stone-SUP-**EL‹F›** fall-CVB	F-go-AOR girl",
+gloss_example(transliteration = "ʕanči-la-**gi<j>a** t'al-eχ j-ĩʔ-a jaxi",
+              glosses = "stone-SUP-**EL<F>** fall-CVB	F-go-AOR girl",
               free_translation = "The girl fell off the rock.")
 ```
 
 #### Gender agreement in the third slot of trimorphemic spatial forms
 
-A few languages of the East Caucasian family combine not two but three grammatical categories in their expression of spatial forms (see the chapter on [Number of morphological slots in spatial forms](http://lingconlab.ru/dagatlas/054_number_of_morphological_slots_in_spatial_forms.html)). To the localization and orientation categories a third category is added as a separate inflectional morpheme. In Lak, this third morphological slot is filled by the *approximative* marker *-‹CM›-aj*. When added after the directionality marker, it indicates that the Figure moves towards the Ground without reaching it, or that the Figure moves from the area adjacent to the Ground and not from the Ground itself. In (@fourteen), the first spatial argument is marked for orientation with *-maj*, which is analyzed by Zhirkov [-@zhirkov1955] as a plural of gender III *-b* assimilated to the preceding *-n* [@zhirkov1955: 39]. The second spatial argument features the orientation marker *-naj*, where *-n* originates from assimilation of gender IV marker *-d*.
+A few languages of the East Caucasian family combine not two but three grammatical categories in their expression of spatial forms (see the chapter on [Number of morphological slots in spatial forms](http://lingconlab.ru/dagatlas/054_number_of_morphological_slots_in_spatial_forms.html)). To the localization and orientation categories a third category is added as a separate inflectional morpheme. In Lak, this third morphological slot is filled by the *approximative* marker *-<CM>-aj*. When added after the directionality marker, it indicates that the Figure moves towards the Ground without reaching it, or that the Figure moves from the area adjacent to the Ground and not from the Ground itself. In (@fourteen), the first spatial argument is marked for orientation with *-maj*, which is analyzed by Zhirkov [-@zhirkov1955] as a plural of gender III *-b* assimilated to the preceding *-n* [@zhirkov1955: 39]. The second spatial argument features the orientation marker *-naj*, where *-n* originates from assimilation of gender IV marker *-d*.
 
 (@fourteen) Lak [@kazenin2013: 61]
 ```{r results='asis'}
@@ -202,7 +202,7 @@ gloss_example(transliteration = "wexasːi-**b-e** boc'ːi b-ehri",
               free_translation = "A shepherd got cattle.")
 ```
 
-Abdullaev [-@abdullaev1954: 105] reports the agreeing *instrumental* case *-či-‹CM›-li* for Standard Dargwa, but he provides no examples.
+Abdullaev [-@abdullaev1954: 105] reports the agreeing *instrumental* case *-či-<CM>-li* for Standard Dargwa, but he provides no examples.
 
 The only idioms which demonstrate gender agreement in both spatial and core subparadigms are Antsrosunkhada Avar (the localization IN and the dative), Tukita Karata (the elative, the genitive and the affective), and Standard Dargwa (the essive and the instrumental).
 

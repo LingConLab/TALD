@@ -189,7 +189,7 @@ gloss_example("**lusa-hogi** papik-s lav šinarar er",
 (@twenty-one) Kryz (Abdurrahman Elikli, p.c.)
 ```{r, results='asis'}
 gloss_example("za babay, **ug** **sir-aʕ-an** **nur** **kina** **işi**, sa-r ghala ustayəni",
-              "{I}.GEN grandfather **SELF.M(GEN)** **tomb-IN-LAT** **light** **spread** **be.OPT** one-M good master.COP.M.PST",
+              "{I}.GEN grandfather **self.M(GEN)** **tomb-IN-LAT** **light** **spread** **be.OPT** one-M good master.COP.M.PST",
               "My grandfather, may the light spread on his tomb, was a good builder.")
 ```
 

@@ -32,7 +32,7 @@ In Lezgic languages numerals usually attach a class marker which agrees with the
 (@rutul_three_sisters) Kina Rutul [@mukhin2020: 2]
 ```{r, echo=FALSE}
 gloss_example(transliteration = "xibɨ-**r** riši",
-              glosses = "three-**2** sister(2)",
+              glosses = "three-**II** sister.II",
               free_translation = "three sisters"
 )
 ```
@@ -41,16 +41,16 @@ In Lak and Archi numeral markers coincide with emphatic particles, which have a 
 
 (@) Archi [@mikailov1967: 75]
 ```{r, echo=FALSE}
-gloss_example(transliteration = "wic’-**i‹t’›u**",
-              glosses = "ten-**NUM‹N2.SG›**",
+gloss_example(transliteration = "wic’-**i<t’>u**",
+              glosses = "ten-**NUM<IV.SG>**",
               free_translation = "10"
 )
 ```
 
 (@) Archi [@chumakina2021: 456]
 ```{r, echo=FALSE}
-gloss_example(transliteration = "jamu-tː=**ij‹t’›u** ekutːut nokɬ’=u",
-              glosses = "this-N2.SG=**‹N2.SG›EMPH** fall.PFV.ATTR.IV.SG house=and",
+gloss_example(transliteration = "jamu-tː=**ij<t’>u** ekutːut nokɬ’=u",
+              glosses = "this-IV.SG=**<IV.SG>EMPH** fall.PFV.ATTR.IV.SG house=and",
               free_translation = "the same wrecked (falling apart) house",
               line_length = 100
 )

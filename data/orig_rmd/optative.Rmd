@@ -137,7 +137,7 @@ gloss_example("ʕuˁ allah-li w=at",
 (@seven) Dargwa: Tanty [@sumbatovalander2014: 132]
 ```{r}
 gloss_example("ʕuˁxːa allah-li d=at-are/-ar.te",
-              "you.PL Allah-ERG 1/2PL=leave-PL/-PL",
+              "you.PL Allah-ERG 1.2PL=leave-PL/-PL",
               "May Allah leave you (PL)!")
 ```
 
@@ -215,7 +215,7 @@ The distribution of negative optative patterns ([Map 4](http://lingconlab.ru/dag
 ## List of glosses {-}
 
 ```{r}
-make_gloss_list(readxl::read_xlsx("../glosses.xlsx"), remove_glosses = "12PL")
+make_gloss_list(readxl::read_xlsx("../glosses.xlsx"))
 ```
 
 ## References {-}

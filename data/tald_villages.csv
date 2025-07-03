@@ -18,8 +18,8 @@ id	village	rus_village	lat	lon	lang	aff	family	standard	default_level	dialect_to
 17	Burkikhan	Буркихан	41.806356	47.538467	Agul	Lezgic	East Caucasian		Agul									Burkikhan	aghu1253	#00cc66	#00cc66	2025-03-20
 18	Tsirkhe	Цирхе	41.91513	47.59679	Agul	Lezgic	East Caucasian		Agul									Tsirkhe	aghu1253	#00cc66	#00cc66	2025-03-20
 19	Standard Agul		41.92418	47.58429	Agul	Lezgic	East Caucasian	Standard Agul	Agul										aghu1253	#00cc66	#00cc66	2025-03-20
-1676	Amuzgi	Амузги	42.067988	47.597592	Southwestern Dargwa	Dargwa	East Caucasian		Amuzgi-Shiri	Amuzgi	амузгинское							Amuzgi	sout3261	#ffe5b0	#ff9900	2025-03-20
-1677	Shari	Шари	42.061059	47.587936	Southwestern Dargwa	Dargwa	East Caucasian		Amuzgi-Shiri	Shiri	ширинское							Shari	sout3261	#ffe5b0	#ff9900	2025-03-20
+1676	Amuzgi	Амузги	42.067988	47.597592	Southwestern Dargwa	Dargwa	East Caucasian		Amuzgi-Shiri	Amuzgi	амузгинское							Amuzgi	sout3261	#CDC673	#ff9900	2025-03-20
+1677	Shari	Шари	42.061059	47.587936	Southwestern Dargwa	Dargwa	East Caucasian		Amuzgi-Shiri	Shiri	ширинское							Shari	sout3261	#CDC673	#ff9900	2025-03-20
 34	Alchunib	Алчуниб	42.05196	46.86943	Archi	Lezgic	East Caucasian		Archi									Alchunib	arch1244	#99cc00	#00cc66	2025-03-20
 35	Archib	Арчиб	42.0664	46.8678	Archi	Lezgic	East Caucasian		Archi									Archib	arch1244	#99cc00	#00cc66	2025-03-20
 36	Kalib	Калиб	42.07054	46.86002	Archi	Lezgic	East Caucasian		Archi									Kalib	arch1244	#99cc00	#00cc66	2025-03-20
@@ -1047,8 +1047,8 @@ id	village	rus_village	lat	lon	lang	aff	family	standard	default_level	dialect_to
 1056	Beledi	Беледи	42.66722	46.05361	Godoberi	Avar-Andic	East Caucasian		Godoberi	Beledi-Zibirkhali	Беледи-зибирхалинский							Beledi	ghod1238	#003399	#9900ff	2025-03-20
 1057	Zibirkhali	Зибирхали	42.66833	46.07194	Godoberi	Avar-Andic	East Caucasian		Godoberi	Beledi-Zibirkhali	Беледи-зибирхалинский							Zibirkhali	ghod1238	#003399	#9900ff	2025-03-20
 1058	Godoberi	Годобери	42.6258	46.1189	Godoberi	Avar-Andic	East Caucasian		Godoberi	Godoberi								Godoberi	ghod1238	#003399	#9900ff	2025-03-20
-1442	Gapshima	Гапшима	42.2122	47.3261	North-Central Dargwa	Dargwa	East Caucasian		Hapshima	Hapshima	гапшиминское	Hapshima	гапшиминский					Gapshima	darg1241	#ffa130	#ff9900	2025-03-20
-1443	Shukty	Шукты	42.22488	47.30349	North-Central Dargwa	Dargwa	East Caucasian		Hapshima	Hapshima	гапшиминское	Shuqta	шуктинский					Shukty	darg1241	#ffa130	#ff9900	2025-03-20
+1442	Gapshima	Гапшима	42.2122	47.3261	North-Central Dargwa	Dargwa	East Caucasian		Hapshima	Hapshima	гапшиминское	Hapshima	гапшиминский					Gapshima	darg1241	#FF8C00	#ff9900	2025-03-20
+1443	Shukty	Шукты	42.22488	47.30349	North-Central Dargwa	Dargwa	East Caucasian		Hapshima	Hapshima	гапшиминское	Shuqta	шуктинский					Shukty	darg1241	#FF8C00	#ff9900	2025-03-20
 1059	Genukh	Генух	42.1764	45.98646	Hinuq	Tsezic	East Caucasian		Hinuq									Genukh	hinu1240	#cc0000	#ff5050	2025-03-20
 1060	Garbutl'	Гарбутль	42.153227	46.219098	Hunzib	Tsezic	East Caucasian		Hunzib									Garbutl'	hunz1247	#ff0066	#ff5050	2025-03-20
 1061	Gunzib	Гунзиб	42.137257	46.264448	Hunzib	Tsezic	East Caucasian		Hunzib									Gunzib	hunz1247	#ff0066	#ff5050	2025-03-20
@@ -1104,43 +1104,43 @@ id	village	rus_village	lat	lon	lang	aff	family	standard	default_level	dialect_to
 1828	Gombori	Гомбори	41.8582	45.207	Tat	Iranian	Indo-European		Juhuri									Gombori	jude1256	#d5daff	#fffded	2025-03-20
 1829	Derbent	Дербент	42.06917	48.29583	Tat	Iranian	Indo-European		Juhuri									Derbent	jude1256	#d5daff	#fffded	2025-03-20
 1830	Aşağı Atuc		41.4467	48.5702	Tat	Iranian	Indo-European		Juhuri									Aşağı Atuc	jude1256	#d5daff	#fffded	2025-03-20
-1111	Barshamay	Баршамай	42.11176	47.85143	Kajtak	Dargwa	East Caucasian		Kajtag	Barshamay	баршамайский							Barshamay	kajt1238	#ff9900	#ff9900	2025-03-20
-1112	Gaziya	Газия	42.085935	47.817633	Kajtak	Dargwa	East Caucasian		Kajtag	Barshamay	баршамайский							Gaziya	kajt1238	#ff9900	#ff9900	2025-03-20
-1113	Dzhibakhni	Джибахни	42.06051	47.90847	Kajtak	Dargwa	East Caucasian		Kajtag	Chiwhan	джибахнинский							Dzhibakhni	kajt1238	#ff9900	#ff9900	2025-03-20
-1114	Mashaty	Машаты	42.05398	47.88286	Kajtak	Dargwa	East Caucasian		Kajtag	Chiwhan	джибахнинский							Mashaty	kajt1238	#ff9900	#ff9900	2025-03-20
-1115	Karatsan	Карацан	42.0886	47.8683	Kajtak	Dargwa	East Caucasian		Kajtag	Gharcan	карацанский							Karatsan	kajt1238	#ff9900	#ff9900	2025-03-20
-1116	Kartalay	Карталай	42.08709	47.85834	Kajtak	Dargwa	East Caucasian		Kajtag	Gharcan	карацанский							Kartalay	kajt1238	#ff9900	#ff9900	2025-03-20
-1117	Kulegu	Кулегу	42.07003	47.88401	Kajtak	Dargwa	East Caucasian		Kajtag	Gharcan	карацанский							Kulegu	kajt1238	#ff9900	#ff9900	2025-03-20
-1118	Khadagi	Хадаги	42.08067	47.89726	Kajtak	Dargwa	East Caucasian		Kajtag	Gharcan	карацанский							Khadagi	kajt1238	#ff9900	#ff9900	2025-03-20
-1119	Adaga	Адага	42.00972	47.71357	Kajtak	Dargwa	East Caucasian		Kajtag	Irchamal	ирчамульский							Adaga	kajt1238	#ff9900	#ff9900	2025-03-20
-1120	Bazhluk	Бажлук	42.040295	47.808314	Kajtak	Dargwa	East Caucasian		Kajtag	Irchamal	ирчамульский							Bazhluk	kajt1238	#ff9900	#ff9900	2025-03-20
-1121	Varsit	Варсит	41.992062	47.82111	Kajtak	Dargwa	East Caucasian		Kajtag	Irchamal	ирчамульский							Varsit	kajt1238	#ff9900	#ff9900	2025-03-20
-1122	Dzhavgat	Джавгат	42.0506	47.9375	Kajtak	Dargwa	East Caucasian		Kajtag	Irchamal	ирчамульский							Dzhavgat	kajt1238	#ff9900	#ff9900	2025-03-20
-1123	Dzhinabi	Джинаби	42.070864	47.860318	Kajtak	Dargwa	East Caucasian		Kajtag	Irchamal	ирчамульский							Dzhinabi	kajt1238	#ff9900	#ff9900	2025-03-20
-1124	Kirki	Кирки	41.96917	47.81333	Kajtak	Dargwa	East Caucasian		Kajtag	Irchamal	ирчамульский							Kirki	kajt1238	#ff9900	#ff9900	2025-03-20
-1125	Kirtsik	Кирцик	42.00129	47.84068	Kajtak	Dargwa	East Caucasian		Kajtag	Irchamal	ирчамульский							Kirtsik	kajt1238	#ff9900	#ff9900	2025-03-20
-1126	Novaya Barsha	Новая Барша	42.181717	47.834097	Kajtak	Dargwa	East Caucasian		Kajtag	Irchamal	ирчамульский							Novaya Barsha	kajt1238	#ff9900	#ff9900	2025-03-20
-1127	Pilyaki	Пиляки	42.005372	47.855486	Kajtak	Dargwa	East Caucasian		Kajtag	Irchamal	ирчамульский							Pilyaki	kajt1238	#ff9900	#ff9900	2025-03-20
-1128	Ruka	Рука	42.04751	47.92312	Kajtak	Dargwa	East Caucasian		Kajtag	Irchamal	ирчамульский							Ruka	kajt1238	#ff9900	#ff9900	2025-03-20
-1129	Surkhavkent	Сурхавкент	41.983999	47.827576	Kajtak	Dargwa	East Caucasian		Kajtag	Irchamal	ирчамульский							Surkhavkent	kajt1238	#ff9900	#ff9900	2025-03-20
-1130	Turaga	Турага	41.96152	47.80188	Kajtak	Dargwa	East Caucasian		Kajtag	Irchamal	ирчамульский							Turaga	kajt1238	#ff9900	#ff9900	2025-03-20
-1131	Shilansha	Шиланша	41.97502	47.78696	Kajtak	Dargwa	East Caucasian		Kajtag	Irchamal	ирчамульский							Shilansha	kajt1238	#ff9900	#ff9900	2025-03-20
-1132	Shuragat	Шурагат	41.99186	47.83994	Kajtak	Dargwa	East Caucasian		Kajtag	Irchamal	ирчамульский							Shuragat	kajt1238	#ff9900	#ff9900	2025-03-20
-1133	Madzhalis	Маджалис	42.1217	47.8333	Kajtak	Dargwa	East Caucasian		Kajtag	mixed	mixed							Madzhalis	kajt1238	#ff9900	#ff9900	2025-03-20
-1134	Rodnikovyy	Родниковый	42.1505062	47.9490136	Kajtak	Dargwa	East Caucasian		Kajtag	mixed	mixed							Rodnikovyy	kajt1238	#ff9900	#ff9900	2025-03-20
-1135	Dzhigiya	Джигия	42.06139	47.79597	Kajtak	Dargwa	East Caucasian		Kajtag	Qattagan	каттаганский							Dzhigiya	kajt1238	#ff9900	#ff9900	2025-03-20
-1136	Duregi	Дуреги	42.03585	47.76541	Kajtak	Dargwa	East Caucasian		Kajtag	Qattagan	каттаганский							Duregi	kajt1238	#ff9900	#ff9900	2025-03-20
-1137	Kulidzha	Кулиджа	42.054682	47.772754	Kajtak	Dargwa	East Caucasian		Kajtag	Qattagan	каттаганский							Kulidzha	kajt1238	#ff9900	#ff9900	2025-03-20
-1138	Mizhigli	Мижигли	42.0697	47.79989	Kajtak	Dargwa	East Caucasian		Kajtag	Qattagan	каттаганский							Mizhigli	kajt1238	#ff9900	#ff9900	2025-03-20
-1139	Khungiya	Хунгия	42.09321	47.80518	Kajtak	Dargwa	East Caucasian		Kajtag	Qattagan	каттаганский							Khungiya	kajt1238	#ff9900	#ff9900	2025-03-20
-1140	Shilyagi	Шиляги	42.0486	47.7903	Kajtak	Dargwa	East Caucasian		Kajtag	Qattagan	каттаганский							Shilyagi	kajt1238	#ff9900	#ff9900	2025-03-20
-1141	Akhmedkent	Ахмедкент	42.12036	47.81047	Kajtak	Dargwa	East Caucasian		Kajtag	Sanchi-Ahmadlashi	санчи-ахмедкентский							Akhmedkent	kajt1238	#ff9900	#ff9900	2025-03-20
-1142	Sanchi	Санчи	42.13244	47.82243	Kajtak	Dargwa	East Caucasian		Kajtag	Sanchi-Ahmadlashi	санчи-ахмедкентский							Sanchi	kajt1238	#ff9900	#ff9900	2025-03-20
-1143	Guldy	Гульды	42.07113	47.68936	Kajtak	Dargwa	East Caucasian		Kajtag	Shurkkant	шуркантский							Guldy	kajt1238	#ff9900	#ff9900	2025-03-20
-1144	Daknisa	Дакниса	42.08758	47.72711	Kajtak	Dargwa	East Caucasian		Kajtag	Shurkkant	шуркантский							Daknisa	kajt1238	#ff9900	#ff9900	2025-03-20
-1145	Dzhirabachi	Джирабачи	42.09091	47.73513	Kajtak	Dargwa	East Caucasian		Kajtag	Shurkkant	шуркантский							Dzhirabachi	kajt1238	#ff9900	#ff9900	2025-03-20
-1146	Lishcha	Лища	42.072834	47.740462	Kajtak	Dargwa	East Caucasian		Kajtag	Shurkkant	шуркантский							Lishcha	kajt1238	#ff9900	#ff9900	2025-03-20
-1147	Surgiya	Сургия	42.077112	47.717301	Kajtak	Dargwa	East Caucasian		Kajtag	Shurkkant	шуркантский							Surgiya	kajt1238	#ff9900	#ff9900	2025-03-20
+1111	Barshamay	Баршамай	42.11176	47.85143	Kajtak	Dargwa	East Caucasian		Kajtag	Barshamay	баршамайский							Barshamay	kajt1238	#CDAD00	#ff9900	2025-03-20
+1112	Gaziya	Газия	42.085935	47.817633	Kajtak	Dargwa	East Caucasian		Kajtag	Barshamay	баршамайский							Gaziya	kajt1238	#CDAD00	#ff9900	2025-03-20
+1113	Dzhibakhni	Джибахни	42.06051	47.90847	Kajtak	Dargwa	East Caucasian		Kajtag	Chiwhan	джибахнинский							Dzhibakhni	kajt1238	#CDAD00	#ff9900	2025-03-20
+1114	Mashaty	Машаты	42.05398	47.88286	Kajtak	Dargwa	East Caucasian		Kajtag	Chiwhan	джибахнинский							Mashaty	kajt1238	#CDAD00	#ff9900	2025-03-20
+1115	Karatsan	Карацан	42.0886	47.8683	Kajtak	Dargwa	East Caucasian		Kajtag	Gharcan	карацанский							Karatsan	kajt1238	#CDAD00	#ff9900	2025-03-20
+1116	Kartalay	Карталай	42.08709	47.85834	Kajtak	Dargwa	East Caucasian		Kajtag	Gharcan	карацанский							Kartalay	kajt1238	#CDAD00	#ff9900	2025-03-20
+1117	Kulegu	Кулегу	42.07003	47.88401	Kajtak	Dargwa	East Caucasian		Kajtag	Gharcan	карацанский							Kulegu	kajt1238	#CDAD00	#ff9900	2025-03-20
+1118	Khadagi	Хадаги	42.08067	47.89726	Kajtak	Dargwa	East Caucasian		Kajtag	Gharcan	карацанский							Khadagi	kajt1238	#CDAD00	#ff9900	2025-03-20
+1119	Adaga	Адага	42.00972	47.71357	Kajtak	Dargwa	East Caucasian		Kajtag	Irchamal	ирчамульский							Adaga	kajt1238	#CDAD00	#ff9900	2025-03-20
+1120	Bazhluk	Бажлук	42.040295	47.808314	Kajtak	Dargwa	East Caucasian		Kajtag	Irchamal	ирчамульский							Bazhluk	kajt1238	#CDAD00	#ff9900	2025-03-20
+1121	Varsit	Варсит	41.992062	47.82111	Kajtak	Dargwa	East Caucasian		Kajtag	Irchamal	ирчамульский							Varsit	kajt1238	#CDAD00	#ff9900	2025-03-20
+1122	Dzhavgat	Джавгат	42.0506	47.9375	Kajtak	Dargwa	East Caucasian		Kajtag	Irchamal	ирчамульский							Dzhavgat	kajt1238	#CDAD00	#ff9900	2025-03-20
+1123	Dzhinabi	Джинаби	42.070864	47.860318	Kajtak	Dargwa	East Caucasian		Kajtag	Irchamal	ирчамульский							Dzhinabi	kajt1238	#CDAD00	#ff9900	2025-03-20
+1124	Kirki	Кирки	41.96917	47.81333	Kajtak	Dargwa	East Caucasian		Kajtag	Irchamal	ирчамульский							Kirki	kajt1238	#CDAD00	#ff9900	2025-03-20
+1125	Kirtsik	Кирцик	42.00129	47.84068	Kajtak	Dargwa	East Caucasian		Kajtag	Irchamal	ирчамульский							Kirtsik	kajt1238	#CDAD00	#ff9900	2025-03-20
+1126	Novaya Barsha	Новая Барша	42.181717	47.834097	Kajtak	Dargwa	East Caucasian		Kajtag	Irchamal	ирчамульский							Novaya Barsha	kajt1238	#CDAD00	#ff9900	2025-03-20
+1127	Pilyaki	Пиляки	42.005372	47.855486	Kajtak	Dargwa	East Caucasian		Kajtag	Irchamal	ирчамульский							Pilyaki	kajt1238	#CDAD00	#ff9900	2025-03-20
+1128	Ruka	Рука	42.04751	47.92312	Kajtak	Dargwa	East Caucasian		Kajtag	Irchamal	ирчамульский							Ruka	kajt1238	#CDAD00	#ff9900	2025-03-20
+1129	Surkhavkent	Сурхавкент	41.983999	47.827576	Kajtak	Dargwa	East Caucasian		Kajtag	Irchamal	ирчамульский							Surkhavkent	kajt1238	#CDAD00	#ff9900	2025-03-20
+1130	Turaga	Турага	41.96152	47.80188	Kajtak	Dargwa	East Caucasian		Kajtag	Irchamal	ирчамульский							Turaga	kajt1238	#CDAD00	#ff9900	2025-03-20
+1131	Shilansha	Шиланша	41.97502	47.78696	Kajtak	Dargwa	East Caucasian		Kajtag	Irchamal	ирчамульский							Shilansha	kajt1238	#CDAD00	#ff9900	2025-03-20
+1132	Shuragat	Шурагат	41.99186	47.83994	Kajtak	Dargwa	East Caucasian		Kajtag	Irchamal	ирчамульский							Shuragat	kajt1238	#CDAD00	#ff9900	2025-03-20
+1133	Madzhalis	Маджалис	42.1217	47.8333	Kajtak	Dargwa	East Caucasian		Kajtag	mixed	mixed							Madzhalis	kajt1238	#CDAD00	#ff9900	2025-03-20
+1134	Rodnikovyy	Родниковый	42.1505062	47.9490136	Kajtak	Dargwa	East Caucasian		Kajtag	mixed	mixed							Rodnikovyy	kajt1238	#CDAD00	#ff9900	2025-03-20
+1135	Dzhigiya	Джигия	42.06139	47.79597	Kajtak	Dargwa	East Caucasian		Kajtag	Qattagan	каттаганский							Dzhigiya	kajt1238	#CDAD00	#ff9900	2025-03-20
+1136	Duregi	Дуреги	42.03585	47.76541	Kajtak	Dargwa	East Caucasian		Kajtag	Qattagan	каттаганский							Duregi	kajt1238	#CDAD00	#ff9900	2025-03-20
+1137	Kulidzha	Кулиджа	42.054682	47.772754	Kajtak	Dargwa	East Caucasian		Kajtag	Qattagan	каттаганский							Kulidzha	kajt1238	#CDAD00	#ff9900	2025-03-20
+1138	Mizhigli	Мижигли	42.0697	47.79989	Kajtak	Dargwa	East Caucasian		Kajtag	Qattagan	каттаганский							Mizhigli	kajt1238	#CDAD00	#ff9900	2025-03-20
+1139	Khungiya	Хунгия	42.09321	47.80518	Kajtak	Dargwa	East Caucasian		Kajtag	Qattagan	каттаганский							Khungiya	kajt1238	#CDAD00	#ff9900	2025-03-20
+1140	Shilyagi	Шиляги	42.0486	47.7903	Kajtak	Dargwa	East Caucasian		Kajtag	Qattagan	каттаганский							Shilyagi	kajt1238	#CDAD00	#ff9900	2025-03-20
+1141	Akhmedkent	Ахмедкент	42.12036	47.81047	Kajtak	Dargwa	East Caucasian		Kajtag	Sanchi-Ahmadlashi	санчи-ахмедкентский							Akhmedkent	kajt1238	#CDAD00	#ff9900	2025-03-20
+1142	Sanchi	Санчи	42.13244	47.82243	Kajtak	Dargwa	East Caucasian		Kajtag	Sanchi-Ahmadlashi	санчи-ахмедкентский							Sanchi	kajt1238	#CDAD00	#ff9900	2025-03-20
+1143	Guldy	Гульды	42.07113	47.68936	Kajtak	Dargwa	East Caucasian		Kajtag	Shurkkant	шуркантский							Guldy	kajt1238	#CDAD00	#ff9900	2025-03-20
+1144	Daknisa	Дакниса	42.08758	47.72711	Kajtak	Dargwa	East Caucasian		Kajtag	Shurkkant	шуркантский							Daknisa	kajt1238	#CDAD00	#ff9900	2025-03-20
+1145	Dzhirabachi	Джирабачи	42.09091	47.73513	Kajtak	Dargwa	East Caucasian		Kajtag	Shurkkant	шуркантский							Dzhirabachi	kajt1238	#CDAD00	#ff9900	2025-03-20
+1146	Lishcha	Лища	42.072834	47.740462	Kajtak	Dargwa	East Caucasian		Kajtag	Shurkkant	шуркантский							Lishcha	kajt1238	#CDAD00	#ff9900	2025-03-20
+1147	Surgiya	Сургия	42.077112	47.717301	Kajtak	Dargwa	East Caucasian		Kajtag	Shurkkant	шуркантский							Surgiya	kajt1238	#CDAD00	#ff9900	2025-03-20
 1152	Anchik	Анчик	42.608098	46.271717	Karata-Tukita	Avar-Andic	East Caucasian		Karata	Anchiq	Анчихский							Anchik	kara1474	#666699	#9900ff	2025-03-20
 1153	Tsumali	Цумали	42.607619	46.260923	Karata-Tukita	Avar-Andic	East Caucasian		Karata	Anchiq	Анчихский							Tsumali	kara1474	#666699	#9900ff	2025-03-20
 1154	Mashtada	Маштада	42.61362	46.314659	Karata-Tukita	Avar-Andic	East Caucasian		Karata	Karata	Каратинский	Mashtada-Rachabulda	Маштада-рачабулдинский					Mashtada	kara1474	#666699	#9900ff	2025-03-20
@@ -1170,10 +1170,10 @@ id	village	rus_village	lat	lon	lang	aff	family	standard	default_level	dialect_to
 1179	Yergüc	Ергюдж	41.4244525427884	48.7435491719004	Kryz	Lezgic	East Caucasian		Kryz	Kryz Proper	Крызский							Yergüc	kryt1240	#009933	#00cc66	2025-03-20
 1180	Qrız	Крыз	41.21556	48.24667	Kryz	Lezgic	East Caucasian		Kryz	Kryz Proper	Крызский							Qrız	kryt1240	#009933	#00cc66	2025-03-20
 1181	Qrızdəhnə	Крыз-Дехне	41.234681	48.304612	Kryz	Lezgic	East Caucasian		Kryz	Kryz Proper	Крызский							Qrızdəhnə	kryt1240	#009933	#00cc66	2025-03-20
-1182	Ashty	Ашты	41.961098	47.502559	Kubachi	Dargwa	East Caucasian		Kubachi	Ashti	аштинское							Ashty	kuba1248	#ffe29f	#ff9900	2025-03-20
-1183	Dirbakmakhi	Дирбакмахи	41.914	47.4928	Kubachi	Dargwa	East Caucasian		Kubachi	Ashti	аштинское							Dirbakmakhi	kuba1248	#ffe29f	#ff9900	2025-03-20
-1184	Kubachi	Кубачи	42.085904	47.602944	Kubachi	Dargwa	East Caucasian		Kubachi	Kubachi	кубачинское							Kubachi	kuba1248	#ffe29f	#ff9900	2025-03-20
-1185	Sulevkent	Сулевкент	43.4700924	46.7545728	Kubachi	Dargwa	East Caucasian		Kubachi	Sulevkent	сулевкентское							Sulevkent	kuba1248	#ffe29f	#ff9900	2025-03-20
+1182	Ashty	Ашты	41.961098	47.502559	Kubachi	Dargwa	East Caucasian		Kubachi	Ashti	аштинское							Ashty	kuba1248	#8B864E	#ff9900	2025-03-20
+1183	Dirbakmakhi	Дирбакмахи	41.914	47.4928	Kubachi	Dargwa	East Caucasian		Kubachi	Ashti	аштинское							Dirbakmakhi	kuba1248	#8B864E	#ff9900	2025-03-20
+1184	Kubachi	Кубачи	42.085904	47.602944	Kubachi	Dargwa	East Caucasian		Kubachi	Kubachi	кубачинское							Kubachi	kuba1248	#8B864E	#ff9900	2025-03-20
+1185	Sulevkent	Сулевкент	43.4700924	46.7545728	Kubachi	Dargwa	East Caucasian		Kubachi	Sulevkent	сулевкентское							Sulevkent	kuba1248	#8B864E	#ff9900	2025-03-20
 1186	Buglen	Буглен	42.7553	47.1989	Kumyk	Kipchak	Turkic		Kumyk	Buynaksk	Буйнакский							Buglen	kumy1244	#a6a6a6	#666666	2025-03-20
 1187	Verkhnee Kazanische	Верхнее Казанище	42.7306	47.1381	Kumyk	Kipchak	Turkic		Kumyk	Buynaksk	Буйнакский							Verkhnee Kazanische	kumy1244	#a6a6a6	#666666	2025-03-20
 1188	Gelli	Гелли	42.7267	47.4014	Kumyk	Kipchak	Turkic		Kumyk	Buynaksk	Буйнакский							Gelli	kumy1244	#a6a6a6	#666666	2025-03-20
@@ -1427,43 +1427,43 @@ id	village	rus_village	lat	lon	lang	aff	family	standard	default_level	dialect_to
 1436	Standard Lezgian		41.51572	47.89507	Lezgian	Lezgic	East Caucasian	Standard Lezgian	Lezgian										lezg1247	#00cc00	#00cc66	2025-03-20
 20	Kvankhidatli	Кванхидатли	42.65789	46.271742	Andi	Avar-Andic	East Caucasian		Lower Andi									Kvankhidatli	lowe1465	#003366	#9900ff	2025-03-20
 21	Muni	Муни	42.680242	46.308874	Andi	Avar-Andic	East Caucasian		Lower Andi									Muni	lowe1465	#003366	#9900ff	2025-03-20
-1444	Megeb	Мегеб	42.2528	47.0472	North-Central Dargwa	Dargwa	East Caucasian		Mehweb									Megeb	darg1241	#ffa133	#ff9900	2025-03-20
+1444	Megeb	Мегеб	42.2528	47.0472	North-Central Dargwa	Dargwa	East Caucasian		Mehweb									Megeb	darg1241	#FF7F24	#ff9900	2025-03-20
 1438	Dzhalgan	Джалган	42.02454	48.26224	Muslim Tat	Iranian	Indo-European		Mitahi-Jalqan									Dzhalgan	nort2697	#cccccc	#fffded	2025-03-20
 1439	Mitagi	Митаги	42.01736	48.19083	Muslim Tat	Iranian	Indo-European		Mitahi-Jalqan									Mitagi	nort2697	#cccccc	#fffded	2025-03-20
-1445	Gulli	Гулли	42.22977	47.76214	North-Central Dargwa	Dargwa	East Caucasian		Muira	Chumli-Hulli	чумли-гуллинский							Gulli	darg1241	#ff9d40	#ff9900	2025-03-20
-1446	Chumli	Чумли	42.20167	47.77306	North-Central Dargwa	Dargwa	East Caucasian		Muira	Chumli-Hulli	чумли-гуллинский							Chumli	darg1241	#ff9d40	#ff9900	2025-03-20
-1447	Deybuk	Дейбук	42.20532	47.51996	North-Central Dargwa	Dargwa	East Caucasian		Muira	Dibuk-Qarbuk	дейбук-харбукский							Deybuk	darg1241	#ff9d40	#ff9900	2025-03-20
-1448	Kulkam	Кулкам	42.4151196	47.9442194	North-Central Dargwa	Dargwa	East Caucasian		Muira	Dibuk-Qarbuk	дейбук-харбукский							Kulkam	darg1241	#ff9d40	#ff9900	2025-03-20
-1449	Sagasi-Deybuk	Сагаси-Дейбук	42.50982	47.84293	North-Central Dargwa	Dargwa	East Caucasian		Muira	Dibuk-Qarbuk	дейбук-харбукский							Sagasi-Deybuk	darg1241	#ff9d40	#ff9900	2025-03-20
-1450	Kharbuk	Харбук	42.158768	47.530832	North-Central Dargwa	Dargwa	East Caucasian		Muira	Dibuk-Qarbuk	дейбук-харбукский							Kharbuk	darg1241	#ff9d40	#ff9900	2025-03-20
-1451	Kishcha	Кища	42.17677	47.58117	North-Central Dargwa	Dargwa	East Caucasian		Muira	Kiisha	кишинский							Kishcha	darg1241	#ff9d40	#ff9900	2025-03-20
-1452	Meusisha	Меусиша	42.2000803	47.5960445	North-Central Dargwa	Dargwa	East Caucasian		Muira	Meusisha	меусишинский							Meusisha	darg1241	#ff9d40	#ff9900	2025-03-20
-1453	Mallakent	Маллакент	42.1733764	47.7950247	North-Central Dargwa	Dargwa	East Caucasian		Muira	mixed	mixed							Mallakent	darg1241	#ff9d40	#ff9900	2025-03-20
-1454	Buskri	Бускри	42.17359	47.66673	North-Central Dargwa	Dargwa	East Caucasian		Muira	Urkarakh	уркарахский							Buskri	darg1241	#ff9d40	#ff9900	2025-03-20
-1455	Vikri	Викри	42.20612	47.679702	North-Central Dargwa	Dargwa	East Caucasian		Muira	Urkarakh	уркарахский							Vikri	darg1241	#ff9d40	#ff9900	2025-03-20
-1456	Gunakari	Гунакари	42.17776	47.69262	North-Central Dargwa	Dargwa	East Caucasian		Muira	Urkarakh	уркарахский							Gunakari	darg1241	#ff9d40	#ff9900	2025-03-20
-1457	Dzhurmachi	Джурмачи	42.09049	47.69572	North-Central Dargwa	Dargwa	East Caucasian		Muira	Urkarakh	уркарахский							Dzhurmachi	darg1241	#ff9d40	#ff9900	2025-03-20
-1458	Dibgalik	Дибгалик	42.120363	47.652521	North-Central Dargwa	Dargwa	East Caucasian		Muira	Urkarakh	уркарахский							Dibgalik	darg1241	#ff9d40	#ff9900	2025-03-20
-1459	Dibgashi	Дибгаши	42.1617	47.6944	North-Central Dargwa	Dargwa	East Caucasian		Muira	Urkarakh	уркарахский							Dibgashi	darg1241	#ff9d40	#ff9900	2025-03-20
-1460	Zilbachi	Зильбачи	42.139973	47.717838	North-Central Dargwa	Dargwa	East Caucasian		Muira	Urkarakh	уркарахский							Zilbachi	darg1241	#ff9d40	#ff9900	2025-03-20
-1461	Zubanchi	Зубанчи	42.13309	47.70417	North-Central Dargwa	Dargwa	East Caucasian		Muira	Urkarakh	уркарахский							Zubanchi	darg1241	#ff9d40	#ff9900	2025-03-20
-1462	Iragi	Ираги	42.11889	47.75336	North-Central Dargwa	Dargwa	East Caucasian		Muira	Urkarakh	уркарахский							Iragi	darg1241	#ff9d40	#ff9900	2025-03-20
-1463	Iraki	Ираки	42.16405	47.71739	North-Central Dargwa	Dargwa	East Caucasian		Muira	Urkarakh	уркарахский							Iraki	darg1241	#ff9d40	#ff9900	2025-03-20
-1464	Irichi	Иричи	42.13548	47.79158	North-Central Dargwa	Dargwa	East Caucasian		Muira	Urkarakh	уркарахский							Irichi	darg1241	#ff9d40	#ff9900	2025-03-20
-1465	Kalkni	Калкни	42.17732	47.70499	North-Central Dargwa	Dargwa	East Caucasian		Muira	Urkarakh	уркарахский							Kalkni	darg1241	#ff9d40	#ff9900	2025-03-20
-1466	Kudagu	Кудагу	42.13322	47.73006	North-Central Dargwa	Dargwa	East Caucasian		Muira	Urkarakh	уркарахский							Kudagu	darg1241	#ff9d40	#ff9900	2025-03-20
-1467	Morskoe	Морское	42.1314542	47.5305984	North-Central Dargwa	Dargwa	East Caucasian		Muira	Urkarakh	уркарахский							Morskoe	darg1241	#ff9d40	#ff9900	2025-03-20
-1468	Novye Vikri	Новые Викри	42.30054	47.99382	North-Central Dargwa	Dargwa	East Caucasian		Muira	Urkarakh	уркарахский							Novye Vikri	darg1241	#ff9d40	#ff9900	2025-03-20
-1469	Novyy Urkarakh	Новый Уркарах	42.12465	48.218583	North-Central Dargwa	Dargwa	East Caucasian		Muira	Urkarakh	уркарахский							Novyy Urkarakh	darg1241	#ff9d40	#ff9900	2025-03-20
-1470	Surkhachi	Сурхачи	42.16143	47.74083	North-Central Dargwa	Dargwa	East Caucasian		Muira	Urkarakh	уркарахский							Surkhachi	darg1241	#ff9d40	#ff9900	2025-03-20
-1471	Trisanchi	Трисанчи	42.118091	47.70559	North-Central Dargwa	Dargwa	East Caucasian		Muira	Urkarakh	уркарахский							Trisanchi	darg1241	#ff9d40	#ff9900	2025-03-20
-1472	Urkarakh	Уркарах	42.1606	47.6339	North-Central Dargwa	Dargwa	East Caucasian		Muira	Urkarakh	уркарахский							Urkarakh	darg1241	#ff9d40	#ff9900	2025-03-20
-1473	Tsizgari	Цизгари	42.21963	47.64768	North-Central Dargwa	Dargwa	East Caucasian		Muira	Urkarakh	уркарахский							Tsizgari	darg1241	#ff9d40	#ff9900	2025-03-20
-1474	Tsurai	Цураи	42.23333	47.65819	North-Central Dargwa	Dargwa	East Caucasian		Muira	Urkarakh	уркарахский							Tsurai	darg1241	#ff9d40	#ff9900	2025-03-20
-1475	Chakhdikna	Чахдикна	42.14116	47.76044	North-Central Dargwa	Dargwa	East Caucasian		Muira	Urkarakh	уркарахский							Chakhdikna	darg1241	#ff9d40	#ff9900	2025-03-20
-1476	Chishili	Чишили	42.15228	47.66839	North-Central Dargwa	Dargwa	East Caucasian		Muira	Urkarakh	уркарахский							Chishili	darg1241	#ff9900	#ff9900	2025-03-20
-1478	Vikry	Викры	42.20556	47.67889	North-Central Dargwa	Dargwa	East Caucasian		Muira	Urkarakh	уркарахский							Vikry	darg1241	#ff9d40	#ff9900	2025-03-20
-1496	Shulerchi	Шулерчи	42.13744	47.56335	North-Central Dargwa	Dargwa	East Caucasian		Muira									Shulerchi	darg1241	#ff9d40	#ff9900	2025-03-20
+1445	Gulli	Гулли	42.22977	47.76214	North-Central Dargwa	Dargwa	East Caucasian		Muira	Chumli-Hulli	чумли-гуллинский							Gulli	darg1241	#FFA54F	#ff9900	2025-03-20
+1446	Chumli	Чумли	42.20167	47.77306	North-Central Dargwa	Dargwa	East Caucasian		Muira	Chumli-Hulli	чумли-гуллинский							Chumli	darg1241	#FFA54F	#ff9900	2025-03-20
+1447	Deybuk	Дейбук	42.20532	47.51996	North-Central Dargwa	Dargwa	East Caucasian		Muira	Dibuk-Qarbuk	дейбук-харбукский							Deybuk	darg1241	#FFA54F	#ff9900	2025-03-20
+1448	Kulkam	Кулкам	42.4151196	47.9442194	North-Central Dargwa	Dargwa	East Caucasian		Muira	Dibuk-Qarbuk	дейбук-харбукский							Kulkam	darg1241	#FFA54F	#ff9900	2025-03-20
+1449	Sagasi-Deybuk	Сагаси-Дейбук	42.50982	47.84293	North-Central Dargwa	Dargwa	East Caucasian		Muira	Dibuk-Qarbuk	дейбук-харбукский							Sagasi-Deybuk	darg1241	#FFA54F	#ff9900	2025-03-20
+1450	Kharbuk	Харбук	42.158768	47.530832	North-Central Dargwa	Dargwa	East Caucasian		Muira	Dibuk-Qarbuk	дейбук-харбукский							Kharbuk	darg1241	#FFA54F	#ff9900	2025-03-20
+1451	Kishcha	Кища	42.17677	47.58117	North-Central Dargwa	Dargwa	East Caucasian		Muira	Kiisha	кишинский							Kishcha	darg1241	#FFA54F	#ff9900	2025-03-20
+1452	Meusisha	Меусиша	42.2000803	47.5960445	North-Central Dargwa	Dargwa	East Caucasian		Muira	Meusisha	меусишинский							Meusisha	darg1241	#FFA54F	#ff9900	2025-03-20
+1453	Mallakent	Маллакент	42.1733764	47.7950247	North-Central Dargwa	Dargwa	East Caucasian		Muira	mixed	mixed							Mallakent	darg1241	#FFA54F	#ff9900	2025-03-20
+1454	Buskri	Бускри	42.17359	47.66673	North-Central Dargwa	Dargwa	East Caucasian		Muira	Urkarakh	уркарахский							Buskri	darg1241	#FFA54F	#ff9900	2025-03-20
+1455	Vikri	Викри	42.20612	47.679702	North-Central Dargwa	Dargwa	East Caucasian		Muira	Urkarakh	уркарахский							Vikri	darg1241	#FFA54F	#ff9900	2025-03-20
+1456	Gunakari	Гунакари	42.17776	47.69262	North-Central Dargwa	Dargwa	East Caucasian		Muira	Urkarakh	уркарахский							Gunakari	darg1241	#FFA54F	#ff9900	2025-03-20
+1457	Dzhurmachi	Джурмачи	42.09049	47.69572	North-Central Dargwa	Dargwa	East Caucasian		Muira	Urkarakh	уркарахский							Dzhurmachi	darg1241	#FFA54F	#ff9900	2025-03-20
+1458	Dibgalik	Дибгалик	42.120363	47.652521	North-Central Dargwa	Dargwa	East Caucasian		Muira	Urkarakh	уркарахский							Dibgalik	darg1241	#FFA54F	#ff9900	2025-03-20
+1459	Dibgashi	Дибгаши	42.1617	47.6944	North-Central Dargwa	Dargwa	East Caucasian		Muira	Urkarakh	уркарахский							Dibgashi	darg1241	#FFA54F	#ff9900	2025-03-20
+1460	Zilbachi	Зильбачи	42.139973	47.717838	North-Central Dargwa	Dargwa	East Caucasian		Muira	Urkarakh	уркарахский							Zilbachi	darg1241	#FFA54F	#ff9900	2025-03-20
+1461	Zubanchi	Зубанчи	42.13309	47.70417	North-Central Dargwa	Dargwa	East Caucasian		Muira	Urkarakh	уркарахский							Zubanchi	darg1241	#FFA54F	#ff9900	2025-03-20
+1462	Iragi	Ираги	42.11889	47.75336	North-Central Dargwa	Dargwa	East Caucasian		Muira	Urkarakh	уркарахский							Iragi	darg1241	#FFA54F	#ff9900	2025-03-20
+1463	Iraki	Ираки	42.16405	47.71739	North-Central Dargwa	Dargwa	East Caucasian		Muira	Urkarakh	уркарахский							Iraki	darg1241	#FFA54F	#ff9900	2025-03-20
+1464	Irichi	Иричи	42.13548	47.79158	North-Central Dargwa	Dargwa	East Caucasian		Muira	Urkarakh	уркарахский							Irichi	darg1241	#FFA54F	#ff9900	2025-03-20
+1465	Kalkni	Калкни	42.17732	47.70499	North-Central Dargwa	Dargwa	East Caucasian		Muira	Urkarakh	уркарахский							Kalkni	darg1241	#FFA54F	#ff9900	2025-03-20
+1466	Kudagu	Кудагу	42.13322	47.73006	North-Central Dargwa	Dargwa	East Caucasian		Muira	Urkarakh	уркарахский							Kudagu	darg1241	#FFA54F	#ff9900	2025-03-20
+1467	Morskoe	Морское	42.1314542	47.5305984	North-Central Dargwa	Dargwa	East Caucasian		Muira	Urkarakh	уркарахский							Morskoe	darg1241	#FFA54F	#ff9900	2025-03-20
+1468	Novye Vikri	Новые Викри	42.30054	47.99382	North-Central Dargwa	Dargwa	East Caucasian		Muira	Urkarakh	уркарахский							Novye Vikri	darg1241	#FFA54F	#ff9900	2025-03-20
+1469	Novyy Urkarakh	Новый Уркарах	42.12465	48.218583	North-Central Dargwa	Dargwa	East Caucasian		Muira	Urkarakh	уркарахский							Novyy Urkarakh	darg1241	#FFA54F	#ff9900	2025-03-20
+1470	Surkhachi	Сурхачи	42.16143	47.74083	North-Central Dargwa	Dargwa	East Caucasian		Muira	Urkarakh	уркарахский							Surkhachi	darg1241	#FFA54F	#ff9900	2025-03-20
+1471	Trisanchi	Трисанчи	42.118091	47.70559	North-Central Dargwa	Dargwa	East Caucasian		Muira	Urkarakh	уркарахский							Trisanchi	darg1241	#FFA54F	#ff9900	2025-03-20
+1472	Urkarakh	Уркарах	42.1606	47.6339	North-Central Dargwa	Dargwa	East Caucasian		Muira	Urkarakh	уркарахский							Urkarakh	darg1241	#FFA54F	#ff9900	2025-03-20
+1473	Tsizgari	Цизгари	42.21963	47.64768	North-Central Dargwa	Dargwa	East Caucasian		Muira	Urkarakh	уркарахский							Tsizgari	darg1241	#FFA54F	#ff9900	2025-03-20
+1474	Tsurai	Цураи	42.23333	47.65819	North-Central Dargwa	Dargwa	East Caucasian		Muira	Urkarakh	уркарахский							Tsurai	darg1241	#FFA54F	#ff9900	2025-03-20
+1475	Chakhdikna	Чахдикна	42.14116	47.76044	North-Central Dargwa	Dargwa	East Caucasian		Muira	Urkarakh	уркарахский							Chakhdikna	darg1241	#FFA54F	#ff9900	2025-03-20
+1476	Chishili	Чишили	42.15228	47.66839	North-Central Dargwa	Dargwa	East Caucasian		Muira	Urkarakh	уркарахский							Chishili	darg1241	#FFA54F	#ff9900	2025-03-20
+1478	Vikry	Викры	42.20556	47.67889	North-Central Dargwa	Dargwa	East Caucasian		Muira	Urkarakh	уркарахский							Vikry	darg1241	#FFA54F	#ff9900	2025-03-20
+1496	Shulerchi	Шулерчи	42.13744	47.56335	North-Central Dargwa	Dargwa	East Caucasian		Muira									Shulerchi	darg1241	#FFA54F	#ff9900	2025-03-20
 1440	Sary-su	Сары-су	43.839722	46.4325	Nogai	Kipchak	Turkic		Nogai									Sary-su	noga1249	#666666	#666666	2025-03-20
 1441	Standard Nogai		43.59168	46.66178	Nogai	Kipchak	Turkic	Standard Nogai	Nogai										noga1249	#666666	#666666	2025-03-20
 1646	Axaxdərə	Ахвах-дере	41.6624507	46.6360615	Northern Akhvakh	Avar-Andic	East Caucasian		Northern Akhvakh	Axaxdərə								Axaxdərə	akhv1239	#9900ff	#9900ff	2025-03-20
@@ -1473,132 +1473,132 @@ id	village	rus_village	lat	lon	lang	aff	family	standard	default_level	dialect_to
 1650	Lologonitl'	Лологонитль	42.51398	46.33093	Northern Akhvakh	Avar-Andic	East Caucasian		Northern Akhvakh									Lologonitl'	akhv1239	#9900ff	#9900ff	2025-03-20
 1651	Tad-Magitl'	Тад-магитль	42.550266	46.348953	Northern Akhvakh	Avar-Andic	East Caucasian		Northern Akhvakh									Tad-Magitl'	akhv1239	#9900ff	#9900ff	2025-03-20
 1652	Tsvakilkolo	Цвакилколо	42.55213	46.35351	Northern Akhvakh	Avar-Andic	East Caucasian		Northern Akhvakh									Tsvakilkolo	akhv1239	#9900ff	#9900ff	2025-03-20
-1477	Mugri	Мугри	42.26767	47.62872	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Mugri	Мугринский							Mugri	darg1241	#ff7400	#ff9900	2025-03-20
-1479	Sangimakhi	Сангимахи	42.33788	47.43307	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Murego-Gubden	Мюрего-губденский							Sangimakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1480	Adukmakhi	Адукмахи	42.39928	47.401891	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa									Adukmakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1481	Aymazimakhi	Аймазимахи	42.401788	47.525794	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa									Aymazimakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1482	Akhinets	Ахинец	42.412612	47.113872	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa									Akhinets	darg1241	#ff7400	#ff9900	2025-03-20
-1483	Ayamakhi	Аямахи	42.40528	47.5725	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa									Ayamakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1484	Verkhnie Kabkomakhi	Верхние Кабкомахи	42.34176	47.43688	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa									Verkhnie Kabkomakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1486	Druzhba	Дружба	42.2419	48.0042	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	mixed								Druzhba	darg1241	#ff7400	#ff9900	2025-03-20
-1487	Zhamsory	Жамсоры	42.382089	47.462508	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa									Zhamsory	darg1241	#ff7400	#ff9900	2025-03-20
-1488	Kapulagumi	Капулагуми	42.427995	47.476847	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa									Kapulagumi	darg1241	#ff7400	#ff9900	2025-03-20
-1489	Kardmakhi	Кардмахи	42.37842	47.46472	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa									Kardmakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1490	Kuknamakhi	Кукнамахи	42.359775	47.286853	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa									Kuknamakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1491	Kusamakhi	Кусамахи	42.36441	47.270869	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa									Kusamakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1492	Mekesh	Мекеш	42.337924	47.510751	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa									Mekesh	darg1241	#ff7400	#ff9900	2025-03-20
-1494	Tazirkent	Тазиркент	42.35863	47.3576	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa									Tazirkent	darg1241	#ff7400	#ff9900	2025-03-20
-1495	Urtsamakhi	Урцамахи	42.34854	47.276792	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa									Urtsamakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1497	Standard Dargwa		42.42568	47.43876	North-Central Dargwa	Dargwa	East Caucasian	Standard Dargwa	Northern Dargwa										darg1241	#ff7400	#ff9900	2025-03-20
-1498	Aynikabmakhi	Айникабмахи	42.26679	47.36264	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Aynikabmakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1499	Akusha	Акуша	42.275664	47.340107	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Akusha	darg1241	#ff7400	#ff9900	2025-03-20
-1500	Akhsakadamakhi	Ахсакадамахи	42.303416	47.381576	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Akhsakadamakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1501	Baykatmakhi	Байкатмахи	42.2706048	47.298005	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Baykatmakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1502	Bergeinzi	Бергеинзи	42.260462	47.352616	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Bergeinzi	darg1241	#ff7400	#ff9900	2025-03-20
-1503	Burgimakmakhi	Бургимакмахи	42.2910818	47.371591	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Burgimakmakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1504	Burgimakhi	Бургимахи	42.27489	47.28652	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Burgimakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1505	Verkhniy Kavkamakhi	Верхний Кавкамахи	42.305216	47.373311	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Verkhniy Kavkamakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1506	Gandaramakhi	Гандарамахи	42.261093	47.333465	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Gandaramakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1507	Gumramakhi	Гумрамахи	42.25101	47.35105	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Gumramakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1508	Gunnamakhi	Гуннамахи	42.04729	47.37328	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Gunnamakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1509	Dubrimakhi	Дубримахи	42.274418	47.285133	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Dubrimakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1510	Inzimakhi	Инзимахи	42.27238	47.35613	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Inzimakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1511	Kavkamakhi	Кавкамахи	42.322184	47.30588	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Kavkamakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1512	Kakmakhi	Какмахи	42.29169	47.38541	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Kakmakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1513	Kamkadamakhi	Камкадамахи	42.25625	47.307998	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Kamkadamakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1514	Karsha	Карша	42.26605	47.34372	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Karsha	darg1241	#ff7400	#ff9900	2025-03-20
-1515	Kassagumakhi	Кассагумахи	42.044941	47.371867	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Kassagumakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1516	Kertukmakhi	Кертукмахи	42.28799	47.34305	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Kertukmakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1517	Kurimakhi	Куримахи	42.304306	47.304694	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Kurimakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1518	Semgamakhi	Семгамахи	42.28438	47.35484	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Semgamakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1519	Uznimakhi	Узнимахи	42.30003	47.3858	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Uznimakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1520	Urgubamakhi	Ургубамахи	42.28968	47.31783	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Urgubamakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1521	Urkhuchimakhi	Урхучимахи	42.310271	47.260222	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Urkhuchimakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1522	Khazhnimakhi	Хажнимахи	42.254562	47.315856	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Khazhnimakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1523	Khenklakar	Хенклакар	42.257833	47.306649	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Khenklakar	darg1241	#ff7400	#ff9900	2025-03-20
-1524	Tserkhimakhi	Церхимахи	42.276694	47.336755	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Tserkhimakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1525	Tsundimakhi	Цундимахи	42.25164	47.31668	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Tsundimakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1526	Tsunimakhi	Цунимахи	42.29835	47.26194	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Tsunimakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1527	Chankalamakhi	Чанкаламахи	42.27788	47.365804	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Chankalamakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1528	Chinimakhi	Чинимахи	42.27565	47.37455	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Chinimakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1529	Shinkbalakada	Шинкбалакада	42.259644	47.299385	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Shinkbalakada	darg1241	#ff7400	#ff9900	2025-03-20
-1530	Shumkhrimakhi	Шумхримахи	42.291042	47.268562	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Shumkhrimakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1531	Yaraymakhi	Яраймахи	42.295511	47.359585	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Yaraymakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1532	Dzhangamakhi	Джангамахи	42.44335	47.38111	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Lewasha	левашинский					Dzhangamakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1533	Ditunshimakhi	Дитуншимахи	42.381665	47.289692	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Lewasha	левашинский					Ditunshimakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1534	Kakamakhi	Какамахи	42.39507	47.30644	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Lewasha	левашинский					Kakamakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1535	Karlabko	Карлабко	42.3542	47.3967	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Lewasha	левашинский					Karlabko	darg1241	#ff7400	#ff9900	2025-03-20
-1536	Levashi	Леваши	42.4325	47.3258	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Lewasha	левашинский					Levashi	darg1241	#ff7400	#ff9900	2025-03-20
-1537	Naskent	Наскент	42.38093	47.33624	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Lewasha	левашинский					Naskent	darg1241	#ff7400	#ff9900	2025-03-20
-1538	Nizhnee Labkomakhi	Нижнее Лабкомахи	42.35084	47.41873	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Lewasha	левашинский					Nizhnee Labkomakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1539	Suleybakent	Сулейбакент	42.35785	47.37355	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Lewasha	левашинский					Suleybakent	darg1241	#ff7400	#ff9900	2025-03-20
-1540	Susakent	Сусакент	42.36361	47.35248	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Lewasha	левашинский					Susakent	darg1241	#ff7400	#ff9900	2025-03-20
-1541	Tagirkent	Тагиркент	42.3827	47.33326	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Lewasha	левашинский					Tagirkent	darg1241	#ff7400	#ff9900	2025-03-20
-1542	Ulluaya	Уллуая	42.3747	47.3756	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Lewasha	левашинский					Ulluaya	darg1241	#ff7400	#ff9900	2025-03-20
-1543	Khasakent	Хасакент	42.37754	47.34265	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Lewasha	левашинский					Khasakent	darg1241	#ff7400	#ff9900	2025-03-20
-1544	Ebdalaya	Эбдалая	42.3683	47.3433	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Lewasha	левашинский					Ebdalaya	darg1241	#ff7400	#ff9900	2025-03-20
-1545	Elakatmakhi	Элакатмахи	42.454026	47.398334	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Lewasha	левашинский					Elakatmakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1546	Kachkalyk	Качкалык	42.6167127	47.3327529	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Ghadar	кадарское	Chankurbe	чанкурбинский					Kachkalyk	darg1241	#ff7400	#ff9900	2025-03-20
-1547	Chankurbe	Чанкурбе	42.630465	47.300216	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Ghadar	кадарское	Chankurbe	чанкурбинский					Chankurbe	darg1241	#ff7400	#ff9900	2025-03-20
-1548	Vanashimakhi	Ванашимахи	42.627222	47.278889	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Ghadar	кадарское	Qaramakhi	карамахинский					Vanashimakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1549	Kadar	Кадар	42.6242	47.2903	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Ghadar	кадарское	Qaramakhi	карамахинский					Kadar	darg1241	#ff7400	#ff9900	2025-03-20
-1550	Karamakhi	Карамахи	42.618786	47.256653	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Ghadar	кадарское	Qaramakhi	карамахинский					Karamakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1551	Chabanmakhi	Чабанмахи	42.6366466	47.2565885	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Ghadar	кадарское	Qaramakhi	карамахинский					Chabanmakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1552	Mugi	Муги	42.2989	47.4225	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Mugi	мугинское							Mugi	darg1241	#ff7400	#ff9900	2025-03-20
-1553	Gubden	Губден	42.5658	47.5658	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Murega-Gubdani	мюрего-губденское	Gubdani	губденский					Gubden	darg1241	#ff7400	#ff9900	2025-03-20
-1554	Gurbuki	Гурбуки	42.611506	47.591942	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Murega-Gubdani	мюрего-губденское	Gubdani	губденский					Gurbuki	darg1241	#ff7400	#ff9900	2025-03-20
-1555	Dzhanga	Джанга	42.517038	47.76486	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Murega-Gubdani	мюрего-губденское	Gubdani	губденский					Dzhanga	darg1241	#ff7400	#ff9900	2025-03-20
-1556	Kadirkent	Кадиркент	42.4961622	47.6067535	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Murega-Gubdani	мюрего-губденское	Gubdani	губденский					Kadirkent	darg1241	#ff7400	#ff9900	2025-03-20
-1557	Leninkent	Ленинкент	42.4845668	47.7572129	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Murega-Gubdani	мюрего-губденское	Gubdani	губденский					Leninkent	darg1241	#ff7400	#ff9900	2025-03-20
-1558	Manas	Манас	42.7367	47.6958	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Murega-Gubdani	мюрего-губденское	Gubdani	губденский					Manas	darg1241	#ff7400	#ff9900	2025-03-20
-1559	Siragi	Сираги	42.06667	47.56667	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Murega-Gubdani	мюрего-губденское	Gubdani	губденский					Siragi	darg1241	#ff7400	#ff9900	2025-03-20
-1560	Aysalakak	Айсалакак	42.374896	47.474825	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Murega-Gubdani	мюрего-губденское	Mikihi	мекегинский					Aysalakak	darg1241	#ff7400	#ff9900	2025-03-20
-1561	Ayalakab	Аялакаб	42.4223787	47.4624073	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Murega-Gubdani	мюрего-губденское	Mikihi	мекегинский					Ayalakab	darg1241	#ff7400	#ff9900	2025-03-20
-1562	Buanzimakhi	Буанзимахи	42.42062	47.44966	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Murega-Gubdani	мюрего-губденское	Mikihi	мекегинский					Buanzimakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1563	Verkhnee Labkomakhi	Верхнее Лабкомахи	42.33862	47.43338	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Murega-Gubdani	мюрего-губденское	Mikihi	мекегинский					Verkhnee Labkomakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1564	Damkulakada	Дамкулакада	42.430252	47.467675	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Murega-Gubdani	мюрего-губденское	Mikihi	мекегинский					Damkulakada	darg1241	#ff7400	#ff9900	2025-03-20
-1565	Degva	Дегва	42.4161	47.5372	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Murega-Gubdani	мюрего-губденское	Mikihi	мекегинский					Degva	darg1241	#ff7400	#ff9900	2025-03-20
-1566	Zurilaudimakhi	Зурилаудимахи	42.4310662	47.4930898	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Murega-Gubdani	мюрего-губденское	Mikihi	мекегинский					Zurilaudimakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1567	Mekegi	Мекеги	42.3978	47.4625	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Murega-Gubdani	мюрего-губденское	Mikihi	мекегинский					Mekegi	darg1241	#ff7400	#ff9900	2025-03-20
-1568	Purrimakhi	Пурримахи	42.426446	47.465673	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Murega-Gubdani	мюрего-губденское	Mikihi	мекегинский					Purrimakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1569	Subakhtymakhi	Субахтымахи	42.336952	47.509514	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Murega-Gubdani	мюрего-губденское	Mikihi	мекегинский					Subakhtymakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1570	Tarlankak	Тарланкак	42.385231	47.474669	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Murega-Gubdani	мюрего-губденское	Mikihi	мекегинский					Tarlankak	darg1241	#ff7400	#ff9900	2025-03-20
-1571	Khebrela-Ela	Хебрела-Эла	42.40945	47.45544	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Murega-Gubdani	мюрего-губденское	Mikihi	мекегинский					Khebrela-Ela	darg1241	#ff7400	#ff9900	2025-03-20
-1572	Chakhimakhi	Чахимахи	42.4223787	47.4624073	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Murega-Gubdani	мюрего-губденское	Mikihi	мекегинский					Chakhimakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1573	Shinkalabukhna	Шинкалабухна	42.388782	47.47115	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Murega-Gubdani	мюрего-губденское	Mikihi	мекегинский					Shinkalabukhna	darg1241	#ff7400	#ff9900	2025-03-20
-1574	Shikhshaka	Шихшака	42.4223787	47.4624073	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Murega-Gubdani	мюрего-губденское	Mikihi	мекегинский					Shikhshaka	darg1241	#ff7400	#ff9900	2025-03-20
-1575	Myurego	Мюрего	42.4042	47.6894	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Murega-Gubdani	мюрего-губденское	Murega	мюрегинский					Myurego	darg1241	#ff7400	#ff9900	2025-03-20
-1576	Verkhnie Mulebki	Верхние Мулебки	42.31043	47.51924	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Upper Mulebki	верхнемулебкинское							Verkhnie Mulebki	darg1241	#ff7400	#ff9900	2025-03-20
-1577	Burdeki	Бурдеки	42.3047	47.6703	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинское	Burdeki	бурдекинский					Burdeki	darg1241	#ff7400	#ff9900	2025-03-20
-1578	Gerga	Герга	42.3491124	47.9596529	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинское	Gerga	гергинский					Gerga	darg1241	#ff7400	#ff9900	2025-03-20
-1579	Aymaumakhi	Аймаумахи	42.3603622	47.5712899	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинское	Hureqi	урахинский					Aymaumakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1580	Aynurbimakhi	Айнурбимахи	42.29623	47.58462	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинское	Hureqi	урахинский					Aynurbimakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1581	Arachanamakhi	Арачанамахи	42.31923	47.58202	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинское	Hureqi	урахинский					Arachanamakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1582	Ayalizimakhi	Аялизимахи	42.3757346	47.6050881	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинское	Hureqi	урахинский					Ayalizimakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1583	Bakhmakhi	Бахмахи	42.30638	47.59269	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинское	Hureqi	урахинский					Bakhmakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1584	Burkhimakhi	Бурхимахи	42.3065	47.58607	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинское	Hureqi	урахинский					Burkhimakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1585	Verkhnee Makhargimakhi	Верхнее Махаргимахи	42.34665	47.62254	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинское	Hureqi	урахинский					Verkhnee Makhargimakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1586	Krasnopartizansk	Краснопартизанск	42.27499	48.01592	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинское	Hureqi	урахинский					Krasnopartizansk	darg1241	#ff7400	#ff9900	2025-03-20
-1587	Kulkibekmakhi	Кулькибекмахи	42.339694	47.561667	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинское	Hureqi	урахинский					Kulkibekmakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1588	Miglakasimakhi	Миглакасимахи	42.33599	47.56121	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинское	Hureqi	урахинский					Miglakasimakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1589	Nizhnee Makhargimakhi	Нижнее Махаргимахи	42.33047	47.63788	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинское	Hureqi	урахинский					Nizhnee Makhargimakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1590	Sergokala	Сергокала	42.4494	47.6633	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинское	Hureqi	урахинский					Sergokala	darg1241	#ff7400	#ff9900	2025-03-20
-1591	Ullukimakhi	Уллукимахи	42.310889	47.597667	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинское	Hureqi	урахинский					Ullukimakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1592	Urakhi	Урахи	42.3347	47.5953	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинское	Hureqi	урахинский					Urakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1593	Khabkaymakhi	Хабкаймахи	42.361312	47.5850482	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинское	Hureqi	урахинский					Khabkaymakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1594	Khantskarkamakhi	Ханцкаркамахи	42.330333	47.550694	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинское	Hureqi	урахинский					Khantskarkamakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1595	Tsurmakhi	Цурмахи	42.31845	47.57516	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинское	Hureqi	урахинский					Tsurmakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1596	Chabazimakhi	Чабазимахи	42.360297	47.570316	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинское	Hureqi	урахинский					Chabazimakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1597	Kichi-Gamri	Кичи-Гамри	42.3125	47.7106	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинское	Kichihamri	кичи-гамринский					Kichi-Gamri	darg1241	#ff7400	#ff9900	2025-03-20
-1598	Kardamakhi	Кардамахи	42.37861	47.46639	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинское	Lower Mulebki	нижнемулебкинский					Kardamakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1599	Nizhnee Mulebki	Нижнее Мулебки	42.3281	47.5689	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинское	Lower Mulebki	нижнемулебкинский					Nizhnee Mulebki	darg1241	#ff7400	#ff9900	2025-03-20
-1600	Baltamakhi	Балтамахи	42.29843	47.72877	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинское	Mammaul	мамааульский					Baltamakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1601	Mamaaul	Мамааул	42.31709	47.75237	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинское	Mammaul	мамааульский					Mamaaul	darg1241	#ff7400	#ff9900	2025-03-20
-1602	Novoe Mugri	Новое Мугри	42.4741	47.75525	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинское	Mugri	мугринский					Novoe Mugri	darg1241	#ff7400	#ff9900	2025-03-20
-1603	Murguk	Мургук	42.2717835	47.685769	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинское	Murguq	мургукский					Murguk	darg1241	#ff7400	#ff9900	2025-03-20
-1604	Kanasiragi	Канасираги	42.252582	47.649095	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинское	Qanasirahi	канасирагинский					Kanasiragi	darg1241	#ff7400	#ff9900	2025-03-20
-1605	Gerkhmakhi	Герхмахи	42.2634	47.52765	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинское							Gerkhmakhi	darg1241	#ff7400	#ff9900	2025-03-20
-1606	Pervomayskoe	Первомайское	42.4992639	47.8928353	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинский							Pervomayskoe	darg1241	#ff7400	#ff9900	2025-03-20
+1477	Mugri	Мугри	42.26767	47.62872	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Mugri	Мугринский							Mugri	darg1241	#EE7621	#ff9900	2025-03-20
+1479	Sangimakhi	Сангимахи	42.33788	47.43307	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Murego-Gubden	Мюрего-губденский							Sangimakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1480	Adukmakhi	Адукмахи	42.39928	47.401891	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa									Adukmakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1481	Aymazimakhi	Аймазимахи	42.401788	47.525794	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa									Aymazimakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1482	Akhinets	Ахинец	42.412612	47.113872	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa									Akhinets	darg1241	#EE7621	#ff9900	2025-03-20
+1483	Ayamakhi	Аямахи	42.40528	47.5725	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa									Ayamakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1484	Verkhnie Kabkomakhi	Верхние Кабкомахи	42.34176	47.43688	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa									Verkhnie Kabkomakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1486	Druzhba	Дружба	42.2419	48.0042	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	mixed								Druzhba	darg1241	#EE7621	#ff9900	2025-03-20
+1487	Zhamsory	Жамсоры	42.382089	47.462508	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa									Zhamsory	darg1241	#EE7621	#ff9900	2025-03-20
+1488	Kapulagumi	Капулагуми	42.427995	47.476847	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa									Kapulagumi	darg1241	#EE7621	#ff9900	2025-03-20
+1489	Kardmakhi	Кардмахи	42.37842	47.46472	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa									Kardmakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1490	Kuknamakhi	Кукнамахи	42.359775	47.286853	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa									Kuknamakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1491	Kusamakhi	Кусамахи	42.36441	47.270869	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa									Kusamakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1492	Mekesh	Мекеш	42.337924	47.510751	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa									Mekesh	darg1241	#EE7621	#ff9900	2025-03-20
+1494	Tazirkent	Тазиркент	42.35863	47.3576	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa									Tazirkent	darg1241	#EE7621	#ff9900	2025-03-20
+1495	Urtsamakhi	Урцамахи	42.34854	47.276792	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa									Urtsamakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1497	Standard Dargwa		42.42568	47.43876	North-Central Dargwa	Dargwa	East Caucasian	Standard Dargwa	Northern Dargwa										darg1241	#EE7621	#ff9900	2025-03-20
+1498	Aynikabmakhi	Айникабмахи	42.26679	47.36264	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Aynikabmakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1499	Akusha	Акуша	42.275664	47.340107	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Akusha	darg1241	#EE7621	#ff9900	2025-03-20
+1500	Akhsakadamakhi	Ахсакадамахи	42.303416	47.381576	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Akhsakadamakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1501	Baykatmakhi	Байкатмахи	42.2706048	47.298005	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Baykatmakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1502	Bergeinzi	Бергеинзи	42.260462	47.352616	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Bergeinzi	darg1241	#EE7621	#ff9900	2025-03-20
+1503	Burgimakmakhi	Бургимакмахи	42.2910818	47.371591	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Burgimakmakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1504	Burgimakhi	Бургимахи	42.27489	47.28652	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Burgimakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1505	Verkhniy Kavkamakhi	Верхний Кавкамахи	42.305216	47.373311	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Verkhniy Kavkamakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1506	Gandaramakhi	Гандарамахи	42.261093	47.333465	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Gandaramakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1507	Gumramakhi	Гумрамахи	42.25101	47.35105	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Gumramakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1508	Gunnamakhi	Гуннамахи	42.04729	47.37328	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Gunnamakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1509	Dubrimakhi	Дубримахи	42.274418	47.285133	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Dubrimakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1510	Inzimakhi	Инзимахи	42.27238	47.35613	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Inzimakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1511	Kavkamakhi	Кавкамахи	42.322184	47.30588	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Kavkamakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1512	Kakmakhi	Какмахи	42.29169	47.38541	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Kakmakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1513	Kamkadamakhi	Камкадамахи	42.25625	47.307998	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Kamkadamakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1514	Karsha	Карша	42.26605	47.34372	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Karsha	darg1241	#EE7621	#ff9900	2025-03-20
+1515	Kassagumakhi	Кассагумахи	42.044941	47.371867	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Kassagumakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1516	Kertukmakhi	Кертукмахи	42.28799	47.34305	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Kertukmakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1517	Kurimakhi	Куримахи	42.304306	47.304694	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Kurimakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1518	Semgamakhi	Семгамахи	42.28438	47.35484	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Semgamakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1519	Uznimakhi	Узнимахи	42.30003	47.3858	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Uznimakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1520	Urgubamakhi	Ургубамахи	42.28968	47.31783	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Urgubamakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1521	Urkhuchimakhi	Урхучимахи	42.310271	47.260222	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Urkhuchimakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1522	Khazhnimakhi	Хажнимахи	42.254562	47.315856	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Khazhnimakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1523	Khenklakar	Хенклакар	42.257833	47.306649	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Khenklakar	darg1241	#EE7621	#ff9900	2025-03-20
+1524	Tserkhimakhi	Церхимахи	42.276694	47.336755	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Tserkhimakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1525	Tsundimakhi	Цундимахи	42.25164	47.31668	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Tsundimakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1526	Tsunimakhi	Цунимахи	42.29835	47.26194	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Tsunimakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1527	Chankalamakhi	Чанкаламахи	42.27788	47.365804	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Chankalamakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1528	Chinimakhi	Чинимахи	42.27565	47.37455	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Chinimakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1529	Shinkbalakada	Шинкбалакада	42.259644	47.299385	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Shinkbalakada	darg1241	#EE7621	#ff9900	2025-03-20
+1530	Shumkhrimakhi	Шумхримахи	42.291042	47.268562	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Shumkhrimakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1531	Yaraymakhi	Яраймахи	42.295511	47.359585	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Aqusha	акушинский					Yaraymakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1532	Dzhangamakhi	Джангамахи	42.44335	47.38111	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Lewasha	левашинский					Dzhangamakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1533	Ditunshimakhi	Дитуншимахи	42.381665	47.289692	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Lewasha	левашинский					Ditunshimakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1534	Kakamakhi	Какамахи	42.39507	47.30644	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Lewasha	левашинский					Kakamakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1535	Karlabko	Карлабко	42.3542	47.3967	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Lewasha	левашинский					Karlabko	darg1241	#EE7621	#ff9900	2025-03-20
+1536	Levashi	Леваши	42.4325	47.3258	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Lewasha	левашинский					Levashi	darg1241	#EE7621	#ff9900	2025-03-20
+1537	Naskent	Наскент	42.38093	47.33624	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Lewasha	левашинский					Naskent	darg1241	#EE7621	#ff9900	2025-03-20
+1538	Nizhnee Labkomakhi	Нижнее Лабкомахи	42.35084	47.41873	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Lewasha	левашинский					Nizhnee Labkomakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1539	Suleybakent	Сулейбакент	42.35785	47.37355	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Lewasha	левашинский					Suleybakent	darg1241	#EE7621	#ff9900	2025-03-20
+1540	Susakent	Сусакент	42.36361	47.35248	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Lewasha	левашинский					Susakent	darg1241	#EE7621	#ff9900	2025-03-20
+1541	Tagirkent	Тагиркент	42.3827	47.33326	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Lewasha	левашинский					Tagirkent	darg1241	#EE7621	#ff9900	2025-03-20
+1542	Ulluaya	Уллуая	42.3747	47.3756	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Lewasha	левашинский					Ulluaya	darg1241	#EE7621	#ff9900	2025-03-20
+1543	Khasakent	Хасакент	42.37754	47.34265	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Lewasha	левашинский					Khasakent	darg1241	#EE7621	#ff9900	2025-03-20
+1544	Ebdalaya	Эбдалая	42.3683	47.3433	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Lewasha	левашинский					Ebdalaya	darg1241	#EE7621	#ff9900	2025-03-20
+1545	Elakatmakhi	Элакатмахи	42.454026	47.398334	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Aqusha	акушинское	Lewasha	левашинский					Elakatmakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1546	Kachkalyk	Качкалык	42.6167127	47.3327529	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Ghadar	кадарское	Chankurbe	чанкурбинский					Kachkalyk	darg1241	#EE7621	#ff9900	2025-03-20
+1547	Chankurbe	Чанкурбе	42.630465	47.300216	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Ghadar	кадарское	Chankurbe	чанкурбинский					Chankurbe	darg1241	#EE7621	#ff9900	2025-03-20
+1548	Vanashimakhi	Ванашимахи	42.627222	47.278889	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Ghadar	кадарское	Qaramakhi	карамахинский					Vanashimakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1549	Kadar	Кадар	42.6242	47.2903	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Ghadar	кадарское	Qaramakhi	карамахинский					Kadar	darg1241	#EE7621	#ff9900	2025-03-20
+1550	Karamakhi	Карамахи	42.618786	47.256653	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Ghadar	кадарское	Qaramakhi	карамахинский					Karamakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1551	Chabanmakhi	Чабанмахи	42.6366466	47.2565885	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Ghadar	кадарское	Qaramakhi	карамахинский					Chabanmakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1552	Mugi	Муги	42.2989	47.4225	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Mugi	мугинское							Mugi	darg1241	#EE7621	#ff9900	2025-03-20
+1553	Gubden	Губден	42.5658	47.5658	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Murega-Gubdani	мюрего-губденское	Gubdani	губденский					Gubden	darg1241	#EE7621	#ff9900	2025-03-20
+1554	Gurbuki	Гурбуки	42.611506	47.591942	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Murega-Gubdani	мюрего-губденское	Gubdani	губденский					Gurbuki	darg1241	#EE7621	#ff9900	2025-03-20
+1555	Dzhanga	Джанга	42.517038	47.76486	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Murega-Gubdani	мюрего-губденское	Gubdani	губденский					Dzhanga	darg1241	#EE7621	#ff9900	2025-03-20
+1556	Kadirkent	Кадиркент	42.4961622	47.6067535	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Murega-Gubdani	мюрего-губденское	Gubdani	губденский					Kadirkent	darg1241	#EE7621	#ff9900	2025-03-20
+1557	Leninkent	Ленинкент	42.4845668	47.7572129	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Murega-Gubdani	мюрего-губденское	Gubdani	губденский					Leninkent	darg1241	#EE7621	#ff9900	2025-03-20
+1558	Manas	Манас	42.7367	47.6958	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Murega-Gubdani	мюрего-губденское	Gubdani	губденский					Manas	darg1241	#EE7621	#ff9900	2025-03-20
+1559	Siragi	Сираги	42.06667	47.56667	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Murega-Gubdani	мюрего-губденское	Gubdani	губденский					Siragi	darg1241	#EE7621	#ff9900	2025-03-20
+1560	Aysalakak	Айсалакак	42.374896	47.474825	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Murega-Gubdani	мюрего-губденское	Mikihi	мекегинский					Aysalakak	darg1241	#EE7621	#ff9900	2025-03-20
+1561	Ayalakab	Аялакаб	42.4223787	47.4624073	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Murega-Gubdani	мюрего-губденское	Mikihi	мекегинский					Ayalakab	darg1241	#EE7621	#ff9900	2025-03-20
+1562	Buanzimakhi	Буанзимахи	42.42062	47.44966	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Murega-Gubdani	мюрего-губденское	Mikihi	мекегинский					Buanzimakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1563	Verkhnee Labkomakhi	Верхнее Лабкомахи	42.33862	47.43338	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Murega-Gubdani	мюрего-губденское	Mikihi	мекегинский					Verkhnee Labkomakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1564	Damkulakada	Дамкулакада	42.430252	47.467675	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Murega-Gubdani	мюрего-губденское	Mikihi	мекегинский					Damkulakada	darg1241	#EE7621	#ff9900	2025-03-20
+1565	Degva	Дегва	42.4161	47.5372	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Murega-Gubdani	мюрего-губденское	Mikihi	мекегинский					Degva	darg1241	#EE7621	#ff9900	2025-03-20
+1566	Zurilaudimakhi	Зурилаудимахи	42.4310662	47.4930898	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Murega-Gubdani	мюрего-губденское	Mikihi	мекегинский					Zurilaudimakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1567	Mekegi	Мекеги	42.3978	47.4625	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Murega-Gubdani	мюрего-губденское	Mikihi	мекегинский					Mekegi	darg1241	#EE7621	#ff9900	2025-03-20
+1568	Purrimakhi	Пурримахи	42.426446	47.465673	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Murega-Gubdani	мюрего-губденское	Mikihi	мекегинский					Purrimakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1569	Subakhtymakhi	Субахтымахи	42.336952	47.509514	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Murega-Gubdani	мюрего-губденское	Mikihi	мекегинский					Subakhtymakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1570	Tarlankak	Тарланкак	42.385231	47.474669	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Murega-Gubdani	мюрего-губденское	Mikihi	мекегинский					Tarlankak	darg1241	#EE7621	#ff9900	2025-03-20
+1571	Khebrela-Ela	Хебрела-Эла	42.40945	47.45544	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Murega-Gubdani	мюрего-губденское	Mikihi	мекегинский					Khebrela-Ela	darg1241	#EE7621	#ff9900	2025-03-20
+1572	Chakhimakhi	Чахимахи	42.4223787	47.4624073	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Murega-Gubdani	мюрего-губденское	Mikihi	мекегинский					Chakhimakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1573	Shinkalabukhna	Шинкалабухна	42.388782	47.47115	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Murega-Gubdani	мюрего-губденское	Mikihi	мекегинский					Shinkalabukhna	darg1241	#EE7621	#ff9900	2025-03-20
+1574	Shikhshaka	Шихшака	42.4223787	47.4624073	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Murega-Gubdani	мюрего-губденское	Mikihi	мекегинский					Shikhshaka	darg1241	#EE7621	#ff9900	2025-03-20
+1575	Myurego	Мюрего	42.4042	47.6894	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Murega-Gubdani	мюрего-губденское	Murega	мюрегинский					Myurego	darg1241	#EE7621	#ff9900	2025-03-20
+1576	Verkhnie Mulebki	Верхние Мулебки	42.31043	47.51924	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Upper Mulebki	верхнемулебкинское							Verkhnie Mulebki	darg1241	#EE7621	#ff9900	2025-03-20
+1577	Burdeki	Бурдеки	42.3047	47.6703	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинское	Burdeki	бурдекинский					Burdeki	darg1241	#EE7621	#ff9900	2025-03-20
+1578	Gerga	Герга	42.3491124	47.9596529	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинское	Gerga	гергинский					Gerga	darg1241	#EE7621	#ff9900	2025-03-20
+1579	Aymaumakhi	Аймаумахи	42.3603622	47.5712899	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинское	Hureqi	урахинский					Aymaumakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1580	Aynurbimakhi	Айнурбимахи	42.29623	47.58462	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинское	Hureqi	урахинский					Aynurbimakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1581	Arachanamakhi	Арачанамахи	42.31923	47.58202	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинское	Hureqi	урахинский					Arachanamakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1582	Ayalizimakhi	Аялизимахи	42.3757346	47.6050881	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинское	Hureqi	урахинский					Ayalizimakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1583	Bakhmakhi	Бахмахи	42.30638	47.59269	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинское	Hureqi	урахинский					Bakhmakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1584	Burkhimakhi	Бурхимахи	42.3065	47.58607	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинское	Hureqi	урахинский					Burkhimakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1585	Verkhnee Makhargimakhi	Верхнее Махаргимахи	42.34665	47.62254	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинское	Hureqi	урахинский					Verkhnee Makhargimakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1586	Krasnopartizansk	Краснопартизанск	42.27499	48.01592	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинское	Hureqi	урахинский					Krasnopartizansk	darg1241	#EE7621	#ff9900	2025-03-20
+1587	Kulkibekmakhi	Кулькибекмахи	42.339694	47.561667	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинское	Hureqi	урахинский					Kulkibekmakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1588	Miglakasimakhi	Миглакасимахи	42.33599	47.56121	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинское	Hureqi	урахинский					Miglakasimakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1589	Nizhnee Makhargimakhi	Нижнее Махаргимахи	42.33047	47.63788	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинское	Hureqi	урахинский					Nizhnee Makhargimakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1590	Sergokala	Сергокала	42.4494	47.6633	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинское	Hureqi	урахинский					Sergokala	darg1241	#EE7621	#ff9900	2025-03-20
+1591	Ullukimakhi	Уллукимахи	42.310889	47.597667	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинское	Hureqi	урахинский					Ullukimakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1592	Urakhi	Урахи	42.3347	47.5953	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинское	Hureqi	урахинский					Urakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1593	Khabkaymakhi	Хабкаймахи	42.361312	47.5850482	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинское	Hureqi	урахинский					Khabkaymakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1594	Khantskarkamakhi	Ханцкаркамахи	42.330333	47.550694	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинское	Hureqi	урахинский					Khantskarkamakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1595	Tsurmakhi	Цурмахи	42.31845	47.57516	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинское	Hureqi	урахинский					Tsurmakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1596	Chabazimakhi	Чабазимахи	42.360297	47.570316	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинское	Hureqi	урахинский					Chabazimakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1597	Kichi-Gamri	Кичи-Гамри	42.3125	47.7106	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинское	Kichihamri	кичи-гамринский					Kichi-Gamri	darg1241	#EE7621	#ff9900	2025-03-20
+1598	Kardamakhi	Кардамахи	42.37861	47.46639	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинское	Lower Mulebki	нижнемулебкинский					Kardamakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1599	Nizhnee Mulebki	Нижнее Мулебки	42.3281	47.5689	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинское	Lower Mulebki	нижнемулебкинский					Nizhnee Mulebki	darg1241	#EE7621	#ff9900	2025-03-20
+1600	Baltamakhi	Балтамахи	42.29843	47.72877	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинское	Mammaul	мамааульский					Baltamakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1601	Mamaaul	Мамааул	42.31709	47.75237	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинское	Mammaul	мамааульский					Mamaaul	darg1241	#EE7621	#ff9900	2025-03-20
+1602	Novoe Mugri	Новое Мугри	42.4741	47.75525	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинское	Mugri	мугринский					Novoe Mugri	darg1241	#EE7621	#ff9900	2025-03-20
+1603	Murguk	Мургук	42.2717835	47.685769	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинское	Murguq	мургукский					Murguk	darg1241	#EE7621	#ff9900	2025-03-20
+1604	Kanasiragi	Канасираги	42.252582	47.649095	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинское	Qanasirahi	канасирагинский					Kanasiragi	darg1241	#EE7621	#ff9900	2025-03-20
+1605	Gerkhmakhi	Герхмахи	42.2634	47.52765	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинское							Gerkhmakhi	darg1241	#EE7621	#ff9900	2025-03-20
+1606	Pervomayskoe	Первомайское	42.4992639	47.8928353	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Urakhi	урахинский							Pervomayskoe	darg1241	#EE7621	#ff9900	2025-03-20
 1437	Standard Ossetian		42.98	44.61	Modern Ossetic	Iranian	Indo-European	Standard Ossetian	Ossetian										osse1243	#D8CAF6	#fffded	2025-03-20
 1653	Arsug	Арсуг	41.86408	47.65011	Qushan Aghul	Lezgic	East Caucasian		Qushan Agul									Arsug	kosh1245	#00cc66	#00cc66	2025-03-20
 1654	Burshag	Буршаг	41.89626	47.64102	Qushan Aghul	Lezgic	East Caucasian		Qushan Agul									Burshag	kosh1245	#00cc66	#00cc66	2025-03-20
@@ -1618,73 +1618,73 @@ id	village	rus_village	lat	lon	lang	aff	family	standard	default_level	dialect_to
 1670	Luchek	Лучек	41.60988	47.307307	Rutul	Lezgic	East Caucasian		Rutul									Luchek	rutu1240	#009900	#00cc66	2025-03-20
 1671	Shinaz	Шиназ	41.618658	47.375666	Rutul	Lezgic	East Caucasian		Rutul									Shinaz	rutu1240	#009900	#00cc66	2025-03-20
 1672	Standard Rutul		41.61866	47.32436	Rutul	Lezgic	East Caucasian	Standard Rutul	Rutul										rutu1240	#009900	#00cc66	2025-03-20
-1148	Chakhrizhi	Чахрижи	42.00702	47.622084	Kajtak	Dargwa	East Caucasian		Sanaqari-Chahrizhi	Chahrizhi	чахрижское							Chakhrizhi	kajt1238	#fbc120	#ff9900	2025-03-20
-1149	Zelenomorskoe	Зеленоморское	42.77004	47.68884	Kajtak	Dargwa	East Caucasian		Sanaqari-Chahrizhi	mixed	mixed							Zelenomorskoe	kajt1238	#fbc120	#ff9900	2025-03-20
-1150	Sanakari	Санакари	42.012126	47.641267	Kajtak	Dargwa	East Caucasian		Sanaqari-Chahrizhi	Sanaqari	санакаринское							Sanakari	kajt1238	#fbc120	#ff9900	2025-03-20
-1678	Itsari	Ицари	41.99733	47.5833	Southwestern Dargwa	Dargwa	East Caucasian		Sanzhi-Itsari	Itsari	ицаринское							Itsari	sout3261	#ffe5b9	#ff9900	2025-03-20
-1679	Sanzhi	Санжи	41.978061	47.56402	Southwestern Dargwa	Dargwa	East Caucasian		Sanzhi-Itsari	Sanzhi	санжинское							Sanzhi	sout3261	#ffe5b9	#ff9900	2025-03-20
-1151	Shari	Шари	41.957302	47.608649	Kajtak	Dargwa	East Caucasian		Shari									Shari	kajt1238	#f3b817	#ff9900	2025-03-20
+1148	Chakhrizhi	Чахрижи	42.00702	47.622084	Kajtak	Dargwa	East Caucasian		Sanaqari-Chahrizhi	Chahrizhi	чахрижское							Chakhrizhi	kajt1238	#FFD000	#ff9900	2025-03-20
+1149	Zelenomorskoe	Зеленоморское	42.77004	47.68884	Kajtak	Dargwa	East Caucasian		Sanaqari-Chahrizhi	mixed	mixed							Zelenomorskoe	kajt1238	#FFD000	#ff9900	2025-03-20
+1150	Sanakari	Санакари	42.012126	47.641267	Kajtak	Dargwa	East Caucasian		Sanaqari-Chahrizhi	Sanaqari	санакаринское							Sanakari	kajt1238	#FFD000	#ff9900	2025-03-20
+1678	Itsari	Ицари	41.99733	47.5833	Southwestern Dargwa	Dargwa	East Caucasian		Sanzhi-Itsari	Itsari	ицаринское							Itsari	sout3261	#EEE685	#ff9900	2025-03-20
+1679	Sanzhi	Санжи	41.978061	47.56402	Southwestern Dargwa	Dargwa	East Caucasian		Sanzhi-Itsari	Sanzhi	санжинское							Sanzhi	sout3261	#EEE685	#ff9900	2025-03-20
+1151	Shari	Шари	41.957302	47.608649	Kajtak	Dargwa	East Caucasian		Shari									Shari	kajt1238	#EEC400	#ff9900	2025-03-20
 1673	Ratlub	Ратлуб	42.359268	46.433433	Southern Akhvakh	Avar-Andic	East Caucasian		Southern Akhvakh									Ratlub	sout3319	#9900ff	#9900ff	2025-03-20
 1674	Tlyanub	Тлянуб	42.43568	46.45745	Southern Akhvakh	Avar-Andic	East Caucasian		Southern Akhvakh									Tlyanub	sout3319	#9900ff	#9900ff	2025-03-20
 1675	Tsekob	Цекоб	42.422785	46.450219	Southern Akhvakh	Avar-Andic	East Caucasian		Southern Akhvakh									Tsekob	sout3319	#9900ff	#9900ff	2025-03-20
-1493	Nikabarkmakhi	Никабаркмахи	42.01667	47.41667	North-Central Dargwa	Dargwa	East Caucasian		Southwestern Dargwa									Nikabarkmakhi	darg1241	#f5d8a5	#ff9900	2025-03-20
-1680	Bakni	Бакни	42.11618	47.53095	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Baqni	бакнинский					Bakni	sout3261	#f5d8a5	#ff9900	2025-03-20
-1681	Sutbuk	Сутбук	42.1036	47.5403	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Baqni	бакнинский					Sutbuk	sout3261	#f5d8a5	#ff9900	2025-03-20
-1682	Ayatsimakhi	Аяцимахи	42.00618	47.46117	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Dzilebki	карбукский					Ayatsimakhi	sout3261	#f5d8a5	#ff9900	2025-03-20
-1683	Guzbaya	Гузбая	42.04744	47.51385	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Dzilebki	дзилебкинский					Guzbaya	sout3261	#f5d8a5	#ff9900	2025-03-20
-1684	Dzilebki	Дзилебки	42.04989	47.55693	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Dzilebki	дзилебкинский					Dzilebki	sout3261	#f5d8a5	#ff9900	2025-03-20
-1685	Karbuchimakhi	Карбучимахи	42.007461	47.429948	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Dzilebki	карбукский					Karbuchimakhi	sout3261	#f5d8a5	#ff9900	2025-03-20
-1686	Uragi	Ураги	42.06914	47.569377	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Dzilebki	дзилебкинский					Uragi	sout3261	#f5d8a5	#ff9900	2025-03-20
-1687	Guladty	Гуладты	42.11523	47.45074	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Ghuladti	гуладтинский					Guladty	sout3261	#f5d8a5	#ff9900	2025-03-20
-1688	Mirzita	Мирзита	42.1309	47.47663	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Ghuladti	гуладтинский					Mirzita	sout3261	#f5d8a5	#ff9900	2025-03-20
-1689	Khurshni	Хуршни	42.14036	47.48966	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Ghuladti	гуладтинский					Khurshni	sout3261	#f5d8a5	#ff9900	2025-03-20
-1690	Arassamakhi	Арассамахи	42.057708	47.401089	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Upper Sirhwa	верхнесирхинский					Arassamakhi	sout3261	#f5d8a5	#ff9900	2025-03-20
-1691	Bikalamakhi	Бикаламахи	42.04647	47.36054	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Upper Sirhwa	верхнесирхинский					Bikalamakhi	sout3261	#f5d8a5	#ff9900	2025-03-20
-1692	Bukkamakhi	Буккамахи	42.03148	47.41884	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Upper Sirhwa	верхнесирхинский					Bukkamakhi	sout3261	#f5d8a5	#ff9900	2025-03-20
-1693	Verkhniy Karshli	Верхний Каршли	42.051585	47.339434	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Upper Sirhwa	верхнесирхинский					Verkhniy Karshli	sout3261	#f5d8a5	#ff9900	2025-03-20
-1694	Verkhniy Chiamakhi	Верхний Чиамахи	42.02996	47.38803	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Upper Sirhwa	верхнесирхинский					Verkhniy Chiamakhi	sout3261	#f5d8a5	#ff9900	2025-03-20
-1695	Giyagaramakhi	Гиягарамахи	42.08381	47.37841	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Upper Sirhwa	верхнесирхинский					Giyagaramakhi	sout3261	#f5d8a5	#ff9900	2025-03-20
-1696	Gulebki	Гулебки	42.11181	47.39688	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Upper Sirhwa	верхнесирхинский					Gulebki	sout3261	#f5d8a5	#ff9900	2025-03-20
-1697	Kaddamakhi	Каддамахи	42.045284	47.356444	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Upper Sirhwa	верхнесирхинский					Kaddamakhi	sout3261	#f5d8a5	#ff9900	2025-03-20
-1698	Karashimakhi	Карашимахи	42.02781	47.3975	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Upper Sirhwa	верхнесирхинский					Karashimakhi	sout3261	#f5d8a5	#ff9900	2025-03-20
-1699	Karayamakhi	Караямахи	42.07822	47.34643	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Upper Sirhwa	верхнесирхинский					Karayamakhi	sout3261	#f5d8a5	#ff9900	2025-03-20
-1700	Kubrimakhi	Кубримахи	42.073256	47.371048	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Upper Sirhwa	верхнесирхинский					Kubrimakhi	sout3261	#f5d8a5	#ff9900	2025-03-20
-1701	Kuliyamakhi	Кулиямахи	42.07717	47.33501	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Upper Sirhwa	верхнесирхинский					Kuliyamakhi	sout3261	#f5d8a5	#ff9900	2025-03-20
-1702	Murlatinamakhi	Мурлатинамахи	42.08451	47.35718	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Upper Sirhwa	верхнесирхинский					Murlatinamakhi	sout3261	#f5d8a5	#ff9900	2025-03-20
-1703	Nakhki	Нахки	42.07562	47.39905	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Upper Sirhwa	верхнесирхинский					Nakhki	sout3261	#f5d8a5	#ff9900	2025-03-20
-1704	Natsi	Наци	42.075335	47.38728	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Upper Sirhwa	верхнесирхинский					Natsi	sout3261	#f5d8a5	#ff9900	2025-03-20
-1705	Nizhniy Karshli	Нижний Каршли	42.049911	47.343884	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Upper Sirhwa	верхнесирхинский					Nizhniy Karshli	sout3261	#f5d8a5	#ff9900	2025-03-20
-1706	Nizhniy Chiamakhi	Нижний Чиамахи	42.036598	47.39	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Upper Sirhwa	верхнесирхинский					Nizhniy Chiamakhi	sout3261	#f5d8a5	#ff9900	2025-03-20
-1707	Tuzlamakhi	Тузламахи	42.07877	47.36836	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Upper Sirhwa	верхнесирхинский					Tuzlamakhi	sout3261	#f5d8a5	#ff9900	2025-03-20
-1708	Urgani	Ургани	42.13638	47.36146	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Upper Sirhwa	верхнесирхинский					Urgani	sout3261	#f5d8a5	#ff9900	2025-03-20
-1709	Urzhagimakhi	Уржагимахи	42.06149	47.37056	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Upper Sirhwa	верхнесирхинский					Urzhagimakhi	sout3261	#f5d8a5	#ff9900	2025-03-20
-1710	Urkhulakar	Урхулакар	42.04352	47.40002	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Upper Sirhwa	верхнесирхинский					Urkhulakar	sout3261	#f5d8a5	#ff9900	2025-03-20
-1711	Utsulimakhi	Уцулимахи	42.064935	47.42661	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Upper Sirhwa	верхнесирхинский					Utsulimakhi	darg1241	#f5d8a5	#ff9900	2025-03-20
-1712	Tsugni	Цугни	42.107276	47.400902	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Upper Sirhwa	верхнесирхинский					Tsugni	sout3261	#f5d8a5	#ff9900	2025-03-20
-1713	Ayatsuri	Аяцури	42.07354	47.45121	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Urari	ураринский					Ayatsuri	sout3261	#f5d8a5	#ff9900	2025-03-20
-1714	Butulta	Бутулта	42.074641	47.440349	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Urari	ураринский					Butulta	sout3261	#f5d8a5	#ff9900	2025-03-20
-1715	Duakar	Дуакар	42.064159	47.460081	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Urari	ураринский					Duakar	sout3261	#f5d8a5	#ff9900	2025-03-20
-1716	Karkatsi	Каркаци	42.08389	47.46694	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Urari	ураринский					Karkatsi	sout3261	#f5d8a5	#ff9900	2025-03-20
-1717	Kishchamakhi	Кищамахи	42.051	47.44197	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Urari	ураринский					Kishchamakhi	sout3261	#f5d8a5	#ff9900	2025-03-20
-1718	Kurkimakhi	Куркимахи	42.0902127	47.47584	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Urari	ураринский					Kurkimakhi	sout3261	#f5d8a5	#ff9900	2025-03-20
-1719	Mikrasanamakhi	Микрасанамахи	42.0635083	47.4614044	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Urari	ураринский					Mikrasanamakhi	sout3261	#f5d8a5	#ff9900	2025-03-20
-1720	Mukrakari	Мукракари	42.06667	47.5	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Urari	ураринский					Mukrakari	sout3261	#f5d8a5	#ff9900	2025-03-20
-1721	Sumiya	Сумия	42.04344	47.45616	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Urari	ураринский					Sumiya	sout3261	#f5d8a5	#ff9900	2025-03-20
-1722	Sur-Surbachi	Сур-Сурбачи	42.0635083	47.4614044	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Urari	ураринский					Sur-Surbachi	sout3261	#f5d8a5	#ff9900	2025-03-20
-1723	Turakarimakhi	Туракаримахи	42.06	47.46667	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Urari	ураринский					Turakarimakhi	sout3261	#f5d8a5	#ff9900	2025-03-20
-1724	Uzralmakhi	Узралмахи	42.05782	47.44987	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Urari	ураринский					Uzralmakhi	sout3261	#f5d8a5	#ff9900	2025-03-20
-1725	Urari	Урари	42.0997	47.4569	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Urari	ураринский					Urari	sout3261	#f5d8a5	#ff9900	2025-03-20
-1726	Urkutamakhi-1	Уркутамахи-1	42.07093	47.52058	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Urari	ураринский					Urkutamakhi-1	sout3261	#f5d8a5	#ff9900	2025-03-20
-1727	Urkutamakhi-2	Уркутамахи-2	42.06667	47.53333	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Urari	ураринский					Urkutamakhi-2	sout3261	#f5d8a5	#ff9900	2025-03-20
-1728	Urkhnishcha	Урхнища	42.08278	47.50306	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Urari	ураринский					Urkhnishcha	sout3261	#f5d8a5	#ff9900	2025-03-20
-1729	Khulabarkmakhi	Хулабаркмахи	42.05455	47.45676	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Urari	ураринский					Khulabarkmakhi	sout3261	#f5d8a5	#ff9900	2025-03-20
-1730	Urtsaki	Урцаки	42.09916	47.56236	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Urtsaki	урцакинский					Urtsaki	sout3261	#f5d8a5	#ff9900	2025-03-20
-1731	Shalasi	Шаласи	42.1314542	47.5305984	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Urtsaki	урцакинский					Shalasi	sout3261	#f5d8a5	#ff9900	2025-03-20
-1732	Tanty	Танты	42.1642	47.3167	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Tanti	тантынское							Tanty	sout3261	#f5d8a5	#ff9900	2025-03-20
-1733	Amukh	Амух	41.9142	47.5422	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Upper Vurqun	верхневуркунское	Amuq	амухский					Amukh	sout3261	#f5d8a5	#ff9900	2025-03-20
-1734	Anklukh	Анклух	41.92131	47.527334	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Upper Vurqun	верхневуркунское	Anklugh	анклухский					Anklukh	sout3261	#f5d8a5	#ff9900	2025-03-20
-1735	Khuduts	Худуц	41.96638	47.51297	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Upper Vurqun	верхневуркунское	Khuduts	худуцкий					Khuduts	sout3261	#f5d8a5	#ff9900	2025-03-20
-1736	Kunki	Кунки	41.95923	47.47173	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Upper Vurqun	верхневуркунское	Qunqi	кункинский					Kunki	sout3261	#f5d8a5	#ff9900	2025-03-20
+1493	Nikabarkmakhi	Никабаркмахи	42.01667	47.41667	North-Central Dargwa	Dargwa	East Caucasian		Southwestern Dargwa									Nikabarkmakhi	sout3261	#FFF672	#ff9900	2025-03-20
+1680	Bakni	Бакни	42.11618	47.53095	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Baqni	бакнинский					Bakni	sout3261	#FFF672	#ff9900	2025-03-20
+1681	Sutbuk	Сутбук	42.1036	47.5403	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Baqni	бакнинский					Sutbuk	sout3261	#FFF672	#ff9900	2025-03-20
+1682	Ayatsimakhi	Аяцимахи	42.00618	47.46117	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Dzilebki	карбукский					Ayatsimakhi	sout3261	#FFF672	#ff9900	2025-03-20
+1683	Guzbaya	Гузбая	42.04744	47.51385	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Dzilebki	дзилебкинский					Guzbaya	sout3261	#FFF672	#ff9900	2025-03-20
+1684	Dzilebki	Дзилебки	42.04989	47.55693	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Dzilebki	дзилебкинский					Dzilebki	sout3261	#FFF672	#ff9900	2025-03-20
+1685	Karbuchimakhi	Карбучимахи	42.007461	47.429948	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Dzilebki	карбукский					Karbuchimakhi	sout3261	#FFF672	#ff9900	2025-03-20
+1686	Uragi	Ураги	42.06914	47.569377	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Dzilebki	дзилебкинский					Uragi	sout3261	#FFF672	#ff9900	2025-03-20
+1687	Guladty	Гуладты	42.11523	47.45074	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Ghuladti	гуладтинский					Guladty	sout3261	#FFF672	#ff9900	2025-03-20
+1688	Mirzita	Мирзита	42.1309	47.47663	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Ghuladti	гуладтинский					Mirzita	sout3261	#FFF672	#ff9900	2025-03-20
+1689	Khurshni	Хуршни	42.14036	47.48966	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Ghuladti	гуладтинский					Khurshni	sout3261	#FFF672	#ff9900	2025-03-20
+1690	Arassamakhi	Арассамахи	42.057708	47.401089	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Upper Sirhwa	верхнесирхинский					Arassamakhi	sout3261	#FFF672	#ff9900	2025-03-20
+1691	Bikalamakhi	Бикаламахи	42.04647	47.36054	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Upper Sirhwa	верхнесирхинский					Bikalamakhi	sout3261	#FFF672	#ff9900	2025-03-20
+1692	Bukkamakhi	Буккамахи	42.03148	47.41884	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Upper Sirhwa	верхнесирхинский					Bukkamakhi	sout3261	#FFF672	#ff9900	2025-03-20
+1693	Verkhniy Karshli	Верхний Каршли	42.051585	47.339434	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Upper Sirhwa	верхнесирхинский					Verkhniy Karshli	sout3261	#FFF672	#ff9900	2025-03-20
+1694	Verkhniy Chiamakhi	Верхний Чиамахи	42.02996	47.38803	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Upper Sirhwa	верхнесирхинский					Verkhniy Chiamakhi	sout3261	#FFF672	#ff9900	2025-03-20
+1695	Giyagaramakhi	Гиягарамахи	42.08381	47.37841	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Upper Sirhwa	верхнесирхинский					Giyagaramakhi	sout3261	#FFF672	#ff9900	2025-03-20
+1696	Gulebki	Гулебки	42.11181	47.39688	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Upper Sirhwa	верхнесирхинский					Gulebki	sout3261	#FFF672	#ff9900	2025-03-20
+1697	Kaddamakhi	Каддамахи	42.045284	47.356444	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Upper Sirhwa	верхнесирхинский					Kaddamakhi	sout3261	#FFF672	#ff9900	2025-03-20
+1698	Karashimakhi	Карашимахи	42.02781	47.3975	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Upper Sirhwa	верхнесирхинский					Karashimakhi	sout3261	#FFF672	#ff9900	2025-03-20
+1699	Karayamakhi	Караямахи	42.07822	47.34643	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Upper Sirhwa	верхнесирхинский					Karayamakhi	sout3261	#FFF672	#ff9900	2025-03-20
+1700	Kubrimakhi	Кубримахи	42.073256	47.371048	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Upper Sirhwa	верхнесирхинский					Kubrimakhi	sout3261	#FFF672	#ff9900	2025-03-20
+1701	Kuliyamakhi	Кулиямахи	42.07717	47.33501	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Upper Sirhwa	верхнесирхинский					Kuliyamakhi	sout3261	#FFF672	#ff9900	2025-03-20
+1702	Murlatinamakhi	Мурлатинамахи	42.08451	47.35718	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Upper Sirhwa	верхнесирхинский					Murlatinamakhi	sout3261	#FFF672	#ff9900	2025-03-20
+1703	Nakhki	Нахки	42.07562	47.39905	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Upper Sirhwa	верхнесирхинский					Nakhki	sout3261	#FFF672	#ff9900	2025-03-20
+1704	Natsi	Наци	42.075335	47.38728	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Upper Sirhwa	верхнесирхинский					Natsi	sout3261	#FFF672	#ff9900	2025-03-20
+1705	Nizhniy Karshli	Нижний Каршли	42.049911	47.343884	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Upper Sirhwa	верхнесирхинский					Nizhniy Karshli	sout3261	#FFF672	#ff9900	2025-03-20
+1706	Nizhniy Chiamakhi	Нижний Чиамахи	42.036598	47.39	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Upper Sirhwa	верхнесирхинский					Nizhniy Chiamakhi	sout3261	#FFF672	#ff9900	2025-03-20
+1707	Tuzlamakhi	Тузламахи	42.07877	47.36836	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Upper Sirhwa	верхнесирхинский					Tuzlamakhi	sout3261	#FFF672	#ff9900	2025-03-20
+1708	Urgani	Ургани	42.13638	47.36146	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Upper Sirhwa	верхнесирхинский					Urgani	sout3261	#FFF672	#ff9900	2025-03-20
+1709	Urzhagimakhi	Уржагимахи	42.06149	47.37056	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Upper Sirhwa	верхнесирхинский					Urzhagimakhi	sout3261	#FFF672	#ff9900	2025-03-20
+1710	Urkhulakar	Урхулакар	42.04352	47.40002	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Upper Sirhwa	верхнесирхинский					Urkhulakar	sout3261	#FFF672	#ff9900	2025-03-20
+1711	Utsulimakhi	Уцулимахи	42.064935	47.42661	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Upper Sirhwa	верхнесирхинский					Utsulimakhi	sout3261	#FFF672	#ff9900	2025-03-20
+1712	Tsugni	Цугни	42.107276	47.400902	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Upper Sirhwa	верхнесирхинский					Tsugni	sout3261	#FFF672	#ff9900	2025-03-20
+1713	Ayatsuri	Аяцури	42.07354	47.45121	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Urari	ураринский					Ayatsuri	sout3261	#FFF672	#ff9900	2025-03-20
+1714	Butulta	Бутулта	42.074641	47.440349	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Urari	ураринский					Butulta	sout3261	#FFF672	#ff9900	2025-03-20
+1715	Duakar	Дуакар	42.064159	47.460081	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Urari	ураринский					Duakar	sout3261	#FFF672	#ff9900	2025-03-20
+1716	Karkatsi	Каркаци	42.08389	47.46694	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Urari	ураринский					Karkatsi	sout3261	#FFF672	#ff9900	2025-03-20
+1717	Kishchamakhi	Кищамахи	42.051	47.44197	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Urari	ураринский					Kishchamakhi	sout3261	#FFF672	#ff9900	2025-03-20
+1718	Kurkimakhi	Куркимахи	42.0902127	47.47584	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Urari	ураринский					Kurkimakhi	sout3261	#FFF672	#ff9900	2025-03-20
+1719	Mikrasanamakhi	Микрасанамахи	42.0635083	47.4614044	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Urari	ураринский					Mikrasanamakhi	sout3261	#FFF672	#ff9900	2025-03-20
+1720	Mukrakari	Мукракари	42.06667	47.5	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Urari	ураринский					Mukrakari	sout3261	#FFF672	#ff9900	2025-03-20
+1721	Sumiya	Сумия	42.04344	47.45616	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Urari	ураринский					Sumiya	sout3261	#FFF672	#ff9900	2025-03-20
+1722	Sur-Surbachi	Сур-Сурбачи	42.0635083	47.4614044	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Urari	ураринский					Sur-Surbachi	sout3261	#FFF672	#ff9900	2025-03-20
+1723	Turakarimakhi	Туракаримахи	42.06	47.46667	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Urari	ураринский					Turakarimakhi	sout3261	#FFF672	#ff9900	2025-03-20
+1724	Uzralmakhi	Узралмахи	42.05782	47.44987	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Urari	ураринский					Uzralmakhi	sout3261	#FFF672	#ff9900	2025-03-20
+1725	Urari	Урари	42.0997	47.4569	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Urari	ураринский					Urari	sout3261	#FFF672	#ff9900	2025-03-20
+1726	Urkutamakhi-1	Уркутамахи-1	42.07093	47.52058	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Urari	ураринский					Urkutamakhi-1	sout3261	#FFF672	#ff9900	2025-03-20
+1727	Urkutamakhi-2	Уркутамахи-2	42.06667	47.53333	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Urari	ураринский					Urkutamakhi-2	sout3261	#FFF672	#ff9900	2025-03-20
+1728	Urkhnishcha	Урхнища	42.08278	47.50306	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Urari	ураринский					Urkhnishcha	sout3261	#FFF672	#ff9900	2025-03-20
+1729	Khulabarkmakhi	Хулабаркмахи	42.05455	47.45676	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Urari	ураринский					Khulabarkmakhi	sout3261	#FFF672	#ff9900	2025-03-20
+1730	Urtsaki	Урцаки	42.09916	47.56236	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Urtsaki	урцакинский					Urtsaki	sout3261	#FFF672	#ff9900	2025-03-20
+1731	Shalasi	Шаласи	42.1314542	47.5305984	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Sirhwa	сирхинское	Urtsaki	урцакинский					Shalasi	sout3261	#FFF672	#ff9900	2025-03-20
+1732	Tanty	Танты	42.1642	47.3167	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Tanti	тантынское							Tanty	sout3261	#FFF672	#ff9900	2025-03-20
+1733	Amukh	Амух	41.9142	47.5422	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Upper Vurqun	верхневуркунское	Amuq	амухский					Amukh	sout3261	#FFF672	#ff9900	2025-03-20
+1734	Anklukh	Анклух	41.92131	47.527334	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Upper Vurqun	верхневуркунское	Anklugh	анклухский					Anklukh	sout3261	#FFF672	#ff9900	2025-03-20
+1735	Khuduts	Худуц	41.96638	47.51297	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Upper Vurqun	верхневуркунское	Khuduts	худуцкий					Khuduts	sout3261	#FFF672	#ff9900	2025-03-20
+1736	Kunki	Кунки	41.95923	47.47173	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Upper Vurqun	верхневуркунское	Qunqi	кункинский					Kunki	sout3261	#FFF672	#ff9900	2025-03-20
 1737	Arkit	Аркит	41.947308	48.014025	Tabasaran	Lezgic	East Caucasian		Tabasaran	Northern Tabasaran	Севернотабасаранский	Akhti	Ахтынский					Arkit	taba1259	#339966	#00cc66	2025-03-20
 1738	Gurik	Гурик	41.962788	47.919474	Tabasaran	Lezgic	East Caucasian		Tabasaran	Northern Tabasaran	Севернотабасаранский	Churkulan	Чуркуланский					Gurik	taba1259	#339966	#00cc66	2025-03-20
 1739	Khurik	Хурик	41.98583	47.89861	Tabasaran	Lezgic	East Caucasian		Tabasaran	Northern Tabasaran	Севернотабасаранский	Khurik	Хурикский					Khurik	taba1259	#339966	#00cc66	2025-03-20
@@ -1882,40 +1882,40 @@ id	village	rus_village	lat	lon	lang	aff	family	standard	default_level	dialect_to
 1934	Khushet	Хушет	42.39721	45.77278	Tsez	Tsezic	East Caucasian		Tsez	Tsez	Цезский							Khushet	dido1241	#990033	#ff5050	2025-03-20
 1935	El'bok	Эльбок	42.183907	45.906506	Tsez	Tsezic	East Caucasian		Tsez	Tsez	Цезский							El'bok	dido1241	#990033	#ff5050	2025-03-20
 1936	Zemo-Alvani	Земо-Алвани	42.04444	45.30083	Tsova-Tush	Nakh	East Caucasian		Tsova-Tush									Zemo-Alvani	bats1242	#996633	#996633	2025-03-20
-1485	Dingo	Динго	42.35347	47.18138	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Dingo	darg1241	#ff9d49	#ff9900	2025-03-20
-1607	Aynikab	Айникаб	42.369307	47.216093	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Aynikab	darg1241	#ff9d49	#ff9900	2025-03-20
-1608	Alikhanmakhi	Алиханмахи	42.33194	47.26602	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Alikhanmakhi	darg1241	#ff9d49	#ff9900	2025-03-20
-1609	Allate	Аллате	42.369057	47.184036	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Allate	darg1241	#ff9d49	#ff9900	2025-03-20
-1610	Amalte	Амалте	42.42457	47.11047	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Amalte	darg1241	#ff9d49	#ff9900	2025-03-20
-1611	Ameterkmakhi	Аметеркмахи	42.33081	47.213539	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Ameterkmakhi	darg1241	#ff9d49	#ff9900	2025-03-20
-1612	Burtanimakhi	Буртанимахи	42.37097	47.14988	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Burtanimakhi	darg1241	#ff9d49	#ff9900	2025-03-20
-1613	Verkhniy Arshi	Верхний Арши	42.40006	47.12529	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Verkhniy Arshi	darg1241	#ff9d49	#ff9900	2025-03-20
-1614	Verkhniy Kamkamakhi	Верхний Камкамахи	42.32265	47.23945	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Verkhniy Kamkamakhi	darg1241	#ff9d49	#ff9900	2025-03-20
-1615	Verkhniy Ubekimakhi	Верхний Убекимахи	42.36823	47.24298	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Verkhniy Ubekimakhi	darg1241	#ff9d49	#ff9900	2025-03-20
-1616	Guladtymakhi	Гуладтымахи	42.34823	47.23927	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Guladtymakhi	darg1241	#ff9d49	#ff9900	2025-03-20
-1617	Gurgumakhi	Гургумахи	42.365716	47.1837551	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Gurgumakhi	darg1241	#ff9d49	#ff9900	2025-03-20
-1618	Inkuchimakhi	Инкучимахи	42.35029	47.17345	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Inkuchimakhi	darg1241	#ff9d49	#ff9900	2025-03-20
-1619	Irgali	Иргали	42.41281	47.13538	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Irgali	darg1241	#ff9d49	#ff9900	2025-03-20
-1620	Karekadani	Карекадани	42.35747	47.13098	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Karekadani	darg1241	#ff9d49	#ff9900	2025-03-20
-1621	Kulibukhna	Кулибухна	42.315839	47.18495	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Kulibukhna	darg1241	#ff9d49	#ff9900	2025-03-20
-1622	Kumamakhi	Кумамахи	42.35849	47.19214	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Kumamakhi	darg1241	#ff9d49	#ff9900	2025-03-20
-1623	Kundurkhe	Кундурхе	42.41424	47.11507	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Kundurkhe	darg1241	#ff9d49	#ff9900	2025-03-20
-1624	Kuppa	Куппа	42.4239	47.1231	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Kuppa	darg1241	#ff9d49	#ff9900	2025-03-20
-1625	Kurkabi	Куркаби	42.34194	47.20056	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Kurkabi	darg1241	#ff9d49	#ff9900	2025-03-20
-1626	Musultemakhi	Мусультемахи	42.362154	47.188584	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Musultemakhi	darg1241	#ff9d49	#ff9900	2025-03-20
-1627	Nizhniy Arshi	Нижний Арши	42.389598	47.141386	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Nizhniy Arshi	darg1241	#ff9d49	#ff9900	2025-03-20
-1628	Nizhniy Ubekimakhi	Нижний Убекимахи	42.392787	47.20548	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Nizhniy Ubekimakhi	darg1241	#ff9d49	#ff9900	2025-03-20
-1629	Novokare	Новокаре	43.6004911	46.9684815	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Novokare	darg1241	#ff9d49	#ff9900	2025-03-20
-1630	Novyy Kostek	Новый Костек	43.3354558	46.8220513	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Novyy Kostek	darg1241	#ff9d49	#ff9900	2025-03-20
-1631	Tarlimakhi	Тарлимахи	42.35587	47.17157	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Tarlimakhi	darg1241	#ff9d49	#ff9900	2025-03-20
-1632	Tashkapur	Ташкапур	42.40805	47.17095	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Tashkapur	darg1241	#ff9d49	#ff9900	2025-03-20
-1633	Tebekmakhi	Тебекмахи	42.3431	47.2072	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Tebekmakhi	darg1241	#ff9d49	#ff9900	2025-03-20
-1634	Telagu	Телагу	42.4448661	47.2878125	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Telagu	darg1241	#ff9d49	#ff9900	2025-03-20
-1635	Khadzhalmakhi	Хаджалмахи	42.4186	47.1817	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Khadzhalmakhi	darg1241	#ff9d49	#ff9900	2025-03-20
-1636	Khadzhalte	Хаджалте	42.381632	47.120099	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Khadzhalte	darg1241	#ff9d49	#ff9900	2025-03-20
-1637	Tsudakhar	Цудахар	42.3425	47.1606	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Tsudakhar	darg1241	#ff9d49	#ff9900	2025-03-20
-1638	Tsukhta	Цухта	42.34352	47.32396	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Tsukhta	darg1241	#ff9d49	#ff9900	2025-03-20
-1639	Chagni	Чагни	42.372986	47.218475	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Chagni	darg1241	#ff9d49	#ff9900	2025-03-20
+1485	Dingo	Динго	42.35347	47.18138	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Dingo	darg1241	#EE9A49	#ff9900	2025-03-20
+1607	Aynikab	Айникаб	42.369307	47.216093	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Aynikab	darg1241	#EE9A49	#ff9900	2025-03-20
+1608	Alikhanmakhi	Алиханмахи	42.33194	47.26602	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Alikhanmakhi	darg1241	#EE9A49	#ff9900	2025-03-20
+1609	Allate	Аллате	42.369057	47.184036	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Allate	darg1241	#EE9A49	#ff9900	2025-03-20
+1610	Amalte	Амалте	42.42457	47.11047	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Amalte	darg1241	#EE9A49	#ff9900	2025-03-20
+1611	Ameterkmakhi	Аметеркмахи	42.33081	47.213539	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Ameterkmakhi	darg1241	#EE9A49	#ff9900	2025-03-20
+1612	Burtanimakhi	Буртанимахи	42.37097	47.14988	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Burtanimakhi	darg1241	#EE9A49	#ff9900	2025-03-20
+1613	Verkhniy Arshi	Верхний Арши	42.40006	47.12529	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Verkhniy Arshi	darg1241	#EE9A49	#ff9900	2025-03-20
+1614	Verkhniy Kamkamakhi	Верхний Камкамахи	42.32265	47.23945	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Verkhniy Kamkamakhi	darg1241	#EE9A49	#ff9900	2025-03-20
+1615	Verkhniy Ubekimakhi	Верхний Убекимахи	42.36823	47.24298	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Verkhniy Ubekimakhi	darg1241	#EE9A49	#ff9900	2025-03-20
+1616	Guladtymakhi	Гуладтымахи	42.34823	47.23927	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Guladtymakhi	darg1241	#EE9A49	#ff9900	2025-03-20
+1617	Gurgumakhi	Гургумахи	42.365716	47.1837551	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Gurgumakhi	darg1241	#EE9A49	#ff9900	2025-03-20
+1618	Inkuchimakhi	Инкучимахи	42.35029	47.17345	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Inkuchimakhi	darg1241	#EE9A49	#ff9900	2025-03-20
+1619	Irgali	Иргали	42.41281	47.13538	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Irgali	darg1241	#EE9A49	#ff9900	2025-03-20
+1620	Karekadani	Карекадани	42.35747	47.13098	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Karekadani	darg1241	#EE9A49	#ff9900	2025-03-20
+1621	Kulibukhna	Кулибухна	42.315839	47.18495	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Kulibukhna	darg1241	#EE9A49	#ff9900	2025-03-20
+1622	Kumamakhi	Кумамахи	42.35849	47.19214	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Kumamakhi	darg1241	#EE9A49	#ff9900	2025-03-20
+1623	Kundurkhe	Кундурхе	42.41424	47.11507	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Kundurkhe	darg1241	#EE9A49	#ff9900	2025-03-20
+1624	Kuppa	Куппа	42.4239	47.1231	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Kuppa	darg1241	#EE9A49	#ff9900	2025-03-20
+1625	Kurkabi	Куркаби	42.34194	47.20056	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Kurkabi	darg1241	#EE9A49	#ff9900	2025-03-20
+1626	Musultemakhi	Мусультемахи	42.362154	47.188584	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Musultemakhi	darg1241	#EE9A49	#ff9900	2025-03-20
+1627	Nizhniy Arshi	Нижний Арши	42.389598	47.141386	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Nizhniy Arshi	darg1241	#EE9A49	#ff9900	2025-03-20
+1628	Nizhniy Ubekimakhi	Нижний Убекимахи	42.392787	47.20548	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Nizhniy Ubekimakhi	darg1241	#EE9A49	#ff9900	2025-03-20
+1629	Novokare	Новокаре	43.6004911	46.9684815	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Novokare	darg1241	#EE9A49	#ff9900	2025-03-20
+1630	Novyy Kostek	Новый Костек	43.3354558	46.8220513	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Novyy Kostek	darg1241	#EE9A49	#ff9900	2025-03-20
+1631	Tarlimakhi	Тарлимахи	42.35587	47.17157	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Tarlimakhi	darg1241	#EE9A49	#ff9900	2025-03-20
+1632	Tashkapur	Ташкапур	42.40805	47.17095	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Tashkapur	darg1241	#EE9A49	#ff9900	2025-03-20
+1633	Tebekmakhi	Тебекмахи	42.3431	47.2072	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Tebekmakhi	darg1241	#EE9A49	#ff9900	2025-03-20
+1634	Telagu	Телагу	42.4448661	47.2878125	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Telagu	darg1241	#EE9A49	#ff9900	2025-03-20
+1635	Khadzhalmakhi	Хаджалмахи	42.4186	47.1817	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Khadzhalmakhi	darg1241	#EE9A49	#ff9900	2025-03-20
+1636	Khadzhalte	Хаджалте	42.381632	47.120099	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Khadzhalte	darg1241	#EE9A49	#ff9900	2025-03-20
+1637	Tsudakhar	Цудахар	42.3425	47.1606	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Tsudakhar	darg1241	#EE9A49	#ff9900	2025-03-20
+1638	Tsukhta	Цухта	42.34352	47.32396	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Tsukhta	darg1241	#EE9A49	#ff9900	2025-03-20
+1639	Chagni	Чагни	42.372986	47.218475	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Chagni	darg1241	#EE9A49	#ff9900	2025-03-20
 1162	Tukita	Тукита	42.57056	46.37278	Karata-Tukita	Avar-Andic	East Caucasian		Tukita									Tukita	kara1474	#666699	#9900ff	2025-03-20
 1937	Nic	Нидж	40.94	47.66833	Udi	Lezgic	East Caucasian		Udi	Nizh	Ниджский							Nic	udii1243	#004d00	#00cc66	2025-03-20
 1938	Zinobiani	Зинобиани	41.89694	45.93306	Udi	Lezgic	East Caucasian		Udi	Vartashen	Варташенский							Zinobiani	udii1243	#004d00	#00cc66	2025-03-20
@@ -1932,9 +1932,9 @@ id	village	rus_village	lat	lon	lang	aff	family	standard	default_level	dialect_to
 31	Tsibilta	Цибилта	42.74322	46.24311	Andi	Avar-Andic	East Caucasian		Upper Andi									Tsibilta	uppe1485	#003366	#9900ff	2025-03-20
 32	Chanko	Чанко	42.717936	46.246417	Andi	Avar-Andic	East Caucasian		Upper Andi									Chanko	uppe1485	#003366	#9900ff	2025-03-20
 33	Shivor	Шивор	42.714662	46.256637	Andi	Avar-Andic	East Caucasian		Upper Andi									Shivor	uppe1485	#003366	#9900ff	2025-03-20
-1640	Butri	Бутри	42.1791838	47.4283254	North-Central Dargwa	Dargwa	East Caucasian		Usisha-Butri	Usisha-Butri	усиша-бутринское	Butri	бутринский					Butri	darg1241	#ff9d4e	#ff9900	2025-03-20
-1641	Geba	Геба	42.21527	47.39266	North-Central Dargwa	Dargwa	East Caucasian		Usisha-Butri	Usisha-Butri	усиша-бутринское	Heba	гибинский					Geba	darg1241	#ff9d4e	#ff9900	2025-03-20
-1642	Ginta	Гинта	42.2042	47.4186	North-Central Dargwa	Dargwa	East Caucasian		Usisha-Butri	Usisha-Butri	усиша-бутринское	Hinta	гинтинский					Ginta	darg1241	#ff9d4e	#ff9900	2025-03-20
-1643	Kurkimakhi	Куркимахи	42.2154493	47.4207726	North-Central Dargwa	Dargwa	East Caucasian		Usisha-Butri	Usisha-Butri	усиша-бутринское	Hinta	гинтинский					Kurkimakhi	darg1241	#ff9d4e	#ff9900	2025-03-20
-1644	Zilmukmakhi	Зильмукмахи	42.28483	47.3958	North-Central Dargwa	Dargwa	East Caucasian		Usisha-Butri	Usisha-Butri	усиша-бутринское	Ussalashi	усишинский					Zilmukmakhi	darg1241	#ff9d4e	#ff9900	2025-03-20
-1645	Usisha	Усиша	42.2511	47.3928	North-Central Dargwa	Dargwa	East Caucasian		Usisha-Butri	Usisha-Butri	усиша-бутринское	Ussalashi	усишинский					Usisha	darg1241	#ff9d4e	#ff9900	2025-03-20
+1640	Butri	Бутри	42.1791838	47.4283254	North-Central Dargwa	Dargwa	East Caucasian		Usisha-Butri	Usisha-Butri	усиша-бутринское	Butri	бутринский					Butri	darg1241	#ffa133	#ff9900	2025-03-20
+1641	Geba	Геба	42.21527	47.39266	North-Central Dargwa	Dargwa	East Caucasian		Usisha-Butri	Usisha-Butri	усиша-бутринское	Heba	гибинский					Geba	darg1241	#ffa133	#ff9900	2025-03-20
+1642	Ginta	Гинта	42.2042	47.4186	North-Central Dargwa	Dargwa	East Caucasian		Usisha-Butri	Usisha-Butri	усиша-бутринское	Hinta	гинтинский					Ginta	darg1241	#ffa133	#ff9900	2025-03-20
+1643	Kurkimakhi	Куркимахи	42.2154493	47.4207726	North-Central Dargwa	Dargwa	East Caucasian		Usisha-Butri	Usisha-Butri	усиша-бутринское	Hinta	гинтинский					Kurkimakhi	darg1241	#ffa133	#ff9900	2025-03-20
+1644	Zilmukmakhi	Зильмукмахи	42.28483	47.3958	North-Central Dargwa	Dargwa	East Caucasian		Usisha-Butri	Usisha-Butri	усиша-бутринское	Ussalashi	усишинский					Zilmukmakhi	darg1241	#ffa133	#ff9900	2025-03-20
+1645	Usisha	Усиша	42.2511	47.3928	North-Central Dargwa	Dargwa	East Caucasian		Usisha-Butri	Usisha-Butri	усиша-бутринское	Ussalashi	усишинский					Usisha	darg1241	#ffa133	#ff9900	2025-03-20
