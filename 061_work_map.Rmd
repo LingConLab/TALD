@@ -1,5 +1,5 @@
 ---
-title: Expression of the sense ‘to work’ (Maps & Data)
+title: Expression of the sense "to work" (Maps & Data)
 author: Svetlana Zemicheva, Konstantin Filatov
 date: 'Last update: March 2025'
 bibliography: ./data/orig_bib/work.bib
@@ -24,7 +24,7 @@ library(RefManageR)
 BibOptions(check.entries = FALSE, style = 'text', first.inits = FALSE, bib.style = 'authoryear')
 article_citation <- BibEntry(bibtype = 'Incollection', 
  key='zemicheva2025',
- title='Expression of the sense ‘to work’ (Maps & Data)',
+ title='Expression of the sense "to work" (Maps & Data)',
  author='Svetlana Zemicheva and Konstantin Filatov',
  year='2025',
  editor= 'Daniel, Michael  and Filatov, Konstantin and Maisak, Timur and Moroz, George and Mukhin, Timofey and Naccarato, Chiara and Verhees, Samira',

@@ -53,11 +53,11 @@ walk(list.files("data/orig_bib_tsv", full.names = TRUE), function(bib_tsv){
 })
 
 readxl::read_xlsx("data/biblib.xlsx", 
-                  col_types = c(rep("text", 4),
+                  col_types = c(rep("text", 5),
                                 "numeric", # YEAR 
-                                rep("text", 9),
+                                rep("text", 10),
                                 "numeric", # VOLUME
-                                rep("text", 8))) |> 
+                                rep("text", 7))) |> 
   mutate(TITLE = ifelse(is.na(TITLE_TRANSLATION), 
                         TITLE, 
                         str_c(TITLE, " [", TITLE_TRANSLATION, "]")),
@@ -180,7 +180,7 @@ library(lingtypology)
 
 ## {-}
 
-Visualization 1 (**General datapoints**) and 3 (**Extrapolated data**) are both based on the principle 'one value – one language'. Visualization 2 (**Data granularity**) takes into account dialect levels. On the **Data granularity** maps you can see the village and the data type (village data, general language data, etc.) when you click on a dot. Hover over or click on a dot to see the language. By unticking the box “show languages” you can remove the inner dots and visualize the distribution of different values in the area without the distraction of genealogical information.
+Visualization 1 (**General datapoints**) shows no more than one dot per language. Visualization 2 (**Extrapolated data**) represents each language as a cluster of dots, which correspond to villages where a certain language is spoken. Visualization 3 (**Data granularity**) takes into account dialect levels. On the **Data granularity** maps you can see the village and the data type (village data, general language data, etc.) when you click on a dot. Hover over or click on a dot to see the language. By unticking the box “show languages” you can remove the inner dots and visualize the distribution of different values in the area without the distraction of genealogical information.
 
 ```{r}
 ",

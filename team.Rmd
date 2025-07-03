@@ -15,15 +15,15 @@ The project was designed by [Michael Daniel](https://orcid.org/0000-0002-2091-57
 
 [The TALD project](https://ilcl.hse.ru/en/projects/) would not have been realized in its present form without the advice and assistance of a number of people. People who have contributed to the atlas in the past or are currently working on a topic are listed below.
 
-[Chiara Naccarato](https://orcid.org/0000-0003-0017-6316) coordinates the whole project and the workshop for students.
+[Chiara Naccarato](https://orcid.org/0000-0003-0017-6316) and [George Moroz](https://orcid.org/0000-0003-1990-6083) coordinate the project and the workshop for students.
 
-[George Moroz](https://orcid.org/0000-0003-1990-6083) is responsible for the TALD website.
+[George Moroz](https://orcid.org/0000-0003-1990-6083) and [Irina Politova](https://orcid.org/0009-0006-8265-7293) are responsible for the TALD website and the solving of technical issues.
 
 [Chiara Naccarato](https://orcid.org/0000-0003-0017-6316) and [Konstantin Filatov](https://orcid.org/0000-0002-0706-9161) are responsible for chapter editing.
 
 [Elena Shvedova](https://orcid.org/0000-0002-1823-1582) is responsible for the TALD archive.
 
-Photos presented on the site are taken by [Michael Daniel](https://orcid.org/0000-0002-2091-5713), [Konstantin Filatov](https://orcid.org/0000-0002-0706-9161), [Timur Maisak](https://orcid.org/0000-0001-6794-0978), and [Timofey Mukhin](https://orcid.org/0000-0002-4637-0627).
+Photos presented on the site are taken by [Michael Daniel](https://orcid.org/0000-0002-2091-5713), [Konstantin Filatov](https://orcid.org/0000-0002-0706-9161), [Timur Maisak](https://orcid.org/0000-0001-6794-0978), [Timofey Mukhin](https://orcid.org/0000-0002-4637-0627), and [George Moroz](https://orcid.org/0000-0003-1990-6083).
 
 ## Contact us
 
@@ -60,6 +60,8 @@ features %>%
          last_name = str_squish(last_name)) |> 
   arrange(last_name) |> 
   select(-last_name) |> 
+  rename(Author = author,
+         Chapters = chapters) |> 
   DT::datatable(filter = 'top', 
                 escape = FALSE,
                 rownames = FALSE,

@@ -56,7 +56,7 @@ For map visualizations we use the [Lingtypology package](https://github.com/rope
 
 ### General datapoints
 
-This is the more basic visualization, which shows one dot on the map for each language in the sample. The inside of each dot is colored by language. Languages from the same group have similar colors (e.g., all Lezgic languages have some shade of green). Hover over a dot to see the name of the language, and click to view a popup with a link to the language’s page in the Glottolog database and the name of the village. The color of the outer dots indicates the value of a linguistic feature. By unticking the box "show languages" you can remove the inner dots and visualize the distribution of different values in the area without the distraction of genealogical information.
+This is the more basic visualization, which shows one dot on the map for each language in the sample. The inside of each dot is colored by language. Languages from the same group have similar colors (e.g., all Lezgic languages have some shade of green). Hover over a dot to see the name of the language, and click to view a popup with a link to the language’s page in the Glottolog database. The color of the outer dots indicates the value of a linguistic feature. By unticking the checkbox "show languages" you can remove the inner dots and visualize the distribution of different values in the area without the distraction of genealogical information.
 
 ```{r}
 library(tidyverse)
@@ -70,7 +70,7 @@ read_tsv("data/orig_table/morning_greetings.tsv", show_col_types = FALSE, guess_
                           type == 'dialect_nt3' ~ 'non top level 3 dialect',
                           type == 'village' ~ 'village dialect')) |> 
   filter(map != 'no') ->
-feature_dataset
+  feature_dataset
 
 read_tsv('data/tald_villages.csv', show_col_types = FALSE, guess_max = 2000)  |>
   select(village, rus_village, lat, lon, gltc_lang, aff, family, standard, default_level, dialect_toplevel, dialect_nt1, dialect_nt2, dialect_nt3, village_dialect, lang_col, aff_col) |> 
@@ -122,6 +122,7 @@ feature_dataset |>
 map.feature(general_datapoints_map$lang4map,
             latitude = general_datapoints_map$lat,
             longitude = general_datapoints_map$lon,
+            label = general_datapoints_map$language,
             features = general_datapoints_map$value1,
             title = general_datapoints_map$value1_name[1],
             color = 'magma',
@@ -138,6 +139,7 @@ map.feature(general_datapoints_map$lang4map,
               latitude = general_datapoints_map$lat,
               longitude = general_datapoints_map$lon,
               features = general_datapoints_map$language,
+              label = general_datapoints_map$language,
               color = general_datapoints_map$lang_col,
               tile = 'Esri.WorldGrayCanvas',
               legend = FALSE,
@@ -149,12 +151,11 @@ map.feature(general_datapoints_map$lang4map,
 
 ### Extrapolated data
 
-This visualization represents each language as a cluster of dots, which correspond to villages where a certain language is spoken (this visualization makes use of the [East Caucasian villages dataset](https://github.com/sverhees/master_villages)). 
+This visualization represents each language as a cluster of dots, which correspond to villages where a certain language is spoken. This visualization makes use of the [East Caucasian villages dataset](https://raw.githubusercontent.com/LingConLab/TALD/refs/heads/master/data/tald_villages.csv) that contains information on village names, geographical coordinates, and genealogical classification (including dialects). 
 
 A benefit of this type of visualization is that it shows the size and boundaries of speech communities (as opposed to maps based on abstract general datapoints). Its main drawback is that it involves a lot of generalization. We do not have information on each village variety of the languages in our sample, so we extrapolate the information we have on a certain variety to all the villages where they are spoken. In doing so, we risk overgeneralizing information and erasing possible dialectal differences.
 
-Note, however, that extrapolation is performed in a bottom-up fashion, so if we have data for a certain village variety that differs from other varieties of the same dialect group for a specific feature, we do not extrapolate data to that village. Let us consider the feature "Number of noun classes" in Andi varieties. In this case we have general (dialect-level) information for Lower Andi (where three noun classes are found) and Upper Andi (in which we can distinguish five noun classes). This distinction will be kept on the map, i.e., Lower and Upper Andi villages will be filled with different colors. In addition, we know that Rikvani Andi differs from the other Upper Andi varieties in that it features six noun classes. In this case we do not extrapolate the general information on Upper Andi to the village of Rikvani because we have more precise information for that village, which will be filled on the map with a different color as compared to both Lower and Upper Andi. 
-
+Note, however, that extrapolation is performed in a bottom-up fashion, so if we have data for a certain village variety that differs from other varieties of the same dialect group for a specific feature, we do not extrapolate data to that village.
 
 ```{r}
 all_data |> 
@@ -184,6 +185,7 @@ map.feature(all_data_filtered$lang4map,
               latitude = all_data_filtered$lat,
               longitude = all_data_filtered$lon,
               features = all_data_filtered$language,
+              label = all_data_filtered$language,
               color = all_data_filtered$lang_col,
               tile = 'Esri.WorldGrayCanvas',
               legend = FALSE,
@@ -197,11 +199,11 @@ map.feature(all_data_filtered$lang4map,
 
 ### Data granularity
 
-The data granularity visualization shows the level of accuracy for each point in a dataset, e.g., "village dialect" indicates that we had information about the feature for a specific village variety, while "language" means that we only had information for the language in general. Sometimes information is available for a certain dialect group within a specific language. For such cases, we use the labels "dialect_toplevel" (if information is available for a macro-group like Southern Avar), "dialect_nt1", where "nt1" stands for "non-toplevel 1" (if information is available for a lower-level dialect group like Zaqatala < Southern Avar), "dialect_nt2", where "nt2" stands for "non-toplevel 2" (if information is available for a dialect group of an even lower level like Balakən < Zaqatala < Southern Avar), and so on.
+In the data granularity visualization one dot on the map corresponds to one datapoint collected by the author. Each dot is colored according to the genealogical classification. The possibles values are: language, top level dialect, non-top level 1 dialect, non-top level 2 dialect, non-top level 3 dialect, and village dialect. For example, "village dialect" indicates that we had information about the feature for a specific village variety, while "language" means that we only had information for the language in general.
 
 This allows the user to see what kind of data underlies the default visualization.
 
-Our goal for the Atlas is to continue adding new data to existing datasets and thus gradually improve its coverage and accuracy.
+Our aim for the Atlas is to continue adding new data to existing datasets and thus gradually improve its coverage and accuracy.
 
 ```{r}
 feature_dataset |> 
@@ -245,13 +247,13 @@ map.feature(data_granularity_map$lang4map,
 
 The chapters and datasets in the Atlas are created by researchers specializing in the languages of Daghestan as well as by students of linguistics with no prior knowledge of the area and the languages spoken there.
 
-If you would like to contribute a chapter and / or data to the Atlas because you are studying a certain topic in the languages of Daghestan, or you are a student looking for an internship, do not hesitate to contact us! You can find our contact info under [Team](http://lingconlab.ru/dagatlas/team.html).
+If you would like to contribute a chapter and / or data to the Atlas because you are studying a certain topic in the languages of Daghestan, or you are a student looking for an internship, do not hesitate to contact us! You can find our contact info under [Team](team.html).
 
 To get a better idea of our methodology and what you will have to do if you decide to become a contributor, see our [Contributor Manual](https://lingconlab.github.io/TALD_manual/).
 
 ## Access to the data
 
-The data can be accessed through the Atlas interface, or downloaded directly from our [GitHub page](https://github.com/LingConLab/TALD/tree/master/data/orig_table). For reasons of space, on the Atlas interface we show filtered versions of the original databases, which only include the main information displayed on maps. However, both filtered and full versions of the databases are available for downloading. Full versions including more detailed information for each observation in the database (e.g., specific morphemes or wordforms, examples of their occurrence in texts with glosses and translations) can be downloaded by clicking on the download button, or by accessing our [GitHub page](https://github.com/LingConLab/TALD/tree/master/data/orig_table).     
+The data can be accessed through the Atlas interface, or downloaded directly from our [GitHub page](https://github.com/LingConLab/TALD/tree/master/data/orig_table). For reasons of space, on the Atlas interface we show filtered versions of the original databases, which only include the main information displayed on maps. However, both filtered and full versions of the databases are available for downloading. Full versions including more detailed information for each observation in the database (e.g., specific morphemes or wordforms, examples of their occurrence in texts with glosses and translations) can be downloaded by clicking on the download button, or by accessing our [GitHub page](https://github.com/LingConLab/TALD/tree/master/data/orig_table).
 
 ## How to cite{.tabset .tabset-fade .tabset-pills} 
 
@@ -260,10 +262,10 @@ knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, comment = 
 library(RefManageR)
 BibOptions(check.entries = FALSE, style = 'text', bib.style = 'authoryear')
 article_citation <- BibEntry(bibtype = 'Book', 
- key='tald2022',
- title='Typological Atlas of the Languages of Daghestan (TALD), v. 1.0.0',
+ key='tald2025',
+ title='Typological Atlas of the Languages of Daghestan (TALD), v. 2.0.0',
  author='Daniel, Michael and Konstantin Filatov and Timur Maisak and George Moroz and Timofey Mukhin and Chiara Naccarato and Samira Verhees',
- year='2022',
+ year='2025',
  publisher='Linguistic Convergence Laboratory, NRU HSE',
  address='Moscow',
  url='http://lingconlab.ru/dagatlas',

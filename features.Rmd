@@ -13,36 +13,39 @@ library(tidyverse)
 library(DT)
 
 # table with features
-readxl::read_xlsx("data/contributors.xlsx") %>% 
+readxl::read_xlsx("data/contributors.xlsx") |>
   filter(render == 1) ->
   features
 
 features$id_0 <- sprintf(paste0("%0", nchar(max(features$id))+1, "d_"), 
                          features$id)
 
-features %>% 
-  filter(!is.na(major_topic_text)) %>% 
+features |>
+  filter(!is.na(major_topic_text)) |>
   mutate(major_topic_linked = str_c("<a href='",
                                     str_c(filename),
                                     ".html'>",
                                     major_topic,
-                                    "</a>")) %>% 
+                                    "</a>")) |>
   select(major_topic, major_topic_linked) ->
   major_topics
 
-features %>% 
-  filter(is.na(major_topic_text)) %>% 
+features |>
+  filter(is.na(major_topic_text)) |>
   mutate(feature = str_c(title, 
                          "<br><a href='",
                          str_c(id_0, filename),
                          ".html'>Chapter</a>|<a href='",
                          str_c(id_0, filename),
-                         "_map.html'>Maps&Data</a>")) %>% 
-  select(feature, author, major_topic, area) %>% 
-  left_join(major_topics) %>% 
-  select(-major_topic) %>% 
-  rename(`major topic` = major_topic_linked) %>% 
-  mutate(area = factor(area)) %>% 
+                         "_map.html'>Maps&Data</a>")) |>
+  select(feature, author, major_topic, domain) |>
+  left_join(major_topics) |>
+  select(-major_topic) |>
+  rename(`Major topic` = major_topic_linked) |>
+  mutate(domain = factor(domain)) |>
+  rename(Feature = feature,
+         Authore = author,
+         Domain = domain) |> 
   DT::datatable(filter = 'top', 
                 escape = FALSE,
                 rownames = FALSE,

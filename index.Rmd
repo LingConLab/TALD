@@ -15,10 +15,10 @@ knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, comment = 
 library(RefManageR)
 BibOptions(check.entries = FALSE, style = 'text', bib.style = 'authoryear')
 article_citation <- BibEntry(bibtype = 'Book', 
- key='tald2022',
- title='Typological Atlas of the Languages of Daghestan (TALD), v. 1.0.0',
+ key='tald2025',
+ title='Typological Atlas of the Languages of Daghestan (TALD), v. 2.0.0',
  author='Daniel, Michael and Konstantin Filatov and Timur Maisak and George Moroz and Timofey Mukhin and Chiara Naccarato and Samira Verhees',
- year='2022',
+ year='2025',
  publisher='Linguistic Convergence Laboratory, NRU HSE',
  address='Moscow',
  url='http://lingconlab.ru/dagatlas',
