@@ -44,7 +44,7 @@ features |>
   rename(`Major topic` = major_topic_linked) |>
   mutate(domain = factor(domain)) |>
   rename(Feature = feature,
-         Authore = author,
+         Author = author,
          Domain = domain) |> 
   DT::datatable(filter = 'top', 
                 escape = FALSE,

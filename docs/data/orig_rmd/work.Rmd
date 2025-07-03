@@ -1,0 +1,74 @@
+```{r, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, comment = '')
+library(lingglosses)
+```
+
+## Introduction
+
+Action as a semantic class in East Caucasian languages can be expressed in several ways, the most important of which are verbs (@one) and light verb constructions (@two).
+
+(@one) Alik [@authier2009: 269]
+
+```{r}
+gloss_example(transliteration = "jaj-ca ʁala **išlamiš** ša-de-r, halazan gaši i-nkan-eb-jin",
+              glosses = "summer-IN well working be-NEG.PRS-M therefore hungry PV-remain-HPL-1PL.INCL",
+              free_translation = "(He) didn't work well in the summer, that's why we're hungry.")
+```
+
+(@two) Ingush [@nichols2011: 185]
+
+```{r}
+gloss_example(transliteration = "siexan berrigacha naaxa **bolx** **byr**",
+              glosses = "yesterday B.all.OBL people.ERG work B.do.W.PST",
+              free_translation = "Yesterday all the people worked")
+```
+
+Our goal is to analyze the variation between verbs and light verb constructions lexifying the sense[^1] ‘to work’ in the languages of Daghestan and their areal distribution.
+
+[^1]: In this Chapter, we follow the approach suggested in [@francois2008: 167] and use the term “sense” to refer to ‘semantic atoms’, which allows us to compare different languages at the lexical level.
+
+We collected expressions with the sense 'to work' from available dictionaries and grammars and then compared them to the verb ‘to do’ and the noun ‘work’. The light verb construction we are interested in consists of two elements: the noun ‘work’ and the light verb ‘to do’ (see example 2).
+
+Our sample includes data from 45 idioms. Among them, Hinuq and Tsez (<Tsezic) are the only languages that realize both possibilities (we will discuss them below in the “Results” section).
+
+
+## Results
+
+We found out that the variation between lexical and constructional expressions can be described in terms of four labels. Besides light verb constructions, we identified three groups of lexical verb expressions: 1) the verb ‘to do’, 2) a verb with the same root as the verb ‘to do’,[^2] 3) a dedicated verb.
+
+[^2]: In such cases we can speak about colexification – “the capacity, for two senses, to be lexified by the same lexeme in synchrony” [@francois2008: 171].
+
+Light verb construction is a relatively popular way to express the sense ‘to work’. It is found in 12 idioms, including Chechen (<Nakh) *bolh b-an* (`r add_gloss("work B-do:INF")`) [@karasaevmaciev1978: 500] and Rutul (<Lezgic) *gʷalaχ w-ɨʔɨ-n* (`r add_gloss("work 3-do.PFV-NMLZ")` [@ismailova2011: 253]. Interestingly, in Judeo-Tat (<Iranian) two different constructions are possible: *žofo keši-re* `r add_gloss("work pull-INF")`
+and *kor sox-tə* (`r add_gloss("work do-INF")`) [@izgijaeva2005: 362]; we can suggest some dialect variation here, since the latter is found in the Gubin dialect [@naftaliev2016: 452].
+
+Colexification with the verb ‘to do’, as in Kubachi (<Dargwa) *b-iːq'i-j* (`r add_gloss("N-do-INF")`). [@magomedovsaidovakutta2017: 40] is a rare type, found only in two idioms.
+Verbs with the same root as the verb ‘to do’ are used in three Andic languages, e.g. Tukita (<Karata) *gihab-edu* (`r add_gloss("work-INF")`) [@magomedovaxalidova2001: 397] cf. *gih-edu* (`r add_gloss("do-INF")`) ‘to do’ [@khalilov2023].
+
+The most common strategy is using a dedicated verb, e.g. *liχa-s* (`r add_gloss("work-INF")`) in Agul (<Lezgic) [@ramazanov2010: 444] or *halt'un-nu* (`r add_gloss("work-INF")`) in Andi [@alisultanova2009: 185]. It was found in 29 idioms. In many cases the action may also be expressed by a noun, often with the same root, cf.: *işlə-mək* (`r add_gloss("work-INF")`) – *iş*, *işləmə* (work, noun) in Azerbaijani (<Oghuz) [@tagiyev2006b: 612; 601] and other Turkic languages, or *ħaltʼj-la* (`r add_gloss("work-INF")`) – *ħaltʼj* (work, noun) in Lower Gakvari (<Chamalal) [@magomedova1999: 283] and some other Andic languages. However, we do not aim neither to describe such cases systematically, nor to reconstruct the direction of the derivation.[^3]
+
+[^3]: Information about the noun “work” in East Caucasian languages is provided in the “Intercontinental Dictionary Series” database (https://ids.clld.org/).
+
+Within the verb strategy, only Standard Dargwa has more then one label: a form colexified with ‘to do’ *b-ir-es* (`r add_gloss("N-do-INF")`) [@yusupov2014: 159] and the dedicated verb *b-uz-es* (`r add_gloss("N-work-INF")`) [@yusupov2014: 170].
+
+Lexical and constructional strategies coexist in two languages: Hinuq and Tsez (<Tsezic).
+Hinuq has both the dedicated verb *b-eddoː-z* (`r add_gloss("N-work-PURP")`) and the light verb construction *ħalt’i b-u-wa* (`r add_gloss("work N-do-INF")`) [@xalilovisakov2005: 889]. Tsez has both the dedicated verb *b-ejno-da* (`r add_gloss("N-work-INF")`) [@abdulaevkhalilov2023: 73] and the light verb construction *ħalt’i b-o-da* (`r add_gloss("work N-do-INF")`) [@xalilov1999: 499].
+
+
+## Distribution
+
+For the distribution of the strategies see Maps. For the three languages in which more than one label is possible, namely Standard Dargwa, Hinuq, and Tsez, we consider the dedicated verb strategy as the default variant, and do not present it on the map.
+
+Colexification with the verb ‘to do’ is used in Nogai (<Kipchak) and Kubachi (<Dargwa); it is also found in Standard Dargwa.
+
+Verbs with the same root as the verb ‘to do’ are found exclusively in three closely related Andic idioms: Botlikh, Godoberi, and Tukita.
+For the rest of Andic and Dargwa languages, the dedicated verb strategy is the typical one. It is also found in some Lezgic (Agul, Archi), and Tsezic (Hunzib, Khwarshi) languages spoken in the center of Daghestan.
+
+Light verb constructions are present in most of Lezgic, Tsezic, and Nakh languages, as well as in Khinalug and Judeo-Tat (<Iranian). Some dedicated verbs found in the languages of these groups were probably borrowed, e.g. *mušebadd-aː* (`r add_gloss("work-INF")`) in Tsova-Tush (<Nakh) [@desheriev1953: 12], a language spoken in Georgia, cf. *muša-oba* (`r add_gloss("work-ABSTR")`) [@tsibakhashvili1978: 192] in Georgian. Another example is represented by the verbs components *işlamiş* (`r add_gloss("working")`) in Alik (<Kryz<Lezgic) [@authier2009: 258] and *işlemiş xe-s* (`r add_gloss("working become-INF")`) in Mishlesh (<Tsakhur<Lezgic) [@kibrik1999: 898]. Since both idioms are in contact with Azerbaijani, we can suggest that these forms are borrowings cf. Azerbaijani *işlə-mək* (`r add_gloss("work-INF")`) [@tagiyev2006b: 612].
+
+## List of glosses {-}
+
+```{r}
+make_gloss_list()
+```
+
+## References {-}

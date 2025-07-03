@@ -1,0 +1,59 @@
+id	language	idiom	type	genlang_point	map	feature	value1_name	value1	source	page	contributor	date
+1	Qushan Agul	Burshag	village	yes	yes	Presence of umlaut vowels	Presence of umlaut vowels	attested	kibrikkodzasov1990	340--341	Viola Ivanova	2017.05.06
+2	Agul	Huppuq'	dialect_toplevel	yes	yes	Presence of umlaut vowels	Presence of umlaut vowels	attested	maisakganenkov2016		George Moroz	2021.10.04
+3	Northern Akhvakh	Northern Akhvakh	language	yes	yes	Presence of umlaut vowels	Presence of umlaut vowels	not attested	creisselsdraft2020		George Moroz	2021.10.04
+4	Northern Akhvakh	Tad-Magitl'	village	no	yes	Presence of umlaut vowels	Presence of umlaut vowels	not attested	kibrikkodzasov1990	322--323	Viola Ivanova	2017.05.06
+5	Upper Andi	Andi	village	no	yes	Presence of umlaut vowels	Presence of umlaut vowels	not attested	kibrikkodzasov1990	321	George Moroz	2017.05.06
+6	Upper Andi	Zilo	village	yes	yes	Presence of umlaut vowels	Presence of umlaut vowels	not attested	kayeetaldraft2020		George Moroz	2021.10.04
+7	Archi	Archi	language	yes	yes	Presence of umlaut vowels	Presence of umlaut vowels	not attested	kibrik1994a	303, 304	George Moroz	2021.10.04
+8	Archi	Archi	language	no	yes	Presence of umlaut vowels	Presence of umlaut vowels	not attested	kibrikkodzasov1990	335--336	Viola Ivanova	2017.05.06
+9	Eastern Armenian	Eastern Armenian	language	yes	yes	Presence of umlaut vowels	Presence of umlaut vowels	not attested	dum-tragut2009	13	George Moroz	2021.10.04
+10	Avar	Chadakolob	village	no	yes	Presence of umlaut vowels	Presence of umlaut vowels	not attested	kibrikkodzasov1990	320	Viola Ivanova	2017.05.06
+11	Avar	Standard Avar	language	yes	yes	Presence of umlaut vowels	Presence of umlaut vowels	not attested	alekseevataev1997	36	George Moroz	2021.10.04
+12	Azerbaijani	Standard Azerbaijani	language	yes	yes	Presence of umlaut vowels	Presence of umlaut vowels	attested	shiralievsevortyan1971	7	George Moroz	2021.10.04
+13	Bagvalal	Kvanada	village	yes	yes	Presence of umlaut vowels	Presence of umlaut vowels	not attested	kibrik2001	35--46	George Moroz	2021.10.04
+14	Bezhta	Bezhta	default_level	yes	yes	Presence of umlaut vowels	Presence of umlaut vowels	attested	comrieetal2015	42, 41	George Moroz	2021.10.04
+15	Bezhta	Tlyadal	village	no	yes	Presence of umlaut vowels	Presence of umlaut vowels	attested	kibrikkodzasov1990	330	Viola Ivanova	2017.05.06
+16	Botlikh	Botlikh	village	yes	yes	Presence of umlaut vowels	Presence of umlaut vowels	not attested	alexeyevverheesdraft2020		George Moroz	2021.10.04
+17	Budukh	Budukh	language	yes	yes	Presence of umlaut vowels	Presence of umlaut vowels	attested	kibrikkodzasov1990	345	George Moroz	2017.05.06
+18	Budukh	Budukh	language	no	no	Presence of umlaut vowels	Presence of umlaut vowels	attested	talibov2007	37	George Moroz	2021.10.04
+19	Gigatli	Gigatli	language	yes	yes	Presence of umlaut vowels	Presence of umlaut vowels	not attested	kibrikkodzasov1990	324	George Moroz	2017.05.06
+20	Chamalal	Upper Gakvari	dialect_toplevel	yes	yes	Presence of umlaut vowels	Presence of umlaut vowels	not attested	bokarev1949a	13	George Moroz	2021.10.04
+21	Chechen	Standard Chechen	language	yes	yes	Presence of umlaut vowels	Presence of umlaut vowels	attested	nichols1994	5, 8, 7	George Moroz	2021.10.04
+22	Chirag	Chirag	language	yes	yes	Presence of umlaut vowels	Presence of umlaut vowels	not attested	kibrikkodzasov1990	334	George Moroz	2017.05.06
+23	Kajtag	Kajtag	language	yes	yes	Presence of umlaut vowels	Presence of umlaut vowels	not attested	temirbulatova2004	36	George Moroz	2021.10.04
+24	Mehweb	Mehweb	language	yes	yes	Presence of umlaut vowels	Presence of umlaut vowels	not attested	moroz2019	22--34	George Moroz	2021.10.04
+25	Southwestern Dargwa	Tanti	dialect_toplevel	yes	yes	Presence of umlaut vowels	Presence of umlaut vowels	not attested	sumbatovalander2014	40	George Moroz	2021.10.04
+26	Georgian	Standard Georgian	language	yes	yes	Presence of umlaut vowels	Presence of umlaut vowels	not attested	hewitt1995	21	George Moroz	2021.10.04
+27	Godoberi	Godoberi	language	yes	yes	Presence of umlaut vowels	Presence of umlaut vowels	not attested	morozetaldraft2021	2	George Moroz	2021.10.04
+28	Hinuq	Hinuq	language	yes	yes	Presence of umlaut vowels	Presence of umlaut vowels	attested	forker2013	23, 25--26, 26--27	George Moroz	2021.10.04
+29	Hinuq	Hinuq	language	no	yes	Presence of umlaut vowels	Presence of umlaut vowels	attested	kibrikkodzasov1990	329	George Moroz	2017.05.06
+30	Hunzib	Hunzib	language	yes	yes	Presence of umlaut vowels	Presence of umlaut vowels	not attested	isakovxalilov2001	259	George Moroz	2021.10.04
+31	Hunzib	Hunzib	language	no	yes	Presence of umlaut vowels	Presence of umlaut vowels	not attested	kibrikkodzasov1990	332	George Moroz	2017.05.06
+32	Ingush	Standard Ingush	language	yes	yes	Presence of umlaut vowels	Presence of umlaut vowels	not attested	nichols2011	22	George Moroz	2021.10.04
+33	Karata	Karata	dialect_toplevel	yes	yes	Presence of umlaut vowels	Presence of umlaut vowels	attested	magomedbekova1971	12--18	George Moroz	2021.10.04
+34	Tukita	Tukita	language	yes	yes	Presence of umlaut vowels	Presence of umlaut vowels	not attested	gadzhieva2007	7	George Moroz	2021.10.04
+35	Khinalug	Khinalug	language	yes	yes	Presence of umlaut vowels	Presence of umlaut vowels	attested	kibrik1994b	372	George Moroz	2021.10.04
+36	Khinalug	Khinalug	language	no	no	Presence of umlaut vowels	Presence of umlaut vowels	attested	kibrikkodzasov1990	346--347	Viola Ivanova	2017.05.06
+37	Khwarshi	Inkhoqwari	dialect_toplevel	yes	yes	Presence of umlaut vowels	Presence of umlaut vowels	attested	kibrikkodzasov1990	327	George Moroz	2017.05.06
+38	Khwarshi	Kvantlada	village	no	yes	Presence of umlaut vowels	Presence of umlaut vowels	not attested	khalilova2009	23	George Moroz	2021.10.04
+39	Kryz	Kryz Proper	dialect_toplevel	yes	yes	Presence of umlaut vowels	Presence of umlaut vowels	attested	saadiev1994	410	George Moroz	2021.10.04
+40	Kryz	Kryz Proper	dialect_toplevel	no	yes	Presence of umlaut vowels	Presence of umlaut vowels	attested	kibrikkodzasov1990	345	Viola Ivanova	2017.05.06
+41	Kumyk	Standard Kumyk	language	yes	yes	Presence of umlaut vowels	Presence of umlaut vowels	attested	abdullaevaetal2014	27	George Moroz	2021.10.04
+42	Lak	Khosrekh	village	yes	yes	Presence of umlaut vowels	Presence of umlaut vowels	not attested	kibrikkodzasov1990	333	Viola Ivanova	2017.05.06
+43	Lezgian	Khlyut	village	no	yes	Presence of umlaut vowels	Presence of umlaut vowels	attested	kibrikkodzasov1990	341	George Moroz	2017.05.06
+44	Lezgian	Standard Lezgian	language	yes	yes	Presence of umlaut vowels	Presence of umlaut vowels	attested	gaydarovetal2009	54	George Moroz	2021.10.04
+45	Nogai	Standard Nogai	language	yes	yes	Presence of umlaut vowels	Presence of umlaut vowels	attested	baskakov1940	13	George Moroz	2021.10.04
+46	Rutul	Luchek	village	yes	yes	Presence of umlaut vowels	Presence of umlaut vowels	attested	alekseev1994	217	George Moroz	2021.10.04
+47	Rutul	Luchek	village	no	yes	Presence of umlaut vowels	Presence of umlaut vowels	attested	kibrikkodzasov1990	342--343	Viola Ivanova	2017.05.06
+48	Tabasaran	Dyubek	village	no	yes	Presence of umlaut vowels	Presence of umlaut vowels	attested	kibrikkodzasov1990	336	George Moroz	2017.05.06
+49	Tabasaran	Standard Tabasaran	language	yes	yes	Presence of umlaut vowels	Presence of umlaut vowels	attested	alekseevshixalieva2003	29	George Moroz	2021.10.04
+50	Tat	Muslim Tat	dialect_toplevel	yes	yes	Presence of umlaut vowels	Presence of umlaut vowels	attested	griunberg1963	9	George Moroz	2021.10.04
+51	Tindi	Tindi	village	no	yes	Presence of umlaut vowels	Presence of umlaut vowels	not attested	kibrikkodzasov1990	326--327	Viola Ivanova	2017.05.06
+52	Tindi	Tindi	village	yes	yes	Presence of umlaut vowels	Presence of umlaut vowels	not attested	magomedova2012	7	George Moroz	2021.10.04
+53	Tsakhur	Mikik	village	no	yes	Presence of umlaut vowels	Presence of umlaut vowels	not attested	kibrikkodzasov1990	343	George Moroz	2017.05.06
+54	Tsakhur	Mishlesh	village	yes	yes	Presence of umlaut vowels	Presence of umlaut vowels	not attested	kibrik1999	17	George Moroz	2021.10.04
+55	Tsez	Kidero	village	no	yes	Presence of umlaut vowels	Presence of umlaut vowels	attested	kibrikkodzasov1990	328	Viola Ivanova	2017.05.06
+56	Tsez	Sagada	village	yes	yes	Presence of umlaut vowels	Presence of umlaut vowels	not attested	wilson2021	388	George Moroz	2021.10.04
+57	Tsova-Tush	Zemo-Alvani	village	yes	yes	Presence of umlaut vowels	Presence of umlaut vowels	not attested	holiskygagua1994	150	George Moroz	2021.10.04
+58	Udi	Nizh	dialect_toplevel	yes	yes	Presence of umlaut vowels	Presence of umlaut vowels	attested	kibrikkodzasov1990	347	Viola Ivanova	2017.05.06
