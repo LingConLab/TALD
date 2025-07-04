@@ -1,3 +1,4 @@
+The wrong language name          Tsakhur Tsakhur          in the file          farewell_wishes.tsv
 NA
 spelling of          chuhwanahw        in adpositions.Rmd:238
 spelling of          depi        in adpositions.Rmd:383

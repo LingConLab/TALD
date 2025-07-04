@@ -318,6 +318,530 @@ map.feature(data_granularity_map$lang4map,
 
 
     
+## straight way or good way{.tabset .tabset-fade .tabset-pills #m1} 
+    
+### General datapoints {-}
+
+```{r}
+feature_dataset |> 
+  filter(map == 'yes',
+         genlang_point == 'yes') |>
+  add_count(value1) |> 
+  inner_join(coordinates_averaged) |> 
+  mutate(popup = ifelse((lang4map == idiom | str_detect(idiom, 'Standard')), 
+                        str_c('data level: ', type),
+                        str_c(idiom, '<br> data level: ', type)),
+         value1 = str_c(value1, ' (', n, ')'),
+         display = 'show languages')  |> 
+  filter(!is.na(value1),
+         !is.na(lang4map)) ->
+  general_datapoints_map
+
+map.feature(general_datapoints_map$lang4map,
+            latitude = general_datapoints_map$lat,
+            longitude = general_datapoints_map$lon,
+            label = general_datapoints_map$language,
+            features = general_datapoints_map$value1,
+            title = general_datapoints_map$value1_name[1],
+            color = 'magma',
+            stroke.features = 'a',
+            stroke.color = 'black',
+            stroke.radius = 1,
+            stroke.legend = FALSE,
+            tile = 'Esri.WorldGrayCanvas',
+            legend = TRUE,
+            legend.position = 'bottomleft', 
+            zoom.control = TRUE,
+            width = 8) %>% 
+  map.feature(general_datapoints_map$lang4map,
+              latitude = general_datapoints_map$lat,
+              longitude = general_datapoints_map$lon,
+              features = general_datapoints_map$language,
+              label = general_datapoints_map$language,
+              color = general_datapoints_map$lang_col,
+              tile = 'Esri.WorldGrayCanvas',
+              legend = FALSE,
+              width = 5,
+              pipe.data = .,
+              control = general_datapoints_map$display)
+```
+
+### Extrapolated data {-}
+
+```{r}
+all_data |> 
+  filter(!is.na(value1)) ->
+  all_data_filtered
+
+map.feature(all_data_filtered$lang4map,
+            latitude = all_data_filtered$lat, 
+            longitude = all_data_filtered$lon,
+            features = all_data_filtered$value1,
+            color = 'magma',
+            stroke.features = 'a',
+            stroke.color = 'black',
+            stroke.radius = 1,
+            stroke.legend = FALSE,
+            tile = 'Esri.WorldGrayCanvas',
+            title = all_data_filtered$value1_name[1],
+            legend = TRUE,
+            legend.position = 'bottomleft', 
+            label = all_data_filtered$language,
+            zoom.control = TRUE,
+            width = 8,
+            popup = paste(all_data_filtered$village, '|',
+                          all_data_filtered$rus_village, '<br>',
+                          'data:', all_data_filtered$type)) %>% 
+  map.feature(all_data_filtered$lang4map,
+              latitude = all_data_filtered$lat,
+              longitude = all_data_filtered$lon,
+              features = all_data_filtered$language,
+              label = all_data_filtered$language,
+              color = all_data_filtered$lang_col,
+              tile = 'Esri.WorldGrayCanvas',
+              legend = FALSE,
+              width = 5,
+              pipe.data = .,
+              control = all_data_filtered$display,
+              popup = paste(all_data_filtered$village, '|',
+                            all_data_filtered$rus_village, '<br>',
+                            'data:', all_data_filtered$type))
+```
+
+### Data granularity {-}
+
+```{r}
+feature_dataset |> 
+  filter(map == 'yes') |> 
+  inner_join(coordinates_averaged) |> 
+  mutate(popup = ifelse((lang4map == idiom | str_detect(idiom, 'Standard')), 
+                        str_c('data level: ', type),
+                        str_c(idiom, '<br> data level: ', type)),
+         type = factor(type, levels = c('language', 
+                                        'top level dialect',
+                                        'non top level 1 dialect',
+                                        'non top level 2 dialect',
+                                        'non top level 3 dialect',
+                                        'village dialect')))  |> 
+  filter(!is.na(value1),
+         !is.na(lang4map)) |> 
+  arrange(type) ->
+  data_granularity_map
+  
+map.feature(data_granularity_map$lang4map,
+            latitude = data_granularity_map$lat, 
+            longitude = data_granularity_map$lon,
+            features = data_granularity_map$value1,
+            color = 'magma',
+            stroke.features = 'a',
+            stroke.color = 'black',
+            stroke.radius = 1,
+            stroke.legend = FALSE,
+            tile = 'Esri.WorldGrayCanvas',
+            title = data_granularity_map$value1_name[1],
+            legend = TRUE,
+            legend.position = 'bottomleft', 
+            label = data_granularity_map$language,
+            zoom.control = TRUE,
+            control = data_granularity_map$type,
+            popup = data_granularity_map$popup)
+```
+
+
+    
+## straight way or jaʁur/juʁur/uʁur/uɣur{.tabset .tabset-fade .tabset-pills #m2} 
+    
+### General datapoints {-}
+
+```{r}
+feature_dataset |> 
+  filter(map == 'yes',
+         genlang_point == 'yes') |>
+  add_count(value2) |> 
+  inner_join(coordinates_averaged) |> 
+  mutate(popup = ifelse((lang4map == idiom | str_detect(idiom, 'Standard')), 
+                        str_c('data level: ', type),
+                        str_c(idiom, '<br> data level: ', type)),
+         value1 = str_c(value1, ' (', n, ')'),
+         display = 'show languages')  |> 
+  filter(!is.na(value2),
+         !is.na(lang4map)) ->
+  general_datapoints_map
+
+map.feature(general_datapoints_map$lang4map,
+            latitude = general_datapoints_map$lat,
+            longitude = general_datapoints_map$lon,
+            label = general_datapoints_map$language,
+            features = general_datapoints_map$value2,
+            title = general_datapoints_map$value2_name[1],
+            color = 'magma',
+            stroke.features = 'a',
+            stroke.color = 'black',
+            stroke.radius = 1,
+            stroke.legend = FALSE,
+            tile = 'Esri.WorldGrayCanvas',
+            legend = TRUE,
+            legend.position = 'bottomleft', 
+            zoom.control = TRUE,
+            width = 8) %>% 
+  map.feature(general_datapoints_map$lang4map,
+              latitude = general_datapoints_map$lat,
+              longitude = general_datapoints_map$lon,
+              features = general_datapoints_map$language,
+              label = general_datapoints_map$language,
+              color = general_datapoints_map$lang_col,
+              tile = 'Esri.WorldGrayCanvas',
+              legend = FALSE,
+              width = 5,
+              pipe.data = .,
+              control = general_datapoints_map$display)
+```
+
+### Extrapolated data {-}
+
+```{r}
+all_data |> 
+  filter(!is.na(value2)) ->
+  all_data_filtered
+
+map.feature(all_data_filtered$lang4map,
+            latitude = all_data_filtered$lat, 
+            longitude = all_data_filtered$lon,
+            features = all_data_filtered$value2,
+            color = 'magma',
+            stroke.features = 'a',
+            stroke.color = 'black',
+            stroke.radius = 1,
+            stroke.legend = FALSE,
+            tile = 'Esri.WorldGrayCanvas',
+            title = all_data_filtered$value2_name[1],
+            legend = TRUE,
+            legend.position = 'bottomleft', 
+            label = all_data_filtered$language,
+            zoom.control = TRUE,
+            width = 8,
+            popup = paste(all_data_filtered$village, '|',
+                          all_data_filtered$rus_village, '<br>',
+                          'data:', all_data_filtered$type)) %>% 
+  map.feature(all_data_filtered$lang4map,
+              latitude = all_data_filtered$lat,
+              longitude = all_data_filtered$lon,
+              features = all_data_filtered$language,
+              label = all_data_filtered$language,
+              color = all_data_filtered$lang_col,
+              tile = 'Esri.WorldGrayCanvas',
+              legend = FALSE,
+              width = 5,
+              pipe.data = .,
+              control = all_data_filtered$display,
+              popup = paste(all_data_filtered$village, '|',
+                            all_data_filtered$rus_village, '<br>',
+                            'data:', all_data_filtered$type))
+```
+
+### Data granularity {-}
+
+```{r}
+feature_dataset |> 
+  filter(map == 'yes') |> 
+  inner_join(coordinates_averaged) |> 
+  mutate(popup = ifelse((lang4map == idiom | str_detect(idiom, 'Standard')), 
+                        str_c('data level: ', type),
+                        str_c(idiom, '<br> data level: ', type)),
+         type = factor(type, levels = c('language', 
+                                        'top level dialect',
+                                        'non top level 1 dialect',
+                                        'non top level 2 dialect',
+                                        'non top level 3 dialect',
+                                        'village dialect')))  |> 
+  filter(!is.na(value2),
+         !is.na(lang4map)) |> 
+  arrange(type) ->
+  data_granularity_map
+  
+map.feature(data_granularity_map$lang4map,
+            latitude = data_granularity_map$lat, 
+            longitude = data_granularity_map$lon,
+            features = data_granularity_map$value2,
+            color = 'magma',
+            stroke.features = 'a',
+            stroke.color = 'black',
+            stroke.radius = 1,
+            stroke.legend = FALSE,
+            tile = 'Esri.WorldGrayCanvas',
+            title = data_granularity_map$value2_name[1],
+            legend = TRUE,
+            legend.position = 'bottomleft', 
+            label = data_granularity_map$language,
+            zoom.control = TRUE,
+            control = data_granularity_map$type,
+            popup = data_granularity_map$popup)
+```
+
+
+    
+## straight way or good way{.tabset .tabset-fade .tabset-pills #m1} 
+    
+### General datapoints {-}
+
+```{r}
+feature_dataset |> 
+  filter(map == 'yes',
+         genlang_point == 'yes') |>
+  add_count(value1) |> 
+  inner_join(coordinates_averaged) |> 
+  mutate(popup = ifelse((lang4map == idiom | str_detect(idiom, 'Standard')), 
+                        str_c('data level: ', type),
+                        str_c(idiom, '<br> data level: ', type)),
+         value1 = str_c(value1, ' (', n, ')'),
+         display = 'show languages')  |> 
+  filter(!is.na(value1),
+         !is.na(lang4map)) ->
+  general_datapoints_map
+
+map.feature(general_datapoints_map$lang4map,
+            latitude = general_datapoints_map$lat,
+            longitude = general_datapoints_map$lon,
+            label = general_datapoints_map$language,
+            features = general_datapoints_map$value1,
+            title = general_datapoints_map$value1_name[1],
+            color = 'magma',
+            stroke.features = 'a',
+            stroke.color = 'black',
+            stroke.radius = 1,
+            stroke.legend = FALSE,
+            tile = 'Esri.WorldGrayCanvas',
+            legend = TRUE,
+            legend.position = 'bottomleft', 
+            zoom.control = TRUE,
+            width = 8) %>% 
+  map.feature(general_datapoints_map$lang4map,
+              latitude = general_datapoints_map$lat,
+              longitude = general_datapoints_map$lon,
+              features = general_datapoints_map$language,
+              label = general_datapoints_map$language,
+              color = general_datapoints_map$lang_col,
+              tile = 'Esri.WorldGrayCanvas',
+              legend = FALSE,
+              width = 5,
+              pipe.data = .,
+              control = general_datapoints_map$display)
+```
+
+### Extrapolated data {-}
+
+```{r}
+all_data |> 
+  filter(!is.na(value1)) ->
+  all_data_filtered
+
+map.feature(all_data_filtered$lang4map,
+            latitude = all_data_filtered$lat, 
+            longitude = all_data_filtered$lon,
+            features = all_data_filtered$value1,
+            color = 'magma',
+            stroke.features = 'a',
+            stroke.color = 'black',
+            stroke.radius = 1,
+            stroke.legend = FALSE,
+            tile = 'Esri.WorldGrayCanvas',
+            title = all_data_filtered$value1_name[1],
+            legend = TRUE,
+            legend.position = 'bottomleft', 
+            label = all_data_filtered$language,
+            zoom.control = TRUE,
+            width = 8,
+            popup = paste(all_data_filtered$village, '|',
+                          all_data_filtered$rus_village, '<br>',
+                          'data:', all_data_filtered$type)) %>% 
+  map.feature(all_data_filtered$lang4map,
+              latitude = all_data_filtered$lat,
+              longitude = all_data_filtered$lon,
+              features = all_data_filtered$language,
+              label = all_data_filtered$language,
+              color = all_data_filtered$lang_col,
+              tile = 'Esri.WorldGrayCanvas',
+              legend = FALSE,
+              width = 5,
+              pipe.data = .,
+              control = all_data_filtered$display,
+              popup = paste(all_data_filtered$village, '|',
+                            all_data_filtered$rus_village, '<br>',
+                            'data:', all_data_filtered$type))
+```
+
+### Data granularity {-}
+
+```{r}
+feature_dataset |> 
+  filter(map == 'yes') |> 
+  inner_join(coordinates_averaged) |> 
+  mutate(popup = ifelse((lang4map == idiom | str_detect(idiom, 'Standard')), 
+                        str_c('data level: ', type),
+                        str_c(idiom, '<br> data level: ', type)),
+         type = factor(type, levels = c('language', 
+                                        'top level dialect',
+                                        'non top level 1 dialect',
+                                        'non top level 2 dialect',
+                                        'non top level 3 dialect',
+                                        'village dialect')))  |> 
+  filter(!is.na(value1),
+         !is.na(lang4map)) |> 
+  arrange(type) ->
+  data_granularity_map
+  
+map.feature(data_granularity_map$lang4map,
+            latitude = data_granularity_map$lat, 
+            longitude = data_granularity_map$lon,
+            features = data_granularity_map$value1,
+            color = 'magma',
+            stroke.features = 'a',
+            stroke.color = 'black',
+            stroke.radius = 1,
+            stroke.legend = FALSE,
+            tile = 'Esri.WorldGrayCanvas',
+            title = data_granularity_map$value1_name[1],
+            legend = TRUE,
+            legend.position = 'bottomleft', 
+            label = data_granularity_map$language,
+            zoom.control = TRUE,
+            control = data_granularity_map$type,
+            popup = data_granularity_map$popup)
+```
+
+
+    
+## straight way or jaʁur/juʁur/uʁur/uɣur{.tabset .tabset-fade .tabset-pills #m2} 
+    
+### General datapoints {-}
+
+```{r}
+feature_dataset |> 
+  filter(map == 'yes',
+         genlang_point == 'yes') |>
+  add_count(value2) |> 
+  inner_join(coordinates_averaged) |> 
+  mutate(popup = ifelse((lang4map == idiom | str_detect(idiom, 'Standard')), 
+                        str_c('data level: ', type),
+                        str_c(idiom, '<br> data level: ', type)),
+         value1 = str_c(value1, ' (', n, ')'),
+         display = 'show languages')  |> 
+  filter(!is.na(value2),
+         !is.na(lang4map)) ->
+  general_datapoints_map
+
+map.feature(general_datapoints_map$lang4map,
+            latitude = general_datapoints_map$lat,
+            longitude = general_datapoints_map$lon,
+            label = general_datapoints_map$language,
+            features = general_datapoints_map$value2,
+            title = general_datapoints_map$value2_name[1],
+            color = 'magma',
+            stroke.features = 'a',
+            stroke.color = 'black',
+            stroke.radius = 1,
+            stroke.legend = FALSE,
+            tile = 'Esri.WorldGrayCanvas',
+            legend = TRUE,
+            legend.position = 'bottomleft', 
+            zoom.control = TRUE,
+            width = 8) %>% 
+  map.feature(general_datapoints_map$lang4map,
+              latitude = general_datapoints_map$lat,
+              longitude = general_datapoints_map$lon,
+              features = general_datapoints_map$language,
+              label = general_datapoints_map$language,
+              color = general_datapoints_map$lang_col,
+              tile = 'Esri.WorldGrayCanvas',
+              legend = FALSE,
+              width = 5,
+              pipe.data = .,
+              control = general_datapoints_map$display)
+```
+
+### Extrapolated data {-}
+
+```{r}
+all_data |> 
+  filter(!is.na(value2)) ->
+  all_data_filtered
+
+map.feature(all_data_filtered$lang4map,
+            latitude = all_data_filtered$lat, 
+            longitude = all_data_filtered$lon,
+            features = all_data_filtered$value2,
+            color = 'magma',
+            stroke.features = 'a',
+            stroke.color = 'black',
+            stroke.radius = 1,
+            stroke.legend = FALSE,
+            tile = 'Esri.WorldGrayCanvas',
+            title = all_data_filtered$value2_name[1],
+            legend = TRUE,
+            legend.position = 'bottomleft', 
+            label = all_data_filtered$language,
+            zoom.control = TRUE,
+            width = 8,
+            popup = paste(all_data_filtered$village, '|',
+                          all_data_filtered$rus_village, '<br>',
+                          'data:', all_data_filtered$type)) %>% 
+  map.feature(all_data_filtered$lang4map,
+              latitude = all_data_filtered$lat,
+              longitude = all_data_filtered$lon,
+              features = all_data_filtered$language,
+              label = all_data_filtered$language,
+              color = all_data_filtered$lang_col,
+              tile = 'Esri.WorldGrayCanvas',
+              legend = FALSE,
+              width = 5,
+              pipe.data = .,
+              control = all_data_filtered$display,
+              popup = paste(all_data_filtered$village, '|',
+                            all_data_filtered$rus_village, '<br>',
+                            'data:', all_data_filtered$type))
+```
+
+### Data granularity {-}
+
+```{r}
+feature_dataset |> 
+  filter(map == 'yes') |> 
+  inner_join(coordinates_averaged) |> 
+  mutate(popup = ifelse((lang4map == idiom | str_detect(idiom, 'Standard')), 
+                        str_c('data level: ', type),
+                        str_c(idiom, '<br> data level: ', type)),
+         type = factor(type, levels = c('language', 
+                                        'top level dialect',
+                                        'non top level 1 dialect',
+                                        'non top level 2 dialect',
+                                        'non top level 3 dialect',
+                                        'village dialect')))  |> 
+  filter(!is.na(value2),
+         !is.na(lang4map)) |> 
+  arrange(type) ->
+  data_granularity_map
+  
+map.feature(data_granularity_map$lang4map,
+            latitude = data_granularity_map$lat, 
+            longitude = data_granularity_map$lon,
+            features = data_granularity_map$value2,
+            color = 'magma',
+            stroke.features = 'a',
+            stroke.color = 'black',
+            stroke.radius = 1,
+            stroke.legend = FALSE,
+            tile = 'Esri.WorldGrayCanvas',
+            title = data_granularity_map$value2_name[1],
+            legend = TRUE,
+            legend.position = 'bottomleft', 
+            label = data_granularity_map$language,
+            zoom.control = TRUE,
+            control = data_granularity_map$type,
+            popup = data_granularity_map$popup)
+```
+
+
+    
 
 
 ## Datatable

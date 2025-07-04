@@ -43,6 +43,7 @@ features |>
   select(-major_topic) |>
   rename(`Major topic` = major_topic_linked) |>
   mutate(domain = factor(domain)) |>
+  arrange(feature) |> 
   rename(Feature = feature,
          Author = author,
          Domain = domain) |> 

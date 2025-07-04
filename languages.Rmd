@@ -82,7 +82,7 @@ map(list.files("data/orig_table", full.names = TRUE), function(file){
 
 ```{r}
 read_tsv("data/tald_villages.csv") |> 
-  filter(!is.na(village_dialect)) |>
+  filter(is.na(standard) | standard %in% c("Standard Armenian")) |>
   mutate(village_dialect = str_c(village_dialect, " (", rus_village, ")")) |> 
   distinct(family, aff, default_level, dialect_nt1, dialect_nt2, dialect_nt3, 
            village_dialect) |> 
