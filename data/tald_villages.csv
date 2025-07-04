@@ -1466,13 +1466,13 @@ id	village	rus_village	lat	lon	lang	aff	family	standard	default_level	dialect_to
 1496	Shulerchi	Шулерчи	42.13744	47.56335	North-Central Dargwa	Dargwa	East Caucasian		Muira									Shulerchi	darg1241	#FFA54F	#ff9900	2025-03-20
 1440	Sary-su	Сары-су	43.839722	46.4325	Nogai	Kipchak	Turkic		Nogai									Sary-su	noga1249	#666666	#666666	2025-03-20
 1441	Standard Nogai		43.59168	46.66178	Nogai	Kipchak	Turkic	Standard Nogai	Nogai										noga1249	#666666	#666666	2025-03-20
-1646	Axaxdərə	Ахвах-дере	41.6624507	46.6360615	Northern Akhvakh	Avar-Andic	East Caucasian		Northern Akhvakh	Axaxdərə								Axaxdərə	akhv1239	#9900ff	#9900ff	2025-03-20
-1647	Izano	Изано	42.52735	46.40389	Northern Akhvakh	Avar-Andic	East Caucasian		Northern Akhvakh									Izano	akhv1239	#9900ff	#9900ff	2025-03-20
-1648	Kvankero	Кванкеро	42.55244	46.3404	Northern Akhvakh	Avar-Andic	East Caucasian		Northern Akhvakh									Kvankero	akhv1239	#9900ff	#9900ff	2025-03-20
-1649	Kudiyabroso	Кудиябросо	42.541069	46.377932	Northern Akhvakh	Avar-Andic	East Caucasian		Northern Akhvakh									Kudiyabroso	akhv1239	#9900ff	#9900ff	2025-03-20
-1650	Lologonitl'	Лологонитль	42.51398	46.33093	Northern Akhvakh	Avar-Andic	East Caucasian		Northern Akhvakh									Lologonitl'	akhv1239	#9900ff	#9900ff	2025-03-20
-1651	Tad-Magitl'	Тад-магитль	42.550266	46.348953	Northern Akhvakh	Avar-Andic	East Caucasian		Northern Akhvakh									Tad-Magitl'	akhv1239	#9900ff	#9900ff	2025-03-20
-1652	Tsvakilkolo	Цвакилколо	42.55213	46.35351	Northern Akhvakh	Avar-Andic	East Caucasian		Northern Akhvakh									Tsvakilkolo	akhv1239	#9900ff	#9900ff	2025-03-20
+1646	Axaxdərə	Ахвах-дере	41.6624507	46.6360615	Northern Akhvakh	Avar-Andic	East Caucasian		Northern Akhvakh	Axaxdərə								Axaxdərə	akhv1239	#995FFF	#9900ff	2025-03-20
+1647	Izano	Изано	42.52735	46.40389	Northern Akhvakh	Avar-Andic	East Caucasian		Northern Akhvakh									Izano	akhv1239	#995FFF	#9900ff	2025-03-20
+1648	Kvankero	Кванкеро	42.55244	46.3404	Northern Akhvakh	Avar-Andic	East Caucasian		Northern Akhvakh									Kvankero	akhv1239	#995FFF	#9900ff	2025-03-20
+1649	Kudiyabroso	Кудиябросо	42.541069	46.377932	Northern Akhvakh	Avar-Andic	East Caucasian		Northern Akhvakh									Kudiyabroso	akhv1239	#995FFF	#9900ff	2025-03-20
+1650	Lologonitl'	Лологонитль	42.51398	46.33093	Northern Akhvakh	Avar-Andic	East Caucasian		Northern Akhvakh									Lologonitl'	akhv1239	#995FFF	#9900ff	2025-03-20
+1651	Tad-Magitl'	Тад-магитль	42.550266	46.348953	Northern Akhvakh	Avar-Andic	East Caucasian		Northern Akhvakh									Tad-Magitl'	akhv1239	#995FFF	#9900ff	2025-03-20
+1652	Tsvakilkolo	Цвакилколо	42.55213	46.35351	Northern Akhvakh	Avar-Andic	East Caucasian		Northern Akhvakh									Tsvakilkolo	akhv1239	#995FFF	#9900ff	2025-03-20
 1477	Mugri	Мугри	42.26767	47.62872	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Mugri	Мугринский							Mugri	darg1241	#EE7621	#ff9900	2025-03-20
 1479	Sangimakhi	Сангимахи	42.33788	47.43307	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Murego-Gubden	Мюрего-губденский							Sangimakhi	darg1241	#EE7621	#ff9900	2025-03-20
 1480	Adukmakhi	Адукмахи	42.39928	47.401891	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa									Adukmakhi	darg1241	#EE7621	#ff9900	2025-03-20
@@ -1916,11 +1916,11 @@ id	village	rus_village	lat	lon	lang	aff	family	standard	default_level	dialect_to
 1637	Tsudakhar	Цудахар	42.3425	47.1606	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Tsudakhar	darg1241	#EE9A49	#ff9900	2025-03-20
 1638	Tsukhta	Цухта	42.34352	47.32396	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Tsukhta	darg1241	#EE9A49	#ff9900	2025-03-20
 1639	Chagni	Чагни	42.372986	47.218475	North-Central Dargwa	Dargwa	East Caucasian		Tsudaqar									Chagni	darg1241	#EE9A49	#ff9900	2025-03-20
-1162	Tukita	Тукита	42.57056	46.37278	Karata-Tukita	Avar-Andic	East Caucasian		Tukita									Tukita	kara1474	#666699	#9900ff	2025-03-20
+1162	Tukita	Тукита	42.57056	46.37278	Karata-Tukita	Avar-Andic	East Caucasian		Tukita									Tukita	kara1474	#9370DB	#9900ff	2025-03-20
 1937	Nic	Нидж	40.94	47.66833	Udi	Lezgic	East Caucasian		Udi	Nizh	Ниджский							Nic	udii1243	#004d00	#00cc66	2025-03-20
 1938	Zinobiani	Зинобиани	41.89694	45.93306	Udi	Lezgic	East Caucasian		Udi	Vartashen	Варташенский							Zinobiani	udii1243	#004d00	#00cc66	2025-03-20
 1939	Oğuz	Огуз	41.07083	47.45833	Udi	Lezgic	East Caucasian		Udi	Vartashen	Варташенский							Oğuz	udii1243	#004d00	#00cc66	2025-03-20
-22	Andi	Анди	42.7856	46.2639	Andi	Avar-Andic	East Caucasian		Upper Andi									Andi	uppe1485	#003366	#9900ff	2025-03-20
+22	Andi	Анди	42.7856	46.2639	Andi	Avar-Andic	East Caucasian		Upper Andi									Andi	uppe1485	#004466	#9900ff	2025-03-20
 23	Ashali	Ашали	42.76963	46.30878	Andi	Avar-Andic	East Caucasian		Upper Andi									Ashali	uppe1485	#003366	#9900ff	2025-03-20
 24	Gagatli	Гагатли	42.800361	46.292645	Andi	Avar-Andic	East Caucasian		Upper Andi									Gagatli	uppe1485	#003366	#9900ff	2025-03-20
 25	Gunkha	Гунха	42.78968	46.28275	Andi	Avar-Andic	East Caucasian		Upper Andi									Gunkha	uppe1485	#003366	#9900ff	2025-03-20

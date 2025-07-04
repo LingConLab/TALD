@@ -10,6 +10,8 @@ output:
     pandoc_args: --shift-heading-level-by=-1
     include:
       in_header: ./html/header_about.html
+editor_options: 
+  chunk_output_type: console
 ---
  
 ```{r, include=FALSE}
@@ -134,7 +136,7 @@ map.feature(general_datapoints_map$lang4map,
             legend = TRUE,
             legend.position = 'bottomleft', 
             zoom.control = TRUE,
-            width = 8) %>% 
+            width = 8) %>%
   map.feature(general_datapoints_map$lang4map,
               latitude = general_datapoints_map$lat,
               longitude = general_datapoints_map$lon,
