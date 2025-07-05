@@ -1,4 +1,54 @@
+The BibTeX entry          magomedovaalisultanova2010          present in the          adjectives_number.tsv, but absent in the biblib.xlsx
+The BibTeX entry          bokarev1949          present in the          adjectives_number.tsv, but absent in the biblib.xlsx
+The BibTeX entry          yakovlev1960          present in the          adjectives_number.tsv, but absent in the biblib.xlsx
+The BibTeX entry          comrieatal2015          present in the          adjectives_number.tsv, but absent in the biblib.xlsx
+The BibTeX entry          graschenkov2021          present in the          adjectives_number.tsv, but absent in the biblib.xlsx
+The BibTeX entry forker2018b from the file adjectives_number_bib.tsv has an empty value in the obligatory field VOLUME
+The BibTeX entry daniel2021 from the file adjectives_number_bib.tsv has an empty value in the obligatory field VOLUME
+The wrong language name          Akhvakh          in the file          adjectives_number.tsv
+The wrong language name          Karata-Tukita          in the file          adjectives_number.tsv
+The wrong language name          Armenian          in the file          adjectives_number.tsv
+The wrong language name          North-Central Dargwa          in the file          adjectives_number.tsv
+The wrong language name          Dargwa          in the file          adjectives_number.tsv
 NA
+The wrong village dialect name Tad-Magitl’ in the file adjectives_number.tsv
+The wrong village dialect name Upper Gakvari in the file adjectives_number.tsv
+The wrong village dialect name Chabakori in the file adjectives_number.tsv
+The wrong village dialect name Ratsitli in the file adjectives_number.tsv
+The wrong village dialect name Khinalug in the file adjectives_number.tsv
+The wrong village dialect name Budukh in the file adjectives_number.tsv
+The wrong village dialect name Alik in the file adjectives_number.tsv
+The wrong village dialect name Kwantlada in the file adjectives_number.tsv
+The wrong village dialect name Inkhoqwari in the file adjectives_number.tsv
+The wrong non-toplevel 2 dialect name Miura in the file adjectives_number.tsv
+The wrong non-toplevel 2 dialect name Kishi in the file adjectives_number.tsv
+The wrong non-toplevel 2 dialect name Myurego in the file adjectives_number.tsv
+The wrong non-toplevel 2 dialect name Mekegi in the file adjectives_number.tsv
+The wrong non-toplevel 1 dialect name Anchiq in the file adjectives_number.tsv
+The wrong non-toplevel 1 dialect name Archo in the file adjectives_number.tsv
+The wrong non-toplevel 1 dialect name Meusisha in the file adjectives_number.tsv
+The wrong non-toplevel 1 dialect name Mukhad in the file adjectives_number.tsv
+The wrong toplevel dialect name Eastern Armenian in the file adjectives_number.tsv
+adjectives_number.Rmd:          1          wrong hashes in tables
+spelling of          aj        in adjectives_number.Rmd:132
+spelling of          anciano        in adjectives_number.Rmd:40,42
+spelling of          animacy        in adjectives_number.Rmd:403
+spelling of          ar        in adjectives_number.Rmd:132,132
+spelling of          ce        in adjectives_number.Rmd:434
+spelling of          ci        in adjectives_number.Rmd:437
+spelling of          dem        in adjectives_number.Rmd:620
+spelling of          eb        in adjectives_number.Rmd:469
+spelling of          hpl        in adjectives_number.Rmd:620
+spelling of          ib        in adjectives_number.Rmd:612
+spelling of          il        in adjectives_number.Rmd:433,437,437
+spelling of          ipf        in adjectives_number.Rmd:620
+spelling of          jil        in adjectives_number.Rmd:432
+spelling of          monophonemic        in adjectives_number.Rmd:42
+spelling of          mur        in adjectives_number.Rmd:435,521
+spelling of          nm        in adjectives_number.Rmd:620
+spelling of          npl        in adjectives_number.Rmd:620
+spelling of          obl        in adjectives_number.Rmd:620
+spelling of          Sidorenko        in adjectives_number.Rmd:44
 spelling of          chuhwanahw        in adpositions.Rmd:238
 spelling of          depi        in adpositions.Rmd:383
 spelling of          handep        in adpositions.Rmd:56

@@ -1,0 +1,3142 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="Aigul Zakirova" />
+
+
+<title>Dedicated plural agreement on adjectives</title>
+
+<script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="site_libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="site_libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.5.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet" />
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+<style type="text/css">
+/* for pandoc --citeproc since 2.11 */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">TALD</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="./about.html">About</a>
+</li>
+<li>
+  <a href="./features.html">
+    <span class="fa fa-atlas"></span>
+     
+    Features
+  </a>
+</li>
+<li>
+  <a href="./languages.html">Languages</a>
+</li>
+<li>
+  <a href="./changes.html">Changes</a>
+</li>
+<li>
+  <a href="./references.html">References</a>
+</li>
+<li>
+  <a href="./team.html">Team</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Dedicated plural agreement on
+adjectives</h1>
+<h4 class="author">Aigul Zakirova</h4>
+<h4 class="date">Last update: July 2025</h4>
+
+</div>
+
+
+<p>See <a href="063_adjectives_number_map.html">data and maps</a>.</p>
+<div id="section"
+class="section level1 tabset tabset-fade tabset-pills unnumbered">
+<h1 class="tabset tabset-fade tabset-pills unnumbered"></h1>
+<div id="plain-text" class="section level2 unnumbered hasAnchor">
+<h2 class="unnumbered hasAnchor">Plain text<a href="#plain-text"
+class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Zakirova, Aigul (2025). “Dedicated plural agreement on adjectives”.
+In: <em>Typological Atlas of the Languages of Daghestan (TALD), v
+2.0.0</em>. Ed. by Michael Daniel, Konstantin Filatov, Timur Maisak,
+George Moroz, Timofey Mukhin, Chiara Naccarato and Samira Verhees.
+Moscow: Linguistic Convergence Laboratory, NRU HSE. DOI:
+10.5281/zenodo.6807070. <a href="http://lingconlab.ru/dagatlas"
+class="uri">http://lingconlab.ru/dagatlas</a>.</p>
+</div>
+<div id="bibtex" class="section level2 unnumbered hasAnchor">
+<h2 class="unnumbered hasAnchor">BibTeX<a href="#bibtex"
+class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<pre><code>@incollection{zakirova2025,
+  title = {Dedicated plural agreement on adjectives},
+  author = {Aigul Zakirova},
+  year = {2025},
+  editor = {Michael Daniel and Konstantin Filatov and Timur Maisak and George Moroz and Timofey Mukhin and Chiara Naccarato and Samira Verhees},
+  publisher = {Linguistic Convergence Laboratory, NRU HSE},
+  address = {Moscow},
+  booktitle = {Typological Atlas of the Languages of Daghestan (TALD), v 2.0.0},
+  url = {http://lingconlab.ru/dagatlas},
+  doi = {10.5281/zenodo.6807070},
+}</code></pre>
+</div>
+</div>
+<div id="introduction" class="section level1 hasAnchor" number="1">
+<h1 class="hasAnchor"><span class="header-section-number">1</span>
+Introduction<a href="#introduction" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<div id="defining-the-terms-specialized-vs.-cumulative-agreement"
+class="section level2 hasAnchor" number="1.1">
+<h2 class="hasAnchor"><span class="header-section-number">1.1</span>
+Defining the terms: specialized vs. cumulative agreement<a
+href="#defining-the-terms-specialized-vs.-cumulative-agreement"
+class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Approximately 40% of the world’s languages exhibit number agreement
+between adnominal adjectives and their head nouns <span
+class="citation">(<a href="#ref-matasovic2018">Matasović 2018</a>: 26;
+<a href="#ref-norris2019">Norris 2019</a>)</span>. This includes
+languages in which number agreement is expressed by dedicated morphemes
+as well as those where it is expressed in the same morpheme with gender
+or case. I will refer to the former as <em>“specialized agreement”</em>
+and to the latter as <em>“cumulative agreement”</em>.<br />
+An example of specialized number agreement can be observed in
+Spanish:</p>
+<ol class="example" style="list-style-type: decimal">
+<li>Spanish <span class="citation">(<a href="#ref-lopez2020">López
+2020</a>)</span></li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>maestr-o-∅</em>
+</td>
+<td style="text-align:left;">
+<em>ancian-o-∅</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+teacher-<span class="smallcaps">m</span>-<span
+class="smallcaps">sg</span>
+</td>
+<td style="text-align:left;">
+old-<span class="smallcaps">m</span>-<span class="smallcaps">sg</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘old teacher {male}’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>maestr-o-s</em>
+</td>
+<td style="text-align:left;">
+<em>ancian-o-<strong>s</strong></em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+teacher-<span class="smallcaps">m</span>-<span
+class="smallcaps">pl</span>
+</td>
+<td style="text-align:left;">
+old-<span class="smallcaps">m</span>-<span
+class="smallcaps"><strong>pl</strong></span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘old teachers {of an all-male or mixed group}’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>maestr-a-∅</em>
+</td>
+<td style="text-align:left;">
+<em>ancian-a-∅</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+teacher-<span class="smallcaps">f</span>-<span
+class="smallcaps">sg</span>
+</td>
+<td style="text-align:left;">
+old-<span class="smallcaps">f</span>-<span class="smallcaps">sg</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘old teacher’ {female}’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>maestr-a-s</em>
+</td>
+<td style="text-align:left;">
+<em>ancian-a-<strong>s</strong></em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+teacher-<span class="smallcaps">f</span>-<span
+class="smallcaps">pl</span>
+</td>
+<td style="text-align:left;">
+old-<span class="smallcaps">f</span>-<span
+class="smallcaps"><strong>pl</strong></span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘old teachers {of an all-female group}’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>In (1), the adjective <em>anciano</em> ‘old’ agrees with its head
+noun in number and gender. Importantly, gender and number agreement are
+expressed by two separate morphemes: gender agreement is marked by
+<em>-o-</em> (masculine) vs. <em>-a-</em> (feminine), and number
+agreement by <em>-∅</em> (singular) vs. <em>-s</em> (plural).<a
+href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a></p>
+<p>By contrast, the Italian adjective <em>anziano</em> ‘old’, cognate to
+the Spanish <em>anciano</em>, demonstrates cumulative agreement, i.e.,
+both gender and number are signaled by monophonemic agreement markers,
+which cannot be segmented any further:</p>
+<ol start="2" class="example" style="list-style-type: decimal">
+<li>Italian (Ekaterina Sidorenko, p.c.)</li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>maestr-o</em>
+</td>
+<td style="text-align:left;">
+<em>anzian-<strong>o</strong></em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+teacher-<span class="smallcaps">m</span>.<span
+class="smallcaps">sg</span>
+</td>
+<td style="text-align:left;">
+old-<span
+class="smallcaps"><strong>m</span>.<span style="font-variant:small-caps;">sg</strong></span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘old teacher {male}’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>maestr-i</em>
+</td>
+<td style="text-align:left;">
+<em>anzian-<strong>i</strong></em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+teacher-<span class="smallcaps">m</span>.<span
+class="smallcaps">pl</span>
+</td>
+<td style="text-align:left;">
+old-<span
+class="smallcaps"><strong>m</span>.<span style="font-variant:small-caps;">pl</strong></span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘old teachers {of an all-male or mixed group}’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>maestr-a</em>
+</td>
+<td style="text-align:left;">
+<em>anzian-<strong>a</strong></em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+teacher-<span class="smallcaps">f</span>.<span
+class="smallcaps">sg</span>
+</td>
+<td style="text-align:left;">
+old-<span
+class="smallcaps"><strong>f</span>.<span style="font-variant:small-caps;">sg</strong></span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘old teacher’ {female}’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>maestr-e</em>
+</td>
+<td style="text-align:left;">
+<em>anzian-<strong>e</strong></em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+teacher-<span class="smallcaps">f</span>.<span
+class="smallcaps">pl</span>
+</td>
+<td style="text-align:left;">
+old-<span
+class="smallcaps"><strong>f</span>.<span style="font-variant:small-caps;">pl</strong></span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘old teachers {of an all-female group}’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>The existing literature that I am aware of does not provide separate
+frequency estimates for specialized and cumulative number agreement in
+adjectives. Instead, the two types of patterns are discussed together.
+In this chapter, which is based on a portion of my dissertation <span
+class="citation">(<a href="#ref-zakirova2023">Zakirova 2023</a>)</span>,
+I specifically focus on the specialized number agreement of adnominal
+adjectives in the languages of Daghestan.</p>
+</div>
+<div id="intro" class="section level2 hasAnchor" number="1.2">
+<h2 class="hasAnchor"><span class="header-section-number">1.2</span>
+Specialized number agreement of adjectives in Daghestan: delimiting the
+phenomenon under investigation<a href="#intro" class="anchor-section"
+aria-label="Anchor link to header"></a></h2>
+<p>Adnominal adjectives in the languages of Daghestan exhibit both
+cumulative and specialized agreement. <em>Cumulative</em> gender-number
+agreement of adnominal adjectives, which is not the main focus of this
+chapter, is found in almost all of the East Caucasian languages of the
+sample. For instance, in the Godoberi (&lt; Andic) examples in (3-4),
+the adjective <span class="smallcaps">gn</span>-<em>elːara</em>-<span
+class="smallcaps">gn</span> has two gender-number agreement markers,
+prefixal and suffixal (note that <span class="smallcaps">gn</span> in
+the lexical entry stands for the gender-number marking slot).</p>
+<ol start="3" class="example" style="list-style-type: decimal">
+<li>Godoberi <span class="citation">(<a href="#ref-saidova1973">Saidova
+1973</a>: 76)</span></li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em><strong>w</strong>-olːara-<strong>w</strong></em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps"><strong>m</strong></span>-thin-<span
+class="smallcaps"><strong>m</strong></span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘thin (about a man)’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em><strong>j</strong>-elːara-<strong>j</strong></em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps"><strong>f</strong></span>-thin-<span
+class="smallcaps"><strong>f</strong></span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘thin (about a woman)’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em><strong>b</strong>-elːara-<strong>b</strong></em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps"><strong>hpl</strong></span>-thin-<span
+class="smallcaps"><strong>hpl</strong></span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘thin (about a mixed group of people)’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<ol start="4" class="example" style="list-style-type: decimal">
+<li>Godoberi <span class="citation">(<a href="#ref-saidova1973">Saidova
+1973</a>: 76)</span></li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em><strong>b</strong>-elːara-<strong>b</strong></em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps"><strong>n</strong></span>-thin-<span
+class="smallcaps"><strong>n</strong></span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘thin (about an object / animal)’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em><strong>r</strong>-elːara-<strong>r</strong></em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps"><strong>npl</strong></span>-thin-<span
+class="smallcaps"><strong>npl</strong></span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘thin (about objects / animals)’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>Another type of cumulative agreement is the expression of number
+agreement and <em>obliqueness agreement</em> in one cumulative morpheme,
+which is found in several branches of the East Caucasian family. In
+obliqueness agreement, adjectives that modify heads in oblique cases are
+marked differently from those that modify heads in the absolutive case,
+cf. discussion and examples in <span class="citation">(<a
+href="#ref-daniel2021">Daniel 2021</a>)</span>.</p>
+<p>In the non-East Caucasian languages of the sample, adjectives lack
+any cumulative agreement.</p>
+<p><em>Specialized</em> number agreement, which is the focus of this
+chapter, is illustrated by the Hunzib (&lt; Tsezic) example in (5):</p>
+<ol start="5" class="example" style="list-style-type: decimal">
+<li>Hunzib <span class="citation">(<a
+href="#ref-isakovxalilov2012">Isakov, Xalilov 2012</a>: 149)</span></li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>k’ot’ːu</em>
+</td>
+<td style="text-align:left;">
+<em>abu</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+good
+</td>
+<td style="text-align:left;">
+father
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘good father’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>k’ot’ː-<strong>ar</strong></em>
+</td>
+<td style="text-align:left;">
+<em>abu-wa</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+good-<span class="smallcaps"><strong>pl</strong></span>
+</td>
+<td style="text-align:left;">
+father-<span class="smallcaps">pl</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘good fathers’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>While in (5) the number agreement suffix <em>-ar</em> is the only
+agreement marker found in the adjective, specialized number agreement
+can also co-occur in the same word form with gender-number cumulative
+agreement. For instance, in the Hunzib example in (6) the specialized
+plural suffix <em>-ar</em> co-occurs with a cumulative gender-number
+prefix <em>j-/b-</em>, and in the Karata (&lt; Andic) examples in (7-8)
+the specialized plural suffix <em>-aj</em> co-occurs with cumulative
+gender-number suffixes.</p>
+<ol start="6" class="example" style="list-style-type: decimal">
+<li>Hunzib <span class="citation">(<a href="#ref-vandenberg1995">Berg
+1995</a>: 58)</span></li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em><strong>iʔer.u</strong></em>
+</td>
+<td style="text-align:left;">
+<em>ože</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span style="font-variant:small-caps;"><strong>m</span>.little</strong>
+</td>
+<td style="text-align:left;">
+boy
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘little boy’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em><strong>b</strong>-iʔer-<strong>ar</strong></em>
+</td>
+<td style="text-align:left;">
+<em>ož-da</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps"><strong>hpl</strong></span>-little-<span
+class="smallcaps"><strong>pl</strong></span>
+</td>
+<td style="text-align:left;">
+boy-<span class="smallcaps">pl</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘little boys’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em><strong>j</strong>-iʔeru</em>
+</td>
+<td style="text-align:left;">
+<em>kid</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps"><strong>f</strong></span>-little
+</td>
+<td style="text-align:left;">
+girl
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘little girl’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em><strong>b</strong>-iʔer-<strong>ar</strong></em>
+</td>
+<td style="text-align:left;">
+<em>kid-ba</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps"><strong>hpl</strong></span>-little-<span
+class="smallcaps"><strong>pl</strong></span>
+</td>
+<td style="text-align:left;">
+girl-<span class="smallcaps">pl</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘little girls’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em><strong>j</strong>-iʔeru</em>
+</td>
+<td style="text-align:left;">
+<em>celu</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps"><strong>n1</strong></span>-little
+</td>
+<td style="text-align:left;">
+drum
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘small drum’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em><strong>r</strong>-iʔer-<strong>ar</strong></em>
+</td>
+<td style="text-align:left;">
+<em>celu-wa</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps"><strong>npl</strong></span>-little-<span
+class="smallcaps"><strong>pl</strong></span>
+</td>
+<td style="text-align:left;">
+drum-<span class="smallcaps">pl</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘small drums’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<ol start="7" class="example" style="list-style-type: decimal">
+<li>Karata <span class="citation">(<a
+href="#ref-magomedovaxalidova2001">Magomedova, Xalidova 2001</a>: 97,
+113, 154, 288, 296)</span></li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>xoho-<strong>w</strong></em>
+</td>
+<td style="text-align:left;">
+<em>hek’ʷa</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+good-<span class="smallcaps"><strong>m</strong></span>
+</td>
+<td style="text-align:left;">
+man
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘good man’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>xoho-<strong>j</strong></em>
+</td>
+<td style="text-align:left;">
+<em>hark’uk’a</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+good-<span class="smallcaps"><strong>f</strong></span>
+</td>
+<td style="text-align:left;">
+woman
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘good woman’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>qarsːimo-<strong>b-aj</strong></em>
+</td>
+<td style="text-align:left;">
+<em>ʕãdi</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+mean-<span
+class="smallcaps"><strong>hpl</span>-<span style="font-variant:small-caps;">pl</strong></span>
+</td>
+<td style="text-align:left;">
+man.<span class="smallcaps"><strong>pl</strong></span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘mean people’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<ol start="8" class="example" style="list-style-type: decimal">
+<li>Karata <span class="citation">(<a
+href="#ref-magomedovaxalidova2001">Magomedova, Xalidova 2001</a>: 97,
+113, 154, 288, 296)</span><br />
+</li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>xoho-<strong>b</strong></em>
+</td>
+<td style="text-align:left;">
+<em>χːabar</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+good-<span class="smallcaps"><strong>n</strong></span>
+</td>
+<td style="text-align:left;">
+news
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘good news’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>šːebo-<strong>r-aj</strong></em>
+</td>
+<td style="text-align:left;">
+<em>gurži-čaruq-<strong>abdi</strong></em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+solid-<span
+class="smallcaps"><strong>npl</span>-<span style="font-variant:small-caps;">pl</strong></span>
+</td>
+<td style="text-align:left;">
+Georgian-boot-<span class="smallcaps"><strong>pl</strong></span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘solid ankle boots’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>In this chapter, I investigate specialized number agreement of
+adjectives, whether its markers co-occur with cumulative gender-number
+markers (as in 6 and 7-8), or are used on their own (as in 5). In
+addition to these prototypical cases of specialized number agreement, I
+also deal with some marginal cases.</p>
+<p>First, in several languages of the sample cumulative gender-number
+markers are neutralized in the plural. Consider the Avar example in (9),
+where plural agreement markers, the prefix <em>r-</em> and the suffix
+<em>-l</em>, are the same across all genders but are opposed to three
+different gender agreement markers in the singular:</p>
+<ol start="9" class="example" style="list-style-type: decimal">
+<li>Avar <span class="citation">(<a href="#ref-forkerdraft2020">Forker
+2020</a>: 265)</span></li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em><strong>w</strong>-icːat-a-<strong>w</strong></em>
+</td>
+<td style="text-align:left;">
+<em>či</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps"><strong>m</strong></span>-fat-<span
+class="smallcaps">attr</span>-<span
+class="smallcaps"><strong>m</strong></span>
+</td>
+<td style="text-align:left;">
+man
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘fat man’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em><strong>r</strong>-icːat-a-<strong>l</strong></em>
+</td>
+<td style="text-align:left;">
+<em>čaʕi</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps"><strong>pl</strong></span>-fat-<span
+class="smallcaps">attr</span>-<span
+class="smallcaps"><strong>pl</strong></span>
+</td>
+<td style="text-align:left;">
+man.<span class="smallcaps">pl</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘fat men’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em><strong>j</strong>-icːat-a-<strong>j</strong></em>
+</td>
+<td style="text-align:left;">
+<em>č’:užu</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps"><strong>f</strong></span>-thick-<span
+class="smallcaps">attr</span>-<span
+class="smallcaps"><strong>f</strong></span>
+</td>
+<td style="text-align:left;">
+woman
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘fat woman’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em><strong>r</strong>-icːat-a-<strong>l</strong></em>
+</td>
+<td style="text-align:left;">
+<em>ručːabi</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps"><strong>pl</strong></span>-thick-<span
+class="smallcaps">attr</span>-<span
+class="smallcaps"><strong>pl</strong></span>
+</td>
+<td style="text-align:left;">
+woman.<span class="smallcaps">pl</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘fat women’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em><strong>b</strong>-icːat-a-<strong>b</strong></em>
+</td>
+<td style="text-align:left;">
+<em>t’exː</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps"><strong>n</strong></span>-thick-<span
+class="smallcaps">attr</span>-<span
+class="smallcaps"><strong>n</strong></span>
+</td>
+<td style="text-align:left;">
+book
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘thick book’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em><strong>r</strong>-icːat-a-<strong>l</strong></em>
+</td>
+<td style="text-align:left;">
+<em>t’axːal</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps"><strong>pl</strong></span>-thick-<span
+class="smallcaps">attr</span>-<span
+class="smallcaps"><strong>pl</strong></span>
+</td>
+<td style="text-align:left;">
+book.<span class="smallcaps">pl</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘thick books’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>On the one hand, in the singular, gender and number in Avar are
+expressed in the same morpheme, therefore the agreement markers in the
+singular are cumulative. On the other hand, the plural marker
+<em>-l</em> only expresses the plural value without indicating the
+gender of the target. For the purposes of this chapter, I classify
+languages like Avar as having specialized number agreement. However, I
+also discuss gender neutralization in the plural separately (see <a
+href="063_adjectives_number_map.html#m4">Map 4</a> and <span
+class="citation">(<a
+href="#ref-genderneutralization"><strong>genderneutralization?</strong></a>)</span>).</p>
+<p>Another peripheral device that can express number agreement of
+adjectives is suppletion, further divided into weak and strong
+suppletion <span class="citation">(<a href="#ref-dressler1985">Dressler
+1985</a>)</span>. In weak suppletion, two stems share some phonological
+material, cf., English <em>see</em> vs. <em>saw</em>, but the relation
+between them is irregular. In strong suppletion, two stems do not share
+any phonological material at all, cf. English <em>be</em>
+vs. <em>was</em>. Diachronically, weak suppletion is typically the
+outcome of irregular alternations within a single stem, whereas strong
+suppletion usually arises as a result of two or more lexemes becoming
+members of the same paradigm and thus forms of one lexeme.</p>
+<p>An example of weak suppletion in adjectives comes from Chechen (&lt;
+Nakh):</p>
+<ol start="10" class="example" style="list-style-type: decimal">
+<li>Chechen <span class="citation">(<a href="#ref-nichols1994">Nichols
+1994</a>: 30)</span><br />
+</li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>gotːã</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+narrow.<span class="smallcaps">sg</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘narrow (sg)’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em><strong>gatː-ĩː</strong></em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<strong>narrow.<span
+class="smallcaps">pl</span>-<span style="font-variant:small-caps;">pl</strong></span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘narrow (pl)’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>Several branches of the East Caucasian family feature a phenomenon
+that at the first sight resembles strong suppletion in adjectives
+meaning ‘small’, less often ‘big’. For example, in Botlikh (&lt; Andic)
+the meaning ‘small’ is expressed by phonologically unrelated forms in
+the singular and in the plural.</p>
+<ol start="11" class="example" style="list-style-type: decimal">
+<li>Botlikh (village of Botlikh, own fieldwork)</li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>zuk’ːu</em>
+</td>
+<td style="text-align:left;">
+<em>ʁadaru</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+small.<span class="smallcaps">sg</span>
+</td>
+<td style="text-align:left;">
+plate
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘small plate’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em><strong>k’ːanc’ːil</strong></em>
+</td>
+<td style="text-align:left;">
+<em>ʁadar-abaɬi</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<strong>small.<span style="font-variant:small-caps;">pl</strong></span>
+</td>
+<td style="text-align:left;">
+plate-<span class="smallcaps">pl</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘small plates’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>While at the first sight examples like (11) seem to be instances of
+strong suppletion, <span class="citation">Popova (<a
+href="#ref-popova2024">2024</a>)</span> argues that they should not be
+immediately interpreted as such. One of her arguments is that in some of
+the languages featuring pairs as in (11), the choice between the
+allegedly suppletive variants ‘small.<span class="smallcaps">sg</span>’
+and ‘small.<span class="smallcaps">pl</span>’ is governed by rules
+different from those of agreement. For example, in Lak the plural form
+of the adjective is used within a numeral phrase, whereas nouns and
+their modifiers in the numeral phrase are normally singular. An
+alternative analysis, e.g., for the case of Lak, would be to consider
+the form used in the singular and the one used in the plural to be
+different lexemes.</p>
+<p>All in all, analyzing the situation with size adjectives in every
+language where they seemingly demonstrate strong suppletion requires
+additional data, preferably elicited. For this reason, I do not discuss
+strong suppletion here and instead redirect the reader to <span
+class="citation">(<a href="#ref-popova2024">Popova 2024</a>)</span>,
+whose study discusses size adjectives in much more detail than would be
+possible within this chapter. Weak suppletion, on the other hand, is
+discussed here, since the phonological affinity between weak suppletive
+variants excludes the analysis involving different lexemes.</p>
+<p>Yet another situation where the border between number agreement and
+other grammatical phenomena is blurred is described by <span
+class="citation">(<a href="#ref-graschenkov2021">Graščenkov
+2021</a>)</span>, <span class="citation">(<a
+href="#ref-lyutikova2021">Lyutikova 2021</a>)</span> and <span
+class="citation">(<a href="#ref-polinskydraft2015">Polinsky
+2015</a>)</span>, who note that, in some of its uses, the distributive
+marker <em>-t’a</em> (12) in Khwarshi and Tsez (&lt; Tsezic)
+functionally resembles a plural agreement marker. For example, with some
+adjectives it is obligatory in the plural (13).</p>
+<ol start="12" class="example" style="list-style-type: decimal">
+<li>Tsez <span class="citation">(<a
+href="#ref-polinskydraft2015">Polinsky 2015</a>: 13-14)</span><br />
+
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>neł-æ</em>
+</td>
+<td style="text-align:left;">
+<em>heneš-<strong>t’a</strong></em>
+</td>
+<td style="text-align:left;">
+<em>xex-za-r</em>
+</td>
+<td style="text-align:left;">
+<em>teƛ-si.</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps">dem</span>.<span
+class="smallcaps">nm</span>-<span class="smallcaps">erg</span>
+</td>
+<td style="text-align:left;">
+apple-<span class="smallcaps"><strong>distr</strong></span>
+</td>
+<td style="text-align:left;">
+child-<span class="smallcaps">obl</span>-<span
+class="smallcaps">lat</span>
+</td>
+<td style="text-align:left;">
+give-<span class="smallcaps">pst</span>.<span
+class="smallcaps">wit</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘She gave the children an apple each.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li>Tsez <span class="citation">(<a
+href="#ref-polinskydraft2015">Polinsky 2015</a>: 10)</span></li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>r-exora-<strong>t’a</strong></em>
+</td>
+<td style="text-align:left;">
+<em>аħ-ja-bi</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps">nm</span>.<span
+class="smallcaps">pl</span>-high-<span
+class="smallcaps"><strong>distr</strong></span>
+</td>
+<td style="text-align:left;">
+ear-<span class="smallcaps">obl</span>-<span class="smallcaps">pl</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘long ears’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+＊
+</td>
+<td style="text-align:left;">
+<em>r-exora</em>
+</td>
+<td style="text-align:left;">
+<em>аħ-ja-bi</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">nm</span>.<span class="smallcaps">pl</span>-high
+</td>
+<td style="text-align:left;">
+ear-<span class="smallcaps">obl</span>-<span class="smallcaps">pl</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘long ears’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p><span class="citation">(<a href="#ref-graschenkov2021">Graščenkov
+2021</a>)</span> suggests that the marker <em>-t’a</em> in Khwarshi
+might be evolving into a marker of plural agreement. However, this again
+requires a more detailed study. In this chapter, I do not attempt to
+determine whether the use of <em>-t’a</em> with adnominal adjectives
+indicates number agreement and do not classify languages with this use
+of <em>-t’a</em> as having specialized number agreement. Instead, I
+focus on identifying the languages where distributive markers are used
+in this way.</p>
+<p>Last but not least, while in some languages specialized number
+agreement is found with all adjectives in all contexts, in others it is
+only possible under certain conditions. Therefore, I also investigate
+the conditioning of specialized number agreement across the languages of
+Daghestan.</p>
+<p>Overall, the goal of this chapter is to classify the languages of
+Daghestan according to: </p>
+<ol style="list-style-type: decimal">
+<li>the presence or absence of specialized number agreement;<br />
+</li>
+<li>the conditioning of specialized number agreement;<br />
+</li>
+<li>the morphological means of its expression (affix vs. weak
+suppletion);<br />
+</li>
+<li>the presence or absence of full neutralization of gender agreement
+in plural;<br />
+</li>
+<li>the presence of distributivity markers on adnominal adjectives
+probably evolving into number agreement.</li>
+</ol>
+</div>
+<div id="data-collection" class="section level2 hasAnchor" number="1.3">
+<h2 class="hasAnchor"><span class="header-section-number">1.3</span>
+Data collection<a href="#data-collection" class="anchor-section"
+aria-label="Anchor link to header"></a></h2>
+<p>Since I was interested in the specialized agreement of
+<em>adnominal</em> adjectives, I aimed to include in the dataset those
+examples that favored the analysis of the adjective as an NP attribute.
+Most of the data points in the dataset thus meet the following
+criteria:<br />
+</p>
+<ol style="list-style-type: decimal">
+<li>the adjective is used as an attribute;<br />
+</li>
+<li>the head noun is overt;<br />
+</li>
+<li>the order in the NP is the default one (for all languages of the
+sample Adj N).</li>
+</ol>
+<p>The motivation behind 1) is that predicative adjectives can behave
+differently from adjectives in the attributive position, cf. German
+agreeing adnominal vs. non-agreeing predicative adjectives. The
+motivation behind 2) and 3) is that headless, postposed and dislocated
+modifiers also tend to behave differently from adnominal modifiers in
+the default position <span class="citation">(<a
+href="#ref-clemdawson2024">Clem, Dawson 2024</a>)</span>.</p>
+<p>For the idioms where examples satisfying criteria 1–3 were
+unavailable, I included in the database some examples with isolated
+adjectives (e.g., the Godoberi example in 3). These examples should
+still be comparable to the “ideal” examples, since the adnominal use of
+adjectives is typically seen as the “default” use. Therefore, these
+isolated examples most probably illustrate the form of adjective in the
+adnominal use.</p>
+<p>In those languages where obliqueness agreement is expressed in
+cumulation with number agreement, number agreement marking may differ in
+the absolutive case and in the oblique cases (see <span
+class="citation">(<a href="#ref-daniel2021">Daniel 2021</a>)</span> for
+more detail). To obtain comparable data, for all languages of the sample
+I only included in my dataset adjectives modifying heads in the
+absolutive case.</p>
+</div>
+</div>
+<div id="results" class="section level1 hasAnchor" number="2">
+<h1 class="hasAnchor"><span class="header-section-number">2</span>
+Results<a href="#results" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<div id="presence-of-number-agreement-on-adnominal-adjectives"
+class="section level2 hasAnchor" number="2.1">
+<h2 class="hasAnchor"><span class="header-section-number">2.1</span>
+Presence of number agreement on adnominal adjectives<a
+href="#presence-of-number-agreement-on-adnominal-adjectives"
+class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>This feature reflects the presence or absence of specialized number
+agreement, as defined above in <span class="citation">(<a
+href="#ref-intro"><strong>intro?</strong></a>)</span>. Three major
+groups of languages are identified, corresponding to Values 1-3:</p>
+<ol style="list-style-type: decimal">
+<li><strong>Obligatory agreement</strong>: those languages where all
+adjectival lexemes agree in number in the adnominal position (15 out of
+57);</li>
+<li><strong>Conditioned agreement</strong>: those languages where number
+agreement of adnominal adjectives is conditioned by some factors (14 out
+of 57);</li>
+<li><strong>Non-agreeing</strong>: those languages where none of the
+adjectival lexemes agree in number in the adnominal position (28 out of
+57).</li>
+</ol>
+<p>Specialized number agreement of adjectives is thus attested in about
+half of the languages in my sample (Values 1 and 2).</p>
+<p>Value 1 (obligatory agreement) is illustrated by Upper Andi (14),
+Value 3 (non-agreeing) by Lower Andi (15):</p>
+<ol start="14" class="example" style="list-style-type: decimal">
+<li>Upper Andi (village of Zilo, own fieldwork)</li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>hiri</em>
+</td>
+<td style="text-align:left;">
+<em>ǯinǯi</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+red
+</td>
+<td style="text-align:left;">
+flower
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘red flower’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>hir-<strong>ol</strong></em>
+</td>
+<td style="text-align:left;">
+<em>ǯinǯi-l</em>
+</td>
+<td style="text-align:left;">
+<em>/</em>
+</td>
+<td style="text-align:left;">
+<em>＊hiri</em>
+</td>
+<td style="text-align:left;">
+<em>ǯinǯi-l</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+red-<span class="smallcaps"><strong>pl</strong></span>
+</td>
+<td style="text-align:left;">
+flower-<span class="smallcaps">abs</span>.<span
+class="smallcaps">pl</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">/</span>
+</td>
+<td style="text-align:left;">
+＊red
+</td>
+<td style="text-align:left;">
+flower-<span class="smallcaps">abs</span>.<span
+class="smallcaps">pl</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘red flowers’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<ol start="15" class="example" style="list-style-type: decimal">
+<li>Lower Andi (village of Muni, own fieldwork)</li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>hiri</em>
+</td>
+<td style="text-align:left;">
+<em>ǯinǯi</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+red
+</td>
+<td style="text-align:left;">
+flower
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘red flower’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>hiri</em>
+</td>
+<td style="text-align:left;">
+<em>ǯinǯiʔo-li</em>
+</td>
+<td style="text-align:left;">
+<em>/</em>
+</td>
+<td style="text-align:left;">
+<em>＊hir-<strong>oli</strong></em>
+</td>
+<td style="text-align:left;">
+<em>ǯinǯiʔo-li</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+red
+</td>
+<td style="text-align:left;">
+flower.<span class="smallcaps">pl</span>-<span
+class="smallcaps">abs</span>.<span class="smallcaps">pl</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">/</span>
+</td>
+<td style="text-align:left;">
+＊red-<span class="smallcaps"><strong>pl</strong></span>
+</td>
+<td style="text-align:left;">
+flower.<span class="smallcaps">pl</span>-<span
+class="smallcaps">abs</span>.<span class="smallcaps">pl</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘red flowers’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>Value 2 (conditioned agreement) includes languages where adnominal
+number agreement is conditioned by certain factors. These factors are
+discussed in <span class="citation">(<a
+href="#ref-conditioning"><strong>conditioning?</strong></a>)</span>.</p>
+</div>
+<div id="conditioning" class="section level2 hasAnchor" number="2.2">
+<h2 class="hasAnchor"><span class="header-section-number">2.2</span>
+Conditioning of number agreement<a href="#conditioning"
+class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>In the languages of the sample, the presence or absence of
+specialized number agreement is governed by the following
+conditions:<br />
+1) <strong>Lexical property</strong>:<br />
+Only a lexically restricted set of adjectives exhibits number
+agreement.<br />
+2) <strong>Form of the adjective</strong>:<br />
+Two or three forms of adnominal adjectives are distinguished, e.g. an
+agreeing form, which may have a restrictive interpretation, vs. a
+non-agreeing form, which is unmarked in terms of restrictiveness.<br />
+3) <strong>Number marker</strong>:<br />
+Agreement of adnominal adjectives depends on the number marker found on
+the NP head.<br />
+</p>
+<p>I will now elaborate further on conditions 1–3. Note that, while one
+of the typical conditions of agreement across languages is the animacy
+of the controller <span class="citation">(<a
+href="#ref-corbett2006">Corbett 2006</a>: 190–-191)</span>, my data show
+that animacy does not influence the conditioning of number agreement in
+the languages of Daghestan.</p>
+<div id="condition-1-lexical-property" class="section level3 hasAnchor"
+number="2.2.1">
+<h3 class="hasAnchor"><span class="header-section-number">2.2.1</span>
+Condition 1: lexical property<a href="#condition-1-lexical-property"
+class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>In Ingush, only one adjective shows specialized number agreement
+(16). Here, I analyze the final <em>-i</em>: as a suffix diachronically
+related to the noun plural marker <em>-i:</em> <span
+class="citation">(<a href="#ref-nichols2011">Nichols 2011</a>:
+138)</span>. An alternative analysis would be weak suppletion.</p>
+<ol start="16" class="example" style="list-style-type: decimal">
+<li>Ingush <span class="citation">(<a href="#ref-nichols2011">Nichols
+2011</a>: 220)</span></li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>w-oaqχ:a</em>
+</td>
+<td style="text-align:left;">
+<em>sag</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps">m</span>-big
+</td>
+<td style="text-align:left;">
+man
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘old man’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>b-oaqχ:-<strong>i:</strong></em>
+</td>
+<td style="text-align:left;">
+<em>nax</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps">hpl</span>-big-<span
+class="smallcaps"><strong>pl</strong></span>
+</td>
+<td style="text-align:left;">
+man.<span class="smallcaps">pl</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘old people’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+</div>
+<div id="condition-2-form-of-the-adjective"
+class="section level3 hasAnchor" number="2.2.2">
+<h3 class="hasAnchor"><span class="header-section-number">2.2.2</span>
+Condition 2: form of the adjective<a
+href="#condition-2-form-of-the-adjective" class="anchor-section"
+aria-label="Anchor link to header"></a></h3>
+<p>In some languages of the sample, adjectives in the adnominal position
+distinguish between two or three forms, only one of which shows
+specialized number agreement. <a href="#t1">Table 1</a> provides the
+exact range of adnominal forms for these languages.</p>
+<div id="t1" class="section level4 unnumbered hasAnchor">
+<h4 class="unnumbered hasAnchor">Table 1. Forms of adnominal adjectives
+demonstrating number agreement<a href="#t1" class="anchor-section"
+aria-label="Anchor link to header"></a></h4>
+<table>
+<colgroup>
+<col width="38%" />
+<col width="32%" />
+<col width="29%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Language</th>
+<th>Range of forms</th>
+<th>Suffixes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Standard Avar</td>
+<td>1) zero-marked form, <br> <strong>2) marked agreeing
+form</strong></td>
+<td>1) ∅ <br> <strong>2) <em>-a-<span class="smallcaps">gn</span></em>
+(gender neutralization in the plural)</strong></td>
+</tr>
+<tr class="even">
+<td>Tanty Dargwa</td>
+<td>1) zero-marked form; <br> 2) marked non-agreeing form; <br>
+<strong>3) marked agreeing restrictive form</strong></td>
+<td>1) ∅; <br> 2) <em>-se</em>; <br> <strong>3) <span
+class="smallcaps">sg</span> <em>-jil</em> / <span
+class="smallcaps">pl</span> <em>-te</em> <br></strong></td>
+</tr>
+<tr class="odd">
+<td>Itsari Dargwa</td>
+<td>1) zero-marked form; <br> <strong>2) marked agreeing restrictive
+form</strong></td>
+<td>1) ∅; <br> 2) ** <em>-il</em> / <span class="smallcaps">pl</span>
+<em>-ti</em>**</td>
+</tr>
+<tr class="even">
+<td>Sanzhi Dargwa</td>
+<td>1) zero-marked form; <br> <strong>2) marked agreeing restrictive
+form</strong></td>
+<td>1) ∅; <br> 2) <strong><span class="smallcaps">sg</span><em>-ce</em>
+/ <span class="smallcaps">pl</span> <em>-te</em></strong></td>
+</tr>
+<tr class="odd">
+<td>Standard Lak</td>
+<td>1) zero-marked form; <br> 2) marked non-agreeing form; <br>
+<strong>3) marked agreeing restrictive form</strong></td>
+<td>1) ∅; <br> 2) <em>-sːa</em>; <br> 3) <strong><span
+class="smallcaps">sg</span>.<span class="smallcaps">m</span>
+<em>-ma</em> / <span class="smallcaps">sg</span>.<span
+class="smallcaps">nm</span> <em>-mur</em> / <span
+class="smallcaps">pl</span> <em>-mi</em> (gender neutralization in the
+plural)</strong></td>
+</tr>
+</tbody>
+</table>
+<p>As one can see from <a href="#t1">Table 1</a>, in several languages
+the agreeing form is marked for the category of
+<em>restrictiveness</em>. <span class="citation">Boguslavskaja (<a
+href="#ref-boguslavskaja1995">1995</a>)</span>: 236 defines restrictive
+attributes as those that “delimit the set of entities denoted by their
+head nouns by emphasizing the contrast with other possible delimitations
+(e.g. ‘father’s sister, not mother’s’, ‘fine houses, not ugly ones’)”.
+The attributes not marked for restrictiveness are neutral in this
+respect. For example, in several Dargwa varieties (e.g., Itsari, Tanty,
+Sanzhi), adnominal adjectives marked with a restrictive suffix such as
+Itsari <em>-ci</em> (<span class="smallcaps">sg</span>) / <em>-ti</em>
+(<span class="smallcaps">pl</span>), Tanty <em>-il</em> (<span
+class="smallcaps">sg</span>) / <em>-te</em> (<span
+class="smallcaps">pl</span>) imply “the contrastive emphasis on the
+attribute” <span class="citation">(<a
+href="#ref-sumbatovamutalov2003">Sumbatova, Mutalov 2003</a>:
+48)</span>. In addition to these two forms, Tanty also has non-agreeing
+forms in <em>-se</em>. Consider the contrast between non-agreeing forms
+in <em>-se</em> (17) and forms in <em>-il</em> (<span
+class="smallcaps">sg</span>) / <em>-te</em> (<span
+class="smallcaps">pl</span>) (18).</p>
+<ol start="17" class="example" style="list-style-type: decimal">
+<li>Tanty Dargwa <span class="citation">(<a
+href="#ref-sumbatovalander2014">Sumbatova, Lander 2014</a>: 699,
+215)</span></li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>qːuʁa-<strong>se</strong></em>
+</td>
+<td style="text-align:left;">
+<em>jurt</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+beautiful-<span class="smallcaps"><strong>attr</strong></span>
+</td>
+<td style="text-align:left;">
+house
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘beautiful house’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>qːuʁa-<strong>se</strong></em>
+</td>
+<td style="text-align:left;">
+<em>waw-ne</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+beautiful-<span class="smallcaps"><strong>attr</strong></span>
+</td>
+<td style="text-align:left;">
+flower-<span class="smallcaps">pl</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘beautiful flowers’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<ol start="18" class="example" style="list-style-type: decimal">
+<li>Tanty Dargwa <span class="citation">(<a
+href="#ref-sumbatovalander2014">Sumbatova, Lander 2014</a>:
+222)</span></li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>dam</em>
+</td>
+<td style="text-align:left;">
+<em>b-ičː-aq-i-d</em>
+</td>
+<td style="text-align:left;">
+<em>b-erʁ-ub-<strong>il</strong></em>
+</td>
+<td style="text-align:left;">
+<em>dig</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+I.<span class="smallcaps">dat</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">n</span>-love.<span
+class="smallcaps">ipf</span>-<span class="smallcaps">caus</span>-<span
+class="smallcaps">th</span>-<span class="smallcaps">m</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">n</span>-dry.<span
+class="smallcaps">pf</span>-<span class="smallcaps">pret</span>-<span
+class="smallcaps"><strong>restr</span>.<span style="font-variant:small-caps;">sg</strong></span>
+</td>
+<td style="text-align:left;">
+meat
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘I like dried meat [and not fresh meat]’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>qːuʁa-<strong>te</strong></em>
+</td>
+<td style="text-align:left;">
+<em>rurs-be</em>
+</td>
+<td style="text-align:left;">
+<em>b-ač’-ib</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+beautiful-<span
+class="smallcaps"><strong>restr</span>.<span style="font-variant:small-caps;">pl</strong></span>
+</td>
+<td style="text-align:left;">
+girl-<span class="smallcaps">pl</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">hpl</span>-come:<span
+class="smallcaps">pf</span>-<span class="smallcaps">pret</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Beautiful girls arrived [others stayed home]’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+</div>
+</div>
+<div id="condition-3-number-marking-mechanism"
+class="section level3 hasAnchor" number="2.2.3">
+<h3 class="hasAnchor"><span class="header-section-number">2.2.3</span>
+Condition 3: number marking mechanism<a
+href="#condition-3-number-marking-mechanism" class="anchor-section"
+aria-label="Anchor link to header"></a></h3>
+<p>In one language of the sample, namely Georgian (&lt; Kartvelian),
+plural forms of nouns can be built by means of two different markers,
+with different semantic and stylistic effects. The more archaic plural
+marker <em>-n</em> triggers number agreement on adnominal adjectives,
+while the stylistically unmarked plural marker <em>-eb-</em> does not.
+This type of conditioning is not attested in East Caucasian.</p>
+<ol start="19" class="example" style="list-style-type: decimal">
+<li>Georgian <span class="citation">(<a href="#ref-hewitt1995">Hewitt
+1995</a>: 45)</span></li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>maʁal-i</em>
+</td>
+<td style="text-align:left;">
+<em>brma</em>
+</td>
+<td style="text-align:left;">
+<em>kal-i</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+tall-<span class="smallcaps">abs</span>
+</td>
+<td style="text-align:left;">
+blind.<span class="smallcaps">abs</span>
+</td>
+<td style="text-align:left;">
+female-<span class="smallcaps">abs</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘tall blind woman’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>maʁal-<strong>n</strong>-i</em>
+</td>
+<td style="text-align:left;">
+<em>brma-<strong>n</strong>-i</em>
+</td>
+<td style="text-align:left;">
+<em>kal-n-i</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+tall-<span class="smallcaps"><strong>pl</strong></span>-<span
+class="smallcaps">abs</span>
+</td>
+<td style="text-align:left;">
+blind-<span class="smallcaps"><strong>pl</strong></span>-<span
+class="smallcaps">abs</span>
+</td>
+<td style="text-align:left;">
+female-<span class="smallcaps">pl</span>-<span
+class="smallcaps">abs</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘tall blind women’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<ol start="20" class="example" style="list-style-type: decimal">
+<li>Georgian <span class="citation">(<a href="#ref-hewitt1995">Hewitt
+1995</a>: 45)</span></li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>maʁal-i</em>
+</td>
+<td style="text-align:left;">
+<em>brma</em>
+</td>
+<td style="text-align:left;">
+<em>kal-i</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+tall-<span class="smallcaps">abs</span>
+</td>
+<td style="text-align:left;">
+blind.<span class="smallcaps">abs</span>
+</td>
+<td style="text-align:left;">
+female-<span class="smallcaps">abs</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘tall blind woman’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>maʁal-i</em>
+</td>
+<td style="text-align:left;">
+<em>brma</em>
+</td>
+<td style="text-align:left;">
+<em>kal-eb-i</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+tall-<span class="smallcaps">abs</span>
+</td>
+<td style="text-align:left;">
+blind.<span class="smallcaps">abs</span>
+</td>
+<td style="text-align:left;">
+female-<span class="smallcaps">pl</span>-<span
+class="smallcaps">abs</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘tall blind women’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>The conditions discussed above are not mutually exclusive and can, in
+principle, co-exist in the same language. In my sample, however, only
+Avar has multiple types of conditioning in the same lect (lexical and
+the form of the adjective).</p>
+</div>
+</div>
+<div id="means-of-expression" class="section level2 hasAnchor"
+number="2.3">
+<h2 class="hasAnchor"><span class="header-section-number">2.3</span>
+Means of expression<a href="#means-of-expression" class="anchor-section"
+aria-label="Anchor link to header"></a></h2>
+<p>Specialized number agreement in East Caucasian can be expressed both
+by means of suffixes, very rarely prefixes (cf. example 9 from Avar,
+examples 17-18 from Tanty Dargwa and several other previous examples),
+and weak suppletion (cf. the Chechen example in 21, where plural number
+is signaled by vowel alternation in the stem and by an affix):</p>
+<ol start="21" class="example" style="list-style-type: decimal">
+<li>Chechen <span class="citation">(<a href="#ref-nichols1994">Nichols
+1994</a>: 30)</span></li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>gotːã</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+narrow.<span class="smallcaps">sg</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘narrow (sg)’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em><strong>gatː-ĩː</strong></em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<strong>narrow.<span
+class="smallcaps">pl</span>-<span style="font-variant:small-caps;">pl</strong></span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘narrow (pl)’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+</div>
+<div id="genderneutralization" class="section level2 hasAnchor"
+number="2.4">
+<h2 class="hasAnchor"><span class="header-section-number">2.4</span>
+Gender neutralization in the plural<a href="#genderneutralization"
+class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>In most languages of the sample, adnominal adjectives do not show
+gender neutralization in the plural. Languages that have it include Avar
+(9) and Lak (22). Note that in Lak, it is the restrictive form in
+<em>-ma/-mur/-mi</em> that demonstrates gender neutralization in
+plural.</p>
+<ol start="22" class="example" style="list-style-type: decimal">
+<li>Lak <span class="citation">(<a href="#ref-kazenin2013">Kazenin
+2013</a>: 20)</span></li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>jala</em>
+</td>
+<td style="text-align:left;">
+<em>χːira-<strong>ma</strong></em>
+</td>
+<td style="text-align:left;">
+<em>øˤrč’</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+most
+</td>
+<td style="text-align:left;">
+dear-<span
+class="smallcaps"><strong>restr</span>.<span style="font-variant:small-caps;">m</strong></span>
+</td>
+<td style="text-align:left;">
+boy
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘favourite boy’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>jala</em>
+</td>
+<td style="text-align:left;">
+<em>χːira-<strong>mi</strong></em>
+</td>
+<td style="text-align:left;">
+<em>øˤrč’-ru</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+most
+</td>
+<td style="text-align:left;">
+dear-<span
+class="smallcaps"><strong>restr</span>.<span style="font-variant:small-caps;">pl</strong></span>
+</td>
+<td style="text-align:left;">
+boy-<span class="smallcaps">pl</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘favourite boys’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>jala</em>
+</td>
+<td style="text-align:left;">
+<em>χːira-<strong>mur</strong></em>
+</td>
+<td style="text-align:left;">
+<em>šːarsːa</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+most
+</td>
+<td style="text-align:left;">
+dear-<span
+class="smallcaps"><strong>restr</span>.<span style="font-variant:small-caps;">nm</strong></span>
+</td>
+<td style="text-align:left;">
+woman
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘favourite woman’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>jala</em>
+</td>
+<td style="text-align:left;">
+<em>χːira-<strong>mi</strong></em>
+</td>
+<td style="text-align:left;">
+<em>qami</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+most
+</td>
+<td style="text-align:left;">
+dear-<span
+class="smallcaps"><strong>restr</span>.<span style="font-variant:small-caps;">pl</strong></span>
+</td>
+<td style="text-align:left;">
+woman.<span class="smallcaps">pl</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘favourite women’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>jala</em>
+</td>
+<td style="text-align:left;">
+<em>χːira-<strong>mur</strong></em>
+</td>
+<td style="text-align:left;">
+<em>duš</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+most
+</td>
+<td style="text-align:left;">
+dear-<span
+class="smallcaps"><strong>restr</span>.<span style="font-variant:small-caps;">nm</strong></span>
+</td>
+<td style="text-align:left;">
+girl
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘favourite girl’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>jala</em>
+</td>
+<td style="text-align:left;">
+<em>χːira-<strong>mi</strong></em>
+</td>
+<td style="text-align:left;">
+<em>duš-ru</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+most
+</td>
+<td style="text-align:left;">
+dear-<span
+class="smallcaps"><strong>restr</span>.<span style="font-variant:small-caps;">pl</strong></span>
+</td>
+<td style="text-align:left;">
+girl-<span class="smallcaps">pl</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘favourite girls’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>jala</em>
+</td>
+<td style="text-align:left;">
+<em>χːira-<strong>mur</strong></em>
+</td>
+<td style="text-align:left;">
+<em>zat</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+most
+</td>
+<td style="text-align:left;">
+dear-<span
+class="smallcaps"><strong>restr</span>.<span style="font-variant:small-caps;">nm</strong></span>
+</td>
+<td style="text-align:left;">
+thing
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘favourite thing’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>jala</em>
+</td>
+<td style="text-align:left;">
+<em>χːira-<strong>mi</strong></em>
+</td>
+<td style="text-align:left;">
+<em>zat-ru</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+most
+</td>
+<td style="text-align:left;">
+dear-<span
+class="smallcaps"><strong>restr</span>.<span style="font-variant:small-caps;">pl</strong></span>
+</td>
+<td style="text-align:left;">
+thing-<span class="smallcaps">pl</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘favourite things’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+</div>
+<div id="distributive-marking-bordering-on-plural-agreement"
+class="section level2 hasAnchor" number="2.5">
+<h2 class="hasAnchor"><span class="header-section-number">2.5</span>
+Distributive marking bordering on plural agreement<a
+href="#distributive-marking-bordering-on-plural-agreement"
+class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Two West Tsezic languages, Tsez and Khwarshi, demonstrate the same
+marker <em>-t’a</em> in distributive contexts (12) and on adnominal
+adjectives (13). In the rest of the sample, this development has not
+been attested.</p>
+</div>
+</div>
+<div id="distribution" class="section level1 hasAnchor" number="3">
+<h1 class="hasAnchor"><span class="header-section-number">3</span>
+Distribution<a href="#distribution" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p>The distribution of values across languages of the sample is shown on
+five maps.</p>
+<p><strong><a href="064_adjectives_number_map.html#m1">Map 1</a> shows
+the presence or absence of specialized number agreement in adnominal
+adjectives</strong></p>
+<p>Specialized number agreement is found in several branches of East
+Caucasian, namely Nakh, Avar, Andic, Tsezic, Lak and Dargwa, while it is
+absent in Lezgic and Khinalug.</p>
+<p>On the one hand, East Caucasian languages show considerable variation
+in this respect: in several big branches, namely Andic, Tsezic, and
+Dargwa, languages with specialized number agreement on adjectives
+coexist with languages without specialized number agreement. On the
+other hand, the genealogical signal is strong: at the level of each
+branch, cognate markers are found, while across branches, at the family
+level, different markers are used. The following conclusion can be
+drawn: in contrast to gender-number agreement, whose markers are
+reconstructed to the East Caucasian protolanguage, specialized number
+agreement of adjectives is a fairly recent phenomenon that arose after
+the East Caucasian family split into different branches.</p>
+<p>Almost all non-East Caucasian languages in the sample, with the
+exception of Georgian, lack specialized number agreement of adjectives.
+Therefore, the specialized number agreement patterns in the East
+Caucasian family could hardly arise due to contacts with adjacent
+languages.</p>
+<p><strong><a href="064_adjectives_number.html#m2">Map 2</a> shows the
+conditioning of specialized number agreement.</strong></p>
+<p>In the distribution of conditions, the genealogical signal is strong:
+languages within one branch more often feature the same conditions,
+whereas languages from different branches usually pattern
+differently.</p>
+<p>In the Nakh languages, number agreement is restricted lexically,
+i.e., it is limited to a small subclass of adjectives.</p>
+<p>In Avar, in some Dargwa lects and in Lak, specialized number
+agreement is conditioned by the form of the adjective (often
+restrictive). A subset of Avar adjectives also have gender-number
+prefixes, which, due to gender neutralization, qualify as specialized
+number markers. Thus, Avar has two types of conditioning: form of the
+adjective and lexical.</p>
+<p>In most Andic languages special number agreement of adjectives is
+either obligatory (Upper Andi, Karata, Chamalal) or not attested (Lower
+Andi, Bagvalal, Akhvakh, Tindi). However, Botlikh and Godoberi show
+lexical conditioning of gender agreement: these languages seem to have
+borrowed the plural <em>-l</em> from Avar, which is restricted to some
+lexemes <span class="citation">(<a href="#ref-saidova1973">Saidova
+1973</a>: 79–80; <a href="#ref-saidovaabusov2012">Saidova, Abusov
+2012</a>: 547)</span>.</p>
+<p>In Eastern Tsezic (Bezhta and Hunzib) specialized number agreement is
+mostly expressed by suffixes and is either not conditioned or
+conditioned lexically (e.g., in Bezhta proper and Hunzib there are some
+non-agreeing adjectives, while in Tlyadal Bezhta all adjectives seem not
+to agree in number when used adnominally). Western Tsezic languages
+(Hinuq, Khwarshi and Tsez), on the other hand, do not have specialized
+number agreement.</p>
+<p>In all Lezgic languages and Khinalug, specialized number agreement is
+not attested. The Turkic and Indo-European languages of the sample also
+lack number agreement of adnominal adjectives, thus showing no
+conditions on this agreement. By contrast, Georgian (&lt;Kartvelian)
+demonstrates a unique condition, by which number marking on adjectives
+depends on the number marking of the head.</p>
+<p><strong><a href="064_adjectives_number_map.html#m3">Map 3</a> shows
+specialized morphological means of number agreement.</strong></p>
+<p>In Avar, Andic, Tsezic, Lak and Dargwa branches, specialized number
+agreement is typically expressed by means of affixes, almost always
+suffixes, except for Avar, where number agreement prefixes are also
+found. In Nakh, specialized number agreement of adjectives is expressed
+by means of suffixes and weak suppletion.</p>
+<p>In some Andic (Botlikh, Godoberi) and Tsezic (Bezhta) languages,
+specialized number agreement markers are attested, and they probably
+originated from the Avar plural suffix <em>-l</em>: Botlikh and Godoberi
+<em>-l</em>, Bezhta proper <em>-la</em> <span class="citation">(<a
+href="#ref-zakirova2023">Zakirova 2023</a>: 86, 89)</span>.</p>
+<p><strong><a href="064_adjectives_number_map.html#m4">Map 4</a> shows
+the presence or absence of full neutralization of gender agreement in
+the plural.</strong></p>
+<p>This feature is present in Avar and Lak. Interestingly, Archi, which
+does not have specialized number agreement on (underived) adjectives,
+possesses a similar phenomenon: the agreeing suffix <em>-t:u</em> (<span
+class="smallcaps">gn</span>) on attributivized forms. In the singular,
+this suffix marks the gender of the controller. In the plural, the
+gender opposition is neutralized and the attributive marker has the form
+<em>-t:ib</em> regardless of the gender of the head. Since Archi has
+experienced contact influence from Avar and Lak <span
+class="citation">(<a href="#ref-chumakina2009">Chumakina
+2009</a>)</span> as a result of long-standing multilingualism patterns
+<span class="citation">(<a href="#ref-dobrushina2011">Dobrušina
+2011</a>)</span>, the development of the attributivizing device
+<em>-t:u</em> (<span class="smallcaps">gn</span>), which undergoes
+gender neutralization in the plural, may be attributed to contact with
+Avar or Lak.</p>
+<p><strong><a href="064_adjectives_number_map.html#m5">Map 5</a> shows
+distributive marking bordering on plural agreement.</strong></p>
+<p>The use of distributive markers on adnominal adjectives is only found
+in two West Tsezic languages, Tsez and Khwarshi, and thus has a
+genealogical distribution.</p>
+</div>
+<div id="list-of-glosses" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">List of glosses<a
+href="#list-of-glosses" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p>abs — absolutive; attr — attributive; caus — causative; dat — dative;
+dem — demonstrative; distr — distributive; erg — ergative; f — feminine
+gender; hpl — human plural gender; ipf — imperfective; lat — lative; m —
+masculine gender; n — neuter gender; n1 — neuter gender I; nm —
+non-masculine gender; npl — neutral plural gender; obl — oblique; pf —
+perfective; pl — plural; pret — preterite; pst — past; restr —
+restrictive; sg — singular; th — thematic; wit — witnessed</p>
+<p><span class="smallcaps">abs</span> — absolutive; <span
+class="smallcaps">attr</span> — attributive; <span
+class="smallcaps">caus</span> — causative; <span
+class="smallcaps">dat</span> — dative; <span
+class="smallcaps">dem</span> — demonstrative; <span
+class="smallcaps">distr</span> — distributive; <span
+class="smallcaps">erg</span> — ergative; <span
+class="smallcaps">f</span> — feminine; <span class="smallcaps"><span
+style="background-color:#00d5ff;">gn</span></span> — ; <span
+class="smallcaps">hpl</span> — human plural; <span
+class="smallcaps">ipf</span> — imperfective; <span
+class="smallcaps">lat</span> — lative; <span
+class="smallcaps">m</span> — masculine; <span
+class="smallcaps">n</span> — neuter; <span class="smallcaps"><span
+style="background-color:#00d5ff;">n1</span></span> — ; <span
+class="smallcaps">nm</span> — non-masculine; <span
+class="smallcaps">npl</span> — neutral plural; <span
+class="smallcaps">obl</span> — oblique; <span
+class="smallcaps">pf</span> — perfective; <span
+class="smallcaps">pl</span> — plural; <span
+class="smallcaps">pret</span> — preterite; <span
+class="smallcaps">pst</span> — past; <span
+class="smallcaps">restr</span> — restrictive; <span
+class="smallcaps">sg</span> — singular; <span
+class="smallcaps">th</span> — thematic; <span
+class="smallcaps">wit</span> — witnessed</p>
+</div>
+<div id="references" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">References<a href="#references"
+class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="refs" class="references csl-bib-body hanging-indent"
+line-spacing="2">
+<div id="ref-vandenberg1995" class="csl-entry">
+Berg, Helma van den. (1995). <em>A grammar of <span>H</span>unzib</em>.
+Munich: Lincom.
+</div>
+<div id="ref-boguslavskaja1995" class="csl-entry">
+Boguslavskaja, Ol’ga. (1995). Genitives and adjectives as attributes in
+<span>D</span>aghestanian. In Frans Plank (Ed.), <em>Double
+<span>C</span>ase: <span>A</span>greement by
+<span>S</span>uffixaufnahme.</em> (pp. 230–239). New York: Oxford
+University Press.
+</div>
+<div id="ref-chumakina2009" class="csl-entry">
+Chumakina, Marina. (2009). Loanwords in <span>A</span>rchi, a
+<span>N</span>akh-<span>D</span>aghestanian language of the
+<span>N</span>orth <span>C</span>aucasus. In Martin Haspelmath, Uri
+Tadmor (Eds.), <em>Loanwords in the world’s languages: <span>A</span>
+comparative handbook</em> (pp. 430–446). Berlin, New York: Walter de
+Gruyter.
+</div>
+<div id="ref-clemdawson2024" class="csl-entry">
+Clem, Emily, Dawson, Virginia. (2024). The emergence of case matching in
+discontinuous <span>D</span>ps. <em>Natural Language &amp; Linguistic
+Theory</em>, <em>42</em>(3), 955–1002.
+</div>
+<div id="ref-corbett2006" class="csl-entry">
+Corbett, Greville G. (2006). <em>Agreement.</em> Cambridge: Cambridge
+University Press.
+</div>
+<div id="ref-daniel2021" class="csl-entry">
+Daniel, Michael A. (2021). Soglasovanie po kosvennosti v
+naxsko-dagestanskix jazykax: Obzor èmpiričeskix dannyx
+[<span>A</span>greement in obliqueness in <span>E</span>ast
+<span>C</span>aucasian: <span>A</span> formal survey]. <em>Rhema</em>,
+(2), 102–130.
+</div>
+<div id="ref-dobrushina2011" class="csl-entry">
+Dobrušina, Nina R. (2011). Mnogojazyčie v <span>D</span>agestane konca
+<span>X</span>IX-načala <span>X</span>XI veka: Popytka količestvennoj
+ocenki. [<span>M</span>ultilingualism in <span>D</span>aghestan from the
+end of the 19th to the beginning of the 21st century: An attempt at a
+quantitative evaluation]. <em>Voprosy Jazykoznanija</em>, <em>4</em>,
+61–80.
+</div>
+<div id="ref-dressler1985" class="csl-entry">
+Dressler, Wolfgang U. (1985). Suppletion in word formation. In Jacek
+Fisiak (Ed.), <em>Historical semantics—historical word-formation</em>
+(pp. 97–112). Berlin: Walter de Gruyter.
+</div>
+<div id="ref-forkerdraft2020" class="csl-entry">
+Forker, Diana. (2020). <em>Avar grammar sketch</em> (Maria Polinsky,
+Ed.). Oxford: Oxford University Press.
+</div>
+<div id="ref-graschenkov2021" class="csl-entry">
+Graščenkov, Pavel V. (2021). Status pokazatelej imennogo soglasovanija v
+teorii, tipologii i xvaršinskom jazyke [<span>C</span>oncord markers in
+linguistic theory, typology and in <span>K</span>hwarshi]. <em>Typology
+of Morphosyntactic Parameters</em>, <em>4</em>(1), 75–99.
+</div>
+<div id="ref-hewitt1995" class="csl-entry">
+Hewitt, George. (1995). Georgian. <span>A</span> <span>S</span>tructural
+<span>R</span>eference <span>G</span>rammar. In <em>London Oriental and
+African Language Library</em>. London: University of London; School of
+Oriental; African Studies, University of London.
+</div>
+<div id="ref-isakovxalilov2012" class="csl-entry">
+Isakov, Isak A., Xalilov, Madžid Š. (2012). <em>Gunzibskij jazyk
+(<span>F</span>onetika. <span>M</span>orfologija.
+<span>S</span>lovoobrazovanie. <span>L</span>eksika.
+<span>T</span>eksty) [<span>H</span>unzib (<span>P</span>honetics,
+<span>M</span>orphology, <span>W</span>ord-<span>F</span>ormation,
+<span>L</span>exicon, <span>T</span>exts)]</em>. Makhachkala: Institut
+istorii, jazyka i literatury im. G. Cadasy.
+</div>
+<div id="ref-kazenin2013" class="csl-entry">
+Kazenin, Konstantin I. (2013). <em>Sintaksis sovremennogo lakskogo
+jazyka [<span>S</span>yntax of contemporary <span>L</span>ak]</em>.
+Makhachkala: IJaLI.
+</div>
+<div id="ref-lopez2020" class="csl-entry">
+López, Belem G. (2020). Incorporating language brokering experiences
+into bilingualism research: <span>A</span>n examination of informal
+translation practices. <em>Language and Linguistics Compass</em>,
+<em>14</em>(1), janv.19.
+</div>
+<div id="ref-lyutikova2021" class="csl-entry">
+Lyutikova, Ekaterina A. (2021). Soglasovanie po kosvennosti v
+dagestanskix jazykax: Èskiz sintaksičeskoj modeli
+[<span>O</span>bliqueness agreement in the languages of
+<span>D</span>aghestan: A sketch of a syntactic model]. In Timur A.
+Maisak, Nina R. Sumbatova, Yakov G. Testelets (Eds.), <em>Durxʺasi
+xazna. <span>S</span>bornik statej k 60-letiju <span>R</span>.
+<span>O</span>. <span>M</span>utalova [<span>D</span>urqasi xazna.
+<span>A</span> collection of papers for <span>R</span>. <span>O</span>.
+<span>M</span>utalov’s 60th birthday]</em> (pp. 187–213). Moskva: Buki
+Vedi.
+</div>
+<div id="ref-magomedovaxalidova2001" class="csl-entry">
+Magomedova, Patimat T., Xalidova, Rašidat Š. (2001).
+<em>Karatinsko-russkij slovarʹ [<span>K</span>arata-<span>R</span>ussian
+dictionary]</em>. Makhachkala: IJaLI.
+</div>
+<div id="ref-matasovic2018" class="csl-entry">
+Matasović, Ranko. (2018). <em>An areal typology of agreement
+systems.</em> Cambridge: Cambridge University Press.
+</div>
+<div id="ref-nichols1994" class="csl-entry">
+Nichols, Johanna. (1994). Chechen. In Rieks Smeets (Ed.), <em>The
+<span>I</span>ndigenous <span>L</span>anguages of the
+<span>C</span>aucasus, vol. 4: <span>T</span>he <span>N</span>ortheast
+<span>C</span>aucasian <span>L</span>anguages, <span>P</span>art 2</em>
+(pp. 1–77). Delmar, NY: Caravan Press.
+</div>
+<div id="ref-nichols2011" class="csl-entry">
+Nichols, Johanna. (2011). <em>Ingush grammar</em>. Berkeley/Los Angeles:
+University of California Press.
+</div>
+<div id="ref-norris2019" class="csl-entry">
+Norris, Mark. (2019). A typological perspective on nominal concord.
+<em>Proceedings of the <span>L</span>inguistic <span>S</span>ociety of
+<span>A</span>merica</em>, <em>4</em>, 12:1–15. New York: Linguistic
+Society of America.
+</div>
+<div id="ref-polinskydraft2015" class="csl-entry">
+Polinsky, Maria. (2015). <em>Tsez <span>S</span>yntax: <span>A</span>
+<span>D</span>escription</em>.
+</div>
+<div id="ref-popova2024" class="csl-entry">
+Popova, Margarita. (2024). <em>Number-driven dislexification in the
+expression of size properties: The case of <span>E</span>ast
+<span>C</span>aucasian.</em> Moscow: Higher School of Economics.
+</div>
+<div id="ref-saidova1973" class="csl-entry">
+Saidova, Patimat A. (1973). <em>Godoberinskij jazyk.
+<span>G</span>rammatičeskij očerk, teksty, slovarʹ
+[<span>G</span>odoberi. <span>G</span>rammar, texts, dictionary]</em>.
+Makhachkala: IJaLI.
+</div>
+<div id="ref-saidovaabusov2012" class="csl-entry">
+Saidova, Patimat A., Abusov, Magomed G. (2012). <em>Botlixsko-russkij
+slovarʹ [<span>B</span>otlikh-<span>R</span>ussian dictionary]</em>.
+Makhachkala: DNC RAN Institut jazyka, literatury i iskusstva im. G.
+Cadasy i Institut èvoljucionnoj antropologii im. M. Planka.
+</div>
+<div id="ref-sumbatovalander2014" class="csl-entry">
+Sumbatova, Nina R., Lander, Yury A. (2014). <em>Darginskij govor
+selenija <span>T</span>anty: Grammatičeskij očerk. <span>V</span>oprosy
+sintaksisa</em>. Moscow: Jazyki slavjanskoj kulʹtury.
+</div>
+<div id="ref-sumbatovamutalov2003" class="csl-entry">
+Sumbatova, Nina R., Mutalov, Rasul O. (2003). <em>A <span>G</span>rammar
+of <span>I</span>cari <span>D</span>argwa</em>. Munich: Lincom Europa.
+</div>
+<div id="ref-zakirova2023" class="csl-entry">
+Zakirova, Aigul. (2023). <em>Number marking across different word
+classes in the <span>E</span>ast <span>C</span>aucasian languages.</em>
+(PhD thesis). Higher School of Economics, Moscow.
+</div>
+</div>
+</div>
+<div class="footnotes footnotes-end-of-document">
+<hr />
+<ol>
+<li id="fn1"><p>In what follows, I omit the <span
+class="smallcaps">sg</span> <em>-∅</em> in examples of specialized
+number agreement.<a href="#fnref1" class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+</head>
+
+<body>
+    <div class="footer-basic">
+        <footer>
+            
+            <div class='lic'><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br /><i>Typological Atlas of the languages of Daghestan </i> (<i>TALD</i>) is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0 International License</a>.
+            <div class="social"><a href="https://github.com/LingConLab/TALD" target="_blank"><span class="iconify" data-icon="octicon:logo-github-16"></span></a></div>
+            </div>
+            
+            <p class="copyright">2020<script>new Date().getFullYear()>2020&&document.write("-"+new Date().getFullYear());</script>,  Linguistic Convergence Laboratory, HSE University</p>
+        </footer>
+    </div>
+    <script type="text/javascript" src="./js/links.js"></script> <!--это чтобы ссылки открывались в новом окне -->
+</body>
+
+</html>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
