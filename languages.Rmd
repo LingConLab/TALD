@@ -84,9 +84,9 @@ map(list.files("data/orig_table", full.names = TRUE), function(file){
 read_tsv("data/tald_villages.csv") |> 
   filter(is.na(standard) | standard %in% c("Standard Armenian")) |>
   mutate(village_dialect = str_c(village_dialect, " (", rus_village, ")")) |> 
-  distinct(family, aff, default_level, dialect_nt1, dialect_nt2, dialect_nt3, 
+  distinct(family, aff, default_level, dialect_toplevel, dialect_nt1, dialect_nt2, dialect_nt3, 
            village_dialect) |> 
-  arrange(family, aff, default_level, dialect_nt1, dialect_nt2, dialect_nt3, 
+  arrange(family, aff, default_level, dialect_toplevel, dialect_nt1, dialect_nt2, dialect_nt3, 
           village_dialect) |> 
   mutate(id = 1:n()) |> 
   pivot_longer(names_to = "cols", values_to = "value", -id) |> 
