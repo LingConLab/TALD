@@ -891,7 +891,7 @@ On the other hand, the distinction is attested in Nakh and Khinalug. The persona
 
 ## Distribution
 
-The following general pattern can be seen on the [map]. The languages that distinguish between the inclusive and the exclusive are located in the west, whereas the ones that do not make the distinction are situated in the east of Daghestan. There are two main exceptions to this pattern: Tsezic languages in the west, which do not have the distinction, and the area in the center, where Tabasaran, Agul and some Dargwa varieties are spoken, which lack the distinction.
+The following general pattern can be seen on the [map](059_inclusive_exclusive_distinction_in_personal_pronouns_map.html#m1). The languages that distinguish between the inclusive and the exclusive are located in the west, whereas the ones that do not make the distinction are situated in the east of Daghestan. There are two main exceptions to this pattern: Tsezic languages in the west, which do not have the distinction, and the area in the center, where Tabasaran, Agul and some Dargwa varieties are spoken, which lack the distinction.
 
 This general areal pattern can be by and large explained by the genealogical distribution of the languages: the ones which have the distinction, i.e. Avar-Andic, are spoken in the northwest of Dagestan, while those that mostly lack it, i.e. Lezgic languages, are spoken in the southeast. Dargwa languages are geographically split into the southern area, where the distinction is present at least in some varieties, and the northern area, where it is completely absent. The southern Dargwa language area is adjacent to Agul and Tabasaran, both Lezgic, which preserved the distinction.
 
