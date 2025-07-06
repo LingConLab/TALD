@@ -173,6 +173,5 @@ result |>
     if (1 %in% nm) unname(x)
     else x
   }) |> 
-  jsTreeR::jstree(search = TRUE)
+  jsTreeR::jstree(search = TRUE, checkWithText = FALSE)
 ```
-
