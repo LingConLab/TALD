@@ -1,5 +1,3 @@
-The BibTeX entry popova2024 from adjectives_number_bib.tsv has the wrong CATEGORY value: masterthesis
-The BibTeX entry forker2018b from the file adjectives_number_bib.tsv has an empty value in the obligatory field VOLUME
 The BibTeX entry daniel2021 from the file adjectives_number_bib.tsv has an empty value in the obligatory field VOLUME
 Multiple genlang_point for          Northern Dargwa          in the file          adjectives_number.tsv
 Multiple genlang_point for          Northern Dargwa          in the file          agreement_of_adpositions.tsv
@@ -26,15 +24,7 @@ The wrong language name          Armenian          in the file          adjectiv
 The wrong language name          Dargwa          in the file          adjectives_number.tsv
 NA
 The wrong village dialect name Chabakori in the file adjectives_number.tsv
-The wrong village dialect name Kwantlada in the file adjectives_number.tsv
-The wrong village dialect name Inkhoqwari in the file adjectives_number.tsv
-The wrong village dialect name Alik in the file adjectives_number.tsv
-The wrong village dialect name Tad-Magitl’ in the file adjectives_number.tsv
 The wrong non-toplevel 2 dialect name Kishi in the file adjectives_number.tsv
-The wrong non-toplevel 1 dialect name Anchiq in the file adjectives_number.tsv
-The wrong non-toplevel 1 dialect name Archo in the file adjectives_number.tsv
-The wrong non-toplevel 1 dialect name Meusisha in the file adjectives_number.tsv
-The wrong non-toplevel 1 dialect name Mukhad in the file adjectives_number.tsv
 The wrong toplevel dialect name Eastern Armenian in the file adjectives_number.tsv
 The wrong toplevel dialect name Myurega in the file adjectives_number.tsv
 spelling of          aj        in adjectives_number.Rmd:132
