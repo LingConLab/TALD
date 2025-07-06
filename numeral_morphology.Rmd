@@ -54,8 +54,8 @@ Numerals can have special affixes shared by a subset of cardinals (and often num
 
 (@) Archi [@mikailov1967: 79]
 ```{r, echo=FALSE}
-gloss_example(transliteration = "q’ʷeˤ-**<w>u** uš.t:u",
-              glosses = "two-**<I>NUM** brother(I).ABS",
+gloss_example(transliteration = "q’ʷeˤ-**‹w›u** uš.t:u",
+              glosses = "two-**‹I›NUM** brother(I).ABS",
               free_translation = "two brothers"
 )
 ```
