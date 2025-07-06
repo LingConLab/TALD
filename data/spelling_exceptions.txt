@@ -29,9 +29,11 @@ anaphoric
 anaphorically
 Anchiq
 Anchix
+anciano
 Andi
 Andic
 Ando
+animacy
 aorist
 approximant
 APUD
@@ -206,6 +208,7 @@ Jurij
 JUSS
 jussive
 Kaitag
+Kak
 Karata
 Kartozia
 Kartvelian
@@ -228,6 +231,7 @@ Kubachi
 Kumyk
 Kvanada
 Kwantlada
+Lǟ
 labelled
 labialization
 labialized
@@ -271,8 +275,10 @@ Mikhin
 mirative
 mirativity
 Mishlesh
+Moj
 Molochieva
 monomorphemic
+monophonemic
 monovalent
 Moroz
 morphologically
@@ -359,6 +365,7 @@ Schulze
 SG
 Shiri
 Shvedova
+Sidorenko
 Skripkina
 Solmaz
 Starostin
@@ -416,6 +423,7 @@ Vydrin
 WALS
 wordform
 wordforms
+xleb
 Yine
 Yury
 Zadykian

@@ -424,7 +424,7 @@ gloss_example(transliteration = "b-oaqχ:-**i:**	nax",
 
 In some languages of the sample, adjectives in the adnominal position distinguish between two or three forms, only one of which shows specialized number agreement. [Table 1](#t1) provides the exact range of adnominal forms for these languages.
 
-##### Table 1. Forms of adnominal adjectives demonstrating number agreement {#t1 -}
+#### Table 1. Forms of adnominal adjectives demonstrating number agreement {#t1 -}
 
 |  Language  | Range of forms | Suffixes |
 |------------|----------|---------|

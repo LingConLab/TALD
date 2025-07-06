@@ -140,7 +140,7 @@ gloss_example(transliteration = "zun ruq’-ar.i-k-**es** kejč’w.a-jdi qːada
               free_translation = "'I am the nail, that goes through the iron' – he said.")
 ```
 
-In some languages, the presence of a dedicated translative marker is dubious, as the marker might have been recorded in the past, but is now being ousted by some other case marker, usually by the elative. In Bagvalal, “[a]ccording to informants, this marker [translative] often can be omitted without making the sentence ungrammatical” [@daniel2001: 143], with no further details provided. In Botlikh we observe a different situation, as the original translative marker is now used with elative meanings too, and is partially ousting the original elative marker [@alexeyevverheesdraft2020]. 
+In some languages, the presence of a dedicated translative marker is dubious, as the marker might have been recorded in the past, but is now being ousted by some other case marker, usually by the elative. In Bagvalal, “according to informants, this marker [translative] often can be omitted without making the sentence ungrammatical” [@daniel2001: 143], with no further details provided. In Botlikh we observe a different situation, as the original translative marker is now used with elative meanings too, and is partially ousting the original elative marker [@alexeyevverheesdraft2020]. 
 
 (@eleven) Georgian [@hewitt1995: 149]
 
