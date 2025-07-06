@@ -17,7 +17,8 @@ match with `../data/tald_villages.csv`", {
              progress = FALSE, 
              show_col_types = FALSE) |> 
       distinct(language) |> 
-      mutate(file = tsv, 
+      mutate(language = if_else(is.na(language), "NA", language),
+             file = tsv, 
              file = str_remove(file, "../data/orig_table/")) |> 
       filter(!(language %in% expected_langs))
   }) ->
