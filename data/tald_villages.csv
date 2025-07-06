@@ -1,4 +1,4 @@
-id	village	rus_village	lat	lon	lang	aff	family	standard	default_level	Myurega	dialect_toplevel_cyr	dialect_nt1	dialect_nt1_cyr	dialect_nt2	dialect_nt2_cyr	dialect_nt3	dialect_nt3_cyr	village_dialect	gltc_lang	lang_col	aff_col	dataset_version
+id	village	rus_village	lat	lon	lang	aff	family	standard	default_level	dialect_toplevel	dialect_toplevel_cyr	dialect_nt1	dialect_nt1_cyr	dialect_nt2	dialect_nt2_cyr	dialect_nt3	dialect_nt3_cyr	village_dialect	gltc_lang	lang_col	aff_col	dataset_version
 1	Kurag	Кураг	41.836764	47.661351	Agul	Lezgic	East Caucasian		Agul	Central Agul	Среднеагульский	Kurag	Курагский					Kurag	aghu1253	#00cc66	#00cc66	2025-03-20
 2	Goa	Гоа	41.753585	47.703213	Agul	Lezgic	East Caucasian		Agul	Central Agul	Среднеагульский							Goa	aghu1253	#00cc66	#00cc66	2025-03-20
 3	Duldug	Дулдуг	41.76833	47.67438	Agul	Lezgic	East Caucasian		Agul	Central Agul	Среднеагульский							Duldug	aghu1253	#00cc66	#00cc66	2025-03-20
@@ -1556,7 +1556,7 @@ id	village	rus_village	lat	lon	lang	aff	family	standard	default_level	Myurega	di
 1561	Ayalakab	Аялакаб	42.4223787	47.4624073	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Murega-Gubdani	мюрего-губденское	Mikihi	мекегинский					Ayalakab	darg1241	#EE7621	#ff9900	2025-03-20
 1562	Buanzimakhi	Буанзимахи	42.42062	47.44966	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Murega-Gubdani	мюрего-губденское	Mikihi	мекегинский					Buanzimakhi	darg1241	#EE7621	#ff9900	2025-03-20
 1563	Verkhnee Labkomakhi	Верхнее Лабкомахи	42.33862	47.43338	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Murega-Gubdani	мюрего-губденское	Mikihi	мекегинский					Verkhnee Labkomakhi	darg1241	#EE7621	#ff9900	2025-03-20
-1564	Damkulakada	Дамкулакада	42.430252	47.467675	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Murega-Gubdani	мюрего-губденское	Budukh	мекегинский					Damkulakada	darg1241	#EE7621	#ff9900	2025-03-20
+1564	Damkulakada	Дамкулакада	42.430252	47.467675	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Murega-Gubdani	мюрего-губденское	Mikihi	мекегинский					Damkulakada	darg1241	#EE7621	#ff9900	2025-03-20
 1565	Degva	Дегва	42.4161	47.5372	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Murega-Gubdani	мюрего-губденское	Mikihi	мекегинский					Degva	darg1241	#EE7621	#ff9900	2025-03-20
 1566	Zurilaudimakhi	Зурилаудимахи	42.4310662	47.4930898	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Murega-Gubdani	мюрего-губденское	Mikihi	мекегинский					Zurilaudimakhi	darg1241	#EE7621	#ff9900	2025-03-20
 1567	Mekegi	Мекеги	42.3978	47.4625	North-Central Dargwa	Dargwa	East Caucasian		Northern Dargwa	Murega-Gubdani	мюрего-губденское	Mikihi	мекегинский					Mekegi	darg1241	#EE7621	#ff9900	2025-03-20
