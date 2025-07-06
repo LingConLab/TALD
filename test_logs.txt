@@ -1,5 +1,30 @@
+The BibTeX entry popova2024 from adjectives_number_bib.tsv has the wrong CATEGORY value: masterthesis
 The BibTeX entry forker2018b from the file adjectives_number_bib.tsv has an empty value in the obligatory field VOLUME
 The BibTeX entry daniel2021 from the file adjectives_number_bib.tsv has an empty value in the obligatory field VOLUME
+Multiple genlang_point for          Chechen          in the file          adjectives_number.tsv
+Multiple genlang_point for          Muira          in the file          adjectives_number.tsv
+Multiple genlang_point for          Northern Dargwa          in the file          adjectives_number.tsv
+Multiple genlang_point for          Tabasaran          in the file          adjectives_number.tsv
+Multiple genlang_point for          Northern Dargwa          in the file          agreement_of_adpositions.tsv
+Multiple genlang_point for          Sanzhi-Itsari          in the file          agreement_of_adpositions.tsv
+Multiple genlang_point for          Nogai          in the file          caritive_attr.tsv
+Multiple genlang_point for          Chamalal          in the file          causatives.tsv
+Multiple genlang_point for          Northern Dargwa          in the file          comitative.tsv
+Multiple genlang_point for          Upper Andi          in the file          days_before_and_after_today.tsv
+Multiple genlang_point for          Northern Dargwa          in the file          gender_agreement_slot.tsv
+Multiple genlang_point for          Northern Dargwa          in the file          inclusive_exclusive_distinction_in_personal_pronouns.tsv
+Multiple genlang_point for          Archi          in the file          labials.tsv
+Multiple genlang_point for          Bezhta          in the file          labials.tsv
+Multiple genlang_point for          Budukh          in the file          labials.tsv
+Multiple genlang_point for          Hinuq          in the file          labials.tsv
+Multiple genlang_point for          Khinalug          in the file          labials.tsv
+Multiple genlang_point for          Northern Akhvakh          in the file          labials.tsv
+Multiple genlang_point for          Rutul          in the file          labials.tsv
+Multiple genlang_point for          Archi          in the file          optative.tsv
+Multiple genlang_point for          Juhuri          in the file          perfect.tsv
+Multiple genlang_point for          Kubachi          in the file          perfect.tsv
+Multiple genlang_point for          Northern Dargwa          in the file          perfect.tsv
+Multiple genlang_point for          Sanzhi-Itsari          in the file          work.tsv
 The wrong language name          Armenian          in the file          adjectives_number.tsv
 The wrong language name          Dargwa          in the file          adjectives_number.tsv
 The wrong language name          Karata-Tukita          in the file          adjectives_number.tsv

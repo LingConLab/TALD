@@ -55,6 +55,7 @@ see https://en.wikipedia.org/wiki/BibTeX for the details.", {
              AUTHOR = as.character(AUTHOR),
              ISSUE = ifelse("ISSUE" %in% colnames(.), as.character(ISSUE), NA),
              YEAR = as.character(YEAR),
+             NOTE = as.character(NOTE),
              NUMBER = as.character(NUMBER))})
   bad_category <- df[which(!(df$CATEGORY %in% c("article", "book", "booklet", 
                                                 "conference", "inbook", 
@@ -247,6 +248,7 @@ test_that("We expect BIBTEXKEYs to be of a structure lastnameyear, e. g. jakovle
              ISSUE = ifelse("ISSUE" %in% colnames(.), as.character(ISSUE), NA),
              VOLUME = as.character(VOLUME),
              YEAR = as.character(YEAR),
+             NOTE = as.character(NOTE),
              NUMBER = as.character(NUMBER))}) |> 
     list_rbind() ->
     df
