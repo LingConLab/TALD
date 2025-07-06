@@ -108,7 +108,13 @@ read_tsv("data/tald_villages.csv") |>
   group_by(e) |> 
   mutate(L11 = f |> factor() |> as.double()) |> 
   ungroup() |> 
-  pivot_longer(names_to = "col", values_to = "value", a:f) |> 
+  group_by(f) |> 
+  mutate(L13 = g |> factor() |> as.double()) |> 
+  ungroup() |> 
+  group_by(g) |> 
+  mutate(L15 = h |> factor() |> as.double()) |> 
+  ungroup() |> 
+  pivot_longer(names_to = "col", values_to = "value", a:h) |> 
   filter(!is.na(value)) |> 
   mutate(L2 = ifelse(col == "a", "text", "children"),
          L4 = case_when(col == "b" ~ "text",
@@ -131,12 +137,23 @@ read_tsv("data/tald_villages.csv") |>
                          col %in% c("a", "b", "c", "d", "e") ~ NA,
                          TRUE ~ "children"),
          L11 = ifelse(is.na(L12), NA, L11),
+         L14 = case_when(col == "g" ~ "text",
+                         col %in% c("a", "b", "c", "d", "e", "f") ~ NA,
+                         TRUE ~ "children"),
+         L13 = ifelse(is.na(L14), NA, L13),
+         L16 = case_when(col == "h" ~ "text",
+                         col %in% c("a", "b", "c", "d", "e", "f", "g") ~ NA,
+                         TRUE ~ "children"),
+         L15 = ifelse(is.na(L16), NA, L15),
          L4 = ifelse(is.na(L3), NA, L4),
          L6 = ifelse(is.na(L5), NA, L6),
          L8 = ifelse(is.na(L7), NA, L8),
-         L10 = ifelse(is.na(L9), NA, L10)) |> 
+         L10 = ifelse(is.na(L9), NA, L10),
+         L12 = ifelse(is.na(L11), NA, L12),
+         L14 = ifelse(is.na(L13), NA, L14),
+         L16 = ifelse(is.na(L15), NA, L16)) |> 
   filter(!is.na(value)) |>
-  distinct(L1, L2, L3, L4, L5, L6, L7, L8, L9, L10, L11, L12, value) |> 
+  distinct(L1, L2, L3, L4, L5, L6, L7, L8, L9, L10, L11, L12, L13, L14, L15, L16, value) |> 
   mutate_all(as.character) |> 
   mutate(id = 1:n())  ->
   result
