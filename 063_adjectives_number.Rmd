@@ -1,5 +1,5 @@
 ---
-title: Dedicated plural agreement on adjectives
+title: Specialized number agreement of adnominal adjectives
 author: Aigul Zakirova
 date: 'Last update: July 2025'
 bibliography: ./data/orig_bib/adjectives_number.bib
@@ -24,7 +24,7 @@ library(RefManageR)
 BibOptions(check.entries = FALSE, style = 'text', first.inits = FALSE, bib.style = 'authoryear')
 article_citation <- BibEntry(bibtype = 'Incollection', 
  key='zakirova2025',
- title='Dedicated plural agreement on adjectives',
+ title='Specialized number agreement of adnominal adjectives',
  author='Aigul Zakirova',
  year='2025',
  editor= 'Daniel, Michael  and Filatov, Konstantin and Maisak, Timur and Moroz, George and Mukhin, Timofey and Naccarato, Chiara and Verhees, Samira',

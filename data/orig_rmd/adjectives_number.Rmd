@@ -72,7 +72,7 @@ The existing literature that I am aware of does not provide separate frequency e
 
 ### Specialized number agreement of adjectives in Daghestan: delimiting the phenomenon under investigation {#intro}
 
-Adnominal adjectives in the languages of Daghestan exhibit both cumulative and specialized agreement. *Cumulative* gender-number agreement of adnominal adjectives, which is not the main focus of this chapter, is found in almost all of the East Caucasian languages of the sample. For instance, in the Godoberi (< Andic) examples in (@three-@four), the adjective `r add_gloss("GN")`-*elːara*-`r add_gloss("GN")` has two gender-number agreement markers, prefixal and suffixal (note that `r add_gloss("GN")` in the lexical entry stands for the gender-number marking slot).
+Adnominal adjectives in the languages of Daghestan exhibit both cumulative and specialized agreement. *Cumulative* gender-number agreement of adnominal adjectives, which is not the main focus of this chapter, is found in almost all of the East Caucasian languages of the sample. For instance, in the Godoberi (< Andic) examples in (@three-@four), the adjective <`r add_gloss("GN")`>-*elːara*-<`r add_gloss("GN")`> has two gender-number agreement markers, prefixal and suffixal (note that `r add_gloss("GN")` in the lexical entry stands for the gender-number marking slot).
       	
 (@three) Godoberi [@saidova1973: 76]
 a.
@@ -173,7 +173,7 @@ gloss_example(transliteration = "**r**-iʔer-**ar** celu-wa",
 ```
 
 
-(@seven)	Karata [@magomedovaxalidova2001: 97, 113, 154, 288, 296]
+(@seven)	Karata [@magomedovaxalidova2001: 154, 113, 288]
 
 a.
 ```{r}
@@ -194,7 +194,7 @@ gloss_example(transliteration = "qarsːimo-**b-aj** ʕãdi",
               free_translation = "mean people")
 ```
 
-(@eight)	Karata [@magomedovaxalidova2001: 97, 113, 154, 288, 296]	
+(@eight)	Karata [@magomedovaxalidova2001: 97, 296]	
 a. 
 ```{r}
 gloss_example(transliteration = "xoho-**b** χːabar",
@@ -295,7 +295,7 @@ While at the first sight examples like (@eleven) seem to be instances of strong 
 
 All in all, analyzing the situation with size adjectives in every language where they seemingly demonstrate strong suppletion requires additional data, preferably elicited. For this reason, I do not discuss strong suppletion here and instead redirect the reader to [@popova2024], whose study discusses size adjectives in much more detail than would be possible within this chapter. Weak suppletion, on the other hand, is discussed here, since the phonological affinity between weak suppletive variants excludes the analysis involving different lexemes. 
 
-Yet another situation where the border between number agreement and other grammatical phenomena is blurred is described by [@graschenkov2021], [@lyutikova2021] and [@polinskydraft2015], who note that, in some of its uses, the distributive marker *-t'a* (@twelve) in Khwarshi and Tsez (< Tsezic) functionally resembles a plural agreement marker. For example, with some adjectives it is obligatory in the plural (@thirteen).
+Yet another situation where the border between number agreement and other grammatical phenomena is blurred is described by [@graschenkov2021; @lyutikova2021; @polinskydraft2015], who note that, in some of its uses, the distributive marker *-t'a* (@twelve) in Khwarshi and Tsez (< Tsezic) functionally resembles a plural agreement marker. For example, with some adjectives it is obligatory in the plural (@thirteen).
 
 (@twelve)	Tsez [@polinskydraft2015: 13-14]	
 ```{r}
@@ -430,8 +430,8 @@ In some languages of the sample, adjectives in the adnominal position distinguis
 |------------|----------|---------|
 | Standard Avar  | 1) zero-marked form, <br> **2) marked agreeing form** | 1) ∅ <br> **2) *-a-`r add_gloss("GN")`* (gender neutralization in the plural)**   |
 | Tanty Dargwa | 1) zero-marked form; <br> 2) marked non-agreeing form; <br> **3) marked agreeing restrictive form** | 1) ∅; <br> 2) *-se*; <br> **3) `r add_gloss("SG")` *-jil* / `r add_gloss("PL")` *-te* <br>**   |
-| Itsari Dargwa  | 1) zero-marked form; <br> **2) marked agreeing restrictive form** | 1) ∅; <br> 2) ** *-il* / `r add_gloss("PL")` *-ti***   |
-| Sanzhi Dargwa | 1) zero-marked form; <br> **2) marked agreeing restrictive form** | 1) ∅; <br> 2) **`r add_gloss("SG")`*-ce* / `r add_gloss("PL")` *-te***   |
+| Itsari Dargwa  | 1) zero-marked form; <br> **2) marked agreeing restrictive form** | 1) ∅; <br> 2) ***-il*** / `r add_gloss("PL")` ***-ti***   |
+| Sanzhi Dargwa | 1) zero-marked form; <br> **2) marked agreeing restrictive form** | 1) ∅; <br> 2) **`r add_gloss("SG")`** *-ce* / `r add_gloss("PL")` ***-te***   |
 | Standard Lak | 1) zero-marked form; <br> 2) marked non-agreeing form; <br> **3) marked agreeing restrictive form** | 1) ∅; <br> 2) *-sːa*; <br> 3) **`r add_gloss("SG")`.`r add_gloss("M")` *-ma* / `r add_gloss("SG")`.`r add_gloss("NM")` *-mur* / `r add_gloss("PL")` *-mi* (gender neutralization in the plural)**   |
 
 As one can see from [Table 1](#t1), in several languages the agreeing form is marked for the category of *restrictiveness*. @boguslavskaja1995: 236 defines restrictive attributes as those that “delimit the set of entities denoted by their head nouns by emphasizing the contrast with other possible delimitations (e.g. ‘father’s sister, not mother’s’, ‘fine houses, not ugly ones’)”. The attributes not marked for restrictiveness are neutral in this respect. For example, in several Dargwa varieties (e.g., Itsari, Tanty, Sanzhi), adnominal adjectives marked with a restrictive suffix such as Itsari *-ci* (`r add_gloss("SG")`) / *-ti* (`r add_gloss("PL")`), Tanty *-il* (`r add_gloss("SG")`) / *-te* (`r add_gloss("PL")`) imply “the contrastive emphasis on the attribute” [@sumbatovamutalov2003: 48]. In addition to these two forms, Tanty also has non-agreeing forms in *-se*. Consider the contrast between non-agreeing forms in *-se* (@seventeen) and forms in *-il* (`r add_gloss("SG")`) / *-te* (`r add_gloss("PL")`) (@eighteen).
@@ -579,7 +579,7 @@ Two West Tsezic languages, Tsez and Khwarshi, demonstrate the same marker *-t’
 
 The distribution of values across languages of the sample is shown on five maps. 
 
-**[Map 1](064_adjectives_number_map.html#m1) shows the presence or absence of specialized number agreement in adnominal adjectives**
+**[Map 1](063_adjectives_number_map.html#m1) shows the presence or absence of specialized number agreement in adnominal adjectives**
 
 Specialized number agreement is found in several branches of East Caucasian, namely Nakh, Avar, Andic, Tsezic, Lak and Dargwa, while it is absent in Lezgic and Khinalug. 
 
@@ -601,26 +601,24 @@ In Eastern Tsezic (Bezhta and Hunzib) specialized number agreement is mostly exp
 
 In all Lezgic languages and Khinalug, specialized number agreement is not attested. The Turkic and Indo-European languages of the sample also lack number agreement of adnominal adjectives, thus showing no conditions on this agreement. By contrast, Georgian (<Kartvelian) demonstrates a unique condition, by which number marking on adjectives depends on the number marking of the head.
 
-**[Map 3](064_adjectives_number_map.html#m3) shows specialized morphological means of number agreement.**
+**[Map 3](063_adjectives_number_map.html#m3) shows specialized morphological means of number agreement.**
 
 In Avar, Andic, Tsezic, Lak and Dargwa branches, specialized number agreement is typically expressed by means of affixes, almost always suffixes, except for Avar, where number agreement prefixes are also found. In Nakh, specialized number agreement of adjectives is expressed by means of suffixes and weak suppletion.
 
 In some Andic (Botlikh, Godoberi) and Tsezic (Bezhta) languages, specialized number agreement markers are attested, and they probably originated from the Avar plural suffix *-l*: Botlikh and Godoberi *-l*, Bezhta proper *-la* [@zakirova2023: 86, 89].
 
-**[Map 4](064_adjectives_number_map.html#m4) shows the presence or absence of full neutralization of gender agreement in the plural.**
+**[Map 4](063_adjectives_number_map.html#m4) shows the presence or absence of full neutralization of gender agreement in the plural.**
 
 This feature is present in Avar and Lak. Interestingly, Archi, which does not have specialized number agreement on (underived) adjectives, possesses a similar phenomenon: the agreeing suffix *-t:u* (`r add_gloss("GN")`) on attributivized forms. In the singular, this suffix marks the gender of the controller. In the plural, the gender opposition is neutralized and the attributive marker has the form *-t:ib* regardless of the gender of the head. Since Archi has experienced contact influence from Avar and Lak [@chumakina2009] as a result of long-standing multilingualism patterns [@dobrushina2011], the development of the attributivizing device  *-t:u* (`r add_gloss("GN")`), which undergoes gender neutralization in the plural, may be attributed to contact with Avar or Lak. 
 
-**[Map 5](064_adjectives_number_map.html#m5) shows distributive marking bordering on plural agreement.**
+**[Map 5](063_adjectives_number_map.html#m5) shows distributive marking bordering on plural agreement.**
 
 The use of distributive markers on adnominal adjectives is only found in two West Tsezic languages, Tsez and Khwarshi, and thus has a genealogical distribution.
 
 ## List of glosses {-}
 
-abs — absolutive; attr — attributive; caus — causative; dat — dative; dem — demonstrative; distr — distributive; erg — ergative; f — feminine gender; hpl — human plural gender; ipf — imperfective; lat — lative; m — masculine gender; n — neuter gender; n1 — neuter gender I; nm — non-masculine gender; npl — neutral plural gender; obl — oblique; pf — perfective; pl — plural; pret — preterite; pst — past; restr — restrictive; sg — singular; th — thematic; wit — witnessed
-
 ```{r}
-make_gloss_list()
+make_gloss_list(readxl::read_xlsx("../glosses.xlsx"))
 ```
 
 ## References {-}
