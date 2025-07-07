@@ -159,7 +159,7 @@ read_tsv("data/tald_villages.csv") |>
   result
   
 result |> 
-  mutate(across(L1:L12, function(i){ifelse(i == "text", "icon", i)}),
+  mutate(across(L1:L16, function(i){ifelse(i == "text", "icon", i)}),
          value = "FALSE") |> 
   bind_rows(result) |> 
   arrange(id) |> 
