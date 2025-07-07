@@ -20,7 +20,7 @@ knitr::opts_chunk$set(echo = FALSE, message = FALSE, fig.width = 9.5, fig.height
 
 ## What is TALD?
 
-The **Typological Atlas of the Languages of Daghestan (TALD)** is a tool for the visualization of information about linguistic structures typical of Daghestan. The scope of the project currently covers all East Caucasian languages and several other languages spoken in Daghestan, Chechnya, Ingushetia and adjacent territories.
+The **Typological Atlas of the Languages of Daghestan (TALD)** is a tool for the visualization of information about linguistic structures typical of Daghestan. The project has been developed at the [Linguistic Convergence Laboratory](https://ilcl.hse.ru/en/). Its scope currently covers all East Caucasian languages and several other languages spoken in Daghestan, Chechnya, Ingushetia and adjacent territories.
 
 The Atlas consists of:
 
