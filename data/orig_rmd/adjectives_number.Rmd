@@ -254,7 +254,7 @@ gloss_example(transliteration = "**r**-icːat-a-**l**		t'axːal",
               free_translation = "thick books")
 ```
 
-On the one hand, in the singular, gender and number in Avar are expressed in the same morpheme, therefore the agreement markers in the singular are cumulative. On the other hand, the plural marker *-l* only expresses the plural value without indicating the gender of the target. For the purposes of this chapter, I classify languages like Avar as having specialized number agreement. However, I also discuss gender neutralization in the plural separately (see [Map 4](063_adjectives_number_map.html#m4) and Section \@ref(genderneutralization)). 
+On the one hand, in the singular, gender and number in Avar are expressed in the same morpheme, therefore the agreement markers in the singular are cumulative. On the other hand, the plural marker *-l* only expresses the plural value without indicating the gender of the target. For the purposes of this chapter, I classify languages like Avar as having specialized number agreement. However, I also discuss gender neutralization in the plural separately (see [Map 4](063_adjectives_number_map.html#m4) and [Section 2.4](#genderneutralization)). 
 
 Another peripheral device that can express number agreement of adjectives is suppletion, further divided into weak and strong suppletion [@dressler1985]. In weak suppletion, two stems share some phonological material, cf., English *see* vs. *saw*, but the relation between them is irregular. In strong suppletion, two stems do not share any phonological material at all, cf. English *be* vs. *was*. Diachronically, weak suppletion is typically the outcome of irregular alternations within a single stem, whereas strong suppletion usually arises as a result of two or more lexemes becoming members of the same paradigm and thus forms of one lexeme.
 
@@ -349,7 +349,7 @@ In those languages where obliqueness agreement is expressed in cumulation with n
 ## Results
 
 ### Presence of number agreement on adnominal adjectives 
-This feature reflects the presence or absence of specialized number agreement, as defined above in the Section \@ref(intro). Three major groups of languages are identified, corresponding to Values 1-3:
+This feature reflects the presence or absence of specialized number agreement, as defined above in the [Section 1.2](#intro). Three major groups of languages are identified, corresponding to Values 1-3:
 
 1) **Obligatory agreement**: those languages where all adjectival lexemes agree in number in the adnominal position (15 out of 57);
 2) **Conditioned agreement**: those languages where number agreement of adnominal adjectives is conditioned by some factors (14 out of 57);
@@ -388,7 +388,7 @@ gloss_example(transliteration = "hiri	ǯinǯiʔo-li	  /	＊hir-**oli**		ǯinǯi�
 ```
 
 
-Value 2 (conditioned agreement) includes languages where adnominal number agreement is conditioned by certain factors. These factors are discussed in \@ref(conditioning).
+Value 2 (conditioned agreement) includes languages where adnominal number agreement is conditioned by certain factors. These factors are discussed in [the following secton](#conditioning).
 
 ### Conditioning of number agreement {#conditioning}
 
