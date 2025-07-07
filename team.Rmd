@@ -13,7 +13,7 @@ library(tidyverse)
 
 The project was designed by [Michael Daniel](https://orcid.org/0000-0002-2091-5713), [Konstantin Filatov](https://orcid.org/0000-0002-0706-9161), [Timur Maisak](https://orcid.org/0000-0001-6794-0978), [George Moroz](https://orcid.org/0000-0003-1990-6083), [Timofey Mukhin](https://orcid.org/0000-0002-4637-0627), [Chiara Naccarato](https://orcid.org/0000-0003-0017-6316), and [Samira Verhees](https://orcid.org/0000-0002-3479-7420).
 
-[The TALD project](https://ilcl.hse.ru/en/projects/) would not have been realized in its present form without the advice and assistance of a number of people. People who have contributed to the atlas in the past or are currently working on a topic are listed below.
+TALD is a project of the [Linguistic Convergence Laboratory](https://ilcl.hse.ru/en/).
 
 [Chiara Naccarato](https://orcid.org/0000-0003-0017-6316) and [George Moroz](https://orcid.org/0000-0003-1990-6083) coordinate the project and the workshop for students.
 
