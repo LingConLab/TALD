@@ -1,7 +1,4 @@
 The BibTeX entry daniel2021 from the file adjectives_number_bib.tsv has an empty value in the obligatory field VOLUME
-Multiple genlang_point for          Muira          in the file          adjectives_number.tsv
-Multiple genlang_point for          Northern Dargwa          in the file          adjectives_number.tsv
-The wrong village dialect name Chabakori in the file adjectives_number.tsv
 The wrong non-toplevel 2 dialect name Kishi in the file adjectives_number.tsv
 spelling of          aj        in adjectives_number.Rmd:132
 spelling of          ar        in adjectives_number.Rmd:132,132

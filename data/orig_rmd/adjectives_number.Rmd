@@ -430,7 +430,7 @@ In some languages of the sample, adjectives in the adnominal position distinguis
 |------------|----------|---------|
 | Standard Avar  | 1) zero-marked form, <br> **2) marked agreeing form** | 1) ∅ <br> **2) *-a-`r add_gloss("GN")`* (gender neutralization in the plural)**   |
 | Tanty Dargwa | 1) zero-marked form; <br> 2) marked non-agreeing form; <br> **3) marked agreeing restrictive form** | 1) ∅; <br> 2) *-se*; <br> **3) `r add_gloss("SG")` *-jil* / `r add_gloss("PL")` *-te* <br>**   |
-| Itsari Dargwa  | 1) zero-marked form; <br> **2) marked agreeing restrictive form** | 1) ∅; <br> 2) ***-il*** / `r add_gloss("PL")` ***-ti***   |
+| Itsari Dargwa  | 1) zero-marked form; <br> **2) marked agreeing restrictive form** | 1) ∅; <br> 2) ***-il*** / `r add_gloss("SG")` ***-ti***   |
 | Sanzhi Dargwa | 1) zero-marked form; <br> **2) marked agreeing restrictive form** | 1) ∅; <br> 2) **`r add_gloss("SG")`** *-ce* / `r add_gloss("PL")` ***-te***   |
 | Standard Lak | 1) zero-marked form; <br> 2) marked non-agreeing form; <br> **3) marked agreeing restrictive form** | 1) ∅; <br> 2) *-sːa*; <br> 3) **`r add_gloss("SG")`.`r add_gloss("M")` *-ma* / `r add_gloss("SG")`.`r add_gloss("NM")` *-mur* / `r add_gloss("PL")` *-mi* (gender neutralization in the plural)**   |
 
