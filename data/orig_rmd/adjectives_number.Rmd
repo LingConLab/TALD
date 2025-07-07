@@ -72,7 +72,7 @@ The existing literature that I am aware of does not provide separate frequency e
 
 ### Specialized number agreement of adjectives in Daghestan: delimiting the phenomenon under investigation {#intro}
 
-Adnominal adjectives in the languages of Daghestan exhibit both cumulative and specialized agreement. *Cumulative* gender-number agreement of adnominal adjectives, which is not the main focus of this chapter, is found in almost all of the East Caucasian languages of the sample. For instance, in the Godoberi (< Andic) examples in (@three-@four), the adjective <`r add_gloss("GN")`>-*elːara*-<`r add_gloss("GN")`> has two gender-number agreement markers, prefixal and suffixal (note that `r add_gloss("GN")` in the lexical entry stands for the gender-number marking slot).
+Adnominal adjectives in the languages of Daghestan exhibit both cumulative and specialized agreement. *Cumulative* gender-number agreement of adnominal adjectives, which is not the main focus of this chapter, is found in almost all of the East Caucasian languages of the sample. For instance, in the Godoberi (< Andic) examples in (@three-@four), the adjective <`r add_gloss("GN")`>-*elːara*-<`r add_gloss("GN")`> has two gender-number agreement markers, prefixal and suffixal (note that <`r add_gloss("GN")`> in the lexical entry stands for the gender-number marking slot).
       	
 (@three) Godoberi [@saidova1973: 76]
 a.
@@ -430,7 +430,7 @@ In some languages of the sample, adjectives in the adnominal position distinguis
 |------------|----------|---------|
 | Standard Avar  | 1) zero-marked form, <br> **2) marked agreeing form** | 1) ∅ <br> **2) *-a-`r add_gloss("GN")`* (gender neutralization in the plural)**   |
 | Tanty Dargwa | 1) zero-marked form; <br> 2) marked non-agreeing form; <br> **3) marked agreeing restrictive form** | 1) ∅; <br> 2) *-se*; <br> **3) `r add_gloss("SG")` *-jil* / `r add_gloss("PL")` *-te* <br>**   |
-| Itsari Dargwa  | 1) zero-marked form; <br> **2) marked agreeing restrictive form** | 1) ∅; <br> 2) ***-il*** / `r add_gloss("SG")` ***-ti***   |
+| Itsari Dargwa  | 1) zero-marked form; <br> **2) marked agreeing restrictive form** | 1) ∅; <br> 2) `r add_gloss("SG")` ***-il*** / `r add_gloss("PL")` ***-ti***   |
 | Sanzhi Dargwa | 1) zero-marked form; <br> **2) marked agreeing restrictive form** | 1) ∅; <br> 2) **`r add_gloss("SG")`** *-ce* / `r add_gloss("PL")` ***-te***   |
 | Standard Lak | 1) zero-marked form; <br> 2) marked non-agreeing form; <br> **3) marked agreeing restrictive form** | 1) ∅; <br> 2) *-sːa*; <br> 3) **`r add_gloss("SG")`.`r add_gloss("M")` *-ma* / `r add_gloss("SG")`.`r add_gloss("NM")` *-mur* / `r add_gloss("PL")` *-mi* (gender neutralization in the plural)**   |
 
@@ -609,7 +609,7 @@ In some Andic (Botlikh, Godoberi) and Tsezic (Bezhta) languages, specialized num
 
 **[Map 4](063_adjectives_number_map.html#m4) shows the presence or absence of full neutralization of gender agreement in the plural.**
 
-This feature is present in Avar and Lak. Interestingly, Archi, which does not have specialized number agreement on (underived) adjectives, possesses a similar phenomenon: the agreeing suffix *-t:u* (`r add_gloss("GN")`) on attributivized forms. In the singular, this suffix marks the gender of the controller. In the plural, the gender opposition is neutralized and the attributive marker has the form *-t:ib* regardless of the gender of the head. Since Archi has experienced contact influence from Avar and Lak [@chumakina2009] as a result of long-standing multilingualism patterns [@dobrushina2011], the development of the attributivizing device  *-t:u* (`r add_gloss("GN")`), which undergoes gender neutralization in the plural, may be attributed to contact with Avar or Lak. 
+This feature is present in Avar and Lak. Interestingly, Archi, which does not have specialized number agreement on (underived) adjectives, possesses a similar phenomenon: the agreeing suffix *-t:u* <`r add_gloss("GN")`> on attributivized forms. In the singular, this suffix marks the gender of the controller. In the plural, the gender opposition is neutralized and the attributive marker has the form *-t:ib* regardless of the gender of the head. Since Archi has experienced contact influence from Avar and Lak [@chumakina2009] as a result of long-standing multilingualism patterns [@dobrushina2011], the development of the attributivizing device  *-t:u* <`r add_gloss("GN")`>, which undergoes gender neutralization in the plural, may be attributed to contact with Avar or Lak. 
 
 **[Map 5](063_adjectives_number_map.html#m5) shows distributive marking bordering on plural agreement.**
 
