@@ -53,10 +53,10 @@ This major chapter is devoted to verbal negation in the languages of Daghestan.[
 
 In different East Caucasian languages negation of a proposition can be expressed with a separate morpheme (prefix, infix, or suffix), a particle, morphological reduplication, or a negative form of the auxiliary. Accordingly, the data is presented in four separate chapters:
 
-1.  [Negation with prefixes, infixes and particles]()
-2.  [Negation with suffixes]()
-3.  [Negation with auxiliaries]()
-4.  [Negation with reduplication]()
+1.  [Negation with prefixes, infixes and particles](065_verbal_negation_prefixes.html)
+2.  [Negation with suffixes](066_verbal_negation_suffixes.html)
+3.  [Negation with auxiliaries](067_verbal_negation_auxiliaries.html)
+4.  [Negation with reduplication](068_verbal_negation_reduplication.html)
 
 In some languages (e.g. Archi), there is only one basic negation marker, while others (e.g. Tabasaran) boast a variety of patterns that are distributed among different verb forms or lexemes.
 

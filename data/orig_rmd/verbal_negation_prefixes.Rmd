@@ -121,7 +121,7 @@ gloss_example(transliteration = "bu<qːa><w>s-unni",
 ### Particles
 
 In 4 languages of the sample (8%), negation is reportedly marked by **particles**. In Udi (< Lezgic), in the majority of indicative and finite forms negation is marked by the particle *te*. Its morphosyntactic status has been subject to debate in the literature, and no clear consensus has been achieved.
-Schulze [-@schulze1994: 483] characterizes it as a stressed prefix. Harris [-@harris2002: 51–53], who studied the Vartashen dialect, notes that it is usually placed before the verb but in some cases may appear after the verb (@udi_particle). Moreover, this particle does not need a host and can constitute its own syntactic node (which, if present, serves itself as an obligatory host for person markers) [@harris2002: 51–53]. Maisak [-@maisak2009: 484], writing about the Nizh dialect of Udi, claims that *te* can also be inserted into a simplex verb form (@udi_endo); clitics with such property are called “endoclitics” in morphological literature. Apparently, this particle used to be a true endoclitic in the past [@harris2002: 268–271] and then became a free word while retaining the ability to be inserted into other words. Apart from *te* (and the prohibitive proclitic *ma*, which is outside of the scope of this chapter), Udi uses the proclitic *nu* for non-finite and conditional verb forms [@maisak2009: 487].
+Schulze [-@schulze1994: 483] characterizes it as a stressed prefix. Harris [-@harris2002: 51--53], who studied the Vartashen dialect, notes that it is usually placed before the verb but in some cases may appear after the verb (@udi_particle). Moreover, this particle does not need a host and can constitute its own syntactic node (which, if present, serves itself as an obligatory host for person markers) [@harris2002: 51--53]. Maisak [-@maisak2009: 484], writing about the Nizh dialect of Udi, claims that *te* can also be inserted into a simplex verb form (@udi_endo); clitics with such property are called “endoclitics” in morphological literature. Apparently, this particle used to be a true endoclitic in the past [@harris2002: 268--271] and then became a free word while retaining the ability to be inserted into other words. Apart from *te* (and the prohibitive proclitic *ma*, which is outside of the scope of this chapter), Udi uses the proclitic *nu* for non-finite and conditional verb forms [@maisak2009: 487].
 
 (@udi_particle) Vartashen Udi [@harris2002: 52]
 ```{r}
@@ -155,8 +155,7 @@ It is widespread in Dargic, Lezgic, and Lak languages. Udi and Nakh languages us
 ## List of glosses {-}
 
 ```{r}
-make_gloss_list()
+make_gloss_list(readxl::read_xlsx("../glosses.xlsx"))
 ```
 
 ## References {-}
-

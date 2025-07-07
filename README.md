@@ -15,7 +15,7 @@ or BibTeX:
   year = {2025},
   publisher = {Linguistic Convergence Laboratory, NRU HSE},
   address = {Moscow},
-  url = {http://lingconlab.ru/dagatlas},
+  url = {https://lingconlab.ru/tald},
   doi = {10.5281/zenodo.6807070}
 }
 ```

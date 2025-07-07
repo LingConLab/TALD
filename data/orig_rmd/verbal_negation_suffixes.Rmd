@@ -1,0 +1,60 @@
+```{r, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, comment = '')
+library(lingglosses)
+```
+
+## Introduction
+
+In many languages of Daghestan, negation is expressed with suffixes.
+
+## Results
+
+In some languages such as Bezhta (< Tsezic), tense forms are derived with suffixes that express both tense and polarity, so that negative forms express both grammatical meanings cumulatively (@several_neg_suffix). Bezhta has the suffixes -*eʔeš*/-*jʔeš* (for direct past), -*aʔas*/-*æʔæš*, -*aʔ*/-*æʔ* (for present finite forms and present converbs), -*(e)č’e* (for past converbs) [@comrieetal2015: 391--392]. At the same time, in some languages such as Archi (< Lezgic), there is only one negation suffix (@one_neg_suffix) (see [@miestamo2005: 51--65; @miestamo2013] on asymmetry of verbal negation).
+
+(@several_neg_suffix) Bezhta [@comrieetal2015: 392]
+```{r}
+gloss_example(transliteration = "jat’-aʔas",
+              glosses = "want-PRS.NEG",
+              free_translation = "do not want"
+)
+```
+```{r}
+gloss_example(transliteration = "jat’-eč’e",
+              glosses = "want-PST.CVB.NEG",
+              free_translation = "not having wanted"
+)
+```
+
+(@one_neg_suffix) Archi [@chumakina2021: 304]
+```{r}
+gloss_example(transliteration = "b-acː’a-r-t’u",
+              glosses = "III.SG-melt-IPFV-NEG",
+              free_translation = "does not melt"
+)
+```
+
+It may be complicated to count the exact “number” of suffixes in some cases. For example, in Botlikh (< Andic) different tense forms make use of an array of negation suffixes: -*č’*, -*č’a*, -*(w)č’i*, -*wč’a*, -*č’o* and -*č’ada*, which seem to be (at least diachronically) related to each other or, possibly, allomorphs [@alexeyevverheesdraft2020: 16--20]. In other cases, different suffixes may have different diachronic origins.
+
+Also, it is not always easy to tell if the negation marker is a suffix or a clitic. In many East Caucasian languages, synthetic tenses originate in periphrastic constructions with auxiliaries, so the negation suffix often originates in the negative form of the auxiliary. The exact status of such negation markers on the affix–clitic cline is not always well-researched. For example, in Andi (< Andic), the negation suffix -*sː(u)* apparently originates in the auxiliary, as reported by Tsertsvadze [-@cercvadze1965: 363]. Note that Kaye et al. [-@kayeetaldraft2020: 23] use a more cautious wording and call it “homophonous” with the auxiliary. The diachronic link of negative suffixes with negative auxiliaries has been suggested in the literature for at least three Avar-Andic languages: Akhvakh [@magomedbekova1967: 97], Andi [@cercvadze1965: 363], and Avar [@alekseevetal2012: 212].
+
+In Tabasaran (< Lezgic), the negation marker is the affix -*dVr*- which is used as a prefix, infix or suffix, depending on the verb form. This suffix also originates from the copula but synchronically it seems to function as a morpheme.
+Other negation strategies in Tabasaran are discussed further in the [chapter](065_verbal_negation_prefixes.html) on prefixal/infixal negation.
+
+The general rule when dealing with such cases was to follow the intuition of the source: if the source characterized the marker as a suffix, I counted it as a suffix, too. Sometimes, the morphosyntactic status of such morphemes was discussed in previous research. For example, in Andi and Tabasaran the negation marker precedes suffixal inflection, which is pointed out in the literature as an argument for treating it as a suffix instead of a clitic [@maisak_inalco2018: 3; @alekseevshixalieva2003: 69]. Therefore, both markers are treated as **suffixes** here as well. (See [@dahl1979: 83–84] on other criteria for the distinction between morphological and syntactic expression of negation.)
+
+In Budukh (< Lezgic), a similar problem arises. Talibov [-@talibov2007: 229–231] characterizes the negative marker, which is identical to the negative auxiliary, as a “suffixoid”, while Alekseev [-@alekseev1994budukh: 280] treats it as a negative copula. In this case, there are no cues to the morphosyntax of this marker except the judgments of the authors. I treat Budukh as having **auxiliaries** and not suffixes, since it is not clear from Talibov’s description if there is any morphological argument to treat this auxiliary as a suffix. The situation is similar in Kryz, Budukh’s closest relative.
+Authier [-@authier2009: 159] claims that the negative copula *da-* / *de-* is “suffixed” to the verb form in some tenses and attached to it as an independent form in other tenses. This claim is supported by a difference in prosody: in the first case the verb and the copula make up a single prosodic unit, while in the latter case they constitute two separate prosodic units. Therefore, Kryz is treated as expressing negation both with **suffixes** and with **auxiliaries**.
+
+In Kubachi Dargwa (< Dargic), as claimed by Belyaev [-@belyaev2019_redup: 28], there is no negative auxiliary, and he treats -*akːʷ*, which is cognate to negative auxiliaries in other Dargic languages, as a suffix. According to Magometov [-@magometov1963: 224--226], in several forms the auxiliary -*akːʷ* functions as a free word but it is usually attached to other verb stems as a suffix since “it did not retain full conjugation forms as well as the Infinitive”. For example, -*akːʷ* is suffixed to the verb stem to derive the future tense [@magometov1963: 229]. For these reasons, Kubachi is treated as having a **suffix** and not an auxiliary.
+
+## Distribution
+
+Suffixal negation is attested in many languages of Daghestan. 30 out of 49 lects in the sample have this feature. It is present in all Avar-Ando-Tsezic languages and some Lezgic languages (Archi, Lezgian, Tabasaran), as well as Ingush (< Nakh) and Khinalug. Apart from that, suffixal negation is found in Turkic languages spoken in Daghestan: Azerbaijani, Kumyk and Nogai.
+
+## List of glosses {-}
+
+```{r}
+make_gloss_list()
+```
+
+## References {-}
