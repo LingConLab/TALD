@@ -17,7 +17,7 @@ TALD is a project of the [Linguistic Convergence Laboratory](https://ilcl.hse.ru
 
 [Chiara Naccarato](https://orcid.org/0000-0003-0017-6316) and [George Moroz](https://orcid.org/0000-0003-1990-6083) coordinate the project and the workshop for students.
 
-[George Moroz](https://orcid.org/0000-0003-1990-6083) and [Irina Politova](https://orcid.org/0009-0006-8265-7293) are responsible for the TALD website and the solving of technical issues.
+[George Moroz](https://orcid.org/0000-0003-1990-6083) and [Irina Politova](https://orcid.org/0009-0006-8265-7293) are responsible for the TALD website and the resolution of technical issues.
 
 [Chiara Naccarato](https://orcid.org/0000-0003-0017-6316), [George Moroz](https://orcid.org/0000-0003-1990-6083) and [Konstantin Filatov](https://orcid.org/0000-0002-0706-9161) are responsible for chapter editing.
 
