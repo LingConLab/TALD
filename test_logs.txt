@@ -1,7 +1,16 @@
+The BibTeX entry          isakovkhalilov2012          present in the          verbal_negation_auxiliaries.tsv, but absent in the biblib.xlsx
+The BibTeX entry          dobrushina1999          present in the          verbal_negation_auxiliaries.tsv, but absent in the biblib.xlsx
 The BibTeX entry          dobrushina1999          present in the          verbal_negation_prefixes.tsv, but absent in the biblib.xlsx
 The BibTeX entry          isakovkhalilov2012          present in the          verbal_negation_suffixes.tsv, but absent in the biblib.xlsx
 The BibTeX entry          dobrushina1999          present in the          verbal_negation_suffixes.tsv, but absent in the biblib.xlsx
 The BibTeX entry daniel2021 from the file adjectives_number_bib.tsv has an empty value in the obligatory field VOLUME
+Revise the BibTeX entry maisak_inalco2018 from the file verbal_negation_auxiliaries_bib.tsv.
+Revise the BibTeX entry omniglotGM from the file verbal_negation_auxiliaries_bib.tsv.
+Revise the BibTeX entry ganenkov2021draft_numerals from the file verbal_negation_auxiliaries_bib.tsv.
+Revise the BibTeX entry authier_rutul from the file verbal_negation_auxiliaries_bib.tsv.
+Revise the BibTeX entry ganenkov_maisak2021 from the file verbal_negation_auxiliaries_bib.tsv.
+Revise the BibTeX entry babaliyeva2023_tabasaran from the file verbal_negation_auxiliaries_bib.tsv.
+Revise the BibTeX entry belyaev2019_redup from the file verbal_negation_auxiliaries_bib.tsv.
 Revise the BibTeX entry maisak_inalco2018 from the file verbal_negation_bib.tsv.
 Revise the BibTeX entry omniglotGM from the file verbal_negation_bib.tsv.
 Revise the BibTeX entry ganenkov2021draft_numerals from the file verbal_negation_bib.tsv.
@@ -23,8 +32,13 @@ Revise the BibTeX entry authier_rutul from the file verbal_negation_suffixes_bib
 Revise the BibTeX entry ganenkov_maisak2021 from the file verbal_negation_suffixes_bib.tsv.
 Revise the BibTeX entry babaliyeva2023_tabasaran from the file verbal_negation_suffixes_bib.tsv.
 Revise the BibTeX entry belyaev2019_redup from the file verbal_negation_suffixes_bib.tsv.
+The obligatory column          feature          is absent in the file          verbal_negation_auxiliaries.tsv
 The obligatory column          feature          is absent in the file          verbal_negation_prefixes.tsv
 The obligatory column          feature          is absent in the file          verbal_negation_suffixes.tsv
+The wrong language name          Andi          in the file          verbal_negation_auxiliaries.tsv
+The wrong language name          Akhvakh          in the file          verbal_negation_auxiliaries.tsv
+The wrong language name          Dargwa          in the file          verbal_negation_auxiliaries.tsv
+The wrong language name          Armenian          in the file          verbal_negation_auxiliaries.tsv
 The wrong language name          Andi          in the file          verbal_negation_prefixes.tsv
 The wrong language name          Akhvakh          in the file          verbal_negation_prefixes.tsv
 The wrong language name          Dargwa          in the file          verbal_negation_prefixes.tsv
@@ -33,6 +47,10 @@ The wrong language name          Andi          in the file          verbal_negat
 The wrong language name          Akhvakh          in the file          verbal_negation_suffixes.tsv
 The wrong language name          Dargwa          in the file          verbal_negation_suffixes.tsv
 The wrong language name          Armenian          in the file          verbal_negation_suffixes.tsv
+The wrong village dialect name Hinuq in the file verbal_negation_auxiliaries.tsv
+The wrong village dialect name Budukh in the file verbal_negation_auxiliaries.tsv
+The wrong village dialect name Alik in the file verbal_negation_auxiliaries.tsv
+The wrong village dialect name Khinalug in the file verbal_negation_auxiliaries.tsv
 The wrong village dialect name Hinuq in the file verbal_negation_prefixes.tsv
 The wrong village dialect name Budukh in the file verbal_negation_prefixes.tsv
 The wrong village dialect name Alik in the file verbal_negation_prefixes.tsv
@@ -42,16 +60,28 @@ The wrong village dialect name Budukh in the file verbal_negation_suffixes.tsv
 The wrong village dialect name Alik in the file verbal_negation_suffixes.tsv
 The wrong village dialect name Khinalug in the file verbal_negation_suffixes.tsv
 The wrong non-toplevel 2 dialect name Kishi in the file adjectives_number.tsv
+The wrong non-toplevel 2 dialect name Tanty in the file verbal_negation_auxiliaries.tsv
+The wrong non-toplevel 2 dialect name Kubachi in the file verbal_negation_auxiliaries.tsv
 The wrong non-toplevel 2 dialect name Tanty in the file verbal_negation_prefixes.tsv
 The wrong non-toplevel 2 dialect name Kubachi in the file verbal_negation_prefixes.tsv
 The wrong non-toplevel 2 dialect name Tanty in the file verbal_negation_suffixes.tsv
 The wrong non-toplevel 2 dialect name Kubachi in the file verbal_negation_suffixes.tsv
+The wrong non-toplevel 1 dialect name Akusha in the file verbal_negation_auxiliaries.tsv
+The wrong non-toplevel 1 dialect name Itsari in the file verbal_negation_auxiliaries.tsv
+The wrong non-toplevel 1 dialect name Mehweb in the file verbal_negation_auxiliaries.tsv
 The wrong non-toplevel 1 dialect name Akusha in the file verbal_negation_prefixes.tsv
 The wrong non-toplevel 1 dialect name Itsari in the file verbal_negation_prefixes.tsv
 The wrong non-toplevel 1 dialect name Mehweb in the file verbal_negation_prefixes.tsv
 The wrong non-toplevel 1 dialect name Akusha in the file verbal_negation_suffixes.tsv
 The wrong non-toplevel 1 dialect name Itsari in the file verbal_negation_suffixes.tsv
 The wrong non-toplevel 1 dialect name Mehweb in the file verbal_negation_suffixes.tsv
+The wrong toplevel dialect name Northern Akhvakh in the file verbal_negation_auxiliaries.tsv
+The wrong toplevel dialect name Southern Akhvakh in the file verbal_negation_auxiliaries.tsv
+The wrong toplevel dialect name Khwarshi in the file verbal_negation_auxiliaries.tsv
+The wrong toplevel dialect name Kaitag in the file verbal_negation_auxiliaries.tsv
+The wrong toplevel dialect name Chirag in the file verbal_negation_auxiliaries.tsv
+The wrong toplevel dialect name Judeo-Tat in the file verbal_negation_auxiliaries.tsv
+The wrong toplevel dialect name Modern Eastern Armenian in the file verbal_negation_auxiliaries.tsv
 The wrong toplevel dialect name Northern Akhvakh in the file verbal_negation_prefixes.tsv
 The wrong toplevel dialect name Southern Akhvakh in the file verbal_negation_prefixes.tsv
 The wrong toplevel dialect name Khwarshi in the file verbal_negation_prefixes.tsv
@@ -283,6 +313,7 @@ spelling of          uc        in trans_intrans_imperative.Rmd:113,113
 spelling of          ul        in trans_intrans_imperative.Rmd:96
 spelling of          una        in trans_intrans_imperative.Rmd:98
 spelling of          uq        in trans_intrans_imperative.Rmd:80
+spelling of          gom        in verbal_negation_auxiliaries.Rmd:14,14,42
 spelling of          Babaliyeva        in verbal_negation_prefixes.Rmd:53
 spelling of          cy        in verbal_negation_prefixes.Rmd:146
 spelling of          Dahl        in verbal_negation_prefixes.Rmd:8

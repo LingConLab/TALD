@@ -1,0 +1,132 @@
+```{r, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, comment = '')
+library(lingglosses)
+```
+
+## Introduction
+
+In many languages of Daghestan, for many verb forms negation is expressed with a periphrastic construction which has an auxiliary verb. As East Caucasian languages often boast a large number of periphrastic verb forms, this strategy is widespread in the family.
+
+## Results
+
+In East Caucasian languages auxiliaries in negative propositions are used in various ways. A widespread strategy for periphrastic tenses is replacement of the auxiliary verb with a negative form. The negative form of the auxiliary may be expressed by a suppletive morph (this is attested for copulas) or derived from the affirmative form of the auxiliary through affixation.
+
+Hinuq (< Tsezic) exemplifies both strategies. Periphrastic tenses can be divided into two types based on the auxiliary they use. “Present-tense” periphrastic forms use the affirmative auxiliary *goɬ* and its negative counterpart *gom* (@hinuq_gom), whereas “past-tense” periphrastic forms use the auxiliary *zoq’ʷes* and negate it with the suffix *-me* (@hinuq_zoqwesme), which is also used in synthetic tenses [@forker2013: 199–200]. (Note the final /m/ in *gom*, which might be cognate with the synthetic negation suffix but is not treated that way in the grammar.)
+
+(@hinuq_gom) Hinuq [@forker2013: 214][^ft1]
+```{r}
+gloss_example(transliteration = "r-ux-ƛ’os goɬ",
+              glosses = "V-take-HAB be.PRS",
+              free_translation = "[usually] take")
+```
+```{r}
+gloss_example(transliteration = "y-iƛ’i-ƛ’os gom",
+              glosses = "II-go-HAB be.PRS.NEG",
+              free_translation = "will not go")
+```
+
+[^ft1]: The examples are in the Habitual Present, which expresses either habituality or future.
+
+(@hinuq_zoqwesme) Hinuq [@forker2013: 217]
+```{r}
+gloss_example(transliteration = "Ø-eq’i-yo zoq’ʷe-s",
+              glosses = "I-know-IPFV.CVB be-PST",
+              free_translation = "knew")
+```
+```{r}
+gloss_example(transliteration = "toqqo zoq’ʷe-s-me",
+              glosses = "hear.IPFV.CVB be-PST-NEG",
+              free_translation = "did not hear")
+```
+
+Periphrastic tenses may be more complex, which is also illustrated by the Hinuq system. A third group of tenses, “evidential” forms, use a different form of the past auxiliary: *zoq’ʷen*. When negated, the form of this auxiliary does not change, but the negative *gom* is attached after it [@forker2013: 200].
+
+In some languages, in negative periphrastic forms the regular negative suffix can be attached either to the lexical verb or to the auxiliary. For example, this is the case in Bagvalal (< Andic), where the majority of periphrastic tenses with the auxiliary *-uk’a* ‘be’ have both options [@tatevosov2001gramtense: 112], as shown in (@bagvalal_buka_lexical).
+
+(@bagvalal_buka_lexical) Bagvalal [@tatevosov2001gramtense: 112]
+```{r}
+gloss_example(transliteration = "hec’i-č’i b-uk’a",
+              glosses = "rise.AOR-NEG N-be.AOR",
+              free_translation = "had not risen")
+```
+```{r}
+gloss_example(transliteration = "hec’i b-uk’a-č’i",
+              glosses = "rise.AOR N-be.AOR-NEG",
+              free_translation = "had not risen")
+```
+
+In periphrastic tenses with the auxiliary *ek’ʷa*, a similar situation is observed. The negative form of this auxiliary, however, is suppletive (@bagvalal_ekwa_lexical).
+
+(@bagvalal_ekwa_lexical) Bagvalal [@tatevosov2001gramtense: 112]
+```{r}
+gloss_example(transliteration = "hec’i-č’i.ra-b-o ek’ʷa",
+              glosses = "rise-NEG-HPL-CVB be.PRS",
+              free_translation = "were not rising")
+```
+```{r}
+gloss_example(transliteration = "hec’i-b-o weč’e",
+              glosses = "rise-N-CVB be.PRS.NEG",
+              free_translation = "were not rising")
+```
+
+Moreover, Bagvalal has more complex tenses, in which two auxiliaries are used.
+In such cases, either of the three words (the lexical verb or one of the two auxiliaries) can express negation [@tatevosov2001gramtense: 112].
+
+The possibility to express negation not only through the form of the auxiliary but also on the lexical verb is mentioned for different languages. It is reported in the sources on Bagvalal, Botlikh, Godoberi, Itsari Dargwa, Khwarshi, Lak, Mehweb Dargwa, and Tsakhur. For other languages of the family, such an option is usually not mentioned in grammars, and sometimes it is explicitly prohibited, e.g. in Archi (< Lezgic) [@kibrik1977: 89] and Ingush (< Nakh) [@nichols2011: 308]. In Khwarshi (< Tsezic), as reported by Khalilova [-@khalilova2009: 206], the two options have different scopes: negation of the auxiliary has scope over the whole sentence, while negation of the lexical verb has scope over the action itself (@khwarshi_scope). Apparently, such effects have not been described for other languages where both options are possible.
+
+(@khwarshi_scope) Bagvalal [@khalilova2009: 206]
+```{r}
+gloss_example(transliteration = "huniža q’ala kere-yun b-eč-bi",
+              glosses = "yesterday children play-PFV.CVB HPL-be-NEG",
+              free_translation = "Yesterday the children did not play")
+```
+```{r}
+gloss_example(transliteration = "huniža q’ala kere-bič b-eč-i",
+              glosses = "yesterday children play-NEG.CVB HPL-be-PST.DIR",
+              free_translation = "Yesterday the children were not playing [they were in the state of not playing]")
+```
+
+In Hinuq (@hinuq_gom), as well as in many other languages of the East Caucasian family, the negative auxiliary replaces its affirmative counterpart. In some others, however, a negative auxiliary is added to the verb form without additional changes. For example, this can happen with the negative copula *deš* in Tsakhur (< Lezgic). This is the most frequently used negation strategy, and it can be applied to all synthetic and periphrastic verb forms (@tsakhur). Expression of negation through replacement of the auxiliary with its negative form (different from *deš*) or affixation on the lexical verb are also possible [@dobrushina1999: 81--84].
+
+(@tsakhur) Mishlesh Tsakhur [@dobrushina1999: 84]
+```{r}
+gloss_example(transliteration = "alʲaʔu ɨxa",
+              glosses = "built.PFV become.PFV",
+              free_translation = "had built")
+```
+```{r}
+gloss_example(transliteration = "alʲaʔu ɨxa deš",
+              glosses = "built.PFV become.PFV NEG",
+              free_translation = "had not built")
+```
+
+In some languages, there are cases of paradigmatic neutralization, i.e. affirmative verb forms which do not have a negative counterpart. For example, in Hinuq the Simple Present does not have a negative form. To negate the Simple Present, speakers of Hinuq use the negative form of the periphrastic Compound Present tense, employing the negative auxiliary. The two tenses are more or less similar semantically [@forker2013: 206, 212]. (See [@miestamo2005: 54] on paradigmatic neutralization.)
+
+In some cases, the negation suffix originates in the auxiliary. Such cases are discussed in the [chapter](066_verbal_negation_suffixes.html) on suffixal negation.
+
+## Distribution
+
+Negation with auxiliaries is attested in the majority of East Caucasian languages (37 lects). It was not found in the sources on Andi (< Andic), Bezhta and Tsez (< Tsezic), Budukh, Tabasaran, Udi (< Lezgic), Tsova-Tush (< Nakh), and Khinalug. It is not clear whether these languages actually lack negation with auxiliaries or such a strategy was for some reason not explicitly mentioned in the sources. Among the non-East Caucasian languages in the sample, negation with auxiliaries is found everywhere except Georgian.
+
+## List of glosses {-}
+
+`r add_gloss("AOR")` — aorist;
+`r add_gloss("CVB")` — converb;
+`r add_gloss("DIR")` — direct evidential;
+`r add_gloss("HAB")` — habitual;
+`r add_gloss("HPL")` — human plural;
+`r add_gloss("I")` — class I;
+`r add_gloss("II")` — class II;
+`r add_gloss("IPFV")` — imperfective;
+`r add_gloss("N")` — neuter;
+`r add_gloss("NEG")` — negation;
+`r add_gloss("PFV")` — perfective;
+`r add_gloss("PRS")` — present;
+`r add_gloss("PST")` — past;
+`r add_gloss("V")` — class V
+
+```{r}
+make_gloss_list()
+```
+
+## References {-}
