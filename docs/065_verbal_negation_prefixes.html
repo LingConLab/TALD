@@ -1,0 +1,1187 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="Maksim Melenchenko" />
+
+
+<title>Negation with prefixes, infixes and particles</title>
+
+<script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="site_libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="site_libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.5.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet" />
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+<style type="text/css">
+/* for pandoc --citeproc since 2.11 */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">TALD</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="./about.html">About</a>
+</li>
+<li>
+  <a href="./features.html">
+    <span class="fa fa-atlas"></span>
+     
+    Features
+  </a>
+</li>
+<li>
+  <a href="./languages.html">Languages</a>
+</li>
+<li>
+  <a href="./changes.html">Changes</a>
+</li>
+<li>
+  <a href="./references.html">References</a>
+</li>
+<li>
+  <a href="./team.html">Team</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Negation with prefixes, infixes and
+particles</h1>
+<h4 class="author">Maksim Melenchenko</h4>
+<h4 class="date">Last update: July 2025</h4>
+
+</div>
+
+
+<p>See <a href="065_verbal_negation_prefixes_map.html">data and
+maps</a>.</p>
+<div id="section"
+class="section level1 tabset tabset-fade tabset-pills unnumbered">
+<h1 class="tabset tabset-fade tabset-pills unnumbered"></h1>
+<div id="plain-text" class="section level2 unnumbered hasAnchor">
+<h2 class="unnumbered hasAnchor">Plain text<a href="#plain-text"
+class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Melenchenko, Maksim (2025). “Negation with prefixes, infixes and
+particles”. In: <em>Typological Atlas of the Languages of Daghestan
+(TALD), v 2.0.0</em>. Ed. by Michael Daniel, Konstantin Filatov, Timur
+Maisak, George Moroz, Timofey Mukhin, Chiara Naccarato and Samira
+Verhees. Moscow: Linguistic Convergence Laboratory, NRU HSE. DOI:
+10.5281/zenodo.6807070. <a href="https://lingconlab.ru/tald"
+class="uri">https://lingconlab.ru/tald</a>.</p>
+</div>
+<div id="bibtex" class="section level2 unnumbered hasAnchor">
+<h2 class="unnumbered hasAnchor">BibTeX<a href="#bibtex"
+class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<pre><code>@incollection{melenchenko2025,
+  title = {Negation with prefixes, infixes and particles},
+  author = {Maksim Melenchenko},
+  year = {2025},
+  editor = {Michael Daniel and Konstantin Filatov and Timur Maisak and George Moroz and Timofey Mukhin and Chiara Naccarato and Samira Verhees},
+  publisher = {Linguistic Convergence Laboratory, NRU HSE},
+  address = {Moscow},
+  booktitle = {Typological Atlas of the Languages of Daghestan (TALD), v 2.0.0},
+  url = {https://lingconlab.ru/tald},
+  doi = {10.5281/zenodo.6807070},
+}</code></pre>
+</div>
+</div>
+<div id="introduction" class="section level1 hasAnchor" number="1">
+<h1 class="hasAnchor"><span class="header-section-number">1</span>
+Introduction<a href="#introduction" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p>In many languages of Daghestan, negation is expressed with prefixes
+or infixes, i.e. affixes positioned before the root or inside the root,
+respectively, or independent particles. It should be noted that Dahl in
+his study <span class="citation">(<a href="#ref-dahl1979">Dahl 1979</a>:
+81)</span> did not find any cases of negation marking by infixation,
+neither are infixes mentioned in the WALS chapter on negation <span
+class="citation">(<a href="#ref-dryer2013">Dryer 2013</a>)</span>, and
+there are only brief mentions of infixation in <span
+class="citation">(<a href="#ref-miestamo2005">Miestamo 2005</a>: 129,
+256)</span>. Therefore, the data presented below may be of interest for
+large-scale typological studies.</p>
+</div>
+<div id="results" class="section level1 hasAnchor" number="2">
+<h1 class="hasAnchor"><span class="header-section-number">2</span>
+Results<a href="#results" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p>This feature has the following values: “<strong>prefix</strong>”,
+“<strong>prefix / infix</strong>”, “<strong>infix</strong>”,
+“<strong>particle</strong>”, “<strong>no</strong>”. The latter is
+assigned to languages which use none of these strategies for negation
+marking.</p>
+<p>The use of prefixal negation is in many cases restricted to specific
+verb forms. In the majority of Lezgic languages (Agul, Budukh, Kryz,
+Lezgian, Rutul, Tabasaran), prefixal or infixal negation is reserved for
+non-finite and non-indicative forms, while finite indicative forms use
+suffixes or periphrastic constructions with auxiliaries (see <span
+class="citation">(<a href="#ref-miestamo2005">Miestamo 2005</a>: 51–65;
+<a href="#ref-miestamo2013">Miestamo 2013</a>)</span> on asymmetry of
+verbal negation). This is apparently due to the fact that, in these
+languages, finite tense forms are expressed by periphrastic forms with
+auxiliaries (or suffixation that originates in such constructions)
+independently of polarity <span class="citation">(<a
+href="#ref-alekseev1985">Mixail E. Alekseev 1985</a>: 95)</span>. In
+Ingush (&lt; Nakh), the negation particle is used with non-finite forms
+and converbs only, while finite forms use suffixal negation.</p>
+<div id="prefixes" class="section level2 hasAnchor" number="2.1">
+<h2 class="hasAnchor"><span class="header-section-number">2.1</span>
+Prefixes<a href="#prefixes" class="anchor-section"
+aria-label="Anchor link to header"></a></h2>
+<p>In 12 languages in the sample (25%), prefixal negation is attested.
+Such languages are assigned the value “<strong>prefix</strong>”. For
+example, in Sanzhi Dargwa (&lt; Dargic) <em>a</em>- is the default
+negation prefix for synthetic indicative tense forms (1).</p>
+<ol class="example" style="list-style-type: decimal">
+<li>Sanzhi Dargwa <span class="citation">(<a
+href="#ref-forker2020dargwa">Forker 2020</a>: 561)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>a-b-erk-un-ne</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps">neg</span>-<span
+class="smallcaps">n</span>-eat.<span class="smallcaps">pfv</span>-<span
+class="smallcaps">pst</span>-<span class="smallcaps">cvb</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘[she] did not eat’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>Some languages of the East Caucasian family have derivational verbal
+prefixes which are traditionally called “preverbs” <span
+class="citation">(<a href="#ref-ganenkov_maisak2021">Ganenkov, Maisak
+2021</a>: 109)</span>. In such languages, the negation prefix is usually
+positioned between the preverb and the verb root. For example, in Agul
+(&lt; Lezgic) the negation prefix is attached after the preverb (2).
+Position of the negation marker after the preverb is explicitly
+mentioned in sources on several Dargwa varieties (Akusha, Mehweb,
+Sanzhi, Tanty), as well as several Lezgic languages including Rutul and
+Tabasaran. For Chirag and Kaitag Dargwa, the sources report that the
+position of the negation prefix depends on the type of preverb: some of
+them are positioned after the negator (3). In most sources, the position
+of the negation marker with respect to the preverb is not mentioned
+explicitly.</p>
+<ol start="2" class="example" style="list-style-type: decimal">
+<li>Fite Agul <span class="citation">(<a
+href="#ref-magometov1970">Magometov 1970</a>: 148)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>qi-d-ik’as</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps">pv</span>-<span
+class="smallcaps">neg</span>-close.<span class="smallcaps">inf</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘not to close’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li>Kaitag Dargwa <span class="citation">(<a
+href="#ref-temirbulatova2004">Temirbulatova 2004</a>: 184)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>a-ha-biq’ana</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps">neg</span>-<span
+class="smallcaps">pv</span>-grow.<span class="smallcaps">inf</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘not to grow (transitive)’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>In some languages, negation prefixes are used only in a restricted
+set of verbs. For example, in Itsari Dargwa prefixation is used for
+negation marking only for five auxiliary verbs when they are used in
+periphrastic constructions <span class="citation">(<a
+href="#ref-sumbatovamutalov2003">Sumbatova, Mutalov 2003</a>:
+114)</span>. Since I only include productive strategies of negation
+marking and leave out auxiliaries (as mentioned in the <a
+href="verbal_negation.html">main chapter</a>), I do not code Itsari as
+having prefixes. In Lezgian, only a restricted set of verbs use prefixal
+negation with finite forms, which, however, are not auxiliaries <span
+class="citation">(<a href="#ref-haspelmath1993">Haspelmath 1993</a>:
+133)</span>.</p>
+</div>
+<div id="infixes" class="section level2 hasAnchor" number="2.2">
+<h2 class="hasAnchor"><span class="header-section-number">2.2</span>
+Infixes<a href="#infixes" class="anchor-section"
+aria-label="Anchor link to header"></a></h2>
+<p>For a few Daghestanian languages, sources describe negation marking
+as being expressed by infixation. Such languages were assigned the
+values “<strong>infix</strong>” (1 language) or “<strong>prefix /
+infix</strong>” (3 languages). The latter choice is reserved for cases
+where an affix is used both as a prefix and an infix, as well as for
+complex cases in which it is hard to differentiate between a prefix and
+an infix. Such cases arise because in some languages preverbs and verb
+roots have lexicalized to a higher degree than in others, resulting in
+new verb roots. If originally a negation prefix was placed between a
+preverb and a root (i.e. it was “interior”[^f1]), now it occupies an
+infixal slot in the new lexicalized root.</p>
+<p>[^f1] See <span class="citation">(<a href="#ref-harris2002">Harris
+2002</a>: 268)</span> on interior and exterior prefixes.</p>
+<p>In Tabasaran (&lt; Lezgic), the general negation marker is the affix
+-<em>d(V)r(V)</em>- (V marks vowel harmony) which is used as a prefix
+(4), infix (5), or suffix, depending on the verb form. The suffix is
+used with finite forms, while prefixal and infixal negation occurs in
+non-finite forms <span class="citation">(<a
+href="#ref-alekseevshixalieva2003">Mixail E. Alekseev, Šixalieva
+2003</a>: 69–71)</span>. As suggested by Babaliyeva <span
+class="citation">(<a href="#ref-babaliyeva2023_tabasaran">2023</a>:
+33–34)</span>, infixes only appear between the preverb and the root, as
+shown in (5). Nevertheless, as the morphological status of the
+prefixal-infixal negator is not agreed upon in the sources, I coded
+Tabasaran as having “<strong>prefix / infix</strong>”.</p>
+<ol start="4" class="example" style="list-style-type: decimal">
+<li>Standard Tabasaran <span class="citation">(<a
+href="#ref-alekseevshixalieva2003">Mixail E. Alekseev, Šixalieva
+2003</a>: 69)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>dir-iš-ub</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps">neg</span>-cry-<span
+class="smallcaps">msd</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘not to cry’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li>Standard Tabasaran <span class="citation">(<a
+href="#ref-alekseevshixalieva2003">Mixail E. Alekseev, Šixalieva
+2003</a>: 70)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>kːi-dri-w-ub</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+under(<span class="smallcaps">pv</span>)-<span
+class="smallcaps">neg</span>-put-<span class="smallcaps">msd</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘not to put under’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>In Budukh, one of the two languages of the South Lezgic group, the
+morphological status of the non-suffixal negation marker is unclear.
+According to Talibov <span class="citation">(<a
+href="#ref-talibov2007">2007</a>: 229–230)</span>, the affix
+-<em>d</em>- is positioned before the root if the root begins with a
+vowel (6), and inside the root (after the first vowel) if it begins with
+a consonant (7). According to Alekseev <span class="citation">(<a
+href="#ref-alekseev1994">1994</a>: 280)</span>, this negation marker is
+an infix. For Kryz, Budukh’s sister language, an analogous morpheme is
+described as a prefix positioned after the preverb <span
+class="citation">(<a href="#ref-authier2009">Authier 2019</a>: 153–156;
+<a href="#ref-saadiev1994">Saadiev 1994</a>: 432)</span>, so I assigned
+Kryz the value “<strong>prefix</strong>”. Timur Maisak (p.c.) has
+suggested that the same interpretation is correct for Budukh.
+Nevertheless, since there is no clear understanding of this problem, I
+have assigned Budukh the value “<strong>prefix / infix</strong>”.</p>
+<ol start="6" class="example" style="list-style-type: decimal">
+<li>Budukh [<span class="citation">Talibov (<a
+href="#ref-talibov2007">2007</a>)</span>: 229]<a href="#fn1"
+class="footnote-ref" id="fnref1"><sup>1</sup></a>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>alq-al</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+sit-<span class="smallcaps">msd</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘to sit’
+</td>
+</tr>
+</tfoot>
+</table>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>adalq-al</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+sit.<span class="smallcaps">neg</span>-<span
+class="smallcaps">msd</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘not to sit’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<ol start="7" class="example" style="list-style-type: decimal">
+<li>Budukh <span class="citation">(<a href="#ref-talibov2007">Talibov
+2007</a>: 229)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>harx-ar</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+run-<span class="smallcaps">msd</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘to run’
+</td>
+</tr>
+</tfoot>
+</table>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>hadarx-ar</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+run.<span class="smallcaps">neg</span>-<span
+class="smallcaps">msd</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘not to run’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>The situation with Tsakhur (&lt; Lezgic) is clearer: negation is
+expressed by infixation and therefore I assigned this language the value
+“<strong>infix</strong>”. The infix -<em>(i)dʲ</em>- is usually inserted
+before the last vowel before the root (i.e. before the last vowel of the
+preverb, if there is one) <span class="citation">(<a
+href="#ref-dobrushina1999">Dobrušina 1999</a>: 81)</span> (8).</p>
+<ol start="8" class="example" style="list-style-type: decimal">
+<li>Mishlesh Tsakhur <span class="citation">(<a
+href="#ref-dobrushina1999">Dobrušina 1999</a>: 81)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>q&lt;idʲ&gt;aˤ-t’-q’ɨn</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps">pv</span>&lt;<span
+class="smallcaps">neg</span>&gt;-<span
+class="smallcaps">iv</span>-fear.<span class="smallcaps">pfv</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘has not feared’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>In Lak (single-language branch), in some tenses negation is expressed
+with the prefix <em>qːa</em>-, which is sometimes infixed, as shown in
+(9). According to Zhirkov <span class="citation">(<a
+href="#ref-zhirkov1955">1955</a>: 121)</span>, this infixation is
+optional. Eldarova <span class="citation">(<a
+href="#ref-eldarova1999">1999</a>: 29)</span> claims that it occurs in
+“expressive speech”. Even though this is apparently a marginal strategy,
+the language was assigned the value “<strong>prefix /
+infix</strong>”.</p>
+<ol start="9" class="example" style="list-style-type: decimal">
+<li>Lak <span class="citation">(<a href="#ref-eldarova1999">Èlʹdarova
+1999</a>: 29)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>bu&lt;qːa&gt;&lt;w&gt;s-unni</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+say&lt;<span class="smallcaps">neg</span>&gt;&lt;<span
+class="smallcaps">i</span>&gt;-<span class="smallcaps">prf</span>.<span
+class="smallcaps">3sg</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘did not tell’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+</div>
+<div id="particles" class="section level2 hasAnchor" number="2.3">
+<h2 class="hasAnchor"><span class="header-section-number">2.3</span>
+Particles<a href="#particles" class="anchor-section"
+aria-label="Anchor link to header"></a></h2>
+<p>In 4 languages of the sample (8%), negation is reportedly marked by
+<strong>particles</strong>. In Udi (&lt; Lezgic), in the majority of
+indicative and finite forms negation is marked by the particle
+<em>te</em>. Its morphosyntactic status has been subject to debate in
+the literature, and no clear consensus has been achieved. Schulze <span
+class="citation">(<a href="#ref-schulze1994">1994</a>: 483)</span>
+characterizes it as a stressed prefix. Harris <span class="citation">(<a
+href="#ref-harris2002">2002</a>: 51–53)</span>, who studied the
+Vartashen dialect, notes that it is usually placed before the verb but
+in some cases may appear after the verb (10). Moreover, this particle
+does not need a host and can constitute its own syntactic node (which,
+if present, serves itself as an obligatory host for person markers)
+<span class="citation">(<a href="#ref-harris2002">Harris 2002</a>:
+51–53)</span>. Maisak <span class="citation">(<a
+href="#ref-maisak2009">2009</a>: 484)</span>, writing about the Nizh
+dialect of Udi, claims that <em>te</em> can also be inserted into a
+simplex verb form (11); clitics with such property are called
+“endoclitics” in morphological literature. Apparently, this particle
+used to be a true endoclitic in the past <span class="citation">(<a
+href="#ref-harris2002">Harris 2002</a>: 268–271)</span> and then became
+a free word while retaining the ability to be inserted into other words.
+Apart from <em>te</em> (and the prohibitive proclitic <em>ma</em>, which
+is outside of the scope of this chapter), Udi uses the proclitic
+<em>nu</em> for non-finite and conditional verb forms <span
+class="citation">(<a href="#ref-maisak2009">Majsak 2009</a>:
+487)</span>.</p>
+<ol start="10" class="example" style="list-style-type: decimal">
+<li>Vartashen Udi <span class="citation">(<a
+href="#ref-harris2002">Harris 2002</a>: 52)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>zu</em>
+</td>
+<td style="text-align:left;">
+<em>k’inig-ax</em>
+</td>
+<td style="text-align:left;">
+<em>te-z</em>
+</td>
+<td style="text-align:left;">
+<em>bese</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps">i</span>
+</td>
+<td style="text-align:left;">
+book-<span class="smallcaps">dat</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">neg</span>-<span class="smallcaps">1sg</span>
+</td>
+<td style="text-align:left;">
+request
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘I did not ask for the book’
+</td>
+</tr>
+</tfoot>
+</table>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>taš-al</em>
+</td>
+<td style="text-align:left;">
+<em>te-zu</em>
+</td>
+<td style="text-align:left;">
+<em>vax</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+take-<span class="smallcaps">fut2</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">neg</span>-<span class="smallcaps">1sg</span>
+</td>
+<td style="text-align:left;">
+you.<span class="smallcaps">dat</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘I will not take you’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li>Nizh Udi <span class="citation">(<a href="#ref-maisak2009">Majsak
+2009</a>: 484)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>ba&lt;te=ne&gt;k-e</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+be&lt;<span class="smallcaps">neg</span>=<span
+class="smallcaps">3sg</span>&gt;-<span class="smallcaps">prf</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘has not been / become’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>In Nakh languages, negation is also expressed with proclitic-like
+particles whose exact morphosyntactic status is unclear. In Chechen, the
+particle <em>ca</em> is usually positioned before the verb <span
+class="citation">(<a href="#ref-jakovlev1940">Jakovlev 1940</a>: 24–29;
+<a href="#ref-nichols1994">Nichols 1994</a>: 44–45)</span>; the same is
+reported for the cognate particle <em>co</em> in Tsova-Tush <span
+class="citation">(<a href="#ref-desheriev1953">Desheriev 1953</a>:
+253–254; <a href="#ref-harris2018">Harris 2018</a>: 43)</span>. In
+Ingush, the main negation marker is the suffix -<em>ac</em> but there is
+also the particle <em>cy</em>, which is used with non-finite tenses and
+converbs <span class="citation">(<a href="#ref-nichols2011">Nichols
+2011</a>: 309)</span>. While Nichols calls this negator a “proclitic”,
+it is shown in examples as an independent word.<a href="#fn2"
+class="footnote-ref" id="fnref2"><sup>2</sup></a> All Nakh languages, as
+well as Udi, have been assigned the value “<strong>particle</strong>” in
+the dataset.</p>
+</div>
+</div>
+<div id="distribution" class="section level1 hasAnchor" number="3">
+<h1 class="hasAnchor"><span class="header-section-number">3</span>
+Distribution<a href="#distribution" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p>16 languages in the sample (33%) employ prefixal and/or infixal
+negation. It is widespread in Dargic, Lezgic, and Lak languages. Udi and
+Nakh languages use negation particles which are usually positioned
+before the verb. Among non-East Caucasian languages in the region,
+prefixal negation is attested in Tat and Armenian.</p>
+</div>
+<div id="list-of-glosses" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">List of glosses<a
+href="#list-of-glosses" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p><span class="smallcaps">1sg</span> — first person singular; <span
+class="smallcaps">3sg</span> — third person singular; <span
+class="smallcaps">cvb</span> — converb; <span
+class="smallcaps">dat</span> — dative; <span class="smallcaps">i</span>
+— class I; <span class="smallcaps">iv</span> — class IV; <span
+class="smallcaps">inf</span> — infinitive; <span
+class="smallcaps">fut2</span> — future II; <span
+class="smallcaps">msd</span> — masdar; <span class="smallcaps">n</span>
+— neuter; <span class="smallcaps">neg</span> — negation; <span
+class="smallcaps">pfv</span> — perfective; <span
+class="smallcaps">prf</span> — perfect; <span
+class="smallcaps">pst</span> — past; <span class="smallcaps">pv</span> —
+preverb</p>
+<p><span class="smallcaps">1sg</span> — first person singular; <span
+class="smallcaps">3sg</span> — third person singular; <span
+class="smallcaps">cvb</span> — converb; <span
+class="smallcaps">dat</span> — dative; <span class="smallcaps"><span
+style="background-color:#00d5ff;">fut2</span></span> — ; <span
+class="smallcaps">i</span> — class I; <span
+class="smallcaps">inf</span> — infinitive; <span
+class="smallcaps">iv</span> — class IV; <span
+class="smallcaps">msd</span> — masdar; <span
+class="smallcaps">n</span> — neuter; <span
+class="smallcaps">neg</span> — negation; <span
+class="smallcaps">pfv</span> — perfective; <span
+class="smallcaps">prf</span> — perfect; <span
+class="smallcaps">pst</span> — past; <span
+class="smallcaps">pv</span> — patient voice</p>
+</div>
+<div id="references" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">References<a href="#references"
+class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="refs" class="references csl-bib-body hanging-indent"
+line-spacing="2">
+<div id="ref-alekseev1994" class="csl-entry">
+Alekseev, Mikhail E. (1994). Rutul. In Riek Smeets (Ed.), <em>The
+indigenous languages of the <span>C</span>aucasus. <span>V</span>olume
+4. <span>P</span>art 2</em> (pp. 147–212). Delmar NY: Caravan Books.
+</div>
+<div id="ref-alekseev1985" class="csl-entry">
+Alekseev, Mixail E. (1985). <em>Voprosy sravnitelʹno-istoričeskoj
+grammatiki lezginskix jazykov. <span>M</span>orfologija.
+<span>S</span>intaksis [<span>P</span>roblems of the comparative grammar
+of <span>L</span>ezgic languages. <span>M</span>orphology.
+<span>S</span>yntax]</em>. Moscow: Nauka.
+</div>
+<div id="ref-alekseevshixalieva2003" class="csl-entry">
+Alekseev, Mixail E., Šixalieva, Sabrina X. (2003). <em>Tabasaranskij
+jazyk [<span>T</span>abasaran]</em>. Moscow: Akademija.
+</div>
+<div id="ref-authier2009" class="csl-entry">
+Authier, Gilles. (2019). <em>Grammaire kryz</em>. Paris: Peeters.
+</div>
+<div id="ref-babaliyeva2023_tabasaran" class="csl-entry">
+Babaliyeva, Ayten. (2023). Standard <span>T</span>abasaran: Short
+grammar sketch. <em>Languages of the Caucasus</em>, <em>6</em>(1).
+</div>
+<div id="ref-dahl1979" class="csl-entry">
+Dahl, Östen. (1979). Typology of sentence negation.
+<em>Linguistics</em>, <em>17</em>(1-2), 79–106.
+</div>
+<div id="ref-desheriev1953" class="csl-entry">
+Desheriev, Yunus D. (1953). <em>Bacbijskij jazyk
+[<span>T</span>sova-<span>T</span>ush language]</em>. Moscow: Akademija.
+</div>
+<div id="ref-dobrushina1999" class="csl-entry">
+Dobrušina, Nina R. (1999). Glagol [<span>V</span>erb]. In Aleksandr E.
+Kibrik (Ed.), <em>Èlementy caxurskogo jazyka v tipologičeskom osveščenii
+[<span>E</span>lements of <span>T</span>sakhur grammar in a typological
+perspective]</em> (pp. 58–85). Moscow: Nasledie.
+</div>
+<div id="ref-dryer2013" class="csl-entry">
+Dryer, Matthew S. (2013). Negative <span>Morphemes</span> (v2020.3). In
+Matthew S. Dryer, Martin Haspelmath (Eds.), <em>The <span>World</span>
+<span>Atlas</span> of <span>Language</span> <span>Structures</span>
+<span>Online</span></em>. Retrieved from <a
+href="https://doi.org/10.5281/zenodo.7385533">https://doi.org/10.5281/zenodo.7385533</a>
+</div>
+<div id="ref-eldarova1999" class="csl-entry">
+Èlʹdarova, Roza G. (1999). <em>Lakskij glagol (sistema glagolʹnogo
+slovoizmenenija) [<span>L</span>ak verb (system of verbal
+inflection)]</em>. Makhachkala: IPC DGU.
+</div>
+<div id="ref-forker2020dargwa" class="csl-entry">
+Forker, Diana. (2020). <em>A grammar of <span>S</span>anzhi
+<span>D</span>argwa</em>. Berlin: Language Science Press.
+</div>
+<div id="ref-ganenkov_maisak2021" class="csl-entry">
+Ganenkov, Dmitry, Maisak, Timur. (2021). Nakh-<span>D</span>agestanian
+languages. In Maria Polinsky (Ed.), <em>The <span>O</span>xford
+<span>H</span>andbook of <span>L</span>anguages of the
+<span>C</span>aucasus</em> (pp. 86–145). Oxford: Oxford University
+Press.
+</div>
+<div id="ref-harris2002" class="csl-entry">
+Harris, Alice C. (2002). <em>Endoclitics and the origins of
+<span>U</span>di morphosyntax</em>. Oxford: Oxford University Press.
+</div>
+<div id="ref-harris2018" class="csl-entry">
+Harris, Alice C. (2018). <em>Batsbi <span>G</span>rammatical
+<span>S</span>ketch</em>.
+</div>
+<div id="ref-haspelmath1993" class="csl-entry">
+Haspelmath, Martin. (1993). <em>A grammar of <span>L</span>ezgian</em>.
+Berlin/New York: Mouton de Gruyter.
+</div>
+<div id="ref-jakovlev1940" class="csl-entry">
+Jakovlev, Nikolaj F. (1940). <em>Sintaksis čečenskogo literaturnogo
+jazyka [<span>S</span>yntax of <span>S</span>tandard
+<span>C</span>hechen]</em>. Moscow/Leningrad: Izdatelʹstvo Akademii Nauk
+SSSR.
+</div>
+<div id="ref-magometov1970" class="csl-entry">
+Magometov, Aleksandr A. (1970). <em>Agulʹskij jazyk
+[<span>A</span>gul]</em>. Tbilisi: Mecniereba.
+</div>
+<div id="ref-maisak2009" class="csl-entry">
+Majsak, Timur. (2009). Sintaksis i semantika v raspredelenii pokazatelej
+otricanija (na materiale udinskogo jazyka). In N. D. Arutjunova (Ed.),
+<em>Logičeskij analiz jazyka. <span>A</span>ssercija i negacija</em>
+(pp. 480–495). Moskva: Indrik.
+</div>
+<div id="ref-miestamo2005" class="csl-entry">
+Miestamo, Matti. (2005). <em>The <span>Negation</span> of
+<span>Declarative</span> <span>Verbal</span> <span>Main</span>
+<span>Clauses</span> in a <span>Typological</span>
+<span>Perspective</span></em>. Berlin, New York: De Gruyter Mouton.
+</div>
+<div id="ref-miestamo2013" class="csl-entry">
+Miestamo, Matti. (2013). Subtypes of <span>Asymmetric</span>
+<span>Standard</span> <span>Negation</span> (v2020.3). In Matthew S.
+Dryer, Martin Haspelmath (Eds.), <em>The <span>World</span>
+<span>Atlas</span> of <span>Language</span> <span>Structures</span>
+<span>Online</span></em>. Retrieved from <a
+href="https://doi.org/10.5281/zenodo.7385533">https://doi.org/10.5281/zenodo.7385533</a>
+</div>
+<div id="ref-nichols1994" class="csl-entry">
+Nichols, Johanna. (1994). Chechen. In Rieks Smeets (Ed.), <em>The
+<span>I</span>ndigenous <span>L</span>anguages of the
+<span>C</span>aucasus, vol. 4: <span>T</span>he <span>N</span>ortheast
+<span>C</span>aucasian <span>L</span>anguages, <span>P</span>art 2</em>
+(pp. 1–77). Delmar, NY: Caravan Press.
+</div>
+<div id="ref-nichols2011" class="csl-entry">
+Nichols, Johanna. (2011). <em>Ingush grammar</em>. Berkeley/Los Angeles:
+University of California Press.
+</div>
+<div id="ref-saadiev1994" class="csl-entry">
+Saadiev, Sh. M. (1994). Kryts. In Rieks Smeets (Ed.), <em>The
+<span>I</span>ndigenous <span>L</span>anguages of the
+<span>C</span>aucasus. <span>V</span>ol. 4: <span>T</span>he
+<span>N</span>ortheast <span>C</span>aucasian <span>L</span>anguages.
+<span>P</span>art 2</em> (pp. 407–446). Delmar, NY: Caravan Press.
+</div>
+<div id="ref-schulze1994" class="csl-entry">
+Schulze-Fürhoff, Wolfgang. (1994). Udi. In Riek Smeets (Ed.), <em>The
+<span>N</span>orth <span>E</span>ast <span>C</span>aucasian
+<span>L</span>anguages</em> (pp. 447–514). Delmar: Caravan Press.
+</div>
+<div id="ref-sumbatovamutalov2003" class="csl-entry">
+Sumbatova, Nina R., Mutalov, Rasul O. (2003). <em>A <span>G</span>rammar
+of <span>I</span>cari <span>D</span>argwa</em>. Munich: Lincom Europa.
+</div>
+<div id="ref-talibov2007" class="csl-entry">
+Talibov, Bukar B. (2007). <em>Buduxskij jazyk
+[<span>B</span>udukh]</em>. Moscow: Akademija.
+</div>
+<div id="ref-temirbulatova2004" class="csl-entry">
+Temirbulatova, Sapijaxanum M. (2004). <em>Xajdakskij dialekt darginskogo
+jazyka [<span>K</span>haidak dialect of <span>D</span>argwa]</em>.
+Makhachkala: Institut jazyka, literatury i iskusstva im. G. Cadasy.
+</div>
+<div id="ref-zhirkov1955" class="csl-entry">
+Žirkov, Lev I. (1955). <em>Lakskij jazyk [<span>L</span>ak]</em>.
+Moscow: Akademija.
+</div>
+</div>
+</div>
+<div class="footnotes footnotes-end-of-document">
+<hr />
+<ol>
+<li id="fn1"><p>Unfortunately, Talibov does not provide the exact
+morphemic division that he envisions for these examples.<a
+href="#fnref1" class="footnote-back">↩︎</a></p></li>
+<li id="fn2"><p>In the map on sentential negation morphemes in WALS,
+Dryer <span class="citation">(<a href="#ref-dryer2013">2013</a>)</span>
+assigns to Ingush the value “affix” (whereas Chechen and Tsova-Tush are
+assigned the value “particle”). Apparently, he follows Nichols’ own
+interpretation in that it is not a free word.<a href="#fnref2"
+class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+</head>
+
+<body>
+    <div class="footer-basic">
+        <footer>
+            
+            <div class='lic'><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br /><i>Typological Atlas of the languages of Daghestan </i> (<i>TALD</i>) is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0 International License</a>.
+            <div class="social"><a href="https://github.com/LingConLab/TALD" target="_blank"><span class="iconify" data-icon="octicon:logo-github-16"></span></a></div>
+            </div>
+            
+            <p class="copyright">2020<script>new Date().getFullYear()>2020&&document.write("-"+new Date().getFullYear());</script>,  Linguistic Convergence Laboratory, HSE University</p>
+        </footer>
+    </div>
+    <script type="text/javascript" src="./js/links.js"></script> <!--это чтобы ссылки открывались в новом окне -->
+</body>
+
+</html>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

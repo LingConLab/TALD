@@ -5,122 +5,93 @@ library(lingglosses)
 
 ## Introduction
 
-In many languages of Daghestan, negation is expressed with prefixes or infixes, i.e. affixes positioned before the root or inside the root, respectively, or independent particles.
-It should be noted that Dahl in his study [@dahl1979: 81] did not find any cases of negation marking by infixation, neither are infixes mentioned in the WALS chapter on negation [@dryer2013], and there are only brief mentions of infixation in [@miestamo2005: 129, 256]. Therefore, the data presented below may be of interest for large-scale typological studies.
+In many languages of Daghestan, negation is expressed with prefixes or infixes, i.e. affixes positioned before the root or inside the root, respectively, or independent particles. It should be noted that Dahl in his study [@dahl1979: 81] did not find any cases of negation marking by infixation, neither are infixes mentioned in the WALS chapter on negation [@dryer2013], and there are only brief mentions of infixation in [@miestamo2005: 129, 256]. Therefore, the data presented below may be of interest for large-scale typological studies.
 
 ## Results
 
-This feature has the following values: “**prefix**”, “**prefix / infix**”, “**infix**”, “**particle**”, “**no**”.
-The latter is assigned to languages which use none of these strategies for negation marking.
+This feature has the following values: “**prefix**”, “**prefix / infix**”, “**infix**”, “**particle**”, “**no**”. The latter is assigned to languages which use none of these strategies for negation marking.
 
-The use of prefixal negation is in many cases restricted to specific verb forms.
-In the majority of Lezgic languages (Agul, Budukh, Kryz, Lezgian, Rutul, Tabasaran), prefixal or infixal negation is reserved for non-finite and non-indicative forms, while finite indicative forms use suffixes or periphrastic constructions with auxiliaries (see [@miestamo2005: 51–65; @miestamo2013] on asymmetry of verbal negation).
-This is apparently due to the fact that, in these languages, finite tense forms are expressed by periphrastic forms with auxiliaries (or suffixation that originates in such constructions) independently of polarity [@alekseev1985: 95].
-In Ingush (< Nakh), the negation particle is used with non-finite forms and converbs only, while finite forms use suffixal negation.
+The use of prefixal negation is in many cases restricted to specific verb forms. In the majority of Lezgic languages (Agul, Budukh, Kryz, Lezgian, Rutul, Tabasaran), prefixal or infixal negation is reserved for non-finite and non-indicative forms, while finite indicative forms use suffixes or periphrastic constructions with auxiliaries (see [@miestamo2005: 51--65; @miestamo2013] on asymmetry of verbal negation). This is apparently due to the fact that, in these languages, finite tense forms are expressed by periphrastic forms with auxiliaries (or suffixation that originates in such constructions) independently of polarity [@alekseev1985: 95]. In Ingush (< Nakh), the negation particle is used with non-finite forms and converbs only, while finite forms use suffixal negation.
 
 ### Prefixes
 
-In 12 languages in the sample (25%), prefixal negation is attested. Such languages are assigned the value “**prefix**”.
-For example, in Sanzhi Dargwa (< Dargic) *a*- is the default negation prefix for synthetic indicative tense forms (@prefix_neg).
+In 12 languages in the sample (25%), prefixal negation is attested. Such languages are assigned the value “**prefix**”. For example, in Sanzhi Dargwa (< Dargic) *a*- is the default negation prefix for synthetic indicative tense forms (@prefix_neg).
 
 (@prefix_neg) Sanzhi Dargwa [@forker2020dargwa: 561]
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "a-b-erk-un-ne",
               glosses = "NEG-N-eat.PFV-PST-CVB",
-              free_translation = "[she] did not eat"
-)
+              free_translation = "[she] did not eat")
 ```
 
 Some languages of the East Caucasian family have derivational verbal prefixes which are traditionally called “preverbs” [@ganenkov_maisak2021: 109].
-In such languages, the negation prefix is usually positioned between the preverb and the verb root.
-For example, in Agul (< Lezgic) the negation prefix is attached after the preverb (@negation_after_preverb).
-Position of the negation marker after the preverb is explicitly mentioned in sources on several Dargwa varieties (Akusha, Mehweb, Sanzhi, Tanty), as well as several Lezgic languages including Rutul and Tabasaran.
-For Chirag and Kaitag Dargwa, the sources report that the position of the negation prefix depends on the type of preverb: some of them are positioned after the negator (@negation_before_preverb).
-In most sources, the position of the negation marker with respect to the preverb is not mentioned explicitly.
+In such languages, the negation prefix is usually positioned between the preverb and the verb root. For example, in Agul (< Lezgic) the negation prefix is attached after the preverb (@negation_after_preverb). Position of the negation marker after the preverb is explicitly mentioned in sources on several Dargwa varieties (Akusha, Mehweb, Sanzhi, Tanty), as well as several Lezgic languages including Rutul and Tabasaran. For Chirag and Kaitag Dargwa, the sources report that the position of the negation prefix depends on the type of preverb: some of them are positioned after the negator (@negation_before_preverb). In most sources, the position of the negation marker with respect to the preverb is not mentioned explicitly.
 
 (@negation_after_preverb) Fite Agul [@magometov1970: 148]
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "qi-d-ik’as",
               glosses = "PV-NEG-close.INF",
-              free_translation = "not to close"
-)
+              free_translation = "not to close")
 ```
 
 (@negation_before_preverb) Kaitag Dargwa [@temirbulatova2004: 184]
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "a-ha-biq’ana",
               glosses = "NEG-PV-grow.INF",
-              free_translation = "not to grow (transitive)"
-)
+              free_translation = "not to grow (transitive)")
 ```
 
 In some languages, negation prefixes are used only in a restricted set of verbs.
-For example, in Itsari Dargwa prefixation is used for negation marking only for five auxiliary verbs when they are used in periphrastic constructions [@sumbatovamutalov2003: 114].
-Since I only include productive strategies of negation marking and leave out auxiliaries (as mentioned in the [main chapter]()), I do not code Itsari as having prefixes.
-In Lezgian, only a restricted set of verbs use prefixal negation with finite forms, which, however, are not auxiliaries [@haspelmath1993: 133].
+For example, in Itsari Dargwa prefixation is used for negation marking only for five auxiliary verbs when they are used in periphrastic constructions [@sumbatovamutalov2003: 114]. Since I only include productive strategies of negation marking and leave out auxiliaries (as mentioned in the [main chapter](verbal_negation.html)), I do not code Itsari as having prefixes. In Lezgian, only a restricted set of verbs use prefixal negation with finite forms, which, however, are not auxiliaries [@haspelmath1993: 133].
 
 ### Infixes
 
-For a few Daghestanian languages, sources describe negation marking as being expressed by infixation.
-Such languages were assigned the values “**infix**” (1 language) or “**prefix / infix**” (3 languages).
-The latter choice is reserved for cases where an affix is used both as a prefix and an infix, as well as for complex cases in which it is hard to differentiate between a prefix and an infix.
-Such cases arise because in some languages preverbs and verb roots have lexicalized to a higher degree than in others, resulting in new verb roots.
-If originally a negation prefix was placed between a preverb and a root (i.e. it was “interior”^[See [@harris2002: 268] on interior and exterior prefixes.]), now it occupies an infixal slot in the new lexicalized root.
+For a few Daghestanian languages, sources describe negation marking as being expressed by infixation. Such languages were assigned the values “**infix**” (1 language) or “**prefix / infix**” (3 languages). The latter choice is reserved for cases where an affix is used both as a prefix and an infix, as well as for complex cases in which it is hard to differentiate between a prefix and an infix. Such cases arise because in some languages preverbs and verb roots have lexicalized to a higher degree than in others, resulting in new verb roots. If originally a negation prefix was placed between a preverb and a root (i.e. it was “interior”[^f1]), now it occupies an infixal slot in the new lexicalized root.
 
-In Tabasaran (< Lezgic), the general negation marker is the affix -*d(V)r(V)*- (V marks vowel harmony) which is used as a prefix (@tabasaran_prefix), infix (@tabasaran_infix), or suffix, depending on the verb form.
-The suffix is used with finite forms, while prefixal and infixal negation occurs in non-finite forms [@alekseevshixalieva2003: 69–71].
-As suggested by Babaliyeva [-@babaliyeva2023_tabasaran: 33–34], infixes only appear between the preverb and the root, as shown in (@tabasaran_infix).
-Nevertheless, as the morphological status of the prefixal-infixal negator is not agreed upon in the sources, I coded Tabasaran as having “**prefix / infix**”.
+[^f1] See [@harris2002: 268] on interior and exterior prefixes.
+
+In Tabasaran (< Lezgic), the general negation marker is the affix -*d(V)r(V)*- (V marks vowel harmony) which is used as a prefix (@tabasaran_prefix), infix (@tabasaran_infix), or suffix, depending on the verb form. The suffix is used with finite forms, while prefixal and infixal negation occurs in non-finite forms [@alekseevshixalieva2003: 69--71]. As suggested by Babaliyeva [-@babaliyeva2023_tabasaran: 33--34], infixes only appear between the preverb and the root, as shown in (@tabasaran_infix). Nevertheless, as the morphological status of the prefixal-infixal negator is not agreed upon in the sources, I coded Tabasaran as having “**prefix / infix**”.
 
 (@tabasaran_prefix) Standard Tabasaran [@alekseevshixalieva2003: 69]
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "dir-iš-ub",
               glosses = "NEG-cry-MSD",
-              free_translation = "not to cry"
-)
+              free_translation = "not to cry")
 ```
 
 (@tabasaran_infix) Standard Tabasaran [@alekseevshixalieva2003: 70]
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "kːi-dri-w-ub",
               glosses = "under(PV)-NEG-put-MSD",
-              free_translation = "not to put under"
-)
+              free_translation = "not to put under")
 ```
 
-In Budukh, one of the two languages of the South Lezgic group, the morphological status of the non-suffixal negation marker is unclear.
-According to Talibov [-@talibov2007: 229–230], the affix -*d*- is positioned before the root if the root begins with a vowel (@budukh_infix_vowel), and inside the root (after the first vowel) if it begins with a consonant (@budukh_infix_cons).
-According to Alekseev [-@alekseev1994: 280], this negation marker is an infix.
-For Kryz, Budukh’s sister language, an analogous morpheme is described as a prefix positioned after the preverb [@authier2009: 153–156; @saadiev1994: 432], so I assigned Kryz the value “**prefix**”.
-Timur Maisak (p.c.) has suggested that the same interpretation is correct for Budukh.
-Nevertheless, since there is no clear understanding of this problem, I have assigned Budukh the value “**prefix / infix**”.
+In Budukh, one of the two languages of the South Lezgic group, the morphological status of the non-suffixal negation marker is unclear. According to Talibov [-@talibov2007: 229–230], the affix -*d*- is positioned before the root if the root begins with a vowel (@budukh_infix_vowel), and inside the root (after the first vowel) if it begins with a consonant (@budukh_infix_cons). According to Alekseev [-@alekseev1994: 280], this negation marker is an infix. For Kryz, Budukh’s sister language, an analogous morpheme is described as a prefix positioned after the preverb [@authier2009: 153–156; @saadiev1994: 432], so I assigned Kryz the value “**prefix**”. Timur Maisak (p.c.) has suggested that the same interpretation is correct for Budukh. Nevertheless, since there is no clear understanding of this problem, I have assigned Budukh the value “**prefix / infix**”.
 
-(@budukh_infix_vowel) Budukh [@talibov2007: 229]^[Unfortunately, Talibov does not provide the exact morphemic division that he envisions for these examples.]
-```{r, echo=FALSE}
+(@budukh_infix_vowel) Budukh [@talibov2007: 229][^f2]
+```{r}
 gloss_example(transliteration = "alq-al",
               glosses = "sit-MSD",
-              free_translation = "to sit"
-)
+              free_translation = "to sit")
 ```
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "adalq-al",
               glosses = "sit.NEG-MSD",
-              free_translation = "not to sit"
-)
+              free_translation = "not to sit")
 ```
 
+[^f2]: Unfortunately, Talibov does not provide the exact morphemic division that he envisions for these examples.
+
 (@budukh_infix_cons) Budukh [@talibov2007: 229]
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "harx-ar",
               glosses = "run-MSD",
-              free_translation = "to run"
-)
+              free_translation = "to run")
 ```
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "hadarx-ar",
               glosses = "run.NEG-MSD",
-              free_translation = "not to run"
-)
+              free_translation = "not to run")
 ```
 
 The situation with Tsakhur (< Lezgic) is clearer: negation is expressed by infixation and therefore I assigned this language the value “**infix**”.
@@ -128,7 +99,7 @@ The infix -*(i)dʲ*- is usually inserted before the last vowel before the root
 (i.e. before the last vowel of the preverb, if there is one) [@dobrushina1999: 81] (@negation_tsakhur_infix).
 
 (@negation_tsakhur_infix) Mishlesh Tsakhur [@dobrushina1999: 81]
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "q<idʲ>aˤ-t’-q’ɨn",
               glosses = "PV<NEG>-IV-fear.PFV",
               free_translation = "has not feared"
@@ -140,7 +111,7 @@ According to Zhirkov [-@zhirkov1955: 121], this infixation is optional. Eldarova
 Even though this is apparently a marginal strategy, the language was assigned the value “**prefix / infix**”.
 
 (@lak_negation) Lak [@eldarova1999: 29]
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "bu<qːa><w>s-unni",
               glosses = "say<NEG><I>-PRF.3SG",
               free_translation = "did not tell"
@@ -149,53 +120,39 @@ gloss_example(transliteration = "bu<qːa><w>s-unni",
 
 ### Particles
 
-In 4 languages of the sample (8%), negation is reportedly marked by **particles**.
-In Udi (< Lezgic), in the majority of indicative and finite forms negation is marked by the particle *te*.
-Its morphosyntactic status has been subject to debate in the literature, and no clear consensus has been achieved.
-Schulze [-@schulze1994: 483] characterizes it as a stressed prefix.
-Harris [-@harris2002: 51–53], who studied the Vartashen dialect, notes that it is usually placed before the verb but in some cases may appear after the verb (@udi_particle).
-Moreover, this particle does not need a host and can constitute its own syntactic node (which, if present, serves itself as an obligatory host for person markers) [@harris2002: 51–53].
-Maisak [-@maisak2009: 484], writing about the Nizh dialect of Udi, claims that *te* can also be inserted into a simplex verb form (@udi_endo); clitics with such property are called “endoclitics” in morphological literature.
-Apparently, this particle used to be a true endoclitic in the past [@harris2002: 268–271] and then became a free word while retaining the ability to be inserted into other words.
-Apart from *te* (and the prohibitive proclitic *ma*, which is outside of the scope of this chapter), Udi uses the proclitic *nu* for non-finite and conditional verb forms [@maisak2009: 487].
+In 4 languages of the sample (8%), negation is reportedly marked by **particles**. In Udi (< Lezgic), in the majority of indicative and finite forms negation is marked by the particle *te*. Its morphosyntactic status has been subject to debate in the literature, and no clear consensus has been achieved.
+Schulze [-@schulze1994: 483] characterizes it as a stressed prefix. Harris [-@harris2002: 51–53], who studied the Vartashen dialect, notes that it is usually placed before the verb but in some cases may appear after the verb (@udi_particle). Moreover, this particle does not need a host and can constitute its own syntactic node (which, if present, serves itself as an obligatory host for person markers) [@harris2002: 51–53]. Maisak [-@maisak2009: 484], writing about the Nizh dialect of Udi, claims that *te* can also be inserted into a simplex verb form (@udi_endo); clitics with such property are called “endoclitics” in morphological literature. Apparently, this particle used to be a true endoclitic in the past [@harris2002: 268–271] and then became a free word while retaining the ability to be inserted into other words. Apart from *te* (and the prohibitive proclitic *ma*, which is outside of the scope of this chapter), Udi uses the proclitic *nu* for non-finite and conditional verb forms [@maisak2009: 487].
 
 (@udi_particle) Vartashen Udi [@harris2002: 52]
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "zu k’inig-ax te-z bese",
               glosses = "I book-DAT NEG-1SG request",
-              free_translation = "I did not ask for the book"
-)
+              free_translation = "I did not ask for the book")
 ```
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "taš-al te-zu vax",
               glosses = "take-FUT2 NEG-1SG you.DAT",
-              free_translation = "I will not take you"
-)
+              free_translation = "I will not take you")
 ```
 
 (@udi_endo) Nizh Udi [@maisak2009: 484]
-```{r, echo=FALSE}
+```{r}
 gloss_example(transliteration = "ba<te=ne>k-e",
               glosses = "be<NEG=3SG>-PRF",
               free_translation = "has not been / become"
 )
 ```
 
-In Nakh languages, negation is also expressed with proclitic-like particles whose exact morphosyntactic status is unclear.
-In Chechen, the particle *ca* is usually positioned before the verb [@jakovlev1940: 24–29; @nichols1994: 44–45];
-the same is reported for the cognate particle *co* in Tsova-Tush [@desheriev1953: 253–254; @harris2018: 43].
-In Ingush, the main negation marker is the suffix -*ac* but there is also the particle *cy*, which is used with non-finite tenses and converbs [@nichols2011: 309].
-While Nichols calls this negator a “proclitic”, it is shown in examples as an independent word^[In the map on sentential negation morphemes in WALS, Dryer [-@dryer2013] assigns to Ingush the value “affix” (whereas Chechen and Tsova-Tush are assigned the value “particle”). Apparently, he follows Nichols’ own interpretation in that it is not a free word.].
-All Nakh languages, as well as Udi, have been assigned the value “**particle**” in the dataset.
+In Nakh languages, negation is also expressed with proclitic-like particles whose exact morphosyntactic status is unclear. In Chechen, the particle *ca* is usually positioned before the verb [@jakovlev1940: 24--29; @nichols1994: 44--45]; the same is reported for the cognate particle *co* in Tsova-Tush [@desheriev1953: 253--254; @harris2018: 43]. In Ingush, the main negation marker is the suffix -*ac* but there is also the particle *cy*, which is used with non-finite tenses and converbs [@nichols2011: 309]. While Nichols calls this negator a “proclitic”, it is shown in examples as an independent word.[^f3] All Nakh languages, as well as Udi, have been assigned the value “**particle**” in the dataset.
+
+[^f3]: In the map on sentential negation morphemes in WALS, Dryer [-@dryer2013] assigns to Ingush the value “affix” (whereas Chechen and Tsova-Tush are assigned the value “particle”). Apparently, he follows Nichols’ own interpretation in that it is not a free word.
 
 ## Distribution
 
 16 languages in the sample (33%) employ prefixal and/or infixal negation.
-It is widespread in Dargic, Lezgic, and Lak languages.
-Udi and Nakh languages use negation particles which are usually positioned before the verb.
-Among non-East Caucasian languages in the region, prefixal negation is attested in Tat and Armenian.
+It is widespread in Dargic, Lezgic, and Lak languages. Udi and Nakh languages use negation particles which are usually positioned before the verb. Among non-East Caucasian languages in the region, prefixal negation is attested in Tat and Armenian.
 
-## List of glosses
+## List of glosses {-}
 
 `r add_gloss("1SG")` — first person singular;
 `r add_gloss("3SG")` — third person singular;
@@ -213,5 +170,9 @@ Among non-East Caucasian languages in the region, prefixal negation is attested 
 `r add_gloss("PST")` — past;
 `r add_gloss("PV")` — preverb
 
-## References
+```{r}
+make_gloss_list()
+```
+
+## References {-}
 
