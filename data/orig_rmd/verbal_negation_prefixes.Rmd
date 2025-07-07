@@ -46,9 +46,9 @@ For example, in Itsari Dargwa prefixation is used for negation marking only for 
 
 ### Infixes
 
-For a few Daghestanian languages, sources describe negation marking as being expressed by infixation. Such languages were assigned the values “**infix**” (1 language) or “**prefix / infix**” (3 languages). The latter choice is reserved for cases where an affix is used both as a prefix and an infix, as well as for complex cases in which it is hard to differentiate between a prefix and an infix. Such cases arise because in some languages preverbs and verb roots have lexicalized to a higher degree than in others, resulting in new verb roots. If originally a negation prefix was placed between a preverb and a root (i.e. it was “interior”[^f1]), now it occupies an infixal slot in the new lexicalized root.
+For a few Daghestanian languages, sources describe negation marking as being expressed by infixation. Such languages were assigned the values “**infix**” (1 language) or “**prefix / infix**” (3 languages). The latter choice is reserved for cases where an affix is used both as a prefix and an infix, as well as for complex cases in which it is hard to differentiate between a prefix and an infix. Such cases arise because in some languages preverbs and verb roots have lexicalized to a higher degree than in others, resulting in new verb roots. If originally a negation prefix was placed between a preverb and a root (i.e. it was “interior”[^ft1]), now it occupies an infixal slot in the new lexicalized root.
 
-[^f1] See [@harris2002: 268] on interior and exterior prefixes.
+[^ft1]: See [@harris2002: 268] on interior and exterior prefixes.
 
 In Tabasaran (< Lezgic), the general negation marker is the affix -*d(V)r(V)*- (V marks vowel harmony) which is used as a prefix (@tabasaran_prefix), infix (@tabasaran_infix), or suffix, depending on the verb form. The suffix is used with finite forms, while prefixal and infixal negation occurs in non-finite forms [@alekseevshixalieva2003: 69--71]. As suggested by Babaliyeva [-@babaliyeva2023_tabasaran: 33--34], infixes only appear between the preverb and the root, as shown in (@tabasaran_infix). Nevertheless, as the morphological status of the prefixal-infixal negator is not agreed upon in the sources, I coded Tabasaran as having “**prefix / infix**”.
 
@@ -68,7 +68,7 @@ gloss_example(transliteration = "kːi-dri-w-ub",
 
 In Budukh, one of the two languages of the South Lezgic group, the morphological status of the non-suffixal negation marker is unclear. According to Talibov [-@talibov2007: 229–230], the affix -*d*- is positioned before the root if the root begins with a vowel (@budukh_infix_vowel), and inside the root (after the first vowel) if it begins with a consonant (@budukh_infix_cons). According to Alekseev [-@alekseev1994: 280], this negation marker is an infix. For Kryz, Budukh’s sister language, an analogous morpheme is described as a prefix positioned after the preverb [@authier2009: 153–156; @saadiev1994: 432], so I assigned Kryz the value “**prefix**”. Timur Maisak (p.c.) has suggested that the same interpretation is correct for Budukh. Nevertheless, since there is no clear understanding of this problem, I have assigned Budukh the value “**prefix / infix**”.
 
-(@budukh_infix_vowel) Budukh [@talibov2007: 229][^f2]
+(@budukh_infix_vowel) Budukh [@talibov2007: 229] [^f2]
 ```{r}
 gloss_example(transliteration = "alq-al",
               glosses = "sit-MSD",

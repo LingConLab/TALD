@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="Maksim Melenchenko" />
+
+
+<title>Negation with auxiliaries</title>
+
+<script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="site_libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="site_libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.5.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet" />
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+<style type="text/css">
+/* for pandoc --citeproc since 2.11 */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">TALD</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="./about.html">About</a>
+</li>
+<li>
+  <a href="./features.html">
+    <span class="fa fa-atlas"></span>
+     
+    Features
+  </a>
+</li>
+<li>
+  <a href="./languages.html">Languages</a>
+</li>
+<li>
+  <a href="./changes.html">Changes</a>
+</li>
+<li>
+  <a href="./references.html">References</a>
+</li>
+<li>
+  <a href="./team.html">Team</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Negation with auxiliaries</h1>
+<h4 class="author">Maksim Melenchenko</h4>
+<h4 class="date">Last update: July 2025</h4>
+
+</div>
+
+
+<p>See <a href="067_verbal_negation_auxiliaries_map.html">data and
+maps</a>.</p>
+<div id="section"
+class="section level1 tabset tabset-fade tabset-pills unnumbered">
+<h1 class="tabset tabset-fade tabset-pills unnumbered"></h1>
+<div id="plain-text" class="section level2 unnumbered hasAnchor">
+<h2 class="unnumbered hasAnchor">Plain text<a href="#plain-text"
+class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Melenchenko, Maksim (2025). “Negation with auxiliaries”. In:
+<em>Typological Atlas of the Languages of Daghestan (TALD), v
+2.0.0</em>. Ed. by Michael Daniel, Konstantin Filatov, Timur Maisak,
+George Moroz, Timofey Mukhin, Chiara Naccarato and Samira Verhees.
+Moscow: Linguistic Convergence Laboratory, NRU HSE. DOI:
+10.5281/zenodo.6807070. <a href="https://lingconlab.ru/tald"
+class="uri">https://lingconlab.ru/tald</a>.</p>
+</div>
+<div id="bibtex" class="section level2 unnumbered hasAnchor">
+<h2 class="unnumbered hasAnchor">BibTeX<a href="#bibtex"
+class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<pre><code>@incollection{melenchenko2025,
+  title = {Negation with auxiliaries},
+  author = {Maksim Melenchenko},
+  year = {2025},
+  editor = {Michael Daniel and Konstantin Filatov and Timur Maisak and George Moroz and Timofey Mukhin and Chiara Naccarato and Samira Verhees},
+  publisher = {Linguistic Convergence Laboratory, NRU HSE},
+  address = {Moscow},
+  booktitle = {Typological Atlas of the Languages of Daghestan (TALD), v 2.0.0},
+  url = {https://lingconlab.ru/tald},
+  doi = {10.5281/zenodo.6807070},
+}</code></pre>
+</div>
+</div>
+<div id="introduction" class="section level1 hasAnchor" number="1">
+<h1 class="hasAnchor"><span class="header-section-number">1</span>
+Introduction<a href="#introduction" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p>In many languages of Daghestan, for many verb forms negation is
+expressed with a periphrastic construction which has an auxiliary verb.
+As East Caucasian languages often boast a large number of periphrastic
+verb forms, this strategy is widespread in the family.</p>
+</div>
+<div id="results" class="section level1 hasAnchor" number="2">
+<h1 class="hasAnchor"><span class="header-section-number">2</span>
+Results<a href="#results" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p>In East Caucasian languages auxiliaries in negative propositions are
+used in various ways. A widespread strategy for periphrastic tenses is
+replacement of the auxiliary verb with a negative form. The negative
+form of the auxiliary may be expressed by a suppletive morph (this is
+attested for copulas) or derived from the affirmative form of the
+auxiliary through affixation.</p>
+<p>Hinuq (&lt; Tsezic) exemplifies both strategies. Periphrastic tenses
+can be divided into two types based on the auxiliary they use.
+“Present-tense” periphrastic forms use the affirmative auxiliary
+<em>goɬ</em> and its negative counterpart <em>gom</em> (1), whereas
+“past-tense” periphrastic forms use the auxiliary <em>zoq’ʷes</em> and
+negate it with the suffix <em>-me</em> (2), which is also used in
+synthetic tenses <span class="citation">(<a
+href="#ref-forker2013">Forker 2013</a>: 199–200)</span>. (Note the final
+/m/ in <em>gom</em>, which might be cognate with the synthetic negation
+suffix but is not treated that way in the grammar.)</p>
+<ol class="example" style="list-style-type: decimal">
+<li>Hinuq [<span class="citation">Forker (<a
+href="#ref-forker2013">2013</a>)</span>: 214]<a href="#fn1"
+class="footnote-ref" id="fnref1"><sup>1</sup></a>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>r-ux-ƛ’os</em>
+</td>
+<td style="text-align:left;">
+<em>goɬ</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps">v</span>-take-<span class="smallcaps">hab</span>
+</td>
+<td style="text-align:left;">
+be.<span class="smallcaps">prs</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘[usually] take’
+</td>
+</tr>
+</tfoot>
+</table>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>y-iƛ’i-ƛ’os</em>
+</td>
+<td style="text-align:left;">
+<em>gom</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps">ii</span>-go-<span class="smallcaps">hab</span>
+</td>
+<td style="text-align:left;">
+be.<span class="smallcaps">prs</span>.<span class="smallcaps">neg</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘will not go’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<ol start="2" class="example" style="list-style-type: decimal">
+<li>Hinuq <span class="citation">(<a href="#ref-forker2013">Forker
+2013</a>: 217)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>Ø-eq’i-yo</em>
+</td>
+<td style="text-align:left;">
+<em>zoq’ʷe-s</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps">i</span>-know-<span
+class="smallcaps">ipfv</span>.<span class="smallcaps">cvb</span>
+</td>
+<td style="text-align:left;">
+be-<span class="smallcaps">pst</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘knew’
+</td>
+</tr>
+</tfoot>
+</table>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>toqqo</em>
+</td>
+<td style="text-align:left;">
+<em>zoq’ʷe-s-me</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+hear.<span class="smallcaps">ipfv</span>.<span
+class="smallcaps">cvb</span>
+</td>
+<td style="text-align:left;">
+be-<span class="smallcaps">pst</span>-<span class="smallcaps">neg</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘did not hear’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>Periphrastic tenses may be more complex, which is also illustrated by
+the Hinuq system. A third group of tenses, “evidential” forms, use a
+different form of the past auxiliary: <em>zoq’ʷen</em>. When negated,
+the form of this auxiliary does not change, but the negative
+<em>gom</em> is attached after it <span class="citation">(<a
+href="#ref-forker2013">Forker 2013</a>: 200)</span>.</p>
+<p>In some languages, in negative periphrastic forms the regular
+negative suffix can be attached either to the lexical verb or to the
+auxiliary. For example, this is the case in Bagvalal (&lt; Andic), where
+the majority of periphrastic tenses with the auxiliary <em>-uk’a</em>
+‘be’ have both options <span class="citation">(<a
+href="#ref-tatevosov2001gramtense">Tatevosov 2001</a>: 112)</span>, as
+shown in (3).</p>
+<ol start="3" class="example" style="list-style-type: decimal">
+<li>Bagvalal <span class="citation">(<a
+href="#ref-tatevosov2001gramtense">Tatevosov 2001</a>: 112)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>hec’i-č’i</em>
+</td>
+<td style="text-align:left;">
+<em>b-uk’a</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+rise.<span class="smallcaps">aor</span>-<span
+class="smallcaps">neg</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">n</span>-be.<span class="smallcaps">aor</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘had not risen’
+</td>
+</tr>
+</tfoot>
+</table>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>hec’i</em>
+</td>
+<td style="text-align:left;">
+<em>b-uk’a-č’i</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+rise.<span class="smallcaps">aor</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">n</span>-be.<span
+class="smallcaps">aor</span>-<span class="smallcaps">neg</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘had not risen’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>In periphrastic tenses with the auxiliary <em>ek’ʷa</em>, a similar
+situation is observed. The negative form of this auxiliary, however, is
+suppletive (4).</p>
+<ol start="4" class="example" style="list-style-type: decimal">
+<li>Bagvalal <span class="citation">(<a
+href="#ref-tatevosov2001gramtense">Tatevosov 2001</a>: 112)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>hec’i-č’i.ra-b-o</em>
+</td>
+<td style="text-align:left;">
+<em>ek’ʷa</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+rise-<span class="smallcaps">neg</span>-<span
+class="smallcaps">hpl</span>-<span class="smallcaps">cvb</span>
+</td>
+<td style="text-align:left;">
+be.<span class="smallcaps">prs</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘were not rising’
+</td>
+</tr>
+</tfoot>
+</table>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>hec’i-b-o</em>
+</td>
+<td style="text-align:left;">
+<em>weč’e</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+rise-<span class="smallcaps">n</span>-<span class="smallcaps">cvb</span>
+</td>
+<td style="text-align:left;">
+be.<span class="smallcaps">prs</span>.<span class="smallcaps">neg</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘were not rising’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>Moreover, Bagvalal has more complex tenses, in which two auxiliaries
+are used. In such cases, either of the three words (the lexical verb or
+one of the two auxiliaries) can express negation <span
+class="citation">(<a href="#ref-tatevosov2001gramtense">Tatevosov
+2001</a>: 112)</span>.</p>
+<p>The possibility to express negation not only through the form of the
+auxiliary but also on the lexical verb is mentioned for different
+languages. It is reported in the sources on Bagvalal, Botlikh, Godoberi,
+Itsari Dargwa, Khwarshi, Lak, Mehweb Dargwa, and Tsakhur. For other
+languages of the family, such an option is usually not mentioned in
+grammars, and sometimes it is explicitly prohibited, e.g. in Archi
+(&lt; Lezgic) <span class="citation">(<a href="#ref-kibrik1977">Kibrik
+1977</a>: 89)</span> and Ingush (&lt; Nakh) <span class="citation">(<a
+href="#ref-nichols2011">Nichols 2011</a>: 308)</span>. In Khwarshi
+(&lt; Tsezic), as reported by Khalilova <span class="citation">(<a
+href="#ref-khalilova2009">2009</a>: 206)</span>, the two options have
+different scopes: negation of the auxiliary has scope over the whole
+sentence, while negation of the lexical verb has scope over the action
+itself (5). Apparently, such effects have not been described for other
+languages where both options are possible.</p>
+<ol start="5" class="example" style="list-style-type: decimal">
+<li>Bagvalal <span class="citation">(<a
+href="#ref-khalilova2009">Khalilova 2009</a>: 206)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>huniža</em>
+</td>
+<td style="text-align:left;">
+<em>q’ala</em>
+</td>
+<td style="text-align:left;">
+<em>kere-yun</em>
+</td>
+<td style="text-align:left;">
+<em>b-eč-bi</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+yesterday
+</td>
+<td style="text-align:left;">
+children
+</td>
+<td style="text-align:left;">
+play-<span class="smallcaps">pfv</span>.<span
+class="smallcaps">cvb</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">hpl</span>-be-<span class="smallcaps">neg</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Yesterday the children did not play’
+</td>
+</tr>
+</tfoot>
+</table>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>huniža</em>
+</td>
+<td style="text-align:left;">
+<em>q’ala</em>
+</td>
+<td style="text-align:left;">
+<em>kere-bič</em>
+</td>
+<td style="text-align:left;">
+<em>b-eč-i</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+yesterday
+</td>
+<td style="text-align:left;">
+children
+</td>
+<td style="text-align:left;">
+play-<span class="smallcaps">neg</span>.<span
+class="smallcaps">cvb</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">hpl</span>-be-<span
+class="smallcaps">pst</span>.<span class="smallcaps">dir</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Yesterday the children were not playing [they were in the
+state of not playing]’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>In Hinuq (1), as well as in many other languages of the East
+Caucasian family, the negative auxiliary replaces its affirmative
+counterpart. In some others, however, a negative auxiliary is added to
+the verb form without additional changes. For example, this can happen
+with the negative copula <em>deš</em> in Tsakhur (&lt; Lezgic). This is
+the most frequently used negation strategy, and it can be applied to all
+synthetic and periphrastic verb forms (6). Expression of negation
+through replacement of the auxiliary with its negative form (different
+from <em>deš</em>) or affixation on the lexical verb are also possible
+<span class="citation">(<a href="#ref-dobrushina1999">Dobrušina
+1999</a>: 81–84)</span>.</p>
+<ol start="6" class="example" style="list-style-type: decimal">
+<li>Mishlesh Tsakhur <span class="citation">(<a
+href="#ref-dobrushina1999">Dobrušina 1999</a>: 84)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>alʲaʔu</em>
+</td>
+<td style="text-align:left;">
+<em>ɨxa</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+built.<span class="smallcaps">pfv</span>
+</td>
+<td style="text-align:left;">
+become.<span class="smallcaps">pfv</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘had built’
+</td>
+</tr>
+</tfoot>
+</table>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>alʲaʔu</em>
+</td>
+<td style="text-align:left;">
+<em>ɨxa</em>
+</td>
+<td style="text-align:left;">
+<em>deš</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+built.<span class="smallcaps">pfv</span>
+</td>
+<td style="text-align:left;">
+become.<span class="smallcaps">pfv</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">neg</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘had not built’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>In some languages, there are cases of paradigmatic neutralization,
+i.e. affirmative verb forms which do not have a negative counterpart.
+For example, in Hinuq the Simple Present does not have a negative form.
+To negate the Simple Present, speakers of Hinuq use the negative form of
+the periphrastic Compound Present tense, employing the negative
+auxiliary. The two tenses are more or less similar semantically <span
+class="citation">(<a href="#ref-forker2013">Forker 2013</a>: 206,
+212)</span>. (See <span class="citation">(<a
+href="#ref-miestamo2005">Miestamo 2005</a>: 54)</span> on paradigmatic
+neutralization.)</p>
+<p>In some cases, the negation suffix originates in the auxiliary. Such
+cases are discussed in the <a
+href="066_verbal_negation_suffixes.html">chapter</a> on suffixal
+negation.</p>
+</div>
+<div id="distribution" class="section level1 hasAnchor" number="3">
+<h1 class="hasAnchor"><span class="header-section-number">3</span>
+Distribution<a href="#distribution" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p>Negation with auxiliaries is attested in the majority of East
+Caucasian languages (37 lects). It was not found in the sources on Andi
+(&lt; Andic), Bezhta and Tsez (&lt; Tsezic), Budukh, Tabasaran, Udi
+(&lt; Lezgic), Tsova-Tush (&lt; Nakh), and Khinalug. It is not clear
+whether these languages actually lack negation with auxiliaries or such
+a strategy was for some reason not explicitly mentioned in the sources.
+Among the non-East Caucasian languages in the sample, negation with
+auxiliaries is found everywhere except Georgian.</p>
+</div>
+<div id="list-of-glosses" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">List of glosses<a
+href="#list-of-glosses" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p><span class="smallcaps">aor</span> — aorist; <span
+class="smallcaps">cvb</span> — converb; <span
+class="smallcaps">dir</span> — direct evidential; <span
+class="smallcaps">hab</span> — habitual; <span
+class="smallcaps">hpl</span> — human plural; <span
+class="smallcaps">i</span> — class I; <span class="smallcaps">ii</span>
+— class II; <span class="smallcaps">ipfv</span> — imperfective; <span
+class="smallcaps">n</span> — neuter; <span class="smallcaps">neg</span>
+— negation; <span class="smallcaps">pfv</span> — perfective; <span
+class="smallcaps">prs</span> — present; <span
+class="smallcaps">pst</span> — past; <span class="smallcaps">v</span> —
+class V</p>
+<p><span class="smallcaps">aor</span> — aorist; <span
+class="smallcaps">cvb</span> — converb; <span
+class="smallcaps">dir</span> — directional; <span
+class="smallcaps">hab</span> — habitual; <span
+class="smallcaps">hpl</span> — human plural; <span
+class="smallcaps">i</span> — class I; <span
+class="smallcaps">ii</span> — class II; <span
+class="smallcaps">ipfv</span> — imperfective; <span
+class="smallcaps">n</span> — neuter; <span
+class="smallcaps">neg</span> — negation; <span
+class="smallcaps">pfv</span> — perfective; <span
+class="smallcaps">prs</span> — present; <span
+class="smallcaps">pst</span> — past; <span
+class="smallcaps">v</span> — class V</p>
+</div>
+<div id="references" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">References<a href="#references"
+class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="refs" class="references csl-bib-body hanging-indent"
+line-spacing="2">
+<div id="ref-dobrushina1999" class="csl-entry">
+Dobrušina, Nina R. (1999). Glagol [<span>V</span>erb]. In Aleksandr E.
+Kibrik (Ed.), <em>Èlementy caxurskogo jazyka v tipologičeskom osveščenii
+[<span>E</span>lements of <span>T</span>sakhur grammar in a typological
+perspective]</em> (pp. 58–85). Moscow: Nasledie.
+</div>
+<div id="ref-forker2013" class="csl-entry">
+Forker, Diana. (2013). <em>A grammar of <span>H</span>inuq</em>.
+Berlin/Boston: De Gruyter Mouton.
+</div>
+<div id="ref-khalilova2009" class="csl-entry">
+Khalilova, Zaira. (2009). <em>A grammar of <span>K</span>hwarshi</em>
+(PhD thesis). University of Leiden.
+</div>
+<div id="ref-kibrik1977" class="csl-entry">
+Kibrik, Aleksandr E. (1977). <em>Opyt strukturnogo opisanija arčinskogo
+jazyka. <span>T</span>om <span>II</span>. <span>T</span>aksonomičeskaja
+grammatika [<span>S</span>tructural description of <span>A</span>rchi.
+<span>V</span>olume <span>I</span>i. <span>T</span>axonomic
+grammar]</em>. Moscow: Izdatelʹstvo Moskovskogo universiteta.
+</div>
+<div id="ref-miestamo2005" class="csl-entry">
+Miestamo, Matti. (2005). <em>The <span>Negation</span> of
+<span>Declarative</span> <span>Verbal</span> <span>Main</span>
+<span>Clauses</span> in a <span>Typological</span>
+<span>Perspective</span></em>. Berlin, New York: De Gruyter Mouton.
+</div>
+<div id="ref-nichols2011" class="csl-entry">
+Nichols, Johanna. (2011). <em>Ingush grammar</em>. Berkeley/Los Angeles:
+University of California Press.
+</div>
+<div id="ref-tatevosov2001gramtense" class="csl-entry">
+Tatevosov, Sergei G. (2001). Analitičeskie glagolʹnye formy
+[<span>A</span>nalytical verb forms]. In Aleksandr E. Kibrik, Ekaterina
+A. Lyutikova, Sergei G. Tatevosov (Eds.), <em>Bagvalinskij jazyk.
+<span>G</span>rammatika, teksty, slovari [<span>T</span>he
+<span>B</span>agvalal language. <span>G</span>rammar, texts,
+dictionaries]</em> (pp. 105–115). Moscow: Nasledie.
+</div>
+</div>
+</div>
+<div class="footnotes footnotes-end-of-document">
+<hr />
+<ol>
+<li id="fn1"><p>The examples are in the Habitual Present, which
+expresses either habituality or future.<a href="#fnref1"
+class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+</head>
+
+<body>
+    <div class="footer-basic">
+        <footer>
+            
+            <div class='lic'><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br /><i>Typological Atlas of the languages of Daghestan </i> (<i>TALD</i>) is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0 International License</a>.
+            <div class="social"><a href="https://github.com/LingConLab/TALD" target="_blank"><span class="iconify" data-icon="octicon:logo-github-16"></span></a></div>
+            </div>
+            
+            <p class="copyright">2020<script>new Date().getFullYear()>2020&&document.write("-"+new Date().getFullYear());</script>,  Linguistic Convergence Laboratory, HSE University</p>
+        </footer>
+    </div>
+    <script type="text/javascript" src="./js/links.js"></script> <!--это чтобы ссылки открывались в новом окне -->
+</body>
+
+</html>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,137 @@
+```{r, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, comment = '')
+library(lingglosses)
+```
+
+## Introduction
+
+In several languages of the East Caucasian family, partial reduplication is attested as one of the strategies for expressing verbal negation. While in his typological survey of negation in languages of the world Dahl [-@dahl1979: 81] mentioned reduplication only for Tabasaran, this chapter discusses two other languages as well.
+
+## Results
+
+Reduplication is attested in three lects within the East Caucasian family: Tabasaran, Itsari and Kubachi Dargwa. These three cases are different and should be described in detail separately.
+
+### Tabasaran
+
+In Tabasaran (< Lezgic), reduplication is used in some verb forms but only in trisyllabic verb stems with preverbs [@alekseevshixalieva2003: 70]. If these conditions are fulfilled, negation is expressed by reduplication of the second syllable, as shown in examples (@tabasaran_redup) and (@tabasaran_redup_2). In other cases, Tabasaran verbs use affixation, as shown in the chapters on [negation with prefixes](065_verbal_negation_prefixes.html) and [suffixes](066_verbal_negation_suffixes.html). The data shown in [@babaliyeva2023_tabasaran: 33--34] implies that the same verb lexeme can express negation in different ways, which might mean that reduplication is sometimes (or always) merely an alternative strategy of negation marking. Nevertheless, further research is needed to draw any conclusions.
+
+It should be noted that reduplication is apparently not too frequently used in speech and may be even called a marginal strategy restricted to specific verb forms. The exact list of such forms is not clear, but it includes “eventual” verb forms, as well as non-indicative and non-finite forms [@babaliyeva2023_tabasaran: 34].
+
+(@tabasaran_redup) Standard Tabasaran [@alekseevshixalieva2003: 70]
+```{r}
+gloss_example(transliteration = "kːa-dabʁ-ub",
+              glosses = "PV-take_out-MSD",
+              free_translation = "to pull from (under)")
+```
+```{r}
+gloss_example(transliteration = "kːa-da.dabʁ-ub",
+              glosses = "PV-NEG.take_out-MSD",
+              free_translation = "not to pull from (under)")
+```
+
+(@tabasaran_redup_2) Standard Tabasaran [@alekseevshixalieva2003: 70]
+```{r}
+gloss_example(transliteration = "e-le-ub",
+              glosses = "PV-mount-MSD",
+              free_translation = "to mount")
+```
+```{r}
+gloss_example(transliteration = "e-le.le-ub",
+              glosses = "PV-NEG.mount-MSD",
+              free_translation = "not to mount")
+```
+
+### Itsari
+
+In the Itsari variety of Dargwa (< Dargic), there are two strategies of negation marking: the negative auxiliary and reduplication within the verb stem. The choice depends on the verb form, with many forms allowing either of the strategies [@sumbatovamutalov2003: 66–71, 113--115]. Examples (@itsari_redup1) and (@itsari_redup2) illustrate reduplication within the stem.
+
+(@itsari_redup1) Itsari Dargwa [@sumbatovamutalov2003: 62]
+```{r}
+gloss_example(transliteration = "b-urχː-",
+              glosses = "N-push.PFV",
+              free_translation = "push (perfective stem)")
+```
+```{r}
+gloss_example(transliteration = "b-urχː.aːrχː-",
+              glosses = "N-push.PFV.NEG",
+              free_translation = "push (negative perfective stem)")
+```
+
+(@itsari_redup2) Itsari Dargwa [@sumbatovamutalov2003: 62]
+```{r}
+gloss_example(transliteration = "luɣ-",
+              glosses = "dress_out.IPFV",
+              free_translation = "dress out (imperfective stem)")
+```
+```{r}
+gloss_example(transliteration = "luɣ.aɣ-",
+              glosses = "dress_out.IPFV.NEG",
+              free_translation = "dress out (negative imperfective stem)")
+```
+
+### Kubachi
+
+In Kubachi (< Dargic), several synthetic verb forms can only be negated by reduplication within the stem. The negative prefix *a*- / *aː*- / *eː*- is inserted between the reduplicated segments, as illustrated in (@kubachi_redup1) and (@kubachi_redup2). The vowel of the prefix depends on the phonetic context of the verb stem. Other verb forms are negated with negative auxiliaries [@magometov1963: 226–233]. (Since prefixation per se is not used for negation marking in Kubachi, and the common Dargic prefix has been reinterpreted as an infix or even an interfix, this variety is not assigned the value **prefix** in the corresponding [chapter](065_verbal_negation_prefixes.html)). The same process is described in detail for the Ashti dialect of Kubachi by Belyaev [-@belyaev2019_redup].
+
+(@kubachi_redup1) Kubachi Dargwa [@magometov1963: 228]
+```{r}
+gloss_example(transliteration = "u-bk’-ul",
+              glosses = "I-die-CVB.PRS",
+              free_translation = "dying")
+```
+```{r}
+gloss_example(transliteration = "u-bk’<aː>k’-ul",
+              glosses = "I-die<NEG>-CVB.PRS",
+              free_translation = "not dying")
+```
+
+(@kubachi_redup2) Kubachi Dargwa [@magometov1963: 228]
+```{r}
+gloss_example(transliteration = "b-aːq’a-d",
+              glosses = "III-do.PST-1SG",
+              free_translation = "I did")
+```
+```{r}
+gloss_example(transliteration = "b-aːq’<aː>q’a-d",
+              glosses = "III-do.PST<NEG>-1SG",
+              free_translation = "I did not do")
+```
+
+As Magometov [-@magometov1963: 226] points out, reduplication is used with negative verb forms not only in Kubachi and Itsari but in other varieties as well. However, the level of grammaticalization is different. For example, in Muiri Dargwa, reduplication is possible but optional, while the real negation marker is the prefix, which cannot be omitted (@muiri_redup2). In Kubachi, however, both prefixation and reduplication are obligatory (@kubachi_redup2). (It is possible that the function of reduplication in negation in Muiri is merely emphatic.) The grammaticalization of reduplication is also illustrated by the fact that the prohibitive form is derived with the same pattern: the prohibitive prefix is inserted between the reduplicated parts of the stem [@magometov1963: 233] (see the [chapter](008_prohibitives.html) on prohibitives). It is unknown whether there are other major Dargwa varieties that use stem reduplication as one of the main negation strategies.
+
+(@muiri_redup2) Muiri Dargwa [@magometov1963: 226]
+```{r}
+gloss_example(transliteration = "b-arq’.ib-da",
+              glosses = "III-do.PST-1SG",
+              free_translation = "I did")
+```
+```{r}
+gloss_example(transliteration = "(b-arq’-)hːa-b-arq’.ib-da",
+              glosses = "III-do-NEG-III-do.PST-1SG",
+              free_translation = "I did not do")
+```
+
+## Distribution
+
+Negation by reduplication is found only in 3 languages (6%) of the sample, all of which belong to the East Caucasian family.
+
+## List of glosses {-}
+
+`r add_gloss("1SG")` — first person singular;
+`r add_gloss("CVB")` — converb;
+`r add_gloss("I")` — class I;
+`r add_gloss("III")` — class III;
+`r add_gloss("INF")` — infinitive;
+`r add_gloss("IPFV")` — imperfective;
+`r add_gloss("N")` — neuter;
+`r add_gloss("NEG")` — negation;
+`r add_gloss("PFV")` — perfective;
+`r add_gloss("PRS")` — present;
+`r add_gloss("PST")` — past;
+`r add_gloss("PV")` — preverb
+
+```{r}
+make_gloss_list(readxl::read_xlsx("../glosses.xlsx"))
+```
+
+## References {-}
