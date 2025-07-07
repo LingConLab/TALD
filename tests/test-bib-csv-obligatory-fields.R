@@ -51,6 +51,7 @@ see https://en.wikipedia.org/wiki/BibTeX for the details.", {
   df <- map_dfr(list.files("../data/orig_bib_tsv/", full.names = TRUE), function(i){
     read_tsv(i, show_col_types = FALSE, progress = FALSE) %>% 
       mutate(filename = i,
+             CATEGORY = tolower(CATEGORY),
              VOLUME = as.character(VOLUME),
              AUTHOR = as.character(AUTHOR),
              ISSUE = ifelse("ISSUE" %in% colnames(.), as.character(ISSUE), NA),

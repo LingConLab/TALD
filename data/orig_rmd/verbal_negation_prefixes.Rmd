@@ -154,22 +154,6 @@ It is widespread in Dargic, Lezgic, and Lak languages. Udi and Nakh languages us
 
 ## List of glosses {-}
 
-`r add_gloss("1SG")` — first person singular;
-`r add_gloss("3SG")` — third person singular;
-`r add_gloss("CVB")` — converb;
-`r add_gloss("DAT")` — dative;
-`r add_gloss("I")` — class I;
-`r add_gloss("IV")` — class IV;
-`r add_gloss("INF")` — infinitive;
-`r add_gloss("FUT2")` — future II;
-`r add_gloss("MSD")` — masdar;
-`r add_gloss("N")` — neuter;
-`r add_gloss("NEG")` — negation;
-`r add_gloss("PFV")` — perfective;
-`r add_gloss("PRF")` — perfect;
-`r add_gloss("PST")` — past;
-`r add_gloss("PV")` — preverb
-
 ```{r}
 make_gloss_list()
 ```
