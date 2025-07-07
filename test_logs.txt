@@ -34,10 +34,6 @@ Revise the BibTeX entry authier_rutul from the file verbal_negation_suffixes_bib
 Revise the BibTeX entry ganenkov_maisak2021 from the file verbal_negation_suffixes_bib.tsv.
 Revise the BibTeX entry babaliyeva2023_tabasaran from the file verbal_negation_suffixes_bib.tsv.
 Revise the BibTeX entry belyaev2019_redup from the file verbal_negation_suffixes_bib.tsv.
-Multiple genlang_point for          Khwarshi          in the file          verbal_negation_auxiliaries.tsv
-Multiple genlang_point for          Khwarshi          in the file          verbal_negation_prefixes.tsv
-Multiple genlang_point for          Khwarshi          in the file          verbal_negation_reduplication.tsv
-Multiple genlang_point for          Khwarshi          in the file          verbal_negation_suffixes.tsv
 The wrong language name          Karata-Tukita          in the file          verbal_negation_auxiliaries.tsv
 The wrong language name          Karata-Tukita          in the file          verbal_negation_prefixes.tsv
 The wrong language name          Karata-Tukita          in the file          verbal_negation_reduplication.tsv
