@@ -117,19 +117,6 @@ Negation by reduplication is found only in 3 languages (6%) of the sample, all 
 
 ## List of glosses {-}
 
-`r add_gloss("1SG")` — first person singular;
-`r add_gloss("CVB")` — converb;
-`r add_gloss("I")` — class I;
-`r add_gloss("III")` — class III;
-`r add_gloss("INF")` — infinitive;
-`r add_gloss("IPFV")` — imperfective;
-`r add_gloss("N")` — neuter;
-`r add_gloss("NEG")` — negation;
-`r add_gloss("PFV")` — perfective;
-`r add_gloss("PRS")` — present;
-`r add_gloss("PST")` — past;
-`r add_gloss("PV")` — preverb
-
 ```{r}
 make_gloss_list(readxl::read_xlsx("../glosses.xlsx"))
 ```

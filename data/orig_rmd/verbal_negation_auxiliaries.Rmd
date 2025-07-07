@@ -13,7 +13,7 @@ In East Caucasian languages auxiliaries in negative propositions are used in var
 
 Hinuq (< Tsezic) exemplifies both strategies. Periphrastic tenses can be divided into two types based on the auxiliary they use. “Present-tense” periphrastic forms use the affirmative auxiliary *goɬ* and its negative counterpart *gom* (@hinuq_gom), whereas “past-tense” periphrastic forms use the auxiliary *zoq’ʷes* and negate it with the suffix *-me* (@hinuq_zoqwesme), which is also used in synthetic tenses [@forker2013: 199–200]. (Note the final /m/ in *gom*, which might be cognate with the synthetic negation suffix but is not treated that way in the grammar.)
 
-(@hinuq_gom) Hinuq [@forker2013: 214][^ft1]
+(@hinuq_gom) Hinuq [@forker2013: 214] [^ft1]
 ```{r}
 gloss_example(transliteration = "r-ux-ƛ’os goɬ",
               glosses = "V-take-HAB be.PRS",
@@ -109,21 +109,6 @@ In some cases, the negation suffix originates in the auxiliary. Such cases are d
 Negation with auxiliaries is attested in the majority of East Caucasian languages (37 lects). It was not found in the sources on Andi (< Andic), Bezhta and Tsez (< Tsezic), Budukh, Tabasaran, Udi (< Lezgic), Tsova-Tush (< Nakh), and Khinalug. It is not clear whether these languages actually lack negation with auxiliaries or such a strategy was for some reason not explicitly mentioned in the sources. Among the non-East Caucasian languages in the sample, negation with auxiliaries is found everywhere except Georgian.
 
 ## List of glosses {-}
-
-`r add_gloss("AOR")` — aorist;
-`r add_gloss("CVB")` — converb;
-`r add_gloss("DIR")` — direct evidential;
-`r add_gloss("HAB")` — habitual;
-`r add_gloss("HPL")` — human plural;
-`r add_gloss("I")` — class I;
-`r add_gloss("II")` — class II;
-`r add_gloss("IPFV")` — imperfective;
-`r add_gloss("N")` — neuter;
-`r add_gloss("NEG")` — negation;
-`r add_gloss("PFV")` — perfective;
-`r add_gloss("PRS")` — present;
-`r add_gloss("PST")` — past;
-`r add_gloss("V")` — class V
 
 ```{r}
 make_gloss_list()
