@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="Timur Maisak" />
+
+
+<title>Imperative interjection ‘here, take it!’</title>
+
+<script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="site_libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="site_libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.5.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet" />
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+<style type="text/css">
+/* for pandoc --citeproc since 2.11 */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">TALD</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="./about.html">About</a>
+</li>
+<li>
+  <a href="./features.html">
+    <span class="fa fa-atlas"></span>
+     
+    Features
+  </a>
+</li>
+<li>
+  <a href="./languages.html">Languages</a>
+</li>
+<li>
+  <a href="./changes.html">Changes</a>
+</li>
+<li>
+  <a href="./references.html">References</a>
+</li>
+<li>
+  <a href="./team.html">Team</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Imperative interjection ‘here, take
+it!’</h1>
+<h4 class="author">Timur Maisak</h4>
+<h4 class="date">Last update: July 2025</h4>
+
+</div>
+
+
+<p>See <a href="069_imperative_interjections_map.html">data and
+maps</a>.</p>
+<div id="section"
+class="section level1 tabset tabset-fade tabset-pills unnumbered">
+<h1 class="tabset tabset-fade tabset-pills unnumbered"></h1>
+<div id="plain-text" class="section level2 unnumbered hasAnchor">
+<h2 class="unnumbered hasAnchor">Plain text<a href="#plain-text"
+class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Maisak, Timur (2025). “Imperative interjection ‘here, take it!’”. In:
+<em>Typological Atlas of the Languages of Daghestan (TALD), v
+2.0.0</em>. Ed. by Michael Daniel, Konstantin Filatov, Timur Maisak,
+George Moroz, Timofey Mukhin, Chiara Naccarato and Samira Verhees.
+Moscow: Linguistic Convergence Laboratory, NRU HSE. DOI:
+10.5281/zenodo.6807070. <a href="https://lingconlab.ru/tald"
+class="uri">https://lingconlab.ru/tald</a>.</p>
+</div>
+<div id="bibtex" class="section level2 unnumbered hasAnchor">
+<h2 class="unnumbered hasAnchor">BibTeX<a href="#bibtex"
+class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<pre><code>@incollection{maisak2025,
+  title = {Imperative interjection ‘here, take it!’},
+  author = {Timur Maisak},
+  year = {2025},
+  editor = {Michael Daniel and Konstantin Filatov and Timur Maisak and George Moroz and Timofey Mukhin and Chiara Naccarato and Samira Verhees},
+  publisher = {Linguistic Convergence Laboratory, NRU HSE},
+  address = {Moscow},
+  booktitle = {Typological Atlas of the Languages of Daghestan (TALD), v 2.0.0},
+  url = {https://lingconlab.ru/tald},
+  doi = {10.5281/zenodo.6807070},
+}</code></pre>
+</div>
+</div>
+<div id="introduction" class="section level1 hasAnchor" number="1">
+<h1 class="hasAnchor"><span class="header-section-number">1</span>
+Introduction<a href="#introduction" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p>In some languages of the world, including many languages of the
+Caucasus, there exist special words that occur in commands whereby the
+speaker asks the addressee to take something from the speaker’s hands,
+as in (1). Within in-person communication, such commands are often
+combined with the speaker’s gesture of giving the object they hold in
+hands. Words like the Agul <em>ma</em> are not verbal forms, and they do
+not seem to be cognate with any verb stems.</p>
+<ol class="example" style="list-style-type: decimal">
+<li>Agul: Huppuq’ (Spoken corpus)
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>“<strong>ma</strong>”</em>
+</td>
+<td style="text-align:left;">
+<em>pu-naa,</em>
+</td>
+<td style="text-align:left;">
+<em>“me</em>
+</td>
+<td style="text-align:left;">
+<em>ik’</em>
+</td>
+<td style="text-align:left;">
+<em>we</em>
+</td>
+<td style="text-align:left;">
+<em>čanta.ji”</em>
+</td>
+<td style="text-align:left;">
+<em>pu-naa.</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+take.it
+</td>
+<td style="text-align:left;">
+say.<span class="smallcaps">pfv</span>-<span
+class="smallcaps">prf</span>
+</td>
+<td style="text-align:left;">
+this
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">in</span>.put(<span
+class="smallcaps">imp</span>)
+</td>
+<td style="text-align:left;">
+your.<span class="smallcaps">sg</span>
+</td>
+<td style="text-align:left;">
+bag(<span class="smallcaps">in</span>)
+</td>
+<td style="text-align:left;">
+say.<span class="smallcaps">pfv</span>-<span
+class="smallcaps">prf</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘{She gave him a bottle of poison} and said: Take it, put it
+into your bag.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>I will label words like <em>ma</em> in Agul <strong>imperative
+interjections</strong> with the meaning ‘here, take it!’ (accordingly,
+they will be glossed as “take.it” in the interlinear glosses). These
+words are <em>imperative</em> expressions, as they occur in commands
+addressed to a second person. They also belong to the class of
+<em>interjections</em> and not verbs or special imperative particles
+that are used in some languages to provide an additional pragmatic
+nuance to an imperative verb form.</p>
+<p>Imperative interjections ‘here, take it!’ can be viewed as a subtype
+of <em>conative</em> interjections, which “primarily invite an action or
+response from another party in the interaction” <span
+class="citation">(<a href="#ref-dingemanse2023">Dingemanse 2023</a>:
+479)</span>. Calls for silence like <em>sh!</em> or animal-oriented
+calls are also examples of this general type. According to Dingemanse
+<span class="citation">(<a href="#ref-dingemanse2023">2023</a>:
+479)</span>, who follows a relatively common view on interjections,
+prototypical interjections are (i) monolexemic lexical items that (ii)
+typically make up an utterance. Imperative interjections ‘here, take
+it!’ do not totally conform to this definition, as they often occur in
+fuller clauses with other constituents (see below). Also, in some
+languages, an interjection ‘here, take it!’ can bear certain inflections
+(e.g., plural addressee markers) which makes it more akin to a verb.</p>
+<p>It seems that imperative interjections ‘here, take it!’ have never
+been the subject of a dedicated cross-linguistic study, although a wider
+class of imperative interjections has attracted some attention in the
+literature. Thus, Aikhenvald <span class="citation">(<a
+href="#ref-aikhenvald2010">2010</a>: 317–325)</span> mentions the
+existence of “special imperative-only lexemes, which stand apart from
+other parts of word classes” and “can be accompanied with special hand
+signals, or other paralinguistic signals with a command function”. One
+common type of such lexemes are command-only words directed at animals
+and telling them to move away from a certain location, to come nearer to
+the speaker, to stop or to start movement. Likewise, Gusev <span
+class="citation">(<a href="#ref-gusev2013">2013</a>: 99–102)</span>
+discusses “nonverbal imperatives”, including interjections, but also
+stresses that in morphosyntactic terms, there must be a continuum
+between imperative forms of verbs and imperative interjections, with
+quite a few intermediate forms falling between the two extremes.</p>
+<p>My goal in this chapter is to establish which of the languages of
+Daghestan possess dedicated imperative interjections with the meaning
+‘here, take it!’, and to classify the languages which possess such items
+according to the type of phonological form of the imperative
+interjection ‘here, take it!’.</p>
+<p>The main data sources for this research were dictionaries (mainly
+bilingual dictionaries, most of which have Russian as the first or the
+second part). In some instances, grammars were also consulted. Given
+that Russian possesses a dedicated interjection <em>na! </em>(Cyrillic
+<em>на!</em>) ‘here, take it!’, homonymous with the preposition
+<em>na</em> ‘on’, in Russian–X dictionaries or indices I searched for
+<em>na!</em>, which is often present as a separate lexical entry. In
+X–Russian dictionaries with a text layer available, I searched for
+<em>na,</em> (with a comma), <em>nate</em> (same element with a plural
+addressee suffix) and 2nd person singular imperatives of regular verbs
+‘take’, namely <em>voz’mi</em> (perfective) and <em>beri</em>
+(imperfective). In the dictionaries or grammars written in English, I
+searched for expressions <em>take it</em> and <em>take this</em>. In the
+sources written in French, I searched for <em>tiens</em> ‘take
+(it)!’.</p>
+<p>Only dedicated words for ‘here, take it!’ were taken into account. If
+the only equivalent provided by the source was a regular verbal
+imperative of a ‘take’-verb (e.g., <em>al</em> ‘take!’ in Azerbaijani),
+the language was treated as lacking an imperative interjection ‘here,
+take it!’.</p>
+<p>Some typical examples of the use of imperative interjections ‘here,
+take it!’ as provided by the sources are given below. As a rule, such
+examples contain other material in addition to the interjection. The
+interjection is clause-initial in almost all available examples.</p>
+<p>One common construction in which imperative interjections ‘here, take
+it!’ are found is a simple imperative clause with a direct object (2,
+3).</p>
+<ol start="2" class="example" style="list-style-type: decimal">
+<li>Khinalug <span class="citation">(<a href="#ref-ganieva2002">Ganieva
+2002</a>: 214)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em><strong>ma</strong></em>
+</td>
+<td style="text-align:left;">
+<em>pšä</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+take.it
+</td>
+<td style="text-align:left;">
+bread.<span class="smallcaps">abs</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Take (this) bread.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li>Hunzib <span class="citation">(<a
+href="#ref-xalilovisakov2005">Xalilov, Isakov 2005</a>: 146)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em><strong>hũʔũ</strong></em>
+</td>
+<td style="text-align:left;">
+<em>ẽš</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+take.it
+</td>
+<td style="text-align:left;">
+apple.<span class="smallcaps">abs</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Take (this) apple.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>Apart from a direct object, clauses with imperative interjections can
+include a recipient argument (usually, in the dative case), which refers
+to the addressee (4).</p>
+<ol start="4" class="example" style="list-style-type: decimal">
+<li>Standard Dargwa <span class="citation">(<a
+href="#ref-yusupov2014">Jusupov 2014</a>: 662)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em><strong>ma</strong></em>
+</td>
+<td style="text-align:left;">
+<em>ħed</em>
+</td>
+<td style="text-align:left;">
+<em>žuz</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+take.it
+</td>
+<td style="text-align:left;">
+you.<span class="smallcaps">sg</span>.<span class="smallcaps">dat</span>
+</td>
+<td style="text-align:left;">
+book.<span class="smallcaps">abs</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Take this book (lit. for you).’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>Also, it is often the case that ‘here, take it!’ is followed by an
+imperative form of a regular verb, which can be ‘take’ or another verb
+(5). A clause following ‘here, take it!’ can be a full imperative clause
+with its other arguments (6). In such examples, the imperative
+interjection can be separated with a comma from another clause, although
+this is not always the case.</p>
+<ol start="5" class="example" style="list-style-type: decimal">
+<li>Kumyk <span class="citation">(<a href="#ref-bammatov2013">Bammatov,
+Gadžiaxmedov 2013</a>: 201)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em><strong>ma</strong>,</em>
+</td>
+<td style="text-align:left;">
+<em>aša!</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+take.it
+</td>
+<td style="text-align:left;">
+eat.<span class="smallcaps">imp</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Take it, eat!’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li>Lezgian <span class="citation">(<a
+href="#ref-talibovgadzhiev1966">Talibov, Gadžiev 1966</a>: 226)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em><strong>gʷa</strong>,</em>
+</td>
+<td style="text-align:left;">
+<em>qːaču</em>
+</td>
+<td style="text-align:left;">
+<em>i</em>
+</td>
+<td style="text-align:left;">
+<em>ktab!</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+take.it
+</td>
+<td style="text-align:left;">
+take.<span class="smallcaps">imp</span>
+</td>
+<td style="text-align:left;">
+this
+</td>
+<td style="text-align:left;">
+book.<span class="smallcaps">abs</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Here, take this book!’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>An interesting feature of imperative interjections ‘here, take it!’
+is the possibility to attach suffixal markers of the plurality of
+addressees (see <span class="citation">(<a
+href="#ref-zerzele2024">Zerzele 2024</a>)</span>) in those languages
+that possess such markers (7). This property of imperative interjections
+is shared by the Russian equivalent <em>na!</em> (<span
+class="smallcaps">2sg</span>) ~ <em>nate!</em> (<span
+class="smallcaps">2pl</span>, with a regular marker -<em>te</em>), see
+the discussion by Gusev <span class="citation">(<a
+href="#ref-gusev2013">2013</a>: 99–102)</span>, among others.</p>
+<ol start="7" class="example" style="list-style-type: decimal">
+<li>Dargwa: Mehweb <span class="citation">(<a
+href="#ref-dobrushina2019">Dobrushina 2019</a>: 129)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>ma!</em>
+</td>
+<td style="text-align:left;">
+<em>ma-na!</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+take.it
+</td>
+<td style="text-align:left;">
+take.it-<span class="smallcaps">imp</span>.<span
+class="smallcaps">pl</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Take!’ ‘Take (addressed to several people)!’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+</div>
+<div id="results" class="section level1 hasAnchor" number="2">
+<h1 class="hasAnchor"><span class="header-section-number">2</span>
+Results<a href="#results" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p>In the majority of languages of the sample, an imperative
+interjection ‘here, take it!’ has been identified. Udi, Azerbaijani and
+Tat lack such a dedicated item. In Georgian and Armenian, a close
+functional equivalent of ‘here, take it!’, with one and the same form
+<em>aha</em>, functions as a more general attention signal and hence
+does not fall under our understanding of a dedicated imperative
+interjection ‘here, take it!’. (The Georgian/Armenian interjection is
+still coded on the map, to show a peculiar areal pattern.)</p>
+<p>In the languages possessing a special imperative word ‘here, take
+it!’, it has a monosyllabic CV form (in some languages, also with a
+final laryngeal /h/ yielding a CVh variant). In a minority of languages,
+namely in the Tsezic and Nakh branches, ‘here, take it!’ is a bisyllabic
+word with a CVCV structure.</p>
+<p>The segmental composition of imperative interjections is highly
+restricted. Thus, the initial consonants can be /m/, /g, gʷ/ or /h/. The
+vowel after /m/ is /a/ or /ä/. The vowel after /g/ is /o/, while after
+/gʷ/ it is /a/. Thus, the two variant most probably represent two stages
+along the shift from /gʷa/ to /go/. Finally, the vowel after /h/ can be
+plain or nasalized, namely /a, ã/, /oː/, /ĩː/ and /ũ/.</p>
+<p>On the map, I group all imperative interjections ‘here, take it!’
+into three broad types according to their phonological shape (8). Given
+that the CVCV interjections in Tsezic and Nakh all have an initial /h/
+and a nasalized vowel, they can be subsumed under the
+<em>HA(n)</em>-type.</p>
+<ol start="8" class="example" style="list-style-type: decimal">
+<li>Formal types of imperative interjections ‘here, take it!’</li>
+</ol>
+<ul>
+<li><em>MA</em>-type <em>ma</em>, <em>mah</em>, <em>mä</em>,
+<em>mäh</em></li>
+<li><em>GwA</em>-type <em>go</em>, <em>gʷa</em></li>
+<li><em>HA(n)</em>-type <em>ha</em>, <em>hoː</em>, <em>hĩː</em>,
+<em>hũ</em>, <em>hã</em>; <em>hãʔã</em>, <em>hũʔũ</em>, <em>hãħ(iː)</em>
+/ <em>haħ(iː)</em>, <em>hane</em></li>
+</ul>
+<p>The Georgian/Armenian interjection <em>aha</em> is shown on the map
+as representing a separate type <em>AHA</em>.</p>
+</div>
+<div id="distribution" class="section level1 hasAnchor" number="3">
+<h1 class="hasAnchor"><span class="header-section-number">3</span>
+Distribution<a href="#distribution" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p>The distribution of the phonological types of imperative
+interjections ‘here, take it!’ shows both a genealogical and an areal
+signal.</p>
+<p>The <strong>genealogically</strong>-driven distribution can be seen
+in the presence of one and the same type of phonological shape of an
+interjection within one family or one branch. Thus, the
+<em>GwA</em>-type is only found in Andic (in all languages of this
+branch) and the <em>HA(n)</em>-type is only found in Tsezic and Nakh
+(again, in all languages of these branches). In its turn, the
+<em>MA</em>-type is found in all Dargwa languages of our sample, is
+predominant in the Lezgic branch (Udi being the only exception) and also
+among the Turkic languages of the sample (Azerbaijani being the only
+exception). Thus, the formal type of imperative interjections is stable
+across the individual Nakh-Daghestanian branches and, to a lesser
+extent, across Turkic languages of Daghestan (two out of three
+languages).</p>
+<p>On the other hand, one can also see a clear <strong>areal</strong>
+signal in the distribution, if a broader perspective is taken. First and
+foremost, the <em>MA</em>-type is predominant on a vast territory and is
+found in central and southern branches of Nakh-Daghestanian (Lak,
+Dargwa, Lezgic, Khinalug), in Avar, which in this respect patterns with
+the central branches and not with Andic or Tsezic languages, and in two
+Turkic languages (Kumyk and Nogai). Interestingly, the <em>MA</em>-area
+may even cover a much larger territory, as imperative interjections
+‘here, take it!’ with the shape <em>ma</em> are also attested at least
+in some West Caucasian languages and in Karachay-Balkar (Turkic).</p>
+<p>Second, the only two branches with the <em>HA(n)</em>-type of
+imperative interjections, namely Tsezic and Nakh, are geographically
+close (although they are divided by the Andic branch possessing its own
+unique <em>GwA</em>-type).</p>
+<p>Lastly, the lack of an imperative interjection ‘here, take it!’ is
+observed in the southern/southeastern periphery of the area, namely in
+Azerbaijani, Udi and Tat. These three languages belong to three
+different language families, but are spoken in one area.</p>
+<p>In addition, it can be mentioned that interjections with the form
+<em>aha</em> are found in two genealogically unrelated, but
+geographically adjacent languages, Georgian and Armenian. Besides a
+common shape, what also unites the two interjections is their function,
+which is more general than the simple command ‘take it!’.</p>
+</div>
+<div id="list-of-glosses" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">List of glosses<a
+href="#list-of-glosses" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p><span class="smallcaps">2pl</span> — second person plural; <span
+class="smallcaps">2sg</span> — second person singular; <span
+class="smallcaps">abs</span> — absolutive; <span
+class="smallcaps">dat</span> — dative; <span
+class="smallcaps">imp</span> — imperative; <span
+class="smallcaps">in</span> — inessive; <span
+class="smallcaps">pfv</span> — perfective; <span
+class="smallcaps">pl</span> — plural; <span
+class="smallcaps">prf</span> — perfect; <span
+class="smallcaps">sg</span> — singular</p>
+</div>
+<div id="references" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">References<a href="#references"
+class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="refs" class="references csl-bib-body hanging-indent"
+line-spacing="2">
+<div id="ref-aikhenvald2010" class="csl-entry">
+Aikhenvald, Alexandra Y. (2010). <em>Imperatives and commands</em>.
+Oxford: Oxford University Press.
+</div>
+<div id="ref-bammatov2013" class="csl-entry">
+Bammatov, Burgan G., Gadžiaxmedov, Nurmagomed È. (2013).
+<em>Kumyksko-russkij slovarʹ [<span>K</span>umyk-<span>R</span>ussian
+dictionary]</em>. Makhachkala: IJaLI. Retrieved from <a
+href="https://til.im/ru/slovar">https://til.im/ru/slovar</a>
+</div>
+<div id="ref-dingemanse2023" class="csl-entry">
+Dingemanse, Mark. (2023). Interjections. In Eva van Lier (Ed.), <em>The
+<span>O</span>xford <span>H</span>andbook of <span>W</span>ord
+<span>C</span>lasses</em> (pp. 477–491). Oxford: Oxford University
+Press.
+</div>
+<div id="ref-dobrushina2019" class="csl-entry">
+Dobrushina, Nina. (2019). Moods of <span>M</span>ehweb. In Michael
+Daniel, Nina Dobrushina, Dmitry Ganenkov (Eds.), <em>The
+<span>M</span>ehweb language. <span>E</span>ssays on phonology,
+morphology and syntax</em> (pp. 117–165). Berlin: Language Science
+Press.
+</div>
+<div id="ref-ganieva2002" class="csl-entry">
+Ganieva, Faida A. (2002). <em>Xinalugsko-russkij slovarʹ
+[<span>K</span>hinalug-<span>R</span>ussian dictionary]</em>.
+Makhachkala: DNC RAN.
+</div>
+<div id="ref-gusev2013" class="csl-entry">
+Gusev, Valentin Ju. (2013). <em>Tipologija imperativa
+[<span>T</span>ypology of the imperative]</em>. Moscow: Jazyki
+slavjanskoj kulʹtury.
+</div>
+<div id="ref-yusupov2014" class="csl-entry">
+Jusupov, Xizri A. (2014). <em>Darginsko-russkij slovarʹ (rukopisʹ)
+[<span>D</span>argwa-<span>R</span>ussian dictionary (manuscript)]</em>.
+Makhachkala: Institut istorii, jazyka i literatury im. G. Cadasy.
+</div>
+<div id="ref-talibovgadzhiev1966" class="csl-entry">
+Talibov, Bukar B., Gadžiev, Magomed M. (1966). <em>Lezginsko-russkij
+slovarʹ [<span>L</span>ezgian-<span>R</span>ussian dictionary]</em>.
+Moscow: Sovetskaja Ènciklopedija.
+</div>
+<div id="ref-xalilovisakov2005" class="csl-entry">
+Xalilov, Madžid Š., Isakov, Isak A. (2005). <em>Ginuxsko-russkij slovarʹ
+[<span>H</span>inuq-<span>R</span>ussian dictionary]</em>. Makhachkala:
+DNC RAN Institut jazyka, literatury i iskusstva im. G. Cadasy i Institut
+èvoljucionnoj antropologii im. M. Planka.
+</div>
+<div id="ref-zerzele2024" class="csl-entry">
+Zerzele, Vasiliy. (2024). Plural marking on imperatives and
+prohibitives. In Michael Daniel, Konstantin Filatov, Timur Maisak,
+George Moroz, Timofey Mukhin, Chiara Naccarato, Samira Verhees (Eds.),
+<em>Typological <span>A</span>tlas of the <span>L</span>anguages of
+<span>D</span>aghestan (<span>T</span>ALD)</em>. Moscow: Linguistic
+Convergence Laboratory.
+</div>
+</div>
+</div>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+</head>
+
+<body>
+    <div class="footer-basic">
+        <footer>
+            
+            <div class='lic'><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br /><i>Typological Atlas of the languages of Daghestan </i> (<i>TALD</i>) is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0 International License</a>.
+            <div class="social"><a href="https://github.com/LingConLab/TALD" target="_blank"><span class="iconify" data-icon="octicon:logo-github-16"></span></a></div>
+            </div>
+            
+            <p class="copyright">2020<script>new Date().getFullYear()>2020&&document.write("-"+new Date().getFullYear());</script>,  Linguistic Convergence Laboratory, HSE University</p>
+        </footer>
+    </div>
+    <script type="text/javascript" src="./js/links.js"></script> <!--это чтобы ссылки открывались в новом окне -->
+</body>
+
+</html>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
