@@ -52,6 +52,7 @@ Axaxdɘrɘ
 Ayalakab
 Azeri
 Bagvalal
+Balkar
 Bezhta
 bimorphemic
 Bogomolova
@@ -86,6 +87,8 @@ converb
 converbial
 copular
 cumessive
+CVCV
+CVh
 Daghestan
 Daghestanian
 Dagkou
@@ -209,6 +212,7 @@ JUSS
 jussive
 Kaitag
 Kak
+Karachay
 Karata
 Kartozia
 Kartvelian
@@ -277,6 +281,7 @@ mirativity
 Mishlesh
 Moj
 Molochieva
+monolexemic
 monomorphemic
 monophonemic
 monovalent
