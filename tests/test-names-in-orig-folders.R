@@ -4,17 +4,17 @@ library(testthat)
 test_that("Test number and file names in orig folders:
 I expect all files in orig_table, orig_rmd and orig_bib have the same 
 names as in the `../data/contributers.xlsx`", {
-  readxl::read_xlsx("../data/contributors.xlsx") %>% 
+  readxl::read_xlsx("../data/contributors.xlsx") |>
     filter(render == 1,
-           is.na(major_topic_text)) %>% 
-    pull(filename) %>% 
+           is.na(major_topic_text)) |>
+    pull(filename) |>
     sort() ->
     expected_texts
   
-  readxl::read_xlsx("../data/contributors.xlsx") %>% 
+  readxl::read_xlsx("../data/contributors.xlsx") |>
     filter(render == 1,
-           !is.na(major_topic_text)) %>% 
-    pull(filename) %>% 
+           !is.na(major_topic_text)) |>
+    pull(filename) |>
     sort() ->
     expected_mt
   
@@ -41,3 +41,7 @@ names as in the `../data/contributers.xlsx`", {
                             list.files("../data/orig_rmd", pattern = "_map.Rmd"))), 
                sort(str_c(c(expected_texts, expected_mt), ".Rmd")))
 })
+
+
+sort(str_c(c(expected_texts, expected_mt), ".Rmd")) %in% sort(setdiff(list.files("../data/orig_rmd"),
+                                                                      list.files("../data/orig_rmd", pattern = "_map.Rmd")))

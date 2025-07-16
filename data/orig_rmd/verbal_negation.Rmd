@@ -1,0 +1,82 @@
+---
+title: "Verbal negation"
+author: "Maksim Melenchenko"
+date: 'Last update: July 2025'
+bibliography: "data/orig_bib/verbal_negation.bib"
+link-citations: true
+csl: apa.csl
+output:
+  html_document:
+    number_sections: true
+    anchor_sections: true
+    pandoc_args: --shift-heading-level-by=-1
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, comment = '')
+library(lingglosses)
+```
+
+```{r}
+library(RefManageR)
+BibOptions(check.entries = FALSE, style = 'text', bib.style = 'authoryear')
+article_citation <- BibEntry(bibtype = 'Incollection', 
+ key='melenchenko2025',
+ title='Verbal negation',
+ author='Melenchenko, Maksim',
+ year='2025',
+ editor= 'Daniel, Michael and Filatov, Konstantin and Maisak, Timur and Moroz, George and Mukhin, Timofey and Naccarato, Chiara and Verhees, Samira',
+ publisher='Linguistic Convergence Laboratory, NRU HSE',
+ address='Moscow',
+ booktitle= 'Typological Atlas of the Languages of Daghestan (TALD)',
+ url='https://lingconlab.ru/tald')
+```
+
+## {.tabset .tabset-fade .tabset-pills -} 
+
+### Plain text {-}
+```{r, results = 'asis'}
+print(article_citation, .opts = list(style = 'text'))
+```
+
+### BibTeX {-}
+
+```{r}
+print(article_citation, .opts = list(style = 'Bibtex'))
+```
+
+## {-}
+
+This major chapter is devoted to verbal negation in the languages of Daghestan.[^thanks] It discusses data on different morphosyntactic means of negation in 44 idioms of the East Caucasian family and 6 close neighbors.
+
+[^thanks]: I am grateful to Nina Dobrushina, Konstantin Filatov, Timur Maisak and Chiara Naccarato for editing the drafts of the chapters on verbal negation.
+
+In different East Caucasian languages negation of a proposition can be expressed with a separate morpheme (prefix, infix, or suffix), a particle, morphological reduplication, or a negative form of the auxiliary. Accordingly, the data is presented in four separate chapters:
+
+1.  [Negation with prefixes, infixes and particles](065_verbal_negation_prefixes.html)
+2.  [Negation with suffixes](066_verbal_negation_suffixes.html)
+3.  [Negation with auxiliaries](067_verbal_negation_auxiliaries.html)
+4.  [Negation with reduplication](068_verbal_negation_reduplication.html)
+
+In some languages (e.g. Archi), there is only one basic negation marker, while others (e.g. Tabasaran) boast a variety of patterns that are distributed among different verb forms or lexemes.
+
+The majority of East Caucasian languages have more than one strategy for expressing negation. This fact justifies splitting this topic into several features.
+
+For example, even though in Avar (< Avar-Andic) and Hunzib (< Tsezic) both suffixation and use of negative auxiliaries are attested, in WALS (Dryer 2013) only one of the strategies is coded for the map. Moreover, for unknown reasons, the two languages were coded with different values: Avar was assigned the value “auxiliary verb”, while Hunzib was assigned the value “affix”. Here, this problem is solved by including both strategies for both languages in separate features. The distribution of different patterns is briefly discussed in the chapters. Expression of verbal negation by other means (e.g. double negation or change in word order) was not attested.
+
+The scope of these chapters is limited to a set of restrictions similar to those formulated in [@dahl1979: 79] and [@dryer2013], as well as the definition of “standard negation” suggested by Miestamo [-@miestamo2005: 42].
+
+They are as follows:
+
+- **Sentential verbal negation**.
+The chapters are devoted to clausal, or sentential negation, i.e. negation that is applied to the whole clause. Moreover, the topic is restricted to verbal negation, so non-verbal predicates are not discussed.
+- **Regular and productive negation**.
+It is often the case that one or a few highly frequent verbs express negation differently from other verbs. For example, in many East Caucasian languages the copula (which also functions as an auxiliary) has a special negative form that differs morphologically from regular negation in other verbs. Such cases were not taken into consideration in these chapters. See [@miestamo2005: 42–45] on generality and regularity of negation.
+- **Basic means of expressing negation**.
+While logical negation of a proposition can be expressed in many ways in natural language, the current study takes into consideration the most basic, simplest and most frequently used grammatical means of expressing negation. Of course, this wording does not allow for a precise understanding of “basicness”. This is a common problem in typological studies of negation (see e.g. [@dahl1979: 79; @miestamo2005: 39–45] on this problem), but this intuitive understanding of basic negation was used here for the sake of simplicity.
+- **Indicative negation**.
+While data on negation of non-indicative clauses is occasionally brought up, the focus of the chapters is on declarative propositions. Some phenomena concerning non-indicative moods (including negation) are described in other chapters (see [Jussives](055_jussive.html) and [Optatives](007_optative.html) by Nina Dobrushina, [Prohibitive and its relation with the imperative](008_prohibitives.html) by Samira Ochs, [Distinction between transitive and intransitive imperatives](058_trans_intrans_imperative.html) by Maria Starodubtseva, and [Plural marking on imperatives and prohibitives](057_plural_marking_on_imperatives.html) by Vasiliy Zerzele).
+* **Basic morphosyntax**.
+The chapters do not discuss complex syntactic phenomena such as the interaction of negation and focus, or indefinite pronouns and negative polarity items, as such topics are rarely covered in the sources.
+
+## References {-}
