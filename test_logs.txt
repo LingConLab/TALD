@@ -1,4 +1,3 @@
-The BibTeX entry          tagiyev2006          present in the          imperative_interjections.tsv, but absent in the biblib.xlsx
 The BibTeX entry daniel2021 from the file adjectives_number_bib.tsv has an empty value in the obligatory field VOLUME
 Revise the BibTeX entry maisak_inalco2018 from the file verbal_negation_auxiliaries_bib.tsv.
 Revise the BibTeX entry omniglotGM from the file verbal_negation_auxiliaries_bib.tsv.
