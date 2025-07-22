@@ -39,6 +39,7 @@ approximant
 APUD
 apudessive
 Archi
+areally
 Aristova
 Armenic
 Arsentjev
@@ -51,8 +52,11 @@ Avaro
 Axaxdɘrɘ
 Ayalakab
 Azeri
+Babaliyeva
 Bagvalal
 Balkar
+Bancel
+Belyaev
 Bezhta
 bimorphemic
 Bogomolova
@@ -92,6 +96,7 @@ CVh
 Daghestan
 Daghestanian
 Dagkou
+Dahl
 Dargic
 Dargwa
 Daria
@@ -158,6 +163,7 @@ Gasanova
 geminate
 gemination
 Gerasmov
+Gid
 Gilles
 Glottolog
 Godoberi
@@ -243,6 +249,7 @@ Lak
 lative
 Lavukaleve
 lect
+Lejeune
 lenis
 Levinson
 lexeme
@@ -292,6 +299,7 @@ morphophonologically
 morphosyntactic
 Moyano
 Mozdok
+Muiri
 Mukhad
 Mukhin
 Murad
@@ -314,6 +322,7 @@ obstruent
 Ochs
 Oghuz
 optative
+Oraire
 Ossetic
 overrepresented
 Pama

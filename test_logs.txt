@@ -164,7 +164,6 @@ spelling of          yol        in farewell_wishes.Rmd:130
 spelling of          adal        in gender_agreement_slot.Rmd:105
 spelling of          aj        in gender_agreement_slot.Rmd:148
 spelling of          gi        in gender_agreement_slot.Rmd:116
-spelling of          Gid        in gender_agreement_slot.Rmd:83
 spelling of          gundine        in gender_agreement_slot.Rmd:83
 spelling of          gundinu        in gender_agreement_slot.Rmd:83,83
 spelling of          li        in gender_agreement_slot.Rmd:105,105,205
@@ -198,7 +197,6 @@ spelling of          vin        in inclusive_exclusive_distinction_in_personal_p
 spelling of          wi        in inclusive_exclusive_distinction_in_personal_pronouns.Rmd:583
 spelling of          nd        in jussive.Rmd:51
 spelling of          al        in morning_greetings.Rmd:20
-spelling of          Oraire        in morning_greetings.Rmd:8
 spelling of          xair        in morning_greetings.Rmd:41,41,49
 spelling of          xajir        in morning_greetings.Rmd:41
 spelling of          bek        in number_of_morphological_slots_in_spatial_forms.Rmd:162
@@ -221,7 +219,6 @@ spelling of          le        in numeral_origin.Rmd:70
 spelling of          na        in numeral_origin.Rmd:80,80
 spelling of          ra        in numeral_origin.Rmd:80
 spelling of          nV        in numeral_root_hundred.Rmd:12
-spelling of          areally        in path_encoding.Rmd:181
 spelling of          qo        in path_encoding.Rmd:22,22,22,22,22
 spelling of          ul        in path_encoding.Rmd:17,19
 spelling of          ai        in phonology.Rmd:196
@@ -238,11 +235,9 @@ spelling of          aj        in prohibitives.Rmd:47,47,47,123
 spelling of          al        in prohibitives.Rmd:150,222
 spelling of          ara        in prohibitives.Rmd:31
 spelling of          ari        in prohibitives.Rmd:31
-spelling of          Bancel        in prohibitives.Rmd:150,222
 spelling of          der        in prohibitives.Rmd:10,14
 spelling of          kuj        in prohibitives.Rmd:101
 spelling of          kun        in prohibitives.Rmd:101
-spelling of          Lejeune        in prohibitives.Rmd:10,14
 spelling of          mV        in prohibitives.Rmd:31,47,47,93,150,150,150,150,150,222
 spelling of          Sg        in prohibitives.Rmd:101
 spelling of          vay        in prohibitives.Rmd:77
@@ -274,15 +269,9 @@ spelling of          ul        in trans_intrans_imperative.Rmd:96
 spelling of          una        in trans_intrans_imperative.Rmd:98
 spelling of          uq        in trans_intrans_imperative.Rmd:80
 spelling of          gom        in verbal_negation_auxiliaries.Rmd:14,14,42
-spelling of          Babaliyeva        in verbal_negation_prefixes.Rmd:53
 spelling of          cy        in verbal_negation_prefixes.Rmd:146
-spelling of          Dahl        in verbal_negation_prefixes.Rmd:8
 spelling of          infixed        in verbal_negation_prefixes.Rmd:109
-spelling of          Belyaev        in verbal_negation_reduplication.Rmd:74
-spelling of          Dahl        in verbal_negation_reduplication.Rmd:8
-spelling of          Muiri        in verbal_negation_reduplication.Rmd:100,102
 spelling of          al        in verbal_negation_suffixes.Rmd:38
-spelling of          Belyaev        in verbal_negation_suffixes.Rmd:48
 spelling of          da        in verbal_negation_suffixes.Rmd:46
 spelling of          de        in verbal_negation_suffixes.Rmd:46
 spelling of          dVr        in verbal_negation_suffixes.Rmd:40
