@@ -86,7 +86,7 @@ map.feature(languages = for_map$lang,
             minichart.data = for_map$n,
             minichart.labels = TRUE,
             width = 3,
-            tile = 'Stamen.TonerLite')
+            tile = 'Esri.WorldGrayCanvas')
 ```
 
 As we can see, the inventory size of the languages in our dataset range from `r min(range(for_map$n))` (Georgian and Kumyk) to `r max(range(for_map$n))` (Northern Akhvakh). We can compare the obtained numbers with the PHOIBLE database [@phoible], which contains phoneme inventories of the languages of the world[^exclude_EA]:
@@ -137,7 +137,7 @@ map.feature(languages = for_map$lang,
             minichart.data = for_map$n,
             minichart.labels = TRUE,
             width = 3,
-            tile = 'Stamen.TonerLite')
+            tile = 'Esri.WorldGrayCanvas')
 ```
 
 As we can see, the inventory size differs from `r min(range(for_map$n))` (Azerbaijani) to `r max(range(for_map$n))` (Northern Akhvakh). We can compare the obtained numbers with the PHOIBLE database [@phoible]:
@@ -175,7 +175,7 @@ map.feature(languages = for_map$lang,
             minichart.data = for_map$n,
             minichart.labels = TRUE,
             width = 3,
-            tile = 'Stamen.TonerLite')
+            tile = 'Esri.WorldGrayCanvas')
 ```
 
 The vowel inventory size ranges from `r min(range(for_map$n))` (Avar) to `r max(range(for_map$n))` (Chechen). Again we can compare the obtained numbers with the PHOIBLE database [@phoible]:
