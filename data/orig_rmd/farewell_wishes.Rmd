@@ -37,7 +37,7 @@ gloss_example(transliteration = "hɨx-dɨ raˁq w-iši-j",
 (@kufa5) Kufa Rutul (field data by Nina Dobrushina)
 ```{r}
 gloss_example(transliteration = "uɣur 		w-iši-j",
-              glosses = "luck[AZ] 	N-become-OPT",
+              glosses = "luck(AZ) 	N-become-OPT",
               free_translation = "‘Have a nice trip!’ (lit. ‘May the luck be’)")
 ```
 
@@ -116,14 +116,14 @@ There is one more pattern which covers several languages. In most Lezgic languag
 (@Agul14) Agul (Huppuq’ dialect) (Solmaz Merdanova, p.c.)
 ```{r}
 gloss_example(transliteration = "jaʁur 		xu-raj",
-              glosses = "luck[AZ] 	be-OPT",
+              glosses = "luck(AZ) 	be-OPT",
               free_translation = "Have a nice trip!")
 ```
 
 (@lezgian15) Lezgian  [@talibovgadzhiev1966: 397]
 ```{r}
 gloss_example(transliteration = "juʁur		xuj",
-              glosses = "luck[AZ]	become.OPT",
+              glosses = "luck(AZ)	become.OPT",
               free_translation = "Have a nice trip!")
 ```
 

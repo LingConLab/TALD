@@ -23,7 +23,7 @@ _lok’o_ ‘heart’ > _lok’o-t’u_ ‘heartless’
 (@six) Agul, Huppuq’ dialect [@maisakpanovadraft]
 ```{r}
 gloss_example("baw **qa-dawa** šünükː düj.i-l jaratmiš d-aq’-u-raj",
-              "{[}mother **POST.be-NEG(PTCP)**{]} child world-SUP create NEG-do-PFV-JUSS",
+              "mother **POST.be-NEG(PTCP)** child world-SUP create NEG-do-PFV-JUSS",
               "Let there be no motherless (lit. mother not-having) children in the world!")
 ```
 
@@ -54,14 +54,14 @@ Overall, the number of adverbial caritive suffixes/clitics is smaller than that 
 (@seven) Andi, Andi dialect [@maisakpanovadraft]
 ```{r}
 gloss_example("išːi-w-ul=gu saldat-ol **ti-gu**",
-              "{[}we.EXCL-M(GEN)-PL=INT soldier-PL{]} **CAR-ADVZ**",
+              "we.EXCL-M(GEN)-PL=INT soldier-PL **CAR-ADVZ**",
               "without our soldiers")
 ```
 
 (@eight) Andi, Andi dialect [@maisakpanovadraft]
 ```{r}
 gloss_example("soru hek’ʷa=lo **ti-gu**",
-              "{[}together man{]}=ADD CAR-ADVZ",
+              "together man=ADD CAR-ADVZ",
               "without a single fellow man")
 ```
 
@@ -84,7 +84,7 @@ When compiling the dataset, I tried to follow the classification described above
 
 First, in some languages one of the non-finite verbal forms apparently became the default caritive marker occurring with both attributive and adverbial functions, cf. the participial form _akːʷar_ modifying the predicate in (@ten). In such cases, the language was marked as having both participial and converbial caritive strategies regardless of the morphological make-up of the form.
 
-(@ten)	Sanzhi Dargwa [@forker2020dargwa: 270]
+(@ten) Sanzhi Dargwa [@forker2020dargwa: 270]
 ```{r, results='asis'}
 gloss_example("li<b>il durħ-ne wec’al durħuˁ xːunul **akːʷ-ar** ha-b-iq’-un-te=de c’il",
               "all<HPL> boy-PL ten boy woman **COP.NEG-PRS** up-HPL-bring.up-PRET-DD.PL=PST then",

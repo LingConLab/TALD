@@ -23,7 +23,7 @@ _lok’o_ ‘heart’ > _lok’o-t’u_ ‘heartless’
 (@six) Agul, Huppuq’ dialect [@maisakpanovadraft]
 ```{r}
 gloss_example("baw **qa-dawa** šünükː düj.i-l jaratmiš d-aq’-u-raj",
-              "{[}mother **POST.be-NEG(PTCP)**{]} child world-SUP create NEG-do-PFV-JUSS",
+              "mother **POST.be-NEG(PTCP)** child world-SUP create NEG-do-PFV-JUSS",
               "Let there be no motherless (lit. mother not-having) children in the world!")
 ```
 
@@ -54,14 +54,14 @@ Overall, the number of adverbial caritive suffixes/clitics is smaller than that 
 (@seven) Andi, Andi dialect [@maisakpanovadraft]
 ```{r}
 gloss_example("išːi-w-ul=gu saldat-ol **ti-gu**",
-              "{[}we.EXCL-M(GEN)-PL=INT soldier-PL{]} **CAR-ADVZ**",
+              "we.EXCL-M(GEN)-PL=INT soldier-PL **CAR-ADVZ**",
               "without our soldiers")
 ```
 
 (@eight) Andi, Andi dialect [@maisakpanovadraft]
 ```{r}
 gloss_example("soru hek’ʷa=lo **ti-gu**",
-              "{[}together man{]}=ADD CAR-ADVZ",
+              "together man=ADD CAR-ADVZ",
               "without a single fellow man")
 ```
 
