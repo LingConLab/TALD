@@ -4,6 +4,7 @@
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning=FALSE, fig.width = 9.5)
 library(tidyverse)
 library(lingtypology)
+library(RCaucTile)
 ```
 
 ## {-}
@@ -73,7 +74,7 @@ feature_dataset |>
          display = 'show languages')  |> 
   filter(!is.na(value1),
          !is.na(lang4map)) ->
-  general_datapoints_map
+  general_datapoints_map  
 
 map.feature(general_datapoints_map$lang4map,
             latitude = general_datapoints_map$lat,
@@ -185,6 +186,13 @@ map.feature(data_granularity_map$lang4map,
             popup = data_granularity_map$popup)
 ```
 
+### Tile map {-}
+
+```{r}
+general_datapoints_map |> 
+  select(language, value1) |> 
+  ec_tile_map(feature_column = 'value1')
+```
 
     
 ## positive optative stem{.tabset .tabset-fade .tabset-pills #m2} 
@@ -204,7 +212,7 @@ feature_dataset |>
          display = 'show languages')  |> 
   filter(!is.na(value2),
          !is.na(lang4map)) ->
-  general_datapoints_map
+  general_datapoints_map  
 
 map.feature(general_datapoints_map$lang4map,
             latitude = general_datapoints_map$lat,
@@ -316,6 +324,13 @@ map.feature(data_granularity_map$lang4map,
             popup = data_granularity_map$popup)
 ```
 
+### Tile map {-}
+
+```{r}
+general_datapoints_map |> 
+  select(language, value2) |> 
+  ec_tile_map(feature_column = 'value2')
+```
 
     
 ## positive optative suffix{.tabset .tabset-fade .tabset-pills #m3} 
@@ -335,7 +350,7 @@ feature_dataset |>
          display = 'show languages')  |> 
   filter(!is.na(value3),
          !is.na(lang4map)) ->
-  general_datapoints_map
+  general_datapoints_map  
 
 map.feature(general_datapoints_map$lang4map,
             latitude = general_datapoints_map$lat,
@@ -447,6 +462,13 @@ map.feature(data_granularity_map$lang4map,
             popup = data_granularity_map$popup)
 ```
 
+### Tile map {-}
+
+```{r}
+general_datapoints_map |> 
+  select(language, value3) |> 
+  ec_tile_map(feature_column = 'value3')
+```
 
     
 ## negative optative stem{.tabset .tabset-fade .tabset-pills #m4} 
@@ -466,7 +488,7 @@ feature_dataset |>
          display = 'show languages')  |> 
   filter(!is.na(value4),
          !is.na(lang4map)) ->
-  general_datapoints_map
+  general_datapoints_map  
 
 map.feature(general_datapoints_map$lang4map,
             latitude = general_datapoints_map$lat,
@@ -578,6 +600,13 @@ map.feature(data_granularity_map$lang4map,
             popup = data_granularity_map$popup)
 ```
 
+### Tile map {-}
+
+```{r}
+general_datapoints_map |> 
+  select(language, value4) |> 
+  ec_tile_map(feature_column = 'value4')
+```
 
     
 

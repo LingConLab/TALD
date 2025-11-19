@@ -1,23 +1,23 @@
 id	village	rus_village	lat	lon	lang	aff	family	standard	default_level	dialect_toplevel	dialect_toplevel_cyr	dialect_nt1	dialect_nt1_cyr	dialect_nt2	dialect_nt2_cyr	dialect_nt3	dialect_nt3_cyr	village_dialect	gltc_lang	lang_col	aff_col	dataset_version
-5	Tpig	Тпиг	41.780423	47.589523	Agul	Lezgic	East Caucasian		Agul	Central Agul	Среднеагульский							Tpig	aghu1253	#00cc66	#ffd000	2025-09-18
-4	Misi	Миси	41.80991	47.60329	Agul	Lezgic	East Caucasian		Agul	Central Agul	Среднеагульский							Misi	aghu1253	#00cc66	#ffd000	2025-09-18
-6	Khutkhul	Хутхул	41.78517	47.61451	Agul	Lezgic	East Caucasian		Agul	Central Agul	Среднеагульский							Khutkhul	aghu1253	#00cc66	#ffd000	2025-09-18
-1	Kurag	Кураг	41.836764	47.661351	Agul	Lezgic	East Caucasian		Agul	Central Agul	Среднеагульский	Kurag	Курагский					Kurag	aghu1253	#00cc66	#ffd000	2025-09-18
-3	Duldug	Дулдуг	41.76833	47.67438	Agul	Lezgic	East Caucasian		Agul	Central Agul	Среднеагульский							Duldug	aghu1253	#00cc66	#ffd000	2025-09-18
-7	Yarkug	Яркуг	41.79814	47.68435	Agul	Lezgic	East Caucasian		Agul	Central Agul	Среднеагульский							Yarkug	aghu1253	#00cc66	#ffd000	2025-09-18
-2	Goa	Гоа	41.753585	47.703213	Agul	Lezgic	East Caucasian		Agul	Central Agul	Среднеагульский							Goa	aghu1253	#00cc66	#ffd000	2025-09-18
-9	Fite	Фите	41.79161	47.73998	Agul	Lezgic	East Caucasian		Agul	Fite	Фитинский							Fite	aghu1253	#00cc66	#ffd000	2025-09-18
-8	Gelinbatan	Гелинбатан	41.94722	48.16722	Agul	Lezgic	East Caucasian		Agul	Fite	Фитинский							Gelinbatan	aghu1253	#00cc66	#ffd000	2025-09-18
-10	Khpyuk	Хпюк	41.66667	47.66667	Agul	Lezgic	East Caucasian		Agul	Huppuq'	Хпюкский							Khpyuk	aghu1253	#00cc66	#ffd000	2025-09-18
-13	Richa	Рича	41.763646	47.502769	Agul	Lezgic	East Caucasian		Agul	Keren	Керенский							Richa	aghu1253	#00cc66	#ffd000	2025-09-18
-11	Bedyuk	Бедюк	41.716044	47.525715	Agul	Lezgic	East Caucasian		Agul	Keren	Керенский							Bedyuk	aghu1253	#00cc66	#ffd000	2025-09-18
-12	Kvardal	Квардал	41.6803	47.56277	Agul	Lezgic	East Caucasian		Agul	Keren	Керенский							Kvardal	aghu1253	#00cc66	#ffd000	2025-09-18
-16	Khveredzh	Хвередж	41.70206	47.57218	Agul	Lezgic	East Caucasian		Agul	Keren	Керенский							Khveredzh	aghu1253	#00cc66	#ffd000	2025-09-18
-14	Ukuz	Укуз	41.696017	47.591355	Agul	Lezgic	East Caucasian		Agul	Keren	Керенский							Ukuz	aghu1253	#00cc66	#ffd000	2025-09-18
-15	Usug	Усуг	41.672481	47.594624	Agul	Lezgic	East Caucasian		Agul	Keren	Керенский							Usug	aghu1253	#00cc66	#ffd000	2025-09-18
-17	Burkikhan	Буркихан	41.806356	47.538467	Agul	Lezgic	East Caucasian		Agul									Burkikhan	aghu1253	#00cc66	#ffd000	2025-09-18
-19	Standard Agul		41.92418	47.58429	Agul	Lezgic	East Caucasian	Standard Agul	Agul										aghu1253	#00cc66	#ffd000	2025-09-18
-18	Tsirkhe	Цирхе	41.91513	47.59679	Agul	Lezgic	East Caucasian		Agul									Tsirkhe	aghu1253	#00cc66	#ffd000	2025-09-18
+5	Tpig	Тпиг	41.780423	47.589523	Aghul	Lezgic	East Caucasian		Agul	Central Agul	Среднеагульский							Tpig	aghu1253	#00cc66	#ffd000	2025-09-18
+4	Misi	Миси	41.80991	47.60329	Aghul	Lezgic	East Caucasian		Agul	Central Agul	Среднеагульский							Misi	aghu1253	#00cc66	#ffd000	2025-09-18
+6	Khutkhul	Хутхул	41.78517	47.61451	Aghul	Lezgic	East Caucasian		Agul	Central Agul	Среднеагульский							Khutkhul	aghu1253	#00cc66	#ffd000	2025-09-18
+1	Kurag	Кураг	41.836764	47.661351	Aghul	Lezgic	East Caucasian		Agul	Central Agul	Среднеагульский	Kurag	Курагский					Kurag	aghu1253	#00cc66	#ffd000	2025-09-18
+3	Duldug	Дулдуг	41.76833	47.67438	Aghul	Lezgic	East Caucasian		Agul	Central Agul	Среднеагульский							Duldug	aghu1253	#00cc66	#ffd000	2025-09-18
+7	Yarkug	Яркуг	41.79814	47.68435	Aghul	Lezgic	East Caucasian		Agul	Central Agul	Среднеагульский							Yarkug	aghu1253	#00cc66	#ffd000	2025-09-18
+2	Goa	Гоа	41.753585	47.703213	Aghul	Lezgic	East Caucasian		Agul	Central Agul	Среднеагульский							Goa	aghu1253	#00cc66	#ffd000	2025-09-18
+9	Fite	Фите	41.79161	47.73998	Aghul	Lezgic	East Caucasian		Agul	Fite	Фитинский							Fite	aghu1253	#00cc66	#ffd000	2025-09-18
+8	Gelinbatan	Гелинбатан	41.94722	48.16722	Aghul	Lezgic	East Caucasian		Agul	Fite	Фитинский							Gelinbatan	aghu1253	#00cc66	#ffd000	2025-09-18
+10	Khpyuk	Хпюк	41.66667	47.66667	Aghul	Lezgic	East Caucasian		Agul	Huppuq'	Хпюкский							Khpyuk	aghu1253	#00cc66	#ffd000	2025-09-18
+13	Richa	Рича	41.763646	47.502769	Aghul	Lezgic	East Caucasian		Agul	Keren	Керенский							Richa	aghu1253	#00cc66	#ffd000	2025-09-18
+11	Bedyuk	Бедюк	41.716044	47.525715	Aghul	Lezgic	East Caucasian		Agul	Keren	Керенский							Bedyuk	aghu1253	#00cc66	#ffd000	2025-09-18
+12	Kvardal	Квардал	41.6803	47.56277	Aghul	Lezgic	East Caucasian		Agul	Keren	Керенский							Kvardal	aghu1253	#00cc66	#ffd000	2025-09-18
+16	Khveredzh	Хвередж	41.70206	47.57218	Aghul	Lezgic	East Caucasian		Agul	Keren	Керенский							Khveredzh	aghu1253	#00cc66	#ffd000	2025-09-18
+14	Ukuz	Укуз	41.696017	47.591355	Aghul	Lezgic	East Caucasian		Agul	Keren	Керенский							Ukuz	aghu1253	#00cc66	#ffd000	2025-09-18
+15	Usug	Усуг	41.672481	47.594624	Aghul	Lezgic	East Caucasian		Agul	Keren	Керенский							Usug	aghu1253	#00cc66	#ffd000	2025-09-18
+17	Burkikhan	Буркихан	41.806356	47.538467	Aghul	Lezgic	East Caucasian		Agul									Burkikhan	aghu1253	#00cc66	#ffd000	2025-09-18
+19	Standard Agul		41.92418	47.58429	Aghul	Lezgic	East Caucasian	Standard Agul	Agul										aghu1253	#00cc66	#ffd000	2025-09-18
+18	Tsirkhe	Цирхе	41.91513	47.59679	Aghul	Lezgic	East Caucasian		Agul									Tsirkhe	aghu1253	#00cc66	#ffd000	2025-09-18
 1676	Amuzgi	Амузги	42.067988	47.597592	Southwestern Dargwa	Dargwa	East Caucasian		Amuzgi-Shiri	Amuzgi	амузгинское							Amuzgi	sout3261	#f9ec49	#ffb268	2025-09-18
 1677	Shari	Шари	42.061059	47.587936	Southwestern Dargwa	Dargwa	East Caucasian		Amuzgi-Shiri	Shiri	ширинское							Shari	sout3261	#f9ec49	#ffb268	2025-09-18
 38	Kubatl'	Кубатль	42.03659	46.85973	Archi	Lezgic	East Caucasian		Archi									Kubatl'	arch1244	#88ff26	#ffd000	2025-09-18
@@ -1923,7 +1923,7 @@ id	village	rus_village	lat	lon	lang	aff	family	standard	default_level	dialect_to
 22	Andi	Анди	42.7856	46.2639	Andi	Avar-Andic	East Caucasian		Upper Andi									Andi	uppe1485	#095097	#666666	2025-09-18
 29	Rushukha	Рушуха	42.71509	46.28112	Andi	Avar-Andic	East Caucasian		Upper Andi									Rushukha	uppe1485	#095097	#666666	2025-09-18
 25	Gunkha	Гунха	42.78968	46.28275	Andi	Avar-Andic	East Caucasian		Upper Andi									Gunkha	uppe1485	#095097	#666666	2025-09-18
-24	Gagatli	Гагатли	42.800361	46.292645	Andi	Avar-Andic	East Caucasian		Upper Andi									Gagatli	uppe1485	#095097	#666666	2025-09-18
+24	Gagatli	Гагатли	42.800361	46.292645	Andi	Avar-Andic	East Caucasian		Tad-Magitl'									Gagatli	uppe1485	#095097	#666666	2025-09-18
 23	Ashali	Ашали	42.76963	46.30878	Andi	Avar-Andic	East Caucasian		Upper Andi									Ashali	uppe1485	#095097	#666666	2025-09-18
 26	Zilo	Зило	42.731394	46.319223	Andi	Avar-Andic	East Caucasian		Upper Andi									Zilo	uppe1485	#095097	#666666	2025-09-18
 28	Rikvani	Риквани	42.782304	46.319372	Andi	Avar-Andic	East Caucasian		Upper Andi									Rikvani	uppe1485	#095097	#666666	2025-09-18

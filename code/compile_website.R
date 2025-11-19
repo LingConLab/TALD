@@ -176,6 +176,7 @@ walk(rmd_filenames[str_detect(rmd_filenames, "_map.Rmd")], function(i){
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning=FALSE, fig.width = 9.5)
 library(tidyverse)
 library(lingtypology)
+library(RCaucTile)
 ```
 
 ## {-}
@@ -254,7 +255,7 @@ feature_dataset |>
     multiple_values$values[i],
     "),
          !is.na(lang4map)) ->
-  general_datapoints_map
+  general_datapoints_map  
 
 map.feature(general_datapoints_map$lang4map,
             latitude = general_datapoints_map$lat,
@@ -382,6 +383,17 @@ map.feature(data_granularity_map$lang4map,
             popup = data_granularity_map$popup)
 ```
 
+### Tile map {-}
+
+```{r}
+general_datapoints_map |> 
+  select(language, value",
+    multiple_values$values[i],
+    ") |> 
+  ec_tile_map(feature_column = 'value",
+    multiple_values$values[i],
+    "')
+```
 
     ")
 }),
