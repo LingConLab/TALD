@@ -264,9 +264,6 @@ map.feature(general_datapoints_map$lang4map,
             features = general_datapoints_map$value",
     multiple_values$values[i],
     ",
-            title = general_datapoints_map$value",
-    multiple_values$values[i],
-    "_name[1],
             color = 'magma',
             stroke.features = 'a',
             stroke.color = 'black',
@@ -311,9 +308,6 @@ map.feature(all_data_filtered$lang4map,
             stroke.radius = 1,
             stroke.legend = FALSE,
             tile = 'Esri.WorldGrayCanvas',
-            title = all_data_filtered$value",
-    multiple_values$values[i],
-    "_name[1],
             legend = TRUE,
             legend.position = 'bottomleft', 
             label = all_data_filtered$language,
@@ -372,9 +366,6 @@ map.feature(data_granularity_map$lang4map,
             stroke.radius = 1,
             stroke.legend = FALSE,
             tile = 'Esri.WorldGrayCanvas',
-            title = data_granularity_map$value",
-    multiple_values$values[i],
-    "_name[1],
             legend = TRUE,
             legend.position = 'bottomleft', 
             label = data_granularity_map$language,
@@ -385,14 +376,15 @@ map.feature(data_granularity_map$lang4map,
 
 ### Tile map {-}
 
-```{r}
+```{r, fig.width=12, fig.height=6}
 general_datapoints_map |> 
   select(language, value",
     multiple_values$values[i],
     ") |> 
   ec_tile_map(feature_column = 'value",
     multiple_values$values[i],
-    "')
+    "') +
+  theme(text = element_text(size = 15))
 ```
 
     ")
