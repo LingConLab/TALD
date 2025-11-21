@@ -223,7 +223,7 @@ spelling of          ja        in phonology.Rmd:196
 spelling of          ue        in phonology.Rmd:196
 spelling of          ja        in plural_marking_on_imperatives.Rmd:184
 spelling of          nd        in plural_marking_on_imperatives.Rmd:186
-spelling of          mV        in prohibitives_map.Rmd:332
+spelling of          MV        in prohibitives_map.Rmd:332
 spelling of          aj        in prohibitives.Rmd:47,47,47,123
 spelling of          al        in prohibitives.Rmd:150,222
 spelling of          ara        in prohibitives.Rmd:31

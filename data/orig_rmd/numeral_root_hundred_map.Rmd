@@ -57,7 +57,7 @@ feature_dataset |>
   all_data
 ```
 
-## Root for ‘hundred’{.tabset .tabset-fade .tabset-pills #m1} 
+## Root for ‘hundred’ {.tabset .tabset-fade .tabset-pills #m1} 
     
 ### General datapoints {-}
 
@@ -185,7 +185,7 @@ map.feature(data_granularity_map$lang4map,
 
 ### Tile map {-}
 
-```{r, fig.width=12, fig.height=6}
+```{r, fig.width=12, fig.height=8}
 general_datapoints_map |> 
   select(language, value1) |> 
   ec_tile_map(feature_column = 'value1') +

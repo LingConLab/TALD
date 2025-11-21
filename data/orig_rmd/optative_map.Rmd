@@ -57,7 +57,7 @@ feature_dataset |>
   all_data
 ```
 
-## number of dedicated optatives{.tabset .tabset-fade .tabset-pills #m1} 
+## Number of dedicated optatives {.tabset .tabset-fade .tabset-pills #m1} 
     
 ### General datapoints {-}
 
@@ -185,7 +185,7 @@ map.feature(data_granularity_map$lang4map,
 
 ### Tile map {-}
 
-```{r, fig.width=12, fig.height=6}
+```{r, fig.width=12, fig.height=8}
 general_datapoints_map |> 
   select(language, value1) |> 
   ec_tile_map(feature_column = 'value1') +
@@ -193,7 +193,7 @@ general_datapoints_map |>
 ```
 
     
-## positive optative stem{.tabset .tabset-fade .tabset-pills #m2} 
+## Positive optative stem {.tabset .tabset-fade .tabset-pills #m2} 
     
 ### General datapoints {-}
 
@@ -321,7 +321,7 @@ map.feature(data_granularity_map$lang4map,
 
 ### Tile map {-}
 
-```{r, fig.width=12, fig.height=6}
+```{r, fig.width=12, fig.height=8}
 general_datapoints_map |> 
   select(language, value2) |> 
   ec_tile_map(feature_column = 'value2') +
@@ -329,7 +329,7 @@ general_datapoints_map |>
 ```
 
     
-## positive optative suffix{.tabset .tabset-fade .tabset-pills #m3} 
+## Positive optative suffix {.tabset .tabset-fade .tabset-pills #m3} 
     
 ### General datapoints {-}
 
@@ -457,7 +457,7 @@ map.feature(data_granularity_map$lang4map,
 
 ### Tile map {-}
 
-```{r, fig.width=12, fig.height=6}
+```{r, fig.width=12, fig.height=8}
 general_datapoints_map |> 
   select(language, value3) |> 
   ec_tile_map(feature_column = 'value3') +
@@ -465,7 +465,7 @@ general_datapoints_map |>
 ```
 
     
-## negative optative stem{.tabset .tabset-fade .tabset-pills #m4} 
+## Negative optative stem {.tabset .tabset-fade .tabset-pills #m4} 
     
 ### General datapoints {-}
 
@@ -593,7 +593,7 @@ map.feature(data_granularity_map$lang4map,
 
 ### Tile map {-}
 
-```{r, fig.width=12, fig.height=6}
+```{r, fig.width=12, fig.height=8}
 general_datapoints_map |> 
   select(language, value4) |> 
   ec_tile_map(feature_column = 'value4') +

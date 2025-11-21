@@ -157,7 +157,7 @@ first_authors <- tolower(str_remove(map(str_split(features$author, " "), 2), ","
 
 # create orig_rmd/..._map.Rmd files ----------------------------------------------------
 
-walk(rmd_filenames[str_detect(rmd_filenames, "_map.Rmd")], function(i){
+walk(str_subset(rmd_filenames, "_map.Rmd"), function(i){
   
   read_tsv(str_c("data/orig_table/", 
                  str_remove(str_remove(i, "_map.Rmd"), "\\d{1,}_"),
@@ -166,7 +166,11 @@ walk(rmd_filenames[str_detect(rmd_filenames, "_map.Rmd")], function(i){
     select(matches("^value\\d{1,}_")) |> 
     distinct() |> 
     pivot_longer(names_to = "values", values_to = "titles", everything()) |> 
-    mutate(values = as.double(str_extract(values, "\\d{1,}")))  ->
+    mutate(values = as.double(str_extract(values, "\\d{1,}")),
+           first_letter = str_extract(titles, ".") |> str_to_upper(),
+           titles = str_remove(titles, "."),
+           titles = str_c(first_letter, titles)) |> 
+    select(-first_letter) ->
     multiple_values
   
   write_lines(
@@ -234,7 +238,7 @@ feature_dataset |>
 
 map(multiple_values$values, function(i){
   str_c(
-    "## ", multiple_values$titles[i], "{.tabset .tabset-fade .tabset-pills #m", multiple_values$values[i], "} 
+    "## ", multiple_values$titles[i], " {.tabset .tabset-fade .tabset-pills #m", multiple_values$values[i], "} 
     
 ### General datapoints {-}
 
@@ -376,7 +380,7 @@ map.feature(data_granularity_map$lang4map,
 
 ### Tile map {-}
 
-```{r, fig.width=12, fig.height=6}
+```{r, fig.width=12, fig.height=8}
 general_datapoints_map |> 
   select(language, value",
     multiple_values$values[i],

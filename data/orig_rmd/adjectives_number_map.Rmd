@@ -57,7 +57,7 @@ feature_dataset |>
   all_data
 ```
 
-## Is number marking present on adnominal adjectives?{.tabset .tabset-fade .tabset-pills #m1} 
+## Is number marking present on adnominal adjectives? {.tabset .tabset-fade .tabset-pills #m1} 
     
 ### General datapoints {-}
 
@@ -185,7 +185,7 @@ map.feature(data_granularity_map$lang4map,
 
 ### Tile map {-}
 
-```{r, fig.width=12, fig.height=6}
+```{r, fig.width=12, fig.height=8}
 general_datapoints_map |> 
   select(language, value1) |> 
   ec_tile_map(feature_column = 'value1') +
@@ -193,7 +193,7 @@ general_datapoints_map |>
 ```
 
     
-## Conditioning of number marking on attributive adjectives{.tabset .tabset-fade .tabset-pills #m2} 
+## Conditioning of number marking on attributive adjectives {.tabset .tabset-fade .tabset-pills #m2} 
     
 ### General datapoints {-}
 
@@ -321,7 +321,7 @@ map.feature(data_granularity_map$lang4map,
 
 ### Tile map {-}
 
-```{r, fig.width=12, fig.height=6}
+```{r, fig.width=12, fig.height=8}
 general_datapoints_map |> 
   select(language, value2) |> 
   ec_tile_map(feature_column = 'value2') +
@@ -329,7 +329,7 @@ general_datapoints_map |>
 ```
 
     
-## How is number expressed on adnominal adjectives{.tabset .tabset-fade .tabset-pills #m3} 
+## How is number expressed on adnominal adjectives {.tabset .tabset-fade .tabset-pills #m3} 
     
 ### General datapoints {-}
 
@@ -457,7 +457,7 @@ map.feature(data_granularity_map$lang4map,
 
 ### Tile map {-}
 
-```{r, fig.width=12, fig.height=6}
+```{r, fig.width=12, fig.height=8}
 general_datapoints_map |> 
   select(language, value3) |> 
   ec_tile_map(feature_column = 'value3') +
@@ -465,7 +465,7 @@ general_datapoints_map |>
 ```
 
     
-## Gender neutralization in plural{.tabset .tabset-fade .tabset-pills #m4} 
+## Gender neutralization in plural {.tabset .tabset-fade .tabset-pills #m4} 
     
 ### General datapoints {-}
 
@@ -593,7 +593,7 @@ map.feature(data_granularity_map$lang4map,
 
 ### Tile map {-}
 
-```{r, fig.width=12, fig.height=6}
+```{r, fig.width=12, fig.height=8}
 general_datapoints_map |> 
   select(language, value4) |> 
   ec_tile_map(feature_column = 'value4') +
@@ -601,7 +601,7 @@ general_datapoints_map |>
 ```
 
     
-## Distributive marking bordering on plural agreement{.tabset .tabset-fade .tabset-pills #m5} 
+## Distributive marking bordering on plural agreement {.tabset .tabset-fade .tabset-pills #m5} 
     
 ### General datapoints {-}
 
@@ -729,7 +729,7 @@ map.feature(data_granularity_map$lang4map,
 
 ### Tile map {-}
 
-```{r, fig.width=12, fig.height=6}
+```{r, fig.width=12, fig.height=8}
 general_datapoints_map |> 
   select(language, value5) |> 
   ec_tile_map(feature_column = 'value5') +

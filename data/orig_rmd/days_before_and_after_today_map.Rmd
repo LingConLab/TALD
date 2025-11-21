@@ -57,7 +57,7 @@ feature_dataset |>
   all_data
 ```
 
-## strategy of naming days after tomorrow{.tabset .tabset-fade .tabset-pills #m1} 
+## Strategy of naming days after tomorrow {.tabset .tabset-fade .tabset-pills #m1} 
     
 ### General datapoints {-}
 
@@ -185,7 +185,7 @@ map.feature(data_granularity_map$lang4map,
 
 ### Tile map {-}
 
-```{r, fig.width=12, fig.height=6}
+```{r, fig.width=12, fig.height=8}
 general_datapoints_map |> 
   select(language, value1) |> 
   ec_tile_map(feature_column = 'value1') +
@@ -193,7 +193,7 @@ general_datapoints_map |>
 ```
 
     
-## number of distinct terms for days after today{.tabset .tabset-fade .tabset-pills #m2} 
+## Number of distinct terms for days after today {.tabset .tabset-fade .tabset-pills #m2} 
     
 ### General datapoints {-}
 
@@ -321,7 +321,7 @@ map.feature(data_granularity_map$lang4map,
 
 ### Tile map {-}
 
-```{r, fig.width=12, fig.height=6}
+```{r, fig.width=12, fig.height=8}
 general_datapoints_map |> 
   select(language, value2) |> 
   ec_tile_map(feature_column = 'value2') +
@@ -329,7 +329,7 @@ general_datapoints_map |>
 ```
 
     
-## amount of distinct terms for days before today{.tabset .tabset-fade .tabset-pills #m3} 
+## Amount of distinct terms for days before today {.tabset .tabset-fade .tabset-pills #m3} 
     
 ### General datapoints {-}
 
@@ -457,7 +457,7 @@ map.feature(data_granularity_map$lang4map,
 
 ### Tile map {-}
 
-```{r, fig.width=12, fig.height=6}
+```{r, fig.width=12, fig.height=8}
 general_datapoints_map |> 
   select(language, value3) |> 
   ec_tile_map(feature_column = 'value3') +

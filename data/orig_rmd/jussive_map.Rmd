@@ -57,7 +57,7 @@ feature_dataset |>
   all_data
 ```
 
-## Presence of dedicated affix{.tabset .tabset-fade .tabset-pills #m1} 
+## Presence of dedicated affix {.tabset .tabset-fade .tabset-pills #m1} 
     
 ### General datapoints {-}
 
@@ -185,7 +185,7 @@ map.feature(data_granularity_map$lang4map,
 
 ### Tile map {-}
 
-```{r, fig.width=12, fig.height=6}
+```{r, fig.width=12, fig.height=8}
 general_datapoints_map |> 
   select(language, value1) |> 
   ec_tile_map(feature_column = 'value1') +
@@ -193,7 +193,7 @@ general_datapoints_map |>
 ```
 
     
-## Say-based suffix{.tabset .tabset-fade .tabset-pills #m2} 
+## Say-based suffix {.tabset .tabset-fade .tabset-pills #m2} 
     
 ### General datapoints {-}
 
@@ -321,7 +321,7 @@ map.feature(data_granularity_map$lang4map,
 
 ### Tile map {-}
 
-```{r, fig.width=12, fig.height=6}
+```{r, fig.width=12, fig.height=8}
 general_datapoints_map |> 
   select(language, value2) |> 
   ec_tile_map(feature_column = 'value2') +
@@ -329,7 +329,7 @@ general_datapoints_map |>
 ```
 
     
-## Causative suffix{.tabset .tabset-fade .tabset-pills #m3} 
+## Causative suffix {.tabset .tabset-fade .tabset-pills #m3} 
     
 ### General datapoints {-}
 
@@ -457,7 +457,7 @@ map.feature(data_granularity_map$lang4map,
 
 ### Tile map {-}
 
-```{r, fig.width=12, fig.height=6}
+```{r, fig.width=12, fig.height=8}
 general_datapoints_map |> 
   select(language, value3) |> 
   ec_tile_map(feature_column = 'value3') +
@@ -465,7 +465,7 @@ general_datapoints_map |>
 ```
 
     
-## Coexpression by optative{.tabset .tabset-fade .tabset-pills #m4} 
+## Coexpression by optative {.tabset .tabset-fade .tabset-pills #m4} 
     
 ### General datapoints {-}
 
@@ -593,7 +593,7 @@ map.feature(data_granularity_map$lang4map,
 
 ### Tile map {-}
 
-```{r, fig.width=12, fig.height=6}
+```{r, fig.width=12, fig.height=8}
 general_datapoints_map |> 
   select(language, value4) |> 
   ec_tile_map(feature_column = 'value4') +
