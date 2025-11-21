@@ -1,0 +1,56 @@
+---
+title: "Chapters"
+output:
+  html_document:
+    include:
+      in_header: ./html/header_features.html
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r, echo=FALSE, message = FALSE}
+library(tidyverse)
+library(DT)
+
+# table with features
+readxl::read_xlsx("data/contributors.xlsx") |>
+  filter(render == 1) ->
+  chapters
+
+chapters$id_0 <- sprintf(paste0("%0", nchar(max(chapters$id))+1, "d_"), 
+                         chapters$id)
+
+chapters |>
+  filter(!is.na(major_topic_text)) |>
+  mutate(major_topic_linked = str_c("<a href='",
+                                    str_c(filename),
+                                    ".html'>",
+                                    major_topic,
+                                    "</a>")) |>
+  select(major_topic, major_topic_linked) ->
+  major_topics
+
+chapters |>
+  filter(is.na(major_topic_text)) |>
+  mutate(feature = str_c(title, 
+                         "<br><a href='",
+                         str_c(id_0, filename),
+                         ".html'>Chapter</a>|<a href='",
+                         str_c(id_0, filename),
+                         "_map.html'>Maps&Data</a>")) |>
+  select(feature, author, major_topic, domain) |>
+  left_join(major_topics) |>
+  select(-major_topic) |>
+  rename(`Major topic` = major_topic_linked) |>
+  mutate(domain = factor(domain)) |>
+  arrange(feature) |> 
+  rename(Feature = feature,
+         Author = author,
+         Domain = domain) |> 
+  DT::datatable(filter = 'top', 
+                escape = FALSE,
+                rownames = FALSE,
+                options = list(pageLength = 150, 
+                               autoWidth = TRUE,
+                               dom = 'fltpi'))
+```

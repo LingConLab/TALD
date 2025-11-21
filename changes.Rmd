@@ -13,7 +13,7 @@ library(tidyverse)
 
 #### July 2025 (v 2.0.0)
 
-Feature chapters added:
+Chapters added:
 
 ```{r, results='asis'}
 readxl::read_xlsx("data/contributors.xlsx", guess_max = 200) |> 
@@ -27,7 +27,7 @@ readxl::read_xlsx("data/contributors.xlsx", guess_max = 200) |>
 
 #### July 2022 (v 1.0.0)
 
-Feature chapters added:
+Chapters added:
 
 ```{r, results='asis'}
 readxl::read_xlsx("data/contributors.xlsx", guess_max = 200) |> 

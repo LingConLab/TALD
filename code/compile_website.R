@@ -123,17 +123,17 @@ file.remove(grep("\\d{1,}_.*.Rmd", list.files(), value = TRUE))
 readxl::read_xlsx("data/contributors.xlsx") |> 
   filter(render == 1) |> 
   mutate(created_date = as.integer(created_date)) ->
-  features
+  chapters
 
 # deal with major topics --------------------------------------------------
-features |> 
+chapters |> 
   filter(!is.na(major_topic_text))  |> 
   pull(filename) ->
   major_topics
 
-features |> 
+chapters |> 
   filter(is.na(major_topic_text)) ->
-  features 
+  chapters 
 
 file.copy(str_c("data/orig_rmd/", major_topics, ".Rmd"), 
           str_c(major_topics, ".Rmd"),
@@ -141,19 +141,19 @@ file.copy(str_c("data/orig_rmd/", major_topics, ".Rmd"),
 
 # create variable with leading 0 -------------------------------------------
 # remove +1 when we will have more then 100 topics
-features$id_0 <- sprintf(paste0("%0", nchar(max(features$id))+1, "d_"), 
-                         features$id)
+chapters$id_0 <- sprintf(paste0("%0", nchar(max(chapters$id))+1, "d_"), 
+                         chapters$id)
 
-features |> 
+chapters |> 
   mutate(filename = str_c(filename, "_map")) |> 
-  bind_rows(features) ->
-  features
+  bind_rows(chapters) ->
+  chapters
 
 # create Rmd names ---------------------------------------------------------
-rmd_filenames <- c(str_c(features$id_0, features$filename, ".Rmd"))
+rmd_filenames <- c(str_c(chapters$id_0, chapters$filename, ".Rmd"))
 
 # create key for bibtex ----------------------------------------------------
-first_authors <- tolower(str_remove(map(str_split(features$author, " "), 2), ","))
+first_authors <- tolower(str_remove(map(str_split(chapters$author, " "), 2), ","))
 
 # create orig_rmd/..._map.Rmd files ----------------------------------------------------
 
@@ -163,10 +163,10 @@ walk(str_subset(rmd_filenames, "_map.Rmd"), function(i){
                  str_remove(str_remove(i, "_map.Rmd"), "\\d{1,}_"),
                  ".tsv"),
            progress = FALSE, show_col_types = FALSE)  |> 
-    select(matches("^value\\d{1,}_")) |> 
+    select(matches("^feature\\d{1,}")) |> 
     distinct() |> 
-    pivot_longer(names_to = "values", values_to = "titles", everything()) |> 
-    mutate(values = as.double(str_extract(values, "\\d{1,}")),
+    pivot_longer(names_to = "features", values_to = "titles", everything()) |> 
+    mutate(features = as.double(str_extract(features, "\\d{1,}")),
            first_letter = str_extract(titles, ".") |> str_to_upper(),
            titles = str_remove(titles, "."),
            titles = str_c(first_letter, titles)) |> 
@@ -236,9 +236,9 @@ feature_dataset |>
 ```
 ",
 
-map(multiple_values$values, function(i){
+map(multiple_values$features, function(i){
   str_c(
-    "## ", multiple_values$titles[i], " {.tabset .tabset-fade .tabset-pills #m", multiple_values$values[i], "} 
+    "## ", multiple_values$titles[i], " {.tabset .tabset-fade .tabset-pills #m", multiple_values$features[i], "} 
     
 ### General datapoints {-}
 
@@ -247,7 +247,7 @@ feature_dataset |>
   filter(map == 'yes',
          genlang_point == 'yes') |>
   add_count(value",
-    multiple_values$values[i],
+    multiple_values$features[i],
     ") |> 
   inner_join(coordinates_averaged) |> 
   mutate(popup = ifelse((lang4map == idiom | str_detect(idiom, 'Standard')), 
@@ -256,7 +256,7 @@ feature_dataset |>
          value1 = str_c(value1, ' (', n, ')'),
          display = 'show languages')  |> 
   filter(!is.na(value",
-    multiple_values$values[i],
+    multiple_values$features[i],
     "),
          !is.na(lang4map)) ->
   general_datapoints_map  
@@ -266,7 +266,7 @@ map.feature(general_datapoints_map$lang4map,
             longitude = general_datapoints_map$lon,
             label = general_datapoints_map$language,
             features = general_datapoints_map$value",
-    multiple_values$values[i],
+    multiple_values$features[i],
     ",
             color = 'magma',
             stroke.features = 'a',
@@ -296,7 +296,7 @@ map.feature(general_datapoints_map$lang4map,
 ```{r}
 all_data |> 
   filter(!is.na(value",
-    multiple_values$values[i],
+    multiple_values$features[i],
     ")) ->
   all_data_filtered
 
@@ -304,7 +304,7 @@ map.feature(all_data_filtered$lang4map,
             latitude = all_data_filtered$lat, 
             longitude = all_data_filtered$lon,
             features = all_data_filtered$value",
-    multiple_values$values[i],
+    multiple_values$features[i],
     ",
             color = 'magma',
             stroke.features = 'a',
@@ -352,7 +352,7 @@ feature_dataset |>
                                         'non top level 3 dialect',
                                         'village dialect')))  |> 
   filter(!is.na(value",
-    multiple_values$values[i],
+    multiple_values$features[i],
     "),
          !is.na(lang4map)) |> 
   arrange(type) ->
@@ -362,7 +362,7 @@ map.feature(data_granularity_map$lang4map,
             latitude = data_granularity_map$lat, 
             longitude = data_granularity_map$lon,
             features = data_granularity_map$value",
-    multiple_values$values[i],
+    multiple_values$features[i],
     ",
             color = 'magma',
             stroke.features = 'a',
@@ -383,10 +383,10 @@ map.feature(data_granularity_map$lang4map,
 ```{r, fig.width=12, fig.height=8}
 general_datapoints_map |> 
   select(language, value",
-    multiple_values$values[i],
+    multiple_values$features[i],
     ") |> 
   ec_tile_map(feature_column = 'value",
-    multiple_values$values[i],
+    multiple_values$features[i],
     "') +
   theme(text = element_text(size = 15))
 ```
@@ -405,10 +405,10 @@ str_c('[Download](https://raw.githubusercontent.com/LingConLab/TALD/master/data/
 bib <- RefManageR::ReadBib(file = '../bibliography.bib')
 
 feature_dataset |> 
-  select(str_which(colnames(feature_dataset), 'value\\\\d{1,}_name$')) |> 
+  select(str_which(colnames(feature_dataset), 'feature\\\\d{1,}$')) |> 
   pivot_longer(cols = everything()) |> 
   distinct() |>  
-  mutate(name = str_remove(name, '_name')) ->
+  mutate(name = str_replace(name, 'feature', 'value')) ->
   columns_rename
 
 feature_dataset |> 
@@ -461,15 +461,15 @@ library(lingglosses)
 walk(seq_along(rmd_filenames), function(i){
   ymlthis::yml_empty() |> 
     ymlthis::yml_title(ifelse(str_detect(rmd_filenames[i], "_map.Rmd"), 
-                              str_c(features$title[i], " (Maps & Data)"), 
-                              features$title[i])) |> 
-    ymlthis::yml_author(features$author[i]) |> 
+                              str_c(chapters$title[i], " (Maps & Data)"), 
+                              chapters$title[i])) |> 
+    ymlthis::yml_author(chapters$author[i]) |> 
     ymlthis::yml_date(paste0('Last update: ', 
                              ifelse(str_detect(rmd_filenames[i], "_map.Rmd"), 
-                                    features$updated_map[i], 
-                                    features$updated_text[i]))) |> 
+                                    chapters$updated_map[i], 
+                                    chapters$updated_text[i]))) |> 
     ymlthis::yml_citations(bibliography = paste0("./data/orig_bib/", 
-                                                 str_remove(features$filename[i], "_map"), 
+                                                 str_remove(chapters$filename[i], "_map"), 
                                                  ".bib"),
                            csl = "apa.csl",
                            link_citations = TRUE) |> 
@@ -498,14 +498,14 @@ walk(seq_along(rmd_filenames), function(i){
     "library(RefManageR)",
     "BibOptions(check.entries = FALSE, style = 'text', first.inits = FALSE, bib.style = 'authoryear')",
     "article_citation <- BibEntry(bibtype = 'Incollection', ",
-    paste0(" key='", first_authors[i], features$created_date[i], "',"),
+    paste0(" key='", first_authors[i], chapters$created_date[i], "',"),
     paste0(" title='", 
            ifelse(str_detect(rmd_filenames[i], "_map.Rmd"), 
-                  str_c(features$title[i], " (Maps & Data)"), 
-                  features$title[i]), 
+                  str_c(chapters$title[i], " (Maps & Data)"), 
+                  chapters$title[i]), 
            "',"),
-    paste0(" author='", str_replace(features$author[i], ",", " and"), "',"),
-    paste0(" year='", features$created_date[i], "',"),
+    paste0(" author='", str_replace(chapters$author[i], ",", " and"), "',"),
+    paste0(" year='", chapters$created_date[i], "',"),
     " editor= 'Daniel, Michael  and Filatov, Konstantin and Maisak, Timur and Moroz, George and Mukhin, Timofey and Naccarato, Chiara and Verhees, Samira',",
     " publisher='Linguistic Convergence Laboratory, NRU HSE',",
     " address='Moscow',",
@@ -528,7 +528,7 @@ walk(seq_along(rmd_filenames), function(i){
     "```",
     # add text of the Rmd
     "",
-    str_c("```{r, child='data/orig_rmd/", features$filename[i], ".Rmd'}"),
+    str_c("```{r, child='data/orig_rmd/", chapters$filename[i], ".Rmd'}"),
     "```",
     "",
     ifelse(str_detect(rmd_filenames[i], "_map.Rmd"), 

@@ -34,12 +34,12 @@ You can always contact us via email at <cauatlas@gmail.com> or leave an issue on
 ```{r}
 readxl::read_xlsx("data/contributors.xlsx") |> 
   filter(render == 1) ->
-  features
+  chapters
 
-features$id_0 <- sprintf(paste0("%0", nchar(max(features$id))+1, "d_"), 
-                         features$id)
+chapters$id_0 <- sprintf(paste0("%0", nchar(max(chapters$id))+1, "d_"), 
+                         chapters$id)
 
-features %>% 
+chapters %>% 
   mutate(feature = ifelse(!is.na(major_topic_text), 
                           str_c("<a href='",
                                 filename,

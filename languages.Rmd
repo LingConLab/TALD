@@ -24,8 +24,9 @@ This page includes a list of the idioms represented in the TALD database. The Ea
 ### TALD Chapters by language
 
 ```{r}
-map(list.files("data/orig_table", full.names = TRUE), function(file){
-  readxl::read_xlsx("data/contributors.xlsx", guess_max = 4000) |> 
+list.files("data/orig_table", full.names = TRUE) |> 
+  map(function(file){
+    readxl::read_xlsx("data/contributors.xlsx", guess_max = 4000) |> 
     filter(render == 1) |> 
     rowwise() |> 
     mutate(id_0 = sprintf(str_c("%0", nchar(max(id))+1, "d_"), id),
@@ -40,10 +41,10 @@ map(list.files("data/orig_table", full.names = TRUE), function(file){
   feature_dataset <- read_tsv(file, show_col_types = FALSE)
   
   feature_dataset |> 
-    select(str_which(colnames(feature_dataset), 'value\\d{1,}_name$')) |> 
+    select(str_which(colnames(feature_dataset), 'feature\\d{1,}$')) |> 
     pivot_longer(cols = everything()) |> 
     distinct() |>  
-    mutate(name = str_remove(name, '_name')) ->
+    mutate(name = str_replace(name, 'feature', 'value')) ->
     columns_rename
   
   feature_dataset |> 
