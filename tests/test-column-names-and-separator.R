@@ -12,11 +12,11 @@ columns listed in `expected_columns`", {
                         "type", 
                         "genlang_point", 
                         "map", 
-                        "feature", 
+                        "chapter", 
                         "source", 
                         "page", 
+                        "feature1",
                         "value1",
-                        "value1_name",
                         "contributor", 
                         "date")
   

@@ -242,7 +242,8 @@ see https://en.wikipedia.org/wiki/BibTeX for the details.", {
 
 
 test_that("We expect BIBTEXKEYs to be of a structure lastnameyear, e. g. jakovlev1940", {
-  map(list.files("../data/orig_bib_tsv", full.names = TRUE), function(i){
+  list.files("../data/orig_bib_tsv", full.names = TRUE) |> 
+    map(function(i){
     read_tsv(i, show_col_types = FALSE, progress = FALSE) %>%
       mutate(filename = i,
              AUTHOR = as.character(AUTHOR),

@@ -41,7 +41,3 @@ names as in the `../data/contributers.xlsx`", {
                             list.files("../data/orig_rmd", pattern = "_map.Rmd"))), 
                sort(str_c(c(expected_texts, expected_mt), ".Rmd")))
 })
-
-
-sort(str_c(c(expected_texts, expected_mt), ".Rmd")) %in% sort(setdiff(list.files("../data/orig_rmd"),
-                                                                      list.files("../data/orig_rmd", pattern = "_map.Rmd")))
