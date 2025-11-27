@@ -58,8 +58,8 @@ Number can also be unmarked, as in Lezgian:
 (@three) Lezgian [@haspelmath1993: 249, 461]
   a.
 ```{r}
-gloss_example(transliteration = "aqːwaz, ja juldoš-ar za-qʰ jab aka-l",
-              glosses = "stop(IMP) PTC comrade-PL 1SG-POESS ear attach-IMP",
+gloss_example(transliteration = "aq\u0303waz, ja juldoš-ar za-qʰ jab akal-a",
+              glosses = "stop(IMP) PT comrade-PL {I}-POESS ear attach-IMPV",
               free_translation = "Stop, comrades, listen to me!")
 ```
   b.
