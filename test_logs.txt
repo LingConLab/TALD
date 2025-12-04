@@ -190,7 +190,6 @@ spelling of          yol        in farewell_wishes.Rmd:130
 spelling of          Alvani        in gender_agreement_in_nps_in_adjectives.Rmd:114,157
 spelling of          Zemo        in gender_agreement_in_nps_in_adjectives.Rmd:114,157
 spelling of          gu        in gender_agreement_slot_in_verb_forms.Rmd:108
-spelling of          morphophonological        in gender_agreement_slot_in_verb_forms.Rmd:5
 spelling of          adal        in gender_agreement_slot.Rmd:105
 spelling of          aj        in gender_agreement_slot.Rmd:148
 spelling of          gi        in gender_agreement_slot.Rmd:116

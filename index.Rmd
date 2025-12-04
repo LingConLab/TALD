@@ -6,9 +6,63 @@ output:
       in_header: ./html/header_index.html
 ---
 
-***
+```{r, include=FALSE}
+library(tidyverse)
 
-The languages of Daghestan have a long descriptive tradition. Available grammars contain a wealth of data which, however, have not been analyzed from an areal point of view. The goal of this project is to develop a tool for the visualization of information about linguistic structures characteristic of Daghestan. The Atlas is based almost exclusively on data from published grammars and dictionaries, and can therefore be used for bibliographical research and as a source of references on parameters of interest. A key task of the project is the creation of maps and visualizations that allow to combine metadata and genealogical parameters with information on a particular feature. This task presupposes the collection and evaluation of data from the available sources. Data from the Atlas can be used to formulate hypotheses about possible scenarios of the areal distribution of certain phenomena. The Atlas will also allow a wider audience to become familiar with the linguistic diversity of Daghestan.
+list.files("data/orig_table", full.names = TRUE) |> 
+  map(function(file){
+    read_tsv(file, show_col_types = FALSE) |> 
+      colnames() |> 
+      str_subset("feature")
+  }) |> 
+  unlist() |> 
+  length() ->
+  n_features
+
+list.files("data/orig_table", full.names = TRUE) |> 
+  map(function(file){
+    readxl::read_xlsx("data/contributors.xlsx", guess_max = 4000) |> 
+    filter(render == 1) |> 
+    rowwise() |> 
+    mutate(id_0 = sprintf(str_c("%0", nchar(max(id))+1, "d_"), id),
+           Chapter = str_c("- [",
+                           title,
+                           "](",
+                           str_c(id_0, filename),
+                           ".html)")) |> 
+    select(filename, Chapter) ->
+    features
+  
+  feature_dataset <- read_tsv(file, show_col_types = FALSE)
+  
+  feature_dataset |> 
+    select(str_which(colnames(feature_dataset), 'feature\\d{1,}$')) |> 
+    pivot_longer(cols = everything()) |> 
+    distinct() |>  
+    mutate(name = str_replace(name, 'feature', 'value')) ->
+    columns_rename
+  
+  feature_dataset |> 
+    select(language, idiom, matches("value\\d")) |> 
+    select(-matches("numeric")) |> 
+    rename_with(function(x){columns_rename$value[match(x, columns_rename$name)]}, matches('value\\d{1,}$')) |> 
+    select(-matches("value\\d{1,}\\_name")) |> 
+    mutate(across(everything(), as.character)) |> 
+    pivot_longer(names_to = "Feature", values_to = "Value", -c(language:idiom)) |> 
+    filter(!is.na(Value)) |> 
+    rename(Language=language, 
+           Idiom = idiom) |> 
+    mutate(filename = str_remove(file, "data/orig_table/"),
+           filename = str_remove(filename, ".tsv$")) |> 
+    left_join(features, by = join_by(filename)) |> 
+    select(Language, Idiom, Chapter)
+}) |> 
+  list_rbind() ->
+  our_data
+```
+
+
+The languages of Daghestan have a long descriptive tradition. Available grammars contain a wealth of data which, however, have not been analyzed from an areal point of view. The goal of this project is to develop a tool for the visualization of information about linguistic structures characteristic of Daghestan. The Atlas is based almost exclusively on data from published grammars and dictionaries, and can therefore be used for bibliographical research and as a source of references on parameters of interest. A key task of the project is the creation of maps and visualizations that allow to combine metadata and genealogical parameters with information on a particular feature. This task presupposes the collection and evaluation of data from the available sources. Data from the Atlas can be used to formulate hypotheses about possible scenarios of the areal distribution of certain phenomena. The Atlas will also allow a wider audience to become familiar with the linguistic diversity of Daghestan. The Atlas covers  `r our_data$Idiom |> unique() |> length()` idioms from `r our_data$Language |> unique() |> length()` languages via `r n_features` features organized into `our_data$Chapter |> unique() |> length()` chapters.
 
 ```{r, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, comment = '')
