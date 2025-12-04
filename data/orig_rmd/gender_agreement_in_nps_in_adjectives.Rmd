@@ -1,0 +1,169 @@
+## Introduction
+
+Genders (noun classes) are a known feature of many East Caucasian languages. In these languages, various parts of speech may show gender (class) agreement [@forker2018b]; [@ganenkov_maisak2021]. In adjectives, this is usually expressed by dedicated gender markers. This chapter is concerned specifically with adjectives showing agreement in noun phrases (as, for instance, predicate adjectives may behave differently).
+
+Our goal is to describe the strategies of adjectival agreement in noun phrases in East Caucasian languages and their distribution. 
+
+## Results
+
+In most East Caucasian languages, at least some adjectives in noun phrases show agreement via a gender marker, which may occupy various slots: the prefix, as in (@one), the suffix, as in (@two), or both the prefix and the suffix at the same time, as in (@three). Infix gender markers are also attested in some languages, for instance, in Gagatli Andi [@salimov2010: 119], but they are not discussed further in this chapter because they are quite rare.
+
+(@one) Ingush [@nichols2011: 220]
+  a.
+```{r echo=FALSE}
+gloss_example(transliteration = "v-oaqːa sag",
+              glosses = "V-big man(V)",
+              free_translation = "old man")
+```
+  b.
+```{r echo=FALSE}
+gloss_example(transliteration = "j-oaqːa jiʕig",
+              glosses = "J-big girl(J)",
+              free_translation = "big girl")
+```
+  c.
+```{r echo=FALSE}
+gloss_example(transliteration = "d-oaqːa žʕaliː",
+              glosses = "D-big dog(D)",
+              free_translation = "big dog")
+```
+  d.
+```{r echo=FALSE}
+gloss_example(transliteration = "b-oaqːa č’qeara",
+              glosses = "B-big fish(B)",
+              free_translation = "big fish")
+```
+  
+(@two) Kubachi Dargwa [@magometov1963: 131]
+  a.
+```{r echo=FALSE}
+gloss_example(transliteration = "ara-zi-w	adame",
+              glosses = "healthy-ATTR.SG-I	man(I)",
+              free_translation = "healthy man")
+```
+  b.
+```{r echo=FALSE}
+gloss_example(transliteration = "ara-zi-j xːunul",
+              glosses = "healthy-ATTR.SG-II woman(II)",
+              free_translation = "healthy woman")
+```
+  c.
+```{r echo=FALSE}
+gloss_example(transliteration = "ara-zi-b ħaːwan",
+              glosses = "healthy-ATTR.SG-III animal(III)",
+              free_translation = "healthy animal")
+```
+  
+(@three) Ratlub Akhvakh [@abdulaeva2001: 73]
+  a.
+```{r echo=FALSE}
+gloss_example(transliteration = "w-aχːada-w ek’wa",
+              glosses = "I-tall-I man(I)",
+              free_translation = "tall man")
+```
+  b.
+```{r echo=FALSE}
+gloss_example(transliteration = "j-aχːada-j ark’ːa",
+              glosses = "II-tall-II woman(II)",
+              free_translation = "tall woman")
+```
+  c.
+```{r echo=FALSE}
+gloss_example(transliteration = "b-aχːada-b ac’eƛʼːin",
+              glosses = "III-tall-III log(III)",
+              free_translation = "tall log")
+```
+  
+Another way by which adjectives may express gender agreement in noun phrases is attested, for instance, in Ikhrek Rutul, where the attributive suffix takes different forms depending on whether the noun belongs to genders I--III or to gender IV. This is illustrated by (@four): in (@four a), the noun belongs to gender I, and the adjective takes the attributive suffix *-dɨ*; in (@four b), on the other hand, the noun belongs to gender IV, and the adjective takes the attributive suffix *-d*.
+
+(@four) Ikhrek Rutul [@ibragimov1978: 210]
+  a.
+```{r echo=FALSE}
+gloss_example(transliteration = "bat’ra-dɨ gada",
+              glosses = "beautiful-ATTR.I_III guy(I)",
+              free_translation = "beautiful guy")
+```
+  b.
+```{r echo=FALSE}
+gloss_example(transliteration = "bat’ra-d baʁ",
+              glosses = "beautiful-ATTR.IV garden(IV)",
+              free_translation = "beautiful garden")
+```
+
+[Table 1](#t1) illustrates the number of idioms in which each of these strategies is attested.
+
+##### **Table 1.** Strategies of gender agreement in adjectives {#t1 -}
+
+| Strategy                                 | Suffix only | Prefix only | Both prefix and suffix | Attributive suffix |
+|------------------------------------------|-------------|-------------|------------------------|--------------------|
+| Number of idioms in which it is attested | 22          | 22          | 14                     | 3                  |
+
+Different adjectives in the same language may show different gender agreement strategies. For the purposes of this chapter, we consider a strategy attested if at least one adjective in the language shows this strategy. Interestingly, in every language where adjectives containing a prefixal and a suffixal gender marker at the same time are attested, adjectives with only suffixal markers are attested as well. The same cannot be said for prefixal gender markers – in some languages (for instance, in Standard Avar [@alekseevetal2012: 181]), adjectives bearing a gender prefix and a gender suffix at the same time are attested, but adjectives bearing only a gender prefix are not. Some languages, for instance, Godoberi [@kibriketal1996: 24], show all three of these strategies, with some adjectives bearing gender prefixes, some bearing gender suffixes, and some bearing both.
+
+In some languages, however, only one gender agreement strategy is attested. In the majority of such cases, this strategy is prefixal gender agreement. Only two languages show gender suffixes as the only strategy of adjectival agreement in NPs, namely, Kubachi Dargwa [@magometov1963: 131--132] and Standard Tabasaran (in which only two adjectives showing agreement in NPs are attested, while the majority of adjectives do not agree in NPs [@alekseevshixalieva2003: 48--49]).
+
+As a language may contain more than one adjectival gender agreement strategy, each strategy is shown on a separate map. Map 1 is dedicated to gender suffixes, Map 2 to gender prefixes, Map 3 to gender agreement expressed by both prefixes and suffixes at the same time, and Map 4 to the gender agreeing attributive suffixes mentioned earlier (see (4)).
+
+[Table 2](#t2) contains all the theoretically possible combinations of strategies and shows which of them are attested in East Caucasian languages. Map 5 is likewise dedicated to the combinations of strategies.
+
+##### **Table 2.** Possible combinations of strategies {#t2 -}
+
+| Number of strategies attested | Attested strategies                                     | Idioms                                                                                                                                                                            |
+|-------------------------------|---------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1                             | Suffix only                                             | Kubachi Dargwa (Dargwa), Standard Tabasaran (Lezgic)                                                                                                                              |
+| 1                             | Prefix only                                             | Andi proper (Andic), Bezhta, Hinuq, Hunzib, Kidero Tsez (Tsezic), Standard Chechen, Standard Ingush, Zemo-Alvani Tsova-Tush (Nakh), Itsari, Kaitag, Mehweb, Tanty Dargwa (Dargwa) |
+| 1                             | Both suffix and prefix                                  | Not attested                                                                                                                                                                      |
+| 1                             | Attributive suffix                                      | Not attested                                                                                                                                                                      |
+| 2                             | Suffix only, prefix only                                | Gagatli Andi, Rikvani Andi (Andic), Kwantlada Khwarshi (Tsezic), Standard Dargwa (Dargwa)                                                                                         |
+| 2                             | Suffix only, both suffix and prefix                     | Northern Akhvakh, Ratlub Akhvakh, Kvanada Bagvalal, Upper Gakvari Chamalal, Gadyri Chamalal, Karata, Tindi (Andic), Standard Avar, Zaqatala Avar (Avar), Archi (Lezgic)           |
+| 2                             | Prefix only, both suffix and prefix                     | Not attested                                                                                                                                                                      |
+| 2                             | Suffix only, attributive suffix                         | Borch-Khnov Rutul (Lezgic)                                                                                                                                                        |
+| 2                             | Prefix only, attributive suffix                         | Ikhrek Rutul (Lezgic)                                                                                                                                                             |
+| 2                             | Both suffix and prefix, attributive suffix              | Not attested                                                                                                                                                                      |
+| 3                             | Suffix only, prefix only, both suffix and prefix        | Botlikh, Gigatli Chamalal, Godoberi, (Andic), Standard Lak (Lak)                                                                                                                  |
+| 3                             | Suffix only, prefix only, attributive suffix            | Mishlesh Tsakhur (Lezgic)                                                                                                                                                         |
+| 3                             | Suffix only, both suffix and prefix, attributive suffix | Not attested                                                                                                                                                                      |
+| 3                             | Prefix only, both suffix and prefix, attributive suffix | Not attested                                                                                                                                                                      |
+| 4                             | All strategies                                          | Not attested                                                                                                                                                                      |
+
+Some grammars also contain information on the most common strategy of adjectival gender agreement. This is illustrated by Map 6. It is important to note that there are many languages in which some adjectives show agreement in noun phrases, but the majority of adjectives do not.
+
+The languages in which none of the agreement strategies are attested are not homogenous. Some of them, like Agul, Lezgian or Udi, lack gender agreement altogether, whereas in other languages gender agreement, while absent on adjectives in NPs, is attested elsewhere, for instance, in verbs (this is the case in Budukh, Kryz, and Khinalug, and possibly in some Rutul dialects. The very few agreeing adjectives in Mukhad Rutul are described as participles (see, for instance, [@maxmudova2001: 182]) and are not considered here further. For more information on gender agreement in verbs see [Class agreement slot in verb forms]). 
+
+## Distribution
+
+In general, genealogical signals (similar patterns among languages of the same branch) are observed, but variation within a branch is observed as well.
+
+The suffixal strategy is attested in all Avar-Andic languages in the sample with the exception of Andi proper. It is also observed in some Lezgic (Archi, Borch-Khnov Rutul, Tsakhur, Tabasaran), and some Dargwa languages (namely, Kubachi and Standard Dargwa), as well as in Standard Lak. The only Tsezic language to exhibit this strategy is Khwarshi, where it is associated with Avar loanwords (over half of all adjectives that show agreement in Khwarshi are of Avar origin and have suffixal gender markers; all the agreeing adjectives of Khwarshi origin, on the other hand, show prefixal gender markers [@khalilova2009: 99--100]).
+
+The prefixal strategy is attested in all Tsezic languages, and in all of them, with the exception of Khwarshi (as mentioned above), it is the only strategy. Similarly, this is the only strategy attested in Nakh languages. The prefixal strategy is also attested in some Andic (Andi, Gagatli, Rikvani Andi; Botlikh, Godoberi, Gigatli Chamalal), Lezgic (Tsakhur and Ikhrek Rutul), and Dargwa (Kaitag, Itsari, Tanty, Mehweb, and Standard Dargwa) languages, as well as in Standard Lak.
+
+Both prefixal and suffixal gender markers at the same time are attested in all Avar-Andic languages with the exception of Andi varieties (Andi proper, in which only the prefixal strategy is attested, as well as Rikvani and Gagatli Andi, in which adjectives may show agreement by means of a suffix only or a prefix only, but not both markers at the same time). Out of all Lezgic languages, they are only attested in Archi. They are also attested in Standard Lak.
+
+The attributive suffix strategy is only attested in West Lezgic languages, namely, in Tsakhur, as well as two Rutul dialects, Ikhrek and Borch-Khnov Rutul. Ibragimov [@-ibragimov1978: 69] and Authier [@-authier_ikhrek: 12] mention that this strategy existed but was lost in other Rutul dialects.
+
+The most common strategy in the majority of the languages in the sample is the absence of gender agreement on adjectives. At the same time, it is important to note that languages in which there is no gender agreement on adjectives at all constitute a minority among East Caucasian languages. This group is represented by the three Lezgic languages (Agul, Lezgian, and Udi) that lack gender agreement altogether, as well as the languages that show gender agreement, but not on adjectives, most of which are also Lezgic: Budukh, Kryz, and arguably three Rutul dialects. Other languages lacking gender agreement on adjectives are Khinalug and possibly Butri Dargwa. Note, however, that the latter was included in this group based on a comment in a grammar of a different Dargwa language (Kubachi Dargwa; [@magometov1963: 132]), so a degree of cautiousness is perhaps required.
+
+Nonetheless, in over half of all the East Caucasian languages in the sample, the number of adjectives that lack gender agreement is larger than the number of adjectives that show any of the other strategies. All of the languages of other language families included in the sample (Georgian, Azerbaijani, Kumyk, Nogai, Armenian, and Muslim Tat) lack gender agreement altogether.
+
+On the other hand, several languages show suffixal gender agreement as the most common strategy. These are Andic (Northern Akhvakh, Kvanada Bagvalal, Tindi) and Avar languages (Standard Avar, Zaqatala Avar), as well as Archi (Lezgic) and Kubachi Dargwa. Besides that, the attributive suffix strategy is used with the majority of adjectives in the languages where it is present (namely, Tsakhur and two Rutul dialects).
+
+[Table 3](#t3) summarizes the available information on the most common agreement strategies.
+
+##### **Table 3.** The most common strategies {#t3 -}
+
+| Most common strategy                     | Idioms                                                                                                                                                                                                               |
+|------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| No agreement (agreement in NPs attested) | Rikvani Andi, Botlikh, Godoberi (Andic), Bezhta, Hinuq, Hunzib, Kidero Tsez (Tsezic), Standard Chechen, Standard Ingush, Zemo-Alvani Tsova-Tush (Nakh), Standard Dargwa, Itsari Dargwa (Dargwa), Tabasaran (Lezgic)  |
+| No agreement (at all in the language)    | Agul, Lezgian, Udi (Lezgic); also Georgian, Azerbaijani, Kumyk, Nogai, Armenian, Muslim Tat                                                                                                                          |
+| No agreement (in NPs)                    | Budukh, Kryz, arguably Mukhad, Myukhrek, Shinaz Rutul (Lezgic), Khinalug, possibly Butri Dargwa                                                                                                                      |
+| Suffix                                   | Northern Akhvakh, Kvanada Bagvalal, Tindi (Andic), Standard Avar, Zaqatala Avar (Avar), Kubachi Dargwa (Dargwa), Archi (Lezgic)                                                                                      |
+| Attributive suffix                       | Ikhrek Rutul, Borch-Khnov Rutul, Mishlesh Tsakhur (Lezgic)                                                                                                                                                           |
+
+## List of glosses {-}
+
+```{r}
+make_gloss_list(readxl::read_xlsx("../glosses.xlsx"))
+```
+
+## References {-}

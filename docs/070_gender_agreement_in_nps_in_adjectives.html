@@ -1,0 +1,1188 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="Alina Khurges" />
+
+
+<title>Class agreement slot in adjectives</title>
+
+<script src="site_libs/header-attrs-2.30/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="site_libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="site_libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.5.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet" />
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+<style type="text/css">
+/* for pandoc --citeproc since 2.11 */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">TALD</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="./about.html">About</a>
+</li>
+<li>
+  <a href="./chapters.html">
+    <span class="fa fa-atlas"></span>
+     
+    Chapters
+  </a>
+</li>
+<li>
+  <a href="./languages.html">Languages</a>
+</li>
+<li>
+  <a href="./changes.html">Changes</a>
+</li>
+<li>
+  <a href="./references.html">References</a>
+</li>
+<li>
+  <a href="./team.html">Team</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Class agreement slot in adjectives</h1>
+<h4 class="author">Alina Khurges</h4>
+<h4 class="date">Last update: July 2025</h4>
+
+</div>
+
+
+<p>See <a href="070_gender_agreement_in_nps_in_adjectives_map.html">data
+and maps</a>.</p>
+<div id="section"
+class="section level1 tabset tabset-fade tabset-pills unnumbered">
+<h1 class="tabset tabset-fade tabset-pills unnumbered"></h1>
+<div id="plain-text" class="section level2 unnumbered hasAnchor">
+<h2 class="unnumbered hasAnchor">Plain text<a href="#plain-text"
+class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Khurges, Alina (2025). “Class agreement slot in adjectives”. In:
+<em>Typological Atlas of the Languages of Daghestan (TALD), v
+2.0.0</em>. Ed. by Michael Daniel, Konstantin Filatov, Timur Maisak,
+George Moroz, Timofey Mukhin, Chiara Naccarato and Samira Verhees.
+Moscow: Linguistic Convergence Laboratory, HSE University. DOI:
+10.5281/zenodo.6807070. <a href="https://lingconlab.ru/tald"
+class="uri">https://lingconlab.ru/tald</a>.</p>
+</div>
+<div id="bibtex" class="section level2 unnumbered hasAnchor">
+<h2 class="unnumbered hasAnchor">BibTeX<a href="#bibtex"
+class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<pre><code>@incollection{khurges2025,
+  title = {Class agreement slot in adjectives},
+  author = {Alina Khurges},
+  year = {2025},
+  editor = {Michael Daniel and Konstantin Filatov and Timur Maisak and George Moroz and Timofey Mukhin and Chiara Naccarato and Samira Verhees},
+  publisher = {Linguistic Convergence Laboratory, HSE University},
+  address = {Moscow},
+  booktitle = {Typological Atlas of the Languages of Daghestan (TALD), v 2.0.0},
+  url = {https://lingconlab.ru/tald},
+  doi = {10.5281/zenodo.6807070},
+}</code></pre>
+</div>
+</div>
+<div id="introduction" class="section level1 hasAnchor" number="1">
+<h1 class="hasAnchor"><span class="header-section-number">1</span>
+Introduction<a href="#introduction" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p>Genders (noun classes) are a known feature of many East Caucasian
+languages. In these languages, various parts of speech may show gender
+(class) agreement <span class="citation">(<a
+href="#ref-forker2018b">Forker 2018</a>)</span>; <span
+class="citation">(<a href="#ref-ganenkov_maisak2021">Ganenkov, Maisak
+2021</a>)</span>. In adjectives, this is usually expressed by dedicated
+gender markers. This chapter is concerned specifically with adjectives
+showing agreement in noun phrases (as, for instance, predicate
+adjectives may behave differently).</p>
+<p>Our goal is to describe the strategies of adjectival agreement in
+noun phrases in East Caucasian languages and their distribution.</p>
+</div>
+<div id="results" class="section level1 hasAnchor" number="2">
+<h1 class="hasAnchor"><span class="header-section-number">2</span>
+Results<a href="#results" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p>In most East Caucasian languages, at least some adjectives in noun
+phrases show agreement via a gender marker, which may occupy various
+slots: the prefix, as in (1), the suffix, as in (2), or both the prefix
+and the suffix at the same time, as in (3). Infix gender markers are
+also attested in some languages, for instance, in Gagatli Andi <span
+class="citation">(<a href="#ref-salimov2010">Salimov 2010</a>:
+119)</span>, but they are not discussed further in this chapter because
+they are quite rare.</p>
+<ol class="example" style="list-style-type: decimal">
+<li>Ingush <span class="citation">(<a href="#ref-nichols2011">Nichols
+2011</a>: 220)</span></li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>v-oaqːa</em>
+</td>
+<td style="text-align:left;">
+<em>sag</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps">v</span>-big
+</td>
+<td style="text-align:left;">
+man(<span class="smallcaps">v</span>)
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘old man’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>j-oaqːa</em>
+</td>
+<td style="text-align:left;">
+<em>jiʕig</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps">j</span>-big
+</td>
+<td style="text-align:left;">
+girl(<span class="smallcaps">j</span>)
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘big girl’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>d-oaqːa</em>
+</td>
+<td style="text-align:left;">
+<em>žʕaliː</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps">d</span>-big
+</td>
+<td style="text-align:left;">
+dog(<span class="smallcaps">d</span>)
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘big dog’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>b-oaqːa</em>
+</td>
+<td style="text-align:left;">
+<em>č’qeara</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps">b</span>-big
+</td>
+<td style="text-align:left;">
+fish(<span class="smallcaps">b</span>)
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘big fish’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<ol start="2" class="example" style="list-style-type: decimal">
+<li>Kubachi Dargwa <span class="citation">(<a
+href="#ref-magometov1963">Magometov 1963</a>: 131)</span></li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>ara-zi-w</em>
+</td>
+<td style="text-align:left;">
+<em>adame</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+healthy-<span class="smallcaps">attr</span>.<span
+class="smallcaps">sg</span>-<span class="smallcaps">i</span>
+</td>
+<td style="text-align:left;">
+man(<span class="smallcaps">i</span>)
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘healthy man’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>ara-zi-j</em>
+</td>
+<td style="text-align:left;">
+<em>xːunul</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+healthy-<span class="smallcaps">attr</span>.<span
+class="smallcaps">sg</span>-<span class="smallcaps">ii</span>
+</td>
+<td style="text-align:left;">
+woman(<span class="smallcaps">ii</span>)
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘healthy woman’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>ara-zi-b</em>
+</td>
+<td style="text-align:left;">
+<em>ħaːwan</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+healthy-<span class="smallcaps">attr</span>.<span
+class="smallcaps">sg</span>-<span class="smallcaps">iii</span>
+</td>
+<td style="text-align:left;">
+animal(<span class="smallcaps">iii</span>)
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘healthy animal’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<ol start="3" class="example" style="list-style-type: decimal">
+<li>Ratlub Akhvakh <span class="citation">(<a
+href="#ref-abdulaeva2001">Abdulaeva 2001</a>: 73)</span></li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>w-aχːada-w</em>
+</td>
+<td style="text-align:left;">
+<em>ek’wa</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps">i</span>-tall-<span class="smallcaps">i</span>
+</td>
+<td style="text-align:left;">
+man(<span class="smallcaps">i</span>)
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘tall man’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>j-aχːada-j</em>
+</td>
+<td style="text-align:left;">
+<em>ark’ːa</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps">ii</span>-tall-<span class="smallcaps">ii</span>
+</td>
+<td style="text-align:left;">
+woman(<span class="smallcaps">ii</span>)
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘tall woman’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>b-aχːada-b</em>
+</td>
+<td style="text-align:left;">
+<em>ac’eƛ’ːin</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps">iii</span>-tall-<span
+class="smallcaps">iii</span>
+</td>
+<td style="text-align:left;">
+log(<span class="smallcaps">iii</span>)
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘tall log’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>Another way by which adjectives may express gender agreement in noun
+phrases is attested, for instance, in Ikhrek Rutul, where the
+attributive suffix takes different forms depending on whether the noun
+belongs to genders I–III or to gender IV. This is illustrated by (4): in
+(4 a), the noun belongs to gender I, and the adjective takes the
+attributive suffix <em>-dɨ</em>; in (4 b), on the other hand, the noun
+belongs to gender IV, and the adjective takes the attributive suffix
+<em>-d</em>.</p>
+<ol start="4" class="example" style="list-style-type: decimal">
+<li>Ikhrek Rutul <span class="citation">(<a
+href="#ref-ibragimov1978">Ibragimov 1978</a>: 210)</span></li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>bat’ra-dɨ</em>
+</td>
+<td style="text-align:left;">
+<em>gada</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+beautiful-<span class="smallcaps">attr</span>.<span
+class="smallcaps">i_iii</span>
+</td>
+<td style="text-align:left;">
+guy(<span class="smallcaps">i</span>)
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘beautiful guy’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>bat’ra-d</em>
+</td>
+<td style="text-align:left;">
+<em>baʁ</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+beautiful-<span class="smallcaps">attr</span>.<span
+class="smallcaps">iv</span>
+</td>
+<td style="text-align:left;">
+garden(<span class="smallcaps">iv</span>)
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘beautiful garden’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p><a href="#t1">Table 1</a> illustrates the number of idioms in which
+each of these strategies is attested.</p>
+<div id="t1" class="section level4 unnumbered hasAnchor">
+<h4 class="unnumbered hasAnchor"><strong>Table 1.</strong> Strategies of
+gender agreement in adjectives<a href="#t1" class="anchor-section"
+aria-label="Anchor link to header"></a></h4>
+<table>
+<colgroup>
+<col width="37%" />
+<col width="11%" />
+<col width="11%" />
+<col width="21%" />
+<col width="17%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Strategy</th>
+<th>Suffix only</th>
+<th>Prefix only</th>
+<th>Both prefix and suffix</th>
+<th>Attributive suffix</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Number of idioms in which it is attested</td>
+<td>22</td>
+<td>22</td>
+<td>14</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+<p>Different adjectives in the same language may show different gender
+agreement strategies. For the purposes of this chapter, we consider a
+strategy attested if at least one adjective in the language shows this
+strategy. Interestingly, in every language where adjectives containing a
+prefixal and a suffixal gender marker at the same time are attested,
+adjectives with only suffixal markers are attested as well. The same
+cannot be said for prefixal gender markers – in some languages (for
+instance, in Standard Avar <span class="citation">(<a
+href="#ref-alekseevetal2012">Alekseev et al. 2012</a>: 181)</span>),
+adjectives bearing a gender prefix and a gender suffix at the same time
+are attested, but adjectives bearing only a gender prefix are not. Some
+languages, for instance, Godoberi <span class="citation">(<a
+href="#ref-kibriketal1996">Kibrik et al. 1996</a>: 24)</span>, show all
+three of these strategies, with some adjectives bearing gender prefixes,
+some bearing gender suffixes, and some bearing both.</p>
+<p>In some languages, however, only one gender agreement strategy is
+attested. In the majority of such cases, this strategy is prefixal
+gender agreement. Only two languages show gender suffixes as the only
+strategy of adjectival agreement in NPs, namely, Kubachi Dargwa <span
+class="citation">(<a href="#ref-magometov1963">Magometov 1963</a>:
+131–132)</span> and Standard Tabasaran (in which only two adjectives
+showing agreement in NPs are attested, while the majority of adjectives
+do not agree in NPs <span class="citation">(<a
+href="#ref-alekseevshixalieva2003">Alekseev, Šixalieva 2003</a>:
+48–49)</span>).</p>
+<p>As a language may contain more than one adjectival gender agreement
+strategy, each strategy is shown on a separate map. Map 1 is dedicated
+to gender suffixes, Map 2 to gender prefixes, Map 3 to gender agreement
+expressed by both prefixes and suffixes at the same time, and Map 4 to
+the gender agreeing attributive suffixes mentioned earlier (see
+(4)).</p>
+<p><a href="#t2">Table 2</a> contains all the theoretically possible
+combinations of strategies and shows which of them are attested in East
+Caucasian languages. Map 5 is likewise dedicated to the combinations of
+strategies.</p>
+</div>
+<div id="t2" class="section level4 unnumbered hasAnchor">
+<h4 class="unnumbered hasAnchor"><strong>Table 2.</strong> Possible
+combinations of strategies<a href="#t2" class="anchor-section"
+aria-label="Anchor link to header"></a></h4>
+<table>
+<colgroup>
+<col width="11%" />
+<col width="21%" />
+<col width="67%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Number of strategies attested</th>
+<th>Attested strategies</th>
+<th>Idioms</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Suffix only</td>
+<td>Kubachi Dargwa (Dargwa), Standard Tabasaran (Lezgic)</td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>Prefix only</td>
+<td>Andi proper (Andic), Bezhta, Hinuq, Hunzib, Kidero Tsez (Tsezic),
+Standard Chechen, Standard Ingush, Zemo-Alvani Tsova-Tush (Nakh),
+Itsari, Kaitag, Mehweb, Tanty Dargwa (Dargwa)</td>
+</tr>
+<tr class="odd">
+<td>1</td>
+<td>Both suffix and prefix</td>
+<td>Not attested</td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>Attributive suffix</td>
+<td>Not attested</td>
+</tr>
+<tr class="odd">
+<td>2</td>
+<td>Suffix only, prefix only</td>
+<td>Gagatli Andi, Rikvani Andi (Andic), Kwantlada Khwarshi (Tsezic),
+Standard Dargwa (Dargwa)</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Suffix only, both suffix and prefix</td>
+<td>Northern Akhvakh, Ratlub Akhvakh, Kvanada Bagvalal, Upper Gakvari
+Chamalal, Gadyri Chamalal, Karata, Tindi (Andic), Standard Avar,
+Zaqatala Avar (Avar), Archi (Lezgic)</td>
+</tr>
+<tr class="odd">
+<td>2</td>
+<td>Prefix only, both suffix and prefix</td>
+<td>Not attested</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Suffix only, attributive suffix</td>
+<td>Borch-Khnov Rutul (Lezgic)</td>
+</tr>
+<tr class="odd">
+<td>2</td>
+<td>Prefix only, attributive suffix</td>
+<td>Ikhrek Rutul (Lezgic)</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Both suffix and prefix, attributive suffix</td>
+<td>Not attested</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Suffix only, prefix only, both suffix and prefix</td>
+<td>Botlikh, Gigatli Chamalal, Godoberi, (Andic), Standard Lak
+(Lak)</td>
+</tr>
+<tr class="even">
+<td>3</td>
+<td>Suffix only, prefix only, attributive suffix</td>
+<td>Mishlesh Tsakhur (Lezgic)</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Suffix only, both suffix and prefix, attributive suffix</td>
+<td>Not attested</td>
+</tr>
+<tr class="even">
+<td>3</td>
+<td>Prefix only, both suffix and prefix, attributive suffix</td>
+<td>Not attested</td>
+</tr>
+<tr class="odd">
+<td>4</td>
+<td>All strategies</td>
+<td>Not attested</td>
+</tr>
+</tbody>
+</table>
+<p>Some grammars also contain information on the most common strategy of
+adjectival gender agreement. This is illustrated by Map 6. It is
+important to note that there are many languages in which some adjectives
+show agreement in noun phrases, but the majority of adjectives do
+not.</p>
+<p>The languages in which none of the agreement strategies are attested
+are not homogenous. Some of them, like Agul, Lezgian or Udi, lack gender
+agreement altogether, whereas in other languages gender agreement, while
+absent on adjectives in NPs, is attested elsewhere, for instance, in
+verbs (this is the case in Budukh, Kryz, and Khinalug, and possibly in
+some Rutul dialects. The very few agreeing adjectives in Mukhad Rutul
+are described as participles (see, for instance, <span
+class="citation">(<a href="#ref-maxmudova2001">Maxmudova 2001</a>:
+182)</span>) and are not considered here further. For more information
+on gender agreement in verbs see [Class agreement slot in verb
+forms]).</p>
+</div>
+</div>
+<div id="distribution" class="section level1 hasAnchor" number="3">
+<h1 class="hasAnchor"><span class="header-section-number">3</span>
+Distribution<a href="#distribution" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p>In general, genealogical signals (similar patterns among languages of
+the same branch) are observed, but variation within a branch is observed
+as well.</p>
+<p>The suffixal strategy is attested in all Avar-Andic languages in the
+sample with the exception of Andi proper. It is also observed in some
+Lezgic (Archi, Borch-Khnov Rutul, Tsakhur, Tabasaran), and some Dargwa
+languages (namely, Kubachi and Standard Dargwa), as well as in Standard
+Lak. The only Tsezic language to exhibit this strategy is Khwarshi,
+where it is associated with Avar loanwords (over half of all adjectives
+that show agreement in Khwarshi are of Avar origin and have suffixal
+gender markers; all the agreeing adjectives of Khwarshi origin, on the
+other hand, show prefixal gender markers <span class="citation">(<a
+href="#ref-khalilova2009">Khalilova 2009</a>: 99–100)</span>).</p>
+<p>The prefixal strategy is attested in all Tsezic languages, and in all
+of them, with the exception of Khwarshi (as mentioned above), it is the
+only strategy. Similarly, this is the only strategy attested in Nakh
+languages. The prefixal strategy is also attested in some Andic (Andi,
+Gagatli, Rikvani Andi; Botlikh, Godoberi, Gigatli Chamalal), Lezgic
+(Tsakhur and Ikhrek Rutul), and Dargwa (Kaitag, Itsari, Tanty, Mehweb,
+and Standard Dargwa) languages, as well as in Standard Lak.</p>
+<p>Both prefixal and suffixal gender markers at the same time are
+attested in all Avar-Andic languages with the exception of Andi
+varieties (Andi proper, in which only the prefixal strategy is attested,
+as well as Rikvani and Gagatli Andi, in which adjectives may show
+agreement by means of a suffix only or a prefix only, but not both
+markers at the same time). Out of all Lezgic languages, they are only
+attested in Archi. They are also attested in Standard Lak.</p>
+<p>The attributive suffix strategy is only attested in West Lezgic
+languages, namely, in Tsakhur, as well as two Rutul dialects, Ikhrek and
+Borch-Khnov Rutul. Ibragimov [@-ibragimov1978: 69] and Authier
+[@-authier_ikhrek: 12] mention that this strategy existed but was lost
+in other Rutul dialects.</p>
+<p>The most common strategy in the majority of the languages in the
+sample is the absence of gender agreement on adjectives. At the same
+time, it is important to note that languages in which there is no gender
+agreement on adjectives at all constitute a minority among East
+Caucasian languages. This group is represented by the three Lezgic
+languages (Agul, Lezgian, and Udi) that lack gender agreement
+altogether, as well as the languages that show gender agreement, but not
+on adjectives, most of which are also Lezgic: Budukh, Kryz, and arguably
+three Rutul dialects. Other languages lacking gender agreement on
+adjectives are Khinalug and possibly Butri Dargwa. Note, however, that
+the latter was included in this group based on a comment in a grammar of
+a different Dargwa language (Kubachi Dargwa; <span class="citation">(<a
+href="#ref-magometov1963">Magometov 1963</a>: 132)</span>), so a degree
+of cautiousness is perhaps required.</p>
+<p>Nonetheless, in over half of all the East Caucasian languages in the
+sample, the number of adjectives that lack gender agreement is larger
+than the number of adjectives that show any of the other strategies. All
+of the languages of other language families included in the sample
+(Georgian, Azerbaijani, Kumyk, Nogai, Armenian, and Muslim Tat) lack
+gender agreement altogether.</p>
+<p>On the other hand, several languages show suffixal gender agreement
+as the most common strategy. These are Andic (Northern Akhvakh, Kvanada
+Bagvalal, Tindi) and Avar languages (Standard Avar, Zaqatala Avar), as
+well as Archi (Lezgic) and Kubachi Dargwa. Besides that, the attributive
+suffix strategy is used with the majority of adjectives in the languages
+where it is present (namely, Tsakhur and two Rutul dialects).</p>
+<p><a href="#t3">Table 3</a> summarizes the available information on the
+most common agreement strategies.</p>
+<div id="t3" class="section level4 unnumbered hasAnchor">
+<h4 class="unnumbered hasAnchor"><strong>Table 3.</strong> The most
+common strategies<a href="#t3" class="anchor-section"
+aria-label="Anchor link to header"></a></h4>
+<table>
+<colgroup>
+<col width="16%" />
+<col width="83%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Most common strategy</th>
+<th>Idioms</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>No agreement (agreement in NPs attested)</td>
+<td>Rikvani Andi, Botlikh, Godoberi (Andic), Bezhta, Hinuq, Hunzib,
+Kidero Tsez (Tsezic), Standard Chechen, Standard Ingush, Zemo-Alvani
+Tsova-Tush (Nakh), Standard Dargwa, Itsari Dargwa (Dargwa), Tabasaran
+(Lezgic)</td>
+</tr>
+<tr class="even">
+<td>No agreement (at all in the language)</td>
+<td>Agul, Lezgian, Udi (Lezgic); also Georgian, Azerbaijani, Kumyk,
+Nogai, Armenian, Muslim Tat</td>
+</tr>
+<tr class="odd">
+<td>No agreement (in NPs)</td>
+<td>Budukh, Kryz, arguably Mukhad, Myukhrek, Shinaz Rutul (Lezgic),
+Khinalug, possibly Butri Dargwa</td>
+</tr>
+<tr class="even">
+<td>Suffix</td>
+<td>Northern Akhvakh, Kvanada Bagvalal, Tindi (Andic), Standard Avar,
+Zaqatala Avar (Avar), Kubachi Dargwa (Dargwa), Archi (Lezgic)</td>
+</tr>
+<tr class="odd">
+<td>Attributive suffix</td>
+<td>Ikhrek Rutul, Borch-Khnov Rutul, Mishlesh Tsakhur (Lezgic)</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="list-of-glosses" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">List of glosses<a
+href="#list-of-glosses" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p><span class="smallcaps">attr</span> — attributive; <span
+class="smallcaps">b</span> — gender B; <span
+class="smallcaps">d</span> — gender D; <span
+class="smallcaps">i</span> — class I; <span
+class="smallcaps">ii</span> — class II; <span
+class="smallcaps">iii</span> — class III; <span class="smallcaps"><span
+style="background-color:#00d5ff;">iiii</span></span> — ; <span
+class="smallcaps">iv</span> — class IV; <span
+class="smallcaps">j</span> — gender J; <span
+class="smallcaps">sg</span> — singular; <span
+class="smallcaps">v</span> — class V</p>
+</div>
+<div id="references" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">References<a href="#references"
+class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="refs" class="references csl-bib-body hanging-indent"
+line-spacing="2">
+<div id="ref-abdulaeva2001" class="csl-entry">
+Abdulaeva, Indira A. (2001). <em>Ratlubskij govor axvaxskogo jazyka:
+<span>F</span>onetika i morfologija [<span>R</span>atlub variety of
+<span>A</span>khvakh: <span>P</span>honetics and morphology]</em> (PhD
+thesis). Dagestanskij gosudarstvennyj pedagogičeskij universitet.
+</div>
+<div id="ref-alekseevetal2012" class="csl-entry">
+Alekseev, Mixail E., Ataev, Boris M., Magomedov, Magomed A., Magomedov,
+Magomed I., Madieva, Gjulʹžagan I., Saidova, Patimat A., Samedov,
+Džalilʹ S. (2012). <em>Sovremennyj avarskij jazyk
+[<span>C</span>ontemporary <span>A</span>var language]</em>.
+Makhachkala: Aleph.
+</div>
+<div id="ref-alekseevshixalieva2003" class="csl-entry">
+Alekseev, Mixail E., Šixalieva, Sabrina X. (2003). <em>Tabasaranskij
+jazyk [<span>T</span>abasaran]</em>. Moscow: Akademija.
+</div>
+<div id="ref-forker2018b" class="csl-entry">
+Forker, Diana. (2018). Gender agreement is different.
+<em>Linguistics</em>, <em>56</em>(4), 865–894.
+</div>
+<div id="ref-ganenkov_maisak2021" class="csl-entry">
+Ganenkov, Dmitry, Maisak, Timur. (2021). Nakh-<span>D</span>agestanian
+<span>L</span>anguages. In Maria Polinsky (Ed.), <em>The
+<span>O</span>xford <span>H</span>andbook of <span>L</span>anguages of
+the <span>C</span>aucasus</em> (pp. 86–145). Oxford: Oxford University
+Press.
+</div>
+<div id="ref-ibragimov1978" class="csl-entry">
+Ibragimov, Garun X. (1978). <em>Rutulʹskij jazyk
+[<span>R</span>utul]</em>. Moscow: Akademija Nauk SSSR.
+</div>
+<div id="ref-khalilova2009" class="csl-entry">
+Khalilova, Zaira. (2009). <em>A grammar of <span>K</span>hwarshi</em>
+(PhD thesis). University of Leiden.
+</div>
+<div id="ref-kibriketal1996" class="csl-entry">
+Kibrik, Alexandr, Tatevosov, Sergei, Eulenberg, Alexander (Eds.).
+(1996). <em>Godoberi</em>. Munich/Newcastle: Lincom Europa.
+</div>
+<div id="ref-magometov1963" class="csl-entry">
+Magometov, Aleksandr A. (1963). <em>Kubačinskij jazyk
+[<span>K</span>ubachi]</em>. Tbilisi: Akademija Nauk Gruzinskoj SSR.
+</div>
+<div id="ref-maxmudova2001" class="csl-entry">
+Maxmudova, Svetlana M. (2001). <em>Morfologija rutulʹskogo jazyka
+[<span>M</span>orphology of <span>R</span>utul]</em>. Moscow: Sovetskij
+pisatelʹ.
+</div>
+<div id="ref-nichols2011" class="csl-entry">
+Nichols, Johanna. (2011). <em>Ingush grammar</em>. Berkeley/Los Angeles:
+University of California Press.
+</div>
+<div id="ref-salimov2010" class="csl-entry">
+Salimov, Xangerej S. (2010). <em>Gagatlinskij govor andijskogo jazyka
+[<span>T</span>he <span>G</span>agatli dialect of
+<span>A</span>ndi]</em>. Makhachkala: IJaLI.
+</div>
+</div>
+</div>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+</head>
+
+<body>
+    <div class="footer-basic">
+        <footer>
+            
+            <div class='lic'><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br /><i>Typological Atlas of the languages of Daghestan </i> (<i>TALD</i>) is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0 International License</a>.
+            <div class="social"><a href="https://github.com/LingConLab/TALD" target="_blank"><span class="iconify" data-icon="octicon:logo-github-16"></span></a></div>
+            </div>
+            
+            <p class="copyright">2020<script>new Date().getFullYear()>2020&&document.write("-"+new Date().getFullYear());</script>,  Linguistic Convergence Laboratory, HSE University</p>
+        </footer>
+    </div>
+    <script type="text/javascript" src="./js/links.js"></script> <!--это чтобы ссылки открывались в новом окне -->
+</body>
+
+</html>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

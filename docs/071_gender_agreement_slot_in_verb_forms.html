@@ -1,0 +1,1360 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="Ivan Olkhov" />
+
+
+<title>Class agreement slot in verb forms</title>
+
+<script src="site_libs/header-attrs-2.30/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="site_libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="site_libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.5.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet" />
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+<style type="text/css">
+/* for pandoc --citeproc since 2.11 */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">TALD</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="./about.html">About</a>
+</li>
+<li>
+  <a href="./chapters.html">
+    <span class="fa fa-atlas"></span>
+     
+    Chapters
+  </a>
+</li>
+<li>
+  <a href="./languages.html">Languages</a>
+</li>
+<li>
+  <a href="./changes.html">Changes</a>
+</li>
+<li>
+  <a href="./references.html">References</a>
+</li>
+<li>
+  <a href="./team.html">Team</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Class agreement slot in verb forms</h1>
+<h4 class="author">Ivan Olkhov</h4>
+<h4 class="date">Last update: July 2025</h4>
+
+</div>
+
+
+<p>See <a href="071_gender_agreement_slot_in_verb_forms_map.html">data
+and maps</a>.</p>
+<div id="section"
+class="section level1 tabset tabset-fade tabset-pills unnumbered">
+<h1 class="tabset tabset-fade tabset-pills unnumbered"></h1>
+<div id="plain-text" class="section level2 unnumbered hasAnchor">
+<h2 class="unnumbered hasAnchor">Plain text<a href="#plain-text"
+class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Olkhov, Ivan (2024). “Class agreement slot in verb forms”. In:
+<em>Typological Atlas of the Languages of Daghestan (TALD), v
+2.0.0</em>. Ed. by Michael Daniel, Konstantin Filatov, Timur Maisak,
+George Moroz, Timofey Mukhin, Chiara Naccarato and Samira Verhees.
+Moscow: Linguistic Convergence Laboratory, HSE University. DOI:
+10.5281/zenodo.6807070. <a href="https://lingconlab.ru/tald"
+class="uri">https://lingconlab.ru/tald</a>.</p>
+</div>
+<div id="bibtex" class="section level2 unnumbered hasAnchor">
+<h2 class="unnumbered hasAnchor">BibTeX<a href="#bibtex"
+class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<pre><code>@incollection{olkhov2024,
+  title = {Class agreement slot in verb forms},
+  author = {Ivan Olkhov},
+  year = {2024},
+  editor = {Michael Daniel and Konstantin Filatov and Timur Maisak and George Moroz and Timofey Mukhin and Chiara Naccarato and Samira Verhees},
+  publisher = {Linguistic Convergence Laboratory, HSE University},
+  address = {Moscow},
+  booktitle = {Typological Atlas of the Languages of Daghestan (TALD), v 2.0.0},
+  url = {https://lingconlab.ru/tald},
+  doi = {10.5281/zenodo.6807070},
+}</code></pre>
+</div>
+</div>
+<div id="introduction" class="section level1 hasAnchor" number="1">
+<h1 class="hasAnchor"><span class="header-section-number">1</span>
+Introduction<a href="#introduction" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p>Noun classes are a distinctive feature of East Caucasian and, as
+such, are present in the vast majority of the family’s languages. The
+number of classes varies greatly among languages, ranging from 2 in
+standard Tabasaran <span class="citation">(<a
+href="#ref-babaliyeva2023_tabasaran">Babaliyeva 2023</a>: 5)</span> to 8
+in Tsova-Tush <span class="citation">(<a
+href="#ref-desheriev1953">Desheriev 1953</a>: 136)</span>, excluding Udi
+and Lezgian which lack noun class systems.</p>
+<p>Usually the classes are covert on the nouns themselves and are
+expressed through agreement. An example of a noun class agreement marker
+system, taken from <span class="citation">(<a
+href="#ref-magomedbekova1971">Magomedbekova 1971</a>: 41)</span>, is
+presented in <a href="#t1">Table 1</a>. In some cases, the vowel which
+follows the prefix in a verb root may also change depending on the
+class; these vowels, however, are usually not regarded as being part of
+the markers, and the changes occur simply due to morphophonological
+processes.</p>
+<div id="t1" class="section level4 unnumbered hasAnchor">
+<h4 class="unnumbered hasAnchor"><strong>Table 1.</strong> Class
+agreement suffixes in Karata<a href="#t1" class="anchor-section"
+aria-label="Anchor link to header"></a></h4>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+<tr>
+<th class="tg-0lax">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Class</span>
+</th>
+<th class="tg-0lax">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">SG</span>
+</th>
+<th class="tg-0lax">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">PL</span>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tg-0lax">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">I</span>
+</td>
+<td class="tg-0lax">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">w-</span>
+</td>
+<td class="tg-0lax" rowspan="2">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">b-</span>
+</td>
+</tr>
+<tr>
+<td class="tg-0lax">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">II</span>
+</td>
+<td class="tg-0lax">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">j-</span>
+</td>
+</tr>
+<tr>
+<td class="tg-0lax">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">III</span>
+</td>
+<td class="tg-0lax">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">b-</span>
+</td>
+<td class="tg-0lax">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">r-</span>
+</td>
+</tr>
+</tbody>
+</table>
+<p>The verb is one of the word classes that mark class agreement (which
+is normally with the S/P argument), usually in the form of a class
+agreement prefix. However, in many of the languages verb agreement seems
+to be in decline, and only some verbs take agreement while others do
+not. This is a typologically rare phenomenon which is known as
+<em>sporadic agreement</em> <span class="citation">(<a
+href="#ref-fedden2019">Fedden 2019</a>)</span>.</p>
+<p>The aim of this chapter is to describe the distribution of class
+agreement on verbs across the East Caucasian family, as well as to
+identify the different positions a class agreement slot can occupy in a
+verb form.</p>
+</div>
+</div>
+<div id="results" class="section level1 hasAnchor" number="2">
+<h1 class="hasAnchor"><span class="header-section-number">2</span>
+Results<a href="#results" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p>All of the languages that have retained verb agreement express it
+mainly using class agreement prefixes, which are the basic form of a
+class agreement marker:</p>
+<ol class="example" style="list-style-type: decimal">
+<li>Bezhta <span class="citation">(<a href="#ref-madieva1965">Madieva
+1965</a>: 116)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>šugošova</em>
+</td>
+<td style="text-align:left;">
+<em>boχ</em>
+</td>
+<td style="text-align:left;">
+<em><strong>j</strong>-ũqča</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+horse.<span class="smallcaps">erg</span>
+</td>
+<td style="text-align:left;">
+grass(<span class="smallcaps">iv</span>)
+</td>
+<td style="text-align:left;">
+<span class="smallcaps"><strong>iv</strong></span>-eat
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘The horse eats hay.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>Many verbs that lack agreement still feature class prefixes, although
+in a fossilized form; in other verbs the prefix seems to be completely
+absent. Thus, prefixes are present in some form in all of the
+languages.</p>
+<p>In some languages, the absence of class prefixes in certain verbs is
+explained by phonotactic constraints — only roots that synchronically
+appear to be vowel-initial contain agreement slots. This is the case,
+for example, in Itsari Dargwa <span class="citation">(<a
+href="#ref-sumbatovamutalov2003">Sumbatova, Mutalov 2003</a>: 60)</span>
+and Hinuq <span class="citation">(<a href="#ref-forker2013">Forker
+2013</a>: 188)</span>. Even in such cases, however, not all
+vowel-initial roots may have agreement prefixes. In idioms where the
+distribution of slots among different roots can not be explained by
+phonotactics, the factors at play are less clear.</p>
+<p>Sometimes, due to various historical processes, markers that would
+normally be prefixal take the infixal position instead:</p>
+<ol start="2" class="example" style="list-style-type: decimal">
+<li>Archi <span class="citation">(<a href="#ref-kibrik1977">Kibrik
+1977</a>: 81)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>da‹<strong>b</strong>›xir</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+‹<strong>III</strong>›beat
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘to beat (something belonging to the 3rd class)’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>We regard both prefixes and infixes as agreement of the verb root.
+However, in a number of languages agreement slots are also found outside
+of the root, usually only in certain verb forms (not counting
+participles, which have agreement suffixes in most of the languages).
+The most frequent non-root slot is that of a suffix:</p>
+<ol start="3" class="example" style="list-style-type: decimal">
+<li>Northern Akhvakh <span class="citation">(<a
+href="#ref-magomedbekova1967">Magomedbekova 1967</a>: 80)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>dede</em>
+</td>
+<td style="text-align:left;">
+<em><strong>w</strong>-oxe-d-<strong>o</strong></em>
+</td>
+<td style="text-align:left;">
+<em>waša</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<span class="smallcaps">i</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps"><strong>i</strong></span>-take-<span
+class="smallcaps">1sg</span>-<span
+class="smallcaps"><strong>i</strong></span>
+</td>
+<td style="text-align:left;">
+boy
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘I took a boy.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>In this Northern Akhvakh example, the verb agreement with the word
+<em>waša</em> ‘boy’, which belongs to the first class, is expressed
+through both a class prefix and a class suffix. The latter takes on the
+form of a vowel yet acts like a normal class agreement marker; it
+appears in first person forms (while the person agreement is with the
+S/A argument, the class suffix still agrees with the S/P one).</p>
+<p>In some cases, suffixes may function differently from prefixes. For
+example, in Kubachi the prefix always agrees with the S/P argument. The
+suffix, however, may agree with the A Argument; the choice of controller
+thus affects the voice of the verb (compare (4a), where the suffix
+agrees with the A argument, and (4b), where both the prefix and the
+suffix agree with the S argument):</p>
+<ol start="4" class="example" style="list-style-type: decimal">
+<li>Kubachi <span class="citation">(<a
+href="#ref-magometov1963">Magometov 1963</a>: 153)</span>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>tukančildil</em>
+</td>
+<td style="text-align:left;">
+<em>mas</em>
+</td>
+<td style="text-align:left;">
+<em><strong>b</strong>-iːsulsa-<strong>w</strong></em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+seller
+</td>
+<td style="text-align:left;">
+fabric
+</td>
+<td style="text-align:left;">
+<strong>iii</strong>-sell-<span
+class="smallcaps"><strong>i</strong></span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘A seller sells fabric.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>ijal</em>
+</td>
+<td style="text-align:left;">
+<em>waxle</em>
+</td>
+<td style="text-align:left;">
+<em>mas</em>
+</td>
+<td style="text-align:left;">
+<em><strong>b</strong>-iːsulsa-<strong>b</strong></em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+today
+</td>
+<td style="text-align:left;">
+well
+</td>
+<td style="text-align:left;">
+fabric
+</td>
+<td style="text-align:left;">
+<strong>iii</strong>-sell-<strong>iii</strong>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Fabric sells well today.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol></li>
+</ol>
+<p>The other type of non-root agreement slots is that of an agreeing
+preverb, attested in languages of the Dargwa group as well as in
+Tsakhur:</p>
+<ol start="5" class="example" style="list-style-type: decimal">
+<li>Tanty <span class="citation">(<a
+href="#ref-sumbatovalander2014">Sumbatova, Lander 2014</a>: 169)</span>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; ">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>q˳aj-te</em>
+</td>
+<td style="text-align:left;">
+<em>χː˳ala-te</em>
+</td>
+<td style="text-align:left;">
+<em>dali</em>
+</td>
+<td style="text-align:left;">
+<em>ka-d=irxː-u-le</em>
+</td>
+<td style="text-align:left;">
+<em>dimʡaˁn-te</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+massive-<span class="smallcaps">atr</span>.<span
+class="smallcaps">pl</span>
+</td>
+<td style="text-align:left;">
+big-<span class="smallcaps">atr</span>.<span class="smallcaps">pl</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">1sg</span>:<span class="smallcaps">erg</span>
+</td>
+<td style="text-align:left;">
+down-<span class="smallcaps">npl</span>=put:<span
+class="smallcaps">ipf</span>-<span class="smallcaps">prs</span>-<span
+class="smallcaps">conv</span>
+</td>
+<td style="text-align:left;">
+small-<span class="smallcaps">atr</span>.<span
+class="smallcaps">pl</span>
+</td>
+</tr>
+</tbody>
+</table>
+<table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em><strong>gu=d</strong>-d=urkː-u-le</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+<strong>under=<span style="font-variant:small-caps;">npl</strong></span>-<span
+class="smallcaps">npl</span>=find:<span
+class="smallcaps">ipf</span>-<span class="smallcaps">prs</span>-<span
+class="smallcaps">conv</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Big ones (money) I put (under the pillow) — small ones I
+find.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>In the example above, the verb <em>b=arkː-</em> ‘to find’, which
+itself has root agreement, is used with the locative preverb
+<em>gu=b-</em> ‘under’, which contains a gender agreement slot as
+well.</p>
+</div>
+<div id="distribution" class="section level1 hasAnchor" number="3">
+<h1 class="hasAnchor"><span class="header-section-number">3</span>
+Distribution<a href="#distribution" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p>Data on the exact proportion of agreeing verbs (in regards to type
+frequency, i.e. numbers of verb lexemes which have root agreement) in
+certain languages are rarely found in the literature. If any estimates
+are given in a grammar, they are usually rather broad. Thus, the
+available data are incomplete, although an overall trend can still be
+described.</p>
+<p>As it has been noted numerous times by different authors (for
+example, <span class="citation">(<a href="#ref-talibov2007">Talibov
+2007</a>: 186)</span>), a tendency to lose gender agreement is present
+across the entire East Caucasian family. Indeed, the only languages that
+have seemingly retained agreement on nearly all verbs (except for some
+stative ones) are Rutul and Tsakhur, both of which are Lezgic.</p>
+<p>In a number of languages (6 in our sample<a href="#fn1"
+class="footnote-ref" id="fnref1"><sup>1</sup></a>), the majority of
+verbs are agreeing. In Hunzib, about half of all verbs have agreement.
+Among the aforementioned idioms (including those in which all verbs
+agree) are those belonging to the Lezgic, Dargwa, Tsezic, and Nakh
+branches of the family.</p>
+<p>In Hinuq and Chechen, about a third of verbs agree. In the other
+languages for which data are available (7 in our sample), the majority
+of verbs lack agreement. Agul, Udi and Lezgian, as well as the Khiv
+dialect of Tabasaran, have lost verb agreement completely, with Udi and
+Lezgian lacking a noun gender system altogether; all 4 of these idioms
+belong to the Lezgic branch.</p>
+<p>A notable case is Tsova-Tush: as stated in <span class="citation">(<a
+href="#ref-harris2009">Harris 2009</a>: 298)</span>, 74.47% of verb
+lexemes have an agreement slot, but only 21.53% of verb lexemes have one
+in the root. Such a big difference in the numbers is due to the fact
+that certain derivational suffixes (producing intransitive verbs from
+transitive ones and vice versa) that contain an agreement slot are
+highly productive in Tsova-Tush, often combining with roots that lack
+agreement.</p>
+<p><a href="#t2">Table 2</a> lists the languages for which data on root
+agreement frequencies are available, and <a href="#m1">Map 1</a> shows
+these languages on the map. There seems to be no clear genealogical or
+areal correlation between the different groups of languages in regards
+to proportion of agreeing verbs.</p>
+<div id="t2" class="section level4 unnumbered hasAnchor">
+<h4 class="unnumbered hasAnchor"><strong>Table 2.</strong> Type
+frequency of verb root agreement<a href="#t2" class="anchor-section"
+aria-label="Anchor link to header"></a></h4>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+<tr>
+<th class="tg-0lax">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Percentage
+of agreeing verbs</span>
+</th>
+<th class="tg-0lax">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Branch</span>
+</th>
+<th class="tg-0lax">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Language</span>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tg-0lax">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">all</span>
+</td>
+<td class="tg-0lax" rowspan="4">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Lezgic</span>
+</td>
+<td class="tg-0lax">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Rutul</span>
+</td>
+</tr>
+<tr>
+<td class="tg-0lax" rowspan="6">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">majority</span>
+</td>
+<td class="tg-0lax">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Tsakhur</span>
+</td>
+</tr>
+<tr>
+<td class="tg-0lax">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Budukh</span>
+</td>
+</tr>
+<tr>
+<td class="tg-0lax">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Kryz</span>
+</td>
+</tr>
+<tr>
+<td class="tg-0lax" rowspan="3">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Dargwa</span>
+</td>
+<td class="tg-0lax">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Itsari</span>
+</td>
+</tr>
+<tr>
+<td class="tg-0lax">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Mehweb</span>
+</td>
+</tr>
+<tr>
+<td class="tg-0lax">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Tanty</span>
+</td>
+</tr>
+<tr>
+<td class="tg-0lax">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">about
+half</span>
+</td>
+<td class="tg-0lax">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Tsezic</span>
+</td>
+<td class="tg-0lax">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Hunzib</span>
+</td>
+</tr>
+<tr>
+<td class="tg-0lax" rowspan="2">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">about
+a third</span>
+</td>
+<td class="tg-0lax">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Nakh</span>
+</td>
+<td class="tg-0lax">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Chechen</span>
+</td>
+</tr>
+<tr>
+<td class="tg-0lax" rowspan="4">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Tsezic</span>
+</td>
+<td class="tg-0lax">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Hinuq</span>
+</td>
+</tr>
+<tr>
+<td class="tg-0lax" rowspan="7">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">minority</span>
+</td>
+<td class="tg-0lax">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Bezhta</span>
+</td>
+</tr>
+<tr>
+<td class="tg-0lax">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Khwarshi</span>
+</td>
+</tr>
+<tr>
+<td class="tg-0lax">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Tsez</span>
+</td>
+</tr>
+<tr>
+<td class="tg-0lax" rowspan="2">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Andic</span>
+</td>
+<td class="tg-0lax">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Botlikh</span>
+</td>
+</tr>
+<tr>
+<td class="tg-0lax">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Godoberi</span>
+</td>
+</tr>
+<tr>
+<td class="tg-0lax">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Khinalug</span>
+</td>
+<td class="tg-0lax">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Khinalug</span>
+</td>
+</tr>
+<tr>
+<td class="tg-0lax">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Nakh</span>
+</td>
+<td class="tg-0lax">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Ingush</span>
+</td>
+</tr>
+<tr>
+<td class="tg-0lax" rowspan="2">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">none</span>
+</td>
+<td class="tg-0lax" rowspan="4">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Lezgic</span>
+</td>
+<td class="tg-0lax">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Khiv
+Tabasaran</span>
+</td>
+</tr>
+<tr>
+<td class="tg-0lax">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Udi</span>
+</td>
+</tr>
+<tr>
+<td class="tg-0lax" rowspan="2">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">not
+applicable</span>
+</td>
+<td class="tg-0lax">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Agul</span>
+</td>
+</tr>
+<tr>
+<td class="tg-0lax">
+<span
+style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Lezgian</span>
+</td>
+</tr>
+</tbody>
+</table>
+<p>As for non-root verb agreement, it is found in a relatively small
+number of languages. Class agreement suffixes are attested in Avar and
+three Andic languages, as well as two languages of the Dargwa group,
+three belonging to the Nakh and Lezgic branches, and Khinalug. It must
+be noted that only finite forms were considered, as, for example,
+agreement suffixes on participles are rather common.</p>
+<p>Preverbs with class agreement slots are found in all of the languages
+of the Dargwa group in the sample, as well as in Tsakhur which belongs
+to the Lezgic branch. Only Kubachi and Standard Dargwa have both class
+agreement suffixes and agreeing preverbs.</p>
+<p>Overall, non-root class agreement is found in 14 languages, which are
+listed in <a href="#t3">Table 3</a> and shown on the map in <a
+href="#m2">Map 2</a>. They constitute a little over a third of all the
+East Caucasian languages in our sample.</p>
+<p>Class agreement suffixes are more common, appearing in several
+branches of the family, while agreeing preverbs are limited to Dargwa
+with the exception of Tsakhur.</p>
+</div>
+<div id="t3" class="section level4 unnumbered hasAnchor">
+<h4 class="unnumbered hasAnchor"><strong>Table 3.</strong> Languages
+that have non-root agreement slots<a href="#t3" class="anchor-section"
+aria-label="Anchor link to header"></a></h4>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+<tr>
+<th class="tg-0pky">
+Slot type
+</th>
+<th class="tg-0pky">
+Branch
+</th>
+<th class="tg-0pky">
+Language
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tg-0pky" rowspan="8">
+Suffix
+</td>
+<td class="tg-0pky" rowspan="3">
+Andic
+</td>
+<td class="tg-0pky">
+Northern Akhvakh
+</td>
+</tr>
+<tr>
+<td class="tg-0pky">
+Bagvalal
+</td>
+</tr>
+<tr>
+<td class="tg-0pky">
+Tindi
+</td>
+</tr>
+<tr>
+<td class="tg-0pky">
+Avar
+</td>
+<td class="tg-0pky">
+Avar
+</td>
+</tr>
+<tr>
+<td class="tg-0pky" rowspan="2">
+Nakh
+</td>
+<td class="tg-0pky">
+Ingush
+</td>
+</tr>
+<tr>
+<td class="tg-0pky">
+Tsova-Tush
+</td>
+</tr>
+<tr>
+<td class="tg-0pky">
+Khinalug
+</td>
+<td class="tg-0pky">
+Khinalug
+</td>
+</tr>
+<tr>
+<td class="tg-0pky">
+Lezgic
+</td>
+<td class="tg-0pky">
+Rutul
+</td>
+</tr>
+<tr>
+<td class="tg-0pky" rowspan="2">
+Preverb and suffix
+</td>
+<td class="tg-0pky" rowspan="8">
+Dargwa
+</td>
+<td class="tg-0pky">
+Standard Dargwa
+</td>
+</tr>
+<tr>
+<td class="tg-0pky">
+Kubachi
+</td>
+</tr>
+<tr>
+<td class="tg-0pky" rowspan="7">
+Preverb
+</td>
+<td class="tg-0pky">
+Akusha
+</td>
+</tr>
+<tr>
+<td class="tg-0pky">
+Chirag
+</td>
+</tr>
+<tr>
+<td class="tg-0pky">
+Itsari
+</td>
+</tr>
+<tr>
+<td class="tg-0pky">
+Kaitag
+</td>
+</tr>
+<tr>
+<td class="tg-0pky">
+Mehweb
+</td>
+</tr>
+<tr>
+<td class="tg-0pky">
+Tanty
+</td>
+</tr>
+<tr>
+<td class="tg-0pky">
+Lezgic
+</td>
+<td class="tg-0pky">
+Tsakhur
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="list-of-glosses" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">List of glosses<a
+href="#list-of-glosses" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p><span class="smallcaps">1sg</span> — first person singular; <span
+class="smallcaps">atr</span> — attributive; <span
+class="smallcaps">conv</span> — converb; <span
+class="smallcaps">erg</span> — ergative; <span
+class="smallcaps">i</span> — class I; <span
+class="smallcaps">ipf</span> — imperfective; <span
+class="smallcaps">iv</span> — class IV; <span
+class="smallcaps">npl</span> — non-human plural; <span
+class="smallcaps">pl</span> — plural; <span
+class="smallcaps">prs</span> — present</p>
+</div>
+<div id="references" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">References<a href="#references"
+class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="refs" class="references csl-bib-body hanging-indent"
+line-spacing="2">
+<div id="ref-babaliyeva2023_tabasaran" class="csl-entry">
+Babaliyeva, Ayten. (2023). Standard <span>T</span>abasaran: Short
+grammar sketch. <em>Languages of the Caucasus</em>, <em>6</em>(1).
+</div>
+<div id="ref-bokarev1949a" class="csl-entry">
+Bokarëv, Anatolij A. (1949). <em>Očerk grammatiki čamalinskogo jazyka
+[<span>G</span>rammar sketch of <span>C</span>hamalal]</em>.
+Moscow/Leningrad: Izdatelʹstvo Akademii nauk SSSR.
+</div>
+<div id="ref-desheriev1953" class="csl-entry">
+Desheriev, Yunus D. (1953). <em>Bacbijskij jazyk
+[<span>T</span>sova-<span>T</span>ush language]</em>. Moscow: Akademija.
+</div>
+<div id="ref-fedden2019" class="csl-entry">
+Fedden, Sebastian. (2019). To <span>A</span>gree or <span>N</span>ot to
+<span>A</span>gree? <span>A</span> <span>T</span>ypology of
+<span>S</span>poradic <span>A</span>greement. Edinburgh: Edinburgh
+University Press.
+</div>
+<div id="ref-forker2013" class="csl-entry">
+Forker, Diana. (2013). <em>A grammar of <span>H</span>inuq</em>.
+Berlin/Boston: De Gruyter Mouton.
+</div>
+<div id="ref-harris2009" class="csl-entry">
+Harris, Alice. (2009). Exuberant <span>E</span>xponence in
+<span>B</span>atsbi. <em>Natural Language and Linguistic Theory</em>,
+<em>27</em>.
+</div>
+<div id="ref-kibrik1977" class="csl-entry">
+Kibrik, Aleksandr E. (1977). <em>Opyt strukturnogo opisanija arčinskogo
+jazyka. <span>T</span>om <span>II</span>. <span>T</span>aksonomičeskaja
+grammatika [<span>S</span>tructural description of <span>A</span>rchi.
+<span>V</span>olume <span>I</span>i. <span>T</span>axonomic
+grammar]</em>. Moscow: Izdatelʹstvo Moskovskogo universiteta.
+</div>
+<div id="ref-kibrikkodzasov1988" class="csl-entry">
+Kibrik, Aleksandr E., Kodzasov, Sandro V. (1988). <em>Sopostavitelʹnoe
+izučenie dagestanskix jazykov. <span>G</span>lagol [<span>A</span>
+comparative study of <span>D</span>aghestanian languages.
+<span>V</span>erb]</em>. Moscow: Izdatelʹstvo Moskovskogo Universiteta.
+</div>
+<div id="ref-madieva1965" class="csl-entry">
+Madieva, Gjulʹšaxan I. (1965). <em>Grammatičeskij očerk bežtinskogo
+jazyka [<span>G</span>rammatical profile of <span>B</span>ezhta]</em>.
+Makhachkala: DGU.
+</div>
+<div id="ref-magomedbekova1967" class="csl-entry">
+Magomedbekova, Zagidat M. (1967). <em>Axvaxskij jazyk
+[<span>A</span>khvakh]</em>. Tbilisi: Mecniereba.
+</div>
+<div id="ref-magomedbekova1971" class="csl-entry">
+Magomedbekova, Zagidat M. (1971). <em>Karatinskij jazyk
+[<span>K</span>arata]</em>. Tbilisi: Mecniereba.
+</div>
+<div id="ref-magometov1963" class="csl-entry">
+Magometov, Aleksandr A. (1963). <em>Kubačinskij jazyk
+[<span>K</span>ubachi]</em>. Tbilisi: Akademija Nauk Gruzinskoj SSR.
+</div>
+<div id="ref-sumbatovalander2014" class="csl-entry">
+Sumbatova, Nina R., Lander, Yury A. (2014). <em>Darginskij govor
+selenija <span>T</span>anty: Grammatičeskij očerk. <span>V</span>oprosy
+sintaksisa</em>. Moscow: Jazyki slavjanskoj kulʹtury.
+</div>
+<div id="ref-sumbatovamutalov2003" class="csl-entry">
+Sumbatova, Nina R., Mutalov, Rasul O. (2003). <em>A <span>G</span>rammar
+of <span>I</span>cari <span>D</span>argwa</em>. Munich: Lincom Europa.
+</div>
+<div id="ref-talibov2007" class="csl-entry">
+Talibov, Bukar B. (2007). <em>Buduxskij jazyk
+[<span>B</span>udukh]</em>. Moscow: Akademija.
+</div>
+</div>
+</div>
+<div class="footnotes footnotes-end-of-document">
+<hr />
+<ol>
+<li id="fn1"><p>In Chamalal, ‘a big amount’ of verbs are agreeing <span
+class="citation">(<a href="#ref-bokarev1949a">Bokarëv 1949</a>:
+75)</span>. This statement is not specific enough and does not match
+other estimates (such as <span class="citation">(<a
+href="#ref-kibrikkodzasov1988">Kibrik, Kodzasov 1988</a>: 20)</span>,
+according to which only about 30% of verbs agree), which is why we do
+not count it here, although it is present in the sample.<a
+href="#fnref1" class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+</head>
+
+<body>
+    <div class="footer-basic">
+        <footer>
+            
+            <div class='lic'><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br /><i>Typological Atlas of the languages of Daghestan </i> (<i>TALD</i>) is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0 International License</a>.
+            <div class="social"><a href="https://github.com/LingConLab/TALD" target="_blank"><span class="iconify" data-icon="octicon:logo-github-16"></span></a></div>
+            </div>
+            
+            <p class="copyright">2020<script>new Date().getFullYear()>2020&&document.write("-"+new Date().getFullYear());</script>,  Linguistic Convergence Laboratory, HSE University</p>
+        </footer>
+    </div>
+    <script type="text/javascript" src="./js/links.js"></script> <!--это чтобы ссылки открывались в новом окне -->
+</body>
+
+</html>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

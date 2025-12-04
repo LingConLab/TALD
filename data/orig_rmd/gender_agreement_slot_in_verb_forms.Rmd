@@ -1,0 +1,323 @@
+## Introduction
+
+Noun classes are a distinctive feature of East Caucasian and, as such, are present in the vast majority of the family’s languages. The number of classes varies greatly among languages, ranging from 2 in standard Tabasaran [@babaliyeva2023_tabasaran: 5] to 8 in Tsova-Tush [@desheriev1953: 136], excluding Udi and Lezgian which lack noun class systems.
+
+Usually the classes are covert on the nouns themselves and are expressed through agreement. An example of a noun class agreement marker system, taken from [@magomedbekova1971: 41], is presented in [Table 1](#t1). In some cases, the vowel which follows the prefix in a verb root may also change depending on the class; these vowels, however, are usually not regarded as being part of the markers, and the changes occur simply due to morphophonological processes.
+
+##### **Table 1.** Class agreement suffixes in Karata {#t1 -}
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Class</span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">SG</span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">PL</span></th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">I</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">w-</span></td>
+    <td class="tg-0lax" rowspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">b-</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">II</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">j-</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">III</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">b-</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">r-</span></td>
+  </tr>
+</tbody></table>
+
+The verb is one of the word classes that mark class agreement (which is normally with the S/P argument), usually in the form of a class agreement prefix. However, in many of the languages verb agreement seems to be in decline, and only some verbs take agreement while others do not. This is a typologically rare phenomenon which is known as *sporadic agreement* [@fedden2019].
+
+The aim of this chapter is to describe the distribution of class agreement on verbs across the East Caucasian family, as well as to identify the different positions a class agreement slot can occupy in a verb form.
+
+
+## Results
+
+All of the languages that have retained verb agreement express it mainly using class agreement prefixes, which are the basic form of a class agreement marker:
+
+(@one) Bezhta [@madieva1965: 116]
+```{r}
+gloss_example(transliteration = "šugošova	boχ		**j**-ũqča",
+              glosses = "horse.ERG	grass(IV)	**IV**-eat",
+              free_translation = "The horse eats hay.")
+```
+
+Many verbs that lack agreement still feature class prefixes, although in a fossilized form; in other verbs the prefix seems to be completely absent. Thus, prefixes are present in some form in all of the languages.
+
+In some languages, the absence of class prefixes in certain verbs is explained by phonotactic constraints — only roots that synchronically appear to be vowel-initial contain agreement slots. This is the case, for example, in Itsari Dargwa [@sumbatovamutalov2003: 60] and Hinuq [@forker2013: 188]. Even in such cases, however, not all vowel-initial roots may have agreement prefixes. In idioms where the distribution of slots among different roots can not be explained by phonotactics, the factors at play are less clear.
+
+Sometimes, due to various historical processes, markers that would normally be prefixal take the infixal position instead:
+
+(@two) Archi [@kibrik1977: 81]
+```{r}
+gloss_example(transliteration = "da‹**b**›xir",
+              glosses = "‹**III**›beat",
+              free_translation = "to beat (something belonging to the 3rd class)")
+```
+
+We regard both prefixes and infixes as agreement of the verb root. However, in a number of languages agreement slots are also found outside of the root, usually only in certain verb forms (not counting participles, which have agreement suffixes in most of the languages). The most frequent non-root slot is that of a suffix:
+
+
+(@three) Northern Akhvakh [@magomedbekova1967: 80]
+```{r}
+gloss_example(transliteration = "dede	**w**-oxe-d-**o**	waša",
+              glosses = "I	**I**-take-1SG-**I**	boy",
+              free_translation = "I took a boy.")
+```
+
+In this Northern Akhvakh example, the verb agreement with the word *waša* ‘boy’, which belongs to the first class, is expressed through both a class prefix and a class suffix. The latter takes on the form of a vowel yet acts like a normal class agreement marker; it appears in first person forms (while the person agreement is with the S/A argument, the class suffix still agrees with the S/P one).
+
+In some cases, suffixes may function differently from prefixes. For example, in Kubachi the prefix always agrees with the S/P argument. The suffix, however, may agree with the A Argument; the choice of controller thus affects the voice of the verb (compare (4a), where the suffix agrees with the A argument, and (4b), where both the prefix and the suffix agree with the S argument):
+
+(@four) Kubachi [@magometov1963: 153]
+    a.
+```{r}
+gloss_example(transliteration = "tukančildil	mas	**b**-iːsulsa-**w**",
+              glosses = "seller		fabric	**iii**-sell-**I**",
+              free_translation = "A seller sells fabric.")
+```
+    b.
+```{r}
+gloss_example(transliteration = "ijal	waxle	mas	**b**-iːsulsa-**b**",
+              glosses = "today	well	fabric	**iii**-sell-**iii**",
+              free_translation = "Fabric sells well today.")
+```
+
+The other type of non-root agreement slots is that of an agreeing preverb, attested in languages of the Dargwa group as well as in Tsakhur:
+
+(@five) Tanty [@sumbatovalander2014: 169]
+```{r results='asis'}
+
+gloss_example('q˳aj-te		χː˳ala-te	dali		ka-d=irxː-u-le  dimʡaˁn-te	**gu=d**-d=urkː-u-le', 
+               'massive-ATR.PL	big-ATR.PL	1SG:ERG	down-NPL=put:IPF-PRS-CONV small-ATR.PL	**under=NPL**-NPL=find:IPF-PRS-CONV',
+               'Big ones (money) I put (under the pillow) — small ones I find.')
+
+```
+
+In the example above, the verb *b=arkː-* ‘to find’, which itself has root agreement, is used with the locative preverb *gu=b-* ‘under’, which contains a gender agreement slot as well.
+
+
+## Distribution
+
+Data on the exact proportion of agreeing verbs (in regards to type frequency, i.e. numbers of verb lexemes which have root agreement) in certain languages are rarely found in the literature. If any estimates are given in a grammar, they are usually rather broad. Thus, the available data are incomplete, although an overall trend can still be described.
+
+As it has been noted numerous times by different authors (for example, [@talibov2007: 186]), a tendency to lose gender agreement is present across the entire East Caucasian family. Indeed, the only languages that have seemingly retained agreement on nearly all verbs (except for some stative ones) are Rutul and Tsakhur, both of which are Lezgic.
+
+In a number of languages (6 in our sample[^1]), the majority of verbs are agreeing. In Hunzib, about half of all verbs have agreement. Among the aforementioned idioms (including those in which all verbs agree) are those belonging to the Lezgic, Dargwa, Tsezic, and Nakh branches of the family.
+
+[^1]: In Chamalal, ‘a big amount’ of verbs are agreeing [@bokarev1949a: 75]. This statement is not specific enough and does not match other estimates (such as [@kibrikkodzasov1988: 20], according to which only about 30% of verbs agree), which is why we do not count it here, although it is present in the sample.
+
+In Hinuq and Chechen, about a third of verbs agree. In the other languages for which data are available (7 in our sample), the majority of verbs lack agreement. Agul, Udi and Lezgian, as well as the Khiv dialect of Tabasaran, have lost verb agreement completely, with Udi and Lezgian lacking a noun gender system altogether; all 4 of these idioms belong to the Lezgic branch.
+
+A notable case is Tsova-Tush: as stated in [@harris2009: 298], 74.47% of verb lexemes have an agreement slot, but only 21.53% of verb lexemes have one in the root. Such a big difference in the numbers is due to the fact that certain derivational suffixes (producing intransitive verbs from transitive ones and vice versa) that contain an agreement slot are highly productive in Tsova-Tush, often combining with roots that lack agreement.
+
+[Table 2](#t2) lists the languages for which data on root agreement frequencies are available, and [Map 1](#m1) shows these languages on the map. There seems to be no clear genealogical or areal correlation between the different groups of languages in regards to proportion of agreeing verbs.
+
+##### **Table 2.** Type frequency of verb root agreement {#t2 -}
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Percentage of agreeing verbs</span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Branch</span></th>
+    <th class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Language</span></th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">all</span></td>
+    <td class="tg-0lax" rowspan="4"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Lezgic</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Rutul</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax" rowspan="6"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">majority</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Tsakhur</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Budukh</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Kryz</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax" rowspan="3"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Dargwa</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Itsari</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Mehweb</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Tanty</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">about half</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Tsezic</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Hunzib</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax" rowspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">about a third</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Nakh</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Chechen</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax" rowspan="4"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Tsezic</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Hinuq</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax" rowspan="7"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">minority</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Bezhta</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Khwarshi</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Tsez</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax" rowspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Andic</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Botlikh</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Godoberi</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Khinalug</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Khinalug</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Nakh</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Ingush</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax" rowspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">none</span></td>
+    <td class="tg-0lax" rowspan="4"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Lezgic</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Khiv Tabasaran</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Udi</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax" rowspan="2"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">not applicable</span></td>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Agul</span></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><span style="font-weight:400;font-style:normal;text-decoration:none;color:#000;background-color:transparent">Lezgian</span></td>
+  </tr>
+</tbody></table>
+
+
+As for non-root verb agreement, it is found in a relatively small number of languages. Class agreement suffixes are attested in Avar and three Andic languages, as well as two languages of the Dargwa group, three belonging to the Nakh and Lezgic branches, and Khinalug. It must be noted that only finite forms were considered, as, for example, agreement suffixes on participles are rather common.
+
+Preverbs with class agreement slots are found in all of the languages of the Dargwa group in the sample, as well as in Tsakhur which belongs to the Lezgic branch. Only Kubachi and Standard Dargwa have both class agreement suffixes and agreeing preverbs.
+
+Overall, non-root class agreement is found in 14 languages, which are listed in [Table 3](#t3) and shown on the map in [Map 2](#m2). They constitute a little over a third of all the East Caucasian languages in our sample. 
+
+Class agreement suffixes are more common, appearing in several branches of the family, while agreeing preverbs are limited to Dargwa with the exception of Tsakhur.
+
+##### **Table 3.** Languages that have non-root agreement slots {#t3 -}
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg"><thead>
+  <tr>
+    <th class="tg-0pky">Slot type</th>
+    <th class="tg-0pky">Branch</th>
+    <th class="tg-0pky">Language</th>
+  </tr></thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky" rowspan="8">Suffix</td>
+    <td class="tg-0pky" rowspan="3">Andic</td>
+    <td class="tg-0pky">Northern Akhvakh</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Bagvalal</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Tindi</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Avar</td>
+    <td class="tg-0pky">Avar</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky" rowspan="2">Nakh</td>
+    <td class="tg-0pky">Ingush</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Tsova-Tush</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Khinalug</td>
+    <td class="tg-0pky">Khinalug</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Lezgic</td>
+    <td class="tg-0pky">Rutul</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky" rowspan="2">Preverb and suffix</td>
+    <td class="tg-0pky" rowspan="8">Dargwa</td>
+    <td class="tg-0pky">Standard Dargwa</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Kubachi</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky" rowspan="7">Preverb</td>
+    <td class="tg-0pky">Akusha</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Chirag</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Itsari</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Kaitag</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Mehweb</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Tanty</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Lezgic</td>
+    <td class="tg-0pky">Tsakhur</td>
+  </tr>
+</tbody></table>
+
+
+## List of glosses {-}
+
+```{r}
+# my_abbreviations <- data.frame(gloss = c("1sg", "atr", "conv", "erg", "I", "III", "IV", "ipf", "npl", "pl", "prs"),
+#                                definition_en = c("first person singular", "attributive", "converb", "ergative", "class I", "class III", "class IV", "imperfective", "neutral plural", "plural", "present"))
+make_gloss_list(readxl::read_xlsx("../glosses.xlsx"))
+```
+
+## References {-}

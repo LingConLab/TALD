@@ -1,0 +1,55 @@
+---
+title: Class agreement slot in verb forms
+author: Ivan Olkhov
+date: 'Last update: July 2025'
+bibliography: ./data/orig_bib/gender_agreement_slot_in_verb_forms.bib
+csl: apa.csl
+link-citations: true
+output:
+  html_document:
+    number_sections: true
+    anchor_sections: true
+    pandoc_args: --shift-heading-level-by=-1
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, comment = '')
+library(lingglosses)
+```
+
+See [data and maps](071_gender_agreement_slot_in_verb_forms_map.html).
+
+```{r}
+library(RefManageR)
+BibOptions(check.entries = FALSE, style = 'text', first.inits = FALSE, bib.style = 'authoryear')
+article_citation <- BibEntry(bibtype = 'Incollection', 
+ key='olkhov2024',
+ title='Class agreement slot in verb forms',
+ author='Ivan Olkhov',
+ year='2024',
+ editor= 'Daniel, Michael  and Filatov, Konstantin and Maisak, Timur and Moroz, George and Mukhin, Timofey and Naccarato, Chiara and Verhees, Samira',
+ publisher='Linguistic Convergence Laboratory, HSE University',
+ address='Moscow',
+ booktitle= 'Typological Atlas of the Languages of Daghestan (TALD), v 2.0.0',
+ url='https://lingconlab.ru/tald',
+ doi='10.5281/zenodo.6807070')
+```
+
+## {.tabset .tabset-fade .tabset-pills -} 
+
+### Plain text {-}
+```{r, results = 'asis'}
+print(article_citation, .opts = list(style = 'text'))
+```
+
+### BibTeX {-}
+
+```{r}
+print(article_citation, .opts = list(style = 'Bibtex'))
+```
+
+```{r, child='data/orig_rmd/gender_agreement_slot_in_verb_forms.Rmd'}
+```
+
+
+
