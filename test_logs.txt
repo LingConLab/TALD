@@ -71,8 +71,6 @@ The wrong toplevel dialect name Kaitag in the file gender_agreement_in_nps_in_ad
 The wrong toplevel dialect name Central in the file imperative_interjections.tsv
 The wrong toplevel dialect name Koshan in the file imperative_interjections.tsv
 gender_agreement_slot_in_verb_forms.Rmd:          2          wrong hashes
-gender_agreement_in_nps_in_adjectives.Rmd:          3          wrong hashes in tables
-gender_agreement_slot_in_verb_forms.Rmd:          3          wrong hashes in tables
 spelling of          aj        in adjectives_number.Rmd:133
 spelling of          ar        in adjectives_number.Rmd:133,133
 spelling of          ce        in adjectives_number.Rmd:435

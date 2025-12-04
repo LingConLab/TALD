@@ -1,5 +1,5 @@
 ---
-title: Class agreement slot in verb forms
+title: Gender agreement slot in verb forms
 author: Ivan Olkhov
 date: 'Last update: July 2025'
 bibliography: ./data/orig_bib/gender_agreement_slot_in_verb_forms.bib
@@ -24,7 +24,7 @@ library(RefManageR)
 BibOptions(check.entries = FALSE, style = 'text', first.inits = FALSE, bib.style = 'authoryear')
 article_citation <- BibEntry(bibtype = 'Incollection', 
  key='olkhov2024',
- title='Class agreement slot in verb forms',
+ title='Gender agreement slot in verb forms',
  author='Ivan Olkhov',
  year='2024',
  editor= 'Daniel, Michael  and Filatov, Konstantin and Maisak, Timur and Moroz, George and Mukhin, Timofey and Naccarato, Chiara and Verhees, Samira',

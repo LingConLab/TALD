@@ -10,25 +10,25 @@ In most East Caucasian languages, at least some adjectives in noun phrases show 
 
 (@one) Ingush [@nichols2011: 220]
   a.
-```{r echo=FALSE}
+```{r}
 gloss_example(transliteration = "v-oaqːa sag",
               glosses = "V-big man(V)",
               free_translation = "old man")
 ```
   b.
-```{r echo=FALSE}
+```{r}
 gloss_example(transliteration = "j-oaqːa jiʕig",
               glosses = "J-big girl(J)",
               free_translation = "big girl")
 ```
   c.
-```{r echo=FALSE}
+```{r}
 gloss_example(transliteration = "d-oaqːa žʕaliː",
               glosses = "D-big dog(D)",
               free_translation = "big dog")
 ```
   d.
-```{r echo=FALSE}
+```{r}
 gloss_example(transliteration = "b-oaqːa č’qeara",
               glosses = "B-big fish(B)",
               free_translation = "big fish")
@@ -36,19 +36,19 @@ gloss_example(transliteration = "b-oaqːa č’qeara",
   
 (@two) Kubachi Dargwa [@magometov1963: 131]
   a.
-```{r echo=FALSE}
+```{r}
 gloss_example(transliteration = "ara-zi-w	adame",
               glosses = "healthy-ATTR.SG-I	man(I)",
               free_translation = "healthy man")
 ```
   b.
-```{r echo=FALSE}
+```{r}
 gloss_example(transliteration = "ara-zi-j xːunul",
               glosses = "healthy-ATTR.SG-II woman(II)",
               free_translation = "healthy woman")
 ```
   c.
-```{r echo=FALSE}
+```{r}
 gloss_example(transliteration = "ara-zi-b ħaːwan",
               glosses = "healthy-ATTR.SG-III animal(III)",
               free_translation = "healthy animal")
@@ -56,19 +56,19 @@ gloss_example(transliteration = "ara-zi-b ħaːwan",
   
 (@three) Ratlub Akhvakh [@abdulaeva2001: 73]
   a.
-```{r echo=FALSE}
+```{r}
 gloss_example(transliteration = "w-aχːada-w ek’wa",
               glosses = "I-tall-I man(I)",
               free_translation = "tall man")
 ```
   b.
-```{r echo=FALSE}
+```{r}
 gloss_example(transliteration = "j-aχːada-j ark’ːa",
               glosses = "II-tall-II woman(II)",
               free_translation = "tall woman")
 ```
   c.
-```{r echo=FALSE}
+```{r}
 gloss_example(transliteration = "b-aχːada-b ac’eƛʼːin",
               glosses = "III-tall-III log(III)",
               free_translation = "tall log")
@@ -78,13 +78,13 @@ Another way by which adjectives may express gender agreement in noun phrases is 
 
 (@four) Ikhrek Rutul [@ibragimov1978: 210]
   a.
-```{r echo=FALSE}
+```{r}
 gloss_example(transliteration = "bat’ra-dɨ gada",
               glosses = "beautiful-ATTR.I_III guy(I)",
               free_translation = "beautiful guy")
 ```
   b.
-```{r echo=FALSE}
+```{r}
 gloss_example(transliteration = "bat’ra-d baʁ",
               glosses = "beautiful-ATTR.IV garden(IV)",
               free_translation = "beautiful garden")
@@ -92,7 +92,7 @@ gloss_example(transliteration = "bat’ra-d baʁ",
 
 [Table 1](#t1) illustrates the number of idioms in which each of these strategies is attested.
 
-##### **Table 1.** Strategies of gender agreement in adjectives {#t1 -}
+#### **Table 1.** Strategies of gender agreement in adjectives {#t1 -}
 
 | Strategy                                 | Suffix only | Prefix only | Both prefix and suffix | Attributive suffix |
 |------------------------------------------|-------------|-------------|------------------------|--------------------|
@@ -106,7 +106,7 @@ As a language may contain more than one adjectival gender agreement strategy, ea
 
 [Table 2](#t2) contains all the theoretically possible combinations of strategies and shows which of them are attested in East Caucasian languages. Map 5 is likewise dedicated to the combinations of strategies.
 
-##### **Table 2.** Possible combinations of strategies {#t2 -}
+#### **Table 2.** Possible combinations of strategies {#t2 -}
 
 | Number of strategies attested | Attested strategies                                     | Idioms                                                                                                                                                                            |
 |-------------------------------|---------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -150,7 +150,7 @@ On the other hand, several languages show suffixal gender agreement as the most 
 
 [Table 3](#t3) summarizes the available information on the most common agreement strategies.
 
-##### **Table 3.** The most common strategies {#t3 -}
+#### **Table 3.** The most common strategies {#t3 -}
 
 | Most common strategy                     | Idioms                                                                                                                                                                                                               |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

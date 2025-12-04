@@ -4,7 +4,7 @@ Noun classes are a distinctive feature of East Caucasian and, as such, are prese
 
 Usually the classes are covert on the nouns themselves and are expressed through agreement. An example of a noun class agreement marker system, taken from [@magomedbekova1971: 41], is presented in [Table 1](#t1). In some cases, the vowel which follows the prefix in a verb root may also change depending on the class; these vowels, however, are usually not regarded as being part of the markers, and the changes occur simply due to morphophonological processes.
 
-##### **Table 1.** Class agreement suffixes in Karata {#t1 -}
+#### **Table 1.** Class agreement suffixes in Karata {#t1 -}
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -122,9 +122,9 @@ In Hinuq and Chechen, about a third of verbs agree. In the other languages for w
 
 A notable case is Tsova-Tush: as stated in [@harris2009: 298], 74.47% of verb lexemes have an agreement slot, but only 21.53% of verb lexemes have one in the root. Such a big difference in the numbers is due to the fact that certain derivational suffixes (producing intransitive verbs from transitive ones and vice versa) that contain an agreement slot are highly productive in Tsova-Tush, often combining with roots that lack agreement.
 
-[Table 2](#t2) lists the languages for which data on root agreement frequencies are available, and [Map 1](#m1) shows these languages on the map. There seems to be no clear genealogical or areal correlation between the different groups of languages in regards to proportion of agreeing verbs.
+[Table 2](#t2) lists the languages for which data on root agreement frequencies are available, and [Map 1](071_gender_agreement_slot_in_verb_forms_map.html#m1) shows these languages on the map. There seems to be no clear genealogical or areal correlation between the different groups of languages in regards to proportion of agreeing verbs.
 
-##### **Table 2.** Type frequency of verb root agreement {#t2 -}
+#### **Table 2.** Type frequency of verb root agreement {#t2 -}
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -227,11 +227,11 @@ As for non-root verb agreement, it is found in a relatively small number of lang
 
 Preverbs with class agreement slots are found in all of the languages of the Dargwa group in the sample, as well as in Tsakhur which belongs to the Lezgic branch. Only Kubachi and Standard Dargwa have both class agreement suffixes and agreeing preverbs.
 
-Overall, non-root class agreement is found in 14 languages, which are listed in [Table 3](#t3) and shown on the map in [Map 2](#m2). They constitute a little over a third of all the East Caucasian languages in our sample. 
+Overall, non-root class agreement is found in 14 languages, which are listed in [Table 3](#t3) and shown on the map in [Map 2](071_gender_agreement_slot_in_verb_forms_map.html#m2). They constitute a little over a third of all the East Caucasian languages in our sample. 
 
 Class agreement suffixes are more common, appearing in several branches of the family, while agreeing preverbs are limited to Dargwa with the exception of Tsakhur.
 
-##### **Table 3.** Languages that have non-root agreement slots {#t3 -}
+#### **Table 3.** Languages that have non-root agreement slots {#t3 -}
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
