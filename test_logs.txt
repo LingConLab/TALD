@@ -40,34 +40,17 @@ Revise the BibTeX entry authier_rutul from the file verbal_negation_suffixes_bib
 Revise the BibTeX entry ganenkov_maisak2021 from the file verbal_negation_suffixes_bib.tsv.
 Revise the BibTeX entry babaliyeva2023_tabasaran from the file verbal_negation_suffixes_bib.tsv.
 Revise the BibTeX entry belyaev2019_redup from the file verbal_negation_suffixes_bib.tsv.
-The wrong language name          Akhvakh          in the file          gender_agreement_in_nps_in_adjectives.tsv
-The wrong language name          Andi          in the file          gender_agreement_in_nps_in_adjectives.tsv
-The wrong language name          Armenian          in the file          gender_agreement_in_nps_in_adjectives.tsv
-The wrong language name          Dargwa          in the file          gender_agreement_in_nps_in_adjectives.tsv
-The wrong language name          North-Central Dargwa          in the file          gender_agreement_slot_in_verb_forms.tsv
+The wrong language name          Standard Dargwa          in the file          gender_agreement_in_nps_in_adjectives.tsv
 The wrong language name          Western Armenian          in the file          imperative_interjections.tsv
 The wrong village dialect name Budukh in the file gender_agreement_in_nps_in_adjectives.tsv
-The wrong village dialect name Upper Gakvari in the file gender_agreement_in_nps_in_adjectives.tsv
-The wrong village dialect name Mehweb in the file gender_agreement_in_nps_in_adjectives.tsv
 The wrong village dialect name Hinuq in the file gender_agreement_in_nps_in_adjectives.tsv
 The wrong village dialect name Khinalug in the file gender_agreement_in_nps_in_adjectives.tsv
 The wrong village dialect name Kwantlada in the file gender_agreement_in_nps_in_adjectives.tsv
-The wrong village dialect name Alik in the file gender_agreement_in_nps_in_adjectives.tsv
-The wrong village dialect name Tanti in the file gender_agreement_slot_in_verb_forms.tsv
 The wrong village dialect name Alik in the file gender_agreement_slot_in_verb_forms.tsv
 The wrong village dialect name Nizh in the file gender_agreement_slot_in_verb_forms.tsv
 The wrong non-toplevel 2 dialect name Kishi in the file adjectives_number.tsv
-The wrong non-toplevel 1 dialect name Mukhad in the file gender_agreement_in_nps_in_adjectives.tsv
-The wrong non-toplevel 1 dialect name Myukhrek in the file gender_agreement_in_nps_in_adjectives.tsv
-The wrong non-toplevel 1 dialect name Shinaz in the file gender_agreement_in_nps_in_adjectives.tsv
-The wrong non-toplevel 1 dialect name Ikhrek in the file gender_agreement_in_nps_in_adjectives.tsv
-The wrong non-toplevel 1 dialect name Borch-Khnov in the file gender_agreement_in_nps_in_adjectives.tsv
-The wrong toplevel dialect name Central in the file gender_agreement_in_nps_in_adjectives.tsv
-The wrong toplevel dialect name Northern Akhvakh in the file gender_agreement_in_nps_in_adjectives.tsv
-The wrong toplevel dialect name Modern Eastern Armenian in the file gender_agreement_in_nps_in_adjectives.tsv
 The wrong toplevel dialect name Bezhta in the file gender_agreement_in_nps_in_adjectives.tsv
-The wrong toplevel dialect name Gigatli in the file gender_agreement_in_nps_in_adjectives.tsv
-The wrong toplevel dialect name Kaitag in the file gender_agreement_in_nps_in_adjectives.tsv
+The wrong toplevel dialect name Tanty in the file gender_agreement_in_nps_in_adjectives.tsv
 The wrong toplevel dialect name Central in the file imperative_interjections.tsv
 The wrong toplevel dialect name Koshan in the file imperative_interjections.tsv
 gender_agreement_slot_in_verb_forms.Rmd:          2          wrong hashes
@@ -187,8 +170,6 @@ spelling of          Bon        in farewell_wishes.Rmd:3
 spelling of          lu        in farewell_wishes.Rmd:130
 spelling of          ol        in farewell_wishes.Rmd:130
 spelling of          yol        in farewell_wishes.Rmd:130
-spelling of          Alvani        in gender_agreement_in_nps_in_adjectives.Rmd:114,157
-spelling of          Zemo        in gender_agreement_in_nps_in_adjectives.Rmd:114,157
 spelling of          gu        in gender_agreement_slot_in_verb_forms.Rmd:108
 spelling of          adal        in gender_agreement_slot.Rmd:105
 spelling of          aj        in gender_agreement_slot.Rmd:148
@@ -259,7 +240,7 @@ spelling of          ja        in phonology.Rmd:196
 spelling of          ue        in phonology.Rmd:196
 spelling of          ja        in plural_marking_on_imperatives.Rmd:184
 spelling of          nd        in plural_marking_on_imperatives.Rmd:186
-spelling of          MV        in prohibitives_map.Rmd:332
+spelling of          MV        in prohibitives_map.Rmd:334
 spelling of          aj        in prohibitives.Rmd:47,47,47,123
 spelling of          al        in prohibitives.Rmd:150,222
 spelling of          ara        in prohibitives.Rmd:31

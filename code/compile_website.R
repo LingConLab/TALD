@@ -268,7 +268,7 @@ map.feature(general_datapoints_map$lang4map,
             features = general_datapoints_map$value",
     multiple_values$features[i],
     ",
-            color = 'magma',
+            color = 'viridis',
             stroke.features = 'a',
             stroke.color = 'black',
             stroke.radius = 1,
@@ -306,7 +306,7 @@ map.feature(all_data_filtered$lang4map,
             features = all_data_filtered$value",
     multiple_values$features[i],
     ",
-            color = 'magma',
+            color = 'viridis',
             stroke.features = 'a',
             stroke.color = 'black',
             stroke.radius = 1,
@@ -364,7 +364,7 @@ map.feature(data_granularity_map$lang4map,
             features = data_granularity_map$value",
     multiple_values$features[i],
     ",
-            color = 'magma',
+            color = 'viridis',
             stroke.features = 'a',
             stroke.color = 'black',
             stroke.radius = 1,
@@ -388,7 +388,8 @@ general_datapoints_map |>
   ec_tile_map(feature_column = 'value",
     multiple_values$features[i],
     "') +
-  theme(text = element_text(size = 15))
+  theme(text = element_text(size = 15),
+        palette.colour.discrete = scales::pal_viridis())
 ```
 
     ")

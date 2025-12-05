@@ -1679,7 +1679,7 @@ id	village	rus_village	lat	lon	lang	aff	family	standard	default_level	dialect_to
 1735	Khuduts	Худуц	41.96638	47.51297	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Upper Vurqun	верхневуркунское	Khuduts	худуцкий					Khuduts	sout3261	#fff672	#ffb268	2025-09-18
 1734	Anklukh	Анклух	41.92131	47.527334	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Upper Vurqun	верхневуркунское	Anklugh	анклухский					Anklukh	sout3261	#fff672	#ffb268	2025-09-18
 1733	Amukh	Амух	41.9142	47.5422	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa	Upper Vurqun	верхневуркунское	Amuq	амухский					Amukh	sout3261	#fff672	#ffb268	2025-09-18
-1493	Nikabarkmakhi	Никабаркмахи	42.01667	47.41667	North-Central Dargwa	Dargwa	East Caucasian		Southwestern Dargwa									Nikabarkmakhi	sout3261	#fff672	#ffb268	2025-09-18
+1493	Nikabarkmakhi	Никабаркмахи	42.01667	47.41667	Southwestern Dargwa	Dargwa	East Caucasian		Southwestern Dargwa									Nikabarkmakhi	sout3261	#fff672	#ffb268	2025-09-18
 1744	Atrik	Атрик	41.88042	47.78046	Tabasaran	Lezgic	East Caucasian		Tabasaran	Northern Tabasaran	Севернотабасаранский							Atrik	taba1259	#44c044	#ffd000	2025-09-18
 1750	Khursatil'	Хурсатиль	41.862503	47.793991	Tabasaran	Lezgic	East Caucasian		Tabasaran	Northern Tabasaran	Севернотабасаранский							Khursatil'	taba1259	#44c044	#ffd000	2025-09-18
 1748	Urga	Урга	41.869933	47.85522	Tabasaran	Lezgic	East Caucasian		Tabasaran	Northern Tabasaran	Севернотабасаранский							Urga	taba1259	#44c044	#ffd000	2025-09-18
@@ -1771,6 +1771,7 @@ id	village	rus_village	lat	lon	lang	aff	family	standard	default_level	dialect_to
 1773	Gyukhryag	Гюхряг	41.854055	48.172785	Tabasaran	Lezgic	East Caucasian		Tabasaran									Gyukhryag	taba1259	#44c044	#ffd000	2025-09-18
 1779	Dyuzler	Дюзлер	41.93583	48.265	Tabasaran	Lezgic	East Caucasian		Tabasaran									Dyuzler	taba1259	#44c044	#ffd000	2025-09-18
 1794	Rubas	Рубас	41.895476	48.329618	Tabasaran	Lezgic	East Caucasian		Tabasaran									Rubas	taba1259	#44c044	#ffd000	2025-09-18
+24	Gagatli	Гагатли	42.800361	46.292645	Andi	Avar-Andic	East Caucasian		Tad-Magitl'									Gagatli	uppe1485	#095097	#666666	2025-09-18
 1853	Müdrəsə	Мюдреса	40.86034	48.31664	Tat	Iranian	Indo-European		Tat	Muslim Tat		Upper Şirvan						Müdrəsə	musl1236	#bba2ff	#cab3ff	2025-09-18
 1855	Burovdal		40.94023	48.37069	Tat	Iranian	Indo-European		Tat	Muslim Tat		Upper Şirvan						Burovdal	musl1236	#bba2ff	#cab3ff	2025-09-18
 1852	Lahıc	Лахидж	40.84541	48.38354	Tat	Iranian	Indo-European		Tat	Muslim Tat		Upper Şirvan						Lahıc	musl1236	#bba2ff	#cab3ff	2025-09-18
@@ -1923,7 +1924,6 @@ id	village	rus_village	lat	lon	lang	aff	family	standard	default_level	dialect_to
 22	Andi	Анди	42.7856	46.2639	Andi	Avar-Andic	East Caucasian		Upper Andi									Andi	uppe1485	#095097	#666666	2025-09-18
 29	Rushukha	Рушуха	42.71509	46.28112	Andi	Avar-Andic	East Caucasian		Upper Andi									Rushukha	uppe1485	#095097	#666666	2025-09-18
 25	Gunkha	Гунха	42.78968	46.28275	Andi	Avar-Andic	East Caucasian		Upper Andi									Gunkha	uppe1485	#095097	#666666	2025-09-18
-24	Gagatli	Гагатли	42.800361	46.292645	Andi	Avar-Andic	East Caucasian		Tad-Magitl'									Gagatli	uppe1485	#095097	#666666	2025-09-18
 23	Ashali	Ашали	42.76963	46.30878	Andi	Avar-Andic	East Caucasian		Upper Andi									Ashali	uppe1485	#095097	#666666	2025-09-18
 26	Zilo	Зило	42.731394	46.319223	Andi	Avar-Andic	East Caucasian		Upper Andi									Zilo	uppe1485	#095097	#666666	2025-09-18
 28	Rikvani	Риквани	42.782304	46.319372	Andi	Avar-Andic	East Caucasian		Upper Andi									Rikvani	uppe1485	#095097	#666666	2025-09-18

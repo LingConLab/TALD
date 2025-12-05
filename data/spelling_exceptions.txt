@@ -23,6 +23,7 @@ Alekseeva
 Alik
 allative
 allomorph
+Alvani
 ambiposition
 anaphora
 anaphoric
@@ -447,6 +448,7 @@ Zakirova
 Zaqatala
 Zarina
 Zemicheva
+Zemo
 zenodo
 Zerzele
 Zhirkov
