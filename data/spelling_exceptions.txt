@@ -198,6 +198,7 @@ inelative
 inessive
 infix
 infixal
+infixed
 Inga
 Ingush
 Ingushetia

@@ -280,7 +280,6 @@ spelling of          una        in trans_intrans_imperative.Rmd:98
 spelling of          uq        in trans_intrans_imperative.Rmd:80
 spelling of          gom        in verbal_negation_auxiliaries.Rmd:14,14,42
 spelling of          cy        in verbal_negation_prefixes.Rmd:146
-spelling of          infixed        in verbal_negation_prefixes.Rmd:109
 spelling of          al        in verbal_negation_suffixes.Rmd:38
 spelling of          da        in verbal_negation_suffixes.Rmd:46
 spelling of          de        in verbal_negation_suffixes.Rmd:46
