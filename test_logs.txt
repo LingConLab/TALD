@@ -1,45 +1,6 @@
-The BibTeX entry          kibrikkodzasov1988, evstigneeva2017          present in the          gender_agreement_slot_in_verb_forms.tsv, but absent in the biblib.xlsx
-The BibTeX entry          desheriev1953, holiskygagua1994, harris2018          present in the          gender_agreement_slot_in_verb_forms.tsv, but absent in the biblib.xlsx
+The BibTeX entry          evstigneeva2017          present in the          gender_agreement_slot_in_verb_forms.tsv, but absent in the biblib.xlsx
 The BibTeX entry fedden2019 from gender_agreement_slot_in_verb_forms_bib.tsv has the wrong CATEGORY value: chapter
 The BibTeX entry daniel2021 from the file adjectives_number_bib.tsv has an empty value in the obligatory field VOLUME
-Revise the BibTeX entry ganenkov_maisak2021 from the file gender_agreement_in_nps_in_adjectives_bib.tsv.
-Revise the BibTeX entry authier_ikhrek from the file gender_agreement_in_nps_in_adjectives_bib.tsv.
-Revise the BibTeX entry babaliyeva2023_tabasaran from the file gender_agreement_slot_in_verb_forms_bib.tsv.
-Revise the BibTeX entry maisak_inalco2018 from the file verbal_negation_auxiliaries_bib.tsv.
-Revise the BibTeX entry omniglotGM from the file verbal_negation_auxiliaries_bib.tsv.
-Revise the BibTeX entry ganenkov2021draft_numerals from the file verbal_negation_auxiliaries_bib.tsv.
-Revise the BibTeX entry authier_rutul from the file verbal_negation_auxiliaries_bib.tsv.
-Revise the BibTeX entry ganenkov_maisak2021 from the file verbal_negation_auxiliaries_bib.tsv.
-Revise the BibTeX entry babaliyeva2023_tabasaran from the file verbal_negation_auxiliaries_bib.tsv.
-Revise the BibTeX entry belyaev2019_redup from the file verbal_negation_auxiliaries_bib.tsv.
-Revise the BibTeX entry maisak_inalco2018 from the file verbal_negation_bib.tsv.
-Revise the BibTeX entry omniglotGM from the file verbal_negation_bib.tsv.
-Revise the BibTeX entry ganenkov2021draft_numerals from the file verbal_negation_bib.tsv.
-Revise the BibTeX entry authier_rutul from the file verbal_negation_bib.tsv.
-Revise the BibTeX entry ganenkov_maisak2021 from the file verbal_negation_bib.tsv.
-Revise the BibTeX entry babaliyeva2023_tabasaran from the file verbal_negation_bib.tsv.
-Revise the BibTeX entry belyaev2019_redup from the file verbal_negation_bib.tsv.
-Revise the BibTeX entry maisak_inalco2018 from the file verbal_negation_prefixes_bib.tsv.
-Revise the BibTeX entry omniglotGM from the file verbal_negation_prefixes_bib.tsv.
-Revise the BibTeX entry ganenkov2021draft_numerals from the file verbal_negation_prefixes_bib.tsv.
-Revise the BibTeX entry authier_rutul from the file verbal_negation_prefixes_bib.tsv.
-Revise the BibTeX entry ganenkov_maisak2021 from the file verbal_negation_prefixes_bib.tsv.
-Revise the BibTeX entry babaliyeva2023_tabasaran from the file verbal_negation_prefixes_bib.tsv.
-Revise the BibTeX entry belyaev2019_redup from the file verbal_negation_prefixes_bib.tsv.
-Revise the BibTeX entry maisak_inalco2018 from the file verbal_negation_reduplication_bib.tsv.
-Revise the BibTeX entry omniglotGM from the file verbal_negation_reduplication_bib.tsv.
-Revise the BibTeX entry ganenkov2021draft_numerals from the file verbal_negation_reduplication_bib.tsv.
-Revise the BibTeX entry authier_rutul from the file verbal_negation_reduplication_bib.tsv.
-Revise the BibTeX entry ganenkov_maisak2021 from the file verbal_negation_reduplication_bib.tsv.
-Revise the BibTeX entry babaliyeva2023_tabasaran from the file verbal_negation_reduplication_bib.tsv.
-Revise the BibTeX entry belyaev2019_redup from the file verbal_negation_reduplication_bib.tsv.
-Revise the BibTeX entry maisak_inalco2018 from the file verbal_negation_suffixes_bib.tsv.
-Revise the BibTeX entry omniglotGM from the file verbal_negation_suffixes_bib.tsv.
-Revise the BibTeX entry ganenkov2021draft_numerals from the file verbal_negation_suffixes_bib.tsv.
-Revise the BibTeX entry authier_rutul from the file verbal_negation_suffixes_bib.tsv.
-Revise the BibTeX entry ganenkov_maisak2021 from the file verbal_negation_suffixes_bib.tsv.
-Revise the BibTeX entry babaliyeva2023_tabasaran from the file verbal_negation_suffixes_bib.tsv.
-Revise the BibTeX entry belyaev2019_redup from the file verbal_negation_suffixes_bib.tsv.
 The wrong language name          Standard Dargwa          in the file          gender_agreement_in_nps_in_adjectives.tsv
 The wrong language name          Western Armenian          in the file          imperative_interjections.tsv
 The wrong village dialect name Budukh in the file gender_agreement_in_nps_in_adjectives.tsv
@@ -53,7 +14,6 @@ The wrong toplevel dialect name Bezhta in the file gender_agreement_in_nps_in_ad
 The wrong toplevel dialect name Tanty in the file gender_agreement_in_nps_in_adjectives.tsv
 The wrong toplevel dialect name Central in the file imperative_interjections.tsv
 The wrong toplevel dialect name Koshan in the file imperative_interjections.tsv
-gender_agreement_slot_in_verb_forms.Rmd:          2          wrong hashes
 spelling of          aj        in adjectives_number.Rmd:133
 spelling of          ar        in adjectives_number.Rmd:133,133
 spelling of          ce        in adjectives_number.Rmd:435
@@ -170,7 +130,7 @@ spelling of          Bon        in farewell_wishes.Rmd:3
 spelling of          lu        in farewell_wishes.Rmd:130
 spelling of          ol        in farewell_wishes.Rmd:130
 spelling of          yol        in farewell_wishes.Rmd:130
-spelling of          gu        in gender_agreement_slot_in_verb_forms.Rmd:108
+spelling of          gu        in gender_agreement_slot_in_verb_forms.Rmd:83
 spelling of          adal        in gender_agreement_slot.Rmd:105
 spelling of          aj        in gender_agreement_slot.Rmd:148
 spelling of          gi        in gender_agreement_slot.Rmd:116
