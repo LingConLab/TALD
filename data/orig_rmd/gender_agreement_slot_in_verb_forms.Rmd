@@ -152,7 +152,7 @@ gender agreement suffixes are more common, appearing in several branches of the 
 | Preverb            | Dargwa   | Kaitag           |
 | Preverb            | Dargwa   | Mehweb           |
 | Preverb            | Dargwa   | Tanty            |
-|                    | Lezgic   | Tsakhur          |
+| Preverb            | Lezgic   | Tsakhur          |
 
 
 ## List of glosses {-}
