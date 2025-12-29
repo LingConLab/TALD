@@ -2,7 +2,6 @@ The BibTeX entry fedden2019 from gender_agreement_slot_in_verb_forms_bib.tsv has
 The BibTeX entry daniel2021 from the file adjectives_number_bib.tsv has an empty value in the obligatory field VOLUME
 The wrong language name          Western Armenian          in the file          imperative_interjections.tsv
 The wrong non-toplevel 2 dialect name Kishi in the file adjectives_number.tsv
-The wrong toplevel dialect name Tanty in the file gender_agreement_slot_in_verb_forms.tsv
 The wrong toplevel dialect name Koshan in the file imperative_interjections.tsv
 spelling of          aj        in adjectives_number.Rmd:133
 spelling of          ar        in adjectives_number.Rmd:133,133
