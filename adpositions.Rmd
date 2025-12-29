@@ -330,7 +330,7 @@ Note that several adposition-like elements (typically with the meaning similar t
     a)
 ```{r, results='asis'}
 gloss_example(transliteration = "eli mariyat-**qo-r** ƛexuzaƛ’or c’alduqan-za-qo-r xabaryay-nč’i",
-              glosses = "we Mariyat-**POSS-LAT** except student-OBL.PL-POSS-LAT talk-PST.WIT.NEG",
+              glosses = "we Mariyat-**POSS-LAT** except student-OBL.PL-POSS-LAT talk-PST.W.NEG",
               free_translation = "We did not talk to the students except Mariyat.")
 ```
 
@@ -392,7 +392,7 @@ A dominant case may be instantiated by an abstract case (such as genitive or dat
 ## List of glosses {-}
 
 ```{r}
-make_gloss_list(readxl::read_xlsx("data/glosses.xlsx"), remove_glosses = c("witnessed"))
+make_gloss_list(readxl::read_xlsx("data/glosses.xlsx"))
 ```
 
 ## References {-}
