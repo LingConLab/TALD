@@ -91,7 +91,26 @@ read_tsv("data/tald_villages.csv") |>
           village_dialect) |> 
   mutate(id = 1:n()) |> 
   pivot_longer(names_to = "cols", values_to = "value", -id) |> 
+  na.omit() ->
+  intermediate
+  
+intermediate |> 
+  mutate(insert_a_raw = if_else(lag(value) == "Avar-Andic" & value != "Avar", "Andic", NA),
+         insert_a_raw_id = 1:n()) |> 
   na.omit() |> 
+  pull(insert_a_raw_id) ->
+  insert_a_raw_ids
+
+map(seq_along(insert_a_raw_ids), function(i){
+  if(i == 1){
+    bind_rows(intermediate[1:(insert_a_raw_ids[i]-1),], tibble(cols = "insert", value = "Andic"))
+  } else {
+    bind_rows(intermediate[(insert_a_raw_ids[i-1]):(insert_a_raw_ids[i]-1),], tibble(cols = "insert", value = "Andic"))
+  }
+}) |> 
+  list_rbind() |> 
+  bind_rows(intermediate[(insert_a_raw_ids[length(insert_a_raw_ids)]):nrow(intermediate),]) |> 
+  fill(id) |> 
   group_by(id) |> 
   mutate(new_col = letters[1:n()]) |> 
   select(-cols) |> 
