@@ -387,9 +387,9 @@ general_datapoints_map |>
     ") |> 
   ec_tile_map(feature_column = 'value",
     multiple_values$features[i],
-    "') +
-  theme(text = element_text(size = 15),
-        palette.colour.discrete = scales::pal_viridis())
+    "',
+              tile_colors = 'viridis') +
+  theme(text = element_text(size = 15))
 ```
 
     ")

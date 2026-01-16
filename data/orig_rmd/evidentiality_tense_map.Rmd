@@ -188,9 +188,9 @@ map.feature(data_granularity_map$lang4map,
 ```{r, fig.width=12, fig.height=8}
 general_datapoints_map |> 
   select(language, value1) |> 
-  ec_tile_map(feature_column = 'value1') +
-  theme(text = element_text(size = 15),
-        palette.colour.discrete = scales::pal_viridis())
+  ec_tile_map(feature_column = 'value1',
+              tile_colors = 'viridis') +
+  theme(text = element_text(size = 15))
 ```
 
     
@@ -325,9 +325,9 @@ map.feature(data_granularity_map$lang4map,
 ```{r, fig.width=12, fig.height=8}
 general_datapoints_map |> 
   select(language, value2) |> 
-  ec_tile_map(feature_column = 'value2') +
-  theme(text = element_text(size = 15),
-        palette.colour.discrete = scales::pal_viridis())
+  ec_tile_map(feature_column = 'value2',
+              tile_colors = 'viridis') +
+  theme(text = element_text(size = 15))
 ```
 
     
