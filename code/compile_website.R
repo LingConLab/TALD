@@ -253,7 +253,11 @@ feature_dataset |>
   mutate(popup = ifelse((lang4map == idiom | str_detect(idiom, 'Standard')), 
                         str_c('data level: ', type),
                         str_c(idiom, '<br> data level: ', type)),
-         value1 = str_c(value1, ' (', n, ')'),
+         value",
+    multiple_values$features[i],
+    " = str_c(value",
+    multiple_values$features[i],
+    ", ' (', n, ')'),
          display = 'show languages')  |> 
   filter(!is.na(value",
     multiple_values$features[i],
@@ -340,11 +344,19 @@ map.feature(all_data_filtered$lang4map,
 
 ```{r}
 feature_dataset |> 
-  filter(map == 'yes') |> 
+  filter(map == 'yes') |>
+    add_count(value",
+    multiple_values$features[i],
+    ") |> 
   inner_join(coordinates_averaged) |> 
   mutate(popup = ifelse((lang4map == idiom | str_detect(idiom, 'Standard')), 
                         str_c('data level: ', type),
                         str_c(idiom, '<br> data level: ', type)),
+         value",
+    multiple_values$features[i],
+    " = str_c(value",
+    multiple_values$features[i],
+    ", ' (', n, ')'),
          type = factor(type, levels = c('language', 
                                         'top level dialect',
                                         'non top level 1 dialect',
