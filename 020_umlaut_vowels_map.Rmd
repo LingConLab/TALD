@@ -2,7 +2,7 @@
 title: Umlaut vowels (Maps & Data)
 author: George Moroz
 date: 'Last update: November 2021'
-bibliography: ./data/orig_bib/umlaut_vowels.bib
+bibliography: false
 csl: apa.csl
 link-citations: true
 output:

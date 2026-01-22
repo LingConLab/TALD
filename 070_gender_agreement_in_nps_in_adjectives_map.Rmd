@@ -2,7 +2,7 @@
 title: Gender agreement slot in adjectives (Maps & Data)
 author: Alina Khurges
 date: 'Last update: July 2025'
-bibliography: ./data/orig_bib/gender_agreement_in_nps_in_adjectives.bib
+bibliography: false
 csl: apa.csl
 link-citations: true
 output:

@@ -2,7 +2,7 @@
 title: Inclusive/exclusive distinction in pronouns (Maps & Data)
 author: Asya Alekseeva, Michael Daniel
 date: 'Last update: December 2024'
-bibliography: ./data/orig_bib/inclusive_exclusive_distinction_in_personal_pronouns.bib
+bibliography: false
 csl: apa.csl
 link-citations: true
 output:

@@ -2,7 +2,7 @@
 title: Demonstratives (Maps & Data)
 author: Timofey Mukhin
 date: 'Last update: February 2023'
-bibliography: ./data/orig_bib/demonstratives.bib
+bibliography: false
 csl: apa.csl
 link-citations: true
 output:

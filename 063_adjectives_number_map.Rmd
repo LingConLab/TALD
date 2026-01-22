@@ -2,7 +2,7 @@
 title: Specialized number agreement of adnominal adjectives (Maps & Data)
 author: Aigul Zakirova
 date: 'Last update: July 2025'
-bibliography: ./data/orig_bib/adjectives_number.bib
+bibliography: false
 csl: apa.csl
 link-citations: true
 output:

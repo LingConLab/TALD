@@ -2,7 +2,7 @@
 title: Distinction between transitive and intransitive imperatives (Maps & Data)
 author: Maria Starodubtseva
 date: 'Last update: March 2024'
-bibliography: ./data/orig_bib/trans_intrans_imperative.bib
+bibliography: false
 csl: apa.csl
 link-citations: true
 output:

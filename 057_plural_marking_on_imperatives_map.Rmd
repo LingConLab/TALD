@@ -2,7 +2,7 @@
 title: Plural marking on imperatives and prohibitives (Maps & Data)
 author: Vasiliy Zerzele
 date: 'Last update: February 2024'
-bibliography: ./data/orig_bib/plural_marking_on_imperatives.bib
+bibliography: false
 csl: apa.csl
 link-citations: true
 output:

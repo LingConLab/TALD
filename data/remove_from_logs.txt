@@ -16,3 +16,7 @@ The wrong toplevel dialect name Ak-Nogai in the file numeral_ordinals.tsv
 The wrong toplevel dialect name Kara-Nogai in the file caritive_attr.tsv
 The wrong toplevel dialect name Kara-Nogai in the file gender_agreement_slot.tsv
 The wrong toplevel dialect name Kara-Nogai in the file number_of_morphological_slots_in_spatial_forms.tsv
+
+# в журнале Рема нет томов, только номера
+The BibTeX entry daniel2021 from the file adjectives_number_bib.tsv has an empty value in the obligatory field VOLUME
+

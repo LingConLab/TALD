@@ -2,7 +2,7 @@
 title: Jussive (Maps & Data)
 author: Nina Dobrushina
 date: 'Last update: February 2024'
-bibliography: ./data/orig_bib/jussive.bib
+bibliography: false
 csl: apa.csl
 link-citations: true
 output:

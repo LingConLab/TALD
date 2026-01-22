@@ -2,7 +2,7 @@
 title: Numeral Bases (Maps & Data)
 author: Maksim Melenchenko
 date: 'Last update: September 2022'
-bibliography: ./data/orig_bib/numeral_bases.bib
+bibliography: false
 csl: apa.csl
 link-citations: true
 output:

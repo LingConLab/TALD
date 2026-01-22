@@ -2,7 +2,7 @@
 title: Farewell wishes (Maps & Data)
 author: Nina Dobrushina
 date: 'Last update: September 2023'
-bibliography: ./data/orig_bib/farewell_wishes.bib
+bibliography: false
 csl: apa.csl
 link-citations: true
 output:

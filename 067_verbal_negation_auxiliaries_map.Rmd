@@ -2,7 +2,7 @@
 title: Negation with auxiliaries (Maps & Data)
 author: Maksim Melenchenko
 date: 'Last update: July 2025'
-bibliography: ./data/orig_bib/verbal_negation_auxiliaries.bib
+bibliography: false
 csl: apa.csl
 link-citations: true
 output:

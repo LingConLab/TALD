@@ -2,7 +2,7 @@
 title: Gender agreement slot in nominal inflectional paradigms (Maps & Data)
 author: Rita Popova
 date: 'Last update: February 2024'
-bibliography: ./data/orig_bib/gender_agreement_slot.bib
+bibliography: false
 csl: apa.csl
 link-citations: true
 output:

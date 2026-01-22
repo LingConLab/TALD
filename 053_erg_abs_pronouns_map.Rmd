@@ -2,7 +2,7 @@
 title: The ergative-absolutive distinction in personal pronouns (Maps & Data)
 author: Irina Politova
 date: 'Last update: September 2023'
-bibliography: ./data/orig_bib/erg_abs_pronouns.bib
+bibliography: false
 csl: apa.csl
 link-citations: true
 output:

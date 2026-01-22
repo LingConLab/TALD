@@ -2,7 +2,7 @@
 title: Number of morphological slots in spatial forms (Maps & Data)
 author: Alexandra Nogina
 date: 'Last update: October 2023'
-bibliography: ./data/orig_bib/number_of_morphological_slots_in_spatial_forms.bib
+bibliography: false
 csl: apa.csl
 link-citations: true
 output:

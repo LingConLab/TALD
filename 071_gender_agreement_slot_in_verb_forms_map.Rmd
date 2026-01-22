@@ -2,7 +2,7 @@
 title: Gender agreement slot in verb forms (Maps & Data)
 author: Ivan Olkhov
 date: 'Last update: July 2025'
-bibliography: ./data/orig_bib/gender_agreement_slot_in_verb_forms.bib
+bibliography: false
 csl: apa.csl
 link-citations: true
 output:

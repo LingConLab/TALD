@@ -2,7 +2,7 @@
 title: Presence of the numeral marker in complex numerals (Maps & Data)
 author: Maksim Melenchenko
 date: 'Last update: August 2022'
-bibliography: ./data/orig_bib/numeral_complex.bib
+bibliography: false
 csl: apa.csl
 link-citations: true
 output:

@@ -1,4 +1,3 @@
-The BibTeX entry daniel2021 from the file adjectives_number_bib.tsv has an empty value in the obligatory field VOLUME
 The wrong non-toplevel 2 dialect name Kishi in the file adjectives_number.tsv
 spelling of          aj        in adjectives_number.Rmd:133
 spelling of          ar        in adjectives_number.Rmd:133,133

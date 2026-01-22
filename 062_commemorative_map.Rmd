@@ -2,7 +2,7 @@
 title: Commemorative formulas (Maps & Data)
 author: Nina Dobrushina
 date: 'Last update: April 2025'
-bibliography: ./data/orig_bib/commemorative.bib
+bibliography: false
 csl: apa.csl
 link-citations: true
 output:

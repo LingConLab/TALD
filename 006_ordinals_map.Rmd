@@ -2,7 +2,7 @@
 title: Ordinal numerals (Maps & Data)
 author: Polina Nasledskova, Ivan Netkachev
 date: 'Last update: December 2021'
-bibliography: ./data/orig_bib/ordinals.bib
+bibliography: false
 csl: apa.csl
 link-citations: true
 output:

@@ -2,7 +2,7 @@
 title: Expression of the sense ‘to work’ (Maps & Data)
 author: Svetlana Zemicheva, Konstantin Filatov
 date: 'Last update: March 2025'
-bibliography: ./data/orig_bib/work.bib
+bibliography: false
 csl: apa.csl
 link-citations: true
 output:

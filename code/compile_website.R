@@ -473,9 +473,11 @@ walk(seq_along(rmd_filenames), function(i){
                              ifelse(str_detect(rmd_filenames[i], "_map.Rmd"), 
                                     chapters$updated_map[i], 
                                     chapters$updated_text[i]))) |> 
-    ymlthis::yml_citations(bibliography = paste0("./data/orig_bib/", 
-                                                 str_remove(chapters$filename[i], "_map"), 
-                                                 ".bib"),
+    ymlthis::yml_citations(bibliography = ifelse(str_detect(rmd_filenames[i], "_map.Rmd"), 
+                                                 FALSE, 
+                                                 paste0("./data/orig_bib/", 
+                                                        str_remove(chapters$filename[i], "_map"), 
+                                                        ".bib")),
                            csl = "apa.csl",
                            link_citations = TRUE) |> 
     ymlthis::yml_output(html_document(number_sections = TRUE,

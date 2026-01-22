@@ -2,7 +2,7 @@
 title: Comitative (Maps & Data)
 author: Sara Zadykian, Chiara Naccarato
 date: 'Last update: May 2022'
-bibliography: ./data/orig_bib/comitative.bib
+bibliography: false
 csl: apa.csl
 link-citations: true
 output:

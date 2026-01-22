@@ -2,7 +2,7 @@
 title: Imperative interjection ‘here, take it!’ (Maps & Data)
 author: Timur Maisak
 date: 'Last update: July 2025'
-bibliography: ./data/orig_bib/imperative_interjections.bib
+bibliography: false
 csl: apa.csl
 link-citations: true
 output:

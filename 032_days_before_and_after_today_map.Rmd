@@ -2,7 +2,7 @@
 title: Days before and after today (Maps & Data)
 author: Timofey Dedov
 date: 'Last update: June 2022'
-bibliography: ./data/orig_bib/days_before_and_after_today.bib
+bibliography: false
 csl: apa.csl
 link-citations: true
 output:
