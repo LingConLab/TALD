@@ -1827,109 +1827,110 @@ id	village	rus_village	lat	lon	lang	aff	family	standard	default_level	dialect_to
 1826	Gombori	Гомбори	41.8582	45.207	Tat	Iranian	Indo-European		Juhuri									Gombori	jude1256	#9a7ee0	#cab3ff	2025-09-18
 1827	Dzhalgan	Джалган	42.02454	48.26224	Muslim Tat	Iranian	Indo-European		Mitahi-Jalqan									Dzhalgan	nort2697	#cab3ff	#cab3ff	2025-09-18
 1828	Mitagi	Митаги	42.01736	48.19083	Muslim Tat	Iranian	Indo-European		Mitahi-Jalqan									Mitagi	nort2697	#cab3ff	#cab3ff	2025-09-18
-1829	Standard Ossetian		42.98	44.61	Modern Ossetic	Iranian	Indo-European	Standard Ossetian	Ossetian										osse1243			2025-09-18
-1830	Dağ Quşçu	Дагкушчу	41.0045	48.9739	Tat	Iranian	Indo-European		Tat	Muslim Tat		Central						Dağ Quşçu	musl1236	#bba2ff	#cab3ff	2025-09-18
-1831	Giləzi	Гилази	40.8715	49.3444	Tat	Iranian	Indo-European		Tat	Muslim Tat		Central						Giləzi	musl1236	#bba2ff	#cab3ff	2025-09-18
-1832	Afurca	Афруджа	41.1592	48.6174	Tat	Iranian	Indo-European		Tat	Muslim Tat		Northern						Afurca	musl1236	#bba2ff	#cab3ff	2025-09-18
-1833	Çiçi		41.2159	48.6822	Tat	Iranian	Indo-European		Tat	Muslim Tat		Northern						Çiçi	musl1236	#bba2ff	#cab3ff	2025-09-18
-1834	Əhən		40.8527	48.4166	Tat	Iranian	Indo-European		Tat	Muslim Tat		Northern						Əhən	musl1236	#bba2ff	#cab3ff	2025-09-18
-1835	Ərüsküş	Арискюш	40.94493	48.91224	Tat	Iranian	Indo-European		Tat	Muslim Tat		Northern						Ərüsküş	musl1236	#bba2ff	#cab3ff	2025-09-18
-1836	Güləzi	Гюлязи	41.1589	48.5834	Tat	Iranian	Indo-European		Tat	Muslim Tat		Northern						Güləzi	musl1236	#bba2ff	#cab3ff	2025-09-18
-1837	Qamqam	Гам-Гам	41.2551	48.6115	Tat	Iranian	Indo-European		Tat	Muslim Tat		Northern						Qamqam	musl1236	#bba2ff	#cab3ff	2025-09-18
-1838	Qırmızı Qəsəbə	Красная Слобода	41.3736	48.5202	Tat	Iranian	Indo-European		Tat	Muslim Tat		Northern						Qırmızı Qəsəbə	musl1236	#bba2ff	#cab3ff	2025-09-18
-1839	Qonaqkənd	Конахкент	41.0729	48.6084	Tat	Iranian	Indo-European		Tat	Muslim Tat		Northern						Qonaqkənd	musl1236	#bba2ff	#cab3ff	2025-09-18
-1840	Qorxmazoba		41.2672	48.6939	Tat	Iranian	Indo-European		Tat	Muslim Tat		Northern						Qorxmazoba	musl1236	#bba2ff	#cab3ff	2025-09-18
-1841	Rustov	Рустов	41.251	48.5774	Tat	Iranian	Indo-European		Tat	Muslim Tat		Northern						Rustov	musl1236	#bba2ff	#cab3ff	2025-09-18
-1842	Xaltan	Халтан	40.9731	48.6848	Tat	Iranian	Indo-European		Tat	Muslim Tat		Northern						Xaltan	musl1236	#bba2ff	#cab3ff	2025-09-18
-1843	Zarat-Xeybəri		40.910833	48.553333	Tat	Iranian	Indo-European		Tat	Muslim Tat		Northern						Zarat-Xeybəri	musl1236	#bba2ff	#cab3ff	2025-09-18
-1844	Zeyvə	Зейвэ	41.1968	48.7444	Tat	Iranian	Indo-European		Tat	Muslim Tat		Northern						Zeyvə	musl1236	#bba2ff	#cab3ff	2025-09-18
-1845	Balaxanı	Балаханы	40.4608	49.9235	Tat	Iranian	Indo-European		Tat	Muslim Tat		Southern						Balaxanı	musl1236	#bba2ff	#cab3ff	2025-09-18
-1846	Fındığan	Фындаган	40.9583	49.0377	Tat	Iranian	Indo-European		Tat	Muslim Tat		Southern						Fındığan	musl1236	#bba2ff	#cab3ff	2025-09-18
-1847	Gəndov	Гендаб	41.262504	48.9009004	Tat	Iranian	Indo-European		Tat	Muslim Tat		Southern						Gəndov	musl1236	#bba2ff	#cab3ff	2025-09-18
-1848	Sədan	Саадан	41.066	49.0386	Tat	Iranian	Indo-European		Tat	Muslim Tat		Southern						Sədan	musl1236	#bba2ff	#cab3ff	2025-09-18
-1849	Tıxlı	Тыхлы	40.91466	49.09705	Tat	Iranian	Indo-European		Tat	Muslim Tat		Southern						Tıxlı	musl1236	#bba2ff	#cab3ff	2025-09-18
-1850	Xızı	Хизы	40.9108	49.07	Tat	Iranian	Indo-European		Tat	Muslim Tat		Southern						Xızı	musl1236	#bba2ff	#cab3ff	2025-09-18
-1851	Burovdal		40.94023	48.37069	Tat	Iranian	Indo-European		Tat	Muslim Tat		Upper Şirvan						Burovdal	musl1236	#bba2ff	#cab3ff	2025-09-18
-1852	Dəmirçi		40.84011	48.56149	Tat	Iranian	Indo-European		Tat	Muslim Tat		Upper Şirvan						Dəmirçi	musl1236	#bba2ff	#cab3ff	2025-09-18
-1853	Lahıc	Лахидж	40.84541	48.38354	Tat	Iranian	Indo-European		Tat	Muslim Tat		Upper Şirvan						Lahıc	musl1236	#bba2ff	#cab3ff	2025-09-18
-1854	Məlhəm		40.6885	48.6316	Tat	Iranian	Indo-European		Tat	Muslim Tat		Upper Şirvan						Məlhəm	musl1236	#bba2ff	#cab3ff	2025-09-18
-1855	Müdrəsə	Мюдреса	40.86034	48.31664	Tat	Iranian	Indo-European		Tat	Muslim Tat		Upper Şirvan						Müdrəsə	musl1236	#bba2ff	#cab3ff	2025-09-18
-1856	Pirbəyli		40.83772	48.73893	Tat	Iranian	Indo-European		Tat	Muslim Tat		Upper Şirvan						Pirbəyli	musl1236	#bba2ff	#cab3ff	2025-09-18
-1857	Suraxanı	Сураханы	40.4181	49.9991	Tat	Iranian	Indo-European		Tat	Muslim Tat		Upper Şirvan						Suraxanı	musl1236	#bba2ff	#cab3ff	2025-09-18
-1858	Əlibəyli	Алибегло	41.378056	46.821944	Georgian	Georgic	Kartvelian		Georgian	Ingiloy	Ингилойский							Əlibəyli	nucl1302	#9effed	#9effed	2025-09-18
-1859	Meşəbaş	Мешабаш	41.408889	46.874444	Georgian	Georgic	Kartvelian		Georgian	Ingiloy	Ингилойский							Meşəbaş	nucl1302	#9effed	#9effed	2025-09-18
-1860	Standard Georgian		41.81574	44.31883	Georgian	Georgic	Kartvelian	Standard Georgian	Georgian										nucl1302	#9effed	#9effed	2025-09-18
-1861	Buglen	Буглен	42.7553	47.1989	Kumyk	Kipchak	Turkic		Kumyk	Buynaksk	Буйнакский							Buglen	kumy1244	#a6a6a6	#666666	2025-09-18
-1862	Gelli	Гелли	42.7267	47.4014	Kumyk	Kipchak	Turkic		Kumyk	Buynaksk	Буйнакский							Gelli	kumy1244	#a6a6a6	#666666	2025-09-18
-1863	Kafyr-Kumukh	Кафыр-Кумух	42.83754	47.15412	Kumyk	Kipchak	Turkic		Kumyk	Buynaksk	Буйнакский							Kafyr-Kumukh	kumy1244	#a6a6a6	#666666	2025-09-18
-1864	Kaka-Shura	Кака-Шура	42.65194	47.38278	Kumyk	Kipchak	Turkic		Kumyk	Buynaksk	Буйнакский							Kaka-Shura	kumy1244	#a6a6a6	#666666	2025-09-18
-1865	Khalimbekaul	Халимбекаул	42.8447	47.1406	Kumyk	Kipchak	Turkic		Kumyk	Buynaksk	Буйнакский							Khalimbekaul	kumy1244	#a6a6a6	#666666	2025-09-18
-1866	Nizhnee Kazanische	Нижнее Казанище	42.7644	47.1611	Kumyk	Kipchak	Turkic		Kumyk	Buynaksk	Буйнакский							Nizhnee Kazanische	kumy1244	#a6a6a6	#666666	2025-09-18
-1867	Nizhniy Dzhengutay	Нижний Дженгутай	42.7014	47.2417	Kumyk	Kipchak	Turkic		Kumyk	Buynaksk	Буйнакский							Nizhniy Dzhengutay	kumy1244	#a6a6a6	#666666	2025-09-18
-1868	Paraul	Параул	42.7394	47.3592	Kumyk	Kipchak	Turkic		Kumyk	Buynaksk	Буйнакский							Paraul	kumy1244	#a6a6a6	#666666	2025-09-18
-1869	Verkhnee Kazanische	Верхнее Казанище	42.7306	47.1381	Kumyk	Kipchak	Turkic		Kumyk	Buynaksk	Буйнакский							Verkhnee Kazanische	kumy1244	#a6a6a6	#666666	2025-09-18
-1870	Adanak	Аданак	42.7522	47.4586	Kumyk	Kipchak	Turkic		Kumyk									Adanak	kumy1244	#a6a6a6	#666666	2025-09-18
-1871	Agachkala	Агачкала	42.76698	47.07599	Kumyk	Kipchak	Turkic		Kumyk									Agachkala	kumy1244	#a6a6a6	#666666	2025-09-18
-1872	Alkhadzhakent	Алхаджакент	42.340016	47.79177	Kumyk	Kipchak	Turkic		Kumyk									Alkhadzhakent	kumy1244	#a6a6a6	#666666	2025-09-18
-1873	Bashlykent	Башлыкент	42.2597	47.8439	Kumyk	Kipchak	Turkic		Kumyk									Bashlykent	kumy1244	#a6a6a6	#666666	2025-09-18
-1874	Braguny	Брагуны	43.44	46.096944	Kumyk	Kipchak	Turkic		Kumyk									Braguny	kumy1244	#a6a6a6	#666666	2025-09-18
-1875	Dorgeli	Доргели	42.66556	47.29667	Kumyk	Kipchak	Turkic		Kumyk									Dorgeli	kumy1244	#a6a6a6	#666666	2025-09-18
-1876	Dzhavankent	Джаванкент	42.26265	47.80983	Kumyk	Kipchak	Turkic		Kumyk									Dzhavankent	kumy1244	#a6a6a6	#666666	2025-09-18
-1877	Ekibulak	Экибулак	43.04196	47.07152	Kumyk	Kipchak	Turkic		Kumyk									Ekibulak	kumy1244	#a6a6a6	#666666	2025-09-18
-1878	Erpeli	Эрпели	42.806119	46.973557	Kumyk	Kipchak	Turkic		Kumyk									Erpeli	kumy1244	#a6a6a6	#666666	2025-09-18
-1879	Gasha	Гаша	42.33592	47.83067	Kumyk	Kipchak	Turkic		Kumyk									Gasha	kumy1244	#a6a6a6	#666666	2025-09-18
-1880	Kapkaykent	Капкайкент	42.248157	47.798984	Kumyk	Kipchak	Turkic		Kumyk									Kapkaykent	kumy1244	#a6a6a6	#666666	2025-09-18
-1881	Karabudakhkent	Карабудахкент	42.7067	47.5603	Kumyk	Kipchak	Turkic		Kumyk									Karabudakhkent	kumy1244	#a6a6a6	#666666	2025-09-18
-1882	Karanayaul	Каранайаул	42.51266	47.85563	Kumyk	Kipchak	Turkic		Kumyk									Karanayaul	kumy1244	#a6a6a6	#666666	2025-09-18
-1883	Kayakent	Кайакент	42.3847	47.9044	Kumyk	Kipchak	Turkic		Kumyk									Kayakent	kumy1244	#a6a6a6	#666666	2025-09-18
-1884	Manaskent	Манаскент	42.7367	47.6958	Kumyk	Kipchak	Turkic		Kumyk									Manaskent	kumy1244	#a6a6a6	#666666	2025-09-18
-1885	Nizhnie Ishkarty	Нижние Ишкарты	42.84698	46.97147	Kumyk	Kipchak	Turkic		Kumyk									Nizhnie Ishkarty	kumy1244	#a6a6a6	#666666	2025-09-18
-1886	Novokayakent	Новокайакент	42.3922	47.9878	Kumyk	Kipchak	Turkic		Kumyk									Novokayakent	kumy1244	#a6a6a6	#666666	2025-09-18
-1887	Takalay	Такалай	42.89677	47.1644	Kumyk	Kipchak	Turkic		Kumyk									Takalay	kumy1244	#a6a6a6	#666666	2025-09-18
-1888	Tumeller	Тумеллер	42.1846	47.84238	Kumyk	Kipchak	Turkic		Kumyk									Tumeller	kumy1244	#a6a6a6	#666666	2025-09-18
-1889	Ullubiyaul	Уллубийаул	42.59689	47.71825	Kumyk	Kipchak	Turkic		Kumyk									Ullubiyaul	kumy1244	#a6a6a6	#666666	2025-09-18
-1890	Usemikent	Усемикент	42.3836	47.8681	Kumyk	Kipchak	Turkic		Kumyk									Usemikent	kumy1244	#a6a6a6	#666666	2025-09-18
-1891	Utamysh	Утамыш	42.4047	47.7492	Kumyk	Kipchak	Turkic		Kumyk									Utamysh	kumy1244	#a6a6a6	#666666	2025-09-18
-1892	Verkhnie Ishkarty	Верхние Ишкарты	42.84907	46.95309	Kumyk	Kipchak	Turkic		Kumyk									Verkhnie Ishkarty	kumy1244	#a6a6a6	#666666	2025-09-18
-1893	Vinogradnoe (Chechnya)	Виноградное (Чечня)	43.463333	45.861111	Kumyk	Kipchak	Turkic		Kumyk									Vinogradnoe (Chechnya)	kumy1244	#a6a6a6	#666666	2025-09-18
-1894	Yangikent	Янгикент	42.2042	47.8292	Kumyk	Kipchak	Turkic		Kumyk									Yangikent	kumy1244	#a6a6a6	#666666	2025-09-18
-1895	Standard Kumyk		43	47	Kumyk	Kipchak	Turkic	Standard Kumyk	Kumyk										kumy1244	#a6a6a6	#666666	2025-09-18
-1896	Sary-su	Сары-су	43.839722	46.4325	Nogai	Kipchak	Turkic		Nogai									Sary-su	noga1249	#666666	#666666	2025-09-18
-1897	Standard Nogai		43.59168	46.66178	Nogai	Kipchak	Turkic	Standard Nogai	Nogai										noga1249	#666666	#666666	2025-09-18
-1898	Berikey	Берикей	42.2228	48.0611	Azerbaijani	Oghuz	Turkic		Azerbaijani									Berikey	nort2697	#cccccc	#666666	2025-09-18
-1899	Bil'gadi	Бильгади	42.08581	48.13462	Azerbaijani	Oghuz	Turkic		Azerbaijani									Bil'gadi	nort2697	#cccccc	#666666	2025-09-18
-1900	Chinar	Чинар	42.1075	48.1439	Azerbaijani	Oghuz	Turkic		Azerbaijani									Chinar	nort2697	#cccccc	#666666	2025-09-18
-1901	Darvag	Дарваг	42.022285	48.065912	Azerbaijani	Oghuz	Turkic		Azerbaijani									Darvag	nort2697	#cccccc	#666666	2025-09-18
-1902	Delichoban	Деличобан	42.19877	48.09467	Azerbaijani	Oghuz	Turkic		Azerbaijani									Delichoban	nort2697	#cccccc	#666666	2025-09-18
-1903	Dzhemikent	Джемикент	42.23575	48.04114	Azerbaijani	Oghuz	Turkic		Azerbaijani									Dzhemikent	nort2697	#cccccc	#666666	2025-09-18
-1904	Gedzhukh	Геджух	42.1247	48.0661	Azerbaijani	Oghuz	Turkic		Azerbaijani									Gedzhukh	nort2697	#cccccc	#666666	2025-09-18
-1905	İlisu	Илису	41.46694	47.05917	Azerbaijani	Oghuz	Turkic		Azerbaijani									İlisu	nort2697	#cccccc	#666666	2025-09-18
-1906	Imeni Michurina	Имени Мичурина	42.17695	48.19867	Azerbaijani	Oghuz	Turkic		Azerbaijani									Imeni Michurina	nort2697	#cccccc	#666666	2025-09-18
-1907	Kala	Кала	42.1464	48.1634	Azerbaijani	Oghuz	Turkic		Azerbaijani									Kala	nort2697	#cccccc	#666666	2025-09-18
-1908	Khazar	Хазар	41.9944	48.3375	Azerbaijani	Oghuz	Turkic		Azerbaijani									Khazar	nort2697	#cccccc	#666666	2025-09-18
-1909	Kheli	Хели	41.967458	48.058177	Azerbaijani	Oghuz	Turkic		Azerbaijani									Kheli	nort2697	#cccccc	#666666	2025-09-18
-1910	Maraga	Марага	41.9633	48.1208	Azerbaijani	Oghuz	Turkic		Azerbaijani									Maraga	nort2697	#cccccc	#666666	2025-09-18
-1911	Mitagi-Kazmalyar	Митаги-Казмаляр	42.035494	48.204804	Azerbaijani	Oghuz	Turkic		Azerbaijani									Mitagi-Kazmalyar	nort2697	#cccccc	#666666	2025-09-18
-1912	Mugarty	Мугарты	41.9947	48.1614	Azerbaijani	Oghuz	Turkic		Azerbaijani									Mugarty	nort2697	#cccccc	#666666	2025-09-18
-1913	Muzaim	Музаим	41.90837	48.29136	Azerbaijani	Oghuz	Turkic		Azerbaijani									Muzaim	nort2697	#cccccc	#666666	2025-09-18
-1914	Nizhniy Dzhalgan	Нижний Джалган	41.99007	48.31898	Azerbaijani	Oghuz	Turkic		Azerbaijani									Nizhniy Dzhalgan	nort2697	#cccccc	#666666	2025-09-18
-1915	Nizhniy Katrukh	Нижний Катрух	41.742979	47.203482	Azerbaijani	Oghuz	Turkic		Azerbaijani									Nizhniy Katrukh	nort2697	#cccccc	#666666	2025-09-18
-1916	Nyugdi	Нюгди	41.85872	48.43455	Azerbaijani	Oghuz	Turkic		Azerbaijani									Nyugdi	nort2697	#cccccc	#666666	2025-09-18
-1917	Padar	Падар	42.19939	48.05179	Azerbaijani	Oghuz	Turkic		Azerbaijani									Padar	nort2697	#cccccc	#666666	2025-09-18
-1918	Pendzhi (Penzhik)	Пенджи (Пенжик)	41.966	48.05	Azerbaijani	Oghuz	Turkic		Azerbaijani									Pendzhi (Penzhik)	nort2697	#cccccc	#666666	2025-09-18
-1919	Qax	Гах	41.41944	46.91806	Azerbaijani	Oghuz	Turkic		Azerbaijani									Qax	nort2697	#cccccc	#666666	2025-09-18
-1920	Rukel'	Рукель	41.9881	48.2253	Azerbaijani	Oghuz	Turkic		Azerbaijani									Rukel'	nort2697	#cccccc	#666666	2025-09-18
-1921	Sabnova	Сабнова	42.063172	48.254419	Azerbaijani	Oghuz	Turkic		Azerbaijani									Sabnova	nort2697	#cccccc	#666666	2025-09-18
-1922	Salik	Салик	42.17335	48.08635	Azerbaijani	Oghuz	Turkic		Azerbaijani									Salik	nort2697	#cccccc	#666666	2025-09-18
-1923	Segeler	Сегелер	42.26056	48.11556	Azerbaijani	Oghuz	Turkic		Azerbaijani									Segeler	nort2697	#cccccc	#666666	2025-09-18
-1924	Tatlyar	Татляр	42.2003	48.0269	Azerbaijani	Oghuz	Turkic		Azerbaijani									Tatlyar	nort2697	#cccccc	#666666	2025-09-18
-1925	Tsanak	Цанак	41.94266	48.04137	Azerbaijani	Oghuz	Turkic		Azerbaijani									Tsanak	nort2697	#cccccc	#666666	2025-09-18
-1926	Ulluterkeme	Уллутеркеме	42.21511	48.00644	Azerbaijani	Oghuz	Turkic		Azerbaijani									Ulluterkeme	nort2697	#cccccc	#666666	2025-09-18
-1927	Velikent	Великент	42.1875	48.0647	Azerbaijani	Oghuz	Turkic		Azerbaijani									Velikent	nort2697	#cccccc	#666666	2025-09-18
-1928	Yekrag	Йекраг	41.967212	48.044297	Azerbaijani	Oghuz	Turkic		Azerbaijani									Yekrag	nort2697	#cccccc	#666666	2025-09-18
-1929	Yersi	Йерси	42.018844	48.012897	Azerbaijani	Oghuz	Turkic		Azerbaijani									Yersi	nort2697	#cccccc	#666666	2025-09-18
-1930	Yunyy Pakhar'	Юный Пахарь	42.180183	48.160227	Azerbaijani	Oghuz	Turkic		Azerbaijani									Yunyy Pakhar'	nort2697	#cccccc	#666666	2025-09-18
-1931	Zid'yan	Зидьян	42.050776	48.142558	Azerbaijani	Oghuz	Turkic		Azerbaijani									Zid'yan	nort2697	#cccccc	#666666	2025-09-18
-1932	Zid'yan-Kazmalyar	Зидьян-Казмаляр	42.07957	48.15655	Azerbaijani	Oghuz	Turkic		Azerbaijani									Zid'yan-Kazmalyar	nort2697	#cccccc	#666666	2025-09-18
-1933	Zil'	Зиль	41.99616	48.03356	Azerbaijani	Oghuz	Turkic		Azerbaijani									Zil'	nort2697	#cccccc	#666666	2025-09-18
-1934	Standard Azerbaijani		40.977675	46.4736975	Azerbaijani	Oghuz	Turkic	Standard Azerbaijani	Azerbaijani										nort2697	#cccccc	#666666	2025-09-18
+1829	Western Armenian		40.1897	44.4839	Western Armenian		Indo-European	Western Armenian	Western Armenian										homs1234			2025-09-18
+1830	Standard Ossetian		42.98	44.61	Modern Ossetic	Iranian	Indo-European	Standard Ossetian	Ossetian										osse1243			2025-09-18
+1831	Dağ Quşçu	Дагкушчу	41.0045	48.9739	Tat	Iranian	Indo-European		Tat	Muslim Tat		Central						Dağ Quşçu	musl1236	#bba2ff	#cab3ff	2025-09-18
+1832	Giləzi	Гилази	40.8715	49.3444	Tat	Iranian	Indo-European		Tat	Muslim Tat		Central						Giləzi	musl1236	#bba2ff	#cab3ff	2025-09-18
+1833	Afurca	Афруджа	41.1592	48.6174	Tat	Iranian	Indo-European		Tat	Muslim Tat		Northern						Afurca	musl1236	#bba2ff	#cab3ff	2025-09-18
+1834	Çiçi		41.2159	48.6822	Tat	Iranian	Indo-European		Tat	Muslim Tat		Northern						Çiçi	musl1236	#bba2ff	#cab3ff	2025-09-18
+1835	Əhən		40.8527	48.4166	Tat	Iranian	Indo-European		Tat	Muslim Tat		Northern						Əhən	musl1236	#bba2ff	#cab3ff	2025-09-18
+1836	Ərüsküş	Арискюш	40.94493	48.91224	Tat	Iranian	Indo-European		Tat	Muslim Tat		Northern						Ərüsküş	musl1236	#bba2ff	#cab3ff	2025-09-18
+1837	Güləzi	Гюлязи	41.1589	48.5834	Tat	Iranian	Indo-European		Tat	Muslim Tat		Northern						Güləzi	musl1236	#bba2ff	#cab3ff	2025-09-18
+1838	Qamqam	Гам-Гам	41.2551	48.6115	Tat	Iranian	Indo-European		Tat	Muslim Tat		Northern						Qamqam	musl1236	#bba2ff	#cab3ff	2025-09-18
+1839	Qırmızı Qəsəbə	Красная Слобода	41.3736	48.5202	Tat	Iranian	Indo-European		Tat	Muslim Tat		Northern						Qırmızı Qəsəbə	musl1236	#bba2ff	#cab3ff	2025-09-18
+1840	Qonaqkənd	Конахкент	41.0729	48.6084	Tat	Iranian	Indo-European		Tat	Muslim Tat		Northern						Qonaqkənd	musl1236	#bba2ff	#cab3ff	2025-09-18
+1841	Qorxmazoba		41.2672	48.6939	Tat	Iranian	Indo-European		Tat	Muslim Tat		Northern						Qorxmazoba	musl1236	#bba2ff	#cab3ff	2025-09-18
+1842	Rustov	Рустов	41.251	48.5774	Tat	Iranian	Indo-European		Tat	Muslim Tat		Northern						Rustov	musl1236	#bba2ff	#cab3ff	2025-09-18
+1843	Xaltan	Халтан	40.9731	48.6848	Tat	Iranian	Indo-European		Tat	Muslim Tat		Northern						Xaltan	musl1236	#bba2ff	#cab3ff	2025-09-18
+1844	Zarat-Xeybəri		40.910833	48.553333	Tat	Iranian	Indo-European		Tat	Muslim Tat		Northern						Zarat-Xeybəri	musl1236	#bba2ff	#cab3ff	2025-09-18
+1845	Zeyvə	Зейвэ	41.1968	48.7444	Tat	Iranian	Indo-European		Tat	Muslim Tat		Northern						Zeyvə	musl1236	#bba2ff	#cab3ff	2025-09-18
+1846	Balaxanı	Балаханы	40.4608	49.9235	Tat	Iranian	Indo-European		Tat	Muslim Tat		Southern						Balaxanı	musl1236	#bba2ff	#cab3ff	2025-09-18
+1847	Fındığan	Фындаган	40.9583	49.0377	Tat	Iranian	Indo-European		Tat	Muslim Tat		Southern						Fındığan	musl1236	#bba2ff	#cab3ff	2025-09-18
+1848	Gəndov	Гендаб	41.262504	48.9009004	Tat	Iranian	Indo-European		Tat	Muslim Tat		Southern						Gəndov	musl1236	#bba2ff	#cab3ff	2025-09-18
+1849	Sədan	Саадан	41.066	49.0386	Tat	Iranian	Indo-European		Tat	Muslim Tat		Southern						Sədan	musl1236	#bba2ff	#cab3ff	2025-09-18
+1850	Tıxlı	Тыхлы	40.91466	49.09705	Tat	Iranian	Indo-European		Tat	Muslim Tat		Southern						Tıxlı	musl1236	#bba2ff	#cab3ff	2025-09-18
+1851	Xızı	Хизы	40.9108	49.07	Tat	Iranian	Indo-European		Tat	Muslim Tat		Southern						Xızı	musl1236	#bba2ff	#cab3ff	2025-09-18
+1852	Burovdal		40.94023	48.37069	Tat	Iranian	Indo-European		Tat	Muslim Tat		Upper Şirvan						Burovdal	musl1236	#bba2ff	#cab3ff	2025-09-18
+1853	Dəmirçi		40.84011	48.56149	Tat	Iranian	Indo-European		Tat	Muslim Tat		Upper Şirvan						Dəmirçi	musl1236	#bba2ff	#cab3ff	2025-09-18
+1854	Lahıc	Лахидж	40.84541	48.38354	Tat	Iranian	Indo-European		Tat	Muslim Tat		Upper Şirvan						Lahıc	musl1236	#bba2ff	#cab3ff	2025-09-18
+1855	Məlhəm		40.6885	48.6316	Tat	Iranian	Indo-European		Tat	Muslim Tat		Upper Şirvan						Məlhəm	musl1236	#bba2ff	#cab3ff	2025-09-18
+1856	Müdrəsə	Мюдреса	40.86034	48.31664	Tat	Iranian	Indo-European		Tat	Muslim Tat		Upper Şirvan						Müdrəsə	musl1236	#bba2ff	#cab3ff	2025-09-18
+1857	Pirbəyli		40.83772	48.73893	Tat	Iranian	Indo-European		Tat	Muslim Tat		Upper Şirvan						Pirbəyli	musl1236	#bba2ff	#cab3ff	2025-09-18
+1858	Suraxanı	Сураханы	40.4181	49.9991	Tat	Iranian	Indo-European		Tat	Muslim Tat		Upper Şirvan						Suraxanı	musl1236	#bba2ff	#cab3ff	2025-09-18
+1859	Əlibəyli	Алибегло	41.378056	46.821944	Georgian	Georgic	Kartvelian		Georgian	Ingiloy	Ингилойский							Əlibəyli	nucl1302	#9effed	#9effed	2025-09-18
+1860	Meşəbaş	Мешабаш	41.408889	46.874444	Georgian	Georgic	Kartvelian		Georgian	Ingiloy	Ингилойский							Meşəbaş	nucl1302	#9effed	#9effed	2025-09-18
+1861	Standard Georgian		41.81574	44.31883	Georgian	Georgic	Kartvelian	Standard Georgian	Georgian										nucl1302	#9effed	#9effed	2025-09-18
+1862	Buglen	Буглен	42.7553	47.1989	Kumyk	Kipchak	Turkic		Kumyk	Buynaksk	Буйнакский							Buglen	kumy1244	#a6a6a6	#666666	2025-09-18
+1863	Gelli	Гелли	42.7267	47.4014	Kumyk	Kipchak	Turkic		Kumyk	Buynaksk	Буйнакский							Gelli	kumy1244	#a6a6a6	#666666	2025-09-18
+1864	Kafyr-Kumukh	Кафыр-Кумух	42.83754	47.15412	Kumyk	Kipchak	Turkic		Kumyk	Buynaksk	Буйнакский							Kafyr-Kumukh	kumy1244	#a6a6a6	#666666	2025-09-18
+1865	Kaka-Shura	Кака-Шура	42.65194	47.38278	Kumyk	Kipchak	Turkic		Kumyk	Buynaksk	Буйнакский							Kaka-Shura	kumy1244	#a6a6a6	#666666	2025-09-18
+1866	Khalimbekaul	Халимбекаул	42.8447	47.1406	Kumyk	Kipchak	Turkic		Kumyk	Buynaksk	Буйнакский							Khalimbekaul	kumy1244	#a6a6a6	#666666	2025-09-18
+1867	Nizhnee Kazanische	Нижнее Казанище	42.7644	47.1611	Kumyk	Kipchak	Turkic		Kumyk	Buynaksk	Буйнакский							Nizhnee Kazanische	kumy1244	#a6a6a6	#666666	2025-09-18
+1868	Nizhniy Dzhengutay	Нижний Дженгутай	42.7014	47.2417	Kumyk	Kipchak	Turkic		Kumyk	Buynaksk	Буйнакский							Nizhniy Dzhengutay	kumy1244	#a6a6a6	#666666	2025-09-18
+1869	Paraul	Параул	42.7394	47.3592	Kumyk	Kipchak	Turkic		Kumyk	Buynaksk	Буйнакский							Paraul	kumy1244	#a6a6a6	#666666	2025-09-18
+1870	Verkhnee Kazanische	Верхнее Казанище	42.7306	47.1381	Kumyk	Kipchak	Turkic		Kumyk	Buynaksk	Буйнакский							Verkhnee Kazanische	kumy1244	#a6a6a6	#666666	2025-09-18
+1871	Adanak	Аданак	42.7522	47.4586	Kumyk	Kipchak	Turkic		Kumyk									Adanak	kumy1244	#a6a6a6	#666666	2025-09-18
+1872	Agachkala	Агачкала	42.76698	47.07599	Kumyk	Kipchak	Turkic		Kumyk									Agachkala	kumy1244	#a6a6a6	#666666	2025-09-18
+1873	Alkhadzhakent	Алхаджакент	42.340016	47.79177	Kumyk	Kipchak	Turkic		Kumyk									Alkhadzhakent	kumy1244	#a6a6a6	#666666	2025-09-18
+1874	Bashlykent	Башлыкент	42.2597	47.8439	Kumyk	Kipchak	Turkic		Kumyk									Bashlykent	kumy1244	#a6a6a6	#666666	2025-09-18
+1875	Braguny	Брагуны	43.44	46.096944	Kumyk	Kipchak	Turkic		Kumyk									Braguny	kumy1244	#a6a6a6	#666666	2025-09-18
+1876	Dorgeli	Доргели	42.66556	47.29667	Kumyk	Kipchak	Turkic		Kumyk									Dorgeli	kumy1244	#a6a6a6	#666666	2025-09-18
+1877	Dzhavankent	Джаванкент	42.26265	47.80983	Kumyk	Kipchak	Turkic		Kumyk									Dzhavankent	kumy1244	#a6a6a6	#666666	2025-09-18
+1878	Ekibulak	Экибулак	43.04196	47.07152	Kumyk	Kipchak	Turkic		Kumyk									Ekibulak	kumy1244	#a6a6a6	#666666	2025-09-18
+1879	Erpeli	Эрпели	42.806119	46.973557	Kumyk	Kipchak	Turkic		Kumyk									Erpeli	kumy1244	#a6a6a6	#666666	2025-09-18
+1880	Gasha	Гаша	42.33592	47.83067	Kumyk	Kipchak	Turkic		Kumyk									Gasha	kumy1244	#a6a6a6	#666666	2025-09-18
+1881	Kapkaykent	Капкайкент	42.248157	47.798984	Kumyk	Kipchak	Turkic		Kumyk									Kapkaykent	kumy1244	#a6a6a6	#666666	2025-09-18
+1882	Karabudakhkent	Карабудахкент	42.7067	47.5603	Kumyk	Kipchak	Turkic		Kumyk									Karabudakhkent	kumy1244	#a6a6a6	#666666	2025-09-18
+1883	Karanayaul	Каранайаул	42.51266	47.85563	Kumyk	Kipchak	Turkic		Kumyk									Karanayaul	kumy1244	#a6a6a6	#666666	2025-09-18
+1884	Kayakent	Кайакент	42.3847	47.9044	Kumyk	Kipchak	Turkic		Kumyk									Kayakent	kumy1244	#a6a6a6	#666666	2025-09-18
+1885	Manaskent	Манаскент	42.7367	47.6958	Kumyk	Kipchak	Turkic		Kumyk									Manaskent	kumy1244	#a6a6a6	#666666	2025-09-18
+1886	Nizhnie Ishkarty	Нижние Ишкарты	42.84698	46.97147	Kumyk	Kipchak	Turkic		Kumyk									Nizhnie Ishkarty	kumy1244	#a6a6a6	#666666	2025-09-18
+1887	Novokayakent	Новокайакент	42.3922	47.9878	Kumyk	Kipchak	Turkic		Kumyk									Novokayakent	kumy1244	#a6a6a6	#666666	2025-09-18
+1888	Takalay	Такалай	42.89677	47.1644	Kumyk	Kipchak	Turkic		Kumyk									Takalay	kumy1244	#a6a6a6	#666666	2025-09-18
+1889	Tumeller	Тумеллер	42.1846	47.84238	Kumyk	Kipchak	Turkic		Kumyk									Tumeller	kumy1244	#a6a6a6	#666666	2025-09-18
+1890	Ullubiyaul	Уллубийаул	42.59689	47.71825	Kumyk	Kipchak	Turkic		Kumyk									Ullubiyaul	kumy1244	#a6a6a6	#666666	2025-09-18
+1891	Usemikent	Усемикент	42.3836	47.8681	Kumyk	Kipchak	Turkic		Kumyk									Usemikent	kumy1244	#a6a6a6	#666666	2025-09-18
+1892	Utamysh	Утамыш	42.4047	47.7492	Kumyk	Kipchak	Turkic		Kumyk									Utamysh	kumy1244	#a6a6a6	#666666	2025-09-18
+1893	Verkhnie Ishkarty	Верхние Ишкарты	42.84907	46.95309	Kumyk	Kipchak	Turkic		Kumyk									Verkhnie Ishkarty	kumy1244	#a6a6a6	#666666	2025-09-18
+1894	Vinogradnoe (Chechnya)	Виноградное (Чечня)	43.463333	45.861111	Kumyk	Kipchak	Turkic		Kumyk									Vinogradnoe (Chechnya)	kumy1244	#a6a6a6	#666666	2025-09-18
+1895	Yangikent	Янгикент	42.2042	47.8292	Kumyk	Kipchak	Turkic		Kumyk									Yangikent	kumy1244	#a6a6a6	#666666	2025-09-18
+1896	Standard Kumyk		43	47	Kumyk	Kipchak	Turkic	Standard Kumyk	Kumyk										kumy1244	#a6a6a6	#666666	2025-09-18
+1897	Sary-su	Сары-су	43.839722	46.4325	Nogai	Kipchak	Turkic		Nogai									Sary-su	noga1249	#666666	#666666	2025-09-18
+1898	Standard Nogai		43.59168	46.66178	Nogai	Kipchak	Turkic	Standard Nogai	Nogai										noga1249	#666666	#666666	2025-09-18
+1899	Berikey	Берикей	42.2228	48.0611	Azerbaijani	Oghuz	Turkic		Azerbaijani									Berikey	nort2697	#cccccc	#666666	2025-09-18
+1900	Bil'gadi	Бильгади	42.08581	48.13462	Azerbaijani	Oghuz	Turkic		Azerbaijani									Bil'gadi	nort2697	#cccccc	#666666	2025-09-18
+1901	Chinar	Чинар	42.1075	48.1439	Azerbaijani	Oghuz	Turkic		Azerbaijani									Chinar	nort2697	#cccccc	#666666	2025-09-18
+1902	Darvag	Дарваг	42.022285	48.065912	Azerbaijani	Oghuz	Turkic		Azerbaijani									Darvag	nort2697	#cccccc	#666666	2025-09-18
+1903	Delichoban	Деличобан	42.19877	48.09467	Azerbaijani	Oghuz	Turkic		Azerbaijani									Delichoban	nort2697	#cccccc	#666666	2025-09-18
+1904	Dzhemikent	Джемикент	42.23575	48.04114	Azerbaijani	Oghuz	Turkic		Azerbaijani									Dzhemikent	nort2697	#cccccc	#666666	2025-09-18
+1905	Gedzhukh	Геджух	42.1247	48.0661	Azerbaijani	Oghuz	Turkic		Azerbaijani									Gedzhukh	nort2697	#cccccc	#666666	2025-09-18
+1906	İlisu	Илису	41.46694	47.05917	Azerbaijani	Oghuz	Turkic		Azerbaijani									İlisu	nort2697	#cccccc	#666666	2025-09-18
+1907	Imeni Michurina	Имени Мичурина	42.17695	48.19867	Azerbaijani	Oghuz	Turkic		Azerbaijani									Imeni Michurina	nort2697	#cccccc	#666666	2025-09-18
+1908	Kala	Кала	42.1464	48.1634	Azerbaijani	Oghuz	Turkic		Azerbaijani									Kala	nort2697	#cccccc	#666666	2025-09-18
+1909	Khazar	Хазар	41.9944	48.3375	Azerbaijani	Oghuz	Turkic		Azerbaijani									Khazar	nort2697	#cccccc	#666666	2025-09-18
+1910	Kheli	Хели	41.967458	48.058177	Azerbaijani	Oghuz	Turkic		Azerbaijani									Kheli	nort2697	#cccccc	#666666	2025-09-18
+1911	Maraga	Марага	41.9633	48.1208	Azerbaijani	Oghuz	Turkic		Azerbaijani									Maraga	nort2697	#cccccc	#666666	2025-09-18
+1912	Mitagi-Kazmalyar	Митаги-Казмаляр	42.035494	48.204804	Azerbaijani	Oghuz	Turkic		Azerbaijani									Mitagi-Kazmalyar	nort2697	#cccccc	#666666	2025-09-18
+1913	Mugarty	Мугарты	41.9947	48.1614	Azerbaijani	Oghuz	Turkic		Azerbaijani									Mugarty	nort2697	#cccccc	#666666	2025-09-18
+1914	Muzaim	Музаим	41.90837	48.29136	Azerbaijani	Oghuz	Turkic		Azerbaijani									Muzaim	nort2697	#cccccc	#666666	2025-09-18
+1915	Nizhniy Dzhalgan	Нижний Джалган	41.99007	48.31898	Azerbaijani	Oghuz	Turkic		Azerbaijani									Nizhniy Dzhalgan	nort2697	#cccccc	#666666	2025-09-18
+1916	Nizhniy Katrukh	Нижний Катрух	41.742979	47.203482	Azerbaijani	Oghuz	Turkic		Azerbaijani									Nizhniy Katrukh	nort2697	#cccccc	#666666	2025-09-18
+1917	Nyugdi	Нюгди	41.85872	48.43455	Azerbaijani	Oghuz	Turkic		Azerbaijani									Nyugdi	nort2697	#cccccc	#666666	2025-09-18
+1918	Padar	Падар	42.19939	48.05179	Azerbaijani	Oghuz	Turkic		Azerbaijani									Padar	nort2697	#cccccc	#666666	2025-09-18
+1919	Pendzhi (Penzhik)	Пенджи (Пенжик)	41.966	48.05	Azerbaijani	Oghuz	Turkic		Azerbaijani									Pendzhi (Penzhik)	nort2697	#cccccc	#666666	2025-09-18
+1920	Qax	Гах	41.41944	46.91806	Azerbaijani	Oghuz	Turkic		Azerbaijani									Qax	nort2697	#cccccc	#666666	2025-09-18
+1921	Rukel'	Рукель	41.9881	48.2253	Azerbaijani	Oghuz	Turkic		Azerbaijani									Rukel'	nort2697	#cccccc	#666666	2025-09-18
+1922	Sabnova	Сабнова	42.063172	48.254419	Azerbaijani	Oghuz	Turkic		Azerbaijani									Sabnova	nort2697	#cccccc	#666666	2025-09-18
+1923	Salik	Салик	42.17335	48.08635	Azerbaijani	Oghuz	Turkic		Azerbaijani									Salik	nort2697	#cccccc	#666666	2025-09-18
+1924	Segeler	Сегелер	42.26056	48.11556	Azerbaijani	Oghuz	Turkic		Azerbaijani									Segeler	nort2697	#cccccc	#666666	2025-09-18
+1925	Tatlyar	Татляр	42.2003	48.0269	Azerbaijani	Oghuz	Turkic		Azerbaijani									Tatlyar	nort2697	#cccccc	#666666	2025-09-18
+1926	Tsanak	Цанак	41.94266	48.04137	Azerbaijani	Oghuz	Turkic		Azerbaijani									Tsanak	nort2697	#cccccc	#666666	2025-09-18
+1927	Ulluterkeme	Уллутеркеме	42.21511	48.00644	Azerbaijani	Oghuz	Turkic		Azerbaijani									Ulluterkeme	nort2697	#cccccc	#666666	2025-09-18
+1928	Velikent	Великент	42.1875	48.0647	Azerbaijani	Oghuz	Turkic		Azerbaijani									Velikent	nort2697	#cccccc	#666666	2025-09-18
+1929	Yekrag	Йекраг	41.967212	48.044297	Azerbaijani	Oghuz	Turkic		Azerbaijani									Yekrag	nort2697	#cccccc	#666666	2025-09-18
+1930	Yersi	Йерси	42.018844	48.012897	Azerbaijani	Oghuz	Turkic		Azerbaijani									Yersi	nort2697	#cccccc	#666666	2025-09-18
+1931	Yunyy Pakhar'	Юный Пахарь	42.180183	48.160227	Azerbaijani	Oghuz	Turkic		Azerbaijani									Yunyy Pakhar'	nort2697	#cccccc	#666666	2025-09-18
+1932	Zid'yan	Зидьян	42.050776	48.142558	Azerbaijani	Oghuz	Turkic		Azerbaijani									Zid'yan	nort2697	#cccccc	#666666	2025-09-18
+1933	Zid'yan-Kazmalyar	Зидьян-Казмаляр	42.07957	48.15655	Azerbaijani	Oghuz	Turkic		Azerbaijani									Zid'yan-Kazmalyar	nort2697	#cccccc	#666666	2025-09-18
+1934	Zil'	Зиль	41.99616	48.03356	Azerbaijani	Oghuz	Turkic		Azerbaijani									Zil'	nort2697	#cccccc	#666666	2025-09-18
+1935	Standard Azerbaijani		40.977675	46.4736975	Azerbaijani	Oghuz	Turkic	Standard Azerbaijani	Azerbaijani										nort2697	#cccccc	#666666	2025-09-18
