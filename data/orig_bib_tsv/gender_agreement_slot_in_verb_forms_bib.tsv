@@ -1,16 +1,16 @@
-CATEGORY	BIBTEXKEY	AUTHOR	TITLE	YEAR	TITLE_TRANSLATION	PUBLISHER	ADDRESS	PAGES	BOOKTITLE	BOOKTITLE_TRANSLATION	EDITOR	JOURNAL	VOLUME	NUMBER	SCHOOL	NOTE	URL	CONTRIBUTOR	date_added	COMMENT	correction_notes
-article	babaliyeva2023_tabasaran	Babaliyeva, Ayten	Standard Tabasaran: short grammar sketch	2023								Languages of the Caucasus	6	1				Maksim Melenchenko	02.05.2024		
-book	desheriev1953	Дешериев, Юнус Д.	Бацбийский язык	1953	Tsova-Tush language	Академия	Moscow														
-book	magomedbekova1971	Магомедбекова, Загидат М.	Каратинский язык	1971	Karata 	Мецниереба	Tbilisi														
-book	madieva1965	Мадиева, Гюльшахан И.	Грамматический очерк бежтинского языка	1965	Grammatical profile of Bezhta	ДГУ	Makhachkala														
-book	sumbatovamutalov2003	Sumbatova, Nina R. and Mutalov, Rasul O.	A Grammar of Icari Dargwa	2003		Lincom Europa	Munich														
-book	forker2013	Forker, Diana	A grammar of Hinuq	2013		De Gruyter Mouton	Berlin/Boston														
-book	kibrik1977	Кибрик, Александр Е.	Опыт структурного описания арчинского языка. Том {II}. Таксономическая грамматика	1977	Structural description of Archi. Volume II. Taxonomic grammar	Издательство Московского университета	Moscow														
-book	magomedbekova1967	Магомедбекова, Загидат М.	Ахвахский язык	1967	Akhvakh	Мецниереба	Tbilisi														
-book	magometov1963	Магометов, Александр А.	Кубачинский язык	1963	Kubachi	Академия Наук Грузинской ССР	Tbilisi														
-book	sumbatovalander2014	Сумбатова, Нина Р. and Ландер, Юрий А.	Даргинский говор селения Танты: грамматический очерк. Вопросы синтаксиса	2014		Языки славянской культуры	Moscow											Samira Verhees			
-book	talibov2007	Талибов, Букар Б.	Будухский язык	2007	Budukh	Академия	Moscow														
-book	bokarev1949a	Бокарёв, Анатолий А.	Очерк грамматики чамалинского языка	1949	Grammar sketch of Chamalal	Издательство Академии наук СССР	Moscow/Leningrad														
-book	kibrikkodzasov1988	Кибрик, Александр Е. and Кодзасов, Сандро В.  	Сопоставительное изучение дагестанских языков. Глагол	1988	A comparative study of Daghestanian languages. Verb	Издательство Московского Университета	Moscow											Samira Verhees	09.06.2022		
-article	harris2009	Harris, Alice	Exuberant Exponence in Batsbi	2009								Natural Language and Linguistic Theory	27								
-incollection	fedden2019	Sebastian Fedden	To Agree or Not to Agree? A Typology of Sporadic Agreement	2019		Edinburgh University Press	Edinburgh	301--326				Morphological Perspectives									
+CATEGORY	BIBTEXKEY	AUTHOR	TITLE	YEAR	TITLE_TRANSLATION	PUBLISHER	ADDRESS	PAGES	BOOKTITLE	BOOKTITLE_TRANSLATION	EDITOR	JOURNAL	VOLUME	NUMBER	SCHOOL	NOTE	URL	COMMENT	correction_notes
+article	babaliyeva2023_tabasaran	Babaliyeva, Ayten	Standard Tabasaran: short grammar sketch	2023								Languages of the Caucasus	6	1					
+book	desheriev1953	Дешериев, Юнус Д.	Бацбийский язык	1953	Tsova-Tush language	Академия	Moscow												
+book	magomedbekova1971	Магомедбекова, Загидат М.	Каратинский язык	1971	Karata 	Мецниереба	Tbilisi												
+book	madieva1965	Мадиева, Гюльшахан И.	Грамматический очерк бежтинского языка	1965	Grammatical profile of Bezhta	ДГУ	Makhachkala												
+book	sumbatovamutalov2003	Sumbatova, Nina R. and Mutalov, Rasul O.	A Grammar of Icari Dargwa	2003		Lincom Europa	Munich												
+book	forker2013	Forker, Diana	A grammar of Hinuq	2013		De Gruyter Mouton	Berlin/Boston												
+book	kibrik1977	Кибрик, Александр Е.	Опыт структурного описания арчинского языка. Том {II}. Таксономическая грамматика	1977	Structural description of Archi. Volume II. Taxonomic grammar	Издательство Московского университета	Moscow												
+book	magomedbekova1967	Магомедбекова, Загидат М.	Ахвахский язык	1967	Akhvakh	Мецниереба	Tbilisi												
+book	magometov1963	Магометов, Александр А.	Кубачинский язык	1963	Kubachi	Академия Наук Грузинской ССР	Tbilisi												
+book	sumbatovalander2014	Сумбатова, Нина Р. and Ландер, Юрий А.	Даргинский говор селения Танты: грамматический очерк. Вопросы синтаксиса	2014		Языки славянской культуры	Moscow												
+book	talibov2007	Талибов, Букар Б.	Будухский язык	2007	Budukh	Академия	Moscow												
+book	bokarev1949a	Бокарёв, Анатолий А.	Очерк грамматики чамалинского языка	1949	Grammar sketch of Chamalal	Издательство Академии наук СССР	Moscow/Leningrad												
+book	kibrikkodzasov1988	Кибрик, Александр Е. and Кодзасов, Сандро В.  	Сопоставительное изучение дагестанских языков. Глагол	1988	A comparative study of Daghestanian languages. Verb	Издательство Московского Университета	Moscow												
+article	harris2009	Harris, Alice	Exuberant Exponence in Batsbi	2009								Natural Language and Linguistic Theory	27						
+incollection	fedden2019	Sebastian Fedden	To Agree or Not to Agree? A Typology of Sporadic Agreement	2019		Edinburgh University Press	Edinburgh	301--326	Morphological Perspectives										
