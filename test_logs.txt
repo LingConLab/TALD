@@ -1,4 +1,4 @@
-The wrong non-toplevel 2 dialect name Kishi in the file adjectives_number.tsv
+The wrong non-toplevel 2 dialect name Kiisha in the file adjectives_number.tsv
 spelling of          aj        in adjectives_number.Rmd:133
 spelling of          ar        in adjectives_number.Rmd:133,133
 spelling of          ce        in adjectives_number.Rmd:435
