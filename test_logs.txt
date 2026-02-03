@@ -1,4 +1,149 @@
+The BibTeX entry          moroz2017          present in the          ejective_p.tsv, but absent in the biblib.xlsx
+The BibTeX entry          morozdraft2021          present in the          ejective_p.tsv, but absent in the biblib.xlsx
+The BibTeX entry          gaydarivetal2009          present in the          ejective_p.tsv, but absent in the biblib.xlsx
+The BibTeX entry          moroz2017          present in the          ejective_s.tsv, but absent in the biblib.xlsx
+The BibTeX entry          morozdraft2021          present in the          ejective_s.tsv, but absent in the biblib.xlsx
+The BibTeX entry          gaydarivetal2009          present in the          ejective_s.tsv, but absent in the biblib.xlsx
+The BibTeX entry          moroz2017          present in the          gemination.tsv, but absent in the biblib.xlsx
+The BibTeX entry          morozdraft2021          present in the          gemination.tsv, but absent in the biblib.xlsx
+The BibTeX entry          gaydarivetal2009          present in the          gemination.tsv, but absent in the biblib.xlsx
+The BibTeX entry          baskakov1973, baskakov1940          present in the          gemination.tsv, but absent in the biblib.xlsx
+The BibTeX entry          moroz2017          present in the          labialization.tsv, but absent in the biblib.xlsx
+The BibTeX entry          morozdraft2021          present in the          labialization.tsv, but absent in the biblib.xlsx
+The BibTeX entry          gaydarivetal2009          present in the          labialization.tsv, but absent in the biblib.xlsx
+The BibTeX entry          moroz2017          present in the          labials.tsv, but absent in the biblib.xlsx
+The BibTeX entry          morozdraft2021          present in the          labials.tsv, but absent in the biblib.xlsx
+The BibTeX entry          gaydarivetal2009          present in the          labials.tsv, but absent in the biblib.xlsx
+The BibTeX entry          moroz2017          present in the          laterals.tsv, but absent in the biblib.xlsx
+The BibTeX entry          morozdraft2021          present in the          laterals.tsv, but absent in the biblib.xlsx
+The BibTeX entry          gaydarivetal2009          present in the          laterals.tsv, but absent in the biblib.xlsx
+The BibTeX entry mitterer2018 from the file gemination_bib.tsv has an empty value in the obligatory field BOOKTITLE
+Multiple genlang_point for          Karata          in the file          ejective_p.tsv
+Multiple genlang_point for          Khwarshi          in the file          ejective_p.tsv
+Multiple genlang_point for          Karata          in the file          ejective_s.tsv
+Multiple genlang_point for          Khwarshi          in the file          ejective_s.tsv
+Multiple genlang_point for          Karata          in the file          gemination.tsv
+Multiple genlang_point for          Khwarshi          in the file          gemination.tsv
+Multiple genlang_point for          Karata          in the file          labialization.tsv
+Multiple genlang_point for          Khwarshi          in the file          labialization.tsv
+Multiple genlang_point for          Karata          in the file          labials.tsv
+Multiple genlang_point for          Khwarshi          in the file          labials.tsv
+Multiple genlang_point for          Karata          in the file          laterals.tsv
+Multiple genlang_point for          Khwarshi          in the file          laterals.tsv
+The wrong language name          Akhvakh          in the file          ejective_p.tsv
+The wrong language name          Andi          in the file          ejective_p.tsv
+The wrong language name          Armenian          in the file          ejective_p.tsv
+The wrong language name          Dargwa          in the file          ejective_p.tsv
+The wrong language name          Akhvakh          in the file          ejective_s.tsv
+The wrong language name          Andi          in the file          ejective_s.tsv
+The wrong language name          Armenian          in the file          ejective_s.tsv
+The wrong language name          Dargwa          in the file          ejective_s.tsv
+The wrong language name          Akhvakh          in the file          gemination.tsv
+The wrong language name          Andi          in the file          gemination.tsv
+The wrong language name          Armenian          in the file          gemination.tsv
+The wrong language name          Dargwa          in the file          gemination.tsv
+The wrong language name          Akhvakh          in the file          labialization.tsv
+The wrong language name          Andi          in the file          labialization.tsv
+The wrong language name          Armenian          in the file          labialization.tsv
+The wrong language name          Dargwa          in the file          labialization.tsv
+The wrong language name          Akhvakh          in the file          labials.tsv
+The wrong language name          Andi          in the file          labials.tsv
+The wrong language name          Armenian          in the file          labials.tsv
+The wrong language name          Dargwa          in the file          labials.tsv
+The wrong language name          Akhvakh          in the file          laterals.tsv
+The wrong language name          Andi          in the file          laterals.tsv
+The wrong language name          Armenian          in the file          laterals.tsv
+The wrong language name          Dargwa          in the file          laterals.tsv
+The wrong village dialect name Huppuq' in the file ejective_p.tsv
+The wrong village dialect name Budukh in the file ejective_p.tsv
+The wrong village dialect name Gigatli in the file ejective_p.tsv
+The wrong village dialect name Mehweb in the file ejective_p.tsv
+The wrong village dialect name Hinuq in the file ejective_p.tsv
+The wrong village dialect name Khinalug in the file ejective_p.tsv
+The wrong village dialect name Inkhoqwari in the file ejective_p.tsv
+The wrong village dialect name Kwantlada in the file ejective_p.tsv
+The wrong village dialect name Kryz in the file ejective_p.tsv
+The wrong village dialect name Nizh in the file ejective_p.tsv
+The wrong village dialect name Huppuq' in the file ejective_s.tsv
+The wrong village dialect name Budukh in the file ejective_s.tsv
+The wrong village dialect name Gigatli in the file ejective_s.tsv
+The wrong village dialect name Mehweb in the file ejective_s.tsv
+The wrong village dialect name Hinuq in the file ejective_s.tsv
+The wrong village dialect name Khinalug in the file ejective_s.tsv
+The wrong village dialect name Inkhoqwari in the file ejective_s.tsv
+The wrong village dialect name Kwantlada in the file ejective_s.tsv
+The wrong village dialect name Kryz in the file ejective_s.tsv
+The wrong village dialect name Nizh in the file ejective_s.tsv
+The wrong village dialect name Huppuq' in the file gemination.tsv
+The wrong village dialect name Budukh in the file gemination.tsv
+The wrong village dialect name Gigatli in the file gemination.tsv
+The wrong village dialect name Mehweb in the file gemination.tsv
+The wrong village dialect name Hinuq in the file gemination.tsv
+The wrong village dialect name Khinalug in the file gemination.tsv
+The wrong village dialect name Inkhoqwari in the file gemination.tsv
+The wrong village dialect name Kwantlada in the file gemination.tsv
+The wrong village dialect name Kryz in the file gemination.tsv
+The wrong village dialect name Nizh in the file gemination.tsv
+The wrong village dialect name Huppuq' in the file labialization.tsv
+The wrong village dialect name Budukh in the file labialization.tsv
+The wrong village dialect name Gigatli in the file labialization.tsv
+The wrong village dialect name Mehweb in the file labialization.tsv
+The wrong village dialect name Hinuq in the file labialization.tsv
+The wrong village dialect name Khinalug in the file labialization.tsv
+The wrong village dialect name Inkhoqwari in the file labialization.tsv
+The wrong village dialect name Kwantlada in the file labialization.tsv
+The wrong village dialect name Kryz in the file labialization.tsv
+The wrong village dialect name Nizh in the file labialization.tsv
+The wrong village dialect name Budukh in the file labials.tsv
+The wrong village dialect name Gigatli in the file labials.tsv
+The wrong village dialect name Mehweb in the file labials.tsv
+The wrong village dialect name Hinuq in the file labials.tsv
+The wrong village dialect name Khinalug in the file labials.tsv
+The wrong village dialect name Inkhoqwari in the file labials.tsv
+The wrong village dialect name Kwantlada in the file labials.tsv
+The wrong village dialect name Kryz in the file labials.tsv
+The wrong village dialect name Nizh in the file labials.tsv
+The wrong village dialect name Huppuq' in the file laterals.tsv
+The wrong village dialect name Budukh in the file laterals.tsv
+The wrong village dialect name Gigatli in the file laterals.tsv
+The wrong village dialect name Mehweb in the file laterals.tsv
+The wrong village dialect name Hinuq in the file laterals.tsv
+The wrong village dialect name Khinalug in the file laterals.tsv
+The wrong village dialect name Inkhoqwari in the file laterals.tsv
+The wrong village dialect name Kwantlada in the file laterals.tsv
+The wrong village dialect name Kryz in the file laterals.tsv
+The wrong village dialect name Nizh in the file laterals.tsv
 The wrong non-toplevel 2 dialect name Kiisha in the file adjectives_number.tsv
+The wrong non-toplevel 1 dialect name Upper Gakvari in the file ejective_p.tsv
+The wrong non-toplevel 1 dialect name Upper Gakvari in the file ejective_s.tsv
+The wrong non-toplevel 1 dialect name Upper Gakvari in the file gemination.tsv
+The wrong non-toplevel 1 dialect name Upper Gakvari in the file labialization.tsv
+The wrong non-toplevel 1 dialect name Upper Gakvari in the file labials.tsv
+The wrong non-toplevel 1 dialect name Upper Gakvari in the file laterals.tsv
+The wrong toplevel dialect name Northern Akhvakh in the file ejective_p.tsv
+The wrong toplevel dialect name Modern Eastern Armenian in the file ejective_p.tsv
+The wrong toplevel dialect name Bezhta in the file ejective_p.tsv
+The wrong toplevel dialect name Kaitag in the file ejective_p.tsv
+The wrong toplevel dialect name Northern Akhvakh in the file ejective_s.tsv
+The wrong toplevel dialect name Modern Eastern Armenian in the file ejective_s.tsv
+The wrong toplevel dialect name Bezhta in the file ejective_s.tsv
+The wrong toplevel dialect name Kaitag in the file ejective_s.tsv
+The wrong toplevel dialect name Northern Akhvakh in the file gemination.tsv
+The wrong toplevel dialect name Modern Eastern Armenian in the file gemination.tsv
+The wrong toplevel dialect name Bezhta in the file gemination.tsv
+The wrong toplevel dialect name Kaitag in the file gemination.tsv
+The wrong toplevel dialect name Northern Akhvakh in the file labialization.tsv
+The wrong toplevel dialect name Modern Eastern Armenian in the file labialization.tsv
+The wrong toplevel dialect name Bezhta in the file labialization.tsv
+The wrong toplevel dialect name Kaitag in the file labialization.tsv
+The wrong toplevel dialect name Northern Akhvakh in the file labials.tsv
+The wrong toplevel dialect name Modern Eastern Armenian in the file labials.tsv
+The wrong toplevel dialect name Bezhta in the file labials.tsv
+The wrong toplevel dialect name Kaitag in the file labials.tsv
+The wrong toplevel dialect name Northern Akhvakh in the file laterals.tsv
+The wrong toplevel dialect name Modern Eastern Armenian in the file laterals.tsv
+The wrong toplevel dialect name Bezhta in the file laterals.tsv
+The wrong toplevel dialect name Kaitag in the file laterals.tsv
 spelling of          aj        in adjectives_number.Rmd:133
 spelling of          ar        in adjectives_number.Rmd:133,133
 spelling of          ce        in adjectives_number.Rmd:435
@@ -97,6 +242,10 @@ spelling of          owenu        in demonstratives.Rmd:324
 spelling of          uhu        in demonstratives.Rmd:86
 spelling of          un        in demonstratives.Rmd:209
 spelling of          wa        in demonstratives.Rmd:187,196,196,196
+spelling of          pˀ        in ejective_p.Rmd:17
+spelling of          Adyghe        in ejective_s.Rmd:7
+spelling of          Kabardian        in ejective_s.Rmd:7
+spelling of          neighbouring        in ejective_s.Rmd:11
 spelling of          de        in erg_abs_pronouns.Rmd:10,10,16,23
 spelling of          di        in erg_abs_pronouns.Rmd:33,39,40
 spelling of          du        in erg_abs_pronouns.Rmd:56
@@ -115,6 +264,7 @@ spelling of          Bon        in farewell_wishes.Rmd:3
 spelling of          lu        in farewell_wishes.Rmd:130
 spelling of          ol        in farewell_wishes.Rmd:130
 spelling of          yol        in farewell_wishes.Rmd:130
+spelling of          neighbouring        in gemination.Rmd:17
 spelling of          gu        in gender_agreement_slot_in_verb_forms.Rmd:83
 spelling of          adal        in gender_agreement_slot.Rmd:105
 spelling of          aj        in gender_agreement_slot.Rmd:148
@@ -151,6 +301,11 @@ spelling of          quner        in inclusive_exclusive_distinction_in_personal
 spelling of          vin        in inclusive_exclusive_distinction_in_personal_pronouns.Rmd:529
 spelling of          wi        in inclusive_exclusive_distinction_in_personal_pronouns.Rmd:583
 spelling of          nd        in jussive.Rmd:51
+spelling of          Adyge        in labialization.Rmd:7
+spelling of          labio        in labials.Rmd:7
+spelling of          neighbouring        in labials.Rmd:18,26
+spelling of          ʋ        in labials.Rmd:9
+spelling of          NCED        in laterals.Rmd:17
 spelling of          al        in morning_greetings.Rmd:20
 spelling of          xair        in morning_greetings.Rmd:41,41,49
 spelling of          xajir        in morning_greetings.Rmd:41
@@ -240,3 +395,4 @@ spelling of          kor        in work.Rmd:41
 spelling of          oba        in work.Rmd:61
 spelling of          wa        in work.Rmd:51
 spelling of          xe        in work.Rmd:61
+The BibTeX entry          isakovkhalilov2012          present in the .Rmd, but absent in the gemination.bib

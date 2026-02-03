@@ -158,7 +158,7 @@ first_authors <- tolower(str_remove(map(str_split(chapters$author, " "), 2), ","
 # create orig_rmd/..._map.Rmd files ----------------------------------------------------
 
 walk(str_subset(rmd_filenames, "_map.Rmd"), function(i){
-  
+  print(i)
   read_tsv(str_c("data/orig_table/", 
                  str_remove(str_remove(i, "_map.Rmd"), "\\d{1,}_"),
                  ".tsv"),

@@ -1,1 +1,5 @@
-CATEGORY	BIBTEXKEY	ADDRESS	ANNOTE	AUTHOR	TITLE	TITLE_TRANSLATION	BOOKTITLE	BOOKTITLE_TRANSLATION	CHAPTER	CROSSREF	EDITION	EDITOR	HOWPUBLISHED	INSTITUTION	JOURNAL	KEY	MONTH	NOTE	NUMBER	ORGANIZATION	PAGES	PUBLISHER	SCHOOL	SERIES	TYPE	VOLUME	YEAR	URL	ISBN	VERSION	DOI	ISSUE
+CATEGORY	BIBTEXKEY	AUTHOR	AUTHOR_old	TITLE	YEAR	TITLE_TRANSLATION	PUBLISHER	ADDRESS	PAGES	BOOKTITLE	BOOKTITLE_TRANSLATION	EDITOR	EDITOR_old	HOWPUBLISHED	JOURNAL	VOLUME	NUMBER	SCHOOL	NOTE	URL	CONTRIBUTOR	COMMENT	correction_notes
+book	klimov1965	G. A. Klimov		Кавказские языки	1965	Caucasian Languages	Наука	Moscow															
+misc	maddiesonetal2013	Maddieson I., Flavier S., Marsico E., Pellegrino F., 2014-2016.		LAPSyD: Lyon-Albuquerque Phonological Systems Databases, Version 1.0.	2013															https://lapsyd.huma-num.fr/lapsyd			
+book	colarusso1992	Colarusso, John		A grammar of the Kabardian language	1992		University of Calgary Press		7														
+misc	moranetal2019	Moran, Steven & McCloy, Daniel (eds.)		PHOIBLE 2.0.	2019		Jena: Max Planck Institute for the Science of Human History													http://phoible.org			

@@ -1,6 +1,6 @@
 ---
 title: Ejective s (Maps & Data)
-author: George Moroz
+author: George Moroz, Vasiliy Zerzele
 date: 'Last update: November 2021'
 bibliography: false
 csl: apa.csl
@@ -25,7 +25,7 @@ BibOptions(check.entries = FALSE, style = 'text', first.inits = FALSE, bib.style
 article_citation <- BibEntry(bibtype = 'Incollection', 
  key='moroz2021',
  title='Ejective s (Maps & Data)',
- author='George Moroz',
+ author='George Moroz and Vasiliy Zerzele',
  year='2021',
  editor= 'Daniel, Michael  and Filatov, Konstantin and Maisak, Timur and Moroz, George and Mukhin, Timofey and Naccarato, Chiara and Verhees, Samira',
  publisher='Linguistic Convergence Laboratory, HSE University',
