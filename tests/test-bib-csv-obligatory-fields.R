@@ -7,6 +7,7 @@ test_that("Test column names in the fields in bibtex tsvs", {
                    progress = FALSE, 
                    show_col_types = FALSE) |> 
       mutate(YEAR = as.character(YEAR),
+             PAGES = as.character(PAGES),
              NUMBER = as.character(NUMBER))
     all_fields <-  c('CATEGORY', 
                      'BIBTEXKEY', 

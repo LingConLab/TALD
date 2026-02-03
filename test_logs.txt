@@ -7,7 +7,6 @@ The BibTeX entry          gaydarivetal2009          present in the          ejec
 The BibTeX entry          moroz2017          present in the          gemination.tsv, but absent in the biblib.xlsx
 The BibTeX entry          morozdraft2021          present in the          gemination.tsv, but absent in the biblib.xlsx
 The BibTeX entry          gaydarivetal2009          present in the          gemination.tsv, but absent in the biblib.xlsx
-The BibTeX entry          baskakov1973, baskakov1940          present in the          gemination.tsv, but absent in the biblib.xlsx
 The BibTeX entry          moroz2017          present in the          labialization.tsv, but absent in the biblib.xlsx
 The BibTeX entry          morozdraft2021          present in the          labialization.tsv, but absent in the biblib.xlsx
 The BibTeX entry          gaydarivetal2009          present in the          labialization.tsv, but absent in the biblib.xlsx
