@@ -55,6 +55,7 @@ see https://en.wikipedia.org/wiki/BibTeX for the details.", {
              CATEGORY = tolower(CATEGORY),
              VOLUME = as.character(VOLUME),
              AUTHOR = as.character(AUTHOR),
+             PAGES = as.character(PAGES),
              ISSUE = ifelse("ISSUE" %in% colnames(.), as.character(ISSUE), NA),
              YEAR = as.character(YEAR),
              NOTE = as.character(NOTE),
