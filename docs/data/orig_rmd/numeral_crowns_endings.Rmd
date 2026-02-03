@@ -1,0 +1,74 @@
+```{r, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, comment = '')
+library(lingglosses)
+```
+
+## Introduction
+
+In East Caucasian languages crowns from 30 to 90 often have unique endings instead of the usual numeral marker. This chapter is dedicated to such cases.
+
+## Results
+
+For example, in Bagvalal (Andic) the final -*da*, which is present in lower and higher numerals, is absent in crowns from 30 to 90. Compare the following examples:
+
+(@) Bagvalal [@tatevosov2001numerals: 155]
+```{r, echo=FALSE}
+gloss_example(transliteration = "hač’ʷa:-c’a",
+              glosses = "nine-ten",
+              free_translation = "90"
+)
+```
+```{r, echo=FALSE}
+gloss_example(transliteration = "hač’ʷa:-c’ hač’ʷa:-**ra**",
+              glosses = "nine-ten nine-**NUM**",
+              free_translation = "99"
+)
+```
+
+In Dargic languages and some of the Andic languages the root is also augmented with -*l*/-*le*/-*li*, as shown in (@tanty_40). As Dargic and Andic languages are not closely related, the origins of this suffix in languages of these branches are likely to be different.
+
+(@tanty_40) Tanty Dargwa [@sumbatovalander2014: 94]
+```{r, echo=FALSE}
+gloss_example(transliteration = "aʁʷ-**c’ale**",
+              glosses = "four-**ten**",
+              free_translation = "40"
+)
+```
+
+Curiously, a similar segment is found in Tsakhur, one of the Lezgic languages, exemplified by (@tsakhur_50). The nature of this coincidence is not known. It is hard to presume the influence of Dargic or Andic languages as Tsakhur is not adjacent to any of them.
+
+(@tsakhur_50) Mishlesh Tsakhur [@kibrik1999: 154]
+```{r, echo=FALSE}
+gloss_example(transliteration = "xo-**c’alʲ**",
+              glosses = "five-**ten**",
+              free_translation = "50"
+)
+```
+
+In Rutul and Tabasaran of the Lezgic branch crowns differ from other cardinals in that the final class suffixes do not inflect for class and are petrified with a specific class value (-*r*, which denotes classes 1 and 2 in Rutul and human class in Tabasaran), as shown in (@rutul_80). At the same time, digits, ‘10’, and ‘20’ attach different class suffixes.
+
+(@rutul_80) Kina Rutul [@mukhin2020: 5]
+```{r, echo=FALSE}
+gloss_example(transliteration = "mɨj-c’ɨ.**r**",
+              glosses = "eight-ten.**1.2**",
+              free_translation = "80"
+)
+```
+
+According to the data in the dictionaries ([@mobili2010], [@gukasyan1974]), Nizh Udi has a mixed crowns system, in which roots for crowns are borrowed from Azeri, and units are native. In Zaqatala Avar cardinals from 50 to 90 are borrowed from Tsakhur. Hence in both lects this feature cannot be attested.
+
+The numeral ‘20’ is expressed with a simple root in the majority of East Caucasian languages and is not taken into account in this feature. It can have the same special endings as crowns from 30 to 90 or differ from them in this respect. In some languages ‘twenty’ is the base for the derivation of crowns. Such cases are marked as ‘vigesimal’.
+
+If one numeral in the subset ‘30’—‘90’ is derived differently, it is ignored as an exception. This is the case, for example, for Avar, where cardinals from 40 to 90 are derived vigesimally but ‘30’ has its own root: *ɬeber=go*.
+
+## Distribution
+
+Special endings in crowns are a distinctive feature of several Andic languages (Tindi, Bagvalal, and Godoberi), several Lezgic languages (Tabasaran, Tsakhur, and Rutul), and the majority of Dargic varieties.
+
+## List of glosses {-}
+
+```{r}
+make_gloss_list(readxl::read_xlsx("../glosses.xlsx"))
+```
+
+## References {-}

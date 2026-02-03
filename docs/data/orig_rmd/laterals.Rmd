@@ -1,0 +1,19 @@
+## {-}
+
+General chapter: [Phonology](phonology.html)
+
+## Introduction
+
+Laterals are a class of consonants created by letting the air go through the side(s) of the tongue but blocking the airstream from going through the center. These consonants are opposed to *central consonants*, like all *stops* and *central fricatives*. Laterals in one shape of form are widespread in the languages of the world, mostly taking the form of /l/ yet *lateral fricatives and affricates*, such as /ɬ/ or /tɬ/ --- not so much, being present only in around 7% of the world’s languages ([@dryeretal2013], [@moranetal2019]). Yet the Daghestan linguistic area is notable for having a large number of languages with these uncommon consonants, in contrast to nearby Europe. In this chapter *lateral fricatives and affricates* will be referred to as simply *laterals* and the goal is to map the distribution of these consonants in the Daghestan area.
+
+## Results and distribution
+
+Out of the 58 languages surveyed, 28 have laterals. All of these languages belong to the Nakh-Daghestanian language family, while all languages in the linguistic area but outside its largest language family do not have laterals. Similarly, 30 out of 58 surveyed Nakh-Daghestanian languages also lack them.
+
+Out of the Nakh languages only Bats has laterals, while Ingush [@nichols2011: 20] and Chechen [@nichols1994: 4] do not.
+
+For the rest of the family an interesting pattern can be observed concerning the distribution of laterals: Archi does have laterals, yet languages east of Archi (Lezgian branch, Dargic branch, Lak, Khinalug) do not, all the while all language west of Archi (Andic, Tsezic) excluding Chechen and Ingush do posses laterals.
+
+Despite all languages with laterals, with the exception of Bats and Archi are part of the proposed Avar-Andic-Tsezic branch of the Nakh-Daghestanian family, an alternative genealogical explanation is not feasible, as the *North Caucasian Etymological Dictionary* (NCED) reconstructs not only Proto-Nakh-Daghestanian as having lateral fricatives, but Proto-Lezgic as well. 
+
+## References {-}

@@ -1,0 +1,129 @@
+```{r, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, comment = '')
+library(lingglosses)
+```
+
+## Introduction
+
+In some languages of the world, including many languages of the Caucasus, there exist special words that occur in commands whereby the speaker asks the addressee to take something from the speaker’s hands, as in (@one). Within in-person communication, such commands are often combined with the speaker’s gesture of giving the object they hold in hands. Words like the Agul *ma* are not verbal forms, and they do not seem to be cognate with any verb stems.
+
+
+(@one) Agul: Huppuq’ (Spoken corpus)
+```{r}
+gloss_example(transliteration = "“**ma**”	pu-naa,	“me	ik’ 	we	čanta.ji”	pu-naa.",
+              glosses = "take.it	say.PFV-PRF	this	IN.put(IMP) 	your.SG	bag(IN)	say.PFV-PRF",
+              free_translation = "{She gave him a bottle of poison} and said: Take it, put it into your bag.")
+```
+
+
+I will label words like *ma* in Agul **imperative interjections** with the meaning ‘here, take it!’ (accordingly, they will be glossed as “take.it” in the interlinear glosses). These words are *imperative* expressions, as they occur in commands addressed to a second person. They also belong to the class of *interjections* and not verbs or special imperative particles that are used in some languages to provide an additional pragmatic nuance to an imperative verb form.
+
+Imperative interjections ‘here, take it!’ can be viewed as a subtype of *conative* interjections, which “primarily invite an action or response from another party in the interaction” [@dingemanse2023: 479]. Calls for silence like *sh!* or animal-oriented calls are also examples of this general type. According to Dingemanse [-@dingemanse2023: 479], who follows a relatively common view on interjections, prototypical interjections are (i) monolexemic lexical items that (ii) typically make up an utterance. Imperative interjections ‘here, take it!’ do not totally conform to this definition, as they often occur in fuller clauses with other constituents (see below). Also, in some languages, an interjection ‘here, take it!’ can bear certain inflections (e.g., plural addressee markers) which makes it more akin to a verb.
+
+It seems that imperative interjections ‘here, take it!’ have never been the subject of a dedicated cross-linguistic study, although a wider class of imperative interjections has attracted some attention in the literature. Thus, Aikhenvald [-@aikhenvald2010: 317--325] mentions the existence of “special imperative-only lexemes, which stand apart from other parts of word classes” and “can be accompanied with special hand signals, or other paralinguistic signals with a command function”. One common type of such lexemes are command-only words directed at animals and telling them to move away from a certain location, to come nearer to the speaker, to stop or to start movement. Likewise, Gusev [-@gusev2013: 99--102] discusses “nonverbal imperatives”, including interjections, but also stresses that in morphosyntactic terms, there must be a continuum between imperative forms of verbs and imperative interjections, with quite a few intermediate forms falling between the two extremes.
+
+My goal in this chapter is to establish which of the languages of Daghestan possess dedicated imperative interjections with the meaning ‘here, take it!’, and to classify the languages which possess such items according to the type of phonological form of the imperative interjection ‘here, take it!’.
+
+The main data sources for this research were dictionaries (mainly bilingual dictionaries, most of which have Russian as the first or the second part). In some instances, grammars were also consulted. Given that Russian possesses a dedicated interjection *na! *(Cyrillic *на!*) ‘here, take it!’, homonymous with the preposition *na* ‘on’, in Russian--X dictionaries or indices I searched for *na!*, which is often present as a separate lexical entry. In X--Russian dictionaries with a text layer available, I searched for *na,* (with a comma), *nate* (same element with a plural addressee suffix) and 2nd person singular imperatives of regular verbs ‘take’, namely *voz’mi* (perfective) and *beri* (imperfective). In the dictionaries or grammars written in English, I searched for expressions *take it* and *take this*. In the sources written in French, I searched for *tiens* ‘take (it)!’.
+
+Only dedicated words for ‘here, take it!’ were taken into account. If the only equivalent provided by the source was a regular verbal imperative of a ‘take’-verb (e.g., *al* ‘take!’ in Azerbaijani), the language was treated as lacking an imperative interjection ‘here, take it!’.
+
+Some typical examples of the use of imperative interjections ‘here, take it!’ as provided by the sources are given below. As a rule, such examples contain other material in addition to the interjection. The interjection is clause-initial in almost all available examples.
+
+One common construction in which imperative interjections ‘here, take it!’ are found is a simple imperative clause with a direct object (@two, @three).
+
+
+(@two) Khinalug [@ganieva2002: 214]
+```{r}
+gloss_example(transliteration = "**ma** pšä",
+              glosses = "take.it 	bread.ABS",
+              free_translation = "Take (this) bread.")
+```
+
+(@three) Hunzib [@xalilovisakov2005: 146]
+```{r}
+gloss_example(transliteration = "**hũʔũ**	ẽš",
+              glosses = "take.it 	apple.ABS",
+              free_translation = "Take (this) apple.")
+```
+
+
+Apart from a direct object, clauses with imperative interjections can include a recipient argument (usually, in the dative case), which refers to the addressee (@four).
+
+
+(@four) Standard Dargwa [@yusupov2014: 662]
+```{r}
+gloss_example(transliteration = "**ma** ħed	žuz",
+              glosses = "take.it 	you.SG.DAT	book.ABS",
+              free_translation = "Take this book (lit. for you).")
+```
+
+
+Also, it is often the case that ‘here, take it!’ is followed by an imperative form of a regular verb, which can be ‘take’ or another verb (@five). A clause following ‘here, take it!’ can be a full imperative clause with its other arguments (@six). In such examples, the imperative interjection can be separated with a comma from another clause, although this is not always the case.
+
+
+(@five) Kumyk [@bammatov2013: 201]
+```{r}
+gloss_example(transliteration = "**ma**, aša!",
+              glosses = "take.it	eat.IMP",
+              free_translation = "Take it, eat!")
+```
+
+(@six) Lezgian [@talibovgadzhiev1966: 226]
+```{r}
+gloss_example(transliteration = "**gʷa**,	qːaču	i	ktab!",
+              glosses = "take.it	take.IMP	this	book.ABS",
+              free_translation = "Here, take this book!")
+```
+
+
+An interesting feature of imperative interjections ‘here, take it!’ is the possibility to attach suffixal markers of the plurality of addressees (see [@zerzele2024]) in those languages that possess such markers (@seven). This property of imperative interjections is shared by the Russian equivalent *na!* (`r add_gloss("2SG")`) ~ *nate!* (`r add_gloss("2PL")`, with a regular marker -*te*), see the discussion by Gusev [-@gusev2013: 99--102], among others.
+
+
+(@seven) Dargwa: Mehweb [@dobrushina2019: 129]
+```{r}
+gloss_example(transliteration = "ma! 	ma-na!",
+              glosses = "take.it	take.it-IMP.PL",
+              free_translation = "Take!’	‘Take (addressed to several people)!")
+```
+
+
+## Results
+
+In the majority of languages of the sample, an imperative interjection ‘here, take it!’ has been identified. Udi, Azerbaijani and Tat lack such a dedicated item. In Georgian and Armenian, a close functional equivalent of ‘here, take it!’, with one and the same form *aha*, functions as a more general attention signal and hence does not fall under our understanding of a dedicated imperative interjection ‘here, take it!’. (The Georgian/Armenian interjection is still coded on the map, to show a peculiar areal pattern.)
+
+In the languages possessing a special imperative word ‘here, take it!’, it has a monosyllabic CV form (in some languages, also with a final laryngeal /h/ yielding a CVh variant). In a minority of languages, namely in the Tsezic and Nakh branches, ‘here, take it!’ is a bisyllabic word with a CVCV structure.
+
+The segmental composition of imperative interjections is highly restricted. Thus, the initial consonants can be /m/, /g, gʷ/ or /h/. The vowel after /m/ is /a/ or /ä/. The vowel after /g/ is /o/, while after /gʷ/ it is /a/. Thus, the two variant most probably represent two stages along the shift from /gʷa/ to /go/. Finally, the vowel after /h/ can be plain or nasalized, namely /a, ã/, /oː/, /ĩː/ and /ũ/.
+
+On the map, I group all imperative interjections ‘here, take it!’ into three broad types according to their phonological shape (@eight). Given that the CVCV interjections in Tsezic and Nakh all have an initial /h/ and a nasalized vowel, they can be subsumed under the *HA(n)*-type.
+
+(@eight)	Formal types of imperative interjections ‘here, take it!’
+
+- *MA*-type   *ma*, *mah*, *mä*, *mäh*
+- *GwA*-type    *go*, *gʷa*
+- *HA(n)*-type    *ha*, *hoː*, *hĩː*, *hũ*, *hã*; *hãʔã*, *hũʔũ*, *hãħ(iː)* / *haħ(iː)*, *hane* 
+
+The Georgian/Armenian interjection *aha* is shown on the map as representing a separate type *AHA*.
+
+## Distribution
+
+The distribution of the phonological types of imperative interjections ‘here, take it!’ shows both a genealogical and an areal signal.
+
+The **genealogically**-driven distribution can be seen in the presence of one and the same type of phonological shape of an interjection within one family or one branch. Thus, the *GwA*-type is only found in Andic (in all languages of this branch) and the *HA(n)*-type is only found in Tsezic and Nakh (again, in all languages of these branches). In its turn, the *MA*-type is found in all Dargwa languages of our sample, is predominant in the Lezgic branch (Udi being the only exception) and also among the Turkic languages of the sample (Azerbaijani being the only exception). Thus, the formal type of imperative interjections is stable across the individual Nakh-Daghestanian branches and, to a lesser extent, across Turkic languages of Daghestan (two out of three languages).
+
+On the other hand, one can also see a clear **areal** signal in the distribution, if a broader perspective is taken. First and foremost, the *MA*-type is predominant on a vast territory and is found in central and southern branches of Nakh-Daghestanian (Lak, Dargwa, Lezgic, Khinalug), in Avar, which in this respect patterns with the central branches and not with Andic or Tsezic languages, and in two Turkic languages (Kumyk and Nogai). Interestingly, the *MA*-area may even cover a much larger territory, as imperative interjections ‘here, take it!’ with the shape *ma* are also attested at least in some West Caucasian languages and in Karachay-Balkar (Turkic).
+
+Second, the only two branches with the *HA(n)*-type of imperative interjections, namely Tsezic and Nakh, are geographically close (although they are divided by the Andic branch possessing its own unique *GwA*-type).
+
+Lastly, the lack of an imperative interjection ‘here, take it!’ is observed in the southern/southeastern periphery of the area, namely in Azerbaijani, Udi and Tat. These three languages belong to three different language families, but are spoken in one area.
+
+In addition, it can be mentioned that interjections with the form *aha* are found in two genealogically unrelated, but geographically adjacent languages, Georgian and Armenian. Besides a common shape, what also unites the two interjections is their function, which is more general than the simple command ‘take it!’.
+
+## List of glosses {-}
+
+```{r}
+make_gloss_list(readxl::read_xlsx("../glosses.xlsx"))
+```
+
+## References {-}

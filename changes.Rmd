@@ -11,6 +11,20 @@ knitr::opts_chunk$set(echo = FALSE)
 library(tidyverse)
 ```
 
+#### February 2026 (v 2.0.1)
+
+Chapters added or updated:
+
+```{r, results='asis'}
+readxl::read_xlsx("data/contributors.xlsx", guess_max = 200) |> 
+  filter(!is.na(id),
+         version == "2.0.1") |> 
+  mutate(line = str_c("- ", title, " (", author, ")\n")) |> 
+  pull(line) |> 
+  cat()
+```
+
+
 #### July 2025 (v 2.0.0)
 
 Chapters added:
@@ -23,7 +37,6 @@ readxl::read_xlsx("data/contributors.xlsx", guess_max = 200) |>
   pull(line) |> 
   cat()
 ```
-
 
 #### July 2022 (v 1.0.0)
 
