@@ -22,10 +22,10 @@ id	language	idiom	type	genlang_point	map	chapter	feature1	value1	source	page	con
 21	Chechen	Standard Chechen	language	yes	yes	Number of contrasts in voiceless obstruents	Presence of geminates	attested	nichols1994	4	George Moroz	2021.10.04	
 22	Chirag	Chirag	language	yes	yes	Number of contrasts in voiceless obstruents	Presence of geminates	attested	kibrikkodzasov1990	334	George Moroz	2017.05.06	
 23	Kajtag	Kajtag	language	yes	yes	Number of contrasts in voiceless obstruents	Presence of geminates	attested	temirbulatova2004	39	George Moroz	2021.10.04	
-24	Mehweb	Mehweb	language	yes	yes	Number of contrasts in voiceless obstruents	Presence of geminates	not attested	moroz2017	22--34	George Moroz	2021.10.04	
+24	Mehweb	Mehweb	language	yes	yes	Number of contrasts in voiceless obstruents	Presence of geminates	not attested	moroz2019	22--34	George Moroz	2021.10.04	
 25	Southwestern Dargwa	Tanti	dialect_toplevel	yes	yes	Number of contrasts in voiceless obstruents	Presence of geminates	attested	sumbatovalander2014	40--41	George Moroz	2021.10.04	
 26	Georgian	Standard Georgian	language	yes	yes	Number of contrasts in voiceless obstruents	Presence of geminates	attested	hewitt1995	19, 26	George Moroz	2021.10.04	
-27	Godoberi	Godoberi	language	yes	yes	Number of contrasts in voiceless obstruents	Presence of geminates	attested	morozdraft2021	2	George Moroz	2021.10.04	
+27	Godoberi	Godoberi	language	yes	yes	Number of contrasts in voiceless obstruents	Presence of geminates	attested	morozetaldraft2021	2	George Moroz	2021.10.04	
 28	Hinuq	Hinuq	language	yes	yes	Number of contrasts in voiceless obstruents	Presence of geminates	not attested	forker2013	29	George Moroz	2021.10.04	
 29	Hinuq	Hinuq	language	no	yes	Number of contrasts in voiceless obstruents	Presence of geminates	not attested	kibrikkodzasov1990	329	George Moroz	2017.05.06	
 30	Hunzib	Hunzib	language	yes	yes	Number of contrasts in voiceless obstruents	Presence of geminates	not attested	isakovxalilov2001	260	George Moroz	2021.10.04	
@@ -42,7 +42,7 @@ id	language	idiom	type	genlang_point	map	chapter	feature1	value1	source	page	con
 41	Kumyk	Standard Kumyk	language	yes	yes	Number of contrasts in voiceless obstruents	Presence of geminates	attested	abdullaevaetal2014	33--56, 72	George Moroz	2021.10.04	
 42	Lak	Khosrekh	village	yes	yes	Number of contrasts in voiceless obstruents	Presence of geminates	attested	kibrikkodzasov1990	333	Viola Ivanova	2017.05.06	
 43	Lezgian	Khlyut	village	no	yes	Number of contrasts in voiceless obstruents	Presence of geminates	not attested	kibrikkodzasov1990	341	George Moroz	2017.05.06	
-44	Lezgian	Standard Lezgian	language	yes	yes	Number of contrasts in voiceless obstruents	Presence of geminates	attested	gaydarivetal2009	56	George Moroz	2021.10.04	
+44	Lezgian	Standard Lezgian	language	yes	yes	Number of contrasts in voiceless obstruents	Presence of geminates	attested	gaydarovetal2009	56	George Moroz	2021.10.04	
 45	Nogai	Standard Nogai	language	yes	yes	Number of contrasts in voiceless obstruents	Presence of geminates	attested	baskakov1973; baskakov1940	9; 27	George Moroz	2021.10.04	
 46	Rutul	Luchek	village	yes	yes	Number of contrasts in voiceless obstruents	Presence of geminates	attested	alekseev1994	215	George Moroz	2021.10.04	
 47	Rutul	Luchek	village	no	yes	Number of contrasts in voiceless obstruents	Presence of geminates	not attested	kibrikkodzasov1990	342--343	Viola Ivanova	2017.05.06	

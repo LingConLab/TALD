@@ -1,22 +1,3 @@
-The BibTeX entry          moroz2017          present in the          ejective_p.tsv, but absent in the biblib.xlsx
-The BibTeX entry          morozdraft2021          present in the          ejective_p.tsv, but absent in the biblib.xlsx
-The BibTeX entry          gaydarivetal2009          present in the          ejective_p.tsv, but absent in the biblib.xlsx
-The BibTeX entry          moroz2017          present in the          ejective_s.tsv, but absent in the biblib.xlsx
-The BibTeX entry          morozdraft2021          present in the          ejective_s.tsv, but absent in the biblib.xlsx
-The BibTeX entry          gaydarivetal2009          present in the          ejective_s.tsv, but absent in the biblib.xlsx
-The BibTeX entry          moroz2017          present in the          gemination.tsv, but absent in the biblib.xlsx
-The BibTeX entry          morozdraft2021          present in the          gemination.tsv, but absent in the biblib.xlsx
-The BibTeX entry          gaydarivetal2009          present in the          gemination.tsv, but absent in the biblib.xlsx
-The BibTeX entry          moroz2017          present in the          labialization.tsv, but absent in the biblib.xlsx
-The BibTeX entry          morozdraft2021          present in the          labialization.tsv, but absent in the biblib.xlsx
-The BibTeX entry          gaydarivetal2009          present in the          labialization.tsv, but absent in the biblib.xlsx
-The BibTeX entry          moroz2017          present in the          labials.tsv, but absent in the biblib.xlsx
-The BibTeX entry          morozdraft2021          present in the          labials.tsv, but absent in the biblib.xlsx
-The BibTeX entry          gaydarivetal2009          present in the          labials.tsv, but absent in the biblib.xlsx
-The BibTeX entry          moroz2017          present in the          laterals.tsv, but absent in the biblib.xlsx
-The BibTeX entry          morozdraft2021          present in the          laterals.tsv, but absent in the biblib.xlsx
-The BibTeX entry          gaydarivetal2009          present in the          laterals.tsv, but absent in the biblib.xlsx
-The BibTeX entry mitterer2018 from the file gemination_bib.tsv has an empty value in the obligatory field BOOKTITLE
 The wrong non-toplevel 2 dialect name Kiisha in the file adjectives_number.tsv
 spelling of          aj        in adjectives_number.Rmd:133
 spelling of          ar        in adjectives_number.Rmd:133,133
