@@ -6,7 +6,7 @@ General chapter: [Phonology](phonology.html)
 
 In this chapter *labial approximant and related sounds* are bilabial or labio-dental fricatives and approximants defined as “v-sounds”, which are:
 
-/v/ – dento-labial fricative
+/v/ – labio-dental fricative
 /w/ – bilabial approximant. In some sources transcribed as /ʋ/.
 /β/ – bilabial fricative
 

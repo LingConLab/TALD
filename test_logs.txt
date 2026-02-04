@@ -54,7 +54,6 @@ spelling of          byl        in commemorative.Rmd:38
 spelling of          delil        in commemorative.Rmd:21
 spelling of          gihiri        in commemorative.Rmd:105
 spelling of          giri        in commemorative.Rmd:105
-spelling of          ḥ        in commemorative.Rmd:44
 spelling of          lu        in commemorative.Rmd:46
 spelling of          po        in commemorative.Rmd:21
 spelling of          giun        in days_before_and_after_today.Rmd:28
@@ -97,10 +96,6 @@ spelling of          owenu        in demonstratives.Rmd:324
 spelling of          uhu        in demonstratives.Rmd:86
 spelling of          un        in demonstratives.Rmd:209
 spelling of          wa        in demonstratives.Rmd:187,196,196,196
-spelling of          pˀ        in ejective_p.Rmd:17
-spelling of          Adyghe        in ejective_s.Rmd:7
-spelling of          Kabardian        in ejective_s.Rmd:7
-spelling of          neighbouring        in ejective_s.Rmd:11
 spelling of          de        in erg_abs_pronouns.Rmd:10,10,16,23
 spelling of          di        in erg_abs_pronouns.Rmd:33,39,40
 spelling of          du        in erg_abs_pronouns.Rmd:56
@@ -119,7 +114,6 @@ spelling of          Bon        in farewell_wishes.Rmd:3
 spelling of          lu        in farewell_wishes.Rmd:130
 spelling of          ol        in farewell_wishes.Rmd:130
 spelling of          yol        in farewell_wishes.Rmd:130
-spelling of          neighbouring        in gemination.Rmd:17
 spelling of          gu        in gender_agreement_slot_in_verb_forms.Rmd:83
 spelling of          adal        in gender_agreement_slot.Rmd:105
 spelling of          aj        in gender_agreement_slot.Rmd:148
@@ -156,11 +150,6 @@ spelling of          quner        in inclusive_exclusive_distinction_in_personal
 spelling of          vin        in inclusive_exclusive_distinction_in_personal_pronouns.Rmd:529
 spelling of          wi        in inclusive_exclusive_distinction_in_personal_pronouns.Rmd:583
 spelling of          nd        in jussive.Rmd:51
-spelling of          Adyge        in labialization.Rmd:7
-spelling of          labio        in labials.Rmd:7
-spelling of          neighbouring        in labials.Rmd:18,26
-spelling of          ʋ        in labials.Rmd:9
-spelling of          NCED        in laterals.Rmd:17
 spelling of          al        in morning_greetings.Rmd:20
 spelling of          xair        in morning_greetings.Rmd:41,41,49
 spelling of          xajir        in morning_greetings.Rmd:41
@@ -204,7 +193,6 @@ spelling of          der        in prohibitives.Rmd:10,14
 spelling of          kuj        in prohibitives.Rmd:101
 spelling of          kun        in prohibitives.Rmd:101
 spelling of          mV        in prohibitives.Rmd:31,47,47,93,150,150,150,150,150,222
-spelling of          Sg        in prohibitives.Rmd:101
 spelling of          vay        in prohibitives.Rmd:77
 spelling of          aj        in standard_of_comparison.Rmd:55,60,147,157
 spelling of          aloc        in standard_of_comparison.Rmd:123
@@ -250,4 +238,3 @@ spelling of          kor        in work.Rmd:41
 spelling of          oba        in work.Rmd:61
 spelling of          wa        in work.Rmd:51
 spelling of          xe        in work.Rmd:61
-The BibTeX entry          isakovkhalilov2012          present in the .Rmd, but absent in the gemination.bib

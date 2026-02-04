@@ -4,7 +4,7 @@ General chapter: [Phonology](phonology.html)
 
 ## Introduction
 
-Labialization is a type of consonantal secondary articulation, where the consonant is pronounced with rounded lips. Labialization is widely attested in Caucasian languages, especially in the Abkhaz-Adyge family and in Nakh-Daghestanian [@catford1972]. This chapter is aimed to map languages within the Daghestan linguistic area based on whether or not they have phonemic labialization as a feature of their consonant inventories.
+Labialization is a type of consonantal secondary articulation, where the consonant is pronounced with rounded lips. Labialization is widely attested in Caucasian languages, especially in the Abkhaz-Adyghe family and in Nakh-Daghestanian [@catford1972]. This chapter is aimed to map languages within the Daghestan linguistic area based on whether or not they have phonemic labialization as a feature of their consonant inventories.
 
 ## Results
 

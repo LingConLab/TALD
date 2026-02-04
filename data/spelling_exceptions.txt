@@ -9,6 +9,7 @@ adnominally
 adposition
 adpositional
 adverbializer
+Adyghe
 affective
 affixal
 affricate
@@ -218,6 +219,7 @@ Judeo
 Jurij
 JUSS
 jussive
+Kabardian
 Kaitag
 Kak
 Karachay
@@ -247,6 +249,7 @@ Lǟ
 labelled
 labialization
 labialized
+labio
 Lak
 lative
 Lavukaleve
@@ -311,6 +314,7 @@ Naccarato
 Nakh
 Nasledskova
 neighbour
+neighbouring
 Netkachev
 Nizh
 Nkore
@@ -379,6 +383,7 @@ Sadakov
 Samira
 Sanzhi
 Schulze
+Sg
 SG
 Shiri
 Shvedova
