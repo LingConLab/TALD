@@ -10,20 +10,14 @@ In this chapter *labial approximant and related sounds* are bilabial or labio-de
 /w/ – bilabial approximant. In some sources transcribed as /ʋ/.
 /β/ – bilabial fricative
 
-These sounds are superficially similar and yet both their presence and manner of articulation varies cross-linguistically. Languages like Dutch may distinguish two labials: /v/ and /w/ [@booij1995: 7], while languages like Azerbaijani may have only one labial [@shiralievsevortyan1971: 16-26], realized as /v/ and in some languages like Navajo there are no phonemic v-sounds at all [@reichard1951: 16--17].
-Languages of Daghestan are no exception. Thus, this chapter aims to study the distribution and realization of v-sounds in the area.
+These sounds are superficially similar and yet both their presence and manner of articulation varies cross-linguistically. Languages like Dutch may distinguish two labials: /v/ and /w/ [@booij1995: 7], while languages like Azerbaijani may have only one labial [@shiralievsevortyan1971: 16-26], realized as /v/ and in some languages like Navajo there are no phonemic v-sounds at all [@reichard1951: 16--17]. Languages of Daghestan are no exception. Thus, this chapter aims to study the distribution and realization of v-sounds in the area.
+
+## Results and distribution
 
 All languages sampled had a “v-sound” in one realization or another. Notably, 35 out of 52 Nakh-Daghestanian languages in the sample had the /w/ labial, while all non-Nakh-Daghestanian languages, with the exception of Kumyk [@abdullaevaetal2014: 33-56], had either a dento-labial fricative /v/ or both the bilabial approximant /w/ and a dento-labial fricative /v/. Notably Hunzib has /w/ and /β/ in complementary distribution.
 
 With the bilabial approximant being the “standard” labial in Nakh-Daghestanian languages, it is important to look into the languages that deviate from this pattern. Among these languages an areal distribution can be seen: Budukh, Hunzib, Khinalug, Kryz, Lezgian, Rutul and Tsova-Tush are all languages neighbouring each other on the east Caucasus highlands, on the border between Russia and Azerbaijan. In all of these language labials are realized as fricatives (either /v/ or /β/), which sets them apart from the rest of the family. This may be due to their geographic separation from other Daghestanian languages or due to influence of either Azerbaijani or Georgian, both of which have fricative v-sounds. Tabasaran and Kaitag Dargwa also could possibly represent the extension of this areal feature along the Caspian coast. 
 
-The lack of /w/ in Ingush and Lak does not seem to be connected to the areal phenomena described above.
-
-## Results and distribution
-
-All languages sampled had a “v-sound” in one realization or another. Notably, 35 out of 52 Nakh-Daghestanian languages in the sample had the /w/ labial, while all non-Nakh-Daghestanian languages, with the exception of Kumyk (@abdullaevaetal2014: 33--56), had either a dento-labial fricative /v/ or both the bilabial approximant /w/ and a dento-labial fricative /v/. Notably Hunzib has /w/ and /β/ in complementary distribution.
-
-With the bilabial approximant being the “standard” labial in Nakh-Daghestanian languages, it is important to look into the languages that deviate from this pattern. Among these languages an areal distribution can be seen: Budukh, Hunzib, Khinalug, Kryz, Lezgian, Rutul and Tsova-Tush are all languages neighbouring each other on the east Caucasus highlands, on the border between Russia and Azerbaijan. In all of these language labials are realized as fricatives (either /v/ or /β/), which sets them apart from the rest of the family. This may be due to their geographic separation from other Daghestanian languages or due to influence of either Azerbaijani or Georgian, both of which have fricative v-sounds. Tabasaran and Kaitag Dargwa also could possibly represent the extension of this areal feature along the Caspian coast. 
 The lack of /w/ in Ingush and Lak does not seem to be connected to the areal phenomena described above.
 
 ## References {-}

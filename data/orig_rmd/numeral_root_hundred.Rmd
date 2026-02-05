@@ -5,11 +5,11 @@ library(lingglosses)
 
 ## Introduction
 
-This chapter is dedicated to the distribution of possible roots for ‘hundred’. The root of the lexeme ‘hundred’ has common origins in the majority of East Caucasian languages. The North Caucasian etymology database by Starostin and Starostin [@-starostinstarostin] reconstructs the roots for the proto-languages of the Avar-Andic, Lezgic, Dargic, and Lak branches, and also the common proto-Daghestanian root. However, some lects express the meaning ‘hundred’ differently than other languages of their branch, and some languages are not mentioned in the database.
+This chapter is dedicated to the distribution of possible roots for ‘hundred’. The root of the lexeme ‘hundred’ has common origins in the majority of East Caucasian languages. The North Caucasian etymology database [@starostinstarostin] reconstructs the roots for the proto-languages of the Avar-Andic, Lezgic, Dargic, and Lak branches, and also the common proto-Daghestanian root. However, some lects express the meaning ‘hundred’ differently than other languages of their branch, and some languages are not mentioned in the database.
 
 ## Results
 
-For example, one widespread version of the root is *bešan*-/*bušun*-/*beɣan*- (in different variations), which Starostin and Starostin reconstruct as **bišo-nV*. It is present in all Andic and most Tsezic languages. Consider the following example from Godoberi:
+For example, one widespread version of the root is *bešan*-/*bušun*-/*beɣan*- (in different variations), which Starostin and Starostin reconstruct as *bišo-nV*. It is present in all Andic and most Tsezic languages. Consider the following example from Godoberi:
 
 (@godoberi_100) Godoberi [@tatevosov1996: 29]
 ```{r, echo=FALSE}
