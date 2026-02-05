@@ -51,7 +51,3 @@ print(article_citation, .opts = list(style = 'Bibtex'))
 ```{r, child='data/orig_rmd/gender_agreement_in_nps_in_adjectives_map.Rmd'}
 ```
 
-```{r, results='asis'}
-PrintBibliography(bib)
-```
-

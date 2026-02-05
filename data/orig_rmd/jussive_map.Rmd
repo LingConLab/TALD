@@ -636,7 +636,7 @@ feature_dataset |>
   mutate(page = ifelse(page == 'NA', NA_character_, page),
          Source = case_when(str_detect(Source, '[Ff]ield [Dd]ata') ~ Source,
                             str_detect(Source, 'p.\\s?c.$') ~ Source,
-                            TRUE ~ Cite(bib, Source, 
+                            TRUE ~ RefManageR::Cite(bib, Source, 
                                         after = ifelse(!is.na(page),  str_c(': ', page), '')))) |> 
   select(-page) |> 
   DT::datatable(class = 'cell-border stripe', 
@@ -654,5 +654,9 @@ feature_dataset |>
 ```
 
 ## References {-}
+
+```{r, results='asis'}
+RefManageR::PrintBibliography(bib)
+```
 
 

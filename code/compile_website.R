@@ -430,7 +430,7 @@ feature_dataset |>
   mutate(page = ifelse(page == 'NA', NA_character_, page),
          Source = case_when(str_detect(Source, '[Ff]ield [Dd]ata') ~ Source,
                             str_detect(Source, 'p.\\\\s?c.$') ~ Source,
-                            TRUE ~ Cite(bib, Source, 
+                            TRUE ~ RefManageR::Cite(bib, Source, 
                                         after = ifelse(!is.na(page),  str_c(': ', page), '')))) |> 
   select(-page) |> 
   DT::datatable(class = 'cell-border stripe', 
@@ -448,6 +448,10 @@ feature_dataset |>
 ```
 
 ## References {-}
+
+```{r, results='asis'}
+RefManageR::PrintBibliography(bib)
+```
 
 "),
     file = str_c("data/orig_rmd/", str_remove(i, "\\d{1,}_"))
@@ -536,13 +540,6 @@ walk(seq_along(rmd_filenames), function(i){
     "",
     str_c("```{r, child='data/orig_rmd/", chapters$filename[i], ".Rmd'}"),
     "```",
-    "",
-    ifelse(str_detect(rmd_filenames[i], "_map.Rmd"), 
-           str_c(
-             "```{r, results='asis'}\n",
-             "PrintBibliography(bib)\n",
-             "```"),
-           ""),
     ""),
     rmd_filenames[i], append = TRUE)
 })
