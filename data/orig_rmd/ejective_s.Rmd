@@ -4,10 +4,10 @@ General chapter: [Phonology](phonology.html)
 
 ## Introduction
 
-Daghestan is a linguistic area within the larger Caucasian sprachbund [@klimov1965], the latter known having ejective consonants as one of the defining areal features. However, even in languages with ejective stops, ejective fricatives are rather rare [@maddiesonetal2013], though they are present in the larger Caucasus linguistic area, notably in Abkhaz-Adyghe languages (for example, see Kabardian phonological description by [@colarusso1992: 7]. Among the ejective fricatives, ejective s is the most common [@moranetal2019], so this particular chapter is concerned with its distribution in the Daghestan area.
+Daghestan is a linguistic area within the larger Caucasian sprachbund [@klimov1965], the latter known having ejective consonants as one of the defining areal features. However, even in languages with ejective stops, ejective fricatives are rather rare [@maddiesonetal2013], though they are present in the larger Caucasus linguistic area, notably in Abkhaz-Adyghe languages (for example, see Kabardian phonological description by [@colarusso1992: 7]. Among the ejective fricatives, ejective /s’/ is the most common [@moranetal2019], so this particular chapter is concerned with its distribution in the Daghestan area.
 
 ## Results and Distribution
 
-Ejective s is indeed a rather rare phoneme in the region. It is found in only two languages (of the 58 languages sampled): Chamalal (Gigatli) and Bagvalal. This could be explained either genealogically, as these two languages are both of the Andic branch, or areally, as both languages are in proximity to each other. Though, it is of note that other neighbouring and closely-related languages do not share this feature with Bagvalal and Chamalal and even in the latter, it is known only in the Gigatli dialect, with Upper Gakvari not having any ejective fricatives.
+Ejective /s’/ is indeed a rather rare phoneme in the region. It is found in only two languages (of the 58 languages sampled): Chamalal (Gigatli) and Bagvalal. This could be explained either genealogically, as these two languages are both of the Andic branch, or areally, as both languages are in proximity to each other. Though, it is of note that other neighbouring and closely-related languages do not share this feature with Bagvalal and Chamalal and even in the latter, it is known only in the Gigatli dialect, with Upper Gakvari not having any ejective fricatives.
 
 ## References {-}

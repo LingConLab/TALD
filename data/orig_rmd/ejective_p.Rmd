@@ -4,7 +4,7 @@ General chapter: [Phonology](phonology.html)
 
 ## Introduction
 
-Among the languages of the world with ejective consonants there exists a tendency for them to lack /p’/ [@greenberg1970: 127; @maddieson1984: 103; via @ohala&solé2008: 332]. In the Nakh-Dagestanian family this too seems to be the case and thus, in this chapter the distribution of ejective /p’/ will be mapped across the languages of the family, as well as across languages outside of Nakh-Dagestanian family that are nevertheless part of the Dagestan linguistic area.
+Among the languages of the world with ejective consonants there exists a tendency for them to lack /p’/ [@greenberg1970: 127; @maddieson1984: 103; via @ohala&solé2008: 332]. In the Nakh-Daghestanian family this too seems to be the case and thus, in this chapter the distribution of ejective /p’/ will be mapped across the languages of the family, as well as across languages outside of Nakh-Daghestanian family that are nevertheless part of the Daghestan linguistic area.
 
 ## Results
 

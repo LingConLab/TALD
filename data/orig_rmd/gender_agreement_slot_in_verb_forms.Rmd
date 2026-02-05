@@ -130,7 +130,7 @@ Preverbs with gender agreement slots are found in all of the languages of the Da
 
 Overall, non-root gender agreement is found in 14 languages, which are listed in [Table 3](#t3) and shown on the map in [Map 2](071_gender_agreement_slot_in_verb_forms_map.html#m2). They constitute a little over a third of all the East Caucasian languages in our sample. 
 
-gender agreement suffixes are more common, appearing in several branches of the family, while agreeing preverbs are limited to Dargwa with the exception of Tsakhur.
+Gender agreement suffixes are more common, appearing in several branches of the family, while agreeing preverbs are limited to Dargwa with the exception of Tsakhur.
 
 #### **Table 3.** Languages that have non-root agreement slots {#t3 -}
 
