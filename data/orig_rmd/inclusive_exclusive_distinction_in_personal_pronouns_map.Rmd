@@ -1,5 +1,4 @@
 
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning=FALSE, fig.width = 9.5)
 library(tidyverse)
@@ -22,6 +21,36 @@ read_tsv("../orig_table/inclusive_exclusive_distinction_in_personal_pronouns.tsv
                           type == 'village' ~ 'village dialect')) |> 
   filter(map != 'no') ->
   feature_dataset
+
+'../feature_types.csv' |> 
+  read_csv(progress = FALSE, show_col_types = FALSE) |> 
+  filter(filename == 'inclusive_exclusive_distinction_in_personal_pronouns_map.Rmd') |> 
+  select(-filename) ->
+  feature_types
+
+colnames(feature_dataset) |> 
+  str_detect('value\\d') |> 
+  which() |> 
+  tibble(column_ids = _) |> 
+  mutate(feature_id = 1:n()) |> 
+  left_join(feature_types) |>
+  na.omit() ->
+  for_changing_feature_types
+
+if(nrow(for_changing_feature_types) > 0){
+for_changing_feature_types$column_ids |> 
+  seq_along() |> 
+  walk(function(i){
+    if(for_changing_feature_types$feature_type[i] == 'numeric'){
+      lapply(feature_dataset[,for_changing_feature_types$column_ids[i]], as.numeric) ->
+        feature_dataset[,for_changing_feature_types$column_ids[i]]
+    } else {
+      lapply(feature_dataset[,for_changing_feature_types$column_ids[i]], function(j){
+        factor(j, levels = c(for_changing_feature_types$feature_type[i] |> str_split('; ') |> unlist()))
+      }) ->>
+        feature_dataset[,for_changing_feature_types$column_ids[i]]
+    }
+  })}
 
 read_tsv('../tald_villages.csv', show_col_types = FALSE, guess_max = 2000)  |>
   select(village, rus_village, lat, lon, gltc_lang, aff, family, standard, default_level, dialect_toplevel, dialect_nt1, dialect_nt2, dialect_nt3, village_dialect, lang_col, aff_col) |> 
@@ -62,19 +91,54 @@ feature_dataset |>
 ### General datapoints {-}
 
 ```{r}
-feature_dataset |> 
-  filter(map == 'yes',
-         genlang_point == 'yes') |>
-  add_count(value1) |> 
-  inner_join(coordinates_averaged) |> 
-  mutate(popup = ifelse((lang4map == idiom | str_detect(idiom, 'Standard')), 
-                        str_c('data level: ', type),
-                        str_c(idiom, '<br> data level: ', type)),
-         value1 = str_c(value1, ' (', n, ')'),
-         display = 'show languages')  |> 
-  filter(!is.na(value1),
-         !is.na(lang4map)) ->
-  general_datapoints_map  
+if(is.numeric(feature_dataset$value1)){
+  feature_dataset |> 
+    filter(map == 'yes',
+           genlang_point == 'yes') |>
+    inner_join(coordinates_averaged) |> 
+    mutate(popup = ifelse((lang4map == idiom | str_detect(idiom, 'Standard')), 
+                          str_c('data level: ', type),
+                          str_c(idiom, '<br> data level: ', type)),
+           display = 'show languages')  |> 
+    filter(!is.na(value1),
+           !is.na(lang4map)) ->
+    general_datapoints_map
+  } else if(is.factor(feature_dataset$value1)){
+    feature_dataset |> 
+      filter(map == 'yes',
+             genlang_point == 'yes') |>
+      inner_join(coordinates_averaged) |> 
+      mutate(popup = ifelse((lang4map == idiom | str_detect(idiom, 'Standard')), 
+                            str_c('data level: ', type),
+                            str_c(idiom, '<br> data level: ', type)),
+             value1 = droplevels(value1),
+             display = 'show languages')  |> 
+      filter(!is.na(value1),
+             !is.na(lang4map)) ->
+      general_datapoints_map
+    
+    general_datapoints_map |> 
+      count(value1) |> 
+      arrange(value1) |> 
+      mutate(new_levels = str_c(value1, ' (', n, ')')) |> 
+      pull(new_levels) ->
+      levels(general_datapoints_map$value1)
+    
+  } else{
+    feature_dataset |> 
+      filter(map == 'yes',
+             genlang_point == 'yes') |>
+      add_count(value1) |> 
+      inner_join(coordinates_averaged) |> 
+      mutate(popup = ifelse((lang4map == idiom | str_detect(idiom, 'Standard')), 
+                            str_c('data level: ', type),
+                            str_c(idiom, '<br> data level: ', type)),
+             value1 = str_c(value1, ' (', n, ')'),
+             display = 'show languages')  |> 
+      filter(!is.na(value1),
+             !is.na(lang4map)) ->
+      general_datapoints_map
+  }
 
 map.feature(general_datapoints_map$lang4map,
             latitude = general_datapoints_map$lat,

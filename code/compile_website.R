@@ -11,26 +11,6 @@ if(length(to_install) > 0){
 
 suppressPackageStartupMessages(library(tidyverse))
 
-# CREATE VILLAGE DATASET --------------------------------------------------
-# Moroz, George, & Verhees, Samira. (2020). East Caucasian villages dataset (Version v2.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.5588473
-# read_tsv("https://raw.githubusercontent.com/sverhees/master_villages/master/data/TALD/tald_villages.tsv",
-#          progress = FALSE, show_col_types = FALSE) |> 
-#   write_tsv("data/tald_villages.csv")
-# 
-# read_tsv("https://raw.githubusercontent.com/sverhees/master_villages/master/data/villages.tsv",
-#          progress = FALSE, show_col_types = FALSE) |> 
-#   select(village, rus_village, lat, lon, gltc_lang, gltc_dialect, version) |> 
-#   rename(village_dataset_version = version) |> 
-#   write_csv("data/villages.csv")
-# 
-# 17.12.2023 George Moroz: I don't think that we need to download the dataset every time. It is better to have the version for TALD that can be easily changed.
-
-# RUN TESTS ----------------------------------------------------------------
-# file.remove("test_logs.txt")
-# testthat::test_dir("tests")
-# test_logs <- read_lines("test_logs.txt") 
-# write_lines(test_logs[test_logs != "everything is ok"], "test_logs.txt")
-
 # convert .bib.tsv to .bib -------------------------------------------------
 library(bib2df)
 
@@ -100,21 +80,22 @@ walk(c(list.files("data/orig_bib", full.names = TRUE), "data/bibliography.bib"),
 # embrace uppercased letters with curly braces ----------------------------
 regular_expression <- str_c("((?<=[ \\[\\-\\(\\</])[", str_c(c(LETTERS, "Ž", "Č", "Š", "Ë", "É"), collapse = ""), "])")
 
-walk(c(list.files("data/orig_bib", full.names = TRUE), "data/bibliography.bib"), function(i){
+c(list.files("data/orig_bib", full.names = TRUE), 
+  "data/bibliography.bib") |> 
+  walk(function(i){
   if(file.info(i)$size > 7){
-  bib2df(file = i) |> 
-    mutate(TITLE = ifelse(!is.na(TITLE), 
-                          str_replace_all(TITLE, regular_expression, "\\{\\1\\}"),
-                          NA),
-           BOOKTITLE = ifelse(!is.na(BOOKTITLE),
-                              str_replace_all(BOOKTITLE, regular_expression, "\\{\\1\\}"),
-                              NA)) |> 
-    df2bib(file = i)
+    suppressMessages(suppressWarnings(bib2df(file = i))) |> 
+      mutate(TITLE = ifelse(!is.na(TITLE), 
+                            str_replace_all(TITLE, regular_expression, "\\{\\1\\}"),
+                            NA),
+             BOOKTITLE = ifelse(!is.na(BOOKTITLE),
+                                str_replace_all(BOOKTITLE, regular_expression, "\\{\\1\\}"),
+                                NA)) |> 
+      df2bib(file = i)
   } 
 })
 
 # GENERATION OF THE RMD ----------------------------------------------------
-library(tidyverse)
 
 # remove everything that starts with number and ends with Rmd --------------
 file.remove(grep("\\d{1,}_.*.Rmd", list.files(), value = TRUE))
@@ -157,24 +138,25 @@ first_authors <- tolower(str_remove(map(str_split(chapters$author, " "), 2), ","
 
 # create orig_rmd/..._map.Rmd files ----------------------------------------------------
 
-walk(str_subset(rmd_filenames, "_map.Rmd"), function(i){
-  read_tsv(str_c("data/orig_table/", 
-                 str_remove(str_remove(i, "_map.Rmd"), "\\d{1,}_"),
-                 ".tsv"),
-           progress = FALSE, show_col_types = FALSE)  |> 
-    select(matches("^feature\\d{1,}")) |> 
-    distinct() |> 
-    pivot_longer(names_to = "features", values_to = "titles", everything()) |> 
-    mutate(features = as.double(str_extract(features, "\\d{1,}")),
-           first_letter = str_extract(titles, ".") |> str_to_upper(),
-           titles = str_remove(titles, "."),
-           titles = str_c(first_letter, titles)) |> 
-    select(-first_letter) ->
-    multiple_values
-  
+str_subset(rmd_filenames, "_map.Rmd") |> 
+  walk(function(i){
+    
+    str_c("data/orig_table/", 
+          str_remove(str_remove(i, "_map.Rmd"), "\\d{1,}_"),
+          ".tsv") |> 
+      read_tsv(progress = FALSE, show_col_types = FALSE) |> 
+      select(matches("^feature\\d{1,}")) |> 
+      distinct() |> 
+      pivot_longer(names_to = "features", values_to = "titles", everything()) |> 
+      mutate(features = as.double(str_extract(features, "\\d{1,}")),
+             first_letter = str_extract(titles, ".") |> str_to_upper(),
+             titles = str_remove(titles, "."),
+             titles = str_c(first_letter, titles)) |> 
+      select(-first_letter) ->
+      multiple_values
+    
   write_lines(
     c("
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning=FALSE, fig.width = 9.5)
 library(tidyverse)
@@ -199,6 +181,38 @@ str_c('read_tsv("../orig_table/',
                           type == 'village' ~ 'village dialect')) |> 
   filter(map != 'no') ->
   feature_dataset
+
+'../feature_types.csv' |> 
+  read_csv(progress = FALSE, show_col_types = FALSE) |> ",
+  str_c("  filter(filename == '",
+        str_remove(i, "\\d{1,}_"),
+        "') |> ", collapse = ""),
+"  select(-filename) ->
+  feature_types
+
+colnames(feature_dataset) |> 
+  str_detect('value\\\\d') |> 
+  which() |> 
+  tibble(column_ids = _) |> 
+  mutate(feature_id = 1:n()) |> 
+  left_join(feature_types) |>
+  na.omit() ->
+  for_changing_feature_types
+
+if(nrow(for_changing_feature_types) > 0){
+for_changing_feature_types$column_ids |> 
+  seq_along() |> 
+  walk(function(i){
+    if(for_changing_feature_types$feature_type[i] == 'numeric'){
+      lapply(feature_dataset[,for_changing_feature_types$column_ids[i]], as.numeric) ->
+        feature_dataset[,for_changing_feature_types$column_ids[i]]
+    } else {
+      lapply(feature_dataset[,for_changing_feature_types$column_ids[i]], function(j){
+        factor(j, levels = c(for_changing_feature_types$feature_type[i] |> str_split('; ') |> unlist()))
+      }) ->>
+        feature_dataset[,for_changing_feature_types$column_ids[i]]
+    }
+  })}
 
 read_tsv('../tald_villages.csv', show_col_types = FALSE, guess_max = 2000)  |>
   select(village, rus_village, lat, lon, gltc_lang, aff, family, standard, default_level, dialect_toplevel, dialect_nt1, dialect_nt2, dialect_nt3, village_dialect, lang_col, aff_col) |> 
@@ -242,27 +256,80 @@ map(multiple_values$features, function(i){
 ### General datapoints {-}
 
 ```{r}
-feature_dataset |> 
-  filter(map == 'yes',
-         genlang_point == 'yes') |>
-  add_count(value",
+if(is.numeric(feature_dataset$value",
+    multiple_values$features[i],
+    ")){
+  feature_dataset |> 
+    filter(map == 'yes',
+           genlang_point == 'yes') |>
+    inner_join(coordinates_averaged) |> 
+    mutate(popup = ifelse((lang4map == idiom | str_detect(idiom, 'Standard')), 
+                          str_c('data level: ', type),
+                          str_c(idiom, '<br> data level: ', type)),
+           display = 'show languages')  |> 
+    filter(!is.na(value",
+    multiple_values$features[i],
+    "),
+           !is.na(lang4map)) ->
+    general_datapoints_map
+  } else if(is.factor(feature_dataset$value",
+    multiple_values$features[i],
+    ")){
+    feature_dataset |> 
+      filter(map == 'yes',
+             genlang_point == 'yes') |>
+      inner_join(coordinates_averaged) |> 
+      mutate(popup = ifelse((lang4map == idiom | str_detect(idiom, 'Standard')), 
+                            str_c('data level: ', type),
+                            str_c(idiom, '<br> data level: ', type)),
+             value",
+    multiple_values$features[i],
+    " = droplevels(value",
+    multiple_values$features[i],
+    "),
+             display = 'show languages')  |> 
+      filter(!is.na(value",
+    multiple_values$features[i],
+    "),
+             !is.na(lang4map)) ->
+      general_datapoints_map
+    
+    general_datapoints_map |> 
+      count(value",
     multiple_values$features[i],
     ") |> 
-  inner_join(coordinates_averaged) |> 
-  mutate(popup = ifelse((lang4map == idiom | str_detect(idiom, 'Standard')), 
-                        str_c('data level: ', type),
-                        str_c(idiom, '<br> data level: ', type)),
-         value",
+      arrange(value",
+    multiple_values$features[i],
+    ") |> 
+      mutate(new_levels = str_c(value",
+    multiple_values$features[i],
+    ", ' (', n, ')')) |> 
+      pull(new_levels) ->
+      levels(general_datapoints_map$value",
+    multiple_values$features[i],
+    ")
+    
+  } else{
+    feature_dataset |> 
+      filter(map == 'yes',
+             genlang_point == 'yes') |>
+      add_count(value",
+    multiple_values$features[i],
+    ") |> 
+      inner_join(coordinates_averaged) |> 
+      mutate(popup = ifelse((lang4map == idiom | str_detect(idiom, 'Standard')), 
+                            str_c('data level: ', type),
+                            str_c(idiom, '<br> data level: ', type)),
+             value",
     multiple_values$features[i],
     " = str_c(value",
     multiple_values$features[i],
     ", ' (', n, ')'),
-         display = 'show languages')  |> 
-  filter(!is.na(value",
-    multiple_values$features[i],
-    "),
-         !is.na(lang4map)) ->
-  general_datapoints_map  
+             display = 'show languages')  |> 
+      filter(!is.na(value1),
+             !is.na(lang4map)) ->
+      general_datapoints_map
+  }
 
 map.feature(general_datapoints_map$lang4map,
             latitude = general_datapoints_map$lat,
@@ -453,7 +520,7 @@ feature_dataset |>
 RefManageR::PrintBibliography(bib)
 ```
 
-"),
+"), 
     file = str_c("data/orig_rmd/", str_remove(i, "\\d{1,}_"))
   )
 })
@@ -519,7 +586,7 @@ walk(seq_along(rmd_filenames), function(i){
     " editor= 'Daniel, Michael  and Filatov, Konstantin and Maisak, Timur and Moroz, George and Mukhin, Timofey and Naccarato, Chiara and Verhees, Samira',",
     " publisher='Linguistic Convergence Laboratory, HSE University',",
     " address='Moscow',",
-    " booktitle= 'Typological Atlas of the Languages of Daghestan (TALD), v 2.0.0',",
+    " booktitle= 'Typological Atlas of the Languages of Daghestan (TALD), v 2.0.1',",
     " url='https://lingconlab.ru/tald',",
     " doi='10.5281/zenodo.6807070')",
     "```",

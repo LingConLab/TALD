@@ -1,0 +1,79 @@
+filename,feature_id,feature_type
+standard_of_comparison_map.Rmd,1,elative; essive; essive/lative; lative; dedicated
+standard_of_comparison_map.Rmd,2,super; cont; ad; in; a-loc; no_localization
+perfect_map.Rmd,1,periphrastic; synthetic; mixed
+particles_map.Rmd,1,Single marker type; Dedicated markers; No particle attested
+particles_map.Rmd,2,particle; verb; no particle
+morning_greetings_map.Rmd,1,Did you wake up?; Good morning; Both; No special greeting
+optative_map.Rmd,1,numeric
+optative_map.Rmd,2,imperative; non-imperative; both; non-applicable
+optative_map.Rmd,3,say; non-say; both; non-applicable
+optative_map.Rmd,4,standard negation; prohibitive-based; volitional negation; both; non-applicable
+prohibitives_map.Rmd,1,suffix; circumfix; prefix; infix; free particle
+prohibitives_map.Rmd,2,non-imperative verb form + special prohibitive marker; regular imperative + special prohibitive marker; regular imperative + regular negation marker
+prohibitives_map.Rmd,3,yes; no
+labials_map.Rmd,1,"w; v; v, w; w, β"
+velar_fricatives_map.Rmd,1,"xʲ; ɣ, x; ɣ, x, xʲ; x; x, xʲ; none"
+voiceless_obstruents_map.Rmd,1,one-way; two-way; three-way; four-way
+voiceless_obstruents_map.Rmd,2,C; C-Cʼ; C-Cʰ; C-Cʼ-Cʼː; C-Cː-Cʼ; C-Cː-Cʼ-Cʼː; C-Cː-Cʰ-Cʼ
+comitative_map.Rmd,2,comitative; instrumental; spatial; no_case
+caritive_adv_map.Rmd,1,dedicated suffix/clitic (~ lessly); not having converb; adposition (~ without)
+dominant_adpositional_case_map.Rmd,1,abstract; spatial; ambiguous; none
+dominant_adpositional_case_map.Rmd,2,nominative; genitive; dative; other; irrelevant
+dominant_adpositional_case_map.Rmd,3,superessive; contessive; locative; irrelevant
+agreement_of_adpositions_map.Rmd,2,numeric
+agreement_of_adpositions_map.Rmd,3,numeric
+days_before_and_after_today_map.Rmd,1,non-derivational; semi-compositional; compositional
+days_before_and_after_today_map.Rmd,2,numeric
+days_before_and_after_today_map.Rmd,3,numeric
+numeral_origin_map.Rmd,1,emphatic particle; class marker; mixed; unclear; no numeral marker
+numeral_regularity_map.Rmd,1,1—20; 2—10; 2—20; 1—1000; 2—1000; other; no numeral marker
+numeral_one_map.Rmd,1,present; absent; no numeral marker
+numeral_twoten_map.Rmd,1,present; other; no numeral marker
+numeral_twenty_map.Rmd,1,present; absent; derived decimally (2x10); no numeral marker
+numeral_hundred_map.Rmd,1,present; present (except composites); absent; derived vigesimally (5x20); no numeral marker
+numeral_thousand_map.Rmd,1,present; present (except composites); absent; no data; no numeral marker
+numeral_crowns_endings_map.Rmd,1,yes; no; borrowed; vigesimal; no numeral marker
+numeral_crowns_ten_map.Rmd,1,/c'—/ element; /—ig/ element; /ij/ element; other; borrowed; vigesimal
+numeral_complex_map.Rmd,1,present; absent; mixed; unclear; no numeral marker
+numeral_class_map.Rmd,1,present; petrified; present (in an intensifying particle); absent; no numeral marker
+numeral_ordinals_map.Rmd,1,present; absent; other; ordinals borrowed; no numeral marker
+numeral_root_hundred_map.Rmd,1,*bišo-nV ('knife'); *waˤlš:; beš-; *darš:; t:urš; č'it' ('knife'); bʕe:; pan; other; 5 x 20
+demonstratives_map.Rmd,1,2; 3; 4; 5; >=2; >=3
+demonstratives_map.Rmd,3,pronouns; affixes; no elevation
+demonstratives_map.Rmd,5,S-dist; S-far; A-prox; S&A dist; (S-dist); (S-neut)
+causatives_map.Rmd,1,morphological; light verb; suffixal auxiliaries
+causatives_map.Rmd,2,only morphological; only light verb; only suffixal auxiliary; morphological & light verb; morphological & suffixal auxiliary; suffixal auxiliary & light verb; morphological & light verb & suffixal auxiliary
+numeral_bases_map.Rmd,1,decimal; vigesimal; both
+farewell_wishes_map.Rmd,1,good way; straight way; neither
+farewell_wishes_map.Rmd,2,straight way; jaʁur/juʁur/uʁur/uɣur; neither
+number_of_morphological_slots_in_spatial_forms_map.Rmd,1,monomorphemic; bimorphemic; trimorphemic
+number_of_morphological_slots_in_spatial_forms_map.Rmd,2,deictic; orientational; approximative; none
+jussive_map.Rmd,1,yes; no
+jussive_map.Rmd,2,say; non-say
+jussive_map.Rmd,3,causative; non-causative
+jussive_map.Rmd,4,yes; no; not applicable
+gender_agreement_slot_map.Rmd,1,spatial; non-spatial; both; not attested
+gender_agreement_slot_map.Rmd,3,"Comitative; Genitive; Genitive, Affective; Possessive; not attested"
+plural_marking_on_imperatives_map.Rmd,2,present; none; not applicable
+plural_marking_on_imperatives_map.Rmd,5,present on both; present only on imperatives; not present
+trans_intrans_imperative_map.Rmd,1,yes; no
+trans_intrans_imperative_map.Rmd,2,yes; no; not applicable
+path_encoding_map.Rmd,1,dedicated case; non-dedicated case; adposition
+work_map.Rmd,1,light_verb_constr; colexified_with_do; same_root_do; dedicated_verb
+commemorative_map.Rmd,1,yes; no
+commemorative_map.Rmd,2,wash; ablution; deprive; hide; no
+commemorative_map.Rmd,3,yes; no
+adjectives_number_map.Rmd,1,always; sometimes; never
+adjectives_number_map.Rmd,2,lexical; full form; number affix of the head; no conditioning (obligatory marking); no conditioning (no marking)
+adjectives_number_map.Rmd,3,suffix (obligatory); suffix (some instances); weak suppletion (some lexemes); not expressed
+verbal_negation_prefixes_map.Rmd,1,prefix; infix; prefix / infix; particle; no
+verbal_negation_suffixes_map.Rmd,1,yes; no
+verbal_negation_auxiliaries_map.Rmd,1,yes; no
+verbal_negation_reduplication_map.Rmd,1,yes; no
+imperative_interjections_map.Rmd,1,MA-type; GwA-type; HA(n)-type; AHA; absent
+gender_agreement_in_nps_in_adjectives_map.Rmd,5,"suffix; prefix; suffix, prefix; suffix, both; suffix, prefix, both; none"
+gender_agreement_in_nps_in_adjectives_map.Rmd,6,suffix; attributive suffix; no information; no class agreement
+gender_agreement_slot_in_verb_forms_map.Rmd,1,"prefix; prefix, infix; no"
+gender_agreement_slot_in_verb_forms_map.Rmd,2,"suffix; preverb, suffix; preverb; no"
+gender_agreement_slot_in_verb_forms_map.Rmd,3,all; majority; many; about half; about a third; minority; none; not specified
