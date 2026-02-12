@@ -166,7 +166,7 @@ library(RCaucTile)
 
 ## {-}
 
-Visualization 1 (**General datapoints**) shows no more than one dot per language. Visualization 2 (**Extrapolated data**) represents each language as a cluster of dots, which correspond to villages where a certain language is spoken. Visualization 3 (**Data granularity**) takes into account dialect levels. On the **Data granularity** maps you can see the village and the data type (village data, general language data, etc.) when you click on a dot. Hover over or click on a dot to see the language. By unticking the box “show languages” you can remove the inner dots and visualize the distribution of different values in the area without the distraction of genealogical information.
+Visualization 1 (**General datapoints**) shows no more than one dot per language. Visualization 2 (**Extrapolated data**) represents each language as a cluster of dots, which correspond to villages where a certain language is spoken. Visualization 3 (**Data granularity**) takes into account dialect levels. Visualization 4 (**Tile map**) is the same as Visualization 1 and showes each language as a rectangle that are distributed according to the geographic location. On the **Data granularity** maps you can see the village and the data type (village data, general language data, etc.) when you click on a dot. Hover over or click on a dot to see the language. By unticking the box “show languages” you can remove the inner dots and visualize the distribution of different values in the area without the distraction of genealogical information.
 
 ```{r}
 ",
@@ -583,7 +583,7 @@ walk(seq_along(rmd_filenames), function(i){
            "',"),
     paste0(" author='", str_replace(chapters$author[i], ",", " and"), "',"),
     paste0(" year='", chapters$created_date[i], "',"),
-    " editor= 'Daniel, Michael  and Filatov, Konstantin and Maisak, Timur and Moroz, George and Mukhin, Timofey and Naccarato, Chiara and Verhees, Samira',",
+    " editor= 'George Moroz and Michael Daniel and Konstantin Filatov and Timur Maisak and Timofey Mukhin and Irina Politova and Elena Shvedova and Samira Verhees and Chiara Naccarato',",
     " publisher='Linguistic Convergence Laboratory, HSE University',",
     " address='Moscow',",
     " booktitle= 'Typological Atlas of the Languages of Daghestan (TALD), v 2.0.1',",

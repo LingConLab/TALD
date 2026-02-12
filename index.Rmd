@@ -62,7 +62,7 @@ list.files("data/orig_table", full.names = TRUE) |>
 ```
 
 
-The languages of Daghestan have a long descriptive tradition. Available grammars contain a wealth of data which, however, have not been analyzed from an areal point of view. The goal of this project is to develop a tool for the visualization of information about linguistic structures characteristic of Daghestan. The Atlas is based almost exclusively on data from published grammars and dictionaries, and can therefore be used for bibliographical research and as a source of references on parameters of interest. A key task of the project is the creation of maps and visualizations that allow to combine metadata and genealogical parameters with information on a particular feature. This task presupposes the collection and evaluation of data from the available sources. Data from the Atlas can be used to formulate hypotheses about possible scenarios of the areal distribution of certain phenomena. The Atlas will also allow a wider audience to become familiar with the linguistic diversity of Daghestan. The Atlas covers  `r our_data$Idiom |> unique() |> length()` idioms from `r our_data$Language |> unique() |> length()` languages via `r n_features` features organized into `our_data$Chapter |> unique() |> length()` chapters.
+The languages of Daghestan have a long descriptive tradition. Available grammars contain a wealth of data which, however, have not been analyzed from an areal point of view. The goal of this project is to develop a tool for the visualization of information about linguistic structures characteristic of Daghestan. The Atlas is based almost exclusively on data from published grammars and dictionaries, and can therefore be used for bibliographical research and as a source of references on parameters of interest. A key task of the project is the creation of maps and visualizations that allow to combine metadata and genealogical parameters with information on a particular feature. This task presupposes the collection and evaluation of data from the available sources. Data from the Atlas can be used to formulate hypotheses about possible scenarios of the areal distribution of certain phenomena. The Atlas will also allow a wider audience to become familiar with the linguistic diversity of Daghestan. The Atlas covers  `r our_data$Idiom |> unique() |> length()` idioms from `r our_data$Language |> unique() |> length()` languages via `r n_features` features organized into `r our_data$Chapter |> unique() |> length()` chapters.
 
 ```{r, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, comment = '')
@@ -71,7 +71,7 @@ BibOptions(check.entries = FALSE, style = 'text', bib.style = 'authoryear')
 article_citation <- BibEntry(bibtype = 'Book', 
  key='tald2026',
  title='Typological Atlas of the Languages of Daghestan (TALD), v. 2.0.1',
- author='Daniel, Michael and Konstantin Filatov and Timur Maisak and George Moroz and Timofey Mukhin and Chiara Naccarato and Samira Verhees',
+ author='George Moroz and Michael Daniel and Konstantin Filatov and Timur Maisak and Timofey Mukhin and Irina Politova and Elena Shvedova and Samira Verhees and Chiara Naccarato',
  year='2026',
  publisher='Linguistic Convergence Laboratory, HSE University',
  address='Moscow',

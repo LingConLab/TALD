@@ -74,6 +74,36 @@ read_tsv("data/orig_table/morning_greetings.tsv", show_col_types = FALSE, guess_
   filter(map != 'no') ->
   feature_dataset
 
+'data/feature_types.csv' |> 
+  read_csv(progress = FALSE, show_col_types = FALSE) |> 
+  filter(filename == 'morning_greetings_map.Rmd') |> 
+  select(-filename) ->
+  feature_types
+
+colnames(feature_dataset) |> 
+  str_detect('value\\d') |> 
+  which() |> 
+  tibble(column_ids = _) |> 
+  mutate(feature_id = 1:n()) |> 
+  left_join(feature_types) |>
+  na.omit() ->
+  for_changing_feature_types
+
+if(nrow(for_changing_feature_types) > 0){
+for_changing_feature_types$column_ids |> 
+  seq_along() |> 
+  walk(function(i){
+    if(for_changing_feature_types$feature_type[i] == 'numeric'){
+      lapply(feature_dataset[,for_changing_feature_types$column_ids[i]], as.numeric) ->
+        feature_dataset[,for_changing_feature_types$column_ids[i]]
+    } else {
+      lapply(feature_dataset[,for_changing_feature_types$column_ids[i]], function(j){
+        factor(j, levels = c(for_changing_feature_types$feature_type[i] |> str_split('; ') |> unlist()))
+      }) ->>
+        feature_dataset[,for_changing_feature_types$column_ids[i]]
+    }
+  })}
+
 read_tsv('data/tald_villages.csv', show_col_types = FALSE, guess_max = 2000)  |>
   select(village, rus_village, lat, lon, gltc_lang, aff, family, standard, default_level, dialect_toplevel, dialect_nt1, dialect_nt2, dialect_nt3, village_dialect, lang_col, aff_col) |> 
   mutate(language = default_level) |>
@@ -107,27 +137,61 @@ feature_dataset |>
   mutate(display = 'show languages') ->
   all_data
 
-feature_dataset |> 
-  filter(map == 'yes',
-         genlang_point == 'yes') |>
-  add_count(value1) |> 
-  inner_join(coordinates_averaged) |> 
-  mutate(popup = ifelse((lang4map == idiom | str_detect(idiom, 'Standard')), 
-                        str_c('data level: ', type),
-                        str_c(idiom, '<br> data level: ', type)),
-         value1 = str_c(value1, ' (', n, ')'),
-         display = 'show languages')  |> 
-  filter(!is.na(value1),
-         !is.na(lang4map)) ->
-  general_datapoints_map
+if(is.numeric(feature_dataset$value1)){
+  feature_dataset |> 
+    filter(map == 'yes',
+           genlang_point == 'yes') |>
+    inner_join(coordinates_averaged) |> 
+    mutate(popup = ifelse((lang4map == idiom | str_detect(idiom, 'Standard')), 
+                          str_c('data level: ', type),
+                          str_c(idiom, '<br> data level: ', type)),
+           display = 'show languages')  |> 
+    filter(!is.na(value1),
+           !is.na(lang4map)) ->
+    general_datapoints_map
+  } else if(is.factor(feature_dataset$value1)){
+    feature_dataset |> 
+      filter(map == 'yes',
+             genlang_point == 'yes') |>
+      inner_join(coordinates_averaged) |> 
+      mutate(popup = ifelse((lang4map == idiom | str_detect(idiom, 'Standard')), 
+                            str_c('data level: ', type),
+                            str_c(idiom, '<br> data level: ', type)),
+             value1 = droplevels(value1),
+             display = 'show languages')  |> 
+      filter(!is.na(value1),
+             !is.na(lang4map)) ->
+      general_datapoints_map
+    
+    general_datapoints_map |> 
+      count(value1) |> 
+      arrange(value1) |> 
+      mutate(new_levels = str_c(value1, ' (', n, ')')) |> 
+      pull(new_levels) ->
+      levels(general_datapoints_map$value1)
+    
+  } else{
+    feature_dataset |> 
+      filter(map == 'yes',
+             genlang_point == 'yes') |>
+      add_count(value1) |> 
+      inner_join(coordinates_averaged) |> 
+      mutate(popup = ifelse((lang4map == idiom | str_detect(idiom, 'Standard')), 
+                            str_c('data level: ', type),
+                            str_c(idiom, '<br> data level: ', type)),
+             value1 = str_c(value1, ' (', n, ')'),
+             display = 'show languages')  |> 
+      filter(!is.na(value1),
+             !is.na(lang4map)) ->
+      general_datapoints_map
+  }
 
 map.feature(general_datapoints_map$lang4map,
             latitude = general_datapoints_map$lat,
             longitude = general_datapoints_map$lon,
             label = general_datapoints_map$language,
             features = general_datapoints_map$value1,
-            title = general_datapoints_map$value1_name[1],
-            color = 'magma',
+            color = 'viridis',
             stroke.features = 'a',
             stroke.color = 'black',
             stroke.radius = 1,
@@ -136,7 +200,7 @@ map.feature(general_datapoints_map$lang4map,
             legend = TRUE,
             legend.position = 'bottomleft', 
             zoom.control = TRUE,
-            width = 8) %>%
+            width = 8) %>% 
   map.feature(general_datapoints_map$lang4map,
               latitude = general_datapoints_map$lat,
               longitude = general_datapoints_map$lon,
@@ -168,13 +232,12 @@ map.feature(all_data_filtered$lang4map,
             latitude = all_data_filtered$lat, 
             longitude = all_data_filtered$lon,
             features = all_data_filtered$value1,
-            color = 'magma',
+            color = 'viridis',
             stroke.features = 'a',
             stroke.color = 'black',
             stroke.radius = 1,
             stroke.legend = FALSE,
             tile = 'Esri.WorldGrayCanvas',
-            title = all_data_filtered$value1_name[1],
             legend = TRUE,
             legend.position = 'bottomleft', 
             label = all_data_filtered$language,
@@ -209,7 +272,7 @@ Our aim for the Atlas is to continue adding new data to existing datasets and th
 
 ```{r}
 feature_dataset |> 
-  filter(map == 'yes') |> 
+  filter(map == 'yes') |>
   inner_join(coordinates_averaged) |> 
   mutate(popup = ifelse((lang4map == idiom | str_detect(idiom, 'Standard')), 
                         str_c('data level: ', type),
@@ -229,13 +292,12 @@ map.feature(data_granularity_map$lang4map,
             latitude = data_granularity_map$lat, 
             longitude = data_granularity_map$lon,
             features = data_granularity_map$value1,
-            color = 'magma',
+            color = 'viridis',
             stroke.features = 'a',
             stroke.color = 'black',
             stroke.radius = 1,
             stroke.legend = FALSE,
             tile = 'Esri.WorldGrayCanvas',
-            title = data_granularity_map$value1_name[1],
             legend = TRUE,
             legend.position = 'bottomleft', 
             label = data_granularity_map$language,
@@ -244,6 +306,17 @@ map.feature(data_granularity_map$lang4map,
             popup = data_granularity_map$popup)
 ```
 
+### Tile map
+
+Chiara, please write something here.
+
+```{r, fig.width=12, fig.height=8}
+general_datapoints_map |> 
+  select(language, value1) |> 
+  ec_tile_map(feature_column = 'value1',
+              tile_colors = 'viridis') +
+  theme(text = element_text(size = 15))
+```
 
 ## Contribute to the Atlas
 
@@ -266,7 +339,7 @@ BibOptions(check.entries = FALSE, style = 'text', bib.style = 'authoryear')
 article_citation <- BibEntry(bibtype = 'Book', 
  key='tald2026',
  title='Typological Atlas of the Languages of Daghestan (TALD), v. 2.0.1',
- author='Daniel, Michael and Konstantin Filatov and Timur Maisak and George Moroz and Timofey Mukhin and Chiara Naccarato and Samira Verhees',
+ author='George Moroz and Michael Daniel and Konstantin Filatov and Timur Maisak and Timofey Mukhin and Irina Politova and Elena Shvedova and Samira Verhees and Chiara Naccarato',
  year='2026',
  publisher='Linguistic Convergence Laboratory, HSE University',
  address='Moscow',
