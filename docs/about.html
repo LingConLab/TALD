@@ -391,12 +391,13 @@ number="3">
 <h1 class="hasAnchor"><span class="header-section-number">3</span> Map
 visualizations<a href="#map-visualizations" class="anchor-section"
 aria-label="Anchor link to header"></a></h1>
-<p>The Atlas currently offers three different types of map
+<p>The Atlas currently offers four different types of map
 visualizations:</p>
 <ol style="list-style-type: decimal">
 <li>General datapoints</li>
 <li>Extrapolated data</li>
 <li>Data granularity</li>
+<li>Tile map</li>
 </ol>
 <p>Each of these visualizations has its benefits and drawbacks, so we
 allow the user to toggle between different options.</p>
@@ -408,7 +409,9 @@ asking them whether they woke up.</p>
 <p>For map visualizations we use the <a
 href="https://github.com/ropensci/lingtypology">Lingtypology package</a>
 <span class="citation">(<a href="#ref-moroz2017">Moroz 2017</a>)</span>
-for <a href="https://www.r-project.org/">R</a>.</p>
+and the <a href="https://lingconlab.github.io/RCaucTile/">RCaucTile
+package</a> <span class="citation">(<a href="#ref-moroz2025">Moroz
+2025</a>)</span> for <a href="https://www.r-project.org/">R</a>.</p>
 <div id="general-datapoints" class="section level2 hasAnchor"
 number="3.1">
 <h2 class="hasAnchor"><span class="header-section-number">3.1</span>
@@ -478,7 +481,12 @@ datasets and thus gradually improve its coverage and accuracy.</p>
 <h2 class="hasAnchor"><span class="header-section-number">3.4</span>
 Tile map<a href="#tile-map" class="anchor-section"
 aria-label="Anchor link to header"></a></h2>
-<p>Chiara, please write something here.</p>
+<p>This visualization is analogous to the General datapoints
+visualization but displays languages as rectangles and allows for
+color-coding based on specific linguistic values. The Tile map
+visualization was designed specifically for TALD with the R package
+RCaucTile <span class="citation">(<a href="#ref-moroz2025">Moroz
+2025</a>)</span>.</p>
 <p><img src="about_files/figure-html/unnamed-chunk-5-1.png" alt="" width="1152" /></p>
 </div>
 </div>
@@ -562,6 +570,12 @@ line-spacing="2">
 Moroz, George. (2017). <em>Lingtypology: Easy mapping for linguistic
 typology</em>. Retrieved from <a
 href="https://CRAN.R-project.org/package=lingtypology">https://CRAN.R-project.org/package=lingtypology</a>
+</div>
+<div id="ref-moroz2025" class="csl-entry">
+Moroz, George. (2025). <em><span>RCaucTile</span>: <span>T</span>ile
+<span>G</span>rid <span>M</span>aps for <span>E</span>ast
+<span>C</span>aucasian <span>L</span>anguages</em>. <a
+href="https://doi.org/10.32614/CRAN.package.RCaucTile">https://doi.org/10.32614/CRAN.package.RCaucTile</a>
 </div>
 </div>
 </div>
