@@ -48,6 +48,7 @@ The list of languages included in our sample is available in the section [Langua
  1. General datapoints
  2. Extrapolated data
  3. Data granularity
+ 4. Tile map
 
 Each of these visualizations has its benefits and drawbacks, so we allow the user to toggle between different options. 
 
