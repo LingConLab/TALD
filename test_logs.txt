@@ -237,4 +237,3 @@ spelling of          kor        in work.Rmd:41
 spelling of          oba        in work.Rmd:61
 spelling of          wa        in work.Rmd:51
 spelling of          xe        in work.Rmd:61
-spelling of          RCaucTile        in about.Rmd:57,312
