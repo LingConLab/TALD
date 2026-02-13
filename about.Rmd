@@ -24,10 +24,10 @@ The **Typological Atlas of the Languages of Daghestan (TALD)** is a tool for the
 
 The Atlas consists of:
 
- * Chapters describing linguistic phenomena typical of the area (some of the chapters are linked to a major topic, i.e., a more descriptive chapter to which several features are related) 
- * Datasets with information on particular features
- * Map visualizations of how these features are distributed
- * A bibliography of literature on languages of the area (see [References](references.html))
+- Chapters describing linguistic phenomena typical of the area (some of the chapters are linked to a major topic, i.e., a more descriptive chapter to which several features are related) 
+- Datasets with information on particular features
+- Map visualizations of how these features are distributed
+- A bibliography of literature on languages of the area (see [References](references.html))
 
 ## Daghestan as a linguistic area
 
@@ -55,7 +55,6 @@ Each of these visualizations has its benefits and drawbacks, so we allow the use
 Below are some examples from the chapter on [Morning greetings](http://lingconlab.ru/dagatlas/005_morning_greetings.html), which describes the two main ways to greet someone in the morning in the languages of Daghestan: wishing them a good morning or asking them whether they woke up.
 
 For map visualizations we use the [Lingtypology package](https://github.com/ropensci/lingtypology) [@moroz2017] and the [RCaucTile package](https://lingconlab.github.io/RCaucTile/) [@moroz2025] for [R](https://www.r-project.org/).
-
 
 ### General datapoints
 
@@ -309,7 +308,7 @@ map.feature(data_granularity_map$lang4map,
 
 ### Tile map
 
-This visualization is analogous to the General datapoints visualization but displays languages as rectangles and allows for color-coding based on specific linguistic values. The Tile map visualization was designed specifically for TALD with the R package RCaucTile [@moroz2025].
+This visualization is analogous to the General datapoints visualization but displays languages as rectangles and allows for color-coding based on specific linguistic values. The Tile map visualization was designed specifically for TALD with the R package [RCaucTile](https://lingconlab.github.io/RCaucTile/) [@moroz2025].
 
 ```{r, fig.width=12, fig.height=8}
 general_datapoints_map |> 
