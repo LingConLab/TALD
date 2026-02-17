@@ -825,7 +825,20 @@ feature_dataset |>
 ## References {-}
 
 ```{r, results='asis'}
-RefManageR::PrintBibliography(bib)
+feature_dataset |> 
+  select(source, matches('value\\d{1,}$')) |> 
+  filter(!if_all(matches('value\\d{1,}$'), is.na)) |> 
+  mutate(source = str_split(source, '; ')) |> 
+  unnest_longer(source) |> 
+  filter(!str_detect(source, '[Ff]ield [Dd]ata'),
+         !str_detect(source, 'p.\\s?c.$')) |> 
+  mutate(citation = Cite(bib, source)) |> 
+  arrange(citation) |> 
+  pull(source) ->
+  bibtexkeys
+
+bib[which(names(bib) %in% bibtexkeys)] |> 
+  print()
 ```
 
 
