@@ -1,7 +1,7 @@
 ---
 title: Jussive (Maps & Data)
 author: Nina Dobrushina
-date: 'Last update: February 2024'
+date: 'Last update: February 2025'
 bibliography: false
 csl: apa.csl
 link-citations: true
@@ -23,10 +23,10 @@ See [chapter](055_jussive.html)
 library(RefManageR)
 BibOptions(check.entries = FALSE, style = 'text', first.inits = FALSE, bib.style = 'authoryear')
 article_citation <- BibEntry(bibtype = 'Incollection', 
- key='dobrushina2023',
+ key='dobrushina2025',
  title='Jussive (Maps & Data)',
  author='Nina Dobrushina',
- year='2023',
+ year='2025',
  editor= 'George Moroz and Michael Daniel and Konstantin Filatov and Timur Maisak and Timofey Mukhin and Irina Politova and Elena Shvedova and Samira Verhees and Chiara Naccarato',
  publisher='Linguistic Convergence Laboratory, HSE University',
  address='Moscow',
