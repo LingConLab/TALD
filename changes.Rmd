@@ -15,7 +15,7 @@ library(tidyverse)
 
 Chapters added or updated:
 
-```{r, results='asis'}
+```{r, results='asis', warning=FALSE}
 readxl::read_xlsx("data/contributors.xlsx", guess_max = 200) |> 
   filter(!is.na(id),
          version == "2.0.1") |> 
@@ -29,7 +29,7 @@ readxl::read_xlsx("data/contributors.xlsx", guess_max = 200) |>
 
 Chapters added:
 
-```{r, results='asis'}
+```{r, results='asis', warning=FALSE}
 readxl::read_xlsx("data/contributors.xlsx", guess_max = 200) |> 
   filter(!is.na(id),
          version == "2.0.0") |> 
@@ -42,7 +42,7 @@ readxl::read_xlsx("data/contributors.xlsx", guess_max = 200) |>
 
 Chapters added:
 
-```{r, results='asis'}
+```{r, results='asis', warning=FALSE}
 readxl::read_xlsx("data/contributors.xlsx", guess_max = 200) |> 
   filter(!is.na(id),
          version == "1.0.0") |> 
