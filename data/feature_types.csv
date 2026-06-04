@@ -77,3 +77,5 @@ gender_agreement_in_nps_in_adjectives_map.Rmd,6,suffix; attributive suffix; no i
 gender_agreement_slot_in_verb_forms_map.Rmd,1,"prefix; prefix, infix; no"
 gender_agreement_slot_in_verb_forms_map.Rmd,2,"suffix; preverb, suffix; preverb; no"
 gender_agreement_slot_in_verb_forms_map.Rmd,3,all; majority; many; about half; about a third; minority; none; not specified
+take_hold_catch_map.Rmd,1,yes; no; cognate verbs
+take_hold_catch_map.Rmd,2,yes; no; cognate verbs

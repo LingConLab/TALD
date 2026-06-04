@@ -1,3 +1,9 @@
+The BibTeX entry suvorova2024 from take_hold_catch_bib.tsv has the wrong CATEGORY value: pdfthesis
+The obligatory column          chapter          is absent in the file          take_hold_catch.tsv
+Duplicated column name      'example_comment'      in the      take_hold_catch.tsv
+The wrong village dialect name Gigatli in the file take_hold_catch.tsv
+The wrong village dialect name Tanti in the file take_hold_catch.tsv
+The wrong toplevel dialect name ikhrek in the file take_hold_catch.tsv
 spelling of          aj        in adjectives_number.Rmd:133
 spelling of          ar        in adjectives_number.Rmd:133,133
 spelling of          ce        in adjectives_number.Rmd:435
@@ -210,6 +216,16 @@ spelling of          li        in standard_of_comparison.Rmd:61,150
 spelling of          une        in standard_of_comparison.Rmd:46,141
 spelling of          upro        in standard_of_comparison.Rmd:227
 spelling of          wor        in standard_of_comparison.Rmd:200,216
+spelling of          agarrar        in take_hold_catch.Rmd:8
+spelling of          BivalTyp        in take_hold_catch.Rmd:12
+spelling of          CLICS        in take_hold_catch.Rmd:8,10,12
+spelling of          colexify        in take_hold_catch.Rmd:8,52,120
+spelling of          gyr        in take_hold_catch.Rmd:130,130
+spelling of          Inkhokwari        in take_hold_catch.Rmd:163,165
+spelling of          iq        in take_hold_catch.Rmd:52,120
+spelling of          Juhuri        in take_hold_catch.Rmd:130,161
+spelling of          kwi        in take_hold_catch.Rmd:36,36
+spelling of          mɑq        in take_hold_catch.Rmd:146
 spelling of          aja        in trans_intrans_imperative.Rmd:111,113
 spelling of          ba        in trans_intrans_imperative.Rmd:57,94
 spelling of          ij        in trans_intrans_imperative.Rmd:71,71

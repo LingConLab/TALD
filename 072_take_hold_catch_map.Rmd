@@ -1,0 +1,53 @@
+---
+title: Colexification of take/hold/catch (Maps & Data)
+author: Tatiana Khisamutdinova
+date: 'Last update: May 2026'
+bibliography: false
+csl: apa.csl
+link-citations: true
+output:
+  html_document:
+    number_sections: true
+    anchor_sections: true
+    pandoc_args: --shift-heading-level-by=-1
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, comment = '')
+library(lingglosses)
+```
+
+See [chapter](072_take_hold_catch.html)
+
+```{r}
+library(RefManageR)
+BibOptions(check.entries = FALSE, style = 'text', first.inits = FALSE, bib.style = 'authoryear')
+article_citation <- BibEntry(bibtype = 'Incollection', 
+ key='khisamutdinova2026',
+ title='Colexification of take/hold/catch (Maps & Data)',
+ author='Tatiana Khisamutdinova',
+ year='2026',
+ editor= 'George Moroz and Michael Daniel and Konstantin Filatov and Timur Maisak and Timofey Mukhin and Irina Politova and Elena Shvedova and Samira Verhees and Chiara Naccarato',
+ publisher='Linguistic Convergence Laboratory, HSE University',
+ address='Moscow',
+ booktitle= 'Typological Atlas of the Languages of Daghestan (TALD), v 2.0.1',
+ url='https://lingconlab.ru/tald',
+ doi='10.5281/zenodo.6807070')
+```
+
+## {.tabset .tabset-fade .tabset-pills -} 
+
+### Plain text {-}
+```{r, results = 'asis'}
+print(article_citation, .opts = list(style = 'text'))
+```
+
+### BibTeX {-}
+
+```{r}
+print(article_citation, .opts = list(style = 'Bibtex'))
+```
+
+```{r, child='data/orig_rmd/take_hold_catch_map.Rmd'}
+```
+

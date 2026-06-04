@@ -1,0 +1,1262 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="Tatiana Khisamutdinova" />
+
+
+<title>Colexification of take/hold/catch</title>
+
+<script src="site_libs/header-attrs-2.31/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="site_libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="site_libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.5.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet" />
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+<style type="text/css">
+/* for pandoc --citeproc since 2.11 */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">TALD</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="./about.html">About</a>
+</li>
+<li>
+  <a href="./chapters.html">
+    <span class="fa fa-atlas"></span>
+     
+    Chapters
+  </a>
+</li>
+<li>
+  <a href="./languages.html">Languages</a>
+</li>
+<li>
+  <a href="./changes.html">Changes</a>
+</li>
+<li>
+  <a href="./references.html">References</a>
+</li>
+<li>
+  <a href="./team.html">Team</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Colexification of take/hold/catch</h1>
+<h4 class="author">Tatiana Khisamutdinova</h4>
+<h4 class="date">Last update: May 2026</h4>
+
+</div>
+
+
+<p>See <a href="072_take_hold_catch_map.html">data and maps</a>.</p>
+<div id="section"
+class="section level1 tabset tabset-fade tabset-pills unnumbered">
+<h1 class="tabset tabset-fade tabset-pills unnumbered"></h1>
+<div id="plain-text" class="section level2 unnumbered hasAnchor">
+<h2 class="unnumbered hasAnchor">Plain text<a href="#plain-text"
+class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Khisamutdinova, Tatiana (2026). “Colexification of take/hold/catch”.
+In: <em>Typological Atlas of the Languages of Daghestan (TALD), v
+2.0.1</em>. Ed. by George Moroz, Michael Daniel, Konstantin Filatov,
+Timur Maisak, Timofey Mukhin, Irina Politova, Elena Shvedova, Samira
+Verhees and Chiara Naccarato. Moscow: Linguistic Convergence Laboratory,
+HSE University. DOI: 10.5281/zenodo.6807070. <a
+href="https://lingconlab.ru/tald"
+class="uri">https://lingconlab.ru/tald</a>.</p>
+</div>
+<div id="bibtex" class="section level2 unnumbered hasAnchor">
+<h2 class="unnumbered hasAnchor">BibTeX<a href="#bibtex"
+class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<pre><code>@incollection{khisamutdinova2026,
+  title = {Colexification of take/hold/catch},
+  author = {Tatiana Khisamutdinova},
+  year = {2026},
+  editor = {George Moroz and Michael Daniel and Konstantin Filatov and Timur Maisak and Timofey Mukhin and Irina Politova and Elena Shvedova and Samira Verhees and Chiara Naccarato},
+  publisher = {Linguistic Convergence Laboratory, HSE University},
+  address = {Moscow},
+  booktitle = {Typological Atlas of the Languages of Daghestan (TALD), v 2.0.1},
+  url = {https://lingconlab.ru/tald},
+  doi = {10.5281/zenodo.6807070},
+}</code></pre>
+</div>
+</div>
+<div id="introduction" class="section level1 hasAnchor" number="1">
+<h1 class="hasAnchor"><span class="header-section-number">1</span>
+Introduction<a href="#introduction" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p>Colexification is a phenomenon in a language when different meanings
+are expressed with the same word <span class="citation">(<a
+href="#ref-francois2008">François 2008</a>)</span>. This chapter
+explores the colexifications of the concepts ‘hold’ and ‘take’, as well
+as ‘hold’ and ‘catch’ in the languages of Daghestan. These concepts are
+often colexified in the languages of the world. According to data from
+CLICS <span class="citation">(<a href="#ref-rzymskietal2020">Rzymski et
+al. 2020</a>)</span>, there are 51 languages that colexify the concepts
+‘hold’ and ‘take’, and 116 languages that colexify the concepts ‘hold’
+and ‘catch’. For instance, in Portuguese ‘hold’ and ‘catch’ are
+expressed by the same verb <em>agarrar</em>. Colexification of ‘hold’
+and ‘take’ is found, e.g., in Japanese, where these concepts are
+expressed by the verb <em>toru</em>.</p>
+<p>As noted in previous studies, for example, <span class="citation">(<a
+href="#ref-suvorova2024">Suvorova 2024</a>)</span>, this case of
+colexification is caused by semantic extension. ‘Take’ and ‘catch’
+describe the process of getting something in your hands, the result of
+which corresponds to the concept ‘hold’. In CLICS <span
+class="citation">(<a href="#ref-rzymskietal2020">Rzymski et al.
+2020</a>)</span>, the concept ‘take’ is defined as ‘to grasp with the
+hands’. This verb describes the entire instantaneous process, it is a
+telic verb and can be labeled “Achievement” according to Vendler’s
+classification <span class="citation">(<a
+href="#ref-vendler1957">Vendler 1957</a>)</span>. The definition of
+‘catch’ in CLICS is ‘to take hold of, especially in the hands, so as to
+seize or restrain or stop the motion of’. This verb is also telic, but
+it is not instantaneous, i.e., it is rather an “Accomplishment”. This
+difference between ‘take’ and ‘catch’ can be illustrated by the
+following example: <em>Take the ball!</em> assumes the instancy of
+action, while <em>Catch the ball!</em> presupposes some duration. ‘Hold’
+is defined as ‘to grasp or grip (particularly with the hand) so that the
+object does not end up at the surface below’. This verb is atelic, it
+assumes duration of an action and can be labeled a “State”. It is the
+result of a “taking” or “catching” situation.</p>
+<p>Data for the present chapter were collected mostly from bilingual
+dictionaries, the majority of which pair a source language with Russian.
+Forms of the following Russian verbs were looked for in the
+dictionaries: <em>deržat’</em> for ‘hold’, <em>brat’/vzjat’</em> for
+‘take’, and <em>lovit’</em> or <em>pojmat’</em> for ‘catch’.
+Additionally, data from the CLICS and BivalTyp <span
+class="citation">(<a href="#ref-say2020">Say 2020</a>)</span> databases
+were also considered. Languages in the sample could have more than one
+verb for certain concepts, and some of these verbs might not be
+colexified.</p>
+<p>All the collected verbs are transitive, so in case of
+accusative-nominative alignment the subject is in the (unmarked)
+nominative case, while the object is marked by the accusative case. In
+case of ergative-absolutive alignment (most of the Nakh-Daghestanian
+languages), the subject is in the ergative case, while the object is in
+the (unmarked) absolutive case.</p>
+</div>
+<div id="results" class="section level1 hasAnchor" number="2">
+<h1 class="hasAnchor"><span class="header-section-number">2</span>
+Results<a href="#results" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<div id="colexification-of-hold-and-catch"
+class="section level2 hasAnchor" number="2.1">
+<h2 class="hasAnchor"><span class="header-section-number">2.1</span>
+Colexification of ‘hold’ and ‘catch’<a
+href="#colexification-of-hold-and-catch" class="anchor-section"
+aria-label="Anchor link to header"></a></h2>
+<p>As my research demonstrates, the concepts ‘hold’ and ‘catch’ are
+almost always expressed by the same form in the languages of Daghestan.
+For example, in Standard Lezgian the verb <em>q’u-n</em> means both
+‘hold’ and ‘catch’.</p>
+<ol class="example" style="list-style-type: decimal">
+<li>Standard Lezgian <span class="citation">(<a
+href="#ref-haspelmath1993">Haspelmath 1993</a>: 377, 370)</span></li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>ruš-ar-i</em>
+</td>
+<td style="text-align:left;">
+<em>gada</em>
+</td>
+<td style="text-align:left;">
+<em>ǧil-er</em>
+</td>
+<td style="text-align:left;">
+<em>q’u-na</em>
+</td>
+<td style="text-align:left;">
+<em>sa</em>
+</td>
+<td style="text-align:left;">
+<em>klass-diz</em>
+</td>
+<td style="text-align:left;">
+<em>tuxwa-na</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+girl-<span class="smallcaps">pl</span>-<span
+class="smallcaps">erg</span>
+</td>
+<td style="text-align:left;">
+boy
+</td>
+<td style="text-align:left;">
+hand-<span class="smallcaps">pl</span>
+</td>
+<td style="text-align:left;">
+hold-<span class="smallcaps">aor</span>.<span
+class="smallcaps">cv</span>
+</td>
+<td style="text-align:left;">
+one
+</td>
+<td style="text-align:left;">
+class-<span class="smallcaps">dat</span>
+</td>
+<td style="text-align:left;">
+bring-<span class="smallcaps">aor</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘The girls led the boy into a classroom, holding his hands.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>ada-z</em>
+</td>
+<td style="text-align:left;">
+<em>wiči-n</em>
+</td>
+<td style="text-align:left;">
+<em>juldaš</em>
+</td>
+<td style="text-align:left;">
+<em>gürčeqhan-r-i</em>
+</td>
+<td style="text-align:left;">
+<em>q’u-nwa-z</em>
+</td>
+<td style="text-align:left;">
+<em>aku-na</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+he-<span class="smallcaps">dat</span>
+</td>
+<td style="text-align:left;">
+self-<span class="smallcaps">gen</span>
+</td>
+<td style="text-align:left;">
+comrade
+</td>
+<td style="text-align:left;">
+hunter-<span class="smallcaps">pl</span>-<span
+class="smallcaps">erg</span>
+</td>
+<td style="text-align:left;">
+catch-<span class="smallcaps">prf</span>-<span
+class="smallcaps">impf</span>.<span class="smallcaps">cv</span>
+</td>
+<td style="text-align:left;">
+see-<span class="smallcaps">aor</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘He saw how the hunters had caught his comrade.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>Only three idioms in the sample do not use the same verb for these
+meanings. The first one is Kubachi, where ‘hold’ and ‘catch’ are
+expressed by different, but cognate words. These are <em>b-us-i</em> for
+‘catch’ and <em>kwi-b-us-i</em> for ‘hold’. The preverb <em>kwi-</em>
+means ‘in hands’.</p>
+<ol start="2" class="example" style="list-style-type: decimal">
+<li>Kubachi <span class="citation">(<a
+href="#ref-magomedovsaidovakutta2017">Magomedov, Saidov-Akkutta
+2017</a>: 62, 154)</span></li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>bic’</em>
+</td>
+<td style="text-align:left;">
+<em>b-us-i</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+wolf.<span class="smallcaps">abs</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">iii</span>-catch-<span
+class="smallcaps">inf</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘To catch a wolf’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>njuq’-ba-ccila</em>
+</td>
+<td style="text-align:left;">
+<em>gal</em>
+</td>
+<td style="text-align:left;">
+<em>kwi-us-i</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+hand-<span class="smallcaps">obl</span>.<span
+class="smallcaps">pl</span>-<span class="smallcaps">instr</span>
+</td>
+<td style="text-align:left;">
+child.<span class="smallcaps">abs</span>
+</td>
+<td style="text-align:left;">
+in_hands-<span class="smallcaps">i</span>.hold-<span
+class="smallcaps">inf</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘To hold a child in the hands’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>The other two languages that do not colexify ‘hold’ and ‘catch’ are
+the Kidero dialect of Tsez and Standard Chechen. In both languages, the
+words for ‘hold’ and ‘catch’ are not etymologically related, cf. Kidero
+Tsez <em>b-is-a</em> and <em>b-iq-a</em>.</p>
+<ol start="3" class="example" style="list-style-type: decimal">
+<li>Kidero Tsez <span class="citation">(<a
+href="#ref-xalilov1999">Xalilov 1999</a>: 59, 61)</span></li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>reƛ’a</em>
+</td>
+<td style="text-align:left;">
+<em>r-is-a</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+hand.<span class="smallcaps">abs</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">iv</span>-hold-<span
+class="smallcaps">inf</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘To hold a hand’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>ahi</em>
+</td>
+<td style="text-align:left;">
+<em>b-iq-a</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+bird.<span class="smallcaps">abs</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">iii</span>-catch-<span
+class="smallcaps">inf</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘To catch a bird’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+</div>
+<div id="colexification-of-hold-and-take"
+class="section level2 hasAnchor" number="2.2">
+<h2 class="hasAnchor"><span class="header-section-number">2.2</span>
+Colexification of ‘hold’ and ‘take’<a
+href="#colexification-of-hold-and-take" class="anchor-section"
+aria-label="Anchor link to header"></a></h2>
+<p>The colexification of ‘hold’ and ‘take’ is quite rare in the
+languages of the sample: only four idioms out of 43 have it. In two
+languages (Hunzib and the Kvantlada variety of Khwarshi), one verb is
+used for all three meanings ‘hold’, ‘take’, and ‘catch’. This is what we
+see in Kvantlada, where <em>j-oqχqχ-a</em> means ‘find, discover, catch,
+hold, seize, take, etc.’.</p>
+<ol start="4" class="example" style="list-style-type: decimal">
+<li>Kvantlada Khwarshi <span class="citation">(<a
+href="#ref-dzhidalaevetal2022">Džidalaev et al. 2022</a>: 56,
+279)</span></li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>aanbik’</em>
+</td>
+<td style="text-align:left;">
+<em>j-oqχqχ-a</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+spoon.<span class="smallcaps">abs</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">v</span>-hold-<span class="smallcaps">inf</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘to hold a spoon’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>žurnal</em>
+</td>
+<td style="text-align:left;">
+<em>j-oqχqχ-a</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+magazine.<span class="smallcaps">abs</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">v</span>-take-<span class="smallcaps">inf</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘to take a magazine’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>c’ohor</em>
+</td>
+<td style="text-align:left;">
+<em>oqχqχ-a</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+thief.<span class="smallcaps">abs</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">i</span>.catch-<span
+class="smallcaps">inf</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘to catch a thief’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>Hinuq has a verb meaning ‘hold, take’ (<em>buχ-a</em>) and a verb
+meaning ‘hold, catch’ (<em>b-ašir-a</em>).</p>
+<ol start="5" class="example" style="list-style-type: decimal">
+<li>Hinuq <span class="citation">(<a
+href="#ref-xalilovisakov2005">Xalilov, Isakov 2005</a>: 166,
+91)</span></li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>kwezej</em>
+</td>
+<td style="text-align:left;">
+<em>r-uχ-a</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+hand.<span class="smallcaps">abs</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">v</span>-hold-<span class="smallcaps">inf</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘To hold a hand’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>t’oq</em>
+</td>
+<td style="text-align:left;">
+<em>r-uχ-a</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+knife.<span class="smallcaps">abs</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">v</span>-take-<span class="smallcaps">inf</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘To take a knife’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>roč</em>
+</td>
+<td style="text-align:left;">
+<em>r-ašir-a</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+rope.<span class="smallcaps">abs</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">v</span>-hold-<span class="smallcaps">inf</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘To hold a rope’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>k’oħlo</em>
+</td>
+<td style="text-align:left;">
+<em>b-ašir-a</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+ball.<span class="smallcaps">abs</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">iii</span>-catch-<span
+class="smallcaps">inf</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘To catch a ball’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>The Kidero dialect of Tsez colexifies the concepts ‘hold’ and ‘take’
+but does not colexify ‘hold’ and ‘catch’: <em>b-is-a</em> means ‘take,
+get, hold, buy’, while <em>b-iq-a</em> means ‘catch’, see also (3a–3b)
+above.</p>
+<ol start="6" class="example" style="list-style-type: decimal">
+<li>Kidero Tsez <span class="citation">(<a
+href="#ref-xalilov1999">Xalilov 1999</a>: 59)</span></li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>t’aˁq</em>
+</td>
+<td style="text-align:left;">
+<em>r-is-a</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+knife.<span class="smallcaps">abs</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">iv</span>-take-<span
+class="smallcaps">inf</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘To take a knife’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>In Juhuri (Judeo-Tat), the concepts ‘hold’/‘catch’ and ‘take’ are
+expressed by cognate words. <em>Və-gyr-də</em> (-‘take’)- is derived
+from <em>gyr-də</em> (-‘hold’/‘catch’)- with the prefix <em>və-</em>,
+which means ‘on’.</p>
+<ol start="7" class="example" style="list-style-type: decimal">
+<li>Judeo-Tat <span class="citation">(<a
+href="#ref-naftaliev2016">Naftaliev 2016</a>: 514)</span></li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>ⱨəjil-ə</em>
+</td>
+<td style="text-align:left;">
+<em>gyr-də</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+baby-<span class="smallcaps">acc</span>
+</td>
+<td style="text-align:left;">
+hold-<span class="smallcaps">inf</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘To hold a baby’
+</td>
+</tr>
+</tfoot>
+</table></li>
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>kitob-ə</em>
+</td>
+<td style="text-align:left;">
+<em>əz</em>
+</td>
+<td style="text-align:left;">
+<em>ki</em>
+</td>
+<td style="text-align:left;">
+<em>vəgyr-dəj?</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+book-<span class="smallcaps">acc</span>
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">abl</span>
+</td>
+<td style="text-align:left;">
+who
+</td>
+<td style="text-align:left;">
+take-<span class="smallcaps">perf</span>.<span
+class="smallcaps">3</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘Who did you take the book from?’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+<p>Standard Avar and Kumyk also have verbs combining the Russian
+translations <em>deržat’</em> and <em>brat’</em>, but these verbs do not
+have neutral meaning ‘take’ and are more close to the concept ‘seize’,
+cf. Standard Kumyk <em>tut-mɑq</em>.</p>
+<ol start="8" class="example" style="list-style-type: decimal">
+<li>Standard Kumyk <span class="citation">(<a
+href="#ref-bammatov2013">Bammatov, Gadžiaxmedov 2013</a>:
+309)</span></li>
+</ol>
+<ol style="list-style-type: lower-alpha">
+<li><table class=" lightable-minimal" style="font-family: &quot;Trebuchet MS&quot;, verdana, sans-serif; width: auto !important; border-bottom: 0;">
+<tbody>
+<tr>
+<td style="text-align:left;">
+<em>ol</em>
+</td>
+<td style="text-align:left;">
+<em>meni</em>
+</td>
+<td style="text-align:left;">
+<em>qol-um-dɑn</em>
+</td>
+<td style="text-align:left;">
+<em>tut-du</em>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+s/he
+</td>
+<td style="text-align:left;">
+<span class="smallcaps">1sg</span>.<span class="smallcaps">acc</span>
+</td>
+<td style="text-align:left;">
+hand-<span class="smallcaps">1sg</span>.<span
+class="smallcaps">poss</span>-<span class="smallcaps">abl</span>
+</td>
+<td style="text-align:left;">
+take-<span class="smallcaps">perf</span>.<span
+class="smallcaps">3sg</span>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td style="padding: 0; " colspan="100%">
+<sup></sup> ‘He took my hand.’
+</td>
+</tr>
+</tfoot>
+</table></li>
+</ol>
+</div>
+</div>
+<div id="distribution" class="section level1 hasAnchor" number="3">
+<h1 class="hasAnchor"><span class="header-section-number">3</span>
+Distribution<a href="#distribution" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p>As my data show, the colexification of ‘hold’ and ‘catch’ is present
+in almost every language of Daghestan and sometimes this verb may also
+mean ‘take’.</p>
+<p>The colexification of ‘hold’ and ‘catch’ is not strictly determined
+genealogically. On the one hand, it is found in all Nakh-Daghestanian
+languages except Standard Chechen, Kubachi and Kidero Tsez. On the other
+hand, it is also present in other language families of the sample:
+Turkic (Standard Nogai, Standard Kumyk, Standard Azerbaijani),
+Kartvelian (Standard Georgian) and Indo-European (Juhuri and Eastern
+Armenian).</p>
+<p>The colexification of ‘hold’ and ‘take’ only appears in
+Nakh-Daghestanian languages of the Tsezic branch: Kidero Tsez,
+Inkhokwari, Hunzib, Hinuq. The only Tsezic language in the sample where
+this colexification is not found is Bezhta.</p>
+<p>Standard Chechen is the only language where all three concepts are
+expressed with unrelated verbs. Hinuq, Hunzib and Inkhokwari have both
+of these colexifications.</p>
+</div>
+<div id="list-of-glosses" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">List of glosses<a
+href="#list-of-glosses" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p><span class="smallcaps">1sg</span> — first person singular; <span
+class="smallcaps">3</span> — third person; <span
+class="smallcaps">3sg</span> — third person singular; <span
+class="smallcaps">abl</span> — ablative; <span
+class="smallcaps">abs</span> — absolutive; <span
+class="smallcaps">acc</span> — accusative; <span
+class="smallcaps">aor</span> — aorist; <span
+class="smallcaps">cv</span> — circumstantial; <span
+class="smallcaps">dat</span> — dative; <span
+class="smallcaps">erg</span> — ergative; <span
+class="smallcaps">gen</span> — genitive; <span
+class="smallcaps">i</span> — class I; <span
+class="smallcaps">iii</span> — class III; <span
+class="smallcaps">impf</span> — imperfective; <span
+class="smallcaps">inf</span> — infinitive; <span
+class="smallcaps">instr</span> — instrumental; <span
+class="smallcaps">iv</span> — class IV; <span
+class="smallcaps">obl</span> — oblique; <span
+class="smallcaps">perf</span> — perfect; <span
+class="smallcaps">pl</span> — plural; <span
+class="smallcaps">poss</span> — possessive; <span
+class="smallcaps">prf</span> — perfect; <span
+class="smallcaps">v</span> — class V</p>
+</div>
+<div id="references" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">References<a href="#references"
+class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="refs" class="references csl-bib-body hanging-indent"
+line-spacing="2">
+<div id="ref-bammatov2013" class="csl-entry">
+Bammatov, Burgan G., Gadžiaxmedov, Nurmagomed È. (2013).
+<em>Kumyksko-russkij slovarʹ [<span>K</span>umyk-<span>R</span>ussian
+dictionary]</em>. Makhachkala: IJaLI. Retrieved from <a
+href="https://til.im/ru/slovar">https://til.im/ru/slovar</a>
+</div>
+<div id="ref-dzhidalaevetal2022" class="csl-entry">
+Džidalaev, Nurislam S., Magomedova, Zagrat Dž., Xalilov, Madžid Š.
+(2022). <em>Slovarʹ xvaršinskogo jazyka [<span>K</span>hwarshi
+dictionary]</em>. Makhachkala: IJaLI.
+</div>
+<div id="ref-francois2008" class="csl-entry">
+François, Alexandre. (2008). Semantic maps and the typology of
+colexification: <span>I</span>ntertwining polysemous networks across
+languages. In <em>From <span>P</span>olysemy to <span>S</span>emantic
+change: <span>T</span>owards a <span>T</span>ypology of
+<span>L</span>exical <span>S</span>emantic
+<span>A</span>ssociations</em> (pp. 163–215). Benjamins.
+</div>
+<div id="ref-haspelmath1993" class="csl-entry">
+Haspelmath, Martin. (1993). <em>A grammar of <span>L</span>ezgian</em>.
+Berlin/New York: Mouton de Gruyter.
+</div>
+<div id="ref-magomedovsaidovakutta2017" class="csl-entry">
+Magomedov, Amirbek D., Saidov-Akkutta, Nabigulla I. (2017).
+<em>Kubačinsko-russkij slovarʹ (rukopisʹ)
+[<span>K</span>ubachi-<span>R</span>ussian dictionary
+(manuscript)]</em>. Saint-Petersburg: Nauka.
+</div>
+<div id="ref-naftaliev2016" class="csl-entry">
+Naftaliev, Mardaxaj N. (2016). <em>Evrejsko (džuuri)-russkij slovarʹ
+[<span>J</span>uhuri-<span>R</span>ussian dictionary]</em>. Moscow:
+STMÈGI.
+</div>
+<div id="ref-rzymskietal2020" class="csl-entry">
+Rzymski, Christoph, Tresoldi, Tiago, Greenhill, Simon J, Wu, Mei-Shin,
+Schweikhard, Nathanael E, Koptjevskaja-Tamm, Maria, Gast, Volker, Bodt,
+Timotheus A, Hantgan, Abbie, Kaiping, Gereon A, et al. (2020). The
+<span>D</span>atabase of <span>C</span>ross-<span>L</span>inguistic
+<span>C</span>olexifications, reproducible analysis of cross-linguistic
+polysemies. <em>Scientific Data</em>, <em>7</em>(1), 1–12. Retrieved
+from <a
+href="https://norare.clld.org/contributions/Rzymski-2020-1624">https://norare.clld.org/contributions/Rzymski-2020-1624</a>
+</div>
+<div id="ref-say2020" class="csl-entry">
+Say, Sergey. (2020). <em>BivalTyp: <span>T</span>ypological database of
+bivalent verbs and their encoding frames</em>. Retrieved from <a
+href="https://bivaltyp.info/">https://bivaltyp.info/</a>
+</div>
+<div id="ref-suvorova2024" class="csl-entry">
+Suvorova, Mariia. (2024). <em>Principy koleksifikacii v glagolax
+[principles of colexification in verbs]</em>. Moscow: HSE University.
+</div>
+<div id="ref-vendler1957" class="csl-entry">
+Vendler, Zeno. (1957). Verbs and times. <em>Philosophical Review</em>,
+<em>66]</em>, 143–160.
+</div>
+<div id="ref-xalilov1999" class="csl-entry">
+Xalilov, Madžid Š. (1999). <em>Cezsko-russkij slovarʹ
+[<span>T</span>sez-<span>R</span>ussian dictionary]</em>. Makhachkala:
+DNC RAN Institut jazyka, literatury i iskusstva im. G. Cadasy i Institut
+èvoljucionnoj antropologii im. M. Planka.
+</div>
+<div id="ref-xalilovisakov2005" class="csl-entry">
+Xalilov, Madžid Š., Isakov, Isak A. (2005). <em>Ginuxsko-russkij slovarʹ
+[<span>H</span>inuq-<span>R</span>ussian dictionary]</em>. Makhachkala:
+DNC RAN Institut jazyka, literatury i iskusstva im. G. Cadasy i Institut
+èvoljucionnoj antropologii im. M. Planka.
+</div>
+</div>
+</div>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+</head>
+
+<body>
+    <div class="footer-basic">
+        <footer>
+            
+            <div class='lic'><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br /><i>Typological Atlas of the languages of Daghestan </i> (<i>TALD</i>) is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0 International License</a>.
+            <div class="social"><a href="https://github.com/LingConLab/TALD" target="_blank"><span class="iconify" data-icon="octicon:logo-github-16"></span></a></div>
+            </div>
+            
+            <p class="copyright">2020<script>new Date().getFullYear()>2020&&document.write("-"+new Date().getFullYear());</script>,  Linguistic Convergence Laboratory, HSE University</p>
+        </footer>
+    </div>
+    <script type="text/javascript" src="./js/links.js"></script> <!--это чтобы ссылки открывались в новом окне -->
+</body>
+
+</html>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

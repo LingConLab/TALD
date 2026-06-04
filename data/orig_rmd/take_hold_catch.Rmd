@@ -1,0 +1,173 @@
+```{r, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, comment = '')
+library(lingglosses)
+```
+
+## Introduction
+
+Colexification is a phenomenon in a language when different meanings are expressed with the same word [@francois2008]. This chapter explores the colexifications of the concepts ‘hold’ and ‘take’, as well as ‘hold’ and ‘catch’ in the languages of Daghestan. These concepts are often colexified in the languages of the world. According to data from CLICS [@rzymskietal2020], there are 51 languages that colexify the concepts ‘hold’ and ‘take', and 116 languages that colexify the concepts ‘hold’ and ‘catch’. For instance, in Portuguese ‘hold’ and ‘catch' are expressed by the same verb *agarrar*. Colexification of ‘hold’ and ‘take' is found, e.g., in Japanese, where these concepts are expressed by the verb *toru*. 
+
+As noted in previous studies, for example, [@suvorova2024], this case of colexification is caused by semantic extension. 'Take' and 'catch' describe the process of getting something in your hands, the result of which corresponds to the concept 'hold'. In CLICS [@rzymskietal2020], the concept 'take' is defined as 'to grasp with the hands'. This verb describes the entire instantaneous process, it is a telic verb and can be labeled “Achievement” according to Vendler's classification [@vendler1957]. The definition of 'catch' in CLICS is 'to take hold of, especially in the hands, so as to seize or restrain or stop the motion of'. This verb is also telic, but it is not instantaneous, i.e., it is rather an “Accomplishment”. This difference between 'take' and 'catch' can be illustrated by the following example: *Take the ball!* assumes the instancy of action, while *Catch the ball!* presupposes some duration. ‘Hold' is defined as 'to grasp or grip (particularly with the hand) so that the object does not end up at the surface below'. This verb is atelic, it assumes duration of an action and can be labeled a “State”. It is the result of a "taking" or "catching" situation. 
+
+Data for the present chapter were collected mostly from bilingual dictionaries, the majority of which pair a source language with Russian. Forms of the following Russian verbs were looked for in the dictionaries: *deržat’* for ‘hold’, *brat’/vzjat’* for ‘take’, and *lovit’* or *pojmat’* for ‘catch’. Additionally, data from the CLICS and BivalTyp [@say2020] databases were also considered. Languages in the sample could have more than one verb for certain concepts, and some of these verbs might not be colexified.
+
+All the collected verbs are transitive, so in case of accusative-nominative alignment the subject is in the (unmarked) nominative case, while the object is marked by the accusative case. In case of ergative-absolutive alignment (most of the Nakh-Daghestanian languages), the subject is in the ergative case, while the object is in the (unmarked) absolutive case.
+
+
+## Results
+
+### Colexification of 'hold' and 'catch'
+As my research demonstrates, the concepts 'hold' and 'catch' are almost always expressed by the same form in the languages of Daghestan. For example, in Standard Lezgian the verb *q'u-n* means both 'hold' and 'catch'. 
+
+(@one) Standard Lezgian [@haspelmath1993: 377, 370]
+a.
+```{r}
+gloss_example(transliteration = "ruš-ar-i  gada ǧil-er q'u-na sa klass-diz  tuxwa-na",
+              glosses = "girl-PL-ERG boy  hand-PL hold-AOR.CV one class-DAT bring-AOR ",
+              free_translation = "The girls led the boy into a classroom, holding his hands.")
+```
+ b. 
+```{r}
+gloss_example(transliteration = "ada-z wiči-n juldaš gürčeqhan-r-i q'u-nwa-z  aku-na",
+              glosses = "he-DAT self-GEN comrade hunter-PL-ERG catch-PRF-IMPF.CV see-AOR",
+              free_translation = "He saw how the hunters had caught his comrade.")
+```
+
+Only three idioms in the sample do not use the same verb for these meanings. The first one is Kubachi, where 'hold' and 'catch' are expressed by different, but cognate words. These are *b-us-i* for 'catch' and *kwi-b-us-i* for 'hold'. The preverb *kwi-* means 'in hands'.  
+
+(@two) Kubachi [@magomedovsaidovakutta2017: 62, 154]
+a.
+```{r}
+gloss_example(transliteration = "bic' b-us-i",
+              glosses = "wolf.ABS III-catch-INF",
+              free_translation = "To catch a wolf")
+```
+b.
+```{r}
+gloss_example(transliteration = "njuq'-ba-ccila gal kwi-us-i",
+              glosses = "hand-OBL.PL-INSTR child.ABS in_hands-I.hold-INF",
+              free_translation = "To hold a child in the hands")
+```
+
+The other two languages that do not colexify ‘hold’ and ‘catch’ are the Kidero dialect of Tsez and Standard Chechen. In both languages, the words for 'hold' and 'catch' are not etymologically related, cf. Kidero Tsez *b-is-a* and *b-iq-a*.
+
+(@three) Kidero Tsez [@xalilov1999: 59, 61]
+a.
+```{r}
+gloss_example(transliteration = "reƛ’a r-is-a",
+              glosses = "hand.ABS IV-hold-INF",
+              free_translation = "To hold a hand")
+```
+b.
+```{r}
+gloss_example(transliteration = "ahi b-iq-a",
+              glosses = "bird.ABS III-catch-INF",
+              free_translation = "To catch a bird")
+```
+
+### Colexification of 'hold' and 'take'
+
+The colexification of ‘hold’ and ‘take’ is quite rare in the languages of the sample: only four idioms out of 43 have it. In two languages (Hunzib and the Kvantlada variety of Khwarshi), one verb is used for all three meanings ‘hold’, ‘take’, and ‘catch’. This is what we see in Kvantlada, where *j-oqχqχ-a* means 'find, discover, catch, hold, seize, take, etc.'. 
+
+(@four) Kvantlada Khwarshi [@dzhidalaevetal2022: 56, 279]
+a.
+```{r}
+gloss_example(transliteration = "aanbik' j-oqχqχ-a",
+              glosses = "spoon.ABS V-hold-INF",
+              free_translation = "to hold a spoon")
+```
+b.
+```{r}
+gloss_example(transliteration = "žurnal j-oqχqχ-a",
+              glosses = "magazine.ABS V-take-INF",
+              free_translation = "to take a magazine")
+```
+c.
+```{r}
+gloss_example(transliteration = "c'ohor oqχqχ-a",
+              glosses = "thief.ABS I.catch-INF",
+              free_translation = "to catch a thief")
+```
+
+Hinuq has a verb meaning 'hold, take' (*buχ-a*) and a verb meaning 'hold, catch' (*b-ašir-a*). 
+
+(@five) Hinuq [@xalilovisakov2005: 166, 91]
+a.
+```{r}
+gloss_example(transliteration = "kwezej r-uχ-a",
+              glosses = "hand.ABS V-hold-INF",
+              free_translation = "To hold a hand")
+```
+b.
+```{r}
+gloss_example(transliteration = "t'oq r-uχ-a",
+              glosses = "knife.ABS V-take-INF",
+              free_translation = "To take a knife")
+```
+c.
+```{r}
+gloss_example(transliteration = "roč r-ašir-a",
+              glosses = "rope.ABS V-hold-INF",
+              free_translation = "To hold a rope")
+```
+d.
+```{r}
+gloss_example(transliteration = "k'oħlo b-ašir-a",
+              glosses = "ball.ABS III-catch-INF",
+              free_translation = "To catch a ball")
+```
+
+The Kidero dialect of Tsez colexifies the concepts 'hold' and 'take' but does not colexify 'hold' and 'catch': *b-is-a* means 'take, get, hold, buy', while *b-iq-a* means 'catch', see also (3a--3b) above.
+
+(@six) Kidero Tsez [@xalilov1999: 59]
+a.
+```{r}
+gloss_example(transliteration = "t'aˁq r-is-a",
+              glosses = "knife.ABS IV-take-INF",
+              free_translation = "To take a knife")
+```
+
+In Juhuri (Judeo-Tat), the concepts 'hold'/'catch' and 'take' are expressed by cognate words. *Və-gyr-də* (-'take')- is derived from *gyr-də* (-'hold'/'catch')- with the prefix *və-*, which means 'on'.
+
+(@seven) Judeo-Tat [@naftaliev2016: 514]
+a.
+```{r}
+gloss_example(transliteration = "ⱨəjil-ə gyr-də",
+              glosses = "baby-ACC hold-INF",
+              free_translation = "To hold a baby")
+```
+b.
+```{r}
+gloss_example(transliteration = "kitob-ə əz ki vəgyr-dəj?",
+              glosses = "book-ACC ABL who take-PERF.3",
+              free_translation = "Who did you take the book from?")
+```
+
+Standard Avar and Kumyk also have verbs combining the Russian translations *deržat’* and *brat’*, but these verbs do not have neutral meaning 'take' and are more close to the concept 'seize', cf. Standard Kumyk *tut-mɑq*.
+
+
+(@eight) Standard Kumyk [@bammatov2013: 309]
+a.
+```{r}
+gloss_example(transliteration = "ol meni qol-um-dɑn tut-du",
+              glosses = "s/he 1SG.ACC hand-1SG.POSS-ABL take-PERF.3SG",
+              free_translation = "He took my hand.")
+```
+
+## Distribution
+
+As my data show, the colexification of 'hold' and 'catch' is present in almost every language of Daghestan and sometimes this verb may also mean 'take'. 
+
+The colexification of 'hold' and 'catch' is not strictly determined genealogically. On the one hand, it is found in all Nakh-Daghestanian languages except Standard Chechen, Kubachi and Kidero Tsez. On the other hand, it is also present in other language families of the sample: Turkic (Standard Nogai, Standard Kumyk, Standard Azerbaijani), Kartvelian (Standard Georgian) and Indo-European (Juhuri and Eastern Armenian). 
+
+The colexification of 'hold' and 'take' only appears in Nakh-Daghestanian languages of the Tsezic branch: Kidero Tsez, Inkhokwari, Hunzib, Hinuq. The only Tsezic language in the sample where this colexification is not found is Bezhta.
+
+Standard Chechen is the only language where all three concepts are expressed with unrelated verbs. Hinuq, Hunzib and Inkhokwari have both of these colexifications.
+
+## List of glosses {-}
+
+```{r}
+make_gloss_list(readxl::read_xlsx("../glosses.xlsx"))
+```
+
+## References {-}
