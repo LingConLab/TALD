@@ -221,7 +221,6 @@ spelling of          BivalTyp        in take_hold_catch.Rmd:12
 spelling of          CLICS        in take_hold_catch.Rmd:8,10,12
 spelling of          colexify        in take_hold_catch.Rmd:8,52,120
 spelling of          gyr        in take_hold_catch.Rmd:130,130
-spelling of          Inkhokwari        in take_hold_catch.Rmd:163,165
 spelling of          iq        in take_hold_catch.Rmd:52,120
 spelling of          Juhuri        in take_hold_catch.Rmd:130,161
 spelling of          kwi        in take_hold_catch.Rmd:36,36
@@ -253,3 +252,4 @@ spelling of          kor        in work.Rmd:41
 spelling of          oba        in work.Rmd:61
 spelling of          wa        in work.Rmd:51
 spelling of          xe        in work.Rmd:61
+The BibTeX entry          rzymskietal2020          present in the .Rmd, but absent in the take_hold_catch.bib

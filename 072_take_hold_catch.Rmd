@@ -1,5 +1,5 @@
 ---
-title: Colexification of take/hold/catch
+title: Colexification of ‘take’, ‘hold’, ‘catch’
 author: Tatiana Khisamutdinova
 date: 'Last update: May 2026'
 bibliography: ./data/orig_bib/take_hold_catch.bib
@@ -24,7 +24,7 @@ library(RefManageR)
 BibOptions(check.entries = FALSE, style = 'text', first.inits = FALSE, bib.style = 'authoryear')
 article_citation <- BibEntry(bibtype = 'Incollection', 
  key='khisamutdinova2026',
- title='Colexification of take/hold/catch',
+ title='Colexification of ‘take’, ‘hold’, ‘catch’',
  author='Tatiana Khisamutdinova',
  year='2026',
  editor= 'George Moroz and Michael Daniel and Konstantin Filatov and Timur Maisak and Timofey Mukhin and Irina Politova and Elena Shvedova and Samira Verhees and Chiara Naccarato',
