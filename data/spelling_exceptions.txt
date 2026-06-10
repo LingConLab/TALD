@@ -61,6 +61,7 @@ Bancel
 Belyaev
 Bezhta
 bimorphemic
+BivalTyp
 Bogomolova
 Botlikh
 Budukh
@@ -80,10 +81,12 @@ Chumakina
 circumfix
 circumfixal
 circumposition
+CLICS
 cline
 clitic
 cognacy
 colexified
+colexify
 comitative
 completive
 compositional
@@ -216,6 +219,7 @@ Iwaidjan
 Izmalkova
 Johanson
 Judeo
+Juhuri
 Jurij
 JUSS
 jussive

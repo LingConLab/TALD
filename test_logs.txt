@@ -213,12 +213,8 @@ spelling of          une        in standard_of_comparison.Rmd:46,141
 spelling of          upro        in standard_of_comparison.Rmd:227
 spelling of          wor        in standard_of_comparison.Rmd:200,216
 spelling of          agarrar        in take_hold_catch.Rmd:8
-spelling of          BivalTyp        in take_hold_catch.Rmd:12
-spelling of          CLICS        in take_hold_catch.Rmd:8,10,12
-spelling of          colexify        in take_hold_catch.Rmd:8,52,120
 spelling of          gyr        in take_hold_catch.Rmd:130,130
 spelling of          iq        in take_hold_catch.Rmd:52,120
-spelling of          Juhuri        in take_hold_catch.Rmd:130,161
 spelling of          kwi        in take_hold_catch.Rmd:36,36
 spelling of          mɑq        in take_hold_catch.Rmd:146
 spelling of          aja        in trans_intrans_imperative.Rmd:111,113
