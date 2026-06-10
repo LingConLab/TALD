@@ -86,7 +86,7 @@ feature_dataset |>
   all_data
 ```
 
-## Colexification of hold/take {.tabset .tabset-fade .tabset-pills #m1} 
+## Colexification of 'hold' and 'take' {.tabset .tabset-fade .tabset-pills #m1} 
     
 ### General datapoints {-}
 
@@ -258,7 +258,7 @@ general_datapoints_map |>
 ```
 
     
-## Colexification of hold/catch {.tabset .tabset-fade .tabset-pills #m2} 
+## Colexification of 'hold' and 'catch' {.tabset .tabset-fade .tabset-pills #m2} 
     
 ### General datapoints {-}
 

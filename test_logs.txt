@@ -1,9 +1,5 @@
-The BibTeX entry suvorova2024 from take_hold_catch_bib.tsv has the wrong CATEGORY value: pdfthesis
-The obligatory column          chapter          is absent in the file          take_hold_catch.tsv
-Duplicated column name      'example_comment'      in the      take_hold_catch.tsv
-The wrong village dialect name Gigatli in the file take_hold_catch.tsv
-The wrong village dialect name Tanti in the file take_hold_catch.tsv
-The wrong toplevel dialect name ikhrek in the file take_hold_catch.tsv
+The BibTeX entry suvorova2024 from take_hold_catch_bib.tsv has the wrong CATEGORY value: thesis
+The wrong village dialect name Tad-Magitl’ in the file take_hold_catch.tsv
 spelling of          aj        in adjectives_number.Rmd:133
 spelling of          ar        in adjectives_number.Rmd:133,133
 spelling of          ce        in adjectives_number.Rmd:435
@@ -252,4 +248,3 @@ spelling of          kor        in work.Rmd:41
 spelling of          oba        in work.Rmd:61
 spelling of          wa        in work.Rmd:51
 spelling of          xe        in work.Rmd:61
-The BibTeX entry          rzymskietal2020          present in the .Rmd, but absent in the take_hold_catch.bib
