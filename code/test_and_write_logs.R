@@ -11,4 +11,3 @@ str_subset(test_logs, "(everything is ok)|(0          wrong hashes)|[ːʔʢʡʕ�
 
 read_lines("test_logs.txt") %>% cat(sep = "\n")
 system("git add -u")
-s
