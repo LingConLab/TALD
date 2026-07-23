@@ -127,7 +127,7 @@ gloss_example(transliteration = "t'aˁq r-is-a",
               free_translation = "To take a knife")
 ```
 
-In Juhuri (Judeo-Tat), the concepts 'hold'/'catch' and 'take' are expressed by cognate words. *Və-gyr-də* (-'take')- is derived from *gyr-də* (-'hold'/'catch')- with the prefix *və-*, which means 'on'.
+In Juhuri (Judeo-Tat), the concepts 'hold'/'catch' and 'take' are expressed by cognate words. *Və-gyr-də* (-'take'-) is derived from *gyr-də* (-'hold'/'catch'-) with the prefix *və-*, which means 'on'.
 
 (@seven) Judeo-Tat [@naftaliev2016: 514]
 a.

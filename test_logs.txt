@@ -1,5 +1,6 @@
 The BibTeX entry suvorova2024 from take_hold_catch_bib.tsv has the wrong CATEGORY value: thesis
 The wrong village dialect name Tad-Magitl’ in the file take_hold_catch.tsv
+The wrong village dialect name Gigatl’ in the file take_hold_catch.tsv
 spelling of          aj        in adjectives_number.Rmd:133
 spelling of          ar        in adjectives_number.Rmd:133,133
 spelling of          ce        in adjectives_number.Rmd:435
