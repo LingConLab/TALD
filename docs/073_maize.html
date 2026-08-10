@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="Samira Verhees" />
+
+
+<title>Expression of the sense ‘maize’</title>
+
+<script src="site_libs/header-attrs-2.31/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="site_libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="site_libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<link href="site_libs/font-awesome-6.5.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet" />
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+<style type="text/css">
+/* for pandoc --citeproc since 2.11 */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">TALD</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="./about.html">About</a>
+</li>
+<li>
+  <a href="./chapters.html">
+    <span class="fa fa-atlas"></span>
+     
+    Chapters
+  </a>
+</li>
+<li>
+  <a href="./languages.html">Languages</a>
+</li>
+<li>
+  <a href="./changes.html">Changes</a>
+</li>
+<li>
+  <a href="./references.html">References</a>
+</li>
+<li>
+  <a href="./team.html">Team</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Expression of the sense ‘maize’</h1>
+<h4 class="author">Samira Verhees</h4>
+<h4 class="date">Last update: August 2026</h4>
+
+</div>
+
+
+<p>See <a href="073_maize_map.html">data and maps</a>.</p>
+<div id="section"
+class="section level1 tabset tabset-fade tabset-pills unnumbered">
+<h1 class="tabset tabset-fade tabset-pills unnumbered"></h1>
+<div id="plain-text" class="section level2 unnumbered hasAnchor">
+<h2 class="unnumbered hasAnchor">Plain text<a href="#plain-text"
+class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Verhees, Samira (2026). “Expression of the sense ‘maize’”. In:
+<em>Typological Atlas of the Languages of Daghestan (TALD), v
+2.0.1</em>. Ed. by George Moroz, Michael Daniel, Konstantin Filatov,
+Timur Maisak, Timofey Mukhin, Irina Politova, Elena Shvedova, Samira
+Verhees and Chiara Naccarato. Moscow: Linguistic Convergence Laboratory,
+HSE University. DOI: 10.5281/zenodo.6807070. <a
+href="https://lingconlab.ru/tald"
+class="uri">https://lingconlab.ru/tald</a>.</p>
+</div>
+<div id="bibtex" class="section level2 unnumbered hasAnchor">
+<h2 class="unnumbered hasAnchor">BibTeX<a href="#bibtex"
+class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<pre><code>@incollection{verhees2026,
+  title = {Expression of the sense ‘maize’},
+  author = {Samira Verhees},
+  year = {2026},
+  editor = {George Moroz and Michael Daniel and Konstantin Filatov and Timur Maisak and Timofey Mukhin and Irina Politova and Elena Shvedova and Samira Verhees and Chiara Naccarato},
+  publisher = {Linguistic Convergence Laboratory, HSE University},
+  address = {Moscow},
+  booktitle = {Typological Atlas of the Languages of Daghestan (TALD), v 2.0.1},
+  url = {https://lingconlab.ru/tald},
+  doi = {10.5281/zenodo.6807070},
+}</code></pre>
+</div>
+</div>
+<div id="introduction" class="section level1 hasAnchor" number="1">
+<h1 class="hasAnchor"><span class="header-section-number">1</span>
+Introduction<a href="#introduction" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<!-- - Briefly explains what the feature is -->
+<!-- - Gives a general characterization of how it is expressed in East Caucasian  -->
+<!-- - Gives a general characterization of how it is expressed cross-linguistically -->
+<!-- - If applicable: describes how the classification in [TALD](http://lingconlab.ru/dagatlas) differs from [WALS](http://wals.info) (e.g. our chapter on the [Standard of Comparison](http://lingconlab.ru/dagatlas/standard_of_comparison.html) shows more sub-types of spatial comparatives) -->
+<!-- - Describes the goal of the text / map in one sentence: "Our goal is to classify the languages of Daghestan according to the type of spatial form used to mark the standard of comparison." -->
+<p>Maize (<em>Zea mays</em>) is a crop from Mesoamerica that made its
+way across the world through the Columbian exchange <span
+class="citation">(<a href="#ref-bonavia2013">Duccio 2013</a>:
+14–15)</span>, starting from the 15th century. It is unclear when it
+arrived in different parts of the Caucasus exactly.<a href="#fn1"
+class="footnote-ref" id="fnref1"><sup>1</sup></a> Taking into account
+the variety of different names for the crop attested in the region, it
+seems likely that multiple introduction events and routes were at play.
+In any case, names for the crop were recorded in a number of languages
+in the second half of the 18th century by <span class="citation">(<a
+href="#ref-guldenstadt1791">Güldenstädt 1791</a>: 500-540)</span>,
+indicating that it was well-established by then. Currently it is widely
+cultivated across the Caucasus, and it has become a staple of
+traditional local cuisine (e.g. Georgian cornbread <em>mčadi</em> or
+Kumyk stuffed dumplings <em>χalpama</em>).</p>
+<p>Outside of Mesoamerica, maize, if not simply called some variation of
+<em>maize</em>, is often referred to with existing terms denoting crops
+that are perceived as similar, such as ‘wheat’, ‘grain’, ‘millet’ or
+‘sorghum’. Either an older term is repurposed (e.g. Portuguese
+<em>milho</em> &lt; ‘millet’), or a descriptive adjective is added for
+differentiation, after which a part of the compound may be dropped
+(e.g. <em>Indian corn</em> &gt; <em>corn</em> in English, or <em>mısır
+buğdayı</em> ‘Egyptian wheat’ &gt; <em>mısır</em> in Turkish). These
+examples also show another common feature of compounds: they tend to
+contain a reference to the geographical origin of the crop from the
+perspective of the speech community. Note that this does not necessarily
+reflect the actual origin of the crop.</p>
+</div>
+<div id="results" class="section level1 hasAnchor" number="2">
+<h1 class="hasAnchor"><span class="header-section-number">2</span>
+Results<a href="#results" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<!-- - Summarizes the different types/values you discovered; types identified in the text should correspond to values shown on the map. If you want to fuse multiple types into one category, be sure to explain this decision in the text. Here you can add as many chapter-specific subsections as you like. -->
+<!-- - Provide examples -->
+<!-- - Identify which types are more or less common -->
+<div id="hajj-wheat" class="section level2 hasAnchor" number="2.1">
+<h2 class="hasAnchor"><span class="header-section-number">2.1</span>
+Hajj-wheat<a href="#hajj-wheat" class="anchor-section"
+aria-label="Anchor link to header"></a></h2>
+<p>The most common type of name for maize in the eastern Caucasus is a
+compound that translates as ‘hajj-wheat’, where <em>hajj</em> refers to
+Islamic pilgrimage (either the pilgrimage itself or the pilgrim). To the
+best of my knowledge, this compound is unique to the area, although a
+possible parallel is found in some regions of India, where maize is
+referred to as ‘(wheat from) Mecca’ <span class="citation">(<a
+href="#ref-bonavia"><strong>bonavia?</strong></a>)</span>. This is also
+attested in Uzbek and Tajik. Several subtypes of ‘hajj-wheat’ can be
+distinguished in the eastern Caucasus:</p>
+<ul>
+<li>Compound formed with native words</li>
+<li>Matter borrowing from Azerbaijani <em>haǯibuɣda</em></li>
+<li>Matter borrowing from Chechen <em>ħæžkʼa</em></li>
+</ul>
+<p>The word <em>haǯibuɣda</em> is typical of Dagestanian dialects of
+Azerbaijani and the Quba dialect of Northern Azerbaijan. The Standard
+Azerbaijani word for maize is <em>qarğıdalı</em>, a compound meaning
+‘back of the reed’. Versions of the latter word are found in several
+southern Daghestanian languages that have been heavily influenced by
+Azerbaijani as a literary language (Rutul, Tsakhur, Udi, Khinalug, as
+well as Avar varieties spoken in present-day Azerbaijan). Versions of
+<em>haǯibuɣda</em> are found in Agul, Tabasaran, and Muiri Dargwa.
+Lezgian idioms in most cases also have a version of <em>haǯibuɣda</em>,
+but varieties of <em>qarğıdalı</em> were also attested.</p>
+<p>Chechen <em>ħæžkʼa</em> is found not only in nearby Andic languages
+like Andi and Godoberi, but also in Lak, Lezgian, and the Rissib dialect
+of Avar.</p>
+<p>Kumyk has <em>habižaj</em>, which I interpret as a compound formed
+with native words that has undergone metathesis and reduction
+(<em>habižaj</em> &lt; <em>haž(i)-budaj</em>).</p>
+</div>
+<div id="other-wheat-compounds" class="section level2 hasAnchor"
+number="2.2">
+<h2 class="hasAnchor"><span class="header-section-number">2.2</span>
+Other wheat compounds<a href="#other-wheat-compounds"
+class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Other wheat-compounds are <em>pejɣæmbærbuɣda</em> ‘prophet-wheat’,
+found in Budukh, Kryz, Tat, and several Azerbaijani dialects including
+Quba and Şirvan, and possibly the Kapan dialect of Armenian;<a
+href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>
+‘king-wheat’ found in Lak and Kyuri Lezgian; <em>šːamaq’eru</em>
+‘šam-wheat’, in which <em>šam</em> likely refers to <em>Shām</em> - the
+Classical Arabic name of Greater Syria – this term is found in the Andic
+languages Karata and Bagvalal, and has a parallel in some Arabic
+varieties, where maize is called <em>dhurra shāmiyya</em> ‘sorghum of
+Sham’.<a href="#fn3" class="footnote-ref"
+id="fnref3"><sup>3</sup></a></p>
+<p>Interestingly, in the 19th century Von Erckert recorded the term
+<em>šemaxi-daχin</em> ‘Şamaxı (place in Azerbaijan)-wheat’ for
+Tabasaran, which seems to have been lost. The Avar word for maize is
+also a wheat-compound: <em>c’ːorosa-roɬː</em>, or `wheat from
+Transcaucasia’,[^ Thanks to Magomed Abdulkadirovič Magomedov for
+explaining the etymology of this word.] though von Erckert translated it
+as ‘wheat from the plains’ <span class="citation">(<a
+href="#ref-erckert1895">Erckert 1895</a>: 98)</span>.</p>
+<p>Notably absent in the eastern Caucasus is ‘Egyptian wheat’, which is
+used in Turkish and Standard Armenian.</p>
+</div>
+<div id="other-terms" class="section level2 hasAnchor" number="2.3">
+<h2 class="hasAnchor"><span class="header-section-number">2.3</span>
+Other terms<a href="#other-terms" class="anchor-section"
+aria-label="Anchor link to header"></a></h2>
+<p>Nogai has borrowed ‘Nart-millet’ from the western Caucasus, where
+this term is shared among West Caucasian languages, Ossetic, and local
+Turkic languages.</p>
+<p>Georgian <em>simindi</em>, which originally meant ‘wheat flour’, was
+borrowed into all Tsezic languages except Khwarshi (see below). It is
+also attested among Armenian speakers from Karabagly in Dagestan, as
+<em>simindir</em>. The Karabagly dialect shares this word with many
+Armenian dialects, including the dialect of Karabagh, where the
+Karabagly dialect in part originates from. For Georgian, Thomas Wier
+traces the word’s origins back to Aramaic, whereas for Armenian, <span
+class="citation">(<a href="#ref-acharyan1979">Acharyan 1979</a>:
+214)</span> identified Ancient Greek as borrowing source. In both source
+languages, the word referred to a type of wheat flour (a meaning which
+persists in some Armenian dialects), so that the semantic shift to
+naming a new crop like maize is a shared feature of Georgian and
+Armenian.<a href="#fn4" class="footnote-ref"
+id="fnref4"><sup>4</sup></a></p>
+<p>In Khwarshi (Tsezic) and Tindi (Andic), maize is called
+<em>čakar</em> (from the Persian word for ‘sugar’).</p>
+<p>Russian <em>kukuruza</em> is also found here and there, as well as a
+number of terms of unclear etymology and origin, such as Botlikh
+<em>c’ebe-q’eru</em> (?-wheat).</p>
+</div>
+</div>
+<div id="distribution" class="section level1 hasAnchor" number="3">
+<h1 class="hasAnchor"><span class="header-section-number">3</span>
+Distribution<a href="#distribution" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<!-- - Describe the distribution with links to the appropriate maps on the data and maps page. The number of the map corresponds to the number of the value, see [Map 1](). The URL will be added later (between the brackets). Does the distribution of different types show a genealogical and / or areal signal? -->
+<p>The distribution of ‘hajj-wheat’ shows some interesting areal
+patterns that depart from general lexical convergence patterns in the
+region:</p>
+<ul>
+<li><p>First, the compound ‘hajj-wheat’ appears to be unique to the
+eastern Caucasus, and within the area it is widely shared among
+different branches of East Caucasian (Nakh, Andic, Dargwa, Lezgic) as
+well as local Turkic varieties. This is remarkable in itself. Terms that
+are shared along a diagonal from the Nakh languages in the north west
+all the way to the south are often borrowings from influential external
+languages like Arabic or Russian, and in that case are near-universal in
+the region (think of terms like <em>zaman</em> ‘time’ from Arabic or
+<em>televizor</em> television from Russian). Instead, ‘hajj-wheat’ seems
+to be a local innovation that spread through multiple local borrowing
+events. Despite the term being so wide-spread, it continues to co-exist
+with a variety of other terms.</p></li>
+<li><p>As such, maize counters the expectations for lexical convergence
+patterns: as shown in <span class="citation">(<a
+href="#ref-danieletal2021">Daniel, Dobrushina 2021</a>)</span>, the
+distribution of borrowings among languages of this area (corrected for
+near-universal loans from Russian and Arabic) reveals two major clusters
+where languages share a lot of the same borrowed vocabulary. These
+clusters coincide with the spread of two major regional lingua francas:
+Avar and Azerbaijani. Maize only partially aligns with this general
+tendency: the region where Azerbaijani was the dominant lingua franca is
+divided into two parts: one where ‘<em>haǯibuɣda</em> was borrowed from
+local Azerbaijani dialects (except in Tabasaran, which features a native
+’hajj’-wheat compound), and one where a different term was borrowed from
+Standard Azerbaijani. Standard Avar has its own compound, which does not
+appear to have direct copies in any of the languages it historically
+influenced. At the same time, some Avar dialects spoken near Lak and
+Dargwa lects feature a version of ‘hajj’-wheat.</p></li>
+<li><p>Additionally, copies of Chechen <em>ħæžkʼa</em> are found not
+only in dialects of Andi (which neighbors the Chechen republic and has
+incidental Chechen loans), but also in Lak and Lezgic and Avar dialects
+spoken in the Lak area. Chechen folk etymology links the introduction of
+maize to pilgrimage. Supposedly, Chechen Muslims brought back maize to
+the North Caucasus from their Islamic pilgrimage to Mecca. In this
+reading, ‘hajj’ refers both to the geographical origin of maize from the
+perspective of the North Caucasus as well as the route through which it
+was introduced. <span class="citation">(<a
+href="#ref-vagapov2022">Vagapov 2022</a>: 29)</span> proposes an
+alternative reading of the ‘hajj’-component in Chechen: ‘hajj’ might be
+used here in the sense of ‘great person’, similar to ‘king-wheat’ and
+‘Nart-millet’. He provides a parallel in Chechen <em>ħæža-apaq</em>,
+which refers to a large breed of pumpkin that has no possible link to
+pilgrimage according to Vagapov.<a href="#fn5" class="footnote-ref"
+id="fnref5"><sup>5</sup></a> Possibly then, `hajj’-wheat is a culturally
+appropriate version of the same general concept as ‘Nart’-wheat from the
+western and central North Caucasus.</p></li>
+</ul>
+<p>It remains unclear where the concept of ‘hajj’-wheat was first
+introduced and how it was subsequently disseminated, though it seems
+plausible that it originated from the northwest and then made its way
+towards the central and southern areas, as evidenced by the presence of
+a reduced form in Kumyk, absence in most Azerbaijani varieties, the
+presence of competing forms from Azerbaijani like ‘prophet’-wheat and
+<em>qarğıdalı</em> spreading in the opposite direction, and evident
+matter borrowing from Chechen in central to southern Dagestan. This also
+means that ‘hajj’ is likely not a direct reference to the supposed place
+or route through which it came to the eastern Caucasus.</p>
+</div>
+<div id="references" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">References<a href="#references"
+class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<!-- References are generated automatically if you provide a table with the references, as described [here](chapters.html#literature_references). Leave the section empty. -->
+<div id="refs" class="references csl-bib-body hanging-indent"
+line-spacing="2">
+<div id="ref-acharyan1979" class="csl-entry">
+Acharyan, Hrachya. (1979). <em>Hayeren armatakan bararan
+[<span>E</span>tymological dictionary of <span>A</span>rmenian.
+<span>V</span>olume 4]</em>. Yerevan: Yerevan University Press.
+</div>
+<div id="ref-danieletal2021" class="csl-entry">
+Daniel, Ilia Chechuro, Michael, Dobrushina, Nina. (2021). Lingua francas
+as lexical donors: Evidence from <span>D</span>aghestan.
+<em>Language</em>, <em>97</em>(3), 520–560.
+</div>
+<div id="ref-bonavia2013" class="csl-entry">
+Duccio, Bonavia. (2013). <em>Maize. <span>O</span>rigin, domestication
+and its role in the development of culture</em>. Cambridge: Cambridge
+University Press.
+</div>
+<div id="ref-erckert1895" class="csl-entry">
+Erckert, Roderich von. (1895). <em>Die <span>S</span>prachen des
+kaukasischen <span>S</span>tammes. <span>I</span> <span>T</span>heil:
+<span>W</span>örterverzeichnis</em>. Wien: Alfred Hölder.
+</div>
+<div id="ref-guldenstadt1791" class="csl-entry">
+Güldenstädt, Johann Anton. (1791). <em>D. <span>J</span>ohann
+<span>A</span>nton <span>G</span>üldenstädt,
+<span>R</span>ußisch-<span>K</span>ayserl. <span>A</span>kademikers und
+<span>P</span>rofeßors der <span>N</span>aturgeschichte auch der
+<span>C</span>hurfürstl. <span>M</span>aynzischen und der
+<span>B</span>erliner <span>N</span>aturforschenden, wie auch der
+<span>S</span>t. <span>P</span>eterburgischen ökonomischen
+<span>G</span>esellschaft <span>M</span>itgliedes, <span>R</span>eisen
+durch <span>R</span>ußland und im <span>C</span>aucasischen
+<span>G</span>ebürge: <span>Z</span>weyter <span>T</span>heil.</em> St.
+Petersburg: Kayserlichen Akademie der Wissenschaften. Retrieved from <a
+href="https://www.digitale-sammlungen.de/de/view/bsb11450090?page = %2C1">https://www.digitale-sammlungen.de/de/view/bsb11450090?page
+= %2C1</a>
+</div>
+<div id="ref-vagapov2022" class="csl-entry">
+Vagapov, A. D. (2022). Ètimologija dlja ètnografii
+[<span>E</span>tymology for ethnography]. <em>Vestnik Instituta
+Razvitija Čečenskogo Jazyka i Istorii</em>, (19), 25–41.
+</div>
+</div>
+</div>
+<div class="footnotes footnotes-end-of-document">
+<hr />
+<ol>
+<li id="fn1"><p><span class="citation">(<a
+href="#ref-bonavia2013">Duccio 2013</a>: 255)</span> cites Haudricourt
+&amp; Hédin’s 1987 <em>L’Homme et les plantes cultivées</em>, that
+“maize arrived in the Caucasus only in the 17th century”, but they
+provide no further information or reference for this claim.<a
+href="#fnref1" class="footnote-back">↩︎</a></p></li>
+<li id="fn2"><p>Thanks to Murad Suleymanov for his thoughts on the
+etymology of these terms in Tat and Azerbaijani.<a href="#fnref2"
+class="footnote-back">↩︎</a></p></li>
+<li id="fn3"><p>Thanks to Konstantin Filatov for pointing out that
+<em>šam</em> likely refers to <em>Shām</em>.<a href="#fnref3"
+class="footnote-back">↩︎</a></p></li>
+<li id="fn4"><p>Thanks to Katherine Hodgson and Thomas Wier for sharing
+their thoughts on the origins of words for maize in Armenian and
+Georgian.<a href="#fnref4" class="footnote-back">↩︎</a></p></li>
+<li id="fn5"><p>Thanks to Timur Maisak for bringing Vagapov’s work to my
+attention.<a href="#fnref5" class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+</head>
+
+<body>
+    <div class="footer-basic">
+        <footer>
+            
+            <div class='lic'><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br /><i>Typological Atlas of the languages of Daghestan </i> (<i>TALD</i>) is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0 International License</a>.
+            <div class="social"><a href="https://github.com/LingConLab/TALD" target="_blank"><span class="iconify" data-icon="octicon:logo-github-16"></span></a></div>
+            </div>
+            
+            <p class="copyright">2020<script>new Date().getFullYear()>2020&&document.write("-"+new Date().getFullYear());</script>,  Linguistic Convergence Laboratory, HSE University</p>
+        </footer>
+    </div>
+    <script type="text/javascript" src="./js/links.js"></script> <!--это чтобы ссылки открывались в новом окне -->
+</body>
+
+</html>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

@@ -1,6 +1,74 @@
+The BibTeX entry          bekoevetal2009          present in the          maize.tsv, but absent in the biblib.xlsx
+The BibTeX entry          khalilov1999          present in the          maize.tsv, but absent in the biblib.xlsx
 The BibTeX entry suvorova2024 from take_hold_catch_bib.tsv has the wrong CATEGORY value: thesis
+The BibTeX entry vagapov2022 from the file maize_bib.tsv has an empty value in the obligatory field VOLUME
+Multiple genlang_point for          Avar          in the file          maize.tsv
+Multiple genlang_point for          Azerbaijani          in the file          maize.tsv
+Multiple genlang_point for          Lak          in the file          maize.tsv
+Multiple genlang_point for          Lezgian          in the file          maize.tsv
+Multiple genlang_point for          Tabasaran          in the file          maize.tsv
+The wrong language name          Abkhaz          in the file          maize.tsv
+The wrong language name          Andi          in the file          maize.tsv
+The wrong language name          Akhvakh          in the file          maize.tsv
+The wrong language name          Kaitag          in the file          maize.tsv
+The wrong language name          Dargwa          in the file          maize.tsv
+The wrong language name          NA          in the file          maize.tsv
+The wrong language name          Armenian          in the file          maize.tsv
+The wrong language name          Mingrelian          in the file          maize.tsv
+The wrong language name          Laz          in the file          maize.tsv
+The wrong language name          Kabardian          in the file          maize.tsv
+The wrong language name          Ossetic          in the file          maize.tsv
+The wrong language name          Abadzekh          in the file          maize.tsv
+The wrong language name          Shapsug          in the file          maize.tsv
+The wrong language name          Svan          in the file          maize.tsv
+The wrong village dialect name Lower Gakvari in the file maize.tsv
+The wrong village dialect name Inkhoqwari in the file maize.tsv
+The wrong village dialect name Anchiq in the file maize.tsv
+The wrong village dialect name Ilisu in the file maize.tsv
+The wrong village dialect name Quba in the file maize.tsv
+The wrong village dialect name Mehweb in the file maize.tsv
+The wrong village dialect name Kapan in the file maize.tsv
+The wrong village dialect name Kryz in the file maize.tsv
+The wrong village dialect name Khinalug in the file maize.tsv
+The wrong village dialect name Budukh in the file maize.tsv
+The wrong village dialect name Syunik in the file maize.tsv
+The wrong village dialect name Karabagly in the file maize.tsv
+The wrong village dialect name Şirvan in the file maize.tsv
+The wrong village dialect name Salyan in the file maize.tsv
+The wrong village dialect name Hinuq in the file maize.tsv
+The wrong village dialect name Meshabash in the file maize.tsv
+The wrong village dialect name Alibeglo in the file maize.tsv
 The wrong village dialect name Tad-Magitl’ in the file take_hold_catch.tsv
 The wrong village dialect name Gigatl’ in the file take_hold_catch.tsv
+The wrong non-toplevel 2 dialect name Kuyada in the file maize.tsv
+The wrong non-toplevel 2 dialect name Lower Karakh in the file maize.tsv
+The wrong non-toplevel 2 dialect name Chokh in the file maize.tsv
+The wrong non-toplevel 2 dialect name Salta in the file maize.tsv
+The wrong non-toplevel 2 dialect name Sugratl' in the file maize.tsv
+The wrong non-toplevel 2 dialect name Mukratl' in the file maize.tsv
+The wrong non-toplevel 2 dialect name Kubachi in the file maize.tsv
+The wrong non-toplevel 2 dialect name Chadakolob in the file maize.tsv
+The wrong non-toplevel 2 dialect name Upper Karakh in the file maize.tsv
+The wrong non-toplevel 1 dialect name Gid in the file maize.tsv
+The wrong non-toplevel 1 dialect name Keleb Mixed in the file maize.tsv
+The wrong non-toplevel 1 dialect name Shulani Mixed in the file maize.tsv
+The wrong non-toplevel 1 dialect name Batsada Mixed in the file maize.tsv
+The wrong non-toplevel 1 dialect name Urakhi in the file maize.tsv
+The wrong non-toplevel 1 dialect name Kadar in the file maize.tsv
+The wrong non-toplevel 1 dialect name Akusha in the file maize.tsv
+The wrong non-toplevel 1 dialect name Upper Vurkun in the file maize.tsv
+The wrong non-toplevel 1 dialect name Kakhib Mixed in the file maize.tsv
+The wrong non-toplevel 1 dialect name Muiri in the file maize.tsv
+The wrong non-toplevel 1 dialect name Andalal in the file maize.tsv
+The wrong non-toplevel 1 dialect name Batlukh in the file maize.tsv
+The wrong non-toplevel 1 dialect name Khunzakh in the file maize.tsv
+The wrong toplevel dialect name Gigatli in the file maize.tsv
+The wrong toplevel dialect name Kaitag in the file maize.tsv
+The wrong toplevel dialect name Modern Eastern Armenian in the file maize.tsv
+The wrong toplevel dialect name Kyuri in the file maize.tsv
+The wrong toplevel dialect name Judeo-Tat in the file maize.tsv
+The wrong toplevel dialect name Dzhek in the file maize.tsv
+The wrong toplevel dialect name Bezhta in the file maize.tsv
 spelling of          aj        in adjectives_number.Rmd:133
 spelling of          ar        in adjectives_number.Rmd:133,133
 spelling of          ce        in adjectives_number.Rmd:435
@@ -152,6 +220,25 @@ spelling of          quner        in inclusive_exclusive_distinction_in_personal
 spelling of          vin        in inclusive_exclusive_distinction_in_personal_pronouns.Rmd:529
 spelling of          wi        in inclusive_exclusive_distinction_in_personal_pronouns.Rmd:583
 spelling of          nd        in jussive.Rmd:51
+spelling of          apaq        in maize.Rmd:68
+spelling of          budaj        in maize.Rmd:37
+spelling of          Columbian        in maize.Rmd:14
+spelling of          dhurra        in maize.Rmd:41
+spelling of          Kapan        in maize.Rmd:41
+spelling of          Karabagh        in maize.Rmd:51
+spelling of          Karabagly        in maize.Rmd:51
+spelling of          Kyuri        in maize.Rmd:41
+spelling of          Magomedov        in maize.Rmd:43
+spelling of          milho        in maize.Rmd:16
+spelling of          Quba        in maize.Rmd:33,41
+spelling of          Shām        in maize.Rmd:41,41
+spelling of          Şirvan        in maize.Rmd:41
+spelling of          Tajik        in maize.Rmd:27
+spelling of          Vagapov        in maize.Rmd:68
+spelling of          von        in maize.Rmd:43
+spelling of          Von        in maize.Rmd:43
+spelling of          Wier        in maize.Rmd:51
+spelling of          Zea        in maize.Rmd:14
 spelling of          al        in morning_greetings.Rmd:20
 spelling of          xair        in morning_greetings.Rmd:41,41,49
 spelling of          xajir        in morning_greetings.Rmd:41
