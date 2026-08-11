@@ -1,12 +1,24 @@
+The BibTeX entry          magomedovaabdulaeva2007, khalilov2023a          present in the          hajwan_and_janawar.tsv, but absent in the biblib.xlsx
+The BibTeX entry          saidova2008, zhirkov1936          present in the          hajwan_and_janawar.tsv, but absent in the biblib.xlsx
+The BibTeX entry          tagiyev2006          present in the          hajwan_and_janawar.tsv, but absent in the biblib.xlsx
+The BibTeX entry          xalilov2015, comrieetal2015          present in the          hajwan_and_janawar.tsv, but absent in the biblib.xlsx
+The BibTeX entry          isakovxalilov2001, isakovxalilov2012          present in the          hajwan_and_janawar.tsv, but absent in the biblib.xlsx
+The BibTeX entry          khalilova2009, jidalaev2022          present in the          hajwan_and_janawar.tsv, but absent in the biblib.xlsx
+The BibTeX entry          bammatov2013, khalilov2023c          present in the          hajwan_and_janawar.tsv, but absent in the biblib.xlsx
 The BibTeX entry          bekoevetal2009          present in the          maize.tsv, but absent in the biblib.xlsx
 The BibTeX entry          khalilov1999          present in the          maize.tsv, but absent in the biblib.xlsx
+The obligatory field          EDITOR          is missing in          hajwan_and_janawar_bib.tsv
+The obligatory field          SCHOOL          is missing in          hajwan_and_janawar_bib.tsv
 The BibTeX entry suvorova2024 from take_hold_catch_bib.tsv has the wrong CATEGORY value: thesis
 The BibTeX entry vagapov2022 from the file maize_bib.tsv has an empty value in the obligatory field VOLUME
+Duplicated column name      'value_as_in_source'      in the      hajwan_and_janawar.tsv
 Multiple genlang_point for          Avar          in the file          maize.tsv
 Multiple genlang_point for          Azerbaijani          in the file          maize.tsv
 Multiple genlang_point for          Lak          in the file          maize.tsv
 Multiple genlang_point for          Lezgian          in the file          maize.tsv
 Multiple genlang_point for          Tabasaran          in the file          maize.tsv
+The wrong language name          Armenian          in the file          hajwan_and_janawar.tsv
+The wrong language name          North Dargwa          in the file          hajwan_and_janawar.tsv
 The wrong language name          Abkhaz          in the file          maize.tsv
 The wrong language name          Andi          in the file          maize.tsv
 The wrong language name          Akhvakh          in the file          maize.tsv
@@ -21,6 +33,11 @@ The wrong language name          Ossetic          in the file          maize.tsv
 The wrong language name          Abadzekh          in the file          maize.tsv
 The wrong language name          Shapsug          in the file          maize.tsv
 The wrong language name          Svan          in the file          maize.tsv
+The wrong village dialect name Tad-Magitl’ in the file hajwan_and_janawar.tsv
+The wrong village dialect name Budukh in the file hajwan_and_janawar.tsv
+The wrong village dialect name Lower Gakvari in the file hajwan_and_janawar.tsv
+The wrong village dialect name Hinuq in the file hajwan_and_janawar.tsv
+The wrong village dialect name Kwantlada in the file hajwan_and_janawar.tsv
 The wrong village dialect name Lower Gakvari in the file maize.tsv
 The wrong village dialect name Inkhoqwari in the file maize.tsv
 The wrong village dialect name Anchiq in the file maize.tsv
@@ -62,6 +79,9 @@ The wrong non-toplevel 1 dialect name Muiri in the file maize.tsv
 The wrong non-toplevel 1 dialect name Andalal in the file maize.tsv
 The wrong non-toplevel 1 dialect name Batlukh in the file maize.tsv
 The wrong non-toplevel 1 dialect name Khunzakh in the file maize.tsv
+The wrong toplevel dialect name Central in the file hajwan_and_janawar.tsv
+The wrong toplevel dialect name Modern Eastern Armenian in the file hajwan_and_janawar.tsv
+The wrong toplevel dialect name Bezhta in the file hajwan_and_janawar.tsv
 The wrong toplevel dialect name Gigatli in the file maize.tsv
 The wrong toplevel dialect name Kaitag in the file maize.tsv
 The wrong toplevel dialect name Modern Eastern Armenian in the file maize.tsv
@@ -69,6 +89,7 @@ The wrong toplevel dialect name Kyuri in the file maize.tsv
 The wrong toplevel dialect name Judeo-Tat in the file maize.tsv
 The wrong toplevel dialect name Dzhek in the file maize.tsv
 The wrong toplevel dialect name Bezhta in the file maize.tsv
+hajwan_and_janawar.Rmd:          1          wrong hashes
 spelling of          aj        in adjectives_number.Rmd:133
 spelling of          ar        in adjectives_number.Rmd:133,133
 spelling of          ce        in adjectives_number.Rmd:435
@@ -194,6 +215,21 @@ spelling of          li        in gender_agreement_slot.Rmd:105,105,205
 spelling of          maj        in gender_agreement_slot.Rmd:148
 spelling of          naj        in gender_agreement_slot.Rmd:148
 spelling of          ni        in gender_agreement_slot.Rmd:51
+spelling of          dʒanawar        in hajwan_and_janawar_map.Rmd:261
+spelling of          hajwan        in hajwan_and_janawar_map.Rmd:89
+spelling of          Aghul        in hajwan_and_janawar.Rmd:34
+spelling of          al        in hajwan_and_janawar.Rmd:10
+spelling of          dʒanawar        in hajwan_and_janawar.Rmd:22
+spelling of          gyanwar        in hajwan_and_janawar.Rmd:10
+spelling of          hajwan        in hajwan_and_janawar.Rmd:12,16,18,28,28,30,42
+spelling of          Hajwan        in hajwan_and_janawar.Rmd:32
+spelling of          heyvān        in hajwan_and_janawar.Rmd:10
+spelling of          jānvar        in hajwan_and_janawar.Rmd:8
+spelling of          Quranic        in hajwan_and_janawar.Rmd:12
+spelling of          ǯanawar        in hajwan_and_janawar.Rmd:12,12,20,26,28,28,30,32,32,34,34,42
+spelling of          جانور        in hajwan_and_janawar.Rmd:8
+spelling of          حيوان        in hajwan_and_janawar.Rmd:8
+spelling of          حیوان        in hajwan_and_janawar.Rmd:10
 spelling of          ã        in imperative_interjections.Rmd:97
 spelling of          al        in imperative_interjections.Rmd:29
 spelling of          beri        in imperative_interjections.Rmd:27

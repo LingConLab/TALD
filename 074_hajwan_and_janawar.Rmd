@@ -1,0 +1,53 @@
+---
+title: Meaning of words hajwan and dʒanawar
+author: Dasha Tsikh
+date: 'Last update: August 2026'
+bibliography: ./data/orig_bib/hajwan_and_janawar.bib
+csl: apa.csl
+link-citations: true
+output:
+  html_document:
+    number_sections: true
+    anchor_sections: true
+    pandoc_args: --shift-heading-level-by=-1
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, comment = '')
+library(lingglosses)
+```
+
+See [data and maps](074_hajwan_and_janawar_map.html).
+
+```{r}
+library(RefManageR)
+BibOptions(check.entries = FALSE, style = 'text', first.inits = FALSE, bib.style = 'authoryear')
+article_citation <- BibEntry(bibtype = 'Incollection', 
+ key='tsikh2026',
+ title='Meaning of words hajwan and dʒanawar',
+ author='Dasha Tsikh',
+ year='2026',
+ editor= 'George Moroz and Michael Daniel and Konstantin Filatov and Timur Maisak and Timofey Mukhin and Irina Politova and Elena Shvedova and Samira Verhees and Chiara Naccarato',
+ publisher='Linguistic Convergence Laboratory, HSE University',
+ address='Moscow',
+ booktitle= 'Typological Atlas of the Languages of Daghestan (TALD), v 2.0.1',
+ url='https://lingconlab.ru/tald',
+ doi='10.5281/zenodo.6807070')
+```
+
+## {.tabset .tabset-fade .tabset-pills -} 
+
+### Plain text {-}
+```{r, results = 'asis'}
+print(article_citation, .opts = list(style = 'text'))
+```
+
+### BibTeX {-}
+
+```{r}
+print(article_citation, .opts = list(style = 'Bibtex'))
+```
+
+```{r, child='data/orig_rmd/hajwan_and_janawar.Rmd'}
+```
+
