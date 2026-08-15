@@ -5,19 +5,18 @@ The BibTeX entry          xalilov2015, comrieetal2015          present in the   
 The BibTeX entry          isakovxalilov2001, isakovxalilov2012          present in the          hajwan_and_janawar.tsv, but absent in the biblib.xlsx
 The BibTeX entry          khalilova2009, jidalaev2022          present in the          hajwan_and_janawar.tsv, but absent in the biblib.xlsx
 The BibTeX entry          bammatov2013, khalilov2023c          present in the          hajwan_and_janawar.tsv, but absent in the biblib.xlsx
-The BibTeX entry          khalilov1999          present in the          maize.tsv, but absent in the biblib.xlsx
 The obligatory field          EDITOR          is missing in          hajwan_and_janawar_bib.tsv
 The obligatory field          SCHOOL          is missing in          hajwan_and_janawar_bib.tsv
 The BibTeX entry suvorova2024 from take_hold_catch_bib.tsv has the wrong CATEGORY value: thesis
 Duplicated column name      'value_as_in_source'      in the      hajwan_and_janawar.tsv
 The wrong language name          Armenian          in the file          hajwan_and_janawar.tsv
 The wrong language name          North Dargwa          in the file          hajwan_and_janawar.tsv
-The wrong language name          Ossetic          in the file          maize.tsv
 The wrong language name          Abadzekh          in the file          maize.tsv
 The wrong language name          Abkhaz          in the file          maize.tsv
 The wrong language name          Kabardian          in the file          maize.tsv
 The wrong language name          Laz          in the file          maize.tsv
 The wrong language name          Mingrelian          in the file          maize.tsv
+The wrong language name          Ossetic          in the file          maize.tsv
 The wrong language name          Shapsug          in the file          maize.tsv
 The wrong language name          Svan          in the file          maize.tsv
 The wrong village dialect name Tad-Magitl’ in the file hajwan_and_janawar.tsv
@@ -25,11 +24,11 @@ The wrong village dialect name Budukh in the file hajwan_and_janawar.tsv
 The wrong village dialect name Lower Gakvari in the file hajwan_and_janawar.tsv
 The wrong village dialect name Hinuq in the file hajwan_and_janawar.tsv
 The wrong village dialect name Kwantlada in the file hajwan_and_janawar.tsv
-The wrong village dialect name Kapan in the file maize.tsv
-The wrong village dialect name Karabagly in the file maize.tsv
 The wrong village dialect name Quba in the file maize.tsv
 The wrong village dialect name Salyan in the file maize.tsv
 The wrong village dialect name Şirvan in the file maize.tsv
+The wrong village dialect name Kapan in the file maize.tsv
+The wrong village dialect name Karabagly in the file maize.tsv
 The wrong village dialect name Syunik in the file maize.tsv
 The wrong village dialect name Tad-Magitl’ in the file take_hold_catch.tsv
 The wrong village dialect name Gigatl’ in the file take_hold_catch.tsv
@@ -210,9 +209,9 @@ spelling of          dhurra        in maize.Rmd:41
 spelling of          Kapan        in maize.Rmd:41
 spelling of          Karabagh        in maize.Rmd:51
 spelling of          Karabagly        in maize.Rmd:51
-spelling of          Kyuri        in maize.Rmd:41
 spelling of          Magomedov        in maize.Rmd:43
 spelling of          milho        in maize.Rmd:16
+spelling of          Muira        in maize.Rmd:33
 spelling of          Quba        in maize.Rmd:33,41
 spelling of          Shām        in maize.Rmd:41,41
 spelling of          Şirvan        in maize.Rmd:41
