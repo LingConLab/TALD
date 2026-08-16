@@ -1,0 +1,7 @@
+## {-}
+
+General chapter: [Phonology](phonology.html)
+
+Pharyngealization is a complex feature that is realized as a constriction in the pharynx or epiglottis zone. Different scholars use different strategies for describing the locus of the pharyngealization: sometimes it is analyzed as a feature of the vowel [@forker13], or as a consonant feature [@khalilova09], or it is treated as a suprasegmental feature [@kibrik1994a; @moroz19]. Pharyngealization commonly spreads through the word, although most researchers distinguish a core pharyngealized syllable [@kibrik1994a; @talibov07; @moroz19; @belyayev21]. Some East Caucasian languages are known to have developed two different types of pharyngealization [e.g. @belyayev21], further complicating the picture. As we can see from the map, pharyngealization is common in central and southern Dagestan among languages of the Dargwa, Lak, Tsezic and Lezgic branches.
+
+## References {-}

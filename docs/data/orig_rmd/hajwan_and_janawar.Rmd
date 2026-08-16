@@ -1,0 +1,44 @@
+```{r, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, comment = '')
+library(lingglosses)
+```
+
+## Introduction
+
+The languages of Daghestan are generally considered to be influenced by two languages: Arabic and Persian. One of the main areas of their influence is the lexicon. In this chapter it will be investigated how the Persian word جانور /jānvar/ and the Arabic word حيوان /ḥaywān/ are borrowed in the languages of Daghestan. In the source languages both words translate to 'animal' (with جانور having a colloquial meaning 'brute'). However, this meaning has undergone various changes in the receiving languages, with some cases being quite significant.
+
+Prior to discussing the languages of Daghestan, it is necessary to establish the original meanings of the words at the possible time of borrowing. In the classical Arabic dictionary "Al-Qāmūs al-Muḥīṭ" by Al-Fayrūzābādī [-@alfayruzabadi], the primary meaning of the word is a twin offspring in the animal kingdom, specifically one born with another in the same womb. The dictionary also notes a secondary, extended meaning, where the word can be used to refer to any animal in a general sense, as a member of the living creatures, distinct from humans or plants. In A Concise Pahlavi Dictionary by Professor MacKenzie [-@mackenzie1971], 'gyanwar' means "animal, animate". In modern Persian there is also an Arabic borrowing, حیوان /heyvān/ 'animal, beast, livestock'. As is often the case in Persian, a borrowing from Arabic coexists with a native Persian word.
+
+For the majority of the researched languages, there is no clear evidence of how these words were borrowed. They could have been borrowed directly from a source language such as the Quranic Arabic, or indirectly through an intermediary language. For example, in Armenian both *ǯanawar* and *hajwan* were borrowed from Ottoman Turkish [@acatrean1902]. Conversely, Tat, being an Iranian language closely related to Persian, probably features the word *ǯanawar* as a native term rather than a later borrowing.
+
+## Data
+
+During the analysis of dictionary entries for the words, each borrowed word was found to have several meanings, typically featuring one broad meaning (e.g. 'animal') alongside more specific ones, like in Akhvakh, where *hajwan* has meanings 'animal', 'livestock' and 'horse'.
+
+For the purposes of cross-linguistic comparison, attested meanings were grouped as follows: for *hajwan*, values were grouped in two ways: if the term had the range of meanings 'animal', 'livestock' and 'beast', the broadest term was retained --- 'animal'. If the term had a more specific meaning than these, only this specific meaning was retained.
+
+For *ǯanawar*, all encountered meanings were summarized into three groups: 'animal' --- if it was the only meaning; 'wild animal' --- if it had meanings like 'beast', 'predator' or 'wolf'; and 'livestock' --- when applicable.
+
+It is to note that the Russian version of dictionary definitions and their English counterparts are not fully semantically identical. 'Livestock' is clearly defined as "domesticated animals kept for profit (cows, sheep etc)", but the case of the word 'beast' or the Russian *zver'* is more complex. Beast, according to the Cambridge Dictionary, is 'an animal, especially a large or wild one', and in Russian it is 'wild animal, usually a predator'. These definitions raise a question: can, for example, a hare be considered a *dʒanawar*? While it is unequivocally a wild animal, it is neither predatory nor poses a threat to humans. The translation dilemma thus concerns the core characteristics that distinguish these words: is the primary distinction between domesticated and non-domesticated animals, or do their semantic fields represent intersecting sets? These questions require deeper investigation beyond dictionary analysis.
+
+## Results
+
+The most common meaning of either of the borrowed words remained 'animal'. In some languages the researched words were not attested. The reason may be that there is a native word covering the needed term, or it can be the influence of contact languages. For example, *ǯanawar* is absent in both Georgian and Tsova-Tush (Batsbi), probably because Georgian has a native word for this concept and Tsova-Tush, spoken mainly in Georgia, is under its influence.
+
+The most common combination of values is "livestock" or just "animal" for *hajwan* vs. "wild animal" for *ǯanawar*. In general, *hajwan* tends to be a more general term, having in some languages a range of meanings between 'animal', 'livestock' and 'beast'. The *ǯanawar* meaning is either highly general ('animal') or extremely specific ('predator').
+
+The languages where this opposition manifests differently are of particular interest. For example, in Kumyk, *hajwan* can mean any animal (livestock, beast, or simply animal), while *ǯanawar* is assigned only one meaning in dictionaries: 'animal'. In Tsakhur, both words mean 'livestock'. Dictionary sources alone do not allow us to determine what the difference is between the use of these terms in such languages.
+
+Andi is another interesting case. *Hajwan* here has meanings 'animal, beast' and *ǯanawar* 'beast, predator' --- that is, the opposition observed in most languages is absent, but *ǯanawar* turns out to be the narrower term.
+
+The most striking semantic shift occurred in languages where *ǯanawar* has only one meaning --- 'wolf'. This is the case in some of the Lezgic languages (Aghul, Budukh, Lezgian, Tabasaran and Udi), Khinalug, Azerbaijani and Armenian. On Map 3, we see the cluster of all languages listed above, with the exception of Armenian. This interpretation of *ǯanawar* may have been borrowed from Oghuz Turkic languages --- from Ottoman Turkish into Armenian and from Azerbaijani into the Lezgic languages and Khinalug. However, no resources are available to substantiate this further, and it will remain an assumption.
+
+## Summary and distribution
+
+A small cluster of Andic languages can be observed in the upper left corner of Map 1. They are united by the meaning 'livestock'. However, Andi stands out with the meaning 'wild animal'. Between this cluster and another one in the lower right corner, there is a large territory, occupied mainly by Archi (or Avar?), that connects two Kipchak languages (Kumyk and Nogai) to the north and Armenian to the south. These languages are united by a broader meaning of the term --- just 'animal'.
+
+Due to the limited diversity of values, Map 2 appears quite homogeneous. Only two languages stand out --- Kumyk and Tsakhur --- and their position is difficult to explain considering both the geographic area and their language families.
+
+The geographical distribution reveals two important clusters: an Andic cluster that shares the *hajwan* value 'livestock', and a cluster of Lezgic and other languages that share the 'wolf' value of *ǯanawar*.
+
+# References {-}

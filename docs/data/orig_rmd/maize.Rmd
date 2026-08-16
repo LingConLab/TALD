@@ -1,0 +1,74 @@
+```{r, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, comment = '')
+library(lingglosses)
+```
+
+## Introduction
+
+<!-- - Briefly explains what the feature is -->
+<!-- - Gives a general characterization of how it is expressed in East Caucasian  -->
+<!-- - Gives a general characterization of how it is expressed cross-linguistically -->
+<!-- - If applicable: describes how the classification in [TALD](http://lingconlab.ru/dagatlas) differs from [WALS](http://wals.info) (e.g. our chapter on the [Standard of Comparison](http://lingconlab.ru/dagatlas/standard_of_comparison.html) shows more sub-types of spatial comparatives) -->
+<!-- - Describes the goal of the text / map in one sentence: "Our goal is to classify the languages of Daghestan according to the type of spatial form used to mark the standard of comparison." -->
+
+Maize (*Zea mays*) is a crop from Mesoamerica that made its way across the world through the Columbian exchange [@bonavia2013: 14–15], starting from the 15th century. It is unclear when it arrived in different parts of the Caucasus exactly.^[[@bonavia2013: 255] cites Haudricourt & Hédin’s 1987 *L’Homme et les plantes cultivées*, that "maize arrived in the Caucasus only in the 17th century", but they provide no further information or reference for this claim.] Taking into account the variety of different names for the crop attested in the region, it seems likely that multiple introduction events and routes were at play. In any case, names for the crop were recorded in a number of languages in the second half of the 18th century by [@guldenstadt1791: 500-540], indicating that it was well-established by then. Currently it is widely cultivated across the Caucasus, and it has become a staple of traditional local cuisine (e.g. Georgian cornbread *mčadi* or Kumyk stuffed dumplings *χalpama*).
+
+Outside of Mesoamerica, maize, if not simply called some variation of *maize*, is often referred to with existing terms denoting crops that are perceived as similar, such as ‘wheat’, ‘grain’, ‘millet’ or ‘sorghum’. Either an older term is repurposed (e.g. Portuguese *milho* < ‘millet’), or a descriptive adjective is added for differentiation, after which a part of the compound may be dropped (e.g. *Indian corn* > *corn* in English, or *mısır buğdayı* 'Egyptian wheat' > *mısır* in Turkish). These examples also show another common feature of compounds: they tend to contain a reference to the geographical origin of the crop from the perspective of the speech community. Note that this does not necessarily reflect the actual origin of the crop.
+
+
+## Results
+
+<!-- - Summarizes the different types/values you discovered; types identified in the text should correspond to values shown on the map. If you want to fuse multiple types into one category, be sure to explain this decision in the text. Here you can add as many chapter-specific subsections as you like. -->
+<!-- - Provide examples -->
+<!-- - Identify which types are more or less common -->
+
+### Hajj-wheat
+
+The most common type of name for maize in the eastern Caucasus is a compound that translates as 'hajj-wheat', where *hajj* refers to Islamic pilgrimage (either the pilgrimage itself or the pilgrim). To the best of my knowledge, this compound is unique to the area, although a possible parallel is found in some regions of India, where maize is referred to as ‘(wheat from) Mecca’ [@bonavia2013: 256]. This is also attested in Uzbek and Tajik. Several subtypes of 'hajj-wheat' can be distinguished in the eastern Caucasus: 
+
+- Compound formed with native words
+- Matter borrowing from Azerbaijani *haǯibuɣda*
+- Matter borrowing from Chechen *ħæžkʼa*
+
+The word *haǯibuɣda* is typical of Dagestanian dialects of Azerbaijani and the Quba dialect of Northern Azerbaijan. The Standard Azerbaijani word for maize is *qarğıdalı*, a compound meaning 'back of the reed'. Versions of the latter word are found in several southern Daghestanian languages that have been heavily influenced by Azerbaijani as a literary language (Rutul, Tsakhur, Udi, Khinalug, as well as Avar varieties spoken in present-day Azerbaijan). Versions of *haǯibuɣda* are found in Agul, Tabasaran, and Muira. Lezgian idioms in most cases also have a version of *haǯibuɣda*, but varieties of *qarğıdalı* were also attested. 
+
+Chechen *ħæžkʼa* is found not only in nearby Andic languages like Upper Andi and Godoberi, but also in Lak, Lezgian, and the Rissib dialect of Avar.
+
+Kumyk has *habižaj*, which I interpret as a compound formed with native words that has undergone metathesis and reduction (*habižaj* < *haž(i)-budaj*).
+
+### Other wheat compounds
+
+Other wheat-compounds are *pejɣæmbærbuɣda* 'prophet-wheat', found in Budukh, Kryz, Juhuri (or Judeo-Tat), and several Azerbaijani dialects including Quba and Şirvan, and possibly the Kapan dialect of Armenian;^[Thanks to Murad Suleymanov for his thoughts on the etymology of these terms in Tat and Azerbaijani.] 'king-wheat' found in Lak and Kyure Lezgian; *šːamaq'eru* 'šam-wheat', in which *šam* likely refers to *Shām* - the Classical Arabic name of Greater Syria -- this term is found in the Andic languages Karata and Bagvalal, and has a parallel in some Arabic varieties, where maize is called *dhurra shāmiyya* 'sorghum of Sham'.^[Thanks to Konstantin Filatov for pointing out that *šam* likely refers to *Shām*.]
+
+Interestingly, in the 19th century Von Erckert recorded the term *šemaxi-daχin* 'Şamaxı (place in Azerbaijan)-wheat' for Tabasaran, which seems to have been lost. The Avar word for maize is also a wheat-compound: *c'ːorosa-roɬː*, or `wheat from Transcaucasia',[^ Thanks to Magomed Abdulkadirovič Magomedov for explaining the etymology of this word.] though von Erckert translated it as 'wheat from the plains' [@erckert1895: 98].
+
+Notably absent in the eastern Caucasus is 'Egyptian wheat', which is used in Turkish and Standard Armenian.
+
+### Other terms
+
+Nogai has borrowed 'Nart-millet' from the western Caucasus, where this term is shared among West Caucasian languages, Ossetic, and local Turkic languages.
+
+Georgian *simindi*, which originally meant 'wheat flour', was borrowed into all Tsezic languages except Khwarshi (see below). It is also attested among Armenian speakers from Karabagly in Dagestan, as *simindir*. The Karabagly dialect shares this word with many Armenian dialects, including the dialect of Karabagh, where the Karabagly dialect in part originates from. For Georgian, Thomas Wier traces the word's origins back to Aramaic, whereas for Armenian, [@acharyan1979: 214] identified Ancient Greek as borrowing source. In both source languages, the word referred to a type of wheat flour (a meaning which persists in some Armenian dialects), so that the semantic shift to naming a new crop like maize is a shared feature of Georgian and Armenian.^[Thanks to Katherine Hodgson and Thomas Wier for sharing their thoughts on the origins of words for maize in Armenian and Georgian.]
+
+In Khwarshi (Tsezic) and Tindi (Andic), maize is called *čakar* (from the Persian word for 'sugar').
+
+Russian *kukuruza* is also found here and there, as well as a number of terms of unclear etymology and origin, such as Botlikh *c'ebe-q'eru* (?-wheat).
+
+
+## Distribution
+
+<!-- - Describe the distribution with links to the appropriate maps on the data and maps page. The number of the map corresponds to the number of the value, see [Map 1](). The URL will be added later (between the brackets). Does the distribution of different types show a genealogical and / or areal signal? -->
+
+The distribution of 'hajj-wheat' shows some interesting areal patterns that depart from general lexical convergence patterns in the region:
+
+- First, the compound 'hajj-wheat' appears to be unique to the eastern Caucasus, and within the area it is widely shared among different branches of East Caucasian (Nakh, Andic, Dargwa, Lezgic) as well as local Turkic varieties. This is remarkable in itself. Terms that are shared along a diagonal from the Nakh languages in the north west all the way to the south are often borrowings from influential external languages like Arabic or Russian, and in that case are near-universal in the region (think of terms like *zaman* 'time' from Arabic or *televizor* television from Russian). Instead, 'hajj-wheat' seems to be a local innovation that spread through multiple local borrowing events. Despite the term being so wide-spread, it continues to co-exist with a variety of other terms.
+
+- As such, maize counters the expectations for lexical convergence patterns: as shown in [@danieletal2021], the distribution of borrowings among languages of this area (corrected for near-universal loans from Russian and Arabic) reveals two major clusters where languages share a lot of the same borrowed vocabulary. These clusters coincide with the spread of two major regional lingua francas: Avar and Azerbaijani. Maize only partially aligns with this general tendency: the region where Azerbaijani was the dominant lingua franca is divided into two parts: one where '*haǯibuɣda* was borrowed from local Azerbaijani dialects (except in Tabasaran, which features a native 'hajj'-wheat compound), and one where a different term was borrowed from Standard Azerbaijani. Standard Avar has its own compound, which does not appear to have direct copies in any of the languages it historically influenced. At the same time, some Avar dialects spoken near Lak and Dargwa lects feature a version of 'hajj'-wheat.
+
+- Additionally, copies of Chechen *ħæžkʼa* are found not only in dialects of Andi (which neighbors the Chechen republic and has incidental Chechen loans), but also in Lak and Lezgic and Avar dialects spoken in the Lak area. Chechen folk etymology links the introduction of maize to pilgrimage. Supposedly, Chechen Muslims brought back maize to the North Caucasus from their Islamic pilgrimage to Mecca. In this reading, 'hajj' refers both to the geographical origin of maize from the perspective of the North Caucasus as well as the route through which it was introduced. [@vagapov2022: 29] proposes an alternative reading of the 'hajj'-component in Chechen: 'hajj' might be used here in the sense of 'great person', similar to 'king-wheat' and 'Nart-millet'. He provides a parallel in Chechen *ħæža-apaq*, which refers to a large breed of pumpkin that has no possible link to pilgrimage according to Vagapov.^[Thanks to Timur Maisak for bringing Vagapov's work to my attention.] Possibly then, `hajj'-wheat is a culturally appropriate version of the same general concept as 'Nart'-wheat from the western and central North Caucasus.
+
+It remains unclear where the concept of 'hajj'-wheat was first introduced and how it was subsequently disseminated, though it seems plausible that it originated from the northwest and then made its way towards the central and southern areas, as evidenced by the presence of a reduced form in Kumyk, absence in most Azerbaijani varieties, the presence of competing forms from Azerbaijani like 'prophet'-wheat and *qarğıdalı* spreading in the opposite direction, and evident matter borrowing from Chechen in central to southern Dagestan. This also means that 'hajj' is likely not a direct reference to the supposed place or route through which it came to the eastern Caucasus.
+
+## References {-}
+
+<!-- References are generated automatically if you provide a table with the references, as described [here](chapters.html#literature_references). Leave the section empty. -->

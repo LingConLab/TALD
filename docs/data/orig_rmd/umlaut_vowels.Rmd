@@ -1,0 +1,5 @@
+## {-}
+
+General chapter: [Phonology](phonology.html)
+
+Umlaut vowels are present in southern Dagestan and in Nakh languages. I can speculatively propose that they historically developed from pharyngealization, but this hypothesis needs to be accurately checked with shared lexicon.
