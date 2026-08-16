@@ -87,6 +87,7 @@ clitic
 cognacy
 colexified
 colexify
+Columbian
 comitative
 completive
 compositional
@@ -132,6 +133,7 @@ DOI
 Duakar
 durative
 Dzhaliev
+dʒanawar
 egophoric
 ejective
 Ekaterina
@@ -181,7 +183,10 @@ grammaticalized
 Guaraní
 Gubin
 Hagège
+hajwan
+Hajwan
 headedness
+heyvān
 Hinuq
 homonymous
 HPL
@@ -217,6 +222,7 @@ Ivanova
 Iwaidja
 Iwaidjan
 Izmalkova
+jānvar
 Johanson
 Judeo
 Juhuri
@@ -226,6 +232,9 @@ jussive
 Kabardian
 Kaitag
 Kak
+Kapan
+Karabagh
+Karabagly
 Karachay
 Karata
 Kartozia
@@ -277,6 +286,7 @@ logophoric
 Luchek
 Magomed
 Magomedbekova
+Magomedov
 Maisak
 Maksim
 Marche
@@ -309,6 +319,7 @@ morphophonologically
 morphosyntactic
 Moyano
 Mozdok
+Muira
 Muiri
 Mukhad
 Mukhin
@@ -372,8 +383,10 @@ proto
 prox
 Qax
 Qidi
+Quba
 quinary
 quotative
+Quranic
 RCaucTile
 reportative
 resultative
@@ -390,9 +403,11 @@ Sanzhi
 Schulze
 Sg
 SG
+Shām
 Shiri
 Shvedova
 Sidorenko
+Şirvan
 Skripkina
 Solmaz
 Starostin
@@ -412,6 +427,7 @@ syncretic
 syncretism
 Tabasaran
 tabset
+Tajik
 TALD
 Talibov
 Tanty
@@ -464,6 +480,7 @@ zenodo
 Zerzele
 Zhirkov
 Zilo
+ǯanawar
 عَفَا
 عَفْوٌ
 يَعْفُو
