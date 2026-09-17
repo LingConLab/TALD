@@ -70,5 +70,3 @@ The distribution of 'hajj-wheat' shows some interesting areal patterns that depa
 It remains unclear where the concept of 'hajj'-wheat was first introduced and how it was subsequently disseminated, though it seems plausible that it originated from the northwest and then made its way towards the central and southern areas, as evidenced by the presence of a reduced form in Kumyk, absence in most Azerbaijani varieties, the presence of competing forms from Azerbaijani like 'prophet'-wheat and *qarğıdalı* spreading in the opposite direction, and evident matter borrowing from Chechen in central to southern Dagestan. This also means that 'hajj' is likely not a direct reference to the supposed place or route through which it came to the eastern Caucasus.
 
 ## References {-}
-
-<!-- References are generated automatically if you provide a table with the references, as described [here](chapters.html#literature_references). Leave the section empty. -->
