@@ -1,6 +1,6 @@
 ---
 title: Meaning of the words *hajwan* and *janawar* (Maps & Data)
-author: Dasha Tsikh
+author: Daria Tsikh
 date: 'Last update: August 2026'
 bibliography: false
 csl: apa.csl
@@ -25,7 +25,7 @@ BibOptions(check.entries = FALSE, style = 'text', first.inits = FALSE, bib.style
 article_citation <- BibEntry(bibtype = 'Incollection', 
  key='tsikh2026',
  title='Meaning of the words *hajwan* and *janawar* (Maps & Data)',
- author='Dasha Tsikh',
+ author='Daria Tsikh',
  year='2026',
  editor= 'George Moroz and Michael Daniel and Konstantin Filatov and Timur Maisak and Timofey Mukhin and Irina Politova and Elena Shvedova and Samira Verhees and Chiara Naccarato',
  publisher='Linguistic Convergence Laboratory, HSE University',
