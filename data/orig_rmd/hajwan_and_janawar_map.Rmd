@@ -86,7 +86,7 @@ feature_dataset |>
   all_data
 ```
 
-## Translation of *hajwan* {.tabset .tabset-fade .tabset-pills #m1} 
+## Translation of "hajwan" {.tabset .tabset-fade .tabset-pills #m1} 
     
 ### General datapoints {-}
 
@@ -258,7 +258,7 @@ general_datapoints_map |>
 ```
 
     
-## Translation of *dʒanawar* {.tabset .tabset-fade .tabset-pills #m2} 
+## Translation of dʒanawar {.tabset .tabset-fade .tabset-pills #m2} 
     
 ### General datapoints {-}
 

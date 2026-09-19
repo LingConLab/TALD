@@ -31,13 +31,13 @@ The languages where this opposition manifests differently are of particular inte
 
 Andi is another interesting case. *Hajwan* here has meanings 'animal, beast' and *ǯanawar* 'beast, predator' --- that is, the opposition observed in most languages is absent, but *ǯanawar* turns out to be the narrower term.
 
-The most striking semantic shift occurred in languages where *ǯanawar* has only one meaning --- 'wolf'. This is the case in some of the Lezgic languages (Aghul, Budukh, Lezgian, Tabasaran and Udi), Khinalug, Azerbaijani and Armenian. On Map 3, we see the cluster of all languages listed above, with the exception of Armenian. This interpretation of *ǯanawar* may have been borrowed from Oghuz Turkic languages --- from Ottoman Turkish into Armenian and from Azerbaijani into the Lezgic languages and Khinalug. However, no resources are available to substantiate this further, and it will remain an assumption.
+The most striking semantic shift occurred in languages where *ǯanawar* has only one meaning --- 'wolf'. This is the case in some of the Lezgic languages (Aghul, Budukh, Lezgian, Tabasaran and Udi), Khinalug, Azerbaijani and Armenian. On [Map 3](074_hajwan_and_janawar_map.html#m3), we see the cluster of all languages listed above, with the exception of Armenian. This interpretation of *ǯanawar* may have been borrowed from Oghuz Turkic languages --- from Ottoman Turkish into Armenian and from Azerbaijani into the Lezgic languages and Khinalug. However, no resources are available to substantiate this further, and it will remain an assumption.
 
 ## Summary and distribution
 
-A small cluster of Andic languages can be observed in the upper left corner of Map 1. They are united by the meaning 'livestock'. However, Andi stands out with the meaning 'wild animal'. Between this cluster and another one in the lower right corner, there is a large territory, occupied mainly by Archi (or Avar?), that connects two Kipchak languages (Kumyk and Nogai) to the north and Armenian to the south. These languages are united by a broader meaning of the term --- just 'animal'.
+A small cluster of Andic languages can be observed in the upper left corner of [Map 1](074_hajwan_and_janawar_map.html#m1). They are united by the meaning 'livestock'. However, Andi stands out with the meaning 'wild animal'. Between this cluster and another one in the lower right corner, there is a large territory, occupied mainly by Archi (or Avar?), that connects two Kipchak languages (Kumyk and Nogai) to the north and Armenian to the south. These languages are united by a broader meaning of the term --- just 'animal'.
 
-Due to the limited diversity of values, Map 2 appears quite homogeneous. Only two languages stand out --- Kumyk and Tsakhur --- and their position is difficult to explain considering both the geographic area and their language families.
+Due to the limited diversity of values, [Map 2](074_hajwan_and_janawar_map.html#m2) appears quite homogeneous. Only two languages stand out --- Kumyk and Tsakhur --- and their position is difficult to explain considering both the geographic area and their language families.
 
 The geographical distribution reveals two important clusters: an Andic cluster that shares the *hajwan* value 'livestock', and a cluster of Lezgic and other languages that share the 'wolf' value of *ǯanawar*.
 

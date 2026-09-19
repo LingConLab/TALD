@@ -32,6 +32,9 @@ chapters |>
 
 chapters |>
   filter(is.na(major_topic_text)) |>
+  rowwise() |> 
+  mutate(title = litedown::mark(text = title)) |> 
+  ungroup() |> 
   mutate(feature = str_c(title, 
                          "<br><a href='",
                          str_c(id_0, filename),
@@ -44,7 +47,7 @@ chapters |>
   rename(`Major topic` = major_topic_linked) |>
   mutate(domain = factor(domain)) |>
   arrange(feature) |> 
-  rename(Feature = feature,
+  rename(Chapter = feature,
          Author = author,
          Domain = domain) |> 
   DT::datatable(filter = 'top', 

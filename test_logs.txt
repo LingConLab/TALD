@@ -1,7 +1,4 @@
-The obligatory field          EDITOR          is missing in          hajwan_and_janawar_bib.tsv
-The obligatory field          SCHOOL          is missing in          hajwan_and_janawar_bib.tsv
 The BibTeX entry suvorova2024 from take_hold_catch_bib.tsv has the wrong CATEGORY value: thesis
-The wrong language name          Buduq          in the file          hajwan_and_janawar.tsv
 The wrong language name          Abadzekh          in the file          maize.tsv
 The wrong language name          Abkhaz          in the file          maize.tsv
 The wrong language name          Kabardian          in the file          maize.tsv
@@ -10,9 +7,6 @@ The wrong language name          Mingrelian          in the file          maize.
 The wrong language name          Ossetic          in the file          maize.tsv
 The wrong language name          Shapsug          in the file          maize.tsv
 The wrong language name          Svan          in the file          maize.tsv
-The wrong village dialect name Budukh in the file hajwan_and_janawar.tsv
-The wrong village dialect name Lower Gakvari in the file hajwan_and_janawar.tsv
-The wrong village dialect name Inkhoqwari in the file hajwan_and_janawar.tsv
 The wrong village dialect name Quba in the file maize.tsv
 The wrong village dialect name Salyan in the file maize.tsv
 The wrong village dialect name Şirvan in the file maize.tsv
