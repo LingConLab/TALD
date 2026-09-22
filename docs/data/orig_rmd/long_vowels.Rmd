@@ -1,0 +1,5 @@
+## {-}
+
+General chapter: [Phonology](phonology.html)
+
+Long vowels are present in northern Dagestan, Chechnya and Ingushetia. They are not present in Avar and southern Dagestan. However, there are a few cases where they are reported as the result of some intervocalic consonant deletions.
