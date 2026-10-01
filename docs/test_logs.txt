@@ -1,4 +1,3 @@
-The BibTeX entry          genko2005          present in the          take_hold_catch.tsv, but absent in the biblib.xlsx
 The BibTeX entry suvorova2024 from take_hold_catch_bib.tsv has the wrong CATEGORY value: thesis
 The wrong language name          Abadzekh          in the file          maize.tsv
 The wrong language name          Abkhaz          in the file          maize.tsv

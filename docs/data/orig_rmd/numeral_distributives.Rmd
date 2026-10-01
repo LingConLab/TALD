@@ -1,0 +1,72 @@
+```{r, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, comment = '')
+library(lingglosses)
+```
+
+## Introduction
+
+This chapter is dedicated to patterns of derivation of distributive numerals across the East Caucasian family and neighboring languages.
+
+Many languages have specific means to express distributivity. The meaning of distributivity can be shown with the following English example: John and Bill carried three suitcases. This sentence exemplifies the semantic relationship between a phrase containing a numeral, which is called ‘share’, and another phrase, or ‘key’. The relationship thus can be expressed as ‘share’ per ‘key’, as in three suitcases [per person] (if suitcases are the ‘key’) or three suitcases [three by three] (if the verb carried is the ‘key’). In many languages across the world, including East Caucasian, numerals used in the ‘share’ phrase belong to a separate numeral series [@gil2013]. The first interpretation is more popular in the sources on East Caucasian languages, and the two different meanings are rarely distinguished.
+
+## Results
+
+In East Caucasian languages distributive numerals are usually derived with reduplication, exemplified by (@itsari_two_each). According to [@gil2013], this mean of derivation is very common cross-linguistically.
+
+(@itsari_two_each) Itsari Dargwa [@sumbatovamutalov2003: 47]
+```{r, echo=FALSE}
+gloss_example(transliteration = "k’ʷi~k’ʷi",
+              glosses = "two~two",
+              free_translation = "two each"
+)
+```
+
+In some languages the numeral marker appears at the right edge of a reduplicated numeral. In other languages the marker reduplicates with it:
+
+(@) Standard Lezgian [@haspelmath1993: 235]
+```{r, echo=FALSE}
+gloss_example(transliteration = "c’u-wa-d~c’u-wa-d",
+              glosses = "ten-five-NUM~ten-five-NUM",
+              free_translation = "fifteen each"
+)
+```
+
+In some languages distributives are derived using suffixes instead of reduplication:
+
+(@) Kwantlada Khwarshi [@khalilova2009: 178]
+```{r, echo=FALSE}
+gloss_example(transliteration = "ɬuno-t’a",
+              glosses = "five-DISTR",
+              free_translation = "five each"
+)
+```
+
+Different means to derive distributives which mix suffixation and reduplication are often reported for different dialects (for example, in Agul) or even for the same dialect (for example, in Mishlesh Tsakhur or Kwantlada Khwarshi):
+
+(@) Kwantlada Khwarshi [@khalilova2009: 178]
+```{r, echo=FALSE}
+gloss_example(transliteration = "ɬun~ɬuno-t’a",
+              glosses = "five~five-DISTR",
+              free_translation = "five each"
+)
+```
+```{r, echo=FALSE}
+gloss_example(transliteration = "hos-t’a~hos-t’a",
+              glosses = "five-DISTR~five-DISTR",
+              free_translation = "one each"
+)
+```
+
+In languages of other families presented in the area, reduplication as a means to derive distributives is attested in Azerbaijani, Judeo-Tat and Georgian. Kumyk, Nogai, and Armenian use suffixes.
+
+## Distribution
+
+With rare exceptions, East Caucasian languages use reduplication as the main derivational pattern. Usage of additional suffixes is widespread, although not as much in the Dargic and Nakh branches. Neighboring languages outside of the family also use reduplication, yet not as often as East Caucasian languages.
+
+## List of glosses {-}
+
+```{r}
+make_gloss_list(readxl::read_xlsx("../glosses.xlsx"))
+```
+
+## References {-}

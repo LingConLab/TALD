@@ -1,0 +1,85 @@
+```{r, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, comment = '')
+library(lingglosses)
+```
+
+## Introduction
+
+This chapter discusses the presence or absence of numeral markers in non-final positions in complex numerals across the East Caucasian family.
+
+## Results
+
+In some languages numeral markers appear only at the right edge of complex numerals and are absent in non-final positions. This is the case for Avar-Andic languages, Dargic languages, Lak, and Archi. Consider the example from Avar:
+
+(@) Standard Avar [@forker2020: 18]
+```{r, echo=FALSE}
+gloss_example(transliteration = "š:u-nus=ijalda k’i-q’o-jalda anc’-ila š:u=**go**",
+              glosses = "five-hundred=LNK two-twenty-LNK ten-LNK five=**NUM**",
+              free_translation = "555"
+)
+```
+
+In other languages, numeral markers appear on non-final components of a complex numeral as well. This is typical for languages of the Tsezic and Lezgic branches, as shown in examples (@hinuq_53) and (@lezgian_3k). In such languages hundreds, and often crowns as well, preserve the marker.
+
+(@hinuq_53) Hinuq [@forker2013: 394]
+```{r, echo=FALSE}
+gloss_example(transliteration = "q’o-**no** qu=no oc’e-**no** ɬo-**no**",
+              glosses = "two-**NUM** twenty=ADD ten-**NUM** three-**NUM**",
+              free_translation = "53"
+)
+```
+
+(@lezgian_3k) Standard Lezgian [@haspelmath1993: 231]
+```{r, echo=FALSE}
+gloss_example(transliteration = "pu-**d** aɣzur-ni myӡy-**d** wiš-ni q’u-**d**-qa-**n**-ni c’u-wa-**d**",
+              glosses = "three-**NUM** thousand-ADD eight-**NUM** hundred-ADD two-**NUM**-twenty-**NUM**-ADD ten-five-**NUM**",
+              free_translation = "3 895",
+              line_length = 100
+)
+```
+
+For some languages grammars provide examples of complex numerals in which the marker is present in specific constructions, whereas it is generally absent. This is quite typical for higher numbers, like ‘thousand’ or ‘million’:
+
+(@) Gagatli Andi [@salimov2010: 132]
+```{r, echo=FALSE}
+gloss_example(transliteration = "miljan",
+              glosses = "million",
+              free_translation = "million"
+)
+```
+```{r, echo=FALSE}
+gloss_example(transliteration = "inštu-gu miljan",
+              glosses = "five-NUM million",
+              free_translation = "five million"
+)
+```
+
+(@) Akusha Dargwa [@abdullaev1954: 135]
+```{r, echo=FALSE}
+gloss_example(transliteration = "azir",
+              glosses = "thousand",
+              free_translation = "thousand"
+)
+```
+```{r, echo=FALSE}
+gloss_example(transliteration = "k’e.l azir",
+              glosses = "two.NUM thousand",
+              free_translation = "two thousand"
+)
+```
+
+In both Gagatli Andi and Akusha Dargwa the marker (-*gu* and -*al*, respectively) generally appears at the end of the complex numeral and is absent elsewhere. In Gagatli Andi the word ‘thousand’ attaches the marker but the word ‘million’ does not. Instead, the preceding numeral denoting the number of millions receives the marker. The same thing happens in Akusha Dargwa with the word ‘thousand’ (whereas ‘hundred’ attaches -*al* normally). Sadly, there are no Akusha examples for ‘million’. This phenomenon is attested in several languages, mainly of the Dargic branch. One possible interpretation of these data is that these higher numerals function as noun-like lexemes in these languages, and therefore are treated as heads of their own phrases. If one presumes that Akusha *k’el azir* is a noun phrase with the noun *azir* ‘thousand’, it is a completely normal phrase.
+
+Such cases present a problem for the analysis. However, this phenomenon is attested in numerals containing ‘thousand’ and ‘million’ only. It does not affect crowns and hundreds, which distinguish the values ‘yes’ and ‘no’ on the map. Hence such cases are ignored on the map, and these languages are marked as ‘yes’, which means that the marker is generally absent.
+
+## Distribution
+
+Presence of absence of numeral markers in complex numerals seems to be quite stable diachronically, thus it strongly correlates with branches of the East Caucasian family. In non-final positions, numeral markers are present in Tsezic and, generally, Lezgic languages. They are absent in all Avar-Andic and Dargic languages, as well as in Lak and Archi of the Lezgic branch.
+
+## List of glosses {-}
+
+```{r}
+make_gloss_list(readxl::read_xlsx("../glosses.xlsx"))
+```
+
+## References {-}
