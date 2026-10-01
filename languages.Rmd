@@ -2,6 +2,7 @@
 title: "Languages"
 link-citations: true
 csl: apa.csl
+bibliography: "data/orig_bib/languages.bib"
 output:
   html_document:
     include:
@@ -17,7 +18,9 @@ library(tidyverse)
 library(DT)
 ```
 
-This page includes a list of the idioms represented in the TALD database. The East Caucasian language family is very rich in terms of dialectal differentiation. There is no unified genealogical classification of all idioms spoken in Daghestan, so we compiled our own genealogical classification that tries to merge together different traditional and modern approaches to language/dialect classification of Daghestanian languages. In this tree you can also find the genealogical affiliation of each village represented in TALD. This classification is different from the one in [the Glottolog database](https://glottolog.org/resource/languoid/id/nakh1245). In the first tabset you can find a table that contains all the idioms represented in TALD and the chapter(s) in which they appear. In the second tabset you can find a tree that represents the genealogical classification that we use in the current version of TALD.
+This page includes a list of the idioms represented in the TALD database. Given the absence of a generally accepted classification, we devised our own based on several sources. Our classification coincides with the one in the [Glottolog 5.3 database](https://glottolog.org/resource/languoid/id/nakh1245) (Hammarström et al., 2026) in the case of Turkic languages (although we use the name Azerbaijani instead of North Azerbaijani) and the following branches of East Caucasian: Lezgic (except for the addition of the Borch-Khnov language), Nakh (but note that we use the name Tsova-Tush instead of Bats), and Tsezic (but note that we use the name Khwarshi instead of Khwarshi-Inkhoqwari). The classification of Andic languages is based on [@koryakovetal2026]. For Dargwa varieties we refer to [@koryakovetal2006; @koryakov2021], and for Iranian to [@koryakov2025]. The structure of Avar varieties is based on [@mikailov1959] and [@mudrak19], while for Lak varieties we refer to [@khajdakov1966].
+
+In the first tabset you can find a table that contains all the idioms represented in TALD and the chapter(s) in which they appear. In the second tabset you can find a tree that represents the genealogical classification that we use in the current version of TALD.
 
 ## {.tabset .tabset-fade .tabset-pills} 
 
@@ -195,3 +198,5 @@ result |>
   }) |> 
   jsTreeR::jstree(search = TRUE, checkWithText = FALSE)
 ```
+
+## References {-}

@@ -40,7 +40,7 @@ Kumyk has *habižaj*, which I interpret as a compound formed with native words t
 
 Other wheat-compounds are *pejɣæmbærbuɣda* 'prophet-wheat', found in Budukh, Kryz, Juhuri (or Judeo-Tat), and several Azerbaijani dialects including Quba and Şirvan, and possibly the Kapan dialect of Armenian;^[Thanks to Murad Suleymanov for his thoughts on the etymology of these terms in Tat and Azerbaijani.] 'king-wheat' found in Lak and Kyure Lezgian; *šːamaq'eru* 'šam-wheat', in which *šam* likely refers to *Shām* - the Classical Arabic name of Greater Syria -- this term is found in the Andic languages Karata and Bagvalal, and has a parallel in some Arabic varieties, where maize is called *dhurra shāmiyya* 'sorghum of Sham'.^[Thanks to Konstantin Filatov for pointing out that *šam* likely refers to *Shām*.]
 
-Interestingly, in the 19th century Von Erckert recorded the term *šemaxi-daχin* 'Şamaxı (place in Azerbaijan)-wheat' for Tabasaran, which seems to have been lost. The Avar word for maize is also a wheat-compound: *c'ːorosa-roɬː*, or `wheat from Transcaucasia',[^ Thanks to Magomed Abdulkadirovič Magomedov for explaining the etymology of this word.] though von Erckert translated it as 'wheat from the plains' [@erckert1895: 98].
+Interestingly, in the 19th century von Erckert recorded the term *šemaxi-daχin* 'Şamaxı (place in Azerbaijan)-wheat' for Tabasaran, which seems to have been lost. The Avar word for maize is also a wheat-compound: *c'ːorosa-roɬː*, or `wheat from Transcaucasia',[^ Thanks to Magomed Abdulkadirovič Magomedov for explaining the etymology of this word.] though von Erckert translated it as 'wheat from the plains' [@erckert1895: 98].
 
 Notably absent in the eastern Caucasus is 'Egyptian wheat', which is used in Turkish and Standard Armenian.
 

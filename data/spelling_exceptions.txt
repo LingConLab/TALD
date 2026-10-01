@@ -1,3 +1,4 @@
+ã
 Abaza
 Abdullaev
 Abdurrahman
@@ -182,6 +183,7 @@ grammaticalize
 grammaticalized
 Guaraní
 Gubin
+hã
 Hagège
 hajwan
 Hajwan
@@ -191,6 +193,7 @@ Hinuq
 homonymous
 HPL
 HSE
+hũ
 Hunzib
 Huppuq
 Huppuq'
@@ -456,14 +459,17 @@ uncategorizable
 underived
 unticking
 unwitnessed
+Vagapov
 Varvara
 Verhees
 Verkerk
 vigesimally
 Violetta
+von
 VOT
 Vydrin
 WALS
+Wier
 wordform
 wordforms
 xleb
@@ -474,6 +480,7 @@ Zaira
 Zakirova
 Zaqatala
 Zarina
+Zea
 Zemicheva
 Zemo
 zenodo
@@ -481,6 +488,8 @@ Zerzele
 Zhirkov
 Zilo
 ǯanawar
+جانور
+حيوان
 عَفَا
 عَفْوٌ
 يَعْفُو
