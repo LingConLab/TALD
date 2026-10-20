@@ -15,7 +15,7 @@ prohibitives_map.Rmd,3,yes; no
 labials_map.Rmd,1,"w; v; v, w; w, β"
 velar_fricatives_map.Rmd,1,"xʲ; ɣ, x; ɣ, x, xʲ; x; x, xʲ; none"
 voiceless_obstruents_map.Rmd,1,one-way; two-way; three-way; four-way
-voiceless_obstruents_map.Rmd,2,C; C-Cʼ; C-Cʰ; C-Cʼ-Cʼː; C-Cː-Cʼ; C-Cː-Cʼ-Cʼː; C-Cː-Cʰ-Cʼ
+voiceless_obstruents_map.Rmd,2,C; C-Cʼ; C-Cʰ; C-Cʼ-Cʼː; C-Cː-Cʼ; C-Cʰ-Cʼ; C-Cː-Cʼ-Cʼː; C-Cː-Cʰ-Cʼ
 comitative_map.Rmd,2,comitative; instrumental; spatial; no_case
 caritive_adv_map.Rmd,1,dedicated suffix/clitic (~ lessly); not having converb; adposition (~ without)
 dominant_adpositional_case_map.Rmd,1,abstract; spatial; ambiguous; none
@@ -38,11 +38,11 @@ numeral_crowns_ten_map.Rmd,1,/c'—/ element; /—ig/ element; /ij/ element; oth
 numeral_complex_map.Rmd,1,present; absent; mixed; unclear; no numeral marker
 numeral_class_map.Rmd,1,present; petrified; present (in an intensifying particle); absent; no numeral marker
 numeral_ordinals_map.Rmd,1,present; absent; other; ordinals borrowed; no numeral marker
-numeral_root_hundred_map.Rmd,1,*bišo-nV ('knife'); *waˤlš:; beš-; *darš:; t:urš; č'it' ('knife'); bʕe:; pan; other; 5 x 20
-demonstratives_map.Rmd,1,2; 3; 4; 5; >=2; >=3
+numeral_root_hundred_map.Rmd,1,*bišo-nV ('knife'); *waˤlš:; beš-; *darš:; t:urš; č'it' ('knife'); bʕe:; pan; other; 5 x 21
+demonstratives_map.Rmd,1,2; 3; 4; 5; >=2; >=4
 demonstratives_map.Rmd,3,pronouns; affixes; no elevation
 demonstratives_map.Rmd,5,S-dist; S-far; A-prox; S&A dist; (S-dist); (S-neut)
-causatives_map.Rmd,1,morphological; light verb; suffixal auxiliaries
+causatives_map.Rmd,1,morphological; light verb; suffixal auxiliary
 causatives_map.Rmd,2,only morphological; only light verb; only suffixal auxiliary; morphological & light verb; morphological & suffixal auxiliary; suffixal auxiliary & light verb; morphological & light verb & suffixal auxiliary
 numeral_bases_map.Rmd,1,decimal; vigesimal; both
 farewell_wishes_map.Rmd,1,good way; straight way; neither
@@ -54,7 +54,7 @@ jussive_map.Rmd,2,say; non-say
 jussive_map.Rmd,3,causative; non-causative
 jussive_map.Rmd,4,yes; no; not applicable
 gender_agreement_slot_map.Rmd,1,spatial; non-spatial; both; not attested
-gender_agreement_slot_map.Rmd,3,"Comitative; Genitive; Genitive, Affective; Possessive; not attested"
+gender_agreement_slot_map.Rmd,3,"Comitative; Genitive; Genitive, Affective; Possessive; Dative; not attested"
 plural_marking_on_imperatives_map.Rmd,2,present; none; not applicable
 plural_marking_on_imperatives_map.Rmd,5,present on both; present only on imperatives; not present
 trans_intrans_imperative_map.Rmd,1,yes; no
