@@ -167,9 +167,11 @@ spelling of          quner        in inclusive_exclusive_distinction_in_personal
 spelling of          vin        in inclusive_exclusive_distinction_in_personal_pronouns.Rmd:529
 spelling of          wi        in inclusive_exclusive_distinction_in_personal_pronouns.Rmd:583
 spelling of          nd        in jussive.Rmd:51
-spelling of          apaq        in maize.Rmd:68
+spelling of          apaq        in maize.Rmd:75
 spelling of          budaj        in maize.Rmd:37
-spelling of          dhurra        in maize.Rmd:41
+spelling of          dhurra        in maize.Rmd:45
+spelling of          haǯi        in maize.Rmd:30
+spelling of          haˤǯin        in maize.Rmd:33
 spelling of          milho        in maize.Rmd:16
 spelling of          al        in morning_greetings.Rmd:20
 spelling of          xair        in morning_greetings.Rmd:41,41,49
