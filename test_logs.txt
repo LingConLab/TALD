@@ -1,5 +1,5 @@
 The BibTeX entry suvorova2024 from take_hold_catch_bib.tsv has the wrong CATEGORY value: thesis
-NA
+The BibTeX entry seferbekovkarakhanov2015 from the file names_for_sun_shower_bib.tsv has an empty value in the obligatory field VOLUME
 The BibTeX entry maisak2026 from the file neg_pronouns_nobody_bib.tsv has an empty value in the obligatory field VOLUME
 The wrong language name          Abadzekh          in the file          maize.tsv
 The wrong language name          Abkhaz          in the file          maize.tsv
@@ -292,5 +292,3 @@ spelling of          kor        in work.Rmd:41
 spelling of          oba        in work.Rmd:61
 spelling of          wa        in work.Rmd:51
 spelling of          xe        in work.Rmd:61
-The BibTeX entry          seferbekov2005          present in the .Rmd, but absent in the names_for_sun_shower.bib
-The BibTeX entry          seferbekovkarakhanov2015          present in the .Rmd, but absent in the names_for_sun_shower.bib
