@@ -1,0 +1,158 @@
+```{r, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, comment = '', results='asis')
+library(lingglosses)
+```
+
+## Introduction
+
+Sun showers, i.e. rain showers that happen while the sun is shining, are one of the concepts that are seen as anomalies and universally referred to using metaphorical folk descriptions in cultures all around the world, with names connecting the phenomenon to a “fox’s wedding” being some of the most common globally [@blust1999]. Daghestan is no exception in this regard, as the fox’s wedding concept is found in many languages of the area. However, many local variants and modifications of the motif, such as those that replace the fox with a different animal, as well as ones that refer to a completely different type of situation altogether, are found throughout. Still, most of them can be boiled down to a handful of recurring combining elements, except for some languages where no special phrase is attested.
+
+## Results
+
+Among the East Caucasian family, which is the most numerous in the region, the Avar-Andic branch most regularly employs the fox’s wedding metaphor – such phrases are found in Avar, Bagvalal, Chamalal, Akhvakh, Karata, and Tindi (an example from the latter is given in (@one)).
+
+(@one) Tindi [@magomedova2003: 359]
+```{r}
+gloss_example(transliteration = "sár-uɬa	baħara-j j-eɬ-ṓ-b c̄āj",
+              glosses = "fox-GEN	soon.to.wed-III	II-lead-PTCP-III rain(III).ABS",
+              free_translation = "rain which brings a bride for the fox")
+```
+
+In Andi the phrase “a fox has stolen a girl” is used to describe a rainbow rather than a sun shower, as the two phenomena often co-occur. In Botlikh, Godoberi, and the Gidatli dialect of Avar no special names for sun shower have been attested.
+
+In Tsezic, which is closely related to Avar-Andic, the fox character is present as well, although the wedding motif is not consistently observed. Tsez and Bezhta have “fox’s wedding” phrases, but the former language also has the variant “a fox gives birth” used when it’s hailing and the sun is shining, while Khwarshi only describes a rainbow that is seen after it has rained as a “fox’s rainbow”.
+
+Some Dargwa varieties, such as Standard Dargwa, Tanti, and Tsudaqar, use the fox metaphor, although it is represented as “fox and hare’s wedding” in Tsudaqar and as a longer saying, also mentioning a hare, in Tanti:
+
+
+(@two) Tanti (Yuri Lander, p.c.)
+```{r}
+gloss_example(transliteration = "waza-marka kːurtːa-ž meq, ʕaˤra-ž baˤχt",
+              glosses = "honey-rain.ABS fox-DAT wedding.ABS hare-DAT shadow.ABS",
+              free_translation = "A honey rain is a wedding to the fox and a shadow to the hare.")
+```
+
+Other languages of the group, however, bring other animals into play. The hare, which, as noted above, is found alongside the fox in Tanti and Tsudaqar, is seen in the Kaitag names “hare’s rain” (this is also attested in Standard Dargwa) and “hare’s urine”, while in Kubachi the description “a wolf gave birth to a cub” is used.
+
+Among the Lezgic branch, even more variants are attested, and often there are several different metaphors coexisting in the same language. The “fox’s wedding” motif is found in Lezgian and Tabasaran. Other variants are also attested in these languages: a “crow’s wedding” in Lezgian and a "feast of fox and hare” in Tabasaran. In other languages, other animals take the fox’s place: a hare and a wolf in Agul, a mouse in Rutul. The concept of birth is attested in Rutul and Tsakhur. In Rutul it involves a wolf (similarly to Kubachi), while in Tsakhur it can also be a bear instead. A unique metaphor in Lezgian describes the phenomenon as “a bear bathing its cubs”. No dedicated metaphorical phrases are found in Kryz, Khinalug, and Budukh.
+
+Lak connects the phenomenon with demon characters and uses the name “shaitan’s rain” as well as a longer phrase comparing sun showers to the birth of demon babies:
+
+(@three) Lak [@abdullaev2018: 522]
+```{r}
+gloss_example(transliteration = "burʁi-lu-χ ʁaral lačʼ-la-j, š:ajt’an-nu-n øˤrčʼ-ru b-ul-la-j",
+              glosses = "sun.OBL-SUB-TRANS rain.ABS precipitate-DUR-3.PRS shaitan-OBL-DAT child-PL III.PL-do-DUR-3.PRS",
+              free_translation = "It’s raining along with sunshine – a demon gives birth to demon babies.")
+```
+
+Nakh languages generally do not have special names for sun showers. A literal description, “sunny rain”, is used in Chechen, and no metaphorical phrases have been recorded for either Ingush or Tsova-Tush.
+
+Among the Turkic languages of the region, a designated folk name for the phenomenon is attested only in Kumyk, which connects sun showers with a hare giving birth. As neither Nogai nor Azerbaijani have phrases of this sort, an East Caucasian contact origin seems likely. This is supported by local Azerbaijani children’s rite songs, recorded in the Arak settlement (close to where Lezgic languages, notably Tabasaran, are spoken): the ditty in (@four) is uttered to summon rain, and a similar one with a parallel structure is used to make it stop.
+
+(@four) Azerbaijani [@seferbekov2005: 99]
+```{r}
+gloss_example(transliteration = "Dovşan bala doğ-ma-yut-du, yağ-yağış!",
+              glosses = "hare child be.born-NEG-PF-COP.3SG rain-IMP.2PL",
+              free_translation = "The hare has not given birth, let it rain!")
+```
+
+As for the other languages of the area, Armenian has the name ‘wolf’s rain’, which is likely a typological parallel rather than the result of Caucasian influence. No special names were attested in Georgian.
+
+## Distribution
+
+Two main motifs, as well as a handful of isolated concepts, are found among the languages of the sample (see [Table 1](#t1) and [Map 3](0XX_names_for_sun_shower_map.html#m3)). The prevailing idea is that of a wedding, involving one or two animals (most frequently a fox and sometimes a hare) which likely act as metaphors for or personalisations of the sun and rain[^1]. The second popular motif is that of childbirth, which compares the rain to the birth of offspring of animals or mythical creatures. Among other rare names, the metaphor of bathing, found in the Lezgian phrase ‘a bear bathes its cubs’, is notable.
+
+[^1]: This idea is indirectly supported by the rituals in various Caucasian cultures. For instance, Lezgian people have a celebration called ‘Jaran suvar’, which is dedicated to the sun deity Jar. As described in [@seferbekovkarakhanov2015: 90-92], the celebrations involved children putting on masks and visiting people’s houses, performing dances that mimicked fox behaviour. It is claimed that these animal characters were connected to the cult of fertility.
+
+#### **Table 1.** Motifs found in sun shower names {#t1 -}
+
+| Motif      | Branch           | Languages       |
+|------------|------------------|-----------------|
+| Wedding    | Avar-Andic       | Avar            |
+| Wedding    | Avar-Andic       | Akhvakh         |
+| Wedding    | Avar-Andic       | Bagvalal        |
+| Wedding    | Avar-Andic       | Chamalal        |
+| Wedding    | Avar-Andic       | Karata          |
+| Wedding    | Avar-Andic       | Tindi           |
+| Wedding    | Tsezic           | Tsez            |
+| Wedding    | Tsezic           | Bezhta          |
+| Wedding    | Lezgic           | Lezgian         |
+| Wedding    | Lezgic           | Agul            |
+| Wedding    | Lezgic           | Rutul           |
+| Wedding    | Lezgic           | Tabasaran       |
+| Wedding    | Dargwa           | Standard Dargwa |
+| Wedding    | Dargwa           | Tanti           |
+| Wedding    | Dargwa           | Tsudaqar        |
+| Childbirth | Tsezic           | Tsez            |
+| Childbirth | Lezgic           | Rutul           |
+| Childbirth | Lezgic           | Tsakhur         |
+| Childbirth | Dargwa           | Kubachi         |
+| Childbirth | Lak              | Lak             |
+| Childbirth | Kipchak (Turkic) | Kumyk           |
+| Bathing    | Lezgic           | Lezgian         |
+| Feast      | Lezgic           | Tabasaran       |
+| Urine      | Dargwa           | Kajtag          |
+
+The animals found in sun shower names across the languages of the sample are listed in [Table 2](#t2) and shown on [Map 1](0XX_names_for_sun_shower_map.html#m1)) (for the main participant) and [Map 2](0XX_names_for_sun_shower_map.html#m2)) (for the secondary participant; this includes the grooms in those wedding metaphors where they are specified and the cubs in childbirth metaphors; brackets denote optionality). As can be seen, the fox is the prevalent character, appearing in 13 languages; hare is the second popular one, attested in 11 languages, 5 of which pair it with the fox. Wolves, bears, mice, crows, eagles, and demons appear sporadically in one or a couple of idioms each (the wolf, found in 5 languages, is an exception).
+
+#### **Table 2.** Animals found in sun shower names {#t2 -}
+
+| Branch                  | Language         | First participant | Second participant |
+|-------------------------|------------------|-------------------|--------------------|
+| Armenic (Indo-European) | Eastern Armenian | Wolf              | -                  |
+| Dargwa                  | Kubachi          | Wolf              | Wolf               |
+| Lezgic                  | Rutul            | Wolf              | Wolf               |
+| Lezgic                  | Tsakhur          | Wolf              | Wolf               |
+| Lak                     | Lak              | Demon             | Demon              |
+| Lezgic                  | Archi            | Eagle             | -                  |
+| Lezgic                  | Lezgian          | Crow              | -                  |
+| Lezgic                  | Rutul            | Mouse             | -                  |
+| Lezgic                  | Tabasaran        | Hare              | -                  |
+| Dargwa                  | Kajtag           | Hare              | -                  |
+| Dargwa                  | Standard Dargwa  | Hare              | -                  |
+| Lezgic                  | Agul             | Hare              | -                  |
+| Lezgic                  | Tpig Agul        | Hare              | Goat, wolf         |
+| Kipchak (Turkic)        | Kumyk            | Hare              | Hare               |
+| Oghuz (Turkic)          | Azerbaijani      | Hare              | Hare               |
+| Andic                   | Northern Akhvakh | Fox               | Hare               |
+| Dargwa                  | Tsudaqar         | Fox               | Hare               |
+| Dargwa                  | Tanti            | Fox               | Hare               |
+| Lezgic                  | Tabasaran        | Fox               | (Hare)             |
+| Avar-Andic              | Karata           | Fox               | (Hare)             |
+| Avar-Andic              | Chamalal         | Fox               | -                  |
+| Avar-Andic              | Bagvalal         | Fox               | -                  |
+| Avar-Andic              | Tindi            | Fox               | -                  |
+| Avar-Andic              | Avar             | Fox               | -                  |
+| Dargwa                  | Northern Dargwa  | Fox               | -                  |
+| Lezgic                  | Lezgian          | Fox               | -                  |
+| Tsezic                  | Bezhta           | Fox               | -                  |
+| Tsezic                  | Tsez             | Fox               | (Fox)              |
+| Lezgic                  | Lezgian          | Bear              | Bear               |
+| Lezgic                  | Tsakhur          | Bear              | Bear               |
+
+The few epithets (most of them literal descriptions) that are not connected to any kind of animal or creature are given in [Table 3](#t3). While in some of these languages sun showers are simply called ‘sun rain’ (in Archi, the more poetic variant ‘one that walks on the sun road’ is used), a couple of exceptional metaphors are found as well.
+
+#### **Table 3.** Epithets for sun showers that are not related to animals {#t3 -}
+
+| Branch                  | Language        | Epithet                      |
+|-------------------------|-----------------|------------------------------|
+| Lezgic                  | Archi           | Sun rain                     |
+| Lezgic                  | Agul            | Sun rain                     |
+| Nakh                    | Chechen         | Sun rain                     |
+| Dargwa                  | Shilyagi Kajtag | Rain of mercy                |
+| Iranian (Indo-European) | Mitahi-Jalqan   | Rain falling from blind eyes |
+| Iranian (Indo-European) | Mitahi-Jalqan   | Slight rain                  |
+
+Overall, Avar-Andic seems to be the most stable and nuclear group, as the likely archaic "fox's wedding" motif (also found in Tsezic, Lezgic, and Dargwa), sometimes involving a hare (which serves as a contrasting figure to the fox, just like rain and the sun are two opposite forces of nature leading to sun showers), is the most frequent among the languages of the branch. The childbirth motif appears alongside the wedding one in Tsezic, signifying the beginning of a transformation of the original concept, and is attested in Lezgic further in the south, where it is the prevalent metaphor. In the latter branch, the fox and the hare are more often than not replaced by various other animals, such as wolves, bears, crows, and mice. The Lezgian metaphor of a bear bathing his cubs can be interpreted as a further development of the concept into that of fertility and cleansing, and Lak on the southwestern periphery of the area further reimagines the idea as a demonic phenomenon, describing it as “a demon giving birth”. 
+
+The idea of an areal distribution of the motifs is supported by the fact that the Lezgic languages Kryz, Budukh and Khinalug, spoken in Azerbaijan and not in contact with the rest of East Caucasian, do not have any animal-related names for sun showers, despite there being a lot of them in other Lezgic idioms. The phrases found on the periphery in Turkic, specifically in Kumyk and some Azerbaijani dialects, seem to adapt the childbirth motif found in the south of the East Caucasian area. Nogai, which is not in close contact with East Caucasian, has no such metaphors – its speakers were traditionally steppe nomads, unlike Kumyks who were sedentary farmers, and thus did not take part in cultural exchange with Caucasian peoples and did not borrow the myth-based phraseology. The absence of animal-related epithets in Nakh suggests a Western border of the area where such names are spread.
+
+## List of glosses {-}
+
+```{r}
+## my_abbreviations <- data.frame(gloss = c("gen", "abs", "dat", "sub", "trans", "obl", "dur", "ptcp", "neg", "cop", "imp", "2", "3", "II", "III", "pf", "pl", "prs", "sg"),
+##                                definition_en = c("genitive", "absolutive", "dative", "sublative", "translative", "oblique", "durative", "participle", "negation", "copula", "imperative", "2nd person", "3rd person", "class II", "class III", "perfect", "plural", "present", "singular"))
+make_gloss_list(readxl::read_xlsx("../glosses.xlsx"))
+```
+
+## References {-}

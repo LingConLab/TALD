@@ -41,4 +41,4 @@ Due to the limited diversity of values, [Map 2](074_hajwan_and_janawar_map.html#
 
 The geographical distribution reveals two important clusters: an Andic cluster that shares the *hajwan* value 'livestock', and a cluster of Lezgic and other languages that share the 'wolf' value of *ǯanawar*.
 
-# References {-}
+## References {-}

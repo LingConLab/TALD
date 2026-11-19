@@ -1,7 +1,5 @@
-The BibTeX entry          murkelinskij1971          present in the          neg_pronouns_nobody.tsv, but absent in the biblib.xlsx
-The BibTeX entry          nicholsvagapov2004          present in the          neg_pronouns_nobody.tsv, but absent in the biblib.xlsx
-The BibTeX entry          jakovlev2001          present in the          neg_pronouns_nobody.tsv, but absent in the biblib.xlsx
 The BibTeX entry suvorova2024 from take_hold_catch_bib.tsv has the wrong CATEGORY value: thesis
+NA
 The BibTeX entry maisak2026 from the file neg_pronouns_nobody_bib.tsv has an empty value in the obligatory field VOLUME
 The wrong language name          Abadzekh          in the file          maize.tsv
 The wrong language name          Abkhaz          in the file          maize.tsv
@@ -17,10 +15,10 @@ The wrong village dialect name Şirvan in the file maize.tsv
 The wrong village dialect name Kapan in the file maize.tsv
 The wrong village dialect name Karabagly in the file maize.tsv
 The wrong village dialect name Syunik in the file maize.tsv
+The wrong village dialect name Tad-Magitl’ in the file names_for_sun_shower.tsv
 The wrong village dialect name Tad-Magitl’ in the file take_hold_catch.tsv
 The wrong village dialect name Gigatl’ in the file take_hold_catch.tsv
 The wrong toplevel dialect name Northern Akhvakh in the file neg_pronouns_nobody.tsv
-hajwan_and_janawar.Rmd:          1          wrong hashes
 spelling of          aj        in adjectives_number.Rmd:133
 spelling of          ar        in adjectives_number.Rmd:133,133
 spelling of          ce        in adjectives_number.Rmd:435
@@ -181,6 +179,9 @@ spelling of          milho        in maize.Rmd:16
 spelling of          al        in morning_greetings.Rmd:20
 spelling of          xair        in morning_greetings.Rmd:41,41,49
 spelling of          xajir        in morning_greetings.Rmd:41
+spelling of          behaviour        in names_for_sun_shower.Rmd:65
+spelling of          Jalqan        in names_for_sun_shower.Rmd:143,144
+spelling of          Jaran        in names_for_sun_shower.Rmd:65
 spelling of          adami        in neg_pronouns_nobody.Rmd:81
 spelling of          ara        in neg_pronouns_nobody.Rmd:44
 spelling of          bir        in neg_pronouns_nobody.Rmd:90
@@ -291,3 +292,5 @@ spelling of          kor        in work.Rmd:41
 spelling of          oba        in work.Rmd:61
 spelling of          wa        in work.Rmd:51
 spelling of          xe        in work.Rmd:61
+The BibTeX entry          seferbekov2005          present in the .Rmd, but absent in the names_for_sun_shower.bib
+The BibTeX entry          seferbekovkarakhanov2015          present in the .Rmd, but absent in the names_for_sun_shower.bib
