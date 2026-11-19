@@ -34,9 +34,9 @@ Author: Tatiana Vargas [aut, cre],
 Maintainer: Tatiana Vargas <tatiana.vargas@rte-france.com>
 Repository: CRAN
 Date/Publication: 2025-10-29 11:40:02 UTC
-Built: R 4.3.3; ; 2025-11-03 12:06:17 UTC; unix
+Built: R 4.3.3; ; 2026-11-19 06:03:18 UTC; unix
 RemoteType: standard
 RemotePkgRef: leaflet.minicharts
 RemoteRef: leaflet.minicharts
-RemoteRepos: https://cloud.r-project.org
-RemoteSha: 0.6.3
+RemoteRepos: https://mirror.truenetwork.ru/CRAN
+RemoteSha.Version: 0.6.3

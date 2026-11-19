@@ -1,0 +1,1072 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+<meta name="author" content="Irina Politova" />
+
+
+<title>Negative pronoun with meaning ‘nobody’</title>
+
+<script src="site_libs/header-attrs-2.32/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="site_libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="site_libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<link href="site_libs/font-awesome-6.5.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet" />
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon.png">
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+<style type="text/css">
+/* for pandoc --citeproc since 2.11 */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">TALD</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="./about.html">About</a>
+</li>
+<li>
+  <a href="./chapters.html">
+    <span class="fa fa-atlas"></span>
+     
+    Chapters
+  </a>
+</li>
+<li>
+  <a href="./languages.html">Languages</a>
+</li>
+<li>
+  <a href="./changes.html">Changes</a>
+</li>
+<li>
+  <a href="./references.html">References</a>
+</li>
+<li>
+  <a href="./team.html">Team</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Negative pronoun with meaning ‘nobody’</h1>
+<h4 class="author">Irina Politova</h4>
+<h4 class="date">Last update: November 2026</h4>
+
+</div>
+
+
+<p>See <a href="075_neg_pronouns_nobody_map.html">data and maps</a>.</p>
+<div id="section"
+class="section level1 tabset tabset-fade tabset-pills unnumbered">
+<h1 class="tabset tabset-fade tabset-pills unnumbered"></h1>
+<div id="plain-text" class="section level2 unnumbered hasAnchor">
+<h2 class="unnumbered hasAnchor">Plain text<a href="#plain-text"
+class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Politova, Irina (2026). “Negative pronoun with meaning ‘nobody’”. In:
+<em>Typological Atlas of the Languages of Daghestan (TALD), v
+2.0.1</em>. Ed. by George Moroz, Michael Daniel, Konstantin Filatov,
+Timur Maisak, Timofey Mukhin, Irina Politova, Elena Shvedova, Samira
+Verhees and Chiara Naccarato. Moscow: Linguistic Convergence Laboratory,
+HSE University. DOI: 10.5281/zenodo.6807070. <a
+href="https://lingconlab.ru/tald"
+class="uri">https://lingconlab.ru/tald</a>.</p>
+</div>
+<div id="bibtex" class="section level2 unnumbered hasAnchor">
+<h2 class="unnumbered hasAnchor">BibTeX<a href="#bibtex"
+class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<pre><code>@incollection{politova2026,
+  title = {Negative pronoun with meaning ‘nobody’},
+  author = {Irina Politova},
+  year = {2026},
+  editor = {George Moroz and Michael Daniel and Konstantin Filatov and Timur Maisak and Timofey Mukhin and Irina Politova and Elena Shvedova and Samira Verhees and Chiara Naccarato},
+  publisher = {Linguistic Convergence Laboratory, HSE University},
+  address = {Moscow},
+  booktitle = {Typological Atlas of the Languages of Daghestan (TALD), v 2.0.1},
+  url = {https://lingconlab.ru/tald},
+  doi = {10.5281/zenodo.6807070},
+}</code></pre>
+</div>
+</div>
+<div id="introduction" class="section level1 hasAnchor" number="1">
+<h1 class="hasAnchor"><span class="header-section-number">1</span>
+Introduction<a href="#introduction" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p>There is considerable literature dedicated to the morphology of
+indefinite, including negative indefinite (simply called “negative” in
+the present chapter), pronouns in the languages of the world. A
+typological overview is presented in the World Atlas of Language
+Structures (WALS), in Chapter 46 <span class="citation">(<a
+href="#ref-haspelmath2013a">Haspelmath 2013a</a>)</span> on indefinite
+pronouns and in Chapter 115 <span class="citation">(<a
+href="#ref-haspelmath2013b">Haspelmath 2013b</a>)</span> on negative
+indefinite pronouns. In these chapters, it is claimed that there are
+three most common types of indefinite pronouns:</p>
+<ul>
+<li>those based on interrogative pronouns (like ‘who’ or ‘what’);</li>
+<li>those based on generic nouns (like ‘person’ or ‘thing’);</li>
+<li>dedicated non-derived indefinite pronouns.</li>
+</ul>
+<p>In <span class="citation">(<a href="#ref-vanalsenoy2014">Van Alsenoy
+2014</a>)</span>, another typological work on negative pronouns, a
+fourth common type is added to this list:</p>
+<ul>
+<li>indefinite pronouns based on the numeral ‘one’ (like English <em>no
+one</em>).</li>
+</ul>
+<p>In the latter work, the means used for derivation of negative
+pronouns are also discussed, i.e., affixation, but also reduplication
+and indefinite articles.</p>
+<p>The goal of the present chapter is to describe the morphology of the
+negative pronoun ‘nobody’ in the languages spoken in Daghestan, and to
+see whether all of the four strategies listed above are present in this
+region, but also to find whether other strategies are possible. Since in
+a language more than one negative pronoun may be found (see, for
+instance, English <em>no one</em> and <em>nobody</em>, which seem to be
+used interchangeably), for each language we collected all forms which
+were given in the available literature (grammatical descriptions and
+dictionaries). Data on all varieties for which we could find information
+in the sources were included in our dataset.</p>
+<p>To ensure comparability across languages, we searched only for
+absolutive (or nominative) forms of the pronoun. Also, since it was not
+always possible to establish whether a certain pronoun was negative or
+some other type of indefinite used in a negative context, we did not try
+to distinguish between them and searched for all forms that were
+translated as ‘nobody’ in the examples from the sources.</p>
+</div>
+<div id="results" class="section level1 hasAnchor" number="2">
+<h1 class="hasAnchor"><span class="header-section-number">2</span>
+Results<a href="#results" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p>Our data show that all four strategies listed above are found within
+the East Caucasian language family, as well as in the languages
+belonging to other families spoken in Daghestan. In addition, we found
+pronouns with the meaning ‘nobody’ that are derived from other bases.
+Below we provide examples for each strategy.</p>
+<p>We must note beforehand that the absence of a pronoun in the sources
+does not necessarily mean that this pronoun is completely absent in a
+language: some strategies might not be listed in grammatical
+descriptions. Thus, when claiming that some strategy is absent in a
+language, we simply mean that the sources do not provide it. However,
+there is some bias towards some strategies (especially with the base
+‘who’) being better described than others (those derived from ‘one’ or
+‘person’), which might possibly be due to different stages of
+grammaticalization of the respective sources.</p>
+<div id="base-who" class="section level2 hasAnchor" number="2.1">
+<h2 class="hasAnchor"><span class="header-section-number">2.1</span>
+Base ‘who’<a href="#base-who" class="anchor-section"
+aria-label="Anchor link to header"></a></h2>
+<p>This strategy, in which negative pronouns are derived from the
+interrogative pronoun ‘who’ and which was found to be the most common
+typologically <span class="citation">(<a href="#ref-vanalsenoy2014">Van
+Alsenoy 2014</a>)</span>, also appears to be the most frequent amongst
+the languages of Daghestan. It is found in all branches of the East
+Caucasian family, though we could not find it in Upper Andi (&lt;
+Andic), Kryz and Lezgian (&lt; Lezgic), Chechen and Ingush (&lt; Nakh),
+and also Khwarshi (&lt; Tsezic). In addition, this strategy is used in
+Georgian (&lt; Kartvelian) and in the Turkic languages spoken in
+Daghestan: Kumyk, Nogai, and Azerbaijani.</p>
+<p><a href="#t1">Table 1</a> includes some examples of the pronoun
+‘nobody’ derived from the interrogative pronoun.</p>
+<div id="t1" class="section level3 unnumbered hasAnchor">
+<h3 class="unnumbered hasAnchor"><strong>Table 1.</strong> Examples of
+the pronoun ‘nobody’ derived from the interrogative pronoun ‘who’<a
+href="#t1" class="anchor-section"
+aria-label="Anchor link to header"></a></h3>
+<table>
+<colgroup>
+<col width="25%" />
+<col width="8%" />
+<col width="12%" />
+<col width="53%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>language</th>
+<th>form</th>
+<th>gloss</th>
+<th>sources</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Godoberi (&lt; Andic)</td>
+<td>e-<span class="smallcaps">cm</span>-da-la</td>
+<td>who-<span class="smallcaps">cm</span>-<span
+class="smallcaps">emph</span>-<span class="smallcaps">add</span></td>
+<td><span class="citation">(<a href="#ref-saidova1973">Saidova 1973</a>:
+112; <a href="#ref-saidova2006">Saidova 2006</a>: 327)</span></td>
+</tr>
+<tr class="even">
+<td>Tindi (&lt; Andic)</td>
+<td>ima-ja</td>
+<td>who-<span class="smallcaps">emph</span></td>
+<td><span class="citation">(<a href="#ref-authierdraft2020">Authier
+2020</a>: 14; <a href="#ref-magomedova2012">Magomedova 2012</a>: 138; <a
+href="#ref-magomedova2003">Magomedova 2003</a>: 471)</span></td>
+</tr>
+<tr class="odd">
+<td>Standard Dargwa (&lt; Dargwa)</td>
+<td>či-lra</td>
+<td>who-<span class="smallcaps">indef</span></td>
+<td><span class="citation">(<a href="#ref-vandenberg2001">Berg 2001</a>:
+28; <a href="#ref-musaev2002">Musaev 2002</a>: 64; <a
+href="#ref-isaev2001">Isaev 2001</a>: 964; <a
+href="#ref-yusupov2014">Jusupov 2014</a>: 1127)</span></td>
+</tr>
+<tr class="even">
+<td>Mukhad Rutul (&lt; Lezgic)</td>
+<td>vɨš-ne</td>
+<td>who-<span class="smallcaps">coord</span><a href="#fn1"
+class="footnote-ref" id="fnref1"><sup>1</sup></a></td>
+<td><span class="citation">(<a href="#ref-maxmudova2002">Maxmudova
+2002</a>: 207; <a href="#ref-alisultanovsulejmanova2019">Alisultanov,
+Sulejmanova 2019</a>: 56)</span></td>
+</tr>
+<tr class="odd">
+<td>Georgian (&lt; Georgic &lt; Kartvelian)</td>
+<td>ara-vin</td>
+<td><span class="smallcaps">neg</span>-who</td>
+<td><span class="citation">(<a href="#ref-hewitt1995">Hewitt 1995</a>:
+81; <a href="#ref-rayfield2006">Rayfield 2006</a>: 20, 85,
+183)</span></td>
+</tr>
+<tr class="even">
+<td>Azerbaijani (&lt; Oghuz &lt; Turkic)</td>
+<td>heč kim</td>
+<td><span class="smallcaps">neg</span><a href="#fn2"
+class="footnote-ref" id="fnref2"><sup>2</sup></a> who</td>
+<td><span class="citation">(<a
+href="#ref-shiralievsevortyan1971">Širaliev, Sevortjan 1971</a>:
+91-92)</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="base-one" class="section level2 hasAnchor" number="2.2">
+<h2 class="hasAnchor"><span class="header-section-number">2.2</span>
+Base ‘one’<a href="#base-one" class="anchor-section"
+aria-label="Anchor link to header"></a></h2>
+<p>This strategy is found in all branches of East Caucasian except
+Khinalug, but it is less frequent than the previous one. We did not find
+it in Southern Akhvakh and Tukita (&lt; Andic); in most Dargwa
+languages; in Archi, Budukh, Kryz, and Udi<a href="#fn3"
+class="footnote-ref" id="fnref3"><sup>3</sup></a> (&lt; Lezgic); and in
+Tsova-Tush (&lt; Nakh). Outside of the East Caucasian family, we found
+this strategy in Juhuri (&lt; Iranian &lt; Indo-European) and in the
+Turkic languages spoken in Daghestan (Kumyk, Nogai, Azerbaijani).</p>
+<p>Some examples of this strategy are shown in <a href="#t2">Table
+2</a>.</p>
+<div id="t2" class="section level3 unnumbered hasAnchor">
+<h3 class="unnumbered hasAnchor"><strong>Table 2.</strong> Examples of
+the pronoun ‘nobody’ derived from the numeral ‘one’<a href="#t2"
+class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<table>
+<colgroup>
+<col width="19%" />
+<col width="9%" />
+<col width="11%" />
+<col width="59%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>language</th>
+<th>form</th>
+<th>gloss</th>
+<th>sources</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Botlikh (&lt; Andic)</td>
+<td>ce-<span class="smallcaps">cm</span>-da-la</td>
+<td>one-<span class="smallcaps">cm</span>-<span
+class="smallcaps">emph</span>-<span class="smallcaps">add</span></td>
+<td><span class="citation">(<a
+href="#ref-alexeyevverheesdraft2020">Alexeyev, Verhees n.d.</a>: 14; <a
+href="#ref-saidovaabusov2012">Saidova, Abusov 2012</a>: 389)</span></td>
+</tr>
+<tr class="even">
+<td>Standard Avar (&lt; Avar)</td>
+<td>co=ni=gi</td>
+<td>one=<span class="smallcaps">cond</span>=<span
+class="smallcaps">add</span></td>
+<td><span class="citation">(<a href="#ref-forkerdraft2020">Forker
+2020</a>: 8; <a href="#ref-alekseevetal2012">Alekseev et al. 2012</a>:
+367; <a href="#ref-saidova2008">Saidova 2008</a>: 385; <a
+href="#ref-gimbatov2006">Gimbatov 2006</a>: 1295)</span></td>
+</tr>
+<tr class="odd">
+<td>Standard Dargwa (&lt; Dargwa)</td>
+<td>ca-lra</td>
+<td>one-<span class="smallcaps">indef</span></td>
+<td><span class="citation">(<a href="#ref-yusupov2014">Jusupov 2014</a>:
+672, 1067)</span></td>
+</tr>
+<tr class="even">
+<td>Central Agul (&lt; Lezgic)</td>
+<td>sad=ra</td>
+<td>one=<span class="smallcaps">add</span></td>
+<td><span class="citation">(<a href="#ref-ramazanov2010">Ramazanov
+2010</a>: 51, 443, 506; <a href="#ref-maisak2014">Maisak 2014</a>:
+402)</span></td>
+</tr>
+<tr class="odd">
+<td>Hinuq (&lt; Tsezic)</td>
+<td>hes=qen</td>
+<td>one=at.least</td>
+<td><span class="citation">(<a href="#ref-forker2013">Forker 2013</a>:
+157; <a href="#ref-xalilovisakov2005">Xalilov, Isakov 2005</a>:
+221)</span></td>
+</tr>
+<tr class="even">
+<td>Chechen (&lt; Nakh)</td>
+<td>cхaː a</td>
+<td>one.<span class="smallcaps">foc</span> <span
+class="smallcaps">add</span></td>
+<td><span class="citation">(<a href="#ref-nichols1994">Nichols 1994</a>:
+36; <a href="#ref-aliroev2005">Aliroev 2005</a>: 353; <a
+href="#ref-jakovlev1960">Jakovlev 1960</a>: 143, 152; <a
+href="#ref-karasaevmaciev1978">Karasaev, Maciev 1978</a>:
+320)</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="base-person" class="section level2 hasAnchor" number="2.3">
+<h2 class="hasAnchor"><span class="header-section-number">2.3</span>
+Base ‘person’<a href="#base-person" class="anchor-section"
+aria-label="Anchor link to header"></a></h2>
+<p>The third strategy is even less frequent in Daghestan than the
+previous two, which may be due to the fact that the respective
+functional domain is usually covered by the previous two strategies. It
+is found in Chamalal, Godoberi, Akhvakh, Tindi (&lt; Andic); in Avar
+(&lt; Avar); in Lak (&lt; Lak); in Agul, Archi, Budukh, Kryz, Lezgian,
+and Tabasaran (&lt; Lezgic); in Chechen and Ingush (&lt; Nakh); in
+Juhuri (&lt; Iranian &lt; Indo-European); and in Georgian (&lt; Georgic
+&lt; Kartvelian). This strategy was not observed in either of the Tsezic
+or Dargwa languages.</p>
+<p>Some examples of this strategy are reported in <a href="#t3">Table
+3</a>.</p>
+<div id="t3" class="section level3 unnumbered hasAnchor">
+<h3 class="unnumbered hasAnchor"><strong>Table 3.</strong> Examples of
+the pronoun ‘nobody’ derived from the noun ‘person’<a href="#t3"
+class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<table>
+<colgroup>
+<col width="28%" />
+<col width="9%" />
+<col width="12%" />
+<col width="49%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>language</th>
+<th>form</th>
+<th>gloss</th>
+<th>sources</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Tindi (&lt; Andic)</td>
+<td>ha(j)am-da</td>
+<td>person-<span class="smallcaps">emph</span></td>
+<td><span class="citation">(<a href="#ref-magomedova2012">Magomedova
+2012</a>: 219; <a href="#ref-magomedova2003">Magomedova 2003</a>:
+471)</span></td>
+</tr>
+<tr class="even">
+<td>Huppuq’ Agul (&lt; Lezgic)</td>
+<td>kas=ra</td>
+<td>person=<span class="smallcaps">add</span></td>
+<td><span class="citation">(<a href="#ref-merdanova2004">Merdanova
+2004</a>: 152)</span></td>
+</tr>
+<tr class="odd">
+<td>Kryz (&lt; Lezgic)</td>
+<td>adami</td>
+<td>person</td>
+<td><span class="citation">(<a href="#ref-authier2009">Authier 2009</a>:
+97, 119, 284)</span></td>
+</tr>
+<tr class="even">
+<td>Chechen (&lt; Nakh)</td>
+<td>stagːa a</td>
+<td>person.<span class="smallcaps">foc</span> <span
+class="smallcaps">add</span></td>
+<td><span class="citation">(<a href="#ref-nichols1994">Nichols 1994</a>:
+36; <a href="#ref-aliroev2005">Aliroev 2005</a>: 353; <a
+href="#ref-karasaevmaciev1978">Karasaev, Maciev 1978</a>:
+320)</span></td>
+</tr>
+<tr class="odd">
+<td>Chechen (&lt; Nakh)</td>
+<td>adːam a</td>
+<td>person.<span class="smallcaps">foc</span> <span
+class="smallcaps">add</span></td>
+<td><span class="citation">(<a href="#ref-aliroev2005">Aliroev 2005</a>:
+17, 353; <a href="#ref-karasaevmaciev1978">Karasaev, Maciev 1978</a>:
+320)</span></td>
+</tr>
+<tr class="even">
+<td>Juhuri (&lt; Iranian &lt; Indo-European)</td>
+<td>hič kes</td>
+<td><span class="smallcaps">neg</span> person</td>
+<td><span class="citation">(<a href="#ref-naftaliev2016">Naftaliev
+2016</a>: 213, 270)</span></td>
+</tr>
+</tbody>
+</table>
+<p>This strategy is the most difficult to identify, as it is not always
+clear that the word meaning ‘person’ encodes the negative pronoun in a
+particular sentence. Also, dictionaries and grammatical descriptions
+rarely list these forms among negative pronouns. The data for this
+strategy were mostly collected from examples cited in the sources.</p>
+</div>
+</div>
+<div id="other-strategies" class="section level2 hasAnchor"
+number="2.4">
+<h2 class="hasAnchor"><span class="header-section-number">2.4</span>
+Other strategies<a href="#other-strategies" class="anchor-section"
+aria-label="Anchor link to header"></a></h2>
+<p>Negative pronouns are sometimes derived from indefinite pronouns. An
+example is Kumyk <em>heč birew</em> ‘<span class="smallcaps">neg</span>
+someone’ <span class="citation">(<a
+href="#ref-abdullaevaetal2014">Abdullaeva et al. 2014</a>: 260)</span>,
+where <em>birew</em> is originally derived from the numeral <em>bir</em>
+‘one’.</p>
+<p>In addition, Archi possesses the pronoun <em>čeħ</em> <span
+class="citation">(<a href="#ref-chumakinaetal2007print">Chumakina et al.
+2007</a>: 400, 423; <a href="#ref-kibrik1977dict">Kibrik 1977</a>:
+211)</span> which seems to be non-derived. Cases in which the sources of
+negative pronouns could not be identified were also treated as
+non-derived.</p>
+<p>Sometimes the generic noun used for deriving ‘nobody’ is not ‘person’
+but ‘thing’, as in Chechen <em>ħumːa a</em> ‘thing.<span
+class="smallcaps">foc</span> <span class="smallcaps">add</span>’ <span
+class="citation">(<a href="#ref-karasaevmaciev1978">Karasaev, Maciev
+1978</a>: 320)</span> and Ingush <em>ħama a</em> ‘thing <span
+class="smallcaps">add</span>’ <span class="citation">(<a
+href="#ref-ozdoev1980">Ozdoev 1980</a>: 387)</span>. The exact nuances
+of their uses are still unclear, though they most typically mean
+‘nothing’ <span class="citation">(<a href="#ref-nichols1994">Nichols
+1994</a>: 36)</span>, with only a few uses in the function of
+‘nobody’.</p>
+<p>Finally, there are a number of negative pronouns with unexpected
+sources for derivation. For instance, the dictionary of Karata (&lt;
+Andic) <span class="citation">(<a
+href="#ref-magomedovaxalidova2001">Magomedova, Xalidova 2001</a>:
+156)</span> cites <em>isːo</em> ‘cat’ as a negative pronoun, in phrases
+meaning ‘don’t tell anyone’ (lit. ‘don’t tell a cat’). Similar examples
+include Bezhta (&lt; Tsezic) <em>ʁæde</em> ‘crow’ and <em>miʔaː(jo)
+wo-na</em> ‘wet dog-<span class="smallcaps">add</span>’ <span
+class="citation">(<a href="#ref-xalilov2015">Xalilov 2015</a>: 120,
+230)</span>. Again, the exact nuances of their uses are to be
+clarified.</p>
+</div>
+</div>
+<div id="distribution" class="section level1 hasAnchor" number="3">
+<h1 class="hasAnchor"><span class="header-section-number">3</span>
+Distribution<a href="#distribution" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p>We did not observe strong genealogical signals in the data, as almost
+all the strategies that we listed are distributed among all branches of
+the East Caucasian family; though Tsezic and Dargwa languages seem to
+lack negative pronouns derived from ‘person’. The same applies to areal
+patterns. In addition, as we stated above, the absence of a strategy in
+a language might not be indicative of real absence, since it is possible
+that the sources simply do not provide all existing pronouns (which must
+be especially problematic for the pronouns derived from ‘person’, see
+Section 2.3). The comparison of languages and the strategies they use is
+significantly hindered by this fact.</p>
+</div>
+<div id="list-of-glosses" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">List of glosses<a
+href="#list-of-glosses" class="anchor-section"
+aria-label="Anchor link to header"></a></h1>
+<p><span class="smallcaps">add</span> — additive; <span
+class="smallcaps">cm</span> — class marker; <span
+class="smallcaps">cond</span> — conditional; <span
+class="smallcaps">coord</span> — coordinative; <span
+class="smallcaps">emph</span> — emphatic; <span
+class="smallcaps">foc</span> — focus; <span
+class="smallcaps">indef</span> — indefinite; <span
+class="smallcaps">neg</span> — negation</p>
+</div>
+<div id="references" class="section level1 unnumbered hasAnchor">
+<h1 class="unnumbered hasAnchor">References<a href="#references"
+class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="refs" class="references csl-bib-body hanging-indent"
+entry-spacing="0" line-spacing="2">
+<div id="ref-abdullaevaetal2014" class="csl-entry">
+Abdullaeva, Ajšat Z., Gadžiaxmedov, Nurmagomed È., Kadyradžiev, Kalsyn
+S., Kerimov, Ibragim A., Olʹmesov, Nurmagomed X., Xangišiev, Džangiši M.
+(2014). <em>Sovremennyj kumykskij jazyk [<span>C</span>ontemporary
+<span>K</span>umyk]</em>. Makhachkala: IJaLI.
+</div>
+<div id="ref-alekseevetal2012" class="csl-entry">
+Alekseev, Mixail E., Ataev, Boris M., Magomedov, Magomed A., Magomedov,
+Magomed I., Madieva, Gjulʹžagan I., Saidova, Patimat A., Samedov,
+Džalilʹ S. (2012). <em>Sovremennyj avarskij jazyk
+[<span>C</span>ontemporary <span>A</span>var language]</em>.
+Makhachkala: Aleph.
+</div>
+<div id="ref-alexeyevverheesdraft2020" class="csl-entry">
+Alexeyev, Mikhail, Verhees, Samira. (n.d.). <em>Botlikh</em> (Yuri B.
+Koryakov, Timur A. Maisak, Steven Kaye, Eds.). Berlin/New York: De
+Gruyter Mouton.
+</div>
+<div id="ref-aliroev2005" class="csl-entry">
+Aliroev, Ibragim Ju. (2005). <em>Čečensko-russkij slovarʹ
+[<span>C</span>hechen-<span>R</span>ussian dictionary]</em>. Moscow:
+Academia.
+</div>
+<div id="ref-alisultanovsulejmanova2019" class="csl-entry">
+Alisultanov, Alisultan S., Sulejmanova, Taisija A. (2019).
+<em>Rutulʹsko-russkij slovarʹ [<span>R</span>utul-<span>R</span>ussian
+dictionary]</em>. Makhachkala: ALEF.
+</div>
+<div id="ref-authier2009" class="csl-entry">
+Authier, Gilles. (2009). <em>Grammaire kryz</em>. Paris: Peeters.
+</div>
+<div id="ref-authierdraft2020" class="csl-entry">
+Authier, Gilles. (2020). <em>Tindi</em> (Yuri Koryakov, Timur Maisak,
+Eds.). Berlin/New York: De Gruyter Mouton.
+</div>
+<div id="ref-vandenberg2001" class="csl-entry">
+Berg, Helma van den. (2001). <em>Dargi folktales. <span>O</span>ral
+stories from the <span>C</span>aucaus with an introduction to
+<span>D</span>argi grammar</em>. Leiden: CNWS.
+</div>
+<div id="ref-chumakinaetal2007print" class="csl-entry">
+Chumakina, Marina E., Braun, Dunstan P., Kvilliam, X., Korbett, Grevill
+G. (2007). <em>Slovarʹ arčinskogo jazyka (arčinsko-russko-anglijskij)
+[<span>A</span> dictionary of <span>A</span>rchi:
+<span>A</span>rchi-<span>R</span>ussian-<span>E</span>nglish]</em>.
+Makhachkala: Delovoj mir.
+</div>
+<div id="ref-forker2013" class="csl-entry">
+Forker, Diana. (2013). <em>A grammar of <span>H</span>inuq</em>.
+Berlin/Boston: De Gruyter Mouton.
+</div>
+<div id="ref-forkerdraft2020" class="csl-entry">
+Forker, Diana. (2020). Avar. In Maria Polinsky (Ed.), <em>Oxford
+<span>H</span>andbook of <span>L</span>anguages of the
+<span>C</span>aucasus</em> (pp. 243–280). Oxford: Oxford University
+Press.
+</div>
+<div id="ref-gimbatov2006" class="csl-entry">
+Gimbatov, M. M. (2006). <em>Avarsko-russkij slovarʹ (rukopisʹ)
+[<span>A</span>var-<span>R</span>ussian dictionary (manuscript)]</em>.
+Makhachkala: DNC RAN. Retrieved from <a
+href="http://avar.me/">http://avar.me/</a>
+</div>
+<div id="ref-haspelmath2013a" class="csl-entry">
+Haspelmath, Martin. (2013a). Indefinite <span>P</span>ronouns. In
+Matthew S. Dryer, Martin Haspelmath (Eds.), <em>The <span>W</span>orld
+<span>A</span>tlas of <span>L</span>anguage <span>S</span>tructures
+<span>O</span>nline</em>. Leipzig: Max Planck Institute for Evolutionary
+Anthropology.
+</div>
+<div id="ref-haspelmath2013b" class="csl-entry">
+Haspelmath, Martin. (2013b). Negative <span>I</span>ndefinite
+<span>P</span>ronouns and <span>P</span>redicate <span>N</span>egation.
+In Matthew S. Dryer, Martin Haspelmath (Eds.), <em>The
+<span>W</span>orld <span>A</span>tlas of <span>L</span>anguage
+<span>S</span>tructures <span>O</span>nline</em>. Leipzig: Max Planck
+Institute for Evolutionary Anthropology.
+</div>
+<div id="ref-hewitt1995" class="csl-entry">
+Hewitt, George. (1995). Georgian. <span>A</span> <span>S</span>tructural
+<span>R</span>eference <span>G</span>rammar. In <em>London Oriental and
+African Language Library</em> (Vol. 2). London: University of London;
+School of Oriental; African Studies, University of London.
+</div>
+<div id="ref-isaev2001" class="csl-entry">
+Isaev, Mamoged-Šapi A. (2001). <em>Russko-darginskij slovarʹ
+[<span>R</span>ussian-<span>D</span>argwa dictionary]</em>. Makhachkala:
+Institut istorii, jazyka i literatury im. G. Cadasy.
+</div>
+<div id="ref-jakovlev1960" class="csl-entry">
+Jakovlev, Nikolaj F. (1960). <em>Morfologija čečenskogo jazyka
+[<span>C</span>hechen morphology]</em>. Grozny: Izdatelʹstvo Akademii
+nauk SSSR.
+</div>
+<div id="ref-yusupov2014" class="csl-entry">
+Jusupov, Xizri A. (2014). <em>Darginsko-russkij slovarʹ (rukopisʹ)
+[<span>D</span>argwa-<span>R</span>ussian dictionary (manuscript)]</em>.
+Makhachkala: Institut istorii, jazyka i literatury im. G. Cadasy.
+</div>
+<div id="ref-karasaevmaciev1978" class="csl-entry">
+Karasaev, Ajsaš T., Maciev, Axmet G. (1978). <em>Russko-čečenskij
+slovarʹ [<span>R</span>ussian-<span>C</span>hechen dictionary]</em>.
+Moscow: Russkij jazyk.
+</div>
+<div id="ref-kibrik1977dict" class="csl-entry">
+Kibrik, Aleksandr E. (1977). <em>Arčinskij jazyk. <span>T</span>eksty i
+slovari [<span>A</span>rchi. <span>T</span>exts and dictionaries]</em>.
+Moscow: Izdatelʹstvo Moskovskogo universiteta.
+</div>
+<div id="ref-magomedova2003" class="csl-entry">
+Magomedova, Patimat T. (2003). <em>Tindinsko-russkij slovarʹ
+[<span>T</span>indi-<span>R</span>ussian dictionary]</em>. Makhachkala:
+IJaLI.
+</div>
+<div id="ref-magomedova2012" class="csl-entry">
+Magomedova, Patimat T. (2012). <em>Tindinskij jazyk
+[<span>T</span>indi]</em>. Makhachkala: IJaLI.
+</div>
+<div id="ref-magomedovaxalidova2001" class="csl-entry">
+Magomedova, Patimat T., Xalidova, Rašidat Š. (2001).
+<em>Karatinsko-russkij slovarʹ [<span>K</span>arata-<span>R</span>ussian
+dictionary]</em>. Makhachkala: IJaLI.
+</div>
+<div id="ref-maisak2014" class="csl-entry">
+Maisak, Timur A. (2014). <em>Agulʹskie teksty 1900-1960-x godov.
+[<span>A</span>gul texts of the 1900-1960s]</em>. Moscow: Academia.
+</div>
+<div id="ref-maisak2026" class="csl-entry">
+Maisak, Timur A. (2026). One source, two targets: <span>N</span>umeral
+<span>“one”</span> + additive <span>“also, even”</span> in
+<span>U</span>di. <em>Studies in Language</em>. Retrieved from <a
+href="https://doi.org/10.1075/sl.26023.mai">https://doi.org/10.1075/sl.26023.mai</a>
+</div>
+<div id="ref-maxmudova2002" class="csl-entry">
+Maxmudova, Svetlana M. (2002). <em>Grammatičeskie klassy slov i
+grammatičeskie kategorii rutulʹskogo jazyka [<span>G</span>rammatical
+word classes and grammatical categories of <span>R</span>utul]</em> (PhD
+thesis). DGU.
+</div>
+<div id="ref-merdanova2004" class="csl-entry">
+Merdanova, Solmaz R. (2004). <em>Morfologija i grammatičeskaja semantika
+agulʹskogo jazyka (na materiale xpjukskogo govora)
+[<span>M</span>orphology and grammatical semantics of <span>A</span>gul
+language based on <span>K</span>hpyuk dialect]</em>. Moscow: RAN IJa.
+</div>
+<div id="ref-musaev2002" class="csl-entry">
+Musaev, Magomed-Said M. (2002). <em>Darginskij jazyk [<span>T</span>he
+<span>D</span>argwa language]</em>. Moscow: DGU; Akademija.
+</div>
+<div id="ref-naftaliev2016" class="csl-entry">
+Naftaliev, Mardaxaj N. (2016). <em>Evrejsko (džuuri)-russkij slovarʹ
+[<span>J</span>uhuri-<span>R</span>ussian dictionary]</em>. Moscow:
+STMÈGI.
+</div>
+<div id="ref-nichols1994" class="csl-entry">
+Nichols, Johanna. (1994). Chechen. In Rieks Smeets (Ed.), <em>The
+<span>I</span>ndigenous <span>L</span>anguages of the
+<span>C</span>aucasus, vol. 4: <span>T</span>he <span>N</span>ortheast
+<span>C</span>aucasian <span>L</span>anguages, <span>P</span>art 2</em>
+(pp. 1–77). Delmar, NY: Caravan Press.
+</div>
+<div id="ref-ozdoev1980" class="csl-entry">
+Ozdoev, Ibragim A. (1980). <em>Russko-ingušskij slovarʹ
+[<span>R</span>ussian-<span>I</span>ngush dictionary]</em>. Moscow:
+Russkij jazyk.
+</div>
+<div id="ref-ramazanov2010" class="csl-entry">
+Ramazanov, Muslim R. (2010). <em>Agulʹsko-russkij slovarʹ
+[<span>A</span>gul-<span>R</span>ussian dictionary]</em>. Makhachkala:
+Lotos.
+</div>
+<div id="ref-rayfield2006" class="csl-entry">
+Rayfield, Donald (Ed.). (2006). <em>A <span>C</span>omprehensive
+<span>G</span>eorgian-<span>E</span>nglish <span>D</span>ictionary
+(draft version)</em>. London: Garnett Press.
+</div>
+<div id="ref-saidova1973" class="csl-entry">
+Saidova, Patimat A. (1973). <em>Godoberinskij jazyk.
+<span>G</span>rammatičeskij očerk, teksty, slovarʹ
+[<span>G</span>odoberi. <span>G</span>rammar, texts, dictionary]</em>.
+Makhachkala: IJaLI.
+</div>
+<div id="ref-saidova2006" class="csl-entry">
+Saidova, Patimat A. (2006). <em>Godoberinsko-russkij slovarʹ
+[<span>G</span>odoberi-<span>R</span>ussian dictionary]</em>.
+Makhachkala: DNC RAN Institut jazyka, literatury i iskusstva im. G.
+Cadasy i Institut èvoljucionnoj antropologii im. M. Planka.
+</div>
+<div id="ref-saidova2008" class="csl-entry">
+Saidova, Patimat A. (2008). <em>Dialektologičeskij slovarʹ avarskogo
+jazyka [<span>A</span>var dialect dictionary]</em>. Saint-Petersburg:
+Nauka.
+</div>
+<div id="ref-saidovaabusov2012" class="csl-entry">
+Saidova, Patimat A., Abusov, Magomed G. (2012). <em>Botlixsko-russkij
+slovarʹ [<span>B</span>otlikh-<span>R</span>ussian dictionary]</em>.
+Makhachkala: DNC RAN Institut jazyka, literatury i iskusstva im. G.
+Cadasy i Institut èvoljucionnoj antropologii im. M. Planka.
+</div>
+<div id="ref-shiralievsevortyan1971" class="csl-entry">
+Širaliev, Mamedaga Š., Sevortjan, Ervand V. (1971). <em>Grammatika
+azerbajdžanskogo jazyka (fonetika, morfologija, sintaksis)
+[<span>A</span>zerbaijani grammar (phonetics, morphology, syntax)]</em>.
+Baku: Èlm.
+</div>
+<div id="ref-vanalsenoy2014" class="csl-entry">
+Van Alsenoy, Lauren. (2014). <em>A new typology of indefinite pronouns,
+with a focus on negative indefinites</em> (PhD thesis). University of
+Antwerp.
+</div>
+<div id="ref-xalilov2015" class="csl-entry">
+Xalilov, Madžid Š. (2015). <em>Slovarʹ bežtinskogo jazyka
+[<span>A</span> dictionary of the <span>B</span>ezhta language]</em>.
+Makhachkala: DNC RAN Institut jazyka, literatury i iskusstva im. G.
+Cadasy i Institut èvoljucionnoj antropologii im. M. Planka.
+</div>
+<div id="ref-xalilovisakov2005" class="csl-entry">
+Xalilov, Madžid Š., Isakov, Isak A. (2005). <em>Ginuxsko-russkij slovarʹ
+[<span>H</span>inuq-<span>R</span>ussian dictionary]</em>. Makhachkala:
+DNC RAN Institut jazyka, literatury i iskusstva im. G. Cadasy i Institut
+èvoljucionnoj antropologii im. M. Planka.
+</div>
+</div>
+</div>
+<div class="footnotes footnotes-end-of-document">
+<hr />
+<ol>
+<li id="fn1"><p>This morpheme is identical to a coordinating particle
+meaning ‘and’. However, we cannot say for sure that what is present
+within the negative pronoun is related to it.<a href="#fnref1"
+class="footnote-back">↩︎</a></p></li>
+<li id="fn2"><p>More precisely, this is a negative polarity item with
+the meaning ‘at all’.<a href="#fnref2"
+class="footnote-back">↩︎</a></p></li>
+<li id="fn3"><p>Though, according to <span class="citation">(<a
+href="#ref-maisak2026">Maisak 2026</a>)</span>, Udi has a construction
+<em>sal sa</em>, with <em>sa</em> meaning ‘one’ and <em>sal</em> being
+an emphatic negative polarity item.<a href="#fnref3"
+class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://code.iconify.design/2/2.0.3/iconify.min.js"></script>
+</head>
+
+<body>
+    <div class="footer-basic">
+        <footer>
+            
+            <div class='lic'><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br /><i>Typological Atlas of the languages of Daghestan </i> (<i>TALD</i>) is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0 International License</a>.
+            <div class="social"><a href="https://github.com/LingConLab/TALD" target="_blank"><span class="iconify" data-icon="octicon:logo-github-16"></span></a></div>
+            </div>
+            
+            <p class="copyright">2020<script>new Date().getFullYear()>2020&&document.write("-"+new Date().getFullYear());</script>,  Linguistic Convergence Laboratory, HSE University</p>
+        </footer>
+    </div>
+    <script type="text/javascript" src="./js/links.js"></script> <!--это чтобы ссылки открывались в новом окне -->
+</body>
+
+</html>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

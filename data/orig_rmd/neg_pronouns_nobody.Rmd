@@ -1,0 +1,108 @@
+```{r, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, comment = '')
+library(lingglosses)
+```
+
+## Introduction
+
+There is considerable literature dedicated to the morphology of indefinite, including negative indefinite (simply called “negative” in the present chapter), pronouns in the languages of the world. A typological overview is presented in the World Atlas of Language Structures (WALS), in Chapter 46 [@haspelmath2013a] on indefinite pronouns and in Chapter 115 [@haspelmath2013b] on negative indefinite pronouns. In these chapters, it is claimed that there are three most common types of indefinite pronouns:
+
+- those based on interrogative pronouns (like ‘who’ or ‘what’);
+- those based on generic nouns (like ‘person’ or ‘thing’);
+- dedicated non-derived indefinite pronouns.
+
+In [@vanalsenoy2014], another typological work on negative pronouns, a fourth common type is added to this list:
+
+- indefinite pronouns based on the numeral ‘one’ (like English *no one*).
+
+In the latter work, the means used for derivation of negative pronouns are also discussed, i.e., affixation, but also reduplication and indefinite articles.
+
+The goal of the present chapter is to describe the morphology of the negative pronoun ‘nobody’ in the languages spoken in Daghestan, and to see whether all of the four strategies listed above are present in this region, but also to find whether other strategies are possible. Since in a language more than one negative pronoun may be found (see, for instance, English *no one* and *nobody*, which seem to be used interchangeably), for each language we collected all forms which were given in the available literature (grammatical descriptions and dictionaries). Data on all varieties for which we could find information in the sources were included in our dataset.
+
+To ensure comparability across languages, we searched only for absolutive (or nominative) forms of the pronoun. Also, since it was not always possible to establish whether a certain pronoun was negative or some other type of indefinite used in a negative context, we did not try to distinguish between them and searched for all forms that were translated as ‘nobody’ in the examples from the sources.
+
+## Results
+
+Our data show that all four strategies listed above are found within the East Caucasian language family, as well as in the languages belonging to other families spoken in Daghestan. In addition, we found pronouns with the meaning ‘nobody’ that are derived from other bases. Below we provide examples for each strategy.
+
+We must note beforehand that the absence of a pronoun in the sources does not necessarily mean that this pronoun is completely absent in a language: some strategies might not be listed in grammatical descriptions. Thus, when claiming that some strategy is absent in a language, we simply mean that the sources do not provide it. However, there is some bias towards some strategies (especially with the base ‘who’) being better described than others (those derived from ‘one’ or ‘person’), which might possibly be due to different stages of grammaticalization of the respective sources.
+
+### Base ‘who’
+
+This strategy, in which negative pronouns are derived from the interrogative pronoun ‘who’ and which was found to be the most common typologically [@vanalsenoy2014], also appears to be the most frequent amongst the languages of Daghestan. It is found in all branches of the East Caucasian family, though we could not find it in Upper Andi (< Andic), Kryz and Lezgian (< Lezgic), Chechen and Ingush (< Nakh), and also Khwarshi (< Tsezic). In addition, this strategy is used in Georgian (< Kartvelian) and in the Turkic languages spoken in Daghestan: Kumyk, Nogai, and Azerbaijani.
+
+[Table 1](#t1) includes some examples of the pronoun ‘nobody’ derived from the interrogative pronoun.
+
+#### **Table 1.** Examples of the pronoun ‘nobody’ derived from the interrogative pronoun ‘who’ {#t1 -}
+
+| language                          | form       | gloss           | sources                                                                 |
+|-----------------------------------|------------|-----------------|-------------------------------------------------------------------------|
+| Godoberi (< Andic)                | e-`r add_gloss("CM")`-da-la | who-`r add_gloss("CM")`-`r add_gloss("EMPH")`-`r add_gloss("ADD")` | [@saidova1973: 112; @saidova2006: 327]                                      |
+| Tindi (< Andic)                   | ima-ja     | who-`r add_gloss("EMPH")`        | [@authierdraft2020: 14; @magomedova2012: 138; @magomedova2003: 471]        |
+| Standard Dargwa (< Dargwa)        | či-lra     | who-`r add_gloss("INDEF")`       | [@vandenberg2001: 28; @musaev2002: 64; @isaev2001: 964; @yusupov2014: 1127] |
+| Mukhad Rutul (< Lezgic)           | vɨš-ne     | who-`r add_gloss("COORD")`[^f1]       | [@maxmudova2002: 207; @alisultanovsulejmanova2019: 56]                    |
+| Georgian (< Georgic < Kartvelian) | ara-vin    | `r add_gloss("NEG")`-who         | [@hewitt1995: 81; @rayfield2006: 20, 85, 183]                             |
+| Azerbaijani (< Oghuz < Turkic)    | heč kim    | `r add_gloss("NEG")`[^f2] who         | [@shiralievsevortyan1971: 91-92]                                         |
+
+[^f1]: This morpheme is identical to a coordinating particle meaning ‘and’. However, we cannot say for sure that what is present within the negative pronoun is related to it.
+[^f2]: More precisely, this is a negative polarity item with the meaning ‘at all’.
+
+### Base ‘one’
+
+This strategy is found in all branches of East Caucasian except Khinalug, but it is less frequent than the previous one. We did not find it in Southern Akhvakh and Tukita (< Andic); in most Dargwa languages; in Archi, Budukh, Kryz, and Udi[^f3] (< Lezgic); and in Tsova-Tush (< Nakh). Outside of the East Caucasian family, we found this strategy in Juhuri (< Iranian < Indo-European) and in the Turkic languages spoken in Daghestan (Kumyk, Nogai, Azerbaijani).
+
+Some examples of this strategy are shown in [Table 2](#t2).
+
+#### **Table 2.** Examples of the pronoun ‘nobody’ derived from the numeral ‘one’ {#t2 -}
+
+| language                   | form        | gloss           | sources                                                                              |
+|----------------------------|-------------|-----------------|--------------------------------------------------------------------------------------|
+| Botlikh (< Andic)          | ce-`r add_gloss("CM")`-da-la | one-`r add_gloss("CM")`-`r add_gloss("EMPH")`-`r add_gloss("ADD")` | [@alexeyevverheesdraft2020: 14; @saidovaabusov2012: 389]                               |
+| Standard Avar (< Avar)     | co=ni=gi    | one=`r add_gloss("COND")`=`r add_gloss("ADD")`    | [@forkerdraft2020: 8; @alekseevetal2012: 367; @saidova2008: 385; @gimbatov2006: 1295]    |
+| Standard Dargwa (< Dargwa) | ca-lra      | one-`r add_gloss("INDEF")`       | [@yusupov2014: 672, 1067]                                                             |
+| Central Agul (< Lezgic)    | sad=ra      | one=`r add_gloss("ADD")`         | [@ramazanov2010: 51, 443, 506; @maisak2014: 402]                                       |
+| Hinuq (< Tsezic)           | hes=qen     | one=at.least    | [@forker2013: 157; @xalilovisakov2005: 221]                                            |
+| Chechen (< Nakh)           | cхaː a      | one.`r add_gloss("FOC")` `r add_gloss("ADD")`     | [@nichols1994: 36; @aliroev2005: 353; @jakovlev1960: 143, 152; @karasaevmaciev1978: 320] |
+
+[^f3]: Though, according to [@maisak2026], Udi has a construction *sal sa*, with *sa* meaning ‘one’ and *sal* being an emphatic negative polarity item.
+
+### Base ‘person’
+
+The third strategy is even less frequent in Daghestan than the previous two, which may be due to the fact that the respective functional domain is usually covered by the previous two strategies. It is found in Chamalal, Godoberi, Akhvakh, Tindi (< Andic); in Avar (< Avar); in Lak (< Lak); in Agul, Archi, Budukh, Kryz, Lezgian, and Tabasaran (< Lezgic); in Chechen and Ingush (< Nakh); in Juhuri (< Iranian < Indo-European); and in Georgian (< Georgic < Kartvelian). This strategy was not observed in either of the Tsezic or Dargwa languages.
+
+Some examples of this strategy are reported in [Table 3](#t3).
+
+#### **Table 3.** Examples of the pronoun ‘nobody’ derived from the noun ‘person’ {#t3 -}
+
+| language                           | form       | gloss          | sources                                                      |
+|------------------------------------|------------|----------------|--------------------------------------------------------------|
+| Tindi (< Andic)                    | ha(j)am-da | person-`r add_gloss("EMPH")`    | [@magomedova2012: 219; @magomedova2003: 471]                   |
+| Huppuq' Agul (< Lezgic)            | kas=ra     | person=`r add_gloss("ADD")`     | [@merdanova2004: 152]                                         |
+| Kryz (< Lezgic)                    | adami      | person         | [@authier2009: 97, 119, 284]                                  |
+| Chechen (< Nakh)                   | stagːa a   | person.`r add_gloss("FOC")` `r add_gloss("ADD")`  | [@nichols1994: 36; @aliroev2005: 353; @karasaevmaciev1978: 320] |
+| Chechen (< Nakh)                   | adːam a    | person.`r add_gloss("FOC")` `r add_gloss("ADD")`  | [@aliroev2005: 17, 353; @karasaevmaciev1978: 320]              |
+| Juhuri (< Iranian < Indo-European) | hič kes    | `r add_gloss("NEG")` person     | [@naftaliev2016: 213, 270]                                    |
+
+This strategy is the most difficult to identify, as it is not always clear that the word meaning ‘person’ encodes the negative pronoun in a particular sentence. Also, dictionaries and grammatical descriptions rarely list these forms among negative pronouns. The data for this strategy were mostly collected from examples cited in the sources.
+
+### Other strategies
+
+Negative pronouns are sometimes derived from indefinite pronouns. An example is Kumyk *heč birew* ‘`r add_gloss("NEG")` someone’ [@abdullaevaetal2014: 260], where *birew* is originally derived from the numeral *bir* ‘one’.
+
+In addition, Archi possesses the pronoun *čeħ* [@chumakinaetal2007print: 400, 423; @kibrik1977dict: 211] which seems to be non-derived. Cases in which the sources of negative pronouns could not be identified were also treated as non-derived.
+
+Sometimes the generic noun used for deriving ‘nobody’ is not ‘person’ but ‘thing’, as in Chechen *ħumːa a* ‘thing.`r add_gloss("FOC")` `r add_gloss("ADD")`’ [@karasaevmaciev1978: 320] and Ingush *ħama a* ‘thing `r add_gloss("ADD")`’ [@ozdoev1980: 387]. The exact nuances of their uses are still unclear, though they most typically mean ‘nothing’ [@nichols1994: 36], with only a few uses in the function of ‘nobody’.
+
+Finally, there are a number of negative pronouns with unexpected sources for derivation. For instance, the dictionary of Karata (< Andic) [@magomedovaxalidova2001: 156] cites *isːo* ‘cat’ as a negative pronoun, in phrases meaning ‘don’t tell anyone’ (lit. ‘don’t tell a cat’). Similar examples include Bezhta (< Tsezic) *ʁæde* ‘crow’ and *miʔaː(jo) wo-na* ‘wet dog-`r add_gloss("ADD")`’ [@xalilov2015: 120, 230]. Again, the exact nuances of their uses are to be clarified.
+
+## Distribution
+
+We did not observe strong genealogical signals in the data, as almost all the strategies that we listed are distributed among all branches of the East Caucasian family; though Tsezic and Dargwa languages seem to lack negative pronouns derived from ‘person’. The same applies to areal patterns. In addition, as we stated above, the absence of a strategy in a language might not be indicative of real absence, since it is possible that the sources simply do not provide all existing pronouns (which must be especially problematic for the pronouns derived from ‘person’, see Section 2.3). The comparison of languages and the strategies they use is significantly hindered by this fact.
+
+## List of glosses {-}
+
+```{r}
+make_gloss_list(readxl::read_xlsx("../glosses.xlsx"))
+```
+
+## References {-}

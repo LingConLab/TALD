@@ -1,4 +1,8 @@
+The BibTeX entry          murkelinskij1971          present in the          neg_pronouns_nobody.tsv, but absent in the biblib.xlsx
+The BibTeX entry          nicholsvagapov2004          present in the          neg_pronouns_nobody.tsv, but absent in the biblib.xlsx
+The BibTeX entry          jakovlev2001          present in the          neg_pronouns_nobody.tsv, but absent in the biblib.xlsx
 The BibTeX entry suvorova2024 from take_hold_catch_bib.tsv has the wrong CATEGORY value: thesis
+The BibTeX entry maisak2026 from the file neg_pronouns_nobody_bib.tsv has an empty value in the obligatory field VOLUME
 The wrong language name          Abadzekh          in the file          maize.tsv
 The wrong language name          Abkhaz          in the file          maize.tsv
 The wrong language name          Kabardian          in the file          maize.tsv
@@ -15,6 +19,7 @@ The wrong village dialect name Karabagly in the file maize.tsv
 The wrong village dialect name Syunik in the file maize.tsv
 The wrong village dialect name Tad-Magitl’ in the file take_hold_catch.tsv
 The wrong village dialect name Gigatl’ in the file take_hold_catch.tsv
+The wrong toplevel dialect name Northern Akhvakh in the file neg_pronouns_nobody.tsv
 hajwan_and_janawar.Rmd:          1          wrong hashes
 spelling of          aj        in adjectives_number.Rmd:133
 spelling of          ar        in adjectives_number.Rmd:133,133
@@ -176,6 +181,26 @@ spelling of          milho        in maize.Rmd:16
 spelling of          al        in morning_greetings.Rmd:20
 spelling of          xair        in morning_greetings.Rmd:41,41,49
 spelling of          xajir        in morning_greetings.Rmd:41
+spelling of          adami        in neg_pronouns_nobody.Rmd:81
+spelling of          ara        in neg_pronouns_nobody.Rmd:44
+spelling of          bir        in neg_pronouns_nobody.Rmd:90
+spelling of          birew        in neg_pronouns_nobody.Rmd:90,90
+spelling of          ce        in neg_pronouns_nobody.Rmd:60
+spelling of          da        in neg_pronouns_nobody.Rmd:40,60,79
+spelling of          Georgic        in neg_pronouns_nobody.Rmd:44,71
+spelling of          gi        in neg_pronouns_nobody.Rmd:61
+spelling of          ima        in neg_pronouns_nobody.Rmd:41
+spelling of          ja        in neg_pronouns_nobody.Rmd:41
+spelling of          jo        in neg_pronouns_nobody.Rmd:96
+spelling of          kim        in neg_pronouns_nobody.Rmd:45
+spelling of          lra        in neg_pronouns_nobody.Rmd:42,62
+spelling of          na        in neg_pronouns_nobody.Rmd:96
+spelling of          ne        in neg_pronouns_nobody.Rmd:43
+spelling of          ni        in neg_pronouns_nobody.Rmd:61
+spelling of          qen        in neg_pronouns_nobody.Rmd:64
+spelling of          ra        in neg_pronouns_nobody.Rmd:63,80
+spelling of          vin        in neg_pronouns_nobody.Rmd:44
+spelling of          wo        in neg_pronouns_nobody.Rmd:96
 spelling of          bek        in number_of_morphological_slots_in_spatial_forms.Rmd:162
 spelling of          di        in number_of_morphological_slots_in_spatial_forms.Rmd:166
 spelling of          maj        in number_of_morphological_slots_in_spatial_forms.Rmd:165
