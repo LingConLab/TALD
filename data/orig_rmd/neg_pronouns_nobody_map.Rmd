@@ -86,7 +86,7 @@ feature_dataset |>
   all_data
 ```
 
-## Who {.tabset .tabset-fade .tabset-pills #m1} 
+## Base ‘who’ {.tabset .tabset-fade .tabset-pills #m1} 
     
 ### General datapoints {-}
 
@@ -258,7 +258,7 @@ general_datapoints_map |>
 ```
 
     
-## One {.tabset .tabset-fade .tabset-pills #m2} 
+## Base ‘one’ {.tabset .tabset-fade .tabset-pills #m2} 
     
 ### General datapoints {-}
 
@@ -430,7 +430,7 @@ general_datapoints_map |>
 ```
 
     
-## Person {.tabset .tabset-fade .tabset-pills #m3} 
+## Base ‘person’ {.tabset .tabset-fade .tabset-pills #m3} 
     
 ### General datapoints {-}
 
@@ -602,7 +602,7 @@ general_datapoints_map |>
 ```
 
     
-## Other {.tabset .tabset-fade .tabset-pills #m4} 
+## Other strategies {.tabset .tabset-fade .tabset-pills #m4} 
     
 ### General datapoints {-}
 
