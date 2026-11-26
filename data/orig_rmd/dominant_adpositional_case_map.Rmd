@@ -636,6 +636,10 @@ feature_dataset |>
                             TRUE ~ RefManageR::Cite(bib, Source, 
                                         after = ifelse(!is.na(page),  str_c(': ', page), '')))) |> 
   select(-page) |> 
+  group_by(Language, Idiom) |> 
+  summarise(Source = str_c(Source, collapse =';')) |>
+  ungroup() |> 
+  mutate(Source = str_replace_all(Source, '\\);\\(', '; ')) |> 
   DT::datatable(class = 'cell-border stripe', 
     rownames = FALSE, 
     filter = 'top', 

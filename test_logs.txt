@@ -1,6 +1,23 @@
 The BibTeX entry suvorova2024 from take_hold_catch_bib.tsv has the wrong CATEGORY value: thesis
 The BibTeX entry seferbekovkarakhanov2015 from the file names_for_sun_shower_bib.tsv has an empty value in the obligatory field VOLUME
 The BibTeX entry maisak2026 from the file neg_pronouns_nobody_bib.tsv has an empty value in the obligatory field VOLUME
+The wrong bibtexkey          polinskydraft          in the file          adjectives_number.tsv
+The wrong bibtexkey          <empty>          in the file          caritive_adv.tsv
+The wrong bibtexkey          <empty>          in the file          caritive_attr.tsv
+The wrong bibtexkey          Natalya Logvinova, pc          in the file          commemorative.tsv
+The wrong bibtexkey          Salavat Salavatov, pc          in the file          commemorative.tsv
+The wrong bibtexkey          Gulʹfira Bekmuratova, pc          in the file          commemorative.tsv
+The wrong bibtexkey          <empty>          in the file          gender_agreement_in_nps_in_adjectives.tsv
+The wrong bibtexkey          "Ixrek Authier"          in the file          gender_agreement_in_nps_in_adjectives.tsv
+The wrong bibtexkey          <empty>          in the file          hajwan_and_janawar.tsv
+The wrong bibtexkey          obastan          in the file          maize.tsv
+The wrong bibtexkey          p.c. with a speaker          in the file          maize.tsv
+The wrong bibtexkey          Wikiwand          in the file          maize.tsv
+The wrong bibtexkey          Dargwa dictionary project          in the file          maize.tsv
+The wrong bibtexkey          -          in the file          names_for_sun_shower.tsv
+The wrong bibtexkey          creissels?          in the file          optative.tsv
+The wrong bibtexkey          <empty>          in the file          particles.tsv
+The wrong bibtexkey          <empty>          in the file          work.tsv
 The wrong language name          Abadzekh          in the file          maize.tsv
 The wrong language name          Abkhaz          in the file          maize.tsv
 The wrong language name          Kabardian          in the file          maize.tsv
